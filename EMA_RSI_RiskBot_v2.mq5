@@ -62,7 +62,7 @@ input double TrailStartRR = 1.5;         // start trailing after +1.5R
 input double TrailATRMult = 1.0;         // ATR trail distance
 
 input group "Session Filter (Server Time)"
-input bool UseSessionFilter = true;
+input bool UseSessionFilter = false; // false => trade anytime (no session restriction)
 input int SessionStartHour = 8;   // inclusive
 input int SessionEndHour = 21;    // exclusive
 
