@@ -48,6 +48,7 @@ input int SlippagePoints = 10;
 input int CooldownBars = 0;
 input bool OnePositionPerSymbol = true;
 input long MagicNumber = 20260622;
+input bool VerboseLog = true; // print why a trade was/ wasn't taken (Experts tab)
 
 input group "Account Protection"
 input double MaxDailyLossPct = 3.0;
@@ -86,6 +87,20 @@ bool gImmediateEntryPending = false;
 datetime gTodayStart = 0;
 double gDayStartEquity = 0.0;
 int gTradesToday = 0;
+
+// Throttle skip-reason logging to at most once per signal bar to avoid spam.
+datetime gLastLogBar = 0;
+
+void LogSkipOncePerBar(string reason)
+{
+   if(!VerboseLog) return;
+
+   datetime bar = iTime(_Symbol, gSignalTF, 0);
+   if(bar == gLastLogBar) return;
+
+   gLastLogBar = bar;
+   Print(_Symbol, ": no trade -> ", reason);
+}
 
 //+------------------------------------------------------------------+
 //| Utility                                                          |
@@ -385,6 +400,36 @@ void RegisterNewTrade()
    gTradesToday++;
 }
 
+// Cap requested lots so the required margin fits the available free margin.
+// Prevents silent "not enough money" rejections, common on Gold/indices where a
+// tight pip stop produces an oversized risk-based volume.
+double AdjustLotsForMargin(bool isBuy, double lots)
+{
+   double price = isBuy ? SymbolInfoDouble(_Symbol, SYMBOL_ASK)
+                        : SymbolInfoDouble(_Symbol, SYMBOL_BID);
+   if(price <= 0.0) return lots;
+
+   ENUM_ORDER_TYPE ot = isBuy ? ORDER_TYPE_BUY : ORDER_TYPE_SELL;
+
+   double marginOneLot = 0.0;
+   if(!OrderCalcMargin(ot, _Symbol, 1.0, price, marginOneLot) || marginOneLot <= 0.0)
+      return lots;
+
+   double freeMargin = AccountInfoDouble(ACCOUNT_MARGIN_FREE);
+   double usable = freeMargin * 0.95; // keep a small buffer
+   double maxLots = usable / marginOneLot;
+
+   if(lots > maxLots)
+   {
+      double capped = NormalizeVolume(maxLots);
+      if(VerboseLog)
+         Print(_Symbol, ": lots reduced for margin ", lots, " -> ", capped,
+               " (freeMargin=", freeMargin, ", marginPerLot=", marginOneLot, ")");
+      return capped;
+   }
+   return lots;
+}
+
 void OpenBuy(double atrValue)
 {
    double ask = SymbolInfoDouble(_Symbol, SYMBOL_ASK);
@@ -394,16 +439,24 @@ void OpenBuy(double atrValue)
    BuildStops(true, ask, atrValue, sl, tp, slDist);
 
    double lots = CalculateLotsFromStopDistance(slDist);
-   if(lots <= 0.0) return;
+   lots = AdjustLotsForMargin(true, lots);
+   if(lots <= 0.0)
+   {
+      if(VerboseLog) Print(_Symbol, ": BUY skipped, computed lots <= 0 (check margin / stop distance)");
+      return;
+   }
 
    trade.SetExpertMagicNumber(MagicNumber);
    trade.SetDeviationInPoints(SlippagePoints);
 
    bool ok = trade.Buy(lots, _Symbol, 0.0, sl, tp, "EMA_RSI_v2_BUY");
    if(ok)
+   {
       RegisterNewTrade();
+      if(VerboseLog) Print(_Symbol, ": BUY opened ", lots, " lots SL=", sl, " TP=", tp);
+   }
    else
-      Print("Buy failed. Retcode=", trade.ResultRetcode(), " ", trade.ResultRetcodeDescription(), " Error=", _LastError);
+      Print(_Symbol, ": Buy failed. Retcode=", trade.ResultRetcode(), " ", trade.ResultRetcodeDescription(), " Error=", _LastError);
 }
 
 void OpenSell(double atrValue)
@@ -415,16 +468,24 @@ void OpenSell(double atrValue)
    BuildStops(false, bid, atrValue, sl, tp, slDist);
 
    double lots = CalculateLotsFromStopDistance(slDist);
-   if(lots <= 0.0) return;
+   lots = AdjustLotsForMargin(false, lots);
+   if(lots <= 0.0)
+   {
+      if(VerboseLog) Print(_Symbol, ": SELL skipped, computed lots <= 0 (check margin / stop distance)");
+      return;
+   }
 
    trade.SetExpertMagicNumber(MagicNumber);
    trade.SetDeviationInPoints(SlippagePoints);
 
    bool ok = trade.Sell(lots, _Symbol, 0.0, sl, tp, "EMA_RSI_v2_SELL");
    if(ok)
+   {
       RegisterNewTrade();
+      if(VerboseLog) Print(_Symbol, ": SELL opened ", lots, " lots SL=", sl, " TP=", tp);
+   }
    else
-      Print("Sell failed. Retcode=", trade.ResultRetcode(), " ", trade.ResultRetcodeDescription(), " Error=", _LastError);
+      Print(_Symbol, ": Sell failed. Retcode=", trade.ResultRetcode(), " ", trade.ResultRetcodeDescription(), " Error=", _LastError);
 }
 
 void ManageOpenPositions()
@@ -577,6 +638,17 @@ int OnInit()
    // right after algo trading is enabled, instead of waiting for a fresh crossover.
    gImmediateEntryPending = TradeImmediatelyOnStart;
 
+   if(VerboseLog)
+   {
+      Print(_Symbol, " specs -> digits=", _Digits,
+            " point=", _Point,
+            " pip=", PipSize(),
+            " stopsLevel(pts)=", SymbolInfoInteger(_Symbol, SYMBOL_TRADE_STOPS_LEVEL),
+            " volMin=", SymbolInfoDouble(_Symbol, SYMBOL_VOLUME_MIN),
+            " volMax=", SymbolInfoDouble(_Symbol, SYMBOL_VOLUME_MAX),
+            " volStep=", SymbolInfoDouble(_Symbol, SYMBOL_VOLUME_STEP));
+   }
+
    UpdateDailyState();
    return INIT_SUCCEEDED;
 }
@@ -621,8 +693,18 @@ void OnTick()
    }
    Comment("");
 
-   if(!InTradingSession()) return;
-   if(!SpreadIsOK()) return;
+   if(!InTradingSession())
+   {
+      LogSkipOncePerBar("outside trading session window");
+      return;
+   }
+   if(!SpreadIsOK())
+   {
+      double curSpread = (SymbolInfoDouble(_Symbol, SYMBOL_ASK) - SymbolInfoDouble(_Symbol, SYMBOL_BID)) / _Point;
+      LogSkipOncePerBar(StringFormat("spread too high: %.0f pts > MaxSpreadPoints=%d (raise it for Gold/indices)",
+                                     curSpread, MaxSpreadPoints));
+      return;
+   }
 
    double fast[], slow[], rsi[], atr[];
    ArraySetAsSeries(fast, true);
