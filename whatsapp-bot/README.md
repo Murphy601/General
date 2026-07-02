@@ -77,8 +77,15 @@ curl -X POST http://localhost:3000/webhook \
 
 `src/data/products.json` is the entire product catalog for the demo. Add real products with real
 affiliate-eligible `sourceUrl`s here as you get approved on each affiliate program. Longer-term,
-replace `src/services/catalog.js`'s file-based `loadProducts()` with a real database and/or a
-scheduled job that pulls live prices from supplier product-feed APIs where available.
+replace `src/services/catalog.js`'s file-based `loadProducts()` with a real database.
+
+## Keeping prices fresh automatically
+
+`npm run sync:catalog` (wired up to run daily via `.github/workflows/sync-catalog.yml`) refreshes
+price/availability for Amazon and AliExpress products using their official APIs, once you've added
+credentials. Kilimall/Jumia/Temu have no public API for this — see
+[`../docs/CATALOG_SYNC.md`](../docs/CATALOG_SYNC.md) for the full, honestly-tested explanation of
+what's automatic vs manual, and how to set up the API credentials.
 
 ## Affiliate link tracking
 

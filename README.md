@@ -19,6 +19,7 @@ completed sale.
 | [`assets/logos/`](assets/logos) | Generated logo concepts for the top 3 name candidates. |
 | [`website/`](website) | A working, dependency-free storefront (HTML/Tailwind/JS) that showcases categories & deals and drives visitors to WhatsApp. |
 | [`whatsapp-bot/`](whatsapp-bot) | A working Node.js/Express WhatsApp Cloud API bot: structured menus + an AI free-text agent (with tool-calling) + affiliate-link building with per-customer tracking sub-IDs. |
+| [`docs/CATALOG_SYNC.md`](docs/CATALOG_SYNC.md) | What can run automatically every 24h (Amazon/AliExpress price refresh via `.github/workflows/sync-catalog.yml`) vs what still needs manual updates (Kilimall/Jumia/Temu) — and why, based on real testing. |
 
 ## How the pieces connect
 
