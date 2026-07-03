@@ -92,14 +92,44 @@ The website is the discovery/SEO/trust layer. WhatsApp is the conversational con
 4. **Data/insights** (later) — anonymized trending-product insights sold back to suppliers.
 5. **Own-brand / dropship margin** (Phase 3) — once trust + traffic exist, add a small number of exclusive products with real margin instead of commission.
 
-## 6. Legal & compliance notes (Kenya-specific, non-exhaustive — verify with a professional)
+## 6. Cross-border shipping & customs reality (important for trust)
+
+None of AliExpress, Temu, or Amazon are Kenya-based — every order from them is a cross-border
+purchase, fulfilled and shipped directly by the seller from overseas (mostly China for
+AliExpress/Temu, the US for Amazon). Sokoni (and you) never touch the physical package — the
+customer deals with that platform directly for payment, tracking, and delivery once they click
+your affiliate link, exactly as if they'd gone there themselves.
+
+**Realistic delivery times** (verified via research, not assumed):
+
+| Platform | Ships to Kenya directly? | Typical delivery |
+|---|---|---|
+| AliExpress | Yes, for most sellers | 15-30 days standard, 7-15 days on faster "Choice"/premium shipping |
+| Temu | Inconsistent — check per item | ~5-10 days where available; some items may still require a forwarding service |
+| Amazon | Only for eligible items — check per item | 9-15 business days when eligible; many items aren't available for Kenya delivery at all |
+
+**Customs duties — the detail that can quietly break trust if hidden:** Kenya charges import duty
+(0-35% depending on item type) + 16% VAT + a 2.5% Import Declaration Fee + a 2% Railway
+Development Levy on imported parcels, with no blanket exemption for small personal orders. This is
+paid by the **customer**, on arrival, on top of the item price — not included in what they paid
+on AliExpress/Temu/Amazon, and not a fee Sokoni charges. Amazon at least estimates an "Import Fees
+Deposit" at checkout; AliExpress and Temu generally don't surface this upfront.
+
+**What this means for the product:** always disclose shipping time + the duty/VAT reality
+*before* the customer buys, not after — this is already built into the WhatsApp bot's
+international flow and AI prompt (see `WHATSAPP_FLOWS.md` and `AI_AGENT_PROMPT.md`). Consider
+leading your international offering with AliExpress (most consistent direct-to-Kenya shipping),
+treating Amazon/Temu as opportunistic add-ons you verify per product rather than a guaranteed
+catalog.
+
+## 7. Legal & compliance notes (Kenya-specific, non-exhaustive — verify with a professional)
 
 - **Disclose that you're an affiliate.** FTC-style disclosure ("As an affiliate, we may earn a commission on qualifying purchases") builds trust and is best practice even where not strictly mandated locally.
 - **WhatsApp Business Platform policy**: you can only send free-form messages within 24 hours of the user messaging you first; outside that window you must use pre-approved "template" messages (important for your "Deal of the Day" broadcast idea).
 - **Data protection**: Kenya's Data Protection Act (2019) applies if you store customer phone numbers/order history — register with the ODPC as a data controller once you're operating at scale, and keep a clear privacy policy on the website.
 - **Business registration**: operate as a sole proprietor initially (Business Name registration via eCitizen) — enough to open a business M-Pesa/bank account for receiving affiliate payouts; upgrade to a limited company once revenue justifies it.
 
-## 7. Phased roadmap
+## 8. Phased roadmap
 
 **Phase 0 — Foundations (this repo, today)**
 - Brand name + logo

@@ -132,7 +132,7 @@
     "imageUrl": "https://images.example.com/apple-watch-se.jpg",
     "tags": ["wearable", "fitness", "international"],
     "scope": "international",
-    "estDeliveryDays": "14-21"
+    "estDeliveryDays": "15-30"
   },
   {
     "id": "intl-002",
@@ -147,7 +147,7 @@
     "imageUrl": "https://images.example.com/apple-watch-series9.jpg",
     "tags": ["wearable", "premium", "international"],
     "scope": "international",
-    "estDeliveryDays": "10-18"
+    "estDeliveryDays": "9-15 (only if this item ships to Kenya — verify at checkout)"
   },
   {
     "id": "intl-003",
@@ -162,7 +162,7 @@
     "imageUrl": "https://images.example.com/mini-blender.jpg",
     "tags": ["kitchen", "gadget", "viral"],
     "scope": "international",
-    "estDeliveryDays": "12-20"
+    "estDeliveryDays": "5-10 (availability to Kenya varies — verify at checkout)"
   },
   {
     "id": "intl-004",
@@ -177,6 +177,6 @@
     "imageUrl": "https://images.example.com/earbuds-pro.jpg",
     "tags": ["audio", "gadget", "budget"],
     "scope": "international",
-    "estDeliveryDays": "14-21"
+    "estDeliveryDays": "15-30"
   }
 ]
