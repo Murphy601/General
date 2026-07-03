@@ -1,0 +1,57 @@
+name: Sync Catalog
+
+# Runs automatically once a day and refreshes price/stock for products in
+# the catalog using whichever official APIs you've configured secrets for
+# (Amazon, AliExpress). Sources without an official API (Kilimall, Jumia,
+# Temu) are skipped by default — see docs/CATALOG_SYNC.md.
+on:
+  schedule:
+    - cron: "0 3 * * *" # 03:00 UTC daily (~06:00 Nairobi time)
+  workflow_dispatch: {} # lets you also trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: whatsapp-bot
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+          cache-dependency-path: whatsapp-bot/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run catalog sync
+        env:
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+          ENABLE_STRUCTURED_DATA_CHECK: ${{ vars.ENABLE_STRUCTURED_DATA_CHECK || 'false' }}
+        run: npm run sync:catalog
+
+      - name: Commit and push changes, if any
+        run: |
+          cd "$GITHUB_WORKSPACE"
+          git config user.name "sokoni-catalog-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No catalog changes today."
+          else
+            git add whatsapp-bot/src/data/products.json website/data/products.json
+            git commit -m "chore: daily catalog sync $(date -u +%Y-%m-%d)"
+            git push
+          fi
