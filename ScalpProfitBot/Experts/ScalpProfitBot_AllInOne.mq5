@@ -234,7 +234,8 @@ private:
    double PosPnl(const ulong tk) const
      {
       if(!PositionSelectByTicket(tk)) return 0.0;
-      return PositionGetDouble(POSITION_PROFIT) + PositionGetDouble(POSITION_SWAP) + PositionGetDouble(POSITION_COMMISSION);
+      // POSITION_COMMISSION deprecated — profit already includes commission in MT5
+      return PositionGetDouble(POSITION_PROFIT) + PositionGetDouble(POSITION_SWAP);
      }
 
    int PosAge(const ulong tk) const
