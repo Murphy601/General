@@ -1,16 +1,19 @@
 //+------------------------------------------------------------------+
-//|                              ScalpProfitBot_AllInOne.mq5  v2.0   |
-//|  ONE FILE - paste into MetaEditor, compile (F7), attach to chart |
-//|  Auto-adapts ANY symbol | fast scan | ATR scalping | no blockers |
+//|                              ScalpProfitBot_AllInOne.mq5  v3.0   |
+//|  Instant micro-profit grab | 60s loss patience | multi-bet scan  |
 //+------------------------------------------------------------------+
 #property copyright   "ScalpProfitBot"
-#property version     "2.00"
-#property description "v2: auto market detect, no ATR/spread blockers, instant scalping"
+#property version     "3.00"
+#property description "v3: take profit at $0.01+, hold losses 60s, then reverse"
 
 #include <Trade/Trade.mqh>
 
-//+------------------------------------------------------------------+
-//| CANDLESTICK PATTERNS                                             |
+//--- built-in constants (no manual tuning needed)
+#define SCALP_MIN_PROFIT_MONEY    0.01    // close as soon as profit >= this ($)
+#define SCALP_LOSS_WAIT_SECONDS   60      // hold losing trade this long before cut/reverse
+#define SCALP_ENTRY_COOLDOWN_SEC  1       // seconds between new entries
+#define SCALP_SCAN_MS             250     // scan interval (milliseconds)
+
 //+------------------------------------------------------------------+
 struct SCandleMetrics
   {
@@ -20,17 +23,17 @@ struct SCandleMetrics
 
 bool ScalpGetCandle(const string symbol, const ENUM_TIMEFRAMES tf, const int shift, SCandleMetrics &m)
   {
-   m.open = iOpen(symbol, tf, shift);
-   m.high = iHigh(symbol, tf, shift);
-   m.low  = iLow(symbol, tf, shift);
+   m.open  = iOpen(symbol, tf, shift);
+   m.high  = iHigh(symbol, tf, shift);
+   m.low   = iLow(symbol, tf, shift);
    m.close = iClose(symbol, tf, shift);
    if(m.open == 0.0 && m.high == 0.0 && m.low == 0.0 && m.close == 0.0) return false;
-   m.body = MathAbs(m.close - m.open);
-   m.range = m.high - m.low;
+   m.body      = MathAbs(m.close - m.open);
+   m.range     = m.high - m.low;
    m.upperWick = m.high - MathMax(m.open, m.close);
    m.lowerWick = MathMin(m.open, m.close) - m.low;
-   m.bullish = (m.close > m.open);
-   m.bearish = (m.close < m.open);
+   m.bullish   = (m.close > m.open);
+   m.bearish   = (m.close < m.open);
    return (m.range > 0.0);
   }
 
@@ -83,14 +86,9 @@ int ScalpCandleScore(const string s, const ENUM_TIMEFRAMES tf, const int sh)
   }
 
 //+------------------------------------------------------------------+
-//| AUTO MARKET PROFILE (adapts forex / gold / indices automatically) |
-//+------------------------------------------------------------------+
 struct SMarketProfile
   {
-   double tpAtrMult;
-   double slAtrMult;
-   double trailStartAtr;
-   double trailStepAtr;
+   double wideSlAtr;
    int    minScore;
    int    minVotes;
    string typeName;
@@ -99,41 +97,21 @@ struct SMarketProfile
 SMarketProfile BuildMarketProfile(const string symbol)
   {
    SMarketProfile p;
-   p.tpAtrMult = 0.22;
-   p.slAtrMult = 0.45;
-   p.trailStartAtr = 0.10;
-   p.trailStepAtr = 0.06;
-   p.minScore = 16;
-   p.minVotes = 2;
-   p.typeName = "FOREX";
+   p.wideSlAtr = 2.50;
+   p.minScore  = 22;
+   p.minVotes  = 3;
+   p.typeName  = "FOREX";
 
-   const string sym = symbol;
-   if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0)
-     {
-      p.tpAtrMult = 0.20; p.slAtrMult = 0.40;
-      p.trailStartAtr = 0.08; p.trailStepAtr = 0.05;
-      p.minScore = 14; p.minVotes = 2;
-      p.typeName = "GOLD";
-     }
-   else if(StringFind(sym, "BTC") >= 0 || StringFind(sym, "ETH") >= 0)
-     {
-      p.tpAtrMult = 0.25; p.slAtrMult = 0.50;
-      p.minScore = 15; p.typeName = "CRYPTO";
-     }
-   else if(StringFind(sym, "US30") >= 0 || StringFind(sym, "US100") >= 0 ||
-           StringFind(sym, "UT100") >= 0 || StringFind(sym, "NAS") >= 0 ||
-           StringFind(sym, "SPX") >= 0 || StringFind(sym, "DAX") >= 0 ||
-           StringFind(sym, "JPN") >= 0)
-     {
-      p.tpAtrMult = 0.18; p.slAtrMult = 0.38;
-      p.trailStartAtr = 0.09; p.trailStepAtr = 0.05;
-      p.minScore = 14; p.typeName = "INDEX";
-     }
+   if(StringFind(symbol, "XAU") >= 0 || StringFind(symbol, "GOLD") >= 0)
+     { p.wideSlAtr = 2.20; p.minScore = 20; p.minVotes = 3; p.typeName = "GOLD"; }
+   else if(StringFind(symbol, "BTC") >= 0 || StringFind(symbol, "ETH") >= 0)
+     { p.wideSlAtr = 2.80; p.minScore = 21; p.typeName = "CRYPTO"; }
+   else if(StringFind(symbol, "US30") >= 0 || StringFind(symbol, "US100") >= 0 ||
+           StringFind(symbol, "UT100") >= 0 || StringFind(symbol, "NAS") >= 0)
+     { p.wideSlAtr = 2.00; p.minScore = 20; p.minVotes = 3; p.typeName = "INDEX"; }
    return p;
   }
 
-//+------------------------------------------------------------------+
-//| SIGNAL ENGINE                                                    |
 //+------------------------------------------------------------------+
 enum ENUM_SCALP_SIGNAL { SCALP_NONE = 0, SCALP_BUY = 1, SCALP_SELL = -1 };
 
@@ -156,21 +134,14 @@ private:
    int             m_tickDir;
 
    bool GetBuf(const int h, const int buf, const int cnt, double &arr[]) const
-     {
-      ArraySetAsSeries(arr, true);
-      return (CopyBuffer(h, buf, 0, cnt, arr) >= cnt);
-     }
+     { ArraySetAsSeries(arr, true); return (CopyBuffer(h, buf, 0, cnt, arr) >= cnt); }
 
    int EmaVoteTF(const ENUM_TIMEFRAMES tf) const
      {
       const int fh = iMA(m_sym, tf, 8, 0, MODE_EMA, PRICE_CLOSE);
       const int sh = iMA(m_sym, tf, 21, 0, MODE_EMA, PRICE_CLOSE);
       if(fh == INVALID_HANDLE || sh == INVALID_HANDLE)
-        {
-         if(fh != INVALID_HANDLE) IndicatorRelease(fh);
-         if(sh != INVALID_HANDLE) IndicatorRelease(sh);
-         return 0;
-        }
+        { if(fh != INVALID_HANDLE) IndicatorRelease(fh); if(sh != INVALID_HANDLE) IndicatorRelease(sh); return 0; }
       double f[], s[];
       ArraySetAsSeries(f, true); ArraySetAsSeries(s, true);
       int v = 0;
@@ -180,8 +151,7 @@ private:
          if(f[0] > s[0] && px > f[0] && f[0] >= f[1]) v = 1;
          else if(f[0] < s[0] && px < f[0] && f[0] <= f[1]) v = -1;
         }
-      IndicatorRelease(fh);
-      IndicatorRelease(sh);
+      IndicatorRelease(fh); IndicatorRelease(sh);
       return v;
      }
 
@@ -191,8 +161,8 @@ private:
       if(!GetBuf(m_rsi, 0, 3, r)) return 0;
       if(r[1] < 35.0 && r[0] > r[1]) return 1;
       if(r[1] > 65.0 && r[0] < r[1]) return -1;
-      if(r[0] > 53.0 && r[0] > r[1]) return 1;
-      if(r[0] < 47.0 && r[0] < r[1]) return -1;
+      if(r[0] > 54.0 && r[0] > r[1]) return 1;
+      if(r[0] < 46.0 && r[0] < r[1]) return -1;
       return 0;
      }
 
@@ -229,35 +199,19 @@ private:
       const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
       const datetime now = TimeCurrent();
       if(m_lastBid > 0.0 && now == m_lastTickTime)
-        {
-         if(bid > m_lastBid) m_tickDir++;
-         else if(bid < m_lastBid) m_tickDir--;
-        }
-      else
-         m_tickDir = 0;
-      m_lastBid = bid;
-      m_lastTickTime = now;
+        { if(bid > m_lastBid) m_tickDir++; else if(bid < m_lastBid) m_tickDir--; }
+      else m_tickDir = 0;
+      m_lastBid = bid; m_lastTickTime = now;
       if(m_tickDir > 2) return 1;
       if(m_tickDir < -2) return -1;
       return 0;
-     }
-
-   double AtrValue() const
-     {
-      double a[];
-      if(!GetBuf(m_atr, 0, 1, a)) return 0.0;
-      return a[0];
      }
 
 public:
    CSignalEngine() : m_rsi(INVALID_HANDLE), m_macd(INVALID_HANDLE), m_stoch(INVALID_HANDLE),
                      m_atr(INVALID_HANDLE), m_emaF(INVALID_HANDLE), m_emaS(INVALID_HANDLE),
                      m_lastBid(0), m_lastTickTime(0), m_tickDir(0)
-     {
-      m_sym = _Symbol;
-      m_tf1 = PERIOD_M1; m_tf2 = PERIOD_M5; m_tf3 = PERIOD_M15;
-      m_prof = BuildMarketProfile(m_sym);
-     }
+     { m_sym = _Symbol; m_tf1 = PERIOD_M1; m_tf2 = PERIOD_M5; m_tf3 = PERIOD_M15; m_prof = BuildMarketProfile(m_sym); }
 
    ~CSignalEngine()
      {
@@ -278,84 +232,66 @@ public:
       m_atr  = iATR(m_sym, m_tf1, 14);
       m_emaF = iMA(m_sym, m_tf1, 8, 0, MODE_EMA, PRICE_CLOSE);
       m_emaS = iMA(m_sym, m_tf1, 21, 0, MODE_EMA, PRICE_CLOSE);
-      return (m_rsi != INVALID_HANDLE && m_macd != INVALID_HANDLE &&
-              m_stoch != INVALID_HANDLE && m_atr != INVALID_HANDLE &&
-              m_emaF != INVALID_HANDLE && m_emaS != INVALID_HANDLE);
+      return (m_rsi != INVALID_HANDLE && m_macd != INVALID_HANDLE && m_stoch != INVALID_HANDLE &&
+              m_atr != INVALID_HANDLE && m_emaF != INVALID_HANDLE && m_emaS != INVALID_HANDLE);
      }
 
    SMarketProfile Profile() const { return m_prof; }
 
    double AtrPoints() const
      {
+      double a[]; ArraySetAsSeries(a, true);
+      if(m_atr == INVALID_HANDLE || CopyBuffer(m_atr, 0, 0, 1, a) < 1) return 0.0;
       const double pt = SymbolInfoDouble(m_sym, SYMBOL_POINT);
-      if(pt <= 0.0) return 0.0;
-      return AtrValue() / pt;
+      return (pt > 0.0) ? a[0] / pt : 0.0;
+     }
+
+   double AtrValue() const
+     {
+      double a[]; ArraySetAsSeries(a, true);
+      if(m_atr == INVALID_HANDLE || CopyBuffer(m_atr, 0, 0, 1, a) < 1) return 0.0;
+      return a[0];
      }
 
    bool CanTrade() const
-     {
-      if(SymbolInfoInteger(m_sym, SYMBOL_TRADE_MODE) == SYMBOL_TRADE_MODE_DISABLED) return false;
-      return true;
-     }
+     { return (SymbolInfoInteger(m_sym, SYMBOL_TRADE_MODE) != SYMBOL_TRADE_MODE_DISABLED); }
 
    SSignalResult Analyze()
      {
       SSignalResult r;
-      r.dir = SCALP_NONE; r.score = 0; r.votes = 0; r.candleScore = 0;
-      r.momentum = 0; r.reason = "Scanning...";
+      r.dir = SCALP_NONE; r.score = 0; r.votes = 0; r.candleScore = 0; r.momentum = 0;
+      r.reason = "Scanning...";
 
-      int vote = 0;
-      vote += EmaExecVote();
-      vote += EmaVoteTF(m_tf1);
-      vote += EmaVoteTF(m_tf2);
-      vote += EmaVoteTF(m_tf3);
-      vote += RsiVote();
-      vote += MacdVote();
-      vote += StochVote();
+      int vote = EmaExecVote() + EmaVoteTF(m_tf1) + EmaVoteTF(m_tf2) + EmaVoteTF(m_tf3)
+               + RsiVote() + MacdVote() + StochVote();
       const int mom = TickMomentum();
       vote += mom;
 
       const int c1 = ScalpCandleScore(m_sym, m_tf1, 1);
       const int c2 = ScalpCandleScore(m_sym, m_tf2, 1);
       const int candle = c1 + (int)MathRound(c2 * 0.5);
+      const int score = vote * 10 + candle + mom * 5;
 
-      int score = vote * 10 + candle;
-      if(mom != 0) score += mom * 5;
-
-      r.votes = vote;
-      r.candleScore = candle;
-      r.momentum = mom;
-      r.score = score;
+      r.votes = vote; r.candleScore = candle; r.momentum = mom; r.score = score;
 
       const int buyVotes  = (vote > 0) ? vote : 0;
       const int sellVotes = (vote < 0) ? -vote : 0;
-      const bool buyCandle  = (candle >= 3);
-      const bool sellCandle = (candle <= -3);
+      const bool m1m5Buy  = (c1 >= 5 && c2 >= 0);
+      const bool m1m5Sell = (c1 <= -5 && c2 <= 0);
 
-      // Accuracy gate: need indicator votes + candle agreement (no spread/ATR blockers)
-      const bool buyOk  = (score >= m_prof.minScore && buyVotes >= m_prof.minVotes && buyCandle);
-      const bool sellOk = (score <= -m_prof.minScore && sellVotes >= m_prof.minVotes && sellCandle);
+      const bool buyOk  = (score >= m_prof.minScore && buyVotes >= m_prof.minVotes && candle >= 5 && m1m5Buy);
+      const bool sellOk = (score <= -m_prof.minScore && sellVotes >= m_prof.minVotes && candle <= -5 && m1m5Sell);
 
-      if(buyOk && score > -score)
-        {
-         r.dir = SCALP_BUY;
-         r.reason = StringFormat("BUY score=%d votes=%d candle=%d mom=%d", score, vote, candle, mom);
-        }
-      else if(sellOk && (-score) >= score)
-        {
-         r.dir = SCALP_SELL;
-         r.reason = StringFormat("SELL score=%d votes=%d candle=%d mom=%d", score, vote, candle, mom);
-        }
+      if(buyOk && score > 0)
+        { r.dir = SCALP_BUY; r.reason = StringFormat("BUY score=%d votes=%d candle=%d", score, vote, candle); }
+      else if(sellOk && score < 0)
+        { r.dir = SCALP_SELL; r.reason = StringFormat("SELL score=%d votes=%d candle=%d", score, vote, candle); }
       else
-         r.reason = StringFormat("Wait score=%d votes=%d candle=%d (need |score|>=%d votes>=%d)",
-                                 score, vote, candle, m_prof.minScore, m_prof.minVotes);
-
+        r.reason = StringFormat("Wait score=%d votes=%d candle=%d", score, vote, candle);
       return r;
      }
   };
 
-//+------------------------------------------------------------------+
-//| TRADE MANAGER (ATR-based exits — works on any market)             |
 //+------------------------------------------------------------------+
 class CTradeManager
   {
@@ -363,8 +299,8 @@ private:
    CTrade          m_trade;
    string          m_sym;
    ulong           m_magic;
-   double          m_lot, m_point;
-   int             m_digits, m_maxPos;
+   double          m_lot;
+   int             m_digits;
    SMarketProfile  m_prof;
    int             m_atrHandle;
 
@@ -381,10 +317,21 @@ private:
 
    double Atr() const
      {
-      double a[];
-      ArraySetAsSeries(a, true);
+      double a[]; ArraySetAsSeries(a, true);
       if(m_atrHandle == INVALID_HANDLE || CopyBuffer(m_atrHandle, 0, 0, 1, a) < 1) return 0.0;
       return a[0];
+     }
+
+   double PosProfitMoney(const ulong ticket) const
+     {
+      if(!PositionSelectByTicket(ticket)) return 0.0;
+      return PositionGetDouble(POSITION_PROFIT) + PositionGetDouble(POSITION_SWAP) + PositionGetDouble(POSITION_COMMISSION);
+     }
+
+   int PosAgeSeconds(const ulong ticket) const
+     {
+      if(!PositionSelectByTicket(ticket)) return 0;
+      return (int)(TimeCurrent() - (datetime)PositionGetInteger(POSITION_TIME));
      }
 
    int CountPos(const long typeF = -1) const
@@ -392,7 +339,8 @@ private:
       int n = 0;
       for(int i = 0; i < PositionsTotal(); i++)
         {
-         if(!PositionSelectByTicket(PositionGetTicket(i))) continue;
+         const ulong tk = PositionGetTicket(i);
+         if(!PositionSelectByTicket(tk)) continue;
          if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
          if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
          if(typeF >= 0 && PositionGetInteger(POSITION_TYPE) != typeF) continue;
@@ -402,21 +350,14 @@ private:
      }
 
 public:
-   CTradeManager() : m_magic(880072), m_lot(0.01), m_maxPos(5), m_atrHandle(INVALID_HANDLE)
-     {
-      m_sym = _Symbol; m_point = _Point; m_digits = _Digits;
-      m_prof = BuildMarketProfile(m_sym);
-     }
+   CTradeManager() : m_magic(880073), m_lot(0.01), m_atrHandle(INVALID_HANDLE)
+     { m_sym = _Symbol; m_digits = _Digits; m_prof = BuildMarketProfile(m_sym); }
 
-   ~CTradeManager()
-     {
-      if(m_atrHandle != INVALID_HANDLE) IndicatorRelease(m_atrHandle);
-     }
+   ~CTradeManager() { if(m_atrHandle != INVALID_HANDLE) IndicatorRelease(m_atrHandle); }
 
    void Setup(const string sym, const double lot, const SMarketProfile &prof)
      {
       m_sym = sym; m_lot = lot; m_prof = prof;
-      m_point = SymbolInfoDouble(sym, SYMBOL_POINT);
       m_digits = (int)SymbolInfoInteger(sym, SYMBOL_DIGITS);
       m_trade.SetExpertMagicNumber((long)m_magic);
       m_trade.SetDeviationInPoints(30);
@@ -428,6 +369,13 @@ public:
    int Total() const { return CountPos(); }
    int Buys()  const { return CountPos(POSITION_TYPE_BUY); }
    int Sells() const { return CountPos(POSITION_TYPE_SELL); }
+
+   bool CloseTicket(const ulong ticket, const string why)
+     {
+      if(m_trade.PositionClose(ticket))
+        { Print("Closed #", ticket, " | ", why); return true; }
+      return false;
+     }
 
    void CloseType(const ENUM_POSITION_TYPE t)
      {
@@ -442,66 +390,47 @@ public:
         }
      }
 
-   bool Open(const ENUM_SCALP_SIGNAL dir, const string tag)
+   // CORE v3: instant profit grab + 60s loss patience
+   int ManageProfitsAndLosses()
      {
-      if(CountPos() >= m_maxPos) return false;
-      const double atr = Atr();
-      if(atr <= 0.0) return false;
-
-      const double tpDist = atr * m_prof.tpAtrMult;
-      const double slDist = atr * m_prof.slAtrMult;
-
-      if(dir == SCALP_BUY)
+      int closedWins = 0;
+      for(int i = PositionsTotal() - 1; i >= 0; i--)
         {
-         const double ask = SymbolInfoDouble(m_sym, SYMBOL_ASK);
-         return m_trade.Buy(NormLot(m_lot), m_sym, ask,
-                            NormPx(ask - slDist), NormPx(ask + tpDist), tag);
-        }
-      if(dir == SCALP_SELL)
-        {
-         const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
-         return m_trade.Sell(NormLot(m_lot), m_sym, bid,
-                             NormPx(bid + slDist), NormPx(bid - tpDist), tag);
-        }
-      return false;
-     }
-
-   bool Reverse(const ENUM_SCALP_SIGNAL dir, const string tag)
-     {
-      if(dir == SCALP_BUY)  { CloseType(POSITION_TYPE_SELL); return Open(SCALP_BUY, tag); }
-      if(dir == SCALP_SELL) { CloseType(POSITION_TYPE_BUY);  return Open(SCALP_SELL, tag); }
-      return false;
-     }
-
-   bool IsWrongWay(const ENUM_SCALP_SIGNAL wantDir) const
-     {
-      const double atr = Atr();
-      if(atr <= 0.0) return false;
-      const double lossDist = atr * 0.15;
-      const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
-      const double ask = SymbolInfoDouble(m_sym, SYMBOL_ASK);
-
-      for(int i = 0; i < PositionsTotal(); i++)
-        {
-         if(!PositionSelectByTicket(PositionGetTicket(i))) continue;
+         const ulong tk = PositionGetTicket(i);
+         if(!PositionSelectByTicket(tk)) continue;
          if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
          if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
-         const double op = PositionGetDouble(POSITION_PRICE_OPEN);
-         const long type = PositionGetInteger(POSITION_TYPE);
-         if(wantDir == SCALP_BUY && type == POSITION_TYPE_SELL && (ask - op) >= lossDist) return true;
-         if(wantDir == SCALP_SELL && type == POSITION_TYPE_BUY && (op - bid) >= lossDist) return true;
+
+         const double pnl = PosProfitMoney(tk);
+         const int age    = PosAgeSeconds(tk);
+
+         // PRIORITY 1: any profit >= $0.01 -> take immediately
+         if(pnl >= SCALP_MIN_PROFIT_MONEY)
+           {
+            if(CloseTicket(tk, StringFormat("Instant profit $%.2f", pnl)))
+               closedWins++;
+            continue;
+           }
+
+         // PRIORITY 2: tiny green (0 < pnl < 0.01) after 5s -> take it (don't let it flip red)
+         if(pnl > 0.0 && age >= 5)
+           {
+            if(CloseTicket(tk, StringFormat("Micro profit $%.4f", pnl)))
+               closedWins++;
+            continue;
+           }
+
+         // PRIORITY 3: losing trade younger than 60s -> HOLD (wait for recovery)
+         if(pnl < 0.0 && age < SCALP_LOSS_WAIT_SECONDS)
+            continue;
+
+         // PRIORITY 4: losing 60s+ -> eligible for reversal (handled in RunBot)
         }
-      return false;
+      return closedWins;
      }
 
-   void Manage()
+   bool HasLoserReadyForExit(const ENUM_SCALP_SIGNAL wantDir) const
      {
-      const double atr = Atr();
-      if(atr <= 0.0) return;
-      const double trailStart = atr * m_prof.trailStartAtr;
-      const double trailStep  = atr * m_prof.trailStepAtr;
-      const double quickTP    = atr * m_prof.tpAtrMult * 0.80;
-
       for(int i = 0; i < PositionsTotal(); i++)
         {
          const ulong tk = PositionGetTicket(i);
@@ -509,81 +438,105 @@ public:
          if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
          if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
 
-         const long type = PositionGetInteger(POSITION_TYPE);
-         const double op = PositionGetDouble(POSITION_PRICE_OPEN);
-         double sl = PositionGetDouble(POSITION_SL);
-         double tp = PositionGetDouble(POSITION_TP);
-         const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
-         const double ask = SymbolInfoDouble(m_sym, SYMBOL_ASK);
+         const double pnl = PosProfitMoney(tk);
+         const int age    = PosAgeSeconds(tk);
+         if(pnl >= 0.0) continue;
+         if(age < SCALP_LOSS_WAIT_SECONDS) continue;
 
-         if(type == POSITION_TYPE_BUY)
-           {
-            const double profit = bid - op;
-            if(profit >= trailStart)
-              {
-               const double nsl = NormPx(bid - trailStep);
-               if(sl == 0.0 || nsl > sl) m_trade.PositionModify(tk, nsl, tp);
-              }
-            if(profit >= quickTP * 0.7)
-              {
-               const double ntp = NormPx(op + quickTP);
-               if(tp == 0.0 || ntp < tp) m_trade.PositionModify(tk, sl, ntp);
-              }
-           }
-         else if(type == POSITION_TYPE_SELL)
-           {
-            const double profit = op - ask;
-            if(profit >= trailStart)
-              {
-               const double nsl = NormPx(ask + trailStep);
-               if(sl == 0.0 || nsl < sl) m_trade.PositionModify(tk, nsl, tp);
-              }
-            if(profit >= quickTP * 0.7)
-              {
-               const double ntp = NormPx(op - quickTP);
-               if(tp == 0.0 || ntp > tp) m_trade.PositionModify(tk, sl, ntp);
-              }
-           }
+         const long type = PositionGetInteger(POSITION_TYPE);
+         if(wantDir == SCALP_BUY  && type == POSITION_TYPE_SELL) return true;
+         if(wantDir == SCALP_SELL && type == POSITION_TYPE_BUY)  return true;
         }
+      return false;
+     }
+
+   bool Open(const ENUM_SCALP_SIGNAL dir, const string tag)
+     {
+      const double atr = Atr();
+      if(atr <= 0.0) return false;
+
+      // Wide emergency SL only — real exits managed by profit/loss logic above
+      const double slDist = atr * m_prof.wideSlAtr;
+
+      if(dir == SCALP_BUY)
+        {
+         const double ask = SymbolInfoDouble(m_sym, SYMBOL_ASK);
+         return m_trade.Buy(NormLot(m_lot), m_sym, ask, NormPx(ask - slDist), 0.0, tag);
+        }
+      if(dir == SCALP_SELL)
+        {
+         const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
+         return m_trade.Sell(NormLot(m_lot), m_sym, bid, NormPx(bid + slDist), 0.0, tag);
+        }
+      return false;
+     }
+
+   bool ReverseLoser(const ENUM_SCALP_SIGNAL dir, const string tag)
+     {
+      if(!HasLoserReadyForExit(dir)) return false;
+      if(dir == SCALP_BUY)  { CloseType(POSITION_TYPE_SELL); return Open(SCALP_BUY, tag); }
+      if(dir == SCALP_SELL) { CloseType(POSITION_TYPE_BUY);  return Open(SCALP_SELL, tag); }
+      return false;
+     }
+
+   double TotalFloatingPnL() const
+     {
+      double sum = 0.0;
+      for(int i = 0; i < PositionsTotal(); i++)
+        {
+         const ulong tk = PositionGetTicket(i);
+         if(!PositionSelectByTicket(tk)) continue;
+         if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
+         if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
+         sum += PosProfitMoney(tk);
+        }
+      return sum;
+     }
+
+   int OldestLoserAge() const
+     {
+      int maxAge = 0;
+      for(int i = 0; i < PositionsTotal(); i++)
+        {
+         const ulong tk = PositionGetTicket(i);
+         if(!PositionSelectByTicket(tk)) continue;
+         if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
+         if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
+         const double pnl = PosProfitMoney(tk);
+         if(pnl >= 0.0) continue;
+         const int age = PosAgeSeconds(tk);
+         if(age > maxAge) maxAge = age;
+        }
+      return maxAge;
      }
   };
 
 //+------------------------------------------------------------------+
-//| MAIN EA — only essential inputs, everything else auto             |
-//+------------------------------------------------------------------+
-input double InpLotSize = 0.01;   // Lot size
-input int    InpMaxPos  = 5;      // Max open trades
+input double InpLotSize = 0.01;
+input int    InpMaxPos  = 5;
 
-CSignalEngine  g_sig;
-CTradeManager  g_trd;
-datetime       g_lastEntry = 0;
-int            g_today = 0;
-datetime       g_day = 0;
+CSignalEngine g_sig;
+CTradeManager g_trd;
+datetime      g_lastEntry = 0;
+int           g_today = 0;
+int           g_winsTaken = 0;
 
 int OnInit()
   {
    if(InpLotSize <= 0.0) return INIT_PARAMETERS_INCORRECT;
-   if(!g_sig.Init()) { Print("Init failed"); return INIT_FAILED; }
+   if(!g_sig.Init()) return INIT_FAILED;
    g_trd.Setup(_Symbol, InpLotSize, g_sig.Profile());
-   g_day = StringToTime(TimeToString(TimeCurrent(), TIME_DATE));
-   g_today = 0;
-   g_lastEntry = 0;
-   EventSetMillisecondTimer(500);
-   Print("ScalpProfitBot v2 | ", _Symbol, " | profile=", g_sig.Profile().typeName,
-         " | instant scan ON");
+   g_lastEntry = 0; g_today = 0; g_winsTaken = 0;
+   EventSetMillisecondTimer(SCALP_SCAN_MS);
+   Print("ScalpProfitBot v3 | ", _Symbol, " | profit>=$", SCALP_MIN_PROFIT_MONEY,
+         " instant | loss wait ", SCALP_LOSS_WAIT_SECONDS, "s");
    RunBot(true);
    return INIT_SUCCEEDED;
   }
 
 void OnDeinit(const int reason) { EventKillTimer(); Comment(""); }
-
-void OnTimer() { g_trd.Manage(); RunBot(false); }
-
-void OnTick()
-  {
-   g_trd.Manage();
-   RunBot(false);
-  }
+void OnTimer() { RunBot(false); }
+void OnTick()  { RunBot(false); }
 
 void RunBot(const bool force)
   {
@@ -591,36 +544,39 @@ void RunBot(const bool force)
    if(!MQLInfoInteger(MQL_TRADE_ALLOWED)) return;
    if(!g_sig.CanTrade()) return;
 
+   // Step 1: scan every tick — grab profits instantly, hold young losers
+   const int winsClosed = g_trd.ManageProfitsAndLosses();
+   g_winsTaken += winsClosed;
+
    const SSignalResult sig = g_sig.Analyze();
    const SMarketProfile prof = g_sig.Profile();
 
    Comment(StringFormat(
-      "ScalpProfitBot v2 | %s [%s]\nSignal: %s | Score: %d | Votes: %d | Candle: %d | Mom: %d\n"
-      "Open: %d (B:%d S:%d) | Today: %d | ATR: %.1f pts | Spread: %d\n%s",
+      "ScalpProfitBot v3 | %s [%s]\n"
+      "Signal: %s | Score: %d | Votes: %d | Candle: %d\n"
+      "Open: %d (B:%d S:%d) | Float: $%.2f | Wins grabbed: %d | Today entries: %d\n"
+      "Loss wait: %ds (oldest loser: %ds) | ATR: %.1f | Spread: %d\n%s",
       _Symbol, prof.typeName,
       (sig.dir == SCALP_BUY ? "BUY" : sig.dir == SCALP_SELL ? "SELL" : "NONE"),
-      sig.score, sig.votes, sig.candleScore, sig.momentum,
-      g_trd.Total(), g_trd.Buys(), g_trd.Sells(), g_today,
+      sig.score, sig.votes, sig.candleScore,
+      g_trd.Total(), g_trd.Buys(), g_trd.Sells(),
+      g_trd.TotalFloatingPnL(), g_winsTaken, g_today,
+      SCALP_LOSS_WAIT_SECONDS, g_trd.OldestLoserAge(),
       g_sig.AtrPoints(), (int)SymbolInfoInteger(_Symbol, SYMBOL_SPREAD),
       sig.reason));
 
    if(sig.dir == SCALP_NONE) return;
 
-   // Auto-reversal when market flips against us
-   if(g_trd.IsWrongWay(sig.dir))
+   // Step 2: after 60s, reverse confirmed losers only
+   if(g_trd.HasLoserReadyForExit(sig.dir))
      {
-      if(g_trd.Reverse(sig.dir, "Rev"))
+      if(g_trd.ReverseLoser(sig.dir, "Rev60s"))
         { g_lastEntry = TimeCurrent(); g_today++; return; }
      }
 
-   // Close opposite before adding same direction
-   if(sig.dir == SCALP_BUY && g_trd.Sells() > 0) g_trd.CloseType(POSITION_TYPE_SELL);
-   if(sig.dir == SCALP_SELL && g_trd.Buys() > 0)  g_trd.CloseType(POSITION_TYPE_BUY);
-
+   // Step 3: place more bets in signal direction (losers under 60s are left alone)
    if(g_trd.Total() >= InpMaxPos) return;
-
-   // 1-second cooldown between new entries (fast scalping, not frozen)
-   if(!force && g_lastEntry > 0 && (TimeCurrent() - g_lastEntry) < 1) return;
+   if(!force && g_lastEntry > 0 && (TimeCurrent() - g_lastEntry) < SCALP_ENTRY_COOLDOWN_SEC) return;
 
    if(g_trd.Open(sig.dir, (sig.dir == SCALP_BUY ? "Buy" : "Sell")))
      {
