@@ -1,29 +1,28 @@
 //+------------------------------------------------------------------+
 //|                              ScalpProfit.mq5                     |
-//|                    ScalpProfitBot v6.1 — ONE FILE ONLY             |
+//|              ScalpProfitBot v7.0 — ACCURACY + READABILITY          |
 //+------------------------------------------------------------------+
-//| HOW TO USE:                                                       |
-//|  1. MetaEditor → File → New → Expert Advisor → name: ScalpProfit |
-//|  2. DELETE all template code, paste THIS ENTIRE file               |
-//|  3. Compile F7 — must show "0 errors, 0 warnings"                 |
-//|  4. Attach to M1 chart, enable AutoTrading                        |
+//| Paste ALL of this file into MetaEditor → Compile F7 → M1 chart   |
+//|                                                                   |
+//| v7 FOCUS:                                                         |
+//|  • 1-hour signal memory per market (60 M1 bars) for accuracy     |
+//|  • Live + historical blended into one readable signal score      |
+//|  • Clear HUD: direction, strength %, votes, 1H trend, action     |
+//|  • NO trade blocks (no pause, no rate limit, no stack blocks)    |
+//|  • Instant $0.01 profit close | 60s loss hold then reverse       |
 //+------------------------------------------------------------------+
 #property copyright   "ScalpProfitBot"
-#property version     "6.10"
-#property description "ScalpProfitBot v6.1 — balanced entries + block reasons"
+#property version     "7.00"
+#property description "ScalpProfit v7 — enhanced signals, no entry blocks"
 
 #include <Trade/Trade.mqh>
 
-#define SPB_MIN_PROFIT_USD       0.01
-#define SPB_LOSS_HOLD_SEC        60
-#define SPB_SCAN_INTERVAL_MS     200
-#define SPB_BASE_MAGIC           880090
-#define SPB_MAX_TRADES_PER_SYM   30
-#define SPB_HOUR_BARS            60
-#define SPB_MAX_ENTRIES_PER_MIN  3
-#define SPB_MAX_FLOAT_LOSS_USD   15.0
-#define SPB_MAX_CONSEC_LOSSES    4
-#define SPB_PAUSE_AFTER_LOSS_SEC 120
+#define SPB_MIN_PROFIT_USD     0.01
+#define SPB_LOSS_HOLD_SEC      60
+#define SPB_SCAN_MS            200
+#define SPB_BASE_MAGIC         880090
+#define SPB_MAX_TRADES         30
+#define SPB_HOUR_BARS          60
 
 enum ENUM_SPB_SIGNAL { SPB_NONE = 0, SPB_BUY = 1, SPB_SELL = -1 };
 
@@ -36,25 +35,32 @@ struct SCandleBar
 struct SMarketProfile
   {
    double slAtrMult;
-   int    minScore, minVotes;
+   int    minScore;
    string label;
   };
 
-struct SHourContext
+struct SHourMemory
   {
-   int    bias, bullBars, bearBars, avgCandleScore, buySignals, sellSignals, h1Trend;
+   int    bias;
+   int    bullPct, buySig, sellSig, avgCandle;
    double netChange;
-   string text;
+   int    h1Trend;
+   string trendLabel;
+   string summary;
   };
 
 struct SSignalInfo
   {
    ENUM_SPB_SIGNAL dir;
-   int    score, buyVotes, sellVotes, cM1, cM5, cM15, momentum, hourBias;
+   int    liveScore, hourScore, finalScore, strength;
+   int    buyVotes, sellVotes, cM1, cM5, cM15, momentum;
    bool   hourAligned, strong;
+   string strengthLabel;
+   string action;
    string text;
   };
 
+//===== CANDLE PATTERNS ===============================================
 bool SPB_ReadCandle(const string sym, const ENUM_TIMEFRAMES tf, const int sh, SCandleBar &b)
   {
    b.o = iOpen(sym, tf, sh);  b.h = iHigh(sym, tf, sh);
@@ -98,15 +104,15 @@ int SPB_CandleScore(const string sym, const ENUM_TIMEFRAMES tf, const int sh)
 SMarketProfile SPB_Profile(const string sym)
   {
    SMarketProfile p;
-   p.slAtrMult = 2.5; p.minScore = 24; p.minVotes = 3; p.label = "FOREX";
+   p.slAtrMult = 2.5; p.minScore = 18; p.label = "FOREX";
    if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0)
-     { p.slAtrMult = 2.2; p.minScore = 22; p.label = "GOLD"; }
+     { p.slAtrMult = 2.2; p.minScore = 16; p.label = "GOLD"; }
    else if(StringFind(sym, "BTC") >= 0 || StringFind(sym, "ETH") >= 0)
-     { p.slAtrMult = 2.8; p.minScore = 23; p.label = "CRYPTO"; }
+     { p.slAtrMult = 2.8; p.minScore = 17; p.label = "CRYPTO"; }
    else if(StringFind(sym, "US30") >= 0 || StringFind(sym, "UT100") >= 0 ||
            StringFind(sym, "US100") >= 0 || StringFind(sym, "NAS") >= 0 ||
            StringFind(sym, "DAX") >= 0  || StringFind(sym, "JPN") >= 0)
-     { p.slAtrMult = 2.0; p.minScore = 22; p.label = "INDEX"; }
+     { p.slAtrMult = 2.0; p.minScore = 16; p.label = "INDEX"; }
    return p;
   }
 
@@ -118,6 +124,23 @@ ulong SPB_Magic(const string sym)
    return h;
   }
 
+int SPB_StrengthPct(const int finalScore, const int minScore)
+  {
+   if(minScore <= 0) return 0;
+   int pct = (int)MathRound((double)MathAbs(finalScore) / (double)(minScore * 2) * 100.0);
+   if(pct > 100) pct = 100;
+   return pct;
+  }
+
+string SPB_StrengthLabel(const int pct)
+  {
+   if(pct >= 75) return "STRONG";
+   if(pct >= 45) return "MEDIUM";
+   if(pct >= 20) return "WEAK";
+   return "FLAT";
+  }
+
+//===== PER-SYMBOL BOT ================================================
 class CSymbolBot
   {
 private:
@@ -127,11 +150,12 @@ private:
    int            m_cap;
    SMarketProfile m_prof;
    CTrade         m_trade;
+
    int            m_rsi, m_macd, m_stoch, m_atr, m_emaF, m_emaS;
-   datetime       m_lastOpen, m_pauseUntil, m_entryTimes[10];
-   int            m_entryTimeN, m_entries, m_winsClosed, m_consecLosses;
+   datetime       m_lastOpen;
+   int            m_entries, m_winsClosed;
    SSignalInfo    m_lastSig;
-   SHourContext   m_hour;
+   SHourMemory    m_hour;
 
    bool Buf(const int h, const int b, const int n, double &a[]) const
      { ArraySetAsSeries(a, true); return CopyBuffer(h, b, 0, n, a) >= n; }
@@ -267,20 +291,6 @@ private:
       return n;
      }
 
-   bool HasLosingSide(const ENUM_POSITION_TYPE side) const
-     {
-      for(int i = 0; i < PositionsTotal(); i++)
-        {
-         ulong tk = PositionGetTicket(i);
-         if(!PositionSelectByTicket(tk)) continue;
-         if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
-         if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
-         if((ENUM_POSITION_TYPE)PositionGetInteger(POSITION_TYPE) != side) continue;
-         if(PnL(tk) < 0) return true;
-        }
-      return false;
-     }
-
    double NormLot(double lot) const
      {
       double mn = SymbolInfoDouble(m_sym, SYMBOL_VOLUME_MIN);
@@ -293,59 +303,14 @@ private:
    double NormPx(double px) const
      { return NormalizeDouble(px, (int)SymbolInfoInteger(m_sym, SYMBOL_DIGITS)); }
 
-   void RecordEntryTime()
-     {
-      datetime now = TimeCurrent();
-      if(m_entryTimeN < 10) m_entryTimes[m_entryTimeN++] = now;
-      else { for(int i = 0; i < 9; i++) m_entryTimes[i] = m_entryTimes[i + 1]; m_entryTimes[9] = now; }
-     }
-
-   int EntriesLastMinute() const
-     {
-      datetime cutoff = TimeCurrent() - 60;
-      int n = 0;
-      for(int i = 0; i < m_entryTimeN; i++) if(m_entryTimes[i] >= cutoff) n++;
-      return n;
-     }
-
-   int RequiredScore(const ENUM_SPB_SIGNAL dir) const
-     {
-      int base = m_prof.minScore;
-      int openN = (dir == SPB_BUY) ? Count(POSITION_TYPE_BUY) : Count(POSITION_TYPE_SELL);
-      if(openN >= 1) base += 12;
-      if(openN >= 3) base += 10;
-      if(HasLosingSide(dir == SPB_BUY ? POSITION_TYPE_BUY : POSITION_TYPE_SELL)) base += 999;
-      return base;
-     }
-
-   bool HourAllows(const ENUM_SPB_SIGNAL dir) const
-     {
-      if(dir == SPB_BUY)  return (m_hour.bias >= 6 && (m_hour.h1Trend >= 0 || m_hour.bias >= 18));
-      if(dir == SPB_SELL) return (m_hour.bias <= -6 && (m_hour.h1Trend <= 0 || m_hour.bias <= -18));
-      return false;
-     }
-
-   bool CanEnter(const SSignalInfo &sig) const
-     {
-      if(TimeCurrent() < m_pauseUntil) return false;
-      if(FloatPnL() <= -SPB_MAX_FLOAT_LOSS_USD) return false;
-      if(EntriesLastMinute() >= SPB_MAX_ENTRIES_PER_MIN) return false;
-      if(!sig.hourAligned || !HourAllows(sig.dir)) return false;
-      int req = RequiredScore(sig.dir);
-      if(sig.dir == SPB_BUY  && sig.score < req) return false;
-      if(sig.dir == SPB_SELL && sig.score > -req) return false;
-      return true;
-     }
-
 public:
    CSymbolBot()
      {
-      m_sym = ""; m_magic = 0; m_lot = 0.01; m_cap = SPB_MAX_TRADES_PER_SYM;
+      m_sym = ""; m_magic = 0; m_lot = 0.01; m_cap = SPB_MAX_TRADES;
       m_rsi = m_macd = m_stoch = m_atr = m_emaF = m_emaS = INVALID_HANDLE;
-      m_lastOpen = 0; m_pauseUntil = 0; m_entryTimeN = 0;
-      m_entries = 0; m_winsClosed = 0; m_consecLosses = 0;
-      m_lastSig.dir = SPB_NONE; m_lastSig.text = "";
-      m_hour.bias = 0; m_hour.text = "";
+      m_lastOpen = 0; m_entries = 0; m_winsClosed = 0;
+      m_lastSig.dir = SPB_NONE;
+      m_hour.bias = 0;
      }
 
    ~CSymbolBot()
@@ -361,7 +326,7 @@ public:
    bool Setup(const string sym, double lot, int maxPos)
      {
       m_sym = sym; m_lot = lot;
-      m_cap = (maxPos <= 0) ? SPB_MAX_TRADES_PER_SYM : maxPos;
+      m_cap = (maxPos <= 0) ? SPB_MAX_TRADES : maxPos;
       m_magic = SPB_Magic(sym);
       m_prof  = SPB_Profile(sym);
       m_trade.SetExpertMagicNumber((long)m_magic);
@@ -383,11 +348,9 @@ public:
    string Sym()   const { return m_sym; }
    string Label() const { return m_prof.label; }
    int OpenN()    const { return Count(); }
-   int BuyN()     const { return Count(POSITION_TYPE_BUY); }
-   int SellN()    const { return Count(POSITION_TYPE_SELL); }
    int Wins()     const { return m_winsClosed; }
    SSignalInfo LastSignal() const { return m_lastSig; }
-   SHourContext HourCtx()   const { return m_hour; }
+   SHourMemory HourMem()    const { return m_hour; }
 
    double FloatPnL() const
      {
@@ -403,58 +366,62 @@ public:
       return t;
      }
 
-   SHourContext AnalyzeHour() const
+   //--- Read past 1 hour of signals on this chart (60 M1 bars)
+   SHourMemory ReadHourMemory() const
      {
-      SHourContext h;
-      h.bias = 0; h.bullBars = 0; h.bearBars = 0; h.netChange = 0;
-      h.avgCandleScore = 0; h.buySignals = 0; h.sellSignals = 0;
-      h.h1Trend = H1Trend(); h.text = "";
+      SHourMemory h;
+      h.bias = 0; h.bullPct = 50; h.buySig = 0; h.sellSig = 0;
+      h.avgCandle = 0; h.netChange = 0; h.h1Trend = H1Trend();
+      h.trendLabel = "FLAT"; h.summary = "";
+
       double cStart = iClose(m_sym, PERIOD_M1, SPB_HOUR_BARS);
       double cEnd   = iClose(m_sym, PERIOD_M1, 1);
       if(cStart > 0) h.netChange = cEnd - cStart;
-      int candleSum = 0, emaBull = 0, emaBear = 0;
+
+      int bullBars = 0, bearBars = 0, candleSum = 0, emaBull = 0, emaBear = 0;
       for(int bar = 1; bar <= SPB_HOUR_BARS; bar++)
         {
          SCandleBar b;
          if(!SPB_ReadCandle(m_sym, PERIOD_M1, bar, b)) continue;
-         if(b.bull) h.bullBars++; else if(b.bear) h.bearBars++;
+         if(b.bull) bullBars++; else if(b.bear) bearBars++;
          int cs = SPB_CandleScore(m_sym, PERIOD_M1, bar);
          candleSum += cs;
-         if(cs >= 8)  h.buySignals++;
-         if(cs <= -8) h.sellSignals++;
+         if(cs >= 6)  h.buySig++;
+         if(cs <= -6) h.sellSig++;
          int ev = VoteEMAAtBar(PERIOD_M1, bar);
          if(ev > 0) emaBull++; else if(ev < 0) emaBear++;
         }
-      int totalBars = h.bullBars + h.bearBars;
-      int bullPct = (totalBars > 0) ? (h.bullBars * 100 / totalBars) : 50;
-      h.avgCandleScore = candleSum / SPB_HOUR_BARS;
-      int priceBias = 0;
-      if(h.netChange > 0) priceBias = 1; else if(h.netChange < 0) priceBias = -1;
-      int candleBias = 0;
-      if(h.buySignals > h.sellSignals + 5) candleBias = 1;
-      else if(h.sellSignals > h.buySignals + 5) candleBias = -1;
-      int emaHistBias = 0;
-      if(emaBull > emaBear + 8) emaHistBias = 1;
-      else if(emaBear > emaBull + 8) emaHistBias = -1;
-      int raw = priceBias * 25 + candleBias * 25 + emaHistBias * 20;
-      raw += (bullPct - 50);
-      raw += h.avgCandleScore / 3;
-      raw += h.h1Trend * 15;
+
+      int total = bullBars + bearBars;
+      h.bullPct = (total > 0) ? (bullBars * 100 / total) : 50;
+      h.avgCandle = candleSum / SPB_HOUR_BARS;
+
+      int priceDir = (h.netChange > 0) ? 1 : (h.netChange < 0) ? -1 : 0;
+      int sigDir   = (h.buySig > h.sellSig + 3) ? 1 : (h.sellSig > h.buySig + 3) ? -1 : 0;
+      int emaDir   = (emaBull > emaBear + 6) ? 1 : (emaBear > emaBull + 6) ? -1 : 0;
+
+      int raw = priceDir * 28 + sigDir * 24 + emaDir * 18;
+      raw += (h.bullPct - 50);
+      raw += h.avgCandle / 4;
+      raw += h.h1Trend * 12;
       if(raw > 100)  raw = 100;
       if(raw < -100) raw = -100;
       h.bias = raw;
-      string trend = (h.bias >= 15) ? "BULL" : (h.bias <= -15) ? "BEAR" : "FLAT";
-      h.text = StringFormat("1H %s bias:%d bull:%d%% chg:%.1f buySig:%d sellSig:%d",
-                            trend, h.bias, bullPct, h.netChange, h.buySignals, h.sellSignals);
+
+      if(h.bias >= 12)       h.trendLabel = "BULLISH";
+      else if(h.bias <= -12) h.trendLabel = "BEARISH";
+      else                   h.trendLabel = "NEUTRAL";
+
+      h.summary = StringFormat("1H %s bias:%d | bull:%d%% | chg:%.1f | buySig:%d sellSig:%d | H1:%s",
+                               h.trendLabel, h.bias, h.bullPct, h.netChange, h.buySig, h.sellSig,
+                               (h.h1Trend > 0) ? "UP" : (h.h1Trend < 0) ? "DOWN" : "FLAT");
       return h;
      }
 
-   SSignalInfo Analyze() const
+   //--- Live chart signals right now
+   int ReadLiveScore(int &bv, int &sv, int &cM1, int &cM5, int &cM15, int &mom) const
      {
-      SSignalInfo r;
-      r.dir = SPB_NONE; r.strong = false; r.hourAligned = false;
-      r.text = "Scanning"; r.hourBias = m_hour.bias;
-      int bv = 0, sv = 0;
+      bv = 0; sv = 0;
       int votes[7];
       votes[0] = VoteEMAExec();
       votes[1] = VoteEMA(PERIOD_M1);
@@ -463,55 +430,71 @@ public:
       votes[4] = VoteRSI();
       votes[5] = VoteMACD();
       votes[6] = VoteStoch();
-      for(int i = 0; i < 7; i++) { if(votes[i] > 0) bv += votes[i]; else if(votes[i] < 0) sv += -votes[i]; }
-      int cM1  = SPB_CandleScore(m_sym, PERIOD_M1,  1);
-      int cM5  = SPB_CandleScore(m_sym, PERIOD_M5,  1);
-      int cM15 = SPB_CandleScore(m_sym, PERIOD_M15, 1);
-      int mom  = Momentum();
-      int candle = cM1 + (int)MathRound(cM5 * 0.6) + (int)MathRound(cM15 * 0.3);
-      int score = (bv - sv) * 10 + candle + mom * 6;
-      score += (int)MathRound(m_hour.bias * 0.30);
+      for(int i = 0; i < 7; i++)
+        { if(votes[i] > 0) bv += votes[i]; else if(votes[i] < 0) sv += -votes[i]; }
+
+      cM1  = SPB_CandleScore(m_sym, PERIOD_M1,  1);
+      cM5  = SPB_CandleScore(m_sym, PERIOD_M5,  1);
+      cM15 = SPB_CandleScore(m_sym, PERIOD_M15, 1);
+      mom  = Momentum();
+      int candle = cM1 + (int)MathRound(cM5 * 0.55) + (int)MathRound(cM15 * 0.25);
+      return (bv - sv) * 9 + candle + mom * 5;
+     }
+
+   //--- Blend live + 1H memory into one accurate readable signal
+   SSignalInfo BuildSignal() const
+     {
+      SSignalInfo r;
+      r.dir = SPB_NONE; r.strong = false; r.hourAligned = false;
+      r.strength = 0; r.strengthLabel = "FLAT";
+      r.action = "SCAN"; r.text = "";
+
+      int bv, sv, cM1, cM5, cM15, mom;
+      r.liveScore = ReadLiveScore(bv, sv, cM1, cM5, cM15, mom);
+      r.hourScore = m_hour.bias;
       r.buyVotes = bv; r.sellVotes = sv;
-      r.cM1 = cM1; r.cM5 = cM5; r.cM15 = cM15;
-      r.momentum = mom; r.score = score;
-      bool bullTF  = (cM1 >= 4 && cM5 >= -2 && cM15 >= -6);
-      bool bearTF  = (cM1 <= -4 && cM5 <= 2 && cM15 <= 6);
-      bool bullInd = (bv >= m_prof.minVotes && bv > sv);
-      bool bearInd = (sv >= m_prof.minVotes && sv > bv);
-      // strong 1H bias can substitute for 1 missing indicator vote
-      if(!bullInd && m_hour.bias >= 18 && bv >= 2 && bv > sv) bullInd = true;
-      if(!bearInd && m_hour.bias <= -18 && sv >= 2 && sv > bv) bearInd = true;
-      bool hourBull = (m_hour.bias >= 6);
-      bool hourBear = (m_hour.bias <= -6);
-      bool h1OkBuy  = (m_hour.h1Trend >= 0 || m_hour.bias >= 18);
-      bool h1OkSell = (m_hour.h1Trend <= 0 || m_hour.bias <= -18);
-      bool buyOk  = (score >= m_prof.minScore && bullInd && bullTF && candle >= 4 && hourBull && h1OkBuy);
-      bool sellOk = (score <= -m_prof.minScore && bearInd && bearTF && candle <= -4 && hourBear && h1OkSell);
-      r.strong = (MathAbs(score) >= m_prof.minScore * 2 && MathAbs(m_hour.bias) >= 18);
-      r.hourAligned = (buyOk || sellOk);
-      if(buyOk) r.dir = SPB_BUY;
-      else if(sellOk) r.dir = SPB_SELL;
+      r.cM1 = cM1; r.cM5 = cM5; r.cM15 = cM15; r.momentum = mom;
+
+      // 60% live chart + 40% past hour memory
+      r.finalScore = (int)MathRound(r.liveScore * 0.60 + r.hourScore * 0.40);
+
+      // Accuracy boost when live and 1H agree (same sign, both meaningful)
+      if(r.liveScore > 8 && r.hourScore > 8)
+        { r.finalScore += 8; r.hourAligned = true; }
+      else if(r.liveScore < -8 && r.hourScore < -8)
+        { r.finalScore -= 8; r.hourAligned = true; }
+
+      r.strength = SPB_StrengthPct(r.finalScore, m_prof.minScore);
+      r.strengthLabel = SPB_StrengthLabel(r.strength);
+
+      bool buySignal  = (r.finalScore >= m_prof.minScore && bv >= sv);
+      bool sellSignal = (r.finalScore <= -m_prof.minScore && sv >= bv);
+
+      if(buySignal)       r.dir = SPB_BUY;
+      else if(sellSignal) r.dir = SPB_SELL;
+
+      r.strong = (r.strength >= 75);
+
       if(r.dir == SPB_BUY)
-        r.text = StringFormat("BUY sc=%d bv=%d 1H=%d %s", score, bv, m_hour.bias, m_hour.text);
+        {
+         r.action = r.strong ? "OPEN BUY (stack OK)" : "OPEN BUY";
+         r.text = StringFormat("BUY %s %d%% | live:%d 1H:%d final:%d | B:%d S:%d | M1:%d M5:%d",
+                               r.strengthLabel, r.strength, r.liveScore, r.hourScore, r.finalScore,
+                               bv, sv, cM1, cM5);
+        }
       else if(r.dir == SPB_SELL)
-        r.text = StringFormat("SELL sc=%d sv=%d 1H=%d %s", score, sv, m_hour.bias, m_hour.text);
+        {
+         r.action = r.strong ? "OPEN SELL (stack OK)" : "OPEN SELL";
+         r.text = StringFormat("SELL %s %d%% | live:%d 1H:%d final:%d | B:%d S:%d | M1:%d M5:%d",
+                               r.strengthLabel, r.strength, r.liveScore, r.hourScore, r.finalScore,
+                               bv, sv, cM1, cM5);
+        }
       else
         {
-         string why = "";
-         if(score > -m_prof.minScore && score < m_prof.minScore) why += "score;";
-         else if(score <= -m_prof.minScore) { if(!bearInd) why += StringFormat("sv:%d/%d;", sv, m_prof.minVotes);
-            if(!bearTF) why += StringFormat("bearTF(cM1:%d);", cM1);
-            if(candle > -4) why += StringFormat("candle:%d;", candle);
-            if(!hourBear) why += "1Hweak;";
-            if(!h1OkSell) why += "H1opp;"; }
-         else { if(!bullInd) why += StringFormat("bv:%d/%d;", bv, m_prof.minVotes);
-            if(!bullTF) why += StringFormat("bullTF(cM1:%d);", cM1);
-            if(candle < 4) why += StringFormat("candle:%d;", candle);
-            if(!hourBull) why += "1Hweak;";
-            if(!h1OkBuy) why += "H1opp;"; }
-         if(why == "") why = "mixed;";
-         r.text = StringFormat("WAIT sc=%d 1H=%d bv=%d sv=%d | block:%s | %s",
-                               score, m_hour.bias, bv, sv, why, m_hour.text);
+         r.action = "WATCH";
+         string lean = (r.finalScore > 5) ? "lean BUY" : (r.finalScore < -5) ? "lean SELL" : "no edge";
+         r.text = StringFormat("WATCH %s | live:%d 1H:%d final:%d | B:%d S:%d | %s",
+                               lean, r.liveScore, r.hourScore, r.finalScore, bv, sv, m_hour.summary);
         }
       return r;
      }
@@ -527,9 +510,9 @@ public:
          double p = PnL(tk);
          int age = AgeSec(tk);
          if(p >= SPB_MIN_PROFIT_USD)
-           { if(m_trade.PositionClose(tk)) { m_winsClosed++; m_consecLosses = 0; } continue; }
+           { if(m_trade.PositionClose(tk)) { m_winsClosed++; Print(m_sym, " WIN $", DoubleToString(p, 2)); } continue; }
          if(p > 0 && age >= 3)
-           { if(m_trade.PositionClose(tk)) { m_winsClosed++; m_consecLosses = 0; } continue; }
+           { if(m_trade.PositionClose(tk)) { m_winsClosed++; Print(m_sym, " micro $", DoubleToString(p, 4)); } continue; }
         }
      }
 
@@ -558,12 +541,7 @@ public:
          if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
          if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
          if((ENUM_POSITION_TYPE)PositionGetInteger(POSITION_TYPE) != side) continue;
-         double p = PnL(tk);
-         if(m_trade.PositionClose(tk))
-           {
-            if(p < 0) { m_consecLosses++; if(m_consecLosses >= SPB_MAX_CONSEC_LOSSES) m_pauseUntil = TimeCurrent() + SPB_PAUSE_AFTER_LOSS_SEC; }
-            else m_consecLosses = 0;
-           }
+         m_trade.PositionClose(tk);
         }
      }
 
@@ -583,7 +561,7 @@ public:
 
    bool Reverse(ENUM_SPB_SIGNAL dir)
      {
-      if(!LoserReadyToReverse(dir) || !HourAllows(dir)) return false;
+      if(!LoserReadyToReverse(dir)) return false;
       if(dir == SPB_BUY)  { CloseSide(POSITION_TYPE_SELL); return Open(SPB_BUY,  "Rev60"); }
       if(dir == SPB_SELL) { CloseSide(POSITION_TYPE_BUY);  return Open(SPB_SELL, "Rev60"); }
       return false;
@@ -592,18 +570,25 @@ public:
    void Tick(bool forceNow)
      {
       ManagePnL();
-      m_hour = AnalyzeHour();
-      m_lastSig = Analyze();
-      if(FloatPnL() <= -SPB_MAX_FLOAT_LOSS_USD)
-        { if(TimeCurrent() >= m_pauseUntil) m_pauseUntil = TimeCurrent() + SPB_PAUSE_AFTER_LOSS_SEC; return; }
+      m_hour = ReadHourMemory();
+      m_lastSig = BuildSignal();
+
       if(m_lastSig.dir == SPB_NONE) return;
+
       if(LoserReadyToReverse(m_lastSig.dir))
-        { if(Reverse(m_lastSig.dir)) { m_lastOpen = TimeCurrent(); m_entries++; RecordEntryTime(); return; } }
-      if(!CanEnter(m_lastSig)) return;
-      int cd = m_lastSig.strong ? 2 : 4;
+        {
+         if(Reverse(m_lastSig.dir)) { m_lastOpen = TimeCurrent(); m_entries++; return; }
+        }
+
+      int cd = m_lastSig.strong ? 0 : 1;
       if(!forceNow && m_lastOpen > 0 && (TimeCurrent() - m_lastOpen) < cd) return;
+
       if(Open(m_lastSig.dir, m_lastSig.dir == SPB_BUY ? "Buy" : "Sell"))
-        { m_lastOpen = TimeCurrent(); m_entries++; RecordEntryTime(); Print(m_sym, " ", m_lastSig.text); }
+        {
+         m_lastOpen = TimeCurrent();
+         m_entries++;
+         Print(m_sym, " ", m_lastSig.text, " | ", m_hour.summary);
+        }
      }
   };
 
@@ -646,14 +631,14 @@ void SPB_LoadMarkets()
      }
   }
 
-//===== REQUIRED EA EVENT HANDLERS ====================================
+//===== EA EVENT HANDLERS =============================================
 int OnInit()
   {
    if(InpLotSize <= 0) return INIT_PARAMETERS_INCORRECT;
    SPB_LoadMarkets();
    if(g_nBots == 0) return INIT_FAILED;
-   EventSetMillisecondTimer(SPB_SCAN_INTERVAL_MS);
-   Print("ScalpProfit v6.1 started | markets=", g_nBots);
+   EventSetMillisecondTimer(SPB_SCAN_MS);
+   Print("ScalpProfit v7 started | markets=", g_nBots, " | 1H memory=", SPB_HOUR_BARS, " bars");
    for(int i = 0; i < g_nBots; i++) g_bots[i].Tick(true);
    return INIT_SUCCEEDED;
   }
@@ -666,16 +651,22 @@ void OnDeinit(const int reason)
 
 void OnTimer()
   {
-   string hud = "=== ScalpProfit v6.1 ===\n";
+   string hud = "=== ScalpProfit v7 (signal accuracy) ===\n";
    for(int i = 0; i < g_nBots; i++)
      {
       g_bots[i].Tick(false);
       SSignalInfo s = g_bots[i].LastSignal();
-      SHourContext h = g_bots[i].HourCtx();
-      string sig = (s.dir == SPB_BUY) ? "BUY" : (s.dir == SPB_SELL) ? "SELL" : "WAIT";
-      hud += StringFormat("%s [%s] %s sc:%d 1H:%d | open:%d | float:$%.2f | wins:%d\n  %s\n",
-                          g_bots[i].Sym(), g_bots[i].Label(), sig, s.score, h.bias,
-                          g_bots[i].OpenN(), g_bots[i].FloatPnL(), g_bots[i].Wins(), s.text);
+      SHourMemory h = g_bots[i].HourMem();
+      string sig = (s.dir == SPB_BUY) ? "BUY" : (s.dir == SPB_SELL) ? "SELL" : "WATCH";
+      string align = s.hourAligned ? "ALIGNED" : "mixed";
+      hud += StringFormat(
+         "%s [%s] %s %s %d%% | %s | open:%d float:$%.2f wins:%d\n"
+         "  Live:%d 1H:%d Final:%d | B:%d S:%d | M1:%d M5:%d M15:%d\n"
+         "  %s\n  Action: %s\n",
+         g_bots[i].Sym(), g_bots[i].Label(), sig, s.strengthLabel, s.strength, align,
+         g_bots[i].OpenN(), g_bots[i].FloatPnL(), g_bots[i].Wins(),
+         s.liveScore, s.hourScore, s.finalScore, s.buyVotes, s.sellVotes,
+         s.cM1, s.cM5, s.cM15, h.summary, s.action);
      }
    Comment(hud);
   }
