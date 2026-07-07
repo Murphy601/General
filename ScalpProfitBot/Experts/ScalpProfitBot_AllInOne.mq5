@@ -1,16 +1,16 @@
 //+------------------------------------------------------------------+
-//|                                    ScalpProfitBot_AllInOne.mq5   |
-//|  ONE FILE - copy entire code into MetaEditor, compile, attach     |
-//|  Multi-TF scalping | candles | RSI/MACD/Stoch | reversal        |
+//|                              ScalpProfitBot_AllInOne.mq5  v2.0   |
+//|  ONE FILE - paste into MetaEditor, compile (F7), attach to chart |
+//|  Auto-adapts ANY symbol | fast scan | ATR scalping | no blockers |
 //+------------------------------------------------------------------+
 #property copyright   "ScalpProfitBot"
-#property version     "1.10"
-#property description "All-in-one scalping bot - no extra files needed"
+#property version     "2.00"
+#property description "v2: auto market detect, no ATR/spread blockers, instant scalping"
 
 #include <Trade/Trade.mqh>
 
 //+------------------------------------------------------------------+
-//| SECTION 1: CANDLESTICK PATTERNS                                  |
+//| CANDLESTICK PATTERNS                                             |
 //+------------------------------------------------------------------+
 struct SCandleMetrics
   {
@@ -18,684 +18,615 @@ struct SCandleMetrics
    bool   bullish, bearish;
   };
 
-bool ScalpGetCandleMetrics(const string symbol, const ENUM_TIMEFRAMES tf,
-                           const int shift, SCandleMetrics &m)
+bool ScalpGetCandle(const string symbol, const ENUM_TIMEFRAMES tf, const int shift, SCandleMetrics &m)
   {
-   m.open  = iOpen(symbol, tf, shift);
-   m.high  = iHigh(symbol, tf, shift);
-   m.low   = iLow(symbol, tf, shift);
+   m.open = iOpen(symbol, tf, shift);
+   m.high = iHigh(symbol, tf, shift);
+   m.low  = iLow(symbol, tf, shift);
    m.close = iClose(symbol, tf, shift);
-   if(m.open == 0.0 && m.high == 0.0 && m.low == 0.0 && m.close == 0.0)
-      return false;
-   m.body      = MathAbs(m.close - m.open);
-   m.range     = m.high - m.low;
+   if(m.open == 0.0 && m.high == 0.0 && m.low == 0.0 && m.close == 0.0) return false;
+   m.body = MathAbs(m.close - m.open);
+   m.range = m.high - m.low;
    m.upperWick = m.high - MathMax(m.open, m.close);
    m.lowerWick = MathMin(m.open, m.close) - m.low;
-   m.bullish   = (m.close > m.open);
-   m.bearish   = (m.close < m.open);
+   m.bullish = (m.close > m.open);
+   m.bearish = (m.close < m.open);
    return (m.range > 0.0);
   }
 
-double ScalpBodyRatio(const SCandleMetrics &m)
-  {
-   return (m.range <= 0.0) ? 0.0 : m.body / m.range;
-  }
+double ScalpBodyRatio(const SCandleMetrics &m) { return (m.range <= 0.0) ? 0.0 : m.body / m.range; }
 
-bool ScalpIsDoji(const SCandleMetrics &m, const double maxBodyRatio = 0.12)
-  {
-   return (ScalpBodyRatio(m) <= maxBodyRatio);
-  }
-
-bool ScalpIsBullishEngulfing(const string symbol, const ENUM_TIMEFRAMES tf, const int shift)
+bool ScalpIsBullishEngulfing(const string s, const ENUM_TIMEFRAMES tf, const int sh)
   {
    SCandleMetrics c1, c0;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift + 1, c1)) return false;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift, c0)) return false;
-   if(!c1.bearish || !c0.bullish) return false;
-   return (c0.open <= c1.close && c0.close >= c1.open && c0.body > c1.body * 0.85);
+   if(!ScalpGetCandle(s, tf, sh + 1, c1) || !ScalpGetCandle(s, tf, sh, c0)) return false;
+   return (c1.bearish && c0.bullish && c0.open <= c1.close && c0.close >= c1.open && c0.body > c1.body * 0.8);
   }
 
-bool ScalpIsBearishEngulfing(const string symbol, const ENUM_TIMEFRAMES tf, const int shift)
+bool ScalpIsBearishEngulfing(const string s, const ENUM_TIMEFRAMES tf, const int sh)
   {
    SCandleMetrics c1, c0;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift + 1, c1)) return false;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift, c0)) return false;
-   if(!c1.bullish || !c0.bearish) return false;
-   return (c0.open >= c1.close && c0.close <= c1.open && c0.body > c1.body * 0.85);
+   if(!ScalpGetCandle(s, tf, sh + 1, c1) || !ScalpGetCandle(s, tf, sh, c0)) return false;
+   return (c1.bullish && c0.bearish && c0.open >= c1.close && c0.close <= c1.open && c0.body > c1.body * 0.8);
   }
 
-bool ScalpIsHammer(const SCandleMetrics &m, const bool bullishContext = true)
+bool ScalpIsHammer(const SCandleMetrics &m)
   {
    if(m.range <= 0.0) return false;
-   const double bodyRatio  = ScalpBodyRatio(m);
-   const double lowerRatio = m.lowerWick / m.range;
-   const double upperRatio = m.upperWick / m.range;
-   if(bodyRatio > 0.35 || lowerRatio < 0.55 || upperRatio > 0.20) return false;
-   return bullishContext ? true : (m.close >= m.open);
+   return (ScalpBodyRatio(m) <= 0.35 && m.lowerWick / m.range >= 0.55 && m.upperWick / m.range <= 0.20);
   }
 
 bool ScalpIsShootingStar(const SCandleMetrics &m)
   {
    if(m.range <= 0.0) return false;
-   const double bodyRatio  = ScalpBodyRatio(m);
-   const double upperRatio = m.upperWick / m.range;
-   const double lowerRatio = m.lowerWick / m.range;
-   if(bodyRatio > 0.35 || upperRatio < 0.55 || lowerRatio > 0.20) return false;
-   return true;
+   return (ScalpBodyRatio(m) <= 0.35 && m.upperWick / m.range >= 0.55 && m.lowerWick / m.range <= 0.20);
   }
 
-bool ScalpIsThreeWhiteSoldiers(const string symbol, const ENUM_TIMEFRAMES tf, const int shift)
+int ScalpCandleScore(const string s, const ENUM_TIMEFRAMES tf, const int sh)
   {
-   SCandleMetrics c2, c1, c0;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift + 2, c2)) return false;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift + 1, c1)) return false;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift, c0)) return false;
-   if(!c2.bullish || !c1.bullish || !c0.bullish) return false;
-   if(!(c1.close > c2.close && c0.close > c1.close)) return false;
-   if(!(c1.open >= c2.open && c1.open <= c2.close)) return false;
-   if(!(c0.open >= c1.open && c0.open <= c1.close)) return false;
-   return true;
-  }
-
-bool ScalpIsThreeBlackCrows(const string symbol, const ENUM_TIMEFRAMES tf, const int shift)
-  {
-   SCandleMetrics c2, c1, c0;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift + 2, c2)) return false;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift + 1, c1)) return false;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift, c0)) return false;
-   if(!c2.bearish || !c1.bearish || !c0.bearish) return false;
-   if(!(c1.close < c2.close && c0.close < c1.close)) return false;
-   if(!(c1.open <= c2.open && c1.open >= c2.close)) return false;
-   if(!(c0.open <= c1.open && c0.open >= c1.close)) return false;
-   return true;
-  }
-
-int ScalpCandlePatternScore(const string symbol, const ENUM_TIMEFRAMES tf, const int shift)
-  {
-   int score = 0;
    SCandleMetrics c0;
-   if(!ScalpGetCandleMetrics(symbol, tf, shift, c0)) return 0;
-   if(ScalpIsBullishEngulfing(symbol, tf, shift)) score += 18;
-   if(ScalpIsBearishEngulfing(symbol, tf, shift)) score -= 18;
-   if(ScalpIsHammer(c0, true)) score += 12;
-   if(ScalpIsShootingStar(c0)) score -= 12;
-   if(ScalpIsThreeWhiteSoldiers(symbol, tf, shift)) score += 15;
-   if(ScalpIsThreeBlackCrows(symbol, tf, shift)) score -= 15;
-   if(ScalpIsDoji(c0))
+   if(!ScalpGetCandle(s, tf, sh, c0)) return 0;
+   int score = 0;
+   if(ScalpIsBullishEngulfing(s, tf, sh)) score += 20;
+   if(ScalpIsBearishEngulfing(s, tf, sh)) score -= 20;
+   if(ScalpIsHammer(c0)) score += 14;
+   if(ScalpIsShootingStar(c0)) score -= 14;
+   if(c0.bullish && ScalpBodyRatio(c0) > 0.60) score += 8;
+   if(c0.bearish && ScalpBodyRatio(c0) > 0.60) score -= 8;
+   SCandleMetrics c1;
+   if(ScalpGetCandle(s, tf, sh + 1, c1))
      {
-      SCandleMetrics c1;
-      if(ScalpGetCandleMetrics(symbol, tf, shift + 1, c1))
-        {
-         if(c1.bearish && c0.close >= c1.close) score += 6;
-         if(c1.bullish && c0.close <= c1.close) score -= 6;
-        }
+      if(c1.bearish && c0.bullish && c0.close > c1.high) score += 10;
+      if(c1.bullish && c0.bearish && c0.close < c1.low) score -= 10;
      }
-   if(c0.bullish && ScalpBodyRatio(c0) > 0.65) score += 5;
-   if(c0.bearish && ScalpBodyRatio(c0) > 0.65) score -= 5;
    return score;
   }
 
 //+------------------------------------------------------------------+
-//| SECTION 2: SIGNAL ENGINE                                         |
+//| AUTO MARKET PROFILE (adapts forex / gold / indices automatically) |
 //+------------------------------------------------------------------+
-enum ENUM_SCALP_SIGNAL
+struct SMarketProfile
   {
-   SCALP_SIGNAL_NONE = 0,
-   SCALP_SIGNAL_BUY  = 1,
-   SCALP_SIGNAL_SELL = -1
+   double tpAtrMult;
+   double slAtrMult;
+   double trailStartAtr;
+   double trailStepAtr;
+   int    minScore;
+   int    minVotes;
+   string typeName;
   };
+
+SMarketProfile BuildMarketProfile(const string symbol)
+  {
+   SMarketProfile p;
+   p.tpAtrMult = 0.22;
+   p.slAtrMult = 0.45;
+   p.trailStartAtr = 0.10;
+   p.trailStepAtr = 0.06;
+   p.minScore = 16;
+   p.minVotes = 2;
+   p.typeName = "FOREX";
+
+   const string sym = symbol;
+   if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0)
+     {
+      p.tpAtrMult = 0.20; p.slAtrMult = 0.40;
+      p.trailStartAtr = 0.08; p.trailStepAtr = 0.05;
+      p.minScore = 14; p.minVotes = 2;
+      p.typeName = "GOLD";
+     }
+   else if(StringFind(sym, "BTC") >= 0 || StringFind(sym, "ETH") >= 0)
+     {
+      p.tpAtrMult = 0.25; p.slAtrMult = 0.50;
+      p.minScore = 15; p.typeName = "CRYPTO";
+     }
+   else if(StringFind(sym, "US30") >= 0 || StringFind(sym, "US100") >= 0 ||
+           StringFind(sym, "UT100") >= 0 || StringFind(sym, "NAS") >= 0 ||
+           StringFind(sym, "SPX") >= 0 || StringFind(sym, "DAX") >= 0 ||
+           StringFind(sym, "JPN") >= 0)
+     {
+      p.tpAtrMult = 0.18; p.slAtrMult = 0.38;
+      p.trailStartAtr = 0.09; p.trailStepAtr = 0.05;
+      p.minScore = 14; p.typeName = "INDEX";
+     }
+   return p;
+  }
+
+//+------------------------------------------------------------------+
+//| SIGNAL ENGINE                                                    |
+//+------------------------------------------------------------------+
+enum ENUM_SCALP_SIGNAL { SCALP_NONE = 0, SCALP_BUY = 1, SCALP_SELL = -1 };
 
 struct SSignalResult
   {
-   ENUM_SCALP_SIGNAL direction;
-   int               score, buyVotes, sellVotes;
-   string            reason;
+   ENUM_SCALP_SIGNAL dir;
+   int    score, votes, candleScore, momentum;
+   string reason;
   };
 
 class CSignalEngine
   {
 private:
-   string          m_symbol;
-   ENUM_TIMEFRAMES m_tfExec, m_tfFast, m_tfMid, m_tfSlow;
-   int             m_emaFastExec, m_emaSlowExec, m_rsiHandle, m_macdHandle, m_stochHandle, m_atrHandle;
-   int             m_minConfluence, m_minCandleScore;
+   string          m_sym;
+   ENUM_TIMEFRAMES m_tf1, m_tf2, m_tf3;
+   int             m_rsi, m_macd, m_stoch, m_atr, m_emaF, m_emaS;
+   SMarketProfile  m_prof;
+   double          m_lastBid;
+   datetime        m_lastTickTime;
+   int             m_tickDir;
 
-   bool ResetHandle(int &handle)
+   bool GetBuf(const int h, const int buf, const int cnt, double &arr[]) const
      {
-      if(handle != INVALID_HANDLE) { IndicatorRelease(handle); handle = INVALID_HANDLE; }
-      return true;
+      ArraySetAsSeries(arr, true);
+      return (CopyBuffer(h, buf, 0, cnt, arr) >= cnt);
      }
 
-   bool EmaTrend(const ENUM_TIMEFRAMES tf, const int fastPeriod, const int slowPeriod, int &vote) const
+   int EmaVoteTF(const ENUM_TIMEFRAMES tf) const
      {
-      const int fastHandle = iMA(m_symbol, tf, fastPeriod, 0, MODE_EMA, PRICE_CLOSE);
-      const int slowHandle = iMA(m_symbol, tf, slowPeriod, 0, MODE_EMA, PRICE_CLOSE);
-      if(fastHandle == INVALID_HANDLE || slowHandle == INVALID_HANDLE)
+      const int fh = iMA(m_sym, tf, 8, 0, MODE_EMA, PRICE_CLOSE);
+      const int sh = iMA(m_sym, tf, 21, 0, MODE_EMA, PRICE_CLOSE);
+      if(fh == INVALID_HANDLE || sh == INVALID_HANDLE)
         {
-         if(fastHandle != INVALID_HANDLE) IndicatorRelease(fastHandle);
-         if(slowHandle != INVALID_HANDLE) IndicatorRelease(slowHandle);
-         return false;
+         if(fh != INVALID_HANDLE) IndicatorRelease(fh);
+         if(sh != INVALID_HANDLE) IndicatorRelease(sh);
+         return 0;
         }
-      double fastBuf[], slowBuf[];
-      ArraySetAsSeries(fastBuf, true);
-      ArraySetAsSeries(slowBuf, true);
-      if(CopyBuffer(fastHandle, 0, 0, 3, fastBuf) < 3 || CopyBuffer(slowHandle, 0, 0, 3, slowBuf) < 3)
+      double f[], s[];
+      ArraySetAsSeries(f, true); ArraySetAsSeries(s, true);
+      int v = 0;
+      if(CopyBuffer(fh, 0, 0, 3, f) >= 3 && CopyBuffer(sh, 0, 0, 3, s) >= 3)
         {
-         IndicatorRelease(fastHandle);
-         IndicatorRelease(slowHandle);
-         return false;
+         const double px = iClose(m_sym, tf, 0);
+         if(f[0] > s[0] && px > f[0] && f[0] >= f[1]) v = 1;
+         else if(f[0] < s[0] && px < f[0] && f[0] <= f[1]) v = -1;
         }
-      const double price = iClose(m_symbol, tf, 0);
-      if(fastBuf[0] > slowBuf[0] && price > fastBuf[0] && fastBuf[0] > fastBuf[1]) vote += 1;
-      else if(fastBuf[0] < slowBuf[0] && price < fastBuf[0] && fastBuf[0] < fastBuf[1]) vote -= 1;
-      IndicatorRelease(fastHandle);
-      IndicatorRelease(slowHandle);
-      return true;
+      IndicatorRelease(fh);
+      IndicatorRelease(sh);
+      return v;
      }
 
-   bool RsiVote(int &vote) const
+   int RsiVote() const
      {
-      double rsi[];
-      ArraySetAsSeries(rsi, true);
-      if(CopyBuffer(m_rsiHandle, 0, 0, 3, rsi) < 3) return false;
-      if(rsi[1] < 32.0 && rsi[0] > rsi[1] && rsi[0] < 55.0) vote += 1;
-      else if(rsi[1] > 68.0 && rsi[0] < rsi[1] && rsi[0] > 45.0) vote -= 1;
-      else if(rsi[0] > 52.0 && rsi[0] > rsi[1]) vote += 1;
-      else if(rsi[0] < 48.0 && rsi[0] < rsi[1]) vote -= 1;
-      return true;
+      double r[];
+      if(!GetBuf(m_rsi, 0, 3, r)) return 0;
+      if(r[1] < 35.0 && r[0] > r[1]) return 1;
+      if(r[1] > 65.0 && r[0] < r[1]) return -1;
+      if(r[0] > 53.0 && r[0] > r[1]) return 1;
+      if(r[0] < 47.0 && r[0] < r[1]) return -1;
+      return 0;
      }
 
-   bool MacdVote(int &vote) const
+   int MacdVote() const
      {
-      double main[], signal[];
-      ArraySetAsSeries(main, true);
-      ArraySetAsSeries(signal, true);
-      if(CopyBuffer(m_macdHandle, 0, 0, 3, main) < 3) return false;
-      if(CopyBuffer(m_macdHandle, 1, 0, 3, signal) < 3) return false;
-      if(main[0] > signal[0] && main[0] > main[1]) vote += 1;
-      else if(main[0] < signal[0] && main[0] < main[1]) vote -= 1;
-      return true;
+      double m[], s[];
+      if(!GetBuf(m_macd, 0, 3, m) || !GetBuf(m_macd, 1, 3, s)) return 0;
+      if(m[0] > s[0] && m[0] > m[1]) return 1;
+      if(m[0] < s[0] && m[0] < m[1]) return -1;
+      return 0;
      }
 
-   bool StochVote(int &vote) const
+   int StochVote() const
      {
       double k[], d[];
-      ArraySetAsSeries(k, true);
-      ArraySetAsSeries(d, true);
-      if(CopyBuffer(m_stochHandle, 0, 0, 3, k) < 3) return false;
-      if(CopyBuffer(m_stochHandle, 1, 0, 3, d) < 3) return false;
-      if(k[1] < 22.0 && k[0] > d[0] && k[0] > k[1]) vote += 1;
-      else if(k[1] > 78.0 && k[0] < d[0] && k[0] < k[1]) vote -= 1;
-      return true;
+      if(!GetBuf(m_stoch, 0, 3, k) || !GetBuf(m_stoch, 1, 3, d)) return 0;
+      if(k[1] < 25.0 && k[0] > d[0] && k[0] > k[1]) return 1;
+      if(k[1] > 75.0 && k[0] < d[0] && k[0] < k[1]) return -1;
+      return 0;
      }
 
-   bool ExecEmaVote(int &vote) const
+   int EmaExecVote() const
      {
-      double fast[], slow[];
-      ArraySetAsSeries(fast, true);
-      ArraySetAsSeries(slow, true);
-      if(CopyBuffer(m_emaFastExec, 0, 0, 2, fast) < 2) return false;
-      if(CopyBuffer(m_emaSlowExec, 0, 0, 2, slow) < 2) return false;
-      const double price = SymbolInfoDouble(m_symbol, SYMBOL_BID);
-      if(price > fast[0] && fast[0] > slow[0]) vote += 1;
-      else if(price < fast[0] && fast[0] < slow[0]) vote -= 1;
-      return true;
+      double f[], s[];
+      if(!GetBuf(m_emaF, 0, 2, f) || !GetBuf(m_emaS, 0, 2, s)) return 0;
+      const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
+      if(bid > f[0] && f[0] > s[0]) return 1;
+      if(bid < f[0] && f[0] < s[0]) return -1;
+      return 0;
+     }
+
+   int TickMomentum()
+     {
+      const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
+      const datetime now = TimeCurrent();
+      if(m_lastBid > 0.0 && now == m_lastTickTime)
+        {
+         if(bid > m_lastBid) m_tickDir++;
+         else if(bid < m_lastBid) m_tickDir--;
+        }
+      else
+         m_tickDir = 0;
+      m_lastBid = bid;
+      m_lastTickTime = now;
+      if(m_tickDir > 2) return 1;
+      if(m_tickDir < -2) return -1;
+      return 0;
+     }
+
+   double AtrValue() const
+     {
+      double a[];
+      if(!GetBuf(m_atr, 0, 1, a)) return 0.0;
+      return a[0];
      }
 
 public:
-   CSignalEngine(void)
+   CSignalEngine() : m_rsi(INVALID_HANDLE), m_macd(INVALID_HANDLE), m_stoch(INVALID_HANDLE),
+                     m_atr(INVALID_HANDLE), m_emaF(INVALID_HANDLE), m_emaS(INVALID_HANDLE),
+                     m_lastBid(0), m_lastTickTime(0), m_tickDir(0)
      {
-      m_symbol = _Symbol;
-      m_tfExec = PERIOD_M1; m_tfFast = PERIOD_M1; m_tfMid = PERIOD_M5; m_tfSlow = PERIOD_M15;
-      m_emaFastExec = m_emaSlowExec = m_rsiHandle = m_macdHandle = m_stochHandle = m_atrHandle = INVALID_HANDLE;
-      m_minConfluence = 72; m_minCandleScore = 8;
+      m_sym = _Symbol;
+      m_tf1 = PERIOD_M1; m_tf2 = PERIOD_M5; m_tf3 = PERIOD_M15;
+      m_prof = BuildMarketProfile(m_sym);
      }
 
-   ~CSignalEngine(void)
+   ~CSignalEngine()
      {
-      ResetHandle(m_emaFastExec); ResetHandle(m_emaSlowExec);
-      ResetHandle(m_rsiHandle); ResetHandle(m_macdHandle);
-      ResetHandle(m_stochHandle); ResetHandle(m_atrHandle);
+      if(m_rsi != INVALID_HANDLE) IndicatorRelease(m_rsi);
+      if(m_macd != INVALID_HANDLE) IndicatorRelease(m_macd);
+      if(m_stoch != INVALID_HANDLE) IndicatorRelease(m_stoch);
+      if(m_atr != INVALID_HANDLE) IndicatorRelease(m_atr);
+      if(m_emaF != INVALID_HANDLE) IndicatorRelease(m_emaF);
+      if(m_emaS != INVALID_HANDLE) IndicatorRelease(m_emaS);
      }
 
-   void Configure(const string symbol, const ENUM_TIMEFRAMES tfExec,
-                  const ENUM_TIMEFRAMES tfFast, const ENUM_TIMEFRAMES tfMid,
-                  const ENUM_TIMEFRAMES tfSlow, const int minConfluence, const int minCandleScore)
+   bool Init()
      {
-      m_symbol = symbol; m_tfExec = tfExec; m_tfFast = tfFast;
-      m_tfMid = tfMid; m_tfSlow = tfSlow;
-      m_minConfluence = minConfluence; m_minCandleScore = minCandleScore;
+      m_prof = BuildMarketProfile(m_sym);
+      m_rsi  = iRSI(m_sym, m_tf1, 14, PRICE_CLOSE);
+      m_macd = iMACD(m_sym, m_tf1, 12, 26, 9, PRICE_CLOSE);
+      m_stoch = iStochastic(m_sym, m_tf1, 5, 3, 3, MODE_SMA, STO_LOWHIGH);
+      m_atr  = iATR(m_sym, m_tf1, 14);
+      m_emaF = iMA(m_sym, m_tf1, 8, 0, MODE_EMA, PRICE_CLOSE);
+      m_emaS = iMA(m_sym, m_tf1, 21, 0, MODE_EMA, PRICE_CLOSE);
+      return (m_rsi != INVALID_HANDLE && m_macd != INVALID_HANDLE &&
+              m_stoch != INVALID_HANDLE && m_atr != INVALID_HANDLE &&
+              m_emaF != INVALID_HANDLE && m_emaS != INVALID_HANDLE);
      }
 
-   bool Init(void)
+   SMarketProfile Profile() const { return m_prof; }
+
+   double AtrPoints() const
      {
-      ResetHandle(m_emaFastExec); ResetHandle(m_emaSlowExec);
-      ResetHandle(m_rsiHandle); ResetHandle(m_macdHandle);
-      ResetHandle(m_stochHandle); ResetHandle(m_atrHandle);
-      m_emaFastExec = iMA(m_symbol, m_tfExec, 8, 0, MODE_EMA, PRICE_CLOSE);
-      m_emaSlowExec = iMA(m_symbol, m_tfExec, 21, 0, MODE_EMA, PRICE_CLOSE);
-      m_rsiHandle   = iRSI(m_symbol, m_tfExec, 14, PRICE_CLOSE);
-      m_macdHandle  = iMACD(m_symbol, m_tfExec, 12, 26, 9, PRICE_CLOSE);
-      m_stochHandle = iStochastic(m_symbol, m_tfExec, 5, 3, 3, MODE_SMA, STO_LOWHIGH);
-      m_atrHandle   = iATR(m_symbol, m_tfExec, 14);
-      return (m_emaFastExec != INVALID_HANDLE && m_emaSlowExec != INVALID_HANDLE &&
-              m_rsiHandle != INVALID_HANDLE && m_macdHandle != INVALID_HANDLE &&
-              m_stochHandle != INVALID_HANDLE && m_atrHandle != INVALID_HANDLE);
+      const double pt = SymbolInfoDouble(m_sym, SYMBOL_POINT);
+      if(pt <= 0.0) return 0.0;
+      return AtrValue() / pt;
      }
 
-   bool IsMarketTradable(const int maxSpreadPoints, const double minAtrPoints, const double maxAtrPoints) const
+   bool CanTrade() const
      {
-      if(SymbolInfoInteger(m_symbol, SYMBOL_SPREAD) > maxSpreadPoints) return false;
-      double atr[];
-      ArraySetAsSeries(atr, true);
-      if(CopyBuffer(m_atrHandle, 0, 0, 1, atr) < 1) return false;
-      const double atrPoints = atr[0] / _Point;
-      if(atrPoints < minAtrPoints) return false;
-      if(maxAtrPoints > 0.0 && atrPoints > maxAtrPoints) return false;
-      if(SymbolInfoInteger(m_symbol, SYMBOL_TRADE_MODE) == SYMBOL_TRADE_MODE_DISABLED) return false;
+      if(SymbolInfoInteger(m_sym, SYMBOL_TRADE_MODE) == SYMBOL_TRADE_MODE_DISABLED) return false;
       return true;
      }
 
-   double AtrPoints(void) const
+   SSignalResult Analyze()
      {
-      double atr[];
-      ArraySetAsSeries(atr, true);
-      if(CopyBuffer(m_atrHandle, 0, 0, 1, atr) < 1) return 0.0;
-      return atr[0] / _Point;
-     }
-
-   SSignalResult Evaluate(const bool allowWeakSignal = false) const
-     {
-      SSignalResult result;
-      result.direction = SCALP_SIGNAL_NONE;
-      result.score = 0; result.buyVotes = 0; result.sellVotes = 0;
-      result.reason = "No signal";
+      SSignalResult r;
+      r.dir = SCALP_NONE; r.score = 0; r.votes = 0; r.candleScore = 0;
+      r.momentum = 0; r.reason = "Scanning...";
 
       int vote = 0;
-      ExecEmaVote(vote);
-      EmaTrend(m_tfFast, 8, 21, vote);
-      EmaTrend(m_tfMid, 8, 21, vote);
-      EmaTrend(m_tfSlow, 21, 50, vote);
-      RsiVote(vote); MacdVote(vote); StochVote(vote);
+      vote += EmaExecVote();
+      vote += EmaVoteTF(m_tf1);
+      vote += EmaVoteTF(m_tf2);
+      vote += EmaVoteTF(m_tf3);
+      vote += RsiVote();
+      vote += MacdVote();
+      vote += StochVote();
+      const int mom = TickMomentum();
+      vote += mom;
 
-      const int candleExec = ScalpCandlePatternScore(m_symbol, m_tfExec, 1);
-      const int candleMid  = ScalpCandlePatternScore(m_symbol, m_tfMid, 1);
-      const int candleScore = candleExec + (int)MathRound(candleMid * 0.6);
-      const int score = vote * 12 + candleScore;
+      const int c1 = ScalpCandleScore(m_sym, m_tf1, 1);
+      const int c2 = ScalpCandleScore(m_sym, m_tf2, 1);
+      const int candle = c1 + (int)MathRound(c2 * 0.5);
 
-      if(vote > 0) result.buyVotes = vote;
-      if(vote < 0) result.sellVotes = -vote;
-      result.score = score;
+      int score = vote * 10 + candle;
+      if(mom != 0) score += mom * 5;
 
-      const int threshold = allowWeakSignal ? (m_minConfluence - 12) : m_minConfluence;
-      if(score >= threshold && candleScore >= m_minCandleScore)
+      r.votes = vote;
+      r.candleScore = candle;
+      r.momentum = mom;
+      r.score = score;
+
+      const int buyVotes  = (vote > 0) ? vote : 0;
+      const int sellVotes = (vote < 0) ? -vote : 0;
+      const bool buyCandle  = (candle >= 3);
+      const bool sellCandle = (candle <= -3);
+
+      // Accuracy gate: need indicator votes + candle agreement (no spread/ATR blockers)
+      const bool buyOk  = (score >= m_prof.minScore && buyVotes >= m_prof.minVotes && buyCandle);
+      const bool sellOk = (score <= -m_prof.minScore && sellVotes >= m_prof.minVotes && sellCandle);
+
+      if(buyOk && score > -score)
         {
-         result.direction = SCALP_SIGNAL_BUY;
-         result.reason = StringFormat("BUY confluence=%d candle=%d votes=%d", score, candleScore, vote);
+         r.dir = SCALP_BUY;
+         r.reason = StringFormat("BUY score=%d votes=%d candle=%d mom=%d", score, vote, candle, mom);
         }
-      else if(score <= -threshold && candleScore <= -m_minCandleScore)
+      else if(sellOk && (-score) >= score)
         {
-         result.direction = SCALP_SIGNAL_SELL;
-         result.reason = StringFormat("SELL confluence=%d candle=%d votes=%d", score, candleScore, vote);
+         r.dir = SCALP_SELL;
+         r.reason = StringFormat("SELL score=%d votes=%d candle=%d mom=%d", score, vote, candle, mom);
         }
-      return result;
+      else
+         r.reason = StringFormat("Wait score=%d votes=%d candle=%d (need |score|>=%d votes>=%d)",
+                                 score, vote, candle, m_prof.minScore, m_prof.minVotes);
+
+      return r;
      }
   };
 
 //+------------------------------------------------------------------+
-//| SECTION 3: TRADE MANAGER                                         |
+//| TRADE MANAGER (ATR-based exits — works on any market)             |
 //+------------------------------------------------------------------+
 class CTradeManager
   {
 private:
-   CTrade   m_trade;
-   string   m_symbol;
-   ulong    m_magic;
-   int      m_deviation, m_maxPositions, m_digits;
-   double   m_lot, m_tpPoints, m_slPoints, m_point;
-   bool     m_useTrailing;
-   double   m_trailStartPoints, m_trailStepPoints;
+   CTrade          m_trade;
+   string          m_sym;
+   ulong           m_magic;
+   double          m_lot, m_point;
+   int             m_digits, m_maxPos;
+   SMarketProfile  m_prof;
+   int             m_atrHandle;
 
-   double NormalizePrice(const double price) const { return NormalizeDouble(price, m_digits); }
+   double NormPx(const double px) const { return NormalizeDouble(px, m_digits); }
 
-   double NormalizeLot(const double lot) const
+   double NormLot(const double lot) const
      {
-      double minLot  = SymbolInfoDouble(m_symbol, SYMBOL_VOLUME_MIN);
-      double maxLot  = SymbolInfoDouble(m_symbol, SYMBOL_VOLUME_MAX);
-      double stepLot = SymbolInfoDouble(m_symbol, SYMBOL_VOLUME_STEP);
-      if(stepLot <= 0.0) stepLot = 0.01;
-      return NormalizeDouble(MathMax(minLot, MathMin(maxLot, MathFloor(lot / stepLot) * stepLot)), 2);
+      double minL = SymbolInfoDouble(m_sym, SYMBOL_VOLUME_MIN);
+      double maxL = SymbolInfoDouble(m_sym, SYMBOL_VOLUME_MAX);
+      double step = SymbolInfoDouble(m_sym, SYMBOL_VOLUME_STEP);
+      if(step <= 0) step = 0.01;
+      return NormalizeDouble(MathMax(minL, MathMin(maxL, MathFloor(lot / step) * step)), 2);
      }
 
-   int CountPositions(const long typeFilter = -1) const
+   double Atr() const
      {
-      int count = 0;
+      double a[];
+      ArraySetAsSeries(a, true);
+      if(m_atrHandle == INVALID_HANDLE || CopyBuffer(m_atrHandle, 0, 0, 1, a) < 1) return 0.0;
+      return a[0];
+     }
+
+   int CountPos(const long typeF = -1) const
+     {
+      int n = 0;
       for(int i = 0; i < PositionsTotal(); i++)
         {
-         const ulong ticket = PositionGetTicket(i);
-         if(ticket == 0 || !PositionSelectByTicket(ticket)) continue;
-         if(PositionGetString(POSITION_SYMBOL) != m_symbol) continue;
+         if(!PositionSelectByTicket(PositionGetTicket(i))) continue;
+         if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
          if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
-         if(typeFilter >= 0 && PositionGetInteger(POSITION_TYPE) != typeFilter) continue;
-         count++;
+         if(typeF >= 0 && PositionGetInteger(POSITION_TYPE) != typeF) continue;
+         n++;
         }
-      return count;
+      return n;
      }
 
 public:
-   CTradeManager(void)
+   CTradeManager() : m_magic(880072), m_lot(0.01), m_maxPos(5), m_atrHandle(INVALID_HANDLE)
      {
-      m_symbol = _Symbol; m_magic = 880071; m_deviation = 20;
-      m_lot = 0.01; m_tpPoints = 12.0; m_slPoints = 25.0;
-      m_useTrailing = true; m_trailStartPoints = 4.0; m_trailStepPoints = 2.0;
-      m_maxPositions = 4; m_point = _Point; m_digits = _Digits;
+      m_sym = _Symbol; m_point = _Point; m_digits = _Digits;
+      m_prof = BuildMarketProfile(m_sym);
      }
 
-   void Configure(const string symbol, const ulong magic, const int deviation,
-                  const double lot, const double tpPoints, const double slPoints,
-                  const bool useTrailing, const double trailStartPoints,
-                  const double trailStepPoints, const int maxPositions)
+   ~CTradeManager()
      {
-      m_symbol = symbol; m_magic = magic; m_deviation = deviation;
-      m_lot = lot; m_tpPoints = tpPoints; m_slPoints = slPoints;
-      m_useTrailing = useTrailing; m_trailStartPoints = trailStartPoints;
-      m_trailStepPoints = trailStepPoints; m_maxPositions = maxPositions;
-      m_point = SymbolInfoDouble(symbol, SYMBOL_POINT);
-      m_digits = (int)SymbolInfoInteger(symbol, SYMBOL_DIGITS);
+      if(m_atrHandle != INVALID_HANDLE) IndicatorRelease(m_atrHandle);
+     }
+
+   void Setup(const string sym, const double lot, const SMarketProfile &prof)
+     {
+      m_sym = sym; m_lot = lot; m_prof = prof;
+      m_point = SymbolInfoDouble(sym, SYMBOL_POINT);
+      m_digits = (int)SymbolInfoInteger(sym, SYMBOL_DIGITS);
       m_trade.SetExpertMagicNumber((long)m_magic);
-      m_trade.SetDeviationInPoints(m_deviation);
-      m_trade.SetTypeFillingBySymbol(m_symbol);
+      m_trade.SetDeviationInPoints(30);
+      m_trade.SetTypeFillingBySymbol(m_sym);
+      if(m_atrHandle != INVALID_HANDLE) IndicatorRelease(m_atrHandle);
+      m_atrHandle = iATR(m_sym, PERIOD_M1, 14);
      }
 
-   int TotalPositions(void) const { return CountPositions(-1); }
-   int BuyCount(void) const { return CountPositions(POSITION_TYPE_BUY); }
-   int SellCount(void) const { return CountPositions(POSITION_TYPE_SELL); }
+   int Total() const { return CountPos(); }
+   int Buys()  const { return CountPos(POSITION_TYPE_BUY); }
+   int Sells() const { return CountPos(POSITION_TYPE_SELL); }
 
-   bool CloseDirection(const ENUM_POSITION_TYPE type)
+   void CloseType(const ENUM_POSITION_TYPE t)
      {
-      bool ok = true;
       for(int i = PositionsTotal() - 1; i >= 0; i--)
         {
-         const ulong ticket = PositionGetTicket(i);
-         if(ticket == 0 || !PositionSelectByTicket(ticket)) continue;
-         if(PositionGetString(POSITION_SYMBOL) != m_symbol) continue;
+         const ulong tk = PositionGetTicket(i);
+         if(!PositionSelectByTicket(tk)) continue;
+         if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
          if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
-         if((ENUM_POSITION_TYPE)PositionGetInteger(POSITION_TYPE) != type) continue;
-         ok &= m_trade.PositionClose(ticket);
+         if((ENUM_POSITION_TYPE)PositionGetInteger(POSITION_TYPE) != t) continue;
+         m_trade.PositionClose(tk);
         }
-      return ok;
      }
 
-   bool OpenBuy(const string comment)
+   bool Open(const ENUM_SCALP_SIGNAL dir, const string tag)
      {
-      if(CountPositions(-1) >= m_maxPositions) return false;
-      const double ask = SymbolInfoDouble(m_symbol, SYMBOL_ASK);
-      const double sl = (m_slPoints > 0.0) ? NormalizePrice(ask - m_slPoints * m_point) : 0.0;
-      const double tp = (m_tpPoints > 0.0) ? NormalizePrice(ask + m_tpPoints * m_point) : 0.0;
-      return m_trade.Buy(NormalizeLot(m_lot), m_symbol, ask, sl, tp, comment);
-     }
+      if(CountPos() >= m_maxPos) return false;
+      const double atr = Atr();
+      if(atr <= 0.0) return false;
 
-   bool OpenSell(const string comment)
-     {
-      if(CountPositions(-1) >= m_maxPositions) return false;
-      const double bid = SymbolInfoDouble(m_symbol, SYMBOL_BID);
-      const double sl = (m_slPoints > 0.0) ? NormalizePrice(bid + m_slPoints * m_point) : 0.0;
-      const double tp = (m_tpPoints > 0.0) ? NormalizePrice(bid - m_tpPoints * m_point) : 0.0;
-      return m_trade.Sell(NormalizeLot(m_lot), m_symbol, bid, sl, tp, comment);
-     }
+      const double tpDist = atr * m_prof.tpAtrMult;
+      const double slDist = atr * m_prof.slAtrMult;
 
-   bool ReverseTo(const ENUM_SCALP_SIGNAL newDirection, const string comment)
-     {
-      if(newDirection == SCALP_SIGNAL_BUY)  { CloseDirection(POSITION_TYPE_SELL); return OpenBuy(comment); }
-      if(newDirection == SCALP_SIGNAL_SELL) { CloseDirection(POSITION_TYPE_BUY);  return OpenSell(comment); }
+      if(dir == SCALP_BUY)
+        {
+         const double ask = SymbolInfoDouble(m_sym, SYMBOL_ASK);
+         return m_trade.Buy(NormLot(m_lot), m_sym, ask,
+                            NormPx(ask - slDist), NormPx(ask + tpDist), tag);
+        }
+      if(dir == SCALP_SELL)
+        {
+         const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
+         return m_trade.Sell(NormLot(m_lot), m_sym, bid,
+                             NormPx(bid + slDist), NormPx(bid - tpDist), tag);
+        }
       return false;
      }
 
-   void ManageOpenPositions(void)
+   bool Reverse(const ENUM_SCALP_SIGNAL dir, const string tag)
      {
+      if(dir == SCALP_BUY)  { CloseType(POSITION_TYPE_SELL); return Open(SCALP_BUY, tag); }
+      if(dir == SCALP_SELL) { CloseType(POSITION_TYPE_BUY);  return Open(SCALP_SELL, tag); }
+      return false;
+     }
+
+   bool IsWrongWay(const ENUM_SCALP_SIGNAL wantDir) const
+     {
+      const double atr = Atr();
+      if(atr <= 0.0) return false;
+      const double lossDist = atr * 0.15;
+      const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
+      const double ask = SymbolInfoDouble(m_sym, SYMBOL_ASK);
+
       for(int i = 0; i < PositionsTotal(); i++)
         {
-         const ulong ticket = PositionGetTicket(i);
-         if(ticket == 0 || !PositionSelectByTicket(ticket)) continue;
-         if(PositionGetString(POSITION_SYMBOL) != m_symbol) continue;
+         if(!PositionSelectByTicket(PositionGetTicket(i))) continue;
+         if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
+         if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
+         const double op = PositionGetDouble(POSITION_PRICE_OPEN);
+         const long type = PositionGetInteger(POSITION_TYPE);
+         if(wantDir == SCALP_BUY && type == POSITION_TYPE_SELL && (ask - op) >= lossDist) return true;
+         if(wantDir == SCALP_SELL && type == POSITION_TYPE_BUY && (op - bid) >= lossDist) return true;
+        }
+      return false;
+     }
+
+   void Manage()
+     {
+      const double atr = Atr();
+      if(atr <= 0.0) return;
+      const double trailStart = atr * m_prof.trailStartAtr;
+      const double trailStep  = atr * m_prof.trailStepAtr;
+      const double quickTP    = atr * m_prof.tpAtrMult * 0.80;
+
+      for(int i = 0; i < PositionsTotal(); i++)
+        {
+         const ulong tk = PositionGetTicket(i);
+         if(!PositionSelectByTicket(tk)) continue;
+         if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
          if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
 
-         const ENUM_POSITION_TYPE type = (ENUM_POSITION_TYPE)PositionGetInteger(POSITION_TYPE);
-         const double openPrice = PositionGetDouble(POSITION_PRICE_OPEN);
+         const long type = PositionGetInteger(POSITION_TYPE);
+         const double op = PositionGetDouble(POSITION_PRICE_OPEN);
          double sl = PositionGetDouble(POSITION_SL);
          double tp = PositionGetDouble(POSITION_TP);
-         const double bid = SymbolInfoDouble(m_symbol, SYMBOL_BID);
-         const double ask = SymbolInfoDouble(m_symbol, SYMBOL_ASK);
+         const double bid = SymbolInfoDouble(m_sym, SYMBOL_BID);
+         const double ask = SymbolInfoDouble(m_sym, SYMBOL_ASK);
 
          if(type == POSITION_TYPE_BUY)
            {
-            const double profitPoints = (bid - openPrice) / m_point;
-            if(m_useTrailing && profitPoints >= m_trailStartPoints)
+            const double profit = bid - op;
+            if(profit >= trailStart)
               {
-               const double newSL = NormalizePrice(bid - m_trailStepPoints * m_point);
-               if(sl == 0.0 || newSL > sl + m_point * 0.1)
-                  m_trade.PositionModify(ticket, newSL, tp);
+               const double nsl = NormPx(bid - trailStep);
+               if(sl == 0.0 || nsl > sl) m_trade.PositionModify(tk, nsl, tp);
               }
-            if(m_tpPoints > 0.0 && profitPoints >= m_tpPoints * 0.75)
+            if(profit >= quickTP * 0.7)
               {
-               const double tightTP = NormalizePrice(openPrice + m_tpPoints * 0.85 * m_point);
-               if(tp == 0.0 || tightTP < tp) m_trade.PositionModify(ticket, sl, tightTP);
+               const double ntp = NormPx(op + quickTP);
+               if(tp == 0.0 || ntp < tp) m_trade.PositionModify(tk, sl, ntp);
               }
            }
          else if(type == POSITION_TYPE_SELL)
            {
-            const double profitPoints = (openPrice - ask) / m_point;
-            if(m_useTrailing && profitPoints >= m_trailStartPoints)
+            const double profit = op - ask;
+            if(profit >= trailStart)
               {
-               const double newSL = NormalizePrice(ask + m_trailStepPoints * m_point);
-               if(sl == 0.0 || newSL < sl - m_point * 0.1)
-                  m_trade.PositionModify(ticket, newSL, tp);
+               const double nsl = NormPx(ask + trailStep);
+               if(sl == 0.0 || nsl < sl) m_trade.PositionModify(tk, nsl, tp);
               }
-            if(m_tpPoints > 0.0 && profitPoints >= m_tpPoints * 0.75)
+            if(profit >= quickTP * 0.7)
               {
-               const double tightTP = NormalizePrice(openPrice - m_tpPoints * 0.85 * m_point);
-               if(tp == 0.0 || tightTP > tp) m_trade.PositionModify(ticket, sl, tightTP);
+               const double ntp = NormPx(op - quickTP);
+               if(tp == 0.0 || ntp > tp) m_trade.PositionModify(tk, sl, ntp);
               }
            }
         }
      }
-
-   bool HasLosingDirection(const ENUM_SCALP_SIGNAL desired, const double reverseLossPoints) const
-     {
-      for(int i = 0; i < PositionsTotal(); i++)
-        {
-         const ulong ticket = PositionGetTicket(i);
-         if(ticket == 0 || !PositionSelectByTicket(ticket)) continue;
-         if(PositionGetString(POSITION_SYMBOL) != m_symbol) continue;
-         if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
-
-         const ENUM_POSITION_TYPE type = (ENUM_POSITION_TYPE)PositionGetInteger(POSITION_TYPE);
-         const double openPrice = PositionGetDouble(POSITION_PRICE_OPEN);
-         const double bid = SymbolInfoDouble(m_symbol, SYMBOL_BID);
-         const double ask = SymbolInfoDouble(m_symbol, SYMBOL_ASK);
-
-         if(desired == SCALP_SIGNAL_BUY && type == POSITION_TYPE_SELL)
-            if((ask - openPrice) / m_point >= reverseLossPoints) return true;
-         if(desired == SCALP_SIGNAL_SELL && type == POSITION_TYPE_BUY)
-            if((openPrice - bid) / m_point >= reverseLossPoints) return true;
-        }
-      return false;
-     }
   };
 
 //+------------------------------------------------------------------+
-//| SECTION 4: MAIN EXPERT ADVISOR                                   |
+//| MAIN EA — only essential inputs, everything else auto             |
 //+------------------------------------------------------------------+
-input group "=== General ==="
-input ulong           InpMagicNumber          = 880071;
-input double          InpLotSize              = 0.01;
-input int             InpMaxSpreadPoints      = 25;
-input int             InpSlippagePoints       = 20;
+input double InpLotSize = 0.01;   // Lot size
+input int    InpMaxPos  = 5;      // Max open trades
 
-input group "=== Timeframes ==="
-input ENUM_TIMEFRAMES InpTfExecution          = PERIOD_M1;
-input ENUM_TIMEFRAMES InpTfFast               = PERIOD_M1;
-input ENUM_TIMEFRAMES InpTfMid                = PERIOD_M5;
-input ENUM_TIMEFRAMES InpTfSlow               = PERIOD_M15;
-
-input group "=== Signal Accuracy Filters ==="
-input int             InpMinConfluence        = 72;
-input int             InpMinCandleScore       = 8;
-input double          InpMinAtrPoints         = 3.0;
-input double          InpMaxAtrPoints         = 180.0;
-
-input group "=== Quick Profit Scalping ==="
-input double          InpTakeProfitPoints     = 12.0;
-input double          InpStopLossPoints       = 25.0;
-input bool            InpUseTrailing          = true;
-input double          InpTrailStartPoints     = 4.0;
-input double          InpTrailStepPoints      = 2.0;
-
-input group "=== Reversal & Multi-Bet ==="
-input bool            InpEnableReversal       = true;
-input double          InpReverseLossPoints    = 6.0;
-input int             InpMaxPositions         = 4;
-input int             InpSecondsBetweenTrades = 3;
-input bool            InpTradeOnEveryTick     = true;
-
-input group "=== Risk Guard ==="
-input double          InpMaxDailyLossMoney    = 0.0;
-input int             InpMaxTradesPerDay      = 200;
-
-CSignalEngine g_signals;
-CTradeManager g_trades;
-datetime      g_lastTradeTime = 0;
-datetime      g_dayStamp = 0;
-double        g_dayStartEquity = 0.0;
-int           g_tradesToday = 0;
+CSignalEngine  g_sig;
+CTradeManager  g_trd;
+datetime       g_lastEntry = 0;
+int            g_today = 0;
+datetime       g_day = 0;
 
 int OnInit()
   {
    if(InpLotSize <= 0.0) return INIT_PARAMETERS_INCORRECT;
-   if(InpMaxPositions < 1) return INIT_PARAMETERS_INCORRECT;
-
-   g_signals.Configure(_Symbol, InpTfExecution, InpTfFast, InpTfMid, InpTfSlow,
-                       InpMinConfluence, InpMinCandleScore);
-   if(!g_signals.Init()) return INIT_FAILED;
-
-   g_trades.Configure(_Symbol, InpMagicNumber, InpSlippagePoints, InpLotSize,
-                      InpTakeProfitPoints, InpStopLossPoints, InpUseTrailing,
-                      InpTrailStartPoints, InpTrailStepPoints, InpMaxPositions);
-
-   g_dayStamp = StringToTime(TimeToString(TimeCurrent(), TIME_DATE));
-   g_dayStartEquity = AccountInfoDouble(ACCOUNT_EQUITY);
-   g_tradesToday = 0;
-   g_lastTradeTime = 0;
-
-   EventSetTimer(1);
-   Print("ScalpProfitBot All-In-One started on ", _Symbol);
-   ProcessTradingCycle(true);
+   if(!g_sig.Init()) { Print("Init failed"); return INIT_FAILED; }
+   g_trd.Setup(_Symbol, InpLotSize, g_sig.Profile());
+   g_day = StringToTime(TimeToString(TimeCurrent(), TIME_DATE));
+   g_today = 0;
+   g_lastEntry = 0;
+   EventSetMillisecondTimer(500);
+   Print("ScalpProfitBot v2 | ", _Symbol, " | profile=", g_sig.Profile().typeName,
+         " | instant scan ON");
+   RunBot(true);
    return INIT_SUCCEEDED;
   }
 
 void OnDeinit(const int reason) { EventKillTimer(); Comment(""); }
 
-void OnTimer() { g_trades.ManageOpenPositions(); }
+void OnTimer() { g_trd.Manage(); RunBot(false); }
 
 void OnTick()
   {
-   g_trades.ManageOpenPositions();
-   if(!InpTradeOnEveryTick)
-     {
-      static datetime lastBar = 0;
-      const datetime barTime = iTime(_Symbol, InpTfExecution, 0);
-      if(barTime == lastBar) return;
-      lastBar = barTime;
-     }
-   ProcessTradingCycle(false);
+   g_trd.Manage();
+   RunBot(false);
   }
 
-void ResetDailyStatsIfNeeded()
-  {
-   const datetime today = StringToTime(TimeToString(TimeCurrent(), TIME_DATE));
-   if(today != g_dayStamp)
-     {
-      g_dayStamp = today;
-      g_dayStartEquity = AccountInfoDouble(ACCOUNT_EQUITY);
-      g_tradesToday = 0;
-     }
-  }
-
-bool IsDailyRiskBlocked()
-  {
-   ResetDailyStatsIfNeeded();
-   if(g_tradesToday >= InpMaxTradesPerDay) return true;
-   if(InpMaxDailyLossMoney > 0.0)
-     {
-      const double loss = g_dayStartEquity - AccountInfoDouble(ACCOUNT_EQUITY);
-      if(loss >= InpMaxDailyLossMoney) return true;
-     }
-   return false;
-  }
-
-bool CanOpenAnotherTrade()
-  {
-   if(IsDailyRiskBlocked()) return false;
-   if(g_lastTradeTime > 0 && (TimeCurrent() - g_lastTradeTime) < InpSecondsBetweenTrades) return false;
-   return true;
-  }
-
-void UpdateChartComment(const SSignalResult &sig)
-  {
-   Comment(StringFormat(
-      "ScalpProfitBot | %s\nSignal: %s | Score: %d | Buy: %d | Sell: %d\n"
-      "Open: %d (B:%d S:%d) | Trades today: %d\nATR: %.1f | Spread: %d | %s",
-      _Symbol,
-      (sig.direction == SCALP_SIGNAL_BUY ? "BUY" : sig.direction == SCALP_SIGNAL_SELL ? "SELL" : "NONE"),
-      sig.score, sig.buyVotes, sig.sellVotes,
-      g_trades.TotalPositions(), g_trades.BuyCount(), g_trades.SellCount(), g_tradesToday,
-      g_signals.AtrPoints(), (int)SymbolInfoInteger(_Symbol, SYMBOL_SPREAD), sig.reason));
-  }
-
-void ProcessTradingCycle(const bool forceEvaluate)
+void RunBot(const bool force)
   {
    if(!TerminalInfoInteger(TERMINAL_TRADE_ALLOWED)) return;
    if(!MQLInfoInteger(MQL_TRADE_ALLOWED)) return;
+   if(!g_sig.CanTrade()) return;
 
-   if(!g_signals.IsMarketTradable(InpMaxSpreadPoints, InpMinAtrPoints, InpMaxAtrPoints))
+   const SSignalResult sig = g_sig.Analyze();
+   const SMarketProfile prof = g_sig.Profile();
+
+   Comment(StringFormat(
+      "ScalpProfitBot v2 | %s [%s]\nSignal: %s | Score: %d | Votes: %d | Candle: %d | Mom: %d\n"
+      "Open: %d (B:%d S:%d) | Today: %d | ATR: %.1f pts | Spread: %d\n%s",
+      _Symbol, prof.typeName,
+      (sig.dir == SCALP_BUY ? "BUY" : sig.dir == SCALP_SELL ? "SELL" : "NONE"),
+      sig.score, sig.votes, sig.candleScore, sig.momentum,
+      g_trd.Total(), g_trd.Buys(), g_trd.Sells(), g_today,
+      g_sig.AtrPoints(), (int)SymbolInfoInteger(_Symbol, SYMBOL_SPREAD),
+      sig.reason));
+
+   if(sig.dir == SCALP_NONE) return;
+
+   // Auto-reversal when market flips against us
+   if(g_trd.IsWrongWay(sig.dir))
      {
-      SSignalResult empty;
-      empty.direction = SCALP_SIGNAL_NONE;
-      empty.reason = "Market filtered (spread/ATR)";
-      UpdateChartComment(empty);
-      return;
+      if(g_trd.Reverse(sig.dir, "Rev"))
+        { g_lastEntry = TimeCurrent(); g_today++; return; }
      }
 
-   const SSignalResult signal = g_signals.Evaluate(false);
-   UpdateChartComment(signal);
+   // Close opposite before adding same direction
+   if(sig.dir == SCALP_BUY && g_trd.Sells() > 0) g_trd.CloseType(POSITION_TYPE_SELL);
+   if(sig.dir == SCALP_SELL && g_trd.Buys() > 0)  g_trd.CloseType(POSITION_TYPE_BUY);
 
-   if(InpEnableReversal && signal.direction != SCALP_SIGNAL_NONE)
-     {
-      if(g_trades.HasLosingDirection(signal.direction, InpReverseLossPoints))
-        {
-         if(g_trades.ReverseTo(signal.direction, "ScalpReverse"))
-           {
-            g_lastTradeTime = TimeCurrent();
-            g_tradesToday++;
-            return;
-           }
-        }
-     }
+   if(g_trd.Total() >= InpMaxPos) return;
 
-   if(signal.direction == SCALP_SIGNAL_NONE) return;
-   if(!CanOpenAnotherTrade() && !forceEvaluate) return;
+   // 1-second cooldown between new entries (fast scalping, not frozen)
+   if(!force && g_lastEntry > 0 && (TimeCurrent() - g_lastEntry) < 1) return;
 
-   if(signal.direction == SCALP_SIGNAL_BUY)
+   if(g_trd.Open(sig.dir, (sig.dir == SCALP_BUY ? "Buy" : "Sell")))
      {
-      if(g_trades.SellCount() > 0 && InpEnableReversal) g_trades.CloseDirection(POSITION_TYPE_SELL);
-      if(g_trades.TotalPositions() < InpMaxPositions && g_trades.OpenBuy("ScalpBuy"))
-        { g_lastTradeTime = TimeCurrent(); g_tradesToday++; }
-     }
-   else if(signal.direction == SCALP_SIGNAL_SELL)
-     {
-      if(g_trades.BuyCount() > 0 && InpEnableReversal) g_trades.CloseDirection(POSITION_TYPE_BUY);
-      if(g_trades.TotalPositions() < InpMaxPositions && g_trades.OpenSell("ScalpSell"))
-        { g_lastTradeTime = TimeCurrent(); g_tradesToday++; }
+      g_lastEntry = TimeCurrent();
+      g_today++;
+      Print(sig.reason);
      }
   }
 //+------------------------------------------------------------------+
