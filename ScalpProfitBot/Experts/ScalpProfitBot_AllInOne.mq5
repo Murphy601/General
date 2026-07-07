@@ -1,30 +1,37 @@
 //+------------------------------------------------------------------+
 //|                         ScalpProfitBot_AllInOne.mq5              |
-//|                         FINAL v5.0 — ONE FILE ONLY                 |
+//|                         FINAL v6.0 — ONE FILE ONLY                 |
 //+------------------------------------------------------------------+
 //| Paste into MetaEditor → Compile F7 → Attach to M1 chart          |
 //|                                                                   |
-//| FEATURES:                                                         |
-//|  • Multi-market (chart symbol + extra symbols, each isolated)    |
-//|  • Unlimited trades per market (up to 30 safety cap)             |
-//|  • M1+M5+M15 candlestick + RSI/MACD/Stoch/EMA analysis           |
-//|  • Instant profit close at $0.01+                                |
-//|  • Hold losing trades 60 seconds before reverse                   |
-//|  • Stack trades instantly when market confirms signal direction   |
-//|  • Auto-adapts FOREX / GOLD / INDEX / CRYPTO                    |
+//| v6 IMPROVEMENTS:                                                  |
+//|  • 1-hour historical signal memory per market (60 M1 bars)       |
+//|  • Live signal must ALIGN with hourly trend bias                 |
+//|  • H1 EMA trend filter — no selling into H1 uptrend, etc.         |
+//|  • No stacking into losing positions (same direction)            |
+//|  • Rate limit: max 3 new entries/min per symbol                  |
+//|  • Higher score required for 2nd+ position (pyramid on strength) |
+//|  • Pause symbol after 4 consecutive closed losses                |
+//|  • Max floating loss cap per symbol                              |
+//|  • Instant $0.01 profit close + 60s loss hold before reverse   |
 //+------------------------------------------------------------------+
 #property copyright   "ScalpProfitBot"
-#property version     "5.00"
-#property description "ScalpProfitBot v5 — multi-market scalper, one file"
+#property version     "6.00"
+#property description "ScalpProfitBot v6 — hourly memory + smart entries"
 
 #include <Trade/Trade.mqh>
 
 //===== CORE SETTINGS (built-in, no manual tuning) ==================
-#define SPB_MIN_PROFIT_USD      0.01     // close win when profit >= this
-#define SPB_LOSS_HOLD_SEC       60       // hold loser before reverse
-#define SPB_SCAN_INTERVAL_MS    200      // scan speed (milliseconds)
+#define SPB_MIN_PROFIT_USD      0.01
+#define SPB_LOSS_HOLD_SEC       60
+#define SPB_SCAN_INTERVAL_MS    200
 #define SPB_BASE_MAGIC          880090
-#define SPB_MAX_TRADES_PER_SYM  30       // safety cap when unlimited
+#define SPB_MAX_TRADES_PER_SYM  30
+#define SPB_HOUR_BARS           60       // 1 hour of M1 history
+#define SPB_MAX_ENTRIES_PER_MIN 3
+#define SPB_MAX_FLOAT_LOSS_USD  15.0     // pause symbol if floating loss exceeds this
+#define SPB_MAX_CONSEC_LOSSES   4        // pause after N closed losses in a row
+#define SPB_PAUSE_AFTER_LOSS_SEC 120     // cooldown after loss streak
 
 //===== ENUMS & STRUCTS ===============================================
 enum ENUM_SPB_SIGNAL { SPB_NONE = 0, SPB_BUY = 1, SPB_SELL = -1 };
@@ -42,12 +49,24 @@ struct SMarketProfile
    string label;
   };
 
+struct SHourContext
+  {
+   int    bias;           // -100 bearish .. +100 bullish
+   int    bullBars, bearBars;
+   double netChange;      // price change over hour
+   int    avgCandleScore; // average candle score over hour
+   int    buySignals, sellSignals; // how many bars signaled buy/sell
+   int    h1Trend;        // -1 bear, 0 neutral, +1 bull
+   string text;
+  };
+
 struct SSignalInfo
   {
    ENUM_SPB_SIGNAL dir;
    int    score, buyVotes, sellVotes;
    int    cM1, cM5, cM15, momentum;
-   bool   strong;
+   int    hourBias;
+   bool   hourAligned, strong;
    string text;
   };
 
@@ -99,15 +118,15 @@ int SPB_CandleScore(const string sym, const ENUM_TIMEFRAMES tf, const int sh)
 SMarketProfile SPB_Profile(const string sym)
   {
    SMarketProfile p;
-   p.slAtrMult = 2.5; p.minScore = 24; p.minVotes = 3; p.label = "FOREX";
+   p.slAtrMult = 2.5; p.minScore = 28; p.minVotes = 4; p.label = "FOREX";
    if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0)
-     { p.slAtrMult = 2.2; p.minScore = 22; p.label = "GOLD"; }
+     { p.slAtrMult = 2.2; p.minScore = 26; p.label = "GOLD"; }
    else if(StringFind(sym, "BTC") >= 0 || StringFind(sym, "ETH") >= 0)
-     { p.slAtrMult = 2.8; p.minScore = 23; p.label = "CRYPTO"; }
+     { p.slAtrMult = 2.8; p.minScore = 27; p.label = "CRYPTO"; }
    else if(StringFind(sym, "US30") >= 0 || StringFind(sym, "UT100") >= 0 ||
            StringFind(sym, "US100") >= 0 || StringFind(sym, "NAS") >= 0 ||
            StringFind(sym, "DAX") >= 0  || StringFind(sym, "JPN") >= 0)
-     { p.slAtrMult = 2.0; p.minScore = 22; p.label = "INDEX"; }
+     { p.slAtrMult = 2.0; p.minScore = 26; p.label = "INDEX"; }
    return p;
   }
 
@@ -132,8 +151,12 @@ private:
 
    int            m_rsi, m_macd, m_stoch, m_atr, m_emaF, m_emaS;
    datetime       m_lastOpen;
-   int            m_entries, m_winsClosed;
+   datetime       m_pauseUntil;
+   datetime       m_entryTimes[10];
+   int            m_entryTimeN;
+   int            m_entries, m_winsClosed, m_consecLosses;
    SSignalInfo    m_lastSig;
+   SHourContext   m_hour;
 
    bool Buf(const int h, const int b, const int n, double &a[]) const
      { ArraySetAsSeries(a, true); return CopyBuffer(h, b, 0, n, a) >= n; }
@@ -151,6 +174,24 @@ private:
          double px = iClose(m_sym, tf, 0);
          if(f[0] > s[0] && px > f[0] && f[0] >= f[1]) v = 1;
          else if(f[0] < s[0] && px < f[0] && f[0] <= f[1]) v = -1;
+        }
+      IndicatorRelease(fh); IndicatorRelease(sh);
+      return v;
+     }
+
+   int VoteEMAAtBar(const ENUM_TIMEFRAMES tf, const int bar) const
+     {
+      int fh = iMA(m_sym, tf, 8, 0, MODE_EMA, PRICE_CLOSE);
+      int sh = iMA(m_sym, tf, 21, 0, MODE_EMA, PRICE_CLOSE);
+      if(fh == INVALID_HANDLE || sh == INVALID_HANDLE)
+        { if(fh != INVALID_HANDLE) IndicatorRelease(fh); if(sh != INVALID_HANDLE) IndicatorRelease(sh); return 0; }
+      double f[], s[]; ArraySetAsSeries(f, true); ArraySetAsSeries(s, true);
+      int v = 0;
+      if(CopyBuffer(fh, 0, bar, 2, f) >= 2 && CopyBuffer(sh, 0, bar, 2, s) >= 2)
+        {
+         double px = iClose(m_sym, tf, bar);
+         if(f[0] > s[0] && px > f[0]) v = 1;
+         else if(f[0] < s[0] && px < f[0]) v = -1;
         }
       IndicatorRelease(fh); IndicatorRelease(sh);
       return v;
@@ -194,6 +235,24 @@ private:
       return 0;
      }
 
+   int H1Trend() const
+     {
+      int fh = iMA(m_sym, PERIOD_H1, 8, 0, MODE_EMA, PRICE_CLOSE);
+      int sh = iMA(m_sym, PERIOD_H1, 21, 0, MODE_EMA, PRICE_CLOSE);
+      if(fh == INVALID_HANDLE || sh == INVALID_HANDLE)
+        { if(fh != INVALID_HANDLE) IndicatorRelease(fh); if(sh != INVALID_HANDLE) IndicatorRelease(sh); return 0; }
+      double f[], s[]; ArraySetAsSeries(f, true); ArraySetAsSeries(s, true);
+      int v = 0;
+      if(CopyBuffer(fh, 0, 0, 3, f) >= 3 && CopyBuffer(sh, 0, 0, 3, s) >= 3)
+        {
+         double px = iClose(m_sym, PERIOD_H1, 0);
+         if(f[0] > s[0] && px > f[0] && f[0] >= f[1]) v = 1;
+         else if(f[0] < s[0] && px < f[0] && f[0] <= f[1]) v = -1;
+        }
+      IndicatorRelease(fh); IndicatorRelease(sh);
+      return v;
+     }
+
    int Momentum() const
      {
       double c0 = iClose(m_sym, PERIOD_M1, 0);
@@ -234,6 +293,20 @@ private:
       return n;
      }
 
+   bool HasLosingSide(const ENUM_POSITION_TYPE side) const
+     {
+      for(int i = 0; i < PositionsTotal(); i++)
+        {
+         ulong tk = PositionGetTicket(i);
+         if(!PositionSelectByTicket(tk)) continue;
+         if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
+         if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
+         if((ENUM_POSITION_TYPE)PositionGetInteger(POSITION_TYPE) != side) continue;
+         if(PnL(tk) < 0) return true;
+        }
+      return false;
+     }
+
    double NormLot(double lot) const
      {
       double mn = SymbolInfoDouble(m_sym, SYMBOL_VOLUME_MIN);
@@ -246,13 +319,70 @@ private:
    double NormPx(double px) const
      { return NormalizeDouble(px, (int)SymbolInfoInteger(m_sym, SYMBOL_DIGITS)); }
 
+   void RecordEntryTime()
+     {
+      datetime now = TimeCurrent();
+      if(m_entryTimeN < 10)
+        m_entryTimes[m_entryTimeN++] = now;
+      else
+        {
+         for(int i = 0; i < 9; i++) m_entryTimes[i] = m_entryTimes[i + 1];
+         m_entryTimes[9] = now;
+        }
+     }
+
+   int EntriesLastMinute() const
+     {
+      datetime cutoff = TimeCurrent() - 60;
+      int n = 0;
+      for(int i = 0; i < m_entryTimeN; i++)
+         if(m_entryTimes[i] >= cutoff) n++;
+      return n;
+     }
+
+   int RequiredScore(const ENUM_SPB_SIGNAL dir) const
+     {
+      int base = m_prof.minScore;
+      int openN = (dir == SPB_BUY) ? BuyN() : SellN();
+      if(openN >= 1) base += 12;           // harder to stack 2nd trade
+      if(openN >= 3) base += 10;           // even harder for 4th+
+      if(HasLosingSide(dir == SPB_BUY ? POSITION_TYPE_BUY : POSITION_TYPE_SELL))
+         base += 999;                        // block stacking into red
+      return base;
+     }
+
+   bool HourAllows(const ENUM_SPB_SIGNAL dir) const
+     {
+      if(dir == SPB_BUY)
+         return (m_hour.bias >= 8 && m_hour.h1Trend >= 0);
+      if(dir == SPB_SELL)
+         return (m_hour.bias <= -8 && m_hour.h1Trend <= 0);
+      return false;
+     }
+
+   bool CanEnter(const SSignalInfo &sig) const
+     {
+      if(TimeCurrent() < m_pauseUntil) return false;
+      if(FloatPnL() <= -SPB_MAX_FLOAT_LOSS_USD) return false;
+      if(EntriesLastMinute() >= SPB_MAX_ENTRIES_PER_MIN) return false;
+      if(!sig.hourAligned) return false;
+      if(!HourAllows(sig.dir)) return false;
+
+      int req = RequiredScore(sig.dir);
+      if(sig.dir == SPB_BUY  && sig.score < req) return false;
+      if(sig.dir == SPB_SELL && sig.score > -req) return false;
+      return true;
+     }
+
 public:
    CSymbolBot()
      {
       m_sym = ""; m_magic = 0; m_lot = 0.01; m_cap = SPB_MAX_TRADES_PER_SYM;
       m_rsi = m_macd = m_stoch = m_atr = m_emaF = m_emaS = INVALID_HANDLE;
-      m_lastOpen = 0; m_entries = 0; m_winsClosed = 0;
+      m_lastOpen = 0; m_pauseUntil = 0; m_entryTimeN = 0;
+      m_entries = 0; m_winsClosed = 0; m_consecLosses = 0;
       m_lastSig.dir = SPB_NONE; m_lastSig.text = "";
+      m_hour.bias = 0; m_hour.text = "";
      }
 
    ~CSymbolBot()
@@ -299,6 +429,7 @@ public:
    int    Wins()     const { return m_winsClosed; }
    int    Entries()  const { return m_entries; }
    SSignalInfo LastSignal() const { return m_lastSig; }
+   SHourContext HourCtx() const { return m_hour; }
 
    double FloatPnL() const
      {
@@ -330,11 +461,74 @@ public:
       return mx;
      }
 
-   //--- Analyze this symbol only (no cross-market confusion)
+   //--- Scan past 1 hour of M1 bars for trend memory (runs in milliseconds)
+   SHourContext AnalyzeHour() const
+     {
+      SHourContext h;
+      h.bias = 0; h.bullBars = 0; h.bearBars = 0;
+      h.netChange = 0; h.avgCandleScore = 0;
+      h.buySignals = 0; h.sellSignals = 0;
+      h.h1Trend = H1Trend();
+      h.text = "";
+
+      double cStart = iClose(m_sym, PERIOD_M1, SPB_HOUR_BARS);
+      double cEnd   = iClose(m_sym, PERIOD_M1, 1);
+      if(cStart > 0) h.netChange = cEnd - cStart;
+
+      int candleSum = 0, emaBull = 0, emaBear = 0;
+
+      for(int bar = 1; bar <= SPB_HOUR_BARS; bar++)
+        {
+         SCandleBar b;
+         if(!SPB_ReadCandle(m_sym, PERIOD_M1, bar, b)) continue;
+         if(b.bull) h.bullBars++; else if(b.bear) h.bearBars++;
+
+         int cs = SPB_CandleScore(m_sym, PERIOD_M1, bar);
+         candleSum += cs;
+         if(cs >= 8)  h.buySignals++;
+         if(cs <= -8) h.sellSignals++;
+
+         int ev = VoteEMAAtBar(PERIOD_M1, bar);
+         if(ev > 0) emaBull++; else if(ev < 0) emaBear++;
+        }
+
+      int totalBars = h.bullBars + h.bearBars;
+      int bullPct = (totalBars > 0) ? (h.bullBars * 100 / totalBars) : 50;
+      h.avgCandleScore = candleSum / SPB_HOUR_BARS;
+
+      // Composite hourly bias: price direction + candle dominance + EMA history
+      int priceBias = 0;
+      if(h.netChange > 0) priceBias = 1; else if(h.netChange < 0) priceBias = -1;
+
+      int candleBias = 0;
+      if(h.buySignals > h.sellSignals + 5) candleBias = 1;
+      else if(h.sellSignals > h.buySignals + 5) candleBias = -1;
+
+      int emaHistBias = 0;
+      if(emaBull > emaBear + 8) emaHistBias = 1;
+      else if(emaBear > emaBull + 8) emaHistBias = -1;
+
+      int raw = priceBias * 25 + candleBias * 25 + emaHistBias * 20;
+      raw += (bullPct - 50);                    // bullish bar majority
+      raw += h.avgCandleScore / 3;              // average pattern score
+      raw += h.h1Trend * 15;                    // H1 EMA weight
+
+      if(raw > 100)  raw = 100;
+      if(raw < -100) raw = -100;
+      h.bias = raw;
+
+      string trend = (h.bias >= 15) ? "BULL" : (h.bias <= -15) ? "BEAR" : "FLAT";
+      h.text = StringFormat("1H %s bias:%d bull:%d%% chg:%.1f buySig:%d sellSig:%d",
+                            trend, h.bias, bullPct, h.netChange, h.buySignals, h.sellSignals);
+      return h;
+     }
+
+   //--- Live signal + must agree with hourly memory
    SSignalInfo Analyze() const
      {
       SSignalInfo r;
-      r.dir = SPB_NONE; r.strong = false; r.text = "Scanning";
+      r.dir = SPB_NONE; r.strong = false; r.hourAligned = false;
+      r.text = "Scanning"; r.hourBias = m_hour.bias;
 
       int bv = 0, sv = 0;
       int votes[7];
@@ -355,29 +549,43 @@ public:
       int candle = cM1 + (int)MathRound(cM5 * 0.6) + (int)MathRound(cM15 * 0.3);
       int score = (bv - sv) * 10 + candle + mom * 6;
 
+      // Blend hourly memory into live score (30% weight)
+      score += (int)MathRound(m_hour.bias * 0.30);
+
       r.buyVotes = bv; r.sellVotes = sv;
       r.cM1 = cM1; r.cM5 = cM5; r.cM15 = cM15;
       r.momentum = mom; r.score = score;
 
-      bool bullTF  = (cM1 >= 4 && cM5 >= 0 && cM15 >= -5);
-      bool bearTF  = (cM1 <= -4 && cM5 <= 0 && cM15 <= 5);
+      bool bullTF  = (cM1 >= 6 && cM5 >= 0 && cM15 >= -4);
+      bool bearTF  = (cM1 <= -6 && cM5 <= 0 && cM15 <= 4);
       bool bullInd = (bv >= m_prof.minVotes && bv > sv + 1);
       bool bearInd = (sv >= m_prof.minVotes && sv > bv + 1);
-      bool buyOk   = (score >= m_prof.minScore && bullInd && bullTF && candle >= 5);
-      bool sellOk  = (score <= -m_prof.minScore && bearInd && bearTF && candle <= -5);
-      r.strong = (MathAbs(score) >= m_prof.minScore * 2);
+
+      bool hourBull = (m_hour.bias >= 8);
+      bool hourBear = (m_hour.bias <= -8);
+      bool h1OkBuy  = (m_hour.h1Trend >= 0);
+      bool h1OkSell = (m_hour.h1Trend <= 0);
+
+      bool buyOk  = (score >= m_prof.minScore && bullInd && bullTF && candle >= 6 && hourBull && h1OkBuy);
+      bool sellOk = (score <= -m_prof.minScore && bearInd && bearTF && candle <= -6 && hourBear && h1OkSell);
+      r.strong = (MathAbs(score) >= m_prof.minScore * 2 && MathAbs(m_hour.bias) >= 20);
+      r.hourAligned = (buyOk || sellOk);
 
       if(buyOk)
-        { r.dir = SPB_BUY;  r.text = StringFormat("BUY sc=%d bv=%d cM1=%d cM5=%d", score, bv, cM1, cM5); }
+        r.dir = SPB_BUY;
       else if(sellOk)
-        { r.dir = SPB_SELL; r.text = StringFormat("SELL sc=%d sv=%d cM1=%d cM5=%d", score, sv, cM1, cM5); }
+        r.dir = SPB_SELL;
+
+      if(r.dir == SPB_BUY)
+        r.text = StringFormat("BUY sc=%d bv=%d 1H=%d %s", score, bv, m_hour.bias, m_hour.text);
+      else if(r.dir == SPB_SELL)
+        r.text = StringFormat("SELL sc=%d sv=%d 1H=%d %s", score, sv, m_hour.bias, m_hour.text);
       else
-        r.text = StringFormat("WAIT sc=%d bv=%d sv=%d cM1=%d", score, bv, sv, cM1);
+        r.text = StringFormat("WAIT sc=%d 1H=%d bv=%d sv=%d | %s", score, m_hour.bias, bv, sv, m_hour.text);
 
       return r;
      }
 
-   //--- Profit manager: grab wins instantly, hold losers 60s
    void ManagePnL()
      {
       for(int i = PositionsTotal() - 1; i >= 0; i--)
@@ -391,12 +599,18 @@ public:
          int age = AgeSec(tk);
 
          if(p >= SPB_MIN_PROFIT_USD)
-           { if(m_trade.PositionClose(tk)) { m_winsClosed++; Print(m_sym, " WIN $", DoubleToString(p, 2)); } continue; }
+           {
+            if(m_trade.PositionClose(tk))
+              { m_winsClosed++; m_consecLosses = 0; Print(m_sym, " WIN $", DoubleToString(p, 2)); }
+            continue;
+           }
 
          if(p > 0 && age >= 3)
-           { if(m_trade.PositionClose(tk)) { m_winsClosed++; Print(m_sym, " micro $", DoubleToString(p, 4)); } continue; }
-
-         // loser < 60s → hold (do nothing)
+           {
+            if(m_trade.PositionClose(tk))
+              { m_winsClosed++; m_consecLosses = 0; Print(m_sym, " micro $", DoubleToString(p, 4)); }
+            continue;
+           }
         }
      }
 
@@ -425,7 +639,19 @@ public:
          if(PositionGetString(POSITION_SYMBOL) != m_sym) continue;
          if((ulong)PositionGetInteger(POSITION_MAGIC) != m_magic) continue;
          if((ENUM_POSITION_TYPE)PositionGetInteger(POSITION_TYPE) != side) continue;
-         m_trade.PositionClose(tk);
+
+         double p = PnL(tk);
+         if(m_trade.PositionClose(tk))
+           {
+            if(p < 0)
+              {
+               m_consecLosses++;
+               if(m_consecLosses >= SPB_MAX_CONSEC_LOSSES)
+                  m_pauseUntil = TimeCurrent() + SPB_PAUSE_AFTER_LOSS_SEC;
+              }
+            else
+               m_consecLosses = 0;
+           }
         }
      }
 
@@ -453,6 +679,7 @@ public:
    bool Reverse(ENUM_SPB_SIGNAL dir)
      {
       if(!LoserReadyToReverse(dir)) return false;
+      if(!HourAllows(dir)) return false;
       if(dir == SPB_BUY)  { CloseSide(POSITION_TYPE_SELL); return Open(SPB_BUY,  "Rev60"); }
       if(dir == SPB_SELL) { CloseSide(POSITION_TYPE_BUY);  return Open(SPB_SELL, "Rev60"); }
       return false;
@@ -461,31 +688,45 @@ public:
    void Tick(bool forceNow)
      {
       ManagePnL();
+
+      // Refresh 1-hour memory every tick (fast loop over 60 bars)
+      m_hour = AnalyzeHour();
       m_lastSig = Analyze();
+
+      if(FloatPnL() <= -SPB_MAX_FLOAT_LOSS_USD)
+        {
+         if(TimeCurrent() >= m_pauseUntil)
+            m_pauseUntil = TimeCurrent() + SPB_PAUSE_AFTER_LOSS_SEC;
+         return;
+        }
 
       if(m_lastSig.dir == SPB_NONE) return;
 
       if(LoserReadyToReverse(m_lastSig.dir))
         {
-         if(Reverse(m_lastSig.dir)) { m_lastOpen = TimeCurrent(); m_entries++; return; }
+         if(Reverse(m_lastSig.dir))
+           { m_lastOpen = TimeCurrent(); m_entries++; RecordEntryTime(); return; }
         }
 
-      int cd = m_lastSig.strong ? 0 : 1;
+      if(!CanEnter(m_lastSig)) return;
+
+      int cd = m_lastSig.strong ? 2 : 4;
       if(!forceNow && m_lastOpen > 0 && (TimeCurrent() - m_lastOpen) < cd) return;
 
       if(Open(m_lastSig.dir, m_lastSig.dir == SPB_BUY ? "Buy" : "Sell"))
         {
          m_lastOpen = TimeCurrent();
          m_entries++;
+         RecordEntryTime();
          Print(m_sym, " ", m_lastSig.text);
         }
      }
   };
 
 //===== MAIN EA =======================================================
-input double InpLotSize       = 0.01;              // Lot size per trade
-input int    InpMaxPerSymbol  = 0;                 // Max trades/symbol (0=unlimited)
-input string InpExtraSymbols  = "";                // More markets: XAUUSD,GBPUSD
+input double InpLotSize       = 0.01;
+input int    InpMaxPerSymbol  = 0;
+input string InpExtraSymbols  = "";
 
 CSymbolBot g_bots[];
 int        g_nBots = 0;
@@ -532,7 +773,8 @@ int OnInit()
    if(g_nBots == 0) return INIT_FAILED;
 
    EventSetMillisecondTimer(SPB_SCAN_INTERVAL_MS);
-   Print("ScalpProfitBot v5 started | markets=", g_nBots,
+   Print("ScalpProfitBot v6 started | markets=", g_nBots,
+         " | 1H memory=", SPB_HOUR_BARS, " bars",
          " | profit>=$", SPB_MIN_PROFIT_USD,
          " | loss hold=", SPB_LOSS_HOLD_SEC, "s");
 
@@ -544,18 +786,19 @@ void OnDeinit(const int reason) { EventKillTimer(); Comment(""); }
 
 void OnTimer()
   {
-   string hud = "=== ScalpProfitBot v5 ===\n";
+   string hud = "=== ScalpProfitBot v6 (1H memory) ===\n";
    for(int i = 0; i < g_nBots; i++)
      {
       g_bots[i].Tick(false);
       SSignalInfo s = g_bots[i].LastSignal();
+      SHourContext h = g_bots[i].HourCtx();
       string sig = (s.dir == SPB_BUY) ? "BUY" : (s.dir == SPB_SELL) ? "SELL" : "WAIT";
       hud += StringFormat(
-         "%s [%s] %s sc:%d | open:%d B%d/S%d | float:$%.2f | wins:%d | loss:%ds\n  %s\n",
-         g_bots[i].Sym(), g_bots[i].Label(), sig, s.score,
+         "%s [%s] %s sc:%d 1H:%d | open:%d B%d/S%d | float:$%.2f | wins:%d\n  %s\n  %s\n",
+         g_bots[i].Sym(), g_bots[i].Label(), sig, s.score, h.bias,
          g_bots[i].OpenN(), g_bots[i].BuyN(), g_bots[i].SellN(),
-         g_bots[i].FloatPnL(), g_bots[i].Wins(), g_bots[i].OldestLossAge(),
-         s.text);
+         g_bots[i].FloatPnL(), g_bots[i].Wins(),
+         h.text, s.text);
      }
    Comment(hud);
   }
