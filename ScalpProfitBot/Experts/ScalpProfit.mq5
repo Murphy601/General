@@ -1,6 +1,6 @@
 //+------------------------------------------------------------------+
 //|                              ScalpProfit.mq5                     |
-//|                    ScalpProfitBot v6.0 — ONE FILE ONLY             |
+//|                    ScalpProfitBot v6.1 — ONE FILE ONLY             |
 //+------------------------------------------------------------------+
 //| HOW TO USE:                                                       |
 //|  1. MetaEditor → File → New → Expert Advisor → name: ScalpProfit |
@@ -9,8 +9,8 @@
 //|  4. Attach to M1 chart, enable AutoTrading                        |
 //+------------------------------------------------------------------+
 #property copyright   "ScalpProfitBot"
-#property version     "6.00"
-#property description "ScalpProfitBot v6 — hourly memory + smart entries"
+#property version     "6.10"
+#property description "ScalpProfitBot v6.1 — balanced entries + block reasons"
 
 #include <Trade/Trade.mqh>
 
@@ -98,15 +98,15 @@ int SPB_CandleScore(const string sym, const ENUM_TIMEFRAMES tf, const int sh)
 SMarketProfile SPB_Profile(const string sym)
   {
    SMarketProfile p;
-   p.slAtrMult = 2.5; p.minScore = 28; p.minVotes = 4; p.label = "FOREX";
+   p.slAtrMult = 2.5; p.minScore = 24; p.minVotes = 3; p.label = "FOREX";
    if(StringFind(sym, "XAU") >= 0 || StringFind(sym, "GOLD") >= 0)
-     { p.slAtrMult = 2.2; p.minScore = 26; p.label = "GOLD"; }
+     { p.slAtrMult = 2.2; p.minScore = 22; p.label = "GOLD"; }
    else if(StringFind(sym, "BTC") >= 0 || StringFind(sym, "ETH") >= 0)
-     { p.slAtrMult = 2.8; p.minScore = 27; p.label = "CRYPTO"; }
+     { p.slAtrMult = 2.8; p.minScore = 23; p.label = "CRYPTO"; }
    else if(StringFind(sym, "US30") >= 0 || StringFind(sym, "UT100") >= 0 ||
            StringFind(sym, "US100") >= 0 || StringFind(sym, "NAS") >= 0 ||
            StringFind(sym, "DAX") >= 0  || StringFind(sym, "JPN") >= 0)
-     { p.slAtrMult = 2.0; p.minScore = 26; p.label = "INDEX"; }
+     { p.slAtrMult = 2.0; p.minScore = 22; p.label = "INDEX"; }
    return p;
   }
 
@@ -320,8 +320,8 @@ private:
 
    bool HourAllows(const ENUM_SPB_SIGNAL dir) const
      {
-      if(dir == SPB_BUY)  return (m_hour.bias >= 8 && m_hour.h1Trend >= 0);
-      if(dir == SPB_SELL) return (m_hour.bias <= -8 && m_hour.h1Trend <= 0);
+      if(dir == SPB_BUY)  return (m_hour.bias >= 6 && (m_hour.h1Trend >= 0 || m_hour.bias >= 18));
+      if(dir == SPB_SELL) return (m_hour.bias <= -6 && (m_hour.h1Trend <= 0 || m_hour.bias <= -18));
       return false;
      }
 
@@ -474,17 +474,20 @@ public:
       r.buyVotes = bv; r.sellVotes = sv;
       r.cM1 = cM1; r.cM5 = cM5; r.cM15 = cM15;
       r.momentum = mom; r.score = score;
-      bool bullTF  = (cM1 >= 6 && cM5 >= 0 && cM15 >= -4);
-      bool bearTF  = (cM1 <= -6 && cM5 <= 0 && cM15 <= 4);
-      bool bullInd = (bv >= m_prof.minVotes && bv > sv + 1);
-      bool bearInd = (sv >= m_prof.minVotes && sv > bv + 1);
-      bool hourBull = (m_hour.bias >= 8);
-      bool hourBear = (m_hour.bias <= -8);
-      bool h1OkBuy  = (m_hour.h1Trend >= 0);
-      bool h1OkSell = (m_hour.h1Trend <= 0);
-      bool buyOk  = (score >= m_prof.minScore && bullInd && bullTF && candle >= 6 && hourBull && h1OkBuy);
-      bool sellOk = (score <= -m_prof.minScore && bearInd && bearTF && candle <= -6 && hourBear && h1OkSell);
-      r.strong = (MathAbs(score) >= m_prof.minScore * 2 && MathAbs(m_hour.bias) >= 20);
+      bool bullTF  = (cM1 >= 4 && cM5 >= -2 && cM15 >= -6);
+      bool bearTF  = (cM1 <= -4 && cM5 <= 2 && cM15 <= 6);
+      bool bullInd = (bv >= m_prof.minVotes && bv > sv);
+      bool bearInd = (sv >= m_prof.minVotes && sv > bv);
+      // strong 1H bias can substitute for 1 missing indicator vote
+      if(!bullInd && m_hour.bias >= 18 && bv >= 2 && bv > sv) bullInd = true;
+      if(!bearInd && m_hour.bias <= -18 && sv >= 2 && sv > bv) bearInd = true;
+      bool hourBull = (m_hour.bias >= 6);
+      bool hourBear = (m_hour.bias <= -6);
+      bool h1OkBuy  = (m_hour.h1Trend >= 0 || m_hour.bias >= 18);
+      bool h1OkSell = (m_hour.h1Trend <= 0 || m_hour.bias <= -18);
+      bool buyOk  = (score >= m_prof.minScore && bullInd && bullTF && candle >= 4 && hourBull && h1OkBuy);
+      bool sellOk = (score <= -m_prof.minScore && bearInd && bearTF && candle <= -4 && hourBear && h1OkSell);
+      r.strong = (MathAbs(score) >= m_prof.minScore * 2 && MathAbs(m_hour.bias) >= 18);
       r.hourAligned = (buyOk || sellOk);
       if(buyOk) r.dir = SPB_BUY;
       else if(sellOk) r.dir = SPB_SELL;
@@ -493,7 +496,23 @@ public:
       else if(r.dir == SPB_SELL)
         r.text = StringFormat("SELL sc=%d sv=%d 1H=%d %s", score, sv, m_hour.bias, m_hour.text);
       else
-        r.text = StringFormat("WAIT sc=%d 1H=%d bv=%d sv=%d | %s", score, m_hour.bias, bv, sv, m_hour.text);
+        {
+         string why = "";
+         if(score > -m_prof.minScore && score < m_prof.minScore) why += "score;";
+         else if(score <= -m_prof.minScore) { if(!bearInd) why += StringFormat("sv:%d/%d;", sv, m_prof.minVotes);
+            if(!bearTF) why += StringFormat("bearTF(cM1:%d);", cM1);
+            if(candle > -4) why += StringFormat("candle:%d;", candle);
+            if(!hourBear) why += "1Hweak;";
+            if(!h1OkSell) why += "H1opp;"; }
+         else { if(!bullInd) why += StringFormat("bv:%d/%d;", bv, m_prof.minVotes);
+            if(!bullTF) why += StringFormat("bullTF(cM1:%d);", cM1);
+            if(candle < 4) why += StringFormat("candle:%d;", candle);
+            if(!hourBull) why += "1Hweak;";
+            if(!h1OkBuy) why += "H1opp;"; }
+         if(why == "") why = "mixed;";
+         r.text = StringFormat("WAIT sc=%d 1H=%d bv=%d sv=%d | block:%s | %s",
+                               score, m_hour.bias, bv, sv, why, m_hour.text);
+        }
       return r;
      }
 
@@ -634,7 +653,7 @@ int OnInit()
    SPB_LoadMarkets();
    if(g_nBots == 0) return INIT_FAILED;
    EventSetMillisecondTimer(SPB_SCAN_INTERVAL_MS);
-   Print("ScalpProfit v6 started | markets=", g_nBots);
+   Print("ScalpProfit v6.1 started | markets=", g_nBots);
    for(int i = 0; i < g_nBots; i++) g_bots[i].Tick(true);
    return INIT_SUCCEEDED;
   }
@@ -647,7 +666,7 @@ void OnDeinit(const int reason)
 
 void OnTimer()
   {
-   string hud = "=== ScalpProfit v6 ===\n";
+   string hud = "=== ScalpProfit v6.1 ===\n";
    for(int i = 0; i < g_nBots; i++)
      {
       g_bots[i].Tick(false);
