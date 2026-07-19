@@ -22,7 +22,9 @@
     "rag:embed": "node scripts/embed-curriculum-chunks.mjs",
     "rag:build": "node scripts/build-rag-index.mjs",
     "rag:build:chunks": "node scripts/build-rag-index.mjs --chunks-only",
-    "rag:query": "node scripts/query-rag.mjs"
+    "rag:query": "node scripts/query-rag.mjs",
+    "curriculum:review": "node scripts/review-curriculum-quality.mjs",
+    "drive:visual:batch": "node scripts/run-drive-visual-local-batch.mjs"
   },
   "dependencies": {
     "apify-client": "^2.12.0",
