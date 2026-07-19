@@ -1,0 +1,79 @@
+{
+  "crawlRunId": "Q6BEwe9YErgWNFAOm",
+  "datasetId": "4rvft4eo7PKWlPekp",
+  "errorsDatasetId": "OgeYej09UnXiwGfYS",
+  "crawledAt": "2026-07-19T01:06:29.504Z",
+  "summary": {
+    "totalPages": 70,
+    "successful200": 60,
+    "notFound404": 10,
+    "note": "Grade hub subject lists are JS-rendered; extracted markdown mostly captured page chrome/footer, not accordion subject links. A follow-up crawl with corrected URLs and deeper interaction is recommended."
+  },
+  "urlCorrections": {
+    "brokenPattern": "/curriculum-designs/regular-curriculum-designs/grade-*",
+    "workingPattern": "/curriculum-designs/grade-*",
+    "examples": [
+      {
+        "broken": "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-four-designs/",
+        "working": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-four-designs/"
+      },
+      {
+        "broken": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-eight8/",
+        "working": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-8/"
+      }
+    ]
+  },
+  "levels": {
+    "general": [
+      "https://kicd.ac.ke/cbc-materials/",
+      "https://kicd.ac.ke/cbc-materials/approved-cbc-course-materials/",
+      "https://kicd.ac.ke/cbc-materials/approved-complementary-materials/",
+      "https://kicd.ac.ke/cbc-materials/grade-11-textbook-procurement/",
+      "https://kicd.ac.ke/cbc-materials/guidelines-on-parental-empowerment-and-engagement/",
+      "https://kicd.ac.ke/cbc-materials/popular-slides-on-cbc/",
+      "https://kicd.ac.ke/cbc-materials/values-based-education-materials/"
+    ],
+    "prePrimary": [
+      "https://kicd.ac.ke/cbc-materials/pre-primary/"
+    ],
+    "lowerPrimary": [
+      "https://kicd.ac.ke/cbc-materials/lower-primary/"
+    ],
+    "curriculumRoots": [
+      "https://kicd.ac.ke/cbc-materials/curriculum-designs/",
+      "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/",
+      "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/",
+      "https://kicd.ac.ke/cbc-materials/curriculum-designs/diploma-in-teacher-education/"
+    ],
+    "regularGrades": {
+      "grade4": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-four-designs/",
+      "grade5": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-five-designs/",
+      "grade6": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-six-designs/",
+      "grade7": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-seven-designs/",
+      "grade8": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eight-designs/",
+      "grade9": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-nine-designs/",
+      "grade10": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-ten/",
+      "grade11": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eleven/",
+      "grade12": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-twelve/"
+    },
+    "sne": {
+      "prevocational": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/prevocational-curriculum-designs/",
+      "vocational": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vocational-level-designs/",
+      "hearingImpairment": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-pp1-designs/ through hi-grade-10/",
+      "physicalImpairment": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-pp1-designs/ through pi-grade-10/",
+      "visualImpairment": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-pp1-designs/ through vi-grade-10/"
+    }
+  },
+  "notFoundUrls": [
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-four-designs/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-five-designs/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-six-designs/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-seven-designs/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-eight-designs/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-nine-designs/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-ten/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-eleven/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/grade-twelve/",
+    "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-eight8/"
+  ]
+}

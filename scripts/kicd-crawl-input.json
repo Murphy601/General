@@ -69,12 +69,12 @@
   "softWaitForSelector": "a[href], table, .accordion, [role='button']",
   "clickElementsCssSelector": "[aria-expanded='false'], .accordion-button.collapsed, details:not([open]) > summary",
   "includeUrlGlobs": [
-    "https://kicd.ac.ke/cbc-materials/**",
-    "https://kicd.ac.ke/wp-content/uploads/**"
+    { "glob": "https://kicd.ac.ke/cbc-materials/**" },
+    { "glob": "https://kicd.ac.ke/wp-content/uploads/**" }
   ],
   "excludeUrlGlobs": [
-    "https://kicd.ac.ke/**/feed/**",
-    "https://kicd.ac.ke/**#*"
+    { "glob": "https://kicd.ac.ke/**/feed/**" },
+    { "glob": "https://kicd.ac.ke/**#*" }
   ],
   "useSitemaps": false,
   "respectRobotsTxtFile": true,
