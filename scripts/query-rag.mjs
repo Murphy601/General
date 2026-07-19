@@ -1,19 +1,24 @@
 #!/usr/bin/env node
 /**
- * Simple cosine-similarity search over curriculum embeddings.
+ * Cosine-similarity search over curriculum embeddings (JSONL, memory-safe).
  *
  * Usage:
- *   export OPENAI_API_KEY=...
+ *   set OPENAI_API_KEY=...
+ *   set OPENAI_BASE_URL=https://openrouter.ai/api/v1
  *   node scripts/query-rag.mjs "Grade 4 agriculture strands"
  */
 
-import { readFileSync, existsSync } from 'node:fs';
+import { createReadStream, existsSync, readFileSync } from 'node:fs';
+import { createInterface } from 'node:readline';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const INDEX = join(__dirname, '..', 'knowledge-base', 'phase4', 'curriculum-embeddings.json');
+const INDEX_JSONL = join(__dirname, '..', 'knowledge-base', 'phase4', 'curriculum-embeddings.jsonl');
+const INDEX_META = join(__dirname, '..', 'knowledge-base', 'phase4', 'curriculum-embeddings.meta.json');
+const INDEX_LEGACY = join(__dirname, '..', 'knowledge-base', 'phase4', 'curriculum-embeddings.json');
 const MODEL = process.env.OPENAI_EMBEDDING_MODEL || 'text-embedding-3-small';
+const API_BASE = (process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '');
 
 function cosineSimilarity(a, b) {
   let dot = 0;
@@ -26,8 +31,6 @@ function cosineSimilarity(a, b) {
   }
   return dot / (Math.sqrt(normA) * Math.sqrt(normB));
 }
-
-const API_BASE = (process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '');
 
 async function embedQuery(text, apiKey) {
   const response = await fetch(`${API_BASE}/embeddings`, {
@@ -43,13 +46,35 @@ async function embedQuery(text, apiKey) {
   return data.data[0].embedding;
 }
 
+async function searchJsonl(queryVector, path, topK = 5) {
+  const ranked = [];
+  const rl = createInterface({ input: createReadStream(path, 'utf8'), crlfDelay: Infinity });
+  for await (const line of rl) {
+    if (!line.trim()) continue;
+    const record = JSON.parse(line);
+    const score = cosineSimilarity(queryVector, record.embedding);
+  const item = {
+      score,
+      id: record.id,
+      grade: record.grade,
+      subject: record.subject,
+      title: record.title,
+      text: record.text,
+    };
+    if (ranked.length < topK) {
+      ranked.push(item);
+      ranked.sort((a, b) => b.score - a.score);
+    } else if (score > ranked[ranked.length - 1].score) {
+      ranked[ranked.length - 1] = item;
+      ranked.sort((a, b) => b.score - a.score);
+    }
+  }
+  return ranked;
+}
+
 const query = process.argv.slice(2).join(' ').trim();
 if (!query) {
   console.error('Usage: node scripts/query-rag.mjs "your question"');
-  process.exit(1);
-}
-if (!existsSync(INDEX)) {
-  console.error(`Missing ${INDEX}. Run: node scripts/build-rag-index.mjs`);
   process.exit(1);
 }
 
@@ -59,18 +84,28 @@ if (!apiKey) {
   process.exit(1);
 }
 
-const index = JSON.parse(readFileSync(INDEX, 'utf8'));
+let results;
 const queryVector = await embedQuery(query, apiKey);
-const ranked = index.records
-  .map((record) => ({
-    score: cosineSimilarity(queryVector, record.embedding),
-    id: record.id,
-    grade: record.grade,
-    subject: record.subject,
-    title: record.title,
-    text: record.text,
-  }))
-  .sort((a, b) => b.score - a.score)
-  .slice(0, 5);
 
-console.log(JSON.stringify({ query, results: ranked }, null, 2));
+if (existsSync(INDEX_JSONL)) {
+  results = await searchJsonl(queryVector, INDEX_JSONL);
+} else if (existsSync(INDEX_LEGACY)) {
+  const index = JSON.parse(readFileSync(INDEX_LEGACY, 'utf8'));
+  results = index.records
+    .map((record) => ({
+      score: cosineSimilarity(queryVector, record.embedding),
+      id: record.id,
+      grade: record.grade,
+      subject: record.subject,
+      title: record.title,
+      text: record.text,
+    }))
+    .sort((a, b) => b.score - a.score)
+    .slice(0, 5);
+} else {
+  console.error(`Missing ${INDEX_JSONL}. Run: npm run rag:build`);
+  process.exit(1);
+}
+
+const meta = existsSync(INDEX_META) ? JSON.parse(readFileSync(INDEX_META, 'utf8')) : null;
+console.log(JSON.stringify({ query, indexRecords: meta?.totalRecords, results }, null, 2));

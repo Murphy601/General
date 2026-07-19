@@ -20,6 +20,7 @@
     "curriculum:merge": "node scripts/merge-curriculum-text.mjs",
     "rag:chunk": "node scripts/chunk-curriculum-text.mjs",
     "rag:embed": "node scripts/embed-curriculum-chunks.mjs",
+    "rag:embed:resume": "node scripts/embed-curriculum-chunks.mjs --resume",
     "rag:build": "node scripts/build-rag-index.mjs",
     "rag:build:chunks": "node scripts/build-rag-index.mjs --chunks-only",
     "rag:query": "node scripts/query-rag.mjs",

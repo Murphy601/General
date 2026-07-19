@@ -1,4 +1,8 @@
-# Downloaded PDF binaries (re-fetch with npm run pdfs:download)
+# Large generated curriculum catalog (use curriculum-text.json.gz + npm run curriculum:prepare)
+knowledge-base/phase3/curriculum-text.json
+knowledge-base/phase4/curriculum-embeddings.json
+knowledge-base/phase4/curriculum-embeddings.jsonl
+
 knowledge-base/pdfs/**/*.pdf
 
 # Dependencies
