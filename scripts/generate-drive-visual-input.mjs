@@ -53,7 +53,7 @@ const input = {
   maxCrawlDepth: 0,
   maxConcurrency: 2,
   pageLoadTimeoutSecs: 120,
-  pageFunctionTimeoutSecs: 180,
+  pageFunctionTimeoutSecs: 600,
   headless: true,
   useChrome: true,
   closeCookieModals: true,

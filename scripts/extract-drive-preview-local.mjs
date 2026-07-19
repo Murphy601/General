@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Local Google Drive preview DOM extractor (no Apify required).
- * Validates the visual extraction approach before cloud runs.
+ * Scrolls the preview container to lazy-load all textLayers before extraction.
  *
  * Usage:
  *   node scripts/extract-drive-preview-local.mjs --limit 3
@@ -17,6 +17,10 @@ import {
   normalizeDriveDocument,
   toPreviewUrl,
   DRIVE_VIEWER_SELECTORS,
+  DRIVE_NEXT_PAGE_SELECTORS,
+  scrollAndCollectDriveText,
+  hasStrandContent,
+  SCROLL_CONFIG,
 } from './drive-preview-extract-utils.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -24,10 +28,11 @@ const DRIVE_LINKS = join(__dirname, '..', 'knowledge-base', 'phase2', 'drive-lin
 const OUTPUT = join(__dirname, '..', 'knowledge-base', 'phase3', 'curriculum-text.json');
 
 function parseArgs(argv) {
-  const args = { limit: 1, fileId: null, merge: argv.includes('--merge') };
+  const args = { limit: 1, fileId: null, merge: argv.includes('--merge'), maxFlips: 80 };
   for (let i = 2; i < argv.length; i += 1) {
     if (argv[i] === '--limit') args.limit = Number(argv[++i]);
     if (argv[i] === '--file-id') args.fileId = argv[++i];
+    if (argv[i] === '--max-flips') args.maxFlips = Number(argv[++i]);
   }
   return args;
 }
@@ -36,7 +41,19 @@ function snapshotTitle(pages) {
   return pages[0]?.text?.split('\n').find((line) => line.trim().length > 3) || null;
 }
 
-async function extractPreview(page, link, maxPages = 10) {
+function mergeCollectedPages(existing, incoming) {
+  const seen = new Set(existing.map((p) => p.text.slice(0, 300)));
+  for (const page of incoming) {
+    const key = page.text.slice(0, 300);
+    if (!seen.has(key) && page.text.trim()) {
+      seen.add(key);
+      existing.push(page);
+    }
+  }
+  return existing;
+}
+
+async function extractPreview(page, link, maxFlips = 80) {
   const previewUrl = link.previewUrl?.replace(/\/view$/, '/preview') || toPreviewUrl(link.fileId);
   await page.goto(previewUrl, { waitUntil: 'domcontentloaded', timeout: 120000 });
 
@@ -51,50 +68,17 @@ async function extractPreview(page, link, maxPages = 10) {
   await page.waitForTimeout(5000);
 
   const pages = [];
-  const seen = new Set();
+  let scrollStats = null;
+  let signInBlocked = false;
 
-  for (let i = 0; i < maxPages; i += 1) {
-    const snapshot = await page.evaluate(() => {
-      const signInBlocked = /sign in/i.test(document.body.innerText) &&
-        !!document.querySelector('a[href*="accounts.google.com"]');
-      const layerText = [...document.querySelectorAll('.textLayer, motion-page-content, [data-page-index]')]
-        .map((el) => el.innerText.trim())
-        .filter(Boolean)
-        .join('\n');
-      const spanText = [...document.querySelectorAll('.textLayer span, motion-text-track span')]
-        .map((s) => s.textContent.trim())
-        .filter(Boolean)
-        .join(' ');
-      const docText = document.querySelector('[role="document"]')?.innerText?.trim() || '';
-      const bodyText = document.body.innerText.trim();
-      const text = [layerText, spanText, docText, bodyText].find((t) => t.length > 80) || bodyText;
-      const pageMatch = bodyText.match(/Page\s+(\d+)\s+of\s+(\d+)/i);
-      return {
-        signInBlocked,
-        text,
-        currentPage: pageMatch ? Number(pageMatch[1]) : null,
-        totalPages: pageMatch ? Number(pageMatch[2]) : null,
-        charCount: text.length,
-        title: document.title.replace(/ - Google Drive$/, '').trim(),
-      };
-    });
+  for (let flip = 0; flip < maxFlips; flip += 1) {
+    const result = await scrollAndCollectDriveText(page, SCROLL_CONFIG);
+    scrollStats = result.scrollStats;
+    signInBlocked = signInBlocked || result.signInBlocked;
+    mergeCollectedPages(pages, result.pages || []);
 
-    const hash = snapshot.text.slice(0, 200);
-    if (seen.has(hash)) break;
-    seen.add(hash);
-
-    pages.push({
-      pageNumber: snapshot.currentPage || i + 1,
-      totalPages: snapshot.totalPages,
-      charCount: snapshot.charCount,
-      text: snapshot.text,
-      signInBlocked: snapshot.signInBlocked,
-    });
-
-    if (snapshot.signInBlocked) break;
-
-    const advanced = await page.evaluate(() => {
-      for (const selector of ['[aria-label="Next page"]', '[data-tooltip="Next page"]']) {
+    const advanced = await page.evaluate((selectors) => {
+      for (const selector of selectors) {
         const btn = document.querySelector(selector);
         if (btn && !btn.disabled && btn.getAttribute('aria-disabled') !== 'true') {
           btn.click();
@@ -102,14 +86,15 @@ async function extractPreview(page, link, maxPages = 10) {
         }
       }
       return false;
-    });
+    }, DRIVE_NEXT_PAGE_SELECTORS);
+
     if (!advanced) break;
     await page.waitForTimeout(2500);
   }
 
-  const signInBlocked = pages.some((p) => p.signInBlocked);
   const status = classifyExtractionStatus(pages, signInBlocked);
   const title = link.title || snapshotTitle(pages) || null;
+  const fullText = pages.map((p) => p.text).join('\n\n');
 
   return normalizeDriveDocument({
     fileId: link.fileId,
@@ -119,7 +104,8 @@ async function extractPreview(page, link, maxPages = 10) {
     subject: null,
     sourceUrl: link.sourceUrl,
     pages,
-    status,
+    status: hasStrandContent(fullText) ? status : (fullText.length > 3000 ? status : 'partial'),
+    scrollStats,
   });
 }
 
@@ -136,9 +122,10 @@ const documents = [];
 for (const link of links) {
   process.stdout.write(`Extracting ${link.fileId} ... `);
   try {
-    const doc = await extractPreview(page, link);
+    const doc = await extractPreview(page, link, args.maxFlips);
+    const strand = hasStrandContent(doc.extractedText) ? 'strands=yes' : 'strands=no';
     documents.push(doc);
-    console.log(`${doc.status} (${doc.charCount} chars, ${doc.pageCount} pages)`);
+    console.log(`${doc.status} (${doc.charCount} chars, ${doc.pageCount} layers, ${strand})`);
   } catch (error) {
     documents.push(normalizeDriveDocument({
       fileId: link.fileId,
@@ -167,7 +154,7 @@ for (const doc of documents) byId.set(doc.fileId, doc);
 const merged = [...byId.values()].sort((a, b) => a.fileId.localeCompare(b.fileId));
 const output = {
   generatedAt: new Date().toISOString(),
-  source: 'drive-preview-dom-local',
+  source: 'drive-preview-dom-local-scroll',
   totalDocuments: merged.length,
   byStatus: merged.reduce((acc, d) => {
     acc[d.status] = (acc[d.status] || 0) + 1;
