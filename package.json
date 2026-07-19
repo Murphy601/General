@@ -17,7 +17,12 @@
     "drive:visual:generate": "node scripts/generate-drive-visual-input.mjs",
     "drive:visual:harvest": "node scripts/run-drive-visual-harvest.mjs",
     "drive:visual:local": "node scripts/extract-drive-preview-local.mjs",
-    "curriculum:merge": "node scripts/merge-curriculum-text.mjs"
+    "curriculum:merge": "node scripts/merge-curriculum-text.mjs",
+    "rag:chunk": "node scripts/chunk-curriculum-text.mjs",
+    "rag:embed": "node scripts/embed-curriculum-chunks.mjs",
+    "rag:build": "node scripts/build-rag-index.mjs",
+    "rag:build:chunks": "node scripts/build-rag-index.mjs --chunks-only",
+    "rag:query": "node scripts/query-rag.mjs"
   },
   "dependencies": {
     "apify-client": "^2.12.0",
