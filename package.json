@@ -1,0 +1,13 @@
+{
+  "name": "kicd-cbc-crawler",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "crawl": "node scripts/run-kicd-crawl.mjs",
+    "crawl:wait": "node scripts/run-kicd-crawl.mjs --wait",
+    "crawl:status": "node scripts/check-kicd-crawl.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.12.0"
+  }
+}
