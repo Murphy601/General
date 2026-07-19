@@ -11,7 +11,9 @@
     "drive:extract": "node scripts/extract-drive-links.mjs --from-phase2",
     "drive:harvest:local": "node scripts/harvest-drive-links-local.mjs",
     "pdfs:download": "node scripts/download-kicd-pdfs.mjs",
-    "pdfs:download:direct": "node scripts/download-kicd-pdfs.mjs --direct-only"
+    "pdfs:download:direct": "node scripts/download-kicd-pdfs.mjs --direct-only",
+    "kec:harvest": "node scripts/harvest-kec-mirrors.mjs",
+    "pdfs:download:kec": "node scripts/download-kicd-pdfs.mjs --kec-only"
   },
   "dependencies": {
     "apify-client": "^2.12.0",

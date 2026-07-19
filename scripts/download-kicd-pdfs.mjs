@@ -8,6 +8,7 @@
  *   node scripts/download-kicd-pdfs.mjs
  *   node scripts/download-kicd-pdfs.mjs --direct-only
  *   node scripts/download-kicd-pdfs.mjs --drive-only --limit 5
+ *   node scripts/download-kicd-pdfs.mjs --kec-only
  */
 
 import { createWriteStream, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
@@ -20,6 +21,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const PDF_ROOT = join(ROOT, 'knowledge-base', 'pdfs');
 const DRIVE_LINKS = join(ROOT, 'knowledge-base', 'phase2', 'drive-links.json');
+const KEC_MIRRORS = join(ROOT, 'knowledge-base', 'phase2', 'kec-mirrors.json');
 const PDF_CATALOG = join(ROOT, 'knowledge-base', 'phase2', 'pdf-catalog.json');
 const MANIFEST = join(ROOT, 'knowledge-base', 'phase2', 'download-manifest.json');
 
@@ -29,6 +31,7 @@ function parseArgs(argv) {
   return {
     directOnly: argv.includes('--direct-only'),
     driveOnly: argv.includes('--drive-only'),
+    kecOnly: argv.includes('--kec-only'),
     limit: (() => {
       const idx = argv.indexOf('--limit');
       return idx >= 0 ? Number(argv[idx + 1]) : null;
@@ -86,6 +89,18 @@ function loadDriveEntries() {
   return data.links || [];
 }
 
+function loadKecEntries() {
+  if (!existsSync(KEC_MIRRORS)) return [];
+  const data = JSON.parse(readFileSync(KEC_MIRRORS, 'utf8'));
+  return (data.mirrors || []).map((entry) => ({
+    type: 'kec',
+    url: entry.url,
+    title: entry.title,
+    folder: entry.grade || 'kec',
+    filename: sanitizeFilename(entry.filename || entry.title),
+  }));
+}
+
 function loadDirectEntries() {
   if (!existsSync(PDF_CATALOG)) return [];
   return JSON.parse(readFileSync(PDF_CATALOG, 'utf8'));
@@ -102,7 +117,7 @@ const manifest = {
 
 const jobs = [];
 
-if (!args.driveOnly) {
+if (!args.driveOnly && !args.kecOnly) {
   for (const entry of loadDirectEntries()) {
     jobs.push({
       type: 'direct',
@@ -114,7 +129,7 @@ if (!args.driveOnly) {
   }
 }
 
-if (!args.directOnly) {
+if (!args.directOnly && !args.kecOnly) {
   for (const entry of loadDriveEntries()) {
     jobs.push({
       type: 'drive',
@@ -124,6 +139,18 @@ if (!args.directOnly) {
       filename: sanitizeFilename(entry.title || `${entry.fileId}.pdf`),
       fileId: entry.fileId,
       previewUrl: entry.previewUrl,
+    });
+  }
+}
+
+if (!args.directOnly && !args.driveOnly) {
+  for (const entry of loadKecEntries()) {
+    jobs.push({
+      type: 'kec',
+      url: entry.url,
+      title: entry.title,
+      folder: entry.folder || 'kec',
+      filename: sanitizeFilename(entry.filename || entry.title),
     });
   }
 }

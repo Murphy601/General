@@ -1,68 +1,58 @@
 {
-  "generatedAt": "2026-07-19T01:49:34.322Z",
-  "downloaded": [],
-  "skipped": [],
-  "blocked": [
+  "generatedAt": "2026-07-19T02:02:37.654Z",
+  "downloaded": [
     {
-      "type": "drive",
-      "url": "https://drive.google.com/uc?export=download&id=1_1eSgUVbOPqcbnvjFWVU6CUZmbk3Acv9",
-      "title": null,
-      "folder": "sne/visual-impairment/grade-10",
-      "filename": "1_1eSgUVbOPqcbnvjFWVU6CUZmbk3Acv9.pdf",
-      "fileId": "1_1eSgUVbOPqcbnvjFWVU6CUZmbk3Acv9",
-      "previewUrl": "https://drive.google.com/file/d/1_1eSgUVbOPqcbnvjFWVU6CUZmbk3Acv9/view",
-      "destPath": "knowledge-base/pdfs/sne/visual-impairment/grade-10/1_1eSgUVbOPqcbnvjFWVU6CUZmbk3Acv9.pdf",
-      "status": "blocked",
-      "reason": "google-drive-download-restricted"
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/BURJI_%20LEARNER_%20GRADE%201_%20.pdf",
+      "title": "BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "folder": "grade-9",
+      "filename": "BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "status": "downloaded",
+      "bytes": 12978228
     },
     {
-      "type": "drive",
-      "url": "https://drive.google.com/uc?export=download&id=1_4j9Az7D1qFJvX7Tg4mw3ilVzvknDe9b",
-      "title": null,
-      "folder": "sne/visual-impairment/grade-10",
-      "filename": "1_4j9Az7D1qFJvX7Tg4mw3ilVzvknDe9b.pdf",
-      "fileId": "1_4j9Az7D1qFJvX7Tg4mw3ilVzvknDe9b",
-      "previewUrl": "https://drive.google.com/file/d/1_4j9Az7D1qFJvX7Tg4mw3ilVzvknDe9b/view",
-      "destPath": "knowledge-base/pdfs/sne/visual-impairment/grade-10/1_4j9Az7D1qFJvX7Tg4mw3ilVzvknDe9b.pdf",
-      "status": "blocked",
-      "reason": "google-drive-download-restricted"
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/DAWIDA_LEARNERS_%20GRADE%201%20Edited.pdf",
+      "title": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "folder": "grade-9",
+      "filename": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "status": "downloaded",
+      "bytes": 9456499
     },
     {
-      "type": "drive",
-      "url": "https://drive.google.com/uc?export=download&id=1_8jQOgG3u7FAcYI29B_Twvc8yDaToEOd",
-      "title": null,
-      "folder": "grade-5",
-      "filename": "1_8jQOgG3u7FAcYI29B_Twvc8yDaToEOd.pdf",
-      "fileId": "1_8jQOgG3u7FAcYI29B_Twvc8yDaToEOd",
-      "previewUrl": "https://drive.google.com/file/d/1_8jQOgG3u7FAcYI29B_Twvc8yDaToEOd/view",
-      "destPath": "knowledge-base/pdfs/grade-5/1_8jQOgG3u7FAcYI29B_Twvc8yDaToEOd.pdf",
-      "status": "blocked",
-      "reason": "google-drive-download-restricted"
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_KITHARAKA_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_KITHARAKA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "folder": "grade-9",
+      "filename": "FINAL_KITHARAKA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/FINAL_KITHARAKA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "status": "downloaded",
+      "bytes": 8835711
     },
     {
-      "type": "drive",
-      "url": "https://drive.google.com/uc?export=download&id=1_c91X5n-c9eXPKbRd5jTBX7Ta-rQ73uW",
-      "title": null,
-      "folder": "sne/hearing-impairment/grade-10",
-      "filename": "1_c91X5n-c9eXPKbRd5jTBX7Ta-rQ73uW.pdf",
-      "fileId": "1_c91X5n-c9eXPKbRd5jTBX7Ta-rQ73uW",
-      "previewUrl": "https://drive.google.com/file/d/1_c91X5n-c9eXPKbRd5jTBX7Ta-rQ73uW/view",
-      "destPath": "knowledge-base/pdfs/sne/hearing-impairment/grade-10/1_c91X5n-c9eXPKbRd5jTBX7Ta-rQ73uW.pdf",
-      "status": "blocked",
-      "reason": "google-drive-download-restricted"
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_ORMA_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_ORMA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "folder": "grade-9",
+      "filename": "FINAL_ORMA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/FINAL_ORMA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "status": "downloaded",
+      "bytes": 4543043
     },
     {
-      "type": "drive",
-      "url": "https://drive.google.com/uc?export=download&id=1_HKWsDxTc60lFusFbbuN5IufZiqEapZN",
-      "title": null,
-      "folder": "grade-12",
-      "filename": "1_HKWsDxTc60lFusFbbuN5IufZiqEapZN.pdf",
-      "fileId": "1_HKWsDxTc60lFusFbbuN5IufZiqEapZN",
-      "previewUrl": "https://drive.google.com/file/d/1_HKWsDxTc60lFusFbbuN5IufZiqEapZN/view",
-      "destPath": "knowledge-base/pdfs/grade-12/1_HKWsDxTc60lFusFbbuN5IufZiqEapZN.pdf",
-      "status": "blocked",
-      "reason": "google-drive-download-restricted"
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_UPDATED_KIEMBU_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_UPDATED_KIEMBU_ GRADE 1_ LEARNERS BOOK.pdf",
+      "folder": "grade-9",
+      "filename": "FINAL_UPDATED_KIEMBU_ GRADE 1_ LEARNERS BOOK.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/FINAL_UPDATED_KIEMBU_ GRADE 1_ LEARNERS BOOK.pdf",
+      "status": "downloaded",
+      "bytes": 10069556
     }
   ],
+  "skipped": [],
+  "blocked": [],
   "failed": []
 }

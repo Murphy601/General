@@ -48,6 +48,15 @@ npm run pdfs:download            # direct + Drive (Drive files are download-rest
 
 **Note:** KICD embeds most Gr 4–12 subject PDFs via Google Drive with download restrictions. The pipeline successfully harvests **585 file IDs**, but Google returns `Can't download file` for automated direct downloads. Use KICD direct links, KEC/OER portals, or manual copy/print for those files.
 
+## KEC mirror harvest (Kenya Education Cloud)
+
+```bash
+npm run kec:harvest           # crawl lms.kec.ac.ke + /ebooks/ listings
+npm run pdfs:download:kec     # download harvested KEC PDFs
+```
+
+Output: `knowledge-base/phase2/kec-mirrors.json` — direct downloadable PDFs from `lms.kec.ac.ke/ebooks/`, `pluginfile.php`, and `epubs.kec.ac.ke`.
+
 ## Crawl runs
 
 | Phase | Run ID | Dataset | Pages |
