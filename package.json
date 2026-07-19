@@ -23,6 +23,7 @@
     "rag:build": "node scripts/build-rag-index.mjs",
     "rag:build:chunks": "node scripts/build-rag-index.mjs --chunks-only",
     "rag:query": "node scripts/query-rag.mjs",
+    "curriculum:prepare": "node scripts/prepare-curriculum-text.mjs",
     "curriculum:review": "node scripts/review-curriculum-quality.mjs",
     "drive:visual:batch": "node scripts/run-drive-visual-local-batch.mjs"
   },

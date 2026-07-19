@@ -27,8 +27,10 @@ function cosineSimilarity(a, b) {
   return dot / (Math.sqrt(normA) * Math.sqrt(normB));
 }
 
+const API_BASE = (process.env.OPENAI_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '');
+
 async function embedQuery(text, apiKey) {
-  const response = await fetch('https://api.openai.com/v1/embeddings', {
+  const response = await fetch(`${API_BASE}/embeddings`, {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${apiKey}`,
