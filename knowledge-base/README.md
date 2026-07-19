@@ -23,8 +23,30 @@ knowledge-base/
 │   └── vocational/
 └── phase2/
     ├── dataset-summary.json
-    └── pdf-catalog.json    # Known direct KICD PDF downloads
+    ├── pdf-catalog.json         # Known direct KICD PDF downloads
+    ├── drive-links.json         # 585 harvested Google Drive file IDs
+    ├── drive-catalog-summary.json
+    └── download-manifest.json   # Last download run results
 ```
+
+PDF binaries are saved under `knowledge-base/pdfs/[grade]/` when you run the download script (not committed to git).
+
+## PDF pipeline (Google Drive embeds)
+
+```bash
+# Phase 1 — harvest Drive links (local, no Apify token required)
+npm run drive:harvest:local
+
+# Phase 1 alt — Apify web-scraper (needs APIFY_TOKEN + actor permission)
+npm run drive:harvest
+
+# Phase 2 — convert file IDs to direct download URLs (included in drive-links.json)
+# Phase 3 — download PDFs
+npm run pdfs:download:direct   # 7 working KICD wp-content PDFs
+npm run pdfs:download            # direct + Drive (Drive files are download-restricted)
+```
+
+**Note:** KICD embeds most Gr 4–12 subject PDFs via Google Drive with download restrictions. The pipeline successfully harvests **585 file IDs**, but Google returns `Can't download file` for automated direct downloads. Use KICD direct links, KEC/OER portals, or manual copy/print for those files.
 
 ## Crawl runs
 

@@ -5,9 +5,16 @@
   "scripts": {
     "crawl": "node scripts/run-kicd-crawl.mjs",
     "crawl:wait": "node scripts/run-kicd-crawl.mjs --wait",
-    "crawl:status": "node scripts/check-kicd-crawl.mjs"
+    "crawl:status": "node scripts/check-kicd-crawl.mjs",
+    "drive:harvest": "node scripts/run-kicd-drive-harvest.mjs",
+    "drive:harvest:wait": "node scripts/run-kicd-drive-harvest.mjs --wait",
+    "drive:extract": "node scripts/extract-drive-links.mjs --from-phase2",
+    "drive:harvest:local": "node scripts/harvest-drive-links-local.mjs",
+    "pdfs:download": "node scripts/download-kicd-pdfs.mjs",
+    "pdfs:download:direct": "node scripts/download-kicd-pdfs.mjs --direct-only"
   },
   "dependencies": {
-    "apify-client": "^2.12.0"
+    "apify-client": "^2.12.0",
+    "gdown": "^1.0.6"
   }
 }

@@ -1,0 +1,9 @@
+# Downloaded PDF binaries (re-fetch with npm run pdfs:download)
+knowledge-base/pdfs/**/*.pdf
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
