@@ -1,0 +1,30 @@
+{
+  "phase2RunId": "sJucsMRQKoeWpXSUM",
+  "phase2DatasetId": "mvcpflci6yzv1OeQz",
+  "status": "SUCCEEDED",
+  "durationSecs": 735,
+  "totalPages": 60,
+  "errors": 0,
+  "note": "All 60 hub pages crawled at depth 0. Subject lists extracted from page text. PDFs on KICD use Google Drive embeds (Sign in), not direct wp-content links on hub pages. HI Grade 4 Agriculture page contains full embedded curriculum PDF text.",
+  "subjectsByGrade": {
+    "grade-4": ["Agriculture", "Arabic", "Creative Arts", "CRE", "English", "French", "German", "HRE", "Indigenous Language", "IRE", "Kiswahili", "Mandarin", "Mathematics", "Science & Technology", "Social Studies"],
+    "grade-5": ["Agriculture", "Arabic", "Creative Arts", "CRE", "English", "French", "German", "HRE", "Indigenous Language", "IRE", "Kiswahili", "Mandarin", "Mathematics", "Science & Technology", "Social Studies"],
+    "grade-6": ["Agriculture", "Arabic", "Creative Arts", "CRE", "English", "French", "German", "HRE", "Indigenous Language", "IRE", "Kiswahili", "Mandarin", "Mathematics", "Science & Technology", "Social Studies"],
+    "grade-7": ["Agriculture", "Arabic", "Creative Arts", "CRE", "English", "French", "German", "HRE", "Indigenous Language", "Integrated Science", "IRE", "Kiswahili", "Mandarin", "Mathematics", "Pre-Technical Studies", "Social Studies"],
+    "grade-8": ["Agriculture", "Arabic", "Creative Arts", "CRE", "English", "French", "German", "HRE", "Indigenous Language", "Integrated Science", "IRE", "Kiswahili", "Mandarin", "Mathematics", "Pre-Technical Studies", "Social Studies"],
+    "grade-9": ["Agriculture", "Arabic", "Creative Arts", "CRE", "English", "French", "German", "HRE", "Indigenous Language", "Integrated Science", "IRE", "Kiswahili", "Mandarin", "Mathematics", "Pre-Technical Studies", "Social Studies"]
+  },
+  "sneSubjects": {
+    "hi-pp": ["Creative Arts", "Environmental Activities", "Language Activities", "Mathematics"],
+    "hi-grade-4": ["Agriculture", "Creative Arts", "English", "Kiswahili", "Mathematics", "Science & Technology", "Social Studies"]
+  },
+  "knownDirectPdfs": [
+    "https://kicd.ac.ke/wp-content/uploads/2018/02/PP-1-Curriculum-Designs-Dec-2017C-1-min.pdf",
+    "https://kicd.ac.ke/wp-content/uploads/2018/02/PP-2-Curriculum-Designs-Dec-2017E-min.pdf",
+    "https://kicd.ac.ke/wp-content/uploads/2017/10/Volume-1-curriculum-designs-September-2017.pdf",
+    "https://kicd.ac.ke/wp-content/uploads/2017/10/volume-2-curriculum-designs-September-2017.pdf",
+    "https://kicd.ac.ke/wp-content/uploads/2017/10/Volume-3-curriculum-designs-September-2017.pdf",
+    "https://kicd.ac.ke/wp-content/uploads/2018/02/Volume-4-curriculum-designs-final-Dec-2017C-min.pdf",
+    "https://kicd.ac.ke/wp-content/uploads/2019/08/BASIC-EDUCATION-CURRICULUM-FRAMEWORK-2019.pdf"
+  ]
+}
