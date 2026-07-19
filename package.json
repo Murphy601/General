@@ -13,10 +13,17 @@
     "pdfs:download": "node scripts/download-kicd-pdfs.mjs",
     "pdfs:download:direct": "node scripts/download-kicd-pdfs.mjs --direct-only",
     "kec:harvest": "node scripts/harvest-kec-mirrors.mjs",
-    "pdfs:download:kec": "node scripts/download-kicd-pdfs.mjs --kec-only"
+    "pdfs:download:kec": "node scripts/download-kicd-pdfs.mjs --kec-only",
+    "drive:visual:generate": "node scripts/generate-drive-visual-input.mjs",
+    "drive:visual:harvest": "node scripts/run-drive-visual-harvest.mjs",
+    "drive:visual:local": "node scripts/extract-drive-preview-local.mjs",
+    "curriculum:merge": "node scripts/merge-curriculum-text.mjs"
   },
   "dependencies": {
     "apify-client": "^2.12.0",
     "gdown": "^1.0.6"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.1"
   }
 }

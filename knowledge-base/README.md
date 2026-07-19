@@ -57,6 +57,29 @@ npm run pdfs:download:kec     # download harvested KEC PDFs
 
 Output: `knowledge-base/phase2/kec-mirrors.json` — direct downloadable PDFs from `lms.kec.ac.ke/ebooks/`, `pluginfile.php`, and `epubs.kec.ac.ke`.
 
+## Phase 3 — Google Drive visual DOM extraction (curriculum designs)
+
+Direct Drive downloads are blocked, but the preview viewer renders text in the browser. This pipeline opens each preview URL in Playwright/Puppeteer and extracts the rendered DOM text.
+
+```bash
+# 1. Generate Apify input from 585 harvested Drive links
+node scripts/generate-drive-visual-input.mjs --limit 50   # or omit --limit for all
+
+# 2a. Cloud run (Apify web-scraper + Playwright)
+export APIFY_TOKEN=...
+npm run drive:visual:harvest
+
+# 2b. Local validation (no Apify token)
+npm run drive:visual:local -- --limit 5
+
+# 3. Merge Apify dataset into curriculum text catalog
+node scripts/merge-curriculum-text.mjs --dataset <datasetId>
+```
+
+Output: `knowledge-base/phase3/curriculum-text.json`
+
+Validated locally: Agriculture Grade 4 curriculum design extracts full FOREWORD/PREFACE text from `drive.google.com/file/d/.../preview` without login.
+
 ## Crawl runs
 
 | Phase | Run ID | Dataset | Pages |
