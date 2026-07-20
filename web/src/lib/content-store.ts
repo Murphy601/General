@@ -95,13 +95,22 @@ export function getTopics(grade: string, subject: string) {
   );
   if (!s) return [];
 
-  const generated = listContent({ grade, type: 'topic-lesson' });
+  // Must filter by subject — topic numbers like 1.4 repeat across subjects.
+  const generated = listContent({ grade, subject: s.subject, type: 'topic-lesson' });
   return s.topics.map((t) => {
     const content = generated.find(
-      (c) => c.topic.topicNumber === t.topicNumber || c.topic.subStrand === t.topicName,
+      (c) =>
+        sameSubject(c.topic.subject, s.subject) &&
+        (c.topic.topicNumber === t.topicNumber || c.topic.subStrand === t.topicName || c.topic.slug === t.slug),
     );
     return { ...t, contentId: content?.id, hasLesson: Boolean(content) };
   });
+}
+
+function sameSubject(a: string, b: string) {
+  const na = String(a || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+  const nb = String(b || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+  return na === nb || na.includes(nb) || nb.includes(na);
 }
 
 export function getExamTypesForCategory(category: string): ContentType[] {
