@@ -14,7 +14,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { formatGradeLabel, isKiswahiliSubject, INDEX_PATH, getTopicSourceText } from './curriculum-source.mjs';
+import { formatGradeLabel, isKiswahiliSubject, INDEX_PATH, getTopicSourceText, displayTopicName } from './curriculum-source.mjs';
 import {
   buildLessonFromKicd,
   buildQuizFromKicd,
@@ -98,7 +98,7 @@ async function callLLM(systemPrompt, userContent, maxTokens = 7000) {
 }
 
 function topicKey(t) {
-  return `v6|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
+  return `v7|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
 }
 
 function loadManifest() {
@@ -214,13 +214,13 @@ async function generateTopic(topic, options) {
   const content = {
     id: randomUUID(),
     type: 'topic-lesson',
-    title: `Topic ${topic.topicNumber}: ${topic.topicName}`,
+    title: `Topic ${topic.topicNumber}: ${displayTopicName(topic.topicName)}`,
     topic: {
       grade: topic.grade,
       gradeLabel,
       subject: topic.subject,
       strand: topic.strandName,
-      subStrand: topic.topicName,
+      subStrand: displayTopicName(topic.topicName),
       topicNumber: topic.topicNumber,
       topicOrder: topic.topicOrder,
       slug: topic.slug,

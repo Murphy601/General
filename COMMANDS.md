@@ -1,77 +1,47 @@
-# Commands to run (Windows + Mac/Linux)
+# Commands to run (Windows) — READ THIS
 
-Pull the latest branch first, then run these from the **repo root** (`General`).
+Your old lessons (INTRODUCTION + SECTION 7 KICD dump) are **local stale files**.
+You must overwrite them with the branch content, then restart the site.
 
-## 1) Update code and unlock Windows files
+## A) Force-update (do this first)
 
 ```powershell
 cd C:\Users\user\General
+
+# Stop the running site (Ctrl+C in the terminal that has npm run dev)
+
 git fetch origin
 git checkout cursor/cbc-learning-website-0ec7
-git pull origin cursor/cbc-learning-website-0ec7
+git reset --hard origin/cursor/cbc-learning-website-0ec7
 
-# If git pull complains about index.json:
-git restore web/data/content/index.json
-
-# If .next is locked:
+# Clear Next.js cache so it cannot serve old pages
 npm run web:clean
-```
 
-## 2) Prepare curriculum text
-
-```powershell
 npm run curriculum:prepare
-```
-
-## 3) Rebuild learner lessons (fixes Word Reading / curriculum dumps)
-
-This rewrites lessons as original learner notes from KICD outcomes (Strategy 2):
-
-```powershell
-# One grade + subject (example: Grade 3 English)
-npm run content:generate -- --grade grade-3 --subject "ENGLISH" --no-llm --delay 0 --reset
-
-# All PP1–Grade 9 (takes several minutes)
-npm run content:generate -- --grade pp1 --no-llm --delay 0 --reset
-npm run content:generate -- --grade pp2 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-1 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-2 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-3 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-4 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-5 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-6 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-7 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-8 --no-llm --delay 0 --reset
-npm run content:generate -- --grade grade-9 --no-llm --delay 0 --reset
-```
-
-## 4) Fill Revision Hub exams (original papers)
-
-```powershell
-npm run content:generate-exams:all
-```
-
-## 5) Fill Past Paper Vault (free KPSEA links from Shulefiti)
-
-```powershell
-npm run content:ingest-past-papers
-```
-
-## 6) Start the site
-
-```powershell
 cd web
 npm run dev
 ```
 
-Open:
+Then open (hard refresh: Ctrl+F5):
+
+- http://localhost:3000/learn/grade-4/mathematics/1-4-multiplication-8
+- You should see **SECTION 3: STUDY NOTES** with worked examples like `24 × 10 = 240`
+
+If you still see **SECTION 7: KICD CURRICULUM REFERENCE**, the old files were not overwritten — run the `git reset --hard` block again.
+
+## B) Optional: regenerate lessons on your PC
+
+Only needed if you want to rebuild from scratch:
+
+```powershell
+cd C:\Users\user\General
+npm run content:generate -- --grade grade-4 --subject "MATHEMATICS" --no-llm --delay 0 --reset
+npm run content:generate-exams:all
+npm run content:ingest-past-papers
+```
+
+## C) Useful URLs
 
 - Learn: http://localhost:3000/learn
-- Grade 3 Word Reading: http://localhost:3000/learn/grade-3/english-activities/2-2-word-reading
 - Revision Hub: http://localhost:3000/revision
 - Past Paper Vault: http://localhost:3000/revision/vault
-
-## Notes
-
-- Prefer **pulling this branch** — lessons and vault papers are already generated in the repo.
-- Do **not** hunt pirate textbook PDFs. Lessons/exams are original from KICD designs; vault papers are free open-catalog KPSEA links.

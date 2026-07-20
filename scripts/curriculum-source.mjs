@@ -68,6 +68,9 @@ function cleanTopicName(name) {
   let s = normalizeTitle(name);
   s = s
     .replace(/[•·].*$/, '')
+    .replace(/\(\s*\d+\s*(?:lessons?|hrs?|hours?|sessions?|vipindi)?\s*\)?/gi, '')
+    .replace(/\b\d+\s*(?:lessons?|hrs?|hours?|sessions?|vipindi)\b/gi, '')
+    .replace(/\(\s*\d+\s*$/g, '') // broken "(8" tails
     .replace(/\b(?:learner|learners)\b.*$/i, '')
     .replace(/\bshould be able.*$/i, '')
     .replace(/,?\s*the\s*$/i, '')
@@ -76,6 +79,10 @@ function cleanTopicName(name) {
     .replace(/\s+/g, ' ')
     .trim();
   return s.slice(0, 80);
+}
+
+export function displayTopicName(name) {
+  return cleanTopicName(name);
 }
 
 function findStrandName(source, position, strandNum) {
