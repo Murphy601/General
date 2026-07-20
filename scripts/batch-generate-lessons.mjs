@@ -21,6 +21,11 @@ import {
   formatQuizPages,
   stripMarkdown,
 } from './lesson-from-kicd.mjs';
+import {
+  findTextbookSources,
+  buildLessonFromTextbook,
+  buildQuizFromTextbook,
+} from './textbook-lesson.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '..', 'web', 'data', 'content');
@@ -93,7 +98,7 @@ async function callLLM(systemPrompt, userContent, maxTokens = 7000) {
 }
 
 function topicKey(t) {
-  return `v3|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
+  return `v4|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
 }
 
 function loadManifest() {
@@ -108,10 +113,25 @@ function saveManifest(m) {
 
 function saveContent(content) {
   mkdirSync(CONTENT_DIR, { recursive: true });
-  writeFileSync(join(CONTENT_DIR, `${content.id}.json`), JSON.stringify(content, null, 2));
   let index = [];
   if (existsSync(INDEX_FILE)) index = JSON.parse(readFileSync(INDEX_FILE, 'utf8'));
-  index = index.filter((i) => i.id !== content.id);
+
+  // Replace any previous lesson for the same grade/subject/topic
+  const sameTopic = (i) =>
+    i.type === 'topic-lesson' &&
+    i.topic?.grade === content.topic.grade &&
+    String(i.topic?.subject || '').toUpperCase() === String(content.topic.subject || '').toUpperCase() &&
+    i.topic?.topicNumber === content.topic.topicNumber;
+
+  for (const old of index.filter(sameTopic)) {
+    const oldPath = join(CONTENT_DIR, `${old.id}.json`);
+    if (existsSync(oldPath) && old.id !== content.id) {
+      try { writeFileSync(oldPath, ''); } catch { /* ignore */ }
+    }
+  }
+  index = index.filter((i) => i.id !== content.id && !sameTopic(i));
+
+  writeFileSync(join(CONTENT_DIR, `${content.id}.json`), JSON.stringify(content, null, 2));
   index.unshift({
     ...content,
     body: '',
@@ -140,20 +160,31 @@ async function generateTopic(topic, options) {
     return;
   }
 
-  console.log(`  Generating: ${topic.topicNumber} ${topic.topicName} (${sourceText.length} chars KICD)...`);
+  const textbooks = findTextbookSources(meta);
+  const hasTextbook = textbooks.length > 0 && textbooks[0].text?.length > 200;
+  console.log(
+    `  Generating: ${topic.topicNumber} ${topic.topicName} (${sourceText.length} chars design` +
+      `${hasTextbook ? `, ${textbooks.length} textbook/programme source(s)` : ', design-only'})...`,
+  );
 
-  let lesson = stripMarkdown(buildLessonFromKicd(meta));
-  const quizData = buildQuizFromKicd(meta);
+  let lesson;
+  let quizData;
+  if (hasTextbook) {
+    lesson = stripMarkdown(buildLessonFromTextbook(meta, textbooks, sourceText));
+    quizData = buildQuizFromTextbook(meta, textbooks, sourceText);
+  } else {
+    lesson = stripMarkdown(buildLessonFromKicd(meta));
+    quizData = buildQuizFromKicd(meta);
+  }
   const { quiz, answers } = formatQuizPages(quizData, meta);
 
   const hasApi = Boolean(process.env.OPENAI_API_KEY) && !options.noLlm;
   if (hasApi && options.enrich) {
     try {
-      const enriched = await callLLM(
-        lessonEnrichPrompt(meta, lang, lesson),
-        `FULL KICD CURRICULUM TEXT:\n\n${sourceText}`,
-        8000,
-      );
+      const enrichContext = hasTextbook
+        ? `TEACHING CONTENT:\n${textbooks.map((t) => t.text).join('\n\n').slice(0, 8000)}\n\nKICD DESIGN:\n${sourceText.slice(0, 3000)}`
+        : `FULL KICD CURRICULUM TEXT:\n\n${sourceText}`;
+      const enriched = await callLLM(lessonEnrichPrompt(meta, lang, lesson), enrichContext, 8000);
       lesson = stripMarkdown(enriched);
       await sleep(1000);
     } catch (err) {
@@ -184,12 +215,24 @@ async function generateTopic(topic, options) {
       priceKes: 50,
       questionCount: quizData.questions.length,
       sourceChars: sourceText.length,
+      contentSource: hasTextbook ? 'textbook-programme' : 'curriculum-design',
+      textbookTitles: textbooks.map((t) => t.title),
     },
-    sources: [{ id: topic.fileId, grade: topic.grade, subject: topic.subject, excerpt: sourceText.slice(0, 200) }],
+    sources: [
+      { id: topic.fileId, grade: topic.grade, subject: topic.subject, excerpt: sourceText.slice(0, 200) },
+      ...textbooks.map((t) => ({
+        id: t.id,
+        grade: t.grade,
+        subject: t.subject,
+        excerpt: (t.text || '').slice(0, 200),
+      })),
+    ],
   };
 
   saveContent(content);
-  console.log(`  ✓ Saved (${content.metadata.wordCount} words, ${content.metadata.questionCount} questions)`);
+  console.log(
+    `  ✓ Saved (${content.metadata.wordCount} words, ${content.metadata.questionCount} questions, ${content.metadata.contentSource})`,
+  );
 }
 
 const args = parseArgs(process.argv);

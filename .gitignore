@@ -4,6 +4,8 @@ knowledge-base/phase4/curriculum-embeddings.json
 knowledge-base/phase4/curriculum-embeddings.jsonl
 
 knowledge-base/pdfs/**/*.pdf
+# Keep extracted textbook text; skip bulky binary downloads
+knowledge-base/textbooks/raw/
 
 # Dependencies
 node_modules/

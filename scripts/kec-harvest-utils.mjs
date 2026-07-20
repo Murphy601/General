@@ -52,8 +52,17 @@ export function isDownloadableFile(url) {
 
 export function inferGradeFromText(...parts) {
   const text = parts.filter(Boolean).join(' ').toLowerCase();
-  const numeric = text.match(/\bgrade\s*([1-9]|1[0-2])\b/i);
+  // Underscores are word chars, so ENGLISH_GRADE_4 needs a non-\b pattern.
+  const numeric = text.match(/grade[_\s-]*([1-9]|1[0-2])(?![0-9])/i);
   if (numeric) return `grade-${numeric[1]}`;
+  const word = text.match(/grade[_\s-]*(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve)(?![a-z])/i);
+  if (word) {
+    const map = {
+      one: '1', two: '2', three: '3', four: '4', five: '5', six: '6',
+      seven: '7', eight: '8', nine: '9', ten: '10', eleven: '11', twelve: '12',
+    };
+    return `grade-${map[word[1].toLowerCase()]}`;
+  }
   const gredi = text.match(/\bgredi\s*la\s*([1-9])\b/i);
   if (gredi) return `grade-${gredi[1]}`;
   if (/\bform\s*([1-4])\b/i.test(text)) return `form-${text.match(/\bform\s*([1-4])\b/i)[1]}`;
