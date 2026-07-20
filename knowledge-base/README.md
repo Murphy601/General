@@ -80,6 +80,43 @@ Output: `knowledge-base/phase3/curriculum-text.json`
 
 Validated locally: Agriculture Grade 4 curriculum design extracts full FOREWORD/PREFACE text from `drive.google.com/file/d/.../preview` without login.
 
+## Phase 4 — RAG chunking + embeddings
+
+```bash
+# Chunk extracted curriculum text
+npm run rag:chunk
+
+# Build chunks only (no API key needed)
+npm run rag:build:chunks
+
+# Generate OpenAI embeddings (requires OPENAI_API_KEY)
+export OPENAI_API_KEY=...
+npm run rag:build
+
+# Query the index
+npm run rag:query -- "Grade 4 agriculture learning outcomes"
+```
+
+Outputs:
+- `knowledge-base/phase4/curriculum-chunks.json` — chunked text with grade/subject metadata
+- `knowledge-base/phase4/curriculum-embeddings.json` — chunks + embedding vectors
+
+For full local harvest without Apify permissions:
+
+```bash
+node scripts/run-drive-visual-local-batch.mjs --batch-size 50 --offset 0
+```
+
+## Phase 5 — Web app
+
+```bash
+npm run web:dev     # catalog + Next.js dev server (http://localhost:3000)
+npm run web:build   # production build
+npm run web:start   # serve production build
+```
+
+See `web/README.md` for environment setup (OpenRouter API key, embeddings).
+
 ## Crawl runs
 
 | Phase | Run ID | Dataset | Pages |

@@ -26,7 +26,11 @@
     "rag:query": "node scripts/query-rag.mjs",
     "curriculum:prepare": "node scripts/prepare-curriculum-text.mjs",
     "curriculum:review": "node scripts/review-curriculum-quality.mjs",
-    "drive:visual:batch": "node scripts/run-drive-visual-local-batch.mjs"
+    "drive:visual:batch": "node scripts/run-drive-visual-local-batch.mjs",
+    "web:catalog": "node scripts/build-web-catalog.mjs",
+    "web:dev": "npm run web:catalog && npm --prefix web run dev",
+    "web:build": "npm run web:catalog && npm --prefix web run build",
+    "web:start": "npm --prefix web run start"
   },
   "dependencies": {
     "apify-client": "^2.12.0",
