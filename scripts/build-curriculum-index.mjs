@@ -34,6 +34,8 @@ for (const doc of listDocuments()) {
 
 for (const g of Object.values(byGrade)) {
   for (const s of Object.values(g.subjects)) {
+    // Keep index lean for git/web — raw curriculum text is reloaded from curriculum-text.json when generating
+    s.topics = s.topics.map(({ rawText, ...rest }) => rest);
     s.topics.sort((a, b) => a.topicOrder - b.topicOrder);
     s.topics.forEach((t, i) => { t.topicOrder = i + 1; });
   }

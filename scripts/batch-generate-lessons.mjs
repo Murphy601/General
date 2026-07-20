@@ -14,7 +14,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { formatGradeLabel, isKiswahiliSubject, INDEX_PATH } from './curriculum-source.mjs';
+import { formatGradeLabel, isKiswahiliSubject, INDEX_PATH, getTopicSourceText } from './curriculum-source.mjs';
 import {
   buildLessonFromKicd,
   buildQuizFromKicd,
@@ -154,11 +154,26 @@ async function generateTopic(topic, options) {
     return;
   }
 
-  const sourceText = topic.rawText || '';
+  let sourceText = topic.rawText || '';
+  if (sourceText.length < 200) {
+    const lookedUp = getTopicSourceText({
+      grade: topic.grade,
+      subject: topic.subject,
+      topicNumber: topic.topicNumber,
+      topicName: topic.topicName,
+    });
+    sourceText = lookedUp?.rawText || '';
+    if (lookedUp) {
+      meta.rawText = sourceText;
+      meta.strandName = lookedUp.strandName || meta.strandName || meta.strand;
+      topic.rawText = sourceText;
+    }
+  }
   if (sourceText.length < 200) {
     console.log(`  SKIP (short source): ${topic.topicName}`);
     return;
   }
+  meta.rawText = sourceText;
 
   const textbooks = findTextbookSources(meta);
   const hasTextbook = textbooks.length > 0 && textbooks[0].text?.length > 200;

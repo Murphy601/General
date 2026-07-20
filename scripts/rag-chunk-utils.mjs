@@ -12,7 +12,20 @@ const SUBJECT_PATTERNS = [
 ];
 
 export function inferSubject(text, title) {
-  const sample = `${title || ''}\n${text.slice(0, 2000)}`;
+  const sample = `${title || ''}\n${text.slice(0, 3000)}`;
+  if (/KISWAHILI|MTAALA WA KISWAHILI|GREDI YA/i.test(sample)) return 'KISWAHILI';
+  if (/CHRISTIAN RELIGIOUS EDUCATION|\bCRE\b/i.test(sample)) return 'CHRISTIAN RELIGIOUS EDUCATION';
+  if (/ISLAMIC RELIGIOUS EDUCATION|\bIRE\b/i.test(sample)) return 'ISLAMIC RELIGIOUS EDUCATION';
+  if (/HINDU RELIGIOUS EDUCATION|\bHRE\b/i.test(sample)) return 'HINDU RELIGIOUS EDUCATION';
+  if (/LANGUAGE ACTIVITIES/i.test(sample) && /PRE[\s-]?PRIMARY/i.test(sample)) return 'LANGUAGE ACTIVITIES';
+  if (/MATHEMATICS ACTIVITIES/i.test(sample) && /PRE[\s-]?PRIMARY|LOWER PRIMARY|GRADE ONE|GREDI/i.test(sample)) {
+    return 'MATHEMATICS ACTIVITIES';
+  }
+  if (/ENVIRONMENTAL ACTIVITIES/i.test(sample)) return 'ENVIRONMENTAL ACTIVITIES';
+  if (/PSYCHOMOTOR AND CREATIVE|CREATIVE ACTIVITIES/i.test(sample)) return 'CREATIVE ACTIVITIES';
+  if (/HYGIENE AND NUTRITION/i.test(sample)) return 'HYGIENE AND NUTRITION ACTIVITIES';
+  if (/LITERACY ACTIVITIES/i.test(sample)) return 'LITERACY ACTIVITIES';
+  if (/ENGLISH ACTIVITIES/i.test(sample)) return 'ENGLISH ACTIVITIES';
   for (const pattern of SUBJECT_PATTERNS) {
     const match = sample.match(pattern);
     if (match?.[1]) return match[1].replace(/\s+/g, ' ').trim();

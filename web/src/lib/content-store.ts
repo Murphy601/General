@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ContentType, GeneratedContent, CurriculumGrade } from './types';
-import { GRADE_ORDER } from './types';
+import { GRADE_ORDER, gradeStage } from './types';
 
 const ROOT = join(process.cwd(), '..');
 const CONTENT_DIR = join(process.cwd(), 'data', 'content');
@@ -56,17 +56,34 @@ export function getCurriculumIndex(): { grades: CurriculumGrade[] } | null {
   return JSON.parse(readFileSync(CURRICULUM_INDEX, 'utf8'));
 }
 
-export function getGrades(): Array<{ grade: string; label: string; subjectCount: number; topicCount: number }> {
+export function getGrades(options?: { includeEmpty?: boolean; includeSne?: boolean }): Array<{
+  grade: string;
+  label: string;
+  stage: string;
+  subjectCount: number;
+  topicCount: number;
+}> {
   const index = getCurriculumIndex();
   if (!index) return [];
 
   return index.grades
-    .map((g) => ({
-      grade: g.grade,
-      label: g.label,
-      subjectCount: Object.keys(g.subjects).length,
-      topicCount: Object.values(g.subjects).reduce((acc, s) => acc + s.topics.length, 0),
-    }))
+    .map((g) => {
+      const subjects = Object.values(g.subjects);
+      const withTopics = subjects.filter((s) => s.topics.length > 0);
+      return {
+        grade: g.grade,
+        label: g.label,
+        stage: gradeStage(g.grade),
+        subjectCount: withTopics.length,
+        topicCount: withTopics.reduce((acc, s) => acc + s.topics.length, 0),
+      };
+    })
+    .filter((g) => {
+      if (!options?.includeEmpty && g.topicCount === 0) return false;
+      if (!options?.includeSne && g.grade.startsWith('sne/')) return false;
+      if (g.grade === 'curriculum-designs') return false;
+      return true;
+    })
     .sort((a, b) => {
       const ia = GRADE_ORDER.indexOf(a.grade);
       const ib = GRADE_ORDER.indexOf(b.grade);
@@ -74,7 +91,7 @@ export function getGrades(): Array<{ grade: string; label: string; subjectCount:
     });
 }
 
-export function getSubjects(grade: string) {
+export function getSubjects(grade: string, options?: { includeEmpty?: boolean }) {
   const index = getCurriculumIndex();
   const g = index?.grades.find((x) => x.grade === grade);
   if (!g) return [];
@@ -84,6 +101,8 @@ export function getSubjects(grade: string) {
       topicCount: s.topics.length,
       generatedCount: listContent({ grade, subject: s.subject, type: 'topic-lesson' }).length,
     }))
+    .filter((s) => options?.includeEmpty || s.topicCount > 0)
+    .filter((s) => !/^general$/i.test(s.subject))
     .sort((a, b) => a.subject.localeCompare(b.subject));
 }
 

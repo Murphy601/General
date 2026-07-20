@@ -91,9 +91,20 @@ export const PLANS: MembershipPlan[] = [
 ];
 
 export const GRADE_ORDER = [
+  'pp1', 'pp2',
+  'grade-1', 'grade-2', 'grade-3', 'grade-4', 'grade-5', 'grade-6',
+  'grade-7', 'grade-8', 'grade-9', 'grade-10', 'grade-11', 'grade-12',
   'sne/visual-impairment/pp1', 'sne/visual-impairment/pp2',
   'sne/hearing-impairment/pp1', 'sne/hearing-impairment/pp2',
   'sne/physical-impairment/pp1', 'sne/physical-impairment/pp2',
-  'grade-1', 'grade-2', 'grade-3', 'grade-4', 'grade-5', 'grade-6',
-  'grade-7', 'grade-8', 'grade-9', 'grade-10', 'grade-11', 'grade-12',
 ];
+
+export function gradeStage(grade: string): string {
+  if (grade === 'pp1' || grade === 'pp2') return 'Pre-Primary';
+  if (/^grade-[123]$/.test(grade)) return 'Lower Primary';
+  if (/^grade-[456]$/.test(grade)) return 'Upper Primary';
+  if (/^grade-[789]$/.test(grade)) return 'Junior School';
+  if (/^grade-1[012]$/.test(grade)) return 'Senior School';
+  if (grade.startsWith('sne/')) return 'SNE';
+  return 'Other';
+}
