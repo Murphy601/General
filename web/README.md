@@ -1,54 +1,52 @@
-# CBC Learn Web App
+# CBC Learn — Monetizable Learning Platform
 
-Next.js frontend for browsing KICD curriculum designs, AI-powered revision, and practice quizzes.
+**Not a KICD mirror.** Official curriculum PDFs are the *source engine*. This platform sells AI-generated learning products.
 
-## Quick start
+## What this platform is
 
-From the **repository root**:
+| Tab | Purpose |
+|-----|---------|
+| **Dashboard** | Progress, recommendations, pipeline overview |
+| **Learning Docs** | AI-generated notes (KICD-grounded, Kenyan examples) |
+| **Revision Hub** | Termly exams, quizzes, mock papers (pay-per-download) |
+| **Video Hub** | Cached 5-min lesson reels (script → render once → Bunny.net) |
+| **Studio** | Generate content from KICD via RAG + LLM |
+| **Pricing** | M-Pesa plans (integration Phase 2) |
 
-```bash
-# 1. Ensure curriculum text is prepared
+## Content pipeline
+
+```
+KICD PDFs (harvested) → RAG retrieval → AI draft → Teacher review → Publish → Sell via M-Pesa
+```
+
+## Quick start (Windows CMD)
+
+```cmd
+cd C:\Users\user\General
+git pull
+npm run setup
+
+copy .env.example .env
+notepad .env
+REM Paste your OpenRouter sk-or-v1-... key
+
 npm run curriculum:prepare
-
-# 2. (Optional) Build RAG embeddings for semantic search
-set OPENAI_API_KEY=your_key
-set OPENAI_BASE_URL=https://openrouter.ai/api/v1
-npm run rag:embed
-
-# 3. Build catalog + start dev server
+npm run rag:embed:resume
 npm run web:dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open http://localhost:3000 → **Studio** → generate notes, exam, quiz, or video script.
 
-## Environment
+## Video production (manual step after script)
 
-Copy `web/.env.example` to `web/.env.local`:
+1. Studio generates video script
+2. ElevenLabs → Kenyan-friendly voice MP3
+3. InVideo / HeyGen → render 720p MP4
+4. Upload to Bunny.net → paste embed URL on video page
 
-| Variable | Description |
-|----------|-------------|
-| `OPENAI_API_KEY` | OpenRouter or OpenAI API key |
-| `OPENAI_BASE_URL` | `https://openrouter.ai/api/v1` for OpenRouter |
-| `OPENAI_EMBEDDING_MODEL` | e.g. `openai/text-embedding-3-small` |
-| `OPENAI_CHAT_MODEL` | e.g. `openai/gpt-4o-mini` |
+## Phase 2 (not built yet)
 
-Without embeddings, revision and quiz fall back to keyword search over `curriculum-chunks.json`.
-
-## Pages
-
-| Route | Description |
-|-------|-------------|
-| `/` | Home — overview and grade shortcuts |
-| `/browse` | All grades |
-| `/browse/[grade]` | Subjects for a grade |
-| `/study/[grade]/[subject]` | Documents for a subject |
-| `/document/[fileId]` | Full curriculum text viewer |
-| `/revision` | RAG revision assistant chat |
-| `/quiz` | Auto-generated practice quizzes |
-
-## Production
-
-```bash
-npm run web:build
-npm run web:start
-```
+- M-Pesa STK Push (Daraja / Paynecta)
+- User accounts & membership unlock
+- Teacher review workflow
+- Teacher marketplace (20–30% commission)

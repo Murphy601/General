@@ -10,6 +10,8 @@ node_modules/
 web/node_modules/
 web/.next/
 web/.env.local
+web/data/content/*.json
+!web/data/content/.gitkeep
 
 # Environment
 .env
