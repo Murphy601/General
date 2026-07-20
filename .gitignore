@@ -7,7 +7,12 @@ knowledge-base/pdfs/**/*.pdf
 
 # Dependencies
 node_modules/
+web/node_modules/
+web/.next/
+web/.env.local
 
 # Environment
 .env
-.env.*
+!.env.example
+.env.local
+web/.env.local

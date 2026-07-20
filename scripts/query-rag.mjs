@@ -8,6 +8,7 @@
  *   node scripts/query-rag.mjs "Grade 4 agriculture strands"
  */
 
+import './load-env.mjs';
 import { createReadStream, existsSync, readFileSync } from 'node:fs';
 import { createInterface } from 'node:readline';
 import { dirname, join } from 'node:path';

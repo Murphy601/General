@@ -9,6 +9,7 @@
  *   node scripts/embed-curriculum-chunks.mjs --resume
  */
 
+import './load-env.mjs';
 import {
   readFileSync,
   writeFileSync,
