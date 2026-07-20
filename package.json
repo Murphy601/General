@@ -39,6 +39,7 @@
     "content:generate-exams:grade": "node scripts/batch-generate-exams.mjs --grade",
     "content:ingest-past-papers": "node scripts/ingest-open-past-papers.mjs",
     "content:ingest-past-papers:refresh": "node scripts/ingest-open-past-papers.mjs --refresh",
+    "content:rebuild-study": "node scripts/rebuild-all-study-lessons.mjs",
     "textbooks:download": "node scripts/download-textbooks.mjs",
     "textbooks:extract": "node scripts/extract-textbook-text.mjs",
     "textbooks:prepare": "node scripts/download-textbooks.mjs && node scripts/extract-textbook-text.mjs",

@@ -1,47 +1,97 @@
-# Commands to run (Windows) — READ THIS
+# Windows — get the REAL latest lessons
 
-Your old lessons (INTRODUCTION + SECTION 7 KICD dump) are **local stale files**.
-You must overwrite them with the branch content, then restart the site.
+## Why you still see old dumps
 
-## A) Force-update (do this first)
+Your log shows:
+
+1. `git fetch` **FAILED** (network cut off)
+2. `git reset --hard` moved to **`b06c8e0`** — an **old** commit  
+   Latest study lessons are on a **newer** commit (not b06c8e0)
+3. `web:clean` failed because **Node is still running**
+
+So you never downloaded the new lessons.
+
+---
+
+## Step 1 — Kill Node, then fetch (retry until it works)
 
 ```powershell
 cd C:\Users\user\General
 
-# Stop the running site (Ctrl+C in the terminal that has npm run dev)
+Get-Process -Name node -ErrorAction SilentlyContinue | Stop-Process -Force
 
-git fetch origin
+git config --global http.postBuffer 524288000
+git config --global http.version HTTP/1.1
+
+# Retry this until it says it downloaded objects (no "early EOF")
+git fetch --depth 1 origin cursor/cbc-learning-website-0ec7
+```
+
+If fetch keeps failing, use ZIP instead:
+
+1. Open: https://github.com/Murphy601/General/archive/refs/heads/cursor/cbc-learning-website-0ec7.zip
+2. Extract over `C:\Users\user\General` (replace files)
+3. Continue from Step 2
+
+---
+
+## Step 2 — Reset to the fetched branch tip
+
+```powershell
+cd C:\Users\user\General
 git checkout cursor/cbc-learning-website-0ec7
-git reset --hard origin/cursor/cbc-learning-website-0ec7
+git reset --hard FETCH_HEAD
+# If FETCH_HEAD missing after ZIP install, skip reset and continue
+```
 
-# Clear Next.js cache so it cannot serve old pages
+Check you are NOT on the old commit:
+
+```powershell
+git log -1 --oneline
+```
+
+You must **NOT** see `b06c8e0`.  
+You should see a message about **study lessons** / **Past Paper Vault**.
+
+---
+
+## Step 3 — Clean cache and start
+
+```powershell
 npm run web:clean
-
 npm run curriculum:prepare
 cd web
 npm run dev
 ```
 
-Then open (hard refresh: Ctrl+F5):
+Hard refresh browser: **Ctrl+F5**
 
-- http://localhost:3000/learn/grade-4/mathematics/1-4-multiplication-8
-- You should see **SECTION 3: STUDY NOTES** with worked examples like `24 × 10 = 240`
+Check:
 
-If you still see **SECTION 7: KICD CURRICULUM REFERENCE**, the old files were not overwritten — run the `git reset --hard` block again.
+- http://localhost:3000/learn/grade-4/mathematics/1-4-multiplication-8  
+  → must show **SECTION 3: STUDY NOTES** and `24 × 10 = 240`
+- http://localhost:3000/revision/vault  
+  → Past Paper Vault
 
-## B) Optional: regenerate lessons on your PC
+---
 
-Only needed if you want to rebuild from scratch:
+## Optional — rebuild ALL grades/subjects on your PC
+
+Only if you already have the latest code:
 
 ```powershell
 cd C:\Users\user\General
-npm run content:generate -- --grade grade-4 --subject "MATHEMATICS" --no-llm --delay 0 --reset
-npm run content:generate-exams:all
-npm run content:ingest-past-papers
+npm run content:rebuild-study
 ```
 
-## C) Useful URLs
+This regenerates **PP1–Grade 9, every subject** as pupil study lessons (not teacher guides).
 
-- Learn: http://localhost:3000/learn
-- Revision Hub: http://localhost:3000/revision
-- Past Paper Vault: http://localhost:3000/revision/vault
+---
+
+## Quick checks
+
+| Symptom | Cause | Fix |
+|--------|--------|-----|
+| Still SECTION 7 dump | Old commit / failed fetch | Step 1–2 again |
+| `EPERM` on `.next` | Node still running | Stop-Process node, then web:clean |
+| `git log` shows `b06c8e0` | Fetch never succeeded | Retry fetch or use ZIP |

@@ -428,49 +428,341 @@ function literacyPack(topic, cleanOutcomes) {
 
   if (/multipl|math|number|fraction|add|subtract|divis|measure|geometry|algebra|pattern|shape|money|time/i.test(
     `${name} ${topic.subject || ''}`,
-  )) {
+  ) && /math|numeracy|arithmetic/i.test(topic.subject || '')) {
+    return buildMathPack(topic, cleanOutcomes);
+  }
+  // Also route clear maths topic names even if subject label is odd
+  if (/^(multiplication|division|addition|subtraction|fractions?|decimals?|percentages?|geometry|algebra|integers?)\b/i.test(name)) {
     return buildMathPack(topic, cleanOutcomes);
   }
 
-  // Generic but still study-oriented
+  return buildUniversalStudyPack(topic, cleanOutcomes);
+}
+
+/**
+ * Turn any CBC topic into a pupil study lesson (all subjects / all grades).
+ * Not a teacher guide. Not a curriculum dump.
+ */
+function pupilVoiceOutcome(text) {
+  return String(text || '')
+    .replace(/^(the\s+)?learner(s)?\s+(should\s+be\s+able\s+to\s+|is\s+able\s+to\s+|can\s+)?/i, '')
+    .replace(/^(to\s+)/i, '')
+    .trim();
+}
+
+function subjectContext(subject, title) {
+  const s = String(subject || '').toLowerCase();
+  const t = String(title || '').toLowerCase();
+
+  if (/kiswahili/.test(s)) {
+    return {
+      place: 'nyumbani, shuleni, na sokoni',
+      model: [
+        `Mfano wa kusoma: Soma sentensi fupi kuhusu “${title}”, kisha eleza kwa maneno yako.`,
+        `Mfano wa kuzungumza: Zungumza na rafiki kwa dakika 1 kuhusu ${title}.`,
+        `Mfano wa kuandika: Andika sentensi 3 sahihi kuhusu ${title}.`,
+      ],
+      practiceVerb: 'Soma, sema, kisha andika',
+    };
+  }
+  if (/english|language|literacy/.test(s) || /listen|speak|read|writ|grammar|comprehension|handwrit|spell|punctuat/.test(t)) {
+    return {
+      place: 'at school, at home, and in your community in Kenya',
+      model: [
+        `Model reading: Read a short paragraph about “${title}”, then retell it in 3 sentences.`,
+        `Model speaking: Say 4 clear sentences about ${title} to a partner.`,
+        `Model writing: Write 5 neat sentences using new words from this lesson.`,
+      ],
+      practiceVerb: 'Listen, speak, read, then write',
+    };
+  }
+  if (/science|environment|hygiene|nutrition|agriculture|home.?science|integrated/.test(s) || /plant|animal|water|soil|weather|food|health|waste|digest|force|energy|matter/.test(t)) {
+    return {
+      place: 'in your school compound, home, farm, or county',
+      model: [
+        `Observe: Name what you can see/touch about “${title}” around your school.`,
+        `Explain: Say why ${title} matters for health, safety, or the environment in Kenya.`,
+        `Apply: Describe one safe action you can take related to ${title} this week.`,
+      ],
+      practiceVerb: 'Observe, explain, then apply',
+    };
+  }
+  if (/social|history|geography|citizenship|business/.test(s) || /map|county|rights|government|culture|trade|family|community/.test(t)) {
+    return {
+      place: 'in your county, school, and Kenyan community',
+      model: [
+        `Locate: Connect “${title}” to a real place or group in Kenya (school, market, county office, home).`,
+        `Explain: Give one cause and one effect linked to ${title}.`,
+        `Participate: Describe one responsible action a Grade learner can take.`,
+      ],
+      practiceVerb: 'Locate, explain, then act responsibly',
+    };
+  }
+  if (/christian|cre|islam|hindu|religious|life skills/.test(s) || /prayer|god|allah|bible|quran|value|honest|obedi|respect|peace/.test(t)) {
+    return {
+      place: 'at home, at your place of worship, and at school',
+      model: [
+        `Value in action: Show how “${title}” looks when you treat a classmate kindly.`,
+        `Story link: Retell a short faith/values story connected to ${title} in your own words.`,
+        `Daily habit: Choose one good action to practise today because of this lesson.`,
+      ],
+      practiceVerb: 'Reflect, retell, then practise a good habit',
+    };
+  }
+  if (/creative|music|art|sport|physical|psychomotor/.test(s) || /song|dance|draw|paint|game|run|jump|rhythm/.test(t)) {
+    return {
+      place: 'in the classroom, field, or during co-curricular time',
+      model: [
+        `Warm-up: Do a simple body/voice warm-up linked to “${title}”.`,
+        `Demonstrate: Perform or create one short example of ${title}.`,
+        `Reflect: Tell a friend one thing you improved after practising.`,
+      ],
+      practiceVerb: 'Warm up, practise, then perform',
+    };
+  }
+  if (/pre-?technical|computer|ICT|drawing|materials|entrepreneur/.test(s) || /tool|draw|material|safety|design|business/.test(t)) {
+    return {
+      place: 'in the workshop corner, classroom, or a safe practice space',
+      model: [
+        `Safety first: State one safety rule before practising “${title}”.`,
+        `Steps: List 3 correct steps to complete a simple task on ${title}.`,
+        `Check: Inspect your work and say one improvement.`,
+      ],
+      practiceVerb: 'Plan safely, do the steps, then check',
+    };
+  }
+  return {
+    place: 'at school and at home in Kenya',
+    model: [
+      `Explain “${title}” in your own words using one local example.`,
+      `Show one correct way to practise ${title}.`,
+      `Teach a younger learner one idea from this lesson.`,
+    ],
+    practiceVerb: 'Read, practise, then check',
+  };
+}
+
+function expandOutcomeToStudy(outcome, index, ctx, title) {
+  const o = pupilVoiceOutcome(outcome);
+  const n = index + 1;
+  const model = ctx.model[index % ctx.model.length];
+  return [
+    `PART ${n}: ${o.charAt(0).toUpperCase()}${o.slice(1)}`,
+    '',
+    'What this means',
+    `In this part you learn to ${o}. You will use ideas from ${ctx.place}.`,
+    '',
+    'How to learn it',
+    `1. Read the idea carefully: ${o}.`,
+    `2. ${ctx.practiceVerb} using a Kenyan example from your life.`,
+    '3. Check yourself: Can you explain it without looking?',
+    '',
+    'Model',
+    model,
+    '',
+    'Your turn',
+    `Do one short practice that proves you can ${o}. Write or say your answer clearly.`,
+    '',
+  ];
+}
+
+function topicKnowledgeFallback(title, subject) {
+  const t = String(title || '').toLowerCase();
+  const s = String(subject || '').toLowerCase();
+
+  if (/animal/.test(t)) {
+    return {
+      outcomes: [
+        'identify common animals found at home, school, and in Kenya',
+        'group animals in simple ways (for example domestic and wild, or those that live on land and in water)',
+        'describe how selected animals move, feed, or protect themselves',
+        'practise kind and safe care for animals',
+      ],
+      studyExtra: [
+        'KEY FACTS ABOUT ANIMALS',
+        'Animals are living things. They move, feed, grow, and respond to their surroundings.',
+        'Domestic animals live with people (cow, goat, chicken, dog, cat).',
+        'Wild animals live on their own in forests, parks, or water (lion, zebra, fish).',
+        'In Kenya you may see cows in a homestead, fish at a market, or birds on the school field.',
+        'Safety: do not touch unknown animals; wash hands after handling pets or farm animals.',
+      ],
+    };
+  }
+  if (/plant|seed|leaf|flower|crop/.test(t)) {
+    return {
+      outcomes: [
+        'identify parts of a plant (root, stem, leaf, flower, fruit/seed)',
+        'explain what plants need to grow (water, air, light, soil)',
+        'describe how people in Kenya use plants for food, shade, or medicine',
+        'care for a seedling or garden plot safely',
+      ],
+      studyExtra: [
+        'KEY FACTS ABOUT PLANTS',
+        'Roots hold the plant and take in water. Leaves help the plant make food using sunlight.',
+        'Kenyan examples: maize, beans, sukuma wiki, bananas, mango trees.',
+        'Without water and light, most seedlings wilt.',
+      ],
+    };
+  }
+  if (/water/.test(t)) {
+    return {
+      outcomes: [
+        'explain why clean water is important',
+        'list ways water is used at home and school',
+        'describe simple ways to conserve water in Kenya',
+        'practise safe water habits',
+      ],
+      studyExtra: [
+        'KEY FACTS ABOUT WATER',
+        'We use water for drinking, cooking, cleaning, and farming.',
+        'Conserve water: close taps, fix leaks, reuse grey water for plants where safe.',
+        'Unsafe water can cause disease — store drinking water in clean covered containers.',
+      ],
+    };
+  }
+  if (/light|heat|force|energy|matter|soil|weather|digest|hygiene|nutrition|food/.test(t)) {
+    return {
+      outcomes: [
+        `explain what ${title} means using everyday Kenyan examples`,
+        `describe how ${title} appears at home, school, or in the environment`,
+        `practise one safe skill connected to ${title}`,
+        `tell why ${title} matters for life in Kenya`,
+      ],
+      studyExtra: [
+        `KEY FACTS: ${title.toUpperCase()}`,
+        `${title} is part of Science learning. Connect every idea to something you can observe.`,
+        'Use safe examples only. Do not try dangerous experiments without a teacher.',
+        'Write definitions in your own words, then add one drawing or real-life example.',
+      ],
+    };
+  }
+  if (/citizen|government|right|responsib|map|county|family|community|trade|culture|peace/.test(t) || /social/.test(s)) {
+    return {
+      outcomes: [
+        `explain ${title} in simple words`,
+        `give Kenyan school/community examples of ${title}`,
+        `describe one responsible action linked to ${title}`,
+        `show respect and fairness when practising ${title}`,
+      ],
+      studyExtra: [
+        `KEY FACTS: ${title.toUpperCase()}`,
+        'Good citizens follow rules, respect others, and care for shared places.',
+        'Kenyan examples: lining up, keeping the compound clean, telling the truth, helping a classmate.',
+        'Rights come with responsibilities.',
+      ],
+    };
+  }
+  if (/listen|speak|read|writ|grammar|comprehension|vocab|punctuat|spell|handwrit|oral/.test(t) || /english/.test(s)) {
+    return {
+      outcomes: [
+        `practise ${title} clearly and confidently`,
+        'use correct words and sentences for the grade level',
+        'give examples from school and home conversations',
+        'check your work for clarity and neatness',
+      ],
+      studyExtra: [
+        `KEY FACTS: ${title.toUpperCase()}`,
+        'Language skills grow by daily practice: listen carefully, speak clearly, read every day, write neatly.',
+        'Model → guided practice → independent practice.',
+        'Always use complete sentences when writing answers.',
+      ],
+    };
+  }
+  if (/multipl|divis|add|subtract|fraction|number|measure|geometry|money|time|pattern|shape/.test(t) || /math/.test(s)) {
+    return null; // handled by math packs
+  }
+  return {
+    outcomes: [
+      `explain what ${title} means in simple pupil language`,
+      `give 3 correct examples of ${title} from Kenya`,
+      `practise ${title} in clear steps`,
+      `apply ${title} in one real-life situation this week`,
+    ],
+    studyExtra: [
+      `KEY FACTS: ${title.toUpperCase()}`,
+      `Study ${title} like a learner textbook page: meaning → examples → practice → check.`,
+      'Replace teacher words with your own words.',
+      'If a step is unclear, rewrite it shorter and try again.',
+    ],
+  };
+}
+
+function buildUniversalStudyPack(topic, cleanOutcomes) {
+  const title = topicTitle(topic);
+  const fallback = topicKnowledgeFallback(title, topic.subject);
   const outs = cleanOutcomes.length
     ? cleanOutcomes.map((s) => s.text)
-    : [
-        `Explain the main ideas in ${title}`,
-        `Give Kenyan examples for ${title}`,
-        `Practise ${title} at school and at home`,
+    : fallback?.outcomes || [
+        `explain what ${title} means in simple words`,
+        `give correct examples of ${title} from school or home`,
+        `practise ${title} step by step until you can do it alone`,
+        `apply ${title} in a real Kenyan situation`,
       ];
 
+  const ctx = subjectContext(topic.subject, title);
+  const study = [
+    `WHAT YOU ARE STUDYING: ${title.toUpperCase()}`,
+    `Subject: ${topic.subject} · Grade: ${topic.gradeLabel || topic.grade}`,
+    `This is a learner study lesson (not a teacher guide). Read every part, follow the models, then practise.`,
+    '',
+    'BIG PICTURE',
+    `${title} helps you succeed in ${topic.subject}. You will understand it, practise it, and use it ${ctx.place}.`,
+    '',
+  ];
+
+  if (fallback?.studyExtra?.length) {
+    study.push(...fallback.studyExtra, '');
+  }
+
+  outs.slice(0, 6).forEach((o, i) => {
+    study.push(...expandOutcomeToStudy(o, i, ctx, title));
+  });
+
+  study.push('PUT IT TOGETHER');
+  study.push(`Close your notes and say aloud: what ${title} is, one example, and one way you will practise this week.`);
+
+  const examples = [
+    ...(fallback?.studyExtra || []).filter((l) => /Kenyan examples|Domestic|Wild|Roots|Conserve|Good citizens/i.test(l)).slice(0, 2),
+    ...outs.slice(0, 4).map((o, i) => {
+      const voice = pupilVoiceOutcome(o);
+      return `Example ${i + 1}: ${ctx.model[i % ctx.model.length].replace(/^[^:]+:\s*/, '')} (skill: ${voice})`;
+    }),
+  ];
+
+  const practice = [
+    `Write 5 sentences (or show 5 clear steps) that teach ${title} to a classmate.`,
+    ...outs.slice(0, 3).map((o) => `Practise this skill: ${pupilVoiceOutcome(o)}.`),
+    `Make one local Kenya example of ${title} from your county, market, farm, or school.`,
+    'Mark your own work: What did you get right? What will you redo?',
+  ];
+
+  const work = [
+    `In your exercise book, make a one-page revision sheet for ${title}: meaning, 3 examples, 5 practice items.`,
+    'Teach a parent/guardian or younger sibling one part of this lesson (2 minutes).',
+    `Answer in writing: Why should a ${topic.gradeLabel || 'CBC'} learner study ${title}?`,
+    'Prepare for the quiz: cover the Remember box and recite it.',
+  ];
+
+  const remember = [
+    `Know what ${title} means in your own words.`,
+    'Use local Kenyan examples, not only definitions.',
+    'Practise in small steps, then check your work.',
+    ...outs.slice(0, 2).map((o) => `Be able to: ${pupilVoiceOutcome(o)}.`),
+  ];
+
   return {
-    outcomes: outs,
-    study: [
-      `WHAT YOU ARE LEARNING: ${title.toUpperCase()}`,
-      `This lesson teaches ${title} for ${topic.gradeLabel || topic.grade} ${topic.subject}.`,
-      '',
-      'STUDY STEPS',
-      ...outs.map((o, i) => `${i + 1}. ${o}\n   Practise this until you can do it without help.`),
-      '',
-      'HOW TO SHOW UNDERSTANDING',
-      'Explain the idea in your own words, give one Kenyan example, then complete the practice tasks.',
-    ],
-    examples: [
-      `Example 1: Describe ${title} using something at your school.`,
-      `Example 2: Give a home/community example from your county.`,
-      `Example 3: Teach a younger child one idea from this lesson in simple words.`,
-    ],
-    practice: [
-      `Underline the key ideas about ${title} above.`,
-      `Explain ${title} to a parent using one local example.`,
-      `Write or draw three things that prove you understand ${title}.`,
-    ],
-    work: [
-      `Write five sentences about ${title} with school or home examples.`,
-      `Answer: Why is ${title} important for a ${topic.gradeLabel || ''} learner?`,
-      'Prepare a one-minute oral presentation for a parent or teacher.',
-    ],
-    remember: outs.slice(0, 4),
+    outcomes: outs.map(pupilVoiceOutcome),
+    study,
+    examples,
+    practice,
+    work,
+    remember,
     inquiry: parseInquiryQuestions(topic.rawText || ''),
-    quizFacts: outs,
+    quizFacts: [
+      ...outs.map(pupilVoiceOutcome).slice(0, 6),
+      `${title} is practised with local Kenyan examples`,
+      'Good study = read notes + follow model + practise + check',
+    ],
   };
 }
 
