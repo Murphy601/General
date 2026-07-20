@@ -1,0 +1,37 @@
+{
+  "id": "03367a7b-656b-493c-81df-c8ae7b23dd88",
+  "type": "video-script",
+  "title": "Video: Area",
+  "topic": {
+    "grade": "grade-4",
+    "gradeLabel": "Grade 4",
+    "subject": "MATHEMATICS",
+    "strand": "Measurement",
+    "subStrand": "Area",
+    "topicNumber": "2.2",
+    "topicOrder": 11,
+    "slug": "2-2-area"
+  },
+  "pages": {
+    "lesson": "",
+    "quiz": "VIDEO SCRIPT: AREA\nGrade: Grade 4 · Subject: MATHEMATICS\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Area. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• Area = space covered.\n• Rectangle: L × W.\n• Square: side × side.\n• Use cm² or m².\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• 18 × 13 = 234 cm²\n• 15 × 15 = 225 cm²\n• 9 × 6 = 54 m²\n\n[4:00–5:00] TRY THIS (PAUSE)\n• Find area: 12 cm by 5 cm rectangle.\n• Find area: square side 9 cm.\n• Word problem: A rectangular plot is 20 m by 15 m. Find its area.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Area.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision",
+    "answers": ""
+  },
+  "metadata": {
+    "createdAt": "2026-07-20T20:10:27.021Z",
+    "wordCount": 132,
+    "reviewed": false,
+    "access": "free",
+    "priceKes": 0,
+    "contentSource": "classroom-study-v9",
+    "linkedLessonId": "1b918b58-49cb-412f-9220-81530e467c50"
+  },
+  "sources": [
+    {
+      "id": "1o5tDq16yC0Jj1h6zb9mo3dsxtjqXUk4G",
+      "grade": "grade-4",
+      "subject": "MATHEMATICS",
+      "excerpt": "2.2 Area 8\n\n2.3 Volume 8\n\n2.4 Capacity 8\n\n"
+    }
+  ]
+}

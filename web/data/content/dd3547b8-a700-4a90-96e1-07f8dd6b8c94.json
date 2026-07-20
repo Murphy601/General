@@ -1,0 +1,37 @@
+{
+  "id": "dd3547b8-a700-4a90-96e1-07f8dd6b8c94",
+  "type": "video-script",
+  "title": "Video: Multiplication",
+  "topic": {
+    "grade": "grade-6",
+    "gradeLabel": "Grade 6",
+    "subject": "MATHEMATICS",
+    "strand": "Numbers",
+    "subStrand": "Multiplication",
+    "topicNumber": "1.2",
+    "topicOrder": 2,
+    "slug": "1-2-multiplication"
+  },
+  "pages": {
+    "lesson": "",
+    "quiz": "VIDEO SCRIPT: MULTIPLICATION\nGrade: Grade 6 · Subject: MATHEMATICS\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Multiplication. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• ×10 → add one zero; ×100 → add two zeros.\n• Break 2-digit multipliers into tens + ones.\n• Estimate by rounding to 10, then multiply.\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• 24 × 10 = 240\n• 23 × 14 = 322\n• 18 × 100 = 1,800\n• 48 × 19 ≈ 1,000\n\n[4:00–5:00] TRY THIS (PAUSE)\n• Work out: 16 × 10, 25 × 20, 33 × 30.\n• Work out: 23 × 14 and 27 × 15. Show break-up.\n• Work out: 18 × 100 and 42 × 100.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Multiplication.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision",
+    "answers": ""
+  },
+  "metadata": {
+    "createdAt": "2026-07-20T20:14:08.063Z",
+    "wordCount": 145,
+    "reviewed": false,
+    "access": "free",
+    "priceKes": 0,
+    "contentSource": "classroom-study-v9",
+    "linkedLessonId": "c9dee580-021c-4ba3-ab23-c1c4d0b1fb5e"
+  },
+  "sources": [
+    {
+      "id": "1ki1N1YnslIpZomG-0IoYogkzek7CKx0j",
+      "grade": "grade-6",
+      "subject": "MATHEMATICS",
+      "excerpt": "1.2\n\nMultiplication\n\n(6 Lessons)\n\n• Multiplication\n\nof numbers\n\n• Making\n\npatterns\n\nBy the end of the sub-strand,\n\nthe learner should be able to;\n\na) multiply up to a 4-digit\n\nnumber by a 2-digit\n\nnum"
+    }
+  ]
+}

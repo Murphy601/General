@@ -57,6 +57,10 @@ export interface GeneratedContent {
     sourceSite?: string;
     sourcePage?: string;
     driveId?: string;
+    videoScript?: string;
+    linkedLessonId?: string;
+    textbookTitles?: string[];
+    sourceChars?: number;
   };
   sources: Array<{ id: string; subject: string; grade: string; excerpt: string }>;
 }

@@ -12,25 +12,30 @@ function renderRichText(text: string): ReactNode[] {
 
   const flush = (key: string) => {
     if (!buffer.length) return;
-    nodes.push(
-      <p key={key} className="mb-3 whitespace-pre-wrap">
-        {buffer.join('\n')}
-      </p>,
-    );
+    const block = buffer.join('\n').trimEnd();
     buffer = [];
+    if (!block) return;
+    nodes.push(
+      <div key={key} className="mb-4 whitespace-pre-wrap leading-7">
+        {block}
+      </div>,
+    );
   };
 
   lines.forEach((line, i) => {
+    const trimmed = line.trim();
     const imageMatch = line.match(/^\[\[image:([^\]|]+)\|?([^\]]*)\]\]$/);
-    const isSection = /^(SECTION|SEHEMU)\s+\d+/i.test(line.trim());
-    const isLessonTitle = /^LESSON:/i.test(line.trim());
+    const isSection = /^(SECTION|SEHEMU)([\s:]|$)/i.test(trimmed);
+    const isSkill = /^▸\s+/.test(trimmed);
+    const isLessonTitle = /^LESSON:/i.test(trimmed);
+    const isBlank = trimmed === '';
 
     if (imageMatch) {
       flush(`p-${i}`);
       const src = imageMatch[1].trim();
       const alt = imageMatch[2]?.trim() || 'Lesson illustration';
       nodes.push(
-        <figure key={`img-${i}`} className="my-5">
+        <figure key={`img-${i}`} className="my-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={src}
@@ -47,7 +52,7 @@ function renderRichText(text: string): ReactNode[] {
     if (isLessonTitle) {
       flush(`p-${i}`);
       nodes.push(
-        <h2 key={`h-${i}`} className="text-xl font-bold text-kenya-black mb-4">
+        <h2 key={`h-${i}`} className="text-xl font-bold text-kenya-black mb-6">
           {line.replace(/^LESSON:\s*/i, '')}
         </h2>,
       );
@@ -57,10 +62,25 @@ function renderRichText(text: string): ReactNode[] {
     if (isSection) {
       flush(`p-${i}`);
       nodes.push(
-        <h3 key={`s-${i}`} className="mt-6 mb-2 text-base font-bold text-kenya-green tracking-wide">
-          {line.trim()}
+        <h3 key={`s-${i}`} className="mt-10 mb-4 pt-4 border-t border-gray-100 text-base font-bold text-kenya-green tracking-wide">
+          {trimmed}
         </h3>,
       );
+      return;
+    }
+
+    if (isSkill) {
+      flush(`p-${i}`);
+      nodes.push(
+        <h4 key={`sk-${i}`} className="mt-8 mb-3 text-sm font-bold text-kenya-black">
+          {trimmed}
+        </h4>,
+      );
+      return;
+    }
+
+    if (isBlank) {
+      flush(`p-${i}`);
       return;
     }
 
@@ -124,9 +144,9 @@ export function TopicViewer({
 
       <article className="mt-6 rounded-2xl border bg-white p-6 md:p-8 shadow-sm">
         {tab === 'lesson' ? (
-          <div className="font-sans text-sm leading-relaxed text-gray-800">{renderRichText(text)}</div>
+          <div className="font-sans text-[15px] text-gray-800">{renderRichText(text)}</div>
         ) : (
-          <pre className="whitespace-pre-wrap font-sans text-sm leading-relaxed text-gray-800">{text}</pre>
+          <pre className="whitespace-pre-wrap font-sans text-sm leading-7 text-gray-800">{text}</pre>
         )}
       </article>
     </div>

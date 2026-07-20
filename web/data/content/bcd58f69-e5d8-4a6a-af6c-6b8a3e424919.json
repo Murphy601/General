@@ -1,0 +1,37 @@
+{
+  "id": "bcd58f69-e5d8-4a6a-af6c-6b8a3e424919",
+  "type": "video-script",
+  "title": "Video: Plane Figures",
+  "topic": {
+    "grade": "grade-4",
+    "gradeLabel": "Grade 4",
+    "subject": "MATHEMATICS",
+    "strand": "Geometry",
+    "subStrand": "Plane Figures",
+    "topicNumber": "3.3",
+    "topicOrder": 22,
+    "slug": "3-3-plane-figures"
+  },
+  "pages": {
+    "lesson": "",
+    "quiz": "VIDEO SCRIPT: PLANE FIGURES\nGrade: Grade 4 · Subject: MATHEMATICS\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Plane Figures. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• Perimeter = distance round a closed shape.\n• Rectangle: P = 2(L + W).\n• Square: P = 4 × side.\n• Always use the same units (cm or m).\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• Rectangle book: 18 cm × 13 cm → P = 62 cm.\n• Door: 200 cm × 100 cm → P = 600 cm.\n• Square tile side 15 cm → P = 60 cm.\n• 9 m = 900 cm; 590 cm = 5 m 90 cm.\n\n[4:00–5:00] TRY THIS (PAUSE)\n• Find P of a rectangle 16 cm by 9 cm. Show both addition and 2(L+W).\n• Find P of a square of side 12 cm.\n• Convert 7 m to cm, then find P of a square of side 7 m in cm.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Plane Figures.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision",
+    "answers": ""
+  },
+  "metadata": {
+    "createdAt": "2026-07-20T20:10:29.577Z",
+    "wordCount": 187,
+    "reviewed": false,
+    "access": "free",
+    "priceKes": 0,
+    "contentSource": "classroom-study-v9",
+    "linkedLessonId": "fd990df4-b864-49fc-ba97-7c7648bba398"
+  },
+  "sources": [
+    {
+      "id": "1o5tDq16yC0Jj1h6zb9mo3dsxtjqXUk4G",
+      "grade": "grade-4",
+      "subject": "MATHEMATICS",
+      "excerpt": "3.3\n\nPlane\n\nFigures\n\n(6 Lessons)\n\n• Rectangles,\n\nsquares,\n\ntriangles,\n\ncircles and\n\novals\n\n• Lines of\n\nsymmetry\n\n• Properties of\n\nplane figures\n\nBy the end of the sub-strand,\n\nthelearner should be abl"
+    }
+  ]
+}

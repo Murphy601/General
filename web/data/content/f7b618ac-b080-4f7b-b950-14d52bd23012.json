@@ -1,0 +1,43 @@
+{
+  "id": "f7b618ac-b080-4f7b-b950-14d52bd23012",
+  "type": "video-script",
+  "title": "Video: Fractions",
+  "topic": {
+    "grade": "grade-3",
+    "gradeLabel": "Grade 3",
+    "subject": "MATHEMATICS ACTIVITIES",
+    "strand": "Numbers",
+    "subStrand": "Fractions",
+    "topicNumber": "1.1",
+    "topicOrder": 2,
+    "slug": "1-1-fractions"
+  },
+  "pages": {
+    "lesson": "",
+    "quiz": "VIDEO SCRIPT: FRACTIONS\nGrade: Grade 3 · Subject: MATHEMATICS ACTIVITIES\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Fractions. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• Denominator = equal parts of the whole.\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• 1/2 of 12 = 6\n• 1/4 of 20 = 5\n\n[4:00–5:00] TRY THIS (PAUSE)\n• Find 1/2 and 1/4 of classroom totals (learners, desks).\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Fractions.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision",
+    "answers": ""
+  },
+  "metadata": {
+    "createdAt": "2026-07-20T20:08:18.323Z",
+    "wordCount": 91,
+    "reviewed": false,
+    "access": "free",
+    "priceKes": 0,
+    "contentSource": "classroom-study-v9",
+    "linkedLessonId": "88735cf9-7768-4a55-8d1d-32231b8f995a"
+  },
+  "sources": [
+    {
+      "id": "ab5956532f929b7c183909e57603",
+      "grade": "grade-3",
+      "subject": "MATHEMATICS ACTIVITIES",
+      "excerpt": "1.1 Fractions                                         Learners in pairs /groups to make circular\n              (10 lessons)            By the end of the sub-strand the       cut-outs.                "
+    },
+    {
+      "id": "592b2052df48342d",
+      "grade": "grade-3",
+      "subject": "mathematics",
+      "excerpt": "--- Page 6 ---\nAcknowledgements\nThis pupil’s book has been developed as a result of the generous financial support from\nthe Global Partners in Education (GPE). The book was initially developed based o"
+    }
+  ]
+}

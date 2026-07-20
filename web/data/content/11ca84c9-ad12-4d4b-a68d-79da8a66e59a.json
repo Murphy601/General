@@ -1,0 +1,43 @@
+{
+  "id": "11ca84c9-ad12-4d4b-a68d-79da8a66e59a",
+  "type": "video-script",
+  "title": "Video: Number Concept",
+  "topic": {
+    "grade": "grade-2",
+    "gradeLabel": "Grade 2",
+    "subject": "MATHEMATICS ACTIVITIES",
+    "strand": "Strand 1",
+    "subStrand": "Number Concept",
+    "topicNumber": "1.1",
+    "topicOrder": 1,
+    "slug": "1-1-number-concept"
+  },
+  "pages": {
+    "lesson": "",
+    "quiz": "VIDEO SCRIPT: NUMBER CONCEPT\nGrade: Grade 2 · Subject: MATHEMATICS ACTIVITIES\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Number Concept. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• Show working.\n• Check every answer.\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• Show working for one Number Concept question.\n• Check with a second method.\n\n[4:00–5:00] TRY THIS (PAUSE)\n• Solve 8 practice questions on Number Concept.\n• Mark and correct mistakes.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Number Concept.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision",
+    "answers": ""
+  },
+  "metadata": {
+    "createdAt": "2026-07-20T20:07:23.968Z",
+    "wordCount": 98,
+    "reviewed": false,
+    "access": "free",
+    "priceKes": 0,
+    "contentSource": "classroom-study-v9",
+    "linkedLessonId": "bd227c71-cc8a-4a5f-8022-f4c9ae91a76f"
+  },
+  "sources": [
+    {
+      "id": "8f277a068e1c19473053e607ba46",
+      "grade": "grade-2",
+      "subject": "MATHEMATICS ACTIVITIES",
+      "excerpt": "1.1 Number Concept          By the end of the sub-strand, the learner   \n                                                                                      Learners to read number names from 1-100"
+    },
+    {
+      "id": "cb94f65bc64c7067",
+      "grade": "grade-2",
+      "subject": "mathematics",
+      "excerpt": "--- Page 6 ---\nAcknowledgements\nThis pupil’s book has been developed as a result of the generous financial support from\nthe Global Partners in Education (GPE). The book was initially developed based o"
+    }
+  ]
+}

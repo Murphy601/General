@@ -70,7 +70,12 @@ function cleanTopicName(name) {
     .replace(/[•·].*$/, '')
     .replace(/\(\s*\d+\s*(?:lessons?|hrs?|hours?|sessions?|vipindi)?\s*\)?/gi, '')
     .replace(/\b\d+\s*(?:lessons?|hrs?|hours?|sessions?|vipindi)\b/gi, '')
-    .replace(/\(\s*\d+\s*$/g, '') // broken "(8" tails
+    .replace(/\(\s*\d+\s*$/g, '')
+    // Cut curriculum bleed: "Position and Direction 5 3.2 Angles..."
+    .replace(/\s+\d+\s+\d+\.\d+\s+[A-Z].*$/, '')
+    .replace(/\s+\d+\.\d+\s+[A-Z].*$/, '')
+    .replace(/\s+\d+\.\d+\s+Data Handling.*$/i, '')
+    .replace(/\s+Total Number of Les.*$/i, '')
     .replace(/\b(?:learner|learners)\b.*$/i, '')
     .replace(/\bshould be able.*$/i, '')
     .replace(/,?\s*the\s*$/i, '')
@@ -267,14 +272,26 @@ export function extractAllTopicsForDocument(doc) {
 
 export function getTopicSourceText({ grade, subject, topicNumber, topicName }) {
   const docs = listDocuments({ grade, subject });
+  const wantName = String(topicName || '').toUpperCase().slice(0, 20);
   for (const doc of docs) {
     const topics = extractTopicBlocks(doc.extractedText || '');
-    const match = topics.find(
-      (t) =>
-        t.topicNumber === topicNumber ||
-        (topicName && t.topicName.toUpperCase().includes(topicName.toUpperCase().slice(0, 20))),
-    );
-    if (match) return { ...match, fileId: doc.fileId, grade, subject };
+    // Prefer exact topic number + cleanest name
+    const numberMatches = topics.filter((t) => t.topicNumber === topicNumber);
+    if (numberMatches.length) {
+      const named = wantName
+        ? numberMatches.find((t) => cleanTopicName(t.topicName).toUpperCase().includes(wantName) || t.topicName.toUpperCase().includes(wantName))
+        : null;
+      const best =
+        named ||
+        numberMatches.sort((a, b) => cleanTopicName(a.topicName).length - cleanTopicName(b.topicName).length)[0];
+      return { ...best, topicName: cleanTopicName(best.topicName), fileId: doc.fileId, grade, subject };
+    }
+    if (wantName) {
+      const byName = topics.find((t) => cleanTopicName(t.topicName).toUpperCase().includes(wantName));
+      if (byName) {
+        return { ...byName, topicName: cleanTopicName(byName.topicName), fileId: doc.fileId, grade, subject };
+      }
+    }
   }
   return null;
 }

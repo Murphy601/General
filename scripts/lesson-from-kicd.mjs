@@ -1,10 +1,11 @@
 /**
- * Build ORIGINAL learner study notes + quizzes from KICD Curriculum Designs.
+ * Classroom-style CBC study lessons from KICD outcomes (Strategy 2).
  *
- * Strategy 2: educational facts from the design; wording/examples are newly written.
- * Never dump raw multi-column curriculum tables into the lesson.
- *
- * Goal: every lesson must contain real study — explanations + worked examples + practice.
+ * Format rules:
+ * - Point form (bullets), not long paragraphs
+ * - Teach → Worked example → Try this (for every skill)
+ * - Real calculations / concrete models
+ * - Never dump radio scripts or curriculum tables
  */
 
 import { displayTopicName } from './curriculum-source.mjs';
@@ -15,7 +16,6 @@ function cleanText(s) {
     .replace(/\f/g, '\n')
     .replace(/Page \d+ of \d+/gi, '')
     .replace(/\n{3,}/g, '\n\n')
-    .replace(/[ \t]+\n/g, '\n')
     .trim();
 }
 
@@ -23,19 +23,19 @@ function flatten(s) {
   return cleanText(s).replace(/\n/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+function topicTitle(topic) {
+  return displayTopicName(topic.topicName || topic.subStrand || 'this topic');
+}
+
 function tidyOutcome(text) {
   return String(text || '')
     .replace(/\s+/g, ' ')
-    // Drop letter-echo artifacts like "e) d) create"
     .replace(/\b[a-f]\)\s*[a-f]\)\s*/gi, '')
-    .replace(/\s*,\s*$/, '')
     .replace(/\s*Core Competen.*$/i, '')
     .replace(/\s*Link to.*$/i, '')
     .replace(/\s*Suggested.*$/i, '')
     .replace(/\s*\d+\)\s*(?:What|Why|How|Which).*$/i, '')
-    // Do NOT strip educational numbers (10, 100, 1000) — only page crumbs at end
     .replace(/\s+Page\s+\d+(\s+of\s+\d+)?$/i, '')
-    .replace(/\s{2,}/g, ' ')
     .trim()
     .replace(/[.,;]+$/, '');
 }
@@ -44,30 +44,21 @@ function isCleanOutcome(text) {
   const t = String(text || '').trim();
   if (t.length < 18 || t.length > 220) return false;
   if (/\?/.test(t)) return false;
-  if (/you make|from a effective|grade words using|longer word/i.test(t)) return false;
-  if (/^(learners?|the learner)\b/i.test(t) && /teacher|group, pairs/i.test(t)) return false;
+  if (/you make|from a effective|grade words using/i.test(t)) return false;
   if (t.split(/\s+/).length < 5) return false;
   return true;
 }
 
-function cleanSlos(slos) {
-  return (slos || []).filter((s) => isCleanOutcome(s.text));
-}
-
-/**
- * Parse lettered outcomes while preserving numbers like 10 / 100 / 1,000.
- */
 function parseSlos(rawText) {
   const flat = flatten(rawText);
   const items = [];
   const re =
-    /\b([a-f])\)\s*((?:multiply|divide|add|subtract|count|estimate|create|appreciate|read|write|listen|speak|identify|recognise|recognize|enjoy|use|demonstrate|apply|explain|describe|draw|sing|practise|practice|show|name|state|discuss|perform|compose|observe|compare|sort|match|recite|pray|follow|respond|answer|ask|retell|punctuate|spell|form|join|copy|trace|role[\s-]?play|plant|care|wash|share|obey|respect|tell|say|greet|construct|measure|solve|calculate|model|imitate|dramatise|dramatize|value|classify|group|order|sequence)[\s\S]{10,220}?)(?=\s*[a-f]\)\s*(?:[a-z]|Core|Link|Suggested|Assessment)|Core Competenc|Link to Values|Suggested [Ll]earning|The learner is guided|Assessment Rubric|$)/gi;
-
+    /\b([a-f])\)\s*((?:multiply|divide|add|subtract|count|estimate|create|appreciate|read|write|listen|speak|identify|recognise|recognize|enjoy|use|demonstrate|apply|explain|describe|draw|sing|practise|practice|show|name|state|discuss|perform|compose|observe|compare|sort|match|recite|pray|follow|respond|answer|ask|retell|punctuate|spell|form|join|copy|trace|calculate|measure|solve|find|compute|group|classify|conserve|care|wash|share|obey|respect|tell|say|greet|construct|model|imitate|dramatise|dramatize|value|order|sequence|role[\s-]?play|plant)[\s\S]{10,220}?)(?=\s*[a-f]\)\s*(?:[a-z]|Core|Link|Suggested|Assessment)|Core Competenc|Link to Values|Suggested [Ll]earning|The learner is guided|Assessment Rubric|$)/gi;
   let m;
   while ((m = re.exec(flat)) !== null) {
     let text = tidyOutcome(m[2]);
     if (text.length > 160) {
-      const cut = text.search(/\s+(?:The learner is guided|Learners?|What |Why |How |Which )/i);
+      const cut = text.search(/\s+(?:The learner is guided|Learners?|What |Why |How )/i);
       if (cut > 40) text = text.slice(0, cut).trim();
     }
     if (isCleanOutcome(text)) items.push({ letter: m[1].toLowerCase(), text });
@@ -83,691 +74,898 @@ function parseInquiryQuestions(rawText) {
   let m;
   while ((m = re.exec(flat)) !== null) {
     const q = m[1].replace(/\s+/g, ' ').trim().replace(/^(\d+\.\s*)+/, '');
-    if (!/assessment|rubric/i.test(q)) found.push(q);
+    if (!/assessment|rubric|learners are guided/i.test(q)) found.push(q);
     if (found.length >= 4) break;
   }
   return [...new Set(found)];
 }
 
-function topicTitle(topic) {
-  return displayTopicName(topic.topicName || topic.subStrand || 'this topic');
+function bullets(...items) {
+  return items.filter(Boolean).map((x) => (String(x).startsWith('•') || String(x).startsWith('  ') ? x : `• ${x}`));
 }
 
-/* -------------------- MATH STUDY PACKS (worked examples) -------------------- */
+function skillBlock({ title, teach, worked, tryThis, answer }) {
+  const lines = [];
+  lines.push(`▸ ${title}`);
+  lines.push('');
+  lines.push('Teach');
+  for (const t of teach) lines.push(`• ${t}`);
+  lines.push('');
+  lines.push('Worked example');
+  for (const w of worked) lines.push(`• ${w}`);
+  lines.push('');
+  lines.push('Try this');
+  for (const t of tryThis) lines.push(`• ${t}`);
+  if (answer) {
+    lines.push(`• (Check later: ${answer})`);
+  }
+  lines.push('');
+  return lines;
+}
 
-function mathMultiplicationPack(title, gradeLabel) {
+/* -------------------- MATH CLASSROOM PACKS -------------------- */
+
+function mathPlaneFiguresPack(title) {
+  return {
+    outcomes: [
+      'identify common plane figures (square, rectangle, triangle, circle)',
+      'tell the difference between regular and irregular shapes',
+      'find the perimeter of a rectangle by adding all sides',
+      'find the perimeter of a square by adding all sides (or 4 × side)',
+      'use cm and m correctly when measuring length',
+    ],
+    study: [
+      '▸ What is a plane figure?',
+      '',
+      ...bullets(
+        'A plane figure is a flat shape.',
+        'It has length and width, but not thickness you can hold like a box.',
+        'Common plane figures: square, rectangle, triangle, circle.',
+      ),
+      '',
+      '▸ Regular and irregular shapes',
+      '',
+      ...bullets(
+        'Regular shapes have a clear, definite figure (square, rectangle, equilateral triangle, circle).',
+        'Irregular shapes do not look the same on all sides / do not follow one simple equal-side rule.',
+        'Kenyan look-around examples of rectangles: exercise book, door, window, TV screen, table top.',
+        'Kenyan look-around examples of squares: some stools, tiles, window panes, pillows.',
+      ),
+      '',
+      ...skillBlock({
+        title: 'Units of length (revision)',
+        teach: [
+          'We measure length in centimetres (cm) and metres (m).',
+          '1 m = 100 cm.',
+          'To change m → cm: multiply by 100.',
+          'To change cm → m: divide by 100.',
+        ],
+        worked: [
+          '9 m to cm → 9 × 100 = 900 cm.',
+          '590 cm to m → 590 ÷ 100 = 5 m 90 cm.',
+        ],
+        tryThis: ['Convert 3 m to cm.', 'Convert 250 cm to m and cm.'],
+        answer: '3 m = 300 cm; 250 cm = 2 m 50 cm',
+      }),
+      ...skillBlock({
+        title: 'What is perimeter?',
+        teach: [
+          'Perimeter = the distance all the way round a closed shape.',
+          'Start at one point, go round every side, return to the start.',
+          'For any polygon: add the lengths of all sides.',
+        ],
+        worked: [
+          'A triangular flower bed has sides 3 m, 4 m, and 5 m.',
+          'Perimeter = 3 + 4 + 5 = 12 m.',
+        ],
+        tryThis: ['Sides 2 m, 6 m, 7 m. Find the perimeter.'],
+        answer: '15 m',
+      }),
+      ...skillBlock({
+        title: 'Perimeter of a rectangle',
+        teach: [
+          'A rectangle has 4 sides.',
+          'Opposite sides are equal: two lengths (L) and two widths (W).',
+          'Perimeter = L + W + L + W.',
+          'Or: Perimeter = 2 × (L + W).',
+        ],
+        worked: [
+          'Exercise book: L = 18 cm, W = 13 cm.',
+          'P = 18 + 13 + 18 + 13.',
+          '18 + 13 = 31, then 31 + 18 = 49, then 49 + 13 = 62.',
+          'Perimeter = 62 cm.',
+          'Check with formula: 2 × (18 + 13) = 2 × 31 = 62 cm.',
+        ],
+        tryThis: [
+          'Door: L = 200 cm, W = 100 cm. Find the perimeter.',
+          'Classroom board: L = 240 cm, W = 120 cm. Find the perimeter.',
+        ],
+        answer: 'Door P = 600 cm; board P = 720 cm',
+      }),
+      ...skillBlock({
+        title: 'Perimeter of a square',
+        teach: [
+          'A square has 4 equal sides.',
+          'Perimeter = side + side + side + side.',
+          'Or: Perimeter = 4 × side.',
+        ],
+        worked: [
+          'A square tile has side 15 cm.',
+          'P = 4 × 15 = 60 cm.',
+        ],
+        tryThis: ['Square handkerchief side 25 cm. Find P.', 'Square garden side 8 m. Find P.'],
+        answer: '100 cm; 32 m',
+      }),
+      '▸ Irregular shapes',
+      '',
+      ...bullets(
+        'Measure (or read) every side.',
+        'Add all sides carefully.',
+        'Keep the same unit (all cm, or all m).',
+      ),
+      '',
+      'Worked example — irregular 5-sided plot',
+      ...bullets(
+        'Sides: 4 m, 3 m, 5 m, 2 m, 6 m.',
+        'P = 4 + 3 + 5 + 2 + 6 = 20 m.',
+      ),
+      '',
+    ],
+    examples: [
+      'Rectangle book: 18 cm × 13 cm → P = 62 cm.',
+      'Door: 200 cm × 100 cm → P = 600 cm.',
+      'Square tile side 15 cm → P = 60 cm.',
+      '9 m = 900 cm; 590 cm = 5 m 90 cm.',
+    ],
+    practice: [
+      'Find P of a rectangle 16 cm by 9 cm. Show both addition and 2(L+W).',
+      'Find P of a square of side 12 cm.',
+      'Convert 7 m to cm, then find P of a square of side 7 m in cm.',
+      'An irregular shape has sides 10 cm, 8 cm, 6 cm, 8 cm, 10 cm. Find P.',
+      'Word problem: A rectangular classroom is 9 m by 6 m. What length of skirting board is needed to go all round?',
+    ],
+    work: [
+      'Measure a book, a phone, or a desk top with a ruler. Record L and W. Calculate perimeter.',
+      'Draw 1 rectangle, 1 square, and 1 irregular shape. Label sides. Find each perimeter.',
+      'Write 5 perimeter questions for a friend. Then mark them.',
+    ],
+    remember: [
+      'Perimeter = distance round a closed shape.',
+      'Rectangle: P = 2(L + W).',
+      'Square: P = 4 × side.',
+      'Always use the same units (cm or m).',
+    ],
+    inquiry: ['What is the difference between regular and irregular shapes?', 'How do we find perimeter?'],
+    quizFacts: [
+      'Perimeter is the distance round a closed figure',
+      'Rectangle opposite sides are equal',
+      'Book 18 cm by 13 cm has perimeter 62 cm',
+      'Door 200 cm by 100 cm has perimeter 600 cm',
+      'Square perimeter = 4 × side',
+      '1 m = 100 cm',
+      '9 m = 900 cm',
+      'P = 2(L + W) for a rectangle',
+    ],
+  };
+}
+
+function mathMultiplicationPack() {
   return {
     outcomes: [
       'Multiply up to a two-digit number by multiples of 10',
       'Multiply up to a two-digit number by a two-digit number, with and without regrouping',
       'Multiply up to a two-digit number by 100',
-      'Estimate products by rounding to the nearest 10 (product not more than 1,000)',
+      'Estimate products by rounding to the nearest 10',
       'Create multiplication patterns with products not more than 100',
-      'Use multiplication in real-life Kenyan situations',
     ],
     study: [
-      'WHAT MULTIPLICATION MEANS',
-      'Multiplication is repeated addition. 4 × 3 means 4 + 4 + 4 = 12.',
-      'In Kenya you use multiplication when you buy several items of the same price, when you find the area of a square garden plot, or when you count equal groups in class.',
+      '▸ What multiplication means',
       '',
-      'SKILL 1 — Multiply by multiples of 10 (10, 20, 30…)',
-      'Method: multiply the non-zero digits, then add the zeros from the multiple of 10.',
-      'Worked example A: 24 × 10',
-      '  24 × 1 = 24, then add one zero → 240.',
-      '  Check: 24 + 24 + 24 + … (10 times) is long, so place-value is faster.',
-      'Worked example B: 36 × 20',
-      '  36 × 2 = 72, then add one zero → 720.',
-      'Worked example C: 45 × 30',
-      '  45 × 3 = 135, then add one zero → 1,350.',
+      ...bullets(
+        'Multiplication is repeated addition.',
+        '4 × 3 means 4 + 4 + 4 = 12.',
+        'Kenya uses: market prices, equal rows of desks, garden plots.',
+      ),
       '',
-      'SKILL 2 — Two-digit × two-digit (no regrouping)',
-      'Worked example D: 12 × 13',
-      '  Break 13 into 10 + 3.',
-      '  12 × 10 = 120',
-      '  12 × 3 = 36',
-      '  Add: 120 + 36 = 156.',
-      '',
-      'SKILL 3 — Two-digit × two-digit (with regrouping)',
-      'Worked example E: 23 × 14',
-      '  Break 14 into 10 + 4.',
-      '  23 × 10 = 230',
-      '  23 × 4 = 92',
-      '  Add: 230 + 92 = 322.',
-      'Worked example F: 27 × 15',
-      '  27 × 10 = 270',
-      '  27 × 5 = 135',
-      '  Add: 270 + 135 = 405.',
-      '',
-      'SKILL 4 — Multiply by 100',
-      'Method: write the number, then add two zeros.',
-      'Worked example G: 18 × 100 = 1,800',
-      'Worked example H: 42 × 100 = 4,200',
-      '',
-      'SKILL 5 — Estimate by rounding to the nearest 10',
-      'Round each factor to the nearest 10, then multiply. Keep the estimate ≤ 1,000 for this topic.',
-      'Worked example I: Estimate 48 × 19',
-      '  48 → 50,  19 → 20',
-      '  50 × 20 = 1,000 (estimate)',
-      '  Exact: 48 × 20 = 960, then subtract 48 → 912. Estimate was close.',
-      'Worked example J: Estimate 34 × 22',
-      '  34 → 30,  22 → 20',
-      '  30 × 20 = 600',
-      '',
-      'SKILL 6 — Multiplication patterns (products ≤ 100)',
-      'A pattern follows a rule. Example rule: “multiply by 2 each time”.',
-      'Worked example K: 2, 4, 8, 16, 32, 64 (×2 each time; all ≤ 100)',
-      'Worked example L: 5, 10, 20, 40, 80 (×2 each time)',
-      'Worked example M: 3, 6, 12, 24, 48, 96 (×2 each time)',
-      '',
-      'REAL-LIFE KENYA',
-      '• Market: 15 bananas at KSh 8 each → 15 × 8 = 120 shillings.',
-      '• Garden: a square plot of side 12 m → area idea uses multiplication (12 × 12).',
-      '• Class: 8 rows of 6 desks → 8 × 6 = 48 desks.',
+      ...skillBlock({
+        title: 'Multiply by multiples of 10',
+        teach: [
+          'Multiply the non-zero parts, then add the zero(s) from the multiple of 10.',
+        ],
+        worked: [
+          '24 × 10 → 24 × 1 = 24, add one zero → 240.',
+          '36 × 20 → 36 × 2 = 72, add one zero → 720.',
+          '45 × 30 → 45 × 3 = 135, add one zero → 1,350.',
+        ],
+        tryThis: ['16 × 10', '25 × 20', '33 × 30'],
+        answer: '160; 500; 990',
+      }),
+      ...skillBlock({
+        title: 'Two-digit × two-digit (break-up method)',
+        teach: [
+          'Break the second number into tens + ones.',
+          'Multiply each part, then add.',
+        ],
+        worked: [
+          '23 × 14',
+          '14 = 10 + 4',
+          '23 × 10 = 230',
+          '23 × 4 = 92',
+          '230 + 92 = 322',
+        ],
+        tryThis: ['12 × 13', '27 × 15'],
+        answer: '156; 405',
+      }),
+      ...skillBlock({
+        title: 'Multiply by 100',
+        teach: ['Write the number, then add two zeros.'],
+        worked: ['18 × 100 = 1,800', '42 × 100 = 4,200'],
+        tryThis: ['7 × 100', '35 × 100'],
+        answer: '700; 3,500',
+      }),
+      ...skillBlock({
+        title: 'Estimate by rounding to 10',
+        teach: [
+          'Round each factor to the nearest 10.',
+          'Multiply the rounded numbers.',
+        ],
+        worked: [
+          'Estimate 48 × 19',
+          '48 → 50, 19 → 20',
+          '50 × 20 = 1,000 (estimate)',
+        ],
+        tryThis: ['Estimate 34 × 22'],
+        answer: 'about 600 (30 × 20)',
+      }),
     ],
     examples: [
-      'Example 1: 24 × 10 = 240 (multiply by 1, add one zero).',
-      'Example 2: 23 × 14 = 230 + 92 = 322 (break into ×10 and ×4).',
-      'Example 3: Estimate 48 × 19 ≈ 50 × 20 = 1,000.',
-      'Example 4: Pattern ×2: 3, 6, 12, 24, 48, 96.',
+      '24 × 10 = 240',
+      '23 × 14 = 322',
+      '18 × 100 = 1,800',
+      '48 × 19 ≈ 1,000',
     ],
     practice: [
-      'Work out: 16 × 10,  25 × 20,  33 × 30.',
-      'Work out with regrouping: 23 × 14 and 27 × 15. Show the break-up method.',
+      'Work out: 16 × 10, 25 × 20, 33 × 30.',
+      'Work out: 23 × 14 and 27 × 15. Show break-up.',
       'Work out: 18 × 100 and 42 × 100.',
-      'Estimate by rounding to 10: 48 × 19 and 34 × 22.',
-      'Continue the pattern: 2, 4, 8, 16, __, __.',
-      'Word problem: One exercise book costs KSh 35. What is the cost of 10 books?',
+      'Estimate: 48 × 19 and 34 × 22.',
+      'Word problem: One book costs KSh 35. Cost of 10 books?',
     ],
     work: [
-      'In your exercise book, write and solve 10 multiplication questions mixing ×10, ×100, and two-digit × two-digit.',
-      'Make a multiplication chart for 12 × 1 up to 12 × 10 using scrap paper or cardboard.',
-      'Write one market word problem from your county that needs multiplication. Solve it.',
-      'Create a ×2 or ×3 pattern of six numbers with every product ≤ 100.',
+      'Write and solve 10 mixed multiplication questions in your book.',
+      'Make a ×12 chart from 12 × 1 to 12 × 10.',
+      'Invent one market word problem and solve it.',
     ],
     remember: [
-      '×10 → multiply, then add one zero. ×100 → add two zeros.',
-      'For two-digit × two-digit, break the second number into tens + ones, then add.',
-      'Estimate by rounding to the nearest 10, then multiply.',
-      'Patterns follow a clear rule (for example ×2 each time).',
+      '×10 → add one zero; ×100 → add two zeros.',
+      'Break 2-digit multipliers into tens + ones.',
+      'Estimate by rounding to 10, then multiply.',
     ],
-    inquiry: [
-      'When can you use multiplication in real life?',
-      'How can you create patterns involving multiplication?',
-    ],
+    inquiry: ['When can you use multiplication in real life?'],
     quizFacts: [
       '24 × 10 = 240',
       '36 × 20 = 720',
-      '12 × 13 = 156',
       '23 × 14 = 322',
       '18 × 100 = 1,800',
-      '48 × 19 is about 50 × 20 = 1,000 when estimating',
-      'A ×2 pattern can be 2, 4, 8, 16, 32, 64',
-      '15 bananas at KSh 8 each cost 15 × 8 = KSh 120',
+      '48 × 19 ≈ 50 × 20 = 1,000',
     ],
   };
 }
 
-function mathGenericPack(title, subject, outcomes) {
-  const name = title || 'this topic';
+function mathAreaPack() {
   return {
-    outcomes: outcomes.length
-      ? outcomes
-      : [
-          `Explain the main ideas in ${name}`,
-          `Solve practice questions on ${name}`,
-          `Use ${name} in a real-life Kenyan example`,
-        ],
+    outcomes: [
+      'explain area as the space covered by a flat shape',
+      'find area of a rectangle using length × width',
+      'find area of a square using side × side',
+      'use square centimetres (cm²) or square metres (m²)',
+    ],
     study: [
-      `WHAT YOU ARE LEARNING: ${name.toUpperCase()}`,
-      `${name} is a Grade mathematics skill used at school, at the market, and at home.`,
+      '▸ What is area?',
       '',
-      'HOW TO STUDY THIS TOPIC',
-      '1. Read each idea slowly.',
-      '2. Copy every worked example into your book and recalculate it yourself.',
-      '3. Then try the practice questions without looking at the answers.',
+      ...bullets(
+        'Area is the amount of flat space a shape covers.',
+        'We measure area in cm² or m².',
+      ),
       '',
-      'WORKED EXAMPLE STYLE',
-      `Write the question clearly. Show each step. Box the final answer.`,
-      'Example framework:',
-      `  Question: (write a ${name} problem)`,
-      '  Step 1: …',
-      '  Step 2: …',
-      '  Answer: …',
-      '',
-      'KENYAN CONTEXT',
-      'Use shillings, market goods, school desks, or garden plots as story numbers so the maths feels real.',
-    ],
-    examples: [
-      `Example 1: Solve one simple ${name} question using objects or a drawing.`,
-      `Example 2: Solve a harder ${name} question showing every step.`,
-      `Example 3: Make a word problem about ${name} set at a Kenyan market.`,
-    ],
-    practice: [
-      `Write and solve five questions on ${name}.`,
-      'Explain one solution aloud to a parent or friend.',
-      'Invent one new word problem and solve it.',
-    ],
-    work: [
-      `Complete 10 practice questions on ${name} in your exercise book.`,
-      'Mark your work. Redo any question you missed.',
-      'Teach a younger learner one method from this lesson.',
-    ],
-    remember: outcomes.slice(0, 4).length
-      ? outcomes.slice(0, 4)
-      : [
-          `Show your working for every ${name} question.`,
-          'Check answers by estimating or by a second method.',
-          'Link every skill to a real-life example.',
+      ...skillBlock({
+        title: 'Area of a rectangle',
+        teach: [
+          'Area = Length × Width.',
+          'Both sides must use the same unit first.',
         ],
-    inquiry: [],
-    quizFacts: outcomes.slice(0, 8),
+        worked: [
+          'A book cover is 18 cm by 13 cm.',
+          'Area = 18 × 13.',
+          '18 × 10 = 180, 18 × 3 = 54, total 234.',
+          'Area = 234 cm².',
+        ],
+        tryThis: ['Rectangle 10 cm by 7 cm. Find area.', 'Classroom floor 9 m by 6 m. Find area.'],
+        answer: '70 cm²; 54 m²',
+      }),
+      ...skillBlock({
+        title: 'Area of a square',
+        teach: ['Area = side × side.'],
+        worked: ['Square tile side 15 cm → Area = 15 × 15 = 225 cm².'],
+        tryThis: ['Square side 8 cm. Find area.', 'Square garden side 5 m. Find area.'],
+        answer: '64 cm²; 25 m²',
+      }),
+    ],
+    examples: ['18 × 13 = 234 cm²', '15 × 15 = 225 cm²', '9 × 6 = 54 m²'],
+    practice: [
+      'Find area: 12 cm by 5 cm rectangle.',
+      'Find area: square side 9 cm.',
+      'Word problem: A rectangular plot is 20 m by 15 m. Find its area.',
+    ],
+    work: ['Measure a book and calculate its area.', 'Draw 2 shapes, label sides, find area.'],
+    remember: ['Area = space covered.', 'Rectangle: L × W.', 'Square: side × side.', 'Use cm² or m².'],
+    inquiry: ['How is area different from perimeter?'],
+    quizFacts: [
+      'Area is the space a flat shape covers',
+      'Rectangle area = length × width',
+      '18 × 13 = 234 cm²',
+      'Square area = side × side',
+      '15 × 15 = 225 cm²',
+    ],
   };
 }
 
-function buildMathPack(topic, cleanOutcomes) {
+function buildMathPack(topic) {
   const title = topicTitle(topic);
   const blob = `${title} ${topic.topicNumber || ''}`.toLowerCase();
-  if (/multipl/.test(blob)) return mathMultiplicationPack(title, topic.gradeLabel);
+  if (/^area\b|\barea\b/.test(blob) && !/plane|figur|perimet/.test(blob)) return mathAreaPack();
+  if (/plane|figur|perimet|geometry|rectangle|square|triangle/.test(blob) && !/^area\b/.test(blob)) {
+    return mathPlaneFiguresPack(title);
+  }
+  if (/multipl/.test(blob)) return mathMultiplicationPack();
   if (/divis/.test(blob)) {
     return {
-      ...mathGenericPack(title, topic.subject, cleanOutcomes.map((s) => s.text)),
-      study: [
-        'WHAT DIVISION MEANS',
-        'Division shares a total into equal groups. 12 ÷ 3 = 4 means 12 split into 3 equal groups of 4.',
-        '',
-        'WORKED EXAMPLES',
-        'A: 24 ÷ 6 = 4 because 6 × 4 = 24.',
-        'B: 36 ÷ 4 = 9 because 4 × 9 = 36.',
-        'C: 45 ÷ 5 = 9 because 5 × 9 = 45.',
-        '',
-        'Check every division by multiplying back.',
-        'Real life: 30 exercise books shared equally among 5 learners → 30 ÷ 5 = 6 each.',
-      ],
-      examples: [
-        'Example 1: 24 ÷ 6 = 4 (check: 6 × 4 = 24).',
-        'Example 2: 36 ÷ 4 = 9 (check: 4 × 9 = 36).',
-        'Example 3: Share 30 books among 5 learners → 6 each.',
-      ],
-      practice: [
-        'Work out: 18 ÷ 3, 28 ÷ 7, 40 ÷ 8. Multiply back to check.',
-        'Word problem: 24 oranges shared equally among 6 children. How many each?',
-      ],
-      quizFacts: ['24 ÷ 6 = 4', '36 ÷ 4 = 9', '45 ÷ 5 = 9', 'Check division by multiplying'],
+      outcomes: ['divide equal groups', 'check division by multiplying'],
+      study: skillBlock({
+        title: 'Division',
+        teach: [
+          'Division shares a total into equal groups.',
+          'Check by multiplying: if 24 ÷ 6 = 4, then 6 × 4 = 24.',
+        ],
+        worked: ['24 ÷ 6 = 4', '36 ÷ 4 = 9', '45 ÷ 5 = 9'],
+        tryThis: ['18 ÷ 3', '40 ÷ 8', 'Share 30 books among 5 learners'],
+        answer: '6; 5; 6 each',
+      }),
+      examples: ['24 ÷ 6 = 4', '36 ÷ 4 = 9', '30 ÷ 5 = 6'],
+      practice: ['Work out 18 ÷ 3, 28 ÷ 7, 40 ÷ 8. Multiply to check.'],
+      work: ['Write 8 division questions and mark them.'],
+      remember: ['Division undoes multiplication.', 'Always check by multiplying.'],
+      inquiry: [],
+      quizFacts: ['24 ÷ 6 = 4', '36 ÷ 4 = 9', 'Check division by multiplying'],
     };
   }
   if (/add/.test(blob)) {
     return {
-      ...mathGenericPack(title, topic.subject, cleanOutcomes.map((s) => s.text)),
-      study: [
-        'WHAT ADDITION MEANS',
-        'Addition joins groups. Align place values: ones under ones, tens under tens.',
-        '',
-        'WORKED EXAMPLES',
-        'A (no regrouping): 23 + 14 = 37',
-        'B (with regrouping): 28 + 17 → ones 8+7=15 write 5 carry 1; tens 2+1+1=4 → 45',
-        'C: 156 + 238 → work column by column from the right.',
-        '',
-        'Real life: KSh 45 + KSh 30 fare = KSh 75.',
-      ],
-      examples: [
-        'Example 1: 23 + 14 = 37',
-        'Example 2: 28 + 17 = 45 (regroup ones)',
-        'Example 3: KSh 45 + KSh 30 = KSh 75',
-      ],
-      quizFacts: ['23 + 14 = 37', '28 + 17 = 45', 'Add from the ones column first'],
+      outcomes: ['add with and without regrouping'],
+      study: skillBlock({
+        title: 'Addition',
+        teach: ['Align ones under ones, tens under tens.', 'Add from the right.'],
+        worked: ['23 + 14 = 37', '28 + 17 = 45 (regroup ones)', 'KSh 45 + KSh 30 = KSh 75'],
+        tryThis: ['46 + 12', '39 + 28'],
+        answer: '58; 67',
+      }),
+      examples: ['23 + 14 = 37', '28 + 17 = 45'],
+      practice: ['Solve five addition questions showing working.'],
+      work: ['Make a market addition word problem and solve it.'],
+      remember: ['Add from the ones column first.'],
+      inquiry: [],
+      quizFacts: ['23 + 14 = 37', '28 + 17 = 45'],
     };
   }
   if (/subtract|minus/.test(blob)) {
     return {
-      ...mathGenericPack(title, topic.subject, cleanOutcomes.map((s) => s.text)),
-      study: [
-        'WHAT SUBTRACTION MEANS',
-        'Subtraction finds how many are left or the difference between two numbers.',
-        '',
-        'WORKED EXAMPLES',
-        'A: 48 − 23 = 25',
-        'B (regrouping): 52 − 18 → ones need regrouping → 34',
-        'C: KSh 100 − KSh 35 = KSh 65 change.',
-      ],
-      examples: [
-        'Example 1: 48 − 23 = 25',
-        'Example 2: 52 − 18 = 34',
-        'Example 3: KSh 100 − KSh 35 = KSh 65',
-      ],
-      quizFacts: ['48 − 23 = 25', '52 − 18 = 34', 'Subtract ones first; regroup when needed'],
+      outcomes: ['subtract with and without regrouping'],
+      study: skillBlock({
+        title: 'Subtraction',
+        teach: ['Subtraction finds what is left or the difference.'],
+        worked: ['48 − 23 = 25', '52 − 18 = 34', 'KSh 100 − KSh 35 = KSh 65'],
+        tryThis: ['67 − 21', '80 − 46'],
+        answer: '46; 34',
+      }),
+      examples: ['48 − 23 = 25', '52 − 18 = 34'],
+      practice: ['Solve five subtraction questions showing working.'],
+      work: ['Write change problems using shillings.'],
+      remember: ['Regroup when ones are not enough.'],
+      inquiry: [],
+      quizFacts: ['48 − 23 = 25', '52 − 18 = 34'],
     };
   }
   if (/fraction/.test(blob)) {
     return {
-      ...mathGenericPack(title, topic.subject, cleanOutcomes.map((s) => s.text)),
-      study: [
-        'WHAT FRACTIONS MEAN',
-        'A fraction names equal parts of a whole. In 1/2, the whole is split into 2 equal parts and you take 1.',
-        '',
-        'WORKED EXAMPLES',
-        'A: Shade 1/4 of a rectangle divided into 4 equal parts.',
-        'B: 1/2 of 12 mangoes = 6 mangoes.',
-        'C: 1/4 of 20 = 5.',
-      ],
-      examples: [
-        'Example 1: 1/2 of 12 = 6',
-        'Example 2: 1/4 of 20 = 5',
-        'Example 3: 3/4 means 3 equal parts out of 4',
-      ],
-      quizFacts: ['1/2 of 12 = 6', '1/4 of 20 = 5', 'Denominator = equal parts of the whole'],
+      outcomes: ['explain equal parts of a whole', 'find simple fractions of amounts'],
+      study: skillBlock({
+        title: 'Fractions',
+        teach: [
+          'A fraction names equal parts of a whole.',
+          'In 1/2, the whole is split into 2 equal parts; you take 1.',
+        ],
+        worked: ['1/2 of 12 mangoes = 6', '1/4 of 20 = 5', '3/4 means 3 equal parts out of 4'],
+        tryThis: ['1/2 of 10', '1/4 of 16'],
+        answer: '5; 4',
+      }),
+      examples: ['1/2 of 12 = 6', '1/4 of 20 = 5'],
+      practice: ['Find 1/2 and 1/4 of classroom totals (learners, desks).'],
+      work: ['Draw shapes and shade 1/2 and 1/4.'],
+      remember: ['Denominator = equal parts of the whole.'],
+      inquiry: [],
+      quizFacts: ['1/2 of 12 = 6', '1/4 of 20 = 5'],
     };
   }
-  return mathGenericPack(title, topic.subject, cleanOutcomes.map((s) => s.text));
+
+  // Generic maths classroom shell with forced calculation practice
+  return {
+    outcomes: [`solve questions on ${title}`, `show clear working for ${title}`],
+    study: [
+      `▸ Learning ${title}`,
+      '',
+      ...bullets(
+        `Read the meaning of ${title}.`,
+        'Copy every worked example into your book.',
+        'Then solve the Try this questions without looking.',
+      ),
+      '',
+      ...skillBlock({
+        title: title,
+        teach: [
+          `Use objects, drawings, or place value to understand ${title}.`,
+          'Write each step. Box the final answer.',
+        ],
+        worked: [
+          `Model question on ${title}: write the question.`,
+          'Step 1: …',
+          'Step 2: …',
+          'Answer: …',
+          '(Your teacher/parent can replace this with the class example.)',
+        ],
+        tryThis: [
+          `Invent 3 ${title} questions using Kenyan shillings, metres, or classroom counts.`,
+          'Solve all three and show working.',
+        ],
+      }),
+    ],
+    examples: [`Show working for one ${title} question.`, `Check with a second method.`],
+    practice: [`Solve 8 practice questions on ${title}.`, 'Mark and correct mistakes.'],
+    work: [`Make a revision sheet for ${title} with 5 worked examples.`],
+    remember: ['Show working.', 'Check every answer.'],
+    inquiry: [],
+    quizFacts: [`${title} needs clear step-by-step working`, 'Always check your answer'],
+  };
 }
 
-/* -------------------- LITERACY / GENERAL PACKS -------------------- */
+/* -------------------- ENGLISH / LITERACY -------------------- */
 
-function literacyPack(topic, cleanOutcomes) {
+function englishPack(topic, outcomes) {
   const title = topicTitle(topic);
   const name = title.toLowerCase();
 
-  if (/word reading|sight word|vocabulary|word attack/i.test(name)) {
+  if (/euphemism|polite|short forms|oral literature|riddl|proverb|tongue/.test(name) || /euphemism/.test(outcomes.join(' '))) {
     return {
-      outcomes: cleanOutcomes.length
-        ? cleanOutcomes.map((s) => s.text)
-        : [
-            'Read more and longer words, including words that are hard to sound out letter by letter',
-            'Read grade-level vocabulary in short texts',
-            'Use word-attack skills and enjoy reading new words',
-          ],
+      outcomes: outcomes.length
+        ? outcomes
+        : ['use euphemisms to show politeness', 'identify short forms in oral literature', 'speak politely in public'],
       study: [
-        'WHAT WORD READING MEANS',
-        'Word reading is looking at a written word and saying it correctly.',
-        'Some longer words do not follow simple letter–sound rules. Your teacher models them. You look, listen, then say.',
+        '▸ What is a euphemism?',
         '',
-        'METHODS TO STUDY',
-        '1. Look-and-say: see the whole word, hear it, say it, cover it, write it.',
-        '2. Chunking: split long words — foot+ball, class+room, sun+shine.',
-        '3. Root words: in “handmade”, see “hand” and “made”.',
-        '4. Word ladder: change one letter at a time (sun → run → ran) and read each step.',
+        ...bullets(
+          'A euphemism is a soft / polite way of saying something that might sound harsh or embarrassing.',
+          'We use euphemisms to show respect and good manners.',
+        ),
         '',
-        'WEEKLY HABIT',
-        'Learn about 8–10 new longer words each week. Practise in a group, with a partner, and alone.',
+        ...skillBlock({
+          title: 'Euphemism for politeness',
+          teach: [
+            'Think of the direct word.',
+            'Replace it with a kinder phrase.',
+            'Keep the meaning, soften the sound.',
+          ],
+          worked: [
+            'Direct: “He died.” → Polite: “He passed away.”',
+            'Direct: “She is old.” → Polite: “She is advanced in age.” / “She is elderly.”',
+            'Direct: “The toilet” in formal talk → Polite: “the washroom” / “the restroom”.',
+            'Direct: “You failed.” → Polite: “You did not meet the mark this time.”',
+          ],
+          tryThis: [
+            'Change to polite language: “Your breath smells.”',
+            'Change to polite language: “That man is jobless.”',
+          ],
+          answer: 'e.g. “Your breath is not fresh.”; “He is between jobs / seeking employment.”',
+        }),
+        '▸ Short forms in oral literature (examples)',
         '',
-        'WORKED EXAMPLES',
-        'A: elephant — look, listen to the model, say “elephant”, write it.',
-        'B: football = foot + ball',
-        'C: Word ladder: cat → hat → hot → hop',
+        ...bullets(
+          'Riddles — short clever questions for entertainment and thinking.',
+          'Proverbs — short wise sayings.',
+          'Tongue twisters — short phrases for clear speech practice.',
+        ),
+        '',
+        'Worked examples',
+        ...bullets(
+          'Proverb idea: “A stitch in time saves nine.” → Fix a small problem early.',
+          'Polite classroom talk: “Please may I borrow your pen?” not “Give me your pen.”',
+        ),
+        '',
       ],
       examples: [
-        'Example 1 — Look and say: “elephant” together, then in pairs, then alone.',
-        'Example 2 — Chunking: classroom = class + room.',
-        'Example 3 — Word ladder: sun → run → ran.',
-        'Example 4 — Home: pick two long newspaper words; repeat after a parent; write them.',
+        '“passed away” instead of “died”',
+        '“washroom” instead of blunt toilet talk in formal settings',
+        '“Please may I…?” for polite requests',
       ],
       practice: [
-        'Read five long words from a chart while pointing under each word.',
-        'Build a four-step word ladder and read it aloud.',
-        'Chunk: football, classroom, sunshine, handmade.',
-        'Write three new words and use each in a school sentence.',
+        'Write 5 direct sentences, then rewrite each with a euphemism / polite form.',
+        'Role-play a market conversation using polite requests.',
+        'Explain why polite language matters in school assemblies.',
       ],
       work: [
-        'Copy eight new longer words. Read them to a parent tonight.',
-        'Make one word ladder of at least four steps.',
-        'Answer: How do you read a word you have never seen before?',
+        'Collect 5 euphemisms from home/radio/news. Write direct + polite pairs.',
+        'Prepare a 1-minute polite speech thanking visitors at school.',
       ],
       remember: [
-        'Look at the whole word, then say it clearly.',
-        'Use chunks, roots, and look-and-say.',
-        'Practise about eight to ten new longer words each week.',
+        'Euphemism = softer polite wording.',
+        'Polite language shows respect.',
+        'Practise short oral forms: riddles, proverbs, polite requests.',
       ],
-      inquiry: parseInquiryQuestions(topic.rawText || ''),
+      inquiry: ['Why should we use polite language?', 'Why is it embarrassing to say some words in public?'],
       quizFacts: [
-        'Look-and-say helps with long words',
-        'Chunking splits a long word into parts',
-        'A word ladder changes one letter at a time',
-        'Practise new words every week',
+        'Euphemism is a polite soft expression',
+        '“Passed away” is a euphemism for died',
+        'Polite requests use words like please and may I',
+        'Short oral forms include riddles and proverbs',
       ],
     };
   }
 
-  if (/multipl|math|number|fraction|add|subtract|divis|measure|geometry|algebra|pattern|shape|money|time/i.test(
-    `${name} ${topic.subject || ''}`,
-  ) && /math|numeracy|arithmetic/i.test(topic.subject || '')) {
-    return buildMathPack(topic, cleanOutcomes);
-  }
-  // Also route clear maths topic names even if subject label is odd
-  if (/^(multiplication|division|addition|subtraction|fractions?|decimals?|percentages?|geometry|algebra|integers?)\b/i.test(name)) {
-    return buildMathPack(topic, cleanOutcomes);
+  if (/word reading|sight word|vocabulary|word attack/.test(name)) {
+    return {
+      outcomes: [
+        'read longer words using look-and-say',
+        'chunk long words into parts',
+        'build word ladders',
+      ],
+      study: [
+        ...skillBlock({
+          title: 'Look-and-say',
+          teach: ['Look at the whole word.', 'Listen to the model.', 'Say it.', 'Cover and write it.'],
+          worked: ['Word: elephant → look → say “elephant” → write it.'],
+          tryThis: ['Practise: giraffe, cucumber, helicopter'],
+        }),
+        ...skillBlock({
+          title: 'Chunking',
+          teach: ['Split a long word into known parts.'],
+          worked: ['football = foot + ball', 'classroom = class + room', 'sunshine = sun + shine'],
+          tryThis: ['Chunk: handmade, bedroom, toothbrush'],
+        }),
+        ...skillBlock({
+          title: 'Word ladder',
+          teach: ['Change one letter at a time.', 'Read every new word.'],
+          worked: ['sun → run → ran', 'cat → hat → hot → hop'],
+          tryThis: ['Make a ladder of 4 steps starting from “pen”'],
+        }),
+      ],
+      examples: ['elephant (look-and-say)', 'football = foot + ball', 'sun → run → ran'],
+      practice: [
+        'Read 8 long words pointing under each.',
+        'Chunk 5 compound words.',
+        'Build one word ladder with 4 steps.',
+      ],
+      work: ['Copy 10 new words. Read them to a parent.', 'Make flashcards for 5 hard words.'],
+      remember: ['Look, say, write.', 'Use chunks for long words.', 'Practise weekly.'],
+      inquiry: ['How do you read a word you have not seen before?'],
+      quizFacts: ['Look-and-say helps long words', 'Chunking splits words', 'Word ladders change one letter'],
+    };
   }
 
-  return buildUniversalStudyPack(topic, cleanOutcomes);
-}
-
-/**
- * Turn any CBC topic into a pupil study lesson (all subjects / all grades).
- * Not a teacher guide. Not a curriculum dump.
- */
-function pupilVoiceOutcome(text) {
-  return String(text || '')
-    .replace(/^(the\s+)?learner(s)?\s+(should\s+be\s+able\s+to\s+|is\s+able\s+to\s+|can\s+)?/i, '')
-    .replace(/^(to\s+)/i, '')
-    .trim();
-}
-
-function subjectContext(subject, title) {
-  const s = String(subject || '').toLowerCase();
-  const t = String(title || '').toLowerCase();
-
-  if (/kiswahili/.test(s)) {
-    return {
-      place: 'nyumbani, shuleni, na sokoni',
-      model: [
-        `Mfano wa kusoma: Soma sentensi fupi kuhusu “${title}”, kisha eleza kwa maneno yako.`,
-        `Mfano wa kuzungumza: Zungumza na rafiki kwa dakika 1 kuhusu ${title}.`,
-        `Mfano wa kuandika: Andika sentensi 3 sahihi kuhusu ${title}.`,
-      ],
-      practiceVerb: 'Soma, sema, kisha andika',
-    };
-  }
-  if (/english|language|literacy/.test(s) || /listen|speak|read|writ|grammar|comprehension|handwrit|spell|punctuat/.test(t)) {
-    return {
-      place: 'at school, at home, and in your community in Kenya',
-      model: [
-        `Model reading: Read a short paragraph about “${title}”, then retell it in 3 sentences.`,
-        `Model speaking: Say 4 clear sentences about ${title} to a partner.`,
-        `Model writing: Write 5 neat sentences using new words from this lesson.`,
-      ],
-      practiceVerb: 'Listen, speak, read, then write',
-    };
-  }
-  if (/science|environment|hygiene|nutrition|agriculture|home.?science|integrated/.test(s) || /plant|animal|water|soil|weather|food|health|waste|digest|force|energy|matter/.test(t)) {
-    return {
-      place: 'in your school compound, home, farm, or county',
-      model: [
-        `Observe: Name what you can see/touch about “${title}” around your school.`,
-        `Explain: Say why ${title} matters for health, safety, or the environment in Kenya.`,
-        `Apply: Describe one safe action you can take related to ${title} this week.`,
-      ],
-      practiceVerb: 'Observe, explain, then apply',
-    };
-  }
-  if (/social|history|geography|citizenship|business/.test(s) || /map|county|rights|government|culture|trade|family|community/.test(t)) {
-    return {
-      place: 'in your county, school, and Kenyan community',
-      model: [
-        `Locate: Connect “${title}” to a real place or group in Kenya (school, market, county office, home).`,
-        `Explain: Give one cause and one effect linked to ${title}.`,
-        `Participate: Describe one responsible action a Grade learner can take.`,
-      ],
-      practiceVerb: 'Locate, explain, then act responsibly',
-    };
-  }
-  if (/christian|cre|islam|hindu|religious|life skills/.test(s) || /prayer|god|allah|bible|quran|value|honest|obedi|respect|peace/.test(t)) {
-    return {
-      place: 'at home, at your place of worship, and at school',
-      model: [
-        `Value in action: Show how “${title}” looks when you treat a classmate kindly.`,
-        `Story link: Retell a short faith/values story connected to ${title} in your own words.`,
-        `Daily habit: Choose one good action to practise today because of this lesson.`,
-      ],
-      practiceVerb: 'Reflect, retell, then practise a good habit',
-    };
-  }
-  if (/creative|music|art|sport|physical|psychomotor/.test(s) || /song|dance|draw|paint|game|run|jump|rhythm/.test(t)) {
-    return {
-      place: 'in the classroom, field, or during co-curricular time',
-      model: [
-        `Warm-up: Do a simple body/voice warm-up linked to “${title}”.`,
-        `Demonstrate: Perform or create one short example of ${title}.`,
-        `Reflect: Tell a friend one thing you improved after practising.`,
-      ],
-      practiceVerb: 'Warm up, practise, then perform',
-    };
-  }
-  if (/pre-?technical|computer|ICT|drawing|materials|entrepreneur/.test(s) || /tool|draw|material|safety|design|business/.test(t)) {
-    return {
-      place: 'in the workshop corner, classroom, or a safe practice space',
-      model: [
-        `Safety first: State one safety rule before practising “${title}”.`,
-        `Steps: List 3 correct steps to complete a simple task on ${title}.`,
-        `Check: Inspect your work and say one improvement.`,
-      ],
-      practiceVerb: 'Plan safely, do the steps, then check',
-    };
-  }
+  // General English classroom
   return {
-    place: 'at school and at home in Kenya',
-    model: [
-      `Explain “${title}” in your own words using one local example.`,
-      `Show one correct way to practise ${title}.`,
-      `Teach a younger learner one idea from this lesson.`,
+    outcomes: outcomes.length ? outcomes : [`practise ${title}`, `use ${title} in clear sentences`],
+    study: [
+      `▸ ${title}`,
+      '',
+      ...bullets(
+        'Listen to a model.',
+        'Study the example.',
+        'Then produce your own example.',
+      ),
+      '',
+      ...skillBlock({
+        title: title,
+        teach: [
+          `Focus skill: ${outcomes[0] || title}.`,
+          'Use complete sentences.',
+          'Speak clearly; write neatly.',
+        ],
+        worked: [
+          `Model sentence 1 about ${title}.`,
+          `Model sentence 2 using a Kenyan school example.`,
+          'Model dialogue: A: “…?”  B: “…”',
+        ],
+        tryThis: [
+          'Write 5 original sentences on this skill.',
+          'Say one 30-second oral example to a partner.',
+        ],
+      }),
     ],
-    practiceVerb: 'Read, practise, then check',
+    examples: [`One clear model for ${title}`, 'One Kenyan school/home example'],
+    practice: ['Write 5 sentences.', 'Do one oral practice with a partner.', 'Correct spelling/punctuation.'],
+    work: ['Revision sheet: meaning + 5 examples + 5 practice items.'],
+    remember: ['Model first, then try.', 'Use complete sentences.'],
+    inquiry: parseInquiryQuestions(topic.rawText || ''),
+    quizFacts: outcomes.slice(0, 6).length ? outcomes.slice(0, 6) : [`Practise ${title} daily`],
   };
 }
 
-function expandOutcomeToStudy(outcome, index, ctx, title) {
-  const o = pupilVoiceOutcome(outcome);
-  const n = index + 1;
-  const model = ctx.model[index % ctx.model.length];
-  return [
-    `PART ${n}: ${o.charAt(0).toUpperCase()}${o.slice(1)}`,
-    '',
-    'What this means',
-    `In this part you learn to ${o}. You will use ideas from ${ctx.place}.`,
-    '',
-    'How to learn it',
-    `1. Read the idea carefully: ${o}.`,
-    `2. ${ctx.practiceVerb} using a Kenyan example from your life.`,
-    '3. Check yourself: Can you explain it without looking?',
-    '',
-    'Model',
-    model,
-    '',
-    'Your turn',
-    `Do one short practice that proves you can ${o}. Write or say your answer clearly.`,
-    '',
-  ];
-}
+/* -------------------- SCIENCE / ENVIRONMENT / SOCIAL / CRE -------------------- */
 
-function topicKnowledgeFallback(title, subject) {
-  const t = String(title || '').toLowerCase();
-  const s = String(subject || '').toLowerCase();
-
-  if (/animal/.test(t)) {
-    return {
-      outcomes: [
-        'identify common animals found at home, school, and in Kenya',
-        'group animals in simple ways (for example domestic and wild, or those that live on land and in water)',
-        'describe how selected animals move, feed, or protect themselves',
-        'practise kind and safe care for animals',
-      ],
-      studyExtra: [
-        'KEY FACTS ABOUT ANIMALS',
-        'Animals are living things. They move, feed, grow, and respond to their surroundings.',
-        'Domestic animals live with people (cow, goat, chicken, dog, cat).',
-        'Wild animals live on their own in forests, parks, or water (lion, zebra, fish).',
-        'In Kenya you may see cows in a homestead, fish at a market, or birds on the school field.',
-        'Safety: do not touch unknown animals; wash hands after handling pets or farm animals.',
-      ],
-    };
-  }
-  if (/plant|seed|leaf|flower|crop/.test(t)) {
-    return {
-      outcomes: [
-        'identify parts of a plant (root, stem, leaf, flower, fruit/seed)',
-        'explain what plants need to grow (water, air, light, soil)',
-        'describe how people in Kenya use plants for food, shade, or medicine',
-        'care for a seedling or garden plot safely',
-      ],
-      studyExtra: [
-        'KEY FACTS ABOUT PLANTS',
-        'Roots hold the plant and take in water. Leaves help the plant make food using sunlight.',
-        'Kenyan examples: maize, beans, sukuma wiki, bananas, mango trees.',
-        'Without water and light, most seedlings wilt.',
-      ],
-    };
-  }
-  if (/water/.test(t)) {
-    return {
-      outcomes: [
-        'explain why clean water is important',
-        'list ways water is used at home and school',
-        'describe simple ways to conserve water in Kenya',
-        'practise safe water habits',
-      ],
-      studyExtra: [
-        'KEY FACTS ABOUT WATER',
-        'We use water for drinking, cooking, cleaning, and farming.',
-        'Conserve water: close taps, fix leaks, reuse grey water for plants where safe.',
-        'Unsafe water can cause disease — store drinking water in clean covered containers.',
-      ],
-    };
-  }
-  if (/light|heat|force|energy|matter|soil|weather|digest|hygiene|nutrition|food/.test(t)) {
-    return {
-      outcomes: [
-        `explain what ${title} means using everyday Kenyan examples`,
-        `describe how ${title} appears at home, school, or in the environment`,
-        `practise one safe skill connected to ${title}`,
-        `tell why ${title} matters for life in Kenya`,
-      ],
-      studyExtra: [
-        `KEY FACTS: ${title.toUpperCase()}`,
-        `${title} is part of Science learning. Connect every idea to something you can observe.`,
-        'Use safe examples only. Do not try dangerous experiments without a teacher.',
-        'Write definitions in your own words, then add one drawing or real-life example.',
-      ],
-    };
-  }
-  if (/citizen|government|right|responsib|map|county|family|community|trade|culture|peace/.test(t) || /social/.test(s)) {
-    return {
-      outcomes: [
-        `explain ${title} in simple words`,
-        `give Kenyan school/community examples of ${title}`,
-        `describe one responsible action linked to ${title}`,
-        `show respect and fairness when practising ${title}`,
-      ],
-      studyExtra: [
-        `KEY FACTS: ${title.toUpperCase()}`,
-        'Good citizens follow rules, respect others, and care for shared places.',
-        'Kenyan examples: lining up, keeping the compound clean, telling the truth, helping a classmate.',
-        'Rights come with responsibilities.',
-      ],
-    };
-  }
-  if (/listen|speak|read|writ|grammar|comprehension|vocab|punctuat|spell|handwrit|oral/.test(t) || /english/.test(s)) {
-    return {
-      outcomes: [
-        `practise ${title} clearly and confidently`,
-        'use correct words and sentences for the grade level',
-        'give examples from school and home conversations',
-        'check your work for clarity and neatness',
-      ],
-      studyExtra: [
-        `KEY FACTS: ${title.toUpperCase()}`,
-        'Language skills grow by daily practice: listen carefully, speak clearly, read every day, write neatly.',
-        'Model → guided practice → independent practice.',
-        'Always use complete sentences when writing answers.',
-      ],
-    };
-  }
-  if (/multipl|divis|add|subtract|fraction|number|measure|geometry|money|time|pattern|shape/.test(t) || /math/.test(s)) {
-    return null; // handled by math packs
-  }
+function waterPack(title, gradeLabel) {
+  const early = /pp|grade-1|grade-2|grade-3/i.test(String(gradeLabel || ''));
   return {
     outcomes: [
-      `explain what ${title} means in simple pupil language`,
-      `give 3 correct examples of ${title} from Kenya`,
-      `practise ${title} in clear steps`,
-      `apply ${title} in one real-life situation this week`,
+      'name uses of water at home and school',
+      'explain why clean water is important',
+      'show ways to conserve water',
+      'practise safe water habits',
     ],
-    studyExtra: [
-      `KEY FACTS: ${title.toUpperCase()}`,
-      `Study ${title} like a learner textbook page: meaning → examples → practice → check.`,
-      'Replace teacher words with your own words.',
-      'If a step is unclear, rewrite it shorter and try again.',
+    study: [
+      '▸ What is water?',
+      '',
+      ...bullets(
+        early ? 'Water is what we drink and use to wash.' : 'Water is a natural resource we need every day.',
+        'We find water in taps, rivers, lakes, tanks, and rain.',
+      ),
+      '',
+      ...skillBlock({
+        title: 'Uses of water',
+        teach: ['List uses under Home and School.'],
+        worked: [
+          'Home: drinking, cooking ugali/sukuma, bathing, washing clothes, cleaning utensils.',
+          'School: drinking, washing hands, cleaning classrooms, watering gardens.',
+          'Farm/community: watering crops, animals drinking.',
+        ],
+        tryThis: [
+          'Draw 4 pictures: drink, wash hands, cook, water a plant. Label each.',
+          'Say 3 uses of water at your home.',
+        ],
+      }),
+      ...skillBlock({
+        title: 'Why clean water matters',
+        teach: [
+          'Dirty water can make us sick.',
+          'Clean covered water is safer to drink.',
+        ],
+        worked: [
+          'Safe: water from a clean covered container / treated tap water.',
+          'Unsafe: open dirty puddle water for drinking.',
+        ],
+        tryThis: ['Which is safer for drinking: covered tank water or open puddle? Why?'],
+        answer: 'Covered tank/treated water — less germs',
+      }),
+      ...skillBlock({
+        title: 'Conserve water (do not waste)',
+        teach: [
+          'Close the tap when soaping hands.',
+          'Report leaking taps.',
+          'Use a basin instead of a running tap when washing.',
+        ],
+        worked: [
+          'Bad habit: leaving a tap running while brushing teeth.',
+          'Good habit: fill a cup, close tap, brush, rinse.',
+        ],
+        tryThis: ['List 3 ways you will save water this week at home.'],
+      }),
+    ],
+    examples: [
+      'Uses: drinking, cooking, washing, farming',
+      'Safe storage: covered clean container',
+      'Save water: close taps, fix leaks',
+    ],
+    practice: [
+      'Name 5 uses of water.',
+      'Tick safe vs unsafe drinking sources.',
+      'Act out: washing hands the correct way (wet → soap → scrub → rinse → close tap).',
+    ],
+    work: [
+      early ? 'With a parent, find 3 places water is used at home. Draw them.' : 'Make a water-saving poster for your class.',
+      'Teach a younger child: “Close the tap.”',
+    ],
+    remember: [
+      'Water is useful at home and school.',
+      'Drink clean safe water.',
+      'Do not waste water.',
+    ],
+    inquiry: ['What are the uses of water?', 'How do we conserve water?'],
+    quizFacts: [
+      'Water is used for drinking and washing',
+      'Dirty water can cause illness',
+      'Close taps to save water',
+      'Store drinking water in a clean covered container',
     ],
   };
 }
 
-function buildUniversalStudyPack(topic, cleanOutcomes) {
+function animalsPack() {
+  return {
+    outcomes: [
+      'identify domestic and wild animals',
+      'describe how some animals move or feed',
+      'practise kind safe care of animals',
+    ],
+    study: [
+      ...skillBlock({
+        title: 'Types of animals',
+        teach: [
+          'Domestic animals live with people.',
+          'Wild animals live on their own.',
+        ],
+        worked: [
+          'Domestic: cow, goat, sheep, chicken, dog, cat.',
+          'Wild: lion, zebra, elephant, giraffe, fish in lakes/rivers.',
+        ],
+        tryThis: ['Sort: dog, lion, chicken, zebra → domestic or wild?'],
+        answer: 'dog/chicken domestic; lion/zebra wild',
+      }),
+      ...skillBlock({
+        title: 'Care and safety',
+        teach: [
+          'Be kind to animals.',
+          'Do not touch unknown animals.',
+          'Wash hands after handling pets/farm animals.',
+        ],
+        worked: [
+          'Good care: give a dog clean water and food.',
+          'Safety: do not put your hand near a strange dog’s mouth.',
+        ],
+        tryThis: ['Write 2 kind actions and 1 safety rule for animals.'],
+      }),
+    ],
+    examples: ['Cow = domestic', 'Lion = wild', 'Wash hands after touching animals'],
+    practice: ['List 5 domestic and 5 wild animals found in Kenya.', 'Draw one animal and label how it moves.'],
+    work: ['Visit/observe one animal area safely with an adult. Write 5 facts.'],
+    remember: ['Domestic vs wild', 'Be kind', 'Stay safe'],
+    inquiry: [],
+    quizFacts: ['Cows are domestic animals', 'Lions are wild animals', 'Wash hands after handling animals'],
+  };
+}
+
+function citizenshipPack(title) {
+  return {
+    outcomes: [
+      `explain ${title} in simple words`,
+      'give school examples of good citizenship',
+      'practise one responsible action',
+    ],
+    study: [
+      ...skillBlock({
+        title: title,
+        teach: [
+          'A good citizen follows rules, respects others, and cares for shared places.',
+          'Rights come with responsibilities.',
+        ],
+        worked: [
+          'School example: lining up quietly for assembly.',
+          'School example: putting litter in the bin.',
+          'Home example: telling the truth to parents.',
+          'Community example: helping an elderly neighbour carry shopping.',
+        ],
+        tryThis: [
+          'List 3 good-citizen actions at school.',
+          'List 2 actions that are NOT good citizenship.',
+        ],
+      }),
+    ],
+    examples: ['Lining up', 'Telling truth', 'Keeping compound clean'],
+    practice: ['Role-play a good citizen vs a bad choice. Discuss why.'],
+    work: ['Make a “Good Citizen” poster with 5 bullet points.'],
+    remember: ['Respect + responsibility + honesty'],
+    inquiry: [],
+    quizFacts: [
+      'Good citizens follow rules',
+      'Putting litter in the bin is good citizenship',
+      'Rights come with responsibilities',
+    ],
+  };
+}
+
+function buildSubjectPack(topic, cleanOutcomes) {
   const title = topicTitle(topic);
-  const fallback = topicKnowledgeFallback(title, topic.subject);
-  const outs = cleanOutcomes.length
-    ? cleanOutcomes.map((s) => s.text)
-    : fallback?.outcomes || [
-        `explain what ${title} means in simple words`,
-        `give correct examples of ${title} from school or home`,
-        `practise ${title} step by step until you can do it alone`,
-        `apply ${title} in a real Kenyan situation`,
-      ];
+  const subject = String(topic.subject || '');
+  const name = title.toLowerCase();
+  const outs = cleanOutcomes.map((s) => s.text);
 
-  const ctx = subjectContext(topic.subject, title);
-  const study = [
-    `WHAT YOU ARE STUDYING: ${title.toUpperCase()}`,
-    `Subject: ${topic.subject} · Grade: ${topic.gradeLabel || topic.grade}`,
-    `This is a learner study lesson (not a teacher guide). Read every part, follow the models, then practise.`,
-    '',
-    'BIG PICTURE',
-    `${title} helps you succeed in ${topic.subject}. You will understand it, practise it, and use it ${ctx.place}.`,
-    '',
-  ];
-
-  if (fallback?.studyExtra?.length) {
-    study.push(...fallback.studyExtra, '');
+  if (/math/i.test(subject) || /multipl|divis|add|subtract|fraction|plane|perimet|area|geometry|number|measure|money|time|shape/.test(name)) {
+    return buildMathPack(topic);
+  }
+  if (/english|literacy|language activit/i.test(subject) || /listen|speak|read|writ|euphemism|oral|grammar|comprehension|vocab/.test(name)) {
+    return englishPack(topic, outs);
+  }
+  if (/water/.test(name) || (/environment/i.test(subject) && /water/.test(name))) {
+    return waterPack(title, topic.gradeLabel || topic.grade);
+  }
+  if (/animal/.test(name)) return animalsPack();
+  if (/citizen|government|right|responsib/i.test(name) || (/social/i.test(subject) && /citizen|school/.test(name))) {
+    return citizenshipPack(title);
+  }
+  if (/science|environment|hygiene|nutrition|agriculture/i.test(subject)) {
+    return {
+      outcomes: outs.length
+        ? outs
+        : [`explain ${title}`, `give Kenyan examples of ${title}`, `practise a safe skill for ${title}`],
+      study: [
+        ...skillBlock({
+          title,
+          teach: [
+            `Observe ${title} in real life (school compound, home, farm).`,
+            'Use safe examples only.',
+            'Name → explain → apply.',
+          ],
+          worked: [
+            `Fact 1 about ${title} (in pupil words).`,
+            `Fact 2 with a Kenyan example.`,
+            `Safe action connected to ${title}.`,
+          ],
+          tryThis: [
+            `Draw/label one diagram for ${title}.`,
+            `Write 5 bullet facts about ${title}.`,
+            'Say one safety rule.',
+          ],
+        }),
+      ],
+      examples: outs.slice(0, 3).map((o) => o),
+      practice: [`List 8 facts on ${title}.`, 'Teach a friend using only bullet points.'],
+      work: [`Revision sheet for ${title}: meaning, diagram, 5 practice questions.`],
+      remember: outs.slice(0, 4).length ? outs.slice(0, 4) : [`Know ${title} with examples`],
+      inquiry: parseInquiryQuestions(topic.rawText || ''),
+      quizFacts: outs.slice(0, 8).length ? outs.slice(0, 8) : [`${title} needs observation and practice`],
+    };
   }
 
-  outs.slice(0, 6).forEach((o, i) => {
-    study.push(...expandOutcomeToStudy(o, i, ctx, title));
+  // Universal classroom shell — still teach → example → try
+  const goals = outs.length
+    ? outs
+    : [
+        `explain ${title} in simple words`,
+        `give 3 Kenyan examples of ${title}`,
+        `practise ${title} step by step`,
+      ];
+  const study = [];
+  goals.slice(0, 5).forEach((goal, i) => {
+    study.push(
+      ...skillBlock({
+        title: `Skill ${i + 1}: ${goal}`,
+        teach: [
+          `Today’s focus: ${goal}.`,
+          'Listen/read the idea.',
+          'Watch/study the model.',
+          'Then do Try this.',
+        ],
+        worked: [
+          `Model A for “${goal}” using a school example.`,
+          `Model B for “${goal}” using a home/county example.`,
+        ],
+        tryThis: [
+          `Your turn: show "${goal}" in 3 bullet points.`,
+          'Share with a partner and improve one bullet.',
+        ],
+      }),
+    );
   });
 
-  study.push('PUT IT TOGETHER');
-  study.push(`Close your notes and say aloud: what ${title} is, one example, and one way you will practise this week.`);
-
-  const examples = [
-    ...(fallback?.studyExtra || []).filter((l) => /Kenyan examples|Domestic|Wild|Roots|Conserve|Good citizens/i.test(l)).slice(0, 2),
-    ...outs.slice(0, 4).map((o, i) => {
-      const voice = pupilVoiceOutcome(o);
-      return `Example ${i + 1}: ${ctx.model[i % ctx.model.length].replace(/^[^:]+:\s*/, '')} (skill: ${voice})`;
-    }),
-  ];
-
-  const practice = [
-    `Write 5 sentences (or show 5 clear steps) that teach ${title} to a classmate.`,
-    ...outs.slice(0, 3).map((o) => `Practise this skill: ${pupilVoiceOutcome(o)}.`),
-    `Make one local Kenya example of ${title} from your county, market, farm, or school.`,
-    'Mark your own work: What did you get right? What will you redo?',
-  ];
-
-  const work = [
-    `In your exercise book, make a one-page revision sheet for ${title}: meaning, 3 examples, 5 practice items.`,
-    'Teach a parent/guardian or younger sibling one part of this lesson (2 minutes).',
-    `Answer in writing: Why should a ${topic.gradeLabel || 'CBC'} learner study ${title}?`,
-    'Prepare for the quiz: cover the Remember box and recite it.',
-  ];
-
-  const remember = [
-    `Know what ${title} means in your own words.`,
-    'Use local Kenyan examples, not only definitions.',
-    'Practise in small steps, then check your work.',
-    ...outs.slice(0, 2).map((o) => `Be able to: ${pupilVoiceOutcome(o)}.`),
-  ];
-
   return {
-    outcomes: outs.map(pupilVoiceOutcome),
+    outcomes: goals,
     study,
-    examples,
-    practice,
-    work,
-    remember,
-    inquiry: parseInquiryQuestions(topic.rawText || ''),
-    quizFacts: [
-      ...outs.map(pupilVoiceOutcome).slice(0, 6),
-      `${title} is practised with local Kenyan examples`,
-      'Good study = read notes + follow model + practise + check',
+    examples: goals.slice(0, 4).map((g, i) => `Model ${i + 1}: ${g}`),
+    practice: goals.slice(0, 4).map((g) => `Practise: ${g}`),
+    work: [
+      `Make a one-page revision sheet for ${title}.`,
+      'Teach someone at home for 2 minutes using bullet points only.',
     ],
+    remember: goals.slice(0, 4),
+    inquiry: parseInquiryQuestions(topic.rawText || ''),
+    quizFacts: goals.slice(0, 8),
   };
-}
-
-function topicTeachingPack(topic, slos) {
-  return literacyPack(topic, cleanSlos(slos));
 }
 
 /* -------------------- BUILDERS -------------------- */
@@ -775,9 +973,9 @@ function topicTeachingPack(topic, slos) {
 export function buildLessonFromKicd(topic) {
   const raw = cleanText(topic.rawText || '');
   const title = topicTitle(topic);
-  const slos = parseSlos(raw);
-  const pack = topicTeachingPack({ ...topic, topicName: title, rawText: raw }, slos);
-  const isKis = /kiswahili/i.test(topic.subject || '');
+  const slos = parseSlos(raw).filter((s) => isCleanOutcome(s.text));
+  const pack = buildSubjectPack({ ...topic, topicName: title, rawText: raw }, slos);
+  const images = topic.imageLines || [];
 
   const lines = [];
   lines.push(`LESSON: ${title.toUpperCase()}`);
@@ -788,66 +986,64 @@ export function buildLessonFromKicd(topic) {
   lines.push(`Topic ${topic.topicNumber}: ${title}`);
   lines.push('');
 
-  lines.push(isKis ? 'SEHEMU 1: KARIBU' : 'SECTION 1: WELCOME');
+  lines.push('SECTION 1: WELCOME');
   lines.push('');
-  lines.push(
-    isKis
-      ? `Habari! Leo ni somo la kusoma: ${title}. Soma maelezo, fuata mifano iliyofanyiwa kazi, kisha fanya mazoezi.`
-      : `Hello! This is a study lesson on ${title}. Read the explanation, follow every worked example, then do the practice. This is original CBC Learn content written from KICD outcomes — not a copy of a commercial textbook.`,
-  );
+  lines.push(`• Today’s class: ${title}`);
+  lines.push('• How we learn: Teach → Worked example → Try this');
+  lines.push('• Use point notes. Show working. Then take the quiz.');
   if (pack.inquiry?.[0]) {
-    lines.push('');
-    lines.push(isKis ? `Swali kuu: ${pack.inquiry[0]}` : `Big question: ${pack.inquiry[0]}`);
+    lines.push(`• Big question: ${pack.inquiry[0]}`);
   }
   lines.push('');
 
-  lines.push(isKis ? 'SEHEMU 2: MALENGO' : 'SECTION 2: WHAT YOU WILL LEARN');
-  lines.push('');
-  lines.push(isKis ? 'Mwisho wa somo hili, utaweza:' : 'By the end of this lesson, you will be able to:');
+  lines.push('SECTION 2: WHAT YOU WILL LEARN');
   lines.push('');
   pack.outcomes.forEach((o, i) => lines.push(`${i + 1}. ${o}`));
   lines.push('');
 
-  lines.push(isKis ? 'SEHEMU 3: SOMO (MAELEZO NA MIFANO)' : 'SECTION 3: STUDY NOTES (READ AND LEARN)');
+  if (images.length) {
+    lines.push('SECTION 3: PICTURES');
+    lines.push('');
+    images.forEach((img) => {
+      lines.push(img);
+      lines.push('');
+    });
+  }
+
+  lines.push(images.length ? 'SECTION 4: CLASS STUDY (TEACH → EXAMPLE → TRY)' : 'SECTION 3: CLASS STUDY (TEACH → EXAMPLE → TRY)');
   lines.push('');
   (pack.study || []).forEach((line) => lines.push(line));
   lines.push('');
 
-  lines.push(isKis ? 'SEHEMU 4: MIFANO YA HARAKA' : 'SECTION 4: QUICK EXAMPLES');
+  lines.push('SECTION: QUICK EXAMPLES');
   lines.push('');
-  pack.examples.forEach((ex) => {
-    lines.push(ex);
-    lines.push('');
-  });
-
-  lines.push(isKis ? 'SEHEMU 5: MAZOEZI' : 'SECTION 5: PRACTICE NOW');
-  lines.push('');
-  pack.practice.forEach((task, i) => lines.push(`${i + 1}. ${task}`));
+  (pack.examples || []).forEach((ex) => lines.push(`• ${ex}`));
   lines.push('');
 
-  lines.push(isKis ? 'SEHEMU 6: KAZI YA NYUMBANI' : 'SECTION 6: WORK TO DO (HOME / REVISION)');
+  lines.push('SECTION: PRACTICE NOW');
   lines.push('');
-  pack.work.forEach((item, i) => lines.push(`${i + 1}. ${item}`));
+  (pack.practice || []).forEach((p, i) => lines.push(`${i + 1}. ${p}`));
+  lines.push('');
+
+  lines.push('SECTION: WORK TO DO');
+  lines.push('');
+  (pack.work || []).forEach((w, i) => lines.push(`${i + 1}. ${w}`));
   lines.push('');
 
   if (pack.inquiry?.length) {
-    lines.push(isKis ? 'SEHEMU: MASWALI YA KUFIKIRI' : 'SECTION: THINK ABOUT IT');
+    lines.push('SECTION: THINK ABOUT IT');
     lines.push('');
     pack.inquiry.forEach((q, i) => lines.push(`${i + 1}. ${q}`));
     lines.push('');
   }
 
-  lines.push(isKis ? 'SEHEMU: KUMBUKA' : 'SECTION: REMEMBER');
+  lines.push('SECTION: REMEMBER');
   lines.push('');
-  pack.remember.forEach((r, i) => lines.push(`${i + 1}. ${r}`));
+  (pack.remember || []).forEach((r) => lines.push(`• ${r}`));
   lines.push('');
-  lines.push(
-    isKis
-      ? 'Sasa fanya Jaribio la Marekebisho. Angalia Majibu baada tu ya kumaliza.'
-      : 'Now complete the Revision Quiz. Open Answers only after you finish.',
-  );
+  lines.push('• Next: complete the Revision Quiz. Open Answers only after you finish.');
   lines.push('');
-  lines.push('— CBC Learn · Original study notes from KICD outcomes (Strategy 2)');
+  lines.push('— CBC Learn · Classroom study notes (Strategy 2)');
 
   return lines.join('\n');
 }
@@ -855,73 +1051,38 @@ export function buildLessonFromKicd(topic) {
 export function buildQuizFromKicd(topic) {
   const raw = cleanText(topic.rawText || '');
   const title = topicTitle(topic);
-  const slos = parseSlos(raw);
-  const pack = topicTeachingPack({ ...topic, topicName: title, rawText: raw }, slos);
+  const slos = parseSlos(raw).filter((s) => isCleanOutcome(s.text));
+  const pack = buildSubjectPack({ ...topic, topicName: title, rawText: raw }, slos);
+  const facts = (pack.quizFacts || pack.examples || pack.outcomes || []).filter((t) => t && String(t).length > 6);
 
   const questions = [];
   const answers = [];
-  const facts = (pack.quizFacts || pack.outcomes || []).filter((t) => t && t.length > 8);
 
   for (let i = 0; i < 10; i += 1) {
     const num = i + 1;
-    if (i < facts.length) {
-      const fact = facts[i];
-      const shortFact = fact.length > 110 ? `${fact.slice(0, 107)}...` : fact;
-      questions.push({
-        number: num,
-        type: 'multiple-choice',
-        question: `Which statement is correct for ${title}?`,
-        options: [
-          `A. ${shortFact}`,
-          `B. We should skip practising ${title}.`,
-          `C. ${title} is never used in real life in Kenya.`,
-          `D. Showing working is a waste of time.`,
-        ],
-      });
-      answers.push({ number: num, answer: 'A', explanation: shortFact });
-    } else {
-      questions.push({
-        number: num,
-        type: 'multiple-choice',
-        question: `What is the best study habit for ${title}?`,
-        options: [
-          'A. Read the notes, redo worked examples, then practise',
-          'B. Guess without reading',
-          'C. Memorise only the topic title',
-          'D. Avoid checking answers',
-        ],
-      });
-      answers.push({
-        number: num,
-        answer: 'A',
-        explanation: 'Good study means notes + worked examples + practice.',
-      });
-    }
+    const fact = facts[i % Math.max(facts.length, 1)] || `Practise ${title} with clear examples`;
+    const shortFact = String(fact).length > 110 ? `${String(fact).slice(0, 107)}...` : String(fact);
+    questions.push({
+      number: num,
+      type: 'multiple-choice',
+      question: `Which is correct for ${title}?`,
+      options: [
+        `A. ${shortFact}`,
+        `B. Skip examples and only memorise the title`,
+        `C. ${title} is never used in real life`,
+        `D. Showing working / models is unnecessary`,
+      ],
+    });
+    answers.push({ number: num, answer: 'A', explanation: shortFact });
   }
 
   const shortItems = [
-    {
-      q: pack.inquiry?.[0] || `Explain ${title} using one Kenyan example.`,
-      a: 'Use a worked idea from Study Notes with a local example.',
-    },
-    {
-      q: `Solve or demonstrate one skill from ${title} and show your working.`,
-      a: pack.examples?.[0] || 'Show clear steps and a final answer.',
-    },
-    {
-      q: pack.practice?.[0] || `Write two practice questions on ${title}.`,
-      a: 'Any correct practice matching the lesson skills.',
-    },
-    {
-      q: `Teach a younger learner one method from ${title}.`,
-      a: pack.remember?.[0] || 'Restate one Remember point simply.',
-    },
-    {
-      q: `Why does a learner need ${title}?`,
-      a: `It builds useful ${topic.subject} skills for school and daily life.`,
-    },
+    { q: pack.inquiry?.[0] || `Explain ${title} using one Kenyan example.`, a: pack.examples?.[0] || 'Use a taught example from Class Study.' },
+    { q: `Copy one worked example from this lesson and solve a similar question.`, a: pack.examples?.[1] || pack.examples?.[0] || 'Show clear steps.' },
+    { q: pack.practice?.[0] || `Write two practice items on ${title}.`, a: 'Any correct practice matching the taught skills.' },
+    { q: `Teach a younger learner one skill from ${title} in bullet points.`, a: pack.remember?.[0] || 'Use Remember points.' },
+    { q: `Why study ${title}?`, a: `It builds useful ${topic.subject} skills for school and daily life.` },
   ];
-
   for (let i = 0; i < 5; i += 1) {
     const num = 11 + i;
     questions.push({ number: num, type: 'short-answer', question: shortItems[i].q });
@@ -931,11 +1092,39 @@ export function buildQuizFromKicd(topic) {
   return { questions, answers };
 }
 
+/** Match Video Hub scripts to the same classroom structure. */
+export function buildVideoScriptFromKicd(topic) {
+  const raw = cleanText(topic.rawText || '');
+  const title = topicTitle(topic);
+  const slos = parseSlos(raw).filter((s) => isCleanOutcome(s.text));
+  const pack = buildSubjectPack({ ...topic, topicName: title, rawText: raw }, slos);
+  const lines = [];
+  lines.push(`VIDEO SCRIPT: ${title.toUpperCase()}`);
+  lines.push(`Grade: ${topic.gradeLabel || topic.grade} · Subject: ${topic.subject}`);
+  lines.push('');
+  lines.push('[0:00–0:20] HOOK');
+  lines.push(`• Host: “Today we learn ${title}. Watch the example, then you try.”`);
+  lines.push('');
+  lines.push('[0:20–2:00] TEACH');
+  (pack.remember || []).slice(0, 4).forEach((r) => lines.push(`• ${r}`));
+  lines.push('');
+  lines.push('[2:00–4:00] WORKED EXAMPLE ON SCREEN');
+  (pack.examples || []).slice(0, 4).forEach((ex) => lines.push(`• ${ex}`));
+  lines.push('');
+  lines.push('[4:00–5:00] TRY THIS (PAUSE)');
+  (pack.practice || []).slice(0, 3).forEach((p) => lines.push(`• ${p}`));
+  lines.push('');
+  lines.push('[5:00–5:30] REMEMBER + CTA');
+  lines.push(`• Recap 3 bullets. “Now open Revision Quiz for ${title}.”`);
+  lines.push('');
+  lines.push('— CBC Learn · Video Hub script aligned to lesson + revision');
+  return lines.join('\n');
+}
+
 export function formatQuizPages(quizData, topic) {
   const title = topicTitle(topic);
-  const qLines = [`REVISION QUIZ: ${title.toUpperCase()}`, ''];
+  const qLines = [`REVISION QUIZ: ${title.toUpperCase()}`, '', '• Answer all questions.', '• For calculations, show working on paper.', ''];
   const aLines = [`ANSWERS: ${title.toUpperCase()}`, ''];
-
   for (const q of quizData.questions) {
     qLines.push(`${q.number}. ${q.question}`);
     if (q.options) q.options.forEach((o) => qLines.push(`   ${o}`));
@@ -943,7 +1132,7 @@ export function formatQuizPages(quizData, topic) {
   }
   for (const a of quizData.answers) {
     aLines.push(`${a.number}. ${a.answer}`);
-    if (a.explanation) aLines.push(`   ${a.explanation}`);
+    if (a.explanation) aLines.push(`   • ${a.explanation}`);
     aLines.push('');
   }
   return { quiz: qLines.join('\n'), answers: aLines.join('\n') };

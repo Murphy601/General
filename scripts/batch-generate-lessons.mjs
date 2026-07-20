@@ -18,13 +18,12 @@ import { formatGradeLabel, isKiswahiliSubject, INDEX_PATH, getTopicSourceText, d
 import {
   buildLessonFromKicd,
   buildQuizFromKicd,
+  buildVideoScriptFromKicd,
   formatQuizPages,
   stripMarkdown,
 } from './lesson-from-kicd.mjs';
 import {
   findTextbookSources,
-  buildLessonFromTextbook,
-  buildQuizFromTextbook,
 } from './textbook-lesson.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -98,7 +97,7 @@ async function callLLM(systemPrompt, userContent, maxTokens = 7000) {
 }
 
 function topicKey(t) {
-  return `v8|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
+  return `v9|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
 }
 
 function loadManifest() {
@@ -166,43 +165,44 @@ async function generateTopic(topic, options) {
     if (lookedUp) {
       meta.rawText = sourceText;
       meta.strandName = lookedUp.strandName || meta.strandName || meta.strand;
+      meta.topicName = displayTopicName(lookedUp.topicName || topic.topicName);
       topic.rawText = sourceText;
     }
   }
   meta.rawText = sourceText;
+  meta.topicName = displayTopicName(meta.topicName || topic.topicName);
 
   const textbooks = findTextbookSources(meta);
-  const hasTextbook =
-    textbooks.length > 0 &&
-    (textbooks.some((t) => (t.pages || []).length > 0) || textbooks.some((t) => (t.text || '').length > 200));
+  // Pupil-book images only — never paste radio/programme scripts into lessons.
+  const imageLines = [];
+  for (const book of textbooks.filter((t) => t.kind === 'pupil-book')) {
+    for (const page of (book.pages || []).slice(0, 4)) {
+      if (page.image) {
+        imageLines.push(`[[image:${page.image}|${book.title} — page ${page.page}]]`);
+      }
+    }
+  }
 
-  if (sourceText.length < 200 && !hasTextbook) {
-    console.log(`  SKIP (short source): ${topic.topicName}`);
-    return;
+  // Always build classroom study notes (Strategy 2). Short design text is OK when packs exist.
+  if (sourceText.length < 80 && imageLines.length === 0) {
+    // still generate from topic-name packs
   }
 
   console.log(
     `  Generating: ${topic.topicNumber} ${topic.topicName} (${sourceText.length} chars design` +
-      `${hasTextbook ? `, ${textbooks.length} textbook/programme source(s)` : ', design-only'})...`,
+      `${imageLines.length ? `, ${imageLines.length} pupil image(s)` : ', study-pack'})...`,
   );
 
-  let lesson;
-  let quizData;
-  if (hasTextbook) {
-    lesson = stripMarkdown(buildLessonFromTextbook(meta, textbooks, sourceText));
-    quizData = buildQuizFromTextbook(meta, textbooks, sourceText);
-  } else {
-    lesson = stripMarkdown(buildLessonFromKicd(meta));
-    quizData = buildQuizFromKicd(meta);
-  }
+  meta.imageLines = imageLines;
+  let lesson = stripMarkdown(buildLessonFromKicd(meta));
+  let quizData = buildQuizFromKicd(meta);
   const { quiz, answers } = formatQuizPages(quizData, meta);
+  const videoScript = buildVideoScriptFromKicd(meta);
 
   const hasApi = Boolean(process.env.OPENAI_API_KEY) && !options.noLlm;
   if (hasApi && options.enrich) {
     try {
-      const enrichContext = hasTextbook
-        ? `TEACHING CONTENT:\n${textbooks.map((t) => t.text).join('\n\n').slice(0, 8000)}\n\nKICD DESIGN:\n${sourceText.slice(0, 3000)}`
-        : `FULL KICD CURRICULUM TEXT:\n\n${sourceText}`;
+      const enrichContext = `KICD DESIGN:\n${sourceText.slice(0, 5000)}\n\nCURRENT LESSON:\n${lesson.slice(0, 4000)}`;
       const enriched = await callLLM(lessonEnrichPrompt(meta, lang, lesson), enrichContext, 8000);
       lesson = stripMarkdown(enriched);
       await sleep(1000);
@@ -234,23 +234,71 @@ async function generateTopic(topic, options) {
       priceKes: 50,
       questionCount: quizData.questions.length,
       sourceChars: sourceText.length,
-      contentSource: hasTextbook ? 'textbook-programme' : 'curriculum-design',
-      textbookTitles: textbooks.map((t) => t.title),
+      contentSource: 'classroom-study-v9',
+      textbookTitles: textbooks.filter((t) => t.kind === 'pupil-book').map((t) => t.title),
+      videoScript,
     },
     sources: [
       { id: topic.fileId, grade: topic.grade, subject: topic.subject, excerpt: sourceText.slice(0, 200) },
-      ...textbooks.map((t) => ({
-        id: t.id,
-        grade: t.grade,
-        subject: t.subject,
-        excerpt: (t.text || '').slice(0, 200),
-      })),
+      ...textbooks
+        .filter((t) => t.kind === 'pupil-book')
+        .map((t) => ({
+          id: t.id,
+          grade: t.grade,
+          subject: t.subject,
+          excerpt: (t.text || '').slice(0, 200),
+        })),
     ],
   };
 
   saveContent(content);
+
+  // Keep Video Hub in sync: one video-script record per topic
+  const videoContent = {
+    id: randomUUID(),
+    type: 'video-script',
+    title: `Video: ${displayTopicName(topic.topicName)}`,
+    topic: content.topic,
+    pages: { lesson: '', quiz: videoScript, answers: '' },
+    metadata: {
+      createdAt: new Date().toISOString(),
+      wordCount: videoScript.split(/\s+/).length,
+      reviewed: false,
+      access: 'free',
+      priceKes: 0,
+      contentSource: 'classroom-study-v9',
+      linkedLessonId: content.id,
+    },
+    sources: content.sources,
+  };
+  // Replace previous video script for same topic
+  let index = [];
+  if (existsSync(INDEX_FILE)) index = JSON.parse(readFileSync(INDEX_FILE, 'utf8'));
+  const sameVideo = (i) =>
+    i.type === 'video-script' &&
+    i.topic?.grade === videoContent.topic.grade &&
+    String(i.topic?.subject || '').toUpperCase() === String(videoContent.topic.subject || '').toUpperCase() &&
+    i.topic?.topicNumber === videoContent.topic.topicNumber;
+  for (const old of index.filter(sameVideo)) {
+    const oldPath = join(CONTENT_DIR, `${old.id}.json`);
+    if (existsSync(oldPath) && old.id !== videoContent.id) {
+      try {
+        writeFileSync(oldPath, '');
+      } catch {
+        /* ignore */
+      }
+    }
+  }
+  index = index.filter((i) => i.id !== videoContent.id && !sameVideo(i));
+  writeFileSync(join(CONTENT_DIR, `${videoContent.id}.json`), JSON.stringify(videoContent, null, 2));
+  index.unshift({
+    ...videoContent,
+    pages: { lesson: '', quiz: videoScript.slice(0, 200) + '…', answers: '' },
+  });
+  writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
+
   console.log(
-    `  ✓ Saved (${content.metadata.wordCount} words, ${content.metadata.questionCount} questions, ${content.metadata.contentSource})`,
+    `  ✓ Saved (${content.metadata.wordCount} words, ${content.metadata.questionCount} questions, classroom-study + video)`,
   );
 }
 
@@ -284,6 +332,11 @@ for (const gradeEntry of grades) {
   for (const subj of filtered) {
     console.log(`\n-- ${subj.subject} (${subj.topics.length} topics) --`);
     for (const topic of subj.topics) {
+      // Skip OCR-bleed topic titles that glue several sub-strands together
+      if (/\d+\.\d+.*\d+\.\d+/.test(topic.topicName) || /Total Number of Les/i.test(topic.topicName)) {
+        console.log(`  skip (garbled title): ${topic.topicNumber} ${topic.topicName.slice(0, 60)}`);
+        continue;
+      }
       const key = topicKey({ ...topic, grade: gradeEntry.grade, subject: subj.subject });
       if (manifest.completed.includes(key)) {
         console.log(`  skip (done): ${topic.topicNumber} ${topic.topicName}`);
