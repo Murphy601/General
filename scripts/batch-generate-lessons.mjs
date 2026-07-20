@@ -98,7 +98,7 @@ async function callLLM(systemPrompt, userContent, maxTokens = 7000) {
 }
 
 function topicKey(t) {
-  return `v5|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
+  return `v6|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
 }
 
 function loadManifest() {

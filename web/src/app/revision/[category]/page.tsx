@@ -8,6 +8,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   termly: 'Termly Exams',
   mock: 'Mock Exams',
   premium: 'Premium Exams',
+  vault: 'Past Paper Vault',
 };
 
 export default async function RevisionCategoryPage({ params }: { params: Promise<{ category: string }> }) {

@@ -14,6 +14,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   termly: 'Termly Exams',
   mock: 'Mock Exams',
   premium: 'Premium Exams',
+  vault: 'Past Paper Vault',
 };
 
 function PaperList({
@@ -142,7 +143,14 @@ export default async function RevisionSubjectPage({
         </div>
       ) : (
         <div className="mt-8">
-          <PaperList exams={exams} emptyLabel={`No ${catLabel.toLowerCase()} papers for this subject yet.`} />
+          <PaperList
+            exams={exams}
+            emptyLabel={
+              category === 'vault'
+                ? 'No vault past papers for this subject yet.'
+                : `No ${catLabel.toLowerCase()} papers for this subject yet.`
+            }
+          />
         </div>
       )}
     </PlatformLayout>

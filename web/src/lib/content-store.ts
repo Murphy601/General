@@ -143,8 +143,10 @@ export function getExamTypesForCategory(category: string): ContentType[] {
       return ['mock-exam'];
     case 'premium':
       return ['premium-exam'];
+    case 'vault':
+      return ['past-paper'];
     default:
-      return ['exam', 'termly-exam', 'mock-exam', 'premium-exam'];
+      return ['exam', 'termly-exam', 'mock-exam', 'premium-exam', 'past-paper'];
   }
 }
 
@@ -169,7 +171,7 @@ export function listExams(grade: string, category: string, subject?: string) {
 export function countExams(category?: string, grade?: string): number {
   const types = category
     ? getExamTypesForCategory(category)
-    : (['exam', 'termly-exam', 'mock-exam', 'premium-exam'] as ContentType[]);
+    : (['exam', 'termly-exam', 'mock-exam', 'premium-exam', 'past-paper'] as ContentType[]);
   return listContent({
     grade,
     category,
@@ -191,7 +193,14 @@ export function slugifySubject(subject: string) {
 
 export function findSubjectBySlug(grade: string, subjectSlug: string) {
   const subjects = getSubjects(grade);
-  return subjects.find((s) => slugifySubject(s.subject) === subjectSlug)?.subject;
+  const fromCurriculum = subjects.find((s) => slugifySubject(s.subject) === subjectSlug)?.subject;
+  if (fromCurriculum) return fromCurriculum;
+
+  // Fall back to subjects present on revision papers (e.g. Past Paper Vault)
+  const fromPapers = listContent({ grade }).find(
+    (i) => slugifySubject(i.topic.subject) === subjectSlug,
+  )?.topic.subject;
+  return fromPapers;
 }
 
 export function saveContent(content: GeneratedContent) {

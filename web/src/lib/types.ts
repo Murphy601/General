@@ -7,9 +7,9 @@ export interface RagSource {
   score: number;
 }
 
-export type ContentType = 'topic-lesson' | 'notes' | 'exam' | 'quiz' | 'video-script' | 'mock-exam' | 'termly-exam' | 'premium-exam';
+export type ContentType = 'topic-lesson' | 'notes' | 'exam' | 'quiz' | 'video-script' | 'mock-exam' | 'termly-exam' | 'premium-exam' | 'past-paper';
 export type AccessTier = 'free' | 'paid' | 'subscription';
-export type RevisionCategory = 'general' | 'termly' | 'mock' | 'premium';
+export type RevisionCategory = 'general' | 'termly' | 'mock' | 'premium' | 'vault';
 
 export interface TopicRef {
   grade: string;
@@ -50,6 +50,13 @@ export interface GeneratedContent {
     category?: RevisionCategory;
     term?: number | null;
     contentSource?: string;
+    year?: number | null;
+    series?: string;
+    externalUrl?: string;
+    downloadUrl?: string;
+    sourceSite?: string;
+    sourcePage?: string;
+    driveId?: string;
   };
   sources: Array<{ id: string; subject: string; grade: string; excerpt: string }>;
 }
