@@ -154,6 +154,6 @@ npm run content:generate -- --all   # all grades (takes hours)`}
 
 function viewPath(type: string, id: string) {
   if (type === 'notes') return `/docs/${id}`;
-  if (type === 'video-script') return `/videos/${id}`;
-  return `/revision/${id}`;
+  if (type === 'video-script') return `/videos/script/${id}`;
+  return `/revision/paper/${id}`;
 }

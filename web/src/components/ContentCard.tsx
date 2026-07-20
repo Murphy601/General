@@ -22,9 +22,13 @@ export function ContentCard({ item }: { item: GeneratedContent }) {
 }
 
 function contentHref(item: GeneratedContent) {
+  if (item.type === 'topic-lesson' && item.topic.grade && item.topic.slug) {
+    const subjectSlug = item.topic.subject.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    return `/learn/${encodeURIComponent(item.topic.grade)}/${subjectSlug}/${item.topic.slug}`;
+  }
   if (item.type === 'notes') return `/docs/${item.id}`;
-  if (item.type === 'video-script') return `/videos/${item.id}`;
-  return `/revision/${item.id}`;
+  if (item.type === 'video-script') return `/videos/script/${item.id}`;
+  return `/revision/paper/${item.id}`;
 }
 
 function typeLabel(type: string) {
