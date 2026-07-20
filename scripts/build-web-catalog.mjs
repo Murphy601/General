@@ -4,13 +4,18 @@
  * Output: web/public/data/catalog.json
  */
 
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const INPUT = join(__dirname, '..', 'knowledge-base', 'phase3', 'curriculum-text.json');
 const OUTPUT = join(__dirname, '..', 'web', 'public', 'data', 'catalog.json');
+
+if (!existsSync(INPUT)) {
+  console.log(`Skip web:catalog — ${INPUT} not found (Learning Docs still works from web/data/content).`);
+  process.exit(0);
+}
 
 function slugify(value) {
   return String(value || 'unknown')
