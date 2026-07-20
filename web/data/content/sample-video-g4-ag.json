@@ -1,0 +1,47 @@
+{
+  "id": "sample-video-g4-ag",
+  "type": "video-script",
+  "title": "Preparing the Shamba — 5 min Lesson (Sample)",
+  "topic": {
+    "grade": "grade-4",
+    "gradeLabel": "Grade 4",
+    "subject": "Agriculture",
+    "strand": "Crop Production",
+    "subStrand": "Land Preparation"
+  },
+  "body": "Video script sample — use Studio to generate a full 5-minute script with hook, lesson, quiz, and outro.",
+  "metadata": {
+    "createdAt": "2026-07-20T00:34:30.727Z",
+    "wordCount": 20,
+    "reviewed": false,
+    "access": "subscription",
+    "videoUrl": "",
+    "scriptSections": [
+      {
+        "time": "0:00",
+        "label": "Hook",
+        "content": "Habari Grade 4! Have you ever helped prepare soil for planting?",
+        "visualCue": "Kenyan child on a small farm"
+      },
+      {
+        "time": "0:45",
+        "label": "Lesson",
+        "content": "Step 1: Clear weeds. Step 2: Loosen soil. Step 3: Add manure.",
+        "visualCue": "Animation of land preparation"
+      },
+      {
+        "time": "3:00",
+        "label": "Quiz",
+        "content": "True or False: We should plant before clearing weeds?",
+        "visualCue": "Quiz overlay"
+      },
+      {
+        "time": "4:15",
+        "label": "Outro",
+        "content": "Download the worksheet and practice at home. Kwaheri!",
+        "visualCue": "Smiling learner"
+      }
+    ]
+  },
+  "sources": []
+}

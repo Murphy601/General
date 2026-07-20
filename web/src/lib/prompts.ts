@@ -22,7 +22,7 @@ Include:
 4. **Key Learning Outcomes** — bullet list from the curriculum excerpts
 5. **Parent Tip** — one short activity parents can do at home
 
-Rules: Use Kenyan context only. Do NOT invent topics not in the excerpts. If unsure, say "Verify with KICD design."`;
+Rules: Use Kenyan context only. Format with numbered sections (1, 2, 3), lettered sub-points (A, B, C), and bullet lists. Make it easy for a child to revise.`;
 }
 
 export function buildExamPrompt(topic: {

@@ -4,20 +4,23 @@ import { useState } from 'react';
 import type { ContentType } from '@/lib/types';
 
 const CONTENT_TYPES: { value: ContentType; label: string; desc: string }[] = [
-  { value: 'notes', label: 'Learning Notes', desc: 'Kid-friendly notes with Kenyan examples' },
+  { value: 'notes', label: 'Revision Notes', desc: 'Numbered, easy-to-read notes with Kenyan examples' },
+  { value: 'quiz', label: 'Topical Quiz', desc: 'Multiple-choice revision questions' },
   { value: 'exam', label: 'Termly Exam', desc: 'Full paper + marking scheme' },
-  { value: 'quiz', label: 'Topical Quiz', desc: 'Formative assessment questions' },
   { value: 'video-script', label: 'Video Script', desc: '5-min lesson script for Video Hub' },
+];
+
+const GRADES = [
+  'grade-4', 'grade-5', 'grade-6', 'grade-7', 'grade-8', 'grade-9', 'grade-10', 'grade-11', 'grade-12',
 ];
 
 export function StudioPanel() {
   const [type, setType] = useState<ContentType>('notes');
-  const [grade, setGrade] = useState('grade-4');
+  const [grade, setGrade] = useState('grade-7');
   const [subject, setSubject] = useState('Agriculture');
   const [strand, setStrand] = useState('');
-  const [subStrand, setSubStrand] = useState('');
-  const [term, setTerm] = useState('1');
   const [loading, setLoading] = useState(false);
+  const [batchLoading, setBatchLoading] = useState(false);
   const [result, setResult] = useState<{ id: string; title: string; type: string } | null>(null);
   const [error, setError] = useState('');
 
@@ -26,12 +29,11 @@ export function StudioPanel() {
     setLoading(true);
     setError('');
     setResult(null);
-
     try {
       const res = await fetch('/api/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ type, grade, subject, strand: strand || undefined, subStrand: subStrand || undefined, term }),
+        body: JSON.stringify({ type, grade, subject, strand: strand || undefined }),
       });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Generation failed');
@@ -43,14 +45,31 @@ export function StudioPanel() {
     }
   }
 
+  async function handleBatchGrade() {
+    setBatchLoading(true);
+    setError('');
+    try {
+      const res = await fetch('/api/generate/batch', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ grade, types: ['notes', 'quiz'] }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || 'Batch failed');
+      setResult({ id: '', title: `Batch started: ${data.message}`, type: 'batch' });
+    } catch (err) {
+      setError((err as Error).message);
+    } finally {
+      setBatchLoading(false);
+    }
+  }
+
   return (
     <div className="grid gap-6 lg:grid-cols-5">
       <form onSubmit={handleGenerate} className="lg:col-span-2 space-y-4 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
         <div>
           <h2 className="font-bold text-lg text-kenya-black">Content Studio</h2>
-          <p className="text-sm text-gray-500 mt-1">
-            AI generates materials grounded in official KICD curriculum. Review before publishing.
-          </p>
+          <p className="text-sm text-gray-500 mt-1">Generate one topic, or batch-generate an entire grade below.</p>
         </div>
 
         <div className="grid gap-2">
@@ -60,7 +79,7 @@ export function StudioPanel() {
               type="button"
               onClick={() => setType(ct.value)}
               className={`rounded-xl border p-3 text-left transition ${
-                type === ct.value ? 'border-kenya-green bg-kenya-green/5' : 'border-gray-200 hover:border-kenya-green/30'
+                type === ct.value ? 'border-kenya-green bg-kenya-green/5' : 'border-gray-200'
               }`}
             >
               <p className="font-medium text-sm">{ct.label}</p>
@@ -69,65 +88,64 @@ export function StudioPanel() {
           ))}
         </div>
 
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="grid gap-3">
           <label className="text-sm">
-            <span className="text-gray-600">Grade</span>
-            <input value={grade} onChange={(e) => setGrade(e.target.value)} className="mt-1 w-full rounded-lg border px-3 py-2" placeholder="grade-4" />
+            Grade
+            <select value={grade} onChange={(e) => setGrade(e.target.value)} className="mt-1 w-full rounded-lg border px-3 py-2">
+              {GRADES.map((g) => (
+                <option key={g} value={g}>{g.replace('grade-', 'Grade ')}</option>
+              ))}
+            </select>
           </label>
           <label className="text-sm">
-            <span className="text-gray-600">Subject</span>
-            <input value={subject} onChange={(e) => setSubject(e.target.value)} className="mt-1 w-full rounded-lg border px-3 py-2" placeholder="Agriculture" />
+            Subject
+            <input value={subject} onChange={(e) => setSubject(e.target.value)} className="mt-1 w-full rounded-lg border px-3 py-2" />
           </label>
-          <label className="text-sm sm:col-span-2">
-            <span className="text-gray-600">Strand (optional)</span>
-            <input value={strand} onChange={(e) => setStrand(e.target.value)} className="mt-1 w-full rounded-lg border px-3 py-2" placeholder="Crop Production" />
+          <label className="text-sm">
+            Strand (optional — leave blank for full subject)
+            <input value={strand} onChange={(e) => setStrand(e.target.value)} className="mt-1 w-full rounded-lg border px-3 py-2" placeholder="e.g. Food Production Processes" />
           </label>
-          <label className="text-sm sm:col-span-2">
-            <span className="text-gray-600">Sub-strand / Topic (optional)</span>
-            <input value={subStrand} onChange={(e) => setSubStrand(e.target.value)} className="mt-1 w-full rounded-lg border px-3 py-2" placeholder="Land Preparation" />
-          </label>
-          {type === 'exam' && (
-            <label className="text-sm">
-              <span className="text-gray-600">Term</span>
-              <select value={term} onChange={(e) => setTerm(e.target.value)} className="mt-1 w-full rounded-lg border px-3 py-2">
-                <option value="1">Term 1</option>
-                <option value="2">Term 2</option>
-                <option value="3">Term 3</option>
-              </select>
-            </label>
-          )}
         </div>
 
-        <button
-          type="submit"
-          disabled={loading}
-          className="w-full rounded-xl bg-kenya-green py-3 text-sm font-semibold text-white hover:bg-kenya-green/90 disabled:opacity-50"
-        >
-          {loading ? 'Generating from KICD…' : 'Generate Content'}
+        <button type="submit" disabled={loading} className="w-full rounded-xl bg-kenya-green py-3 text-sm font-semibold text-white disabled:opacity-50">
+          {loading ? 'Generating…' : 'Generate One Topic'}
         </button>
+
+        <button
+          type="button"
+          disabled={batchLoading}
+          onClick={handleBatchGrade}
+          className="w-full rounded-xl border-2 border-kenya-green py-3 text-sm font-semibold text-kenya-green disabled:opacity-50"
+        >
+          {batchLoading ? 'Starting…' : `Auto-Generate ALL subjects in ${grade.replace('grade-', 'Grade ')}`}
+        </button>
+
         {error && <p className="text-sm text-kenya-red">{error}</p>}
+        {result && result.type !== 'batch' && (
+          <p className="text-sm text-kenya-green">
+            ✓ <a href={viewPath(result.type, result.id)} className="underline">{result.title}</a>
+          </p>
+        )}
+        {result?.type === 'batch' && <p className="text-sm text-kenya-green">✓ {result.title}</p>}
       </form>
 
-      <div className="lg:col-span-3 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm">
-        <h3 className="font-semibold text-kenya-black">How it works</h3>
-        <ol className="mt-3 space-y-2 text-sm text-gray-600 list-decimal list-inside">
-          <li>KICD curriculum designs are searched via RAG (your harvested materials)</li>
-          <li>AI drafts notes, exams, quizzes, or video scripts using those exact strands & outcomes</li>
-          <li>A TSC teacher reviews and approves before selling</li>
-          <li>Published to Learning Docs, Revision Hub, or Video Hub</li>
-        </ol>
-
-        {result && (
-          <div className="mt-6 rounded-xl bg-kenya-green/10 border border-kenya-green/20 p-4">
-            <p className="font-medium text-kenya-green">Generated: {result.title}</p>
-            <a href={viewPath(result.type, result.id)} className="mt-2 inline-block text-sm text-kenya-green underline">
-              View content →
-            </a>
-          </div>
-        )}
-
-        <div className="mt-6 rounded-xl bg-amber-50 border border-amber-200 p-4 text-sm text-amber-900">
-          <strong>Next steps for Video Hub:</strong> Take the generated script → ElevenLabs voice → InVideo/HeyGen render → upload to Bunny.net → paste embed URL.
+      <div className="lg:col-span-3 space-y-4">
+        <div className="rounded-2xl border bg-kenya-green/5 border-kenya-green/20 p-6">
+          <h3 className="font-bold text-kenya-black">Auto-generate everything (recommended)</h3>
+          <p className="mt-2 text-sm text-gray-600">
+            Don&apos;t generate manually one-by-one. Run this in PowerShell to generate revision notes + quizzes for every subject and strand in a grade:
+          </p>
+          <pre className="mt-3 rounded-lg bg-kenya-black text-green-400 p-4 text-xs overflow-x-auto">
+{`npm run content:index
+npm run content:generate -- --grade grade-7
+npm run content:generate -- --all   # all grades (takes hours)`}
+          </pre>
+        </div>
+        <div className="rounded-2xl border bg-white p-6 shadow-sm text-sm text-gray-600 space-y-2">
+          <p><strong>1.</strong> KICD curriculum PDFs (584 docs) → source text</p>
+          <p><strong>2.</strong> Strands & sub-strands extracted automatically</p>
+          <p><strong>3.</strong> AI writes revision notes + quizzes per topic</p>
+          <p><strong>4.</strong> Content appears in Learning Docs & Revision Hub</p>
         </div>
       </div>
     </div>
