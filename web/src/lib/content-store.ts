@@ -133,27 +133,48 @@ function sameSubject(a: string, b: string) {
 }
 
 export function getExamTypesForCategory(category: string): ContentType[] {
+  // Keep types distinct so each Revision Hub category only lists its own papers.
   switch (category) {
     case 'general':
-      return ['quiz', 'exam'];
+      return ['exam'];
     case 'termly':
-      return ['termly-exam', 'exam'];
+      return ['termly-exam'];
     case 'mock':
-      return ['mock-exam', 'exam'];
+      return ['mock-exam'];
     case 'premium':
-      return ['premium-exam', 'exam'];
+      return ['premium-exam'];
     default:
-      return ['exam', 'quiz'];
+      return ['exam', 'termly-exam', 'mock-exam', 'premium-exam'];
   }
 }
 
 export function listExams(grade: string, category: string, subject?: string) {
   const types = getExamTypesForCategory(category);
-  let items = listContent({ grade }).filter((i) => types.includes(i.type));
-  if (subject) {
-    items = items.filter((i) => i.topic.subject.toLowerCase().includes(subject.toLowerCase()));
+  let items = listContent({ grade, category }).filter((i) => types.includes(i.type));
+  // Fallback for older records that have the right type but no metadata.category
+  if (!items.length) {
+    items = listContent({ grade }).filter((i) => types.includes(i.type));
   }
-  return items;
+  if (subject) {
+    items = items.filter((i) => sameSubject(i.topic.subject, subject));
+  }
+  return items.sort((a, b) => {
+    const ta = a.metadata.term ?? 0;
+    const tb = b.metadata.term ?? 0;
+    if (ta !== tb) return ta - tb;
+    return a.title.localeCompare(b.title);
+  });
+}
+
+export function countExams(category?: string, grade?: string): number {
+  const types = category
+    ? getExamTypesForCategory(category)
+    : (['exam', 'termly-exam', 'mock-exam', 'premium-exam'] as ContentType[]);
+  return listContent({
+    grade,
+    category,
+    type: types,
+  }).length;
 }
 
 export function listVideoScripts(grade: string, subject?: string) {

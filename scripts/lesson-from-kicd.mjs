@@ -1,6 +1,8 @@
 /**
- * Build learner-facing plain-text lessons and quizzes from KICD sub-strand blocks.
- * Written for pupils/parents — not a dump of teacher curriculum tables.
+ * Build learner-facing plain-text lessons and quizzes from KICD Curriculum Designs.
+ *
+ * Strategy 2: copyright protects exact textbook wording/images — not educational facts.
+ * These notes are newly written from official outcomes so the product is original.
  */
 
 function cleanText(s) {

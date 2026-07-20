@@ -48,6 +48,8 @@ export interface GeneratedContent {
     scriptSections?: VideoScriptSection[];
     questionCount?: number;
     category?: RevisionCategory;
+    term?: number | null;
+    contentSource?: string;
   };
   sources: Array<{ id: string; subject: string; grade: string; excerpt: string }>;
 }
