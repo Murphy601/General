@@ -29,6 +29,7 @@
     "drive:visual:batch": "node scripts/run-drive-visual-local-batch.mjs",
     "content:index": "node scripts/build-curriculum-index.mjs",
     "content:ingest-early": "node scripts/ingest-early-years-pdfs.mjs",
+    "content:ingest-pupil-books": "node scripts/ingest-pupil-books.mjs",
     "content:generate": "node scripts/batch-generate-lessons.mjs",
     "content:generate:all": "node scripts/batch-generate-lessons.mjs --all",
     "content:generate:grade": "node scripts/batch-generate-lessons.mjs --grade",

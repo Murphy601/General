@@ -98,7 +98,7 @@ async function callLLM(systemPrompt, userContent, maxTokens = 7000) {
 }
 
 function topicKey(t) {
-  return `v4|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
+  return `v5|${t.grade}|${t.subject}|${t.topicNumber}|${t.topicName}`;
 }
 
 function loadManifest() {
@@ -169,14 +169,18 @@ async function generateTopic(topic, options) {
       topic.rawText = sourceText;
     }
   }
-  if (sourceText.length < 200) {
-    console.log(`  SKIP (short source): ${topic.topicName}`);
-    return;
-  }
   meta.rawText = sourceText;
 
   const textbooks = findTextbookSources(meta);
-  const hasTextbook = textbooks.length > 0 && textbooks[0].text?.length > 200;
+  const hasTextbook =
+    textbooks.length > 0 &&
+    (textbooks.some((t) => (t.pages || []).length > 0) || textbooks.some((t) => (t.text || '').length > 200));
+
+  if (sourceText.length < 200 && !hasTextbook) {
+    console.log(`  SKIP (short source): ${topic.topicName}`);
+    return;
+  }
+
   console.log(
     `  Generating: ${topic.topicNumber} ${topic.topicName} (${sourceText.length} chars design` +
       `${hasTextbook ? `, ${textbooks.length} textbook/programme source(s)` : ', design-only'})...`,
