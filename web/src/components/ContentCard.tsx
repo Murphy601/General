@@ -16,7 +16,7 @@ export function ContentCard({ item }: { item: GeneratedContent }) {
         {item.topic.gradeLabel} · {item.topic.subject}
         {item.topic.strand ? ` · ${item.topic.strand}` : ''}
       </p>
-      <p className="mt-2 text-sm text-gray-600 line-clamp-2">{item.body.replace(/[#*]/g, '')}</p>
+      <p className="mt-2 text-sm text-gray-600 line-clamp-2">{(item.body || item.pages?.lesson || '').replace(/[#*]/g, '')}</p>
     </Link>
   );
 }

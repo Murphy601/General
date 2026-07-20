@@ -5,23 +5,21 @@ import { join } from 'node:path';
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { grade, types = ['notes', 'quiz'] } = body;
+    const { grade, subject } = body;
 
     if (!grade) {
       return NextResponse.json({ error: 'grade is required' }, { status: 400 });
     }
 
-    const script = join(process.cwd(), '..', 'scripts', 'batch-generate-revision.mjs');
-    const child = spawn(
-      process.execPath,
-      [script, '--grade', grade, '--types', types.join(',')],
-      {
-        detached: true,
-        stdio: 'ignore',
-        cwd: join(process.cwd(), '..'),
-        env: process.env,
-      },
-    );
+    const script = join(process.cwd(), '..', 'scripts', 'batch-generate-lessons.mjs');
+    const args = [script, '--grade', grade, '--no-llm'];
+    if (subject) args.push('--subject', subject);
+    const child = spawn(process.execPath, args, {
+      detached: true,
+      stdio: 'ignore',
+      cwd: join(process.cwd(), '..'),
+      env: process.env,
+    });
     child.unref();
 
     return NextResponse.json({

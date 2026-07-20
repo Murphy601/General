@@ -92,8 +92,9 @@ if (args.dryRun) {
 }
 
 const apiKey = process.env.OPENAI_API_KEY;
-if (!apiKey) {
-  console.error('Missing OPENAI_API_KEY. Set it or use --dry-run.');
+if (!apiKey || apiKey.includes('PASTE_YOUR') || apiKey === 'your_new_key_here' || apiKey === 'your_key_here') {
+  console.error('Missing or placeholder OPENAI_API_KEY.');
+  console.error('Copy .env.example to .env and paste your OpenRouter key, then re-run.');
   process.exit(1);
 }
 

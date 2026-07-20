@@ -1,5 +1,5 @@
 /**
- * Direct lookup in curriculum-text.json — does not depend on embeddings/chunks.
+ * Extract full KICD topic blocks (sub-strands) with complete curriculum text.
  */
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -11,33 +11,31 @@ const CURRICULUM_PATH = join(__dirname, '..', 'knowledge-base', 'phase3', 'curri
 const INDEX_PATH = join(__dirname, '..', 'knowledge-base', 'phase5', 'curriculum-index.json');
 
 let catalogCache = null;
-let indexCache = null;
 
 function normalize(s) {
-  return String(s || '')
-    .toUpperCase()
-    .replace(/[^A-Z0-9]/g, '');
+  return String(s || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
 }
 
 function subjectMatches(a, b) {
   const na = normalize(a);
   const nb = normalize(b);
-  return na.includes(nb) || nb.includes(na) || na === nb;
+  return na.includes(nb) || nb.includes(na);
+}
+
+function slugify(value) {
+  return String(value || 'topic')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+    .slice(0, 60);
 }
 
 function getCatalog() {
   if (!catalogCache) {
-    if (!existsSync(CURRICULUM_PATH)) throw new Error(`Missing ${CURRICULUM_PATH}. Run: npm run curriculum:prepare`);
+    if (!existsSync(CURRICULUM_PATH)) throw new Error(`Missing ${CURRICULUM_PATH}`);
     catalogCache = JSON.parse(readFileSync(CURRICULUM_PATH, 'utf8'));
   }
   return catalogCache;
-}
-
-export function getIndex() {
-  if (!indexCache && existsSync(INDEX_PATH)) {
-    indexCache = JSON.parse(readFileSync(INDEX_PATH, 'utf8'));
-  }
-  return indexCache;
 }
 
 export function inferDocSubject(doc) {
@@ -53,71 +51,119 @@ export function listDocuments({ grade, subject } = {}) {
   });
 }
 
-export function extractStrands(text) {
-  const strands = [];
-  const seen = new Set();
-  const re = /STRAND\s+(\d+(?:\.\d+)?)\s*[:\.]?\s*([^\n]+)/gi;
-  let m;
-  while ((m = re.exec(text))) {
-    const name = m[2].replace(/\s+/g, ' ').trim().replace(/\.+$/, '').replace(/\s*\d+\s*$/, '');
-    if (name.length < 4 || name.length > 120) continue;
-    if (/^\.+|NATIONAL GOALS|FOREWORD/i.test(name)) continue;
-    const key = `${m[1]}:${name}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    strands.push({ number: m[1], name });
-  }
-  return strands;
+export function isKiswahiliSubject(subject) {
+  return /KISWAHILI|SWAHILI/i.test(subject);
 }
 
-export function extractSubStrands(text, strandNumber) {
-  const subStrands = [];
-  const seen = new Set();
-  const prefix = strandNumber ? `SUB[- ]?STRAND\\s+${strandNumber.replace('.', '\\.')}\\.` : 'SUB[- ]?STRAND';
-  const re = new RegExp(`${prefix}\\s*(\\d+(?:\\.\\d+)?)?\\s*[:\.]?\\s*([^\\n]+)`, 'gi');
-  let m;
-  while ((m = re.exec(text))) {
-    const name = (m[2] || m[1] || '').replace(/\s+/g, ' ').trim().replace(/\.+$/, '');
-    if (name.length < 4 || name.length > 120) continue;
-    if (seen.has(name)) continue;
-    seen.add(name);
-    subStrands.push({ number: m[1] || '', name });
-  }
-  return subStrands;
+function normalizeTitle(s) {
+  return String(s || '')
+    .replace(/\n/g, ' ')
+    .replace(/\s+/g, ' ')
+    .replace(/^[\d.\s]+/, '')
+    .replace(/Strand Sub-Strand.*$/i, '')
+    .trim();
 }
 
-export function sliceStrandText(text, strandName) {
-  const upper = text.toUpperCase();
-  const target = strandName.toUpperCase();
-  const idx = upper.indexOf(target);
-  if (idx === -1) return text.slice(0, 8000);
-  return text.slice(Math.max(0, idx - 200), idx + 12000);
+function findStrandName(source, position, strandNum) {
+  const before = source.slice(Math.max(0, position - 4000), position);
+  const re = new RegExp(`${strandNum}\\.0\\s*(?:\\n|[ \\t]+)([\\s\\S]*?)(?=\\n${strandNum}\\.[1-9]|$)`, 'gi');
+  let match;
+  let last = null;
+  while ((match = re.exec(before)) !== null) last = match;
+  if (!last) return `Strand ${strandNum}`;
+  return normalizeTitle(last[1]).slice(0, 80) || `Strand ${strandNum}`;
 }
 
-export function getContextChunks({ grade, subject, strand, subStrand, maxChunks = 6 }) {
-  const docs = listDocuments({ grade, subject });
-  if (!docs.length) return [];
+/**
+ * Extract every sub-strand topic with its FULL KICD source text block.
+ * Parses the detailed "Specific Learning Outcomes" section only (not the summary table).
+ */
+export function extractTopicBlocks(text) {
+  const topics = [];
+  const detailStart = text.search(/Strand Sub-Strand Specific Learning Outcomes/i);
+  const source = detailStart >= 0 ? text.slice(detailStart) : text;
 
-  const chunks = [];
-  for (const doc of docs) {
-    const text = doc.extractedText || '';
-    let slice = text;
-    if (strand) slice = sliceStrandText(text, strand);
-    if (subStrand) {
-      const idx = slice.toUpperCase().indexOf(subStrand.toUpperCase());
-      if (idx !== -1) slice = slice.slice(Math.max(0, idx - 300), idx + 8000);
-    }
-    chunks.push({
-      id: doc.fileId,
-      grade: doc.grade,
-      subject: inferDocSubject(doc),
-      title: inferDocSubject(doc),
-      text: slice.slice(0, 10000),
-      score: 1,
+  // Sub-strands are X.Y where Y >= 1 (X.0 is only the strand header).
+  const lessonRe = /(\d+)\.([1-9]\d*)\.?\s*(?:\n|[ \t]+)([\s\S]*?)\((\d+)\s*lessons?\)/gi;
+
+  const anchors = [];
+  let match;
+  while ((match = lessonRe.exec(source)) !== null) {
+    const strandNum = match[1];
+    const subNum = match[2];
+
+    const after = source.slice(match.index + match[0].length);
+    const byEnd = after.search(/By the end of the sub[-\s]*strand/i);
+    if (byEnd === -1) continue;
+
+    const topicNumber = `${strandNum}.${subNum}`;
+    const topicName = normalizeTitle(match[3]);
+    if (topicName.length < 3 || topicName.length > 120) continue;
+
+    anchors.push({
+      topicNumber,
+      topicName,
+      strandNum,
+      lessonCount: parseInt(match[4], 10) || 0,
+      start: match.index,
+      bodyStart: match.index + match[0].length + byEnd,
     });
   }
 
-  return chunks.slice(0, maxChunks);
+  for (let i = 0; i < anchors.length; i += 1) {
+    const a = anchors[i];
+    const end = i + 1 < anchors.length ? anchors[i + 1].start : Math.min(source.length, a.start + 20000);
+    const before = source.slice(Math.max(0, a.start - 800), a.start);
+    const strandName = findStrandName(source, a.start, a.strandNum);
+    const rawText = source.slice(a.start, end).slice(0, 25000);
+
+    topics.push({
+      topicNumber: a.topicNumber,
+      topicOrder: parseFloat(a.topicNumber.replace('.', '')) || topics.length + 1,
+      strandNumber: a.strandNum,
+      strandName,
+      topicName: a.topicName,
+      lessonCount: a.lessonCount,
+      rawText,
+      slug: slugify(`${a.topicNumber}-${a.topicName}`),
+    });
+  }
+
+  const seen = new Set();
+  return topics
+    .filter((t) => {
+      const key = `${t.topicNumber}|${t.topicName}`;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .sort((a, b) => a.topicOrder - b.topicOrder);
+}
+
+export function extractAllTopicsForDocument(doc) {
+  const subject = inferDocSubject(doc);
+  const topics = extractTopicBlocks(doc.extractedText || '');
+  return topics.map((t, idx) => ({
+    ...t,
+    topicOrder: idx + 1,
+    grade: doc.grade,
+    subject,
+    fileId: doc.fileId,
+  }));
+}
+
+export function getTopicSourceText({ grade, subject, topicNumber, topicName }) {
+  const docs = listDocuments({ grade, subject });
+  for (const doc of docs) {
+    const topics = extractTopicBlocks(doc.extractedText || '');
+    const match = topics.find(
+      (t) =>
+        t.topicNumber === topicNumber ||
+        (topicName && t.topicName.toUpperCase().includes(topicName.toUpperCase().slice(0, 20))),
+    );
+    if (match) return { ...match, fileId: doc.fileId, grade, subject };
+  }
+  return null;
 }
 
 export function formatGradeLabel(grade) {
@@ -126,8 +172,22 @@ export function formatGradeLabel(grade) {
     .replace(/^sne\//, 'SNE / ')
     .replace(/\//g, ' / ')
     .replace(/grade-/gi, 'Grade ')
-    .replace(/\bpp(\d)\b/gi, 'PP$1')
-    .replace(/\bgrade-/gi, 'Grade ');
+    .replace(/\bpp(\d)\b/gi, 'PP$1');
 }
 
-export { CURRICULUM_PATH, INDEX_PATH };
+export const GRADE_ORDER = [
+  'sne/visual-impairment/pp1', 'sne/visual-impairment/pp2',
+  'sne/hearing-impairment/pp1', 'sne/hearing-impairment/pp2',
+  'sne/physical-impairment/pp1', 'sne/physical-impairment/pp2',
+  'pre-primary', 'pp1', 'pp2',
+  'lower-primary', 'grade-1', 'grade-2', 'grade-3',
+  'grade-4', 'grade-5', 'grade-6', 'grade-7', 'grade-8', 'grade-9',
+  'grade-10', 'grade-11', 'grade-12',
+];
+
+export function gradeSortKey(grade) {
+  const idx = GRADE_ORDER.indexOf(grade);
+  return idx === -1 ? 999 + grade.charCodeAt(0) : idx;
+}
+
+export { CURRICULUM_PATH, INDEX_PATH, slugify };

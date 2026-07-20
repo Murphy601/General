@@ -10,8 +10,9 @@ node_modules/
 web/node_modules/
 web/.next/
 web/.env.local
-knowledge-base/phase5/generation-manifest.json
+web/data/content/*.json
 !web/data/content/.gitkeep
+knowledge-base/phase5/generation-manifest.json
 
 # Environment
 .env

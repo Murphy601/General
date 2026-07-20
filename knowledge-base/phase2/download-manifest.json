@@ -1,457 +1,6 @@
 {
-  "generatedAt": "2026-07-19T02:08:25.011Z",
-  "downloaded": [
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/DAWIDA_LEARNERS_%20GRADE%201%20Edited.pdf",
-      "title": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
-      "folder": "grade-1",
-      "filename": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
-      "status": "downloaded",
-      "bytes": 9456499
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/Gabra-LEARNER_%20GRADE%201_%20(1).pdf",
-      "title": "Gabra-LEARNER_ GRADE 1_ (1).pdf",
-      "folder": "grade-9",
-      "filename": "Gabra-LEARNER_ GRADE 1_ (1).pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/Gabra-LEARNER_ GRADE 1_ (1).pdf",
-      "status": "downloaded",
-      "bytes": 12633003
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/IGIKURIA%20LB.pdf",
-      "title": "IGIKURIA LB.pdf",
-      "folder": "grade-9",
-      "filename": "IGIKURIA LB.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/IGIKURIA LB.pdf",
-      "status": "downloaded",
-      "bytes": 9492356
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LB_%20POKOMO%20GRADE%201.pdf",
-      "title": "LB_ POKOMO GRADE 1.pdf",
-      "folder": "grade-1",
-      "filename": "LB_ POKOMO GRADE 1.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/LB_ POKOMO GRADE 1.pdf",
-      "status": "downloaded",
-      "bytes": 9227427
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20KIIMENTI.pdf",
-      "title": "LEARNER_ GRADE 1_ KIIMENTI.pdf",
-      "folder": "grade-9",
-      "filename": "LEARNER_ GRADE 1_ KIIMENTI.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ KIIMENTI.pdf",
-      "status": "downloaded",
-      "bytes": 11812213
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20KITUBHETA.pdf",
-      "title": "LEARNER_ GRADE 1_ KITUBHETA.pdf",
-      "folder": "grade-9",
-      "filename": "LEARNER_ GRADE 1_ KITUBHETA.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ KITUBHETA.pdf",
-      "status": "downloaded",
-      "bytes": 17418027
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20MAASAI.pdf",
-      "title": "LEARNER_ GRADE 1_ MAASAI.pdf",
-      "folder": "grade-9",
-      "filename": "LEARNER_ GRADE 1_ MAASAI.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ MAASAI.pdf",
-      "status": "downloaded",
-      "bytes": 8912448
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20MBEERE.pdf",
-      "title": "LEARNER_ GRADE 1_ MBEERE.pdf",
-      "folder": "grade-9",
-      "filename": "LEARNER_ GRADE 1_ MBEERE.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ MBEERE.pdf",
-      "status": "downloaded",
-      "bytes": 11794610
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20RENDILE%201.pdf",
-      "title": "LEARNER_ GRADE 1_ RENDILE 1.pdf",
-      "folder": "grade-9",
-      "filename": "LEARNER_ GRADE 1_ RENDILE 1.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ RENDILE 1.pdf",
-      "status": "downloaded",
-      "bytes": 8063824
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/NANDI%20G1%20LB.pdf",
-      "title": "NANDI G1 LB.pdf",
-      "folder": "grade-9",
-      "filename": "NANDI G1 LB.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/NANDI G1 LB.pdf",
-      "status": "downloaded",
-      "bytes": 13152964
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/NG_ATURKANA%20LB%20GRADE%201.pdf",
-      "title": "NG_ATURKANA LB GRADE 1.pdf",
-      "folder": "grade-1",
-      "filename": "NG_ATURKANA LB GRADE 1.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/NG_ATURKANA LB GRADE 1.pdf",
-      "status": "downloaded",
-      "bytes": 9620714
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/POKOT_LEARNER_%20GRADE%201.pdf",
-      "title": "POKOT_LEARNER_ GRADE 1.pdf",
-      "folder": "grade-1",
-      "filename": "POKOT_LEARNER_ GRADE 1.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/POKOT_LEARNER_ GRADE 1.pdf",
-      "status": "downloaded",
-      "bytes": 9441536
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/SABAOT%20LEARNERS%20BOOK.pdf",
-      "title": "SABAOT LEARNERS BOOK.pdf",
-      "folder": "grade-9",
-      "filename": "SABAOT LEARNERS BOOK.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/SABAOT LEARNERS BOOK.pdf",
-      "status": "downloaded",
-      "bytes": 11311805
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/SAMBURU%20LEARNER%20GRADE%201.pdf",
-      "title": "SAMBURU LEARNER GRADE 1.pdf",
-      "folder": "grade-1",
-      "filename": "SAMBURU LEARNER GRADE 1.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/SAMBURU LEARNER GRADE 1.pdf",
-      "status": "downloaded",
-      "bytes": 10637661
-    },
-    {
-      "type": "kec",
-      "url": "https://epubs.kec.ac.ke/pdf/TEACHERS_GUIDE/BURJI%20TG.pdf",
-      "title": "BURJI TG.pdf",
-      "folder": "grade-9",
-      "filename": "BURJI TG.pdf",
-      "destPath": "knowledge-base/pdfs/grade-9/BURJI TG.pdf",
-      "status": "downloaded",
-      "bytes": 960554
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1 , 2, 3 _ PI/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
-      "title": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
-      "status": "downloaded",
-      "bytes": 25429754
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1 , 2, 3 _ PI/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
-      "title": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
-      "status": "downloaded",
-      "bytes": 2232560
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 ,3 HI/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
-      "title": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
-      "status": "downloaded",
-      "bytes": 14190597
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 ,3 HI/ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
-      "title": "ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
-      "folder": "grade-3",
-      "filename": "ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
-      "destPath": "knowledge-base/pdfs/grade-3/ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
-      "status": "downloaded",
-      "bytes": 2537717
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 3 _ VI/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
-      "title": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
-      "folder": "grade-3",
-      "filename": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
-      "destPath": "knowledge-base/pdfs/grade-3/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
-      "status": "downloaded",
-      "bytes": 3355977
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 3 _ VI/ISBN_VI TG GRADE 3.pdf",
-      "title": "ISBN_VI TG GRADE 3.pdf",
-      "folder": "grade-3",
-      "filename": "ISBN_VI TG GRADE 3.pdf",
-      "destPath": "knowledge-base/pdfs/grade-3/ISBN_VI TG GRADE 3.pdf",
-      "status": "downloaded",
-      "bytes": 2137162
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE1, 2,  3 REGULAR/ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
-      "title": "ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
-      "folder": "grade-3",
-      "filename": "ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
-      "destPath": "knowledge-base/pdfs/grade-3/ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
-      "status": "downloaded",
-      "bytes": 49202876
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE1, 2,  3 REGULAR/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
-      "title": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
-      "folder": "grade-3",
-      "filename": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
-      "destPath": "knowledge-base/pdfs/grade-3/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
-      "status": "downloaded",
-      "bytes": 15098003
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_HI%20_%20TEACHERS%20GUIDE%20GRADE%201.pdf",
-      "title": "ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
-      "status": "downloaded",
-      "bytes": 1636818
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_HI%20BRANDED%20PUPILS%20GRADE%202%20.pdf",
-      "title": "ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
-      "status": "downloaded",
-      "bytes": 91102462
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_MATHS%203%20PUPILS%20(HI)%20CORRECTED%2025%2003%202019.pdf",
-      "title": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
-      "folder": "kec",
-      "filename": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
-      "destPath": "knowledge-base/pdfs/kec/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
-      "status": "downloaded",
-      "bytes": 14190597
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_PUPILS%20BK%20HEARING%20IMPAIRED%20GRADE%201%20(EDITTED%202019).pdf",
-      "title": "ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
-      "status": "downloaded",
-      "bytes": 98459635
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_TEACHERS%20HEARING%20IMPAIRED%20GRADE%202(EDITTED%202019).pdf",
-      "title": "ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
-      "status": "downloaded",
-      "bytes": 62337626
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PB%20BK%201%20FINAL.pdf",
-      "title": "ISBN_VI PB BK 1 FINAL.pdf",
-      "folder": "kec",
-      "filename": "ISBN_VI PB BK 1 FINAL.pdf",
-      "destPath": "knowledge-base/pdfs/kec/ISBN_VI PB BK 1 FINAL.pdf",
-      "status": "downloaded",
-      "bytes": 4402082
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PB%20BK%202%20FINAL.pdf",
-      "title": "ISBN_VI PB BK 2 FINAL.pdf",
-      "folder": "kec",
-      "filename": "ISBN_VI PB BK 2 FINAL.pdf",
-      "destPath": "knowledge-base/pdfs/kec/ISBN_VI PB BK 2 FINAL.pdf",
-      "status": "downloaded",
-      "bytes": 2273729
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VISUALLY%20IMPAIRED%20TG%20GRADE%202%2005%2001%202019.pdf",
-      "title": "ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
-      "status": "downloaded",
-      "bytes": 1318287
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_Early%20grade%20maths%203%20PI%20_CORRECTED_01_10_2019.pdf",
-      "title": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
-      "folder": "kec",
-      "filename": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
-      "destPath": "knowledge-base/pdfs/kec/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
-      "status": "downloaded",
-      "bytes": 25429754
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_EGM%20_3%20_%20PI%20TEACHERS%20GUIDE.pdf",
-      "title": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
-      "folder": "kec",
-      "filename": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
-      "destPath": "knowledge-base/pdfs/kec/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
-      "status": "downloaded",
-      "bytes": 2232560
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_FINAL%20PI%20PB%20GRADE%201Book%202019%207th%20JANUARY%20CORRECTED.pdf",
-      "title": "ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
-      "folder": "kec",
-      "filename": "ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
-      "destPath": "knowledge-base/pdfs/kec/ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
-      "status": "downloaded",
-      "bytes": 23041819
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_PUPILS%20BK%20PHYSICAL%20HANDICAPPED%20GRADE%202%20(EDITTED%202019).pdf",
-      "title": "ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
-      "status": "downloaded",
-      "bytes": 8329172
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_TEACHERS%20GUIDE%20GRADE%202%2007%2001%202019%20PHYSICALLY%20IMPAIRED%20BRANDED%20.pdf",
-      "title": "ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
-      "status": "downloaded",
-      "bytes": 5289962
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_TEACHERS%20PHYSICAL%20HANDICAPPED%20GRADE%201%20(EDITTED%202019).pdf",
-      "title": "ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
-      "status": "downloaded",
-      "bytes": 1654057
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20GRADE%203%20PUPILS.pdf",
-      "title": "ISBN_LOW VISION GRADE 3 PUPILS.pdf",
-      "folder": "grade-3",
-      "filename": "ISBN_LOW VISION GRADE 3 PUPILS.pdf",
-      "destPath": "knowledge-base/pdfs/grade-3/ISBN_LOW VISION GRADE 3 PUPILS.pdf",
-      "status": "downloaded",
-      "bytes": 12798589
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20PUPILS%20GRADE%201%20FINAL%20FINAL%20FINAL%2030th.pdf",
-      "title": "ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
-      "status": "downloaded",
-      "bytes": 50361828
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20PUPILS%20GRADE%202%20FINAL%20FINAL%20FINAL%2030th.pdf",
-      "title": "ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
-      "status": "downloaded",
-      "bytes": 47406315
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_TEACHERS%20LOW%20VISION%20GRADE%202%20(EDITTED%202019).pdf",
-      "title": "ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
-      "status": "downloaded",
-      "bytes": 2147744
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20GRADE%201%20PUPILS%20BOOK%20FINAL%20BOOK%2030th.pdf",
-      "title": "ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
-      "status": "downloaded",
-      "bytes": 111925065
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20GRADE%201%20TG%20_%20FOR%20PRINT%2016%2007%202018.pdf",
-      "title": "ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
-      "folder": "grade-1",
-      "filename": "ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
-      "destPath": "knowledge-base/pdfs/grade-1/ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
-      "status": "downloaded",
-      "bytes": 31277219
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR%20_%20GRADE%202%20PUPILS%20BOOK%20FINAL%20BOOK%2030th.pdf",
-      "title": "ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
-      "status": "downloaded",
-      "bytes": 180680370
-    },
-    {
-      "type": "kec",
-      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR%20GRADE%202%20TEACHERS%20GUIDE%20BOOK%20FINAL%20BOOK%2030th.pdf",
-      "title": "ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
-      "folder": "grade-2",
-      "filename": "ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
-      "destPath": "knowledge-base/pdfs/grade-2/ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
-      "status": "downloaded",
-      "bytes": 43109361
-    }
-  ],
+  "generatedAt": "2026-07-19T02:26:37.685Z",
+  "downloaded": [],
   "skipped": [
     {
       "type": "kec",
@@ -460,6 +9,16 @@
       "folder": "grade-9",
       "filename": "BURJI_ LEARNER_ GRADE 1_ .pdf",
       "destPath": "knowledge-base/pdfs/grade-9/BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/DAWIDA_LEARNERS_%20GRADE%201%20Edited.pdf",
+      "title": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "folder": "grade-1",
+      "filename": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
       "status": "skipped",
       "reason": "exists"
     },
@@ -495,11 +54,301 @@
     },
     {
       "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/Gabra-LEARNER_%20GRADE%201_%20(1).pdf",
+      "title": "Gabra-LEARNER_ GRADE 1_ (1).pdf",
+      "folder": "grade-9",
+      "filename": "Gabra-LEARNER_ GRADE 1_ (1).pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Gabra-LEARNER_ GRADE 1_ (1).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/IGIKURIA%20LB.pdf",
+      "title": "IGIKURIA LB.pdf",
+      "folder": "grade-9",
+      "filename": "IGIKURIA LB.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/IGIKURIA LB.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LB_%20POKOMO%20GRADE%201.pdf",
+      "title": "LB_ POKOMO GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "LB_ POKOMO GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/LB_ POKOMO GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20KIIMENTI.pdf",
+      "title": "LEARNER_ GRADE 1_ KIIMENTI.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ KIIMENTI.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ KIIMENTI.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20KITUBHETA.pdf",
+      "title": "LEARNER_ GRADE 1_ KITUBHETA.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ KITUBHETA.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ KITUBHETA.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20MAASAI.pdf",
+      "title": "LEARNER_ GRADE 1_ MAASAI.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ MAASAI.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ MAASAI.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20MBEERE.pdf",
+      "title": "LEARNER_ GRADE 1_ MBEERE.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ MBEERE.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ MBEERE.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20RENDILE%201.pdf",
+      "title": "LEARNER_ GRADE 1_ RENDILE 1.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ RENDILE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ RENDILE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/NANDI%20G1%20LB.pdf",
+      "title": "NANDI G1 LB.pdf",
+      "folder": "grade-9",
+      "filename": "NANDI G1 LB.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/NANDI G1 LB.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/NG_ATURKANA%20LB%20GRADE%201.pdf",
+      "title": "NG_ATURKANA LB GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "NG_ATURKANA LB GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/NG_ATURKANA LB GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/POKOT_LEARNER_%20GRADE%201.pdf",
+      "title": "POKOT_LEARNER_ GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "POKOT_LEARNER_ GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/POKOT_LEARNER_ GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/SABAOT%20LEARNERS%20BOOK.pdf",
+      "title": "SABAOT LEARNERS BOOK.pdf",
+      "folder": "grade-9",
+      "filename": "SABAOT LEARNERS BOOK.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/SABAOT LEARNERS BOOK.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/SAMBURU%20LEARNER%20GRADE%201.pdf",
+      "title": "SAMBURU LEARNER GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "SAMBURU LEARNER GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/SAMBURU LEARNER GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/TEACHERS_GUIDE/BURJI%20TG.pdf",
+      "title": "BURJI TG.pdf",
+      "folder": "grade-9",
+      "filename": "BURJI TG.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/BURJI TG.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1 , 2, 3 _ PI/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "title": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1 , 2, 3 _ PI/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "title": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 ,3 HI/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "title": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 ,3 HI/ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
+      "title": "ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 3 _ VI/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "title": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 3 _ VI/ISBN_VI TG GRADE 3.pdf",
+      "title": "ISBN_VI TG GRADE 3.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_VI TG GRADE 3.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_VI TG GRADE 3.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE1, 2,  3 REGULAR/ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
+      "title": "ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE1, 2,  3 REGULAR/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "title": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_HI%20_%20TEACHERS%20GUIDE%20GRADE%201.pdf",
+      "title": "ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_HI%20BRANDED%20PUPILS%20GRADE%202%20.pdf",
+      "title": "ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_MATHS%203%20PUPILS%20(HI)%20CORRECTED%2025%2003%202019.pdf",
+      "title": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "folder": "kec",
+      "filename": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_PUPILS%20BK%20HEARING%20IMPAIRED%20GRADE%201%20(EDITTED%202019).pdf",
+      "title": "ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
       "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_TEACHER%20GUIDE%20GRADE%203%20HI%20%20CORRECTED%2026TH%20MARCH%202019.pdf",
       "title": "ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
       "folder": "grade-3",
       "filename": "ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
       "destPath": "knowledge-base/pdfs/grade-3/ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_TEACHERS%20HEARING%20IMPAIRED%20GRADE%202(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PB%20BK%201%20FINAL.pdf",
+      "title": "ISBN_VI PB BK 1 FINAL.pdf",
+      "folder": "kec",
+      "filename": "ISBN_VI PB BK 1 FINAL.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_VI PB BK 1 FINAL.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PB%20BK%202%20FINAL.pdf",
+      "title": "ISBN_VI PB BK 2 FINAL.pdf",
+      "folder": "kec",
+      "filename": "ISBN_VI PB BK 2 FINAL.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_VI PB BK 2 FINAL.pdf",
       "status": "skipped",
       "reason": "exists"
     },
@@ -525,6 +374,116 @@
     },
     {
       "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VISUALLY%20IMPAIRED%20TG%20GRADE%202%2005%2001%202019.pdf",
+      "title": "ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_Early%20grade%20maths%203%20PI%20_CORRECTED_01_10_2019.pdf",
+      "title": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "folder": "kec",
+      "filename": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_EGM%20_3%20_%20PI%20TEACHERS%20GUIDE.pdf",
+      "title": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "folder": "kec",
+      "filename": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_FINAL%20PI%20PB%20GRADE%201Book%202019%207th%20JANUARY%20CORRECTED.pdf",
+      "title": "ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
+      "folder": "kec",
+      "filename": "ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_PUPILS%20BK%20PHYSICAL%20HANDICAPPED%20GRADE%202%20(EDITTED%202019).pdf",
+      "title": "ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_TEACHERS%20GUIDE%20GRADE%202%2007%2001%202019%20PHYSICALLY%20IMPAIRED%20BRANDED%20.pdf",
+      "title": "ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_TEACHERS%20PHYSICAL%20HANDICAPPED%20GRADE%201%20(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20GRADE%203%20PUPILS.pdf",
+      "title": "ISBN_LOW VISION GRADE 3 PUPILS.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_LOW VISION GRADE 3 PUPILS.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_LOW VISION GRADE 3 PUPILS.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20PUPILS%20GRADE%201%20FINAL%20FINAL%20FINAL%2030th.pdf",
+      "title": "ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20PUPILS%20GRADE%202%20FINAL%20FINAL%20FINAL%2030th.pdf",
+      "title": "ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_TEACHERS%20LOW%20VISION%20GRADE%202%20(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
       "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_PUPILS%20BOOK_%20GRADE%20%203%2022nd%20Dec.pdf",
       "title": "ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
       "folder": "grade-3",
@@ -535,11 +494,51 @@
     },
     {
       "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20GRADE%201%20PUPILS%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20GRADE%201%20TG%20_%20FOR%20PRINT%2016%2007%202018.pdf",
+      "title": "ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
       "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20TEACHER%20GUIDE%20GRADE%203%2024th%20Dec%202017b.pdf",
       "title": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
       "folder": "grade-3",
       "filename": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
       "destPath": "knowledge-base/pdfs/grade-3/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR%20_%20GRADE%202%20PUPILS%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR%20GRADE%202%20TEACHERS%20GUIDE%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
       "status": "skipped",
       "reason": "exists"
     }

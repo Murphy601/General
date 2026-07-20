@@ -1,30 +1,27 @@
+import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
-import { ContentCard } from '@/components/ContentCard';
-import { listContent, seedSamplesIfEmpty } from '@/lib/content-store';
+import { getGrades } from '@/lib/content-store';
 
 export default function VideosPage() {
-  seedSamplesIfEmpty();
-  const items = listContent({ type: 'video-script' });
+  const grades = getGrades();
 
   return (
     <PlatformLayout active="/videos">
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold">🎥 Video Hub</h1>
-        <p className="text-gray-600 mt-1">
-          Cached 5-minute lesson reels. Generate script once → render video → upload to Bunny.net → embed here.
-        </p>
-      </div>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {items.map((item) => (
-          <ContentCard key={item.id} item={item} />
+      <h1 className="text-2xl font-bold">Video Hub</h1>
+      <p className="text-gray-600 mt-1">Choose a grade, then subject and topic for lesson videos.</p>
+
+      <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {grades.map((g) => (
+          <Link
+            key={g.grade}
+            href={`/videos/${encodeURIComponent(g.grade)}`}
+            className="rounded-2xl border bg-white p-5 shadow-sm hover:border-kenya-green/40 transition"
+          >
+            <p className="font-bold text-lg text-kenya-black">{g.label}</p>
+            <p className="text-sm text-gray-500 mt-1">{g.subjectCount} subjects · {g.topicCount} topics</p>
+          </Link>
         ))}
       </div>
-      {items.length === 0 && (
-        <div className="rounded-2xl border border-dashed p-12 text-center text-gray-500">
-          <p>No videos yet. Generate a script in Studio, then render and upload.</p>
-          <a href="/studio" className="mt-2 inline-block text-kenya-green font-medium">Open Studio →</a>
-        </div>
-      )}
     </PlatformLayout>
   );
 }

@@ -7,8 +7,9 @@ export interface RagSource {
   score: number;
 }
 
-export type ContentType = 'notes' | 'exam' | 'quiz' | 'video-script';
+export type ContentType = 'topic-lesson' | 'notes' | 'exam' | 'quiz' | 'video-script' | 'mock-exam' | 'termly-exam' | 'premium-exam';
 export type AccessTier = 'free' | 'paid' | 'subscription';
+export type RevisionCategory = 'general' | 'termly' | 'mock' | 'premium';
 
 export interface TopicRef {
   grade: string;
@@ -16,6 +17,15 @@ export interface TopicRef {
   subject: string;
   strand?: string;
   subStrand?: string;
+  topicNumber?: string;
+  topicOrder?: number;
+  slug?: string;
+}
+
+export interface LessonPages {
+  lesson: string;
+  quiz: string;
+  answers: string;
 }
 
 export interface GeneratedContent {
@@ -23,7 +33,8 @@ export interface GeneratedContent {
   type: ContentType;
   title: string;
   topic: TopicRef;
-  body: string;
+  body?: string;
+  pages?: LessonPages;
   metadata: {
     createdAt: string;
     wordCount: number;
@@ -35,6 +46,8 @@ export interface GeneratedContent {
     markingScheme?: string;
     questions?: QuizItem[];
     scriptSections?: VideoScriptSection[];
+    questionCount?: number;
+    category?: RevisionCategory;
   };
   sources: Array<{ id: string; subject: string; grade: string; excerpt: string }>;
 }
@@ -56,6 +69,12 @@ export interface VideoScriptSection {
   visualCue?: string;
 }
 
+export interface CurriculumGrade {
+  grade: string;
+  label: string;
+  subjects: Record<string, { subject: string; topics: Array<{ topicNumber: string; topicName: string; slug: string; topicOrder: number }> }>;
+}
+
 export interface MembershipPlan {
   id: string;
   name: string;
@@ -69,4 +88,12 @@ export const PLANS: MembershipPlan[] = [
   { id: 'single', name: 'Single Download', priceKes: 100, period: 'once', unlocks: ['one-revision'] },
   { id: 'monthly', name: 'Monthly All-Access', priceKes: 300, period: 'month', unlocks: ['docs', 'videos', 'revision'] },
   { id: 'termly', name: 'Termly All-Access', priceKes: 750, period: 'term', unlocks: ['docs', 'videos', 'revision', 'exams'] },
+];
+
+export const GRADE_ORDER = [
+  'sne/visual-impairment/pp1', 'sne/visual-impairment/pp2',
+  'sne/hearing-impairment/pp1', 'sne/hearing-impairment/pp2',
+  'sne/physical-impairment/pp1', 'sne/physical-impairment/pp2',
+  'grade-1', 'grade-2', 'grade-3', 'grade-4', 'grade-5', 'grade-6',
+  'grade-7', 'grade-8', 'grade-9', 'grade-10', 'grade-11', 'grade-12',
 ];

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const tabs = [
   { href: '/', label: 'Dashboard', icon: '🏠' },
-  { href: '/docs', label: 'Learning Docs', icon: '📖' },
+  { href: '/learn', label: 'Learning Docs', icon: '📖' },
   { href: '/revision', label: 'Revision Hub', icon: '📝' },
   { href: '/videos', label: 'Video Hub', icon: '🎥' },
   { href: '/studio', label: 'Studio', icon: '✨' },

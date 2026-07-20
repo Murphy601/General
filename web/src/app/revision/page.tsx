@@ -1,30 +1,31 @@
+import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
-import { ContentCard } from '@/components/ContentCard';
-import { listContent, seedSamplesIfEmpty } from '@/lib/content-store';
+
+const CATEGORIES = [
+  { slug: 'general', label: 'General Assessment', desc: 'Topical revision quizzes by subject and topic' },
+  { slug: 'termly', label: 'Termly Exams', desc: 'End of term assessment papers' },
+  { slug: 'mock', label: 'Mock Exams', desc: 'KPSEA and national mock papers' },
+  { slug: 'premium', label: 'Premium Exams', desc: 'Advanced revision papers' },
+];
 
 export default function RevisionPage() {
-  seedSamplesIfEmpty();
-  const exams = listContent({ type: 'exam' });
-  const quizzes = listContent({ type: 'quiz' });
-  const items = [...exams, ...quizzes];
-
   return (
     <PlatformLayout active="/revision">
-      <div className="mb-6">
-        <h1 className="text-2xl font-bold">📝 Revision Hub</h1>
-        <p className="text-gray-600 mt-1">Termly exams, topical quizzes, and mock papers — sell per download or bundle in subscription.</p>
-      </div>
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {items.map((item) => (
-          <ContentCard key={item.id} item={item} />
+      <h1 className="text-2xl font-bold">Revision Hub</h1>
+      <p className="text-gray-600 mt-1">Choose an assessment type, then pick grade, subject, and paper.</p>
+
+      <div className="mt-8 grid gap-4 sm:grid-cols-2">
+        {CATEGORIES.map((cat) => (
+          <Link
+            key={cat.slug}
+            href={`/revision/${cat.slug}`}
+            className="rounded-2xl border bg-white p-5 shadow-sm hover:border-kenya-green/40 transition"
+          >
+            <h2 className="font-semibold text-kenya-black">{cat.label}</h2>
+            <p className="text-sm text-gray-500 mt-1">{cat.desc}</p>
+          </Link>
         ))}
       </div>
-      {items.length === 0 && (
-        <div className="rounded-2xl border border-dashed p-12 text-center text-gray-500">
-          <p>No revision materials yet.</p>
-          <a href="/studio" className="mt-2 inline-block text-kenya-green font-medium">Generate an exam in Studio →</a>
-        </div>
-      )}
     </PlatformLayout>
   );
 }
