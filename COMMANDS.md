@@ -1,67 +1,18 @@
-# Windows — get multi-page Grade 8 Integrated Science
+# Windows — sync CBC Learn (content already generated in git)
 
-## FIRST: open the project folder
+You do **not** need to regenerate lessons on your PC. Pull the branch and run the site.
 
-Do **not** run commands from `C:\Users\user`.
-
-```powershell
-cd C:\Users\user\General
-dir package.json
-# must show package.json — if missing, find the repo:
-Get-ChildItem -Path C:\Users\user -Filter package.json -Recurse -ErrorAction SilentlyContinue -Depth 4 |
-  Where-Object { $_.DirectoryName -match 'General' } |
-  Select-Object -ExpandProperty DirectoryName
-```
-
-If you never cloned the repo:
-
-```powershell
-cd C:\Users\user
-git clone https://github.com/Murphy601/General.git
-cd General
-git fetch --depth 1 origin cursor/cbc-learning-website-0ec7
-git checkout cursor/cbc-learning-website-0ec7
-```
-
-## You are on OLD content if you see this
-
-```
-SECTION 1: WELCOME
-SECTION 2: WHAT YOU WILL LEARN
-— CBC Learn · Classroom study notes (Strategy 2)
-```
-
-That is the **old single-page template**. Multi-page lessons show:
-
-- Tab **Study Pages** (not only “Lesson”)
-- Green banner: **Multi-page study · N pages**
-- Page chips: Page 1, Page 2, Page 3, 🔒 4…
-- Page 4+ → **Page locked** paywall card
-
-## Force update (fetch often fails on Windows)
+## Sync (recommended)
 
 ```powershell
 cd C:\Users\user\General
 Get-Process -Name node -ErrorAction SilentlyContinue | Stop-Process -Force
 
-git config --global http.postBuffer 524288000
-git config --global http.version HTTP/1.1
 git fetch --depth 1 origin cursor/cbc-learning-website-0ec7
-
-# IMPORTANT: discard local content edits so checkout cannot abort
 git reset --hard FETCH_HEAD
 git clean -fd
-git checkout -B cursor/cbc-learning-website-0ec7 FETCH_HEAD
 git log -1 --oneline
-# must show ba556337 or NEWER (not c8d3af8b / b06c8e0)
-
-npm run web:clean
-npm run curriculum:prepare
-npm run content:g8-is-pages
-# SUCCESS looks like:
-#   Building STUDENT study pages ... all pages UNLOCKED
-#   1.1 ... student pages
-# FAIL (old) looks like: freePages=3 / SECTION 1: WELCOME / teacher Requirements lists
+# expect: student textbook / v4 commit (not old WELCOME template)
 
 cd web
 npm run dev
@@ -69,27 +20,23 @@ npm run dev
 
 Hard refresh: **Ctrl+F5**
 
-If fetch keeps failing, ZIP install:  
-https://github.com/Murphy601/General/archive/refs/heads/cursor/cbc-learning-website-0ec7.zip
+### Check Grade 8 Integrated Science
+http://localhost:3000/learn/grade-8/integrated-science/1-1-elements-and-compounds
 
-### Check URL
-- http://localhost:3000/learn/grade-8/integrated-science
-- Open **1.1 Elements and Compounds**
-- Expect **many study pages** (e.g. 16+), **all unlocked** for now
-- Page locks will be turned on at publish (`npm run content:g8-is-pages -- --lock`)
+You should see:
+- `PAGE 1 OF 11: ATOMS, ELEMENTS AND COMPOUNDS`
+- Sections: **Comprehensive concept explanation**, **Worked example**, **Visual model**, **Practical application**, **Practice questions**, **Solutions**
+- No `SECTION 1: WELCOME`, no “Today’s idea / Today we study / Your turn”
 
-## Rebuild all classroom lessons locally
+Revision Hub exams for Grade 8 Integrated Science are also in the branch (general, termly, mock, premium).
+
+## Optional: regenerate later (cloud/agent or advanced)
 
 ```powershell
 cd C:\Users\user\General
-npm run content:rebuild-study
-# rebuild-study now auto-runs content:g8-is-pages at the end
-npm run content:generate-exams:all
-npm run content:ingest-past-papers
-```
-
-Or only refresh Grade 8 Integrated Science multi-page lessons:
-
-```powershell
+npm run curriculum:prepare
 npm run content:g8-is-pages
+node scripts/batch-generate-exams.mjs --grade grade-8 --subject "INTEGRATED SCIENCE" --reset --no-llm
 ```
+
+System prompt used for modules: `knowledge-base/prompts/student-textbook-module.md`

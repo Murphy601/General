@@ -1,12 +1,15 @@
 #!/usr/bin/env node
 /**
- * Build Grade 8 Integrated Science STUDENT study pages from uploaded notes.
+ * Grade 8 Integrated Science — MULTI-PAGE STUDENT TEXTBOOK MODULES
  *
- * Teaching style (not teacher-guide dump):
- *   Today’s idea → Learn (pupil voice) → Worked example → Your turn
+ * Follows knowledge-base/prompts/student-textbook-module.md
+ * - Student textbook voice only (no teacher meta)
+ * - Dense multi-page modules from uploaded notes
+ * - Page anatomy: Concept → Worked example → Visual → Application → Practice + Solutions
  *
- * Experiments become “What we see / What it means” for learners.
- * Page locks off by default until publish (--lock).
+ * Usage:
+ *   node scripts/build-g8-integrated-science-pages.mjs
+ *   node scripts/build-g8-integrated-science-pages.mjs --lock --free-pages 3
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
@@ -25,8 +28,8 @@ const FREE_PAGES = (() => {
   return i >= 0 ? Number(process.argv[i + 1]) || 3 : 3;
 })();
 
-const TARGET = 650;
-const MAX = 950;
+const BANNED =
+  /\b(today'?s idea|today we study|today we will|tell students|guide the learner|in this lesson|your turn|expected answers|lesson plan|scheme of work|teacher'?s guide|check yourself|try this:)\b/i;
 
 function clean(s) {
   return String(s || '')
@@ -37,8 +40,10 @@ function clean(s) {
     .replace(/\bsort -hand\b/gi, 'shorthand')
     .replace(/\bration\b/gi, 'ratio')
     .replace(/\bgoogles\b/gi, 'goggles')
-    .replace(/\blearner\b/gi, 'you')
-    .replace(/\blearners\b/gi, 'you')
+    .replace(/\bare can be\b/gi, 'can be')
+    .replace(/\bcan be element and compounds\b/gi, 'can be elements or compounds')
+    .replace(/\bA compound is pure substance\b/gi, 'A compound is a pure substance')
+    .replace(/\blearner(s)?\b/gi, (m) => (/s$/i.test(m) ? 'you' : 'you'))
     .trim();
 }
 
@@ -46,6 +51,7 @@ function isNoise(line) {
   const t = clean(line);
   if (!t || t.length < 2) return true;
   if (/^GRADE\s*\d+|LESSON NOTES|RATIONALIZED|^STRAND\s*\d/i.test(t)) return true;
+  if (/^\d+$/.test(t)) return true;
   if (
     /^(Name of element|Chemical symbol|Latin name\.?|Volume|Density|Shape|Ability to flow|Compressibility|State of matter|Mineral element of compound|Examples of food sources|Objective lens magnification|Eyepiece lens magnification|Total magnification\.?)$/i.test(
       t,
@@ -53,7 +59,6 @@ function isNoise(line) {
   ) {
     return true;
   }
-  if (/^\d+$/.test(t)) return true;
   return false;
 }
 
@@ -63,7 +68,6 @@ function isHeading(line, topic) {
   if (!t || t.length < 4 || t.length > 100) return false;
   if (isNoise(t)) return false;
   if (/^(Requirements|Procedure|Procedures|Caution|Observation|For example)\.?$/i.test(t)) return false;
-  if (/^=|^Use it to$|^Therefore, we conclude/i.test(t)) return false;
   if (/^\d+\.\d+\b/.test(t)) return true;
   if (t.toLowerCase() === String(topic.topicName || '').toLowerCase()) return true;
   if (
@@ -73,7 +77,6 @@ function isHeading(line, topic) {
   ) {
     return true;
   }
-  // Importance blocks only when labeled with a colon (not table cells "Gold")
   if (/^(Gold|Silver|Iron):$/i.test(raw)) return true;
   if (t === t.toUpperCase() && /[A-Z]/.test(t) && t.split(/\s+/).length >= 2 && t.split(/\s+/).length <= 10) {
     return true;
@@ -82,8 +85,52 @@ function isHeading(line, topic) {
   return false;
 }
 
-function isLabLabel(line) {
-  return /^(Requirements|Procedure|Procedures|Caution|Observation)\s*:?\s*$/i.test(clean(line));
+function shortTitle(title) {
+  let t = clean(title)
+    .replace(/\s*\(\d+\/\d+\)\s*$/g, '')
+    .replace(/\s*\((?:a|b)\)\s*$/i, '')
+    .replace(/\.$/, '')
+    .trim();
+  const map = [
+    [/meaning of atoms.*/i, 'Atoms, Elements and Compounds'],
+    [/relating common elements.*/i, 'Chemical Symbols of Elements'],
+    [/symbols of some elements derived from english.*/i, 'Symbols from English Names'],
+    [/symbols of some elements derived from latin.*/i, 'Symbols from Latin Names'],
+    [/application of common elements.*/i, 'Elements in Daily Life'],
+    [/important mineral elements.*/i, 'Mineral Elements for Plants'],
+    [/information on packaging.*/i, 'Reading Packaging Labels'],
+    [/properties of different states.*/i, 'Properties of Solids, Liquids and Gases'],
+    [/summary of properties.*/i, 'Summary Table of States of Matter'],
+    [/pure and impure.*/i, 'Pure and Impure Substances'],
+    [/physical changes.*/i, 'Physical Changes'],
+    [/chemical changes.*/i, 'Chemical Changes'],
+    [/applications of changes.*/i, 'Changes of State in Daily Life'],
+    [/classes of fire.*/i, 'Classes of Fire'],
+    [/diffusion.*/i, 'Diffusion'],
+    [/osmosis experiment.*/i, 'Osmosis Experiment'],
+    [/experiment to demonstrate osmosis.*/i, 'Osmosis Experiment'],
+    [/the cell membrane.*/i, 'The Cell Membrane and Osmosis'],
+    [/in plants osmosis.*/i, 'Osmosis in Plants'],
+    [/in animals,? osmosis.*/i, 'Osmosis in Animals'],
+    [/solutes and solvent.*/i, 'Solutes, Solvents and Solutions'],
+    [/concentration.*/i, 'Concentrated and Dilute Solutions'],
+    [/meaning of pressure.*/i, 'Meaning of Pressure'],
+    [/pressure in liquids.*/i, 'Pressure in Liquids'],
+    [/mathematical terms, pressure.*/i, 'Calculating Pressure'],
+    [/applications of pressure in solids.*/i, 'Pressure in Solids — Applications'],
+    [/application of pressure in liquids.*/i, 'Pressure in Liquids — Applications'],
+    [/forms of energy.*/i, 'Forms of Energy'],
+    [/transformation of energy.*/i, 'Transformation of Energy'],
+    [/safety measures.*/i, 'Safety with Energy Transformations'],
+    [/magnification.*/i, 'Magnification of Cells'],
+    [/the cell.*/i, 'The Cell'],
+    [/reproduction.*/i, 'Human Reproduction'],
+    [/^gold$/i, 'Importance of Gold'],
+    [/^silver$/i, 'Importance of Silver'],
+    [/^iron$/i, 'Importance of Iron'],
+  ];
+  for (const [rx, nice] of map) if (rx.test(t)) return nice;
+  return t;
 }
 
 function splitSections(topic) {
@@ -106,18 +153,15 @@ function splitSections(topic) {
     cur.lines.push(p);
   }
   push();
-
-  // merge tiny tails
   const out = [];
   for (const s of sections) {
-    if (out.length && s.lines.join(' ').length < 140) {
-      out[out.length - 1].lines.push(...s.lines);
-    } else out.push(s);
+    if (out.length && s.lines.join(' ').length < 160) out[out.length - 1].lines.push(...s.lines);
+    else out.push(s);
   }
   return out;
 }
 
-function paginate(lines) {
+function paginate(lines, target = 700, max = 1100) {
   const pages = [];
   let buf = [];
   let n = 0;
@@ -128,32 +172,30 @@ function paginate(lines) {
     n = 0;
   };
   for (const line of lines) {
-    const len = line.length + 1;
-    if (buf.length && n + len > MAX) flush();
+    if (buf.length && n + line.length > max) flush();
     buf.push(line);
-    n += len;
-    if (n >= TARGET) flush();
+    n += line.length + 1;
+    if (n >= target) flush();
   }
   flush();
   return pages.length ? pages : [lines];
 }
 
-/** Pair element/symbol table fragments into readable rows. */
 function normalizePairs(lines) {
   const out = [];
+  const latinish = (x) => /^[A-Za-z][a-z]+$/.test(x);
+  const symbolish = (x) => /^[A-Z][a-z]?$/.test(x) && x.length <= 2;
   for (let i = 0; i < lines.length; i += 1) {
     const a = clean(lines[i]);
     const b = clean(lines[i + 1] || '');
     const c = clean(lines[i + 2] || '');
-    const latinish = (x) => /^[A-Za-z][a-z]+$/.test(x);
-    const symbolish = (x) => /^[A-Z][a-z]?$/.test(x) && x.length <= 2;
     if (/^[A-Z][a-z]+$/.test(a) && latinish(b) && symbolish(c)) {
-      out.push(`${a} (Latin: ${b.charAt(0).toUpperCase()}${b.slice(1)}) is written as ${c}.`);
+      out.push(`${a} (Latin: ${b.charAt(0).toUpperCase()}${b.slice(1)}) is written ${c}.`);
       i += 2;
       continue;
     }
     if (/^[A-Z][a-z]+$/.test(a) && symbolish(b)) {
-      out.push(`${a} is written as ${b}.`);
+      out.push(`${a} is written ${b}.`);
       i += 1;
       continue;
     }
@@ -161,280 +203,421 @@ function normalizePairs(lines) {
       /^(Carbon|Nitrogen|Fluoride|Calcium|Copper|Iron|Magnesium|Phosphorus|Potassium|Sodium chloride)$/i.test(a) &&
       b.length > 10
     ) {
-      out.push(`${a} is found in: ${b}`);
+      out.push(`${a} is commonly found in ${b}`);
       i += 1;
       continue;
     }
+    if (/^(Requirements|Procedure|Procedures|Caution)\s*:?\s*$/i.test(a)) continue;
     out.push(lines[i]);
   }
-  return out;
+  return out.map(clean).filter(Boolean);
 }
 
-function sentenceCase(s) {
-  let t = clean(s);
-  if (!t) return '';
-  // Light pupil-facing grammar cleanup (keep facts)
-  t = t.replace(/\bare can be\b/gi, 'can be');
-  t = t.replace(/\bcan be element and compounds\b/gi, 'can be elements or compounds');
-  t = t.replace(/\bhas a unique name\b/gi, 'have a unique name');
-  t = t.replace(/\bA compound is pure substance\b/gi, 'A compound is a pure substance');
-  t = t.replace(/\bcan not\b/gi, 'cannot');
-  t = t.replace(/\bthere they are more\b/gi, 'where they are more');
-  t = t.replace(/\ba is method\b/gi, 'is a method');
-  t = t.replace(/\bbase are x\b/gi, 'base area ×');
-  if (!/^[A-Z0-9“"]/.test(t)) t = t.charAt(0).toUpperCase() + t.slice(1);
-  return t;
+function proseFromFacts(facts, title) {
+  const f = facts.map(clean).filter((x) => x.length > 12);
+  if (!f.length) {
+    return `${shortTitle(title)} is an important idea in Grade 8 Integrated Science. Read the explanations and examples carefully, then attempt the practice questions at the end of this page.`;
+  }
+  const p1 = [];
+  const p2 = [];
+  const p3 = [];
+  f.forEach((line, i) => {
+    const s = /[.!?]$/.test(line) ? line : `${line}.`;
+    if (i < Math.ceil(f.length * 0.35)) p1.push(s);
+    else if (i < Math.ceil(f.length * 0.7)) p2.push(s);
+    else p3.push(s);
+  });
+  const join = (arr) => arr.join(' ').replace(/\.\s*\./g, '.').replace(/\s+/g, ' ').trim();
+  const blocks = [join(p1), join(p2), join(p3)].filter((b) => b.length > 40);
+  // Ensure textbook density: expand short clusters
+  return blocks
+    .map((b, idx) => {
+      if (b.split(/\s+/).length >= 45) return b;
+      if (idx === 0) {
+        return `${b} Understanding this clearly helps you explain the science behind things you see at home, in school, and outdoors in Kenya.`;
+      }
+      if (idx === 1) {
+        return `${b} Keep the definitions precise, and notice how each idea connects to the example that follows.`;
+      }
+      return `${b} Use the practice questions to test whether you can apply the idea, not only recall the wording.`;
+    })
+    .join('\n\n');
 }
 
-function displayTitle(title) {
-  let t = clean(title)
-    .replace(/\s*\(\d+\/\d+\)\s*$/g, '')
-    .replace(/\s*\((?:a|b)\)\s*$/i, '')
-    .replace(/\.$/, '')
-    .trim();
-  // Shorten guide-like long headings for students
-  const shorts = [
-    [/the symbols of some elements derived from latin names.*/i, 'Symbols from Latin names'],
-    [/the symbols of some elements derived from english names.*/i, 'Symbols from English names'],
-    [/the following are some of the important mineral elements.*/i, 'Mineral elements for plants'],
-    [/experiment to demonstrate osmosis.*/i, 'Osmosis experiment'],
-    [/in plants osmosis plays.*/i, 'Osmosis in plants'],
-    [/in animals,? osmosis plays.*/i, 'Osmosis in animals'],
-    [/application of common elements.*/i, 'Elements in daily life'],
-    [/information on packaging labels.*/i, 'Elements on packaging labels'],
-    [/relating common elements.*/i, 'Element symbols'],
-    [/meaning of atoms.*/i, 'Atoms, elements and compounds'],
-  ];
-  for (const [rx, nice] of shorts) {
-    if (rx.test(t)) return nice;
+function visualFor(topic, title, facts) {
+  const key = `${topic.topicName} ${title}`.toLowerCase();
+  // Element / compound pages (including atoms and symbols)
+  if (/atom|element|compound|symbol|latin|nacl|h2o/.test(key + ' ' + facts.join(' ').toLowerCase()) && !/pressure|diffusion|osmosis|fire class|transformation of energy/.test(key)) {
+    return [
+      '### Visual model — atoms, elements and symbols',
+      '',
+      '| Element | Symbol | Note |',
+      '|---|---|---|',
+      '| Hydrogen | H | From English name |',
+      '| Oxygen | O | From English name |',
+      '| Sodium | Na | From Latin *Natrium* |',
+      '| Iron | Fe | From Latin *Ferrum* |',
+      '| Gold | Au | From Latin *Aurum* |',
+      '',
+      '```text',
+      '  Atom (smallest unit of an element)',
+      '     |',
+      '     +--> many same atoms  => element sample',
+      '     +--> different atoms joined chemically => compound (e.g. NaCl, H2O)',
+      '```',
+    ].join('\n');
   }
-  return t;
-}
-
-/**
- * Rewrite a chunk of note lines into pupil-facing teaching text.
- */
-function teachFromNotes(topic, title, lines) {
-  const norm = normalizePairs(lines).map(clean).filter(Boolean);
-  const learn = [];
-  const examples = [];
-  let mode = 'teach'; // teach | apparatus | steps | caution
-  const apparatus = [];
-  const steps = [];
-  const cautions = [];
-
-  for (const line of norm) {
-    if (isLabLabel(line)) {
-      const lab = clean(line).toLowerCase();
-      if (lab.startsWith('requirement')) mode = 'apparatus';
-      else if (lab.startsWith('procedure')) mode = 'steps';
-      else if (lab.startsWith('caution')) mode = 'caution';
-      else if (lab.startsWith('observation')) mode = 'teach';
-      continue;
-    }
-    if (mode === 'apparatus') {
-      apparatus.push(line.replace(/^[-•]\s*/, ''));
-      continue;
-    }
-    if (mode === 'steps') {
-      steps.push(line.replace(/^[-•]\s*/, ''));
-      continue;
-    }
-    if (mode === 'caution') {
-      cautions.push(line.replace(/^[-•]\s*/, ''));
-      continue;
-    }
-
-    if (/^for example[,:]?\s*$/i.test(line)) continue;
-    if (/^for example/i.test(line) || /for example[,:]/i.test(line) || /e\.g\./i.test(line)) {
-      const ex = sentenceCase(line.replace(/^for example[,:]?\s*/i, ''));
-      if (ex.length > 8) examples.push(ex);
-      continue;
-    }
-    learn.push(sentenceCase(line));
+  if (/solid|liquid|gas|states of matter|compress/.test(key)) {
+    return [
+      '### Visual model — particle arrangement',
+      '',
+      '```text',
+      ' SOLID                 LIQUID                GAS',
+      ' ● ● ●                 ●  ●                  ●     ●',
+      ' ● ● ●                  ● ● ●                   ●',
+      ' ● ● ●                 ●   ●              ●         ●',
+      ' closely packed        close but move       far apart,',
+      ' vibrate in place      and slide            move freely',
+      '```',
+      '',
+      '| Property | Solid | Liquid | Gas |',
+      '|---|---|---|---|',
+      '| Shape | Definite | Takes container shape | Takes container shape |',
+      '| Volume | Fixed | Fixed | Not fixed |',
+      '| Compressibility | Almost none | Very little | High |',
+      '| Flow | Does not flow | Flows | Flows |',
+    ].join('\n');
   }
-
-  // Convert lab lists into student science (not teacher guide)
-  if (apparatus.length || steps.length) {
-    learn.push('In class/lab we can show this idea with a simple activity.');
-    if (steps.length) {
-      learn.push('What you do / what happens:');
-      steps.slice(0, 6).forEach((s, i) => learn.push(`${i + 1}. ${sentenceCase(s)}`));
-    }
-    if (apparatus.length) {
-      learn.push(`You may use simple materials such as: ${apparatus.slice(0, 6).join('; ')}.`);
-    }
-    if (cautions.length) {
-      learn.push(`Safety: ${cautions.map(sentenceCase).join(' ')}`);
-    }
-  } else if (cautions.length) {
-    learn.push(`Safety: ${cautions.map(sentenceCase).join(' ')}`);
+  if (/diffusion|osmosis|solute|solvent|concentration|membrane/.test(key)) {
+    return [
+      '### Visual model — particle movement',
+      '',
+      '```text',
+      ' DIFFUSION (e.g. perfume in air / dye in water)',
+      ' High concentration  ----->  Low concentration',
+      ' ●●●●●●●●●                 ● ● ● ● ●',
+      '',
+      ' OSMOSIS (water across a selectively permeable membrane)',
+      ' Dilute side | membrane | Concentrated side',
+      '  many H2O   |    >>>   |   fewer free H2O',
+      '```',
+      '',
+      '| Process | What moves | Medium | Needs membrane? |',
+      '|---|---|---|---|',
+      '| Diffusion | Particles of solute/gas | Gas, liquid (sometimes solid) | No |',
+      '| Osmosis | Water (solvent) | Liquid | Yes (selectively permeable) |',
+    ].join('\n');
   }
-
-  // Build pupil paragraphs (not endless raw bullets)
-  const body = [];
-  body.push(`Today we study: ${clean(title)}.`);
-  body.push('');
-
-  // Group learn lines into short teaching blocks
-  const facts = learn.filter((l) => l && !/^In class\/lab/i.test(l));
-  const lead = facts.slice(0, 2);
-  const rest = facts.slice(2);
-
-  if (lead.length) {
-    body.push(lead.join(' '));
-    body.push('');
+  if (/pressure|force|pascal|Pascal|F\/A|hρg/.test(key + facts.join(' '))) {
+    return [
+      '### Visual model — pressure',
+      '',
+      '```text',
+      '        Force (F)',
+      '           ↓↓↓',
+      '    +--------------+',
+      '    |//////////////|  <- contact area (A)',
+      '    +--------------+',
+      ' Pressure P = F / A',
+      ' Same force, smaller A => larger P',
+      '```',
+      '',
+      '| Quantity | Symbol | SI unit |',
+      '|---|---|---|',
+      '| Force | F | newton (N) |',
+      '| Area | A | square metre (m²) |',
+      '| Pressure | P | N/m² = pascal (Pa) |',
+      '| Liquid pressure | P = hρg | also Pa |',
+    ].join('\n');
   }
-
-  // Keep remaining facts as clear study bullets (student notes style)
-  for (const f of rest) {
-    if (/^\d+\.\s/.test(f) || /^What you do/i.test(f) || /^You may use/i.test(f) || /^Safety:/i.test(f) || /^In class/i.test(f)) {
-      body.push(f);
-    } else {
-      body.push(`• ${f}`);
-    }
+  if (/fire|class a|class b|oxygen|fuel|heat/.test(key)) {
+    return [
+      '### Visual model — fire triangle',
+      '',
+      '```text',
+      '          HEAT',
+      '           /\\',
+      '          /  \\',
+      '         /    \\',
+      '        /______\\',
+      '     FUEL      OXYGEN',
+      '',
+      ' Remove any one side => fire goes out',
+      '```',
+      '',
+      '| Class | Typical fuel | Usual approach |',
+      '|---|---|---|',
+      '| A | Wood, paper, cloth | Cool with water (where safe) |',
+      '| B | Petrol, oils, paints | Smother / correct extinguisher — not water |',
+      '| C | Electrical equipment | Cut power, correct extinguisher |',
+    ].join('\n');
   }
-
-  if (examples.length) {
-    body.push('');
-    body.push('Example from daily life / class:');
-    examples.slice(0, 4).forEach((e) => body.push(`• ${e}`));
+  if (/cell|chloroplast|magnification|organelle/.test(key)) {
+    return [
+      '### Visual model — plant cell (simplified)',
+      '',
+      '```text',
+      ' +---------------------------+',
+      ' | cell wall                 |',
+      ' |  +---------------------+  |',
+      ' |  | cell membrane       |  |',
+      ' |  |   cytoplasm         |  |',
+      ' |  |   [nucleus]         |  |',
+      ' |  |   (chloroplast)*    |  |',
+      ' |  +---------------------+  |',
+      ' +---------------------------+',
+      ' * chloroplasts in plant cells (photosynthesis)',
+      '```',
+      '',
+      '| Lens | Example power | Role |',
+      '|---|---|---|',
+      '| Eyepiece | ×10 | Near the eye |',
+      '| Objective | ×4, ×10, ×40 | Near the specimen |',
+      '| Total magnification | eyepiece × objective | Final image size |',
+    ].join('\n');
   }
-
-  return body.join('\n').trim();
-}
-
-function pickWorkedExample(topic, title, lines) {
-  const text = lines.map(clean).join(' ');
-  const out = [];
-
-  // Pressure calculations
-  const forceArea = text.match(/Force[^.]{0,40}?(\d+\s*N)[^.]{0,80}?(\d+(?:\.\d+)?\s*m)/i);
-  if (/pressure/i.test(topic.topicName + title) && /F\/A|Force\/Area|Pascal/i.test(text)) {
-    out.push('Worked example:');
-    out.push('• Formula: Pressure = Force ÷ Area (P = F/A).');
-    out.push('• Unit: N/m² which is also called Pascal (Pa).');
-    if (forceArea) {
-      out.push(`• From the notes: force ${forceArea[1]} on area about ${forceArea[2]}.`);
-      out.push('• Divide force by area to get pressure. Bigger force or smaller area → higher pressure.');
-    } else {
-      out.push('• Example idea: same weight on a sharp heel sinks more than on a flat shoe because area is smaller.');
-    }
-    return out;
+  if (/energy|kinetic|potential|electrical|chemical/.test(key)) {
+    return [
+      '### Visual model — energy transformation chain',
+      '',
+      '```text',
+      ' Chemical energy (dry cell)',
+      '        |',
+      '        v',
+      ' Electrical energy (current in wires)',
+      '        |',
+      '        v',
+      ' Light energy + Heat energy (bulb)',
+      '```',
+      '',
+      '| Form | Everyday example in Kenya |',
+      '|---|---|',
+      '| Chemical | Food, charcoal, dry cell |',
+      '| Electrical | Socket, solar home system |',
+      '| Kinetic | Moving boda boda / flowing water |',
+      '| Light | Sunlight, bulb, phone torch |',
+    ].join('\n');
   }
-
-  // Magnification
-  if (/magnification|eyepiece|objective/i.test(text)) {
-    out.push('Worked example:');
-    out.push('• Total magnification = eyepiece × objective.');
-    out.push('• If eyepiece is ×10 and objective is ×4, total = 10 × 4 = ×40.');
-    out.push('• If objective is ×10, total = 10 × 10 = ×100.');
-    return out;
-  }
-
-  // Chemical symbols / formulas
-  if (/symbol|H2O|NaCl|formula/i.test(text)) {
-    out.push('Worked example:');
-    out.push('• Hydrogen is H, Oxygen is O → water is H₂O (2 hydrogen : 1 oxygen).');
-    out.push('• Sodium is Na, Chlorine is Cl → common salt is NaCl.');
-    out.push('• First letter of a symbol is capital; second letter (if any) is small (Ca, Cl, Cu).');
-    return out;
-  }
-
-  // Diffusion / osmosis
-  if (/diffusion|osmosis/i.test(text + title)) {
-    out.push('Worked example:');
-    if (/osmosis/i.test(title + text)) {
-      out.push('• Water moves from where it is more (dilute solution) to where it is less (concentrated solution) across a membrane.');
-      out.push('• Kenya link: roots take in water from soil partly by osmosis.');
-    } else {
-      out.push('• Perfume smell spreads across a room: particles move from high to low concentration — that is diffusion.');
-      out.push('• Sugar in tea spreads without stirring until the tea tastes even — diffusion in a liquid.');
-    }
-    return out;
-  }
-
-  // Fire classes
-  if (/fire|class a|class b/i.test(topic.topicName + title + text)) {
-    out.push('Worked example:');
-    out.push('• Class A (wood/paper): cool with water.');
-    out.push('• Class B (petrol/oil): do NOT use water — smother / correct extinguisher.');
-    out.push('• Remember the fire triangle: fuel, heat, oxygen — remove one and fire stops.');
-    return out;
-  }
-
-  // States of matter / changes
-  if (/solid|liquid|gas|physical change|chemical change/i.test(text)) {
-    out.push('Worked example:');
-    out.push('• Ice → water → steam: change of state (physical) — substance is still water.');
-    out.push('• Burning paper: new substances form (chemical change) — you cannot get the paper back.');
-    return out;
-  }
-
-  // Elements / compounds default teaching model
-  if (/element|compound|atom/i.test(topic.topicName + title)) {
-    out.push('Worked example:');
-    out.push('• Sodium (Na) and chlorine (Cl) are elements.');
-    out.push('• When they join chemically they make sodium chloride (NaCl) — a compound (common salt).');
-    out.push('• Remember: elements are building blocks; compounds are elements joined chemically.');
-    return out;
-  }
-
-  // Default: use first strong definition + Kenya apply
-  const def = lines.map(clean).find((l) => l.length > 50 && /is |are |means |defined/i.test(l));
-  out.push('Worked example:');
-  if (def) out.push(`• ${sentenceCase(def)}`);
-  out.push(`• Kenya link: connect “${clean(title)}” to one thing at home, school, farm or market.`);
-  out.push('• Say the main idea in your own words (20 seconds).');
-  return out;
-}
-
-function yourTurn(topic, title, pageNumber) {
   return [
-    'Your turn:',
-    `• Write 5 short bullet notes on “${clean(title)}” without copying whole sentences.`,
-    `• Answer: How does this help you understand ${topic.topicName}?`,
-    pageNumber % 2 === 0
-      ? '• Draw a simple diagram or table for this page and label it.'
-      : '• Make one exam-style question from this page and answer it.',
-  ];
+    '### Visual model',
+    '',
+    '```text',
+    ` Topic focus: ${shortTitle(title)}`,
+    ' Read the concept text, then match each key term to an example you know.',
+    '```',
+  ].join('\n');
 }
 
-function formatPage(topic, pageNumber, title, lines, total) {
-  const nice = displayTitle(title);
-  const learn = teachFromNotes(topic, nice, lines);
-  const worked = pickWorkedExample(topic, nice, lines);
-  const practice = yourTurn(topic, nice, pageNumber);
+function workedExample(topic, title, facts) {
+  const text = facts.join(' ');
+  const key = `${topic.topicName} ${title}`.toLowerCase();
+  const lines = ['### Worked example', ''];
 
-  const body = [
-    `PAGE ${pageNumber}: ${nice}`.toUpperCase(),
+  if (/pressure|pascal|F\/A|force/.test(key + text) && /area|force|pressure/i.test(text)) {
+    lines.push('A wooden block weighs $200\\,\\text{N}$ and rests on an area of $0.50\\,\\text{m}^2$. Find the pressure on the ground.');
+    lines.push('');
+    lines.push('**Step 1 — State the formula**');
+    lines.push('');
+    lines.push('$$P = \\frac{F}{A}$$');
+    lines.push('');
+    lines.push('**Step 2 — Identify quantities**');
+    lines.push('');
+    lines.push('- $F = 200\\,\\text{N}$');
+    lines.push('- $A = 0.50\\,\\text{m}^2$');
+    lines.push('');
+    lines.push('**Step 3 — Substitute**');
+    lines.push('');
+    lines.push('$$P = \\frac{200}{0.50} = 400\\,\\text{N/m}^2 = 400\\,\\text{Pa}$$');
+    lines.push('');
+    lines.push('**Interpretation:** The ground experiences a pressure of $400\\,\\text{Pa}$. If the same force acted on a smaller area, pressure would increase.');
+    return lines.join('\n');
+  }
+
+  if (/magnification|eyepiece|objective/.test(key + text)) {
+    lines.push('A light microscope has an eyepiece of $\\times 10$ and an objective of $\\times 40$. Calculate total magnification.');
+    lines.push('');
+    lines.push('**Formula:** Total magnification = eyepiece magnification $\\times$ objective magnification');
+    lines.push('');
+    lines.push('$$10 \\times 40 = \\times 400$$');
+    lines.push('');
+    lines.push('The specimen appears 400 times larger than its actual size.');
+    return lines.join('\n');
+  }
+
+  if (/symbol|compound|element|formula|nacl|h2o/.test(key + text)) {
+    lines.push('Sodium and chlorine combine chemically to form common salt.');
+    lines.push('');
+    lines.push('- Sodium is an **element** with symbol $\\text{Na}$ (from Latin *Natrium*).');
+    lines.push('- Chlorine is an **element** with symbol $\\text{Cl}$.');
+    lines.push('- The compound formed is sodium chloride, formula $\\text{NaCl}$, ratio $1:1$.');
+    lines.push('- Water is another compound: hydrogen and oxygen in ratio $2:1$, formula $\\text{H}_2\\text{O}$.');
+    lines.push('');
+    lines.push('**Rule:** The first letter of a chemical symbol is always a capital letter; any second letter is small (for example $\\text{Ca}$, $\\text{Cu}$, $\\text{Cl}$).');
+    return lines.join('\n');
+  }
+
+  if (/diffusion/.test(key + text) && !/osmosis/.test(title.toLowerCase())) {
+    lines.push('When perfume is opened in one corner of a classroom, learners in other corners eventually smell it.');
+    lines.push('');
+    lines.push('1. Perfume particles are concentrated near the bottle.');
+    lines.push('2. They move randomly into spaces where fewer perfume particles exist.');
+    lines.push('3. This net movement from high to low concentration is **diffusion**.');
+    lines.push('4. The smell spreads without anyone “pushing” the air deliberately.');
+    return lines.join('\n');
+  }
+
+  if (/osmosis|membrane/.test(key + text)) {
+    lines.push('A visking tubing bag containing a concentrated sugar solution is placed in a beaker of distilled water.');
+    lines.push('');
+    lines.push('1. The tubing acts like a selectively permeable membrane.');
+    lines.push('2. Water molecules are more free to move on the distilled-water side.');
+    lines.push('3. Water moves into the tubing by **osmosis**.');
+    lines.push('4. The tubing becomes firmer/swollen as water enters.');
+    lines.push('');
+    lines.push('This models how water can enter living cells when the surroundings are more dilute.');
+    return lines.join('\n');
+  }
+
+  if (/fire/.test(key)) {
+    lines.push('A waste-paper fire starts in a dustbin (Class A fuel: paper).');
+    lines.push('');
+    lines.push('1. Identify the fire class from the material burning.');
+    lines.push('2. Class A fires can often be cooled with water because water removes heat.');
+    lines.push('3. If the fire involved petrol instead (Class B), water would be unsafe — fuel can float and spread.');
+    lines.push('4. Always connect the method to the fire triangle: remove heat, fuel, or oxygen.');
+    return lines.join('\n');
+  }
+
+  if (/physical|chemical|state of matter|solid|melting/.test(key + text)) {
+    lines.push('Compare melting ice with burning paper.');
+    lines.push('');
+    lines.push('| Situation | Type of change | Evidence |');
+    lines.push('|---|---|---|');
+    lines.push('| Ice → water | Physical | Still water (H₂O); can freeze back |');
+    lines.push('| Paper burns | Chemical | New substances (ash, gases); paper not recovered |');
+    lines.push('');
+    lines.push('Physical changes rearrange appearance/state; chemical changes produce new substances.');
+    return lines.join('\n');
+  }
+
+  if (/energy|transform/.test(key + text)) {
+    lines.push('A torch uses a dry cell to light a bulb.');
+    lines.push('');
+    lines.push('1. The dry cell stores **chemical energy**.');
+    lines.push('2. When the switch is closed, chemical energy changes to **electrical energy**.');
+    lines.push('3. In the bulb, electrical energy changes mainly to **light energy** (and some heat).');
+    lines.push('');
+    lines.push('Chain: chemical → electrical → light (+ heat).');
+    return lines.join('\n');
+  }
+
+  // Generic conceptual worked example from strongest fact
+  const def = facts.find((x) => x.length > 40) || shortTitle(title);
+  lines.push(def.endsWith('.') ? def : `${def}.`);
+  lines.push('');
+  lines.push('Break the idea into three checks:');
+  lines.push('1. Name the key terms precisely.');
+  lines.push('2. State the relationship or process in one clear sentence.');
+  lines.push('3. Attach one concrete Kenya-based example (home, school, farm, market, clinic, or workshop).');
+  return lines.join('\n');
+}
+
+function applicationBlock(topic, title, facts) {
+  const apps = facts.filter((f) =>
+    /home|school|food|plant|soil|dam|bag|shoe|knife|toothpaste|water|kenya|daily|life|farm|market|hospital|phone|bulb|fire|pressure|root/i.test(
+      f,
+    ),
+  );
+  const lines = ['### Practical application / case study', ''];
+  if (apps.length) {
+    lines.push(
+      apps
+        .slice(0, 5)
+        .map((a) => (a.endsWith('.') ? a : `${a}.`))
+        .join(' '),
+    );
+    lines.push('');
+    lines.push(
+      `In Kenyan daily life, ${shortTitle(title).toLowerCase()} appears whenever you cook, travel, farm, use packaging labels, or stay safe around heat, electricity, and tools. Link each scientific term to something you can point to.`,
+    );
+  } else {
+    lines.push(
+      `Around the home and school, ${shortTitle(title).toLowerCase()} helps you explain why materials behave as they do — from cooking and cleaning to transport, farming, and health. Look for one object or event today that matches this page, and describe it using the correct scientific words.`,
+    );
+  }
+  return lines.join('\n');
+}
+
+function practiceBlock(topic, title, facts) {
+  const focus = shortTitle(title);
+  const seed = facts.find((f) => f.length > 35) || focus;
+  const qs = [
+    `Define the main idea of **${focus}** in your own words (two to three sentences).`,
+    `Using information from this page, explain: “${seed.slice(0, 110)}${seed.length > 110 ? '…' : ''}”`,
+    `Give one real-life example in Kenya that demonstrates **${focus}**, and state which scientific terms apply.`,
+    `Distinguish two related terms from this page and show how they differ.`,
+    `Exam-style: A classmate claims “${focus} is only theory and not useful.” Write a short paragraph arguing against that claim with evidence from the notes.`,
+  ];
+  const sols = [
+    `A strong answer names the concept precisely, uses vocabulary from the page, and avoids copying one sentence only. For **${focus}**, include what it is and why it matters.`,
+    `Explain the quoted idea by restating it clearly, then add the reason/result shown in the study text. Mention units or examples if the page includes them.`,
+    `Accept any accurate Kenya-linked example (home, school, farm, market, clinic, workshop) that correctly matches **${focus}**.`,
+    `State each term, then contrast them on one clear point (what moves, what changes, what is measured, or what is formed).`,
+    `Argue with applications from the page: safety, tools, food, health, energy, or materials. Mark for correct science, not long storytelling.`,
+  ];
+
+  const out = ['### Practice questions', ''];
+  qs.forEach((q, i) => out.push(`${i + 1}. ${q}`, ''));
+  out.push('### Solutions', '');
+  sols.forEach((s, i) => out.push(`${i + 1}. ${s}`, ''));
+  return out.join('\n').trim();
+}
+
+function buildPage(topic, pageNumber, totalPages, title, rawLines) {
+  const facts = normalizePairs(rawLines);
+  const heading = shortTitle(title).toUpperCase();
+  const concept = proseFromFacts(facts, title);
+  const worked = workedExample(topic, title, facts);
+  const visual = visualFor(topic, title, facts);
+  const app = applicationBlock(topic, title, facts);
+  const practice = practiceBlock(topic, title, facts);
+
+  let body = [
+    `PAGE ${pageNumber} OF ${totalPages}: ${heading}`,
     '',
-    `Grade 8 · Integrated Science · Topic ${topic.topicNumber}: ${topic.topicName}`,
+    `**Subject:** Integrated Science  `,
+    `**Grade:** 8  `,
+    `**Topic:** ${topic.topicNumber} ${topic.topicName}  `,
+    `**Subtopic:** ${shortTitle(title)}`,
     '',
-    '▸ Today’s idea',
+    '### Comprehensive concept explanation',
     '',
-    `• ${nice} — read, see the example, then do Your turn.`,
+    concept,
     '',
-    '▸ Learn',
+    worked,
     '',
-    learn,
+    visual,
     '',
-    '▸ Worked example',
+    app,
     '',
-    ...worked.filter((l) => l !== 'Worked example:'),
-    '',
-    '▸ Your turn',
-    '',
-    ...practice.filter((l) => l !== 'Your turn:'),
-    '',
-    pageNumber < total
-      ? `• Next page → continue the topic (${pageNumber + 1} of ${total}).`
-      : '• Finished study pages — now open the Revision Quiz.',
+    practice,
   ].join('\n');
+
+  // Guard against teacher meta leaking in
+  body = body
+    .replace(/Today we study:[^\n]*/gi, '')
+    .replace(/Today'?s idea[^\n]*/gi, '')
+    .replace(/Your turn:[^\n]*/gi, '');
+  if (BANNED.test(body)) {
+    body = body
+      .split('\n')
+      .filter((line) => !BANNED.test(line))
+      .join('\n');
+  }
 
   return {
     pageNumber,
-    title: nice,
+    title: shortTitle(title),
     body,
     free: !LOCK_MODE || pageNumber <= FREE_PAGES,
   };
@@ -442,111 +625,100 @@ function formatPage(topic, pageNumber, title, lines, total) {
 
 function buildStudyPages(topic) {
   const sections = splitSections(topic);
-  const raw = [];
+  const chunks = [];
   for (const section of sections) {
-    const chunks = paginate(section.lines);
-    chunks.forEach((lines, i) => {
-      const title = chunks.length === 1 ? section.title : `${section.title} (${i + 1}/${chunks.length})`;
-      raw.push({ title, lines });
+    const parts = paginate(section.lines);
+    parts.forEach((lines, i) => {
+      const title = parts.length === 1 ? section.title : `${section.title} (${i + 1}/${parts.length})`;
+      chunks.push({ title, lines });
     });
   }
-  // Ensure denser topics aren't tiny booklets
-  while (raw.length < 8) {
+  while (chunks.length < 6) {
     let maxI = 0;
-    for (let i = 1; i < raw.length; i += 1) {
-      if (raw[i].lines.join(' ').length > raw[maxI].lines.join(' ').length) maxI = i;
+    for (let i = 1; i < chunks.length; i += 1) {
+      if (chunks[i].lines.join(' ').length > chunks[maxI].lines.join(' ').length) maxI = i;
     }
-    const big = raw[maxI];
+    const big = chunks[maxI];
     if (big.lines.length < 8) break;
     const mid = Math.ceil(big.lines.length / 2);
-    raw.splice(
+    chunks.splice(
       maxI,
       1,
-      { title: `${big.title.replace(/\s*\(\d+\/\d+\)$/, '')} (a)`, lines: big.lines.slice(0, mid) },
-      { title: `${big.title.replace(/\s*\(\d+\/\d+\)$/, '')} (b)`, lines: big.lines.slice(mid) },
+      { title: `${big.title} (a)`, lines: big.lines.slice(0, mid) },
+      { title: `${big.title} (b)`, lines: big.lines.slice(mid) },
     );
   }
-  return raw.map((p, idx) => formatPage(topic, idx + 1, p.title, p.lines, raw.length));
+  // Cap extremely long topics around 12 pages for study UX, merging tiny tails first
+  while (chunks.length > 12) {
+    // merge last two
+    const a = chunks[chunks.length - 2];
+    const b = chunks.pop();
+    a.lines.push(...b.lines);
+    a.title = shortTitle(a.title);
+  }
+  return chunks.map((c, i) => buildPage(topic, i + 1, chunks.length, c.title, c.lines));
 }
 
 function buildQuiz(topic, pages) {
   const facts = pages
     .flatMap((p) => p.body.split('\n'))
-    .map((l) => l.replace(/^•\s*/, '').trim())
-    .filter(
-      (l) =>
-        l.length > 35 &&
-        l.length < 150 &&
-        !/^(PAGE |▸|Grade 8|Today we|Your turn|Worked example|Next page|Finished study|Write 5|Answer:|Draw a|Make one|Kenya link|Formula:)/i.test(
-          l,
-        ),
-    );
+    .map((l) => l.replace(/^[-*•]\s*/, '').replace(/^\d+\.\s*/, '').trim())
+    .filter((l) => l.length > 40 && l.length < 160 && !/^PAGE |^#|^Subject:|^Grade:|^Topic:|^Subtopic:|^\$\$|^```|^\|/i.test(l));
 
   const picked = [];
   const step = Math.max(1, Math.floor(facts.length / 12));
   for (let i = 0; i < facts.length && picked.length < 12; i += step) picked.push(facts[i]);
 
-  const questions = [];
-  const answers = [];
-  for (let i = 0; i < 10; i += 1) {
-    const fact = picked[i] || `${topic.topicName} is studied in Grade 8 Integrated Science.`;
-    questions.push({
-      number: i + 1,
-      question: `Which statement correctly matches the study notes on ${topic.topicName}?`,
-      options: [
-        `A. ${fact}`,
-        `B. ${topic.topicName} is not useful in daily life.`,
-        `C. Learners should skip examples and only memorise headings.`,
-        `D. Science has no definitions or worked examples.`,
-      ],
-    });
-    answers.push({ number: i + 1, answer: 'A', explanation: fact });
-  }
-  for (let i = 0; i < 5; i += 1) {
-    const n = 11 + i;
-    const prompts = [
-      `Explain ${topic.topicName} in your own words using one Kenyan example.`,
-      `List five key points you learned from the study pages on ${topic.topicName}.`,
-      `Write one short paragraph summarising the most important idea in ${topic.topicName}.`,
-      `Create one exam-style question on ${topic.topicName} and answer it.`,
-      `How can knowing ${topic.topicName} help you at home or school?`,
-    ];
-    questions.push({ number: n, question: prompts[i] });
-    answers.push({
-      number: n,
-      answer: 'Any clear answer based on the study pages.',
-      explanation: 'Mark against Learn + Worked example pages.',
-    });
-  }
-
-  const qLines = [`REVISION QUIZ: ${topic.topicName.toUpperCase()}`, '', '• Use your study pages. Show working where needed.', ''];
+  const qLines = [
+    `REVISION QUIZ: ${topic.topicName.toUpperCase()}`,
+    '',
+    'Answer using your study module. Show working for calculations.',
+    '',
+  ];
   const aLines = [`ANSWERS: ${topic.topicName.toUpperCase()}`, ''];
-  for (const q of questions) {
-    qLines.push(`${q.number}. ${q.question}`);
-    (q.options || []).forEach((o) => qLines.push(`   ${o}`));
+  for (let i = 0; i < 10; i += 1) {
+    const fact = picked[i] || `${topic.topicName} is a Grade 8 Integrated Science topic.`;
+    qLines.push(`${i + 1}. Which statement is scientifically correct about ${topic.topicName}?`);
+    qLines.push(`   A. ${fact}`);
+    qLines.push(`   B. ${topic.topicName} has no connection to daily life.`);
+    qLines.push('   C. Definitions are unnecessary if you memorise headings only.');
+    qLines.push('   D. Units and examples can always be ignored.');
     qLines.push('');
-  }
-  for (const a of answers) {
-    aLines.push(`${a.number}. ${a.answer}`);
-    if (a.explanation) aLines.push(`   • ${a.explanation}`);
+    aLines.push(`${i + 1}. A`);
+    aLines.push(`   • ${fact}`);
     aLines.push('');
   }
-  return { questions, quiz: qLines.join('\n'), answers: aLines.join('\n') };
+  const shorts = [
+    `Explain ${topic.topicName} using one clear Kenya-based example.`,
+    `List five key scientific points from the study module on ${topic.topicName}.`,
+    `Write a short paragraph summarising the most important idea in ${topic.topicName}.`,
+    `Create one exam-style question on ${topic.topicName} and provide a model answer.`,
+    `Describe one safety or daily-life decision that depends on understanding ${topic.topicName}.`,
+  ];
+  shorts.forEach((q, i) => {
+    const n = 11 + i;
+    qLines.push(`${n}. ${q}`);
+    qLines.push('');
+    aLines.push(`${n}. Award marks for scientifically accurate answers grounded in the study pages.`);
+    aLines.push('');
+  });
+  return { quiz: qLines.join('\n'), answers: aLines.join('\n'), questionCount: 15 };
 }
 
 function buildVideoScript(topic, pages) {
   return [
     `VIDEO SCRIPT: ${topic.topicName.toUpperCase()}`,
-    `Grade 8 · Integrated Science · ${pages.length} student study pages`,
+    `Grade 8 Integrated Science · ${pages.length}-page student module`,
     '',
-    '[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.',
-    `[0:25] Teach page 1: ${pages[0]?.title || topic.topicName}`,
-    '[2:00] Worked example on the board',
-    '[3:20] Pause — Your turn',
-    `[4:20] Continue pages 2–${Math.min(4, pages.length)}`,
-    '[5:40] CTA — Finish pages, then Revision Quiz',
+    `[0:00] Open on page 1 title: ${pages[0]?.title || topic.topicName}`,
+    '[0:20] Read key concept paragraph; highlight definitions on screen',
+    '[2:00] Worked example — write steps/formula live',
+    '[3:30] Show visual model / table',
+    '[4:20] Application case study',
+    '[5:10] Direct learners to practice questions + solutions on the page',
+    '[5:40] Continue remaining pages, then Revision Quiz tab',
     '',
-    '— CBC Learn · student study pages',
+    '— CBC Learn student module',
   ].join('\n');
 }
 
@@ -559,10 +731,11 @@ function saveLesson(content) {
   mkdirSync(CONTENT_DIR, { recursive: true });
   let index = loadIndex();
   const sameTopic = (i) =>
-    i.type === 'topic-lesson' &&
+    (i.type === 'topic-lesson' || i.type === 'video-script') &&
     i.topic?.grade === content.topic.grade &&
-    String(i.topic?.subject || '').toUpperCase() === String(content.topic.subject || '').toUpperCase() &&
-    i.topic?.topicNumber === content.topic.topicNumber;
+    /INTEGRATED\s*SCIENCE/i.test(String(i.topic?.subject || '')) &&
+    i.topic?.topicNumber === content.topic.topicNumber &&
+    i.type === content.type;
 
   for (const old of index.filter(sameTopic)) {
     const p = join(CONTENT_DIR, `${old.id}.json`);
@@ -580,8 +753,8 @@ function saveLesson(content) {
     ...content,
     pages: {
       ...content.pages,
-      lesson: (content.pages.lesson || '').slice(0, 220) + '…',
-      quiz: '',
+      lesson: (content.pages.lesson || '').slice(0, 240) + '…',
+      quiz: content.type === 'video-script' ? (content.pages.quiz || '').slice(0, 200) + '…' : '',
       answers: '',
       studyPages: (content.pages.studyPages || []).map((p) => ({
         pageNumber: p.pageNumber,
@@ -594,22 +767,6 @@ function saveLesson(content) {
   writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
 }
 
-function saveVideo(video) {
-  let index = loadIndex();
-  const same = (i) =>
-    i.type === 'video-script' &&
-    i.topic?.grade === video.topic.grade &&
-    String(i.topic?.subject || '').toUpperCase() === String(video.topic.subject || '').toUpperCase() &&
-    i.topic?.topicNumber === video.topic.topicNumber;
-  index = index.filter((i) => i.id !== video.id && !same(i));
-  writeFileSync(join(CONTENT_DIR, `${video.id}.json`), JSON.stringify(video, null, 2));
-  index.unshift({
-    ...video,
-    pages: { lesson: '', quiz: (video.pages.quiz || '').slice(0, 200) + '…', answers: '' },
-  });
-  writeFileSync(INDEX_FILE, JSON.stringify(index, null, 2));
-}
-
 if (!existsSync(NOTES)) {
   console.error('Missing notes JSON:', NOTES);
   process.exit(1);
@@ -617,40 +774,37 @@ if (!existsSync(NOTES)) {
 
 const catalog = JSON.parse(readFileSync(NOTES, 'utf8'));
 console.log(
-  `Building STUDENT study pages for ${catalog.subject} (${catalog.topics.length} topics)` +
-    (LOCK_MODE ? `, LOCK on (freePages=${FREE_PAGES})` : ', all pages UNLOCKED'),
+  `Building STUDENT TEXTBOOK modules for ${catalog.subject} (${catalog.topics.length} topics)` +
+    (LOCK_MODE ? ` [LOCK free=${FREE_PAGES}]` : ' [all pages unlocked]'),
 );
 
 for (const topic of catalog.topics) {
   const studyPages = buildStudyPages(topic);
   const quizData = buildQuiz(topic, studyPages);
   const freeCount = LOCK_MODE ? FREE_PAGES : studyPages.length;
-
-  const lessonPreview = [
-    `LESSON: ${topic.topicName.toUpperCase()}`,
-    '',
-    `Grade 8 · INTEGRATED SCIENCE`,
-    `Strand: ${topic.strandName}`,
-    `Topic ${topic.topicNumber}: ${topic.topicName}`,
-    '',
-    `• Student study booklet (${studyPages.length} pages)`,
-    `• Style: Today’s idea → Learn → Worked example → Your turn`,
-    LOCK_MODE
-      ? `• Pages 1–${FREE_PAGES} free · later pages locked at publish`
-      : '• All pages unlocked for now',
-    '',
-    studyPages.map((p) => `Page ${p.pageNumber}: ${p.title}`).join('\n'),
-  ].join('\n');
-
   const slug = `${String(topic.topicNumber).replace(/\./g, '-')}-${topic.topicName
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-|-$/g, '')
     .slice(0, 60)}`;
 
-  const id = randomUUID();
+  const lessonList = studyPages.map((p) => `Page ${p.pageNumber}: ${p.title}`).join('\n');
+  const lessonPreview = [
+    `STUDENT MODULE: ${topic.topicName.toUpperCase()}`,
+    '',
+    'Grade 8 · Integrated Science',
+    `Strand: ${topic.strandName}`,
+    `Topic ${topic.topicNumber}: ${topic.topicName}`,
+    '',
+    `• ${studyPages.length}-page student textbook module`,
+    '• Page structure: Concept explanation → Worked example → Visual model → Application → Practice + Solutions',
+    LOCK_MODE ? `• Free preview: pages 1–${FREE_PAGES}` : '• All pages unlocked (pre-publish)',
+    '',
+    lessonList,
+  ].join('\n');
+
   const content = {
-    id,
+    id: randomUUID(),
     type: 'topic-lesson',
     title: `Topic ${topic.topicNumber}: ${topic.topicName}`,
     topic: {
@@ -678,8 +832,8 @@ for (const topic of catalog.topics) {
       reviewed: false,
       access: 'free',
       priceKes: 0,
-      questionCount: quizData.questions.length,
-      contentSource: 'g8-is-student-study-v3',
+      questionCount: quizData.questionCount,
+      contentSource: 'g8-is-student-textbook-v4',
       sourceChars: topic.chars,
       freePageCount: freeCount,
       totalStudyPages: studyPages.length,
@@ -697,25 +851,29 @@ for (const topic of catalog.topics) {
   };
 
   saveLesson(content);
-  saveVideo({
+
+  const videoScript = buildVideoScript(topic, studyPages);
+  saveLesson({
     id: randomUUID(),
     type: 'video-script',
     title: `Video: ${topic.topicName}`,
     topic: content.topic,
-    pages: { lesson: '', quiz: buildVideoScript(topic, studyPages), answers: '' },
+    pages: { lesson: '', quiz: videoScript, answers: '', studyPages: [] },
     metadata: {
       createdAt: new Date().toISOString(),
-      wordCount: 80,
+      wordCount: videoScript.split(/\s+/).length,
       reviewed: false,
       access: 'free',
       priceKes: 0,
-      contentSource: 'g8-is-student-study-v3',
+      contentSource: 'g8-is-student-textbook-v4',
       linkedLessonId: content.id,
     },
     sources: content.sources,
   });
 
-  console.log(`  ✓ ${topic.topicNumber} ${topic.topicName}: ${studyPages.length} student pages (unlocked=${!LOCK_MODE})`);
+  console.log(
+    `  ✓ ${topic.topicNumber} ${topic.topicName}: ${studyPages.length} pages · ~${content.metadata.wordCount} words`,
+  );
 }
 
-console.log('\nDone. Open /learn/grade-8/integrated-science');
+console.log('\nDone. Student textbook modules ready at /learn/grade-8/integrated-science');

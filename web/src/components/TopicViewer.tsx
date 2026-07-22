@@ -34,8 +34,10 @@ function renderRichText(text: string): ReactNode[] {
     const trimmed = line.trim();
     const imageMatch = line.match(/^\[\[image:([^\]|]+)\|?([^\]]*)\]\]$/);
     const isSection = /^(SECTION|SEHEMU|PAGE\s+\d+)([\s:]|$)/i.test(trimmed);
+    const isMdH3 = /^###\s+/.test(trimmed);
+    const isMdH2 = /^##\s+/.test(trimmed);
     const isSkill = /^▸\s+/.test(trimmed);
-    const isLessonTitle = /^LESSON:/i.test(trimmed);
+    const isLessonTitle = /^(LESSON:|STUDENT MODULE:)/i.test(trimmed);
     const isBlank = trimmed === '';
 
     if (imageMatch) {
@@ -76,6 +78,26 @@ function renderRichText(text: string): ReactNode[] {
         >
           {trimmed}
         </h3>,
+      );
+      return;
+    }
+
+    if (isMdH2) {
+      flush(`p-${i}`);
+      nodes.push(
+        <h3 key={`h2-${i}`} className="mt-8 mb-3 text-base font-bold text-kenya-black">
+          {trimmed.replace(/^##\s+/, '')}
+        </h3>,
+      );
+      return;
+    }
+
+    if (isMdH3) {
+      flush(`p-${i}`);
+      nodes.push(
+        <h4 key={`h3-${i}`} className="mt-7 mb-2 text-sm font-bold text-kenya-green">
+          {trimmed.replace(/^###\s+/, '')}
+        </h4>,
       );
       return;
     }
@@ -228,8 +250,8 @@ export function TopicViewer({
           </p>
           <p className="mt-1 text-sm text-gray-600">
             {allUnlocked
-              ? 'Scroll page by page through the full topic notes. Page locks will be added when the site is published.'
-              : `Scroll page by page. Pages 1–${freeCount} are free preview. Page ${freeCount + 1}+ unlocks with payment.`}
+              ? `${studyPages.length}-page student study module · all pages open`
+              : `Pages 1–${freeCount} free preview · page ${freeCount + 1}+ unlocks with payment`}
           </p>
         </div>
       ) : (

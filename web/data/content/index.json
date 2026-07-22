@@ -1,6 +1,6 @@
 [
   {
-    "id": "9e633023-8e5c-4df6-873a-e696235144ca",
+    "id": "c6879d91-d12b-4a49-ac4b-05484849e518",
     "type": "video-script",
     "title": "Video: Pressure",
     "topic": {
@@ -14,18 +14,19 @@
       "slug": "3-2-pressure"
     },
     "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: PRESSURE\nGrade 8 · Integrated Science · 15 student study pages\n\n[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.\n[0:25] Teach page 1: Meaning of p…",
-      "answers": ""
+      "lesson": "…",
+      "quiz": "VIDEO SCRIPT: PRESSURE\nGrade 8 Integrated Science · 12-page student module\n\n[0:00] Open on page 1 title: Meaning of Pressure\n[0:20] Read key concept paragraph; highlight definitions on screen\n[2:00] W…",
+      "answers": "",
+      "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:32.726Z",
-      "wordCount": 80,
+      "createdAt": "2026-07-22T22:39:11.271Z",
+      "wordCount": 70,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-study-v3",
-      "linkedLessonId": "e7b91026-1c05-4f49-8fee-2a3009e343c6"
+      "contentSource": "g8-is-student-textbook-v4",
+      "linkedLessonId": "629a1d70-2940-4501-b81a-0b1647257e85"
     },
     "sources": [
       {
@@ -37,7 +38,7 @@
     ]
   },
   {
-    "id": "e7b91026-1c05-4f49-8fee-2a3009e343c6",
+    "id": "629a1d70-2940-4501-b81a-0b1647257e85",
     "type": "topic-lesson",
     "title": "Topic 3.2: Pressure",
     "topic": {
@@ -51,114 +52,96 @@
       "slug": "3-2-pressure"
     },
     "pages": {
-      "lesson": "LESSON: PRESSURE\n\nGrade 8 · INTEGRATED SCIENCE\nStrand: Strand 3: Force and Energy\nTopic 3.2: Pressure\n\n• Student study booklet (15 pages)\n• Style: Today’s idea → Learn → Worked example → Your turn\n• All pages unlocked fo…",
+      "lesson": "STUDENT MODULE: PRESSURE\n\nGrade 8 · Integrated Science\nStrand: Strand 3: Force and Energy\nTopic 3.2: Pressure\n\n• 12-page student textbook module\n• Page structure: Concept explanation → Worked example → Visual model → Application → Practice …",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Meaning of pressure",
+          "title": "Meaning of Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Meaning of pressure",
+          "title": "Meaning of Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Pressure in liquids",
+          "title": "Pressure in Liquids",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "In mathematical terms, pressure can be expressed as",
+          "title": "Calculating Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 5,
-          "title": "In mathematical terms, pressure can be expressed as",
+          "title": "Calculating Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 6,
-          "title": "In mathematical terms, pressure can be expressed as",
+          "title": "Calculating Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 7,
-          "title": "In mathematical terms, pressure can be expressed as",
+          "title": "Calculating Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 8,
-          "title": "In mathematical terms, pressure can be expressed as",
+          "title": "Calculating Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 9,
-          "title": "Pressure in liquids",
+          "title": "=400 N",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 10,
-          "title": "Pressure in liquids",
+          "title": "Pressure in Liquids",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 11,
-          "title": "Pressure in liquids",
+          "title": "Therefore, we conclude that",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 12,
-          "title": "Pressure in liquids",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 13,
-          "title": "Applications of pressure in solids",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 14,
-          "title": "Applications of pressure in solids",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 15,
-          "title": "Application of pressure in liquids",
+          "title": "Therefore, we conclude that",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 15
+      "freePageCount": 12
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:32.527Z",
-      "wordCount": 3915,
+      "createdAt": "2026-07-22T22:39:11.079Z",
+      "wordCount": 7977,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "questionCount": 15,
-      "contentSource": "g8-is-student-study-v3",
+      "contentSource": "g8-is-student-textbook-v4",
       "sourceChars": 9467,
-      "freePageCount": 15,
-      "totalStudyPages": 15,
+      "freePageCount": 12,
+      "totalStudyPages": 12,
       "lockPages": false,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
@@ -174,7 +157,7 @@
     ]
   },
   {
-    "id": "f46b8dd0-4f77-4aff-b6d4-f1b82527a165",
+    "id": "9e203077-b3d7-48fc-9b8b-6ea6215f9fc4",
     "type": "video-script",
     "title": "Video: Transformation of Energy",
     "topic": {
@@ -188,18 +171,19 @@
       "slug": "3-1-transformation-of-energy"
     },
     "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: TRANSFORMATION OF ENERGY\nGrade 8 · Integrated Science · 15 student study pages\n\n[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.\n[0:25] Teach page…",
-      "answers": ""
+      "lesson": "…",
+      "quiz": "VIDEO SCRIPT: TRANSFORMATION OF ENERGY\nGrade 8 Integrated Science · 12-page student module\n\n[0:00] Open on page 1 title: Transformation of Energy\n[0:20] Read key concept paragraph; highlight definitio…",
+      "answers": "",
+      "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:32.343Z",
-      "wordCount": 80,
+      "createdAt": "2026-07-22T22:39:10.883Z",
+      "wordCount": 72,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-study-v3",
-      "linkedLessonId": "7f2e91e4-4d5b-4092-8113-233d06fb215d"
+      "contentSource": "g8-is-student-textbook-v4",
+      "linkedLessonId": "e03e0228-2e86-4965-8401-328f27ccb503"
     },
     "sources": [
       {
@@ -211,7 +195,7 @@
     ]
   },
   {
-    "id": "7f2e91e4-4d5b-4092-8113-233d06fb215d",
+    "id": "e03e0228-2e86-4965-8401-328f27ccb503",
     "type": "topic-lesson",
     "title": "Topic 3.1: Transformation of Energy",
     "topic": {
@@ -225,43 +209,43 @@
       "slug": "3-1-transformation-of-energy"
     },
     "pages": {
-      "lesson": "LESSON: TRANSFORMATION OF ENERGY\n\nGrade 8 · INTEGRATED SCIENCE\nStrand: Strand 3: Force and Energy\nTopic 3.1: Transformation of Energy\n\n• Student study booklet (15 pages)\n• Style: Today’s idea → Learn → Worked example → Y…",
+      "lesson": "STUDENT MODULE: TRANSFORMATION OF ENERGY\n\nGrade 8 · Integrated Science\nStrand: Strand 3: Force and Energy\nTopic 3.1: Transformation of Energy\n\n• 12-page student textbook module\n• Page structure: Concept explanation → Worked example → Visual…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "3.1 Transformation of energy",
+          "title": "Transformation of Energy",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Forms of energy in nature include",
+          "title": "Forms of Energy",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Forms of energy in nature include",
+          "title": "Forms of Energy",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Forms of energy in nature include",
+          "title": "Forms of Energy",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 5,
-          "title": "Forms of energy in nature include",
+          "title": "Forms of Energy",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 6,
-          "title": "Forms of energy in nature include",
+          "title": "Examples of objects that possess Kinetic energy (KE) include",
           "free": true,
           "body": ""
         },
@@ -279,60 +263,42 @@
         },
         {
           "pageNumber": 9,
-          "title": "Examples of objects that possess Kinetic energy (KE) include",
+          "title": "Safety with Energy Transformations",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 10,
-          "title": "Safety measures associated with energy transformation",
+          "title": "Safety with Energy Transformations",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 11,
-          "title": "Safety measures associated with energy transformation",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 12,
           "title": "These appliances include",
           "free": true,
           "body": ""
         },
         {
-          "pageNumber": 13,
+          "pageNumber": 12,
           "title": "To reduce electricity accidents the following should be done",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 14,
-          "title": "To reduce electricity accidents the following should be done",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 15,
-          "title": "To reduce loud sounds, we should do the following",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 15
+      "freePageCount": 12
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:32.147Z",
-      "wordCount": 3691,
+      "createdAt": "2026-07-22T22:39:10.674Z",
+      "wordCount": 7002,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "questionCount": 15,
-      "contentSource": "g8-is-student-study-v3",
+      "contentSource": "g8-is-student-textbook-v4",
       "sourceChars": 7955,
-      "freePageCount": 15,
-      "totalStudyPages": 15,
+      "freePageCount": 12,
+      "totalStudyPages": 12,
       "lockPages": false,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
@@ -348,7 +314,7 @@
     ]
   },
   {
-    "id": "ac431b1f-15a7-44db-9dc0-e0d13a271249",
+    "id": "a9137168-02a2-4234-9a23-112d7412747d",
     "type": "video-script",
     "title": "Video: Reproduction in human beings",
     "topic": {
@@ -362,18 +328,19 @@
       "slug": "2-3-reproduction-in-human-beings"
     },
     "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: REPRODUCTION IN HUMAN BEINGS\nGrade 8 · Integrated Science · 8 student study pages\n\n[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.\n[0:25] Teach p…",
-      "answers": ""
+      "lesson": "…",
+      "quiz": "VIDEO SCRIPT: REPRODUCTION IN HUMAN BEINGS\nGrade 8 Integrated Science · 7-page student module\n\n[0:00] Open on page 1 title: Human Reproduction\n[0:20] Read key concept paragraph; highlight definitions …",
+      "answers": "",
+      "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:31.971Z",
-      "wordCount": 80,
+      "createdAt": "2026-07-22T22:39:10.493Z",
+      "wordCount": 72,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-study-v3",
-      "linkedLessonId": "0085ced9-22e0-4af9-be07-65c2f66cd3b9"
+      "contentSource": "g8-is-student-textbook-v4",
+      "linkedLessonId": "6e3c9932-b4ce-405b-9822-dfd7f014eb31"
     },
     "sources": [
       {
@@ -385,7 +352,7 @@
     ]
   },
   {
-    "id": "0085ced9-22e0-4af9-be07-65c2f66cd3b9",
+    "id": "6e3c9932-b4ce-405b-9822-dfd7f014eb31",
     "type": "topic-lesson",
     "title": "Topic 2.3: Reproduction in human beings",
     "topic": {
@@ -399,72 +366,66 @@
       "slug": "2-3-reproduction-in-human-beings"
     },
     "pages": {
-      "lesson": "LESSON: REPRODUCTION IN HUMAN BEINGS\n\nGrade 8 · INTEGRATED SCIENCE\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.3: Reproduction in human beings\n\n• Student study booklet (8 pages)\n• Style: Today’s idea → …",
+      "lesson": "STUDENT MODULE: REPRODUCTION IN HUMAN BEINGS\n\nGrade 8 · Integrated Science\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.3: Reproduction in human beings\n\n• 7-page student textbook module\n• Page structure: Concept explanation…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "2.3 Reproduction in Human Beings",
+          "title": "Human Reproduction",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "2.3 Reproduction in Human Beings",
+          "title": "Human Reproduction",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "2.3 Reproduction in Human Beings",
+          "title": "Human Reproduction",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "2.3 Reproduction in Human Beings",
+          "title": "Human Reproduction",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 5,
-          "title": "2.3 Reproduction in Human Beings",
+          "title": "Human Reproduction",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 6,
-          "title": "2.3 Reproduction in Human Beings",
+          "title": "Human Reproduction",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 7,
-          "title": "2.3 Reproduction in Human Beings",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 8,
-          "title": "2.3 Reproduction in Human Beings",
+          "title": "Human Reproduction",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 8
+      "freePageCount": 7
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:31.768Z",
-      "wordCount": 2144,
+      "createdAt": "2026-07-22T22:39:10.297Z",
+      "wordCount": 3619,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "questionCount": 15,
-      "contentSource": "g8-is-student-study-v3",
+      "contentSource": "g8-is-student-textbook-v4",
       "sourceChars": 5135,
-      "freePageCount": 8,
-      "totalStudyPages": 8,
+      "freePageCount": 7,
+      "totalStudyPages": 7,
       "lockPages": false,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
@@ -480,7 +441,7 @@
     ]
   },
   {
-    "id": "3748fa74-1cf8-4efc-8a82-c3ded1e8ac3b",
+    "id": "ce17a48e-1122-4581-b2d4-aa1ff423c0dc",
     "type": "video-script",
     "title": "Video: Movement of Materials in and out of the cell",
     "topic": {
@@ -494,18 +455,19 @@
       "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
     },
     "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\nGrade 8 · Integrated Science · 18 student study pages\n\n[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your tur…",
-      "answers": ""
+      "lesson": "…",
+      "quiz": "VIDEO SCRIPT: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\nGrade 8 Integrated Science · 12-page student module\n\n[0:00] Open on page 1 title: Solutes, Solvents and Solutions\n[0:20] Read key concept par…",
+      "answers": "",
+      "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:31.592Z",
-      "wordCount": 80,
+      "createdAt": "2026-07-22T22:39:10.107Z",
+      "wordCount": 79,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-study-v3",
-      "linkedLessonId": "71f44a49-37aa-4608-8873-b8dc020be582"
+      "contentSource": "g8-is-student-textbook-v4",
+      "linkedLessonId": "aabe9027-829c-4511-9223-e4d935da1624"
     },
     "sources": [
       {
@@ -517,7 +479,7 @@
     ]
   },
   {
-    "id": "71f44a49-37aa-4608-8873-b8dc020be582",
+    "id": "aabe9027-829c-4511-9223-e4d935da1624",
     "type": "topic-lesson",
     "title": "Topic 2.2: Movement of Materials in and out of the cell",
     "topic": {
@@ -531,132 +493,96 @@
       "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
     },
     "pages": {
-      "lesson": "LESSON: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\n\nGrade 8 · INTEGRATED SCIENCE\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.2: Movement of Materials in and out of the cell\n\n• Student study booklet (1…",
+      "lesson": "STUDENT MODULE: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\n\nGrade 8 · Integrated Science\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.2: Movement of Materials in and out of the cell\n\n• 12-page student textbook module\n• Pa…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Solutes and solvent",
+          "title": "Solutes, Solvents and Solutions",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Concentration",
+          "title": "Concentrated and Dilute Solutions",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "DIFFUSION",
+          "title": "Diffusion",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "DIFFUSION",
+          "title": "Diffusion",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 5,
-          "title": "DIFFUSION",
+          "title": "Diffusion",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 6,
-          "title": "DIFFUSION",
+          "title": "Diffusion",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 7,
-          "title": "DIFFUSION",
+          "title": "Diffusion",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 8,
-          "title": "Osmosis experiment",
+          "title": "Osmosis Experiment",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 9,
-          "title": "Osmosis experiment",
+          "title": "Osmosis Experiment",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 10,
-          "title": "Osmosis experiment",
+          "title": "Osmosis Experiment",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 11,
-          "title": "The cell membrane",
+          "title": "The Cell Membrane and Osmosis",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 12,
-          "title": "The cell membrane",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 13,
-          "title": "The cell membrane",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 14,
-          "title": "The cell membrane",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 15,
-          "title": "The cell membrane",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 16,
-          "title": "Osmosis in plants",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 17,
-          "title": "Osmosis in animals",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 18,
-          "title": "Osmosis in animals",
+          "title": "The Cell Membrane and Osmosis",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 18
+      "freePageCount": 12
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:31.390Z",
-      "wordCount": 4072,
+      "createdAt": "2026-07-22T22:39:09.903Z",
+      "wordCount": 7581,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "questionCount": 15,
-      "contentSource": "g8-is-student-study-v3",
+      "contentSource": "g8-is-student-textbook-v4",
       "sourceChars": 9850,
-      "freePageCount": 18,
-      "totalStudyPages": 18,
+      "freePageCount": 12,
+      "totalStudyPages": 12,
       "lockPages": false,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
@@ -672,7 +598,7 @@
     ]
   },
   {
-    "id": "1cefc0b5-5608-4a9f-aca3-a51743e297ef",
+    "id": "bbb54290-28a0-45b4-8e2c-ca1ec9daf2aa",
     "type": "video-script",
     "title": "Video: The Cell",
     "topic": {
@@ -686,18 +612,19 @@
       "slug": "2-1-the-cell"
     },
     "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: THE CELL\nGrade 8 · Integrated Science · 9 student study pages\n\n[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.\n[0:25] Teach page 1: 2.1 The Cell\n…",
-      "answers": ""
+      "lesson": "…",
+      "quiz": "VIDEO SCRIPT: THE CELL\nGrade 8 Integrated Science · 9-page student module\n\n[0:00] Open on page 1 title: The Cell\n[0:20] Read key concept paragraph; highlight definitions on screen\n[2:00] Worked exampl…",
+      "answers": "",
+      "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:31.202Z",
-      "wordCount": 80,
+      "createdAt": "2026-07-22T22:39:09.709Z",
+      "wordCount": 70,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-study-v3",
-      "linkedLessonId": "d90e0bab-3b9a-49c8-a7ee-66a35c8147d9"
+      "contentSource": "g8-is-student-textbook-v4",
+      "linkedLessonId": "63a1ee17-b340-4e29-836c-37cd04c34d66"
     },
     "sources": [
       {
@@ -709,7 +636,7 @@
     ]
   },
   {
-    "id": "d90e0bab-3b9a-49c8-a7ee-66a35c8147d9",
+    "id": "63a1ee17-b340-4e29-836c-37cd04c34d66",
     "type": "topic-lesson",
     "title": "Topic 2.1: The Cell",
     "topic": {
@@ -723,19 +650,19 @@
       "slug": "2-1-the-cell"
     },
     "pages": {
-      "lesson": "LESSON: THE CELL\n\nGrade 8 · INTEGRATED SCIENCE\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.1: The Cell\n\n• Student study booklet (9 pages)\n• Style: Today’s idea → Learn → Worked example → Your turn\n• All…",
+      "lesson": "STUDENT MODULE: THE CELL\n\nGrade 8 · Integrated Science\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.1: The Cell\n\n• 9-page student textbook module\n• Page structure: Concept explanation → Worked example → Visual model → Appli…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "2.1 The Cell",
+          "title": "The Cell",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "2.1 The Cell",
+          "title": "The Cell",
           "free": true,
           "body": ""
         },
@@ -777,7 +704,7 @@
         },
         {
           "pageNumber": 9,
-          "title": "Calculating the Total magnification",
+          "title": "Magnification of Cells",
           "free": true,
           "body": ""
         }
@@ -785,13 +712,13 @@
       "freePageCount": 9
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:31.004Z",
-      "wordCount": 2035,
+      "createdAt": "2026-07-22T22:39:09.504Z",
+      "wordCount": 5264,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "questionCount": 15,
-      "contentSource": "g8-is-student-study-v3",
+      "contentSource": "g8-is-student-textbook-v4",
       "sourceChars": 4544,
       "freePageCount": 9,
       "totalStudyPages": 9,
@@ -810,7 +737,7 @@
     ]
   },
   {
-    "id": "12151c03-1f0e-46c7-b4ef-9d5a933ffd85",
+    "id": "28754de5-d2bf-4268-94b5-292a4c7c5406",
     "type": "video-script",
     "title": "Video: Classes of fire",
     "topic": {
@@ -824,18 +751,19 @@
       "slug": "1-3-classes-of-fire"
     },
     "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: CLASSES OF FIRE\nGrade 8 · Integrated Science · 8 student study pages\n\n[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.\n[0:25] Teach page 1: Classe…",
-      "answers": ""
+      "lesson": "…",
+      "quiz": "VIDEO SCRIPT: CLASSES OF FIRE\nGrade 8 Integrated Science · 7-page student module\n\n[0:00] Open on page 1 title: Classes of Fire\n[0:20] Read key concept paragraph; highlight definitions on screen\n[2:00]…",
+      "answers": "",
+      "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:30.814Z",
-      "wordCount": 80,
+      "createdAt": "2026-07-22T22:39:09.316Z",
+      "wordCount": 72,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-study-v3",
-      "linkedLessonId": "b8ec8747-f002-4ee6-8a8c-a146af5c918d"
+      "contentSource": "g8-is-student-textbook-v4",
+      "linkedLessonId": "df4c6352-eb16-4979-91e5-eec18b141e37"
     },
     "sources": [
       {
@@ -847,7 +775,7 @@
     ]
   },
   {
-    "id": "b8ec8747-f002-4ee6-8a8c-a146af5c918d",
+    "id": "df4c6352-eb16-4979-91e5-eec18b141e37",
     "type": "topic-lesson",
     "title": "Topic 1.3: Classes of fire",
     "topic": {
@@ -861,72 +789,66 @@
       "slug": "1-3-classes-of-fire"
     },
     "pages": {
-      "lesson": "LESSON: CLASSES OF FIRE\n\nGrade 8 · INTEGRATED SCIENCE\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.3: Classes of fire\n\n• Student study booklet (8 pages)\n• Style: Today’s idea → Learn → Worked example → Your…",
+      "lesson": "STUDENT MODULE: CLASSES OF FIRE\n\nGrade 8 · Integrated Science\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.3: Classes of fire\n\n• 7-page student textbook module\n• Page structure: Concept explanation → Worked example → Visual mo…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Classes of fire",
+          "title": "Classes of Fire",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Classes of fire",
+          "title": "Classes of Fire",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Classes of fire",
+          "title": "Classes of Fire",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Classes of fire",
+          "title": "Classes of Fire",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 5,
-          "title": "Classes of fire",
+          "title": "Classes of Fire",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 6,
-          "title": "Classes of fire",
+          "title": "Classes of Fire",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 7,
-          "title": "Classes of fire",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 8,
-          "title": "Classes of fire",
+          "title": "Classes of Fire",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 8
+      "freePageCount": 7
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:30.616Z",
-      "wordCount": 1858,
+      "createdAt": "2026-07-22T22:39:09.120Z",
+      "wordCount": 4422,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "questionCount": 15,
-      "contentSource": "g8-is-student-study-v3",
+      "contentSource": "g8-is-student-textbook-v4",
       "sourceChars": 4475,
-      "freePageCount": 8,
-      "totalStudyPages": 8,
+      "freePageCount": 7,
+      "totalStudyPages": 7,
       "lockPages": false,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
@@ -942,7 +864,7 @@
     ]
   },
   {
-    "id": "616a538d-7bdd-4807-bf43-d137331a5f2f",
+    "id": "82b49667-7d80-4db2-82d0-975fec187a90",
     "type": "video-script",
     "title": "Video: Physical and chemical changes",
     "topic": {
@@ -956,18 +878,19 @@
       "slug": "1-2-physical-and-chemical-changes"
     },
     "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: PHYSICAL AND CHEMICAL CHANGES\nGrade 8 · Integrated Science · 20 student study pages\n\n[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.\n[0:25] Teach…",
-      "answers": ""
+      "lesson": "…",
+      "quiz": "VIDEO SCRIPT: PHYSICAL AND CHEMICAL CHANGES\nGrade 8 Integrated Science · 12-page student module\n\n[0:00] Open on page 1 title: Chemical Changes\n[0:20] Read key concept paragraph; highlight definitions …",
+      "answers": "",
+      "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:30.425Z",
-      "wordCount": 80,
+      "createdAt": "2026-07-22T22:39:08.933Z",
+      "wordCount": 72,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-study-v3",
-      "linkedLessonId": "fc919191-70ef-4506-ab93-9a6a5df6360d"
+      "contentSource": "g8-is-student-textbook-v4",
+      "linkedLessonId": "2b868a3e-3c15-47fe-9824-81435af9a233"
     },
     "sources": [
       {
@@ -979,7 +902,7 @@
     ]
   },
   {
-    "id": "fc919191-70ef-4506-ab93-9a6a5df6360d",
+    "id": "2b868a3e-3c15-47fe-9824-81435af9a233",
     "type": "topic-lesson",
     "title": "Topic 1.2: Physical and chemical changes",
     "topic": {
@@ -993,144 +916,96 @@
       "slug": "1-2-physical-and-chemical-changes"
     },
     "pages": {
-      "lesson": "LESSON: PHYSICAL AND CHEMICAL CHANGES\n\nGrade 8 · INTEGRATED SCIENCE\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.2: Physical and chemical changes\n\n• Student study booklet (20 pages)\n• Style: Today’s idea → …",
+      "lesson": "STUDENT MODULE: PHYSICAL AND CHEMICAL CHANGES\n\nGrade 8 · Integrated Science\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.2: Physical and chemical changes\n\n• 12-page student textbook module\n• Page structure: Concept explanation…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "1.2 -Physical and Chemical changes",
+          "title": "Chemical Changes",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Properties of different states of matter",
+          "title": "Properties of Solids, Liquids and Gases",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Properties of different states of matter",
+          "title": "Properties of Solids, Liquids and Gases",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Properties of different states of matter",
+          "title": "Properties of Solids, Liquids and Gases",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 5,
-          "title": "Properties of different states of matter",
+          "title": "Properties of Solids, Liquids and Gases",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 6,
-          "title": "Properties of different states of matter",
+          "title": "Properties of Solids, Liquids and Gases",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 7,
-          "title": "Properties of different states of matter",
+          "title": "Properties of Solids, Liquids and Gases",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 8,
-          "title": "Summary of properties of different states of matter",
+          "title": "Properties of Solids, Liquids and Gases",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 9,
-          "title": "Pure and Impure substances",
+          "title": "Pure and Impure Substances",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 10,
-          "title": "Pure and Impure substances",
+          "title": "Pure and Impure Substances",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 11,
-          "title": "Pure and Impure substances",
+          "title": "Pure and Impure Substances",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 12,
-          "title": "Pure and Impure substances",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 13,
-          "title": "Pure and Impure substances",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 14,
-          "title": "Pure and Impure substances",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 15,
-          "title": "Physical changes are reversible",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 16,
-          "title": "Physical changes are reversible",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 17,
-          "title": "Physical changes are reversible",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 18,
-          "title": "Physical changes are reversible",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 19,
-          "title": "Chemical changes are important in life. Example of chemical changes include",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 20,
-          "title": "Chemical changes are important in life. Example of chemical changes include",
+          "title": "Pure and Impure Substances",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 20
+      "freePageCount": 12
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:30.214Z",
-      "wordCount": 4940,
+      "createdAt": "2026-07-22T22:39:08.723Z",
+      "wordCount": 8197,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "questionCount": 15,
-      "contentSource": "g8-is-student-study-v3",
+      "contentSource": "g8-is-student-textbook-v4",
       "sourceChars": 12644,
-      "freePageCount": 20,
-      "totalStudyPages": 20,
+      "freePageCount": 12,
+      "totalStudyPages": 12,
       "lockPages": false,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
@@ -1146,7 +1021,7 @@
     ]
   },
   {
-    "id": "7331e607-52dd-49c3-a4df-bb441d089d60",
+    "id": "7132c572-6fd6-4e34-8925-4bc2c9a46193",
     "type": "video-script",
     "title": "Video: Elements and Compounds",
     "topic": {
@@ -1160,18 +1035,19 @@
       "slug": "1-1-elements-and-compounds"
     },
     "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: ELEMENTS AND COMPOUNDS\nGrade 8 · Integrated Science · 11 student study pages\n\n[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.\n[0:25] Teach page 1…",
-      "answers": ""
+      "lesson": "…",
+      "quiz": "VIDEO SCRIPT: ELEMENTS AND COMPOUNDS\nGrade 8 Integrated Science · 11-page student module\n\n[0:00] Open on page 1 title: Atoms, Elements and Compounds\n[0:20] Read key concept paragraph; highlight defini…",
+      "answers": "",
+      "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:30.007Z",
-      "wordCount": 80,
+      "createdAt": "2026-07-22T22:39:08.491Z",
+      "wordCount": 73,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-study-v3",
-      "linkedLessonId": "9054ae3d-146b-4c68-8189-0dd87b63a38f"
+      "contentSource": "g8-is-student-textbook-v4",
+      "linkedLessonId": "aa4ea5f3-aea3-487b-b2df-6cbc508d8af7"
     },
     "sources": [
       {
@@ -1183,7 +1059,7 @@
     ]
   },
   {
-    "id": "9054ae3d-146b-4c68-8189-0dd87b63a38f",
+    "id": "aa4ea5f3-aea3-487b-b2df-6cbc508d8af7",
     "type": "topic-lesson",
     "title": "Topic 1.1: Elements and Compounds",
     "topic": {
@@ -1197,73 +1073,73 @@
       "slug": "1-1-elements-and-compounds"
     },
     "pages": {
-      "lesson": "LESSON: ELEMENTS AND COMPOUNDS\n\nGrade 8 · INTEGRATED SCIENCE\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.1: Elements and Compounds\n\n• Student study booklet (11 pages)\n• Style: Today’s idea → Learn → Worked…",
+      "lesson": "STUDENT MODULE: ELEMENTS AND COMPOUNDS\n\nGrade 8 · Integrated Science\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.1: Elements and Compounds\n\n• 11-page student textbook module\n• Page structure: Concept explanation → Worked exam…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Atoms, elements and compounds",
+          "title": "Atoms, Elements and Compounds",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Atoms, elements and compounds",
+          "title": "Atoms, Elements and Compounds",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Element symbols",
+          "title": "Chemical Symbols of Elements",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Element symbols",
+          "title": "Chemical Symbols of Elements",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 5,
-          "title": "Symbols from Latin names",
+          "title": "Symbols from Latin Names",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 6,
-          "title": "Elements in daily life",
+          "title": "Elements in Daily Life",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 7,
-          "title": "Elements in daily life",
+          "title": "Elements in Daily Life",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 8,
-          "title": "Mineral elements for plants",
+          "title": "Mineral Elements for Plants",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 9,
-          "title": "Gold",
+          "title": "Importance of Gold",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 10,
-          "title": "Gold",
+          "title": "Importance of Gold",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 11,
-          "title": "Elements on packaging labels",
+          "title": "Reading Packaging Labels",
           "free": true,
           "body": ""
         }
@@ -1271,13 +1147,13 @@
       "freePageCount": 11
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:22:29.775Z",
-      "wordCount": 2568,
+      "createdAt": "2026-07-22T22:39:08.217Z",
+      "wordCount": 6714,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "questionCount": 15,
-      "contentSource": "g8-is-student-study-v3",
+      "contentSource": "g8-is-student-textbook-v4",
       "sourceChars": 6570,
       "freePageCount": 11,
       "totalStudyPages": 11,
@@ -1294,6 +1170,222 @@
         "excerpt": "ELEMENTS AND COMPUNDS Meaning of Atoms, Elements, molecules and Compounds. Matter is anything that occupies space and has mass. Matter is composed of pure substances and mixtures."
       }
     ]
+  },
+  {
+    "id": "f1195f21-83cb-412a-b033-9e4d7de50f9e",
+    "type": "premium-exam",
+    "title": "Grade 8 INTEGRATED SCIENCE — Premium Revision Paper",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "GRADE 8 INTEGRATED SCIENCE — PREMIUM REVISION PAPER\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This is an advanced revision paper.\n2. Show working where needed.\n3. Answer all questions.…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T22:38:24.852Z",
+      "wordCount": 1454,
+      "reviewed": false,
+      "category": "premium",
+      "term": null,
+      "questionCount": 32,
+      "access": "paid",
+      "priceKes": 150,
+      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — PREMIUM REVISION PAPER\n\nUse this after completing the paper.\n\n1. A\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n2. A\n   assign symbols to selected elements,\n\n3. A\n   write word equations to represent reactions of selected elements to form compounds,\n\n4. Any two relevant local examples showing understanding of Elements and Compounds.\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n5. A\n   describe the characteristics of particles in the three states of matter,\n\n6. A\n   explain the effects of impurities on boiling point and melting point of a substance,\n\n7. A\n   distinguish between physical and chemical changes in substances,\n\n8. Any two relevant local examples showing understanding of Physical and chemical changes.\n   describe the characteristics of particles in the three states of matter,\n\n9. A\n   identify causes of fire in nature,\n\n10. A\n   explain the role of the components of fire triangle in the spread of fire,\n\n11. A\n   describe ways of controlling different classes of fires,\n\n12. Any two relevant local examples showing understanding of Classes of fire.\n   identify causes of fire in nature,\n\n13. A\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n14. A\n   describe the functions of components of cells seen under the light microscope,\n\n15. A\n   compare plant and animal cells as observed under a light microscope,\n\n16. Any two relevant local examples showing understanding of The Cell.\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n17. A\n   outline the process of diffusion and osmosis in cells,\n\n18. A\n   demonstrate diffusion and osmosis in living things,\n\n19. A\n   explain the role of diffusion and osmosis in living things,\n\n20. Any two relevant local examples showing understanding of Movement of Materials in and out of the cell.\n   outline the process of diffusion and osmosis in cells,\n\n21. A\n   outline the menstrual cycle and its related challenges in human beings,\n\n22. A\n   develop a plan to manage challenges related to menstrual cycle in human beings,\n\n23. A\n   describe fertilisation and implantation in human beings,\n\n24. Any two relevant local examples showing understanding of Reproduction in human beings.\n   outline the menstrual cycle and its related challenges in human beings,\n\n25. A\n   identify forms of energy in nature,\n\n26. A\n   classify energy sources into renewable or non- renewable,\n\n27. A\n   demonstrate simple energy transformations in nature,\n\n28. Any two relevant local examples showing understanding of Transformation of Energy.\n   identify forms of energy in nature,\n\n29. A\n   demonstrate pressure in solids and liquids,\n\n30. A\n   identify applications of pressure in solids and liquids,\n\n31. A\n   demonstrate pressure in solids and liquids,\n\n32. Any two relevant local examples showing understanding of Pressure.\n   demonstrate pressure in solids and liquids,\n",
+      "contentSource": "original-from-kicd-design"
+    },
+    "sources": [
+      {
+        "id": "kicd-design",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
+      }
+    ],
+    "body": "GRADE 8 INTEGRATED SCIENCE — PREMIUM REVISION PAPER\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This is an advanced revision paper.\n2. Show working where needed.\n3. Answer all questions.…"
+  },
+  {
+    "id": "b0b1f310-5323-4d11-bcf2-1f4242124d6c",
+    "type": "mock-exam",
+    "title": "Grade 8 INTEGRATED SCIENCE — Mock Exam",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "GRADE 8 INTEGRATED SCIENCE — MOCK EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This mock paper follows CBC assessment style.\n2. Answer all questions.\n3. Manage your time carefully.\n2…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T22:38:24.641Z",
+      "wordCount": 1454,
+      "reviewed": false,
+      "category": "mock",
+      "term": null,
+      "questionCount": 32,
+      "access": "paid",
+      "priceKes": 100,
+      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — MOCK EXAM\n\nUse this after completing the paper.\n\n1. A\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n2. A\n   assign symbols to selected elements,\n\n3. A\n   write word equations to represent reactions of selected elements to form compounds,\n\n4. Any two relevant local examples showing understanding of Elements and Compounds.\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n5. A\n   describe the characteristics of particles in the three states of matter,\n\n6. A\n   explain the effects of impurities on boiling point and melting point of a substance,\n\n7. A\n   distinguish between physical and chemical changes in substances,\n\n8. Any two relevant local examples showing understanding of Physical and chemical changes.\n   describe the characteristics of particles in the three states of matter,\n\n9. A\n   identify causes of fire in nature,\n\n10. A\n   explain the role of the components of fire triangle in the spread of fire,\n\n11. A\n   describe ways of controlling different classes of fires,\n\n12. Any two relevant local examples showing understanding of Classes of fire.\n   identify causes of fire in nature,\n\n13. A\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n14. A\n   describe the functions of components of cells seen under the light microscope,\n\n15. A\n   compare plant and animal cells as observed under a light microscope,\n\n16. Any two relevant local examples showing understanding of The Cell.\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n17. A\n   outline the process of diffusion and osmosis in cells,\n\n18. A\n   demonstrate diffusion and osmosis in living things,\n\n19. A\n   explain the role of diffusion and osmosis in living things,\n\n20. Any two relevant local examples showing understanding of Movement of Materials in and out of the cell.\n   outline the process of diffusion and osmosis in cells,\n\n21. A\n   outline the menstrual cycle and its related challenges in human beings,\n\n22. A\n   develop a plan to manage challenges related to menstrual cycle in human beings,\n\n23. A\n   describe fertilisation and implantation in human beings,\n\n24. Any two relevant local examples showing understanding of Reproduction in human beings.\n   outline the menstrual cycle and its related challenges in human beings,\n\n25. A\n   identify forms of energy in nature,\n\n26. A\n   classify energy sources into renewable or non- renewable,\n\n27. A\n   demonstrate simple energy transformations in nature,\n\n28. Any two relevant local examples showing understanding of Transformation of Energy.\n   identify forms of energy in nature,\n\n29. A\n   demonstrate pressure in solids and liquids,\n\n30. A\n   identify applications of pressure in solids and liquids,\n\n31. A\n   demonstrate pressure in solids and liquids,\n\n32. Any two relevant local examples showing understanding of Pressure.\n   demonstrate pressure in solids and liquids,\n",
+      "contentSource": "original-from-kicd-design"
+    },
+    "sources": [
+      {
+        "id": "kicd-design",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
+      }
+    ],
+    "body": "GRADE 8 INTEGRATED SCIENCE — MOCK EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This mock paper follows CBC assessment style.\n2. Answer all questions.\n3. Manage your time carefully.\n2…"
+  },
+  {
+    "id": "84be7f2d-e7a4-48cc-9c7f-02c6b5323e57",
+    "type": "termly-exam",
+    "title": "Grade 8 INTEGRATED SCIENCE — Term 3 Exam",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "GRADE 8 INTEGRATED SCIENCE — TERM 3 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T22:38:24.450Z",
+      "wordCount": 476,
+      "reviewed": false,
+      "category": "termly",
+      "term": 3,
+      "questionCount": 12,
+      "access": "free",
+      "priceKes": 50,
+      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — TERM 3 EXAM\n\nUse this after completing the paper.\n\n1. A\n   identify forms of energy in nature,\n\n2. A\n   classify energy sources into renewable or non- renewable,\n\n3. A\n   demonstrate simple energy transformations in nature,\n\n4. Any two relevant local examples showing understanding of Transformation of Energy.\n   identify forms of energy in nature,\n\n5. A\n   demonstrate pressure in solids and liquids,\n\n6. A\n   identify applications of pressure in solids and liquids,\n\n7. A\n   demonstrate pressure in solids and liquids,\n\n8. Any two relevant local examples showing understanding of Pressure.\n   demonstrate pressure in solids and liquids,\n\n9. A\n   Good revision uses notes, practice, and checking.\n\n10. A\n   Good revision uses notes, practice, and checking.\n\n11. A\n   Good revision uses notes, practice, and checking.\n\n12. A\n   Good revision uses notes, practice, and checking.\n",
+      "contentSource": "original-from-kicd-design"
+    },
+    "sources": [
+      {
+        "id": "kicd-design",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
+      }
+    ],
+    "body": "GRADE 8 INTEGRATED SCIENCE — TERM 3 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
+  },
+  {
+    "id": "285b8dd0-24d6-4459-996d-9e8aa9337382",
+    "type": "termly-exam",
+    "title": "Grade 8 INTEGRATED SCIENCE — Term 2 Exam",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "GRADE 8 INTEGRATED SCIENCE — TERM 2 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T22:38:24.246Z",
+      "wordCount": 643,
+      "reviewed": false,
+      "category": "termly",
+      "term": 2,
+      "questionCount": 12,
+      "access": "free",
+      "priceKes": 50,
+      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — TERM 2 EXAM\n\nUse this after completing the paper.\n\n1. A\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n2. A\n   describe the functions of components of cells seen under the light microscope,\n\n3. A\n   compare plant and animal cells as observed under a light microscope,\n\n4. Any two relevant local examples showing understanding of The Cell.\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n5. A\n   outline the process of diffusion and osmosis in cells,\n\n6. A\n   demonstrate diffusion and osmosis in living things,\n\n7. A\n   explain the role of diffusion and osmosis in living things,\n\n8. Any two relevant local examples showing understanding of Movement of Materials in and out of the cell.\n   outline the process of diffusion and osmosis in cells,\n\n9. A\n   outline the menstrual cycle and its related challenges in human beings,\n\n10. A\n   develop a plan to manage challenges related to menstrual cycle in human beings,\n\n11. A\n   describe fertilisation and implantation in human beings,\n\n12. Any two relevant local examples showing understanding of Reproduction in human beings.\n   outline the menstrual cycle and its related challenges in human beings,\n",
+      "contentSource": "original-from-kicd-design"
+    },
+    "sources": [
+      {
+        "id": "kicd-design",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
+      }
+    ],
+    "body": "GRADE 8 INTEGRATED SCIENCE — TERM 2 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
+  },
+  {
+    "id": "b7e850a7-4deb-48a3-ae54-80dc8569ed3c",
+    "type": "termly-exam",
+    "title": "Grade 8 INTEGRATED SCIENCE — Term 1 Exam",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "GRADE 8 INTEGRATED SCIENCE — TERM 1 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T22:38:24.053Z",
+      "wordCount": 575,
+      "reviewed": false,
+      "category": "termly",
+      "term": 1,
+      "questionCount": 12,
+      "access": "free",
+      "priceKes": 50,
+      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — TERM 1 EXAM\n\nUse this after completing the paper.\n\n1. A\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n2. A\n   assign symbols to selected elements,\n\n3. A\n   write word equations to represent reactions of selected elements to form compounds,\n\n4. Any two relevant local examples showing understanding of Elements and Compounds.\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n5. A\n   describe the characteristics of particles in the three states of matter,\n\n6. A\n   explain the effects of impurities on boiling point and melting point of a substance,\n\n7. A\n   distinguish between physical and chemical changes in substances,\n\n8. Any two relevant local examples showing understanding of Physical and chemical changes.\n   describe the characteristics of particles in the three states of matter,\n\n9. A\n   identify causes of fire in nature,\n\n10. A\n   explain the role of the components of fire triangle in the spread of fire,\n\n11. A\n   describe ways of controlling different classes of fires,\n\n12. Any two relevant local examples showing understanding of Classes of fire.\n   identify causes of fire in nature,\n",
+      "contentSource": "original-from-kicd-design"
+    },
+    "sources": [
+      {
+        "id": "kicd-design",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
+      }
+    ],
+    "body": "GRADE 8 INTEGRATED SCIENCE — TERM 1 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
+  },
+  {
+    "id": "fc80f676-d7c5-4976-9651-cc0212102fca",
+    "type": "exam",
+    "title": "Grade 8 INTEGRATED SCIENCE — General Assessment",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "GRADE 8 INTEGRATED SCIENCE — GENERAL ASSESSMENT\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct lette…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T22:38:23.809Z",
+      "wordCount": 1445,
+      "reviewed": false,
+      "category": "general",
+      "term": null,
+      "questionCount": 32,
+      "access": "free",
+      "priceKes": 0,
+      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — GENERAL ASSESSMENT\n\nUse this after completing the paper.\n\n1. A\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n2. A\n   assign symbols to selected elements,\n\n3. A\n   write word equations to represent reactions of selected elements to form compounds,\n\n4. Any two relevant local examples showing understanding of Elements and Compounds.\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n5. A\n   describe the characteristics of particles in the three states of matter,\n\n6. A\n   explain the effects of impurities on boiling point and melting point of a substance,\n\n7. A\n   distinguish between physical and chemical changes in substances,\n\n8. Any two relevant local examples showing understanding of Physical and chemical changes.\n   describe the characteristics of particles in the three states of matter,\n\n9. A\n   identify causes of fire in nature,\n\n10. A\n   explain the role of the components of fire triangle in the spread of fire,\n\n11. A\n   describe ways of controlling different classes of fires,\n\n12. Any two relevant local examples showing understanding of Classes of fire.\n   identify causes of fire in nature,\n\n13. A\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n14. A\n   describe the functions of components of cells seen under the light microscope,\n\n15. A\n   compare plant and animal cells as observed under a light microscope,\n\n16. Any two relevant local examples showing understanding of The Cell.\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n17. A\n   outline the process of diffusion and osmosis in cells,\n\n18. A\n   demonstrate diffusion and osmosis in living things,\n\n19. A\n   explain the role of diffusion and osmosis in living things,\n\n20. Any two relevant local examples showing understanding of Movement of Materials in and out of the cell.\n   outline the process of diffusion and osmosis in cells,\n\n21. A\n   outline the menstrual cycle and its related challenges in human beings,\n\n22. A\n   develop a plan to manage challenges related to menstrual cycle in human beings,\n\n23. A\n   describe fertilisation and implantation in human beings,\n\n24. Any two relevant local examples showing understanding of Reproduction in human beings.\n   outline the menstrual cycle and its related challenges in human beings,\n\n25. A\n   identify forms of energy in nature,\n\n26. A\n   classify energy sources into renewable or non- renewable,\n\n27. A\n   demonstrate simple energy transformations in nature,\n\n28. Any two relevant local examples showing understanding of Transformation of Energy.\n   identify forms of energy in nature,\n\n29. A\n   demonstrate pressure in solids and liquids,\n\n30. A\n   identify applications of pressure in solids and liquids,\n\n31. A\n   demonstrate pressure in solids and liquids,\n\n32. Any two relevant local examples showing understanding of Pressure.\n   demonstrate pressure in solids and liquids,\n",
+      "contentSource": "original-from-kicd-design"
+    },
+    "sources": [
+      {
+        "id": "kicd-design",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
+      }
+    ],
+    "body": "GRADE 8 INTEGRATED SCIENCE — GENERAL ASSESSMENT\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct lette…"
   },
   {
     "id": "a7f15e46-3763-4a16-83f5-937b0d667c71",
@@ -366390,222 +366482,6 @@
       }
     ],
     "body": "GRADE 8 MATHEMATICS — GENERAL ASSESSMENT\n\nGrade: Grade 8\nSubject: MATHEMATICS\nTime: 64 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.\n3. For…"
-  },
-  {
-    "id": "24db3f20-39f5-4d97-899f-441f2b8eccab",
-    "type": "premium-exam",
-    "title": "Grade 8 INTEGRATED SCIENCE — Premium Revision Paper",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "GRADE 8 INTEGRATED SCIENCE — PREMIUM REVISION PAPER\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This is an advanced revision paper.\n2. Show working where needed.\n3. Answer all questions.…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T17:32:49.864Z",
-      "wordCount": 1454,
-      "reviewed": false,
-      "category": "premium",
-      "term": null,
-      "questionCount": 32,
-      "access": "paid",
-      "priceKes": 150,
-      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — PREMIUM REVISION PAPER\n\nUse this after completing the paper.\n\n1. A\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n2. A\n   assign symbols to selected elements,\n\n3. A\n   write word equations to represent reactions of selected elements to form compounds,\n\n4. Any two relevant local examples showing understanding of Elements and Compounds.\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n5. A\n   describe the characteristics of particles in the three states of matter,\n\n6. A\n   explain the effects of impurities on boiling point and melting point of a substance,\n\n7. A\n   distinguish between physical and chemical changes in substances,\n\n8. Any two relevant local examples showing understanding of Physical and chemical changes.\n   describe the characteristics of particles in the three states of matter,\n\n9. A\n   identify causes of fire in nature,\n\n10. A\n   explain the role of the components of fire triangle in the spread of fire,\n\n11. A\n   describe ways of controlling different classes of fires,\n\n12. Any two relevant local examples showing understanding of Classes of fire.\n   identify causes of fire in nature,\n\n13. A\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n14. A\n   describe the functions of components of cells seen under the light microscope,\n\n15. A\n   compare plant and animal cells as observed under a light microscope,\n\n16. Any two relevant local examples showing understanding of The Cell.\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n17. A\n   outline the process of diffusion and osmosis in cells,\n\n18. A\n   demonstrate diffusion and osmosis in living things,\n\n19. A\n   explain the role of diffusion and osmosis in living things,\n\n20. Any two relevant local examples showing understanding of Movement of Materials in and out of the cell.\n   outline the process of diffusion and osmosis in cells,\n\n21. A\n   outline the menstrual cycle and its related challenges in human beings,\n\n22. A\n   develop a plan to manage challenges related to menstrual cycle in human beings,\n\n23. A\n   describe fertilisation and implantation in human beings,\n\n24. Any two relevant local examples showing understanding of Reproduction in human beings.\n   outline the menstrual cycle and its related challenges in human beings,\n\n25. A\n   identify forms of energy in nature,\n\n26. A\n   classify energy sources into renewable or non- renewable,\n\n27. A\n   demonstrate simple energy transformations in nature,\n\n28. Any two relevant local examples showing understanding of Transformation of Energy.\n   identify forms of energy in nature,\n\n29. A\n   demonstrate pressure in solids and liquids,\n\n30. A\n   identify applications of pressure in solids and liquids,\n\n31. A\n   demonstrate pressure in solids and liquids,\n\n32. Any two relevant local examples showing understanding of Pressure.\n   demonstrate pressure in solids and liquids,\n",
-      "contentSource": "original-from-kicd-design"
-    },
-    "sources": [
-      {
-        "id": "kicd-design",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
-      }
-    ],
-    "body": "GRADE 8 INTEGRATED SCIENCE — PREMIUM REVISION PAPER\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This is an advanced revision paper.\n2. Show working where needed.\n3. Answer all questions.…"
-  },
-  {
-    "id": "2741c9c8-d8c3-416a-89cd-c46bc67b371c",
-    "type": "mock-exam",
-    "title": "Grade 8 INTEGRATED SCIENCE — Mock Exam",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "GRADE 8 INTEGRATED SCIENCE — MOCK EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This mock paper follows CBC assessment style.\n2. Answer all questions.\n3. Manage your time carefully.\n2…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T17:32:49.744Z",
-      "wordCount": 1454,
-      "reviewed": false,
-      "category": "mock",
-      "term": null,
-      "questionCount": 32,
-      "access": "paid",
-      "priceKes": 100,
-      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — MOCK EXAM\n\nUse this after completing the paper.\n\n1. A\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n2. A\n   assign symbols to selected elements,\n\n3. A\n   write word equations to represent reactions of selected elements to form compounds,\n\n4. Any two relevant local examples showing understanding of Elements and Compounds.\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n5. A\n   describe the characteristics of particles in the three states of matter,\n\n6. A\n   explain the effects of impurities on boiling point and melting point of a substance,\n\n7. A\n   distinguish between physical and chemical changes in substances,\n\n8. Any two relevant local examples showing understanding of Physical and chemical changes.\n   describe the characteristics of particles in the three states of matter,\n\n9. A\n   identify causes of fire in nature,\n\n10. A\n   explain the role of the components of fire triangle in the spread of fire,\n\n11. A\n   describe ways of controlling different classes of fires,\n\n12. Any two relevant local examples showing understanding of Classes of fire.\n   identify causes of fire in nature,\n\n13. A\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n14. A\n   describe the functions of components of cells seen under the light microscope,\n\n15. A\n   compare plant and animal cells as observed under a light microscope,\n\n16. Any two relevant local examples showing understanding of The Cell.\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n17. A\n   outline the process of diffusion and osmosis in cells,\n\n18. A\n   demonstrate diffusion and osmosis in living things,\n\n19. A\n   explain the role of diffusion and osmosis in living things,\n\n20. Any two relevant local examples showing understanding of Movement of Materials in and out of the cell.\n   outline the process of diffusion and osmosis in cells,\n\n21. A\n   outline the menstrual cycle and its related challenges in human beings,\n\n22. A\n   develop a plan to manage challenges related to menstrual cycle in human beings,\n\n23. A\n   describe fertilisation and implantation in human beings,\n\n24. Any two relevant local examples showing understanding of Reproduction in human beings.\n   outline the menstrual cycle and its related challenges in human beings,\n\n25. A\n   identify forms of energy in nature,\n\n26. A\n   classify energy sources into renewable or non- renewable,\n\n27. A\n   demonstrate simple energy transformations in nature,\n\n28. Any two relevant local examples showing understanding of Transformation of Energy.\n   identify forms of energy in nature,\n\n29. A\n   demonstrate pressure in solids and liquids,\n\n30. A\n   identify applications of pressure in solids and liquids,\n\n31. A\n   demonstrate pressure in solids and liquids,\n\n32. Any two relevant local examples showing understanding of Pressure.\n   demonstrate pressure in solids and liquids,\n",
-      "contentSource": "original-from-kicd-design"
-    },
-    "sources": [
-      {
-        "id": "kicd-design",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
-      }
-    ],
-    "body": "GRADE 8 INTEGRATED SCIENCE — MOCK EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This mock paper follows CBC assessment style.\n2. Answer all questions.\n3. Manage your time carefully.\n2…"
-  },
-  {
-    "id": "4eb32c2b-eacb-4d2a-ae93-17e5ab4e73f1",
-    "type": "termly-exam",
-    "title": "Grade 8 INTEGRATED SCIENCE — Term 3 Exam",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "GRADE 8 INTEGRATED SCIENCE — TERM 3 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T17:32:49.615Z",
-      "wordCount": 476,
-      "reviewed": false,
-      "category": "termly",
-      "term": 3,
-      "questionCount": 12,
-      "access": "free",
-      "priceKes": 50,
-      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — TERM 3 EXAM\n\nUse this after completing the paper.\n\n1. A\n   identify forms of energy in nature,\n\n2. A\n   classify energy sources into renewable or non- renewable,\n\n3. A\n   demonstrate simple energy transformations in nature,\n\n4. Any two relevant local examples showing understanding of Transformation of Energy.\n   identify forms of energy in nature,\n\n5. A\n   demonstrate pressure in solids and liquids,\n\n6. A\n   identify applications of pressure in solids and liquids,\n\n7. A\n   demonstrate pressure in solids and liquids,\n\n8. Any two relevant local examples showing understanding of Pressure.\n   demonstrate pressure in solids and liquids,\n\n9. A\n   Good revision uses notes, practice, and checking.\n\n10. A\n   Good revision uses notes, practice, and checking.\n\n11. A\n   Good revision uses notes, practice, and checking.\n\n12. A\n   Good revision uses notes, practice, and checking.\n",
-      "contentSource": "original-from-kicd-design"
-    },
-    "sources": [
-      {
-        "id": "kicd-design",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
-      }
-    ],
-    "body": "GRADE 8 INTEGRATED SCIENCE — TERM 3 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
-  },
-  {
-    "id": "446d3199-9320-419c-821d-ceca391f6ce7",
-    "type": "termly-exam",
-    "title": "Grade 8 INTEGRATED SCIENCE — Term 2 Exam",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "GRADE 8 INTEGRATED SCIENCE — TERM 2 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T17:32:49.475Z",
-      "wordCount": 643,
-      "reviewed": false,
-      "category": "termly",
-      "term": 2,
-      "questionCount": 12,
-      "access": "free",
-      "priceKes": 50,
-      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — TERM 2 EXAM\n\nUse this after completing the paper.\n\n1. A\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n2. A\n   describe the functions of components of cells seen under the light microscope,\n\n3. A\n   compare plant and animal cells as observed under a light microscope,\n\n4. Any two relevant local examples showing understanding of The Cell.\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n5. A\n   outline the process of diffusion and osmosis in cells,\n\n6. A\n   demonstrate diffusion and osmosis in living things,\n\n7. A\n   explain the role of diffusion and osmosis in living things,\n\n8. Any two relevant local examples showing understanding of Movement of Materials in and out of the cell.\n   outline the process of diffusion and osmosis in cells,\n\n9. A\n   outline the menstrual cycle and its related challenges in human beings,\n\n10. A\n   develop a plan to manage challenges related to menstrual cycle in human beings,\n\n11. A\n   describe fertilisation and implantation in human beings,\n\n12. Any two relevant local examples showing understanding of Reproduction in human beings.\n   outline the menstrual cycle and its related challenges in human beings,\n",
-      "contentSource": "original-from-kicd-design"
-    },
-    "sources": [
-      {
-        "id": "kicd-design",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
-      }
-    ],
-    "body": "GRADE 8 INTEGRATED SCIENCE — TERM 2 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
-  },
-  {
-    "id": "a43d72d5-745a-4446-bac2-2c689923b032",
-    "type": "termly-exam",
-    "title": "Grade 8 INTEGRATED SCIENCE — Term 1 Exam",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "GRADE 8 INTEGRATED SCIENCE — TERM 1 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T17:32:49.341Z",
-      "wordCount": 575,
-      "reviewed": false,
-      "category": "termly",
-      "term": 1,
-      "questionCount": 12,
-      "access": "free",
-      "priceKes": 50,
-      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — TERM 1 EXAM\n\nUse this after completing the paper.\n\n1. A\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n2. A\n   assign symbols to selected elements,\n\n3. A\n   write word equations to represent reactions of selected elements to form compounds,\n\n4. Any two relevant local examples showing understanding of Elements and Compounds.\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n5. A\n   describe the characteristics of particles in the three states of matter,\n\n6. A\n   explain the effects of impurities on boiling point and melting point of a substance,\n\n7. A\n   distinguish between physical and chemical changes in substances,\n\n8. Any two relevant local examples showing understanding of Physical and chemical changes.\n   describe the characteristics of particles in the three states of matter,\n\n9. A\n   identify causes of fire in nature,\n\n10. A\n   explain the role of the components of fire triangle in the spread of fire,\n\n11. A\n   describe ways of controlling different classes of fires,\n\n12. Any two relevant local examples showing understanding of Classes of fire.\n   identify causes of fire in nature,\n",
-      "contentSource": "original-from-kicd-design"
-    },
-    "sources": [
-      {
-        "id": "kicd-design",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
-      }
-    ],
-    "body": "GRADE 8 INTEGRATED SCIENCE — TERM 1 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
-  },
-  {
-    "id": "7a1f6d93-4b3b-4d7b-8cb4-b4b3bb54b3b9",
-    "type": "exam",
-    "title": "Grade 8 INTEGRATED SCIENCE — General Assessment",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "GRADE 8 INTEGRATED SCIENCE — GENERAL ASSESSMENT\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct lette…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T17:32:49.212Z",
-      "wordCount": 1445,
-      "reviewed": false,
-      "category": "general",
-      "term": null,
-      "questionCount": 32,
-      "access": "free",
-      "priceKes": 0,
-      "markingScheme": "MARKING SCHEME — GRADE 8 INTEGRATED SCIENCE — GENERAL ASSESSMENT\n\nUse this after completing the paper.\n\n1. A\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n2. A\n   assign symbols to selected elements,\n\n3. A\n   write word equations to represent reactions of selected elements to form compounds,\n\n4. Any two relevant local examples showing understanding of Elements and Compounds.\n   explain the relationship between an atom, an element, a molecule and a compound,\n\n5. A\n   describe the characteristics of particles in the three states of matter,\n\n6. A\n   explain the effects of impurities on boiling point and melting point of a substance,\n\n7. A\n   distinguish between physical and chemical changes in substances,\n\n8. Any two relevant local examples showing understanding of Physical and chemical changes.\n   describe the characteristics of particles in the three states of matter,\n\n9. A\n   identify causes of fire in nature,\n\n10. A\n   explain the role of the components of fire triangle in the spread of fire,\n\n11. A\n   describe ways of controlling different classes of fires,\n\n12. Any two relevant local examples showing understanding of Classes of fire.\n   identify causes of fire in nature,\n\n13. A\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n14. A\n   describe the functions of components of cells seen under the light microscope,\n\n15. A\n   compare plant and animal cells as observed under a light microscope,\n\n16. Any two relevant local examples showing understanding of The Cell.\n   describe the structure of plant and animal cells as observed under a light microscope,\n\n17. A\n   outline the process of diffusion and osmosis in cells,\n\n18. A\n   demonstrate diffusion and osmosis in living things,\n\n19. A\n   explain the role of diffusion and osmosis in living things,\n\n20. Any two relevant local examples showing understanding of Movement of Materials in and out of the cell.\n   outline the process of diffusion and osmosis in cells,\n\n21. A\n   outline the menstrual cycle and its related challenges in human beings,\n\n22. A\n   develop a plan to manage challenges related to menstrual cycle in human beings,\n\n23. A\n   describe fertilisation and implantation in human beings,\n\n24. Any two relevant local examples showing understanding of Reproduction in human beings.\n   outline the menstrual cycle and its related challenges in human beings,\n\n25. A\n   identify forms of energy in nature,\n\n26. A\n   classify energy sources into renewable or non- renewable,\n\n27. A\n   demonstrate simple energy transformations in nature,\n\n28. Any two relevant local examples showing understanding of Transformation of Energy.\n   identify forms of energy in nature,\n\n29. A\n   demonstrate pressure in solids and liquids,\n\n30. A\n   identify applications of pressure in solids and liquids,\n\n31. A\n   demonstrate pressure in solids and liquids,\n\n32. Any two relevant local examples showing understanding of Pressure.\n   demonstrate pressure in solids and liquids,\n",
-      "contentSource": "original-from-kicd-design"
-    },
-    "sources": [
-      {
-        "id": "kicd-design",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "Original assessment generated from KICD curriculum design topics/outcomes."
-      }
-    ],
-    "body": "GRADE 8 INTEGRATED SCIENCE — GENERAL ASSESSMENT\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct lette…"
   },
   {
     "id": "9a3bedf0-9b4c-4096-855a-aeaa9d8da6ef",
