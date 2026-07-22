@@ -164,11 +164,16 @@ export function getTopics(grade: string, subject: string) {
   // Must filter by subject — topic numbers like 1.4 repeat across subjects.
   const generated = listContent({ grade, subject: s.subject, type: 'topic-lesson' });
   return s.topics.map((t) => {
-    const content = generated.find(
+    const matches = generated.filter(
       (c) =>
         sameSubject(c.topic.subject, s.subject) &&
         (c.topic.topicNumber === t.topicNumber || c.topic.subStrand === t.topicName || c.topic.slug === t.slug),
     );
+    // Prefer newest student multipage notes over older classroom templates.
+    const content =
+      matches.find((c) => String(c.metadata?.contentSource || '').includes('g8-is-student')) ||
+      matches.find((c) => String(c.metadata?.contentSource || '').includes('multipage')) ||
+      matches.sort((a, b) => String(b.metadata?.createdAt || '').localeCompare(String(a.metadata?.createdAt || '')))[0];
     return { ...t, contentId: content?.id, hasLesson: Boolean(content) };
   });
 }

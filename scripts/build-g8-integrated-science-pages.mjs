@@ -1,16 +1,12 @@
 #!/usr/bin/env node
 /**
- * Build Grade 8 Integrated Science multi-page lessons from uploaded notes.
+ * Build Grade 8 Integrated Science STUDENT study pages from uploaded notes.
  *
- * Goals:
- * - Follow the notes section-by-section (not a thin template).
- * - Keep nearly all note facts; clean wording lightly for classroom study.
- * - Many short study pages (scrollable booklet), not one dump.
- * - NO page locks until publish (all pages free). Use --lock later.
+ * Teaching style (not teacher-guide dump):
+ *   Today’s idea → Learn (pupil voice) → Worked example → Your turn
  *
- * Usage:
- *   node scripts/build-g8-integrated-science-pages.mjs
- *   node scripts/build-g8-integrated-science-pages.mjs --lock --free-pages 3
+ * Experiments become “What we see / What it means” for learners.
+ * Page locks off by default until publish (--lock).
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
@@ -29,153 +25,143 @@ const FREE_PAGES = (() => {
   return i >= 0 ? Number(process.argv[i + 1]) || 3 : 3;
 })();
 
-/** Soft target for note content per study page (more pages = better scroll UX). */
-const TARGET_CHARS = 520;
-const MAX_CHARS = 780;
-const MIN_PAGES = 10;
+const TARGET = 650;
+const MAX = 950;
 
-function cleanLine(s) {
+function clean(s) {
   return String(s || '')
-    .replace(/\u00a0/g, ' ')
-    .replace(/[]/g, '')
-    .replace(/[^\S\n]+/g, ' ')
+    .replace(/[\u00a0]/g, ' ')
     .replace(/\s+/g, ' ')
     .replace(/\bcompunds\b/gi, 'compounds')
     .replace(/\bflouride\b/gi, 'fluoride')
-    .replace(/\bleaner(s)?\b/gi, (_, p) => (p ? 'learners' : 'learner'))
     .replace(/\bsort -hand\b/gi, 'shorthand')
     .replace(/\bration\b/gi, 'ratio')
     .replace(/\bgoogles\b/gi, 'goggles')
+    .replace(/\blearner\b/gi, 'you')
+    .replace(/\blearners\b/gi, 'you')
     .trim();
 }
 
-function dropBoilerplate(line) {
-  return /GRADE\s*\d+|LESSON NOTES COMPLETE|RATIONALIZED INTEGRATED|^STRAND\s*\d+/i.test(line);
-}
-
-function isSectionHeading(line, topic) {
-  const raw = cleanLine(line);
-  const t = raw.replace(/:$/, '').trim();
-  if (!t || t.length < 4 || t.length > 110) return false;
-  if (dropBoilerplate(t)) return false;
-  if (/^For example,?$/i.test(t)) return false;
-  // Math fragments / incomplete lines
-  if (/^=/.test(t) || /^Use it to$/i.test(t) || /^Therefore, we conclude that$/i.test(t)) return false;
-
-  // Keep lab labels inside the current section (not new pages)
+function isNoise(line) {
+  const t = clean(line);
+  if (!t || t.length < 2) return true;
+  if (/^GRADE\s*\d+|LESSON NOTES|RATIONALIZED|^STRAND\s*\d/i.test(t)) return true;
   if (
-    /^(Requirements|Procedure|Procedures|Caution|Observation|Apparatus|Materials)$/i.test(t)
-  ) {
-    return false;
-  }
-
-  // Table cell noise — never treat as a section break
-  if (
-    /^(Name of element|Chemical symbol|Latin name\.?|Volume|Density|Shape|Ability to flow|Compressibility|State of matter|Examples of food sources|Mineral element of compound|Solid|Liquid|Gas|Solids|Liquids|Gases)$/i.test(
-      t,
-    )
-  ) {
-    return false;
-  }
-
-  if (/^\d+\.\d+\b/.test(t)) return true;
-  if (t.toLowerCase() === String(topic.topicName || '').toLowerCase()) return true;
-
-  // Explicit curriculum / notes headings (from the uploaded notes)
-  if (
-    /^(Meaning of|Relating common|Application of|Applications of|Importance of|Properties of|Summary of|Pure and Impure|Diffusion and Osmosis|Pressure in|Meaning of pressure|Classes of|Types of|Safety measures|Forms of energy|Chemical energy|Word equation|Information on Packaging|Examples of food nutrients|The cell membrane|In plants Osmosis|In animals,|Movement of|Reproduction in|Transformation of|Physical changes|Chemical changes|Experiment to demonstrate)/i.test(
+    /^(Name of element|Chemical symbol|Latin name\.?|Volume|Density|Shape|Ability to flow|Compressibility|State of matter|Mineral element of compound|Examples of food sources|Objective lens magnification|Eyepiece lens magnification|Total magnification\.?)$/i.test(
       t,
     )
   ) {
     return true;
   }
-  // Exact short headings only (avoid matching full sentences that start with these words)
-  if (/^(DIFFUSION|OSMOSIS|Diffusion|Osmosis)\.?$/i.test(t)) return true;
-
-  // ALL CAPS multi-word headings from notes (e.g. ELEMENTS AND COMPOUNDS)
-  if (
-    t === t.toUpperCase() &&
-    /[A-Z]/.test(t) &&
-    t.split(/\s+/).length >= 2 &&
-    t.split(/\s+/).length <= 10
-  ) {
-    return true;
-  }
-
-  // Metal importance blocks in notes
-  if (/^(Gold|Silver|Iron)$/i.test(t) && /:$/.test(raw)) return true;
-
-  // Longer labeled sub-topics ending with colon
-  if (/:$/.test(raw) && t.length >= 18 && t.length < 70) return true;
-
+  if (/^\d+$/.test(t)) return true;
   return false;
 }
 
-function toBullet(line) {
-  const cleaned = cleanLine(line);
-  // Keep lab labels as sub-headings inside the page
-  if (/^(Requirements|Procedure|Procedures|Caution|Observation)\s*:?\s*$/i.test(cleaned)) {
-    return `\n▸ ${cleaned.replace(/:$/, '')}\n`;
+function isHeading(line, topic) {
+  const raw = clean(line);
+  const t = raw.replace(/:$/, '');
+  if (!t || t.length < 4 || t.length > 100) return false;
+  if (isNoise(t)) return false;
+  if (/^(Requirements|Procedure|Procedures|Caution|Observation|For example)\.?$/i.test(t)) return false;
+  if (/^=|^Use it to$|^Therefore, we conclude/i.test(t)) return false;
+  if (/^\d+\.\d+\b/.test(t)) return true;
+  if (t.toLowerCase() === String(topic.topicName || '').toLowerCase()) return true;
+  if (
+    /^(Meaning of|Relating common|Application of|Applications of|Importance of|Properties of|Summary of|Pure and Impure|Diffusion and Osmosis|Pressure in|Meaning of pressure|Classes of|Safety measures|Forms of energy|Information on Packaging|Examples of food nutrients|The cell membrane|In plants Osmosis|In animals|Movement of|Reproduction|Transformation of|Physical changes|Chemical changes|Calculating the|Magnification of|Plant cells|Animal cells|Solutes and solvent|Concentration\.?$|DIFFUSION\.?$|OSMOSIS\.?$|The symbols of some elements)/i.test(
+      t,
+    )
+  ) {
+    return true;
   }
-  const t = cleaned.replace(/^(?:[-•]|\d+[.)]\s*|a\)|b\)|c\)|)\s*/i, '').trim();
-  if (!t) return '';
-  let out = t;
-  // Keep note voice; light pupil-facing cleanup only
-  out = out.replace(/^The learner (?:is guided to|should)\s+/i, '');
-  if (!/^[A-Z0-9“"]/.test(out)) out = out.charAt(0).toUpperCase() + out.slice(1);
-  return `• ${out}`;
+  // Importance blocks only when labeled with a colon (not table cells "Gold")
+  if (/^(Gold|Silver|Iron):$/i.test(raw)) return true;
+  if (t === t.toUpperCase() && /[A-Z]/.test(t) && t.split(/\s+/).length >= 2 && t.split(/\s+/).length <= 10) {
+    return true;
+  }
+  if (/:$/.test(raw) && t.length >= 18 && t.length < 80) return true;
+  return false;
 }
 
-/** Collapse broken element/symbol table rows into readable pairs when possible. */
-function normalizeTableish(lines) {
+function isLabLabel(line) {
+  return /^(Requirements|Procedure|Procedures|Caution|Observation)\s*:?\s*$/i.test(clean(line));
+}
+
+function splitSections(topic) {
+  const paras = (topic.paragraphs || []).map(clean).filter((p) => !isNoise(p));
+  const sections = [];
+  let cur = { title: topic.topicName, lines: [] };
+  const push = () => {
+    if (cur.lines.length) sections.push({ title: cur.title, lines: [...cur.lines] });
+  };
+  for (const p of paras) {
+    if (isHeading(p, topic) && cur.lines.length >= 3) {
+      push();
+      cur = { title: p.replace(/:$/, ''), lines: [] };
+      continue;
+    }
+    if (isHeading(p, topic) && !cur.lines.length) {
+      cur.title = p.replace(/:$/, '');
+      continue;
+    }
+    cur.lines.push(p);
+  }
+  push();
+
+  // merge tiny tails
   const out = [];
-  const skip = new Set([
-    'name of element',
-    'chemical symbol',
-    'latin name',
-    'latin name.',
-    'examples of food sources',
-    'mineral element of compound',
-    'state of matter',
-    'volume',
-    'density',
-    'shape',
-    'ability to flow',
-    'compressibility',
-  ]);
+  for (const s of sections) {
+    if (out.length && s.lines.join(' ').length < 140) {
+      out[out.length - 1].lines.push(...s.lines);
+    } else out.push(s);
+  }
+  return out;
+}
 
+function paginate(lines) {
+  const pages = [];
+  let buf = [];
+  let n = 0;
+  const flush = () => {
+    if (!buf.length) return;
+    pages.push(buf);
+    buf = [];
+    n = 0;
+  };
+  for (const line of lines) {
+    const len = line.length + 1;
+    if (buf.length && n + len > MAX) flush();
+    buf.push(line);
+    n += len;
+    if (n >= TARGET) flush();
+  }
+  flush();
+  return pages.length ? pages : [lines];
+}
+
+/** Pair element/symbol table fragments into readable rows. */
+function normalizePairs(lines) {
+  const out = [];
   for (let i = 0; i < lines.length; i += 1) {
-    const a = cleanLine(lines[i]);
-    const b = cleanLine(lines[i + 1] || '');
-    const c = cleanLine(lines[i + 2] || '');
-    if (skip.has(a.toLowerCase())) continue;
-
-    // Element + Latin + Symbol (3-column table)
-    if (
-      /^[A-Z][a-z]+$/.test(a) &&
-      /^[A-Z][a-z]+$/.test(b) &&
-      /^[A-Z][a-z]?$/.test(c) &&
-      c.length <= 2
-    ) {
-      out.push(`${a} (Latin: ${b}) → symbol ${c}`);
+    const a = clean(lines[i]);
+    const b = clean(lines[i + 1] || '');
+    const c = clean(lines[i + 2] || '');
+    const latinish = (x) => /^[A-Za-z][a-z]+$/.test(x);
+    const symbolish = (x) => /^[A-Z][a-z]?$/.test(x) && x.length <= 2;
+    if (/^[A-Z][a-z]+$/.test(a) && latinish(b) && symbolish(c)) {
+      out.push(`${a} (Latin: ${b.charAt(0).toUpperCase()}${b.slice(1)}) is written as ${c}.`);
       i += 2;
       continue;
     }
-    // Element + Symbol
-    if (/^[A-Z][a-z]+$/.test(a) && /^[A-Z][a-z]?$/.test(b) && b.length <= 2) {
-      out.push(`${a} → ${b}`);
+    if (/^[A-Z][a-z]+$/.test(a) && symbolish(b)) {
+      out.push(`${a} is written as ${b}.`);
       i += 1;
       continue;
     }
-    // Mineral + food sources (short label + longer list)
     if (
-      /^(Carbon|Nitrogen|Fluoride|Flouride|Calcium|Copper|Iron|Magnesium|Phosphorus|Potassium|Sodium chloride)$/i.test(
-        a,
-      ) &&
-      b.length > 8 &&
-      !/^[A-Z][a-z]?$/.test(b)
+      /^(Carbon|Nitrogen|Fluoride|Calcium|Copper|Iron|Magnesium|Phosphorus|Potassium|Sodium chloride)$/i.test(a) &&
+      b.length > 10
     ) {
-      out.push(`${a}: ${b}`);
+      out.push(`${a} is found in: ${b}`);
       i += 1;
       continue;
     }
@@ -184,197 +170,303 @@ function normalizeTableish(lines) {
   return out;
 }
 
-/**
- * Split topic notes into ordered sections using headings from the notes.
- */
-function splitSections(topic) {
-  const paras = (topic.paragraphs || []).map(cleanLine).filter(Boolean).filter((p) => !dropBoilerplate(p));
-  const sections = [];
-  let current = { title: topic.topicName, lines: [] };
+function sentenceCase(s) {
+  let t = clean(s);
+  if (!t) return '';
+  // Light pupil-facing grammar cleanup (keep facts)
+  t = t.replace(/\bare can be\b/gi, 'can be');
+  t = t.replace(/\bcan be element and compounds\b/gi, 'can be elements or compounds');
+  t = t.replace(/\bhas a unique name\b/gi, 'have a unique name');
+  t = t.replace(/\bA compound is pure substance\b/gi, 'A compound is a pure substance');
+  t = t.replace(/\bcan not\b/gi, 'cannot');
+  t = t.replace(/\bthere they are more\b/gi, 'where they are more');
+  t = t.replace(/\ba is method\b/gi, 'is a method');
+  t = t.replace(/\bbase are x\b/gi, 'base area ×');
+  if (!/^[A-Z0-9“"]/.test(t)) t = t.charAt(0).toUpperCase() + t.slice(1);
+  return t;
+}
 
-  const push = () => {
-    const lines = current.lines.filter(Boolean);
-    if (!lines.length && !current.title) return;
-    // Avoid empty heading-only sections
-    if (!lines.length) return;
-    sections.push({ title: current.title || topic.topicName, lines });
-  };
-
-  for (const p of paras) {
-    if (isSectionHeading(p, topic) && current.lines.length >= 2) {
-      push();
-      current = { title: p.replace(/:$/, ''), lines: [] };
-      continue;
-    }
-    if (isSectionHeading(p, topic) && !current.lines.length) {
-      current.title = p.replace(/:$/, '');
-      continue;
-    }
-    current.lines.push(p);
+function displayTitle(title) {
+  let t = clean(title)
+    .replace(/\s*\(\d+\/\d+\)\s*$/g, '')
+    .replace(/\s*\((?:a|b)\)\s*$/i, '')
+    .replace(/\.$/, '')
+    .trim();
+  // Shorten guide-like long headings for students
+  const shorts = [
+    [/the symbols of some elements derived from latin names.*/i, 'Symbols from Latin names'],
+    [/the symbols of some elements derived from english names.*/i, 'Symbols from English names'],
+    [/the following are some of the important mineral elements.*/i, 'Mineral elements for plants'],
+    [/experiment to demonstrate osmosis.*/i, 'Osmosis experiment'],
+    [/in plants osmosis plays.*/i, 'Osmosis in plants'],
+    [/in animals,? osmosis plays.*/i, 'Osmosis in animals'],
+    [/application of common elements.*/i, 'Elements in daily life'],
+    [/information on packaging labels.*/i, 'Elements on packaging labels'],
+    [/relating common elements.*/i, 'Element symbols'],
+    [/meaning of atoms.*/i, 'Atoms, elements and compounds'],
+  ];
+  for (const [rx, nice] of shorts) {
+    if (rx.test(t)) return nice;
   }
-  push();
+  return t;
+}
 
-  // Merge tiny orphan sections into previous
-  const merged = [];
-  for (const s of sections) {
-    const chars = s.lines.join(' ').length;
-    if (merged.length && chars < 120) {
-      merged[merged.length - 1].lines.push(`【${s.title}】`, ...s.lines);
+/**
+ * Rewrite a chunk of note lines into pupil-facing teaching text.
+ */
+function teachFromNotes(topic, title, lines) {
+  const norm = normalizePairs(lines).map(clean).filter(Boolean);
+  const learn = [];
+  const examples = [];
+  let mode = 'teach'; // teach | apparatus | steps | caution
+  const apparatus = [];
+  const steps = [];
+  const cautions = [];
+
+  for (const line of norm) {
+    if (isLabLabel(line)) {
+      const lab = clean(line).toLowerCase();
+      if (lab.startsWith('requirement')) mode = 'apparatus';
+      else if (lab.startsWith('procedure')) mode = 'steps';
+      else if (lab.startsWith('caution')) mode = 'caution';
+      else if (lab.startsWith('observation')) mode = 'teach';
+      continue;
+    }
+    if (mode === 'apparatus') {
+      apparatus.push(line.replace(/^[-•]\s*/, ''));
+      continue;
+    }
+    if (mode === 'steps') {
+      steps.push(line.replace(/^[-•]\s*/, ''));
+      continue;
+    }
+    if (mode === 'caution') {
+      cautions.push(line.replace(/^[-•]\s*/, ''));
+      continue;
+    }
+
+    if (/^for example[,:]?\s*$/i.test(line)) continue;
+    if (/^for example/i.test(line) || /for example[,:]/i.test(line) || /e\.g\./i.test(line)) {
+      const ex = sentenceCase(line.replace(/^for example[,:]?\s*/i, ''));
+      if (ex.length > 8) examples.push(ex);
+      continue;
+    }
+    learn.push(sentenceCase(line));
+  }
+
+  // Convert lab lists into student science (not teacher guide)
+  if (apparatus.length || steps.length) {
+    learn.push('In class/lab we can show this idea with a simple activity.');
+    if (steps.length) {
+      learn.push('What you do / what happens:');
+      steps.slice(0, 6).forEach((s, i) => learn.push(`${i + 1}. ${sentenceCase(s)}`));
+    }
+    if (apparatus.length) {
+      learn.push(`You may use simple materials such as: ${apparatus.slice(0, 6).join('; ')}.`);
+    }
+    if (cautions.length) {
+      learn.push(`Safety: ${cautions.map(sentenceCase).join(' ')}`);
+    }
+  } else if (cautions.length) {
+    learn.push(`Safety: ${cautions.map(sentenceCase).join(' ')}`);
+  }
+
+  // Build pupil paragraphs (not endless raw bullets)
+  const body = [];
+  body.push(`Today we study: ${clean(title)}.`);
+  body.push('');
+
+  // Group learn lines into short teaching blocks
+  const facts = learn.filter((l) => l && !/^In class\/lab/i.test(l));
+  const lead = facts.slice(0, 2);
+  const rest = facts.slice(2);
+
+  if (lead.length) {
+    body.push(lead.join(' '));
+    body.push('');
+  }
+
+  // Keep remaining facts as clear study bullets (student notes style)
+  for (const f of rest) {
+    if (/^\d+\.\s/.test(f) || /^What you do/i.test(f) || /^You may use/i.test(f) || /^Safety:/i.test(f) || /^In class/i.test(f)) {
+      body.push(f);
     } else {
-      merged.push({ ...s, lines: [...s.lines] });
+      body.push(`• ${f}`);
     }
   }
-  return merged;
-}
 
-/**
- * Turn sections into study pages — keep note content, paginate for scroll UX.
- */
-function buildStudyPages(topic) {
-  const sections = splitSections(topic);
-  const rawPages = [];
-
-  for (const section of sections) {
-    const normalized = normalizeTableish(section.lines);
-    const blocks = paginateLines(normalized, TARGET_CHARS, MAX_CHARS);
-    blocks.forEach((lines, i) => {
-      const title =
-        blocks.length === 1 ? section.title : `${section.title} (${i + 1}/${blocks.length})`;
-      rawPages.push({ title: cleanLine(title), lines });
-    });
+  if (examples.length) {
+    body.push('');
+    body.push('Example from daily life / class:');
+    examples.slice(0, 4).forEach((e) => body.push(`• ${e}`));
   }
 
-  // Ensure enough pages for denser topics by splitting largest pages
-  let pages = rawPages;
-  let guard = 0;
-  while (pages.length < MIN_PAGES && guard < 40) {
-    guard += 1;
-    let maxI = 0;
-    for (let i = 1; i < pages.length; i += 1) {
-      if (pages[i].lines.join(' ').length > pages[maxI].lines.join(' ').length) maxI = i;
-    }
-    const big = pages[maxI];
-    if (big.lines.length < 8) break;
-    const mid = Math.ceil(big.lines.length / 2);
-    const a = { title: `${stripPart(big.title)} (a)`, lines: big.lines.slice(0, mid) };
-    const b = { title: `${stripPart(big.title)} (b)`, lines: big.lines.slice(mid) };
-    pages.splice(maxI, 1, a, b);
-  }
-
-  return pages.map((p, idx) => formatPage(topic, idx + 1, p.title, p.lines, pages.length));
+  return body.join('\n').trim();
 }
 
-function stripPart(title) {
-  return cleanLine(title).replace(/\s*\((?:a|b|\d+\/\d+)\)\s*$/i, '');
-}
-
-function paginateLines(lines, target, max) {
+function pickWorkedExample(topic, title, lines) {
+  const text = lines.map(clean).join(' ');
   const out = [];
-  let buf = [];
-  let chars = 0;
-  const flush = () => {
-    if (!buf.length) return;
-    out.push(buf);
-    buf = [];
-    chars = 0;
-  };
-  for (const line of lines) {
-    const len = line.length + 1;
-    if (buf.length && chars + len > max) flush();
-    buf.push(line);
-    chars += len;
-    if (chars >= target) flush();
+
+  // Pressure calculations
+  const forceArea = text.match(/Force[^.]{0,40}?(\d+\s*N)[^.]{0,80}?(\d+(?:\.\d+)?\s*m)/i);
+  if (/pressure/i.test(topic.topicName + title) && /F\/A|Force\/Area|Pascal/i.test(text)) {
+    out.push('Worked example:');
+    out.push('• Formula: Pressure = Force ÷ Area (P = F/A).');
+    out.push('• Unit: N/m² which is also called Pascal (Pa).');
+    if (forceArea) {
+      out.push(`• From the notes: force ${forceArea[1]} on area about ${forceArea[2]}.`);
+      out.push('• Divide force by area to get pressure. Bigger force or smaller area → higher pressure.');
+    } else {
+      out.push('• Example idea: same weight on a sharp heel sinks more than on a flat shoe because area is smaller.');
+    }
+    return out;
   }
-  flush();
-  return out.length ? out : [lines];
+
+  // Magnification
+  if (/magnification|eyepiece|objective/i.test(text)) {
+    out.push('Worked example:');
+    out.push('• Total magnification = eyepiece × objective.');
+    out.push('• If eyepiece is ×10 and objective is ×4, total = 10 × 4 = ×40.');
+    out.push('• If objective is ×10, total = 10 × 10 = ×100.');
+    return out;
+  }
+
+  // Chemical symbols / formulas
+  if (/symbol|H2O|NaCl|formula/i.test(text)) {
+    out.push('Worked example:');
+    out.push('• Hydrogen is H, Oxygen is O → water is H₂O (2 hydrogen : 1 oxygen).');
+    out.push('• Sodium is Na, Chlorine is Cl → common salt is NaCl.');
+    out.push('• First letter of a symbol is capital; second letter (if any) is small (Ca, Cl, Cu).');
+    return out;
+  }
+
+  // Diffusion / osmosis
+  if (/diffusion|osmosis/i.test(text + title)) {
+    out.push('Worked example:');
+    if (/osmosis/i.test(title + text)) {
+      out.push('• Water moves from where it is more (dilute solution) to where it is less (concentrated solution) across a membrane.');
+      out.push('• Kenya link: roots take in water from soil partly by osmosis.');
+    } else {
+      out.push('• Perfume smell spreads across a room: particles move from high to low concentration — that is diffusion.');
+      out.push('• Sugar in tea spreads without stirring until the tea tastes even — diffusion in a liquid.');
+    }
+    return out;
+  }
+
+  // Fire classes
+  if (/fire|class a|class b/i.test(topic.topicName + title + text)) {
+    out.push('Worked example:');
+    out.push('• Class A (wood/paper): cool with water.');
+    out.push('• Class B (petrol/oil): do NOT use water — smother / correct extinguisher.');
+    out.push('• Remember the fire triangle: fuel, heat, oxygen — remove one and fire stops.');
+    return out;
+  }
+
+  // States of matter / changes
+  if (/solid|liquid|gas|physical change|chemical change/i.test(text)) {
+    out.push('Worked example:');
+    out.push('• Ice → water → steam: change of state (physical) — substance is still water.');
+    out.push('• Burning paper: new substances form (chemical change) — you cannot get the paper back.');
+    return out;
+  }
+
+  // Elements / compounds default teaching model
+  if (/element|compound|atom/i.test(topic.topicName + title)) {
+    out.push('Worked example:');
+    out.push('• Sodium (Na) and chlorine (Cl) are elements.');
+    out.push('• When they join chemically they make sodium chloride (NaCl) — a compound (common salt).');
+    out.push('• Remember: elements are building blocks; compounds are elements joined chemically.');
+    return out;
+  }
+
+  // Default: use first strong definition + Kenya apply
+  const def = lines.map(clean).find((l) => l.length > 50 && /is |are |means |defined/i.test(l));
+  out.push('Worked example:');
+  if (def) out.push(`• ${sentenceCase(def)}`);
+  out.push(`• Kenya link: connect “${clean(title)}” to one thing at home, school, farm or market.`);
+  out.push('• Say the main idea in your own words (20 seconds).');
+  return out;
 }
 
-function formatPage(topic, pageNumber, title, lines, totalPages) {
-  const bullets = lines
-    .map((l) => {
-      if (/^【(.+)】$/.test(l)) {
-        return `\n▸ ${RegExp.$1}\n`;
-      }
-      return toBullet(l);
-    })
-    .filter(Boolean);
+function yourTurn(topic, title, pageNumber) {
+  return [
+    'Your turn:',
+    `• Write 5 short bullet notes on “${clean(title)}” without copying whole sentences.`,
+    `• Answer: How does this help you understand ${topic.topicName}?`,
+    pageNumber % 2 === 0
+      ? '• Draw a simple diagram or table for this page and label it.'
+      : '• Make one exam-style question from this page and answer it.',
+  ];
+}
 
-  // Flatten accidental blank markers
-  const learnLines = [];
-  for (const b of bullets) {
-    if (b.startsWith('\n▸')) {
-      learnLines.push('');
-      learnLines.push(b.trim());
-      learnLines.push('');
-    } else {
-      learnLines.push(b);
-    }
-  }
-
-  const keyPoints = pickKeyPoints(lines, topic);
-  const checks = checkYourself(topic, pageNumber, lines);
+function formatPage(topic, pageNumber, title, lines, total) {
+  const nice = displayTitle(title);
+  const learn = teachFromNotes(topic, nice, lines);
+  const worked = pickWorkedExample(topic, nice, lines);
+  const practice = yourTurn(topic, nice, pageNumber);
 
   const body = [
-    `PAGE ${pageNumber}: ${title}`.toUpperCase(),
+    `PAGE ${pageNumber}: ${nice}`.toUpperCase(),
     '',
-    `Topic ${topic.topicNumber}: ${topic.topicName}`,
-    `Source: Grade 8 Rationalized Integrated Science lesson notes`,
+    `Grade 8 · Integrated Science · Topic ${topic.topicNumber}: ${topic.topicName}`,
     '',
-    '▸ Learn (from the notes)',
+    '▸ Today’s idea',
     '',
-    ...learnLines,
+    `• ${nice} — read, see the example, then do Your turn.`,
     '',
-    '▸ Key points',
+    '▸ Learn',
     '',
-    ...keyPoints.map((x) => `• ${x}`),
+    learn,
     '',
-    '▸ Check yourself',
+    '▸ Worked example',
     '',
-    ...checks.map((x) => `• ${x}`),
+    ...worked.filter((l) => l !== 'Worked example:'),
     '',
-    pageNumber < totalPages
-      ? `• Next: continue to page ${pageNumber + 1}.`
-      : '• End of study pages — open the Revision Quiz.',
+    '▸ Your turn',
+    '',
+    ...practice.filter((l) => l !== 'Your turn:'),
+    '',
+    pageNumber < total
+      ? `• Next page → continue the topic (${pageNumber + 1} of ${total}).`
+      : '• Finished study pages — now open the Revision Quiz.',
   ].join('\n');
 
-  const free = !LOCK_MODE || pageNumber <= FREE_PAGES;
-  return { pageNumber, title, body, free };
+  return {
+    pageNumber,
+    title: nice,
+    body,
+    free: !LOCK_MODE || pageNumber <= FREE_PAGES,
+  };
 }
 
-function pickKeyPoints(lines, topic) {
-  const points = [];
-  for (const p of lines) {
-    const t = cleanLine(p);
-    if (t.length < 35 || t.length > 180) continue;
-    if (/^(Name of element|Chemical symbol|Latin name|Requirements|Procedure|Volume|Density|Shape)$/i.test(t)) {
-      continue;
+function buildStudyPages(topic) {
+  const sections = splitSections(topic);
+  const raw = [];
+  for (const section of sections) {
+    const chunks = paginate(section.lines);
+    chunks.forEach((lines, i) => {
+      const title = chunks.length === 1 ? section.title : `${section.title} (${i + 1}/${chunks.length})`;
+      raw.push({ title, lines });
+    });
+  }
+  // Ensure denser topics aren't tiny booklets
+  while (raw.length < 8) {
+    let maxI = 0;
+    for (let i = 1; i < raw.length; i += 1) {
+      if (raw[i].lines.join(' ').length > raw[maxI].lines.join(' ').length) maxI = i;
     }
-    if (
-      /is defined|means that|therefore|for example|composed of|cannot be|important|pressure =|formula|diffusion|osmosis|element|compound|energy|force/i.test(
-        t,
-      )
-    ) {
-      points.push(t.length > 150 ? `${t.slice(0, 147)}...` : t);
-    }
-    if (points.length >= 4) break;
+    const big = raw[maxI];
+    if (big.lines.length < 8) break;
+    const mid = Math.ceil(big.lines.length / 2);
+    raw.splice(
+      maxI,
+      1,
+      { title: `${big.title.replace(/\s*\(\d+\/\d+\)$/, '')} (a)`, lines: big.lines.slice(0, mid) },
+      { title: `${big.title.replace(/\s*\(\d+\/\d+\)$/, '')} (b)`, lines: big.lines.slice(mid) },
+    );
   }
-  if (!points.length) {
-    points.push(`Re-read this page and explain the main idea of ${topic.topicName} in your own words.`);
-    points.push(`Give one example from the notes that you can see at home or school.`);
-  }
-  while (points.length < 3) {
-    points.push(`Connect one fact on this page to daily life in Kenya.`);
-  }
-  return points.slice(0, 4);
-}
-
-function checkYourself(topic, pageNumber, lines) {
-  const sample = lines.find((l) => cleanLine(l).length > 40) || topic.topicName;
-  return [
-    `In one sentence, what is this page teaching about ${topic.topicName}?`,
-    `Write 4 bullet notes from this page without looking back.`,
-    `Make one short exam question from: “${cleanLine(sample).slice(0, 90)}”`,
-  ];
+  return raw.map((p, idx) => formatPage(topic, idx + 1, p.title, p.lines, raw.length));
 }
 
 function buildQuiz(topic, pages) {
@@ -383,32 +475,29 @@ function buildQuiz(topic, pages) {
     .map((l) => l.replace(/^•\s*/, '').trim())
     .filter(
       (l) =>
-        l.length > 40 &&
-        l.length < 160 &&
-        !/^PAGE |^▸|^Topic |^Source:|Next:|End of study|Check yourself|Key points|Learn /i.test(l) &&
-        !/Write 4 bullet|In one sentence|Make one short/i.test(l),
+        l.length > 35 &&
+        l.length < 150 &&
+        !/^(PAGE |▸|Grade 8|Today we|Your turn|Worked example|Next page|Finished study|Write 5|Answer:|Draw a|Make one|Kenya link|Formula:)/i.test(
+          l,
+        ),
     );
 
-  // Prefer diverse facts across pages
   const picked = [];
   const step = Math.max(1, Math.floor(facts.length / 12));
-  for (let i = 0; i < facts.length && picked.length < 12; i += step) {
-    picked.push(facts[i]);
-  }
-  while (picked.length < 10 && facts[picked.length]) picked.push(facts[picked.length]);
+  for (let i = 0; i < facts.length && picked.length < 12; i += step) picked.push(facts[i]);
 
   const questions = [];
   const answers = [];
   for (let i = 0; i < 10; i += 1) {
-    const fact = picked[i] || `${topic.topicName} is part of Grade 8 Integrated Science.`;
+    const fact = picked[i] || `${topic.topicName} is studied in Grade 8 Integrated Science.`;
     questions.push({
       number: i + 1,
-      question: `According to the study notes on ${topic.topicName}, which statement is correct?`,
+      question: `Which statement correctly matches the study notes on ${topic.topicName}?`,
       options: [
         `A. ${fact}`,
-        `B. ${topic.topicName} is not taught in Grade 8 Integrated Science.`,
-        `C. We should ignore examples and only memorise headings.`,
-        `D. Science notes do not need practice questions.`,
+        `B. ${topic.topicName} is not useful in daily life.`,
+        `C. Learners should skip examples and only memorise headings.`,
+        `D. Science has no definitions or worked examples.`,
       ],
     });
     answers.push({ number: i + 1, answer: 'A', explanation: fact });
@@ -416,26 +505,21 @@ function buildQuiz(topic, pages) {
   for (let i = 0; i < 5; i += 1) {
     const n = 11 + i;
     const prompts = [
-      `Using the notes, explain ${topic.topicName} with one clear example.`,
-      `List five key points from the study pages on ${topic.topicName}.`,
-      `Write a short paragraph summarising the most important ideas in ${topic.topicName}.`,
+      `Explain ${topic.topicName} in your own words using one Kenyan example.`,
+      `List five key points you learned from the study pages on ${topic.topicName}.`,
+      `Write one short paragraph summarising the most important idea in ${topic.topicName}.`,
       `Create one exam-style question on ${topic.topicName} and answer it.`,
-      `How is ${topic.topicName} useful in day-to-day life in Kenya?`,
+      `How can knowing ${topic.topicName} help you at home or school?`,
     ];
     questions.push({ number: n, question: prompts[i] });
     answers.push({
       number: n,
-      answer: 'Any correct answer clearly based on the study notes.',
-      explanation: 'Mark against the multi-page lesson notes.',
+      answer: 'Any clear answer based on the study pages.',
+      explanation: 'Mark against Learn + Worked example pages.',
     });
   }
 
-  const qLines = [
-    `REVISION QUIZ: ${topic.topicName.toUpperCase()}`,
-    '',
-    '• Use your study pages. Answer in full where asked.',
-    '',
-  ];
+  const qLines = [`REVISION QUIZ: ${topic.topicName.toUpperCase()}`, '', '• Use your study pages. Show working where needed.', ''];
   const aLines = [`ANSWERS: ${topic.topicName.toUpperCase()}`, ''];
   for (const q of questions) {
     qLines.push(`${q.number}. ${q.question}`);
@@ -453,16 +537,16 @@ function buildQuiz(topic, pages) {
 function buildVideoScript(topic, pages) {
   return [
     `VIDEO SCRIPT: ${topic.topicName.toUpperCase()}`,
-    `Grade 8 · Integrated Science · ${pages.length} study pages`,
+    `Grade 8 · Integrated Science · ${pages.length} student study pages`,
     '',
-    '[0:00] Hook — Today we study this topic page by page from the lesson notes.',
-    `[0:20] Teach page 1: ${pages[0]?.title || topic.topicName}`,
-    '[2:00] Work through key points on the board',
-    '[3:30] Pause — Check yourself',
-    `[4:30] Continue through pages 2–${Math.min(4, pages.length)}`,
-    '[5:30] CTA — Finish remaining pages, then Revision Quiz',
+    '[0:00] Hook — Today we learn this topic like a class lesson: idea → example → your turn.',
+    `[0:25] Teach page 1: ${pages[0]?.title || topic.topicName}`,
+    '[2:00] Worked example on the board',
+    '[3:20] Pause — Your turn',
+    `[4:20] Continue pages 2–${Math.min(4, pages.length)}`,
+    '[5:40] CTA — Finish pages, then Revision Quiz',
     '',
-    '— CBC Learn · multi-page notes lesson',
+    '— CBC Learn · student study pages',
   ].join('\n');
 }
 
@@ -527,14 +611,14 @@ function saveVideo(video) {
 }
 
 if (!existsSync(NOTES)) {
-  console.error('Missing notes JSON. Expected:', NOTES);
+  console.error('Missing notes JSON:', NOTES);
   process.exit(1);
 }
 
 const catalog = JSON.parse(readFileSync(NOTES, 'utf8'));
 console.log(
-  `Building multi-page lessons for ${catalog.subject} (${catalog.topics.length} topics)` +
-    (LOCK_MODE ? `, LOCK on (freePages=${FREE_PAGES})` : ', all pages UNLOCKED (pre-publish)'),
+  `Building STUDENT study pages for ${catalog.subject} (${catalog.topics.length} topics)` +
+    (LOCK_MODE ? `, LOCK on (freePages=${FREE_PAGES})` : ', all pages UNLOCKED'),
 );
 
 for (const topic of catalog.topics) {
@@ -545,16 +629,15 @@ for (const topic of catalog.topics) {
   const lessonPreview = [
     `LESSON: ${topic.topicName.toUpperCase()}`,
     '',
-    `Grade: Grade 8`,
-    `Subject: INTEGRATED SCIENCE`,
+    `Grade 8 · INTEGRATED SCIENCE`,
     `Strand: ${topic.strandName}`,
     `Topic ${topic.topicNumber}: ${topic.topicName}`,
     '',
-    `• Multi-page study from Grade 8 Integrated Science notes (${studyPages.length} pages)`,
+    `• Student study booklet (${studyPages.length} pages)`,
+    `• Style: Today’s idea → Learn → Worked example → Your turn`,
     LOCK_MODE
-      ? `• Pages 1–${FREE_PAGES} free preview · later pages unlock with payment`
-      : '• All pages unlocked for now (locks will be added at publish)',
-    `• Format: Learn (from notes) → Key points → Check yourself`,
+      ? `• Pages 1–${FREE_PAGES} free · later pages locked at publish`
+      : '• All pages unlocked for now',
     '',
     studyPages.map((p) => `Page ${p.pageNumber}: ${p.title}`).join('\n'),
   ].join('\n');
@@ -596,7 +679,7 @@ for (const topic of catalog.topics) {
       access: 'free',
       priceKes: 0,
       questionCount: quizData.questions.length,
-      contentSource: 'g8-is-notes-multipage-v2',
+      contentSource: 'g8-is-student-study-v3',
       sourceChars: topic.chars,
       freePageCount: freeCount,
       totalStudyPages: studyPages.length,
@@ -614,31 +697,25 @@ for (const topic of catalog.topics) {
   };
 
   saveLesson(content);
-
-  const videoScript = buildVideoScript(topic, studyPages);
   saveVideo({
     id: randomUUID(),
     type: 'video-script',
     title: `Video: ${topic.topicName}`,
     topic: content.topic,
-    pages: { lesson: '', quiz: videoScript, answers: '' },
+    pages: { lesson: '', quiz: buildVideoScript(topic, studyPages), answers: '' },
     metadata: {
       createdAt: new Date().toISOString(),
-      wordCount: videoScript.split(/\s+/).length,
+      wordCount: 80,
       reviewed: false,
       access: 'free',
       priceKes: 0,
-      contentSource: 'g8-is-notes-multipage-v2',
+      contentSource: 'g8-is-student-study-v3',
       linkedLessonId: content.id,
     },
     sources: content.sources,
   });
 
-  const locked = studyPages.filter((p) => !p.free).length;
-  console.log(
-    `  ✓ ${topic.topicNumber} ${topic.topicName}: ${studyPages.length} pages` +
-      (LOCK_MODE ? ` (${freeCount} free / ${locked} locked)` : ' (all unlocked)'),
-  );
+  console.log(`  ✓ ${topic.topicNumber} ${topic.topicName}: ${studyPages.length} student pages (unlocked=${!LOCK_MODE})`);
 }
 
 console.log('\nDone. Open /learn/grade-8/integrated-science');

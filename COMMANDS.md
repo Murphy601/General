@@ -58,8 +58,10 @@ git log -1 --oneline
 npm run web:clean
 npm run curriculum:prepare
 npm run content:g8-is-pages
-# SUCCESS looks like: "all pages UNLOCKED" and 1.1 = 15 pages
-# FAIL (old script) looks like: "freePages=3" and 1.1 = 8 pages with locks
+# SUCCESS looks like:
+#   Building STUDENT study pages ... all pages UNLOCKED
+#   1.1 ... student pages
+# FAIL (old) looks like: freePages=3 / SECTION 1: WELCOME / teacher Requirements lists
 
 cd web
 npm run dev
