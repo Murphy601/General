@@ -71,6 +71,8 @@ export interface GeneratedContent {
     linkedLessonId?: string;
     freePageCount?: number;
     totalStudyPages?: number;
+    /** When true, TopicViewer enforces freePageCount paywall locks. Off until publish. */
+    lockPages?: boolean;
     textbookTitles?: string[];
     sourceChars?: number;
   };

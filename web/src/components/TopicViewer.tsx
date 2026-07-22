@@ -154,6 +154,7 @@ export function TopicViewer({
       freePageCount?: number;
       totalStudyPages?: number;
       contentSource?: string;
+      lockPages?: boolean;
     };
   };
   initialTab?: Tab;
@@ -166,8 +167,17 @@ export function TopicViewer({
   const [tab, setTab] = useState<Tab>(initialTab || tabParam || 'lesson');
 
   const studyPages = content.pages.studyPages || [];
-  const freeCount = content.pages.freePageCount || content.metadata?.freePageCount || 3;
+  const freeCount =
+    content.pages.freePageCount ||
+    content.metadata?.freePageCount ||
+    (studyPages.length ? studyPages.length : 3);
   const hasMulti = studyPages.length > 0;
+  // Pre-publish: treat topics as fully open when every page is marked free
+  // or freePageCount covers the whole booklet.
+  const allUnlocked =
+    unlocked ||
+    (hasMulti &&
+      (studyPages.every((p) => p.free !== false) || freeCount >= studyPages.length));
   const maxPage = hasMulti ? studyPages.length : 1;
   const [pageNum, setPageNum] = useState(Math.min(Math.max(pageParam || 1, 1), maxPage));
 
@@ -189,7 +199,10 @@ export function TopicViewer({
 
   const current = hasMulti ? studyPages.find((p) => p.pageNumber === pageNum) : null;
   const canRead =
-    !hasMulti || unlocked || current?.free === true || (current?.pageNumber || 1) <= freeCount;
+    !hasMulti ||
+    allUnlocked ||
+    current?.free === true ||
+    (current?.pageNumber || 1) <= freeCount;
 
   const text =
     tab === 'quiz'
@@ -214,7 +227,9 @@ export function TopicViewer({
             Multi-page study · {studyPages.length} pages
           </p>
           <p className="mt-1 text-sm text-gray-600">
-            Scroll page by page. Pages 1–{freeCount} are free preview. Page {freeCount + 1}+ locks until payment.
+            {allUnlocked
+              ? 'Scroll page by page through the full topic notes. Page locks will be added when the site is published.'
+              : `Scroll page by page. Pages 1–${freeCount} are free preview. Page ${freeCount + 1}+ unlocks with payment.`}
           </p>
         </div>
       ) : (
@@ -241,7 +256,7 @@ export function TopicViewer({
       {tab === 'lesson' && hasMulti ? (
         <div className="mt-4 flex flex-wrap gap-2">
           {studyPages.map((p) => {
-            const locked = !(unlocked || p.free || p.pageNumber <= freeCount);
+            const locked = !(allUnlocked || p.free || p.pageNumber <= freeCount);
             const active = p.pageNumber === pageNum;
             return (
               <button
@@ -290,7 +305,9 @@ export function TopicViewer({
           </button>
           <p className="text-xs text-gray-500 self-center">
             Page {pageNum} of {studyPages.length}
-            {current && !(unlocked || current.free || current.pageNumber <= freeCount) ? ' · locked' : ''}
+            {current && !(allUnlocked || current.free || current.pageNumber <= freeCount)
+              ? ' · locked'
+              : ''}
           </p>
           <button
             type="button"

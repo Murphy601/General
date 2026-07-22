@@ -41,7 +41,7 @@
     "content:ingest-past-papers:refresh": "node scripts/ingest-open-past-papers.mjs --refresh",
     "content:rebuild-study": "node scripts/rebuild-all-study-lessons.mjs",
     "content:g8-is-pages": "node scripts/build-g8-integrated-science-pages.mjs",
-    "content:g8-is-pages:free2": "node scripts/build-g8-integrated-science-pages.mjs --free-pages 2",
+    "content:g8-is-pages:lock": "node scripts/build-g8-integrated-science-pages.mjs --lock --free-pages 3",
     "textbooks:download": "node scripts/download-textbooks.mjs",
     "textbooks:extract": "node scripts/extract-textbook-text.mjs",
     "textbooks:prepare": "node scripts/download-textbooks.mjs && node scripts/extract-textbook-text.mjs",

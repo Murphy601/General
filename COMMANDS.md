@@ -44,7 +44,8 @@ https://github.com/Murphy601/General/archive/refs/heads/cursor/cbc-learning-webs
 ### Check URL
 - http://localhost:3000/learn/grade-8/integrated-science
 - Open **1.1 Elements and Compounds**
-- Expect **8 study pages**, pages 1–3 free, page 4+ locked
+- Expect **many study pages** (e.g. 16+), **all unlocked** for now
+- Page locks will be turned on at publish (`npm run content:g8-is-pages -- --lock`)
 
 ## Rebuild all classroom lessons locally
 

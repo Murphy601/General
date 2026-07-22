@@ -44,13 +44,15 @@ export default async function TopicLessonPage({
               freePageCount: content.pages?.freePageCount || content.metadata?.freePageCount,
               totalStudyPages: content.metadata?.totalStudyPages,
               contentSource: content.metadata?.contentSource,
+              lockPages: content.metadata?.lockPages,
             },
           }}
-          // Multi-page lessons keep page-level locks even when the topic tier is "free".
+          // Pre-publish: keep multipage topics fully open unless lockPages is enabled.
           unlocked={
-            Boolean(content.pages?.studyPages?.length)
+            content.metadata?.lockPages === true
               ? false
-              : content.metadata?.access === 'free'
+              : content.metadata?.access === 'free' ||
+                Boolean(content.pages?.studyPages?.length)
           }
         />
       </Suspense>
