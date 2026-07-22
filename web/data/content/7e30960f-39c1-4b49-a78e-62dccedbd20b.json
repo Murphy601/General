@@ -1,0 +1,39 @@
+{
+  "id": "7e30960f-39c1-4b49-a78e-62dccedbd20b",
+  "type": "video-script",
+  "title": "Video: Pressure",
+  "topic": {
+    "grade": "grade-8",
+    "gradeLabel": "Grade 8",
+    "subject": "INTEGRATED SCIENCE",
+    "strand": "Strand 3: Force and Energy",
+    "subStrand": "Pressure",
+    "topicNumber": "3.2",
+    "topicOrder": 32,
+    "slug": "3-2-pressure"
+  },
+  "pages": {
+    "lesson": "",
+    "quiz": "### Video Title: 3.2 Pressure — Meaning of Pressure\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic young scientist guide\n  - **Jabali** — curious Grade 8 student\n  - **Makena** — curious Grade 8 student\n- **Module coverage:** Meaning of Pressure; Calculating Pressure in Solids and Liquids; Applications of Pressure in Daily Life\n\n---\n\n#### Scene Breakdown\n\n* **Scene 1: The Hook & Real-World Context (0:00 - 0:30)**\n  - **Visual (2D/3D Animation):** School compound path after rain (mud) and a wheelbarrow plank. Camera pans to the object/event linked to Pressure.\n  - **Audio / Dialogue:**\n    - Makena: “Dr. Amani, why does this happen in real life?”\n    - Dr. Amani: “Great question — today we unlock Pressure.”\n    - SFX: light school ambience, short whoosh into close-up\n\n* **Scene 2: Zooming into the Invisible / Concept Demonstration (0:30 - 1:30)**\n  - **Visual (Microscopic/3D Transition):** Force arrows and area patches; P = F/A appears as HUD overlay\n  - **Audio / Dialogue:**\n    - Dr. Amani narrates definitions in short lines (no teacher-meta).\n    - Jabali: “So the key words are…” (repeats 2–3 bold terms on screen)\n\n* **Scene 3: Real-World Example & Experiment (1:30 - 2:30)**\n  - **Visual (2D/3D Animation):** Wide bag pads vs thin straps; sharp jembe edge vs blunt edge discussion\n  - **Audio / Dialogue:**\n    - Interactive Q&A between Dr. Amani, Jabali, and Makena\n    - On-screen corrections appear when a common mistake is made\n\n* **Scene 4: Summary Callout & Challenge Question (2:30 - 3:00)**\n  - **Visual (Screen Overlay):** 3–5 key terms pop in; challenge question card appears\n  - **Audio / Dialogue:**\n    - Dr. Amani: “Your challenge — If force is constant and area halves, what happens to pressure?”\n    - Jabali & Makena wave to viewer: “Pause and answer!”\n\n— CBC Learn · Grade 8 Integrated Science cartoon script",
+    "answers": "",
+    "studyPages": []
+  },
+  "metadata": {
+    "createdAt": "2026-07-22T23:18:22.045Z",
+    "wordCount": 307,
+    "reviewed": false,
+    "access": "free",
+    "priceKes": 0,
+    "contentSource": "g8-is-engine-v5",
+    "linkedLessonId": "3d23c1a2-ac92-4596-8e3c-2a87b679e94e",
+    "videoFormat": "2d-3d-cartoon"
+  },
+  "sources": [
+    {
+      "id": "g8-is-notes",
+      "grade": "grade-8",
+      "subject": "INTEGRATED SCIENCE",
+      "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly."
+    }
+  ]
+}

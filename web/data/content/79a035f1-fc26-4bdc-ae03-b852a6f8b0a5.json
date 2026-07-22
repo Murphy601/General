@@ -1,0 +1,39 @@
+{
+  "id": "79a035f1-fc26-4bdc-ae03-b852a6f8b0a5",
+  "type": "video-script",
+  "title": "Video: Elements and Compounds",
+  "topic": {
+    "grade": "grade-8",
+    "gradeLabel": "Grade 8",
+    "subject": "INTEGRATED SCIENCE",
+    "strand": "Strand 1: Mixtures, Elements and Compounds",
+    "subStrand": "Elements and Compounds",
+    "topicNumber": "1.1",
+    "topicOrder": 11,
+    "slug": "1-1-elements-and-compounds"
+  },
+  "pages": {
+    "lesson": "",
+    "quiz": "### Video Title: 1.1 Elements and Compounds — Atoms, Elements and Compounds\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic young scientist guide\n  - **Jabali** — curious Grade 8 student\n  - **Makena** — curious Grade 8 student\n- **Module coverage:** Atoms, Elements and Compounds; Chemical Symbols of Elements; Elements in Daily Life and Nutrition\n\n---\n\n#### Scene Breakdown\n\n* **Scene 1: The Hook & Real-World Context (0:00 - 0:30)**\n  - **Visual (2D/3D Animation):** A Kenyan kitchen near a dining table with salt, water, and a copper kettle. Camera pans to the object/event linked to Elements and Compounds.\n  - **Audio / Dialogue:**\n    - Makena: “Dr. Amani, why does this happen in real life?”\n    - Dr. Amani: “Great question — today we unlock Elements and Compounds.”\n    - SFX: light school ambience, short whoosh into close-up\n\n* **Scene 2: Zooming into the Invisible / Concept Demonstration (0:30 - 1:30)**\n  - **Visual (Microscopic/3D Transition):** Zoom into salt crystal: sodium and chlorine atom-characters linking as NaCl; water molecules as H-O-H\n  - **Audio / Dialogue:**\n    - Dr. Amani narrates definitions in short lines (no teacher-meta).\n    - Jabali: “So the key words are…” (repeats 2–3 bold terms on screen)\n\n* **Scene 3: Real-World Example & Experiment (1:30 - 2:30)**\n  - **Visual (2D/3D Animation):** Makena labels bottles H2O and NaCl; Jabali almost writes CA for calcium — Dr. Amani corrects to Ca\n  - **Audio / Dialogue:**\n    - Interactive Q&A between Dr. Amani, Jabali, and Makena\n    - On-screen corrections appear when a common mistake is made\n\n* **Scene 4: Summary Callout & Challenge Question (2:30 - 3:00)**\n  - **Visual (Screen Overlay):** 3–5 key terms pop in; challenge question card appears\n  - **Audio / Dialogue:**\n    - Dr. Amani: “Your challenge — Name one element and one compound you used today”\n    - Jabali & Makena wave to viewer: “Pause and answer!”\n\n— CBC Learn · Grade 8 Integrated Science cartoon script",
+    "answers": "",
+    "studyPages": []
+  },
+  "metadata": {
+    "createdAt": "2026-07-22T23:18:19.304Z",
+    "wordCount": 323,
+    "reviewed": false,
+    "access": "free",
+    "priceKes": 0,
+    "contentSource": "g8-is-engine-v5",
+    "linkedLessonId": "b12de444-448e-4165-ac1a-8525b8173ce3",
+    "videoFormat": "2d-3d-cartoon"
+  },
+  "sources": [
+    {
+      "id": "g8-is-notes",
+      "grade": "grade-8",
+      "subject": "INTEGRATED SCIENCE",
+      "excerpt": "ELEMENTS AND COMPUNDS Meaning of Atoms, Elements, molecules and Compounds. Matter is anything that occupies space and has mass."
+    }
+  ]
+}

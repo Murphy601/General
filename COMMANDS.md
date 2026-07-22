@@ -12,7 +12,7 @@ git fetch --depth 1 origin cursor/cbc-learning-website-0ec7
 git reset --hard FETCH_HEAD
 git clean -fd
 git log -1 --oneline
-# expect: student textbook / v4 commit (not old WELCOME template)
+# expect: g8-is-engine-v5 / dual notes+video (not old WELCOME template)
 
 cd web
 npm run dev
@@ -24,9 +24,12 @@ Hard refresh: **Ctrl+F5**
 http://localhost:3000/learn/grade-8/integrated-science/1-1-elements-and-compounds
 
 You should see:
-- `PAGE 1 OF 11: ATOMS, ELEMENTS AND COMPOUNDS`
-- Sections: **Comprehensive concept explanation**, **Worked example**, **Visual model**, **Practical application**, **Practice questions**, **Solutions**
-- No `SECTION 1: WELCOME`, no “Today’s idea / Today we study / Your turn”
+- Consolidated multipage modules (Topic 1.1 ≈ 4 pages), not the old `SECTION 1: WELCOME` classroom template
+- Each page: **Concept Overview → Practical Examples & Formulas → Visual Description → Applications & Safety → Practice + Model Solutions**
+- Unique examples per page (no copy-pasted Worked Example / Visual Model loops)
+- No raw markdown tables (`|---|`) or ASCII/code-block diagrams
+- Correct symbols (Nitrogen → **N**, not Helium)
+- Matching **Video Hub** cartoon script with Dr. Amani, Jabali & Makena (4 timed scenes)
 
 Revision Hub exams for Grade 8 Integrated Science are also in the branch (general, termly, mock, premium).
 
@@ -39,4 +42,5 @@ npm run content:g8-is-pages
 node scripts/batch-generate-exams.mjs --grade grade-8 --subject "INTEGRATED SCIENCE" --reset --no-llm
 ```
 
-System prompt used for modules: `knowledge-base/prompts/student-textbook-module.md`
+Engine prompt: `knowledge-base/prompts/g8-is-content-engine.md`  
+Builder: `scripts/build-g8-integrated-science-pages.mjs` (`contentSource: g8-is-engine-v5`)

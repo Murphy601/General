@@ -1,6 +1,6 @@
 [
   {
-    "id": "c6879d91-d12b-4a49-ac4b-05484849e518",
+    "id": "7e30960f-39c1-4b49-a78e-62dccedbd20b",
     "type": "video-script",
     "title": "Video: Pressure",
     "topic": {
@@ -15,30 +15,31 @@
     },
     "pages": {
       "lesson": "…",
-      "quiz": "VIDEO SCRIPT: PRESSURE\nGrade 8 Integrated Science · 12-page student module\n\n[0:00] Open on page 1 title: Meaning of Pressure\n[0:20] Read key concept paragraph; highlight definitions on screen\n[2:00] W…",
+      "quiz": "### Video Title: 3.2 Pressure — Meaning of Pressure\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic young scientist guide\n  …",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:11.271Z",
-      "wordCount": 70,
+      "createdAt": "2026-07-22T23:18:22.045Z",
+      "wordCount": 307,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-textbook-v4",
-      "linkedLessonId": "629a1d70-2940-4501-b81a-0b1647257e85"
+      "contentSource": "g8-is-engine-v5",
+      "linkedLessonId": "3d23c1a2-ac92-4596-8e3c-2a87b679e94e",
+      "videoFormat": "2d-3d-cartoon"
     },
     "sources": [
       {
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly. For example,"
+        "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly."
       }
     ]
   },
   {
-    "id": "629a1d70-2940-4501-b81a-0b1647257e85",
+    "id": "3d23c1a2-ac92-4596-8e3c-2a87b679e94e",
     "type": "topic-lesson",
     "title": "Topic 3.2: Pressure",
     "topic": {
@@ -52,7 +53,7 @@
       "slug": "3-2-pressure"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: PRESSURE\n\nGrade 8 · Integrated Science\nStrand: Strand 3: Force and Energy\nTopic 3.2: Pressure\n\n• 12-page student textbook module\n• Page structure: Concept explanation → Worked example → Visual model → Application → Practice …",
+      "lesson": "STUDENT MODULE: Pressure\nGrade 8 Integrated Science · 3 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Meaning of Pressure\nPage 2: Calculating P…",
       "quiz": "",
       "answers": "",
       "studyPages": [
@@ -64,85 +65,33 @@
         },
         {
           "pageNumber": 2,
-          "title": "Meaning of Pressure",
+          "title": "Calculating Pressure in Solids and Liquids",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Pressure in Liquids",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 4,
-          "title": "Calculating Pressure",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 5,
-          "title": "Calculating Pressure",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 6,
-          "title": "Calculating Pressure",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 7,
-          "title": "Calculating Pressure",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 8,
-          "title": "Calculating Pressure",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 9,
-          "title": "=400 N",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 10,
-          "title": "Pressure in Liquids",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 11,
-          "title": "Therefore, we conclude that",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 12,
-          "title": "Therefore, we conclude that",
+          "title": "Applications of Pressure in Daily Life",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 12
+      "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:11.079Z",
-      "wordCount": 7977,
+      "createdAt": "2026-07-22T23:18:21.843Z",
+      "wordCount": 1506,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 15,
-      "contentSource": "g8-is-student-textbook-v4",
+      "questionCount": 8,
+      "contentSource": "g8-is-engine-v5",
       "sourceChars": 9467,
-      "freePageCount": 12,
-      "totalStudyPages": 12,
+      "freePageCount": 3,
+      "totalStudyPages": 3,
       "lockPages": false,
+      "uniquePracticalSections": 3,
+      "uniqueVisualSections": 3,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
       ]
@@ -152,12 +101,12 @@
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly. For example,"
+        "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly."
       }
     ]
   },
   {
-    "id": "9e203077-b3d7-48fc-9b8b-6ea6215f9fc4",
+    "id": "63697fb9-72db-47bc-b6ed-dd69af5a3c79",
     "type": "video-script",
     "title": "Video: Transformation of Energy",
     "topic": {
@@ -172,30 +121,31 @@
     },
     "pages": {
       "lesson": "…",
-      "quiz": "VIDEO SCRIPT: TRANSFORMATION OF ENERGY\nGrade 8 Integrated Science · 12-page student module\n\n[0:00] Open on page 1 title: Transformation of Energy\n[0:20] Read key concept paragraph; highlight definitio…",
+      "quiz": "### Video Title: 3.1 Transformation of Energy — Forms of Energy\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic young scient…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:10.883Z",
-      "wordCount": 72,
+      "createdAt": "2026-07-22T23:18:21.670Z",
+      "wordCount": 298,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-textbook-v4",
-      "linkedLessonId": "e03e0228-2e86-4965-8401-328f27ccb503"
+      "contentSource": "g8-is-engine-v5",
+      "linkedLessonId": "dde140cd-59f3-4cc9-8231-d68595591413",
+      "videoFormat": "2d-3d-cartoon"
     },
     "sources": [
       {
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "3.1 Transformation of energy. Energy is the ability to do work Energy is not visible, has no mass and neither does it occupy space. Energy exists in different forms."
+        "excerpt": "3.1 Transformation of energy. Energy is the ability to do work Energy is not visible, has no mass and neither does it occupy space."
       }
     ]
   },
   {
-    "id": "e03e0228-2e86-4965-8401-328f27ccb503",
+    "id": "dde140cd-59f3-4cc9-8231-d68595591413",
     "type": "topic-lesson",
     "title": "Topic 3.1: Transformation of Energy",
     "topic": {
@@ -209,97 +159,45 @@
       "slug": "3-1-transformation-of-energy"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: TRANSFORMATION OF ENERGY\n\nGrade 8 · Integrated Science\nStrand: Strand 3: Force and Energy\nTopic 3.1: Transformation of Energy\n\n• 12-page student textbook module\n• Page structure: Concept explanation → Worked example → Visual…",
+      "lesson": "STUDENT MODULE: Transformation of Energy\nGrade 8 Integrated Science · 3 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Forms of Energy\nPage 2: E…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Transformation of Energy",
+          "title": "Forms of Energy",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Forms of Energy",
+          "title": "Energy Transformations",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Forms of Energy",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 4,
-          "title": "Forms of Energy",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 5,
-          "title": "Forms of Energy",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 6,
-          "title": "Examples of objects that possess Kinetic energy (KE) include",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 7,
-          "title": "Examples of objects that possess Kinetic energy (KE) include",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 8,
-          "title": "Examples of objects that possess Kinetic energy (KE) include",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 9,
           "title": "Safety with Energy Transformations",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 10,
-          "title": "Safety with Energy Transformations",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 11,
-          "title": "These appliances include",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 12,
-          "title": "To reduce electricity accidents the following should be done",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 12
+      "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:10.674Z",
-      "wordCount": 7002,
+      "createdAt": "2026-07-22T23:18:21.472Z",
+      "wordCount": 1111,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 15,
-      "contentSource": "g8-is-student-textbook-v4",
+      "questionCount": 8,
+      "contentSource": "g8-is-engine-v5",
       "sourceChars": 7955,
-      "freePageCount": 12,
-      "totalStudyPages": 12,
+      "freePageCount": 3,
+      "totalStudyPages": 3,
       "lockPages": false,
+      "uniquePracticalSections": 3,
+      "uniqueVisualSections": 3,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
       ]
@@ -309,12 +207,12 @@
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "3.1 Transformation of energy. Energy is the ability to do work Energy is not visible, has no mass and neither does it occupy space. Energy exists in different forms."
+        "excerpt": "3.1 Transformation of energy. Energy is the ability to do work Energy is not visible, has no mass and neither does it occupy space."
       }
     ]
   },
   {
-    "id": "a9137168-02a2-4234-9a23-112d7412747d",
+    "id": "76e5de9f-91b9-4f95-bd39-adcfc3a6cee0",
     "type": "video-script",
     "title": "Video: Reproduction in human beings",
     "topic": {
@@ -329,30 +227,31 @@
     },
     "pages": {
       "lesson": "…",
-      "quiz": "VIDEO SCRIPT: REPRODUCTION IN HUMAN BEINGS\nGrade 8 Integrated Science · 7-page student module\n\n[0:00] Open on page 1 title: Human Reproduction\n[0:20] Read key concept paragraph; highlight definitions …",
+      "quiz": "### Video Title: 2.3 Reproduction in human beings — Human Reproductive Systems and Processes\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Ama…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:10.493Z",
-      "wordCount": 72,
+      "createdAt": "2026-07-22T23:18:21.294Z",
+      "wordCount": 300,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-textbook-v4",
-      "linkedLessonId": "6e3c9932-b4ce-405b-9822-dfd7f014eb31"
+      "contentSource": "g8-is-engine-v5",
+      "linkedLessonId": "3fdcd674-8dba-4892-97e5-51ea3842700d",
+      "videoFormat": "2d-3d-cartoon"
     },
     "sources": [
       {
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.3 Reproduction in Human Beings.  Menstrual cycle. Menstrual cycle consists of natural changes that occur to the body of a female human being every month in preparatio to pregnancy. A menstrual cycle lasts between 28-35 days. However, thi"
+        "excerpt": "2.3 Reproduction in Human Beings.  Menstrual cycle. Menstrual cycle consists of natural changes that occur to the body of a female human being every month in preparatio to pregnancy."
       }
     ]
   },
   {
-    "id": "6e3c9932-b4ce-405b-9822-dfd7f014eb31",
+    "id": "3fdcd674-8dba-4892-97e5-51ea3842700d",
     "type": "topic-lesson",
     "title": "Topic 2.3: Reproduction in human beings",
     "topic": {
@@ -366,67 +265,39 @@
       "slug": "2-3-reproduction-in-human-beings"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: REPRODUCTION IN HUMAN BEINGS\n\nGrade 8 · Integrated Science\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.3: Reproduction in human beings\n\n• 7-page student textbook module\n• Page structure: Concept explanation…",
+      "lesson": "STUDENT MODULE: Reproduction in human beings\nGrade 8 Integrated Science · 2 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Human Reproductive Sy…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Human Reproduction",
+          "title": "Human Reproductive Systems and Processes",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Human Reproduction",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 3,
-          "title": "Human Reproduction",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 4,
-          "title": "Human Reproduction",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 5,
-          "title": "Human Reproduction",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 6,
-          "title": "Human Reproduction",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 7,
-          "title": "Human Reproduction",
+          "title": "Reproductive Health, Hygiene and Care",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 7
+      "freePageCount": 2
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:10.297Z",
-      "wordCount": 3619,
+      "createdAt": "2026-07-22T23:18:21.087Z",
+      "wordCount": 940,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 15,
-      "contentSource": "g8-is-student-textbook-v4",
+      "questionCount": 7,
+      "contentSource": "g8-is-engine-v5",
       "sourceChars": 5135,
-      "freePageCount": 7,
-      "totalStudyPages": 7,
+      "freePageCount": 2,
+      "totalStudyPages": 2,
       "lockPages": false,
+      "uniquePracticalSections": 2,
+      "uniqueVisualSections": 2,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
       ]
@@ -436,12 +307,12 @@
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.3 Reproduction in Human Beings.  Menstrual cycle. Menstrual cycle consists of natural changes that occur to the body of a female human being every month in preparatio to pregnancy. A menstrual cycle lasts between 28-35 days. However, thi"
+        "excerpt": "2.3 Reproduction in Human Beings.  Menstrual cycle. Menstrual cycle consists of natural changes that occur to the body of a female human being every month in preparatio to pregnancy."
       }
     ]
   },
   {
-    "id": "ce17a48e-1122-4581-b2d4-aa1ff423c0dc",
+    "id": "dc109ef1-38af-4a67-ae0b-d9cbe943ace3",
     "type": "video-script",
     "title": "Video: Movement of Materials in and out of the cell",
     "topic": {
@@ -456,30 +327,31 @@
     },
     "pages": {
       "lesson": "…",
-      "quiz": "VIDEO SCRIPT: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\nGrade 8 Integrated Science · 12-page student module\n\n[0:00] Open on page 1 title: Solutes, Solvents and Solutions\n[0:20] Read key concept par…",
+      "quiz": "### Video Title: 2.2 Movement of Materials in and out of the cell — Solutes, Solvents and Concentration\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  …",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:10.107Z",
-      "wordCount": 79,
+      "createdAt": "2026-07-22T23:18:20.907Z",
+      "wordCount": 319,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-textbook-v4",
-      "linkedLessonId": "aabe9027-829c-4511-9223-e4d935da1624"
+      "contentSource": "g8-is-engine-v5",
+      "linkedLessonId": "103e002f-8478-4757-af1c-da3083ab54eb",
+      "videoFormat": "2d-3d-cartoon"
     },
     "sources": [
       {
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.2 Movement of Material in and Out of the Cell. Diffusion and Osmosis. Meaning of Terms. Solutes and solvent."
+        "excerpt": "2.2 Movement of Material in and Out of the Cell. Diffusion and Osmosis. Meaning of Terms."
       }
     ]
   },
   {
-    "id": "aabe9027-829c-4511-9223-e4d935da1624",
+    "id": "103e002f-8478-4757-af1c-da3083ab54eb",
     "type": "topic-lesson",
     "title": "Topic 2.2: Movement of Materials in and out of the cell",
     "topic": {
@@ -493,97 +365,51 @@
       "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\n\nGrade 8 · Integrated Science\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.2: Movement of Materials in and out of the cell\n\n• 12-page student textbook module\n• Pa…",
+      "lesson": "STUDENT MODULE: Movement of Materials in and out of the cell\nGrade 8 Integrated Science · 4 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Solut…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Solutes, Solvents and Solutions",
+          "title": "Solutes, Solvents and Concentration",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Concentrated and Dilute Solutions",
+          "title": "Diffusion",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Diffusion",
+          "title": "Osmosis and the Cell Membrane",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Diffusion",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 5,
-          "title": "Diffusion",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 6,
-          "title": "Diffusion",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 7,
-          "title": "Diffusion",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 8,
-          "title": "Osmosis Experiment",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 9,
-          "title": "Osmosis Experiment",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 10,
-          "title": "Osmosis Experiment",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 11,
-          "title": "The Cell Membrane and Osmosis",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 12,
-          "title": "The Cell Membrane and Osmosis",
+          "title": "Roles of Osmosis in Plants and Animals",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 12
+      "freePageCount": 4
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:09.903Z",
-      "wordCount": 7581,
+      "createdAt": "2026-07-22T23:18:20.722Z",
+      "wordCount": 1998,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 15,
-      "contentSource": "g8-is-student-textbook-v4",
+      "questionCount": 9,
+      "contentSource": "g8-is-engine-v5",
       "sourceChars": 9850,
-      "freePageCount": 12,
-      "totalStudyPages": 12,
+      "freePageCount": 4,
+      "totalStudyPages": 4,
       "lockPages": false,
+      "uniquePracticalSections": 4,
+      "uniqueVisualSections": 4,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
       ]
@@ -593,12 +419,12 @@
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.2 Movement of Material in and Out of the Cell. Diffusion and Osmosis. Meaning of Terms. Solutes and solvent."
+        "excerpt": "2.2 Movement of Material in and Out of the Cell. Diffusion and Osmosis. Meaning of Terms."
       }
     ]
   },
   {
-    "id": "bbb54290-28a0-45b4-8e2c-ca1ec9daf2aa",
+    "id": "4f366b5e-729c-47fb-b91d-203ca122df3f",
     "type": "video-script",
     "title": "Video: The Cell",
     "topic": {
@@ -613,30 +439,31 @@
     },
     "pages": {
       "lesson": "…",
-      "quiz": "VIDEO SCRIPT: THE CELL\nGrade 8 Integrated Science · 9-page student module\n\n[0:00] Open on page 1 title: The Cell\n[0:20] Read key concept paragraph; highlight definitions on screen\n[2:00] Worked exampl…",
+      "quiz": "### Video Title: 2.1 The Cell — Plant and Animal Cell Structures\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic young scien…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:09.709Z",
-      "wordCount": 70,
+      "createdAt": "2026-07-22T23:18:20.537Z",
+      "wordCount": 299,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-textbook-v4",
-      "linkedLessonId": "63a1ee17-b340-4e29-836c-37cd04c34d66"
+      "contentSource": "g8-is-engine-v5",
+      "linkedLessonId": "b9ff3194-dcae-4f36-b692-c46546a335b3",
+      "videoFormat": "2d-3d-cartoon"
     },
     "sources": [
       {
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.1 The Cell. Cells make up the structure of living organisms and carry out various biological processes. Organisms such as amoeba are composed of a single cell hence are said to be unicellular. Organisms such as plants and animals are comp"
+        "excerpt": "2.1 The Cell. Cells make up the structure of living organisms and carry out various biological processes. Organisms such as amoeba are composed of a single cell hence are said to be unicellular."
       }
     ]
   },
   {
-    "id": "63a1ee17-b340-4e29-836c-37cd04c34d66",
+    "id": "b9ff3194-dcae-4f36-b692-c46546a335b3",
     "type": "topic-lesson",
     "title": "Topic 2.1: The Cell",
     "topic": {
@@ -650,79 +477,39 @@
       "slug": "2-1-the-cell"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: THE CELL\n\nGrade 8 · Integrated Science\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.1: The Cell\n\n• 9-page student textbook module\n• Page structure: Concept explanation → Worked example → Visual model → Appli…",
+      "lesson": "STUDENT MODULE: The Cell\nGrade 8 Integrated Science · 2 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Plant and Animal Cell Structures\nPage 2: …",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "The Cell",
+          "title": "Plant and Animal Cell Structures",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "The Cell",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 3,
-          "title": "Animal cells",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 4,
-          "title": "Animal cells usually do not have vacuoles, however, small temporary vacuoles may occur",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 5,
-          "title": "Animal cells usually do not have vacuoles, however, small temporary vacuoles may occur",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 6,
-          "title": "Plant cells",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 7,
-          "title": "Magnification of Cells",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 8,
-          "title": "Magnification of Cells",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 9,
-          "title": "Magnification of Cells",
+          "title": "Magnification with the Light Microscope",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 9
+      "freePageCount": 2
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:09.504Z",
-      "wordCount": 5264,
+      "createdAt": "2026-07-22T23:18:20.327Z",
+      "wordCount": 1050,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 15,
-      "contentSource": "g8-is-student-textbook-v4",
+      "questionCount": 7,
+      "contentSource": "g8-is-engine-v5",
       "sourceChars": 4544,
-      "freePageCount": 9,
-      "totalStudyPages": 9,
+      "freePageCount": 2,
+      "totalStudyPages": 2,
       "lockPages": false,
+      "uniquePracticalSections": 2,
+      "uniqueVisualSections": 2,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
       ]
@@ -732,12 +519,12 @@
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.1 The Cell. Cells make up the structure of living organisms and carry out various biological processes. Organisms such as amoeba are composed of a single cell hence are said to be unicellular. Organisms such as plants and animals are comp"
+        "excerpt": "2.1 The Cell. Cells make up the structure of living organisms and carry out various biological processes. Organisms such as amoeba are composed of a single cell hence are said to be unicellular."
       }
     ]
   },
   {
-    "id": "28754de5-d2bf-4268-94b5-292a4c7c5406",
+    "id": "744e747f-bf02-4576-abaa-9cd590721ba6",
     "type": "video-script",
     "title": "Video: Classes of fire",
     "topic": {
@@ -752,30 +539,31 @@
     },
     "pages": {
       "lesson": "…",
-      "quiz": "VIDEO SCRIPT: CLASSES OF FIRE\nGrade 8 Integrated Science · 7-page student module\n\n[0:00] Open on page 1 title: Classes of Fire\n[0:20] Read key concept paragraph; highlight definitions on screen\n[2:00]…",
+      "quiz": "### Video Title: 1.3 Classes of fire — Classes of Fire and the Fire Triangle\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:09.316Z",
-      "wordCount": 72,
+      "createdAt": "2026-07-22T23:18:20.145Z",
+      "wordCount": 313,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-textbook-v4",
-      "linkedLessonId": "df4c6352-eb16-4979-91e5-eec18b141e37"
+      "contentSource": "g8-is-engine-v5",
+      "linkedLessonId": "dd8e7de4-f3cd-4501-832e-1e38901c31f0",
+      "videoFormat": "2d-3d-cartoon"
     },
     "sources": [
       {
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "-Classes of Fire. Fires can be classified between four and seven classes. The following are six classes of fire mostly widely used and accepted. Class"
+        "excerpt": "-Classes of Fire. Fires can be classified between four and seven classes. The following are six classes of fire mostly widely used and accepted."
       }
     ]
   },
   {
-    "id": "df4c6352-eb16-4979-91e5-eec18b141e37",
+    "id": "dd8e7de4-f3cd-4501-832e-1e38901c31f0",
     "type": "topic-lesson",
     "title": "Topic 1.3: Classes of fire",
     "topic": {
@@ -789,67 +577,39 @@
       "slug": "1-3-classes-of-fire"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: CLASSES OF FIRE\n\nGrade 8 · Integrated Science\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.3: Classes of fire\n\n• 7-page student textbook module\n• Page structure: Concept explanation → Worked example → Visual mo…",
+      "lesson": "STUDENT MODULE: Classes of fire\nGrade 8 Integrated Science · 2 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Classes of Fire and the Fire Trian…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Classes of Fire",
+          "title": "Classes of Fire and the Fire Triangle",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Classes of Fire",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 3,
-          "title": "Classes of Fire",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 4,
-          "title": "Classes of Fire",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 5,
-          "title": "Classes of Fire",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 6,
-          "title": "Classes of Fire",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 7,
-          "title": "Classes of Fire",
+          "title": "Fire Safety and Extinguishing Methods",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 7
+      "freePageCount": 2
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:09.120Z",
-      "wordCount": 4422,
+      "createdAt": "2026-07-22T23:18:19.937Z",
+      "wordCount": 769,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 15,
-      "contentSource": "g8-is-student-textbook-v4",
+      "questionCount": 7,
+      "contentSource": "g8-is-engine-v5",
       "sourceChars": 4475,
-      "freePageCount": 7,
-      "totalStudyPages": 7,
+      "freePageCount": 2,
+      "totalStudyPages": 2,
       "lockPages": false,
+      "uniquePracticalSections": 2,
+      "uniqueVisualSections": 2,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
       ]
@@ -859,12 +619,12 @@
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "-Classes of Fire. Fires can be classified between four and seven classes. The following are six classes of fire mostly widely used and accepted. Class"
+        "excerpt": "-Classes of Fire. Fires can be classified between four and seven classes. The following are six classes of fire mostly widely used and accepted."
       }
     ]
   },
   {
-    "id": "82b49667-7d80-4db2-82d0-975fec187a90",
+    "id": "a884f24e-f902-4a80-9211-1fdc840e52d0",
     "type": "video-script",
     "title": "Video: Physical and chemical changes",
     "topic": {
@@ -879,30 +639,31 @@
     },
     "pages": {
       "lesson": "…",
-      "quiz": "VIDEO SCRIPT: PHYSICAL AND CHEMICAL CHANGES\nGrade 8 Integrated Science · 12-page student module\n\n[0:00] Open on page 1 title: Chemical Changes\n[0:20] Read key concept paragraph; highlight definitions …",
+      "quiz": "### Video Title: 1.2 Physical and chemical changes — States of Matter and Their Properties\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:08.933Z",
-      "wordCount": 72,
+      "createdAt": "2026-07-22T23:18:19.739Z",
+      "wordCount": 311,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-textbook-v4",
-      "linkedLessonId": "2b868a3e-3c15-47fe-9824-81435af9a233"
+      "contentSource": "g8-is-engine-v5",
+      "linkedLessonId": "db719a6a-d191-46b9-8714-1da69261e07f",
+      "videoFormat": "2d-3d-cartoon"
     },
     "sources": [
       {
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "1.2 -Physical and Chemical changes. Matter is anything that occupies space and has mass. All solids, liquids and gases are made up of matter. The three states of matter have different physical properties."
+        "excerpt": "1.2 -Physical and Chemical changes. Matter is anything that occupies space and has mass. All solids, liquids and gases are made up of matter."
       }
     ]
   },
   {
-    "id": "2b868a3e-3c15-47fe-9824-81435af9a233",
+    "id": "db719a6a-d191-46b9-8714-1da69261e07f",
     "type": "topic-lesson",
     "title": "Topic 1.2: Physical and chemical changes",
     "topic": {
@@ -916,97 +677,51 @@
       "slug": "1-2-physical-and-chemical-changes"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: PHYSICAL AND CHEMICAL CHANGES\n\nGrade 8 · Integrated Science\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.2: Physical and chemical changes\n\n• 12-page student textbook module\n• Page structure: Concept explanation…",
+      "lesson": "STUDENT MODULE: Physical and chemical changes\nGrade 8 Integrated Science · 4 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: States of Matter and…",
       "quiz": "",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Chemical Changes",
+          "title": "States of Matter and Their Properties",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Properties of Solids, Liquids and Gases",
+          "title": "Pure and Impure Substances",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Properties of Solids, Liquids and Gases",
+          "title": "Physical and Chemical Changes",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Properties of Solids, Liquids and Gases",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 5,
-          "title": "Properties of Solids, Liquids and Gases",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 6,
-          "title": "Properties of Solids, Liquids and Gases",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 7,
-          "title": "Properties of Solids, Liquids and Gases",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 8,
-          "title": "Properties of Solids, Liquids and Gases",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 9,
-          "title": "Pure and Impure Substances",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 10,
-          "title": "Pure and Impure Substances",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 11,
-          "title": "Pure and Impure Substances",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 12,
-          "title": "Pure and Impure Substances",
+          "title": "Changes of State in Daily Life",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 12
+      "freePageCount": 4
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:08.723Z",
-      "wordCount": 8197,
+      "createdAt": "2026-07-22T23:18:19.521Z",
+      "wordCount": 2192,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 15,
-      "contentSource": "g8-is-student-textbook-v4",
+      "questionCount": 9,
+      "contentSource": "g8-is-engine-v5",
       "sourceChars": 12644,
-      "freePageCount": 12,
-      "totalStudyPages": 12,
+      "freePageCount": 4,
+      "totalStudyPages": 4,
       "lockPages": false,
+      "uniquePracticalSections": 4,
+      "uniqueVisualSections": 4,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
       ]
@@ -1016,12 +731,12 @@
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "1.2 -Physical and Chemical changes. Matter is anything that occupies space and has mass. All solids, liquids and gases are made up of matter. The three states of matter have different physical properties."
+        "excerpt": "1.2 -Physical and Chemical changes. Matter is anything that occupies space and has mass. All solids, liquids and gases are made up of matter."
       }
     ]
   },
   {
-    "id": "7132c572-6fd6-4e34-8925-4bc2c9a46193",
+    "id": "79a035f1-fc26-4bdc-ae03-b852a6f8b0a5",
     "type": "video-script",
     "title": "Video: Elements and Compounds",
     "topic": {
@@ -1036,30 +751,31 @@
     },
     "pages": {
       "lesson": "…",
-      "quiz": "VIDEO SCRIPT: ELEMENTS AND COMPOUNDS\nGrade 8 Integrated Science · 11-page student module\n\n[0:00] Open on page 1 title: Atoms, Elements and Compounds\n[0:20] Read key concept paragraph; highlight defini…",
+      "quiz": "### Video Title: 1.1 Elements and Compounds — Atoms, Elements and Compounds\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic …",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:08.491Z",
-      "wordCount": 73,
+      "createdAt": "2026-07-22T23:18:19.304Z",
+      "wordCount": 323,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-student-textbook-v4",
-      "linkedLessonId": "aa4ea5f3-aea3-487b-b2df-6cbc508d8af7"
+      "contentSource": "g8-is-engine-v5",
+      "linkedLessonId": "b12de444-448e-4165-ac1a-8525b8173ce3",
+      "videoFormat": "2d-3d-cartoon"
     },
     "sources": [
       {
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "ELEMENTS AND COMPUNDS Meaning of Atoms, Elements, molecules and Compounds. Matter is anything that occupies space and has mass. Matter is composed of pure substances and mixtures."
+        "excerpt": "ELEMENTS AND COMPUNDS Meaning of Atoms, Elements, molecules and Compounds. Matter is anything that occupies space and has mass."
       }
     ]
   },
   {
-    "id": "aa4ea5f3-aea3-487b-b2df-6cbc508d8af7",
+    "id": "b12de444-448e-4165-ac1a-8525b8173ce3",
     "type": "topic-lesson",
     "title": "Topic 1.1: Elements and Compounds",
     "topic": {
@@ -1073,7 +789,7 @@
       "slug": "1-1-elements-and-compounds"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: ELEMENTS AND COMPOUNDS\n\nGrade 8 · Integrated Science\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.1: Elements and Compounds\n\n• 11-page student textbook module\n• Page structure: Concept explanation → Worked exam…",
+      "lesson": "STUDENT MODULE: Elements and Compounds\nGrade 8 Integrated Science · 4 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Atoms, Elements and Compoun…",
       "quiz": "",
       "answers": "",
       "studyPages": [
@@ -1085,79 +801,39 @@
         },
         {
           "pageNumber": 2,
-          "title": "Atoms, Elements and Compounds",
+          "title": "Chemical Symbols of Elements",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Chemical Symbols of Elements",
+          "title": "Elements in Daily Life and Nutrition",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Chemical Symbols of Elements",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 5,
-          "title": "Symbols from Latin Names",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 6,
-          "title": "Elements in Daily Life",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 7,
-          "title": "Elements in Daily Life",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 8,
-          "title": "Mineral Elements for Plants",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 9,
-          "title": "Importance of Gold",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 10,
-          "title": "Importance of Gold",
-          "free": true,
-          "body": ""
-        },
-        {
-          "pageNumber": 11,
-          "title": "Reading Packaging Labels",
+          "title": "Useful Metals and Packaging Labels",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 11
+      "freePageCount": 4
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:39:08.217Z",
-      "wordCount": 6714,
+      "createdAt": "2026-07-22T23:18:19.062Z",
+      "wordCount": 1879,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 15,
-      "contentSource": "g8-is-student-textbook-v4",
+      "questionCount": 9,
+      "contentSource": "g8-is-engine-v5",
       "sourceChars": 6570,
-      "freePageCount": 11,
-      "totalStudyPages": 11,
+      "freePageCount": 4,
+      "totalStudyPages": 4,
       "lockPages": false,
+      "uniquePracticalSections": 4,
+      "uniqueVisualSections": 4,
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
       ]
@@ -1167,12 +843,12 @@
         "id": "g8-is-notes",
         "grade": "grade-8",
         "subject": "INTEGRATED SCIENCE",
-        "excerpt": "ELEMENTS AND COMPUNDS Meaning of Atoms, Elements, molecules and Compounds. Matter is anything that occupies space and has mass. Matter is composed of pure substances and mixtures."
+        "excerpt": "ELEMENTS AND COMPUNDS Meaning of Atoms, Elements, molecules and Compounds. Matter is anything that occupies space and has mass."
       }
     ]
   },
   {
-    "id": "f1195f21-83cb-412a-b033-9e4d7de50f9e",
+    "id": "020239de-b6b0-4d50-a115-a9f592060514",
     "type": "premium-exam",
     "title": "Grade 8 INTEGRATED SCIENCE — Premium Revision Paper",
     "topic": {
@@ -1186,7 +862,7 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:38:24.852Z",
+      "createdAt": "2026-07-22T23:13:43.921Z",
       "wordCount": 1454,
       "reviewed": false,
       "category": "premium",
@@ -1208,7 +884,7 @@
     "body": "GRADE 8 INTEGRATED SCIENCE — PREMIUM REVISION PAPER\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This is an advanced revision paper.\n2. Show working where needed.\n3. Answer all questions.…"
   },
   {
-    "id": "b0b1f310-5323-4d11-bcf2-1f4242124d6c",
+    "id": "4f7638d3-9d2a-4eea-b703-3b5295e49abe",
     "type": "mock-exam",
     "title": "Grade 8 INTEGRATED SCIENCE — Mock Exam",
     "topic": {
@@ -1222,7 +898,7 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:38:24.641Z",
+      "createdAt": "2026-07-22T23:13:43.738Z",
       "wordCount": 1454,
       "reviewed": false,
       "category": "mock",
@@ -1244,7 +920,7 @@
     "body": "GRADE 8 INTEGRATED SCIENCE — MOCK EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 64 minutes\n\nINSTRUCTIONS\n1. This mock paper follows CBC assessment style.\n2. Answer all questions.\n3. Manage your time carefully.\n2…"
   },
   {
-    "id": "84be7f2d-e7a4-48cc-9c7f-02c6b5323e57",
+    "id": "cc53c778-f859-4434-9f5b-92c9c8c583fd",
     "type": "termly-exam",
     "title": "Grade 8 INTEGRATED SCIENCE — Term 3 Exam",
     "topic": {
@@ -1258,7 +934,7 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:38:24.450Z",
+      "createdAt": "2026-07-22T23:13:43.524Z",
       "wordCount": 476,
       "reviewed": false,
       "category": "termly",
@@ -1280,7 +956,7 @@
     "body": "GRADE 8 INTEGRATED SCIENCE — TERM 3 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
   },
   {
-    "id": "285b8dd0-24d6-4459-996d-9e8aa9337382",
+    "id": "8e743a7e-4d40-4edd-b596-44c6c9afadff",
     "type": "termly-exam",
     "title": "Grade 8 INTEGRATED SCIENCE — Term 2 Exam",
     "topic": {
@@ -1294,7 +970,7 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:38:24.246Z",
+      "createdAt": "2026-07-22T23:13:43.337Z",
       "wordCount": 643,
       "reviewed": false,
       "category": "termly",
@@ -1316,7 +992,7 @@
     "body": "GRADE 8 INTEGRATED SCIENCE — TERM 2 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
   },
   {
-    "id": "b7e850a7-4deb-48a3-ae54-80dc8569ed3c",
+    "id": "262260b5-42af-4795-bdbd-f00230db85a0",
     "type": "termly-exam",
     "title": "Grade 8 INTEGRATED SCIENCE — Term 1 Exam",
     "topic": {
@@ -1330,7 +1006,7 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:38:24.053Z",
+      "createdAt": "2026-07-22T23:13:43.107Z",
       "wordCount": 575,
       "reviewed": false,
       "category": "termly",
@@ -1352,7 +1028,7 @@
     "body": "GRADE 8 INTEGRATED SCIENCE — TERM 1 EXAM\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nTime: 30 minutes\n\nINSTRUCTIONS\n1. Answer all questions.\n2. Use neat handwriting.\n2. For multiple choice, write the correct letter only.…"
   },
   {
-    "id": "fc80f676-d7c5-4976-9651-cc0212102fca",
+    "id": "7335e388-016f-405a-b3c6-60fa75fa79e4",
     "type": "exam",
     "title": "Grade 8 INTEGRATED SCIENCE — General Assessment",
     "topic": {
@@ -1366,7 +1042,7 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T22:38:23.809Z",
+      "createdAt": "2026-07-22T23:13:42.866Z",
       "wordCount": 1445,
       "reviewed": false,
       "category": "general",
