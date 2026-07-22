@@ -1,5 +1,28 @@
 # Windows — get multi-page Grade 8 Integrated Science
 
+## FIRST: open the project folder
+
+Do **not** run commands from `C:\Users\user`.
+
+```powershell
+cd C:\Users\user\General
+dir package.json
+# must show package.json — if missing, find the repo:
+Get-ChildItem -Path C:\Users\user -Filter package.json -Recurse -ErrorAction SilentlyContinue -Depth 4 |
+  Where-Object { $_.DirectoryName -match 'General' } |
+  Select-Object -ExpandProperty DirectoryName
+```
+
+If you never cloned the repo:
+
+```powershell
+cd C:\Users\user
+git clone https://github.com/Murphy601/General.git
+cd General
+git fetch --depth 1 origin cursor/cbc-learning-website-0ec7
+git checkout cursor/cbc-learning-website-0ec7
+```
+
 ## You are on OLD content if you see this
 
 ```
