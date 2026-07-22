@@ -47,14 +47,20 @@ Get-Process -Name node -ErrorAction SilentlyContinue | Stop-Process -Force
 git config --global http.postBuffer 524288000
 git config --global http.version HTTP/1.1
 git fetch --depth 1 origin cursor/cbc-learning-website-0ec7
+
+# IMPORTANT: discard local content edits so checkout cannot abort
 git reset --hard FETCH_HEAD
+git clean -fd
+git checkout -B cursor/cbc-learning-website-0ec7 FETCH_HEAD
 git log -1 --oneline
-# must be NEWER than b06c8e0 — look for “multi-page” or later commits
+# must show ba556337 or NEWER (not c8d3af8b / b06c8e0)
 
 npm run web:clean
 npm run curriculum:prepare
-# Restore multi-page G8 Integrated Science (safe even after rebuild-study)
 npm run content:g8-is-pages
+# SUCCESS looks like: "all pages UNLOCKED" and 1.1 = 15 pages
+# FAIL (old script) looks like: "freePages=3" and 1.1 = 8 pages with locks
+
 cd web
 npm run dev
 ```
