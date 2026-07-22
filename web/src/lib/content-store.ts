@@ -46,9 +46,56 @@ export function listContent(filters?: {
 export function getContent(id: string): GeneratedContent | undefined {
   const filePath = join(CONTENT_DIR, `${id}.json`);
   if (existsSync(filePath)) {
-    return JSON.parse(readFileSync(filePath, 'utf8'));
+    const raw = readFileSync(filePath, 'utf8').trim();
+    // Empty files are left behind when a topic is replaced; ignore them.
+    if (raw) {
+      try {
+        const parsed = JSON.parse(raw) as GeneratedContent;
+        return hydrateStudyPages(parsed);
+      } catch {
+        /* fall through to index */
+      }
+    }
   }
-  return readIndex().find((i) => i.id === id);
+  const fromIndex = readIndex().find((i) => i.id === id);
+  return fromIndex ? hydrateStudyPages(fromIndex) : undefined;
+}
+
+/** Prefer full studyPages; if bodies were stripped in the index, rebuild from PAGE markers. */
+function hydrateStudyPages(content: GeneratedContent): GeneratedContent {
+  if (!content.pages) return content;
+  const pages = content.pages.studyPages || [];
+  const hasBodies = pages.some((p) => Boolean(p.body?.trim()));
+  if (pages.length && hasBodies) return content;
+
+  const fromLesson = parseStudyPagesFromLesson(content.pages.lesson || '');
+  if (!fromLesson.length) return content;
+
+  const freeCount = content.pages.freePageCount || content.metadata?.freePageCount || 3;
+  return {
+    ...content,
+    pages: {
+      ...content.pages,
+      freePageCount: freeCount,
+      studyPages: fromLesson.map((p) => ({
+        ...p,
+        free: p.pageNumber <= freeCount,
+      })),
+    },
+  };
+}
+
+function parseStudyPagesFromLesson(lesson: string) {
+  const text = String(lesson || '');
+  if (!/^PAGE\s+\d+/im.test(text) && !/\nPAGE\s+\d+/i.test(text)) return [];
+  const parts = text.split(/(?=^PAGE\s+\d+)/im).filter((p) => /^PAGE\s+\d+/i.test(p.trim()));
+  return parts.map((block, idx) => {
+    const first = block.trim().split('\n')[0] || '';
+    const m = first.match(/^PAGE\s+(\d+)\s*:\s*(.+)$/i);
+    const pageNumber = m ? Number(m[1]) : idx + 1;
+    const title = (m?.[2] || `Page ${pageNumber}`).trim();
+    return { pageNumber, title, body: block.trim(), free: true };
+  });
 }
 
 export function getCurriculumIndex(): { grades: CurriculumGrade[] } | null {

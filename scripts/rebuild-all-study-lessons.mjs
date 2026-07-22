@@ -37,3 +37,17 @@ for (const grade of grades) {
 }
 
 console.log('\nAll PP1–Grade 9 study lessons rebuilt.');
+
+// Multi-page Grade 8 Integrated Science (notes + paywall) must win over the
+// single-page classroom template — always re-apply after a full rebuild.
+console.log('\n########## grade-8 integrated science (multi-page) ##########');
+const g8 = spawnSync(process.execPath, ['scripts/build-g8-integrated-science-pages.mjs'], {
+  cwd: root,
+  stdio: 'inherit',
+});
+if (g8.status !== 0) {
+  console.error('Failed rebuilding Grade 8 Integrated Science multi-page lessons');
+  process.exit(g8.status || 1);
+}
+
+console.log('\nRebuild complete (multi-page G8 Integrated Science restored).');

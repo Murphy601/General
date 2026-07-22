@@ -43,9 +43,15 @@ export default async function TopicLessonPage({
               priceKes: content.metadata?.priceKes,
               freePageCount: content.pages?.freePageCount || content.metadata?.freePageCount,
               totalStudyPages: content.metadata?.totalStudyPages,
+              contentSource: content.metadata?.contentSource,
             },
           }}
-          unlocked={content.metadata?.access === 'free'}
+          // Multi-page lessons keep page-level locks even when the topic tier is "free".
+          unlocked={
+            Boolean(content.pages?.studyPages?.length)
+              ? false
+              : content.metadata?.access === 'free'
+          }
         />
       </Suspense>
 

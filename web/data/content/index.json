@@ -1,6 +1,6 @@
 [
   {
-    "id": "70e89ad0-8408-4557-af11-a4174b0d66a7",
+    "id": "0662d248-6d3c-404e-84ff-0401e8ab3416",
     "type": "video-script",
     "title": "Video: Pressure",
     "topic": {
@@ -19,13 +19,13 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:27.289Z",
+      "createdAt": "2026-07-22T21:16:21.386Z",
       "wordCount": 63,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "contentSource": "g8-is-notes-multipage",
-      "linkedLessonId": "0c602094-e577-41e9-acad-07386c20bc6f"
+      "linkedLessonId": "b50af7ea-9428-4867-a964-cb39fe7b95dc"
     },
     "sources": [
       {
@@ -37,7 +37,7 @@
     ]
   },
   {
-    "id": "0c602094-e577-41e9-acad-07386c20bc6f",
+    "id": "b50af7ea-9428-4867-a964-cb39fe7b95dc",
     "type": "topic-lesson",
     "title": "Topic 3.2: Pressure",
     "topic": {
@@ -125,7 +125,7 @@
       "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:27.092Z",
+      "createdAt": "2026-07-22T21:16:21.196Z",
       "wordCount": 2870,
       "reviewed": false,
       "access": "paid",
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "id": "b595a77e-721e-4694-9d3d-ba5cec9f6849",
+    "id": "4902e933-a948-46de-a26e-0f09a137944f",
     "type": "video-script",
     "title": "Video: Transformation of Energy",
     "topic": {
@@ -168,13 +168,13 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:26.915Z",
+      "createdAt": "2026-07-22T21:16:21.009Z",
       "wordCount": 66,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "contentSource": "g8-is-notes-multipage",
-      "linkedLessonId": "b2857e77-f0eb-4176-8539-2392ce113ba9"
+      "linkedLessonId": "afa5980d-b7c3-4e00-aa8c-8793bcd3b463"
     },
     "sources": [
       {
@@ -186,7 +186,7 @@
     ]
   },
   {
-    "id": "b2857e77-f0eb-4176-8539-2392ce113ba9",
+    "id": "afa5980d-b7c3-4e00-aa8c-8793bcd3b463",
     "type": "topic-lesson",
     "title": "Topic 3.1: Transformation of Energy",
     "topic": {
@@ -262,7 +262,7 @@
       "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:26.718Z",
+      "createdAt": "2026-07-22T21:16:20.787Z",
       "wordCount": 2233,
       "reviewed": false,
       "access": "paid",
@@ -286,7 +286,7 @@
     ]
   },
   {
-    "id": "b18b5c02-cb65-43b6-bcc3-a5b0ed6d1318",
+    "id": "b55ceeb2-accf-4f87-8411-2999039abf55",
     "type": "video-script",
     "title": "Video: Reproduction in human beings",
     "topic": {
@@ -305,13 +305,13 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:26.530Z",
+      "createdAt": "2026-07-22T21:16:20.589Z",
       "wordCount": 68,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "contentSource": "g8-is-notes-multipage",
-      "linkedLessonId": "126b469c-fe1d-46d6-b047-5a93c8915702"
+      "linkedLessonId": "69ef4642-65c7-48cc-aca5-c2a975b5b787"
     },
     "sources": [
       {
@@ -323,7 +323,7 @@
     ]
   },
   {
-    "id": "126b469c-fe1d-46d6-b047-5a93c8915702",
+    "id": "69ef4642-65c7-48cc-aca5-c2a975b5b787",
     "type": "topic-lesson",
     "title": "Topic 2.3: Reproduction in human beings",
     "topic": {
@@ -381,7 +381,7 @@
       "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:26.337Z",
+      "createdAt": "2026-07-22T21:16:20.373Z",
       "wordCount": 1444,
       "reviewed": false,
       "access": "paid",
@@ -405,7 +405,7 @@
     ]
   },
   {
-    "id": "af397ec6-a45a-4433-abb4-dfdb68b9e915",
+    "id": "3f651a5e-9b37-4480-af4f-6b08e3f40841",
     "type": "video-script",
     "title": "Video: Movement of Materials in and out of the cell",
     "topic": {
@@ -424,13 +424,13 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:26.153Z",
+      "createdAt": "2026-07-22T21:16:20.183Z",
       "wordCount": 78,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "contentSource": "g8-is-notes-multipage",
-      "linkedLessonId": "b14ed118-8644-4967-8b98-364211d7f0ce"
+      "linkedLessonId": "db1d132e-4ca3-41dc-8a89-daffab10fb7d"
     },
     "sources": [
       {
@@ -442,7 +442,7 @@
     ]
   },
   {
-    "id": "b14ed118-8644-4967-8b98-364211d7f0ce",
+    "id": "db1d132e-4ca3-41dc-8a89-daffab10fb7d",
     "type": "topic-lesson",
     "title": "Topic 2.2: Movement of Materials in and out of the cell",
     "topic": {
@@ -530,7 +530,7 @@
       "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:25.947Z",
+      "createdAt": "2026-07-22T21:16:19.972Z",
       "wordCount": 2846,
       "reviewed": false,
       "access": "paid",
@@ -554,7 +554,7 @@
     ]
   },
   {
-    "id": "23ebe50c-8754-40b1-b41d-e7af11b814e2",
+    "id": "2f72dcec-c01b-465d-b2ba-9436733e1a9e",
     "type": "video-script",
     "title": "Video: The Cell",
     "topic": {
@@ -573,13 +573,13 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:25.755Z",
+      "createdAt": "2026-07-22T21:16:19.771Z",
       "wordCount": 64,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "contentSource": "g8-is-notes-multipage",
-      "linkedLessonId": "317025a7-66c0-4c4e-bae2-39abfddb7e96"
+      "linkedLessonId": "7c8af51e-ce98-4490-8007-f3e1c44f02d6"
     },
     "sources": [
       {
@@ -591,7 +591,7 @@
     ]
   },
   {
-    "id": "317025a7-66c0-4c4e-bae2-39abfddb7e96",
+    "id": "7c8af51e-ce98-4490-8007-f3e1c44f02d6",
     "type": "topic-lesson",
     "title": "Topic 2.1: The Cell",
     "topic": {
@@ -643,7 +643,7 @@
       "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:25.541Z",
+      "createdAt": "2026-07-22T21:16:19.565Z",
       "wordCount": 1307,
       "reviewed": false,
       "access": "paid",
@@ -667,7 +667,7 @@
     ]
   },
   {
-    "id": "4001cbcd-fe13-4a07-b0e6-2ee218de80f4",
+    "id": "d105866e-f288-46da-b295-91408cae7930",
     "type": "video-script",
     "title": "Video: Classes of fire",
     "topic": {
@@ -686,13 +686,13 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:25.350Z",
+      "createdAt": "2026-07-22T21:16:19.387Z",
       "wordCount": 65,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "contentSource": "g8-is-notes-multipage",
-      "linkedLessonId": "6d7c2be0-547b-48eb-8218-10286b3b9581"
+      "linkedLessonId": "a7e1ab54-4545-4990-a217-ef85591d4184"
     },
     "sources": [
       {
@@ -704,7 +704,7 @@
     ]
   },
   {
-    "id": "6d7c2be0-547b-48eb-8218-10286b3b9581",
+    "id": "a7e1ab54-4545-4990-a217-ef85591d4184",
     "type": "topic-lesson",
     "title": "Topic 1.3: Classes of fire",
     "topic": {
@@ -756,7 +756,7 @@
       "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:25.138Z",
+      "createdAt": "2026-07-22T21:16:19.185Z",
       "wordCount": 1168,
       "reviewed": false,
       "access": "paid",
@@ -780,7 +780,7 @@
     ]
   },
   {
-    "id": "01e1230b-6888-4315-96f2-cbfe5c4d4874",
+    "id": "0a0d5f1a-3029-42c6-b5d4-e05c634c173c",
     "type": "video-script",
     "title": "Video: Physical and chemical changes",
     "topic": {
@@ -799,13 +799,13 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:24.940Z",
+      "createdAt": "2026-07-22T21:16:18.981Z",
       "wordCount": 68,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "contentSource": "g8-is-notes-multipage",
-      "linkedLessonId": "4e90de62-6794-46a4-b9d0-6b99800edc63"
+      "linkedLessonId": "1ec88b83-930b-4c2a-9faa-05212f04d369"
     },
     "sources": [
       {
@@ -817,7 +817,7 @@
     ]
   },
   {
-    "id": "4e90de62-6794-46a4-b9d0-6b99800edc63",
+    "id": "1ec88b83-930b-4c2a-9faa-05212f04d369",
     "type": "topic-lesson",
     "title": "Topic 1.2: Physical and chemical changes",
     "topic": {
@@ -923,7 +923,7 @@
       "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:24.733Z",
+      "createdAt": "2026-07-22T21:16:18.765Z",
       "wordCount": 3566,
       "reviewed": false,
       "access": "paid",
@@ -947,7 +947,7 @@
     ]
   },
   {
-    "id": "eae6cb07-3ce2-44dc-b99d-f4a1b8c06c68",
+    "id": "32eae5fa-fb4c-4942-b0c2-3ef3b836da01",
     "type": "video-script",
     "title": "Video: Elements and Compounds",
     "topic": {
@@ -966,13 +966,13 @@
       "answers": ""
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:24.525Z",
+      "createdAt": "2026-07-22T21:16:18.557Z",
       "wordCount": 66,
       "reviewed": false,
       "access": "free",
       "priceKes": 0,
       "contentSource": "g8-is-notes-multipage",
-      "linkedLessonId": "149393b1-b4a2-4a83-975c-8c25c6f6caad"
+      "linkedLessonId": "555abdab-fef1-44f5-a8e9-7c31f75a031f"
     },
     "sources": [
       {
@@ -984,7 +984,7 @@
     ]
   },
   {
-    "id": "149393b1-b4a2-4a83-975c-8c25c6f6caad",
+    "id": "555abdab-fef1-44f5-a8e9-7c31f75a031f",
     "type": "topic-lesson",
     "title": "Topic 1.1: Elements and Compounds",
     "topic": {
@@ -1054,7 +1054,7 @@
       "freePageCount": 3
     },
     "metadata": {
-      "createdAt": "2026-07-22T21:09:24.282Z",
+      "createdAt": "2026-07-22T21:16:18.315Z",
       "wordCount": 1759,
       "reviewed": false,
       "access": "paid",

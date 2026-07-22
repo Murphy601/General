@@ -149,7 +149,12 @@ export function TopicViewer({
       studyPages?: StudyPage[];
       freePageCount?: number;
     };
-    metadata?: { priceKes?: number; freePageCount?: number; totalStudyPages?: number };
+    metadata?: {
+      priceKes?: number;
+      freePageCount?: number;
+      totalStudyPages?: number;
+      contentSource?: string;
+    };
   };
   initialTab?: Tab;
   /** When true, all study pages are readable (subscriber / purchased). */
@@ -204,10 +209,19 @@ export function TopicViewer({
       </p>
       <h1 className="text-2xl font-bold text-kenya-black mt-1">{content.title}</h1>
       {hasMulti ? (
-        <p className="mt-2 text-sm text-gray-600">
-          {studyPages.length} study pages · first {freeCount} free · later pages unlock with payment
+        <div className="mt-3 rounded-xl border border-kenya-green/25 bg-kenya-green/5 px-4 py-3">
+          <p className="text-sm font-semibold text-kenya-green">
+            Multi-page study · {studyPages.length} pages
+          </p>
+          <p className="mt-1 text-sm text-gray-600">
+            Scroll page by page. Pages 1–{freeCount} are free preview. Page {freeCount + 1}+ locks until payment.
+          </p>
+        </div>
+      ) : (
+        <p className="mt-2 text-xs text-amber-700">
+          Single-page lesson (old template). Grade 8 Integrated Science should show multi-page study after sync.
         </p>
-      ) : null}
+      )}
 
       <div className="mt-6 flex gap-2 border-b border-gray-200">
         {tabs.map((t) => (

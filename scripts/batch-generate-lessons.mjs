@@ -332,6 +332,17 @@ for (const gradeEntry of grades) {
   for (const subj of filtered) {
     console.log(`\n-- ${subj.subject} (${subj.topics.length} topics) --`);
     for (const topic of subj.topics) {
+      // Grade 8 Integrated Science uses dedicated multi-page notes builder
+      // (scripts/build-g8-integrated-science-pages.mjs). Never overwrite with
+      // the single-page SECTION 1: WELCOME classroom template.
+      if (
+        gradeEntry.grade === 'grade-8' &&
+        /INTEGRATED\s*SCIENCE/i.test(subj.subject) &&
+        existsSync(join(__dirname, '..', 'knowledge-base', 'textbooks', 'grade-8-integrated-science-notes.json'))
+      ) {
+        console.log(`  skip (multi-page notes): ${topic.topicNumber} ${topic.topicName}`);
+        continue;
+      }
       // Skip OCR-bleed topic titles that glue several sub-strands together
       if (/\d+\.\d+.*\d+\.\d+/.test(topic.topicName) || /Total Number of Les/i.test(topic.topicName)) {
         console.log(`  skip (garbled title): ${topic.topicNumber} ${topic.topicName.slice(0, 60)}`);
