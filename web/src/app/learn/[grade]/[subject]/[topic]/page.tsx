@@ -34,7 +34,19 @@ export default async function TopicLessonPage({
       </Link>
 
       <Suspense fallback={<div className="mt-6 text-gray-500">Loading lesson…</div>}>
-        <TopicViewer content={{ title: content.title, topic: content.topic, pages: content.pages }} />
+        <TopicViewer
+          content={{
+            title: content.title,
+            topic: content.topic,
+            pages: content.pages,
+            metadata: {
+              priceKes: content.metadata?.priceKes,
+              freePageCount: content.pages?.freePageCount || content.metadata?.freePageCount,
+              totalStudyPages: content.metadata?.totalStudyPages,
+            },
+          }}
+          unlocked={content.metadata?.access === 'free'}
+        />
       </Suspense>
 
       <div className="mt-8 flex justify-between gap-4">

@@ -22,10 +22,20 @@ export interface TopicRef {
   slug?: string;
 }
 
+export interface StudyPage {
+  pageNumber: number;
+  title: string;
+  body: string;
+  free?: boolean;
+}
+
 export interface LessonPages {
   lesson: string;
   quiz: string;
   answers: string;
+  /** Multi-page classroom study (for scroll + paywall locking). */
+  studyPages?: StudyPage[];
+  freePageCount?: number;
 }
 
 export interface GeneratedContent {
@@ -59,6 +69,8 @@ export interface GeneratedContent {
     driveId?: string;
     videoScript?: string;
     linkedLessonId?: string;
+    freePageCount?: number;
+    totalStudyPages?: number;
     textbookTitles?: string[];
     sourceChars?: number;
   };

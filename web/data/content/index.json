@@ -1,5 +1,1083 @@
 [
   {
+    "id": "70e89ad0-8408-4557-af11-a4174b0d66a7",
+    "type": "video-script",
+    "title": "Video: Pressure",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 3: Force and Energy",
+      "subStrand": "Pressure",
+      "topicNumber": "3.2",
+      "topicOrder": 32,
+      "slug": "3-2-pressure"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "VIDEO SCRIPT: PRESSURE\nGrade 8 · Integrated Science · 11 study pages\n\n[0:00] Hook — “Today we study this topic page by page.”\n[0:20] Teach page 1: Pressure I.\n[2:00] Worked points on board\n[3:30] Paus…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:27.289Z",
+      "wordCount": 63,
+      "reviewed": false,
+      "access": "free",
+      "priceKes": 0,
+      "contentSource": "g8-is-notes-multipage",
+      "linkedLessonId": "0c602094-e577-41e9-acad-07386c20bc6f"
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly."
+      }
+    ]
+  },
+  {
+    "id": "0c602094-e577-41e9-acad-07386c20bc6f",
+    "type": "topic-lesson",
+    "title": "Topic 3.2: Pressure",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 3: Force and Energy",
+      "subStrand": "Pressure",
+      "topicNumber": "3.2",
+      "topicOrder": 32,
+      "slug": "3-2-pressure"
+    },
+    "pages": {
+      "lesson": "LESSON: PRESSURE\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Strand 3: Force and Energy\nTopic 3.2: Pressure\n\n• Multi-page classroom study (11 pages)\n• Pages 1–3 free preview · later pages unlock with payment\n• Fo…",
+      "quiz": "",
+      "answers": "",
+      "studyPages": [
+        {
+          "pageNumber": 1,
+          "title": "Pressure I.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 2,
+          "title": "Pressure in liquids.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Pressure is represented by a symbol “P”",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Applications in Kenya",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Pressure is therefore =F/A",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Pressure =F/A.",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Pressure is given as 2000N/m2 Area =500N/ 2000N/m2.",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Mastery check",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Pressure =Force/Area (F/A)",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Examples and symbols",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Processes and changes",
+          "free": false,
+          "body": ""
+        }
+      ],
+      "freePageCount": 3
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:27.092Z",
+      "wordCount": 2870,
+      "reviewed": false,
+      "access": "paid",
+      "priceKes": 50,
+      "questionCount": 15,
+      "contentSource": "g8-is-notes-multipage",
+      "sourceChars": 9905,
+      "freePageCount": 3,
+      "totalStudyPages": 11,
+      "textbookTitles": [
+        "Grade 8 Rationalized Integrated Science Lesson Notes"
+      ]
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly."
+      }
+    ]
+  },
+  {
+    "id": "b595a77e-721e-4694-9d3d-ba5cec9f6849",
+    "type": "video-script",
+    "title": "Video: Transformation of Energy",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 3: Force and Energy",
+      "subStrand": "Transformation of Energy",
+      "topicNumber": "3.1",
+      "topicOrder": 31,
+      "slug": "3-1-transformation-of-energy"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "VIDEO SCRIPT: TRANSFORMATION OF ENERGY\nGrade 8 · Integrated Science · 9 study pages\n\n[0:00] Hook — “Today we study this topic page by page.”\n[0:20] Teach page 1: Transformation of energy.\n[2:00] Worke…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:26.915Z",
+      "wordCount": 66,
+      "reviewed": false,
+      "access": "free",
+      "priceKes": 0,
+      "contentSource": "g8-is-notes-multipage",
+      "linkedLessonId": "b2857e77-f0eb-4176-8539-2392ce113ba9"
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Strand 3 FORCE & ENERGY. 3.1 Transformation of energy. Energy is the ability to do work"
+      }
+    ]
+  },
+  {
+    "id": "b2857e77-f0eb-4176-8539-2392ce113ba9",
+    "type": "topic-lesson",
+    "title": "Topic 3.1: Transformation of Energy",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 3: Force and Energy",
+      "subStrand": "Transformation of Energy",
+      "topicNumber": "3.1",
+      "topicOrder": 31,
+      "slug": "3-1-transformation-of-energy"
+    },
+    "pages": {
+      "lesson": "LESSON: TRANSFORMATION OF ENERGY\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Strand 3: Force and Energy\nTopic 3.1: Transformation of Energy\n\n• Multi-page classroom study (9 pages)\n• Pages 1–3 free preview · later…",
+      "quiz": "",
+      "answers": "",
+      "studyPages": [
+        {
+          "pageNumber": 1,
+          "title": "Transformation of energy.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 2,
+          "title": "Examples and symbols",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Chemical energy.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Applications in Kenya",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Practice and revision",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Extra practice",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Summary boost",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Mastery check",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Key ideas",
+          "free": false,
+          "body": ""
+        }
+      ],
+      "freePageCount": 3
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:26.718Z",
+      "wordCount": 2233,
+      "reviewed": false,
+      "access": "paid",
+      "priceKes": 50,
+      "questionCount": 15,
+      "contentSource": "g8-is-notes-multipage",
+      "sourceChars": 8104,
+      "freePageCount": 3,
+      "totalStudyPages": 9,
+      "textbookTitles": [
+        "Grade 8 Rationalized Integrated Science Lesson Notes"
+      ]
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Strand 3 FORCE & ENERGY. 3.1 Transformation of energy. Energy is the ability to do work"
+      }
+    ]
+  },
+  {
+    "id": "b18b5c02-cb65-43b6-bcc3-a5b0ed6d1318",
+    "type": "video-script",
+    "title": "Video: Reproduction in human beings",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 2: Living Things and Their Environment",
+      "subStrand": "Reproduction in human beings",
+      "topicNumber": "2.3",
+      "topicOrder": 23,
+      "slug": "2-3-reproduction-in-human-beings"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "VIDEO SCRIPT: REPRODUCTION IN HUMAN BEINGS\nGrade 8 · Integrated Science · 6 study pages\n\n[0:00] Hook — “Today we study this topic page by page.”\n[0:20] Teach page 1: Reproduction in Human Beings.\n[2:0…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:26.530Z",
+      "wordCount": 68,
+      "reviewed": false,
+      "access": "free",
+      "priceKes": 0,
+      "contentSource": "g8-is-notes-multipage",
+      "linkedLessonId": "126b469c-fe1d-46d6-b047-5a93c8915702"
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "2.3 Reproduction in Human Beings.  Menstrual cycle. Menstrual cycle consists of natural changes that occur to the body of a female human being every month in preparation to pregnancy."
+      }
+    ]
+  },
+  {
+    "id": "126b469c-fe1d-46d6-b047-5a93c8915702",
+    "type": "topic-lesson",
+    "title": "Topic 2.3: Reproduction in human beings",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 2: Living Things and Their Environment",
+      "subStrand": "Reproduction in human beings",
+      "topicNumber": "2.3",
+      "topicOrder": 23,
+      "slug": "2-3-reproduction-in-human-beings"
+    },
+    "pages": {
+      "lesson": "LESSON: REPRODUCTION IN HUMAN BEINGS\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.3: Reproduction in human beings\n\n• Multi-page classroom study (6 pages)\n• Pag…",
+      "quiz": "",
+      "answers": "",
+      "studyPages": [
+        {
+          "pageNumber": 1,
+          "title": "Reproduction in Human Beings.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 2,
+          "title": "Examples and symbols",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Processes and changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Applications in Kenya",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Practice and revision",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Extra practice",
+          "free": false,
+          "body": ""
+        }
+      ],
+      "freePageCount": 3
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:26.337Z",
+      "wordCount": 1444,
+      "reviewed": false,
+      "access": "paid",
+      "priceKes": 50,
+      "questionCount": 15,
+      "contentSource": "g8-is-notes-multipage",
+      "sourceChars": 5259,
+      "freePageCount": 3,
+      "totalStudyPages": 6,
+      "textbookTitles": [
+        "Grade 8 Rationalized Integrated Science Lesson Notes"
+      ]
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "2.3 Reproduction in Human Beings.  Menstrual cycle. Menstrual cycle consists of natural changes that occur to the body of a female human being every month in preparation to pregnancy."
+      }
+    ]
+  },
+  {
+    "id": "af397ec6-a45a-4433-abb4-dfdb68b9e915",
+    "type": "video-script",
+    "title": "Video: Movement of Materials in and out of the cell",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 2: Living Things and Their Environment",
+      "subStrand": "Movement of Materials in and out of the cell",
+      "topicNumber": "2.2",
+      "topicOrder": 22,
+      "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "VIDEO SCRIPT: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\nGrade 8 · Integrated Science · 11 study pages\n\n[0:00] Hook — “Today we study this topic page by page.”\n[0:20] Teach page 1: Movement of Mater…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:26.153Z",
+      "wordCount": 78,
+      "reviewed": false,
+      "access": "free",
+      "priceKes": 0,
+      "contentSource": "g8-is-notes-multipage",
+      "linkedLessonId": "b14ed118-8644-4967-8b98-364211d7f0ce"
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "2.2 Movement of Material in and Out of the Cell. Diffusion and Osmosis. Meaning of Terms."
+      }
+    ]
+  },
+  {
+    "id": "b14ed118-8644-4967-8b98-364211d7f0ce",
+    "type": "topic-lesson",
+    "title": "Topic 2.2: Movement of Materials in and out of the cell",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 2: Living Things and Their Environment",
+      "subStrand": "Movement of Materials in and out of the cell",
+      "topicNumber": "2.2",
+      "topicOrder": 22,
+      "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
+    },
+    "pages": {
+      "lesson": "LESSON: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.2: Movement of Materials in and out of the cell\n\n• Multi-page…",
+      "quiz": "",
+      "answers": "",
+      "studyPages": [
+        {
+          "pageNumber": 1,
+          "title": "Movement of Material in and Out of the Cell.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 2,
+          "title": "DIFFUSION.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Processes and changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Applications in Kenya",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "OSMOSIS.",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Extra practice",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "The cell membrane.",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Mastery check",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Key ideas",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Examples and symbols",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Processes and changes",
+          "free": false,
+          "body": ""
+        }
+      ],
+      "freePageCount": 3
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:25.947Z",
+      "wordCount": 2846,
+      "reviewed": false,
+      "access": "paid",
+      "priceKes": 50,
+      "questionCount": 15,
+      "contentSource": "g8-is-notes-multipage",
+      "sourceChars": 10042,
+      "freePageCount": 3,
+      "totalStudyPages": 11,
+      "textbookTitles": [
+        "Grade 8 Rationalized Integrated Science Lesson Notes"
+      ]
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "2.2 Movement of Material in and Out of the Cell. Diffusion and Osmosis. Meaning of Terms."
+      }
+    ]
+  },
+  {
+    "id": "23ebe50c-8754-40b1-b41d-e7af11b814e2",
+    "type": "video-script",
+    "title": "Video: The Cell",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 2: Living Things and Their Environment",
+      "subStrand": "The Cell",
+      "topicNumber": "2.1",
+      "topicOrder": 21,
+      "slug": "2-1-the-cell"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "VIDEO SCRIPT: THE CELL\nGrade 8 · Integrated Science · 5 study pages\n\n[0:00] Hook — “Today we study this topic page by page.”\n[0:20] Teach page 1: The Cell.\n[2:00] Worked points on board\n[3:30] Pause —…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:25.755Z",
+      "wordCount": 64,
+      "reviewed": false,
+      "access": "free",
+      "priceKes": 0,
+      "contentSource": "g8-is-notes-multipage",
+      "linkedLessonId": "317025a7-66c0-4c4e-bae2-39abfddb7e96"
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Strand 2 LIVING THINGS & THEIR ENVIRONMENT. 2.1 The Cell. Cells make up the structure of living organisms and carry out various biological processes."
+      }
+    ]
+  },
+  {
+    "id": "317025a7-66c0-4c4e-bae2-39abfddb7e96",
+    "type": "topic-lesson",
+    "title": "Topic 2.1: The Cell",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 2: Living Things and Their Environment",
+      "subStrand": "The Cell",
+      "topicNumber": "2.1",
+      "topicOrder": 21,
+      "slug": "2-1-the-cell"
+    },
+    "pages": {
+      "lesson": "LESSON: THE CELL\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Strand 2: Living Things and Their Environment\nTopic 2.1: The Cell\n\n• Multi-page classroom study (5 pages)\n• Pages 1–3 free preview · later pages unlock…",
+      "quiz": "",
+      "answers": "",
+      "studyPages": [
+        {
+          "pageNumber": 1,
+          "title": "The Cell.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 2,
+          "title": "Examples and symbols",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Processes and changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Applications in Kenya",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Practice and revision",
+          "free": false,
+          "body": ""
+        }
+      ],
+      "freePageCount": 3
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:25.541Z",
+      "wordCount": 1307,
+      "reviewed": false,
+      "access": "paid",
+      "priceKes": 50,
+      "questionCount": 15,
+      "contentSource": "g8-is-notes-multipage",
+      "sourceChars": 4644,
+      "freePageCount": 3,
+      "totalStudyPages": 5,
+      "textbookTitles": [
+        "Grade 8 Rationalized Integrated Science Lesson Notes"
+      ]
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Strand 2 LIVING THINGS & THEIR ENVIRONMENT. 2.1 The Cell. Cells make up the structure of living organisms and carry out various biological processes."
+      }
+    ]
+  },
+  {
+    "id": "4001cbcd-fe13-4a07-b0e6-2ee218de80f4",
+    "type": "video-script",
+    "title": "Video: Classes of fire",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 1: Mixtures, Elements and Compounds",
+      "subStrand": "Classes of fire",
+      "topicNumber": "1.3",
+      "topicOrder": 13,
+      "slug": "1-3-classes-of-fire"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "VIDEO SCRIPT: CLASSES OF FIRE\nGrade 8 · Integrated Science · 5 study pages\n\n[0:00] Hook — “Today we study this topic page by page.”\n[0:20] Teach page 1: Key ideas\n[2:00] Worked points on board\n[3:30] …",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:25.350Z",
+      "wordCount": 65,
+      "reviewed": false,
+      "access": "free",
+      "priceKes": 0,
+      "contentSource": "g8-is-notes-multipage",
+      "linkedLessonId": "6d7c2be0-547b-48eb-8218-10286b3b9581"
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "-Classes of Fire. Fires can be classified between four and seven classes. The following are six classes of fire mostly widely used and accepted."
+      }
+    ]
+  },
+  {
+    "id": "6d7c2be0-547b-48eb-8218-10286b3b9581",
+    "type": "topic-lesson",
+    "title": "Topic 1.3: Classes of fire",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 1: Mixtures, Elements and Compounds",
+      "subStrand": "Classes of fire",
+      "topicNumber": "1.3",
+      "topicOrder": 13,
+      "slug": "1-3-classes-of-fire"
+    },
+    "pages": {
+      "lesson": "LESSON: CLASSES OF FIRE\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.3: Classes of fire\n\n• Multi-page classroom study (5 pages)\n• Pages 1–3 free preview · later p…",
+      "quiz": "",
+      "answers": "",
+      "studyPages": [
+        {
+          "pageNumber": 1,
+          "title": "Key ideas",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 2,
+          "title": "Examples and symbols",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Processes and changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Applications in Kenya",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Practice and revision",
+          "free": false,
+          "body": ""
+        }
+      ],
+      "freePageCount": 3
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:25.138Z",
+      "wordCount": 1168,
+      "reviewed": false,
+      "access": "paid",
+      "priceKes": 50,
+      "questionCount": 15,
+      "contentSource": "g8-is-notes-multipage",
+      "sourceChars": 4564,
+      "freePageCount": 3,
+      "totalStudyPages": 5,
+      "textbookTitles": [
+        "Grade 8 Rationalized Integrated Science Lesson Notes"
+      ]
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "-Classes of Fire. Fires can be classified between four and seven classes. The following are six classes of fire mostly widely used and accepted."
+      }
+    ]
+  },
+  {
+    "id": "01e1230b-6888-4315-96f2-cbfe5c4d4874",
+    "type": "video-script",
+    "title": "Video: Physical and chemical changes",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 1: Mixtures, Elements and Compounds",
+      "subStrand": "Physical and chemical changes",
+      "topicNumber": "1.2",
+      "topicOrder": 12,
+      "slug": "1-2-physical-and-chemical-changes"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "VIDEO SCRIPT: PHYSICAL AND CHEMICAL CHANGES\nGrade 8 · Integrated Science · 14 study pages\n\n[0:00] Hook — “Today we study this topic page by page.”\n[0:20] Teach page 1: Physical and Chemical changes.\n[…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:24.940Z",
+      "wordCount": 68,
+      "reviewed": false,
+      "access": "free",
+      "priceKes": 0,
+      "contentSource": "g8-is-notes-multipage",
+      "linkedLessonId": "4e90de62-6794-46a4-b9d0-6b99800edc63"
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "1.2 -Physical and Chemical changes. Matter is anything that occupies space and has mass. All solids, liquids and gases are made up of matter."
+      }
+    ]
+  },
+  {
+    "id": "4e90de62-6794-46a4-b9d0-6b99800edc63",
+    "type": "topic-lesson",
+    "title": "Topic 1.2: Physical and chemical changes",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 1: Mixtures, Elements and Compounds",
+      "subStrand": "Physical and chemical changes",
+      "topicNumber": "1.2",
+      "topicOrder": 12,
+      "slug": "1-2-physical-and-chemical-changes"
+    },
+    "pages": {
+      "lesson": "LESSON: PHYSICAL AND CHEMICAL CHANGES\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.2: Physical and chemical changes\n\n• Multi-page classroom study (14 pages)\n• Pag…",
+      "quiz": "",
+      "answers": "",
+      "studyPages": [
+        {
+          "pageNumber": 1,
+          "title": "Physical and Chemical changes.",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 2,
+          "title": "Examples and symbols",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Processes and changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Applications in Kenya",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Practice and revision",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Extra practice",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Summary boost",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Mastery check",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Key ideas",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Examples and symbols",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Processes and changes",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Applications in Kenya",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "Practice and revision",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Extra practice",
+          "free": false,
+          "body": ""
+        }
+      ],
+      "freePageCount": 3
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:24.733Z",
+      "wordCount": 3566,
+      "reviewed": false,
+      "access": "paid",
+      "priceKes": 50,
+      "questionCount": 15,
+      "contentSource": "g8-is-notes-multipage",
+      "sourceChars": 12841,
+      "freePageCount": 3,
+      "totalStudyPages": 14,
+      "textbookTitles": [
+        "Grade 8 Rationalized Integrated Science Lesson Notes"
+      ]
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "1.2 -Physical and Chemical changes. Matter is anything that occupies space and has mass. All solids, liquids and gases are made up of matter."
+      }
+    ]
+  },
+  {
+    "id": "eae6cb07-3ce2-44dc-b99d-f4a1b8c06c68",
+    "type": "video-script",
+    "title": "Video: Elements and Compounds",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 1: Mixtures, Elements and Compounds",
+      "subStrand": "Elements and Compounds",
+      "topicNumber": "1.1",
+      "topicOrder": 11,
+      "slug": "1-1-elements-and-compounds"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "VIDEO SCRIPT: ELEMENTS AND COMPOUNDS\nGrade 8 · Integrated Science · 8 study pages\n\n[0:00] Hook — “Today we study this topic page by page.”\n[0:20] Teach page 1: ELEMENTS AND COMPUNDS\n[2:00] Worked poin…",
+      "answers": ""
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:24.525Z",
+      "wordCount": 66,
+      "reviewed": false,
+      "access": "free",
+      "priceKes": 0,
+      "contentSource": "g8-is-notes-multipage",
+      "linkedLessonId": "149393b1-b4a2-4a83-975c-8c25c6f6caad"
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "GRADE 8 RATIONALIZED INTEGRATED SCIENCE LESSON NOTES COMPLETE STRAND 1- MIXTURES, ELEMENTS AND COMPOUNDS."
+      }
+    ]
+  },
+  {
+    "id": "149393b1-b4a2-4a83-975c-8c25c6f6caad",
+    "type": "topic-lesson",
+    "title": "Topic 1.1: Elements and Compounds",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "strand": "Strand 1: Mixtures, Elements and Compounds",
+      "subStrand": "Elements and Compounds",
+      "topicNumber": "1.1",
+      "topicOrder": 11,
+      "slug": "1-1-elements-and-compounds"
+    },
+    "pages": {
+      "lesson": "LESSON: ELEMENTS AND COMPOUNDS\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Strand 1: Mixtures, Elements and Compounds\nTopic 1.1: Elements and Compounds\n\n• Multi-page classroom study (8 pages)\n• Pages 1–3 free pre…",
+      "quiz": "",
+      "answers": "",
+      "studyPages": [
+        {
+          "pageNumber": 1,
+          "title": "ELEMENTS AND COMPUNDS",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 2,
+          "title": "Examples and symbols",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Chemical symbol",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Chemical symbol",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Practice and revision",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Extra practice",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Summary boost",
+          "free": false,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Mastery check",
+          "free": false,
+          "body": ""
+        }
+      ],
+      "freePageCount": 3
+    },
+    "metadata": {
+      "createdAt": "2026-07-22T21:09:24.282Z",
+      "wordCount": 1759,
+      "reviewed": false,
+      "access": "paid",
+      "priceKes": 50,
+      "questionCount": 15,
+      "contentSource": "g8-is-notes-multipage",
+      "sourceChars": 6822,
+      "freePageCount": 3,
+      "totalStudyPages": 8,
+      "textbookTitles": [
+        "Grade 8 Rationalized Integrated Science Lesson Notes"
+      ]
+    },
+    "sources": [
+      {
+        "id": "g8-is-notes",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "GRADE 8 RATIONALIZED INTEGRATED SCIENCE LESSON NOTES COMPLETE STRAND 1- MIXTURES, ELEMENTS AND COMPOUNDS."
+      }
+    ]
+  },
+  {
     "id": "a7f15e46-3763-4a16-83f5-937b0d667c71",
     "type": "video-script",
     "title": "Video: Analysis of Creative Arts and Sports",
@@ -46327,630 +47405,6 @@
         "grade": "grade-8",
         "subject": "MATHEMATICS",
         "excerpt": "1.1 Integers\n\n(6 lessons)\n\n• represent\n\nintegers on a\n\nnumber line\n\n• operations of\n\naddition and\n\nsubtraction\n\nintegers on\n\nthe number\n\nline\n\nBy the end of the sub- strand\n\nthe learner should be able"
-      }
-    ],
-    "body": ""
-  },
-  {
-    "id": "35886374-bc20-4784-aa0d-932b8c223c03",
-    "type": "video-script",
-    "title": "Video: Pressure",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Force and Energy",
-      "subStrand": "Pressure",
-      "topicNumber": "3.2",
-      "topicOrder": 8,
-      "slug": "3-2-pressure"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: PRESSURE\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Pressure. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• demonstrate pressure in s…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:57.252Z",
-      "wordCount": 127,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 0,
-      "contentSource": "classroom-study-v9",
-      "linkedLessonId": "f8c05c7f-b395-4df2-8fe6-c7638b3c0371"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "3.2 Pressure\n\n(16 lessons)\n\n• Pressure in\n\nsolids and\n\nliquids,\n\n• Applications\n\nof pressure\n\nin solids\n\nand liquids.\n\nBy the end of the sub- strand, the learner\n\nshould be able to:\n\na) demonstrate\n\np"
-      }
-    ]
-  },
-  {
-    "id": "f8c05c7f-b395-4df2-8fe6-c7638b3c0371",
-    "type": "topic-lesson",
-    "title": "Topic 3.2: Pressure",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Force and Energy",
-      "subStrand": "Pressure",
-      "topicNumber": "3.2",
-      "topicOrder": 8,
-      "slug": "3-2-pressure"
-    },
-    "pages": {
-      "lesson": "LESSON: PRESSURE\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Force and Energy\nTopic 3.2: Pressure\n\nSECTION 1: WELCOME\n\n• Today’s class: Pressure\n• How we learn: Teach → Worked example → Try th…",
-      "quiz": "",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:57.004Z",
-      "wordCount": 288,
-      "reviewed": false,
-      "access": "paid",
-      "priceKes": 50,
-      "questionCount": 15,
-      "sourceChars": 7674,
-      "contentSource": "classroom-study-v9",
-      "textbookTitles": [],
-      "videoScript": "VIDEO SCRIPT: PRESSURE\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Pressure. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• demonstrate pressure in solids and liquids\n• identify applications of pressure in solids and liquids\n• appreciate the applications of pressure in solids and liquids\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• demonstrate pressure in solids and liquids\n• identify applications of pressure in solids and liquids\n• appreciate the applications of pressure in solids and liquids\n\n[4:00–5:00] TRY THIS (PAUSE)\n• List 8 facts on Pressure.\n• Teach a friend using only bullet points.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Pressure.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "3.2 Pressure\n\n(16 lessons)\n\n• Pressure in\n\nsolids and\n\nliquids,\n\n• Applications\n\nof pressure\n\nin solids\n\nand liquids.\n\nBy the end of the sub- strand, the learner\n\nshould be able to:\n\na) demonstrate\n\np"
-      }
-    ],
-    "body": ""
-  },
-  {
-    "id": "232e1faa-c86a-4359-8fde-54b9b7be797d",
-    "type": "video-script",
-    "title": "Video: Transformation of Energy",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Force and Energy",
-      "subStrand": "Transformation of Energy",
-      "topicNumber": "3.1",
-      "topicOrder": 7,
-      "slug": "3-1-transformation-of-energy"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: TRANSFORMATION OF ENERGY\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Transformation of Energy. Watch the example, then you try.”\n\n[0:20–2:00] T…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:56.774Z",
-      "wordCount": 137,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 0,
-      "contentSource": "classroom-study-v9",
-      "linkedLessonId": "2e757070-3ad5-4bd5-ab59-2cd03504e542"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "3.1 Transformation\n\nof Energy\n\n(20 lessons)\n\n• Forms of energy\n\nin nature,\n\n• Renewable and\n\nnon-renewable\n\nenergy sources,\n\n• Energy\n\ntransformations in\n\nnature,\n\n• Safety measures\n\nassociated with\n\n"
-      }
-    ]
-  },
-  {
-    "id": "2e757070-3ad5-4bd5-ab59-2cd03504e542",
-    "type": "topic-lesson",
-    "title": "Topic 3.1: Transformation of Energy",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Force and Energy",
-      "subStrand": "Transformation of Energy",
-      "topicNumber": "3.1",
-      "topicOrder": 7,
-      "slug": "3-1-transformation-of-energy"
-    },
-    "pages": {
-      "lesson": "LESSON: TRANSFORMATION OF ENERGY\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Force and Energy\nTopic 3.1: Transformation of Energy\n\nSECTION 1: WELCOME\n\n• Today’s class: Transformation of Energy…",
-      "quiz": "",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:56.526Z",
-      "wordCount": 335,
-      "reviewed": false,
-      "access": "paid",
-      "priceKes": 50,
-      "questionCount": 15,
-      "sourceChars": 3649,
-      "contentSource": "classroom-study-v9",
-      "textbookTitles": [],
-      "videoScript": "VIDEO SCRIPT: TRANSFORMATION OF ENERGY\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Transformation of Energy. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• identify forms of energy in nature\n• classify energy sources into renewable or non- renewable\n• demonstrate simple energy transformations in nature\n• describe safety measures associated with energy transformation\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• identify forms of energy in nature\n• classify energy sources into renewable or non- renewable\n• demonstrate simple energy transformations in nature\n\n[4:00–5:00] TRY THIS (PAUSE)\n• List 8 facts on Transformation of Energy.\n• Teach a friend using only bullet points.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Transformation of Energy.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "3.1 Transformation\n\nof Energy\n\n(20 lessons)\n\n• Forms of energy\n\nin nature,\n\n• Renewable and\n\nnon-renewable\n\nenergy sources,\n\n• Energy\n\ntransformations in\n\nnature,\n\n• Safety measures\n\nassociated with\n\n"
-      }
-    ],
-    "body": ""
-  },
-  {
-    "id": "8fff274a-8451-417a-a71e-129697aa54d4",
-    "type": "video-script",
-    "title": "Video: Reproduction in human beings",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Living Things and their Environment",
-      "subStrand": "Reproduction in human beings",
-      "topicNumber": "2.3",
-      "topicOrder": 6,
-      "slug": "2-3-reproduction-in-human-beings"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: REPRODUCTION IN HUMAN BEINGS\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Reproduction in human beings. Watch the example, then you try.”\n\n[0:20…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:56.297Z",
-      "wordCount": 141,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 0,
-      "contentSource": "classroom-study-v9",
-      "linkedLessonId": "db2e68f2-0c25-4ed2-8499-293b65b743e6"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.3 Reproduction in\n\nhuman beings\n\n(18 lessons)\n\n• The menstrual cycle in\n\nhuman beings (omit\n\ndetails of hormonal\n\ncontrol),\n\n• Challenges related to\n\nthe menstrual cycle\n\n(include irregular\n\nperiods"
-      }
-    ]
-  },
-  {
-    "id": "db2e68f2-0c25-4ed2-8499-293b65b743e6",
-    "type": "topic-lesson",
-    "title": "Topic 2.3: Reproduction in human beings",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Living Things and their Environment",
-      "subStrand": "Reproduction in human beings",
-      "topicNumber": "2.3",
-      "topicOrder": 6,
-      "slug": "2-3-reproduction-in-human-beings"
-    },
-    "pages": {
-      "lesson": "LESSON: REPRODUCTION IN HUMAN BEINGS\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Living Things and their Environment\nTopic 2.3: Reproduction in human beings\n\nSECTION 1: WELCOME\n\n• Today’s clas…",
-      "quiz": "",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:56.031Z",
-      "wordCount": 328,
-      "reviewed": false,
-      "access": "paid",
-      "priceKes": 50,
-      "questionCount": 15,
-      "sourceChars": 4550,
-      "contentSource": "classroom-study-v9",
-      "textbookTitles": [],
-      "videoScript": "VIDEO SCRIPT: REPRODUCTION IN HUMAN BEINGS\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Reproduction in human beings. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• describe fertilisation and implantation in human beings\n• explain prevention measures for common STIs in human beings\n• appreciate the need for a healthy reproductive system\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• describe fertilisation and implantation in human beings\n• explain prevention measures for common STIs in human beings\n• appreciate the need for a healthy reproductive system\n\n[4:00–5:00] TRY THIS (PAUSE)\n• List 8 facts on Reproduction in human beings.\n• Teach a friend using only bullet points.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Reproduction in human beings.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.3 Reproduction in\n\nhuman beings\n\n(18 lessons)\n\n• The menstrual cycle in\n\nhuman beings (omit\n\ndetails of hormonal\n\ncontrol),\n\n• Challenges related to\n\nthe menstrual cycle\n\n(include irregular\n\nperiods"
-      }
-    ],
-    "body": ""
-  },
-  {
-    "id": "ea399a42-bfa2-4f0a-a93b-07c756a9ff2c",
-    "type": "video-script",
-    "title": "Video: Movement of Materials in and out of the cell",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Living Things and their Environment",
-      "subStrand": "Movement of Materials in and out of the cell",
-      "topicNumber": "2.2",
-      "topicOrder": 5,
-      "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Movement of Materials in and out of the cell. Watch th…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:55.788Z",
-      "wordCount": 167,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 0,
-      "contentSource": "classroom-study-v9",
-      "linkedLessonId": "ca283b85-74e6-448c-a5d3-ccd315752d32"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.2 Movement of\n\nMaterials in and\n\nout of the cell\n\n(16 lessons)\n\n• Diffusion and\n\nOsmosis,\n\n• Demonstration of\n\ndiffusion and\n\nosmosis,\n\n• Role of diffusion\n\nand osmosis in\n\nliving things\n\n(Absorptio"
-      }
-    ]
-  },
-  {
-    "id": "ca283b85-74e6-448c-a5d3-ccd315752d32",
-    "type": "topic-lesson",
-    "title": "Topic 2.2: Movement of Materials in and out of the cell",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Living Things and their Environment",
-      "subStrand": "Movement of Materials in and out of the cell",
-      "topicNumber": "2.2",
-      "topicOrder": 5,
-      "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
-    },
-    "pages": {
-      "lesson": "LESSON: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Living Things and their Environment\nTopic 2.2: Movement of Materials in and out of the cell\n\nSE…",
-      "quiz": "",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:55.549Z",
-      "wordCount": 390,
-      "reviewed": false,
-      "access": "paid",
-      "priceKes": 50,
-      "questionCount": 15,
-      "sourceChars": 2402,
-      "contentSource": "classroom-study-v9",
-      "textbookTitles": [],
-      "videoScript": "VIDEO SCRIPT: MOVEMENT OF MATERIALS IN AND OUT OF THE CELL\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Movement of Materials in and out of the cell. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• demonstrate diffusion and osmosis in living things\n• explain the role of diffusion and osmosis in living things\n• appreciate the importance of diffusion and osmosis in living things\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• demonstrate diffusion and osmosis in living things\n• explain the role of diffusion and osmosis in living things\n• appreciate the importance of diffusion and osmosis in living things\n\n[4:00–5:00] TRY THIS (PAUSE)\n• List 8 facts on Movement of Materials in and out of the cell.\n• Teach a friend using only bullet points.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Movement of Materials in and out of the cell.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.2 Movement of\n\nMaterials in and\n\nout of the cell\n\n(16 lessons)\n\n• Diffusion and\n\nOsmosis,\n\n• Demonstration of\n\ndiffusion and\n\nosmosis,\n\n• Role of diffusion\n\nand osmosis in\n\nliving things\n\n(Absorptio"
-      }
-    ],
-    "body": ""
-  },
-  {
-    "id": "cc4db715-2805-418a-90c8-59f06b66b499",
-    "type": "video-script",
-    "title": "Video: The Cell",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Living Things and their Environment",
-      "subStrand": "The Cell",
-      "topicNumber": "2.1",
-      "topicOrder": 4,
-      "slug": "2-1-the-cell"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: THE CELL\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn The Cell. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• describe the structure of…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:55.313Z",
-      "wordCount": 168,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 0,
-      "contentSource": "classroom-study-v9",
-      "linkedLessonId": "c01e6322-87f7-4e68-9d5e-0cbb149049cf"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.1 The Cell\n\n(20 lessons)\n\n● Cell structure as\n\nseen under a\n\nlight microscope\n\n(plant and\n\nanimal cells),\n\n● Preparation of\n\ntemporary slides\n\nof plant cells,\n\n● Magnification of\n\ncells seen under\n\n"
-      }
-    ]
-  },
-  {
-    "id": "c01e6322-87f7-4e68-9d5e-0cbb149049cf",
-    "type": "topic-lesson",
-    "title": "Topic 2.1: The Cell",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Living Things and their Environment",
-      "subStrand": "The Cell",
-      "topicNumber": "2.1",
-      "topicOrder": 4,
-      "slug": "2-1-the-cell"
-    },
-    "pages": {
-      "lesson": "LESSON: THE CELL\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Living Things and their Environment\nTopic 2.1: The Cell\n\nSECTION 1: WELCOME\n\n• Today’s class: The Cell\n• How we learn: Teach → Work…",
-      "quiz": "",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:55.087Z",
-      "wordCount": 355,
-      "reviewed": false,
-      "access": "paid",
-      "priceKes": 50,
-      "questionCount": 15,
-      "sourceChars": 2507,
-      "contentSource": "classroom-study-v9",
-      "textbookTitles": [],
-      "videoScript": "VIDEO SCRIPT: THE CELL\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn The Cell. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• describe the structure of plant and animal cells as observed under a light microscope\n• describe the functions of components of cells seen under the light microscope\n• compare plant and animal cells as observed under a light microscope\n• appreciate the role of cells in living things\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• describe the structure of plant and animal cells as observed under a light microscope\n• describe the functions of components of cells seen under the light microscope\n• compare plant and animal cells as observed under a light microscope\n\n[4:00–5:00] TRY THIS (PAUSE)\n• List 8 facts on The Cell.\n• Teach a friend using only bullet points.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for The Cell.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "2.1 The Cell\n\n(20 lessons)\n\n● Cell structure as\n\nseen under a\n\nlight microscope\n\n(plant and\n\nanimal cells),\n\n● Preparation of\n\ntemporary slides\n\nof plant cells,\n\n● Magnification of\n\ncells seen under\n\n"
-      }
-    ],
-    "body": ""
-  },
-  {
-    "id": "da8caf7c-040c-4dfa-a511-ffb88e697a0a",
-    "type": "video-script",
-    "title": "Video: Classes of fire",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Mixtures, Elements and Compounds",
-      "subStrand": "Classes of fire",
-      "topicNumber": "1.3",
-      "topicOrder": 3,
-      "slug": "1-3-classes-of-fire"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: CLASSES OF FIRE\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Classes of fire. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• identify ca…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:54.848Z",
-      "wordCount": 145,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 0,
-      "contentSource": "classroom-study-v9",
-      "linkedLessonId": "df5954b3-bb47-4185-ad4f-972f58549ee4"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "1.3 Classes of fire\n\n(20 Lessons)\n\n● Causes of fire\n\n(classes of fire),\n\n● Fire triangle\n\nand Fire control\n\n(breaking the\n\nfire triangle and\n\nuse of fire\n\nextinguishers),\n\n● Dangers of\n\nfires.\n\nBy the"
-      }
-    ]
-  },
-  {
-    "id": "df5954b3-bb47-4185-ad4f-972f58549ee4",
-    "type": "topic-lesson",
-    "title": "Topic 1.3: Classes of fire",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Mixtures, Elements and Compounds",
-      "subStrand": "Classes of fire",
-      "topicNumber": "1.3",
-      "topicOrder": 3,
-      "slug": "1-3-classes-of-fire"
-    },
-    "pages": {
-      "lesson": "LESSON: CLASSES OF FIRE\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Mixtures, Elements and Compounds\nTopic 1.3: Classes of fire\n\nSECTION 1: WELCOME\n\n• Today’s class: Classes of fire\n• How we l…",
-      "quiz": "",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:54.609Z",
-      "wordCount": 332,
-      "reviewed": false,
-      "access": "paid",
-      "priceKes": 50,
-      "questionCount": 15,
-      "sourceChars": 5391,
-      "contentSource": "classroom-study-v9",
-      "textbookTitles": [],
-      "videoScript": "VIDEO SCRIPT: CLASSES OF FIRE\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Classes of fire. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• identify causes of fire in nature\n• explain the role of the components of fire triangle in the spread of fire\n• describe ways of controlling different classes of fires\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• identify causes of fire in nature\n• explain the role of the components of fire triangle in the spread of fire\n• describe ways of controlling different classes of fires\n\n[4:00–5:00] TRY THIS (PAUSE)\n• List 8 facts on Classes of fire.\n• Teach a friend using only bullet points.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Classes of fire.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "1.3 Classes of fire\n\n(20 Lessons)\n\n● Causes of fire\n\n(classes of fire),\n\n● Fire triangle\n\nand Fire control\n\n(breaking the\n\nfire triangle and\n\nuse of fire\n\nextinguishers),\n\n● Dangers of\n\nfires.\n\nBy the"
-      }
-    ],
-    "body": ""
-  },
-  {
-    "id": "5bac1de8-429f-4b4c-b121-8c9251bc599f",
-    "type": "video-script",
-    "title": "Video: Physical and chemical changes",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Mixtures, Elements and Compounds",
-      "subStrand": "Physical and chemical changes",
-      "topicNumber": "1.2",
-      "topicOrder": 2,
-      "slug": "1-2-physical-and-chemical-changes"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: PHYSICAL AND CHEMICAL CHANGES\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Physical and chemical changes. Watch the example, then you try.”\n\n[0:…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:54.390Z",
-      "wordCount": 163,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 0,
-      "contentSource": "classroom-study-v9",
-      "linkedLessonId": "9dbdad48-6103-49fa-b585-b89ad5abc1ae"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "1.2 Physical and\n\nchemical changes\n\n(22 lessons)\n\n● Kinetic theory\n\nof matter,\n\n● Heating curve,\n\n● Effects of\n\nimpurities on\n\nboiling point\n\nand melting\n\npoint,\n\n● Physical and\n\nchemical\n\nchanges (bo"
-      }
-    ]
-  },
-  {
-    "id": "9dbdad48-6103-49fa-b585-b89ad5abc1ae",
-    "type": "topic-lesson",
-    "title": "Topic 1.2: Physical and chemical changes",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Mixtures, Elements and Compounds",
-      "subStrand": "Physical and chemical changes",
-      "topicNumber": "1.2",
-      "topicOrder": 2,
-      "slug": "1-2-physical-and-chemical-changes"
-    },
-    "pages": {
-      "lesson": "LESSON: PHYSICAL AND CHEMICAL CHANGES\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Mixtures, Elements and Compounds\nTopic 1.2: Physical and chemical changes\n\nSECTION 1: WELCOME\n\n• Today’s class…",
-      "quiz": "",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:54.174Z",
-      "wordCount": 360,
-      "reviewed": false,
-      "access": "paid",
-      "priceKes": 50,
-      "questionCount": 15,
-      "sourceChars": 2781,
-      "contentSource": "classroom-study-v9",
-      "textbookTitles": [],
-      "videoScript": "VIDEO SCRIPT: PHYSICAL AND CHEMICAL CHANGES\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Physical and chemical changes. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• describe the characteristics of particles in the three states of matter\n• explain the effects of impurities on boiling point and melting point of a substance\n• appreciate the applications of change of state of matter in\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• describe the characteristics of particles in the three states of matter\n• explain the effects of impurities on boiling point and melting point of a substance\n• appreciate the applications of change of state of matter in\n\n[4:00–5:00] TRY THIS (PAUSE)\n• List 8 facts on Physical and chemical changes.\n• Teach a friend using only bullet points.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Physical and chemical changes.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "1.2 Physical and\n\nchemical changes\n\n(22 lessons)\n\n● Kinetic theory\n\nof matter,\n\n● Heating curve,\n\n● Effects of\n\nimpurities on\n\nboiling point\n\nand melting\n\npoint,\n\n● Physical and\n\nchemical\n\nchanges (bo"
-      }
-    ],
-    "body": ""
-  },
-  {
-    "id": "e0e09166-d4a5-4814-af2e-9f5eb35265cc",
-    "type": "video-script",
-    "title": "Video: Elements and Compounds",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Mixtures, Elements and Compounds",
-      "subStrand": "Elements and Compounds",
-      "topicNumber": "1.1",
-      "topicOrder": 1,
-      "slug": "1-1-elements-and-compounds"
-    },
-    "pages": {
-      "lesson": "",
-      "quiz": "VIDEO SCRIPT: ELEMENTS AND COMPOUNDS\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Elements and Compounds. Watch the example, then you try.”\n\n[0:20–2:00] TEACH…",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:53.953Z",
-      "wordCount": 137,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 0,
-      "contentSource": "classroom-study-v9",
-      "linkedLessonId": "8bb13065-ed4c-4983-a6c6-ccca92811d6b"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "1.1 Elements and\n\nCompounds\n\n(18 lessons)\n\n• Atoms, elements,\n\nmolecules and\n\ncompounds,\n\n• Symbols of common\n\nelements (oxygen,\n\ncarbon, hydrogen,\n\nnitrogen, iron,\n\naluminium, copper,\n\nsilver, gold,\n"
-      }
-    ]
-  },
-  {
-    "id": "8bb13065-ed4c-4983-a6c6-ccca92811d6b",
-    "type": "topic-lesson",
-    "title": "Topic 1.1: Elements and Compounds",
-    "topic": {
-      "grade": "grade-8",
-      "gradeLabel": "Grade 8",
-      "subject": "INTEGRATED SCIENCE",
-      "strand": "Mixtures, Elements and Compounds",
-      "subStrand": "Elements and Compounds",
-      "topicNumber": "1.1",
-      "topicOrder": 1,
-      "slug": "1-1-elements-and-compounds"
-    },
-    "pages": {
-      "lesson": "LESSON: ELEMENTS AND COMPOUNDS\n\nGrade: Grade 8\nSubject: INTEGRATED SCIENCE\nStrand: Mixtures, Elements and Compounds\nTopic 1.1: Elements and Compounds\n\nSECTION 1: WELCOME\n\n• Today’s class: Elements and…",
-      "quiz": "",
-      "answers": ""
-    },
-    "metadata": {
-      "createdAt": "2026-07-20T20:19:53.733Z",
-      "wordCount": 322,
-      "reviewed": false,
-      "access": "free",
-      "priceKes": 50,
-      "questionCount": 15,
-      "sourceChars": 2818,
-      "contentSource": "classroom-study-v9",
-      "textbookTitles": [],
-      "videoScript": "VIDEO SCRIPT: ELEMENTS AND COMPOUNDS\nGrade: Grade 8 · Subject: INTEGRATED SCIENCE\n\n[0:00–0:20] HOOK\n• Host: “Today we learn Elements and Compounds. Watch the example, then you try.”\n\n[0:20–2:00] TEACH\n• explain the relationship between an atom, an element, a molecule and a compound\n• write word equations to represent reactions of selected elements to form compounds\n\n[2:00–4:00] WORKED EXAMPLE ON SCREEN\n• explain the relationship between an atom, an element, a molecule and a compound\n• write word equations to represent reactions of selected elements to form compounds\n\n[4:00–5:00] TRY THIS (PAUSE)\n• List 8 facts on Elements and Compounds.\n• Teach a friend using only bullet points.\n\n[5:00–5:30] REMEMBER + CTA\n• Recap 3 bullets. “Now open Revision Quiz for Elements and Compounds.”\n\n— CBC Learn · Video Hub script aligned to lesson + revision"
-    },
-    "sources": [
-      {
-        "id": "1RpqZRmeMywbc1Tya0_x-tNJBs75Gy0-v",
-        "grade": "grade-8",
-        "subject": "INTEGRATED SCIENCE",
-        "excerpt": "1.1 Elements and\n\nCompounds\n\n(18 lessons)\n\n• Atoms, elements,\n\nmolecules and\n\ncompounds,\n\n• Symbols of common\n\nelements (oxygen,\n\ncarbon, hydrogen,\n\nnitrogen, iron,\n\naluminium, copper,\n\nsilver, gold,\n"
       }
     ],
     "body": ""
