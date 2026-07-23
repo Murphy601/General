@@ -145,7 +145,7 @@ export function hasForbiddenMarkup(text) {
 }
 
 export function bannedPlaceholder(text) {
-  return /model answer should|answers may vary|notice how|keep (the )?(definitions|it) precise|look for one object|your turn|today'?s idea|today we study|this page focuses on|worked focus:|scope:|a grade 8 answer should|choose one concrete|the confusion usually mixes|a1 content:|q-stem\s*\d/i.test(
+  return /model answer should|answers may vary|notice how|keep (the )?(definitions|it) precise|look for one object|your turn|today'?s idea|today we study|this page focuses on|worked focus:|\bscope:|a grade 8 answer should|choose one concrete|the confusion usually mixes|a1 content:|q-stem\s*\d/i.test(
     String(text || ''),
   );
 }

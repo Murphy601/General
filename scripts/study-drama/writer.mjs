@@ -50,7 +50,7 @@ const HANDCRAFTED = {
       'A symbol is usually the first letter of the name written as a capital, sometimes with a second small letter. Some come from Latin: iron is Fe from "ferrum", gold is Au from "aurum".',
       'Elements are the building blocks of matter. They can exist on their own, or join with other elements to form compounds. Table salt, NaCl, is not an element — it is a compound made from the elements sodium (Na) and chlorine (Cl).',
     ],
-    worked: `A learner in Nakuru buys a jembe. The blade is made mainly of iron. Is iron an element? Iron cannot be split into anything simpler than iron atoms, so YES — iron (Fe) is an element. Now the same learner points at the rust forming on an old blade left in the rain. Is rust an element? No. Rust forms when iron joins with oxygen from the air. Because it now contains two different elements joined together, rust is a compound, not an element.`,
+    worked: `A learner buys a jembe. The blade is made mainly of iron. Is iron an element? Iron cannot be split into anything simpler than iron atoms, so YES — iron (Fe) is an element. Now the same learner points at the rust forming on an old blade left in the rain. Is rust an element? No. Rust forms when iron joins with oxygen from the air. Because it now contains two different elements joined together, rust is a compound, not an element.`,
     everyday: `The aluminium (Al) in a cooking sufuria and the copper (Cu) in phone-charger wires are both elements you handle in daily life. Safety tip: never heat an unknown metal or chemical in the kitchen to "test" it — some give off harmful fumes; only do heating tests under a teacher's guidance in the lab.`,
     summary: [
       'An element cannot be broken into anything simpler.',
@@ -334,11 +334,11 @@ function questionsAndAnswers(topicNumber, page, loc, notes) {
     page.scope;
 
   const q1 = `Define ${title.toLowerCase()} in your own words and give one clear example.`;
-  const q2 = `Describe a clear example from this subtopic that shows ${title.toLowerCase()}, and explain the science involved.`;
-  const q3 = `A learner makes a mistake about ${title.toLowerCase()}. State a likely wrong idea, correct it, and justify your correction with facts from this page.`;
+  const q2 = `For “${title}”: describe one clear example that shows this idea, and explain the science involved.`;
+  const q3 = `About ${title.toLowerCase()}: a learner makes a mistake. State a likely wrong idea, correct it, and justify your correction with facts from this page.`;
 
   const a1 = `${toUnicodeFormula(def)} For example, link it to a real object or process that fits this page.`;
-  const a2 = `Name one observation that matches ${title.toLowerCase()}. Explain it using the definition above${/P =|magnification|H₂O|NaCl/i.test(notes.join(' ')) ? ', including the correct formula or symbol' : ''}. End by stating why the correct idea matters for accuracy or safety.`;
+  const a2 = `For “${title}”, name one observation that matches the idea. Explain it using the definition above${/P =|magnification|H₂O|NaCl/i.test(notes.join(' ')) ? ', including the correct formula or symbol' : ''}. End by stating why the correct idea matters for accuracy or safety.`;
   const a3 = `Wrong idea: confusing ${title.toLowerCase()} with a neighbouring concept or ignoring a key rule. Correct idea: ${toUnicodeFormula(String(page.scope))}. Justification: the worked example on this page shows the right reasoning with real objects or numbers.`;
 
   return {
