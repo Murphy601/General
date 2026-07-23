@@ -129,10 +129,25 @@ export function buildAutoPageMap(topic) {
   const name = topic.topicName || 'This Topic';
   const outcomes = extractOutcomeSnippets(topic.rawText);
   const bullets = extractSubtopicBullets(topic.rawText);
+  // Known clean concept banks for topics where OCR bullets are noisy
+  const BANK = {
+    'quantity of heat': [
+      'Heat capacity',
+      'Specific heat capacity',
+      'Applications of specific heat capacity',
+      'Latent heat',
+      'Specific latent heat',
+      'Factors affecting boiling and melting points',
+      'Calorimetry method',
+      'Temperature change vs change of state',
+    ],
+  };
+  const bank = BANK[String(name).toLowerCase()];
   const concepts =
-    bullets.length >= 2
+    bank ||
+    (bullets.length >= 2
       ? bullets
-      : outcomes.map((o) => cleanConceptTitle(o, name)).filter(Boolean);
+      : outcomes.map((o) => cleanConceptTitle(o, name)).filter(Boolean));
   const pages = [];
   const n = CONFIG.MIN_PAGES || 20;
 
@@ -149,6 +164,11 @@ export function buildAutoPageMap(topic) {
     else if (i === n - 1) title = `${name} — Topic Synthesis and Practice`;
     else if (i <= conceptPages) title = cleanConceptTitle(concept, name);
     else title = `${phase} — ${cleanConceptTitle(concept, name)}`;
+
+    // Never ship KICD values/competency scaffolding as a student page title
+    if (/digital literacy|self-efficacy|core competen|learner develops|non-print|inflicting|deliberate on|use print/i.test(title)) {
+      title = i <= conceptPages ? `${name}: key idea ${i}` : `${phase} — ${name}`;
+    }
 
     const scope = outcome
       ? outcomeToGoal(outcome)
