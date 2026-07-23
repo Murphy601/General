@@ -6,10 +6,22 @@ import { formatWorking } from './math-working.mjs';
 import { toUnicodeFormula } from './house-style.mjs';
 
 export function needsCalcQuiz(subject, topicName = '', pageTitle = '') {
-  const blob = `${subject} ${topicName} ${pageTitle}`.toUpperCase();
-  return /MATH|NUMERACY|ARITHMETIC|ALGEBRA|GEOMETRY|TRIGONOMET|CALCULUS|STATISTICS|PROBABILITY|PHYSICS|CHEMISTRY|INTEGRATED\s*SCIENCE|BIOLOGY|AGRICULTURE|HOME\s*SCIENCE|BUSINESS|ACCOUNT|ECONOMICS|GEOGRAPHY|COMPUTER|CREATIVE\s*ARTS\s*AND\s*SPORTS|PRE.?TECHNICAL|TECHNICAL/.test(
-    blob,
-  );
+  const sub = String(subject || '').toUpperCase();
+  const blob = `${topicName} ${pageTitle}`.toUpperCase();
+  if (/MATH|NUMERACY|ARITHMETIC|ALGEBRA|GEOMETRY|TRIGONOMET|CALCULUS|STATISTICS|PROBABILITY/.test(sub)) return true;
+  if (/PHYSICS|CHEMISTRY/.test(sub)) return true;
+  if (/BUSINESS|ACCOUNT|ECONOMICS/.test(sub)) return true;
+  if (/COMPUTER|PRE.?TECHNICAL|TECHNICAL/.test(sub) && /NUMBER|CALC|MEASURE|BINARY|LOGIC/.test(blob)) return true;
+  if (/INTEGRATED\s*SCIENCE|SCIENCE/.test(sub)) {
+    return /PRESSURE|FORCE|HEAT|ENERGY|ELECTRIC|CURRENT|MAGNET|DENSITY|WAVE|SPEED|MEASURE|MACHINE|LIGHT|SOUND|MATTER|ACID|SALT|REACTION/.test(
+      `${sub} ${blob}`,
+    );
+  }
+  if (/BIOLOGY|AGRICULTURE|HOME\s*SCIENCE/.test(sub)) {
+    return /MAGNIFICATION|MICROSCOPE|RATE|PERCENT|RATIO|MEASURE|CALCULAT|POPULATION|YIELD/.test(blob);
+  }
+  if (/GEOGRAPHY/.test(sub) && /SCALE|MAP|DISTANCE|POPULATION|PERCENT|CLIMATE DATA|GRAPH/.test(blob)) return true;
+  return false;
 }
 
 function hash(s) {
@@ -25,6 +37,66 @@ function hash(s) {
 export function buildCalcQuizItem({ subject = '', topicName = '', pageTitle = '', grade = '', variant = 0 }) {
   const blob = `${pageTitle} ${topicName} ${subject}`.toLowerCase();
   const v = Math.abs(Number(variant) || 0) + hash(blob) % 17;
+  const isScience = /physics|chemistry|biology|science|agriculture|home science/i.test(subject);
+
+  // ---- Thermal physics / quantity of heat (MUST be before volume|capacity) ----
+  if (/quantity of heat|specific heat capacity|heat capacity|latent heat|calorimeter|thermal capacity/.test(blob) && isScience) {
+    if (/latent/.test(blob) && !/specific heat/.test(blob)) {
+      const m = Number((0.15 + (v % 5) * 0.05).toFixed(2));
+      const L = v % 2 === 0 ? 334000 : 2260000;
+      const kind = L > 1000000 ? 'vaporisation' : 'fusion';
+      const Q = Math.round(m * L);
+      return {
+        kind: 'latent-heat',
+        question: `CALCULATE: Find the heat required to change ${m} kg of substance during ${kind} if L = ${L} J/kg (temperature stays constant). Show full working.`,
+        answer: [
+          formatWorking({
+            formula: 'Q = mL',
+            substitution: `Q = ${m} × ${L}`,
+            steps: [`Q = ${Q}`],
+            finalAnswer: `${Q} J`,
+            methodMarks: 'method mark for Q = mL; accuracy mark with joules',
+          }),
+          'Wrong path: using Q = mcΔθ — there is no temperature change during a pure change of state.',
+        ].join('\n'),
+      };
+    }
+    const m = Number((0.4 + (v % 5) * 0.2).toFixed(2));
+    const c = [4200, 900, 390, 450][v % 4];
+    const dT = 12 + (v % 5) * 4;
+    const Q = Math.round(m * c * dT);
+    if (/heat capacity/.test(blob) && !/specific/.test(blob)) {
+      const C = Math.round(m * c);
+      return {
+        kind: 'heat-capacity',
+        question: `CALCULATE: A body of mass ${m} kg has specific heat capacity ${c} J/(kg·K). Find (i) its heat capacity C and (ii) the heat needed to raise its temperature by ${dT} K. Show full working.`,
+        answer: [
+          formatWorking({
+            formula: 'C = mc ; Q = CΔθ',
+            substitution: `C = ${m} × ${c} ; Q = C × ${dT}`,
+            steps: [`C = ${C} J/K`, `Q = ${C} × ${dT} = ${Q} J`],
+            finalAnswer: `C = ${C} J/K ; Q = ${Q} J`,
+            methodMarks: 'method marks for both formulae; accuracy marks',
+          }),
+          'Wrong path: treating heat capacity C as the same as specific heat capacity c.',
+        ].join('\n'),
+      };
+    }
+    return {
+      kind: 'specific-heat',
+      question: `CALCULATE: How much heat is needed to raise ${m} kg of a substance (c = ${c} J/(kg·°C)) by ${dT} °C? Show full working with units.`,
+      answer: [
+        formatWorking({
+          formula: 'Q = mcΔθ',
+          substitution: `Q = ${m} × ${c} × ${dT}`,
+          steps: [`Q = ${m * c} × ${dT}`, `Q = ${Q}`],
+          finalAnswer: `${Q} J`,
+          methodMarks: 'method mark for Q = mcΔθ; accuracy mark with joules',
+        }),
+        'Wrong path: using Q = mL (latent heat) when temperature is changing with no change of state.',
+      ].join('\n'),
+    };
+  }
 
   // ---- Algebra / equations / expressions ----
   if (/algebra|expression|equation|linear|solve|unknown|variable/.test(blob)) {
@@ -182,7 +254,7 @@ export function buildCalcQuizItem({ subject = '', topicName = '', pageTitle = ''
       ].join('\n'),
     };
   }
-  if (/volume|capacity|litre|cubic/.test(blob)) {
+  if (/(volume|litre|liter|cubic|cuboid|tank\b|container)/.test(blob) && !/heat capacity|specific heat|latent heat|quantity of heat/.test(blob)) {
     const l = 4 + (v % 5);
     const w = 3 + (v % 4);
     const h = 2 + (v % 3);
@@ -302,8 +374,12 @@ export function buildCalcQuizItem({ subject = '', topicName = '', pageTitle = ''
     };
   }
 
-  // ---- Money / commercial arithmetic (default quantitative) ----
-  if (/money|cost|price|buy|sell|profit|loss|budget|business|account|ksh|shop|market/.test(blob) || needsCalcQuiz(subject, topicName, pageTitle)) {
+  // ---- Money / commercial arithmetic (NOT for pure science subjects) ----
+  if (
+    !isScience &&
+    (/money|cost|price|buy|sell|profit|loss|budget|business|account|ksh|shop|market/.test(blob) ||
+      needsCalcQuiz(subject, topicName, pageTitle))
+  ) {
     const n = 8 + (v % 9);
     const p = 10 + (v % 8) * 5;
     const total = n * p;
@@ -358,6 +434,44 @@ export function buildCalcQuizItem({ subject = '', topicName = '', pageTitle = ''
           methodMarks: 'method mark; accuracy mark',
         }),
         `Wrong path: forgetting to multiply ${n} × ${p} before subtracting.`,
+      ].join('\n'),
+    };
+  }
+
+  // ---- Science quantitative fallback (topic-aware; never Ksh trader) ----
+  if (isScience) {
+    if (/magnification|microscope|cell|biology/i.test(blob) || /biology/i.test(subject)) {
+      const eye = [5, 10, 15][v % 3];
+      const obj = [4, 10, 40][v % 3];
+      return {
+        kind: 'science-fallback-mag',
+        question: `CALCULATE: Eyepiece ×${eye} and objective ×${obj}. Find total magnification. Show working.`,
+        answer: [
+          formatWorking({
+            formula: 'Total magnification = eyepiece × objective',
+            substitution: `Total = ${eye} × ${obj}`,
+            steps: [`Total = ${eye * obj}`],
+            finalAnswer: `×${eye * obj}`,
+            methodMarks: 'multiply; never add',
+          }),
+          `Wrong path: adding ${eye} + ${obj}.`,
+        ].join('\n'),
+      };
+    }
+    const F = 80 + (v % 5) * 20;
+    const A = [0.2, 0.25, 0.4, 0.5][v % 4];
+    return {
+      kind: 'science-fallback-pressure',
+      question: `CALCULATE: A force of ${F} N acts on ${A} m². Find the pressure using P = F/A. Show full working.`,
+      answer: [
+        formatWorking({
+          formula: 'P = F / A',
+          substitution: `P = ${F} / ${A}`,
+          steps: [`P = ${F / A}`],
+          finalAnswer: `${F / A} Pa`,
+          methodMarks: 'method mark; accuracy mark with Pa',
+        }),
+        'Wrong path: multiplying F × A instead of dividing.',
       ].join('\n'),
     };
   }

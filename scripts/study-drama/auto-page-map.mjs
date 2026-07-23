@@ -64,14 +64,62 @@ export function paragraphsFromRaw(rawText) {
 export function extractOutcomeSnippets(rawText) {
   const text = String(rawText || '');
   const outs = [];
-  const re = /\b([a-d])\)\s*([a-z][\s\S]{10,140}?)(?=\s*[a-d]\)|Core Competen|Link to|Suggested|Assessment|$)/gi;
+  const re = /\b([a-f])\)\s*([a-z][\s\S]{10,160}?)(?=\s*[a-f]\)|Core Competen|Link to|Suggested|Assessment|$)/gi;
   let m;
   while ((m = re.exec(text)) !== null) {
     const t = m[2].replace(/\s+/g, ' ').trim().replace(/\.$/, '');
-    if (t.length > 12) outs.push(t);
+    if (t.length > 12 && !/page\s+\d+\s+of/i.test(t)) outs.push(t);
     if (outs.length >= 12) break;
   }
   return outs;
+}
+
+/** Clean bullet subtopics from design tables (e.g. Heat capacity, Latent heat) */
+export function extractSubtopicBullets(rawText) {
+  const text = String(rawText || '');
+  const found = [];
+  const seen = new Set();
+  const re = /(?:^|\n)\s*[•\-]\s*([A-Za-z][^\n]{3,60})/g;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    let t = m[1].replace(/\s+/g, ' ').trim().replace(/[.;,]+$/, '');
+    if (/^(By the end|The learner|Core|Suggested|Assessment|Page \d|Link to|derive|explain|determine|obtain|discuss|carry out|deliberate|use print)/i.test(t)) {
+      continue;
+    }
+    if (/digital literacy|self-efficacy|core competen|learner develops|resilience|inflicting|manipulative|non-print|print or non-print/i.test(t)) {
+      continue;
+    }
+    if (/\b(of|the|to|and|for|with|using|from|a|an)$/i.test(t)) continue;
+    // Expand common truncated heat/physics labels
+    if (/^specific heat$/i.test(t)) t = 'Specific heat capacity';
+    if (/^specific latent$/i.test(t)) t = 'Specific latent heat';
+    if (/^factors affecting$/i.test(t)) t = 'Factors affecting boiling and melting';
+    if (/^applications of$/i.test(t)) t = 'Applications of specific heat capacity';
+    if (t.split(/\s+/).length > 8) t = t.split(/\s+/).slice(0, 6).join(' ');
+    const key = t.toLowerCase();
+    if (seen.has(key) || t.length < 4) continue;
+    seen.add(key);
+    found.push(t);
+    if (found.length >= 12) break;
+  }
+  return found;
+}
+
+function cleanConceptTitle(raw, fallback) {
+  let t = String(raw || fallback || 'Concept')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/[.…]+$/g, '');
+  // Prefer noun-phrase titles, not "determine the…"
+  t = t.replace(/^(determine|obtain|explain|derive and use|describe|identify|state|discuss|carry out)\s+(with peers\s+)?(the\s+)?/i, '');
+  t = t.replace(/\b(activities to( analyse)?|use print and non-print)\b.*$/i, '').trim();
+  t = t.charAt(0).toUpperCase() + t.slice(1);
+  // Reject truncated prepositional endings
+  if (/\b(of|the|to|and|for|with|using|from|a|an)$/i.test(t) || t.split(/\s+/).length < 2) {
+    t = fallback || 'Core idea';
+  }
+  if (t.length > 70) t = `${t.slice(0, 67).replace(/\s+\S*$/, '')}…`;
+  return t || fallback || 'Concept';
 }
 
 /**
@@ -80,30 +128,37 @@ export function extractOutcomeSnippets(rawText) {
 export function buildAutoPageMap(topic) {
   const name = topic.topicName || 'This Topic';
   const outcomes = extractOutcomeSnippets(topic.rawText);
+  const bullets = extractSubtopicBullets(topic.rawText);
+  const concepts =
+    bullets.length >= 2
+      ? bullets
+      : outcomes.map((o) => cleanConceptTitle(o, name)).filter(Boolean);
   const pages = [];
   const n = CONFIG.MIN_PAGES || 20;
 
+  // Concept-focused early pages, then phase practice pages
+  const conceptPages = Math.min(concepts.length, 8);
+
   for (let i = 0; i < n; i++) {
     const phase = PHASE_TITLES[i % PHASE_TITLES.length];
+    const concept = concepts[i % Math.max(concepts.length, 1)] || name;
     const outcome = outcomes[i % Math.max(outcomes.length, 1)] || null;
-    const title =
-      i === 0
-        ? `Understanding ${name}`
-        : i === n - 1
-          ? `${name} — Topic Synthesis and Practice`
-          : outcome && i < outcomes.length + 2
-            ? `${phase}: ${outcome.slice(0, 48)}${outcome.length > 48 ? '…' : ''}`
-            : `${phase} — ${name}`;
+
+    let title;
+    if (i === 0) title = `Understanding ${name}`;
+    else if (i === n - 1) title = `${name} — Topic Synthesis and Practice`;
+    else if (i <= conceptPages) title = cleanConceptTitle(concept, name);
+    else title = `${phase} — ${cleanConceptTitle(concept, name)}`;
 
     const scope = outcome
       ? outcomeToGoal(outcome)
-      : `${phase.toLowerCase()} for ${name} in ${topic.subject || 'this subject'}`;
+      : `Explain ${cleanConceptTitle(concept, name)} within ${name} using correct terms and a clear example or calculation.`;
 
-    const words = name
+    const words = `${name} ${concept}`
       .split(/\s+/)
       .map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
       .filter((w) => w.replace(/\\/g, '').length > 3)
-      .slice(0, 4);
+      .slice(0, 6);
     const kw = new RegExp(words.join('|') || 'learn', 'i');
 
     pages.push({
@@ -111,7 +166,7 @@ export function buildAutoPageMap(topic) {
       scope,
       outcome: outcome ? outcomeToGoal(outcome) : null,
       topicName: name,
-      focus: name,
+      focus: cleanConceptTitle(concept, name),
       keywords: kw,
     });
   }

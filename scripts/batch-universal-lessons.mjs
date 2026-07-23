@@ -126,12 +126,16 @@ function lightQAPass(studyPages, drama) {
     'ANSWERS',
   ];
   const introFPS = [];
+  const topicBlob = studyPages.map((p) => `${p.title}\n${p.body}`).join('\n').toLowerCase();
+  const isHeat = /quantity of heat|specific heat capacity|latent heat|heat capacity/.test(topicBlob);
   for (const p of studyPages) {
     for (const sec of need) {
       if (!new RegExp(sec, 'i').test(p.body)) return false;
     }
     if (/Learners should ignore|Q1\/A1\b|Around .+?, learners meet/i.test(p.body)) return false;
     if (/^#{1,3}\s|\*\*[^*]+\*\*/m.test(p.body)) return false;
+    if (/Determine the heat capacity,\.|Of various substances using a\./i.test(p.body)) return false;
+    if (isHeat && /Volume of cuboid|Ksh \d+ each|Find the change/i.test(p.body)) return false;
     const m = p.body.match(/INTRODUCTION\n----\n([\s\S]*?)(\n\n[A-Z]|\nMAIN NOTES)/i);
     const intro = (m?.[1] || '').trim();
     if (intro.length < 40 || matchesBannedIntro(intro) || hasLocationFiller(intro)) return false;

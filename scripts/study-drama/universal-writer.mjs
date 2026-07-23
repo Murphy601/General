@@ -8,6 +8,7 @@ import { pickDiagram } from './diagram.mjs';
 import { buildIntro } from './intros.mjs';
 import { matchesBannedIntro, outcomeToGoal, hasLocationFiller } from './config.mjs';
 import { needsCalcQuiz, buildCalcQuizItem, buildCalcHeavyPageQA } from './quiz-calc.mjs';
+import { isJunkFact, teachNotes, teachWorked } from './topic-teach.mjs';
 
 function hash(s) {
   let h = 0;
@@ -41,10 +42,14 @@ function pickFacts(paragraphs, keywords, limit, usedStarts) {
   const out = [];
   const push = (raw) => {
     let p = cleanNoise(String(raw || ''));
-    p = outcomeToGoal(p.replace(/^[A-Da-d]\)\s*/, '').replace(/^[-•]\s*/, ''));
-    if (p.length < 24) return;
+    p = outcomeToGoal(p.replace(/^[A-Da-d]\)\s*/, '').replace(/^[-•]\s*/, ''));
+    if (p.length < 28) return;
+    if (isJunkFact(p)) return;
     if (/^(Requirements|Procedure|Caution|For example,?)$/i.test(p)) return;
-    const key = p.slice(0, 56).toLowerCase();
+    const key = p
+      .replace(/[.,;:]+$/g, '')
+      .slice(0, 56)
+      .toLowerCase();
     if (used.has(key)) return;
     used.add(key);
     out.push(p.endsWith('.') ? p : `${p}.`);
@@ -112,10 +117,15 @@ function mathNotes(page, topic, variant) {
   ];
 }
 
-function subjectNotes({ page, topic, subject, facts }) {
-  if (facts.length) {
-    return facts.slice(0, 6).map((f) => toUnicodeFormula(f));
+function subjectNotes({ page, topic, subject, facts, variant = 0 }) {
+  const taught = teachNotes({ page, topic, variant });
+  if (taught?.length) return taught.map((n) => toUnicodeFormula(n));
+
+  const cleanFacts = (facts || []).filter((f) => !isJunkFact(f));
+  if (cleanFacts.length >= 3) {
+    return cleanFacts.slice(0, 6).map((f) => toUnicodeFormula(f));
   }
+
   const name = topic.topicName;
   return [
     `${page.title} helps you understand ${name} in ${subject}.`,
@@ -237,6 +247,9 @@ function mathWorkingBlock({ page, topic, grade, variant }) {
 }
 
 function scienceWorkingBlock({ page, topic, facts, variant }) {
+  const taught = teachWorked({ page, topic, variant });
+  if (taught) return taught;
+
   const blob = `${page.title} ${topic.topicName}`.toLowerCase();
   if (/pressure|force/.test(blob)) {
     const F = 100 + (variant % 5) * 40;
@@ -269,12 +282,12 @@ function scienceWorkingBlock({ page, topic, facts, variant }) {
       }),
     ].join('\n');
   }
-  const fact = facts[0] ? toUnicodeFormula(facts[0]) : page.scope;
+  const fact = facts[0] && !isJunkFact(facts[0]) ? toUnicodeFormula(facts[0]) : page.scope;
   return [
     `Worked example on ${page.title} within ${topic.topicName}.`,
     `Step 1 — Define: ${fact}`,
-    `Step 2 — Observe: name one object or process from this subtopic that matches the definition.`,
-    'Step 3 — Decide: state whether a common wrong idea fits (usually it does not) and why.',
+    `Step 2 — Apply: give one clear example from this subtopic and name the correct science idea.`,
+    'Step 3 — Check: reject one common wrong idea and say why it fails.',
     'Step 4 — Conclude: write one accurate sentence a teacher can tick, using correct science words.',
   ].join('\n');
 }
@@ -365,7 +378,7 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
 
   const notes = isMath(subject)
     ? mathNotes(page, topic, variant)
-    : subjectNotes({ page, topic, subject, facts });
+    : subjectNotes({ page, topic, subject, facts, variant });
 
   const ideaLabel = String(page.title || '')
     .replace(/^what is\s+/i, '')
