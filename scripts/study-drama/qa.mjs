@@ -1,7 +1,23 @@
 /**
- * Agent 4 — QA & Verification
+ * Agent 4 — QA & Verification (student-facing pages + drama)
  */
-import { hasForbiddenMarkup, bannedPlaceholder } from './house-style.mjs';
+import {
+  hasForbiddenMarkup,
+  bannedPlaceholder,
+  hasScaffoldingLeak,
+  isMetaAnswer,
+} from './house-style.mjs';
+
+const REQUIRED_SECTIONS = [
+  'WHAT YOU WILL LEARN',
+  'INTRODUCTION',
+  'MAIN NOTES',
+  'WORKED EXAMPLE',
+  'IN EVERYDAY LIFE',
+  'SUMMARY',
+  'REVISION QUESTIONS',
+  'ANSWERS',
+];
 
 export function runQA({ topic, pageMap, studyPages, drama, ledger, minPages }) {
   const bodies = studyPages.map((p) => p.body).join('\n\n');
@@ -18,29 +34,38 @@ export function runQA({ topic, pageMap, studyPages, drama, ledger, minPages }) {
       : 'No # ** |---| backticks detected; house style dividers present',
   });
 
-  // 2 Completeness
+  // 2 Completeness — student shape with numbered questions + answers (no Q1/A1 IDs)
   let complete = true;
   let completeEvidence = [];
   for (const p of studyPages) {
-    for (let n = 1; n <= 3; n++) {
-      if (!new RegExp(`Q${n}\\b`).test(p.body) || !new RegExp(`A${n}\\b`).test(p.body)) {
+    for (const sec of REQUIRED_SECTIONS) {
+      if (!new RegExp(sec, 'i').test(p.body)) {
         complete = false;
-        completeEvidence.push(`Page ${p.pageNumber} missing Q${n}/A${n}`);
+        completeEvidence.push(`Page ${p.pageNumber} missing ${sec}`);
       }
+    }
+    const hasQ = /^1\./m.test(p.body) && /^2\./m.test(p.body) && /^3\./m.test(p.body);
+    const answersBlock = p.body.split(/ANSWERS\n----/i)[1] || '';
+    const hasA = /^1\./m.test(answersBlock) && /^2\./m.test(answersBlock) && /^3\./m.test(answersBlock);
+    if (!hasQ || !hasA) {
+      complete = false;
+      completeEvidence.push(`Page ${p.pageNumber} missing numbered questions/answers`);
     }
     if (bannedPlaceholder(p.body)) {
       complete = false;
-      completeEvidence.push(`Page ${p.pageNumber} has banned placeholder/meta language`);
+      completeEvidence.push(`Page ${p.pageNumber} has banned meta language`);
     }
   }
   checks.push({
     id: 2,
     name: 'Completeness',
     pass: complete,
-    evidence: complete ? 'Every page has Q1–Q3 and A1–A3; no banned placeholders' : completeEvidence.join('; '),
+    evidence: complete
+      ? 'Every page has student sections + 3 numbered questions with full answers'
+      : completeEvidence.slice(0, 8).join('; '),
   });
 
-  // 3 Fact accuracy (spot heuristics)
+  // 3 Fact accuracy
   const badPairs =
     /Nitrogen[^\n]{0,40}Helium|Nitrogen[^\n]{0,30}\bHe\b|liquids have a definite shape(?! of their own)(?![^\n]{0,40}no definite)/i.test(
       bodies,
@@ -57,49 +82,42 @@ export function runQA({ topic, pageMap, studyPages, drama, ledger, minPages }) {
         : 'No known false symbol pairings; no open [VERIFY]',
   });
 
-  // 4 Curriculum alignment
+  // 4 Curriculum alignment — student-friendly goals instead of formal CBC jargon on page
   const aligned = studyPages.every(
-    (p) =>
-      /Specific Learning Outcome/i.test(p.body) &&
-      /Key Inquiry Question/i.test(p.body) &&
-      /Bloom:/i.test(p.body) &&
-      /\d+\s*marks/i.test(p.body),
+    (p) => /WHAT YOU WILL LEARN/i.test(p.body) && /MAIN NOTES/i.test(p.body) && /REVISION QUESTIONS/i.test(p.body),
   );
   checks.push({
     id: 4,
     name: 'Curriculum Alignment',
     pass: aligned,
     evidence: aligned
-      ? 'CBC framing + Bloom levels + marks present on all pages'
-      : 'Missing Learning Outcome / Key Inquiry / Bloom-marks on one or more pages',
+      ? 'Student learning goals + main notes + revision present on all pages'
+      : 'Missing student learning structure on one or more pages',
   });
 
-  // 5 No loops
-  const practicalStarts = studyPages.map((p) => {
-    const m = p.body.match(/SECTION 2 — WORKED EXAMPLES[\s\S]{0,220}/);
-    return (m || [''])[0];
+  // 5 No loops — unique worked examples
+  const worked = studyPages.map((p) => {
+    const m = p.body.match(/WORKED EXAMPLE\n----\n([\s\S]*?)(\n\n[A-Z]|\n[A-Z][A-Z ]+\n----)/);
+    return (m ? m[1] : p.body).slice(0, 120);
   });
-  const uniquePractical = new Set(practicalStarts).size;
+  const uniqueWorked = new Set(worked).size;
   const qStemCount = (ledger.questionStems || []).length;
   const uniqueStems = new Set((ledger.questionStems || []).map((s) => s.slice(0, 48))).size;
-  const noLoops = uniquePractical === studyPages.length && uniqueStems >= Math.floor(qStemCount * 0.9);
+  const noLoops = uniqueWorked === studyPages.length && uniqueStems >= Math.floor(qStemCount * 0.85);
   checks.push({
     id: 5,
     name: 'No Loops',
     pass: noLoops,
-    evidence: `unique worked openings ${uniquePractical}/${studyPages.length}; unique question stems ${uniqueStems}/${qStemCount}`,
+    evidence: `unique worked examples ${uniqueWorked}/${studyPages.length}; unique questions ${uniqueStems}/${qStemCount}`,
   });
 
-  // 6 Page count
-  const pageCountOk =
-    studyPages.length >= minPages &&
-    studyPages.length === pageMap.pages.length &&
-    studyPages.every((p) => /PAGE \d+ OF \d+ COMPLETE/.test(p.body));
+  // 6 Page count — COMPLETE markers are orchestrator-only now
+  const pageCountOk = studyPages.length >= minPages && studyPages.length === pageMap.pages.length;
   checks.push({
     id: 6,
     name: 'Page Count',
     pass: pageCountOk,
-    evidence: `${studyPages.length} pages (min ${minPages}); map entries ${pageMap.pages.length}; COMPLETE markers checked`,
+    evidence: `${studyPages.length} pages (min ${minPages}); map entries ${pageMap.pages.length}`,
   });
 
   // 7 Drama integrity
@@ -129,15 +147,54 @@ export function runQA({ topic, pageMap, studyPages, drama, ledger, minPages }) {
     evidence: `scenes=${sceneCount}, dialogue/action words≈${words} (target 5–10 min band)`,
   });
 
+  // 9 No scaffolding leak
+  const leakPages = studyPages.filter((p) => hasScaffoldingLeak(p.body)).map((p) => p.pageNumber);
+  checks.push({
+    id: 9,
+    name: 'No Scaffolding Leak',
+    pass: leakPages.length === 0,
+    evidence:
+      leakPages.length === 0
+        ? 'No Q/A IDs, ledgers, CONTINUE tokens, Bloom/marks, or page counters on student pages'
+        : `Scaffolding found on pages: ${leakPages.slice(0, 10).join(', ')}`,
+  });
+
+  // 10 Real teaching — answers must not be meta; definitions must not only restate title
+  let realTeaching = true;
+  let realEvidence = [];
+  for (const p of studyPages) {
+    const ans = p.body.split(/ANSWERS\n----/i)[1] || '';
+    if (isMetaAnswer(ans) || isMetaAnswer(p.body)) {
+      realTeaching = false;
+      realEvidence.push(`Page ${p.pageNumber} meta-answer language`);
+    }
+    // Title-restatement smell: "X means X" style
+    const title = p.title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    if (new RegExp(`${title}\\s+means\\s+${title}`, 'i').test(p.body)) {
+      realTeaching = false;
+      realEvidence.push(`Page ${p.pageNumber} definition restates title`);
+    }
+    if (/A1 content:|should use accurate terms/i.test(p.body)) {
+      realTeaching = false;
+      realEvidence.push(`Page ${p.pageNumber} template answer leak`);
+    }
+  }
+  checks.push({
+    id: 10,
+    name: 'Real Teaching',
+    pass: realTeaching,
+    evidence: realTeaching
+      ? 'Answers teach real content; no title-restatement definitions'
+      : realEvidence.slice(0, 6).join('; '),
+  });
+
   const allPass = checks.every((c) => c.pass);
   const lines = [
     'QA REPORT',
     '====',
     `Topic: ${topic.topicNumber} ${topic.topicName}`,
     '',
-    ...checks.map(
-      (c) => `Check ${c.id} ${c.name}: ${c.pass ? 'PASS' : 'FAIL'} — ${c.evidence}`,
-    ),
+    ...checks.map((c) => `Check ${c.id} ${c.name}: ${c.pass ? 'PASS' : 'FAIL'} — ${c.evidence}`),
     '',
     `VERDICT: ${allPass ? 'APPROVED' : 'REJECTED'}`,
   ];

@@ -64,6 +64,8 @@ export function stripForbiddenMarkup(text) {
     .replace(/__([^_]+)__/g, (_, w) => w.toUpperCase())
     .replace(/\*([^*]+)\*/g, '$1')
     .replace(/^\s*\|.*\|\s*$/gm, (row) => {
+      // Keep house-style dividers ==== / ---- untouched
+      if (/^(====+|----+)$/.test(row.trim())) return row;
       const cells = row
         .split('|')
         .map((c) => c.trim())
@@ -73,7 +75,8 @@ export function stripForbiddenMarkup(text) {
       if (cells.length === 1) return `• ${cells[0]}`;
       return `• ${cells[0]}: ${cells.slice(1).join(' · ')}`;
     })
-    .replace(/^\s*\|?\s*:?-{3,}.*$/gm, '')
+    // Only strip markdown table rule rows (must include a pipe), never house-style ----/====
+    .replace(/^\s*\|?\s*:?-{3,}:?\s*\|[-\s|:]*$/gm, '')
     .replace(/[+\\|▼─│├└]+-+>/g, '→')
     .replace(/[│├└─]+/g, ' ')
     .replace(/[ \t]{2,}/g, ' ')
@@ -97,9 +100,17 @@ export function displayNormalize(text) {
     fixes.headings++;
     return `${s.toUpperCase()}\n----\n`;
   });
-  const audit = `DISPLAY-CLEAN: PASS | fixes: headings=${fixes.headings} bold=${fixes.bold} tables=${fixes.tables} code=${fixes.code} formulas=${fixes.formulas}`;
-  if (!/DISPLAY-CLEAN:/.test(t)) t = `${t}\n\n${audit}`;
+  // Audit is for the orchestrator only — never append DISPLAY-CLEAN to student pages.
   return t;
+}
+
+export function displayAudit(text) {
+  const before = String(text || '');
+  const after = displayNormalize(before);
+  return {
+    text: after,
+    line: `DISPLAY-CLEAN: PASS | fixes: lenΔ=${before.length - after.length}`,
+  };
 }
 
 export function cleanNoise(s) {
@@ -126,7 +137,38 @@ export function hasForbiddenMarkup(text) {
 }
 
 export function bannedPlaceholder(text) {
-  return /model answer should|answers may vary|notice how|keep (the )?(definitions|it) precise|look for one object|your turn|today'?s idea|today we study/i.test(
+  return /model answer should|answers may vary|notice how|keep (the )?(definitions|it) precise|look for one object|your turn|today'?s idea|today we study|this page focuses on|worked focus:|scope:|a grade 8 answer should|choose one concrete|the confusion usually mixes|a1 content:|q-stem\s*\d/i.test(
+    String(text || ''),
+  );
+}
+
+/** Scaffolding / engine plumbing that must never appear on a student page */
+export function hasScaffoldingLeak(text) {
+  const t = String(text || '');
+  return (
+    /\bQ\d+\b/.test(t) ||
+    /\bA\d+\b/.test(t) ||
+    /Q-stem\s*\d/i.test(t) ||
+    /COVERED LEDGER/i.test(t) ||
+    /DISPLAY-CLEAN:/i.test(t) ||
+    /\[CONTINUE:/i.test(t) ||
+    /PAGE\s+\d+\s+OF\s+\d+/i.test(t) ||
+    /Bloom\s*:/i.test(t) ||
+    /\d+\s*marks\b/i.test(t) ||
+    /Specific Learning Outcome/i.test(t) ||
+    /Key Inquiry Question/i.test(t) ||
+    /CBC FRAMING/i.test(t) ||
+    /This page focuses on/i.test(t) ||
+    /Worked focus:/i.test(t) ||
+    /^Scope:/im.test(t) ||
+    /A Grade 8 answer should/i.test(t) ||
+    /A1 content:/i.test(t) ||
+    /means [A-Z][^.]*role\.?\s*A Grade 8/i.test(t)
+  );
+}
+
+export function isMetaAnswer(text) {
+  return /should use accurate terms|should contain|model answer should|describe what the answer|answers may vary|Choose one concrete Kenyan example that displays/i.test(
     String(text || ''),
   );
 }

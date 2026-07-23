@@ -34,7 +34,11 @@ GLOBAL HOUSE STYLE (formatting law for all output; this is not content):
    symbols Fe, Ca, Mg, K, Na, Au, Ag, F.
 6. NO TRUNCATION: finish each section cleanly; if more remains, end with the line
    [CONTINUE: <next item>]. Never cut a sentence, question, or answer in half.
-7. STABLE IDs: number questions Q1, Q2… and answers A1, A2… so they can be matched.
+7. STABLE IDs: orchestrator may track question/answer order internally; student pages use
+   plain numbered lists (1. 2. 3.) under REVISION QUESTIONS and ANSWERS — never Q1/A1 labels.
+8. STUDENT-FACING ONLY: never print engine plumbing (IDs, ledgers, audit lines, CONTINUE
+   tokens, page counters, Bloom/marks, "scope"/"focus" labels). If it is not something a
+   student reads to learn, it does not appear in the output.
 
 AGENT 1A — Page Planner
 ROLE: Curriculum Page Architect for {SUBJECT} {GRADE}, topic {TOPIC}, aligned to

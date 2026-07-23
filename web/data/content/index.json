@@ -1,6 +1,6 @@
 [
   {
-    "id": "a4f3bb39-12c0-45ad-ace1-aea79f7aeabf",
+    "id": "e1c4b9cf-a523-49c0-8f5c-963030e25511",
     "type": "video-script",
     "title": "Drama: Pressure",
     "topic": {
@@ -21,13 +21,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:49.362Z",
-      "wordCount": 1048,
+      "createdAt": "2026-07-23T00:15:54.792Z",
+      "wordCount": 1052,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "49b95d48-56fc-4a35-97bd-c8679fcbedf8",
+      "linkedLessonId": "e9983080-2e2f-48a8-812d-12b97b7893b9",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "id": "49b95d48-56fc-4a35-97bd-c8679fcbedf8",
+    "id": "e9983080-2e2f-48a8-812d-12b97b7893b9",
     "type": "topic-lesson",
     "title": "Topic 3.2: Pressure",
     "topic": {
@@ -57,7 +57,7 @@
     },
     "pages": {
       "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Pressure\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Everyday Meaning of Pressure\nPAGE 2: Scientific Definition of Pressure\nPAGE 3: Factors Affecting Pressure\nPAGE 4: Formul…",
-      "quiz": "REVISION QUIZ\n====\n\nQ1. From Everyday Meaning of Pressure: state one key definition and one Kenyan example.\nQ2. From Scientific Definition of Pressure: state one key definition and one Kenyan example.\nQ3. From Factors Af…",
+      "quiz": "REVISION QUIZ\n====\n\n1. Define everyday meaning of pressure in your own words and give one clear example.\n2. Define scientific definition of pressure in your own words and give one clear example.\n3. Define factors affecti…",
       "answers": "",
       "studyPages": [
         {
@@ -184,8 +184,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:49.166Z",
-      "wordCount": 13033,
+      "createdAt": "2026-07-23T00:15:54.594Z",
+      "wordCount": 12759,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -211,10 +211,10 @@
         "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly."
       }
     ],
-    "body": "REVISION QUIZ\n====\n\nQ1. From Everyday Meaning of Pressure: state one key definition and one Kenyan example.\nQ2. From Scientific Definition of Pressure: state one key definition and one Kenyan example.\nQ3. From Factors Affecting Pressure: st"
+    "body": "REVISION QUIZ\n====\n\n1. Define everyday meaning of pressure in your own words and give one clear example.\n2. Define scientific definition of pressure in your own words and give one clear example.\n3. Define factors affecting pressure in your "
   },
   {
-    "id": "18d918f3-0b38-4ab3-8328-dc5421295d6a",
+    "id": "a9ba9ab6-443c-4b66-9fe3-8f991bf98cd5",
     "type": "video-script",
     "title": "Drama: Transformation of Energy",
     "topic": {
@@ -235,13 +235,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:48.970Z",
-      "wordCount": 1056,
+      "createdAt": "2026-07-23T00:15:54.409Z",
+      "wordCount": 1060,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "307a5ffe-3e1e-4017-9cad-861ca5e86000",
+      "linkedLessonId": "69a2618e-0bd7-4c4c-8a32-6bddfda08538",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -256,7 +256,7 @@
     ]
   },
   {
-    "id": "307a5ffe-3e1e-4017-9cad-861ca5e86000",
+    "id": "69a2618e-0bd7-4c4c-8a32-6bddfda08538",
     "type": "topic-lesson",
     "title": "Topic 3.1: Transformation of Energy",
     "topic": {
@@ -271,7 +271,7 @@
     },
     "pages": {
       "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Transformation of Energy\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: What Is Energy\nPAGE 2: Forms of Energy Overview\nPAGE 3: Chemical Energy\nPAGE 4: Electrical Energy\nPAGE 5…",
-      "quiz": "REVISION QUIZ\n====\n\nQ1. From What Is Energy: state one key definition and one Kenyan example.\nQ2. From Forms of Energy Overview: state one key definition and one Kenyan example.\nQ3. From Chemical Energy: state one key de…",
+      "quiz": "REVISION QUIZ\n====\n\n1. Define what is energy in your own words and give one clear example.\n2. Define forms of energy overview in your own words and give one clear example.\n3. Define chemical energy in your own words and …",
       "answers": "",
       "studyPages": [
         {
@@ -398,8 +398,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:48.773Z",
-      "wordCount": 12620,
+      "createdAt": "2026-07-23T00:15:54.216Z",
+      "wordCount": 11878,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -425,10 +425,10 @@
         "excerpt": "3.1 Transformation of energy. Energy is the ability to do work Energy is not visible, has no mass and neither does it occupy space."
       }
     ],
-    "body": "REVISION QUIZ\n====\n\nQ1. From What Is Energy: state one key definition and one Kenyan example.\nQ2. From Forms of Energy Overview: state one key definition and one Kenyan example.\nQ3. From Chemical Energy: state one key definition and one Ken"
+    "body": "REVISION QUIZ\n====\n\n1. Define what is energy in your own words and give one clear example.\n2. Define forms of energy overview in your own words and give one clear example.\n3. Define chemical energy in your own words and give one clear examp"
   },
   {
-    "id": "ac74bbfd-c57c-4f2e-9207-0b4a90f85872",
+    "id": "92d74e7f-7d81-46e0-958d-508edf7b5c5d",
     "type": "video-script",
     "title": "Drama: Reproduction in human beings",
     "topic": {
@@ -449,13 +449,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:48.586Z",
-      "wordCount": 1062,
+      "createdAt": "2026-07-23T00:15:54.022Z",
+      "wordCount": 1066,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "fce6283d-cc94-4811-b1ae-d4903a2865bf",
+      "linkedLessonId": "8ae2c389-e297-4160-a4b5-f783e971bf60",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -470,7 +470,7 @@
     ]
   },
   {
-    "id": "fce6283d-cc94-4811-b1ae-d4903a2865bf",
+    "id": "8ae2c389-e297-4160-a4b5-f783e971bf60",
     "type": "topic-lesson",
     "title": "Topic 2.3: Reproduction in human beings",
     "topic": {
@@ -485,7 +485,7 @@
     },
     "pages": {
       "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Reproduction in human beings\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Why Reproduction Matters\nPAGE 2: Hormones as Chemical Messengers\nPAGE 3: Overview of the Menstrual C…",
-      "quiz": "REVISION QUIZ\n====\n\nQ1. From Why Reproduction Matters: state one key definition and one Kenyan example.\nQ2. From Hormones as Chemical Messengers: state one key definition and one Kenyan example.\nQ3. From Overview of the …",
+      "quiz": "REVISION QUIZ\n====\n\n1. Define why reproduction matters in your own words and give one clear example.\n2. Define hormones as chemical messengers in your own words and give one clear example.\n3. Define overview of the menst…",
       "answers": "",
       "studyPages": [
         {
@@ -612,8 +612,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:48.388Z",
-      "wordCount": 12095,
+      "createdAt": "2026-07-23T00:15:53.829Z",
+      "wordCount": 10812,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -639,10 +639,10 @@
         "excerpt": "2.3 Reproduction in Human Beings.  Menstrual cycle. Menstrual cycle consists of natural changes that occur to the body of a female human being every month in preparatio to pregnancy."
       }
     ],
-    "body": "REVISION QUIZ\n====\n\nQ1. From Why Reproduction Matters: state one key definition and one Kenyan example.\nQ2. From Hormones as Chemical Messengers: state one key definition and one Kenyan example.\nQ3. From Overview of the Menstrual Cycle: sta"
+    "body": "REVISION QUIZ\n====\n\n1. Define why reproduction matters in your own words and give one clear example.\n2. Define hormones as chemical messengers in your own words and give one clear example.\n3. Define overview of the menstrual cycle in your o"
   },
   {
-    "id": "f79eb797-58dd-4763-9dda-bfb5554fe7c6",
+    "id": "197c4a07-55ae-41b6-8691-872bd5f759e4",
     "type": "video-script",
     "title": "Drama: Movement of Materials in and out of the cell",
     "topic": {
@@ -663,13 +663,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:48.181Z",
-      "wordCount": 1079,
+      "createdAt": "2026-07-23T00:15:53.627Z",
+      "wordCount": 1083,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "cdf16972-e238-4f80-906b-f46c03db689a",
+      "linkedLessonId": "b8c923a9-c28e-4b67-9904-87c6ef8ff35e",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -684,7 +684,7 @@
     ]
   },
   {
-    "id": "cdf16972-e238-4f80-906b-f46c03db689a",
+    "id": "b8c923a9-c28e-4b67-9904-87c6ef8ff35e",
     "type": "topic-lesson",
     "title": "Topic 2.2: Movement of Materials in and out of the cell",
     "topic": {
@@ -699,7 +699,7 @@
     },
     "pages": {
       "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Movement of Materials in and out of the cell\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Why Materials Move in Cells\nPAGE 2: Solutes Solvents and Solutions\nPAGE 3: Concentra…",
-      "quiz": "REVISION QUIZ\n====\n\nQ1. From Why Materials Move in Cells: state one key definition and one Kenyan example.\nQ2. From Solutes Solvents and Solutions: state one key definition and one Kenyan example.\nQ3. From Concentrated a…",
+      "quiz": "REVISION QUIZ\n====\n\n1. Define why materials move in cells in your own words and give one clear example.\n2. Define solutes solvents and solutions in your own words and give one clear example.\n3. Define concentrated and di…",
       "answers": "",
       "studyPages": [
         {
@@ -826,8 +826,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:47.978Z",
-      "wordCount": 13079,
+      "createdAt": "2026-07-23T00:15:53.423Z",
+      "wordCount": 12105,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -853,10 +853,10 @@
         "excerpt": "2.2 Movement of Material in and Out of the Cell. Diffusion and Osmosis. Meaning of Terms."
       }
     ],
-    "body": "REVISION QUIZ\n====\n\nQ1. From Why Materials Move in Cells: state one key definition and one Kenyan example.\nQ2. From Solutes Solvents and Solutions: state one key definition and one Kenyan example.\nQ3. From Concentrated and Dilute Solutions:"
+    "body": "REVISION QUIZ\n====\n\n1. Define why materials move in cells in your own words and give one clear example.\n2. Define solutes solvents and solutions in your own words and give one clear example.\n3. Define concentrated and dilute solutions in yo"
   },
   {
-    "id": "e510a0ae-80c7-4227-81f9-dd8d0f5dbe02",
+    "id": "a77eab4d-7f8e-4c6e-bce0-d2b1af2d008c",
     "type": "video-script",
     "title": "Drama: The Cell",
     "topic": {
@@ -877,13 +877,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:47.788Z",
-      "wordCount": 1050,
+      "createdAt": "2026-07-23T00:15:53.224Z",
+      "wordCount": 1054,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "7c5d9338-1dee-47e2-9544-3fdc50bd78f4",
+      "linkedLessonId": "9f05388d-214e-4d01-8874-c52c952fc8d7",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -898,7 +898,7 @@
     ]
   },
   {
-    "id": "7c5d9338-1dee-47e2-9544-3fdc50bd78f4",
+    "id": "9f05388d-214e-4d01-8874-c52c952fc8d7",
     "type": "topic-lesson",
     "title": "Topic 2.1: The Cell",
     "topic": {
@@ -913,7 +913,7 @@
     },
     "pages": {
       "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · The Cell\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Cells as Units of Life\nPAGE 2: The Light Microscope Parts\nPAGE 3: Handling a Microscope Safely\nPAGE 4: Preparing a Simpl…",
-      "quiz": "REVISION QUIZ\n====\n\nQ1. From Cells as Units of Life: state one key definition and one Kenyan example.\nQ2. From The Light Microscope Parts: state one key definition and one Kenyan example.\nQ3. From Handling a Microscope S…",
+      "quiz": "REVISION QUIZ\n====\n\n1. Define cells as units of life in your own words and give one clear example.\n2. Define the light microscope parts in your own words and give one clear example.\n3. Define handling a microscope safely…",
       "answers": "",
       "studyPages": [
         {
@@ -1040,8 +1040,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:47.587Z",
-      "wordCount": 11935,
+      "createdAt": "2026-07-23T00:15:53.020Z",
+      "wordCount": 10809,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -1067,10 +1067,10 @@
         "excerpt": "2.1 The Cell. Cells make up the structure of living organisms and carry out various biological processes. Organisms such as amoeba are composed of a single cell hence are said to be unicellular."
       }
     ],
-    "body": "REVISION QUIZ\n====\n\nQ1. From Cells as Units of Life: state one key definition and one Kenyan example.\nQ2. From The Light Microscope Parts: state one key definition and one Kenyan example.\nQ3. From Handling a Microscope Safely: state one key"
+    "body": "REVISION QUIZ\n====\n\n1. Define cells as units of life in your own words and give one clear example.\n2. Define the light microscope parts in your own words and give one clear example.\n3. Define handling a microscope safely in your own words a"
   },
   {
-    "id": "45f9cff5-b75e-477b-b9ba-7e5067f4e12a",
+    "id": "836d50fe-99a8-4ed2-8ad7-737afa0ba716",
     "type": "video-script",
     "title": "Drama: Classes of fire",
     "topic": {
@@ -1091,13 +1091,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:47.399Z",
-      "wordCount": 1068,
+      "createdAt": "2026-07-23T00:15:52.833Z",
+      "wordCount": 1072,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "23bc90a0-7737-407a-b432-63a96883852e",
+      "linkedLessonId": "6245b6f2-cd3e-4eb4-bc40-f5593fbe1a1a",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -1112,7 +1112,7 @@
     ]
   },
   {
-    "id": "23bc90a0-7737-407a-b432-63a96883852e",
+    "id": "6245b6f2-cd3e-4eb4-bc40-f5593fbe1a1a",
     "type": "topic-lesson",
     "title": "Topic 1.3: Classes of fire",
     "topic": {
@@ -1127,7 +1127,7 @@
     },
     "pages": {
       "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Classes of fire\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: What Is Fire\nPAGE 2: The Fire Triangle\nPAGE 3: Removing Fuel from a Fire\nPAGE 4: Removing Heat from a Fire\nPAGE 5…",
-      "quiz": "REVISION QUIZ\n====\n\nQ1. From What Is Fire: state one key definition and one Kenyan example.\nQ2. From The Fire Triangle: state one key definition and one Kenyan example.\nQ3. From Removing Fuel from a Fire: state one key d…",
+      "quiz": "REVISION QUIZ\n====\n\n1. Define what is fire in your own words and give one clear example.\n2. Define the fire triangle in your own words and give one clear example.\n3. Define removing fuel from a fire in your own words and…",
       "answers": "",
       "studyPages": [
         {
@@ -1254,8 +1254,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:47.199Z",
-      "wordCount": 12149,
+      "createdAt": "2026-07-23T00:15:52.638Z",
+      "wordCount": 10631,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -1281,10 +1281,10 @@
         "excerpt": "-Classes of Fire. Fires can be classified between four and seven classes. The following are six classes of fire mostly widely used and accepted."
       }
     ],
-    "body": "REVISION QUIZ\n====\n\nQ1. From What Is Fire: state one key definition and one Kenyan example.\nQ2. From The Fire Triangle: state one key definition and one Kenyan example.\nQ3. From Removing Fuel from a Fire: state one key definition and one Ke"
+    "body": "REVISION QUIZ\n====\n\n1. Define what is fire in your own words and give one clear example.\n2. Define the fire triangle in your own words and give one clear example.\n3. Define removing fuel from a fire in your own words and give one clear exam"
   },
   {
-    "id": "1aa05242-a31e-4c26-b35a-0f7c9d41b912",
+    "id": "adc1f6f2-f9c3-435b-b83b-33e4fe652dd8",
     "type": "video-script",
     "title": "Drama: Physical and chemical changes",
     "topic": {
@@ -1305,13 +1305,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:46.974Z",
-      "wordCount": 1063,
+      "createdAt": "2026-07-23T00:15:52.416Z",
+      "wordCount": 1067,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "b31e6699-4973-4ae2-9e78-3d0708783576",
+      "linkedLessonId": "f9a892a6-d6b9-49d3-991f-d0d6da189f2c",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -1326,7 +1326,7 @@
     ]
   },
   {
-    "id": "b31e6699-4973-4ae2-9e78-3d0708783576",
+    "id": "f9a892a6-d6b9-49d3-991f-d0d6da189f2c",
     "type": "topic-lesson",
     "title": "Topic 1.2: Physical and chemical changes",
     "topic": {
@@ -1341,7 +1341,7 @@
     },
     "pages": {
       "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Physical and chemical changes\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: States of Matter Overview\nPAGE 2: Properties of Solids\nPAGE 3: Properties of Liquids\nPAGE 4: Proper…",
-      "quiz": "REVISION QUIZ\n====\n\nQ1. From States of Matter Overview: state one key definition and one Kenyan example.\nQ2. From Properties of Solids: state one key definition and one Kenyan example.\nQ3. From Properties of Liquids: sta…",
+      "quiz": "REVISION QUIZ\n====\n\n1. Define states of matter overview in your own words and give one clear example.\n2. Define properties of solids in your own words and give one clear example.\n3. Define properties of liquids in your o…",
       "answers": "",
       "studyPages": [
         {
@@ -1468,8 +1468,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:46.770Z",
-      "wordCount": 13387,
+      "createdAt": "2026-07-23T00:15:52.188Z",
+      "wordCount": 12535,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -1495,10 +1495,10 @@
         "excerpt": "1.2 -Physical and Chemical changes. Matter is anything that occupies space and has mass. All solids, liquids and gases are made up of matter."
       }
     ],
-    "body": "REVISION QUIZ\n====\n\nQ1. From States of Matter Overview: state one key definition and one Kenyan example.\nQ2. From Properties of Solids: state one key definition and one Kenyan example.\nQ3. From Properties of Liquids: state one key definitio"
+    "body": "REVISION QUIZ\n====\n\n1. Define states of matter overview in your own words and give one clear example.\n2. Define properties of solids in your own words and give one clear example.\n3. Define properties of liquids in your own words and give on"
   },
   {
-    "id": "61d55dff-edfc-4d1f-9cab-003cf72de075",
+    "id": "b0aa6155-228c-4004-98ee-78351e8970c4",
     "type": "video-script",
     "title": "Drama: Elements and Compounds",
     "topic": {
@@ -1519,13 +1519,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:46.546Z",
-      "wordCount": 1076,
+      "createdAt": "2026-07-23T00:15:51.963Z",
+      "wordCount": 1080,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "b7348888-67f5-45b0-bbd9-cd4f0835b9d7",
+      "linkedLessonId": "75a57415-a2a5-4539-8fa8-1d9950e9839d",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -1540,7 +1540,7 @@
     ]
   },
   {
-    "id": "b7348888-67f5-45b0-bbd9-cd4f0835b9d7",
+    "id": "75a57415-a2a5-4539-8fa8-1d9950e9839d",
     "type": "topic-lesson",
     "title": "Topic 1.1: Elements and Compounds",
     "topic": {
@@ -1555,7 +1555,7 @@
     },
     "pages": {
       "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Elements and Compounds\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Matter and Pure Substances\nPAGE 2: What Is an Element\nPAGE 3: Atoms as Building Units\nPAGE 4: What Is a Co…",
-      "quiz": "REVISION QUIZ\n====\n\nQ1. From Matter and Pure Substances: state one key definition and one Kenyan example.\nQ2. From What Is an Element: state one key definition and one Kenyan example.\nQ3. From Atoms as Building Units: st…",
+      "quiz": "REVISION QUIZ\n====\n\n1. Define matter and pure substances in your own words and give one clear example.\n2. Define an element and give two examples found in a Kenyan home.\n3. Define atoms as building units in your own word…",
       "answers": "",
       "studyPages": [
         {
@@ -1682,8 +1682,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:00:46.280Z",
-      "wordCount": 12470,
+      "createdAt": "2026-07-23T00:15:51.687Z",
+      "wordCount": 11526,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -1709,7 +1709,7 @@
         "excerpt": "ELEMENTS AND COMPUNDS Meaning of Atoms, Elements, molecules and Compounds. Matter is anything that occupies space and has mass."
       }
     ],
-    "body": "REVISION QUIZ\n====\n\nQ1. From Matter and Pure Substances: state one key definition and one Kenyan example.\nQ2. From What Is an Element: state one key definition and one Kenyan example.\nQ3. From Atoms as Building Units: state one key definiti"
+    "body": "REVISION QUIZ\n====\n\n1. Define matter and pure substances in your own words and give one clear example.\n2. Define an element and give two examples found in a Kenyan home.\n3. Define atoms as building units in your own words and give one clear"
   },
   {
     "id": "020239de-b6b0-4d50-a115-a9f592060514",

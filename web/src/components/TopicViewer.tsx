@@ -45,9 +45,10 @@ function renderRichText(text: string): ReactNode[] {
       !trimmed.startsWith('[') &&
       i + 1 < lines.length &&
       /^(====+|----+)$/.test(lines[i + 1].trim());
-    const isSection = /^(SECTION|SEHEMU|PAGE\s+\d+|CBC FRAMING|UPDATED COVERED LEDGER)([\s:—-]|$)/i.test(
-      trimmed,
-    );
+    const isSection =
+      /^(SECTION|SEHEMU|PAGE\s+\d+|CBC FRAMING|WHAT YOU WILL LEARN|INTRODUCTION|MAIN NOTES|WORKED EXAMPLE|IN EVERYDAY LIFE|SUMMARY|REVISION QUESTIONS|ANSWERS)([\s:—-]|$)/i.test(
+        trimmed,
+      );
     const isMdH3 = /^###\s+/.test(trimmed);
     const isMdH2 = /^##\s+/.test(trimmed);
     const isSkill = /^▸\s+/.test(trimmed);

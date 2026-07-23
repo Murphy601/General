@@ -113,8 +113,8 @@ for (const topic of catalog.topics) {
     continue;
   }
 
-  // Agent 1B loop
-  let ledger = { locals: [], questionStems: [], factStarts: [] };
+  // Agent 1B loop — orchestrator keeps ledger; writer prints student page only
+  let ledger = { locals: [], questionStems: [], factStarts: [], workedFingerprints: [] };
   const studyPages = [];
   for (let i = 0; i < pagePlan.length; i++) {
     const { body, ledger: next } = writePage({
@@ -126,12 +126,11 @@ for (const topic of catalog.topics) {
       ledger,
     });
     ledger = next;
-    // Agent 2
-    const normalized = displayNormalize(body);
+    // Agent 2 — formatting only; never append audit lines to student text
     studyPages.push({
       pageNumber: i + 1,
       title: pagePlan[i].title,
-      body: normalized,
+      body: displayNormalize(body),
       free: true,
     });
   }
