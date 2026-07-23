@@ -1,6 +1,6 @@
 [
   {
-    "id": "e1c4b9cf-a523-49c0-8f5c-963030e25511",
+    "id": "056cc6a4-88f3-4a42-8640-02604df772bd",
     "type": "video-script",
     "title": "Drama: Pressure",
     "topic": {
@@ -21,13 +21,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:54.792Z",
+      "createdAt": "2026-07-23T01:04:13.566Z",
       "wordCount": 1052,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "e9983080-2e2f-48a8-812d-12b97b7893b9",
+      "linkedLessonId": "e367c885-4f2a-49d8-aa8d-f4c73365d967",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -42,7 +42,7 @@
     ]
   },
   {
-    "id": "e9983080-2e2f-48a8-812d-12b97b7893b9",
+    "id": "e367c885-4f2a-49d8-aa8d-f4c73365d967",
     "type": "topic-lesson",
     "title": "Topic 3.2: Pressure",
     "topic": {
@@ -184,8 +184,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:54.594Z",
-      "wordCount": 12759,
+      "createdAt": "2026-07-23T01:04:13.370Z",
+      "wordCount": 11426,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -214,7 +214,7 @@
     "body": "REVISION QUIZ\n====\n\n1. Define everyday meaning of pressure in your own words and give one clear example.\n2. Define scientific definition of pressure in your own words and give one clear example.\n3. Define factors affecting pressure in your "
   },
   {
-    "id": "a9ba9ab6-443c-4b66-9fe3-8f991bf98cd5",
+    "id": "d9f5279b-0bff-4c71-8374-adae712fc7ca",
     "type": "video-script",
     "title": "Drama: Transformation of Energy",
     "topic": {
@@ -235,13 +235,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:54.409Z",
+      "createdAt": "2026-07-23T01:04:13.186Z",
       "wordCount": 1060,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "69a2618e-0bd7-4c4c-8a32-6bddfda08538",
+      "linkedLessonId": "66eb7fb7-a0d9-44b5-aa9f-453a5fb15aed",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -256,7 +256,7 @@
     ]
   },
   {
-    "id": "69a2618e-0bd7-4c4c-8a32-6bddfda08538",
+    "id": "66eb7fb7-a0d9-44b5-aa9f-453a5fb15aed",
     "type": "topic-lesson",
     "title": "Topic 3.1: Transformation of Energy",
     "topic": {
@@ -398,8 +398,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:54.216Z",
-      "wordCount": 11878,
+      "createdAt": "2026-07-23T01:04:12.971Z",
+      "wordCount": 10372,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -428,7 +428,7 @@
     "body": "REVISION QUIZ\n====\n\n1. Define what is energy in your own words and give one clear example.\n2. Define forms of energy overview in your own words and give one clear example.\n3. Define chemical energy in your own words and give one clear examp"
   },
   {
-    "id": "92d74e7f-7d81-46e0-958d-508edf7b5c5d",
+    "id": "a031ce1e-acd7-4245-8311-b50f79f4e9d4",
     "type": "video-script",
     "title": "Drama: Reproduction in human beings",
     "topic": {
@@ -449,13 +449,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:54.022Z",
+      "createdAt": "2026-07-23T01:04:12.784Z",
       "wordCount": 1066,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "8ae2c389-e297-4160-a4b5-f783e971bf60",
+      "linkedLessonId": "fe5020c7-61bd-45eb-89c9-37086e67a0eb",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -470,7 +470,7 @@
     ]
   },
   {
-    "id": "8ae2c389-e297-4160-a4b5-f783e971bf60",
+    "id": "fe5020c7-61bd-45eb-89c9-37086e67a0eb",
     "type": "topic-lesson",
     "title": "Topic 2.3: Reproduction in human beings",
     "topic": {
@@ -612,8 +612,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:53.829Z",
-      "wordCount": 10812,
+      "createdAt": "2026-07-23T01:04:12.594Z",
+      "wordCount": 9306,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -642,7 +642,7 @@
     "body": "REVISION QUIZ\n====\n\n1. Define why reproduction matters in your own words and give one clear example.\n2. Define hormones as chemical messengers in your own words and give one clear example.\n3. Define overview of the menstrual cycle in your o"
   },
   {
-    "id": "197c4a07-55ae-41b6-8691-872bd5f759e4",
+    "id": "10cbb69a-2ea9-4a26-94ac-80e68f6f2b23",
     "type": "video-script",
     "title": "Drama: Movement of Materials in and out of the cell",
     "topic": {
@@ -663,13 +663,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:53.627Z",
+      "createdAt": "2026-07-23T01:04:12.399Z",
       "wordCount": 1083,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "b8c923a9-c28e-4b67-9904-87c6ef8ff35e",
+      "linkedLessonId": "4250f6b5-8f88-4ce0-a33c-f2be293cfe4c",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -684,7 +684,7 @@
     ]
   },
   {
-    "id": "b8c923a9-c28e-4b67-9904-87c6ef8ff35e",
+    "id": "4250f6b5-8f88-4ce0-a33c-f2be293cfe4c",
     "type": "topic-lesson",
     "title": "Topic 2.2: Movement of Materials in and out of the cell",
     "topic": {
@@ -826,8 +826,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:53.423Z",
-      "wordCount": 12105,
+      "createdAt": "2026-07-23T01:04:12.199Z",
+      "wordCount": 10652,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -856,7 +856,7 @@
     "body": "REVISION QUIZ\n====\n\n1. Define why materials move in cells in your own words and give one clear example.\n2. Define solutes solvents and solutions in your own words and give one clear example.\n3. Define concentrated and dilute solutions in yo"
   },
   {
-    "id": "a77eab4d-7f8e-4c6e-bce0-d2b1af2d008c",
+    "id": "dc3a2941-f7af-4a19-8b7f-1b62e590b054",
     "type": "video-script",
     "title": "Drama: The Cell",
     "topic": {
@@ -877,13 +877,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:53.224Z",
+      "createdAt": "2026-07-23T01:04:11.996Z",
       "wordCount": 1054,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "9f05388d-214e-4d01-8874-c52c952fc8d7",
+      "linkedLessonId": "a5ee8bbd-e85a-4c69-b9d6-a3515e443ff7",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -898,7 +898,7 @@
     ]
   },
   {
-    "id": "9f05388d-214e-4d01-8874-c52c952fc8d7",
+    "id": "a5ee8bbd-e85a-4c69-b9d6-a3515e443ff7",
     "type": "topic-lesson",
     "title": "Topic 2.1: The Cell",
     "topic": {
@@ -1040,8 +1040,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:53.020Z",
-      "wordCount": 10809,
+      "createdAt": "2026-07-23T01:04:11.780Z",
+      "wordCount": 9299,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -1070,7 +1070,7 @@
     "body": "REVISION QUIZ\n====\n\n1. Define cells as units of life in your own words and give one clear example.\n2. Define the light microscope parts in your own words and give one clear example.\n3. Define handling a microscope safely in your own words a"
   },
   {
-    "id": "836d50fe-99a8-4ed2-8ad7-737afa0ba716",
+    "id": "3d552611-58da-4ce5-9521-6f5fb6380f60",
     "type": "video-script",
     "title": "Drama: Classes of fire",
     "topic": {
@@ -1091,13 +1091,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:52.833Z",
+      "createdAt": "2026-07-23T01:04:11.566Z",
       "wordCount": 1072,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "6245b6f2-cd3e-4eb4-bc40-f5593fbe1a1a",
+      "linkedLessonId": "4f75d2ca-832f-44e9-9cd2-8f9157e8c4fa",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -1112,7 +1112,7 @@
     ]
   },
   {
-    "id": "6245b6f2-cd3e-4eb4-bc40-f5593fbe1a1a",
+    "id": "4f75d2ca-832f-44e9-9cd2-8f9157e8c4fa",
     "type": "topic-lesson",
     "title": "Topic 1.3: Classes of fire",
     "topic": {
@@ -1254,8 +1254,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:52.638Z",
-      "wordCount": 10631,
+      "createdAt": "2026-07-23T01:04:11.361Z",
+      "wordCount": 9161,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -1284,7 +1284,7 @@
     "body": "REVISION QUIZ\n====\n\n1. Define what is fire in your own words and give one clear example.\n2. Define the fire triangle in your own words and give one clear example.\n3. Define removing fuel from a fire in your own words and give one clear exam"
   },
   {
-    "id": "adc1f6f2-f9c3-435b-b83b-33e4fe652dd8",
+    "id": "212c671a-8768-428b-9d89-e6de969ade90",
     "type": "video-script",
     "title": "Drama: Physical and chemical changes",
     "topic": {
@@ -1305,13 +1305,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:52.416Z",
+      "createdAt": "2026-07-23T01:04:11.163Z",
       "wordCount": 1067,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "f9a892a6-d6b9-49d3-991f-d0d6da189f2c",
+      "linkedLessonId": "34d17404-9557-483a-b1b8-51ad236224ff",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -1326,7 +1326,7 @@
     ]
   },
   {
-    "id": "f9a892a6-d6b9-49d3-991f-d0d6da189f2c",
+    "id": "34d17404-9557-483a-b1b8-51ad236224ff",
     "type": "topic-lesson",
     "title": "Topic 1.2: Physical and chemical changes",
     "topic": {
@@ -1468,8 +1468,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:52.188Z",
-      "wordCount": 12535,
+      "createdAt": "2026-07-23T01:04:10.948Z",
+      "wordCount": 11387,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -1498,7 +1498,7 @@
     "body": "REVISION QUIZ\n====\n\n1. Define states of matter overview in your own words and give one clear example.\n2. Define properties of solids in your own words and give one clear example.\n3. Define properties of liquids in your own words and give on"
   },
   {
-    "id": "b0aa6155-228c-4004-98ee-78351e8970c4",
+    "id": "19c4d5bd-0799-4e24-bf21-9d6776f2947d",
     "type": "video-script",
     "title": "Drama: Elements and Compounds",
     "topic": {
@@ -1519,13 +1519,13 @@
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:51.963Z",
+      "createdAt": "2026-07-23T01:04:10.711Z",
       "wordCount": 1080,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "contentSource": "study-drama-engine-v1",
-      "linkedLessonId": "75a57415-a2a5-4539-8fa8-1d9950e9839d",
+      "linkedLessonId": "131ee8cc-8a6f-4942-8fce-f57d6529cce2",
       "videoFormat": "screen-drama",
       "videoLength": "5–10 minutes",
       "qaVerdict": "APPROVED"
@@ -1540,7 +1540,7 @@
     ]
   },
   {
-    "id": "75a57415-a2a5-4539-8fa8-1d9950e9839d",
+    "id": "131ee8cc-8a6f-4942-8fce-f57d6529cce2",
     "type": "topic-lesson",
     "title": "Topic 1.1: Elements and Compounds",
     "topic": {
@@ -1682,8 +1682,8 @@
       "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-23T00:15:51.687Z",
-      "wordCount": 11526,
+      "createdAt": "2026-07-23T01:04:10.430Z",
+      "wordCount": 10085,
       "reviewed": true,
       "access": "free",
       "priceKes": 0,
@@ -1710,6 +1710,3366 @@
       }
     ],
     "body": "REVISION QUIZ\n====\n\n1. Define matter and pure substances in your own words and give one clear example.\n2. Define an element and give two examples found in a Kenyan home.\n3. Define atoms as building units in your own words and give one clear"
+  },
+  {
+    "id": "6a8c11d7-5517-404c-a0b9-03649738bb81",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #20",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 20,
+      "slug": "g8-is-premium-20"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 20\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:58.802Z",
+      "wordCount": 1522,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 20,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "f209440d-016e-4aee-bf14-01f1984f2486",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #19",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 19,
+      "slug": "g8-is-premium-19"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 19\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×100\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 10 × 10\n3. T…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:58.599Z",
+      "wordCount": 1667,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 19,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "c793c508-5b72-4543-81e4-a369b7b5d5d3",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #18",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 18,
+      "slug": "g8-is-premium-18"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 18\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:58.417Z",
+      "wordCount": 1556,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 18,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "9e8005ca-556f-469e-bf45-e6475680113e",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #17",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 17,
+      "slug": "g8-is-premium-17"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 17\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:58.217Z",
+      "wordCount": 1615,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 17,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "18a427c6-3d70-437d-8e11-4b5ca370347a",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #16",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 16,
+      "slug": "g8-is-premium-16"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 16\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:58.031Z",
+      "wordCount": 1568,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 16,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "1dc05d4b-c724-4742-abc6-775ff83fdbb3",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #15",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 15,
+      "slug": "g8-is-premium-15"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 15\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:57.835Z",
+      "wordCount": 1546,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 15,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "1bab0f76-2e20-403c-ab16-173313ac8388",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #14",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 14,
+      "slug": "g8-is-premium-14"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 14\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:57.654Z",
+      "wordCount": 1631,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 14,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "9efdc943-2186-49df-baab-58af4c596ca5",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #13",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 13,
+      "slug": "g8-is-premium-13"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 13\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:57.462Z",
+      "wordCount": 1661,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 13,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "7415252e-bcd3-4a37-88c2-562bc4587eb0",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #12",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 12,
+      "slug": "g8-is-premium-12"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 12\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:57.279Z",
+      "wordCount": 1447,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 12,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "786dfb03-98b3-4a6c-acbb-d993bdb96dd4",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #11",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 11,
+      "slug": "g8-is-premium-11"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 11\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:57.081Z",
+      "wordCount": 1621,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 11,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "6fbdc68f-63a0-4cf1-a098-fafe15ed711b",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #10",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 10,
+      "slug": "g8-is-premium-10"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 10\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → step…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:56.899Z",
+      "wordCount": 1677,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 10,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "0b1a8bb6-3cae-4072-a6e7-da5b9f63b3fd",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #9",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 9,
+      "slug": "g8-is-premium-9"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 9\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:56.714Z",
+      "wordCount": 1540,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 9,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "b1d2f4a9-02c0-438c-9e6c-d4aa24a4ea59",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #8",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 8,
+      "slug": "g8-is-premium-8"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 8\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:56.523Z",
+      "wordCount": 1522,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 8,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "5a83be21-952f-43b3-9154-8f5b38aeecc2",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #7",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 7,
+      "slug": "g8-is-premium-7"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 7\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:56.323Z",
+      "wordCount": 1667,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 7,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "0e74b38d-7242-4acf-8576-d6b7e1458cdb",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #6",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 6,
+      "slug": "g8-is-premium-6"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 6\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:56.145Z",
+      "wordCount": 1556,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 6,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "7dd72a1e-0772-4dd9-a823-dff42d73fe14",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #5",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 5,
+      "slug": "g8-is-premium-5"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 5\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:55.944Z",
+      "wordCount": 1615,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 5,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "7eae2453-493c-49f9-830d-bb638addd8a1",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #4",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 4,
+      "slug": "g8-is-premium-4"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 4\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:55.756Z",
+      "wordCount": 1568,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 4,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "af54da7b-a0be-451b-926c-f0237a86ced8",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #3",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 3,
+      "slug": "g8-is-premium-3"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 3\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:55.562Z",
+      "wordCount": 1546,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 3,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "5d710850-0fd8-407c-9c93-fe00108f195e",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #2",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 2,
+      "slug": "g8-is-premium-2"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 2\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:55.375Z",
+      "wordCount": 1631,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 2,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "4732a5b6-4eec-4c04-8bd7-eec97ab2f7f3",
+    "type": "premium-exam",
+    "title": "Grade 8 Integrated Science — Premium Exam #1",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "premium",
+      "topicOrder": 1,
+      "slug": "g8-is-premium-1"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — PREMIUM EXAM 1\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours 30 minutes\nTOTAL MARKS: 100\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:55.173Z",
+      "wordCount": 1661,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 150,
+      "questionCount": 31,
+      "category": "premium",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "PREMIUM",
+      "paperIndex": 1,
+      "totalMarks": 100
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "32e6e455-b178-4502-8e97-e46aa742c53a",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #20",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 20,
+      "slug": "g8-is-mock-20"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 20\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:54.990Z",
+      "wordCount": 1327,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 20,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "ee6a49e8-f03f-4f83-92db-ed154030748e",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #19",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 19,
+      "slug": "g8-is-mock-19"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 19\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×100\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 10 × 10\n3. T…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:54.804Z",
+      "wordCount": 1340,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 19,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "f8c72992-0bab-482a-a481-509e8471b46f",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #18",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 18,
+      "slug": "g8-is-mock-18"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 18\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:54.623Z",
+      "wordCount": 1383,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 18,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "030ac5b6-3607-43d0-a057-3958b69db77e",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #17",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 17,
+      "slug": "g8-is-mock-17"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 17\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:54.434Z",
+      "wordCount": 1309,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 17,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "a5949994-e5b4-46b8-a0ff-0d04042ae9a4",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #16",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 16,
+      "slug": "g8-is-mock-16"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 16\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:54.253Z",
+      "wordCount": 1327,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 16,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "3efff2ac-a739-472d-81d3-fa985917363c",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #15",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 15,
+      "slug": "g8-is-mock-15"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 15\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:54.052Z",
+      "wordCount": 1340,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 15,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "254d19a9-9c3f-49f7-b917-08e7f7bfa3ef",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #14",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 14,
+      "slug": "g8-is-mock-14"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 14\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:53.865Z",
+      "wordCount": 1383,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 14,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "a7e923c2-9f6d-419b-b41d-3fac2a278f7f",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #13",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 13,
+      "slug": "g8-is-mock-13"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 13\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:53.662Z",
+      "wordCount": 1309,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 13,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "037a023b-94c6-48f3-a5c9-993f74324fe3",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #12",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 12,
+      "slug": "g8-is-mock-12"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 12\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:53.488Z",
+      "wordCount": 1327,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 12,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "61542c15-b3cd-4db4-9d3b-960bcb76e07e",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #11",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 11,
+      "slug": "g8-is-mock-11"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 11\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:53.294Z",
+      "wordCount": 1340,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 11,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "89a093e3-580f-4cc8-96a3-8713578dfa32",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #10",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 10,
+      "slug": "g8-is-mock-10"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 10\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answe…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:53.105Z",
+      "wordCount": 1383,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 10,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "22bdbe86-50c3-40c3-b477-d6b95ab6bafe",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #9",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 9,
+      "slug": "g8-is-mock-9"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 9\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:52.911Z",
+      "wordCount": 1309,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 9,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "48c2fba2-baf9-41f2-98c9-6e4aeff90dff",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #8",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 8,
+      "slug": "g8-is-mock-8"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 8\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:52.734Z",
+      "wordCount": 1327,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 8,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "7f104634-a312-4b67-831b-ff889e1ced5d",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #7",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 7,
+      "slug": "g8-is-mock-7"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 7\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:52.540Z",
+      "wordCount": 1340,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 7,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "651a5d86-3d8f-422f-819b-cc9ff7b778d6",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #6",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 6,
+      "slug": "g8-is-mock-6"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 6\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:52.359Z",
+      "wordCount": 1383,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 6,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "a4afd2b9-c158-4f30-8cb2-731ce8e1536d",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #5",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 5,
+      "slug": "g8-is-mock-5"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 5\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:52.167Z",
+      "wordCount": 1309,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 5,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "e06534bd-8530-4cbe-a9ee-e793c0ebab25",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #4",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 4,
+      "slug": "g8-is-mock-4"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 4\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:51.982Z",
+      "wordCount": 1327,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 4,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "9a1cb2fd-bb23-4916-b302-bea03a770a13",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #3",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 3,
+      "slug": "g8-is-mock-3"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 3\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:51.777Z",
+      "wordCount": 1340,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 3,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "06468a67-3bf8-44b5-8830-442629eb5c5c",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #2",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 2,
+      "slug": "g8-is-mock-2"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 2\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:51.596Z",
+      "wordCount": 1383,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 2,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "3816aa44-841a-4346-9c80-382b8eeb4fce",
+    "type": "mock-exam",
+    "title": "Grade 8 Integrated Science — Mock Exam #1",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "mock",
+      "topicOrder": 1,
+      "slug": "g8-is-mock-1"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — MOCK EXAM 1\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 2 hours\nTOTAL MARKS: 80\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → final answer…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:51.398Z",
+      "wordCount": 1309,
+      "reviewed": true,
+      "access": "paid",
+      "priceKes": 100,
+      "questionCount": 26,
+      "category": "mock",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "MOCK",
+      "paperIndex": 1,
+      "totalMarks": 80
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "a21c6053-a982-45c4-a08d-d01f79cd62da",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 2 #20",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T2",
+      "topicOrder": 20,
+      "slug": "g8-is-termly-t2-20"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 2) 20\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — A pure substance that cannot be broken down into a simpler sub…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:51.201Z",
+      "wordCount": 931,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 2,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 20,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "9f166a72-5214-44ec-9856-e3741f99b025",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 1 #19",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T1",
+      "topicOrder": 19,
+      "slug": "g8-is-termly-t1-19"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 1) 19\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×100\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 10 × 10\n3. T…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:51.003Z",
+      "wordCount": 1131,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 1,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 19,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "f75de13b-c576-42c9-bfe8-9e3d6e5a6793",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 3 #18",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T3",
+      "topicOrder": 18,
+      "slug": "g8-is-termly-t3-18"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 3) 18\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:50.811Z",
+      "wordCount": 1124,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 3,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 18,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "9f167e9a-d5d4-4ee1-9f66-53386b5c7860",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 2 #17",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T2",
+      "topicOrder": 17,
+      "slug": "g8-is-termly-t2-17"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 2) 17\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — Ca — first letter capital, second letter small\n\n4. Correct opt…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:50.611Z",
+      "wordCount": 933,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 2,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 17,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "065ce72b-2389-46d5-89c7-0be958d4ab31",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 1 #16",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T1",
+      "topicOrder": 16,
+      "slug": "g8-is-termly-t1-16"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 1) 16\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×600\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 15 × 40\n3. T…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:50.433Z",
+      "wordCount": 1030,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 1,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 16,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "d9621f07-cf13-465d-9d6a-6f6b7b3d848d",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 3 #15",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T3",
+      "topicOrder": 15,
+      "slug": "g8-is-termly-t3-15"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 3) 15\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Wate…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:50.230Z",
+      "wordCount": 1109,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 3,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 15,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "9ff46e8a-4861-411a-80f1-03bb779cf425",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 2 #14",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T2",
+      "topicOrder": 14,
+      "slug": "g8-is-termly-t2-14"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 2) 14\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:50.058Z",
+      "wordCount": 953,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 2,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 14,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "2d6397c2-cc04-4426-a96b-fb27b1fb2923",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 1 #13",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T1",
+      "topicOrder": 13,
+      "slug": "g8-is-termly-t1-13"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 1) 13\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — Ca — first letter capital, second letter small\n\n4. Correct opt…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:49.876Z",
+      "wordCount": 1052,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 1,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 13,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "bd355910-e1d2-4135-a9d3-001e0d73273c",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 3 #12",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T3",
+      "topicOrder": 12,
+      "slug": "g8-is-termly-t3-12"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 3) 12\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×600\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 15 × 40\n3. T…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:49.698Z",
+      "wordCount": 1026,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 3,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 12,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "0829864c-d1e5-4bf1-908d-77d27c001a9f",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 2 #11",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T2",
+      "topicOrder": 11,
+      "slug": "g8-is-termly-t2-11"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 2) 11\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Wate…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:49.495Z",
+      "wordCount": 994,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 2,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 11,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "f87c1bef-9e62-4ba2-87ad-7f32d5532081",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 1 #10",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T1",
+      "topicOrder": 10,
+      "slug": "g8-is-termly-t1-10"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 1) 10\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:49.316Z",
+      "wordCount": 1072,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 1,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 10,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "61f08899-43bd-4982-b246-663ab3cc0e2f",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 3 #9",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T3",
+      "topicOrder": 9,
+      "slug": "g8-is-termly-t3-9"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 3) 9\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — Ca — first letter capital, second letter small\n\n4. Correct opt…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:49.118Z",
+      "wordCount": 1048,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 3,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 9,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "bab78f60-e4b9-4066-9694-6aa33d8ea1d7",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 2 #8",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T2",
+      "topicOrder": 8,
+      "slug": "g8-is-termly-t2-8"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 2) 8\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×600\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 15 × 40\n3. T…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:48.944Z",
+      "wordCount": 911,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 2,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 8,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "fb10f0ff-d78c-47dc-b90c-24366285ea55",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 1 #7",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T1",
+      "topicOrder": 7,
+      "slug": "g8-is-termly-t1-7"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 1) 7\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Wate…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:48.728Z",
+      "wordCount": 1113,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 1,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 7,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "95a313bf-acd2-4c38-98a2-7eb8b4ff3078",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 3 #6",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T3",
+      "topicOrder": 6,
+      "slug": "g8-is-termly-t3-6"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 3) 6\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:48.547Z",
+      "wordCount": 1068,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 3,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 6,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "e00b650f-56d6-4a88-a5f4-5418ec3e04f0",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 2 #5",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T2",
+      "topicOrder": 5,
+      "slug": "g8-is-termly-t2-5"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 2) 5\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — Ca — first letter capital, second letter small\n\n4. Correct opt…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:48.354Z",
+      "wordCount": 933,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 2,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 5,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "13b2243c-75f8-44f2-856c-7d9c12461530",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 1 #4",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T1",
+      "topicOrder": 4,
+      "slug": "g8-is-termly-t1-4"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 1) 4\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×600\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 15 × 40\n3. T…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:48.178Z",
+      "wordCount": 1030,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 1,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 4,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "fec9c406-7e1f-4d30-bd1d-e37bc5186def",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 3 #3",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T3",
+      "topicOrder": 3,
+      "slug": "g8-is-termly-t3-3"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 3) 3\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Water\n\n2. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Total magnification = eyepiece × objective\n2. Substitute values: Total = 5 × 40\n3. To…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:47.972Z",
+      "wordCount": 1127,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 3,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 3,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "6e89b55a-4981-4cd5-b894-7650ef8444c6",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 2 #2",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T2",
+      "topicOrder": 2,
+      "slug": "g8-is-termly-t2-2"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 2) 2\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Net …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:47.800Z",
+      "wordCount": 1009,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 2,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 2,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "51524735-6680-49ec-89c5-011d1b12a1a7",
+    "type": "termly-exam",
+    "title": "Grade 8 Integrated Science — Termly Exam Term 1 #1",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "T1",
+      "topicOrder": 1,
+      "slug": "g8-is-termly-t1-1"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — TERMLY EXAM (TERM 1) 1\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 1 hour 30 minutes\nTOTAL MARKS: 50\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:47.597Z",
+      "wordCount": 1069,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 50,
+      "questionCount": 20,
+      "category": "termly",
+      "term": 1,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "TERMLY",
+      "paperIndex": 1,
+      "totalMarks": 50
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "cdbdc5a4-e81a-46c4-90b7-699e33609069",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #20",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 20,
+      "slug": "g8-is-general-20"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 20\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Definite volume, no definite shape\n\n2. Correct option: A — Water can spread the burning petrol instead of putting it out safely\n\n3. Correct option: A — Chem…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:47.420Z",
+      "wordCount": 909,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 20,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "7798627a-ebaa-4c06-8a29-1f753a7871be",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #19",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 19,
+      "slug": "g8-is-general-19"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 19\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ca — first letter capital, second letter small\n\n2. Correct option: A — It contains sodium and chlorine chemically joined in a fixed ratio\n\n3. Correct option…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:47.231Z",
+      "wordCount": 731,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 19,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "2aecf839-a9d1-49f7-92ac-b7350d250ace",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #18",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 18,
+      "slug": "g8-is-general-18"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 18\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Chemical → electrical → light (+ heat)\n\n2. Correct option: A — Ferrum\n\n3. Correct option: A — Definite volume, no definite shape\n\n4. Correct option: A — Wat…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:47.047Z",
+      "wordCount": 620,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 18,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "babe6a56-44e7-4934-804b-e2a820123efa",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #17",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 17,
+      "slug": "g8-is-general-17"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 17\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — A pure substance that cannot be broken down into a simpler substance by chemical or physical means\n\n2. Correct option: A — Ca — first letter capital, second…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:46.847Z",
+      "wordCount": 936,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 17,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "fc5be4cb-7a69-4049-b3c4-bc11c4787634",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #16",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 16,
+      "slug": "g8-is-general-16"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 16\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — 2000 Pa\nWorking:\n1. Formula / relationship: P = F / A\n2. Substitute values: P = 400 / 0.2\n3. P = 2000\nFinal Answer: 2000 Pa\nMarks: M1 substitute; A1 Pa\n\n2. …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:46.670Z",
+      "wordCount": 806,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 16,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "255f4d3d-2a4c-4c51-964f-4a42637a520b",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #15",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 15,
+      "slug": "g8-is-general-15"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 15\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Net movement of particles from high to low concentration\n\n2. Correct option: A — Water\n\n3. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Tota…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:46.479Z",
+      "wordCount": 591,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 15,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "210a4047-a077-4be1-b07d-bea246b5dda7",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #14",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 14,
+      "slug": "g8-is-general-14"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 14\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ice melting to water\n\n2. Correct option: A — Definite volume, no definite shape\n\n3. Correct option: A — Water can spread the burning petrol instead of putti…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:46.302Z",
+      "wordCount": 901,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 14,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "3f9ab6d7-2e32-45a9-bf6a-3f17f0d57f2c",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #13",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 13,
+      "slug": "g8-is-general-13"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 13\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — A pure substance that cannot be broken down into a simpler substance by chemical or physical means\n\n2. Correct option: A — Ca — first letter capital, second…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:46.105Z",
+      "wordCount": 794,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 13,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "a986aa80-870b-4251-85a9-ed5d5eb532dd",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #12",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 12,
+      "slug": "g8-is-general-12"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 12\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — 1600 Pa\nWorking:\n1. Formula / relationship: P = F / A\n2. Substitute values: P = 320 / 0.2\n3. P = 1600\nFinal Answer: 1600 Pa\nMarks: M1 substitute; A1 Pa\n\n2. …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:45.933Z",
+      "wordCount": 687,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 12,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "90941030-2730-4e5a-9624-eba16eaf250d",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #11",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 11,
+      "slug": "g8-is-general-11"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 11\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Net movement of particles from high to low concentration\n\n2. Correct option: A — Water\n\n3. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Tota…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:45.748Z",
+      "wordCount": 781,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 11,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "d759b847-8e15-49dc-9968-05e7290f1de2",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #10",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 10,
+      "slug": "g8-is-general-10"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 10\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps →…",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ice melting to water\n\n2. Correct option: A — Definite volume, no definite shape\n\n3. Correct option: A — Water can spread the burning petrol instead of putti…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:45.580Z",
+      "wordCount": 828,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 10,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "8d74a822-5f77-4e6c-ae89-c2e0b371e51c",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #9",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 9,
+      "slug": "g8-is-general-9"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 9\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — A pure substance that cannot be broken down into a simpler substance by chemical or physical means\n\n2. Correct option: A — Ca — first letter capital, second…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:45.388Z",
+      "wordCount": 677,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 9,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "0ffdbfe3-6385-489d-87de-33a9307f950b",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #8",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 8,
+      "slug": "g8-is-general-8"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 8\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — 1200 Pa\nWorking:\n1. Formula / relationship: P = F / A\n2. Substitute values: P = 240 / 0.2\n3. P = 1200\nFinal Answer: 1200 Pa\nMarks: M1 substitute; A1 Pa\n\n2. …",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:45.204Z",
+      "wordCount": 877,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 8,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "4bd8f284-57a8-430e-8a13-762ea689042b",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #7",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 7,
+      "slug": "g8-is-general-7"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 7\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Net movement of particles from high to low concentration\n\n2. Correct option: A — Water\n\n3. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Tota…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:45.006Z",
+      "wordCount": 779,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 7,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "dc0342a6-9200-496c-98e7-909780076fa8",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #6",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 6,
+      "slug": "g8-is-general-6"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 6\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ice melting to water\n\n2. Correct option: A — Definite volume, no definite shape\n\n3. Correct option: A — Water can spread the burning petrol instead of putti…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:44.824Z",
+      "wordCount": 642,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 6,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "adfc4c25-a409-4c6b-97e2-9412e4aa13f8",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #5",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 5,
+      "slug": "g8-is-general-5"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 5\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — A pure substance that cannot be broken down into a simpler substance by chemical or physical means\n\n2. Correct option: A — Ca — first letter capital, second…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:44.632Z",
+      "wordCount": 865,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 5,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "1e83222a-4e17-4b93-bdbf-815bf58d2d2e",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #4",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 4,
+      "slug": "g8-is-general-4"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 4\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — 800 Pa\nWorking:\n1. Formula / relationship: P = F / A\n2. Substitute values: P = 160 / 0.2\n3. P = 800\nFinal Answer: 800 Pa\nMarks: M1 substitute; A1 Pa\n\n2. Cor…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:44.444Z",
+      "wordCount": 875,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 4,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "2c73d8dd-de52-4aee-866e-6f81908f081f",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #3",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 3,
+      "slug": "g8-is-general-3"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 3\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Net movement of particles from high to low concentration\n\n2. Correct option: A — Water\n\n3. Correct option: A — ×200\nWorking:\n1. Formula / relationship: Tota…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:44.264Z",
+      "wordCount": 593,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 3,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "8ab210eb-db64-4110-8fd9-2219f98c8d7d",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #2",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 2,
+      "slug": "g8-is-general-2"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 2\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — Ice melting to water\n\n2. Correct option: A — Definite volume, no definite shape\n\n3. Correct option: A — Water can spread the burning petrol instead of putti…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:44.055Z",
+      "wordCount": 830,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 2,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
+  },
+  {
+    "id": "e2046184-4a2e-4285-9092-9339c8f9b21c",
+    "type": "exam",
+    "title": "Grade 8 Integrated Science — General Assessment #1",
+    "topic": {
+      "grade": "grade-8",
+      "gradeLabel": "Grade 8",
+      "subject": "INTEGRATED SCIENCE",
+      "topicNumber": "general",
+      "topicOrder": 1,
+      "slug": "g8-is-general-1"
+    },
+    "pages": {
+      "lesson": "",
+      "quiz": "INTEGRATED SCIENCE — GENERAL ASSESSMENT 1\n====\n\nEXAM BODY: KJSEA\nGRADE: Grade 8 JSS\nTIME ALLOWED: 45 minutes\nTOTAL MARKS: 30\n\nINSTRUCTIONS\n----\n• Answer all questions.\n• For calculations, show full working (formula → substitution → steps → …",
+      "answers": "MARKING SCHEME\n====\n\n1. Correct option: A — A pure substance that cannot be broken down into a simpler substance by chemical or physical means\n\n2. Correct option: A — Ca — first letter capital, second…",
+      "studyPages": []
+    },
+    "metadata": {
+      "createdAt": "2026-07-23T01:03:43.847Z",
+      "wordCount": 863,
+      "reviewed": true,
+      "access": "free",
+      "priceKes": 0,
+      "questionCount": 14,
+      "category": "general",
+      "term": null,
+      "contentSource": "study-drama-exam-v1",
+      "examBody": "KJSEA",
+      "paperTier": "GENERAL",
+      "paperIndex": 1,
+      "totalMarks": 30
+    },
+    "sources": [
+      {
+        "id": "g8-is-curriculum",
+        "grade": "grade-8",
+        "subject": "INTEGRATED SCIENCE",
+        "excerpt": "Grade 8 Integrated Science assessment from study-drama exam engine"
+      }
+    ]
   },
   {
     "id": "020239de-b6b0-4d50-a115-a9f592060514",

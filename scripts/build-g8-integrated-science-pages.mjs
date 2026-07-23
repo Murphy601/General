@@ -16,21 +16,13 @@ import { writePage, buildQuizFromPages } from './study-drama/writer.mjs';
 import { displayNormalize } from './study-drama/house-style.mjs';
 import { writeDrama } from './study-drama/drama.mjs';
 import { runQA } from './study-drama/qa.mjs';
+import { CONFIG } from './study-drama/config.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const NOTES = join(ROOT, 'knowledge-base', 'textbooks', 'grade-8-integrated-science-notes.json');
 const CONTENT_DIR = join(ROOT, 'web', 'data', 'content');
 const INDEX_FILE = join(CONTENT_DIR, 'index.json');
-
-const CONFIG = {
-  CURRICULUM: 'CBC / KICD (Kenya)',
-  SUBJECT: 'INTEGRATED SCIENCE',
-  GRADE: 'Grade 8 JSS',
-  MIN_PAGES: 20,
-  VIDEO_LENGTH: '5–10 minutes',
-  CONTENT_SOURCE: 'study-drama-engine-v1',
-};
 
 const LOCK_MODE = process.argv.includes('--lock');
 const FREE_PAGES = (() => {

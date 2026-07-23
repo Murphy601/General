@@ -3,6 +3,10 @@
  * Outputs ONLY student-facing study notes. No scaffolding, no meta-answers.
  */
 import { titleBlock, sectionBlock, toUnicodeFormula, cleanNoise } from './house-style.mjs';
+import { buildIntro } from './intros.mjs';
+import { pressureWorking, magnificationWorking } from './math-working.mjs';
+import { pressureForceAreaSvg, fireTriangleSvg, statesParticlePrompt } from './diagram.mjs';
+import { CONFIG } from './config.mjs';
 
 const LOCALS = [
   'a hardware shop in Nakuru',
@@ -129,19 +133,13 @@ function nextLocal(ledger) {
 }
 
 function goalsFor(page) {
+  // Plain student goals — never "The learner should be able to…"
   const t = page.title.toLowerCase();
   return [
-    `Explain ${t} in your own words.`,
-    `Give a real Kenyan example that shows ${t}.`,
-    `Avoid a common mistake learners make about ${t}.`,
+    `Say what ${t} means in plain words.`,
+    `Use one real Kenyan example to show ${t}.`,
+    `Correct one common mistake about ${t}.`,
   ];
-}
-
-function introFor(page, loc, facts) {
-  const hook = facts[0]
-    ? facts[0].replace(/\.$/, '')
-    : `${page.title} helps you understand materials and changes you see every day`;
-  return `Around ${loc}, learners meet science ideas without opening a textbook. ${hook}. This page explains ${page.title.toLowerCase()} so you can recognise it, name it correctly, and use it safely.`;
 }
 
 function mainNotesFor(topicNumber, page, facts) {
@@ -269,10 +267,46 @@ function workedFor(topicNumber, page, loc, facts) {
     return `At ${loc}, a learner labels a cobalt sample as CO on a chart. The teacher crosses it out. CO (both capitals) stands for carbon monoxide, a compound of carbon and oxygen. Cobalt the element must be written Co — capital C, small o. The same learner then writes calcium as CA. That is also wrong; calcium is Ca. Rule used: first letter capital, second letter small.`;
   }
   if (t === 'Formula P Equals F Over A') {
-    return `A delivery helper at ${loc} pushes a cart with force F = 200 N. The contact area of the boards under the wheels is A = 0.50 m². Pressure P = F / A = 200 / 0.50 = 400 Pa. If the helper switches to a narrower plank with A = 0.20 m² and the same force, P = 200 / 0.20 = 1000 Pa — higher pressure, more sinking on soft ground.`;
+    return [
+      `A delivery helper near ${loc} pushes a cart.`,
+      '',
+      pressureWorking({
+        F: 200,
+        A: 0.5,
+        context: 'First find the pressure when force is 200 N and area is 0.50 m².',
+      }),
+      '',
+      'Now compare: if the same 200 N acts on a narrower plank of 0.20 m², then P = 200 / 0.20 = 1000 Pa. Because pressure rose, the cart sinks more on soft ground. First we used P = F / A, then we substituted, then we compared areas — that is the reasoning.',
+      '',
+      pressureForceAreaSvg({ F: 200, A: 0.5 }),
+    ].join('\n');
   }
   if (t === 'Magnification Formula') {
-    return `In a school lab in Machakos, Faith uses an eyepiece marked ×10 and an objective marked ×40. Total magnification = 10 × 40 = ×400. Brian wrongly multiplies by adding (10 + 40 = 50). Faith corrects him: magnification multiplies the lens powers; it does not add them.`;
+    return [
+      'Faith uses an eyepiece marked ×10 and an objective marked ×40.',
+      '',
+      magnificationWorking({ eyepiece: 10, objective: 40 }),
+      '',
+      'Brian wrongly adds 10 + 40 = 50. That is incorrect because total magnification multiplies the lens powers. First write the formula, then substitute, then multiply — never add the markings.',
+    ].join('\n');
+  }
+  if (t === 'The Fire Triangle') {
+    return [
+      `At a market stall near ${loc}, cooking oil on a cloth catches fire.`,
+      'First identify the three parts present: fuel (oil/cloth), heat (flame), oxygen (air).',
+      'Because all three are present, the fire continues.',
+      'Owino reaches for water — wrong for an oil fire, because water can spread the burning fuel.',
+      'Correct action: cut oxygen/heat safely with a cover and move people away — removing one side of the triangle.',
+      '',
+      fireTriangleSvg(),
+    ].join('\n');
+  }
+  if (t === 'States of Matter Overview' || t === 'Particle Arrangement Model' || t === 'Properties of Gases') {
+    return [
+      workedNarrative(topicNumber, page, loc, facts),
+      '',
+      statesParticlePrompt(),
+    ].join('\n');
   }
   if (t === 'Water as a Compound') {
     return `A family boils water for chai at ${loc}. The liquid turns to steam, but steam is still water — formula H₂O — so boiling is a physical change of state. Water is a compound because hydrogen and oxygen are chemically joined in a fixed 2:1 ratio. You cannot sieve hydrogen out of water the way you sieve sand from flour.`;
@@ -280,19 +314,31 @@ function workedFor(topicNumber, page, loc, facts) {
   if (t === 'Common Salt as a Compound') {
     return `Salt crystals linked to Lake Magadi are sodium chloride, NaCl. Sodium (Na) alone is a reactive metal; chlorine (Cl) alone is a poisonous gas. Joined as NaCl they form the safe kitchen compound we use for cooking and preservation. That proves a compound has properties different from its elements.`;
   }
-  if (t === 'The Fire Triangle') {
-    return `At a market stall, cooking oil on a cloth catches fire. Owino reaches for a bucket of water. Sergeant Achieng stops him: for an oil fire, water can spread the burning fuel. Instead they cut the heat/oxygen carefully with a cover and move people away. Removing one side of the fire triangle matters more than panic.`;
-  }
   if (t === 'Solutes Solvents and Solutions') {
-    return `Tonny stirs three spoons of sugar into a glass of water at ${loc}. Sugar is the solute, water is the solvent, and the sweet liquid is the solution. When he adds only half a spoon to another glass, that tea is more dilute. Same solute and solvent — different concentration.`;
+    return `Tonny stirs three spoons of sugar into a glass of water at ${loc}. First name the parts: sugar is the solute, water is the solvent. Because the sugar disappears into the water, the sweet liquid is a solution. Next he makes a second glass with only half a spoon of sugar — that one is more dilute. Same solute and solvent; different amounts change the concentration.`;
   }
-  // Default: concrete worked story using a fact
-  const fact = facts[0] ? toUnicodeFormula(facts[0]) : `${page.title} can be observed carefully in real life.`;
-  return `At ${loc}, a Grade 8 learner tests the idea of ${page.title.toLowerCase()}. Observation: ${fact} The learner then explains the science in their own words, checks a symbol or formula if one applies (for example H₂O, NaCl, Fe, or P = F / A), and writes a short conclusion that matches the definition on this page.`;
+  return workedNarrative(topicNumber, page, loc, facts);
+}
+
+function workedNarrative(topicNumber, page, loc, facts) {
+  const fact = facts[0] ? toUnicodeFormula(facts[0]) : null;
+  return [
+    `Worked situation (${loc}): a learner investigates ${page.title.toLowerCase()}.`,
+    fact ? `First observation: ${fact}` : `First, state the meaning: ${page.scope}.`,
+    'Because of that observation, the learner names the correct scientific idea and rejects a near-miss confusion.',
+    'So the conclusion is written in one accurate sentence that matches the main notes — with the correct symbol or formula if one applies (H₂O, NaCl, Fe, P = F / A).',
+  ].join(' ');
 }
 
 function everydayFor(page, loc) {
-  return `In everyday life around ${loc}, you can spot ${page.title.toLowerCase()} when you look carefully at materials, heat, food, tools, or living things. Safety tip: follow teacher and lab rules, protect your eyes when heating, never taste unknown chemicals, and raise the alarm early if you see smoke or fire.`;
+  const tips = [
+    'Safety tip: protect your eyes when heating and never taste unknown chemicals.',
+    'Practical tip: write the correct symbol or formula before you explain out loud.',
+    'Safety tip: if you see smoke, raise the alarm early and do not fight a large fire alone.',
+    'Practical tip: compare two cases (right vs wrong) so the idea sticks for exams.',
+  ];
+  const tip = tips[Math.abs(page.title.length) % tips.length];
+  return `At ${loc}, ${page.title.toLowerCase()} shows up when you handle real materials or processes linked to this idea. ${tip}`;
 }
 
 function summaryFor(page, notes) {
@@ -308,15 +354,18 @@ function summaryFor(page, notes) {
 
 function questionsAndAnswers(topicNumber, page, loc, notes) {
   const title = page.title;
-  const def = notes.find((n) => /is a |are |means |formula|symbol|pressure|diffusion|osmosis|element|compound|fire|cell/i.test(n)) || notes[0] || page.scope;
+  const def =
+    notes.find((n) => /is a |are |formula|symbol|pressure|diffusion|osmosis|element|compound|fire|cell|cannot|needs/i.test(n)) ||
+    notes[0] ||
+    page.scope;
 
   const q1 = `Define ${title.toLowerCase()} in your own words and give one clear example.`;
   const q2 = `Describe a situation at ${loc} that shows ${title.toLowerCase()}, and explain the science involved.`;
   const q3 = `A learner makes a mistake about ${title.toLowerCase()}. State a likely wrong idea, correct it, and justify your correction with facts from this page.`;
 
-  const a1 = `${toUnicodeFormula(def)} Example: you can connect this idea to something real at home, school, market, or shamba — for instance materials, heat, food, tools, or living cells related to ${title.toLowerCase()}.`;
-  const a2 = `At ${loc}, the situation shows ${title.toLowerCase()} because the materials or process match the definition on this page. First name what you observe. Next link it to the correct scientific idea (including any correct symbol or formula such as H₂O, NaCl, Fe, or P = F / A). Finally say why the correct idea helps you stay accurate or safe.`;
-  const a3 = `A common wrong idea is to treat ${title.toLowerCase()} as if it were a different, neighbouring concept, or to ignore a key rule (for example symbol capitalization, physical versus chemical change, or force and area in pressure). The correction is: ${toUnicodeFormula(String(page.scope))}. Use the worked example on this page as evidence that the corrected statement fits the facts.`;
+  const a1 = `${toUnicodeFormula(def)} For example, link it to a real object or event at home, school, market or shamba that fits this page.`;
+  const a2 = `At ${loc}, you would observe something that matches ${title.toLowerCase()}. Name the observation, then explain it using the definition above${/P =|magnification|H₂O|NaCl/i.test(notes.join(' ')) ? ', including the correct formula or symbol' : ''}. End by stating why the correct idea matters for accuracy or safety.`;
+  const a3 = `Wrong idea: confusing ${title.toLowerCase()} with a neighbouring concept or ignoring a key rule. Correct idea: ${toUnicodeFormula(String(page.scope))}. Justification: the worked example on this page shows the right reasoning with real objects or numbers.`;
 
   return {
     questions: [q1, q2, q3],
@@ -363,18 +412,26 @@ export function writePage({ topic, map, page, pageNumber, totalPages, ledger }) 
   const loc = nextLocal(ledger);
   const key = `${topic.topicNumber}:${page.title}`;
   const usedStarts = ledger.factStarts || [];
+  // SOURCE_MODE: BOTH uses notes paragraphs; DESIGN_ONLY would rely on page map scope only
+  const paras =
+    CONFIG.SOURCE_MODE === 'DESIGN_ONLY' ? [] : topic.paragraphs || [];
 
   let content;
   if (HANDCRAFTED[key]) {
     content = HANDCRAFTED[key](loc);
+    // Still register intro fingerprint so QA uniqueness holds
+    ledger.introFingerprints = [
+      ...(ledger.introFingerprints || []),
+      content.intro.slice(0, 64).toLowerCase(),
+    ];
   } else {
-    const facts = pickFacts(topic.paragraphs, page.keywords, 8, usedStarts);
+    const facts = pickFacts(paras, page.keywords, 8, usedStarts);
     ledger.factStarts = [...usedStarts, ...facts.map((f) => f.slice(0, 56))];
     const notes = mainNotesFor(topic.topicNumber, page, facts);
     const qa = questionsAndAnswers(topic.topicNumber, page, loc, notes);
     content = {
       goals: goalsFor(page),
-      intro: introFor(page, loc, facts),
+      intro: buildIntro(page, facts, pageNumber, ledger),
       notes,
       worked: workedFor(topic.topicNumber, page, loc, facts),
       everyday: everydayFor(page, loc),

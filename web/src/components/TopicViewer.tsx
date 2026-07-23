@@ -13,8 +13,49 @@ type StudyPage = {
   free?: boolean;
 };
 
+function renderDiagramBlock(raw: string, key: string): ReactNode {
+  const type = (raw.match(/^TYPE:\s*(.+)$/m) || [])[1]?.trim() || 'svg';
+  const alt = (raw.match(/^ALT:\s*(.+)$/m) || [])[1]?.trim() || 'Diagram';
+  const caption = (raw.match(/^CAPTION:\s*(.+)$/m) || [])[1]?.trim() || '';
+  const payloadMatch = raw.match(/PAYLOAD:\s*\n([\s\S]*?)\nCAPTION:/i);
+  const payload = (payloadMatch?.[1] || '').trim();
+
+  if (type === 'svg' && payload.includes('<svg')) {
+    return (
+      <figure key={key} className="my-6 overflow-x-auto rounded-xl border border-gray-200 bg-white p-4">
+        <div
+          className="flex justify-center [&_svg]:max-w-full"
+          // Curriculum SVG emitted by the content engine (trusted build pipeline).
+          dangerouslySetInnerHTML={{ __html: payload }}
+        />
+        {caption ? <figcaption className="mt-2 text-center text-xs text-gray-500">{caption}</figcaption> : null}
+      </figure>
+    );
+  }
+
+  return (
+    <figure key={key} className="my-6 rounded-xl border border-dashed border-kenya-green/30 bg-kenya-green/5 p-4">
+      <p className="text-xs font-semibold uppercase tracking-wide text-kenya-green">Figure</p>
+      <p className="mt-2 text-sm text-gray-700">{alt}</p>
+      {caption ? <figcaption className="mt-2 text-xs text-gray-500">{caption}</figcaption> : null}
+    </figure>
+  );
+}
+
 function renderRichText(text: string): ReactNode[] {
-  const lines = String(text || '').split('\n');
+  // Extract [DIAGRAM]...[/DIAGRAM] blocks first so SVG never shows as raw lesson text.
+  const segments: Array<{ kind: 'text' | 'diagram'; value: string }> = [];
+  const src = String(text || '');
+  const diagramRe = /\[DIAGRAM\]([\s\S]*?)\[\/DIAGRAM\]/gi;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = diagramRe.exec(src))) {
+    if (m.index > last) segments.push({ kind: 'text', value: src.slice(last, m.index) });
+    segments.push({ kind: 'diagram', value: m[1] });
+    last = m.index + m[0].length;
+  }
+  if (last < src.length) segments.push({ kind: 'text', value: src.slice(last) });
+
   const nodes: ReactNode[] = [];
   let buffer: string[] = [];
 
@@ -30,7 +71,17 @@ function renderRichText(text: string): ReactNode[] {
     );
   };
 
+  let lineOffset = 0;
+  segments.forEach((seg, segIdx) => {
+    if (seg.kind === 'diagram') {
+      flush(`p-seg-${segIdx}`);
+      nodes.push(renderDiagramBlock(seg.value, `diagram-${segIdx}`));
+      return;
+    }
+
+  const lines = seg.value.split('\n');
   lines.forEach((line, i) => {
+    const idx = lineOffset + i;
     const trimmed = line.trim();
     const imageMatch = line.match(/^\[\[image:([^\]|]+)\|?([^\]]*)\]\]$/);
     const isDivider = /^(====+|----+)$/.test(trimmed);
@@ -56,14 +107,14 @@ function renderRichText(text: string): ReactNode[] {
     const isBlank = trimmed === '';
 
     if (imageMatch) {
-      flush(`p-${i}`);
-      const src = imageMatch[1].trim();
+      flush(`p-${idx}`);
+      const imgSrc = imageMatch[1].trim();
       const alt = imageMatch[2]?.trim() || 'Lesson illustration';
       nodes.push(
-        <figure key={`img-${i}`} className="my-8">
+        <figure key={`img-${idx}`} className="my-8">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={src}
+            src={imgSrc}
             alt={alt}
             className="w-full max-w-2xl rounded-xl border border-gray-200 shadow-sm bg-white"
             loading="lazy"
@@ -80,9 +131,9 @@ function renderRichText(text: string): ReactNode[] {
     }
 
     if (isLessonTitle || isHouseTitle) {
-      flush(`p-${i}`);
+      flush(`p-${idx}`);
       nodes.push(
-        <h2 key={`h-${i}`} className="text-xl font-bold text-kenya-black mb-3 tracking-wide">
+        <h2 key={`h-${idx}`} className="text-xl font-bold text-kenya-black mb-3 tracking-wide">
           {line.replace(/^LESSON:\s*/i, '')}
         </h2>,
       );
@@ -90,10 +141,10 @@ function renderRichText(text: string): ReactNode[] {
     }
 
     if (isSection) {
-      flush(`p-${i}`);
+      flush(`p-${idx}`);
       nodes.push(
         <h3
-          key={`s-${i}`}
+          key={`s-${idx}`}
           className="mt-10 mb-4 pt-4 border-t border-gray-100 text-base font-bold text-kenya-green tracking-wide"
         >
           {trimmed}
@@ -103,9 +154,9 @@ function renderRichText(text: string): ReactNode[] {
     }
 
     if (isMdH2) {
-      flush(`p-${i}`);
+      flush(`p-${idx}`);
       nodes.push(
-        <h3 key={`h2-${i}`} className="mt-8 mb-3 text-base font-bold text-kenya-black">
+        <h3 key={`h2-${idx}`} className="mt-8 mb-3 text-base font-bold text-kenya-black">
           {trimmed.replace(/^##\s+/, '')}
         </h3>,
       );
@@ -113,9 +164,9 @@ function renderRichText(text: string): ReactNode[] {
     }
 
     if (isMdH3) {
-      flush(`p-${i}`);
+      flush(`p-${idx}`);
       nodes.push(
-        <h4 key={`h3-${i}`} className="mt-7 mb-2 text-sm font-bold text-kenya-green">
+        <h4 key={`h3-${idx}`} className="mt-7 mb-2 text-sm font-bold text-kenya-green">
           {trimmed.replace(/^###\s+/, '')}
         </h4>,
       );
@@ -123,9 +174,9 @@ function renderRichText(text: string): ReactNode[] {
     }
 
     if (isSkill) {
-      flush(`p-${i}`);
+      flush(`p-${idx}`);
       nodes.push(
-        <h4 key={`sk-${i}`} className="mt-8 mb-3 text-sm font-bold text-kenya-black">
+        <h4 key={`sk-${idx}`} className="mt-8 mb-3 text-sm font-bold text-kenya-black">
           {trimmed}
         </h4>,
       );
@@ -133,11 +184,13 @@ function renderRichText(text: string): ReactNode[] {
     }
 
     if (isBlank) {
-      flush(`p-${i}`);
+      flush(`p-${idx}`);
       return;
     }
 
     buffer.push(line);
+  });
+  lineOffset += lines.length;
   });
 
   flush('p-end');

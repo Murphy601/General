@@ -7,6 +7,7 @@ import {
   hasScaffoldingLeak,
   isMetaAnswer,
 } from './house-style.mjs';
+import { matchesBannedIntro } from './config.mjs';
 
 const REQUIRED_SECTIONS = [
   'WHAT YOU WILL LEARN',
@@ -66,10 +67,11 @@ export function runQA({ topic, pageMap, studyPages, drama, ledger, minPages }) {
   });
 
   // 3 Fact accuracy
+  // Flag false OCR pairings, but allow explicit corrections like "Nitrogen, never helium"
   const badPairs =
-    /Nitrogen[^\n]{0,40}Helium|Nitrogen[^\n]{0,30}\bHe\b|liquids have a definite shape(?! of their own)(?![^\n]{0,40}no definite)/i.test(
-      bodies,
-    );
+    (/Nitrogen[^\n]{0,40}Helium/i.test(bodies) && !/nitrogen,\s*never helium|nitrogen is N, never helium|N is nitrogen, never helium/i.test(bodies)) ||
+    (/Nitrogen[^\n]{0,30}\bHe\b/i.test(bodies) && !/never helium|not helium/i.test(bodies)) ||
+    /liquids have a definite shape(?! of their own)(?![^\n]{0,40}no definite)/i.test(bodies);
   const openVerify = /\[VERIFY\]/.test(bodies);
   checks.push({
     id: 3,
@@ -186,6 +188,38 @@ export function runQA({ topic, pageMap, studyPages, drama, ledger, minPages }) {
     evidence: realTeaching
       ? 'Answers teach real content; no title-restatement definitions'
       : realEvidence.slice(0, 6).join('; '),
+  });
+
+  // 11 No skeleton intros — banned frames + unique opening 90-char fingerprints
+  let skeletonOk = true;
+  let skeletonEvidence = [];
+  const introFps = [];
+  for (const p of studyPages) {
+    const m = p.body.match(/INTRODUCTION\n----\n([\s\S]*?)(\n\n[A-Z]|\nMAIN NOTES)/i);
+    const intro = (m ? m[1] : '').trim();
+    if (!intro || intro.length < 80) {
+      skeletonOk = false;
+      skeletonEvidence.push(`Page ${p.pageNumber} missing/short intro`);
+      continue;
+    }
+    if (matchesBannedIntro(intro)) {
+      skeletonOk = false;
+      skeletonEvidence.push(`Page ${p.pageNumber} banned intro frame`);
+    }
+    const fp = intro.toLowerCase().replace(/\s+/g, ' ').slice(0, 90);
+    if (introFps.includes(fp)) {
+      skeletonOk = false;
+      skeletonEvidence.push(`Page ${p.pageNumber} intro duplicates another page opening`);
+    }
+    introFps.push(fp);
+  }
+  checks.push({
+    id: 11,
+    name: 'No Skeleton',
+    pass: skeletonOk,
+    evidence: skeletonOk
+      ? 'Intros explain ideas uniquely; no banned frames or duplicate openings'
+      : skeletonEvidence.slice(0, 6).join('; '),
   });
 
   const allPass = checks.every((c) => c.pass);

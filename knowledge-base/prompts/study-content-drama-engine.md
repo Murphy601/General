@@ -9,9 +9,23 @@ CONFIG (set these before running)
 {MIN_PAGES}    = 20                        // allowed range 15–25
 {VIDEO_LENGTH} = 5–10 minutes
 
-Implementation tag: contentSource = study-drama-engine-v1
-Runner: scripts/build-g8-integrated-science-pages.mjs
+Implementation tags:
+  lessons = study-drama-engine-v1
+  exams   = study-drama-exam-v1
+Runners: scripts/build-g8-integrated-science-pages.mjs
+         scripts/batch-study-drama-exams.mjs
 Modules: scripts/study-drama/
+
+CONFIG extras:
+  {SOURCE_MODE} = DESIGN_ONLY | NOTES_GIVEN | BOTH
+  {PAPERS_PER_SUBJECT} = 20
+  {EXAM_BODY} = KJSEA (Grade 8)
+
+Patches active:
+  - Anti-skeleton intros (QA check 11)
+  - Student-facing-only pages (QA 9–10)
+  - DIAGRAM SPEC + MATH WORKING shared modules
+  - Agent 5 exam generator + batch queue (20 papers × 4 tiers)
 
 =======================================================
 PIPELINE (run in this order)
