@@ -137,6 +137,7 @@ for (const entry of jobs) {
       notes: notes.length ? notes : [scope],
       scope,
       variant: i + 1,
+      grade: topic.grade || '',
     });
     return {
       ...p,

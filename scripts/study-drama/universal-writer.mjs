@@ -7,6 +7,7 @@ import { formatWorking } from './math-working.mjs';
 import { pickDiagram } from './diagram.mjs';
 import { buildIntro } from './intros.mjs';
 import { matchesBannedIntro, outcomeToGoal, hasLocationFiller } from './config.mjs';
+import { needsCalcQuiz, buildCalcQuizItem, buildCalcHeavyPageQA } from './quiz-calc.mjs';
 
 function hash(s) {
   let h = 0;
@@ -398,6 +399,7 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
     notes,
     scope: page.scope || page.title,
     variant: pageNumber + variant,
+    grade,
   });
 
   const body = assemblePage(page.title, {
@@ -468,43 +470,72 @@ function extractBullets(section) {
 }
 
 /** Engaging page-level revision Q&A (not plain “Define…”) */
-export function buildPageRevisionQA({ ideaLabel, topicName, subject, notes, scope, variant = 0 }) {
+export function buildPageRevisionQA({ ideaLabel, topicName, subject, notes, scope, variant = 0, grade = '' }) {
   const idea = shortIdea(ideaLabel);
   const topic = String(topicName || 'this topic').trim();
   const fact = toUnicodeFormula(notes?.[0] || scope || idea);
   const fact2 = toUnicodeFormula(notes?.[1] || notes?.[0] || scope || idea);
   const goal = toUnicodeFormula(outcomeToGoal(scope || idea));
   const v = Math.abs(Number(variant) || 0);
-  const allowCalc = (isMath(subject) || isScience(subject)) && !isMetaPhaseTitle(ideaLabel);
+
+  // Math / science / quantitative subjects → real CALCULATE items with workings
+  if (needsCalcQuiz(subject, topic, ideaLabel) && !isMetaPhaseTitle(ideaLabel)) {
+    return buildCalcHeavyPageQA({
+      ideaLabel,
+      topicName: topic,
+      subject,
+      grade,
+      notes,
+      scope,
+      variant: v,
+    });
+  }
+
+  const allowCalc = needsCalcQuiz(subject, topic, ideaLabel);
+  // Meta pages on calc topics still get one numerical item
+  if (allowCalc && isMetaPhaseTitle(ideaLabel)) {
+    const calc = buildCalcQuizItem({
+      subject,
+      topicName: topic,
+      pageTitle: topic,
+      grade,
+      variant: v + 5,
+    });
+    return {
+      questions: [
+        calc.question,
+        `COMPARE: How does careful working on ${topic} differ from guessing? Give one numerical check.`,
+        `SPOT THE ERROR: A learner skips a step on ${topic}. State the wrong path and correct it with working.`,
+      ],
+      answers: [
+        calc.answer,
+        `Careful working uses formula → substitute → steps → units/check. Guessing skips method marks. Numerical check:\n${calc.answer}`,
+        `Wrong path: answer without method. Correct approach:\n${calc.answer}`,
+      ],
+    };
+  }
+
   const stemSets = [
     [
       `TRAP: A classmate says “${idea} is basically the same as any nearby idea in ${topic}.” What is wrong with that claim, and what exact distinction should they learn?`,
-      allowCalc
-        ? `CHALLENGE: Set a short problem on ${idea} from ${topic}. Show full working (formula → substitute → steps → units/check). Then name one wrong path that loses marks.`
-        : `SCENE: You must prove you understand ${idea} using one real example from ${topic}. Describe the example, name the key idea, and explain why a near-miss example would fail.`,
+      `SCENE: You must prove you understand ${idea} using one real example from ${topic}. Describe the example, name the key idea, and explain why a near-miss example would fail.`,
       `SPOT THE ERROR: A learner mixes up ${idea} with a neighbouring concept (or skips a key step). State their wrong idea, correct it, and justify using a fact from this page.`,
     ],
     [
       `NEAR-MISS: Write two answers about ${idea} — one that earns full marks and one that looks clever but loses marks. Explain the difference in one sentence.`,
-      allowCalc
-        ? `FLIP: Change one condition in a ${idea} problem (value, unit, or assumption). What changes in the method or final answer? Show both versions briefly.`
-        : `COMPARE: How does ${idea} differ from the closest confusing idea in ${topic}? Give one test question that separates them.`,
+      `COMPARE: How does ${idea} differ from the closest confusing idea in ${topic}? Give one test question that separates them.`,
       `EXAM PRESSURE (4 marks): Answer on ${idea} using this mark scheme — (1) accurate meaning, (2) example from ${topic}, (3) method/reason, (4) check or caution.`,
     ],
     [
       `WHY NOT: Someone uses the wrong word, formula, or method for ${idea}. State the wrong choice, the right choice, and one reason a teacher would reject the wrong one.`,
-      allowCalc
-        ? `MISSING STEP: A learner starts a ${idea} working correctly but skips the check. Complete the working and add the check that proves the answer.`
-        : `TEACH IT: Explain ${idea} to a younger learner in ${topic} using one analogy and one accurate subject sentence. Then warn them about one common mix-up.`,
+      `TEACH IT: Explain ${idea} to a younger learner in ${topic} using one analogy and one accurate subject sentence. Then warn them about one common mix-up.`,
       `JUDGE: Which claim is safer for an exam on ${idea} — a vague slogan or a precise definition with an example? Defend your choice with a fact from this page.`,
     ],
   ];
   const questions = stemSets[v % stemSets.length];
   const answers = [
     `Wrong claim: treating ${idea} as interchangeable with a neighbouring idea in ${topic}. Accurate distinction: ${goal}. Supporting fact: ${fact}`,
-    allowCalc
-      ? `Full marks need: correct relationship/formula for ${idea}, careful substitution, clear steps, and a final answer with units or a labeled check. Wrong path to avoid: jumping to an answer without the method, or mixing unlike ideas. Anchor fact: ${fact2}`
-      : `Strong answer: name ${idea} accurately, give one concrete example from ${topic}, and link it to this fact: ${fact}. A near-miss fails when the example matches a different idea.`,
+    `Strong answer: name ${idea} accurately, give one concrete example from ${topic}, and link it to this fact: ${fact}. A near-miss fails when the example matches a different idea.`,
     `Wrong idea: confusing ${idea} with a neighbour or skipping the method. Correct idea: ${goal}. Justification: ${fact} — match the worked example on this page before you finalise.`,
   ];
   return { questions, answers };
@@ -513,54 +544,90 @@ export function buildPageRevisionQA({ ideaLabel, topicName, subject, notes, scop
 /**
  * Build Revision Quiz + Answers tab content from study pages.
  * Returns { quiz, answers, questionCount } — never leave answers empty.
+ * Math/science topics get real CALCULATE items with full workings.
  */
 export function buildQuizFromUniversalPages(studyPages, topic) {
   const subject = topic.subject || 'CBC';
   const topicName = topic.topicName || 'this topic';
+  const grade = topic.grade || '';
+  const calcSubject = needsCalcQuiz(subject, topicName);
+
   const quizLines = [
     titleBlock(`${subject} — ${topicName} · Revision Quiz`),
     '',
-    'Try each question in your exercise book first. Then open the Answers tab to mark yourself. Show working or labeled steps where needed.',
+    calcSubject
+      ? 'Show full working for every CALCULATE question (formula → substitute → steps → units/check). Then mark yourself on the Answers tab.'
+      : 'Try each question in your exercise book first. Then open the Answers tab to mark yourself.',
     '',
   ];
   const answerLines = [
     titleBlock(`${subject} — ${topicName} · Answers`),
     '',
-    'Mark yourself honestly. Award method marks even if the final number or wording is slightly off — but only when the reasoning matches.',
+    calcSubject
+      ? 'Award method marks for correct formula and substitution even if the final number is slightly off — but only when the reasoning matches.'
+      : 'Mark yourself honestly. Award method marks when the reasoning matches.',
     '',
   ];
 
   const pages = (studyPages || []).slice(0, 10);
   let n = 1;
-  for (let i = 0; i < pages.length; i++) {
-    const p = pages[i];
-    const notes = extractBullets(extractSection(p.body, 'MAIN NOTES'));
-    const scopeSec = extractSection(p.body, 'WHAT YOU WILL LEARN');
-    const scope = (scopeSec.match(/•\s*(.+)/) || [])[1] || p.title;
-    const pack = buildPageRevisionQA({
-      ideaLabel: p.title,
-      topicName,
-      subject,
-      notes: notes.length ? notes : [scope],
-      scope,
-      variant: i + n,
-    });
-    // Prefer the twisted stems (index varies) — one quiz item per page
-    const qi = i % pack.questions.length;
-    const q = pack.questions[qi];
-    const a = pack.answers[qi];
-    quizLines.push(`${n}. (${p.title}) ${q}`);
-    answerLines.push(`${n}. ${a}`);
-    n++;
-  }
 
-  // Topic synthesis closer — always last
-  quizLines.push(
-    `${n}. SYNTHESIS: Across ${topicName}, name the one idea a learner most often confuses, state the accurate version, and give one quick check that proves they finally understand it.`,
-  );
-  answerLines.push(
-    `${n}. Strong synthesis: pick the most common mix-up in ${topicName}, replace it with the accurate definition from the study pages, and prove it with a short example, formula check, or “wrong vs right” contrast from the notes.`,
-  );
+  if (calcSubject) {
+    // Dedicated numerical quiz bank for quantitative subjects
+    for (let i = 0; i < Math.max(8, Math.min(10, pages.length || 8)); i++) {
+      const p = pages[i % Math.max(pages.length, 1)] || { title: topicName };
+      const item = buildCalcQuizItem({
+        subject,
+        topicName,
+        pageTitle: `${p.title} ${topicName}`,
+        grade,
+        variant: i * 13 + n,
+      });
+      quizLines.push(`${n}. ${item.question}`);
+      answerLines.push(`${n}. ${item.answer}`);
+      n++;
+    }
+    // One conceptual closer that still demands a numerical check
+    const closer = buildCalcQuizItem({
+      subject,
+      topicName,
+      pageTitle: topicName,
+      grade,
+      variant: 99,
+    });
+    quizLines.push(
+      `${n}. SYNTHESIS + CALCULATE: Name the method step learners skip most often in ${topicName}, then solve this to prove you did not skip it:\n${closer.question.replace(/^CALCULATE:\s*/i, '')}`,
+    );
+    answerLines.push(
+      `${n}. Common skip: jumping to an answer without formula/substitution/check.\nCorrect working:\n${closer.answer}`,
+    );
+  } else {
+    for (let i = 0; i < pages.length; i++) {
+      const p = pages[i];
+      const notes = extractBullets(extractSection(p.body, 'MAIN NOTES'));
+      const scopeSec = extractSection(p.body, 'WHAT YOU WILL LEARN');
+      const scope = (scopeSec.match(/•\s*(.+)/) || [])[1] || p.title;
+      const pack = buildPageRevisionQA({
+        ideaLabel: p.title,
+        topicName,
+        subject,
+        notes: notes.length ? notes : [scope],
+        scope,
+        variant: i + n,
+        grade,
+      });
+      const qi = i % pack.questions.length;
+      quizLines.push(`${n}. (${p.title}) ${pack.questions[qi]}`);
+      answerLines.push(`${n}. ${pack.answers[qi]}`);
+      n++;
+    }
+    quizLines.push(
+      `${n}. SYNTHESIS: Across ${topicName}, name the one idea a learner most often confuses, state the accurate version, and give one quick check that proves they finally understand it.`,
+    );
+    answerLines.push(
+      `${n}. Strong synthesis: pick the most common mix-up in ${topicName}, replace it with the accurate definition from the study pages, and prove it with a short example or “wrong vs right” contrast from the notes.`,
+    );
+  }
 
   return {
     quiz: quizLines.join('\n'),
