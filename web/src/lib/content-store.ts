@@ -169,12 +169,9 @@ export function getTopics(grade: string, subject: string) {
         sameSubject(c.topic.subject, s.subject) &&
         (c.topic.topicNumber === t.topicNumber || c.topic.subStrand === t.topicName || c.topic.slug === t.slug),
     );
-    // Prefer newest student multipage notes over older classroom templates.
+    // Prefer Study-Content & Drama Engine output.
     const content =
-      matches.find((c) => String(c.metadata?.contentSource || '').includes('g8-is-engine-v5')) ||
-      matches.find((c) => String(c.metadata?.contentSource || '').includes('student-textbook')) ||
-      matches.find((c) => String(c.metadata?.contentSource || '').includes('g8-is-student')) ||
-      matches.find((c) => String(c.metadata?.contentSource || '').includes('multipage')) ||
+      matches.find((c) => String(c.metadata?.contentSource || '').includes('study-drama-engine-v1')) ||
       matches.sort((a, b) => String(b.metadata?.createdAt || '').localeCompare(String(a.metadata?.createdAt || '')))[0];
     return { ...t, contentId: content?.id, hasLesson: Boolean(content) };
   });

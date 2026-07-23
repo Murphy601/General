@@ -43,6 +43,7 @@
     "content:g8-is-ingest": "python3 scripts/ingest-g8-is-notes.py",
     "content:g8-is-pages": "python3 scripts/ingest-g8-is-notes.py && node scripts/build-g8-integrated-science-pages.mjs",
     "content:g8-is-pages:lock": "python3 scripts/ingest-g8-is-notes.py && node scripts/build-g8-integrated-science-pages.mjs --lock --free-pages 3",
+    "content:study-drama": "node scripts/build-g8-integrated-science-pages.mjs",
     "textbooks:download": "node scripts/download-textbooks.mjs",
     "textbooks:extract": "node scripts/extract-textbook-text.mjs",
     "textbooks:prepare": "node scripts/download-textbooks.mjs && node scripts/extract-textbook-text.mjs",

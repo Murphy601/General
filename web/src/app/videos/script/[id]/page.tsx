@@ -39,7 +39,9 @@ export default async function VideoScriptPage({ params }: { params: Promise<{ id
               ))}
             </div>
           ) : (
-            <pre className="mt-6 whitespace-pre-wrap font-sans text-sm text-gray-700">{item.body}</pre>
+            <pre className="mt-6 whitespace-pre-wrap font-sans text-sm text-gray-700">
+              {item.pages?.quiz || item.body || ''}
+            </pre>
           )}
         </div>
       </article>

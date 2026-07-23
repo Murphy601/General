@@ -33,11 +33,25 @@ function renderRichText(text: string): ReactNode[] {
   lines.forEach((line, i) => {
     const trimmed = line.trim();
     const imageMatch = line.match(/^\[\[image:([^\]|]+)\|?([^\]]*)\]\]$/);
-    const isSection = /^(SECTION|SEHEMU|PAGE\s+\d+)([\s:]|$)/i.test(trimmed);
+    const isDivider = /^(====+|----+)$/.test(trimmed);
+    const isHouseTitle =
+      !isDivider &&
+      trimmed.length >= 4 &&
+      trimmed === trimmed.toUpperCase() &&
+      /[A-Z]/.test(trimmed) &&
+      !/^Q\d+\b/.test(trimmed) &&
+      !/^A\d+\b/.test(trimmed) &&
+      !trimmed.startsWith('•') &&
+      !trimmed.startsWith('[') &&
+      i + 1 < lines.length &&
+      /^(====+|----+)$/.test(lines[i + 1].trim());
+    const isSection = /^(SECTION|SEHEMU|PAGE\s+\d+|CBC FRAMING|UPDATED COVERED LEDGER)([\s:—-]|$)/i.test(
+      trimmed,
+    );
     const isMdH3 = /^###\s+/.test(trimmed);
     const isMdH2 = /^##\s+/.test(trimmed);
     const isSkill = /^▸\s+/.test(trimmed);
-    const isLessonTitle = /^(LESSON:|STUDENT MODULE:)/i.test(trimmed);
+    const isLessonTitle = /^(LESSON:|STUDENT MODULE:|STUDY MODULE)/i.test(trimmed);
     const isBlank = trimmed === '';
 
     if (imageMatch) {
@@ -59,10 +73,15 @@ function renderRichText(text: string): ReactNode[] {
       return;
     }
 
-    if (isLessonTitle) {
+    if (isDivider) {
+      // Consumed visually with the preceding house-style title
+      return;
+    }
+
+    if (isLessonTitle || isHouseTitle) {
       flush(`p-${i}`);
       nodes.push(
-        <h2 key={`h-${i}`} className="text-xl font-bold text-kenya-black mb-6">
+        <h2 key={`h-${i}`} className="text-xl font-bold text-kenya-black mb-3 tracking-wide">
           {line.replace(/^LESSON:\s*/i, '')}
         </h2>,
       );

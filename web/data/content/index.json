@@ -1,33 +1,36 @@
 [
   {
-    "id": "7e30960f-39c1-4b49-a78e-62dccedbd20b",
+    "id": "378bf22d-725d-4fdc-ae27-cda50e487923",
     "type": "video-script",
-    "title": "Video: Pressure",
+    "title": "Drama: Pressure",
     "topic": {
       "grade": "grade-8",
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 3: Force and Energy",
-      "subStrand": "Pressure",
+      "subStrand": "3.2 Pressure",
       "topicNumber": "3.2",
       "topicOrder": 32,
       "slug": "3-2-pressure"
     },
+    "body": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE SINKING HANDCART\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Pressure\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action look with clear prop inser",
     "pages": {
       "lesson": "…",
-      "quiz": "### Video Title: 3.2 Pressure — Meaning of Pressure\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic young scientist guide\n  …",
+      "quiz": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE SINKING HANDCART\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Pressure\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action look w…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:22.045Z",
-      "wordCount": 307,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:19.128Z",
+      "wordCount": 1048,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-engine-v5",
-      "linkedLessonId": "3d23c1a2-ac92-4596-8e3c-2a87b679e94e",
-      "videoFormat": "2d-3d-cartoon"
+      "contentSource": "study-drama-engine-v1",
+      "linkedLessonId": "8cde69f1-f685-4a69-a032-7ef115d79729",
+      "videoFormat": "screen-drama",
+      "videoLength": "5–10 minutes",
+      "qaVerdict": "APPROVED"
     },
     "sources": [
       {
@@ -39,7 +42,7 @@
     ]
   },
   {
-    "id": "3d23c1a2-ac92-4596-8e3c-2a87b679e94e",
+    "id": "8cde69f1-f685-4a69-a032-7ef115d79729",
     "type": "topic-lesson",
     "title": "Topic 3.2: Pressure",
     "topic": {
@@ -47,54 +50,158 @@
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 3: Force and Energy",
-      "subStrand": "Pressure",
+      "subStrand": "3.2 Pressure",
       "topicNumber": "3.2",
       "topicOrder": 32,
       "slug": "3-2-pressure"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: Pressure\nGrade 8 Integrated Science · 3 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Meaning of Pressure\nPage 2: Calculating P…",
-      "quiz": "",
+      "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Pressure\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Everyday Meaning of Pressure\nPAGE 2: Scientific Definition of Pressure\nPAGE 3: Factors Affecting Pressure\nPAGE 4: Formul…",
+      "quiz": "REVISION QUIZ\n====\n\nQ1. From Everyday Meaning of Pressure: state one key definition and one Kenyan example.\nQ2. From Scientific Definition of Pressure: state one key definition and one Kenyan example.\nQ3. From Factors Af…",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Meaning of Pressure",
+          "title": "Everyday Meaning of Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Calculating Pressure in Solids and Liquids",
+          "title": "Scientific Definition of Pressure",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Applications of Pressure in Daily Life",
+          "title": "Factors Affecting Pressure",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Formula P Equals F Over A",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Worked Calculation Basic",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Worked Calculation Rearranging",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Pressure in Solids Applications Cutting",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Pressure in Solids Broad Bases",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "School Bag Straps Example",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Pressure in Liquids Depth",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Dam Walls Design",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Elevated Water Tanks",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "Atmospheric Pressure Idea",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Football Boots and Studs",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 15,
+          "title": "Tractor and Soft Ground",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 16,
+          "title": "Safety and Pressure Hazards",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 17,
+          "title": "Measuring Ideas Force and Area",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 18,
+          "title": "Mixed Word Problems",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 19,
+          "title": "Pressure Myths Corrected",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 20,
+          "title": "Topic Synthesis Pressure",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 3
+      "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:21.843Z",
-      "wordCount": 1506,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:18.932Z",
+      "wordCount": 13033,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "questionCount": 8,
-      "contentSource": "g8-is-engine-v5",
+      "contentSource": "study-drama-engine-v1",
       "sourceChars": 9467,
-      "freePageCount": 3,
-      "totalStudyPages": 3,
+      "freePageCount": 20,
+      "totalStudyPages": 20,
       "lockPages": false,
-      "uniquePracticalSections": 3,
-      "uniqueVisualSections": 3,
+      "qaVerdict": "APPROVED",
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
-      ]
+      ],
+      "engine": "study-content-drama-engine",
+      "minPages": 20,
+      "videoLength": "5–10 minutes"
     },
     "sources": [
       {
@@ -103,37 +210,41 @@
         "subject": "INTEGRATED SCIENCE",
         "excerpt": "3.2 Pressure I. Meaning of pressure. Pressure is defined as the force acting normally per unit area. Normally here means at a right angle or perpendicularly."
       }
-    ]
+    ],
+    "body": "REVISION QUIZ\n====\n\nQ1. From Everyday Meaning of Pressure: state one key definition and one Kenyan example.\nQ2. From Scientific Definition of Pressure: state one key definition and one Kenyan example.\nQ3. From Factors Affecting Pressure: st"
   },
   {
-    "id": "63697fb9-72db-47bc-b6ed-dd69af5a3c79",
+    "id": "d8b733f3-a670-463d-962e-18a95f26889c",
     "type": "video-script",
-    "title": "Video: Transformation of Energy",
+    "title": "Drama: Transformation of Energy",
     "topic": {
       "grade": "grade-8",
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 3: Force and Energy",
-      "subStrand": "Transformation of Energy",
+      "subStrand": "3.1 Transformation of Energy",
       "topicNumber": "3.1",
       "topicOrder": 31,
       "slug": "3-1-transformation-of-energy"
     },
+    "body": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: TORCH BEFORE HOMEWORK\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Transformation of Energy\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action look with",
     "pages": {
       "lesson": "…",
-      "quiz": "### Video Title: 3.1 Transformation of Energy — Forms of Energy\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic young scient…",
+      "quiz": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: TORCH BEFORE HOMEWORK\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Transformation of Energy\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic l…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:21.670Z",
-      "wordCount": 298,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:18.747Z",
+      "wordCount": 1056,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-engine-v5",
-      "linkedLessonId": "dde140cd-59f3-4cc9-8231-d68595591413",
-      "videoFormat": "2d-3d-cartoon"
+      "contentSource": "study-drama-engine-v1",
+      "linkedLessonId": "39f4d403-bece-4ff0-a88a-4bf22b212926",
+      "videoFormat": "screen-drama",
+      "videoLength": "5–10 minutes",
+      "qaVerdict": "APPROVED"
     },
     "sources": [
       {
@@ -145,7 +256,7 @@
     ]
   },
   {
-    "id": "dde140cd-59f3-4cc9-8231-d68595591413",
+    "id": "39f4d403-bece-4ff0-a88a-4bf22b212926",
     "type": "topic-lesson",
     "title": "Topic 3.1: Transformation of Energy",
     "topic": {
@@ -153,54 +264,158 @@
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 3: Force and Energy",
-      "subStrand": "Transformation of Energy",
+      "subStrand": "3.1 Transformation of Energy",
       "topicNumber": "3.1",
       "topicOrder": 31,
       "slug": "3-1-transformation-of-energy"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: Transformation of Energy\nGrade 8 Integrated Science · 3 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Forms of Energy\nPage 2: E…",
-      "quiz": "",
+      "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Transformation of Energy\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: What Is Energy\nPAGE 2: Forms of Energy Overview\nPAGE 3: Chemical Energy\nPAGE 4: Electrical Energy\nPAGE 5…",
+      "quiz": "REVISION QUIZ\n====\n\nQ1. From What Is Energy: state one key definition and one Kenyan example.\nQ2. From Forms of Energy Overview: state one key definition and one Kenyan example.\nQ3. From Chemical Energy: state one key de…",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Forms of Energy",
+          "title": "What Is Energy",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Energy Transformations",
+          "title": "Forms of Energy Overview",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Safety with Energy Transformations",
+          "title": "Chemical Energy",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Electrical Energy",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Kinetic and Potential Energy",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Light Heat and Sound Energy",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Energy Transformation Idea",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Torch Energy Chain",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Solar Home Systems",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Cooking Energy Changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Transport Energy Changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Conservation of Energy Idea",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "Useful and Wasted Energy",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Electrical Safety at Home",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 15,
+          "title": "Safety with Heat and Flames",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 16,
+          "title": "Energy Saving Habits",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 17,
+          "title": "Tracing Energy in a Phone Charge",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 18,
+          "title": "Tracing Energy in a Radio",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 19,
+          "title": "Local Renewable Energy Examples",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 20,
+          "title": "Topic Synthesis Energy Transformations",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 3
+      "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:21.472Z",
-      "wordCount": 1111,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:18.526Z",
+      "wordCount": 12620,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
       "questionCount": 8,
-      "contentSource": "g8-is-engine-v5",
+      "contentSource": "study-drama-engine-v1",
       "sourceChars": 7955,
-      "freePageCount": 3,
-      "totalStudyPages": 3,
+      "freePageCount": 20,
+      "totalStudyPages": 20,
       "lockPages": false,
-      "uniquePracticalSections": 3,
-      "uniqueVisualSections": 3,
+      "qaVerdict": "APPROVED",
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
-      ]
+      ],
+      "engine": "study-content-drama-engine",
+      "minPages": 20,
+      "videoLength": "5–10 minutes"
     },
     "sources": [
       {
@@ -209,37 +424,41 @@
         "subject": "INTEGRATED SCIENCE",
         "excerpt": "3.1 Transformation of energy. Energy is the ability to do work Energy is not visible, has no mass and neither does it occupy space."
       }
-    ]
+    ],
+    "body": "REVISION QUIZ\n====\n\nQ1. From What Is Energy: state one key definition and one Kenyan example.\nQ2. From Forms of Energy Overview: state one key definition and one Kenyan example.\nQ3. From Chemical Energy: state one key definition and one Ken"
   },
   {
-    "id": "76e5de9f-91b9-4f95-bd39-adcfc3a6cee0",
+    "id": "077502c4-d4f5-46d4-80a7-29f6172928cd",
     "type": "video-script",
-    "title": "Video: Reproduction in human beings",
+    "title": "Drama: Reproduction in human beings",
     "topic": {
       "grade": "grade-8",
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 2: Living Things and Their Environment",
-      "subStrand": "Reproduction in human beings",
+      "subStrand": "2.3 Reproduction in Human Beings",
       "topicNumber": "2.3",
       "topicOrder": 23,
       "slug": "2-3-reproduction-in-human-beings"
     },
+    "body": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE QUIET QUESTION\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Reproduction in human beings\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action look wit",
     "pages": {
       "lesson": "…",
-      "quiz": "### Video Title: 2.3 Reproduction in human beings — Human Reproductive Systems and Processes\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Ama…",
+      "quiz": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE QUIET QUESTION\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Reproduction in human beings\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic …",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:21.294Z",
-      "wordCount": 300,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:18.333Z",
+      "wordCount": 1062,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-engine-v5",
-      "linkedLessonId": "3fdcd674-8dba-4892-97e5-51ea3842700d",
-      "videoFormat": "2d-3d-cartoon"
+      "contentSource": "study-drama-engine-v1",
+      "linkedLessonId": "4e0f68bc-bfee-4ac3-b68c-d7abe83ed933",
+      "videoFormat": "screen-drama",
+      "videoLength": "5–10 minutes",
+      "qaVerdict": "APPROVED"
     },
     "sources": [
       {
@@ -251,7 +470,7 @@
     ]
   },
   {
-    "id": "3fdcd674-8dba-4892-97e5-51ea3842700d",
+    "id": "4e0f68bc-bfee-4ac3-b68c-d7abe83ed933",
     "type": "topic-lesson",
     "title": "Topic 2.3: Reproduction in human beings",
     "topic": {
@@ -259,48 +478,158 @@
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 2: Living Things and Their Environment",
-      "subStrand": "Reproduction in human beings",
+      "subStrand": "2.3 Reproduction in Human Beings",
       "topicNumber": "2.3",
       "topicOrder": 23,
       "slug": "2-3-reproduction-in-human-beings"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: Reproduction in human beings\nGrade 8 Integrated Science · 2 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Human Reproductive Sy…",
-      "quiz": "",
+      "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Reproduction in human beings\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Why Reproduction Matters\nPAGE 2: Hormones as Chemical Messengers\nPAGE 3: Overview of the Menstrual C…",
+      "quiz": "REVISION QUIZ\n====\n\nQ1. From Why Reproduction Matters: state one key definition and one Kenyan example.\nQ2. From Hormones as Chemical Messengers: state one key definition and one Kenyan example.\nQ3. From Overview of the …",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Human Reproductive Systems and Processes",
+          "title": "Why Reproduction Matters",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Reproductive Health, Hygiene and Care",
+          "title": "Hormones as Chemical Messengers",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Overview of the Menstrual Cycle",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Stages of the Menstrual Cycle",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Menstruation Explained",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Ovulation Explained",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Challenges Related to Menstruation",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Managing Menstrual Challenges",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Male Reproductive Structures Overview",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Female Reproductive Structures Overview",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Sperm and Ovum",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Fertilization",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "Implantation",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Pregnancy Care Basics",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 15,
+          "title": "Hygiene and Reproductive Health",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 16,
+          "title": "Respect Consent and Values",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 17,
+          "title": "Seeking Help from Trusted Adults",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 18,
+          "title": "Rejecting Myths with Science",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 19,
+          "title": "Vocabulary Accuracy Matters",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 20,
+          "title": "Topic Synthesis Human Reproduction",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 2
+      "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:21.087Z",
-      "wordCount": 940,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:18.134Z",
+      "wordCount": 12095,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 7,
-      "contentSource": "g8-is-engine-v5",
+      "questionCount": 8,
+      "contentSource": "study-drama-engine-v1",
       "sourceChars": 5135,
-      "freePageCount": 2,
-      "totalStudyPages": 2,
+      "freePageCount": 20,
+      "totalStudyPages": 20,
       "lockPages": false,
-      "uniquePracticalSections": 2,
-      "uniqueVisualSections": 2,
+      "qaVerdict": "APPROVED",
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
-      ]
+      ],
+      "engine": "study-content-drama-engine",
+      "minPages": 20,
+      "videoLength": "5–10 minutes"
     },
     "sources": [
       {
@@ -309,37 +638,41 @@
         "subject": "INTEGRATED SCIENCE",
         "excerpt": "2.3 Reproduction in Human Beings.  Menstrual cycle. Menstrual cycle consists of natural changes that occur to the body of a female human being every month in preparatio to pregnancy."
       }
-    ]
+    ],
+    "body": "REVISION QUIZ\n====\n\nQ1. From Why Reproduction Matters: state one key definition and one Kenyan example.\nQ2. From Hormones as Chemical Messengers: state one key definition and one Kenyan example.\nQ3. From Overview of the Menstrual Cycle: sta"
   },
   {
-    "id": "dc109ef1-38af-4a67-ae0b-d9cbe943ace3",
+    "id": "0d2dbf37-e1d7-44fb-8631-0f4f7d19467a",
     "type": "video-script",
-    "title": "Video: Movement of Materials in and out of the cell",
+    "title": "Drama: Movement of Materials in and out of the cell",
     "topic": {
       "grade": "grade-8",
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 2: Living Things and Their Environment",
-      "subStrand": "Movement of Materials in and out of the cell",
+      "subStrand": "2.2 Movement of Materials",
       "topicNumber": "2.2",
       "topicOrder": 22,
       "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
     },
+    "body": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE SWOLLEN SUGAR BAG\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Movement of Materials in and out of the cell\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic l",
     "pages": {
       "lesson": "…",
-      "quiz": "### Video Title: 2.2 Movement of Materials in and out of the cell — Solutes, Solvents and Concentration\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  …",
+      "quiz": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE SWOLLEN SUGAR BAG\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Movement of Materials in and out of the cell\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL S…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:20.907Z",
-      "wordCount": 319,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:17.933Z",
+      "wordCount": 1079,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-engine-v5",
-      "linkedLessonId": "103e002f-8478-4757-af1c-da3083ab54eb",
-      "videoFormat": "2d-3d-cartoon"
+      "contentSource": "study-drama-engine-v1",
+      "linkedLessonId": "60f65bc7-601f-488f-b074-b0642da550d9",
+      "videoFormat": "screen-drama",
+      "videoLength": "5–10 minutes",
+      "qaVerdict": "APPROVED"
     },
     "sources": [
       {
@@ -351,7 +684,7 @@
     ]
   },
   {
-    "id": "103e002f-8478-4757-af1c-da3083ab54eb",
+    "id": "60f65bc7-601f-488f-b074-b0642da550d9",
     "type": "topic-lesson",
     "title": "Topic 2.2: Movement of Materials in and out of the cell",
     "topic": {
@@ -359,60 +692,158 @@
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 2: Living Things and Their Environment",
-      "subStrand": "Movement of Materials in and out of the cell",
+      "subStrand": "2.2 Movement of Materials",
       "topicNumber": "2.2",
       "topicOrder": 22,
       "slug": "2-2-movement-of-materials-in-and-out-of-the-cell"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: Movement of Materials in and out of the cell\nGrade 8 Integrated Science · 4 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Solut…",
-      "quiz": "",
+      "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Movement of Materials in and out of the cell\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Why Materials Move in Cells\nPAGE 2: Solutes Solvents and Solutions\nPAGE 3: Concentra…",
+      "quiz": "REVISION QUIZ\n====\n\nQ1. From Why Materials Move in Cells: state one key definition and one Kenyan example.\nQ2. From Solutes Solvents and Solutions: state one key definition and one Kenyan example.\nQ3. From Concentrated a…",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Solutes, Solvents and Concentration",
+          "title": "Why Materials Move in Cells",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Diffusion",
+          "title": "Solutes Solvents and Solutions",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Osmosis and the Cell Membrane",
+          "title": "Concentrated and Dilute Solutions",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Roles of Osmosis in Plants and Animals",
+          "title": "The Cell Membrane as a Barrier",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Diffusion Defined",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Diffusion in Liquids Experiment",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Diffusion in Gases",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Factors Affecting Diffusion",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Roles of Diffusion in Living Things",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Osmosis Defined",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Visking Tubing Model of Osmosis",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Osmosis in Plant Root Hairs",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "Turgor and Wilting in Plants",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Osmosis in Animal Cells",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 15,
+          "title": "Comparing Diffusion and Osmosis",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 16,
+          "title": "Everyday Diffusion Examples",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 17,
+          "title": "Everyday Osmosis Examples",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 18,
+          "title": "Experimental Fair Testing",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 19,
+          "title": "Health and Safety in Cell Transport Labs",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 20,
+          "title": "Topic Synthesis Diffusion and Osmosis",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 4
+      "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:20.722Z",
-      "wordCount": 1998,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:17.732Z",
+      "wordCount": 13079,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 9,
-      "contentSource": "g8-is-engine-v5",
+      "questionCount": 8,
+      "contentSource": "study-drama-engine-v1",
       "sourceChars": 9850,
-      "freePageCount": 4,
-      "totalStudyPages": 4,
+      "freePageCount": 20,
+      "totalStudyPages": 20,
       "lockPages": false,
-      "uniquePracticalSections": 4,
-      "uniqueVisualSections": 4,
+      "qaVerdict": "APPROVED",
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
-      ]
+      ],
+      "engine": "study-content-drama-engine",
+      "minPages": 20,
+      "videoLength": "5–10 minutes"
     },
     "sources": [
       {
@@ -421,37 +852,41 @@
         "subject": "INTEGRATED SCIENCE",
         "excerpt": "2.2 Movement of Material in and Out of the Cell. Diffusion and Osmosis. Meaning of Terms."
       }
-    ]
+    ],
+    "body": "REVISION QUIZ\n====\n\nQ1. From Why Materials Move in Cells: state one key definition and one Kenyan example.\nQ2. From Solutes Solvents and Solutions: state one key definition and one Kenyan example.\nQ3. From Concentrated and Dilute Solutions:"
   },
   {
-    "id": "4f366b5e-729c-47fb-b91d-203ca122df3f",
+    "id": "cb89dbdc-c4a9-4f3d-84b4-2142f93c4a4d",
     "type": "video-script",
-    "title": "Video: The Cell",
+    "title": "Drama: The Cell",
     "topic": {
       "grade": "grade-8",
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 2: Living Things and Their Environment",
-      "subStrand": "The Cell",
+      "subStrand": "2.1 The Cell",
       "topicNumber": "2.1",
       "topicOrder": 21,
       "slug": "2-1-the-cell"
     },
+    "body": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE BLURRY ONION\nSUBJECT / TOPIC: INTEGRATED SCIENCE / The Cell\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action look with clear prop inserts (",
     "pages": {
       "lesson": "…",
-      "quiz": "### Video Title: 2.1 The Cell — Plant and Animal Cell Structures\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic young scien…",
+      "quiz": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE BLURRY ONION\nSUBJECT / TOPIC: INTEGRATED SCIENCE / The Cell\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action look with …",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:20.537Z",
-      "wordCount": 299,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:17.538Z",
+      "wordCount": 1050,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-engine-v5",
-      "linkedLessonId": "b9ff3194-dcae-4f36-b692-c46546a335b3",
-      "videoFormat": "2d-3d-cartoon"
+      "contentSource": "study-drama-engine-v1",
+      "linkedLessonId": "a345619d-be17-498c-9d93-f0928da12f94",
+      "videoFormat": "screen-drama",
+      "videoLength": "5–10 minutes",
+      "qaVerdict": "APPROVED"
     },
     "sources": [
       {
@@ -463,7 +898,7 @@
     ]
   },
   {
-    "id": "b9ff3194-dcae-4f36-b692-c46546a335b3",
+    "id": "a345619d-be17-498c-9d93-f0928da12f94",
     "type": "topic-lesson",
     "title": "Topic 2.1: The Cell",
     "topic": {
@@ -471,48 +906,158 @@
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 2: Living Things and Their Environment",
-      "subStrand": "The Cell",
+      "subStrand": "2.1 The Cell",
       "topicNumber": "2.1",
       "topicOrder": 21,
       "slug": "2-1-the-cell"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: The Cell\nGrade 8 Integrated Science · 2 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Plant and Animal Cell Structures\nPage 2: …",
-      "quiz": "",
+      "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · The Cell\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Cells as Units of Life\nPAGE 2: The Light Microscope Parts\nPAGE 3: Handling a Microscope Safely\nPAGE 4: Preparing a Simpl…",
+      "quiz": "REVISION QUIZ\n====\n\nQ1. From Cells as Units of Life: state one key definition and one Kenyan example.\nQ2. From The Light Microscope Parts: state one key definition and one Kenyan example.\nQ3. From Handling a Microscope S…",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Plant and Animal Cell Structures",
+          "title": "Cells as Units of Life",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Magnification with the Light Microscope",
+          "title": "The Light Microscope Parts",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Handling a Microscope Safely",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Preparing a Simple Slide",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Plant Cell Structures",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Animal Cell Structures",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Comparing Plant and Animal Cells",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Cell Wall Versus Cell Membrane",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Nucleus and Control of the Cell",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Cytoplasm and Organelles Overview",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Chloroplasts and Photosynthesis Link",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Vacuoles in Plant Cells",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "Magnification Formula",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Calculating Magnification",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 15,
+          "title": "Estimating Size Under Microscope",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 16,
+          "title": "Observing Onion Epidermis",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 17,
+          "title": "Observing Cheek Cells",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 18,
+          "title": "Drawing Biological Diagrams",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 19,
+          "title": "Cells Tissues and Organisms Link",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 20,
+          "title": "Topic Synthesis The Cell",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 2
+      "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:20.327Z",
-      "wordCount": 1050,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:17.333Z",
+      "wordCount": 11935,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 7,
-      "contentSource": "g8-is-engine-v5",
+      "questionCount": 8,
+      "contentSource": "study-drama-engine-v1",
       "sourceChars": 4544,
-      "freePageCount": 2,
-      "totalStudyPages": 2,
+      "freePageCount": 20,
+      "totalStudyPages": 20,
       "lockPages": false,
-      "uniquePracticalSections": 2,
-      "uniqueVisualSections": 2,
+      "qaVerdict": "APPROVED",
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
-      ]
+      ],
+      "engine": "study-content-drama-engine",
+      "minPages": 20,
+      "videoLength": "5–10 minutes"
     },
     "sources": [
       {
@@ -521,37 +1066,41 @@
         "subject": "INTEGRATED SCIENCE",
         "excerpt": "2.1 The Cell. Cells make up the structure of living organisms and carry out various biological processes. Organisms such as amoeba are composed of a single cell hence are said to be unicellular."
       }
-    ]
+    ],
+    "body": "REVISION QUIZ\n====\n\nQ1. From Cells as Units of Life: state one key definition and one Kenyan example.\nQ2. From The Light Microscope Parts: state one key definition and one Kenyan example.\nQ3. From Handling a Microscope Safely: state one key"
   },
   {
-    "id": "744e747f-bf02-4576-abaa-9cd590721ba6",
+    "id": "6dfcfa5e-96cc-4557-8e97-a42c56de9044",
     "type": "video-script",
-    "title": "Video: Classes of fire",
+    "title": "Drama: Classes of fire",
     "topic": {
       "grade": "grade-8",
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 1: Mixtures, Elements and Compounds",
-      "subStrand": "Classes of fire",
+      "subStrand": "1.3 Classes of Fire",
       "topicNumber": "1.3",
       "topicOrder": 13,
       "slug": "1-3-classes-of-fire"
     },
+    "body": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE WRONG BUCKET\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Classes of fire\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action look with clear prop in",
     "pages": {
       "lesson": "…",
-      "quiz": "### Video Title: 1.3 Classes of fire — Classes of Fire and the Fire Triangle\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic…",
+      "quiz": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE WRONG BUCKET\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Classes of fire\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action loo…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:20.145Z",
-      "wordCount": 313,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:17.144Z",
+      "wordCount": 1068,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-engine-v5",
-      "linkedLessonId": "dd8e7de4-f3cd-4501-832e-1e38901c31f0",
-      "videoFormat": "2d-3d-cartoon"
+      "contentSource": "study-drama-engine-v1",
+      "linkedLessonId": "ecc6a141-4372-407a-9423-20aacda3dd83",
+      "videoFormat": "screen-drama",
+      "videoLength": "5–10 minutes",
+      "qaVerdict": "APPROVED"
     },
     "sources": [
       {
@@ -563,7 +1112,7 @@
     ]
   },
   {
-    "id": "dd8e7de4-f3cd-4501-832e-1e38901c31f0",
+    "id": "ecc6a141-4372-407a-9423-20aacda3dd83",
     "type": "topic-lesson",
     "title": "Topic 1.3: Classes of fire",
     "topic": {
@@ -571,48 +1120,158 @@
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 1: Mixtures, Elements and Compounds",
-      "subStrand": "Classes of fire",
+      "subStrand": "1.3 Classes of Fire",
       "topicNumber": "1.3",
       "topicOrder": 13,
       "slug": "1-3-classes-of-fire"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: Classes of fire\nGrade 8 Integrated Science · 2 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Classes of Fire and the Fire Trian…",
-      "quiz": "",
+      "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Classes of fire\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: What Is Fire\nPAGE 2: The Fire Triangle\nPAGE 3: Removing Fuel from a Fire\nPAGE 4: Removing Heat from a Fire\nPAGE 5…",
+      "quiz": "REVISION QUIZ\n====\n\nQ1. From What Is Fire: state one key definition and one Kenyan example.\nQ2. From The Fire Triangle: state one key definition and one Kenyan example.\nQ3. From Removing Fuel from a Fire: state one key d…",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Classes of Fire and the Fire Triangle",
+          "title": "What Is Fire",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Fire Safety and Extinguishing Methods",
+          "title": "The Fire Triangle",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 3,
+          "title": "Removing Fuel from a Fire",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 4,
+          "title": "Removing Heat from a Fire",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Removing Oxygen from a Fire",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Class A Fires",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Class B Fires",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Class C Fires",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Class D and Special Fires",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Why Water Is Not Universal",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Types of Extinguishers",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Using a Fire Blanket",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "School Fire Safety Rules",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Home Kitchen Fire Safety",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 15,
+          "title": "First Actions When You See Smoke",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 16,
+          "title": "Fire Escape Planning",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 17,
+          "title": "Fire Safety Equipment Survey",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 18,
+          "title": "Case Study Market Stall Fire",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 19,
+          "title": "Case Study Electrical Socket Fire",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 20,
+          "title": "Topic Synthesis Fire Safety",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 2
+      "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:19.937Z",
-      "wordCount": 769,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:16.949Z",
+      "wordCount": 12149,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 7,
-      "contentSource": "g8-is-engine-v5",
+      "questionCount": 8,
+      "contentSource": "study-drama-engine-v1",
       "sourceChars": 4475,
-      "freePageCount": 2,
-      "totalStudyPages": 2,
+      "freePageCount": 20,
+      "totalStudyPages": 20,
       "lockPages": false,
-      "uniquePracticalSections": 2,
-      "uniqueVisualSections": 2,
+      "qaVerdict": "APPROVED",
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
-      ]
+      ],
+      "engine": "study-content-drama-engine",
+      "minPages": 20,
+      "videoLength": "5–10 minutes"
     },
     "sources": [
       {
@@ -621,37 +1280,41 @@
         "subject": "INTEGRATED SCIENCE",
         "excerpt": "-Classes of Fire. Fires can be classified between four and seven classes. The following are six classes of fire mostly widely used and accepted."
       }
-    ]
+    ],
+    "body": "REVISION QUIZ\n====\n\nQ1. From What Is Fire: state one key definition and one Kenyan example.\nQ2. From The Fire Triangle: state one key definition and one Kenyan example.\nQ3. From Removing Fuel from a Fire: state one key definition and one Ke"
   },
   {
-    "id": "a884f24e-f902-4a80-9211-1fdc840e52d0",
+    "id": "fefc8b57-1ec1-4901-899f-5fc44626ea45",
     "type": "video-script",
-    "title": "Video: Physical and chemical changes",
+    "title": "Drama: Physical and chemical changes",
     "topic": {
       "grade": "grade-8",
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 1: Mixtures, Elements and Compounds",
-      "subStrand": "Physical and chemical changes",
+      "subStrand": "1.2 Physical and Chemical Changes",
       "topicNumber": "1.2",
       "topicOrder": 12,
       "slug": "1-2-physical-and-chemical-changes"
     },
+    "body": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: ICE THAT WOULD NOT BURN\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Physical and chemical changes\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action lo",
     "pages": {
       "lesson": "…",
-      "quiz": "### Video Title: 1.2 Physical and chemical changes — States of Matter and Their Properties\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani…",
+      "quiz": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: ICE THAT WOULD NOT BURN\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Physical and chemical changes\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: natural…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:19.739Z",
-      "wordCount": 311,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:16.730Z",
+      "wordCount": 1063,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-engine-v5",
-      "linkedLessonId": "db719a6a-d191-46b9-8714-1da69261e07f",
-      "videoFormat": "2d-3d-cartoon"
+      "contentSource": "study-drama-engine-v1",
+      "linkedLessonId": "1f41014d-106a-4198-af11-c2366b1ea1ea",
+      "videoFormat": "screen-drama",
+      "videoLength": "5–10 minutes",
+      "qaVerdict": "APPROVED"
     },
     "sources": [
       {
@@ -663,7 +1326,7 @@
     ]
   },
   {
-    "id": "db719a6a-d191-46b9-8714-1da69261e07f",
+    "id": "1f41014d-106a-4198-af11-c2366b1ea1ea",
     "type": "topic-lesson",
     "title": "Topic 1.2: Physical and chemical changes",
     "topic": {
@@ -671,60 +1334,158 @@
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 1: Mixtures, Elements and Compounds",
-      "subStrand": "Physical and chemical changes",
+      "subStrand": "1.2 Physical and Chemical Changes",
       "topicNumber": "1.2",
       "topicOrder": 12,
       "slug": "1-2-physical-and-chemical-changes"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: Physical and chemical changes\nGrade 8 Integrated Science · 4 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: States of Matter and…",
-      "quiz": "",
+      "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Physical and chemical changes\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: States of Matter Overview\nPAGE 2: Properties of Solids\nPAGE 3: Properties of Liquids\nPAGE 4: Proper…",
+      "quiz": "REVISION QUIZ\n====\n\nQ1. From States of Matter Overview: state one key definition and one Kenyan example.\nQ2. From Properties of Solids: state one key definition and one Kenyan example.\nQ3. From Properties of Liquids: sta…",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "States of Matter and Their Properties",
+          "title": "States of Matter Overview",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Pure and Impure Substances",
+          "title": "Properties of Solids",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Physical and Chemical Changes",
+          "title": "Properties of Liquids",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Changes of State in Daily Life",
+          "title": "Properties of Gases",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Particle Arrangement Model",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Density Across States",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Pure Substances",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Impure Substances and Mixtures",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Physical Changes Defined",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Melting Freezing and Evaporation",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Chemical Changes Defined",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Burning and Rusting",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "Baking Soda and Vinegar Reaction",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Comparing Physical and Chemical Changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 15,
+          "title": "Heat Effects on Matter",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 16,
+          "title": "Hydrated Salts Introduction",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 17,
+          "title": "Daily Life Physical Changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 18,
+          "title": "Daily Life Chemical Changes",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 19,
+          "title": "Safety When Heating Substances",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 20,
+          "title": "Topic Synthesis Physical Chemical Changes",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 4
+      "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:19.521Z",
-      "wordCount": 2192,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:16.517Z",
+      "wordCount": 13387,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 9,
-      "contentSource": "g8-is-engine-v5",
+      "questionCount": 8,
+      "contentSource": "study-drama-engine-v1",
       "sourceChars": 12644,
-      "freePageCount": 4,
-      "totalStudyPages": 4,
+      "freePageCount": 20,
+      "totalStudyPages": 20,
       "lockPages": false,
-      "uniquePracticalSections": 4,
-      "uniqueVisualSections": 4,
+      "qaVerdict": "APPROVED",
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
-      ]
+      ],
+      "engine": "study-content-drama-engine",
+      "minPages": 20,
+      "videoLength": "5–10 minutes"
     },
     "sources": [
       {
@@ -733,37 +1494,41 @@
         "subject": "INTEGRATED SCIENCE",
         "excerpt": "1.2 -Physical and Chemical changes. Matter is anything that occupies space and has mass. All solids, liquids and gases are made up of matter."
       }
-    ]
+    ],
+    "body": "REVISION QUIZ\n====\n\nQ1. From States of Matter Overview: state one key definition and one Kenyan example.\nQ2. From Properties of Solids: state one key definition and one Kenyan example.\nQ3. From Properties of Liquids: state one key definitio"
   },
   {
-    "id": "79a035f1-fc26-4bdc-ae03-b852a6f8b0a5",
+    "id": "68627ad8-804a-465a-96b8-d2645a62d156",
     "type": "video-script",
-    "title": "Video: Elements and Compounds",
+    "title": "Drama: Elements and Compounds",
     "topic": {
       "grade": "grade-8",
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 1: Mixtures, Elements and Compounds",
-      "subStrand": "Elements and Compounds",
+      "subStrand": "1.1 Elements and Compounds",
       "topicNumber": "1.1",
       "topicOrder": 11,
       "slug": "1-1-elements-and-compounds"
     },
+    "body": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE LABEL THAT LIED\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Elements and Compounds\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-action look with cle",
     "pages": {
       "lesson": "…",
-      "quiz": "### Video Title: 1.1 Elements and Compounds — Atoms, Elements and Compounds\n- **Target Audience:** Grade 8 Students\n- **Format:** 2D/3D cartoon animation (~3 minutes)\n- **Core Characters:**\n  - **Dr. Amani** — energetic …",
+      "quiz": "EPISODE PACKAGE\n====\n\nEPISODE TITLE: THE LABEL THAT LIED\nSUBJECT / TOPIC: INTEGRATED SCIENCE / Elements and Compounds\nGRADE: Grade 8 JSS\nAGE RATING: 10+ (student-safe)\nDURATION: 8 minutes\nVISUAL STYLE: naturalistic live-…",
       "answers": "",
       "studyPages": []
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:19.304Z",
-      "wordCount": 323,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:16.297Z",
+      "wordCount": 1076,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "contentSource": "g8-is-engine-v5",
-      "linkedLessonId": "b12de444-448e-4165-ac1a-8525b8173ce3",
-      "videoFormat": "2d-3d-cartoon"
+      "contentSource": "study-drama-engine-v1",
+      "linkedLessonId": "1e7b651d-1401-4618-9d1a-1d1651432e6f",
+      "videoFormat": "screen-drama",
+      "videoLength": "5–10 minutes",
+      "qaVerdict": "APPROVED"
     },
     "sources": [
       {
@@ -775,7 +1540,7 @@
     ]
   },
   {
-    "id": "b12de444-448e-4165-ac1a-8525b8173ce3",
+    "id": "1e7b651d-1401-4618-9d1a-1d1651432e6f",
     "type": "topic-lesson",
     "title": "Topic 1.1: Elements and Compounds",
     "topic": {
@@ -783,60 +1548,158 @@
       "gradeLabel": "Grade 8",
       "subject": "INTEGRATED SCIENCE",
       "strand": "Strand 1: Mixtures, Elements and Compounds",
-      "subStrand": "Elements and Compounds",
+      "subStrand": "1.1 Elements and Compounds",
       "topicNumber": "1.1",
       "topicOrder": 11,
       "slug": "1-1-elements-and-compounds"
     },
     "pages": {
-      "lesson": "STUDENT MODULE: Elements and Compounds\nGrade 8 Integrated Science · 4 consolidated pages\nFormat: Concept Overview → Examples & Formulas → Visual Description → Applications & Safety → Practice + Solutions\n\nPage 1: Atoms, Elements and Compoun…",
-      "quiz": "",
+      "lesson": "STUDY MODULE PAGE MAP\n====\nINTEGRATED SCIENCE · Grade 8 JSS · Elements and Compounds\n20 pages · engine study-drama-engine-v1\n\nPAGE 1: Matter and Pure Substances\nPAGE 2: What Is an Element\nPAGE 3: Atoms as Building Units\nPAGE 4: What Is a Co…",
+      "quiz": "REVISION QUIZ\n====\n\nQ1. From Matter and Pure Substances: state one key definition and one Kenyan example.\nQ2. From What Is an Element: state one key definition and one Kenyan example.\nQ3. From Atoms as Building Units: st…",
       "answers": "",
       "studyPages": [
         {
           "pageNumber": 1,
-          "title": "Atoms, Elements and Compounds",
+          "title": "Matter and Pure Substances",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 2,
-          "title": "Chemical Symbols of Elements",
+          "title": "What Is an Element",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 3,
-          "title": "Elements in Daily Life and Nutrition",
+          "title": "Atoms as Building Units",
           "free": true,
           "body": ""
         },
         {
           "pageNumber": 4,
-          "title": "Useful Metals and Packaging Labels",
+          "title": "What Is a Compound",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 5,
+          "title": "Elements Versus Compounds",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 6,
+          "title": "Rules for Writing Chemical Symbols",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 7,
+          "title": "Symbols from English Names",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 8,
+          "title": "Symbols from Latin Names",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 9,
+          "title": "Chemical Formulas of Compounds",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 10,
+          "title": "Water as a Compound",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 11,
+          "title": "Common Salt as a Compound",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 12,
+          "title": "Carbon Hydrogen and Oxygen in Foods",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 13,
+          "title": "Nitrogen and Body Proteins",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 14,
+          "title": "Calcium for Bones and Teeth",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 15,
+          "title": "Iron and Healthy Blood",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 16,
+          "title": "Fluoride and Tooth Protection",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 17,
+          "title": "Useful Metals Gold and Silver",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 18,
+          "title": "Iron Steel and Everyday Tools",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 19,
+          "title": "Reading Packaging Labels",
+          "free": true,
+          "body": ""
+        },
+        {
+          "pageNumber": 20,
+          "title": "Topic Synthesis and Exam Practice",
           "free": true,
           "body": ""
         }
       ],
-      "freePageCount": 4
+      "freePageCount": 20
     },
     "metadata": {
-      "createdAt": "2026-07-22T23:18:19.062Z",
-      "wordCount": 1879,
-      "reviewed": false,
+      "createdAt": "2026-07-23T00:00:16.037Z",
+      "wordCount": 12470,
+      "reviewed": true,
       "access": "free",
       "priceKes": 0,
-      "questionCount": 9,
-      "contentSource": "g8-is-engine-v5",
+      "questionCount": 8,
+      "contentSource": "study-drama-engine-v1",
       "sourceChars": 6570,
-      "freePageCount": 4,
-      "totalStudyPages": 4,
+      "freePageCount": 20,
+      "totalStudyPages": 20,
       "lockPages": false,
-      "uniquePracticalSections": 4,
-      "uniqueVisualSections": 4,
+      "qaVerdict": "APPROVED",
       "textbookTitles": [
         "Grade 8 Rationalized Integrated Science Lesson Notes"
-      ]
+      ],
+      "engine": "study-content-drama-engine",
+      "minPages": 20,
+      "videoLength": "5–10 minutes"
     },
     "sources": [
       {
@@ -845,7 +1708,8 @@
         "subject": "INTEGRATED SCIENCE",
         "excerpt": "ELEMENTS AND COMPUNDS Meaning of Atoms, Elements, molecules and Compounds. Matter is anything that occupies space and has mass."
       }
-    ]
+    ],
+    "body": "REVISION QUIZ\n====\n\nQ1. From Matter and Pure Substances: state one key definition and one Kenyan example.\nQ2. From What Is an Element: state one key definition and one Kenyan example.\nQ3. From Atoms as Building Units: state one key definiti"
   },
   {
     "id": "020239de-b6b0-4d50-a115-a9f592060514",
