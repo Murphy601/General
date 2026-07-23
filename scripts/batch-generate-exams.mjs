@@ -1,25 +1,26 @@
 #!/usr/bin/env node
 /**
- * Populate Revision Hub with original CBC papers generated from KICD designs.
+ * Legacy entrypoint — Grade 7–12 now use Universal Agent 5 (≥20 papers/subject/tier).
+ * Lower grades still use the older builder until migrated.
  *
- * Categories:
- *   general  — subject general assessment quizzes
- *   termly   — Term 1 / 2 / 3 exams
- *   mock     — end-of-year / KPSEA-style mocks
- *   premium  — longer advanced papers
+ * Prefer:
+ *   npm run content:universal-exams
+ *   npm run content:universal-exams:grade -- grade-7
  *
- * Usage:
+ * Usage (legacy lower grades):
  *   node scripts/batch-generate-exams.mjs --grade grade-4
  *   node scripts/batch-generate-exams.mjs --all --no-llm
- *   node scripts/batch-generate-exams.mjs --grade grade-1 --category termly
  */
 import './load-env.mjs';
+import { spawnSync } from 'node:child_process';
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { formatGradeLabel, INDEX_PATH } from './curriculum-source.mjs';
 import { buildExamFromTopics, paperTypeForCategory } from './exam-from-kicd.mjs';
+
+const UNIVERSAL_GRADES = new Set(['grade-7', 'grade-8', 'grade-9', 'grade-10', 'grade-11', 'grade-12']);
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '..', 'web', 'data', 'content');
@@ -189,6 +190,23 @@ if (!existsSync(INDEX_PATH)) {
   process.exit(1);
 }
 
+// Route Grade 7–12 to the universal ≥20-papers generator (kills outcome-paste junk).
+if (args.grade && UNIVERSAL_GRADES.has(args.grade)) {
+  const uniArgs = [join(__dirname, 'batch-universal-exams.mjs'), '--grade', args.grade];
+  if (args.subject) uniArgs.push('--subject', args.subject);
+  console.log('→ Redirecting to Universal Agent 5 batch…');
+  const r = spawnSync(process.execPath, uniArgs, { stdio: 'inherit' });
+  process.exit(r.status ?? 1);
+}
+if (args.all) {
+  console.log('→ Grades 7–12: Universal Agent 5 (≥20 papers/subject/tier)');
+  const r = spawnSync(process.execPath, [join(__dirname, 'batch-universal-exams.mjs')], {
+    stdio: 'inherit',
+  });
+  if (r.status) process.exit(r.status ?? 1);
+  console.log('\n→ Continuing legacy generator for PP1–Grade 6 only…');
+}
+
 const curriculum = JSON.parse(readFileSync(INDEX_PATH, 'utf8'));
 let manifest = loadManifest();
 if (args.reset) {
@@ -196,11 +214,15 @@ if (args.reset) {
   saveManifest(manifest);
 }
 
-let grades = curriculum.grades.filter((g) => REGULAR_GRADES.includes(g.grade));
+let grades = curriculum.grades.filter((g) => REGULAR_GRADES.includes(g.grade) && !UNIVERSAL_GRADES.has(g.grade));
 if (args.grade) grades = grades.filter((g) => g.grade === args.grade);
 if (!args.all && !args.grade) {
-  console.error('Use --grade grade-4 or --all');
+  console.error('Use --grade grade-4 or --all (Grade 7–12 → npm run content:universal-exams)');
   process.exit(1);
+}
+if (!grades.length) {
+  console.log('No legacy grades left to process.');
+  process.exit(0);
 }
 
 let created = 0;
