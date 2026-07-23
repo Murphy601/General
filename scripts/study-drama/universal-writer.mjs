@@ -5,7 +5,8 @@
 import { titleBlock, sectionBlock, toUnicodeFormula, cleanNoise } from './house-style.mjs';
 import { formatWorking } from './math-working.mjs';
 import { pickDiagram } from './diagram.mjs';
-import { matchesBannedIntro } from './config.mjs';
+import { buildIntro } from './intros.mjs';
+import { matchesBannedIntro, outcomeToGoal } from './config.mjs';
 
 const LOCALS = [
   'a classroom in Kisumu',
@@ -56,6 +57,7 @@ function pickFacts(paragraphs, keywords, limit, usedStarts) {
   const out = [];
   const push = (raw) => {
     let p = cleanNoise(String(raw || ''));
+    p = outcomeToGoal(p.replace(/^[A-Da-d]\)\s*/, '').replace(/^[-•]\s*/, ''));
     if (p.length < 24) return;
     if (/^(Requirements|Procedure|Caution|For example,?)$/i.test(p)) return;
     const key = p.slice(0, 56).toLowerCase();
@@ -73,30 +75,6 @@ function pickFacts(paragraphs, keywords, limit, usedStarts) {
     if (out.length >= limit) break;
   }
   return out;
-}
-
-function buildIntro({ page, topic, subject, grade, loc, facts }) {
-  const title = page.title;
-  const idea = page.outcome || page.scope || title;
-  const early = isEarly(grade);
-  const openers = early
-    ? [
-        `At ${loc}, you can practise ${title.toLowerCase()} with things you can see and touch.`,
-        `Today we learn about ${topic.topicName}. Start with one clear example from ${loc}.`,
-        `Look around ${loc}. ${topic.topicName} shows up in small daily actions — this page names them clearly.`,
-      ]
-    : [
-        `At ${loc}, ${title.toLowerCase()} is not just a heading — it is a skill you use when you explain ${topic.topicName} with evidence.`,
-        `A learner studying ${subject} meets ${title.toLowerCase()} first by naming the idea, then by using one Kenyan example from ${loc}.`,
-        `This page teaches ${title.toLowerCase()} so you can define it, apply it near ${loc}, and correct a common wrong idea.`,
-      ];
-  const seed = hash(title + loc + (facts[0] || ''));
-  let intro = `${openers[seed % openers.length]} In plain words: ${idea}.`;
-  if (facts[0]) intro += ` One useful fact to keep: ${facts[0].replace(/\.$/, '')}.`;
-  if (matchesBannedIntro(intro)) {
-    intro = `This lesson explains ${title} for ${topic.topicName}. You will learn the meaning, one worked example linked to ${loc}, and how to avoid a common mistake.`;
-  }
-  return intro;
 }
 
 function mathNotes(page, topic, variant) {
@@ -396,15 +374,23 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
   ledger.factStarts = [...usedStarts, ...facts.map((f) => f.slice(0, 56))];
 
   const variant = hash(page.title + String(pageNumber)) + (ledger.locals?.length || 0);
-  const intro = buildIntro({ page, topic, subject, grade, loc, facts });
-  ledger.introFingerprints = [...(ledger.introFingerprints || []), intro.slice(0, 64).toLowerCase()];
+  const intro = buildIntro(page, facts, pageNumber, ledger);
+  if (matchesBannedIntro(intro)) {
+    throw new Error(`Banned intro leaked on ${topic.subject} / ${page.title}`);
+  }
 
   const notes = isMath(subject)
     ? mathNotes(page, topic, variant)
     : subjectNotes({ page, topic, subject, facts, loc });
 
+  const ideaLabel = String(page.title || '')
+    .replace(/^what is\s+/i, '')
+    .replace(/\?$/g, '')
+    .trim()
+    .toLowerCase();
+
   const goals = [
-    `Say what ${page.title.toLowerCase()} means in plain words.`,
+    `Say what ${ideaLabel} means in plain words.`,
     `Give one Kenyan example linked to ${topic.topicName}.`,
     `Correct one common mistake about this page.`,
   ];
@@ -419,23 +405,23 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
     variant,
     pageNumber,
   });
-  const everyday = `At ${loc}, practise ${page.title.toLowerCase()} during ordinary routines at home or school. Ask: what did I observe, which word or formula fits, and how do I check I am right? Use the diagram or working on this page as your model. Safety and respect come first.`;
+  const everyday = `At ${loc}, practise ${ideaLabel} during ordinary routines at home or school. Ask: what did I observe, which word or formula fits, and how do I check I am right? Use the diagram or working on this page as your model. Safety and respect come first.`;
   const summary = notes.slice(0, 4).map((n) => (n.length > 150 ? `${n.slice(0, 147)}...` : n));
-  while (summary.length < 3) summary.push(`${page.title} matters for accurate ${subject} learning.`);
+  while (summary.length < 3) summary.push(`${ideaLabel} matters for accurate ${subject} learning.`);
 
   const questions = [
-    `Define ${page.title.toLowerCase()} in your own words and give one clear example.`,
+    `Define ${ideaLabel} in your own words and give one clear example.`,
     isMath(subject) || isScience(subject)
       ? `Show full working (or labeled steps) for a problem on this page set at ${loc}.`
       : `Describe a situation at ${loc} that shows ${topic.topicName}, using ideas from this page.`,
-    `A learner makes a mistake about ${page.title.toLowerCase()}. State the wrong idea, correct it, and justify your correction.`,
+    `A learner makes a mistake about ${ideaLabel}. State the wrong idea, correct it, and justify your correction.`,
   ];
   const answers = [
     `${toUnicodeFormula(notes[0] || page.scope)} Example: connect it to something real at home, school, market, or ${loc}.`,
     isMath(subject) || isScience(subject)
       ? 'Award marks for: correct formula/relationship, substitution, steps, and final answer with units (or labeled science steps).'
       : `At ${loc}, observe carefully, name the correct idea from ${topic.topicName}, and explain with one subject fact from the main notes.`,
-    `Wrong idea: mixing ${page.title.toLowerCase()} with a neighbouring concept or skipping the method. Correct idea: ${toUnicodeFormula(page.scope)}. Justification: follow the worked example (and diagram if shown) on this page.`,
+    `Wrong idea: mixing ${ideaLabel} with a neighbouring concept or skipping the method. Correct idea: ${toUnicodeFormula(outcomeToGoal(page.scope || page.title))}. Justification: follow the worked example (and diagram if shown) on this page.`,
   ];
 
   const body = assemblePage(page.title, {

@@ -22,6 +22,16 @@ export const BANNED_INTRO_FRAMES = [
   /so you can recognise it, name it correctly, and use it safely/i,
   /This page explains .+ so you can recognise/i,
   /learners meet science ideas without opening/i,
+  // Universal mass-writer skeletons (must never ship)
+  /is not just a heading/i,
+  /In plain words:/i,
+  /One useful fact to keep:/i,
+  /A learner studying .+ meets .+ first by naming the idea/i,
+  /This page teaches .+ so you can define it, apply it/i,
+  /you can practise .+ with things you can see and touch/i,
+  /shows up in small daily actions — this page names them clearly/i,
+  /You will learn the meaning, one worked example linked to/i,
+  /At (a |an )?(classroom|home|market|shamba|duka|playground).+, what is /i,
 ];
 
 export function matchesBannedIntro(text) {

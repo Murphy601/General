@@ -3,7 +3,7 @@
  * Opening styles rotate; each intro must explain the idea with a concrete instance.
  */
 import { toUnicodeFormula } from './house-style.mjs';
-import { matchesBannedIntro } from './config.mjs';
+import { matchesBannedIntro, outcomeToGoal } from './config.mjs';
 
 /** Handcrafted intros keyed by exact page title */
 const BY_TITLE = {
@@ -143,9 +143,102 @@ const BY_TITLE = {
     'Carry a heavy bag on thin straps and your shoulders hurt; use wide padded straps and the same weight feels easier. The force did not change much — the area did. That everyday feeling is the doorway into pressure.',
 };
 
+function cleanIdeaLabel(raw, topicName) {
+  let s = String(raw || '')
+    .replace(/^what is\s+/i, '')
+    .replace(/\?$/g, '')
+    .replace(/…$/g, '')
+    .replace(/\.{2,}$/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  // Drop phase prefixes from auto page maps ("Key Words You Must Know — Fractions")
+  if (s.includes(' — ')) s = s.split(' — ').pop().trim();
+  if (s.includes(': ')) s = s.split(': ').slice(1).join(': ').trim() || s;
+  s = s.replace(/…$/g, '').trim();
+  const phasey =
+    /^(meet the idea|key words|how it works|look closely|try it|common mistakes|compare and contrast|safety and respect|practice with|tell it|home and school|community and kenya|worked problem|check your|harder challenge|values and|exam-style|revision sprint|fix the wrong|topic synthesis|understanding)\b/i;
+  if (phasey.test(s) && topicName) return String(topicName).trim();
+  // Prefer the topic name when the leftover is a truncated outcome fragment
+  if (topicName && (s.endsWith('…') || s.length > 70)) return String(topicName).trim();
+  if ((!s || s.length < 3) && topicName) return String(topicName).trim();
+  return s;
+}
+
+function cleanFact(raw) {
+  return outcomeToGoal(
+    String(raw || '')
+      .replace(/^[A-Da-d]\)\s*/, '')
+      .replace(/^[-•]\s*/, '')
+      .trim(),
+  );
+}
+
+function fallbackIntro(page, facts, salt) {
+  const fact = facts[0] ? cleanFact(toUnicodeFormula(facts[0]).replace(/\.$/, '')) : '';
+  const fact2 = facts[1] ? cleanFact(toUnicodeFormula(facts[1]).replace(/\.$/, '')) : '';
+  const style = Math.abs(salt) % 8;
+  const topicName = page.topicName || page.focus || '';
+  const idea = cleanIdeaLabel(page.title, topicName).toLowerCase() || 'this idea';
+  let scope = cleanFact(page.outcome || '');
+  if (!scope || /^(meet the idea|key words|how it works)/i.test(scope)) {
+    scope = cleanFact(page.scope || '');
+  }
+  if (!scope || / for .+ in [A-Z]/i.test(scope)) {
+    scope = topicName
+      ? `explain ${String(topicName).toLowerCase()} with a clear local example and the correct terms`
+      : `explain ${idea} with a clear local example and the correct terms`;
+  }
+  const locPool = [
+    'a market stall in Nairobi',
+    'a kitchen in Kisumu',
+    'a school desk in Nakuru',
+    'a shamba path in Nyeri',
+    'a duka counter in Mombasa',
+    'a playground in Eldoret',
+    'a clinic bench in Thika',
+    'a tea farm path in Kericho',
+  ];
+  const loc = locPool[Math.abs(salt) % locPool.length];
+  const hooks = [
+    `Watch closely at ${loc}.`,
+    `Start from one clear example at ${loc}.`,
+    `Imagine this scene at ${loc}.`,
+    `Use a real moment from ${loc}.`,
+    `Begin with something you can point to at ${loc}.`,
+    `Think of a quick test at ${loc}.`,
+    `Build the idea from a situation at ${loc}.`,
+    `Ground the lesson in what happens at ${loc}.`,
+  ];
+  const hook = hooks[Math.abs(salt * 3 + style) % hooks.length];
+  // Page titles are unique within a topic — put them early so openings never clone.
+  const pageLabel = String(page.title || idea).replace(/\s+/g, ' ').trim().slice(0, 70);
+  const focusBit = `On “${pageLabel}”, `;
+
+  switch (style) {
+    case 0:
+      return fact
+        ? `${hook} ${focusBit}${fact}. That detail opens the door into ${idea}. ${fact2 ? `Also notice: ${fact2}. ` : ''}This page shows why it matters and how to say it accurately.`
+        : `${hook} ${focusBit}for ${idea}, ask what stays the same and what changes. The notes below name the difference with correct terms.`;
+    case 1:
+      return `${hook} ${focusBit}how would you explain ${idea} to a classmate in one minute? Use this anchor: ${scope}. ${fact ? `Clue from real life: ${fact}.` : ''} Check every example on this page against that anchor.`;
+    case 2:
+      return `${hook} ${focusBit}take one familiar object or moment tied to ${idea}. ${fact ? `Watch this detail: ${fact}. ` : ''}Underneath it sits this rule: ${scope}. Name it correctly, then apply it.`;
+    case 3:
+      return `${hook} ${focusBit}picture a short moment where getting ${idea} wrong would spoil an answer. ${fact ? `${fact}. ` : ''}The accurate explanation is: ${scope}. The worked example walks the steps.`;
+    case 4:
+      return `${hook} ${focusBit}learners often mix up ${idea} with a nearby idea. Keep this accurate line instead: ${scope}. ${fact ? `Supporting detail: ${fact}.` : fact2 ? `Supporting detail: ${fact2}.` : 'The worked example proves the difference.'}`;
+    case 5:
+      return `${hook} ${focusBit}here ${idea} shows up in a small decision you can watch. ${fact ? `${fact}. ` : ''}Put the idea in one clear sentence: ${scope}. Then match that sentence to the notes and summary.`;
+    case 6:
+      return `${hook} ${focusBit}before you read further, finish this thought: "${idea} means…" A strong finish is: ${scope}. ${fact ? `Evidence you can use: ${fact}.` : ''} Compare your sentence with the main notes.`;
+    default:
+      return `${hook} ${focusBit}mini-challenge on ${idea}: write one accurate sentence before peeking at the notes. ${fact ? `Hint: ${fact}.` : `Hint: ${scope}.`} Then check it against the worked example.`;
+  }
+}
+
 /**
  * Build a unique teaching intro for a page.
- * Tracks fingerprints in ledger.intros so openings never clone each other.
+ * Tracks fingerprints in ledger.introFingerprints so openings never clone each other.
  */
 export function buildIntro(page, facts, pageNumber, ledger) {
   const title = page.title;
@@ -161,42 +254,19 @@ export function buildIntro(page, facts, pageNumber, ledger) {
 
   // If somehow a banned frame appears, force a hard rewrite
   if (matchesBannedIntro(intro)) {
-    intro = fallbackIntro(page, facts, pageNumber + 3);
+    intro = fallbackIntro(page, facts, pageNumber + 17);
   }
 
-  // Ensure uniqueness vs earlier pages
-  const fp = intro.slice(0, 64).toLowerCase();
+  // Ensure uniqueness vs earlier pages — keep rewriting until the opening is distinct
   const used = ledger.introFingerprints || [];
-  if (used.includes(fp)) {
-    intro = fallbackIntro(page, facts, pageNumber + 7) + ` Focus especially on this: ${page.scope}.`;
+  let attempt = 0;
+  while (attempt < 12) {
+    const fp = intro.slice(0, 72).toLowerCase();
+    if (!used.includes(fp) && !matchesBannedIntro(intro) && intro.length >= 60) break;
+    attempt++;
+    intro = toUnicodeFormula(fallbackIntro(page, facts, pageNumber + 19 * attempt + attempt * attempt));
   }
-  ledger.introFingerprints = [...used, intro.slice(0, 64).toLowerCase()];
+  ledger.introFingerprints = [...used, intro.slice(0, 72).toLowerCase()];
 
   return intro;
-}
-
-function fallbackIntro(page, facts, salt) {
-  const fact = facts[0] ? toUnicodeFormula(facts[0]).replace(/\.$/, '') : '';
-  const fact2 = facts[1] ? toUnicodeFormula(facts[1]).replace(/\.$/, '') : '';
-  const style = Math.abs(salt) % 6;
-  const idea = page.title.toLowerCase();
-  const scope = page.scope;
-  const uniqueBit = `${page.title} — ${scope}`;
-
-  switch (style) {
-    case 0:
-      return fact
-        ? `${fact}. That single observation is enough to unlock ${uniqueBit}. ${fact2 ? `Also notice: ${fact2}. ` : ''}Put simply, you are learning why that happens and how to say it accurately in an exam.`
-        : `For ${uniqueBit}, start by contrasting what stays the same with what changes. The notes below spell out the difference with real objects and correct terms.`;
-    case 1:
-      return `Quick question: how would you explain ${uniqueBit} to a classmate in one minute? Anchor answer: ${scope}. ${fact ? `Clue from real life: ${fact}.` : ''} Check every example on this page against that anchor.`;
-    case 2:
-      return `Take one familiar object tied to ${idea}. ${fact ? `Watch this detail: ${fact}. ` : ''}The science under it is ${scope}. That is the whole job of this page: name it correctly and apply it.`;
-    case 3:
-      return `Picture a short home or school moment where getting ${idea} wrong would confuse your answer. ${fact ? `${fact}. ` : ''}The correct explanation is ${scope}. Read on for the step-by-step notes.`;
-    case 4:
-      return `Learners often mix up ${idea} with a nearby idea. Hold onto this accurate line instead: ${scope}. ${fact ? `Supporting detail: ${fact}.` : fact2 ? `Supporting detail: ${fact2}.` : 'The worked example will prove the difference.'}`;
-    default:
-      return `Mini-challenge on ${uniqueBit}: write one accurate sentence before you peek at the notes. ${fact ? `Hint: ${fact}.` : ''} Then match your sentence to the main notes and summary.`;
-  }
 }

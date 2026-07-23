@@ -24,7 +24,7 @@ import { writeDrama } from './study-drama/drama.mjs';
 import { writeUniversalDrama } from './study-drama/universal-drama.mjs';
 import { displayNormalize } from './study-drama/house-style.mjs';
 import { runQA } from './study-drama/qa.mjs';
-import { CONFIG } from './study-drama/config.mjs';
+import { CONFIG, matchesBannedIntro } from './study-drama/config.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -114,7 +114,7 @@ function videoIndexEntry(content) {
 }
 
 function lightQAPass(studyPages, drama) {
-  // Soft gate for mass generation: require sections + no banned scaffolding
+  // Soft gate for mass generation: require sections + no banned scaffolding/intros
   const need = [
     'WHAT YOU WILL LEARN',
     'INTRODUCTION',
@@ -125,12 +125,19 @@ function lightQAPass(studyPages, drama) {
     'REVISION QUESTIONS',
     'ANSWERS',
   ];
+  const introFPS = [];
   for (const p of studyPages) {
     for (const sec of need) {
       if (!new RegExp(sec, 'i').test(p.body)) return false;
     }
     if (/Learners should ignore|Q1\/A1\b|Around .+?, learners meet/i.test(p.body)) return false;
     if (/^#{1,3}\s|\*\*[^*]+\*\*/m.test(p.body)) return false;
+    const m = p.body.match(/INTRODUCTION\n----\n([\s\S]*?)(\n\n[A-Z]|\nMAIN NOTES)/i);
+    const intro = (m?.[1] || '').trim();
+    if (intro.length < 40 || matchesBannedIntro(intro)) return false;
+    const fp = intro.slice(0, 72).toLowerCase();
+    if (introFPS.includes(fp)) return false;
+    introFPS.push(fp);
   }
   if (!drama || drama.length < 400) return false;
   return true;
@@ -167,7 +174,11 @@ function getCachedSource({ grade, subject, topicNumber, topicName }) {
       if (String(b.topicName || '').toUpperCase().includes(want)) return b;
     }
   }
-  return getTopicSourceText({ grade, subject, topicNumber, topicName });
+  try {
+    return getTopicSourceText({ grade, subject, topicNumber, topicName });
+  } catch {
+    return null;
+  }
 }
 
 const args = parseArgs(process.argv);

@@ -2,7 +2,7 @@
  * Agent 1A (auto) — build a 20-page map from any CBC topic.
  * Used when no handcrafted page-maps entry exists.
  */
-import { CONFIG } from './config.mjs';
+import { CONFIG, outcomeToGoal, matchesBannedIntro } from './config.mjs';
 
 const PHASE_TITLES = [
   'Meet the Idea',
@@ -88,7 +88,7 @@ export function buildAutoPageMap(topic) {
     const outcome = outcomes[i % Math.max(outcomes.length, 1)] || null;
     const title =
       i === 0
-        ? `What Is ${name}?`
+        ? `Understanding ${name}`
         : i === n - 1
           ? `${name} — Topic Synthesis and Practice`
           : outcome && i < outcomes.length + 2
@@ -96,7 +96,7 @@ export function buildAutoPageMap(topic) {
             : `${phase} — ${name}`;
 
     const scope = outcome
-      ? `Understand and practise: ${outcome}`
+      ? outcomeToGoal(outcome)
       : `${phase.toLowerCase()} for ${name} in ${topic.subject || 'this subject'}`;
 
     const words = name
@@ -109,8 +109,10 @@ export function buildAutoPageMap(topic) {
     pages.push({
       title: title.replace(/\s+/g, ' ').trim().slice(0, 90),
       scope,
+      outcome: outcome ? outcomeToGoal(outcome) : null,
+      topicName: name,
+      focus: name,
       keywords: kw,
-      outcome: outcome || null,
     });
   }
 
