@@ -93,13 +93,21 @@ export function displayNormalize(text) {
   if (/\*\*|__/.test(t)) fixes.bold++;
   if (/^#{1,6}\s/m.test(t)) fixes.headings++;
   if (/\bH2O\b|\bCO2\b|\bNa\+/.test(t)) fixes.formulas++;
-  t = stripForbiddenMarkup(t);
-  t = toUnicodeFormula(t);
-  // Ensure section titles that look like SECTION N are followed by ----
-  t = t.replace(/^(SECTION\s+\d+[^\n]*)\n(?!----)/gim, (_, s) => {
-    fixes.headings++;
-    return `${s.toUpperCase()}\n----\n`;
-  });
+
+  // Never rewrite SVG / diagram payloads
+  const parts = t.split(/(\[DIAGRAM\][\s\S]*?\[\/DIAGRAM\])/gi);
+  t = parts
+    .map((part) => {
+      if (/^\[DIAGRAM\]/i.test(part)) return part;
+      let p = stripForbiddenMarkup(part);
+      p = toUnicodeFormula(p);
+      p = p.replace(/^(SECTION\s+\d+[^\n]*)\n(?!----)/gim, (_, s) => {
+        fixes.headings++;
+        return `${s.toUpperCase()}\n----\n`;
+      });
+      return p;
+    })
+    .join('');
   // Audit is for the orchestrator only — never append DISPLAY-CLEAN to student pages.
   return t;
 }

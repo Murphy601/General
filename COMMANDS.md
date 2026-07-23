@@ -26,7 +26,11 @@ Every subject · every tier (General / Termly / Mock / Premium) → **20 papers*
 Real questions — not “Learners should ignore…” junk.
 
 **Learn (PP1–Grade 12)**  
-Topics have **20 study pages** (Study-Drama house style) + screen-drama video scripts.  
+Topics have **20 study pages** (Study-Drama house style) including:
+- Worked examples with **formula → substitution → steps** (math/science)
+- **`[DIAGRAM]`** figures (SVG / figure-prompts) rendered in the viewer
+- Screen-drama video script per topic  
+
 Grade 8 Integrated Science keeps the handcrafted drama pack.
 
 Examples:
