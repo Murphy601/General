@@ -6,25 +6,7 @@ import { titleBlock, sectionBlock, toUnicodeFormula, cleanNoise } from './house-
 import { formatWorking } from './math-working.mjs';
 import { pickDiagram } from './diagram.mjs';
 import { buildIntro } from './intros.mjs';
-import { matchesBannedIntro, outcomeToGoal } from './config.mjs';
-
-const LOCALS = [
-  'a classroom in Kisumu',
-  'a home in Nakuru',
-  'a market in Nairobi',
-  'a shamba in Nyeri',
-  'a school compound in Machakos',
-  'a duka in Mombasa',
-  'a playground in Eldoret',
-  'a clinic bench in Thika',
-  'a church/mosque yard in Kakamega',
-  'a tea farm path in Kericho',
-  'a fishing beach near Lake Victoria',
-  'a boarding dorm in Kitale',
-  'a matatu stage in Nyeri',
-  'a kitchen in Kibera',
-  'a library corner in Garissa',
-];
+import { matchesBannedIntro, outcomeToGoal, hasLocationFiller } from './config.mjs';
 
 function hash(s) {
   let h = 0;
@@ -32,12 +14,13 @@ function hash(s) {
   return h;
 }
 
-function nextLocal(ledger) {
-  const used = ledger.locals || [];
-  const pool = LOCALS.filter((x) => !used.includes(x));
-  const choice = pool[0] || LOCALS[used.length % LOCALS.length];
-  ledger.locals = [...used, choice];
-  return choice;
+/** Topic/subtopic focus phrase — never a place-name scene */
+function topicFocus(page, topic) {
+  const idea = String(page.title || topic.topicName || 'this idea')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 90);
+  return idea;
 }
 
 function isMath(subject) {
@@ -128,7 +111,7 @@ function mathNotes(page, topic, variant) {
   ];
 }
 
-function subjectNotes({ page, topic, subject, facts, loc }) {
+function subjectNotes({ page, topic, subject, facts }) {
   if (facts.length) {
     return facts.slice(0, 6).map((f) => toUnicodeFormula(f));
   }
@@ -137,15 +120,15 @@ function subjectNotes({ page, topic, subject, facts, loc }) {
     `${page.title} helps you understand ${name} in ${subject}.`,
     `Meaning in plain words: ${page.scope}.`,
     'Use accurate subject words — do not replace them with vague slogans.',
-    `Link the idea to a real situation at ${loc} so you can remember it in an exam.`,
+    `Link ${name} to a clear example from this subtopic so you can remember it in an exam.`,
     `Respect safety, honesty, and other people when you practise ${name}.`,
     'If two ideas look similar, compare them: say what is the same and what is different.',
   ];
 }
 
-function mathWorkingBlock({ page, topic, grade, loc, variant }) {
+function mathWorkingBlock({ page, topic, grade, variant }) {
   const blob = `${page.title} ${topic.topicName}`.toLowerCase();
-  const lines = [`Worked situation at ${loc}:`];
+  const lines = [`Worked example on ${topic.topicName}:`];
 
   if (/perimeter|rectangle/.test(blob)) {
     const L = 6 + (variant % 7);
@@ -252,14 +235,14 @@ function mathWorkingBlock({ page, topic, grade, loc, variant }) {
   return lines.join('\n');
 }
 
-function scienceWorkingBlock({ page, topic, loc, facts, variant }) {
+function scienceWorkingBlock({ page, topic, facts, variant }) {
   const blob = `${page.title} ${topic.topicName}`.toLowerCase();
   if (/pressure|force/.test(blob)) {
     const F = 100 + (variant % 5) * 40;
     const A = [0.2, 0.25, 0.5, 0.4][variant % 4];
     const P = F / A;
     return [
-      `Worked situation at ${loc}: calculate pressure.`,
+      `Worked example on ${topic.topicName}: calculate pressure.`,
       '',
       formatWorking({
         formula: 'P = F / A',
@@ -274,7 +257,7 @@ function scienceWorkingBlock({ page, topic, loc, facts, variant }) {
     const eye = [5, 10, 15][variant % 3];
     const obj = [4, 10, 40][variant % 3];
     return [
-      `Worked situation at ${loc}: microscope lenses.`,
+      `Worked example on ${topic.topicName}: microscope lenses.`,
       '',
       formatWorking({
         formula: 'Total magnification = eyepiece × objective',
@@ -287,26 +270,26 @@ function scienceWorkingBlock({ page, topic, loc, facts, variant }) {
   }
   const fact = facts[0] ? toUnicodeFormula(facts[0]) : page.scope;
   return [
-    `Worked situation at ${loc}: a learner investigates ${page.title.toLowerCase()} within ${topic.topicName}.`,
+    `Worked example on ${page.title} within ${topic.topicName}.`,
     `Step 1 — Define: ${fact}`,
-    `Step 2 — Observe: name one object or process at ${loc} that matches the definition.`,
+    `Step 2 — Observe: name one object or process from this subtopic that matches the definition.`,
     'Step 3 — Decide: state whether a common wrong idea fits (usually it does not) and why.',
     'Step 4 — Conclude: write one accurate sentence a teacher can tick, using correct science words.',
   ].join('\n');
 }
 
-function workedExample({ page, topic, subject, grade, loc, facts, variant, pageNumber }) {
+function workedExample({ page, topic, subject, grade, facts, variant, pageNumber }) {
   let body;
   if (isMath(subject)) {
-    body = mathWorkingBlock({ page, topic, grade, loc, variant });
+    body = mathWorkingBlock({ page, topic, grade, variant });
   } else if (isScience(subject)) {
-    body = scienceWorkingBlock({ page, topic, loc, facts, variant });
+    body = scienceWorkingBlock({ page, topic, facts, variant });
   } else {
     const fact = facts[0] ? toUnicodeFormula(facts[0]) : page.scope;
     body = [
-      `Worked situation at ${loc}: a learner investigates ${page.title.toLowerCase()} within ${topic.topicName}.`,
+      `Worked example on ${page.title} within ${topic.topicName}.`,
       `First, state the idea clearly: ${fact}`,
-      `Next, apply it to one object or action at ${loc} and name what changes or what stays the same.`,
+      `Next, apply it to one clear example from this subtopic and name what changes or what stays the same.`,
       `Finally, write one accurate conclusion sentence a teacher could tick — using the correct subject words for ${subject}.`,
     ].join('\n');
   }
@@ -365,7 +348,7 @@ function assemblePage(title, content) {
 }
 
 export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, ledger }) {
-  const loc = nextLocal(ledger);
+  const focus = topicFocus(page, topic);
   const subject = topic.subject || map.subject || 'CBC';
   const grade = topic.grade || '';
   const paras = topic.paragraphs || [];
@@ -373,15 +356,15 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
   const facts = pickFacts(paras, page.keywords, 8, usedStarts);
   ledger.factStarts = [...usedStarts, ...facts.map((f) => f.slice(0, 56))];
 
-  const variant = hash(page.title + String(pageNumber)) + (ledger.locals?.length || 0);
+  const variant = hash(page.title + String(pageNumber)) + pageNumber;
   const intro = buildIntro(page, facts, pageNumber, ledger);
-  if (matchesBannedIntro(intro)) {
-    throw new Error(`Banned intro leaked on ${topic.subject} / ${page.title}`);
+  if (matchesBannedIntro(intro) || hasLocationFiller(intro)) {
+    throw new Error(`Banned/location intro leaked on ${topic.subject} / ${page.title}`);
   }
 
   const notes = isMath(subject)
     ? mathNotes(page, topic, variant)
-    : subjectNotes({ page, topic, subject, facts, loc });
+    : subjectNotes({ page, topic, subject, facts });
 
   const ideaLabel = String(page.title || '')
     .replace(/^what is\s+/i, '')
@@ -391,7 +374,7 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
 
   const goals = [
     `Say what ${ideaLabel} means in plain words.`,
-    `Give one Kenyan example linked to ${topic.topicName}.`,
+    `Give one clear example linked to ${topic.topicName}.`,
     `Correct one common mistake about this page.`,
   ];
 
@@ -400,27 +383,26 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
     topic,
     subject,
     grade,
-    loc,
     facts,
     variant,
     pageNumber,
   });
-  const everyday = `At ${loc}, practise ${ideaLabel} during ordinary routines at home or school. Ask: what did I observe, which word or formula fits, and how do I check I am right? Use the diagram or working on this page as your model. Safety and respect come first.`;
+  const everyday = `Practise ${topic.topicName}: focus on ${ideaLabel}. Ask which key word or formula fits, then check your answer against the worked example and diagram on this page. Careful checking comes first.`;
   const summary = notes.slice(0, 4).map((n) => (n.length > 150 ? `${n.slice(0, 147)}...` : n));
   while (summary.length < 3) summary.push(`${ideaLabel} matters for accurate ${subject} learning.`);
 
   const questions = [
-    `Define ${ideaLabel} in your own words and give one clear example.`,
+    `Define ${ideaLabel} in your own words and give one clear example from ${topic.topicName}.`,
     isMath(subject) || isScience(subject)
-      ? `Show full working (or labeled steps) for a problem on this page set at ${loc}.`
-      : `Describe a situation at ${loc} that shows ${topic.topicName}, using ideas from this page.`,
+      ? `Show full working (or labeled steps) for a problem on this page about ${topic.topicName}.`
+      : `Describe a clear example that shows ${topic.topicName}, using ideas from this page.`,
     `A learner makes a mistake about ${ideaLabel}. State the wrong idea, correct it, and justify your correction.`,
   ];
   const answers = [
-    `${toUnicodeFormula(notes[0] || page.scope)} Example: connect it to something real at home, school, market, or ${loc}.`,
+    `${toUnicodeFormula(notes[0] || page.scope)} Example: connect it to a concrete case from ${topic.topicName}.`,
     isMath(subject) || isScience(subject)
       ? 'Award marks for: correct formula/relationship, substitution, steps, and final answer with units (or labeled science steps).'
-      : `At ${loc}, observe carefully, name the correct idea from ${topic.topicName}, and explain with one subject fact from the main notes.`,
+      : `Observe carefully, name the correct idea from ${topic.topicName}, and explain with one subject fact from the main notes.`,
     `Wrong idea: mixing ${ideaLabel} with a neighbouring concept or skipping the method. Correct idea: ${toUnicodeFormula(outcomeToGoal(page.scope || page.title))}. Justification: follow the worked example (and diagram if shown) on this page.`,
   ];
 
@@ -438,7 +420,7 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
   return {
     body,
     ledger,
-    meta: { pageNumber, totalPages, local: loc },
+    meta: { pageNumber, totalPages, focus },
   };
 }
 

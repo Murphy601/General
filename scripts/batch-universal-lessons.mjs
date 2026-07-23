@@ -24,7 +24,7 @@ import { writeDrama } from './study-drama/drama.mjs';
 import { writeUniversalDrama } from './study-drama/universal-drama.mjs';
 import { displayNormalize } from './study-drama/house-style.mjs';
 import { runQA } from './study-drama/qa.mjs';
-import { CONFIG, matchesBannedIntro } from './study-drama/config.mjs';
+import { CONFIG, matchesBannedIntro, hasLocationFiller } from './study-drama/config.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -134,8 +134,9 @@ function lightQAPass(studyPages, drama) {
     if (/^#{1,3}\s|\*\*[^*]+\*\*/m.test(p.body)) return false;
     const m = p.body.match(/INTRODUCTION\n----\n([\s\S]*?)(\n\n[A-Z]|\nMAIN NOTES)/i);
     const intro = (m?.[1] || '').trim();
-    if (intro.length < 40 || matchesBannedIntro(intro)) return false;
-    const fp = intro.slice(0, 72).toLowerCase();
+    if (intro.length < 40 || matchesBannedIntro(intro) || hasLocationFiller(intro)) return false;
+    if (hasLocationFiller(p.body) && /IN EVERYDAY LIFE\n----\nAt /i.test(p.body)) return false;
+    const fp = intro.slice(0, 96).toLowerCase();
     if (introFPS.includes(fp)) return false;
     introFPS.push(fp);
   }
