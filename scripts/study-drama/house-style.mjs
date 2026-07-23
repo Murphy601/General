@@ -109,6 +109,8 @@ export function cleanNoise(s) {
     .replace(/\s+/g, ' ')
     .replace(/\bcompunds\b/gi, 'compounds')
     .replace(/\bflouride\b/gi, 'fluoride')
+    .replace(/\bare can be\b/gi, 'can be')
+    .replace(/\bA compound is pure substance\b/gi, 'A compound is a pure substance')
     .trim();
 }
 
