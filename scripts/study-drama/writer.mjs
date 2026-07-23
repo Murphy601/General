@@ -8,24 +8,6 @@ import { pressureWorking, magnificationWorking } from './math-working.mjs';
 import { pressureForceAreaSvg, fireTriangleSvg, statesParticlePrompt } from './diagram.mjs';
 import { CONFIG } from './config.mjs';
 
-const LOCALS = [
-  'a hardware shop in Nakuru',
-  'a kitchen in Kisumu',
-  'Lake Magadi salt works',
-  'Marikiti market in Nairobi',
-  'a shamba in Nyeri',
-  'a school lab in Machakos',
-  'a matatu stage near Nyamakima',
-  'a boarding school dining hall in Eldoret',
-  'a charcoal jiko in Kibera',
-  'a clinic waiting bench in Thika',
-  'a fish landing at Lake Victoria',
-  'a tea farm in Kericho',
-  'a duka in Mombasa',
-  'a roof water tank in Kitale',
-  'a solar lantern home in Turkana',
-];
-
 const ENGLISH_SYMBOLS = [
   ['Hydrogen', 'H'],
   ['Helium', 'He'],
@@ -69,7 +51,7 @@ const HANDCRAFTED = {
       'Elements are the building blocks of matter. They can exist on their own, or join with other elements to form compounds. Table salt, NaCl, is not an element — it is a compound made from the elements sodium (Na) and chlorine (Cl).',
     ],
     worked: `A learner in Nakuru buys a jembe. The blade is made mainly of iron. Is iron an element? Iron cannot be split into anything simpler than iron atoms, so YES — iron (Fe) is an element. Now the same learner points at the rust forming on an old blade left in the rain. Is rust an element? No. Rust forms when iron joins with oxygen from the air. Because it now contains two different elements joined together, rust is a compound, not an element.`,
-    everyday: `The aluminium (Al) in a cooking sufuria and the copper (Cu) in phone-charger wires are both elements you handle at home near ${loc}. Safety tip: never heat an unknown metal or chemical in the kitchen to "test" it — some give off harmful fumes; only do heating tests under a teacher's guidance in the lab.`,
+    everyday: `The aluminium (Al) in a cooking sufuria and the copper (Cu) in phone-charger wires are both elements you handle in daily life. Safety tip: never heat an unknown metal or chemical in the kitchen to "test" it — some give off harmful fumes; only do heating tests under a teacher's guidance in the lab.`,
     summary: [
       'An element cannot be broken into anything simpler.',
       'It is made of only one kind of atom.',
@@ -124,20 +106,12 @@ function pickFacts(paragraphs, keywords, limit, usedStarts) {
   return out;
 }
 
-function nextLocal(ledger) {
-  const used = ledger.locals || [];
-  const pool = LOCALS.filter((x) => !used.includes(x));
-  const choice = pool[0] || LOCALS[used.length % LOCALS.length];
-  ledger.locals = [...used, choice];
-  return choice;
-}
-
 function goalsFor(page) {
   // Plain student goals — never "The learner should be able to…"
   const t = page.title.toLowerCase();
   return [
     `Say what ${t} means in plain words.`,
-    `Use one real Kenyan example to show ${t}.`,
+    `Use one clear example from this subtopic to show ${t}.`,
     `Correct one common mistake about ${t}.`,
   ];
 }
@@ -264,11 +238,11 @@ function mainNotesFor(topicNumber, page, facts) {
 function workedFor(topicNumber, page, loc, facts) {
   const t = page.title;
   if (t === 'Rules for Writing Chemical Symbols') {
-    return `At ${loc}, a learner labels a cobalt sample as CO on a chart. The teacher crosses it out. CO (both capitals) stands for carbon monoxide, a compound of carbon and oxygen. Cobalt the element must be written Co — capital C, small o. The same learner then writes calcium as CA. That is also wrong; calcium is Ca. Rule used: first letter capital, second letter small.`;
+    return `A learner labels a cobalt sample as CO on a chart. The teacher crosses it out. CO (both capitals) stands for carbon monoxide, a compound of carbon and oxygen. Cobalt the element must be written Co — capital C, small o. The same learner then writes calcium as CA. That is also wrong; calcium is Ca. Rule used: first letter capital, second letter small.`;
   }
   if (t === 'Formula P Equals F Over A') {
     return [
-      `A delivery helper near ${loc} pushes a cart.`,
+      `A delivery helper pushes a cart.`,
       '',
       pressureWorking({
         F: 200,
@@ -292,7 +266,7 @@ function workedFor(topicNumber, page, loc, facts) {
   }
   if (t === 'The Fire Triangle') {
     return [
-      `At a market stall near ${loc}, cooking oil on a cloth catches fire.`,
+      `At a market stall, cooking oil on a cloth catches fire.`,
       'First identify the three parts present: fuel (oil/cloth), heat (flame), oxygen (air).',
       'Because all three are present, the fire continues.',
       'Owino reaches for water — wrong for an oil fire, because water can spread the burning fuel.',
@@ -309,13 +283,13 @@ function workedFor(topicNumber, page, loc, facts) {
     ].join('\n');
   }
   if (t === 'Water as a Compound') {
-    return `A family boils water for chai at ${loc}. The liquid turns to steam, but steam is still water — formula H₂O — so boiling is a physical change of state. Water is a compound because hydrogen and oxygen are chemically joined in a fixed 2:1 ratio. You cannot sieve hydrogen out of water the way you sieve sand from flour.`;
+    return `A family boils water for chai. The liquid turns to steam, but steam is still water — formula H₂O — so boiling is a physical change of state. Water is a compound because hydrogen and oxygen are chemically joined in a fixed 2:1 ratio. You cannot sieve hydrogen out of water the way you sieve sand from flour.`;
   }
   if (t === 'Common Salt as a Compound') {
     return `Salt crystals linked to Lake Magadi are sodium chloride, NaCl. Sodium (Na) alone is a reactive metal; chlorine (Cl) alone is a poisonous gas. Joined as NaCl they form the safe kitchen compound we use for cooking and preservation. That proves a compound has properties different from its elements.`;
   }
   if (t === 'Solutes Solvents and Solutions') {
-    return `Tonny stirs three spoons of sugar into a glass of water at ${loc}. First name the parts: sugar is the solute, water is the solvent. Because the sugar disappears into the water, the sweet liquid is a solution. Next he makes a second glass with only half a spoon of sugar — that one is more dilute. Same solute and solvent; different amounts change the concentration.`;
+    return `Tonny stirs three spoons of sugar into a glass of water. First name the parts: sugar is the solute, water is the solvent. Because the sugar disappears into the water, the sweet liquid is a solution. Next he makes a second glass with only half a spoon of sugar — that one is more dilute. Same solute and solvent; different amounts change the concentration.`;
   }
   return workedNarrative(topicNumber, page, loc, facts);
 }
@@ -323,7 +297,7 @@ function workedFor(topicNumber, page, loc, facts) {
 function workedNarrative(topicNumber, page, loc, facts) {
   const fact = facts[0] ? toUnicodeFormula(facts[0]) : null;
   return [
-    `Worked situation (${loc}): a learner investigates ${page.title.toLowerCase()}.`,
+    `Worked situation on ${page.title}: a learner investigates this subtopic carefully.`,
     fact ? `First observation: ${fact}` : `First, state the meaning: ${page.scope}.`,
     'Because of that observation, the learner names the correct scientific idea and rejects a near-miss confusion.',
     'So the conclusion is written in one accurate sentence that matches the main notes — with the correct symbol or formula if one applies (H₂O, NaCl, Fe, P = F / A).',
@@ -338,7 +312,7 @@ function everydayFor(page, loc) {
     'Practical tip: compare two cases (right vs wrong) so the idea sticks for exams.',
   ];
   const tip = tips[Math.abs(page.title.length) % tips.length];
-  return `At ${loc}, ${page.title.toLowerCase()} shows up when you handle real materials or processes linked to this idea. ${tip}`;
+  return `Practise ${page.title.toLowerCase()}: focus on the key definition and one clear example from this subtopic. Ask which scientific word or formula fits, then check against the worked example. ${tip}`;
 }
 
 function summaryFor(page, notes) {
@@ -360,11 +334,11 @@ function questionsAndAnswers(topicNumber, page, loc, notes) {
     page.scope;
 
   const q1 = `Define ${title.toLowerCase()} in your own words and give one clear example.`;
-  const q2 = `Describe a situation at ${loc} that shows ${title.toLowerCase()}, and explain the science involved.`;
+  const q2 = `Describe a clear example from this subtopic that shows ${title.toLowerCase()}, and explain the science involved.`;
   const q3 = `A learner makes a mistake about ${title.toLowerCase()}. State a likely wrong idea, correct it, and justify your correction with facts from this page.`;
 
-  const a1 = `${toUnicodeFormula(def)} For example, link it to a real object or event at home, school, market or shamba that fits this page.`;
-  const a2 = `At ${loc}, you would observe something that matches ${title.toLowerCase()}. Name the observation, then explain it using the definition above${/P =|magnification|H₂O|NaCl/i.test(notes.join(' ')) ? ', including the correct formula or symbol' : ''}. End by stating why the correct idea matters for accuracy or safety.`;
+  const a1 = `${toUnicodeFormula(def)} For example, link it to a real object or process that fits this page.`;
+  const a2 = `Name one observation that matches ${title.toLowerCase()}. Explain it using the definition above${/P =|magnification|H₂O|NaCl/i.test(notes.join(' ')) ? ', including the correct formula or symbol' : ''}. End by stating why the correct idea matters for accuracy or safety.`;
   const a3 = `Wrong idea: confusing ${title.toLowerCase()} with a neighbouring concept or ignoring a key rule. Correct idea: ${toUnicodeFormula(String(page.scope))}. Justification: the worked example on this page shows the right reasoning with real objects or numbers.`;
 
   return {
@@ -409,7 +383,7 @@ function assemblePage(title, content) {
  * Orchestrator passes page title + used-examples ledger; writer prints only the page.
  */
 export function writePage({ topic, map, page, pageNumber, totalPages, ledger }) {
-  const loc = nextLocal(ledger);
+  const loc = String(topic.topicName || page.title || 'this topic').slice(0, 80);
   const key = `${topic.topicNumber}:${page.title}`;
   const usedStarts = ledger.factStarts || [];
   // SOURCE_MODE: BOTH uses notes paragraphs; DESIGN_ONLY would rely on page map scope only
