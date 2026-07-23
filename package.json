@@ -49,6 +49,7 @@
     "content:universal-exams:grade": "node scripts/batch-universal-exams.mjs --grade",
     "content:universal-lessons": "node scripts/batch-universal-lessons.mjs",
     "content:universal-lessons:grade": "node scripts/batch-universal-lessons.mjs --grade",
+    "content:patch-quizzes": "node scripts/patch-universal-quizzes.mjs",
     "textbooks:download": "node scripts/download-textbooks.mjs",
     "textbooks:extract": "node scripts/extract-textbook-text.mjs",
     "textbooks:prepare": "node scripts/download-textbooks.mjs && node scripts/extract-textbook-text.mjs",

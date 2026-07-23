@@ -94,7 +94,7 @@ function indexEntry(content) {
     pages: {
       lesson: (content.pages?.lesson || '').slice(0, 240) + '…',
       quiz: (content.pages?.quiz || '').slice(0, 200) + '…',
-      answers: '',
+      answers: (content.pages?.answers || '').slice(0, 200) + (content.pages?.answers ? '…' : ''),
       studyPages: (content.pages?.studyPages || []).map((p) => ({
         pageNumber: p.pageNumber,
         title: p.title,
@@ -325,11 +325,9 @@ for (let ji = 0; ji < jobs.length; ji++) {
 
   const quizPack = useHandWriter
     ? buildQuizFromPages(topic, studyPages)
-    : null;
-  const quiz = useHandWriter
-    ? quizPack.quiz
     : buildQuizFromUniversalPages(studyPages, topic);
-  const answers = useHandWriter ? quizPack.answers : '';
+  const quiz = quizPack.quiz;
+  const answers = quizPack.answers || '';
 
   const lessonId = randomUUID();
   const videoId = randomUUID();

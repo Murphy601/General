@@ -391,20 +391,14 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
   const summary = notes.slice(0, 4).map((n) => (n.length > 150 ? `${n.slice(0, 147)}...` : n));
   while (summary.length < 3) summary.push(`${ideaLabel} matters for accurate ${subject} learning.`);
 
-  const questions = [
-    `Define ${ideaLabel} in your own words and give one clear example from ${topic.topicName}.`,
-    isMath(subject) || isScience(subject)
-      ? `Show full working (or labeled steps) for a problem on this page about ${topic.topicName}.`
-      : `Describe a clear example that shows ${topic.topicName}, using ideas from this page.`,
-    `A learner makes a mistake about ${ideaLabel}. State the wrong idea, correct it, and justify your correction.`,
-  ];
-  const answers = [
-    `${toUnicodeFormula(notes[0] || page.scope)} Example: connect it to a concrete case from ${topic.topicName}.`,
-    isMath(subject) || isScience(subject)
-      ? 'Award marks for: correct formula/relationship, substitution, steps, and final answer with units (or labeled science steps).'
-      : `Observe carefully, name the correct idea from ${topic.topicName}, and explain with one subject fact from the main notes.`,
-    `Wrong idea: mixing ${ideaLabel} with a neighbouring concept or skipping the method. Correct idea: ${toUnicodeFormula(outcomeToGoal(page.scope || page.title))}. Justification: follow the worked example (and diagram if shown) on this page.`,
-  ];
+  const { questions, answers } = buildPageRevisionQA({
+    ideaLabel,
+    topicName: topic.topicName,
+    subject,
+    notes,
+    scope: page.scope || page.title,
+    variant: pageNumber + variant,
+  });
 
   const body = assemblePage(page.title, {
     goals,
@@ -424,21 +418,153 @@ export function writeUniversalPage({ topic, map, page, pageNumber, totalPages, l
   };
 }
 
+function shortIdea(title) {
+  return String(title || 'this idea')
+    .replace(/^understanding\s+/i, '')
+    .replace(/^key words you must know:\s*/i, '')
+    .replace(/^how it works step by step:\s*/i, '')
+    .replace(/^look closely — examples:\s*/i, '')
+    .replace(/^try it yourself:\s*/i, '')
+    .replace(/^try it with local materials:\s*/i, '')
+    .replace(/^common mistakes(?: to avoid)?(?:\s*[—–-]\s*.+)?$/i, 'common mistakes on this topic')
+    .replace(/^compare and contrast(?:\s*[—–-]\s*.+)?$/i, 'how two close ideas differ')
+    .replace(/^safety and respect(?:\s*[—–-]\s*.+)?$/i, 'safe, careful practice of this topic')
+    .replace(/^practice with numbers or facts(?:\s*[—–-]\s*.+)?$/i, 'practising with numbers or facts')
+    .replace(/^tell it in your own words(?:\s*[—–-]\s*.+)?$/i, 'explaining the idea in your own words')
+    .replace(/^home and school(?:\s*[—–-]\s*.+)?$/i, 'using the idea at home and school')
+    .replace(/^community and kenya(?:\s*[—–-]\s*.+)?$/i, 'using the idea in the community')
+    .replace(/^worked problem(?:\s*[—–-]\s*.+)?$/i, 'a worked problem on this topic')
+    .replace(/^check your understanding(?:\s*[—–-]\s*.+)?$/i, 'checking understanding')
+    .replace(/^harder challenge(?:\s*[—–-]\s*.+)?$/i, 'a harder challenge on this topic')
+    .replace(/^values and attitudes(?:\s*[—–-]\s*.+)?$/i, 'values linked to this topic')
+    .replace(/^exam-style practice(?:\s*[—–-]\s*.+)?$/i, 'exam-style practice')
+    .replace(/^revision sprint(?:\s*[—–-]\s*.+)?$/i, 'a quick revision sprint')
+    .replace(/^fix the wrong idea(?:\s*[—–-]\s*.+)?$/i, 'fixing a wrong idea')
+    .replace(/^topic synthesis(?:\s*[—–-]\s*.+)?$/i, 'pulling the whole topic together')
+    .replace(/^common mistakes:\s*/i, '')
+    .replace(/\u2026/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 90)
+    .toLowerCase() || 'this idea';
+}
+
+function isMetaPhaseTitle(title) {
+  return /^(common mistakes|compare and contrast|safety and respect|practice with|tell it|home and school|community and|worked problem|check your|harder challenge|values and|exam-style|revision sprint|fix the wrong|topic synthesis)/i.test(
+    String(title || '').trim(),
+  );
+}
+
+function extractSection(body, name) {
+  const re = new RegExp(`${name}\\n----\\n([\\s\\S]*?)(?=\\n\\n[A-Z][A-Z ]+\\n----|$)`, 'i');
+  return (String(body || '').match(re) || [])[1] || '';
+}
+
+function extractBullets(section) {
+  return String(section || '')
+    .split('\n')
+    .map((l) => l.replace(/^•\s*/, '').trim())
+    .filter((l) => l.length > 12);
+}
+
+/** Engaging page-level revision Q&A (not plain “Define…”) */
+export function buildPageRevisionQA({ ideaLabel, topicName, subject, notes, scope, variant = 0 }) {
+  const idea = shortIdea(ideaLabel);
+  const topic = String(topicName || 'this topic').trim();
+  const fact = toUnicodeFormula(notes?.[0] || scope || idea);
+  const fact2 = toUnicodeFormula(notes?.[1] || notes?.[0] || scope || idea);
+  const goal = toUnicodeFormula(outcomeToGoal(scope || idea));
+  const v = Math.abs(Number(variant) || 0);
+  const allowCalc = (isMath(subject) || isScience(subject)) && !isMetaPhaseTitle(ideaLabel);
+  const stemSets = [
+    [
+      `TRAP: A classmate says “${idea} is basically the same as any nearby idea in ${topic}.” What is wrong with that claim, and what exact distinction should they learn?`,
+      allowCalc
+        ? `CHALLENGE: Set a short problem on ${idea} from ${topic}. Show full working (formula → substitute → steps → units/check). Then name one wrong path that loses marks.`
+        : `SCENE: You must prove you understand ${idea} using one real example from ${topic}. Describe the example, name the key idea, and explain why a near-miss example would fail.`,
+      `SPOT THE ERROR: A learner mixes up ${idea} with a neighbouring concept (or skips a key step). State their wrong idea, correct it, and justify using a fact from this page.`,
+    ],
+    [
+      `NEAR-MISS: Write two answers about ${idea} — one that earns full marks and one that looks clever but loses marks. Explain the difference in one sentence.`,
+      allowCalc
+        ? `FLIP: Change one condition in a ${idea} problem (value, unit, or assumption). What changes in the method or final answer? Show both versions briefly.`
+        : `COMPARE: How does ${idea} differ from the closest confusing idea in ${topic}? Give one test question that separates them.`,
+      `EXAM PRESSURE (4 marks): Answer on ${idea} using this mark scheme — (1) accurate meaning, (2) example from ${topic}, (3) method/reason, (4) check or caution.`,
+    ],
+    [
+      `WHY NOT: Someone uses the wrong word, formula, or method for ${idea}. State the wrong choice, the right choice, and one reason a teacher would reject the wrong one.`,
+      allowCalc
+        ? `MISSING STEP: A learner starts a ${idea} working correctly but skips the check. Complete the working and add the check that proves the answer.`
+        : `TEACH IT: Explain ${idea} to a younger learner in ${topic} using one analogy and one accurate subject sentence. Then warn them about one common mix-up.`,
+      `JUDGE: Which claim is safer for an exam on ${idea} — a vague slogan or a precise definition with an example? Defend your choice with a fact from this page.`,
+    ],
+  ];
+  const questions = stemSets[v % stemSets.length];
+  const answers = [
+    `Wrong claim: treating ${idea} as interchangeable with a neighbouring idea in ${topic}. Accurate distinction: ${goal}. Supporting fact: ${fact}`,
+    allowCalc
+      ? `Full marks need: correct relationship/formula for ${idea}, careful substitution, clear steps, and a final answer with units or a labeled check. Wrong path to avoid: jumping to an answer without the method, or mixing unlike ideas. Anchor fact: ${fact2}`
+      : `Strong answer: name ${idea} accurately, give one concrete example from ${topic}, and link it to this fact: ${fact}. A near-miss fails when the example matches a different idea.`,
+    `Wrong idea: confusing ${idea} with a neighbour or skipping the method. Correct idea: ${goal}. Justification: ${fact} — match the worked example on this page before you finalise.`,
+  ];
+  return { questions, answers };
+}
+
+/**
+ * Build Revision Quiz + Answers tab content from study pages.
+ * Returns { quiz, answers, questionCount } — never leave answers empty.
+ */
 export function buildQuizFromUniversalPages(studyPages, topic) {
-  const lines = [
-    titleBlock(`${topic.subject} — ${topic.topicName} · Quick Check`),
+  const subject = topic.subject || 'CBC';
+  const topicName = topic.topicName || 'this topic';
+  const quizLines = [
+    titleBlock(`${subject} — ${topicName} · Revision Quiz`),
     '',
-    'Answer in your exercise book. Show working or labeled steps where needed. Check with the page answers after you try.',
+    'Try each question in your exercise book first. Then open the Answers tab to mark yourself. Show working or labeled steps where needed.',
     '',
   ];
+  const answerLines = [
+    titleBlock(`${subject} — ${topicName} · Answers`),
+    '',
+    'Mark yourself honestly. Award method marks even if the final number or wording is slightly off — but only when the reasoning matches.',
+    '',
+  ];
+
+  const pages = (studyPages || []).slice(0, 10);
   let n = 1;
-  for (const p of studyPages.slice(0, 8)) {
-    const qs = (p.body.match(/^REVISION QUESTIONS\n----\n([\s\S]*?)\n\nANSWERS/m) || [])[1] || '';
-    const first = qs.split('\n').find((l) => /^1\./.test(l));
-    if (first) {
-      lines.push(`${n}. (From “${p.title}”) ${first.replace(/^1\.\s*/, '')}`);
-      n++;
-    }
+  for (let i = 0; i < pages.length; i++) {
+    const p = pages[i];
+    const notes = extractBullets(extractSection(p.body, 'MAIN NOTES'));
+    const scopeSec = extractSection(p.body, 'WHAT YOU WILL LEARN');
+    const scope = (scopeSec.match(/•\s*(.+)/) || [])[1] || p.title;
+    const pack = buildPageRevisionQA({
+      ideaLabel: p.title,
+      topicName,
+      subject,
+      notes: notes.length ? notes : [scope],
+      scope,
+      variant: i + n,
+    });
+    // Prefer the twisted stems (index varies) — one quiz item per page
+    const qi = i % pack.questions.length;
+    const q = pack.questions[qi];
+    const a = pack.answers[qi];
+    quizLines.push(`${n}. (${p.title}) ${q}`);
+    answerLines.push(`${n}. ${a}`);
+    n++;
   }
-  return lines.join('\n');
+
+  // Topic synthesis closer — always last
+  quizLines.push(
+    `${n}. SYNTHESIS: Across ${topicName}, name the one idea a learner most often confuses, state the accurate version, and give one quick check that proves they finally understand it.`,
+  );
+  answerLines.push(
+    `${n}. Strong synthesis: pick the most common mix-up in ${topicName}, replace it with the accurate definition from the study pages, and prove it with a short example, formula check, or “wrong vs right” contrast from the notes.`,
+  );
+
+  return {
+    quiz: quizLines.join('\n'),
+    answers: answerLines.join('\n'),
+    questionCount: n,
+  };
 }

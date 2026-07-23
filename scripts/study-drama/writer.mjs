@@ -333,12 +333,12 @@ function questionsAndAnswers(topicNumber, page, loc, notes) {
     notes[0] ||
     page.scope;
 
-  const q1 = `Define ${title.toLowerCase()} in your own words and give one clear example.`;
-  const q2 = `For “${title}”: describe one clear example that shows this idea, and explain the science involved.`;
-  const q3 = `About ${title.toLowerCase()}: a learner makes a mistake. State a likely wrong idea, correct it, and justify your correction with facts from this page.`;
+  const q1 = `TRAP: A classmate treats “${title}” as interchangeable with a nearby science idea. What is wrong, and what exact distinction should they learn?`;
+  const q2 = `CHALLENGE for “${title}”: give one clear example that shows this idea, explain the science, and name one near-miss example that would fail.`;
+  const q3 = `SPOT THE ERROR about ${title.toLowerCase()}: state a likely wrong idea, correct it, and justify your correction with facts from this page.`;
 
-  const a1 = `${toUnicodeFormula(def)} For example, link it to a real object or process that fits this page.`;
-  const a2 = `For “${title}”, name one observation that matches the idea. Explain it using the definition above${/P =|magnification|H₂O|NaCl/i.test(notes.join(' ')) ? ', including the correct formula or symbol' : ''}. End by stating why the correct idea matters for accuracy or safety.`;
+  const a1 = `Wrong claim: treating ${title.toLowerCase()} as the same as a neighbouring idea. Accurate line: ${toUnicodeFormula(def)}. Link it to one concrete object or process from this page.`;
+  const a2 = `For “${title}”, name a matching observation, explain with the definition above${/P =|magnification|H₂O|NaCl/i.test(notes.join(' ')) ? ', including the correct formula or symbol' : ''}, and reject one near-miss. End with why accuracy or safety matters.`;
   const a3 = `Wrong idea: confusing ${title.toLowerCase()} with a neighbouring concept or ignoring a key rule. Correct idea: ${toUnicodeFormula(String(page.scope))}. Justification: the worked example on this page shows the right reasoning with real objects or numbers.`;
 
   return {
@@ -426,19 +426,39 @@ export function writePage({ topic, map, page, pageNumber, totalPages, ledger }) 
 export function buildQuizFromPages(topic, pages) {
   const qs = [];
   const as = [];
-  pages.slice(0, 8).forEach((p, i) => {
+  const subject = topic.subject || 'INTEGRATED SCIENCE';
+  const topicName = topic.topicName || topic.topicNumber || 'Topic';
+  pages.slice(0, 10).forEach((p, i) => {
     const n = i + 1;
-    // Pull first revision question + first answer from page body if present
     const qm = p.body.match(/REVISION QUESTIONS\n----\n([\s\S]*?)\n\nANSWERS/i);
     const am = p.body.match(/ANSWERS\n----\n([\s\S]*)$/i);
-    const qline = qm ? qm[1].split('\n').find((l) => /^1\./.test(l)) : null;
-    const aline = am ? am[1].split('\n').find((l) => /^1\./.test(l)) : null;
-    qs.push(qline ? qline.replace(/^1\.\s*/, `${n}. `) : `${n}. Revise the main idea of ${p.title}.`);
-    as.push(aline ? aline.replace(/^1\.\s*/, `${n}. `) : `${n}. See the answers section for ${p.title}.`);
+    const qlines = qm ? qm[1].split('\n').filter((l) => /^\d+\./.test(l)) : [];
+    const alines = am ? am[1].split('\n').filter((l) => /^\d+\./.test(l)) : [];
+    // Prefer twisted stems (Q1 trap / Q3 spot-error) over plain define when available
+    const pick = i % 2 === 0 ? 0 : Math.min(2, qlines.length - 1);
+    const qline = qlines[pick] || qlines[0];
+    const aline = alines[pick] || alines[0];
+    qs.push(
+      qline
+        ? qline.replace(/^\d+\.\s*/, `${n}. (${p.title}) `)
+        : `${n}. (${p.title}) TRAP: Explain the accurate meaning of this page idea and reject one near-miss confusion.`,
+    );
+    as.push(
+      aline
+        ? aline.replace(/^\d+\.\s*/, `${n}. `)
+        : `${n}. Use the answers section on “${p.title}” — accurate definition, example, and correction of the common mistake.`,
+    );
   });
+  const synN = qs.length + 1;
+  qs.push(
+    `${synN}. SYNTHESIS: Across ${topicName}, name the idea learners confuse most, state the accurate version, and give one quick check that proves understanding.`,
+  );
+  as.push(
+    `${synN}. Pick the most common mix-up in ${topicName}, replace it with the accurate science from the study pages, and prove it with a short example or formula check.`,
+  );
   return {
-    quiz: [titleBlock('REVISION QUIZ'), '', ...qs].join('\n'),
-    answers: [titleBlock('ANSWERS'), '', ...as].join('\n'),
-    questionCount: qs.length,
+    quiz: [titleBlock(`${subject} — ${topicName} · Revision Quiz`), '', 'Try each question first, then mark with the Answers tab.', '', ...qs].join('\n'),
+    answers: [titleBlock(`${subject} — ${topicName} · Answers`), '', 'Mark method as well as final wording.', '', ...as].join('\n'),
+    questionCount: synN,
   };
 }
