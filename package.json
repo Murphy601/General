@@ -47,6 +47,8 @@
     "content:study-drama-exams": "node scripts/batch-study-drama-exams.mjs",
     "content:universal-exams": "node scripts/batch-universal-exams.mjs",
     "content:universal-exams:grade": "node scripts/batch-universal-exams.mjs --grade",
+    "content:universal-lessons": "node scripts/batch-universal-lessons.mjs",
+    "content:universal-lessons:grade": "node scripts/batch-universal-lessons.mjs --grade",
     "textbooks:download": "node scripts/download-textbooks.mjs",
     "textbooks:extract": "node scripts/extract-textbook-text.mjs",
     "textbooks:prepare": "node scripts/download-textbooks.mjs && node scripts/extract-textbook-text.mjs",

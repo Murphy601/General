@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * Universal Agent 5 batch — ≥20 real papers per subject × tier for Grade 7–12.
+ * Universal Agent 5 batch — ≥20 real papers per subject × tier for PP1–Grade 12.
  * Purges outcome-paste KICD junk (original-from-kicd-design) for those grades.
  *
  * Usage:
  *   node scripts/batch-universal-exams.mjs
- *   node scripts/batch-universal-exams.mjs --grade grade-7
- *   node scripts/batch-universal-exams.mjs --grade grade-7 --subject MATHEMATICS
+ *   node scripts/batch-universal-exams.mjs --grade grade-4
+ *   node scripts/batch-universal-exams.mjs --grade pp1
  *   node scripts/batch-universal-exams.mjs --purge-only
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync, unlinkSync } from 'node:fs';
@@ -22,7 +22,22 @@ const INDEX_FILE = join(CONTENT_DIR, 'index.json');
 const CURRICULUM = join(ROOT, 'knowledge-base', 'phase5', 'curriculum-index.json');
 const LEDGER_FILE = join(ROOT, 'knowledge-base', 'phase5', 'universal-exam-ledger.json');
 
-const TARGET_GRADES = ['grade-7', 'grade-8', 'grade-9', 'grade-10', 'grade-11', 'grade-12'];
+const TARGET_GRADES = [
+  'pp1',
+  'pp2',
+  'grade-1',
+  'grade-2',
+  'grade-3',
+  'grade-4',
+  'grade-5',
+  'grade-6',
+  'grade-7',
+  'grade-8',
+  'grade-9',
+  'grade-10',
+  'grade-11',
+  'grade-12',
+];
 const CATEGORIES = Object.keys(TIER);
 const PAPERS = CONFIG.PAPERS_PER_SUBJECT || 20;
 
@@ -43,10 +58,10 @@ function loadIndex() {
 }
 
 function gradeLabel(grade) {
-  return String(grade)
-    .replace(/^grade-/, 'Grade ')
-    .replace(/\b\w/g, (c) => c.toUpperCase())
-    .replace('Grade ', 'Grade ');
+  const g = String(grade || '');
+  if (/^pp1$/i.test(g)) return 'PP1';
+  if (/^pp2$/i.test(g)) return 'PP2';
+  return g.replace(/^grade-(\d+)$/i, (_, n) => `Grade ${n}`);
 }
 
 function isG8IntegratedScience(item) {

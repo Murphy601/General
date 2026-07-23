@@ -20,7 +20,22 @@ import { fileURLToPath } from 'node:url';
 import { formatGradeLabel, INDEX_PATH } from './curriculum-source.mjs';
 import { buildExamFromTopics, paperTypeForCategory } from './exam-from-kicd.mjs';
 
-const UNIVERSAL_GRADES = new Set(['grade-7', 'grade-8', 'grade-9', 'grade-10', 'grade-11', 'grade-12']);
+const UNIVERSAL_GRADES = new Set([
+  'pp1',
+  'pp2',
+  'grade-1',
+  'grade-2',
+  'grade-3',
+  'grade-4',
+  'grade-5',
+  'grade-6',
+  'grade-7',
+  'grade-8',
+  'grade-9',
+  'grade-10',
+  'grade-11',
+  'grade-12',
+]);
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CONTENT_DIR = join(__dirname, '..', 'web', 'data', 'content');
