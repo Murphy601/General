@@ -1,0 +1,468 @@
+{
+  "runMode": "PRODUCTION",
+  "startUrls": [
+    {
+      "url": "https://drive.google.com/file/d/1_1eSgUVbOPqcbnvjFWVU6CUZmbk3Acv9/preview",
+      "userData": {
+        "fileId": "1_1eSgUVbOPqcbnvjFWVU6CUZmbk3Acv9",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_4j9Az7D1qFJvX7Tg4mw3ilVzvknDe9b/preview",
+      "userData": {
+        "fileId": "1_4j9Az7D1qFJvX7Tg4mw3ilVzvknDe9b",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_8jQOgG3u7FAcYI29B_Twvc8yDaToEOd/preview",
+      "userData": {
+        "fileId": "1_8jQOgG3u7FAcYI29B_Twvc8yDaToEOd",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-five",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-five-5-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_c91X5n-c9eXPKbRd5jTBX7Ta-rQ73uW/preview",
+      "userData": {
+        "fileId": "1_c91X5n-c9eXPKbRd5jTBX7Ta-rQ73uW",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_HKWsDxTc60lFusFbbuN5IufZiqEapZN/preview",
+      "userData": {
+        "fileId": "1_HKWsDxTc60lFusFbbuN5IufZiqEapZN",
+        "title": null,
+        "grade": "grade-12",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-twelve/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_jfNUh_CaVkm__ypPUVFT1r2Z0Wh-bPB/preview",
+      "userData": {
+        "fileId": "1_jfNUh_CaVkm__ypPUVFT1r2Z0Wh-bPB",
+        "title": null,
+        "grade": "sne/physical-impairment/grade-four",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-four4-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_pMf2lumm9cVwHVyo84eyxumVQfifa-s/preview",
+      "userData": {
+        "fileId": "1_pMf2lumm9cVwHVyo84eyxumVQfifa-s",
+        "title": null,
+        "grade": "sne/physical-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_pRZqZQQ_XiSbJc5BFUNgKPjlo5XSu7X/preview",
+      "userData": {
+        "fileId": "1_pRZqZQQ_XiSbJc5BFUNgKPjlo5XSu7X",
+        "title": null,
+        "grade": "grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-ten/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1_QzsqQB8Mhm0JhXogIALTWakKDnXXqKV/preview",
+      "userData": {
+        "fileId": "1_QzsqQB8Mhm0JhXogIALTWakKDnXXqKV",
+        "title": null,
+        "grade": "grade-12",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-twelve/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1-A7ZS3zYp9rqGeuGwih0NhYjDyv7cFG6/preview",
+      "userData": {
+        "fileId": "1-A7ZS3zYp9rqGeuGwih0NhYjDyv7cFG6",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1-gGWH9dFpuhFn-Yn5P3uBQwRu9WmT1Tn/preview",
+      "userData": {
+        "fileId": "1-gGWH9dFpuhFn-Yn5P3uBQwRu9WmT1Tn",
+        "title": null,
+        "grade": "sne/physical-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1-qeiKBRqckfMFTZnQ8pMdX06KqKQU-N3/preview",
+      "userData": {
+        "fileId": "1-qeiKBRqckfMFTZnQ8pMdX06KqKQU-N3",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-four",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-four-4-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1-tOJ3oN0I0U0U3NxlnZlKJI0Phqk6frh/preview",
+      "userData": {
+        "fileId": "1-tOJ3oN0I0U0U3NxlnZlKJI0Phqk6frh",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1-TWlDcKyixt8op9MO6GEea28GL2l1DRE/preview",
+      "userData": {
+        "fileId": "1-TWlDcKyixt8op9MO6GEea28GL2l1DRE",
+        "title": null,
+        "grade": "grade-12",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-twelve/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/10-EFHm5J8wzO8h_zzEstrBKDMeOdrrGY/preview",
+      "userData": {
+        "fileId": "10-EFHm5J8wzO8h_zzEstrBKDMeOdrrGY",
+        "title": null,
+        "grade": "grade-11",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eleven/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/102vgjFBZCJerfqGlKiJ18at-UwpApbHx/preview",
+      "userData": {
+        "fileId": "102vgjFBZCJerfqGlKiJ18at-UwpApbHx",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-four",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-four-4-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/103ScaInPRm6XEpBd9j3IKeKsGSN9kpyl/preview",
+      "userData": {
+        "fileId": "103ScaInPRm6XEpBd9j3IKeKsGSN9kpyl",
+        "title": null,
+        "grade": "sne/vocational",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vocational-level-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/10bIy-iLRDzcei4lViGrdih5ZV_Ha1Qi7/preview",
+      "userData": {
+        "fileId": "10bIy-iLRDzcei4lViGrdih5ZV_Ha1Qi7",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/10HSZJ5YZlIbiixdSHW59SJADqe72SdOe/preview",
+      "userData": {
+        "fileId": "10HSZJ5YZlIbiixdSHW59SJADqe72SdOe",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-seven",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-seven7/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/10HXITblf3E9bwYFABlcbv_qA9ZGSSod1/preview",
+      "userData": {
+        "fileId": "10HXITblf3E9bwYFABlcbv_qA9ZGSSod1",
+        "title": null,
+        "grade": "grade-8",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eight-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/10Nir4B0MA8VbV9nZg99liydb0l8vAf5k/preview",
+      "userData": {
+        "fileId": "10Nir4B0MA8VbV9nZg99liydb0l8vAf5k",
+        "title": null,
+        "grade": "grade-11",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eleven/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/10q15SkjPhW8bTX4QSCQBmWnf-uIldgW1/preview",
+      "userData": {
+        "fileId": "10q15SkjPhW8bTX4QSCQBmWnf-uIldgW1",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/10RolK-hE8ylrhuNbq3fN6ZnPlgNM_VuB/preview",
+      "userData": {
+        "fileId": "10RolK-hE8ylrhuNbq3fN6ZnPlgNM_VuB",
+        "title": null,
+        "grade": "grade-5",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-five-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/1127wjpakieOcQk8MgJeIA98W4pVzZruq/preview",
+      "userData": {
+        "fileId": "1127wjpakieOcQk8MgJeIA98W4pVzZruq",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/118ISU4JVA329j2oApkf5HWDp6KNEhEnS/preview",
+      "userData": {
+        "fileId": "118ISU4JVA329j2oApkf5HWDp6KNEhEnS",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-8",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-8/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11DdWMqmo0TNawArGPc_3UdaWNFS9k09E/preview",
+      "userData": {
+        "fileId": "11DdWMqmo0TNawArGPc_3UdaWNFS9k09E",
+        "title": null,
+        "grade": "grade-11",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eleven/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11hQzVm8eXb4c-RRfhwEENnAbONwoPSL7/preview",
+      "userData": {
+        "fileId": "11hQzVm8eXb4c-RRfhwEENnAbONwoPSL7",
+        "title": null,
+        "grade": "grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-ten/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11IDLALDdW-HCLhYYN5MRe0rm9yuYPjGZ/preview",
+      "userData": {
+        "fileId": "11IDLALDdW-HCLhYYN5MRe0rm9yuYPjGZ",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-one",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-one-1-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11IpqIrMdTmPcoFRKhELKaUliB3IQw6oP/preview",
+      "userData": {
+        "fileId": "11IpqIrMdTmPcoFRKhELKaUliB3IQw6oP",
+        "title": null,
+        "grade": "grade-6",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-six-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11jjQPwiOIjKH8XmJ_4XBRjsDzAXXl_Rv/preview",
+      "userData": {
+        "fileId": "11jjQPwiOIjKH8XmJ_4XBRjsDzAXXl_Rv",
+        "title": null,
+        "grade": "sne/vocational",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vocational-level-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11kfIqNXVJI_UoJtbyr_-hQcVtrTctu-W/preview",
+      "userData": {
+        "fileId": "11kfIqNXVJI_UoJtbyr_-hQcVtrTctu-W",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-six",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-six-6-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11NmQMDdXeAysA762tvZuoupr9MncXixL/preview",
+      "userData": {
+        "fileId": "11NmQMDdXeAysA762tvZuoupr9MncXixL",
+        "title": null,
+        "grade": "sne/vocational",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vocational-level-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11r26YCR5uLPQ4h6x0_EAG9_KbYyfD3yX/preview",
+      "userData": {
+        "fileId": "11r26YCR5uLPQ4h6x0_EAG9_KbYyfD3yX",
+        "title": null,
+        "grade": "sne/physical-impairment/grade-8",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-8/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11s-Z6gm_hJRIdqeZ87wuv8KRbzP2hJ66/preview",
+      "userData": {
+        "fileId": "11s-Z6gm_hJRIdqeZ87wuv8KRbzP2hJ66",
+        "title": null,
+        "grade": "curriculum-designs",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/diploma-in-teacher-education/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11SXzWvYbLgI9Ig7I7GZPIUP8Km5b8vPj/preview",
+      "userData": {
+        "fileId": "11SXzWvYbLgI9Ig7I7GZPIUP8Km5b8vPj",
+        "title": null,
+        "grade": "sne/visual-impairment/pp2",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-pp2-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11uYA65Hu_h2mcnem-6eS1oqKuRDcffjM/preview",
+      "userData": {
+        "fileId": "11uYA65Hu_h2mcnem-6eS1oqKuRDcffjM",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/11xJ1H023MHADdQjwg2Mv17YsVs5hQg0R/preview",
+      "userData": {
+        "fileId": "11xJ1H023MHADdQjwg2Mv17YsVs5hQg0R",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/12BHurs1q8Odv1M1ES2qtNeHC7XG5tJMr/preview",
+      "userData": {
+        "fileId": "12BHurs1q8Odv1M1ES2qtNeHC7XG5tJMr",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/12E5lUfgjalNpY_YFZvSpBWjepoPmB2Oq/preview",
+      "userData": {
+        "fileId": "12E5lUfgjalNpY_YFZvSpBWjepoPmB2Oq",
+        "title": null,
+        "grade": "grade-11",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eleven/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/12frWRaYABu0A_LnOHIeBa9yacETfxgpk/preview",
+      "userData": {
+        "fileId": "12frWRaYABu0A_LnOHIeBa9yacETfxgpk",
+        "title": null,
+        "grade": "grade-11",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eleven/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/12hpbYdt4Titwltkwts_XaLqlZF5JYpUD/preview",
+      "userData": {
+        "fileId": "12hpbYdt4Titwltkwts_XaLqlZF5JYpUD",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-one",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-one-1-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/12KOvt5WY9acj1wMbNox_dGYIKLY1eg-G/preview",
+      "userData": {
+        "fileId": "12KOvt5WY9acj1wMbNox_dGYIKLY1eg-G",
+        "title": null,
+        "grade": "grade-5",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-five-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/12KYEu-bNJQfw_40KmM5AHTyax6bdn0Zk/preview",
+      "userData": {
+        "fileId": "12KYEu-bNJQfw_40KmM5AHTyax6bdn0Zk",
+        "title": null,
+        "grade": "sne/hearing-impairment/grade-two",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-two-2-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/12NjkxPyQ4zrQ9OqMlMsdV1fgydQ_fV6n/preview",
+      "userData": {
+        "fileId": "12NjkxPyQ4zrQ9OqMlMsdV1fgydQ_fV6n",
+        "title": null,
+        "grade": "sne/physical-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/12Vb6W1_Vzn9BEH2MsM2WmUwWL5OKoucK/preview",
+      "userData": {
+        "fileId": "12Vb6W1_Vzn9BEH2MsM2WmUwWL5OKoucK",
+        "title": null,
+        "grade": "grade-7",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-seven-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/131IL-58X4hfxxYP9_Ta3c-V9Dxuo0Qo3/preview",
+      "userData": {
+        "fileId": "131IL-58X4hfxxYP9_Ta3c-V9Dxuo0Qo3",
+        "title": null,
+        "grade": "grade-12",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-twelve/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/13bZ0bjxMGfk8AQHeOwlqNsWk8nS-_zah/preview",
+      "userData": {
+        "fileId": "13bZ0bjxMGfk8AQHeOwlqNsWk8nS-_zah",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-seven",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-seven7/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/13H9O7-8rI8P2W7jDe5EmEh_0Vhi7GquZ/preview",
+      "userData": {
+        "fileId": "13H9O7-8rI8P2W7jDe5EmEh_0Vhi7GquZ",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-10/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/13HLeogyBjazv1bSayfBU8i4p2QzVhA_p/preview",
+      "userData": {
+        "fileId": "13HLeogyBjazv1bSayfBU8i4p2QzVhA_p",
+        "title": null,
+        "grade": "sne/hearing-impairment/pp1",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-pp1-designs/"
+      }
+    },
+    {
+      "url": "https://drive.google.com/file/d/13Rffhvz3HLhQixWzHcPeVUhgr8Mr90jK/preview",
+      "userData": {
+        "fileId": "13Rffhvz3HLhQixWzHcPeVUhgr8Mr90jK",
+        "title": null,
+        "grade": "sne/visual-impairment/grade-10",
+        "sourceUrl": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-10/"
+      }
+    }
+  ],
+  "linkSelector": "",
+  "injectJQuery": false,
+  "maxCrawlDepth": 0,
+  "maxConcurrency": 2,
+  "pageLoadTimeoutSecs": 120,
+  "pageFunctionTimeoutSecs": 600,
+  "headless": true,
+  "useChrome": true,
+  "closeCookieModals": true,
+  "proxyConfiguration": {
+    "useApifyProxy": true
+  },
+  "pageFunction": "async function pageFunction(context) {\n  const { page, request, log } = context;\n  const { fileId, title, grade, sourceUrl } = request.userData || {};\n  const previewUrl = request.url;\n  const scrollConfig = { stepPx: 500, waitMs: 600, maxLoops: 250, settleMs: 2000 };\n  const maxFlips = 5;\n  const nextSelectors = [\n    '[aria-label=\"Next page\"]',\n    '[data-tooltip=\"Next page\"]',\n    'button[aria-label*=\"Next\"]',\n  ];\n\n  await page.setViewport({ width: 1400, height: 900 });\n\n  const viewerSelectors = [\n    '.ndfHFb-c4YZDc-cYSp0e-s2gQvd',\n    '.ndfHFb-c4YZDc-s2gQvd',\n    '.ndfHFb-c4SOm-wrapper',\n    '[role=\"document\"]',\n  ];\n\n  for (const selector of viewerSelectors) {\n    try {\n      await page.waitForSelector(selector, { timeout: 30000 });\n      break;\n    } catch (error) {\n      // try next selector\n    }\n  }\n\n  await page.waitForTimeout(5000);\n\n  const scrollAndAccumulate = async (config) => {\n    const selectors = [\n      '.ndfHFb-c4YZDc-cYSp0e-s2gQvd',\n      '.ndfHFb-c4YZDc-s2gQvd',\n      '.ndfHFb-c4SOm-wrapper',\n      '.drive-viewer-paginated-scrollable',\n    ];\n    const { stepPx = 500, waitMs = 600, maxLoops = 250, settleMs = 2000 } = config || {};\n\n    let container = null;\n    for (const selector of selectors) {\n      const el = document.querySelector(selector);\n      if (el && el.scrollHeight > el.clientHeight + 20) {\n        container = el;\n        break;\n      }\n    }\n    if (!container) {\n      container = [...document.querySelectorAll('motion-viewer, div')].find(\n        (el) => el.scrollHeight > el.clientHeight + 50,\n      ) || document.scrollingElement || document.documentElement;\n    }\n\n    let loops = 0;\n    let maxText = document.body.innerText.trim();\n    let lastTop = -1;\n\n    for (let i = 0; i < maxLoops; i += 1) {\n      loops = i + 1;\n      container.scrollTop += stepPx;\n      await new Promise((resolve) => setTimeout(resolve, waitMs));\n      const current = document.body.innerText.trim();\n      if (current.length > maxText.length) maxText = current;\n      const atBottom = container.scrollTop + container.clientHeight >= container.scrollHeight - 10;\n      if (atBottom && container.scrollTop === lastTop) break;\n      lastTop = container.scrollTop;\n    }\n\n    await new Promise((resolve) => setTimeout(resolve, settleMs));\n    const finalText = document.body.innerText.trim();\n    if (finalText.length > maxText.length) maxText = finalText;\n\n    const signInBlocked = /sign in/i.test(maxText) &&\n      !!document.querySelector('a[href*=\"accounts.google.com\"]');\n    const pageMatch = maxText.match(/Page\\s+(\\d+)\\s+of\\s+(\\d+)/i);\n\n    return {\n      scrollStats: { loops, scrollHeight: container.scrollHeight, maxBodyLen: maxText.length },\n      signInBlocked,\n      pages: [{\n        pageNumber: 1,\n        totalPages: pageMatch ? Number(pageMatch[2]) : null,\n        charCount: maxText.length,\n        text: maxText,\n        signInBlocked,\n      }],\n    };\n  };\n\n  const pages = [];\n  const seen = new Set();\n  let scrollStats = null;\n\n  for (let flip = 0; flip < maxFlips; flip += 1) {\n    const batch = await page.evaluate(scrollAndAccumulate, scrollConfig);\n    scrollStats = batch.scrollStats;\n    for (const p of batch.pages) {\n      const key = p.text.slice(0, 300);\n      if (!seen.has(key)) {\n        seen.add(key);\n        pages.push(p);\n      }\n    }\n\n    const advanced = await page.evaluate((selectors) => {\n      for (const selector of selectors) {\n        const btn = document.querySelector(selector);\n        if (btn && !btn.disabled && btn.getAttribute('aria-disabled') !== 'true') {\n          btn.click();\n          return true;\n        }\n      }\n      return false;\n    }, nextSelectors);\n\n    if (!advanced) break;\n    await page.waitForTimeout(2500);\n  }\n\n  const extractedText = pages.map((p) => p.text).filter(Boolean).join('\\n\\n');\n  const signInBlocked = pages.some((p) => p.signInBlocked);\n  const hasStrands = /strand\\s*\\d|sub[\\s-]?strand|suggested learning experiences|key inquiry question/i.test(extractedText);\n\n  let status = 'extracted';\n  if (signInBlocked && extractedText.length < 500) status = 'blocked-sign-in';\n  else if (!extractedText || extractedText.length < 80) status = 'empty';\n  else if (!hasStrands && extractedText.length < 8000) status = 'partial';\n  else if (extractedText.length < 300) status = 'partial';\n\n  log.info(`Drive ${fileId}: ${status}, ${extractedText.length} chars, strands=${hasStrands}`);\n\n  return {\n    fileId: fileId || previewUrl.match(/\\/d\\/([^/]+)/)?.[1],\n    previewUrl,\n    title: title || null,\n    grade: grade || null,\n    sourceUrl: sourceUrl || null,\n    status,\n    pageCount: pages.length,\n    charCount: extractedText.length,\n    hasStrandContent: hasStrands,\n    scrollStats,\n    extractedText: extractedText.slice(0, 500000),\n    pages: pages.map(({ pageNumber, totalPages, charCount, text }) => ({\n      pageNumber,\n      totalPages,\n      charCount,\n      text: text.slice(0, 100000),\n    })),\n  };\n}\n"
+}

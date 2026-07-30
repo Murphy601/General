@@ -1,0 +1,1345 @@
+{
+  "generatedAt": "2026-07-20T02:32:04.435Z",
+  "total": 136,
+  "downloaded": 124,
+  "skipped": 12,
+  "failed": 0,
+  "results": [
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "kind": "pdf",
+      "bytes": 9456499,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/DAWIDA_LEARNERS_%20GRADE%201%20Edited.pdf",
+      "title": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/LB_ POKOMO GRADE 1.pdf",
+      "kind": "pdf",
+      "bytes": 9227427,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LB_%20POKOMO%20GRADE%201.pdf",
+      "title": "LB_ POKOMO GRADE 1.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/NG_ATURKANA LB GRADE 1.pdf",
+      "kind": "pdf",
+      "bytes": 9620714,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/NG_ATURKANA%20LB%20GRADE%201.pdf",
+      "title": "NG_ATURKANA LB GRADE 1.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/POKOT_LEARNER_ GRADE 1.pdf",
+      "kind": "pdf",
+      "bytes": 9441536,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/POKOT_LEARNER_%20GRADE%201.pdf",
+      "title": "POKOT_LEARNER_ GRADE 1.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/SAMBURU LEARNER GRADE 1.pdf",
+      "kind": "pdf",
+      "bytes": 10637661,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/SAMBURU%20LEARNER%20GRADE%201.pdf",
+      "title": "SAMBURU LEARNER GRADE 1.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "kind": "pdf",
+      "bytes": 2232560,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1 , 2, 3 _ PI/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "title": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
+      "kind": "pdf",
+      "bytes": 1636818,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_HI%20_%20TEACHERS%20GUIDE%20GRADE%201.pdf",
+      "title": "ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
+      "kind": "pdf",
+      "bytes": 1654057,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_TEACHERS%20PHYSICAL%20HANDICAPPED%20GRADE%201%20(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
+      "kind": "pdf",
+      "bytes": 50361828,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20PUPILS%20GRADE%201%20FINAL%20FINAL%20FINAL%2030th.pdf",
+      "title": "ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "kind": "pdf",
+      "bytes": 111925065,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20GRADE%201%20PUPILS%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/general/ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
+      "kind": "pdf",
+      "bytes": 31277219,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20GRADE%201%20TG%20_%20FOR%20PRINT%2016%2007%202018.pdf",
+      "title": "ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
+      "grade": "grade-1",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/ire/ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
+      "kind": "pdf",
+      "bytes": 98459635,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_PUPILS%20BK%20HEARING%20IMPAIRED%20GRADE%201%20(EDITTED%202019).pdf",
+      "title": "ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
+      "grade": "grade-1",
+      "subject": "ire"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/mathematics/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "kind": "pdf",
+      "bytes": 25429754,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1 , 2, 3 _ PI/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "title": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "grade": "grade-1",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-1/mathematics/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "kind": "pdf",
+      "bytes": 14190597,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 ,3 HI/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "title": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "grade": "grade-1",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/general/ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
+      "kind": "pdf",
+      "bytes": 91102462,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_HI%20BRANDED%20PUPILS%20GRADE%202%20.pdf",
+      "title": "ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
+      "grade": "grade-2",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/general/ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
+      "kind": "pdf",
+      "bytes": 8329172,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_PUPILS%20BK%20PHYSICAL%20HANDICAPPED%20GRADE%202%20(EDITTED%202019).pdf",
+      "title": "ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
+      "grade": "grade-2",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/general/ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
+      "kind": "pdf",
+      "bytes": 47406315,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20PUPILS%20GRADE%202%20FINAL%20FINAL%20FINAL%2030th.pdf",
+      "title": "ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
+      "grade": "grade-2",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/general/ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
+      "kind": "pdf",
+      "bytes": 2147744,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_TEACHERS%20LOW%20VISION%20GRADE%202%20(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
+      "grade": "grade-2",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/general/ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "kind": "pdf",
+      "bytes": 180680370,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR%20_%20GRADE%202%20PUPILS%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "grade": "grade-2",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/general/ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
+      "kind": "pdf",
+      "bytes": 43109361,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR%20GRADE%202%20TEACHERS%20GUIDE%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
+      "grade": "grade-2",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/ire/ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
+      "kind": "pdf",
+      "bytes": 62337626,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_TEACHERS%20HEARING%20IMPAIRED%20GRADE%202(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
+      "grade": "grade-2",
+      "subject": "ire"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/ire/ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
+      "kind": "pdf",
+      "bytes": 1318287,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VISUALLY%20IMPAIRED%20TG%20GRADE%202%2005%2001%202019.pdf",
+      "title": "ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
+      "grade": "grade-2",
+      "subject": "ire"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-2/ire/ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
+      "kind": "pdf",
+      "bytes": 5289962,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_TEACHERS%20GUIDE%20GRADE%202%2007%2001%202019%20PHYSICALLY%20IMPAIRED%20BRANDED%20.pdf",
+      "title": "ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
+      "grade": "grade-2",
+      "subject": "ire"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-3/general/ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
+      "kind": "pdf",
+      "bytes": 2537717,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 ,3 HI/ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
+      "title": "ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
+      "grade": "grade-3",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-3/general/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "kind": "pdf",
+      "bytes": 3355977,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 3 _ VI/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "title": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "grade": "grade-3",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-3/general/ISBN_VI TG GRADE 3.pdf",
+      "kind": "pdf",
+      "bytes": 2137162,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 3 _ VI/ISBN_VI TG GRADE 3.pdf",
+      "title": "ISBN_VI TG GRADE 3.pdf",
+      "grade": "grade-3",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-3/general/ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
+      "kind": "pdf",
+      "bytes": 49202876,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE1, 2,  3 REGULAR/ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
+      "title": "ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
+      "grade": "grade-3",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-3/general/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "kind": "pdf",
+      "bytes": 15098003,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE1, 2,  3 REGULAR/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "title": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "grade": "grade-3",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-3/general/ISBN_LOW VISION GRADE 3 PUPILS.pdf",
+      "kind": "pdf",
+      "bytes": 12798589,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20GRADE%203%20PUPILS.pdf",
+      "title": "ISBN_LOW VISION GRADE 3 PUPILS.pdf",
+      "grade": "grade-3",
+      "subject": "general"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 1 Matamshi Bora.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 1 Matamshi Bora.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 10 Barua ya kirafiki.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 10 Barua ya kirafiki.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 2 Vitanzandimi.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 2 Vitanzandimi.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 3 nomino.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 3 nomino.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 4 Insha ya wasifu.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 4 Insha ya wasifu.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 5 vitenzi.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 5 vitenzi.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 6 matumizi ya kamusi.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 6 matumizi ya kamusi.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 7 nomino katika ngeli ya A-WA.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 7 nomino katika ngeli ya A-WA.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 8 Maneno ya adabu.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 8 Maneno ya adabu.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/kiswahili/Kiswahili grade 4 prog 9 methali zinazohusu malezi.epub",
+      "kind": "epub",
+      "title": "Kiswahili grade 4 prog 9 methali zinazohusu malezi.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "kiswahili"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/science-and-technology/Science Grade 4-prog 12 How to make floaters sink.epub",
+      "kind": "epub",
+      "title": "Science Grade 4-prog 12 How to make floaters sink.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "science-and-technology"
+    },
+    {
+      "status": "skipped",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-4/science-and-technology/Science Grade 4 prog 11 Factors that affect floating and sinking.epub",
+      "kind": "epub",
+      "title": "Science Grade 4 prog 11 Factors that affect floating and sinking.epub?forcedownload=1",
+      "grade": "grade-4",
+      "subject": "science-and-technology"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_10 GROUPS OF FOOD CROPS.epub",
+      "kind": "epub",
+      "bytes": 18473541,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_10%20GROUPS%20OF%20FOOD%20CROPS.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_10 GROUPS OF FOOD CROPS.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_11 VEGETABLE CROPS AND HOW TO CLASSIFY OR ORGANIZE VEGETABLE CROPS .epub",
+      "kind": "epub",
+      "bytes": 21344691,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_11%20VEGETABLE%20CROPS%20AND%20HOW%20TO%20CLASSIFY%20OR%20ORGANIZE%20VEGETABLE%20CROPS%20.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_11 VEGETABLE CROPS AND HOW TO CLASSIFY OR ORGANIZE VEGETABLE CROPS .epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_12_THE IMPORTANCE OF VEGETABLES AND HOW TO PREPARE VEGETABLES FOR FAMILY USE.epub",
+      "kind": "epub",
+      "bytes": 21562221,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_12_THE%20IMPORTANCE%20OF%20VEGETABLES%20AND%20HOW%20TO%20PREPARE%20VEGETABLES%20FOR%20FAMILY%20USE.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_12_THE IMPORTANCE OF VEGETABLES AND HOW TO PREPARE VEGETABLES FOR FAMILY USE.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_13 CEREAL CROPS.epub",
+      "kind": "epub",
+      "bytes": 21782582,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_13%20CEREAL%20CROPS.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_13 CEREAL CROPS.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_1WATER CONSERVATION IN FARMING.epub",
+      "kind": "epub",
+      "bytes": 15713648,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_1WATER%20CONSERVATION%20IN%20FARMING.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_1WATER CONSERVATION IN FARMING.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_2 SMALL WILD ANIMALS AND THE DAMAGE THEY CAUSE IN OUR FARMS..epub",
+      "kind": "epub",
+      "bytes": 11823134,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_2%20SMALL%20WILD%20ANIMALS%20AND%20THE%20DAMAGE%20THEY%20CAUSE%20IN%20OUR%20FARMS..epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_2 SMALL WILD ANIMALS AND THE DAMAGE THEY CAUSE IN OUR FARMS..epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_3 WAYS OF LIVING BETTER WITH SMALL WILD ANIMALS AROUND OUR HOMES.epub",
+      "kind": "epub",
+      "bytes": 12083639,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_3%20WAYS%20OF%20LIVING%20BETTER%20WITH%20SMALL%20WILD%20ANIMALS%20AROUND%20OUR%20HOMES.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_3 WAYS OF LIVING BETTER WITH SMALL WILD ANIMALS AROUND OUR HOMES.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_4 DOMESTIC ANIMALS AND THEIR PRODUCTS.epub",
+      "kind": "epub",
+      "bytes": 11370424,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_4%20DOMESTIC%20ANIMALS%20AND%20THEIR%20PRODUCTS.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_4 DOMESTIC ANIMALS AND THEIR PRODUCTS.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_5 DIFFERENCES BETWEEN MALE AND FEMALE SHEEP.epub",
+      "kind": "epub",
+      "bytes": 10927900,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_5%20DIFFERENCES%20BETWEEN%20MALE%20AND%20FEMALE%20SHEEP.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_5 DIFFERENCES BETWEEN MALE AND FEMALE SHEEP.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_6THE DIFFERENCES BETWEEN A FEMALE AND A MALE GOAT.epub",
+      "kind": "epub",
+      "bytes": 13278464,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_6THE%20DIFFERENCES%20BETWEEN%20A%20FEMALE%20AND%20A%20MALE%20GOAT.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_6THE DIFFERENCES BETWEEN A FEMALE AND A MALE GOAT.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_7 THE DIFFERENCES BETWEEN MALE AND FEMALE POULTRY.epub",
+      "kind": "epub",
+      "bytes": 13834206,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_7%20THE%20DIFFERENCES%20BETWEEN%20MALE%20AND%20FEMALE%20POULTRY.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_7 THE DIFFERENCES BETWEEN MALE AND FEMALE POULTRY.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_8 USES OF DOMESTIC ANIMALS.epub",
+      "kind": "epub",
+      "bytes": 12916571,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_8%20USES%20OF%20DOMESTIC%20ANIMALS.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_8 USES OF DOMESTIC ANIMALS.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/agriculture/AGRIC_PROGRAMME_9 VEGETABLE CROPS AS CROPS FOR GARDENING.epub",
+      "kind": "epub",
+      "bytes": 12392447,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_9%20VEGETABLE%20CROPS%20AS%20CROPS%20FOR%20GARDENING.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_9 VEGETABLE CROPS AS CROPS FOR GARDENING.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "agriculture"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/cre/Grade_4_CRE_Prog_12_People_you_can_trust_at_home_and_at_school.epub",
+      "kind": "epub",
+      "bytes": 16160404,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_4_CRE_Prog_12_People_you_can_trust_at_home_and_at_school.epub?forcedownload=1",
+      "title": "Grade_4_CRE_Prog_12_People_you_can_trust_at_home_and_at_school.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "cre"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/cre/Grade_4_CRE_Prog_13_Trusting_in_God.epub",
+      "kind": "epub",
+      "bytes": 13480387,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_4_CRE_Prog_13_Trusting_in_God.epub?forcedownload=1",
+      "title": "Grade_4_CRE_Prog_13_Trusting_in_God.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "cre"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/cre/Grade_4_CRE_PROG_14_Truthfulness.epub",
+      "kind": "epub",
+      "bytes": 17220548,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_4_CRE_PROG_14_Truthfulness.epub?forcedownload=1",
+      "title": "Grade_4_CRE_PROG_14_Truthfulness.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "cre"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/cre/Grade_four_CRE_PROG_11_Protecting_yourself_from_sexual_temptations_.epub",
+      "kind": "epub",
+      "bytes": 13690506,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_four_CRE_PROG_11_Protecting_yourself_from_sexual_temptations_.epub?forcedownload=1",
+      "title": "Grade_four_CRE_PROG_11_Protecting_yourself_from_sexual_temptations_.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "cre"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/cre/Grade_four_CRE_PROG_15.epub",
+      "kind": "epub",
+      "bytes": 15464776,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_four_CRE_PROG_15.epub?forcedownload=1",
+      "title": "Grade_four_CRE_PROG_15.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "cre"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_A day on the farm.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FA%20day%20on%20the%20farm.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/A day on the farm.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_A New Classroom for Joan.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FA%20New%20Classroom%20for%20Joan.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/A New Classroom for Joan.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_A Visit To Grandmother.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FA%20Visit%20To%20Grandmother.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/A Visit To Grandmother.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_A walk in the forest.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FA%20walk%20in%20the%20forest.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/A walk in the forest.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_At the game park.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FAt%20the%20game%20park.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/At the game park.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Busy Boys.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FBusy%20Boys.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Busy Boys.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Don at school.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FDon%20at%20school.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Don at school.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Dora in the big city.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FDora%20in%20the%20big%20city.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Dora in the big city.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Halima_learns_to_count.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FHalima_learns_to_count.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Halima_learns_to_count.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Hare and Hyena.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FHare%20and%20Hyena.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Hare and Hyena.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_How many are they_.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FHow%20many%20are%20they_.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/How many are they_.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_I am clean.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FI%20am%20clean.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/I am clean.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_It is good to be home.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FIt%20is%20good%20to%20be%20home.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/It is good to be home.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Juma the Driver.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FJuma%20the%20Driver.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Juma the Driver.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Kingi the farmer.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FKingi%20the%20farmer.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Kingi the farmer.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Marion_s best day.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FMarion_s%20best%20day.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Marion_s best day.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Mata and I.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FMata%20and%20I.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Mata and I.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_My day in school.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FMy%20day%20in%20school.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/My day in school.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_My family of thirteen.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FMy%20family%20of%20thirteen.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/My family of thirteen.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Nana Dreams.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FNana%20Dreams.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Nana Dreams.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Nina at the market.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FNina%20at%20the%20market.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Nina at the market.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Rose and Kelly at Home.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FRose%20and%20Kelly%20at%20Home.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Rose and Kelly at Home.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Roy gets sick.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FRoy%20gets%20sick.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Roy gets sick.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_Tami at the shop.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FTami%20at%20the%20shop.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Tami at the shop.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_The Best Day.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20Best%20Day.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The Best Day.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_The green blouse.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20green%20blouse.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The green blouse.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_The Mud Man.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20Mud%20Man.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The Mud Man.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_The new game.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20new%20game.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The new game.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_The Train Trip.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20Train%20Trip.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The Train Trip.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/_epub=epub_content_Tusome_Readers_English_The visit.epub",
+      "kind": "epub",
+      "bytes": 3435,
+      "sourceUrl": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20visit.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The visit.epub",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/ENGLISH_GRADE_4___PROG_10 pronounce sounds.epub",
+      "kind": "epub",
+      "bytes": 27146360,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_10%20pronounce%20sounds.epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_10 pronounce sounds.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/ENGLISH_GRADE_4___PROG_6 Present Continuous Tense.epub",
+      "kind": "epub",
+      "bytes": 18545923,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_6%20Present%20Continuous%20Tense.epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_6 Present Continuous Tense.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/ENGLISH_GRADE_4___PROG_7Past Continuous Tense..epub",
+      "kind": "epub",
+      "bytes": 16986237,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_7Past%20Continuous%20Tense..epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_7Past Continuous Tense..epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/ENGLISH_GRADE_4___PROG_8 full stops and capital letters.epub",
+      "kind": "epub",
+      "bytes": 21964358,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_8%20full%20stops%20and%20capital%20letters.epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_8 full stops and capital letters.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/english/ENGLISH_GRADE_4___PROG_9 constructed forms of verbs.epub",
+      "kind": "epub",
+      "bytes": 18579925,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_9%20constructed%20forms%20of%20verbs.epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_9 constructed forms of verbs.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "english"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "kind": "pdf",
+      "bytes": 12978228,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/BURJI_%20LEARNER_%20GRADE%201_%20.pdf",
+      "title": "BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/FINAL_KITHARAKA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "kind": "pdf",
+      "bytes": 8835711,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_KITHARAKA_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_KITHARAKA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/FINAL_ORMA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "kind": "pdf",
+      "bytes": 4543043,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_ORMA_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_ORMA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/FINAL_UPDATED_KIEMBU_ GRADE 1_ LEARNERS BOOK.pdf",
+      "kind": "pdf",
+      "bytes": 10069556,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_UPDATED_KIEMBU_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_UPDATED_KIEMBU_ GRADE 1_ LEARNERS BOOK.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/Gabra-LEARNER_ GRADE 1_ (1).pdf",
+      "kind": "pdf",
+      "bytes": 12633003,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/Gabra-LEARNER_%20GRADE%201_%20(1).pdf",
+      "title": "Gabra-LEARNER_ GRADE 1_ (1).pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/IGIKURIA LB.pdf",
+      "kind": "pdf",
+      "bytes": 9492356,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/IGIKURIA%20LB.pdf",
+      "title": "IGIKURIA LB.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/LEARNER_ GRADE 1_ KIIMENTI.pdf",
+      "kind": "pdf",
+      "bytes": 11812213,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20KIIMENTI.pdf",
+      "title": "LEARNER_ GRADE 1_ KIIMENTI.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/LEARNER_ GRADE 1_ KITUBHETA.pdf",
+      "kind": "pdf",
+      "bytes": 17418027,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20KITUBHETA.pdf",
+      "title": "LEARNER_ GRADE 1_ KITUBHETA.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/LEARNER_ GRADE 1_ MAASAI.pdf",
+      "kind": "pdf",
+      "bytes": 8912448,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20MAASAI.pdf",
+      "title": "LEARNER_ GRADE 1_ MAASAI.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/LEARNER_ GRADE 1_ MBEERE.pdf",
+      "kind": "pdf",
+      "bytes": 11794610,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20MBEERE.pdf",
+      "title": "LEARNER_ GRADE 1_ MBEERE.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/LEARNER_ GRADE 1_ RENDILE 1.pdf",
+      "kind": "pdf",
+      "bytes": 8063824,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20RENDILE%201.pdf",
+      "title": "LEARNER_ GRADE 1_ RENDILE 1.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/NANDI G1 LB.pdf",
+      "kind": "pdf",
+      "bytes": 13152964,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/NANDI%20G1%20LB.pdf",
+      "title": "NANDI G1 LB.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/SABAOT LEARNERS BOOK.pdf",
+      "kind": "pdf",
+      "bytes": 11311805,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/SABAOT%20LEARNERS%20BOOK.pdf",
+      "title": "SABAOT LEARNERS BOOK.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/general/BURJI TG.pdf",
+      "kind": "pdf",
+      "bytes": 960554,
+      "sourceUrl": "https://epubs.kec.ac.ke/pdf/TEACHERS_GUIDE/BURJI%20TG.pdf",
+      "title": "BURJI TG.pdf",
+      "grade": "grade-9",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/mathematics/Maths_Prog_1 meters to centimeters.epub",
+      "kind": "epub",
+      "bytes": 29892050,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths_Prog_1%20meters%20to%20centimeters.epub?forcedownload=1",
+      "title": "Maths_Prog_1 meters to centimeters.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/mathematics/Maths_Prog_2 perimeter.epub",
+      "kind": "epub",
+      "bytes": 25964513,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths_Prog_2%20perimeter.epub?forcedownload=1",
+      "title": "Maths_Prog_2 perimeter.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/mathematics/Maths_Prog_3 area.epub",
+      "kind": "epub",
+      "bytes": 27165537,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths_Prog_3%20area.epub?forcedownload=1",
+      "title": "Maths_Prog_3 area.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/mathematics/Maths_Prog_4 cubes and cuboids.epub",
+      "kind": "epub",
+      "bytes": 25842528,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths_Prog_4%20cubes%20and%20cuboids.epub?forcedownload=1",
+      "title": "Maths_Prog_4 cubes and cuboids.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/mathematics/Maths Prg 8 telling time in a m.epub",
+      "kind": "epub",
+      "bytes": 20878376,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths%20Prg%20%208%20telling%20time%20in%20a%20m.epub?forcedownload=1",
+      "title": "Maths Prg  8 telling time in a m.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/mathematics/Maths Prg 6 addition of capacity .epub",
+      "kind": "epub",
+      "bytes": 20811832,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths%20Prg%206%20addition%20of%20capacity%20.epub?forcedownload=1",
+      "title": "Maths Prg 6 addition of capacity .epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/mathematics/Maths Pro 5 measure capacity.epub",
+      "kind": "epub",
+      "bytes": 24957747,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths%20Pro%20%205%20measure%20capacity.epub?forcedownload=1",
+      "title": "Maths Pro  5 measure capacity.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/mathematics/Maths Pro 7 subtract capacity .epub",
+      "kind": "epub",
+      "bytes": 21804771,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths%20Pro%207%20subtract%20capacity%20.epub?forcedownload=1",
+      "title": "Maths Pro 7 subtract capacity .epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/science-and-technology/Science grade_4_prog_10 Objects that float and sink..epub",
+      "kind": "epub",
+      "bytes": 24714082,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/563/mod_folder/content/0/Science%20grade_4_prog_10%20Objects%20that%20float%20and%20sink..epub?forcedownload=1",
+      "title": "Science grade_4_prog_10 Objects that float and sink..epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "science-and-technology"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/science-and-technology/Science grade 4prog_13 How to make sinkers float.epub",
+      "kind": "epub",
+      "bytes": 20554777,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/563/mod_folder/content/0/Science%20grade%204prog_13%20How%20to%20make%20sinkers%20float.epub?forcedownload=1",
+      "title": "Science grade 4prog_13 How to make sinkers float.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "science-and-technology"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_1 ASPECTS OF TRADITIONAL CULTURE IN THE COUNTY.epub",
+      "kind": "epub",
+      "bytes": 12389032,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_1%20ASPECTS%20OF%20TRADITIONAL%20CULTURE%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_1 ASPECTS OF TRADITIONAL CULTURE IN THE COUNTY.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_10 QUALITIES OF GOOD CITIZENSHIP IN SCHOOL.epub",
+      "kind": "epub",
+      "bytes": 12535245,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_10%20QUALITIES%20OF%20GOOD%20CITIZENSHIP%20IN%20SCHOOL.epub?forcedownload=1",
+      "title": "PROGRAMME_10 QUALITIES OF GOOD CITIZENSHIP IN SCHOOL.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_2 THE SCHOOL.epub",
+      "kind": "epub",
+      "bytes": 13730901,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_2%20THE%20SCHOOL.epub?forcedownload=1",
+      "title": "PROGRAMME_2 THE SCHOOL.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_3 RESOURCES IN THE COUNTY.epub",
+      "kind": "epub",
+      "bytes": 13035463,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_3%20RESOURCES%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_3 RESOURCES IN THE COUNTY.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_4 METHOD OF TRADE USED IN THE COUNTY.epub",
+      "kind": "epub",
+      "bytes": 11808022,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_4%20METHOD%20OF%20TRADE%20USED%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_4 METHOD OF TRADE USED IN THE COUNTY.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_5 TRADE IN THE COUNTY.epub",
+      "kind": "epub",
+      "bytes": 11831481,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_5%20TRADE%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_5 TRADE IN THE COUNTY.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_6 INDUSTRIES IN THE COUNTY.epub",
+      "kind": "epub",
+      "bytes": 15522242,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_6%20INDUSTRIES%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_6 INDUSTRIES IN THE COUNTY.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_7 COMMUNITY LEADERS IN THE COUNTY.epub",
+      "kind": "epub",
+      "bytes": 13176553,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_7%20COMMUNITY%20LEADERS%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_7 COMMUNITY LEADERS IN THE COUNTY.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/PROGRAMME_8 QUALITIES OF A GOOD LEADER IN THE COMMUNITY.epub",
+      "kind": "epub",
+      "bytes": 11758397,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_8%20QUALITIES%20OF%20A%20GOOD%20LEADER%20IN%20THE%20COMMUNITY.epub?forcedownload=1",
+      "title": "PROGRAMME_8 QUALITIES OF A GOOD LEADER IN THE COMMUNITY.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/SST_PROGRAMME_11 CHILD ABUSE IN THE COMMUNITY..epub",
+      "kind": "epub",
+      "bytes": 13003097,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/SST_PROGRAMME_11%20CHILD%20ABUSE%20IN%20THE%20COMMUNITY..epub?forcedownload=1",
+      "title": "SST_PROGRAMME_11 CHILD ABUSE IN THE COMMUNITY..epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/SST_PROGRAMME_12 FACTORS OR REASONS THAT PROMOTE PEACE IN SCHOOL.epub",
+      "kind": "epub",
+      "bytes": 9560952,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/SST_PROGRAMME_12%20FACTORS%20OR%20REASONS%20THAT%20PROMOTE%20PEACE%20IN%20SCHOOL.epub?forcedownload=1",
+      "title": "SST_PROGRAMME_12 FACTORS OR REASONS THAT PROMOTE PEACE IN SCHOOL.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/grade-9/social-studies/SST_PROGRAMME_13 BENEFITS OF DEMOCRACY IN SCHOOL.epub",
+      "kind": "epub",
+      "bytes": 10765551,
+      "sourceUrl": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/SST_PROGRAMME_13%20BENEFITS%20OF%20DEMOCRACY%20IN%20SCHOOL.epub?forcedownload=1",
+      "title": "SST_PROGRAMME_13 BENEFITS OF DEMOCRACY IN SCHOOL.epub?forcedownload=1",
+      "grade": "grade-9",
+      "subject": "social-studies"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/unknown/general/ISBN_VI PB BK 1 FINAL.pdf",
+      "kind": "pdf",
+      "bytes": 4402082,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PB%20BK%201%20FINAL.pdf",
+      "title": "ISBN_VI PB BK 1 FINAL.pdf",
+      "grade": "unknown",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/unknown/general/ISBN_VI PB BK 2 FINAL.pdf",
+      "kind": "pdf",
+      "bytes": 2273729,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PB%20BK%202%20FINAL.pdf",
+      "title": "ISBN_VI PB BK 2 FINAL.pdf",
+      "grade": "unknown",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/unknown/general/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "kind": "pdf",
+      "bytes": 2232560,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_EGM%20_3%20_%20PI%20TEACHERS%20GUIDE.pdf",
+      "title": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "grade": "unknown",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/unknown/general/ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
+      "kind": "pdf",
+      "bytes": 23041819,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_FINAL%20PI%20PB%20GRADE%201Book%202019%207th%20JANUARY%20CORRECTED.pdf",
+      "title": "ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
+      "grade": "unknown",
+      "subject": "general"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/unknown/mathematics/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "kind": "pdf",
+      "bytes": 14190597,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_MATHS%203%20PUPILS%20(HI)%20CORRECTED%2025%2003%202019.pdf",
+      "title": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "grade": "unknown",
+      "subject": "mathematics"
+    },
+    {
+      "status": "downloaded",
+      "path": "/workspace/knowledge-base/textbooks/raw/unknown/mathematics/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "kind": "pdf",
+      "bytes": 25429754,
+      "sourceUrl": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_Early%20grade%20maths%203%20PI%20_CORRECTED_01_10_2019.pdf",
+      "title": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "grade": "unknown",
+      "subject": "mathematics"
+    }
+  ]
+}

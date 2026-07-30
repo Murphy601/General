@@ -1,0 +1,419 @@
+'use client';
+
+import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
+import { useState, useEffect, type ReactNode } from 'react';
+
+type Tab = 'lesson' | 'quiz' | 'answers';
+
+type StudyPage = {
+  pageNumber: number;
+  title: string;
+  body: string;
+  free?: boolean;
+};
+
+function renderDiagramBlock(raw: string, key: string): ReactNode {
+  const type = (raw.match(/^TYPE:\s*(.+)$/m) || [])[1]?.trim() || 'svg';
+  const alt = (raw.match(/^ALT:\s*(.+)$/m) || [])[1]?.trim() || 'Diagram';
+  const caption = (raw.match(/^CAPTION:\s*(.+)$/m) || [])[1]?.trim() || '';
+  const payloadMatch = raw.match(/PAYLOAD:\s*\n([\s\S]*?)\nCAPTION:/i);
+  const payload = (payloadMatch?.[1] || '').trim();
+
+  if (type === 'svg' && payload.includes('<svg')) {
+    return (
+      <figure key={key} className="my-6 overflow-x-auto rounded-xl border border-gray-200 bg-white p-4">
+        <div
+          className="flex justify-center [&_svg]:max-w-full"
+          // Curriculum SVG emitted by the content engine (trusted build pipeline).
+          dangerouslySetInnerHTML={{ __html: payload }}
+        />
+        {caption ? <figcaption className="mt-2 text-center text-xs text-gray-500">{caption}</figcaption> : null}
+      </figure>
+    );
+  }
+
+  return (
+    <figure key={key} className="my-6 rounded-xl border border-dashed border-kenya-green/30 bg-kenya-green/5 p-4">
+      <p className="text-xs font-semibold uppercase tracking-wide text-kenya-green">Figure</p>
+      <p className="mt-2 text-sm text-gray-700">{alt}</p>
+      {caption ? <figcaption className="mt-2 text-xs text-gray-500">{caption}</figcaption> : null}
+    </figure>
+  );
+}
+
+function renderRichText(text: string): ReactNode[] {
+  // Extract [DIAGRAM]...[/DIAGRAM] blocks first so SVG never shows as raw lesson text.
+  const segments: Array<{ kind: 'text' | 'diagram'; value: string }> = [];
+  const src = String(text || '');
+  const diagramRe = /\[DIAGRAM\]([\s\S]*?)\[\/DIAGRAM\]/gi;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = diagramRe.exec(src))) {
+    if (m.index > last) segments.push({ kind: 'text', value: src.slice(last, m.index) });
+    segments.push({ kind: 'diagram', value: m[1] });
+    last = m.index + m[0].length;
+  }
+  if (last < src.length) segments.push({ kind: 'text', value: src.slice(last) });
+
+  const nodes: ReactNode[] = [];
+  let buffer: string[] = [];
+
+  const flush = (key: string) => {
+    if (!buffer.length) return;
+    const block = buffer.join('\n').trimEnd();
+    buffer = [];
+    if (!block) return;
+    nodes.push(
+      <div key={key} className="mb-4 whitespace-pre-wrap leading-7">
+        {block}
+      </div>,
+    );
+  };
+
+  let lineOffset = 0;
+  segments.forEach((seg, segIdx) => {
+    if (seg.kind === 'diagram') {
+      flush(`p-seg-${segIdx}`);
+      nodes.push(renderDiagramBlock(seg.value, `diagram-${segIdx}`));
+      return;
+    }
+
+  const lines = seg.value.split('\n');
+  lines.forEach((line, i) => {
+    const idx = lineOffset + i;
+    const trimmed = line.trim();
+    const imageMatch = line.match(/^\[\[image:([^\]|]+)\|?([^\]]*)\]\]$/);
+    const isDivider = /^(====+|----+)$/.test(trimmed);
+    const isHouseTitle =
+      !isDivider &&
+      trimmed.length >= 4 &&
+      trimmed === trimmed.toUpperCase() &&
+      /[A-Z]/.test(trimmed) &&
+      !/^Q\d+\b/.test(trimmed) &&
+      !/^A\d+\b/.test(trimmed) &&
+      !trimmed.startsWith('•') &&
+      !trimmed.startsWith('[') &&
+      i + 1 < lines.length &&
+      /^(====+|----+)$/.test(lines[i + 1].trim());
+    const isSection =
+      /^(SECTION|SEHEMU|PAGE\s+\d+|CBC FRAMING|WHAT YOU WILL LEARN|INTRODUCTION|MAIN NOTES|WORKED EXAMPLE|IN EVERYDAY LIFE|SUMMARY|REVISION QUESTIONS|ANSWERS)([\s:—-]|$)/i.test(
+        trimmed,
+      );
+    const isMdH3 = /^###\s+/.test(trimmed);
+    const isMdH2 = /^##\s+/.test(trimmed);
+    const isSkill = /^▸\s+/.test(trimmed);
+    const isLessonTitle = /^(LESSON:|STUDENT MODULE:|STUDY MODULE)/i.test(trimmed);
+    const isBlank = trimmed === '';
+
+    if (imageMatch) {
+      flush(`p-${idx}`);
+      const imgSrc = imageMatch[1].trim();
+      const alt = imageMatch[2]?.trim() || 'Lesson illustration';
+      nodes.push(
+        <figure key={`img-${idx}`} className="my-8">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={imgSrc}
+            alt={alt}
+            className="w-full max-w-2xl rounded-xl border border-gray-200 shadow-sm bg-white"
+            loading="lazy"
+          />
+          {alt ? <figcaption className="mt-2 text-xs text-gray-500">{alt}</figcaption> : null}
+        </figure>,
+      );
+      return;
+    }
+
+    if (isDivider) {
+      // Consumed visually with the preceding house-style title
+      return;
+    }
+
+    if (isLessonTitle || isHouseTitle) {
+      flush(`p-${idx}`);
+      nodes.push(
+        <h2 key={`h-${idx}`} className="text-xl font-bold text-kenya-black mb-3 tracking-wide">
+          {line.replace(/^LESSON:\s*/i, '')}
+        </h2>,
+      );
+      return;
+    }
+
+    if (isSection) {
+      flush(`p-${idx}`);
+      nodes.push(
+        <h3
+          key={`s-${idx}`}
+          className="mt-10 mb-4 pt-4 border-t border-gray-100 text-base font-bold text-kenya-green tracking-wide"
+        >
+          {trimmed}
+        </h3>,
+      );
+      return;
+    }
+
+    if (isMdH2) {
+      flush(`p-${idx}`);
+      nodes.push(
+        <h3 key={`h2-${idx}`} className="mt-8 mb-3 text-base font-bold text-kenya-black">
+          {trimmed.replace(/^##\s+/, '')}
+        </h3>,
+      );
+      return;
+    }
+
+    if (isMdH3) {
+      flush(`p-${idx}`);
+      nodes.push(
+        <h4 key={`h3-${idx}`} className="mt-7 mb-2 text-sm font-bold text-kenya-green">
+          {trimmed.replace(/^###\s+/, '')}
+        </h4>,
+      );
+      return;
+    }
+
+    if (isSkill) {
+      flush(`p-${idx}`);
+      nodes.push(
+        <h4 key={`sk-${idx}`} className="mt-8 mb-3 text-sm font-bold text-kenya-black">
+          {trimmed}
+        </h4>,
+      );
+      return;
+    }
+
+    if (isBlank) {
+      flush(`p-${idx}`);
+      return;
+    }
+
+    buffer.push(line);
+  });
+  lineOffset += lines.length;
+  });
+
+  flush('p-end');
+  return nodes;
+}
+
+function PaywallCard({
+  pageNumber,
+  title,
+  priceKes,
+}: {
+  pageNumber: number;
+  title: string;
+  priceKes?: number;
+}) {
+  return (
+    <div className="rounded-2xl border border-dashed border-amber-300 bg-amber-50/60 p-8 text-center">
+      <p className="text-xs font-semibold uppercase tracking-wide text-amber-800">Page locked</p>
+      <h3 className="mt-2 text-xl font-bold text-kenya-black">
+        Page {pageNumber}: {title}
+      </h3>
+      <p className="mt-3 text-sm text-gray-600 max-w-md mx-auto">
+        You have finished the free preview pages for this topic. Unlock the remaining study pages to keep
+        learning — M-Pesa payment comes in Phase 2.
+      </p>
+      <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+        <Link
+          href="/pricing"
+          className="inline-flex rounded-xl bg-kenya-green px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90"
+        >
+          Unlock full topic{priceKes ? ` · KSh ${priceKes}` : ''}
+        </Link>
+        <span className="text-xs text-gray-500">Free preview already shown above</span>
+      </div>
+    </div>
+  );
+}
+
+export function TopicViewer({
+  content,
+  initialTab,
+  unlocked = false,
+}: {
+  content: {
+    title: string;
+    topic: { gradeLabel: string; subject: string; topicNumber?: string };
+    pages: {
+      lesson: string;
+      quiz: string;
+      answers: string;
+      studyPages?: StudyPage[];
+      freePageCount?: number;
+    };
+    metadata?: {
+      priceKes?: number;
+      freePageCount?: number;
+      totalStudyPages?: number;
+      contentSource?: string;
+      lockPages?: boolean;
+    };
+  };
+  initialTab?: Tab;
+  /** When true, all study pages are readable (subscriber / purchased). */
+  unlocked?: boolean;
+}) {
+  const searchParams = useSearchParams();
+  const tabParam = searchParams.get('tab') as Tab | null;
+  const pageParam = Number(searchParams.get('page') || '1');
+  const [tab, setTab] = useState<Tab>(initialTab || tabParam || 'lesson');
+
+  const studyPages = content.pages.studyPages || [];
+  const freeCount =
+    content.pages.freePageCount ||
+    content.metadata?.freePageCount ||
+    (studyPages.length ? studyPages.length : 3);
+  const hasMulti = studyPages.length > 0;
+  // Pre-publish: treat topics as fully open when every page is marked free
+  // or freePageCount covers the whole booklet.
+  const allUnlocked =
+    unlocked ||
+    (hasMulti &&
+      (studyPages.every((p) => p.free !== false) || freeCount >= studyPages.length));
+  const maxPage = hasMulti ? studyPages.length : 1;
+  const [pageNum, setPageNum] = useState(Math.min(Math.max(pageParam || 1, 1), maxPage));
+
+  useEffect(() => {
+    if (tabParam && ['lesson', 'quiz', 'answers'].includes(tabParam)) {
+      setTab(tabParam);
+    }
+  }, [tabParam]);
+
+  useEffect(() => {
+    if (pageParam >= 1 && pageParam <= maxPage) setPageNum(pageParam);
+  }, [pageParam, maxPage]);
+
+  const tabs: { id: Tab; label: string }[] = [
+    { id: 'lesson', label: hasMulti ? 'Study Pages' : 'Lesson' },
+    { id: 'quiz', label: 'Revision Quiz' },
+    { id: 'answers', label: 'Answers' },
+  ];
+
+  const current = hasMulti ? studyPages.find((p) => p.pageNumber === pageNum) : null;
+  const canRead =
+    !hasMulti ||
+    allUnlocked ||
+    current?.free === true ||
+    (current?.pageNumber || 1) <= freeCount;
+
+  const text =
+    tab === 'quiz'
+      ? content.pages.quiz
+      : tab === 'answers'
+        ? content.pages.answers
+        : hasMulti
+          ? canRead
+            ? current?.body || ''
+            : ''
+          : content.pages.lesson;
+
+  return (
+    <div>
+      <p className="text-sm text-gray-500">
+        {content.topic.gradeLabel} · {content.topic.subject}
+      </p>
+      <h1 className="text-2xl font-bold text-kenya-black mt-1">{content.title}</h1>
+      {hasMulti ? (
+        <div className="mt-3 rounded-xl border border-kenya-green/25 bg-kenya-green/5 px-4 py-3">
+          <p className="text-sm font-semibold text-kenya-green">
+            Multi-page study · {studyPages.length} pages
+          </p>
+          <p className="mt-1 text-sm text-gray-600">
+            {allUnlocked
+              ? `${studyPages.length}-page student study module · all pages open`
+              : `Pages 1–${freeCount} free preview · page ${freeCount + 1}+ unlocks with payment`}
+          </p>
+        </div>
+      ) : (
+        <p className="mt-2 text-xs text-amber-700">
+          Single-page lesson (old template). Grade 8 Integrated Science should show multi-page study after sync.
+        </p>
+      )}
+
+      <div className="mt-6 flex gap-2 border-b border-gray-200">
+        {tabs.map((t) => (
+          <button
+            key={t.id}
+            type="button"
+            onClick={() => setTab(t.id)}
+            className={`px-4 py-2 text-sm font-medium border-b-2 -mb-px transition ${
+              tab === t.id ? 'border-kenya-green text-kenya-green' : 'border-transparent text-gray-500 hover:text-gray-700'
+            }`}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
+
+      {tab === 'lesson' && hasMulti ? (
+        <div className="mt-4 flex flex-wrap gap-2">
+          {studyPages.map((p) => {
+            const locked = !(allUnlocked || p.free || p.pageNumber <= freeCount);
+            const active = p.pageNumber === pageNum;
+            return (
+              <button
+                key={p.pageNumber}
+                type="button"
+                onClick={() => setPageNum(p.pageNumber)}
+                className={`rounded-full px-3 py-1.5 text-xs font-semibold border transition ${
+                  active
+                    ? 'bg-kenya-green text-white border-kenya-green'
+                    : locked
+                      ? 'bg-gray-50 text-gray-400 border-gray-200'
+                      : 'bg-white text-kenya-black border-gray-200 hover:border-kenya-green/40'
+                }`}
+                title={locked ? 'Locked — unlock to continue' : p.title}
+              >
+                {locked ? `🔒 ${p.pageNumber}` : `Page ${p.pageNumber}`}
+              </button>
+            );
+          })}
+        </div>
+      ) : null}
+
+      <article className="mt-6 rounded-2xl border bg-white p-6 md:p-8 shadow-sm">
+        {tab === 'lesson' && hasMulti && !canRead && current ? (
+          <PaywallCard
+            pageNumber={current.pageNumber}
+            title={current.title}
+            priceKes={content.metadata?.priceKes}
+          />
+        ) : tab === 'lesson' ? (
+          <div className="font-sans text-[15px] text-gray-800">{renderRichText(text)}</div>
+        ) : (
+          <pre className="whitespace-pre-wrap font-sans text-sm leading-7 text-gray-800">{text}</pre>
+        )}
+      </article>
+
+      {tab === 'lesson' && hasMulti ? (
+        <div className="mt-4 flex justify-between gap-3">
+          <button
+            type="button"
+            disabled={pageNum <= 1}
+            onClick={() => setPageNum((n) => Math.max(1, n - 1))}
+            className="text-sm text-kenya-green disabled:text-gray-300"
+          >
+            ← Previous page
+          </button>
+          <p className="text-xs text-gray-500 self-center">
+            Page {pageNum} of {studyPages.length}
+            {current && !(allUnlocked || current.free || current.pageNumber <= freeCount)
+              ? ' · locked'
+              : ''}
+          </p>
+          <button
+            type="button"
+            disabled={pageNum >= studyPages.length}
+            onClick={() => setPageNum((n) => Math.min(studyPages.length, n + 1))}
+            className="text-sm text-kenya-green disabled:text-gray-300"
+          >
+            Next page →
+          </button>
+        </div>
+      ) : null}
+    </div>
+  );
+}

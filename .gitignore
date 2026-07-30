@@ -1,0 +1,24 @@
+# Large generated curriculum catalog (use curriculum-text.json.gz + npm run curriculum:prepare)
+knowledge-base/phase3/curriculum-text.json
+knowledge-base/phase4/curriculum-embeddings.json
+knowledge-base/phase4/curriculum-embeddings.jsonl
+
+knowledge-base/pdfs/**/*.pdf
+# Keep extracted textbook text; skip bulky binary downloads
+knowledge-base/textbooks/raw/
+
+# Dependencies
+node_modules/
+web/node_modules/
+web/.next/
+web/.env.local
+# Generated lessons are committed so users get content without re-running the generator
+# web/data/content/*.json
+!web/data/content/.gitkeep
+knowledge-base/phase5/generation-manifest.json
+
+# Environment
+.env
+!.env.example
+.env.local
+web/.env.local

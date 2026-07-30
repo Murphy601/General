@@ -1,0 +1,437 @@
+{
+  "version": 1,
+  "phase1RunId": "Q6BEwe9YErgWNFAOm",
+  "phase1DatasetId": "4rvft4eo7PKWlPekp",
+  "phase2RunId": "sJucsMRQKoeWpXSUM",
+  "phase2DatasetId": "mvcpflci6yzv1OeQz",
+  "generatedAt": "2026-07-19T01:13:09.893Z",
+  "totalPages": 60,
+  "pages": [
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/",
+      "title": "CBC MATERIALS",
+      "category": "general",
+      "subcategory": null,
+      "path": "general/cbc-materials"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/approved-cbc-course-materials/",
+      "title": "Approved CBC Course Materials",
+      "category": "general",
+      "subcategory": null,
+      "path": "general/approved-cbc-course-materials"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/approved-complementary-materials/",
+      "title": "Approved Complementary Materials",
+      "category": "general",
+      "subcategory": null,
+      "path": "general/approved-complementary-materials"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/grade-11-textbook-procurement/",
+      "title": "Grade 11 Textbooks Procurement",
+      "category": "general",
+      "subcategory": null,
+      "path": "general/grade-11-textbook-procurement"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/guidelines-on-parental-empowerment-and-engagement/",
+      "title": "Guidelines on Parental Empowerment and Engagement",
+      "category": "general",
+      "subcategory": null,
+      "path": "general/guidelines-on-parental-empowerment-and-engagement"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/popular-slides-on-cbc/",
+      "title": "Popular Slides on CBC",
+      "category": "general",
+      "subcategory": null,
+      "path": "general/popular-slides-on-cbc"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/values-based-education-materials/",
+      "title": "Values-based Education Materials",
+      "category": "general",
+      "subcategory": null,
+      "path": "general/values-based-education-materials"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/pre-primary/",
+      "title": "Pre-Primary Curriculum Designs",
+      "category": "pre-primary",
+      "subcategory": null,
+      "path": "pre-primary/pre-primary"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/lower-primary/",
+      "title": "Lower Primary",
+      "category": "lower-primary",
+      "subcategory": null,
+      "path": "lower-primary/lower-primary"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/",
+      "title": "Curriculum Designs",
+      "category": "curriculum-roots",
+      "subcategory": null,
+      "path": "curriculum-roots/curriculum-designs"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/regular-curriculum-designs/",
+      "title": "Regular Curriculum Designs",
+      "category": "curriculum-roots",
+      "subcategory": null,
+      "path": "curriculum-roots/regular-curriculum-designs"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/",
+      "title": "SNE Curriculum Designs",
+      "category": "curriculum-roots",
+      "subcategory": null,
+      "path": "curriculum-roots/sne-curriculum-designs"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/diploma-in-teacher-education/",
+      "title": "Diploma in Teacher Education",
+      "category": "curriculum-roots",
+      "subcategory": null,
+      "path": "curriculum-roots/diploma-in-teacher-education"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/prevocational-curriculum-designs/",
+      "title": "PREVOCATIONAL CURRICULUM DESIGNS",
+      "category": "sne",
+      "subcategory": "prevocational",
+      "path": "sne/prevocational/prevocational-curriculum-designs"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vocational-level-designs/",
+      "title": "VOCATIONAL LEVEL DESIGNS",
+      "category": "sne",
+      "subcategory": "vocational",
+      "path": "sne/vocational/vocational-level-designs"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-four-designs/",
+      "title": "Grade Four Designs",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-4"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-five-designs/",
+      "title": "Grade Five Designs",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-5"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-six-designs/",
+      "title": "Grade Six Designs",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-6"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-seven-designs/",
+      "title": "Grade Seven Designs",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-7"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eight-designs/",
+      "title": "Grade Eight Designs",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-8"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-nine-designs/",
+      "title": "Grade Nine Designs",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-9"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-ten/",
+      "title": "Grade Ten",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-10"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-eleven/",
+      "title": "Grade Eleven",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-11"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/grade-twelve/",
+      "title": "Grade Twelve",
+      "category": "regular",
+      "subcategory": null,
+      "path": "regular/grade-12"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-pp1-designs/",
+      "title": "HI hi-pp1-designs",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/pp1"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-pp2-designs/",
+      "title": "HI hi-pp2-designs",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/pp2"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-one-1-designs/",
+      "title": "HI hi-grade-one-1-designs",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-one"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-two-2-designs/",
+      "title": "HI hi-grade-two-2-designs",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-two"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-three-3-designs/",
+      "title": "HI hi-grade-three-3-designs",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-three"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-four-4-designs/",
+      "title": "HI hi-grade-four-4-designs",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-four"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-five5-designs/",
+      "title": "HI hi-grade-five5-designs",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-five"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-six-6-designs/",
+      "title": "HI hi-grade-six-6-designs",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-six"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-seven7/",
+      "title": "HI hi-grade-seven7",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-seven"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-8/",
+      "title": "HI hi-grade-8",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-8"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-9/",
+      "title": "HI hi-grade-9",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-9"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/hi-grade-10/",
+      "title": "HI hi-grade-10",
+      "category": "sne",
+      "subcategory": "hearing-impairment",
+      "path": "sne/hearing-impairment/grade-10"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-pp1-designs/",
+      "title": "PI pi-pp1-designs",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/pp1"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-pp2-designs/",
+      "title": "PI pi-pp2-designs",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/pp2"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-one-1-design/",
+      "title": "PI pi-grade-one-1-design",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-one"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-two-2-designs/",
+      "title": "PI pi-grade-two-2-designs",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-two"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-three3-designs/",
+      "title": "PI pi-grade-three3-designs",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-three"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-four4-designs/",
+      "title": "PI pi-grade-four4-designs",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-four"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-five5-designs/",
+      "title": "PI pi-grade-five5-designs",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-five"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-six-6-designs/",
+      "title": "PI pi-grade-six-6-designs",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-six"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-seven7/",
+      "title": "PI pi-grade-seven7",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-seven"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-8/",
+      "title": "PI pi-grade-8",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-8"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-9/",
+      "title": "PI pi-grade-9",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-9"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/pi-grade-10/",
+      "title": "PI pi-grade-10",
+      "category": "sne",
+      "subcategory": "physical-impairment",
+      "path": "sne/physical-impairment/grade-10"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-pp1-designs/",
+      "title": "VI vi-pp1-designs",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/pp1"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-pp2-designs/",
+      "title": "VI vi-pp2-designs",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/pp2"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-one-1-designs/",
+      "title": "VI vi-grade-one-1-designs",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-one"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-two-2-designs/",
+      "title": "VI vi-grade-two-2-designs",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-two"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-three-3-designs/",
+      "title": "VI vi-grade-three-3-designs",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-three"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-four-4-designs/",
+      "title": "VI vi-grade-four-4-designs",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-four"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-five-5-designs/",
+      "title": "VI vi-grade-five-5-designs",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-five"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-six-6-designs/",
+      "title": "VI vi-grade-six-6-designs",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-six"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-seven7/",
+      "title": "VI vi-grade-seven7",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-seven"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-8/",
+      "title": "VI vi-grade-8",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-8"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-9/",
+      "title": "VI vi-grade-9",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-9"
+    },
+    {
+      "url": "https://kicd.ac.ke/cbc-materials/curriculum-designs/sne-curriculum-designs/vi-grade-10/",
+      "title": "VI vi-grade-10",
+      "category": "sne",
+      "subcategory": "visual-impairment",
+      "path": "sne/visual-impairment/grade-10"
+    }
+  ],
+  "urlMapFile": "url-map.json",
+  "phase2Stats": {
+    "totalPages": 60,
+    "subjectsMappedGrades": 6,
+    "pagesUpdated": 7
+  }
+}

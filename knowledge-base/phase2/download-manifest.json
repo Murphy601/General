@@ -1,0 +1,2190 @@
+{
+  "generatedAt": "2026-07-19T02:26:37.685Z",
+  "downloaded": [],
+  "skipped": [
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/BURJI_%20LEARNER_%20GRADE%201_%20.pdf",
+      "title": "BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "folder": "grade-9",
+      "filename": "BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/BURJI_ LEARNER_ GRADE 1_ .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/DAWIDA_LEARNERS_%20GRADE%201%20Edited.pdf",
+      "title": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "folder": "grade-1",
+      "filename": "DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/DAWIDA_LEARNERS_ GRADE 1 Edited.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_KITHARAKA_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_KITHARAKA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "folder": "grade-9",
+      "filename": "FINAL_KITHARAKA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/FINAL_KITHARAKA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_ORMA_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_ORMA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "folder": "grade-9",
+      "filename": "FINAL_ORMA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/FINAL_ORMA_ GRADE 1_ LEARNERS BOOK.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/FINAL_UPDATED_KIEMBU_%20GRADE%201_%20LEARNERS%20BOOK.pdf",
+      "title": "FINAL_UPDATED_KIEMBU_ GRADE 1_ LEARNERS BOOK.pdf",
+      "folder": "grade-9",
+      "filename": "FINAL_UPDATED_KIEMBU_ GRADE 1_ LEARNERS BOOK.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/FINAL_UPDATED_KIEMBU_ GRADE 1_ LEARNERS BOOK.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/Gabra-LEARNER_%20GRADE%201_%20(1).pdf",
+      "title": "Gabra-LEARNER_ GRADE 1_ (1).pdf",
+      "folder": "grade-9",
+      "filename": "Gabra-LEARNER_ GRADE 1_ (1).pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Gabra-LEARNER_ GRADE 1_ (1).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/IGIKURIA%20LB.pdf",
+      "title": "IGIKURIA LB.pdf",
+      "folder": "grade-9",
+      "filename": "IGIKURIA LB.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/IGIKURIA LB.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LB_%20POKOMO%20GRADE%201.pdf",
+      "title": "LB_ POKOMO GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "LB_ POKOMO GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/LB_ POKOMO GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20KIIMENTI.pdf",
+      "title": "LEARNER_ GRADE 1_ KIIMENTI.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ KIIMENTI.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ KIIMENTI.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20KITUBHETA.pdf",
+      "title": "LEARNER_ GRADE 1_ KITUBHETA.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ KITUBHETA.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ KITUBHETA.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20MAASAI.pdf",
+      "title": "LEARNER_ GRADE 1_ MAASAI.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ MAASAI.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ MAASAI.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20MBEERE.pdf",
+      "title": "LEARNER_ GRADE 1_ MBEERE.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ MBEERE.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ MBEERE.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/LEARNER_%20GRADE%201_%20RENDILE%201.pdf",
+      "title": "LEARNER_ GRADE 1_ RENDILE 1.pdf",
+      "folder": "grade-9",
+      "filename": "LEARNER_ GRADE 1_ RENDILE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/LEARNER_ GRADE 1_ RENDILE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/NANDI%20G1%20LB.pdf",
+      "title": "NANDI G1 LB.pdf",
+      "folder": "grade-9",
+      "filename": "NANDI G1 LB.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/NANDI G1 LB.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/NG_ATURKANA%20LB%20GRADE%201.pdf",
+      "title": "NG_ATURKANA LB GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "NG_ATURKANA LB GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/NG_ATURKANA LB GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/POKOT_LEARNER_%20GRADE%201.pdf",
+      "title": "POKOT_LEARNER_ GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "POKOT_LEARNER_ GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/POKOT_LEARNER_ GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/SABAOT%20LEARNERS%20BOOK.pdf",
+      "title": "SABAOT LEARNERS BOOK.pdf",
+      "folder": "grade-9",
+      "filename": "SABAOT LEARNERS BOOK.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/SABAOT LEARNERS BOOK.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/LEARNERS_BOOKS/SAMBURU%20LEARNER%20GRADE%201.pdf",
+      "title": "SAMBURU LEARNER GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "SAMBURU LEARNER GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/SAMBURU LEARNER GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/pdf/TEACHERS_GUIDE/BURJI%20TG.pdf",
+      "title": "BURJI TG.pdf",
+      "folder": "grade-9",
+      "filename": "BURJI TG.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/BURJI TG.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1 , 2, 3 _ PI/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "title": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1 , 2, 3 _ PI/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "title": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 ,3 HI/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "title": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 ,3 HI/ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
+      "title": "ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 3 _ VI/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "title": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE 1 , 2 ,3 _  ADAPTED/GRADE 1, 2 3 _ VI/ISBN_VI TG GRADE 3.pdf",
+      "title": "ISBN_VI TG GRADE 3.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_VI TG GRADE 3.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_VI TG GRADE 3.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE1, 2,  3 REGULAR/ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
+      "title": "ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade 1/EGM_ GRADE1, 2,  3 REGULAR/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "title": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_HI%20_%20TEACHERS%20GUIDE%20GRADE%201.pdf",
+      "title": "ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_HI _ TEACHERS GUIDE GRADE 1.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_HI%20BRANDED%20PUPILS%20GRADE%202%20.pdf",
+      "title": "ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_HI BRANDED PUPILS GRADE 2 .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_MATHS%203%20PUPILS%20(HI)%20CORRECTED%2025%2003%202019.pdf",
+      "title": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "folder": "kec",
+      "filename": "ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_MATHS 3 PUPILS (HI) CORRECTED 25 03 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_PUPILS%20BK%20HEARING%20IMPAIRED%20GRADE%201%20(EDITTED%202019).pdf",
+      "title": "ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_PUPILS BK HEARING IMPAIRED GRADE 1 (EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_TEACHER%20GUIDE%20GRADE%203%20HI%20%20CORRECTED%2026TH%20MARCH%202019.pdf",
+      "title": "ISBN_TEACHER GUIDE GRADE 3 HI  CORRECTED 26TH MARCH 2019.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_TEACHER GUIDE GRADE 3 HI CORRECTED 26TH MARCH 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%20,3%20HI/ISBN_TEACHERS%20HEARING%20IMPAIRED%20GRADE%202(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS HEARING IMPAIRED GRADE 2(EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PB%20BK%201%20FINAL.pdf",
+      "title": "ISBN_VI PB BK 1 FINAL.pdf",
+      "folder": "kec",
+      "filename": "ISBN_VI PB BK 1 FINAL.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_VI PB BK 1 FINAL.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PB%20BK%202%20FINAL.pdf",
+      "title": "ISBN_VI PB BK 2 FINAL.pdf",
+      "folder": "kec",
+      "filename": "ISBN_VI PB BK 2 FINAL.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_VI PB BK 2 FINAL.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20PUPILS%20BOOK%20GRADE%203%20.pdf",
+      "title": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_VI PUPILS BOOK GRADE 3 .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VI%20TG%20GRADE%203.pdf",
+      "title": "ISBN_VI TG GRADE 3.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_VI TG GRADE 3.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_VI TG GRADE 3.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201,%202%203%20_%20VI/ISBN_VISUALLY%20IMPAIRED%20TG%20GRADE%202%2005%2001%202019.pdf",
+      "title": "ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_VISUALLY IMPAIRED TG GRADE 2 05 01 2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_Early%20grade%20maths%203%20PI%20_CORRECTED_01_10_2019.pdf",
+      "title": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "folder": "kec",
+      "filename": "ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_Early grade maths 3 PI _CORRECTED_01_10_2019.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_EGM%20_3%20_%20PI%20TEACHERS%20GUIDE.pdf",
+      "title": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "folder": "kec",
+      "filename": "ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_EGM _3 _ PI TEACHERS GUIDE.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_FINAL%20PI%20PB%20GRADE%201Book%202019%207th%20JANUARY%20CORRECTED.pdf",
+      "title": "ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
+      "folder": "kec",
+      "filename": "ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
+      "destPath": "knowledge-base/pdfs/kec/ISBN_FINAL PI PB GRADE 1Book 2019 7th JANUARY CORRECTED.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_PUPILS%20BK%20PHYSICAL%20HANDICAPPED%20GRADE%202%20(EDITTED%202019).pdf",
+      "title": "ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_PUPILS BK PHYSICAL HANDICAPPED GRADE 2 (EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_TEACHERS%20GUIDE%20GRADE%202%2007%2001%202019%20PHYSICALLY%20IMPAIRED%20BRANDED%20.pdf",
+      "title": "ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS GUIDE GRADE 2 07 01 2019 PHYSICALLY IMPAIRED BRANDED .pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%20,%202,%203%20_%20PI/ISBN_TEACHERS%20PHYSICAL%20HANDICAPPED%20GRADE%201%20(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_TEACHERS PHYSICAL HANDICAPPED GRADE 1 (EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20GRADE%203%20PUPILS.pdf",
+      "title": "ISBN_LOW VISION GRADE 3 PUPILS.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_LOW VISION GRADE 3 PUPILS.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_LOW VISION GRADE 3 PUPILS.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20PUPILS%20GRADE%201%20FINAL%20FINAL%20FINAL%2030th.pdf",
+      "title": "ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_LOW VISION PUPILS GRADE 1 FINAL FINAL FINAL 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_LOW%20VISION%20PUPILS%20GRADE%202%20FINAL%20FINAL%20FINAL%2030th.pdf",
+      "title": "ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_LOW VISION PUPILS GRADE 2 FINAL FINAL FINAL 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE%201%20,%202%20,3%20_%20%20ADAPTED/GRADE%201%202%203%20_%20LV/ISBN_TEACHERS%20LOW%20VISION%20GRADE%202%20(EDITTED%202019).pdf",
+      "title": "ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_TEACHERS LOW VISION GRADE 2 (EDITTED 2019).pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_PUPILS%20BOOK_%20GRADE%20%203%2022nd%20Dec.pdf",
+      "title": "ISBN_PUPILS BOOK_ GRADE  3 22nd Dec.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_PUPILS BOOK_ GRADE 3 22nd Dec.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20GRADE%201%20PUPILS%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_REGULAR_ GRADE 1 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20GRADE%201%20TG%20_%20FOR%20PRINT%2016%2007%202018.pdf",
+      "title": "ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
+      "folder": "grade-1",
+      "filename": "ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
+      "destPath": "knowledge-base/pdfs/grade-1/ISBN_REGULAR_ GRADE 1 TG _ FOR PRINT 16 07 2018.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR_%20TEACHER%20GUIDE%20GRADE%203%2024th%20Dec%202017b.pdf",
+      "title": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "folder": "grade-3",
+      "filename": "ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "destPath": "knowledge-base/pdfs/grade-3/ISBN_REGULAR_ TEACHER GUIDE GRADE 3 24th Dec 2017b.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR%20_%20GRADE%202%20PUPILS%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_REGULAR _ GRADE 2 PUPILS BOOK FINAL BOOK 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/ebooks/grade%201/EGM_%20GRADE1,%202,%20%203%20REGULAR/ISBN_REGULAR%20GRADE%202%20TEACHERS%20GUIDE%20BOOK%20FINAL%20BOOK%2030th.pdf",
+      "title": "ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
+      "folder": "grade-2",
+      "filename": "ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
+      "destPath": "knowledge-base/pdfs/grade-2/ISBN_REGULAR GRADE 2 TEACHERS GUIDE BOOK FINAL BOOK 30th.pdf",
+      "status": "skipped",
+      "reason": "exists"
+    }
+  ],
+  "blocked": [
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FA%20day%20on%20the%20farm.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/A day on the farm.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-A day on the farm.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-A day on the farm.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FA%20New%20Classroom%20for%20Joan.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/A New Classroom for Joan.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-A New Classroom for Joan.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-A New Classroom for Joan.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FA%20Visit%20To%20Grandmother.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/A Visit To Grandmother.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-A Visit To Grandmother.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-A Visit To Grandmother.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FA%20walk%20in%20the%20forest.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/A walk in the forest.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-A walk in the forest.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-A walk in the forest.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FAt%20the%20game%20park.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/At the game park.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-At the game park.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-At the game park.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FBusy%20Boys.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Busy Boys.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Busy Boys.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Busy Boys.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FDon%20at%20school.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Don at school.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Don at school.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Don at school.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FDora%20in%20the%20big%20city.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Dora in the big city.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Dora in the big city.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Dora in the big city.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FHalima_learns_to_count.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Halima_learns_to_count.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Halima_learns_to_count.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Halima_learns_to_count.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FHare%20and%20Hyena.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Hare and Hyena.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Hare and Hyena.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Hare and Hyena.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FHow%20many%20are%20they_.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/How many are they_.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-How many are they_.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-How many are they_.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FI%20am%20clean.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/I am clean.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-I am clean.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-I am clean.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FIt%20is%20good%20to%20be%20home.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/It is good to be home.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-It is good to be home.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-It is good to be home.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FJuma%20the%20Driver.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Juma the Driver.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Juma the Driver.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Juma the Driver.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FKingi%20the%20farmer.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Kingi the farmer.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Kingi the farmer.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Kingi the farmer.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FMarion_s%20best%20day.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Marion_s best day.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Marion_s best day.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Marion_s best day.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FMata%20and%20I.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Mata and I.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Mata and I.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Mata and I.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FMy%20day%20in%20school.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/My day in school.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-My day in school.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-My day in school.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FMy%20family%20of%20thirteen.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/My family of thirteen.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-My family of thirteen.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-My family of thirteen.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FNana%20Dreams.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Nana Dreams.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Nana Dreams.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Nana Dreams.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FNina%20at%20the%20market.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Nina at the market.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Nina at the market.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Nina at the market.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FRose%20and%20Kelly%20at%20Home.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Rose and Kelly at Home.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Rose and Kelly at Home.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Rose and Kelly at Home.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FRoy%20gets%20sick.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Roy gets sick.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Roy gets sick.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Roy gets sick.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FTami%20at%20the%20shop.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/Tami at the shop.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-Tami at the shop.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-Tami at the shop.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20Best%20Day.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The Best Day.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-The Best Day.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-The Best Day.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20green%20blouse.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The green blouse.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-The green blouse.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-The green blouse.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20Mud%20Man.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The Mud Man.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-The Mud Man.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-The Mud Man.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20new%20game.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The new game.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-The new game.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-The new game.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20Train%20Trip.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The Train Trip.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-The Train Trip.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-The Train Trip.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://epubs.kec.ac.ke/readium/?epub=epub_content%2FTusome_Readers%2FEnglish%2FThe%20visit.epub",
+      "title": "?epub=epub_content/Tusome_Readers/English/The visit.epub",
+      "folder": "grade-9",
+      "filename": "-epub=epub_content-Tusome_Readers-English-The visit.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/-epub=epub_content-Tusome_Readers-English-The visit.epub.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1141",
+      "title": "view.php?id=1141",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1142",
+      "title": "view.php?id=1142",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1143",
+      "title": "view.php?id=1143",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1144",
+      "title": "view.php?id=1144",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1145",
+      "title": "view.php?id=1145",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1146",
+      "title": "view.php?id=1146",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1147",
+      "title": "view.php?id=1147",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1149",
+      "title": "view.php?id=1149",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1150",
+      "title": "view.php?id=1150",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1151",
+      "title": "view.php?id=1151",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1152",
+      "title": "view.php?id=1152",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1153",
+      "title": "view.php?id=1153",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1154",
+      "title": "view.php?id=1154",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1155",
+      "title": "view.php?id=1155",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1156",
+      "title": "view.php?id=1156",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1244",
+      "title": "view.php?id=1244",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1245",
+      "title": "view.php?id=1245",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1246",
+      "title": "view.php?id=1246",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1247",
+      "title": "view.php?id=1247",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1248",
+      "title": "view.php?id=1248",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1249",
+      "title": "view.php?id=1249",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1250",
+      "title": "view.php?id=1250",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1251",
+      "title": "view.php?id=1251",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1252",
+      "title": "view.php?id=1252",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1253",
+      "title": "view.php?id=1253",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1254",
+      "title": "view.php?id=1254",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1255",
+      "title": "view.php?id=1255",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1256",
+      "title": "view.php?id=1256",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1257",
+      "title": "view.php?id=1257",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1259",
+      "title": "view.php?id=1259",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1260",
+      "title": "view.php?id=1260",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1261",
+      "title": "view.php?id=1261",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1262",
+      "title": "view.php?id=1262",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1263",
+      "title": "view.php?id=1263",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1264",
+      "title": "view.php?id=1264",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1383",
+      "title": "view.php?id=1383",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1384",
+      "title": "view.php?id=1384",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1385",
+      "title": "view.php?id=1385",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1386",
+      "title": "view.php?id=1386",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1387",
+      "title": "view.php?id=1387",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1388",
+      "title": "view.php?id=1388",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1389",
+      "title": "view.php?id=1389",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1390",
+      "title": "view.php?id=1390",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1391",
+      "title": "view.php?id=1391",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1534",
+      "title": "view.php?id=1534",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1535",
+      "title": "view.php?id=1535",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1536",
+      "title": "view.php?id=1536",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1538",
+      "title": "view.php?id=1538",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1542",
+      "title": "view.php?id=1542",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1543",
+      "title": "view.php?id=1543",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1544",
+      "title": "view.php?id=1544",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1545",
+      "title": "view.php?id=1545",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=1546",
+      "title": "view.php?id=1546",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=833",
+      "title": "view.php?id=833",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=834",
+      "title": "view.php?id=834",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=835",
+      "title": "view.php?id=835",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=837",
+      "title": "view.php?id=837",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=838",
+      "title": "view.php?id=838",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=839",
+      "title": "view.php?id=839",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=840",
+      "title": "view.php?id=840",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=841",
+      "title": "view.php?id=841",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=842",
+      "title": "view.php?id=842",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=843",
+      "title": "view.php?id=843",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=844",
+      "title": "view.php?id=844",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=845",
+      "title": "view.php?id=845",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=929",
+      "title": "view.php?id=929",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=930",
+      "title": "view.php?id=930",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=931",
+      "title": "view.php?id=931",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/book/view.php?id=932",
+      "title": "view.php?id=932",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/folder/view.php?id=221",
+      "title": "view.php?id=221",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/folder/view.php?id=222",
+      "title": "view.php?id=222",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/folder/view.php?id=223",
+      "title": "view.php?id=223",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/folder/view.php?id=224",
+      "title": "view.php?id=224",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/folder/view.php?id=225",
+      "title": "view.php?id=225",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/folder/view.php?id=226",
+      "title": "view.php?id=226",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/folder/view.php?id=227",
+      "title": "view.php?id=227",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/mod/folder/view.php?id=935",
+      "title": "view.php?id=935",
+      "folder": "grade-9",
+      "filename": "view.php.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/view.php.pdf",
+      "status": "blocked",
+      "reason": "html-response-not-pdf"
+    }
+  ],
+  "failed": [
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_10%20GROUPS%20OF%20FOOD%20CROPS.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_10 GROUPS OF FOOD CROPS.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_10 GROUPS OF FOOD CROPS.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_10 GROUPS OF FOOD CROPS.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_11%20VEGETABLE%20CROPS%20AND%20HOW%20TO%20CLASSIFY%20OR%20ORGANIZE%20VEGETABLE%20CROPS%20.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_11 VEGETABLE CROPS AND HOW TO CLASSIFY OR ORGANIZE VEGETABLE CROPS .epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_11 VEGETABLE CROPS AND HOW TO CLASSIFY OR ORGANIZE VEGETABLE CROPS .epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_11 VEGETABLE CROPS AND HOW TO CLASSIFY OR ORGANIZE VEGETABLE CROPS .epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_12_THE%20IMPORTANCE%20OF%20VEGETABLES%20AND%20HOW%20TO%20PREPARE%20VEGETABLES%20FOR%20FAMILY%20USE.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_12_THE IMPORTANCE OF VEGETABLES AND HOW TO PREPARE VEGETABLES FOR FAMILY USE.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_12_THE IMPORTANCE OF VEGETABLES AND HOW TO PREPARE VEGETABLES FOR FAMILY USE.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_12_THE IMPORTANCE OF VEGETABLES AND HOW TO PREPARE VEGETABLES FOR FAMILY USE.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_13%20CEREAL%20CROPS.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_13 CEREAL CROPS.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_13 CEREAL CROPS.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_13 CEREAL CROPS.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_1WATER%20CONSERVATION%20IN%20FARMING.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_1WATER CONSERVATION IN FARMING.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_1WATER CONSERVATION IN FARMING.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_1WATER CONSERVATION IN FARMING.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_2%20SMALL%20WILD%20ANIMALS%20AND%20THE%20DAMAGE%20THEY%20CAUSE%20IN%20OUR%20FARMS..epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_2 SMALL WILD ANIMALS AND THE DAMAGE THEY CAUSE IN OUR FARMS..epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_2 SMALL WILD ANIMALS AND THE DAMAGE THEY CAUSE IN OUR FARMS..epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_2 SMALL WILD ANIMALS AND THE DAMAGE THEY CAUSE IN OUR FARMS..epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_3%20WAYS%20OF%20LIVING%20BETTER%20WITH%20SMALL%20WILD%20ANIMALS%20AROUND%20OUR%20HOMES.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_3 WAYS OF LIVING BETTER WITH SMALL WILD ANIMALS AROUND OUR HOMES.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_3 WAYS OF LIVING BETTER WITH SMALL WILD ANIMALS AROUND OUR HOMES.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_3 WAYS OF LIVING BETTER WITH SMALL WILD ANIMALS AROUND OUR HOMES.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_4%20DOMESTIC%20ANIMALS%20AND%20THEIR%20PRODUCTS.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_4 DOMESTIC ANIMALS AND THEIR PRODUCTS.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_4 DOMESTIC ANIMALS AND THEIR PRODUCTS.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_4 DOMESTIC ANIMALS AND THEIR PRODUCTS.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_5%20DIFFERENCES%20BETWEEN%20MALE%20AND%20FEMALE%20SHEEP.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_5 DIFFERENCES BETWEEN MALE AND FEMALE SHEEP.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_5 DIFFERENCES BETWEEN MALE AND FEMALE SHEEP.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_5 DIFFERENCES BETWEEN MALE AND FEMALE SHEEP.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_6THE%20DIFFERENCES%20BETWEEN%20A%20FEMALE%20AND%20A%20MALE%20GOAT.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_6THE DIFFERENCES BETWEEN A FEMALE AND A MALE GOAT.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_6THE DIFFERENCES BETWEEN A FEMALE AND A MALE GOAT.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_6THE DIFFERENCES BETWEEN A FEMALE AND A MALE GOAT.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_7%20THE%20DIFFERENCES%20BETWEEN%20MALE%20AND%20FEMALE%20POULTRY.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_7 THE DIFFERENCES BETWEEN MALE AND FEMALE POULTRY.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_7 THE DIFFERENCES BETWEEN MALE AND FEMALE POULTRY.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_7 THE DIFFERENCES BETWEEN MALE AND FEMALE POULTRY.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_8%20USES%20OF%20DOMESTIC%20ANIMALS.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_8 USES OF DOMESTIC ANIMALS.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_8 USES OF DOMESTIC ANIMALS.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_8 USES OF DOMESTIC ANIMALS.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/551/mod_folder/content/0/AGRIC_PROGRAMME_9%20VEGETABLE%20CROPS%20AS%20CROPS%20FOR%20GARDENING.epub?forcedownload=1",
+      "title": "AGRIC_PROGRAMME_9 VEGETABLE CROPS AS CROPS FOR GARDENING.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "AGRIC_PROGRAMME_9 VEGETABLE CROPS AS CROPS FOR GARDENING.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/AGRIC_PROGRAMME_9 VEGETABLE CROPS AS CROPS FOR GARDENING.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_1%20ASPECTS%20OF%20TRADITIONAL%20CULTURE%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_1 ASPECTS OF TRADITIONAL CULTURE IN THE COUNTY.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_1 ASPECTS OF TRADITIONAL CULTURE IN THE COUNTY.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_1 ASPECTS OF TRADITIONAL CULTURE IN THE COUNTY.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_10%20QUALITIES%20OF%20GOOD%20CITIZENSHIP%20IN%20SCHOOL.epub?forcedownload=1",
+      "title": "PROGRAMME_10 QUALITIES OF GOOD CITIZENSHIP IN SCHOOL.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_10 QUALITIES OF GOOD CITIZENSHIP IN SCHOOL.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_10 QUALITIES OF GOOD CITIZENSHIP IN SCHOOL.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_2%20THE%20SCHOOL.epub?forcedownload=1",
+      "title": "PROGRAMME_2 THE SCHOOL.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_2 THE SCHOOL.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_2 THE SCHOOL.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_3%20RESOURCES%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_3 RESOURCES IN THE COUNTY.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_3 RESOURCES IN THE COUNTY.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_3 RESOURCES IN THE COUNTY.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_4%20METHOD%20OF%20TRADE%20USED%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_4 METHOD OF TRADE USED IN THE COUNTY.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_4 METHOD OF TRADE USED IN THE COUNTY.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_4 METHOD OF TRADE USED IN THE COUNTY.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_5%20TRADE%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_5 TRADE IN THE COUNTY.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_5 TRADE IN THE COUNTY.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_5 TRADE IN THE COUNTY.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_6%20INDUSTRIES%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_6 INDUSTRIES IN THE COUNTY.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_6 INDUSTRIES IN THE COUNTY.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_6 INDUSTRIES IN THE COUNTY.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_7%20COMMUNITY%20LEADERS%20IN%20THE%20COUNTY.epub?forcedownload=1",
+      "title": "PROGRAMME_7 COMMUNITY LEADERS IN THE COUNTY.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_7 COMMUNITY LEADERS IN THE COUNTY.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_7 COMMUNITY LEADERS IN THE COUNTY.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/PROGRAMME_8%20QUALITIES%20OF%20A%20GOOD%20LEADER%20IN%20THE%20COMMUNITY.epub?forcedownload=1",
+      "title": "PROGRAMME_8 QUALITIES OF A GOOD LEADER IN THE COMMUNITY.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "PROGRAMME_8 QUALITIES OF A GOOD LEADER IN THE COMMUNITY.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/PROGRAMME_8 QUALITIES OF A GOOD LEADER IN THE COMMUNITY.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/SST_PROGRAMME_11%20CHILD%20ABUSE%20IN%20THE%20COMMUNITY..epub?forcedownload=1",
+      "title": "SST_PROGRAMME_11 CHILD ABUSE IN THE COMMUNITY..epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "SST_PROGRAMME_11 CHILD ABUSE IN THE COMMUNITY..epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/SST_PROGRAMME_11 CHILD ABUSE IN THE COMMUNITY..epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/SST_PROGRAMME_12%20FACTORS%20OR%20REASONS%20THAT%20PROMOTE%20PEACE%20IN%20SCHOOL.epub?forcedownload=1",
+      "title": "SST_PROGRAMME_12 FACTORS OR REASONS THAT PROMOTE PEACE IN SCHOOL.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "SST_PROGRAMME_12 FACTORS OR REASONS THAT PROMOTE PEACE IN SCHOOL.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/SST_PROGRAMME_12 FACTORS OR REASONS THAT PROMOTE PEACE IN SCHOOL.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/553/mod_folder/content/0/SST_PROGRAMME_13%20BENEFITS%20OF%20DEMOCRACY%20IN%20SCHOOL.epub?forcedownload=1",
+      "title": "SST_PROGRAMME_13 BENEFITS OF DEMOCRACY IN SCHOOL.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "SST_PROGRAMME_13 BENEFITS OF DEMOCRACY IN SCHOOL.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/SST_PROGRAMME_13 BENEFITS OF DEMOCRACY IN SCHOOL.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_10%20pronounce%20sounds.epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_10 pronounce sounds.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "ENGLISH_GRADE_4___PROG_10 pronounce sounds.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/ENGLISH_GRADE_4___PROG_10 pronounce sounds.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_6%20Present%20Continuous%20Tense.epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_6 Present Continuous Tense.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "ENGLISH_GRADE_4___PROG_6 Present Continuous Tense.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/ENGLISH_GRADE_4___PROG_6 Present Continuous Tense.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_7Past%20Continuous%20Tense..epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_7Past Continuous Tense..epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "ENGLISH_GRADE_4___PROG_7Past Continuous Tense..epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/ENGLISH_GRADE_4___PROG_7Past Continuous Tense..epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_8%20full%20stops%20and%20capital%20letters.epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_8 full stops and capital letters.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "ENGLISH_GRADE_4___PROG_8 full stops and capital letters.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/ENGLISH_GRADE_4___PROG_8 full stops and capital letters.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/555/mod_folder/content/0/ENGLISH_GRADE_4___PROG_9%20constructed%20forms%20of%20verbs.epub?forcedownload=1",
+      "title": "ENGLISH_GRADE_4___PROG_9 constructed forms of verbs.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "ENGLISH_GRADE_4___PROG_9 constructed forms of verbs.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/ENGLISH_GRADE_4___PROG_9 constructed forms of verbs.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths_Prog_1%20meters%20to%20centimeters.epub?forcedownload=1",
+      "title": "Maths_Prog_1 meters to centimeters.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Maths_Prog_1 meters to centimeters.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Maths_Prog_1 meters to centimeters.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths_Prog_2%20perimeter.epub?forcedownload=1",
+      "title": "Maths_Prog_2 perimeter.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Maths_Prog_2 perimeter.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Maths_Prog_2 perimeter.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths_Prog_3%20area.epub?forcedownload=1",
+      "title": "Maths_Prog_3 area.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Maths_Prog_3 area.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Maths_Prog_3 area.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths_Prog_4%20cubes%20and%20cuboids.epub?forcedownload=1",
+      "title": "Maths_Prog_4 cubes and cuboids.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Maths_Prog_4 cubes and cuboids.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Maths_Prog_4 cubes and cuboids.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths%20Prg%20%208%20telling%20time%20in%20a%20m.epub?forcedownload=1",
+      "title": "Maths Prg  8 telling time in a m.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Maths Prg 8 telling time in a m.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Maths Prg 8 telling time in a m.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths%20Prg%206%20addition%20of%20capacity%20.epub?forcedownload=1",
+      "title": "Maths Prg 6 addition of capacity .epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Maths Prg 6 addition of capacity .epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Maths Prg 6 addition of capacity .epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths%20Pro%20%205%20measure%20capacity.epub?forcedownload=1",
+      "title": "Maths Pro  5 measure capacity.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Maths Pro 5 measure capacity.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Maths Pro 5 measure capacity.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/557/mod_folder/content/0/Maths%20Pro%207%20subtract%20capacity%20.epub?forcedownload=1",
+      "title": "Maths Pro 7 subtract capacity .epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Maths Pro 7 subtract capacity .epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Maths Pro 7 subtract capacity .epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_4_CRE_Prog_12_People_you_can_trust_at_home_and_at_school.epub?forcedownload=1",
+      "title": "Grade_4_CRE_Prog_12_People_you_can_trust_at_home_and_at_school.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Grade_4_CRE_Prog_12_People_you_can_trust_at_home_and_at_school.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Grade_4_CRE_Prog_12_People_you_can_trust_at_home_and_at_school.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_4_CRE_Prog_13_Trusting_in_God.epub?forcedownload=1",
+      "title": "Grade_4_CRE_Prog_13_Trusting_in_God.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Grade_4_CRE_Prog_13_Trusting_in_God.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Grade_4_CRE_Prog_13_Trusting_in_God.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_4_CRE_PROG_14_Truthfulness.epub?forcedownload=1",
+      "title": "Grade_4_CRE_PROG_14_Truthfulness.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Grade_4_CRE_PROG_14_Truthfulness.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Grade_4_CRE_PROG_14_Truthfulness.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_four_CRE_PROG_11_Protecting_yourself_from_sexual_temptations_.epub?forcedownload=1",
+      "title": "Grade_four_CRE_PROG_11_Protecting_yourself_from_sexual_temptations_.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Grade_four_CRE_PROG_11_Protecting_yourself_from_sexual_temptations_.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Grade_four_CRE_PROG_11_Protecting_yourself_from_sexual_temptations_.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/559/mod_folder/content/0/Grade_four_CRE_PROG_15.epub?forcedownload=1",
+      "title": "Grade_four_CRE_PROG_15.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Grade_four_CRE_PROG_15.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Grade_four_CRE_PROG_15.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%201%20Matamshi%20Bora.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 1 Matamshi Bora.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 1 Matamshi Bora.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 1 Matamshi Bora.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%2010%20Barua%20ya%20kirafiki.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 10 Barua ya kirafiki.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 10 Barua ya kirafiki.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 10 Barua ya kirafiki.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%202%20Vitanzandimi.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 2 Vitanzandimi.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 2 Vitanzandimi.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 2 Vitanzandimi.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%203%20nomino.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 3 nomino.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 3 nomino.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 3 nomino.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%204%20Insha%20ya%20wasifu.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 4 Insha ya wasifu.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 4 Insha ya wasifu.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 4 Insha ya wasifu.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%205%20vitenzi.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 5 vitenzi.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 5 vitenzi.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 5 vitenzi.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%206%20matumizi%20ya%20kamusi.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 6 matumizi ya kamusi.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 6 matumizi ya kamusi.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 6 matumizi ya kamusi.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%207%20nomino%20katika%20ngeli%20ya%20A-WA.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 7 nomino katika ngeli ya A-WA.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 7 nomino katika ngeli ya A-WA.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 7 nomino katika ngeli ya A-WA.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%208%20Maneno%20ya%20adabu.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 8 Maneno ya adabu.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 8 Maneno ya adabu.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 8 Maneno ya adabu.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/561/mod_folder/content/0/Kiswahili%20grade%204%20prog%209%20methali%20zinazohusu%20malezi.epub?forcedownload=1",
+      "title": "Kiswahili grade 4 prog 9 methali zinazohusu malezi.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Kiswahili grade 4 prog 9 methali zinazohusu malezi.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Kiswahili grade 4 prog 9 methali zinazohusu malezi.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/563/mod_folder/content/0/Science%20grade_4_prog_10%20Objects%20that%20float%20and%20sink..epub?forcedownload=1",
+      "title": "Science grade_4_prog_10 Objects that float and sink..epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Science grade_4_prog_10 Objects that float and sink..epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Science grade_4_prog_10 Objects that float and sink..epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/563/mod_folder/content/0/Science%20Grade%204-prog%2012%20How%20to%20make%20floaters%20sink.epub?forcedownload=1",
+      "title": "Science Grade 4-prog 12 How to make floaters sink.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Science Grade 4-prog 12 How to make floaters sink.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Science Grade 4-prog 12 How to make floaters sink.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/563/mod_folder/content/0/Science%20Grade%204%20prog%2011%20Factors%20that%20affect%20floating%20and%20sinking.epub?forcedownload=1",
+      "title": "Science Grade 4 prog 11 Factors that affect floating and sinking.epub?forcedownload=1",
+      "folder": "grade-4",
+      "filename": "Science Grade 4 prog 11 Factors that affect floating and sinking.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-4/Science Grade 4 prog 11 Factors that affect floating and sinking.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    },
+    {
+      "type": "kec",
+      "url": "https://lms.kec.ac.ke/pluginfile.php/563/mod_folder/content/0/Science%20grade%204prog_13%20How%20to%20make%20sinkers%20float.epub?forcedownload=1",
+      "title": "Science grade 4prog_13 How to make sinkers float.epub?forcedownload=1",
+      "folder": "grade-9",
+      "filename": "Science grade 4prog_13 How to make sinkers float.epub.pdf",
+      "destPath": "knowledge-base/pdfs/grade-9/Science grade 4prog_13 How to make sinkers float.epub.pdf",
+      "status": "failed",
+      "reason": "unexpected-content-type:application/epub+zip"
+    }
+  ]
+}

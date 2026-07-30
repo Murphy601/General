@@ -1,0 +1,698 @@
+{
+  "usedItems": [
+    "el-def-0",
+    "sym-ca-0",
+    "nacl-0",
+    "phys-0",
+    "liq-0",
+    "fire-0",
+    "diff-0",
+    "osm-0",
+    "mag-0",
+    "press-0",
+    "s-el-0",
+    "s-phys-0",
+    "s-p-0",
+    "s-fire-0",
+    "phys-1",
+    "liq-1",
+    "fire-1",
+    "diff-1",
+    "osm-1",
+    "mag-1",
+    "press-1",
+    "energy-1",
+    "fe-1",
+    "el-def-1",
+    "s-p-1",
+    "s-fire-1",
+    "s-osm-1",
+    "s-en-1",
+    "diff-2",
+    "osm-2",
+    "mag-2",
+    "press-2",
+    "energy-2",
+    "fe-2",
+    "el-def-2",
+    "sym-ca-2",
+    "nacl-2",
+    "phys-2",
+    "s-osm-2",
+    "s-en-2",
+    "s-el-2",
+    "s-phys-2",
+    "press-3",
+    "energy-3",
+    "fe-3",
+    "el-def-3",
+    "sym-ca-3",
+    "nacl-3",
+    "phys-3",
+    "liq-3",
+    "fire-3",
+    "diff-3",
+    "s-el-3",
+    "s-phys-3",
+    "s-p-3",
+    "s-fire-3",
+    "el-def-4",
+    "sym-ca-4",
+    "nacl-4",
+    "phys-4",
+    "liq-4",
+    "fire-4",
+    "diff-4",
+    "osm-4",
+    "mag-4",
+    "press-4",
+    "s-p-4",
+    "s-fire-4",
+    "s-osm-4",
+    "s-en-4",
+    "phys-5",
+    "liq-5",
+    "fire-5",
+    "diff-5",
+    "osm-5",
+    "mag-5",
+    "press-5",
+    "energy-5",
+    "fe-5",
+    "el-def-5",
+    "s-osm-5",
+    "s-en-5",
+    "s-el-5",
+    "s-phys-5",
+    "diff-6",
+    "osm-6",
+    "mag-6",
+    "press-6",
+    "energy-6",
+    "fe-6",
+    "el-def-6",
+    "sym-ca-6",
+    "nacl-6",
+    "phys-6",
+    "s-el-6",
+    "s-phys-6",
+    "s-p-6",
+    "s-fire-6",
+    "press-7",
+    "energy-7",
+    "fe-7",
+    "el-def-7",
+    "sym-ca-7",
+    "nacl-7",
+    "phys-7",
+    "liq-7",
+    "fire-7",
+    "diff-7",
+    "s-p-7",
+    "s-fire-7",
+    "s-osm-7",
+    "s-en-7",
+    "el-def-8",
+    "sym-ca-8",
+    "nacl-8",
+    "phys-8",
+    "liq-8",
+    "fire-8",
+    "diff-8",
+    "osm-8",
+    "mag-8",
+    "press-8",
+    "s-osm-8",
+    "s-en-8",
+    "s-el-8",
+    "s-phys-8",
+    "phys-9",
+    "liq-9",
+    "fire-9",
+    "diff-9",
+    "osm-9",
+    "mag-9",
+    "press-9",
+    "energy-9",
+    "fe-9",
+    "el-def-9",
+    "s-el-9",
+    "s-phys-9",
+    "s-p-9",
+    "s-fire-9",
+    "diff-10",
+    "osm-10",
+    "mag-10",
+    "press-10",
+    "energy-10",
+    "fe-10",
+    "el-def-10",
+    "sym-ca-10",
+    "nacl-10",
+    "phys-10",
+    "s-p-10",
+    "s-fire-10",
+    "s-osm-10",
+    "s-en-10",
+    "press-11",
+    "energy-11",
+    "fe-11",
+    "el-def-11",
+    "sym-ca-11",
+    "nacl-11",
+    "phys-11",
+    "liq-11",
+    "fire-11",
+    "diff-11",
+    "s-osm-0",
+    "s-en-0",
+    "el-def-12",
+    "sym-ca-12",
+    "nacl-12",
+    "phys-12",
+    "liq-12",
+    "fire-12",
+    "diff-12",
+    "osm-12",
+    "mag-12",
+    "press-12",
+    "s-el-1",
+    "s-phys-1",
+    "phys-13",
+    "liq-13",
+    "fire-13",
+    "diff-13",
+    "osm-13",
+    "mag-13",
+    "press-13",
+    "energy-13",
+    "fe-13",
+    "el-def-13",
+    "s-p-2",
+    "s-fire-2",
+    "diff-14",
+    "osm-14",
+    "mag-14",
+    "press-14",
+    "energy-14",
+    "fe-14",
+    "el-def-14",
+    "sym-ca-14",
+    "nacl-14",
+    "phys-14",
+    "s-osm-3",
+    "s-en-3",
+    "press-15",
+    "energy-15",
+    "fe-15",
+    "el-def-15",
+    "sym-ca-15",
+    "nacl-15",
+    "phys-15",
+    "liq-15",
+    "fire-15",
+    "diff-15",
+    "s-el-4",
+    "s-phys-4",
+    "el-def-16",
+    "sym-ca-16",
+    "nacl-16",
+    "phys-16",
+    "liq-16",
+    "fire-16",
+    "diff-16",
+    "osm-16",
+    "mag-16",
+    "press-16",
+    "s-p-5",
+    "s-fire-5",
+    "energy-0",
+    "fe-0",
+    "s-osm-6",
+    "s-en-6",
+    "sym-ca-1",
+    "nacl-1",
+    "s-el-7",
+    "s-phys-7",
+    "liq-2",
+    "fire-2",
+    "s-p-8",
+    "s-fire-8",
+    "osm-3",
+    "mag-3",
+    "energy-4",
+    "fe-4",
+    "sym-ca-5",
+    "nacl-5",
+    "liq-6",
+    "fire-6",
+    "osm-7",
+    "mag-7",
+    "energy-8",
+    "fe-8",
+    "sym-ca-9",
+    "nacl-9",
+    "s-osm-9",
+    "s-en-9",
+    "liq-10",
+    "fire-10",
+    "s-el-10",
+    "s-phys-10",
+    "osm-11",
+    "mag-11",
+    "energy-12",
+    "fe-12",
+    "sym-ca-13",
+    "nacl-13",
+    "liq-14",
+    "fire-14",
+    "osm-15",
+    "mag-15",
+    "energy-16",
+    "fe-16"
+  ],
+  "papers": [
+    {
+      "tier": "GENERAL",
+      "index": 1,
+      "id": "e2046184-4a2e-4285-9092-9339c8f9b21c"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 2,
+      "id": "8ab210eb-db64-4110-8fd9-2219f98c8d7d"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 3,
+      "id": "2c73d8dd-de52-4aee-866e-6f81908f081f"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 4,
+      "id": "1e83222a-4e17-4b93-bdbf-815bf58d2d2e"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 5,
+      "id": "adfc4c25-a409-4c6b-97e2-9412e4aa13f8"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 6,
+      "id": "dc0342a6-9200-496c-98e7-909780076fa8"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 7,
+      "id": "4bd8f284-57a8-430e-8a13-762ea689042b"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 8,
+      "id": "0ffdbfe3-6385-489d-87de-33a9307f950b"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 9,
+      "id": "8d74a822-5f77-4e6c-ae89-c2e0b371e51c"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 10,
+      "id": "d759b847-8e15-49dc-9968-05e7290f1de2"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 11,
+      "id": "90941030-2730-4e5a-9624-eba16eaf250d"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 12,
+      "id": "a986aa80-870b-4251-85a9-ed5d5eb532dd"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 13,
+      "id": "3f9ab6d7-2e32-45a9-bf6a-3f17f0d57f2c"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 14,
+      "id": "210a4047-a077-4be1-b07d-bea246b5dda7"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 15,
+      "id": "255f4d3d-2a4c-4c51-964f-4a42637a520b"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 16,
+      "id": "fc5be4cb-7a69-4049-b3c4-bc11c4787634"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 17,
+      "id": "babe6a56-44e7-4934-804b-e2a820123efa"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 18,
+      "id": "2aecf839-a9d1-49f7-92ac-b7350d250ace"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 19,
+      "id": "7798627a-ebaa-4c06-8a29-1f753a7871be"
+    },
+    {
+      "tier": "GENERAL",
+      "index": 20,
+      "id": "cdbdc5a4-e81a-46c4-90b7-699e33609069"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 1,
+      "index": 1,
+      "id": "51524735-6680-49ec-89c5-011d1b12a1a7"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 2,
+      "index": 2,
+      "id": "6e89b55a-4981-4cd5-b894-7650ef8444c6"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 3,
+      "index": 3,
+      "id": "fec9c406-7e1f-4d30-bd1d-e37bc5186def"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 1,
+      "index": 4,
+      "id": "13b2243c-75f8-44f2-856c-7d9c12461530"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 2,
+      "index": 5,
+      "id": "e00b650f-56d6-4a88-a5f4-5418ec3e04f0"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 3,
+      "index": 6,
+      "id": "95a313bf-acd2-4c38-98a2-7eb8b4ff3078"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 1,
+      "index": 7,
+      "id": "fb10f0ff-d78c-47dc-b90c-24366285ea55"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 2,
+      "index": 8,
+      "id": "bab78f60-e4b9-4066-9694-6aa33d8ea1d7"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 3,
+      "index": 9,
+      "id": "61f08899-43bd-4982-b246-663ab3cc0e2f"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 1,
+      "index": 10,
+      "id": "f87c1bef-9e62-4ba2-87ad-7f32d5532081"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 2,
+      "index": 11,
+      "id": "0829864c-d1e5-4bf1-908d-77d27c001a9f"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 3,
+      "index": 12,
+      "id": "bd355910-e1d2-4135-a9d3-001e0d73273c"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 1,
+      "index": 13,
+      "id": "2d6397c2-cc04-4426-a96b-fb27b1fb2923"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 2,
+      "index": 14,
+      "id": "9ff46e8a-4861-411a-80f1-03bb779cf425"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 3,
+      "index": 15,
+      "id": "d9621f07-cf13-465d-9d6a-6f6b7b3d848d"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 1,
+      "index": 16,
+      "id": "065ce72b-2389-46d5-89c7-0be958d4ab31"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 2,
+      "index": 17,
+      "id": "9f167e9a-d5d4-4ee1-9f66-53386b5c7860"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 3,
+      "index": 18,
+      "id": "f75de13b-c576-42c9-bfe8-9e3d6e5a6793"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 1,
+      "index": 19,
+      "id": "9f166a72-5214-44ec-9856-e3741f99b025"
+    },
+    {
+      "tier": "TERMLY",
+      "term": 2,
+      "index": 20,
+      "id": "a21c6053-a982-45c4-a08d-d01f79cd62da"
+    },
+    {
+      "tier": "MOCK",
+      "index": 1,
+      "id": "3816aa44-841a-4346-9c80-382b8eeb4fce"
+    },
+    {
+      "tier": "MOCK",
+      "index": 2,
+      "id": "06468a67-3bf8-44b5-8830-442629eb5c5c"
+    },
+    {
+      "tier": "MOCK",
+      "index": 3,
+      "id": "9a1cb2fd-bb23-4916-b302-bea03a770a13"
+    },
+    {
+      "tier": "MOCK",
+      "index": 4,
+      "id": "e06534bd-8530-4cbe-a9ee-e793c0ebab25"
+    },
+    {
+      "tier": "MOCK",
+      "index": 5,
+      "id": "a4afd2b9-c158-4f30-8cb2-731ce8e1536d"
+    },
+    {
+      "tier": "MOCK",
+      "index": 6,
+      "id": "651a5d86-3d8f-422f-819b-cc9ff7b778d6"
+    },
+    {
+      "tier": "MOCK",
+      "index": 7,
+      "id": "7f104634-a312-4b67-831b-ff889e1ced5d"
+    },
+    {
+      "tier": "MOCK",
+      "index": 8,
+      "id": "48c2fba2-baf9-41f2-98c9-6e4aeff90dff"
+    },
+    {
+      "tier": "MOCK",
+      "index": 9,
+      "id": "22bdbe86-50c3-40c3-b477-d6b95ab6bafe"
+    },
+    {
+      "tier": "MOCK",
+      "index": 10,
+      "id": "89a093e3-580f-4cc8-96a3-8713578dfa32"
+    },
+    {
+      "tier": "MOCK",
+      "index": 11,
+      "id": "61542c15-b3cd-4db4-9d3b-960bcb76e07e"
+    },
+    {
+      "tier": "MOCK",
+      "index": 12,
+      "id": "037a023b-94c6-48f3-a5c9-993f74324fe3"
+    },
+    {
+      "tier": "MOCK",
+      "index": 13,
+      "id": "a7e923c2-9f6d-419b-b41d-3fac2a278f7f"
+    },
+    {
+      "tier": "MOCK",
+      "index": 14,
+      "id": "254d19a9-9c3f-49f7-b917-08e7f7bfa3ef"
+    },
+    {
+      "tier": "MOCK",
+      "index": 15,
+      "id": "3efff2ac-a739-472d-81d3-fa985917363c"
+    },
+    {
+      "tier": "MOCK",
+      "index": 16,
+      "id": "a5949994-e5b4-46b8-a0ff-0d04042ae9a4"
+    },
+    {
+      "tier": "MOCK",
+      "index": 17,
+      "id": "030ac5b6-3607-43d0-a057-3958b69db77e"
+    },
+    {
+      "tier": "MOCK",
+      "index": 18,
+      "id": "f8c72992-0bab-482a-a481-509e8471b46f"
+    },
+    {
+      "tier": "MOCK",
+      "index": 19,
+      "id": "ee6a49e8-f03f-4f83-92db-ed154030748e"
+    },
+    {
+      "tier": "MOCK",
+      "index": 20,
+      "id": "32e6e455-b178-4502-8e97-e46aa742c53a"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 1,
+      "id": "4732a5b6-4eec-4c04-8bd7-eec97ab2f7f3"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 2,
+      "id": "5d710850-0fd8-407c-9c93-fe00108f195e"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 3,
+      "id": "af54da7b-a0be-451b-926c-f0237a86ced8"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 4,
+      "id": "7eae2453-493c-49f9-830d-bb638addd8a1"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 5,
+      "id": "7dd72a1e-0772-4dd9-a823-dff42d73fe14"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 6,
+      "id": "0e74b38d-7242-4acf-8576-d6b7e1458cdb"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 7,
+      "id": "5a83be21-952f-43b3-9154-8f5b38aeecc2"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 8,
+      "id": "b1d2f4a9-02c0-438c-9e6c-d4aa24a4ea59"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 9,
+      "id": "0b1a8bb6-3cae-4072-a6e7-da5b9f63b3fd"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 10,
+      "id": "6fbdc68f-63a0-4cf1-a098-fafe15ed711b"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 11,
+      "id": "786dfb03-98b3-4a6c-acbb-d993bdb96dd4"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 12,
+      "id": "7415252e-bcd3-4a37-88c2-562bc4587eb0"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 13,
+      "id": "9efdc943-2186-49df-baab-58af4c596ca5"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 14,
+      "id": "1bab0f76-2e20-403c-ab16-173313ac8388"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 15,
+      "id": "1dc05d4b-c724-4742-abc6-775ff83fdbb3"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 16,
+      "id": "18a427c6-3d70-437d-8e11-4b5ca370347a"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 17,
+      "id": "9e8005ca-556f-469e-bf45-e6475680113e"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 18,
+      "id": "c793c508-5b72-4543-81e4-a369b7b5d5d3"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 19,
+      "id": "f209440d-016e-4aee-bf14-01f1984f2486"
+    },
+    {
+      "tier": "PREMIUM",
+      "index": 20,
+      "id": "6a8c11d7-5517-404c-a0b9-03649738bb81"
+    }
+  ],
+  "updatedAt": "2026-07-23T01:03:58.981Z",
+  "papersPerTier": 20
+}
