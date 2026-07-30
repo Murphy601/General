@@ -173,6 +173,23 @@ export function conceptPrompt({ title, detail }) {
   });
 }
 
+/** Phototropism / plant response figure */
+export function tropismPrompt({ kind = 'phototropism' } = {}) {
+  const detail =
+    kind === 'geotropism'
+      ? 'Seedling on its side: root curving down (positive geotropism), shoot curving up (negative geotropism), gravity arrow labeled.'
+      : kind === 'compare'
+        ? 'Two panels: (1) shoot bending towards unilateral light labeled positive phototropism; (2) flower opening/closing labeled nastic response (non-directional).'
+        : 'Young shoot bending towards a lamp on one side; label unilateral light, shoot tip, and positive phototropism; optional note on auxin on the shaded side.';
+  return diagramBlock({
+    type: 'figure-prompt',
+    purpose: `Illustrate ${kind} for plant response and coordination.`,
+    alt: `Diagram of ${kind} in plants.`,
+    caption: kind === 'geotropism' ? 'Geotropism in root and shoot' : kind === 'compare' ? 'Tropism vs nastic response' : 'Positive phototropism in a shoot',
+    payload: `Clean CBC textbook diagram: ${detail} White background, clear black labels, no decorative clutter.`,
+  });
+}
+
 /**
  * Pick a diagram for a lesson page from subject/topic keywords.
  * Returns null when no diagram fits.
@@ -181,10 +198,17 @@ export function pickDiagram({ subject = '', topicName = '', pageTitle = '', page
   const blob = `${subject} ${topicName} ${pageTitle}`.toLowerCase();
   const n = pageNumber + variant;
 
+  // Plant responses BEFORE generic "plant cell" defaults
+  if (/response and coordination in plants|tropic|nastic|phototropism|geotropism|hydrotropism|auxin/.test(blob)) {
+    if (/geo|gravi/.test(blob)) return tropismPrompt({ kind: 'geotropism' });
+    if (/nastic|compare|contrast/.test(blob)) return tropismPrompt({ kind: 'compare' });
+    return tropismPrompt({ kind: 'phototropism' });
+  }
+
   if (/pressure|force and area|p = f/.test(blob)) return pressureForceAreaSvg({ F: 100 + (n % 5) * 50, A: [0.2, 0.25, 0.5, 0.4][n % 4] });
   if (/fire|combustion|extinguish/.test(blob)) return fireTriangleSvg();
   if (/state of matter|solid|liquid|gas|particle/.test(blob) && /science|matter|change/.test(blob)) return statesParticlePrompt();
-  if (/plant cell|chloroplast|vacuole/.test(blob)) return cellDiagramPrompt({ kind: 'plant' });
+  if (/plant cell|chloroplast|vacuole/.test(blob) && !/response|tropic|nastic/.test(blob)) return cellDiagramPrompt({ kind: 'plant' });
   if (/animal cell|mitochondria|nucleus/.test(blob) && /cell/.test(blob)) return cellDiagramPrompt({ kind: 'animal' });
   if (/water cycle|nitrogen cycle|carbon cycle/.test(blob)) return cyclePrompt({ title: blob.match(/water cycle|nitrogen cycle|carbon cycle/)[0] });
   if (/pythagoras|hypotenuse|right.?angl/.test(blob)) return rightTriangleSvg();
@@ -207,13 +231,11 @@ export function pickDiagram({ subject = '', topicName = '', pageTitle = '', page
       return picks[n % picks.length]();
     }
     if (/science|biology|chemistry|physics|agricult|environment/.test(subject.toLowerCase())) {
-      const picks = [
-        () => statesParticlePrompt(),
-        () => cellDiagramPrompt({ kind: n % 2 ? 'plant' : 'animal' }),
-        () => conceptPrompt({ title: topicName || pageTitle, detail: 'Show the main parts or process with clear labels.' }),
-        () => cyclePrompt({ title: topicName || 'Process cycle' }),
-      ];
-      return picks[n % picks.length]();
+      // Prefer topic-titled concept diagram over random plant-cell for unrelated biology topics
+      return conceptPrompt({
+        title: topicName || pageTitle,
+        detail: 'Show the main process or structures for this topic with 3–5 clear labels a learner can copy.',
+      });
     }
     if (/geo|social|history|map/.test(subject.toLowerCase() + blob)) {
       return conceptPrompt({

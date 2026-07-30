@@ -114,8 +114,11 @@ function cleanConceptTitle(raw, fallback) {
   t = t.replace(/^(determine|obtain|explain|derive and use|describe|identify|state|discuss|carry out)\s+(with peers\s+)?(the\s+)?/i, '');
   t = t.replace(/\b(activities to( analyse)?|use print and non-print)\b.*$/i, '').trim();
   t = t.charAt(0).toUpperCase() + t.slice(1);
-  // Reject truncated prepositional endings
-  if (/\b(of|the|to|and|for|with|using|from|a|an)$/i.test(t) || t.split(/\s+/).length < 2) {
+  // Reject truncated prepositional endings (but allow single scientific terms like Phototropism)
+  if (/\b(of|the|to|and|for|with|using|from|a|an)$/i.test(t)) {
+    t = fallback || 'Core idea';
+  }
+  if (t.split(/\s+/).length < 2 && !/^[A-Z][a-z]+(ism|osis|esis|tion|ogy|ase|in)$/i.test(t) && t.length < 8) {
     t = fallback || 'Core idea';
   }
   if (t.length > 70) t = `${t.slice(0, 67).replace(/\s+\S*$/, '')}…`;
@@ -140,6 +143,17 @@ export function buildAutoPageMap(topic) {
       'Factors affecting boiling and melting points',
       'Calorimetry method',
       'Temperature change vs change of state',
+    ],
+    'response and coordination in plants': [
+      'Stimuli and plant responses',
+      'Tropisms — directional growth',
+      'Phototropism',
+      'Geotropism',
+      'Hydrotropism',
+      'Thigmotropism',
+      'Nastic responses',
+      'Role of auxin',
+      'Tropism vs nastic responses',
     ],
   };
   const bank = BANK[String(name).toLowerCase()];

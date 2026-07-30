@@ -135,7 +135,15 @@ function lightQAPass(studyPages, drama) {
     if (/Learners should ignore|Q1\/A1\b|Around .+?, learners meet/i.test(p.body)) return false;
     if (/^#{1,3}\s|\*\*[^*]+\*\*/m.test(p.body)) return false;
     if (/Determine the heat capacity,\.|Of various substances using a\./i.test(p.body)) return false;
+    if (/is a science idea you must define accurately, apply with a method, and check with units/i.test(p.body)) return false;
     if (isHeat && /Volume of cuboid|Ksh \d+ each|Find the change/i.test(p.body)) return false;
+    if (/response and coordination in plants|tropic|nastic/i.test(topicBlob) && /Labeled plant cell diagram/i.test(p.body) && !/plant cell structures|cell wall/i.test(p.title)) {
+      // Plant-response pages should not default to a random plant-cell figure as the only visual idea
+      // Soft: only fail if notes are also generic fluff
+      if (/is a biology idea: define it with the correct scientific words/i.test(p.body) === false && /tropism|auxin|nastic|phototropism/i.test(p.body) === false) {
+        return false;
+      }
+    }
     const m = p.body.match(/INTRODUCTION\n----\n([\s\S]*?)(\n\n[A-Z]|\nMAIN NOTES)/i);
     const intro = (m?.[1] || '').trim();
     if (intro.length < 40 || matchesBannedIntro(intro) || hasLocationFiller(intro)) return false;

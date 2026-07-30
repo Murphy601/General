@@ -8,7 +8,7 @@ import { pickDiagram } from './diagram.mjs';
 import { buildIntro } from './intros.mjs';
 import { matchesBannedIntro, outcomeToGoal, hasLocationFiller } from './config.mjs';
 import { needsCalcQuiz, buildCalcQuizItem, buildCalcHeavyPageQA } from './quiz-calc.mjs';
-import { isJunkFact, teachNotes, teachWorked } from './topic-teach.mjs';
+import { isJunkFact, teachNotes, teachWorked, teachRevisionQA } from './topic-teach.mjs';
 
 function hash(s) {
   let h = 0;
@@ -487,9 +487,16 @@ export function buildPageRevisionQA({ ideaLabel, topicName, subject, notes, scop
   const idea = shortIdea(ideaLabel);
   const topic = String(topicName || 'this topic').trim();
   const fact = toUnicodeFormula(notes?.[0] || scope || idea);
-  const fact2 = toUnicodeFormula(notes?.[1] || notes?.[0] || scope || idea);
   const goal = toUnicodeFormula(outcomeToGoal(scope || idea));
   const v = Math.abs(Number(variant) || 0);
+
+  // Specialised conceptual banks (e.g. plant tropisms) before calc/generic
+  const taughtQA = teachRevisionQA({
+    page: { title: ideaLabel },
+    topic: { topicName: topic, subject },
+    variant: v,
+  });
+  if (taughtQA?.questions?.length) return taughtQA;
 
   // Math / science / quantitative subjects → real CALCULATE items with workings
   if (needsCalcQuiz(subject, topic, ideaLabel) && !isMetaPhaseTitle(ideaLabel)) {
@@ -635,10 +642,12 @@ export function buildQuizFromUniversalPages(studyPages, topic) {
       n++;
     }
     quizLines.push(
-      `${n}. SYNTHESIS: Across ${topicName}, name the one idea a learner most often confuses, state the accurate version, and give one quick check that proves they finally understand it.`,
+      `${n}. SYNTHESIS: Across ${topicName}, name the idea learners confuse most (for plants: often tropism vs nastic), state the accurate distinction, and give one quick check example.`,
     );
     answerLines.push(
-      `${n}. Strong synthesis: pick the most common mix-up in ${topicName}, replace it with the accurate definition from the study pages, and prove it with a short example or “wrong vs right” contrast from the notes.`,
+      /response and coordination in plants|tropic|nastic/i.test(topicName)
+        ? `${n}. Common mix-up: calling every plant movement a tropism. Accurate: tropisms are directional growth responses; nastic responses are not directional. Check: shoot bending to a lamp = phototropism; flower opening with day/night = nastic.`
+        : `${n}. Strong synthesis: pick the most common mix-up in ${topicName}, replace it with the accurate definition from the study pages, and prove it with a short example or “wrong vs right” contrast from the notes.`,
     );
   }
 
