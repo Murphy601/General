@@ -1,0 +1,64 @@
+export type D1PreparedStatement = {
+  bind: (...values: unknown[]) => D1PreparedStatement;
+  first: <T = Record<string, unknown>>() => Promise<T | null>;
+  all: <T = Record<string, unknown>>() => Promise<{ results: T[] }>;
+  run: () => Promise<{ success: boolean; error?: string }>;
+};
+
+export type D1Database = {
+  prepare: (query: string) => D1PreparedStatement;
+};
+
+export type AppEnv = {
+  ASSETS?: { fetch: (input: RequestInfo | URL, init?: RequestInit) => Promise<Response> };
+  DB?: D1Database;
+  MPESA_CONSUMER_KEY?: string;
+  MPESA_CONSUMER_SECRET?: string;
+  MPESA_SHORTCODE?: string;
+  MPESA_PASSKEY?: string;
+  MPESA_ENV?: string;
+  MPESA_CALLBACK_URL?: string;
+  APP_URL?: string;
+};
+
+let cached: AppEnv | null | undefined;
+let pendingEnv: Promise<AppEnv | null> | null = null;
+
+/** True inside a Cloudflare Worker isolate (not local `next dev`). */
+export function isCloudflareWorker(): boolean {
+  const cachesObj = (globalThis as { caches?: { default?: unknown } }).caches;
+  return Boolean(cachesObj && 'default' in cachesObj);
+}
+
+export async function getAppEnv(): Promise<AppEnv | null> {
+  if (cached !== undefined) return cached;
+  if (!pendingEnv) {
+    pendingEnv = (async () => {
+      try {
+        const { getCloudflareContext } = await import('@opennextjs/cloudflare');
+        const ctx = await getCloudflareContext({ async: true });
+        cached = (ctx?.env as AppEnv) ?? null;
+      } catch {
+        cached = null;
+      }
+      return cached ?? null;
+    })();
+  }
+  return pendingEnv;
+}
+
+export async function getDb(): Promise<D1Database | null> {
+  const env = await getAppEnv();
+  if (env?.DB) return env.DB;
+  // Worker has ASSETS but no D1 — fail closed. Never open SQLite on Workers.
+  if (env?.ASSETS || isCloudflareWorker()) return null;
+  const { getLocalDb } = await import('./local-d1');
+  return getLocalDb();
+}
+
+export function readConfig(env: AppEnv | null, key: keyof AppEnv): string {
+  const fromEnv = env?.[key];
+  if (typeof fromEnv === 'string' && fromEnv.trim()) return fromEnv.trim();
+  const fromProcess = process.env[key];
+  return typeof fromProcess === 'string' ? fromProcess.trim() : '';
+}

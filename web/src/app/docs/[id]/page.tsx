@@ -1,12 +1,11 @@
 import { PlatformLayout } from '@/components/PlatformLayout';
-import { ContentCard } from '@/components/ContentCard';
 import { getContent } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
 export default async function DocDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const item = getContent(id);
+  const item = await getContent(id);
   if (!item || item.type !== 'notes') notFound();
 
   return (

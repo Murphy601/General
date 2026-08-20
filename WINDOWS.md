@@ -1,6 +1,16 @@
-# CBC Learn — Windows setup
+# HighTech CBC Learners — Windows setup
 
 Run these in **PowerShell** from the project folder (`C:\Users\user\General`).
+
+If `npm` fails with **running scripts is disabled**, fix it **once** (this user only):
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+Close and reopen PowerShell. After that, `npm` works like a normal command — you do not keep using `npm.cmd`.
+
+Always use the **`main`** branch (not `cursor/cbc-learning-website-0ec7`).
 
 ## First-time / after a failed pull
 
@@ -14,10 +24,10 @@ Get-Process -Name node -ErrorAction SilentlyContinue | Stop-Process -Force
 git restore web/data/content/index.json web/package-lock.json web/package.json web/public/data/catalog.json 2>$null
 git stash push -u -m "local-before-pull" 2>$null
 
-# Get latest
+# Get latest from main
 git fetch origin
-git checkout cursor/cbc-learning-website-0ec7
-git pull origin cursor/cbc-learning-website-0ec7
+git checkout main
+git pull origin main
 
 # Refresh curriculum catalog from the committed .gz (important after pull)
 npm run curriculum:prepare
@@ -32,7 +42,9 @@ cd web
 npm run dev
 ```
 
-Open the URL Next prints (e.g. `http://localhost:3000/learn`).
+Open the URL Next prints (e.g. `http://localhost:3000`). The home page shows **PP1 and PP2** under Pre-Primary, then Grade 1–12.
+
+Live site: https://hightech-cbc-learners.mikeal-murphy.workers.dev
 
 ## If `EPERM` on `web\.next\trace`
 
@@ -51,12 +63,12 @@ npm run dev
 ```powershell
 cd C:\Users\user\General
 git restore web/data/content/index.json
-git pull origin cursor/cbc-learning-website-0ec7
+git pull origin main
 ```
 
 Or stash everything:
 
 ```powershell
 git stash push -u -m "wip"
-git pull origin cursor/cbc-learning-website-0ec7
+git pull origin main
 ```

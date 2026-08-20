@@ -14,7 +14,7 @@ const TYPE_TO_CATEGORY: Record<string, string> = {
 
 export default async function RevisionPaperPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const item = getContent(id);
+  const item = await getContent(id);
   if (!item) notFound();
 
   const examTypes = ['exam', 'quiz', 'mock-exam', 'termly-exam', 'premium-exam', 'past-paper'];

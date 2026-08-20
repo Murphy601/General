@@ -1,8 +1,10 @@
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { PlatformLayout } from '@/components/PlatformLayout';
-import { getContent, getTopics, findSubjectBySlug, getGrades } from '@/lib/content-store';
+import { getContent, getTopics, findSubjectBySlug } from '@/lib/content-store';
 import { TopicViewer } from '@/components/TopicViewer';
+import { getCurrentUser } from '@/lib/auth';
+import { subscriberUnlocksLessons } from '@/lib/access';
 import { notFound } from 'next/navigation';
 
 export default async function TopicLessonPage({
@@ -12,17 +14,17 @@ export default async function TopicLessonPage({
 }) {
   const { grade, subject: subjectSlug, topic: topicSlug } = await params;
   const gradeKey = decodeURIComponent(grade);
-  const subject = findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
+  const subject = await findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
   if (!subject) notFound();
 
-  const topics = getTopics(gradeKey, subject);
+  const topics = await getTopics(gradeKey, subject);
   const topicMeta = topics.find((t) => t.slug === topicSlug || t.topicNumber === topicSlug);
   if (!topicMeta?.contentId) notFound();
 
-  const content = getContent(topicMeta.contentId);
+  const content = await getContent(topicMeta.contentId);
   if (!content?.pages) notFound();
+  const user = await getCurrentUser();
 
-  const label = getGrades().find((g) => g.grade === gradeKey)?.label || gradeKey;
   const topicIndex = topics.findIndex((t) => t.contentId === content.id);
   const prev = topicIndex > 0 ? topics[topicIndex - 1] : null;
   const next = topicIndex < topics.length - 1 ? topics[topicIndex + 1] : null;
@@ -47,13 +49,7 @@ export default async function TopicLessonPage({
               lockPages: content.metadata?.lockPages,
             },
           }}
-          // Pre-publish: keep multipage topics fully open unless lockPages is enabled.
-          unlocked={
-            content.metadata?.lockPages === true
-              ? false
-              : content.metadata?.access === 'free' ||
-                Boolean(content.pages?.studyPages?.length)
-          }
+          unlocked={subscriberUnlocksLessons(user)}
         />
       </Suspense>
 

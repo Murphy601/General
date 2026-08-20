@@ -1,17 +1,22 @@
-# CBC Learn — Monetizable Learning Platform
+# HighTech CBC Learners — Monetizable Learning Platform
 
-**Not a KICD mirror.** Official curriculum PDFs are the *source engine*. This platform sells AI-generated learning products.
+**Not a KICD mirror.** Official curriculum PDFs are the *source engine*. This platform sells AI-generated learning products for **PP1, PP2, and Grade 1–12**.
+
+**Live:** https://hightech-cbc-learners.mikeal-murphy.workers.dev
+
+Pull **`main`**, not the old `cursor/cbc-learning-website-0ec7` branch.
 
 ## What this platform is
 
 | Tab | Purpose |
 |-----|---------|
-| **Dashboard** | Progress, recommendations, pipeline overview |
-| **Learning Docs** | AI-generated notes (KICD-grounded, Kenyan examples) |
-| **Revision Hub** | Termly exams, quizzes, mock papers (pay-per-download) |
-| **Video Hub** | Cached 5-min lesson reels (script → render once → Bunny.net) |
+| **Dashboard** | PP1–Grade 12 grade picker (Pre-Primary first) |
+| **Learning Docs** | `/docs` — PP1 and PP2 first, then Grade 1–12; pull **`main`** |
+| **Revision Hub** | Termly exams, quizzes, mock papers |
+| **Video Hub** | Lesson scripts (render pipeline later) |
 | **Studio** | Generate content from KICD via RAG + LLM |
-| **Pricing** | M-Pesa plans (integration Phase 2) |
+| **Pricing** | M-Pesa STK Push plans |
+| **Account** | Sign up, sign in, membership |
 
 ## Content pipeline
 
@@ -25,7 +30,8 @@ KICD PDFs (harvested) → RAG retrieval → AI draft → Teacher review → Publ
 
 ```powershell
 cd C:\Users\user\General
-git pull
+git checkout main
+git pull origin main
 npm run setup
 
 copy .env.example .env
@@ -46,7 +52,7 @@ Or use the all-in-one PowerShell helper:
 .\scripts\web-dev.ps1
 ```
 
-Open http://localhost:3000 → **Studio** → generate notes, exam, quiz, or video script.
+Open http://localhost:3000 — **PP1 and PP2** are on the home page under Pre-Primary. Docs: `/docs`. Account is `/account`; M-Pesa checkout is `/pricing`.
 
 ### Fix: `EPERM: operation not permitted, open web\.next\trace`
 
@@ -82,9 +88,11 @@ npm run web:dev
 3. InVideo / HeyGen → render 720p MP4
 4. Upload to Bunny.net → paste embed URL on video page
 
-## Phase 2 (not built yet)
+## Accounts and M-Pesa
 
-- M-Pesa STK Push (Daraja / Paynecta)
-- User accounts & membership unlock
-- Teacher review workflow
-- Teacher marketplace (20–30% commission)
+- `/account` — email + password (D1 on the Worker; `web/.data/accounts.sqlite` in `next dev`)
+- `/pricing` — STK Push; `/api/mpesa/callback` is the payment source of truth
+- Monthly/termly plans unlock study pages after the 3-page free preview
+- Worker secrets: `MPESA_CONSUMER_KEY`, `MPESA_CONSUMER_SECRET`, `MPESA_SHORTCODE`, `MPESA_PASSKEY`
+
+Teacher review workflow and marketplace are still later work.

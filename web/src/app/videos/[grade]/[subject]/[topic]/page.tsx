@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
-import { getTopics, findSubjectBySlug, listVideoScripts } from '@/lib/content-store';
+import { getTopics, findSubjectBySlug, listVideoScripts, getContent } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
 
 export default async function VideoTopicPage({
@@ -10,18 +10,19 @@ export default async function VideoTopicPage({
 }) {
   const { grade, subject: subjectSlug, topic: topicSlug } = await params;
   const gradeKey = decodeURIComponent(grade);
-  const subject = findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
+  const subject = await findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
   if (!subject) notFound();
 
-  const topics = getTopics(gradeKey, subject);
+  const topics = await getTopics(gradeKey, subject);
   const topicMeta = topics.find((t) => t.slug === topicSlug || t.topicNumber === topicSlug);
   if (!topicMeta) notFound();
 
-  const scripts = listVideoScripts(gradeKey, subject);
-  const script = scripts.find(
+  const scripts = await listVideoScripts(gradeKey, subject);
+  const scriptMeta = scripts.find(
     (s) => s.topic.subStrand === topicMeta.topicName || s.topic.topicNumber === topicMeta.topicNumber,
   );
-  if (!script) notFound();
+  if (!scriptMeta) notFound();
+  const script = (await getContent(scriptMeta.id)) || scriptMeta;
 
   const sections = script.metadata.scriptSections || [];
 
