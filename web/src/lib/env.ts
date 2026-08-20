@@ -22,24 +22,36 @@ export type AppEnv = {
 };
 
 let cached: AppEnv | null | undefined;
+let pendingEnv: Promise<AppEnv | null> | null = null;
+
+/** True inside a Cloudflare Worker isolate (not local `next dev`). */
+export function isCloudflareWorker(): boolean {
+  const cachesObj = (globalThis as { caches?: { default?: unknown } }).caches;
+  return Boolean(cachesObj && 'default' in cachesObj);
+}
 
 export async function getAppEnv(): Promise<AppEnv | null> {
   if (cached !== undefined) return cached;
-  try {
-    const { getCloudflareContext } = await import('@opennextjs/cloudflare');
-    const ctx = await getCloudflareContext({ async: true });
-    cached = ((ctx?.env as AppEnv) ?? null);
-  } catch {
-    cached = null;
+  if (!pendingEnv) {
+    pendingEnv = (async () => {
+      try {
+        const { getCloudflareContext } = await import('@opennextjs/cloudflare');
+        const ctx = await getCloudflareContext({ async: true });
+        cached = (ctx?.env as AppEnv) ?? null;
+      } catch {
+        cached = null;
+      }
+      return cached ?? null;
+    })();
   }
-  return cached;
+  return pendingEnv;
 }
 
 export async function getDb(): Promise<D1Database | null> {
   const env = await getAppEnv();
   if (env?.DB) return env.DB;
-  // Worker has ASSETS but no D1 — fail closed. Local `next dev` has neither, so use SQLite.
-  if (env?.ASSETS) return null;
+  // Worker has ASSETS but no D1 — fail closed. Never open SQLite on Workers.
+  if (env?.ASSETS || isCloudflareWorker()) return null;
   const { getLocalDb } = await import('./local-d1');
   return getLocalDb();
 }

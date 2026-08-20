@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ContentType, GeneratedContent, CurriculumGrade } from './types';
 import { GRADE_ORDER, gradeStage } from './types';
+import { isCloudflareWorker } from './env';
 
 const ROOT = join(process.cwd(), '..');
 const CONTENT_DIR = join(process.cwd(), 'data', 'content');
@@ -15,7 +16,6 @@ const cache: {
   index?: GeneratedContent[];
   curriculum?: { grades: CurriculumGrade[] } | null;
   assets?: AssetsFetcher | null;
-  assetsResolved?: boolean;
   lessons?: Record<string, GeneratedContent[]>;
   videos?: Record<string, GeneratedContent[]>;
   examCounts?: ExamCounts;
@@ -32,21 +32,27 @@ type ExamCounts = {
   byGrade?: Record<string, Record<string, number>>;
 };
 
+let assetsPromise: Promise<AssetsFetcher | null> | null = null;
+
 function ensureDir() {
+  if (isCloudflareWorker()) return;
   mkdirSync(CONTENT_DIR, { recursive: true });
 }
 
 async function getAssets(): Promise<AssetsFetcher | null> {
-  if (cache.assetsResolved) return cache.assets ?? null;
-  cache.assetsResolved = true;
-  try {
-    const { getCloudflareContext } = await import('@opennextjs/cloudflare');
-    const ctx = await getCloudflareContext({ async: true });
-    cache.assets = ctx?.env?.ASSETS ?? null;
-  } catch {
-    cache.assets = null;
+  if (!assetsPromise) {
+    assetsPromise = (async () => {
+      try {
+        const { getCloudflareContext } = await import('@opennextjs/cloudflare');
+        const ctx = await getCloudflareContext({ async: true });
+        cache.assets = ctx?.env?.ASSETS ?? null;
+      } catch {
+        cache.assets = null;
+      }
+      return cache.assets ?? null;
+    })();
   }
-  return cache.assets ?? null;
+  return assetsPromise;
 }
 
 async function onCloudflare() {
@@ -56,16 +62,22 @@ async function onCloudflare() {
 async function readAssetJson<T>(pathname: string): Promise<T | undefined> {
   const assets = await getAssets();
   if (assets) {
-    const res = await assets.fetch(new Request(new URL(pathname, 'https://assets.local')));
-    if (!res.ok) return undefined;
-    return (await res.json()) as T;
+    try {
+      const res = await assets.fetch(new Request(new URL(pathname, 'https://assets.local')));
+      if (!res.ok) return undefined;
+      return (await res.json()) as T;
+    } catch {
+      return undefined;
+    }
   }
+  if (isCloudflareWorker()) return undefined;
   const diskPath = join(process.cwd(), 'public', pathname.replace(/^\//, ''));
   if (!existsSync(diskPath)) return undefined;
   return JSON.parse(readFileSync(diskPath, 'utf8')) as T;
 }
 
 function readIndex(): GeneratedContent[] {
+  if (isCloudflareWorker()) return cache.index || [];
   if (cache.index) return cache.index;
   ensureDir();
   if (!existsSync(INDEX_PATH)) return [];
@@ -416,20 +428,27 @@ export async function listExams(grade: string, category: string, subject?: strin
 }
 
 export async function countExams(category?: string, grade?: string): Promise<number> {
-  if (await onCloudflare()) {
-    const counts = await loadExamCounts();
-    if (grade && category) return counts.byGrade?.[grade]?.[category] || 0;
-    if (category) return (counts[category as keyof ExamCounts] as number) || 0;
-    return ['general', 'termly', 'mock', 'premium', 'vault'].reduce(
-      (sum, key) => sum + (Number(counts[key as keyof ExamCounts]) || 0),
-      0,
-    );
-  }
+  try {
+    if ((await onCloudflare()) || isCloudflareWorker()) {
+      const counts = await loadExamCounts();
+      if (grade && category) return Number(counts.byGrade?.[grade]?.[category]) || 0;
+      if (category) {
+        const n = counts[category as keyof ExamCounts];
+        return typeof n === 'number' ? n : 0;
+      }
+      return ['general', 'termly', 'mock', 'premium', 'vault'].reduce(
+        (sum, key) => sum + (Number(counts[key as keyof ExamCounts]) || 0),
+        0,
+      );
+    }
 
-  const types = category
-    ? getExamTypesForCategory(category)
-    : (['exam', 'termly-exam', 'mock-exam', 'premium-exam', 'past-paper'] as ContentType[]);
-  return (await listContent({ grade, category, type: types })).length;
+    const types = category
+      ? getExamTypesForCategory(category)
+      : (['exam', 'termly-exam', 'mock-exam', 'premium-exam', 'past-paper'] as ContentType[]);
+    return (await listContent({ grade, category, type: types })).length;
+  } catch {
+    return 0;
+  }
 }
 
 export async function listVideoScripts(grade: string, subject?: string) {

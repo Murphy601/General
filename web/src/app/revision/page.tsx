@@ -31,7 +31,15 @@ const CATEGORIES = [
 ] as const;
 
 export default async function RevisionPage() {
-  const counts = await Promise.all(CATEGORIES.map((cat) => countExams(cat.slug)));
+  const counts = await Promise.all(
+    CATEGORIES.map(async (cat) => {
+      try {
+        return await countExams(cat.slug);
+      } catch {
+        return 0;
+      }
+    }),
+  );
 
   return (
     <PlatformLayout active="/revision">
