@@ -1,11 +1,10 @@
 import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getGrades } from '@/lib/content-store';
+import { STAGE_ORDER } from '@/lib/types';
 
-const STAGE_ORDER = ['Pre-Primary', 'Lower Primary', 'Upper Primary', 'Junior School', 'Senior School', 'SNE', 'Other'];
-
-export default function LearnPage() {
-  const grades = getGrades({ includeSne: false });
+export default async function LearnPage() {
+  const grades = await getGrades({ includeSne: false });
   const byStage = STAGE_ORDER.map((stage) => ({
     stage,
     grades: grades.filter((g) => g.stage === stage),

@@ -30,7 +30,9 @@ const CATEGORIES = [
   },
 ] as const;
 
-export default function RevisionPage() {
+export default async function RevisionPage() {
+  const counts = await Promise.all(CATEGORIES.map((cat) => countExams(cat.slug)));
+
   return (
     <PlatformLayout active="/revision">
       <h1 className="text-2xl font-bold">Revision Hub</h1>
@@ -40,8 +42,8 @@ export default function RevisionPage() {
       </p>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-2">
-        {CATEGORIES.map((cat) => {
-          const n = countExams(cat.slug);
+        {CATEGORIES.map((cat, i) => {
+          const n = counts[i];
           return (
             <Link
               key={cat.slug}

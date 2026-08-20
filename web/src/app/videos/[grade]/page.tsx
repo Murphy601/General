@@ -6,9 +6,9 @@ import { notFound } from 'next/navigation';
 export default async function VideoGradePage({ params }: { params: Promise<{ grade: string }> }) {
   const { grade } = await params;
   const gradeKey = decodeURIComponent(grade);
-  const subjects = getSubjects(gradeKey);
+  const subjects = await getSubjects(gradeKey);
   if (!subjects.length) notFound();
-  const label = getGrades().find((g) => g.grade === gradeKey)?.label || gradeKey;
+  const label = (await getGrades()).find((g) => g.grade === gradeKey)?.label || gradeKey;
 
   return (
     <PlatformLayout active="/videos">

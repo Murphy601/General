@@ -20,7 +20,13 @@ if (existsSync(rootEnv)) {
 }
 
 const nextConfig: NextConfig = {
-  outputFileTracingRoot: join(__dirname, '..'),
+  output: 'standalone',
+  outputFileTracingRoot: __dirname,
 };
 
 export default nextConfig;
+
+import { initOpenNextCloudflareForDev } from '@opennextjs/cloudflare';
+if (process.env.NODE_ENV !== 'production') {
+  initOpenNextCloudflareForDev();
+}

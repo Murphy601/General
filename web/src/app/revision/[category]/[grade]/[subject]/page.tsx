@@ -8,6 +8,7 @@ import {
   slugifySubject,
 } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
+import type { GeneratedContent } from '@/lib/types';
 
 const CATEGORY_LABELS: Record<string, string> = {
   general: 'General Assessment',
@@ -21,7 +22,7 @@ function PaperList({
   exams,
   emptyLabel,
 }: {
-  exams: ReturnType<typeof listExams>;
+  exams: GeneratedContent[];
   emptyLabel: string;
 }) {
   if (!exams.length) {
@@ -75,12 +76,12 @@ export default async function RevisionSubjectPage({
   if (!catLabel) notFound();
 
   const gradeKey = decodeURIComponent(grade);
-  const subject = findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
+  const subject = await findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
   if (!subject) notFound();
 
-  const gradeLabel = getGrades().find((g) => g.grade === gradeKey)?.label || gradeKey;
-  const topics = getTopics(gradeKey, subject);
-  const exams = listExams(gradeKey, category, subject);
+  const gradeLabel = (await getGrades()).find((g) => g.grade === gradeKey)?.label || gradeKey;
+  const topics = await getTopics(gradeKey, subject);
+  const exams = await listExams(gradeKey, category, subject);
 
   return (
     <PlatformLayout active="/revision">
