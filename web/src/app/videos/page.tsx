@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getGrades } from '@/lib/content-store';
 
-export default function VideosPage() {
+export default async function VideosPage() {
   const grades = await getGrades();
 
   return (
