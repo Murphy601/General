@@ -3,8 +3,8 @@ import './globals.css';
 export const dynamic = 'force-dynamic';
 
 export const metadata = {
-  title: 'CBC Learn — Kenyan Revision & Lessons',
-  description: 'AI-powered CBC learning notes, exams, quizzes, and video lessons grounded in KICD curriculum.',
+  title: 'HighTech CBC Learners — Kenyan Revision & Lessons',
+  description: 'HighTech CBC Learners: Kenyan CBC lessons, quizzes, and exams by grade, subject, and topic.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -14,6 +14,7 @@ web/.next/
 web/.open-next/
 web/.wrangler/
 web/.env.local
+web/tsconfig.tsbuildinfo
 web/public/data/content/
 web/public/data/runtime/
 # Generated lessons are committed so users get content without re-running the generator

@@ -8,7 +8,7 @@ export default async function HomePage() {
   return (
     <PlatformLayout active="/">
       <section className="rounded-2xl bg-gradient-to-br from-kenya-green to-[#0a4d0a] text-white p-8">
-        <h1 className="text-3xl font-bold">CBC Learn</h1>
+        <h1 className="text-3xl font-bold">HighTech CBC Learners</h1>
         <p className="mt-2 text-green-100 max-w-2xl">
           Full lessons by grade, subject, and topic. Each topic has a thorough lesson, revision quiz, and answer key.
         </p>

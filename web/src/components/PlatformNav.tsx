@@ -15,9 +15,9 @@ export function PlatformNav({ active }: { active?: string }) {
       <div className="mx-auto max-w-6xl px-4">
         <div className="flex items-center justify-between py-3">
           <Link href="/" className="flex items-center gap-2">
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-kenya-green text-white font-bold">C</span>
+            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-kenya-green text-white font-bold">H</span>
             <div>
-              <p className="font-bold text-kenya-black leading-tight">CBC Learn</p>
+              <p className="font-bold text-kenya-black leading-tight">HighTech CBC Learners</p>
               <p className="text-[10px] text-gray-500 uppercase tracking-wide">Revision & Lessons</p>
             </div>
           </Link>

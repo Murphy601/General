@@ -20,7 +20,7 @@ if (existsSync(rootEnv)) {
 }
 
 const nextConfig: NextConfig = {
-  outputFileTracingRoot: join(__dirname, '..'),
+  output: 'standalone',
 };
 
 export default nextConfig;
