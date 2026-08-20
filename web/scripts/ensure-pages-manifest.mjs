@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 /**
- * Next.js App Router does not always emit pages-manifest.json.
- * OpenNext still reads it from the standalone output.
+ * Next.js App Router + a parent package.json emits standalone/web/.next
+ * while OpenNext reads standalone/.next. Copy the nested tree and ensure
+ * pages-manifest.json exists (App Router does not always write it).
  */
-import { existsSync, mkdirSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const empty = JSON.stringify({
@@ -11,6 +12,13 @@ const empty = JSON.stringify({
   '/_document': 'pages/_document.js',
   '/_error': 'pages/_error.js',
 });
+
+const nested = join(process.cwd(), '.next/standalone/web/.next');
+const dest = join(process.cwd(), '.next/standalone/.next');
+if (existsSync(nested)) {
+  cpSync(nested, dest, { recursive: true });
+  console.log('flattened standalone/web/.next -> standalone/.next');
+}
 
 const dirs = [
   join(process.cwd(), '.next/server'),
