@@ -1,8 +1,7 @@
 import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getGrades } from '@/lib/content-store';
-
-const STAGE_ORDER = ['Pre-Primary', 'Lower Primary', 'Upper Primary', 'Junior School', 'Senior School', 'SNE', 'Other'];
+import { STAGE_ORDER } from '@/lib/types';
 
 export default async function LearnPage() {
   const grades = await getGrades({ includeSne: false });

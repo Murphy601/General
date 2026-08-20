@@ -2,6 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "hightech-cbc-learners",
   "main": ".open-next/worker.js",
+  "account_id": "ab8d5683744420960441889a244ac506",
   "compatibility_date": "2026-08-19",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "assets": {
@@ -14,6 +15,18 @@
       "service": "hightech-cbc-learners"
     }
   ],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "hightech-cbc-learners-db",
+      "database_id": "d73f7d1c-1550-4acf-bfd7-71aaa42f3a07",
+      "migrations_dir": "./migrations"
+    }
+  ],
+  "vars": {
+    "APP_URL": "https://hightech-cbc-learners.mikeal-murphy.workers.dev",
+    "MPESA_ENV": "sandbox"
+  },
   "workers_dev": true,
   "preview_urls": true,
   "observability": {

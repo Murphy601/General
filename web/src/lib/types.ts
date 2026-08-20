@@ -126,6 +126,8 @@ export const GRADE_ORDER = [
   'sne/physical-impairment/pp1', 'sne/physical-impairment/pp2',
 ];
 
+export const STAGE_ORDER = ['Pre-Primary', 'Lower Primary', 'Upper Primary', 'Junior School', 'Senior School', 'SNE', 'Other'] as const;
+
 export function gradeStage(grade: string): string {
   if (grade === 'pp1' || grade === 'pp2') return 'Pre-Primary';
   if (/^grade-[123]$/.test(grade)) return 'Lower Primary';

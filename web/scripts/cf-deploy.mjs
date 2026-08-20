@@ -11,6 +11,7 @@ function run(cmd) {
   execSync(cmd, { cwd: web, stdio: 'inherit', env });
 }
 
+run('npx wrangler d1 migrations apply hightech-cbc-learners-db --remote');
 run('npx next build');
 run('node ./scripts/ensure-pages-manifest.mjs');
 run('npx opennextjs-cloudflare build --skipNextBuild');
