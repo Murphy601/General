@@ -2,6 +2,14 @@
 
 Run these in **PowerShell** from the project folder (`C:\Users\user\General`).
 
+If `npm` fails with **running scripts is disabled**, fix it **once** (this user only):
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+Close and reopen PowerShell. After that, `npm` works like a normal command — you do not keep using `npm.cmd`.
+
 Always use the **`main`** branch (not `cursor/cbc-learning-website-0ec7`).
 
 ## First-time / after a failed pull

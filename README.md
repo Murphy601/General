@@ -63,6 +63,22 @@ npx wrangler secret put MPESA_PASSKEY
 
 Without those secrets, signup/login still work; Pay with M-Pesa returns a clear “not configured” error instead of charging.
 
+## Deploy (automatic after merge)
+
+Merging to **`main`** deploys https://hightech-cbc-learners.mikeal-murphy.workers.dev via GitHub Actions. You do **not** run `npm run deploy` on your PC after that.
+
+One-time GitHub setup:
+
+1. Cloudflare dashboard → **My Profile** → **API Tokens** → **Create Token**.
+2. Use the **Edit Cloudflare Workers** template, and add **D1 Edit**.
+3. GitHub repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**:
+   - Name: `CLOUDFLARE_API_TOKEN`
+   - Value: the token you just created
+
+Optional: you can also set `CLOUDFLARE_ACCOUNT_ID` (`ab8d5683744420960441889a244ac506`). It is already in `web/wrangler.jsonc`.
+
+After the secret is set, merge this branch to `main` (or run the **Deploy HighTech CBC Learners** workflow by hand). Watch it at https://github.com/Murphy601/General/actions
+
 ## Useful scripts
 
 | Script | Purpose |
@@ -77,7 +93,7 @@ Without those secrets, signup/login still work; Pay with M-Pesa returns a clear 
 | `npm run content:ingest-past-papers` | Fill **Past Paper Vault** (free KPSEA links from Shulefiti) |
 | `npm run web:clean` | Delete `web/.next` (fixes Windows file locks) |
 | `npm run web:dev` | Install, build catalog, start Next.js |
-| `npm run deploy` | Pack lesson assets and deploy the Worker |
+| `npm run deploy` | Manual Worker deploy (CI does this on merge to `main`) |
 | `npm test` | Account, M-Pesa, and phone helper tests |
 
 Revision Hub: http://localhost:3000/revision  
