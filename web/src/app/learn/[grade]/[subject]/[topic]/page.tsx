@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Suspense } from 'react';
 import { PlatformLayout } from '@/components/PlatformLayout';
-import { getContent, getTopics, findSubjectBySlug, getGrades } from '@/lib/content-store';
+import { getContent, getTopics, findSubjectBySlug } from '@/lib/content-store';
 import { TopicViewer } from '@/components/TopicViewer';
 import { notFound } from 'next/navigation';
 
@@ -22,7 +22,6 @@ export default async function TopicLessonPage({
   const content = await getContent(topicMeta.contentId);
   if (!content?.pages) notFound();
 
-  const label = (await getGrades()).find((g) => g.grade === gradeKey)?.label || gradeKey;
   const topicIndex = topics.findIndex((t) => t.contentId === content.id);
   const prev = topicIndex > 0 ? topics[topicIndex - 1] : null;
   const next = topicIndex < topics.length - 1 ? topics[topicIndex + 1] : null;

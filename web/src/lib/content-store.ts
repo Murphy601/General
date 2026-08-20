@@ -278,7 +278,9 @@ export async function getCurriculumIndex(): Promise<{ grades: CurriculumGrade[] 
     cache.curriculum = null;
     return null;
   }
-  cache.curriculum = JSON.parse(readFileSync(CURRICULUM_INDEX, 'utf8'));
+  cache.curriculum = JSON.parse(readFileSync(CURRICULUM_INDEX, 'utf8')) as {
+    grades: CurriculumGrade[];
+  };
   return cache.curriculum;
 }
 
