@@ -7,10 +7,14 @@ const ROOT = join(process.cwd(), '..');
 const CONTENT_DIR = join(process.cwd(), 'data', 'content');
 const INDEX_PATH = join(CONTENT_DIR, 'index.json');
 const CURRICULUM_INDEX = join(ROOT, 'knowledge-base', 'phase5', 'curriculum-index.json');
+type AssetsFetcher = {
+  fetch: (input: RequestInfo | URL, init?: RequestInit) => Promise<Response>;
+};
+
 const cache: {
   index?: GeneratedContent[];
   curriculum?: { grades: CurriculumGrade[] } | null;
-  assets?: Fetcher | null;
+  assets?: AssetsFetcher | null;
   assetsResolved?: boolean;
   lessons?: Record<string, GeneratedContent[]>;
   videos?: Record<string, GeneratedContent[]>;
@@ -32,7 +36,7 @@ function ensureDir() {
   mkdirSync(CONTENT_DIR, { recursive: true });
 }
 
-async function getAssets(): Promise<Fetcher | null> {
+async function getAssets(): Promise<AssetsFetcher | null> {
   if (cache.assetsResolved) return cache.assets ?? null;
   cache.assetsResolved = true;
   try {
