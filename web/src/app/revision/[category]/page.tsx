@@ -16,7 +16,8 @@ export default async function RevisionCategoryPage({ params }: { params: Promise
   const label = CATEGORY_LABELS[category];
   if (!label) notFound();
 
-  const grades = getGrades();
+  const grades = await getGrades();
+  const paperCounts = await Promise.all(grades.map((g) => countExams(category, g.grade)));
 
   return (
     <PlatformLayout active="/revision">
@@ -27,8 +28,8 @@ export default async function RevisionCategoryPage({ params }: { params: Promise
       <p className="text-gray-600">Choose a grade</p>
 
       <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-        {grades.map((g) => {
-          const papers = countExams(category, g.grade);
+        {grades.map((g, i) => {
+          const papers = paperCounts[i];
           return (
             <Link
               key={g.grade}

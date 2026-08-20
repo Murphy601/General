@@ -1,5 +1,7 @@
 import './globals.css';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
   title: 'CBC Learn — Kenyan Revision & Lessons',
   description: 'AI-powered CBC learning notes, exams, quizzes, and video lessons grounded in KICD curriculum.',

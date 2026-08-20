@@ -10,11 +10,11 @@ export default async function SubjectTopicsPage({
 }) {
   const { grade, subject: subjectSlug } = await params;
   const gradeKey = decodeURIComponent(grade);
-  const subject = findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
+  const subject = await findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
   if (!subject) notFound();
 
-  const topics = getTopics(gradeKey, subject);
-  const label = getGrades().find((g) => g.grade === gradeKey)?.label || gradeKey;
+  const topics = await getTopics(gradeKey, subject);
+  const label = (await getGrades()).find((g) => g.grade === gradeKey)?.label || gradeKey;
 
   return (
     <PlatformLayout active="/learn">

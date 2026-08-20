@@ -11,7 +11,11 @@ knowledge-base/textbooks/raw/
 node_modules/
 web/node_modules/
 web/.next/
+web/.open-next/
+web/.wrangler/
 web/.env.local
+web/public/data/content/
+web/public/data/runtime/
 # Generated lessons are committed so users get content without re-running the generator
 # web/data/content/*.json
 !web/data/content/.gitkeep

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { getGrades } from '@/lib/content-store';
 
 export default function HomePage() {
-  const grades = getGrades();
+  const grades = await getGrades();
 
   return (
     <PlatformLayout active="/">

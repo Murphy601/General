@@ -1,14 +1,14 @@
 import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
-import { getSubjects, getGrades, getTopics, findSubjectBySlug, slugifySubject } from '@/lib/content-store';
+import { getSubjects, getGrades, slugifySubject } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
 
 export default async function GradeSubjectsPage({ params }: { params: Promise<{ grade: string }> }) {
   const { grade } = await params;
   const gradeKey = decodeURIComponent(grade);
-  const subjects = getSubjects(gradeKey);
+  const subjects = await getSubjects(gradeKey);
   if (!subjects.length) notFound();
-  const label = getGrades().find((g) => g.grade === gradeKey)?.label || gradeKey;
+  const label = (await getGrades()).find((g) => g.grade === gradeKey)?.label || gradeKey;
 
   return (
     <PlatformLayout active="/learn">

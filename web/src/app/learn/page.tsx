@@ -5,7 +5,7 @@ import { getGrades } from '@/lib/content-store';
 const STAGE_ORDER = ['Pre-Primary', 'Lower Primary', 'Upper Primary', 'Junior School', 'Senior School', 'SNE', 'Other'];
 
 export default function LearnPage() {
-  const grades = getGrades({ includeSne: false });
+  const grades = await getGrades({ includeSne: false });
   const byStage = STAGE_ORDER.map((stage) => ({
     stage,
     grades: grades.filter((g) => g.stage === stage),

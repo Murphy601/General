@@ -60,7 +60,10 @@
     "web:dev": "node scripts/check-env.mjs && npm run web:install && npm run web:catalog && npm --prefix web run dev",
     "web:build": "npm run web:install && npm run web:catalog && npm --prefix web run build",
     "web:start": "npm --prefix web run start",
-    "setup": "npm install && npm run web:install"
+    "setup": "npm install && npm run web:install",
+    "cf:login": "npm --prefix web exec wrangler -- login --device --browser=false",
+    "cf:assets": "node scripts/prepare-cf-assets.mjs",
+    "deploy": "npm run cf:assets && npm --prefix web run deploy"
   },
   "dependencies": {
     "apify-client": "^2.12.0",
