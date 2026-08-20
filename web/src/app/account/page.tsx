@@ -15,8 +15,8 @@ export default async function AccountPage() {
         <div className="mx-auto max-w-lg rounded-2xl border bg-white p-6">
           <h1 className="text-2xl font-bold">Accounts</h1>
           <p className="mt-2 text-gray-600">
-            Sign-in needs the Cloudflare D1 database. On the live Worker this is already bound. Locally run the site
-            through Wrangler / OpenNext preview after applying D1 migrations.
+            Sign-in uses Cloudflare D1 on the live Worker. Locally, accounts are stored in{' '}
+            <code>web/.data/accounts.sqlite</code> so <code>npm run dev</code> works without Wrangler.
           </p>
         </div>
       ) : user ? (

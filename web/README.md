@@ -11,7 +11,7 @@ Pull **`main`**, not the old `cursor/cbc-learning-website-0ec7` branch.
 | Tab | Purpose |
 |-----|---------|
 | **Dashboard** | PP1–Grade 12 grade picker (Pre-Primary first) |
-| **Learning Docs** | AI-generated notes (KICD-grounded, Kenyan examples) |
+| **Learning Docs** | `/docs` — PP1 and PP2 first, then Grade 1–12; pull **`main`** |
 | **Revision Hub** | Termly exams, quizzes, mock papers |
 | **Video Hub** | Lesson scripts (render pipeline later) |
 | **Studio** | Generate content from KICD via RAG + LLM |
@@ -52,7 +52,7 @@ Or use the all-in-one PowerShell helper:
 .\scripts\web-dev.ps1
 ```
 
-Open http://localhost:3000 — **PP1 and PP2** are on the home page under Pre-Primary. Account is `/account`; M-Pesa checkout is `/pricing`.
+Open http://localhost:3000 — **PP1 and PP2** are on the home page under Pre-Primary. Docs: `/docs`. Account is `/account`; M-Pesa checkout is `/pricing`.
 
 ### Fix: `EPERM: operation not permitted, open web\.next\trace`
 
@@ -90,8 +90,9 @@ npm run web:dev
 
 ## Accounts and M-Pesa
 
-- `/account` — email + password (D1 `users` / `sessions`)
+- `/account` — email + password (D1 on the Worker; `web/.data/accounts.sqlite` in `next dev`)
 - `/pricing` — STK Push; `/api/mpesa/callback` is the payment source of truth
+- Monthly/termly plans unlock study pages after the 3-page free preview
 - Worker secrets: `MPESA_CONSUMER_KEY`, `MPESA_CONSUMER_SECRET`, `MPESA_SHORTCODE`, `MPESA_PASSKEY`
 
 Teacher review workflow and marketplace are still later work.

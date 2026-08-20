@@ -3,6 +3,8 @@ import { Suspense } from 'react';
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getContent, getTopics, findSubjectBySlug } from '@/lib/content-store';
 import { TopicViewer } from '@/components/TopicViewer';
+import { getCurrentUser } from '@/lib/auth';
+import { subscriberUnlocksLessons } from '@/lib/access';
 import { notFound } from 'next/navigation';
 
 export default async function TopicLessonPage({
@@ -21,6 +23,7 @@ export default async function TopicLessonPage({
 
   const content = await getContent(topicMeta.contentId);
   if (!content?.pages) notFound();
+  const user = await getCurrentUser();
 
   const topicIndex = topics.findIndex((t) => t.contentId === content.id);
   const prev = topicIndex > 0 ? topics[topicIndex - 1] : null;
@@ -46,13 +49,7 @@ export default async function TopicLessonPage({
               lockPages: content.metadata?.lockPages,
             },
           }}
-          // Pre-publish: keep multipage topics fully open unless lockPages is enabled.
-          unlocked={
-            content.metadata?.lockPages === true
-              ? false
-              : content.metadata?.access === 'free' ||
-                Boolean(content.pages?.studyPages?.length)
-          }
+          unlocked={subscriberUnlocksLessons(user)}
         />
       </Suspense>
 

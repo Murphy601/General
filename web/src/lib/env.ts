@@ -37,7 +37,11 @@ export async function getAppEnv(): Promise<AppEnv | null> {
 
 export async function getDb(): Promise<D1Database | null> {
   const env = await getAppEnv();
-  return env?.DB ?? null;
+  if (env?.DB) return env.DB;
+  // Worker has ASSETS but no D1 — fail closed. Local `next dev` has neither, so use SQLite.
+  if (env?.ASSETS) return null;
+  const { getLocalDb } = await import('./local-d1');
+  return getLocalDb();
 }
 
 export function readConfig(env: AppEnv | null, key: keyof AppEnv): string {

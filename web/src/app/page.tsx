@@ -1,14 +1,10 @@
 import { PlatformLayout } from '@/components/PlatformLayout';
+import { GradePicker } from '@/components/GradePicker';
 import Link from 'next/link';
 import { getGrades } from '@/lib/content-store';
-import { STAGE_ORDER } from '@/lib/types';
 
 export default async function HomePage() {
   const grades = await getGrades({ includeSne: false });
-  const byStage = STAGE_ORDER.map((stage) => ({
-    stage,
-    grades: grades.filter((g) => g.stage === stage),
-  })).filter((g) => g.grades.length > 0);
 
   return (
     <PlatformLayout active="/">
@@ -32,25 +28,9 @@ export default async function HomePage() {
         </div>
       </section>
 
-      <section className="mt-10 space-y-10">
-        <h2 className="text-xl font-bold">Select Grade</h2>
-        {byStage.map(({ stage, grades: stageGrades }) => (
-          <div key={stage}>
-            <h3 className="text-sm font-semibold uppercase tracking-wide text-kenya-green mb-3">{stage}</h3>
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {stageGrades.map((g) => (
-                <Link
-                  key={g.grade}
-                  href={`/learn/${encodeURIComponent(g.grade)}`}
-                  className="rounded-xl border bg-white p-4 hover:border-kenya-green/40 transition text-center"
-                >
-                  <p className="font-bold text-lg">{g.label}</p>
-                  <p className="text-xs text-gray-500">{g.topicCount} topics</p>
-                </Link>
-              ))}
-            </div>
-          </div>
-        ))}
+      <section className="mt-10">
+        <h2 className="text-xl font-bold mb-4">Select Grade</h2>
+        <GradePicker grades={grades} dense />
       </section>
     </PlatformLayout>
   );

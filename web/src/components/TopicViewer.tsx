@@ -213,15 +213,18 @@ function PaywallCard({
         Page {pageNumber}: {title}
       </h3>
       <p className="mt-3 text-sm text-gray-600 max-w-md mx-auto">
-        You have finished the free preview pages for this topic. Unlock the remaining study pages to keep
-        learning — M-Pesa payment comes in Phase 2.
+        You have finished the free preview pages for this topic. Sign in, then pay with M-Pesa on Pricing to
+        unlock the rest of PP1–Grade 12.
       </p>
       <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
         <Link
           href="/pricing"
           className="inline-flex rounded-xl bg-kenya-green px-5 py-2.5 text-sm font-semibold text-white hover:opacity-90"
         >
-          Unlock full topic{priceKes ? ` · KSh ${priceKes}` : ''}
+          Pay with M-Pesa{priceKes ? ` · KSh ${priceKes}` : ''}
+        </Link>
+        <Link href="/account?next=/pricing" className="text-sm font-semibold text-kenya-green">
+          Sign in
         </Link>
         <span className="text-xs text-gray-500">Free preview already shown above</span>
       </div>
@@ -262,17 +265,9 @@ export function TopicViewer({
   const [tab, setTab] = useState<Tab>(initialTab || tabParam || 'lesson');
 
   const studyPages = content.pages.studyPages || [];
-  const freeCount =
-    content.pages.freePageCount ||
-    content.metadata?.freePageCount ||
-    (studyPages.length ? studyPages.length : 3);
+  const freeCount = content.pages.freePageCount || content.metadata?.freePageCount || 3;
   const hasMulti = studyPages.length > 0;
-  // Pre-publish: treat topics as fully open when every page is marked free
-  // or freePageCount covers the whole booklet.
-  const allUnlocked =
-    unlocked ||
-    (hasMulti &&
-      (studyPages.every((p) => p.free !== false) || freeCount >= studyPages.length));
+  const allUnlocked = unlocked;
   const maxPage = hasMulti ? studyPages.length : 1;
   const [pageNum, setPageNum] = useState(Math.min(Math.max(pageParam || 1, 1), maxPage));
 

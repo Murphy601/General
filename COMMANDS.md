@@ -24,8 +24,8 @@ Live site (no local install): https://hightech-cbc-learners.mikeal-murphy.worker
 
 ### What you should see
 
-**Home / Learn — Pre-Primary first**  
-**PP1** and **PP2**, then Grade 1–12 (not Grade 1 as the first row).
+**Home / Docs / Learn — Pre-Primary first**  
+**PP1** and **PP2**, then Grade 1–12 (not Grade 1 as the first row). Docs: http://localhost:3000/docs — also tells you to pull **`main`**.
 
 **Revision Hub (PP1–Grade 12)**  
 Every subject · every tier (General / Termly / Mock / Premium) → **20 papers**  
@@ -42,6 +42,7 @@ Grade 8 Integrated Science keeps the handcrafted drama pack.
 Examples:
 - http://localhost:3000/revision/premium/grade-7/mathematics
 - http://localhost:3000/revision/premium/pp1/mathematical-activities
+- http://localhost:3000/docs
 - http://localhost:3000/learn/pp1
 - http://localhost:3000/learn/pp2
 - http://localhost:3000/learn/grade-8/integrated-science/1-1-elements-and-compounds

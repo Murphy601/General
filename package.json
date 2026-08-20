@@ -63,7 +63,8 @@
     "setup": "npm install && npm run web:install",
     "cf:login": "npm --prefix web exec wrangler -- login --device --browser=false",
     "cf:assets": "node scripts/prepare-cf-assets.mjs",
-    "deploy": "npm run cf:assets && npm --prefix web run deploy"
+    "deploy": "npm run cf:assets && npm --prefix web run deploy",
+    "test": "npm --prefix web test"
   },
   "dependencies": {
     "apify-client": "^2.12.0",

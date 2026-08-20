@@ -3,13 +3,20 @@ import type { PublicUser } from '@/lib/membership';
 
 const tabs = [
   { href: '/', label: 'Dashboard', icon: '🏠' },
-  { href: '/learn', label: 'Learning Docs', icon: '📖' },
+  { href: '/docs', label: 'Learning Docs', icon: '📖' },
   { href: '/revision', label: 'Revision Hub', icon: '📝' },
   { href: '/videos', label: 'Video Hub', icon: '🎥' },
   { href: '/studio', label: 'Studio', icon: '✨' },
   { href: '/pricing', label: 'Pricing', icon: '💳' },
   { href: '/account', label: 'Account', icon: '👤' },
 ];
+
+function tabIsActive(href: string, active?: string) {
+  if (href === '/docs') {
+    return active === '/docs' || active === '/learn' || Boolean(active?.startsWith('/learn'));
+  }
+  return active === href || (href !== '/' && Boolean(active?.startsWith(href)));
+}
 
 export function PlatformNav({ active, user }: { active?: string; user?: PublicUser | null }) {
   const accountLabel = user ? user.name.split(' ')[0] || 'Account' : 'Sign in';
@@ -36,7 +43,7 @@ export function PlatformNav({ active, user }: { active?: string; user?: PublicUs
         </div>
         <nav className="flex gap-1 overflow-x-auto pb-2 -mx-1 px-1 scrollbar-hide">
           {tabs.map((tab) => {
-            const isActive = active === tab.href || (tab.href !== '/' && active?.startsWith(tab.href));
+            const isActive = tabIsActive(tab.href, active);
             const label = tab.href === '/account' ? accountLabel : tab.label;
             return (
               <Link

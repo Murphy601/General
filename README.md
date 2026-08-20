@@ -31,6 +31,7 @@ cd web && npm run dev
 
 Open http://localhost:3000 — the home page lists **Pre-Primary (PP1, PP2)** first, then Grade 1–12.
 
+Docs: http://localhost:3000/docs (PP1 and PP2 first; use the **`main`** branch)  
 Learn: http://localhost:3000/learn  
 Account + M-Pesa: http://localhost:3000/account and http://localhost:3000/pricing
 
@@ -46,7 +47,9 @@ Optional: add freely published KNEC/SBA past papers from open education sites la
 
 ## Accounts and M-Pesa
 
-Parents create an account at `/account`, then pay from `/pricing` with Safaricom Daraja STK Push. User, session, and payment rows live in Cloudflare D1 (`hightech-cbc-learners-db`). Lesson JSON is **not** stored in D1.
+Parents create an account at `/account`, then pay from `/pricing` with Safaricom Daraja STK Push. User, session, and payment rows live in Cloudflare D1 (`hightech-cbc-learners-db`) on the Worker, or in local SQLite (`web/.data/accounts.sqlite`) during `npm run dev`. Lesson JSON is **not** stored in D1.
+
+Monthly and termly plans unlock study pages after the free preview (first 3 pages).
 
 Live STK Push needs these Worker secrets (sandbox or production Daraja credentials):
 
@@ -75,6 +78,7 @@ Without those secrets, signup/login still work; Pay with M-Pesa returns a clear 
 | `npm run web:clean` | Delete `web/.next` (fixes Windows file locks) |
 | `npm run web:dev` | Install, build catalog, start Next.js |
 | `npm run deploy` | Pack lesson assets and deploy the Worker |
+| `npm test` | Account, M-Pesa, and phone helper tests |
 
 Revision Hub: http://localhost:3000/revision  
 Past Paper Vault: http://localhost:3000/revision/vault  

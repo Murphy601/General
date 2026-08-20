@@ -22,6 +22,7 @@ if (existsSync(rootEnv)) {
 const nextConfig: NextConfig = {
   output: 'standalone',
   outputFileTracingRoot: __dirname,
+  serverExternalPackages: ['node:sqlite'],
 };
 
 export default nextConfig;

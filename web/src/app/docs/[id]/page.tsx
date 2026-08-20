@@ -1,5 +1,4 @@
 import { PlatformLayout } from '@/components/PlatformLayout';
-import { ContentCard } from '@/components/ContentCard';
 import { getContent } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';

@@ -232,12 +232,13 @@ export async function getContent(id: string): Promise<GeneratedContent | undefin
 
 function hydrateStudyPages(content: GeneratedContent): GeneratedContent {
   if (!content.pages) return content;
-  const pages = content.pages.studyPages || [];
+  let pages = content.pages.studyPages || [];
   const hasBodies = pages.some((p) => Boolean(p.body?.trim()));
-  if (pages.length && hasBodies) return content;
-
-  const fromLesson = parseStudyPagesFromLesson(content.pages.lesson || '');
-  if (!fromLesson.length) return content;
+  if (!pages.length || !hasBodies) {
+    const fromLesson = parseStudyPagesFromLesson(content.pages.lesson || '');
+    if (!fromLesson.length) return content;
+    pages = fromLesson;
+  }
 
   const freeCount = content.pages.freePageCount || content.metadata?.freePageCount || 3;
   return {
@@ -245,7 +246,7 @@ function hydrateStudyPages(content: GeneratedContent): GeneratedContent {
     pages: {
       ...content.pages,
       freePageCount: freeCount,
-      studyPages: fromLesson.map((p) => ({
+      studyPages: pages.map((p) => ({
         ...p,
         free: p.pageNumber <= freeCount,
       })),

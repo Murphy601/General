@@ -13,6 +13,7 @@ web/node_modules/
 web/.next/
 web/.open-next/
 web/.wrangler/
+web/.data/
 web/.env.local
 web/tsconfig.tsbuildinfo
 web/public/data/content/
