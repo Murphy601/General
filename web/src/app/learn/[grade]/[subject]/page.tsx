@@ -25,8 +25,13 @@ export default async function SubjectTopicsPage({
       <p className="text-gray-600">{topics.length} topics — study in order from Topic 1</p>
 
       <ol className="mt-8 space-y-3">
-        {topics.map((t) => (
+        {topics.map((t, i) => (
           <li key={t.topicNumber + t.topicName}>
+            {t.strand && t.strand !== topics[i - 1]?.strand ? (
+              <h2 className={`${i ? 'mt-8' : ''} mb-3 text-sm font-bold uppercase tracking-wide text-kenya-green`}>
+                {t.strand}
+              </h2>
+            ) : null}
             {t.contentId ? (
               <Link
                 href={`/learn/${encodeURIComponent(gradeKey)}/${encodeURIComponent(subjectSlug)}/${t.slug || t.topicNumber}`}
