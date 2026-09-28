@@ -182,6 +182,124 @@
         "A quarter turn makes a right angle.",
         "A half turn is 2 right angles and a full turn is 4 right angles."
       ]
+    },
+    {
+      "number": 4,
+      "title": "Quarter turns, half turns and angles at a point",
+      "outcomes": ["a", "c"],
+      "objectives": [
+        "Make a clockwise quarter turn and a clockwise half turn and name the angle.",
+        "Find how many right angles fit around a point."
+      ],
+      "intro": "Put two sticks on the ground so that they meet at your toes. Turn on the spot until you face along the second stick. The gap between the sticks did not grow because the sticks got longer. It grew because you turned.",
+      "notes": "The size of an angle is the amount of turn from one arm to the other. You can make that turn and then look back at the angle it left behind.\n\n### A clockwise quarter turn\nFace the front of the class and lay a stick on the ground pointing forward. Turn clockwise until you face the right-hand wall, and lay a second stick that way. The sticks meet at a square corner. That angle is one right angle. The minute hand of a clock makes the same turn from 12 to 3. At 3 o'clock the two hands also make one right angle.\n\n### A clockwise half turn\nKeep turning clockwise until you face the back of the room. You have made two quarter turns, so the angle is 2 right angles. The two sticks now lie on one straight line. At 6 o'clock the clock hands point opposite ways and lie on a straight line. Two angles that sit next to each other and make a straight line add up to 2 right angles. If one of them is a right angle, the other one is a right angle as well, because 2 − 1 = 1.\n\n### A three-quarter turn\nOne more quarter turn, from the back of the room to the left-hand wall, makes 3 right angles altogether. The minute hand does this when it moves clockwise from 12 to 9. The other way from 12 to 9 is only one quarter turn, so the same two directions can have a small angle between them one way and a large angle the other way.\n\n### Turns that are not exact quarters\nOpen a door a little. The turn is less than a quarter turn, so the angle between the door and the frame is smaller than a right angle. Open the door past the square corner but not as far as a straight line. The angle is now bigger than a right angle. A longer door does not make a bigger angle. Only a bigger turn does.\n\n### Right angles around a point\nA full turn is 4 right angles. Stand at a point and turn all the way round: the angles you pass, with no gaps and no overlaps, add to 4 right angles. Two lines that cross like a plus sign make exactly those 4 right angles. On a clock they are the turns from 12 to 3, 3 to 6, 6 to 9, and 9 back to 12. If one angle at a point is a right angle, the rest of the full turn is 4 − 1 = 3 right angles.",
+      "keyWords": [
+        { "word": "angles at a point", "meaning": "the angles that fit all the way round a point and add up to 4 right angles" },
+        { "word": "straight line", "meaning": "an angle of 2 right angles, made by a half turn" }
+      ],
+      "examples": [
+        {
+          "problem": "The minute hand moves clockwise from 12 to 9. How many right angles has it turned through?",
+          "steps": ["From 12 to 3 is 1 right angle, from 3 to 6 is another, and from 6 to 9 is another.", "Each right angle is 3 numbers on the clock: 9 ÷ 3 = 3."],
+          "answer": "3 right angles",
+          "check": "9 / 3 === 3"
+        },
+        {
+          "problem": "One angle on a straight line is a right angle. How many right angles is the angle beside it?",
+          "steps": ["A straight line is 2 right angles.", "2 − 1 = 1, so the angle beside it is also 1 right angle."],
+          "answer": "1 right angle",
+          "check": "2 - 1 === 1"
+        },
+        {
+          "problem": "A learner makes 3 half turns clockwise. How many right angles is that, and how many full turns does it contain?",
+          "steps": ["A half turn is 2 right angles.", "3 × 2 = 6 right angles.", "A full turn is 4 right angles, and 6 = 4 + 2, so this is 1 full turn and 1 half turn."],
+          "answer": "6 right angles, which is 1 full turn and 1 half turn",
+          "check": "3 * 2 === 6 && 4 + 2 === 6"
+        }
+      ],
+      "activity": {
+        "title": "Turn and mark the angle",
+        "materials": ["Two long sticks or rulers", "Chalk", "A right angle tester", "A paper clock"],
+        "steps": [
+          "In pairs, mark a point. One learner faces a wall and the partner lays a stick along that direction.",
+          "The learner makes a clockwise quarter turn. Lay the second stick and test the angle. It should match the right angle tester.",
+          "Return to the start and make a clockwise half turn. Check that the sticks make a straight line, which is 2 right angles.",
+          "On the paper clock, move the minute hand from 12 to 3, to 6 and to 9. Say how many right angles each move is.",
+          "Find one angle on the clock chart or on a drawing of crossing lines, and say whether it is smaller than, equal to, or bigger than a right angle."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 150\" font-family=\"sans-serif\"><rect width=\"420\" height=\"150\" fill=\"#ffffff\"/><g stroke=\"#111827\" stroke-width=\"2\"><line x1=\"40\" y1=\"90\" x2=\"120\" y2=\"90\"/><line x1=\"40\" y1=\"90\" x2=\"40\" y2=\"30\"/><line x1=\"190\" y1=\"110\" x2=\"290\" y2=\"110\"/><line x1=\"330\" y1=\"30\" x2=\"330\" y2=\"120\"/><line x1=\"290\" y1=\"75\" x2=\"390\" y2=\"75\"/></g><rect x=\"40\" y=\"75\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#166534\" stroke-width=\"2\"/><g font-size=\"13\" fill=\"#111827\" text-anchor=\"middle\"><text x=\"80\" y=\"140\">1 right angle</text><text x=\"240\" y=\"140\">2 right angles</text><text x=\"360\" y=\"140\">4 right angles</text></g></svg>",
+        "caption": "A quarter turn is 1 right angle, a half turn is a straight line of 2 right angles, and a full turn around a point is 4 right angles."
+      },
+      "practice": [
+        { "question": "How many right angles are there in a three-quarter turn?", "answer": "3", "check": "3 * 1 === 3" },
+        { "question": "How many half turns make 6 right angles?", "answer": "3", "check": "6 / 2 === 3" },
+        { "question": "Angles around a point add up to 4 right angles. One of them is 1 right angle. How many right angles are in the rest of the turn?", "answer": "3", "check": "4 - 1 === 3" },
+        { "question": "The minute hand turns clockwise from 6 to 12. How many right angles is that?", "answer": "2", "check": "6 / 3 === 2" }
+      ],
+      "summary": [
+        "A clockwise quarter turn makes 1 right angle. A half turn makes a straight line of 2 right angles.",
+        "A three-quarter turn is 3 right angles.",
+        "The angles around a point add up to 4 right angles."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Using angles in daily life",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Find angles on toys and other objects and say how they compare with a right angle.",
+        "Give examples of how people use angles in daily life."
+      ],
+      "intro": "A toy car made from a small box still has square corners, and its wheels turn about their centres. The same angles you found on a clock and on a chalk box are on the toys you make and on the doors you open.",
+      "notes": "An angle is useful when we need a corner to fit, a door to open, or a turn to be clear.\n\n### Angles you can test\nThe front cover of a book has 4 right angles. A window frame and the corner of a set square do too. Press a folded-paper right angle tester into the corner. If the edges match, the angle is a right angle. A dice is a cube and a chalk box is a cuboid. Each face is a square or a rectangle, so each face has 4 right angles. A toy car or a doll's bed made from a box has those same face angles. Count faces and corners before you decorate the toy, so you know which corners should be square.\n\nA wheel turns about its centre. A quarter turn of the wheel is 1 right angle, a half turn is 2 right angles, and a full turn is 4 right angles. The wheel looks the same after a full turn, but it has still turned.\n\n### Angles that open and close\nScissors, a door and a folding chair have angles that change. Closed scissors make a very small angle between the blades. Open them wider and the angle grows. A door that has turned a quarter away from the frame makes a right angle with the wall. Open it further and the angle becomes bigger than a right angle. A doll's arm or a toy crane can be set to a new angle in the same way. These objects show that an angle is an amount of turn, not a fixed mark on the page.\n\n### Where people use angles\nA builder checks that a wall meets the floor in a right angle so the wall stands upright and the door can close. A carpenter checks the corners of a table or a cupboard before fixing them. Two paths that cross make angles at the crossing. If they cross like a plus sign, the four angles are right angles. A bent arrow on a sign tells a driver or a cyclist which way to turn.\n\n### Care, and learning more\nPoint to sharp metal corners, broken glass and thorns, but do not touch them. When you make a toy car or a doll from card, fold on a table, keep scissors closed while you walk, and ask the teacher before you cut. With the teacher, a digital game can ask you to spot right angles or to turn a character by a quarter or a half turn. The angles on the screen are the same ones you made with sticks.",
+      "keyWords": [
+        { "word": "right angle tester", "meaning": "a square corner, often a twice-folded paper, used to check an angle" },
+        { "word": "crossing", "meaning": "the point where two paths or two lines meet and make angles" }
+      ],
+      "examples": [
+        {
+          "problem": "Each of 5 exercise books has 4 right angles on its front cover. How many right angles are there on the 5 covers?",
+          "steps": ["Each front cover is a rectangle with 4 right angles.", "5 × 4 = 20."],
+          "answer": "20",
+          "check": "5 * 4 === 20"
+        },
+        {
+          "problem": "A wheel makes 2 full turns. How many right angles has it turned through?",
+          "steps": ["One full turn is 4 right angles.", "2 × 4 = 8."],
+          "answer": "8",
+          "check": "2 * 4 === 8"
+        },
+        {
+          "problem": "Two paths cross like a plus sign. How many right angles do they make? If 6 such crossings are built, how many right angles is that?",
+          "steps": ["A plus-sign crossing makes 4 right angles.", "6 × 4 = 24."],
+          "answer": "4 at one crossing, and 24 at 6 crossings",
+          "check": "6 * 4 === 24"
+        }
+      ],
+      "activity": {
+        "title": "Angles on toys and in the room",
+        "materials": ["Boxes, card and bottle tops for a toy car or doll", "Right angle tester", "Scissors used only with the teacher", "Exercise book"],
+        "steps": [
+          "In a group, make a simple toy car or doll from a box. Point to the right angles on its faces and check them with the tester.",
+          "Turn one wheel or a paper circle through a quarter turn and through a half turn. Say how many right angles each turn is.",
+          "Open a door or a pair of scissors a little, then more. Say whether each angle is smaller than, equal to, or bigger than a right angle.",
+          "List two jobs or daily actions that need right angles, such as fitting a door or making a table.",
+          "If a digital device is available, play a game that asks you to find angles. Share one new angle you noticed."
+        ]
+      },
+      "practice": [
+        { "question": "A wheel turns through 8 right angles. How many full turns is that?", "answer": "2", "check": "8 / 4 === 2" },
+        { "question": "Three window frames each have 4 right angles. How many right angles is that?", "answer": "12", "check": "3 * 4 === 12" },
+        { "question": "A door is opened by a quarter turn from the closed position. What angle does it make with the frame?", "answer": "A right angle", "check": "1 * 1 === 1" },
+        { "question": "Name one worker who checks right angles, and say why.", "answer": "For example a builder, so that walls stand upright and doors fit, or a carpenter, so that table corners are square.", "check": null }
+      ],
+      "summary": [
+        "Faces of cubes, cuboids, books and windows have right angles you can test.",
+        "Doors, scissors and wheels show angles as turns.",
+        "Builders and carpenters use right angles so that parts fit."
+      ]
     }
   ],
   "quiz": [
@@ -194,7 +312,9 @@
     { "question": "Which turn makes a right angle?", "options": ["A quarter turn", "A half turn", "A full turn", "No turn"], "answer": "A", "explanation": "A quarter turn is the same as one right angle.", "outcome": "c", "check": "4 * (1/4) === 1" },
     { "question": "How many right angles make a full turn?", "answer": "4", "explanation": "A full turn is 4 quarter turns, each a right angle.", "outcome": "c", "check": "4 * 1 === 4" },
     { "question": "At 3 o'clock, what angle do the hands of a clock make?", "options": ["A straight line", "A right angle", "No angle", "A full turn"], "answer": "B", "explanation": "One hand points to 12 and the other to 3, a quarter turn apart.", "outcome": "c", "check": "12 / 4 === 3" },
-    { "question": "Why should a builder make the corners of a door frame right angles?", "answer": "So that the door fits well and closes properly.", "explanation": "Square corners let doors, windows and walls fit together.", "outcome": "d", "check": null }
+    { "question": "Why should a builder make the corners of a door frame right angles?", "answer": "So that the door fits well and closes properly.", "explanation": "Square corners let doors, windows and walls fit together.", "outcome": "d", "check": null },
+    { "question": "How many right angles are there in a three-quarter turn?", "options": ["1", "2", "3", "4"], "answer": "C", "explanation": "Each quarter turn is 1 right angle, so three of them make 3 right angles.", "outcome": "c", "check": "3 * 1 === 3" },
+    { "question": "Angles around a point add up to how many right angles?", "options": ["2", "4", "6", "8"], "answer": "B", "explanation": "A full turn around a point is 4 right angles.", "outcome": "a", "check": "4 * 1 === 4" }
   ],
   "sources": [
     "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 3.0 Geometry, Sub-strand 3.2 Angles"

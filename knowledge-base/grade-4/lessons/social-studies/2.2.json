@@ -1,0 +1,256 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "2.2",
+  "title": "Population distribution",
+  "overview": "Population distribution is the way people are spread out in an area. Some parts of a county have many people living close together, and other parts have few people living far apart. In this sub-strand you will name those patterns, find them on a map of your own county, draw them, and explain why the pattern matters.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What population distribution means",
+      "outcomes": ["a"],
+      "objectives": [
+        "Define population and population distribution.",
+        "Explain the difference between how many people there are and how they are spread."
+      ],
+      "intro": "Two classrooms can have the same number of learners and still feel different. In one, everyone crowds the front. In the other, learners sit spread out. Population in a county works in a similar way.",
+      "notes": "Population means the people who live in a place. We can talk about the population of a home, a village, a county or Kenya. Counting every person is the work of a national census, which is done carefully by officials. At Grade 4 we do not invent a number for our county. We learn how to describe the way people are spread.\n\nPopulation distribution means how people are spread over the land. Two counties could have a similar population and very different distributions. In one, most people might live in one town. In the other, homesteads might be scattered across farmland. The number answers \"how many\". The distribution answers \"where\".\n\n### A picture with dots\nImagine a map of a county covered with dots. Each dot stands for a number of people, such as a homestead or a group of families. Where the dots are close together, many people live near one another. Where the dots are far apart, people live far from their neighbours. An empty space on the dot map means very few people live there, not that the land has disappeared.\n\nYou can try this in the classroom. If twenty learners stand in one corner, the distribution is crowded in that corner. If the same twenty learners stand in pairs around the room, the population is the same but the distribution is different. The word pattern means the shape that this spread makes.\n\n### What we will look for\nOn a real county map, distribution is shown with dots, shading or the names of towns and trading centres. Darker shading or closer dots usually mean more people. Your atlas key tells you exactly what the symbols mean. Always read the key. Do not assume.\n\nThe question for this sub-strand is: How is population spread out in our county? You will answer it from a map and from what you can see around you, and your teacher will check the description. We describe patterns. We do not guess a total number of people.",
+      "keyWords": [
+        { "word": "population", "meaning": "the people who live in a place" },
+        { "word": "population distribution", "meaning": "the way people are spread out over an area" },
+        { "word": "pattern", "meaning": "the shape or arrangement that the spread of people makes" }
+      ],
+      "examples": [
+        {
+          "problem": "Two areas each have 20 homesteads. In area A the homesteads are in one trading centre. In area B they are far apart on farms. What is the same, and what is different?",
+          "steps": ["The number of homesteads is the same.", "The spread is different."],
+          "answer": "The population size shown by the 20 homesteads is the same. The distribution is different: crowded in A and spread out in B.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Same class, different spread",
+        "materials": ["An open space", "Chalk or ropes to mark an area", "Paper dots"],
+        "steps": [
+          "Brainstorm what the class thinks population distribution means.",
+          "Twenty learners stand bunched in one corner, then stand spread out. Discuss what changed and what stayed the same.",
+          "On paper, draw two boxes and place the same number of dots in a bunch and in a spread.",
+          "Write one sentence: Population distribution is how people are spread out."
+        ]
+      },
+      "practice": [
+        { "question": "What is population?", "answer": "The people who live in a place.", "check": null },
+        { "question": "What is population distribution?", "answer": "The way people are spread out over an area.", "check": null },
+        { "question": "Why should you not invent a total number of people for your county?", "answer": "A true total comes from an official count. In this lesson we describe the pattern, not a guessed number.", "check": null }
+      ],
+      "summary": [
+        "Population is the people who live in a place.",
+        "Distribution is how those people are spread.",
+        "Dots that are close together show a different pattern from dots that are far apart."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Dense, sparse and three patterns",
+      "outcomes": ["a"],
+      "objectives": [
+        "Describe dense and sparse population.",
+        "Describe clustered, linear and scattered patterns."
+      ],
+      "intro": "Once you can see that people are not spread evenly, you need words for the shapes. Those words let you describe your county in a way another learner can picture.",
+      "notes": "### Dense and sparse\nA dense population means many people live close together in a small area. Towns and busy market centres are often dense. You see many houses, shops and schools near one another.\n\nA sparse population means few people live in a large area. Homesteads are far apart. You may travel a long way before you see the next home.\n\nDense does not mean better, and sparse does not mean empty of value. Both patterns are normal in Kenya. A county can be dense in one part and sparse in another.\n\n### Three patterns to name\nClustered pattern: dots form a bunch. People have gathered around a town, a market, a factory, a school centre or a water point.\n\nLinear pattern: dots form a line. People live along a main road, a river or a railway, because transport or water is there.\n\nScattered pattern: dots are separate and spread across the land. This is common where families farm or keep animals on their own pieces of land.\n\nA real county usually shows more than one pattern. You might see a cluster at the county headquarters, a line of homes along a tarmac road, and scattered homes on the farmland beyond.\n\n### Why people live where they do\nPeople settle where life is possible. These reasons are common in Kenya, and you should test them on your own map rather than force them:\n\n- Water from rain, a river or a lake makes farming and home life easier.\n- Fertile soil attracts farming families.\n- Towns offer markets, jobs and services such as hospitals.\n- Roads make it easier to trade and to reach school.\n- Very steep land, thick forest, a park, or a very dry area may have fewer homes.\n\nAsk \"What does our map show?\" before you say \"People here live along the river.\" If the map shows no river, choose a reason that fits what is really there, or write that you are not yet sure of the reason.\n\nLook at the practice diagram. It is not a real county. Area A is clustered, area B is linear along the road, and area C is scattered. Name each pattern before you look for the same shapes on the map of your county.",
+      "keyWords": [
+        { "word": "dense population", "meaning": "many people living close together in a small area" },
+        { "word": "sparse population", "meaning": "few people living far apart in a large area" },
+        { "word": "clustered", "meaning": "grouped together in a bunch" },
+        { "word": "linear", "meaning": "arranged in a line" },
+        { "word": "scattered", "meaning": "spread out separately" }
+      ],
+      "examples": [
+        {
+          "problem": "Homes on a map stand in a line beside a main road, and almost nowhere else. Which pattern is this?",
+          "steps": ["The dots follow a line.", "A line is a linear pattern."],
+          "answer": "A linear pattern",
+          "check": null
+        },
+        {
+          "problem": "A trading centre has many houses close together, while the grazing land around it has very few homes. Describe both parts.",
+          "steps": ["Close together means dense and clustered.", "Few homes over a wide area means sparse and scattered."],
+          "answer": "The trading centre is densely populated and clustered. The grazing land is sparsely populated and scattered.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Name the pattern",
+        "materials": ["Dot cards showing a bunch, a line and a scatter", "The practice diagram"],
+        "steps": [
+          "Brainstorm words the class already uses for crowded places and quiet places.",
+          "Match each dot card to clustered, linear or scattered.",
+          "Say which card is dense and which is sparse.",
+          "Discuss one reason people might live along a road and one reason a steep or very dry area might have fewer homes."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 200\" font-family=\"sans-serif\"><rect width=\"420\" height=\"200\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"2\" fill=\"#f8fafc\"><rect x=\"10\" y=\"20\" width=\"120\" height=\"140\"/><rect x=\"150\" y=\"20\" width=\"120\" height=\"140\"/><rect x=\"290\" y=\"20\" width=\"120\" height=\"140\"/></g><g fill=\"#1d4ed8\"><circle cx=\"55\" cy=\"70\" r=\"4\"/><circle cx=\"70\" cy=\"78\" r=\"4\"/><circle cx=\"62\" cy=\"90\" r=\"4\"/><circle cx=\"80\" cy=\"86\" r=\"4\"/><circle cx=\"74\" cy=\"68\" r=\"4\"/><circle cx=\"88\" cy=\"96\" r=\"4\"/><circle cx=\"200\" cy=\"50\" r=\"4\"/><circle cx=\"200\" cy=\"70\" r=\"4\"/><circle cx=\"200\" cy=\"90\" r=\"4\"/><circle cx=\"200\" cy=\"110\" r=\"4\"/><circle cx=\"200\" cy=\"130\" r=\"4\"/><circle cx=\"320\" cy=\"50\" r=\"4\"/><circle cx=\"360\" cy=\"80\" r=\"4\"/><circle cx=\"330\" cy=\"120\" r=\"4\"/><circle cx=\"380\" cy=\"140\" r=\"4\"/></g><line x1=\"200\" y1=\"40\" x2=\"200\" y2=\"150\" stroke=\"#9a3412\" stroke-width=\"3\"/><text x=\"70\" y=\"180\" font-size=\"12\" text-anchor=\"middle\">A Clustered</text><text x=\"210\" y=\"180\" font-size=\"12\" text-anchor=\"middle\">B Linear</text><text x=\"350\" y=\"180\" font-size=\"12\" text-anchor=\"middle\">C Scattered</text></svg>",
+        "caption": "Practice diagram, not a real county. A is clustered, B is linear along a road, and C is scattered."
+      },
+      "practice": [
+        { "question": "What is a dense population?", "answer": "Many people living close together in a small area.", "check": null },
+        { "question": "What pattern do homes make when they follow a river or a main road?", "answer": "A linear pattern", "check": null },
+        { "question": "Does sparse population mean the land is useless? Explain.", "answer": "No. Sparse means few people live there. The land may still be used for farming, grazing or a forest.", "check": null }
+      ],
+      "summary": [
+        "Dense means crowded together. Sparse means few people over a wide area.",
+        "Patterns can be clustered, linear or scattered.",
+        "A county can show more than one pattern, and reasons must fit the map."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Reading the pattern on a map of your county",
+      "outcomes": ["a"],
+      "objectives": [
+        "Use a print or digital map to identify population patterns in your county.",
+        "Describe the patterns in full sentences."
+      ],
+      "intro": "The practice diagram used letters because it was not a real place. Your county has a real map. Reading that map carefully is how you describe population distribution where you live.",
+      "notes": "A population map uses a key. Before you say that any area is dense, find the key and read what the dots or colours mean. On some maps, one dot stands for many people. On others, shading from light to dark shows fewer to more people. If the school map has no population layer, you can still make a careful start from clues:\n\n- Towns and trading centres usually have more people than the open countryside around them.\n- A main road may have a line of centres along it.\n- A large forest, a steep highland, a park or a very dry area may show few settlement names.\n\nTreat these as clues to check, not as facts you force onto every county. Your county might surprise you. A lake shore may be densely settled, or a town may be the only dense place.\n\n### Steps\n1. Find your county on a print map or, with an adult, on a digital map.\n2. Read the key and find the North sign.\n3. Look for the densest part. It is often a large town, sometimes the county headquarters, but confirm this on your map.\n4. Look for a linear pattern along a road, a river or the shore of a lake.\n5. Look for a scattered pattern of small places spread over farmland.\n6. Look for a sparse area and note what the land seems to be, if the map tells you.\n\nWrite four sentences that begin \"In our county...\". For example: \"In our county, population is clustered at ___.\" Use a name only when you can see it on the map. If you cannot see a linear pattern, write \"I cannot see a clear linear pattern on this map\" instead of inventing one.\n\n### Explain the pattern\nChoose one pattern and suggest a reason that fits the map: a road, a town, water, or farmland. Say \"The map suggests...\" when you are giving a reason. Classmates may ask a challenging question, such as \"How do you know that area is sparse?\" Answer by pointing to the key and the symbols. That is good thinking, not rudeness, if the question is polite.\n\nDigital maps let you zoom. Zooming in can show streets in a town, which supports the idea of a dense cluster. Zooming out shows whether the cluster is only one town or several. Stay on your county. It is easy to slide into a neighbouring county without noticing.",
+      "keyWords": [
+        { "word": "key", "meaning": "the part of a map that explains the symbols" },
+        { "word": "settlement", "meaning": "a place where people live, such as a village or a town" }
+      ],
+      "examples": [
+        {
+          "problem": "The key says dark green means more people. The darkest green is around one town, and the rest of the county is pale. Describe the distribution.",
+          "steps": ["Read the key first.", "Dark means more people, in one area."],
+          "answer": "Population is dense and clustered around that town. The rest of the county on this map is more sparse.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Describe our county's pattern",
+        "materials": ["A print or digital map of the county", "The map key", "Exercise books"],
+        "steps": [
+          "Find the county, the North sign and the key.",
+          "Identify any clustered, linear, scattered, dense and sparse areas the map supports.",
+          "Write four sentences beginning \"In our county...\".",
+          "Explain one pattern to another group and answer one question by pointing at the map."
+        ]
+      },
+      "practice": [
+        { "question": "What should you read before deciding that a colour means many people?", "answer": "The key of the map.", "check": null },
+        { "question": "What should you write if you cannot see a linear pattern?", "answer": "I cannot see a clear linear pattern on this map.", "check": null },
+        { "question": "Why is \"The map suggests\" a careful way to give a reason?", "answer": "It shows the reason comes from what the map shows, and it can be checked.", "check": null }
+      ],
+      "summary": [
+        "Read the key, then look for dense, sparse, clustered, linear and scattered areas.",
+        "Write only the patterns your county map supports.",
+        "Give reasons as suggestions that fit the map."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Drawing a population map of our county",
+      "outcomes": ["b"],
+      "objectives": [
+        "Draw a map of your county that shows population distribution.",
+        "Use a key so that another person can read the patterns."
+      ],
+      "intro": "Describing a pattern in words is one skill. Showing it on a map you have drawn is the next. Your drawing lets the class see where people are spread in the county.",
+      "notes": "An illustration of population distribution is a map that makes the pattern visible. It is a sketch, not a perfect copy, but the shape of the county and the patterns must agree with the map you studied.\n\n### What to include\n- A title: \"Population distribution in ___ County\". Fill in your county's name.\n- The outline of the county, traced or drawn carefully from the atlas.\n- A North sign.\n- A key.\n- Dots or shading that match what you found: closer dots for denser areas, widely spaced dots for sparse areas.\n- Labels for one town or trading centre you identified, and for a sparse area if you know what kind of land it is.\n- Neighbouring counties' names are optional. If you add them, put them outside the boundary in the correct direction.\n\nDo not add a number of people unless it is printed on the source map and your teacher says to copy it. The dots show the pattern. They are not a census.\n\n### How to plot the dots\nLightly divide the county outline into the areas you described: for example a town cluster, a road line and farmland. Plot dots in pencil first. In the cluster, put dots close but not on top of each other. Along a road, put dots in a line. In farmland, scatter them. In a sparse area, use very few dots. Then check against the source map and rub out anything you cannot justify.\n\nColour can replace dots if the key explains it. Use one colour in two shades rather than many bright colours that mean nothing. Write the key in full sentences if you have room: \"Close dots mean more people.\"\n\n### Creative arts and accuracy\nNeat lettering and a clean outline make the map pleasant to look at. Accuracy matters more than decoration. A beautiful map that puts the dense town on the wrong side of the county teaches the wrong pattern. Ask a partner to compare your map with the atlas before you colour it in.\n\nWhen you are stuck, it is better to show one pattern correctly than to invent three. Write a note on the map: \"Other patterns not yet shown.\"",
+      "keyWords": [
+        { "word": "plot", "meaning": "to mark information in the right place on a map" },
+        { "word": "outline", "meaning": "the shape of the boundary" }
+      ],
+      "examples": [
+        {
+          "problem": "Your source map shows dense settlement only in the east of the county. Where will you put the close dots on your sketch?",
+          "steps": ["The sketch must agree with the source.", "East is on the right if North is at the top."],
+          "answer": "On the eastern side of the outline, which is on the right when North is at the top.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Map our population pattern",
+        "materials": ["Atlas or county map", "Tracing paper or plain paper", "Pencil, rubber and crayons"],
+        "steps": [
+          "Trace or draw the county outline and add the North sign.",
+          "Plot dots for the patterns you identified: clustered, linear, scattered, dense and sparse, as far as the source map supports them.",
+          "Add a title, a key and one or two place labels you can justify.",
+          "Ask a partner to check your map against the atlas.",
+          "Colour only after the check."
+        ]
+      },
+      "practice": [
+        { "question": "What does a close group of dots show on your population map?", "answer": "A denser, clustered population, if that is what your key says.", "check": null },
+        { "question": "Name three things every population sketch of the county should have.", "answer": "Any three: a title, the county outline, a North sign, a key, and dots or shading that match the source map.", "check": null },
+        { "question": "Why should you not write a guessed population total on the map?", "answer": "A guessed number would be false. The dots show the pattern, not a census total.", "check": null }
+      ],
+      "summary": [
+        "Draw the county outline and plot dots to match the source map.",
+        "A title, a North sign and a key make the pattern readable.",
+        "Show only the patterns you can justify."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Why the pattern matters",
+      "outcomes": ["c", "b"],
+      "objectives": [
+        "Explain why population distribution matters for services in the county.",
+        "Display the class maps and describe them respectfully."
+      ],
+      "intro": "A dot on a map is a group of real people who need school, water and a way to reach a hospital. Where the dots sit changes how hard it is to provide those things.",
+      "notes": "Appreciating population distribution means you understand the pattern in your county and you respect the people in every part of it. Crowded places and quiet places are both part of the county.\n\n### Services follow the pattern\nWhere population is dense, many people share schools, hospitals, markets and water points. Those places may need more of these services because the number of users is high. Queues can be long. Planning tries to match the number of services to the number of people.\n\nWhere population is sparse, the need is different. A school or a clinic may be far from some homes. Roads matter so that children can travel to school and sick people can reach care. A sparse area is not less important. The people there are part of the same county, and services should still reach them.\n\nA linear pattern along a road can make services easier to reach for the people on that line, and harder for people far from the road. A clustered town can support a hospital that scattered homes could not fill by themselves, and people from sparse areas may travel to that town for care. The patterns depend on each other.\n\n### How to talk about the map\nWhen you display your map, describe what you drew and point to the key. Invite questions. If someone asks why you placed a cluster in a certain area, show the source map. If you made a mistake, correct the dots. Integrity means you would rather fix the map than defend an error.\n\nDo not laugh at a place because few people live there, and do not boast about a crowded town. Both descriptions are geography, not insults. Use a polite voice and give other groups time to speak. Hang the maps in the learning corner with the title facing the room, at a height younger learners can see. A short caption under the map can say: \"Close dots show where more people live in our county.\"\n\nLook at your own journey to school. Are you coming from a clustered area or from a more scattered one? That personal detail, if it is true, makes the pattern easier for a visitor to understand. It also reminds the class that the dots are households like yours.",
+      "keyWords": [
+        { "word": "services", "meaning": "help provided for the public, such as schools, hospitals, water and roads" },
+        { "word": "appreciate", "meaning": "to understand the value of something and treat it with respect" }
+      ],
+      "examples": [
+        {
+          "problem": "A county map shows one dense town and a large sparse area. Give one service need of each area.",
+          "steps": ["Dense areas need enough services for many users.", "Sparse areas need ways to reach services that may be far away."],
+          "answer": "The town may need more schools or a larger hospital. The sparse area may need roads so that people can reach school and health care.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Display and explain the maps",
+        "materials": ["Finished population maps", "Pins or tape", "Caption cards"],
+        "steps": [
+          "Write a caption that explains your key in one sentence.",
+          "Display the maps in the learning corner.",
+          "Each group explains one dense or clustered area and one sparse or scattered area, using the map.",
+          "Discuss how the pattern affects schools, health care or roads in the county.",
+          "Ask and answer one polite, challenging question, and correct any dot that does not match the source."
+        ]
+      },
+      "practice": [
+        { "question": "Why might a densely populated town need more schools than a small trading centre?", "answer": "More people, including more children, use the schools.", "check": null },
+        { "question": "Why do roads matter in a sparsely populated area?", "answer": "Homes are far apart, so roads help people reach school, markets and hospitals.", "check": null },
+        { "question": "What should you do if a classmate shows that your cluster is on the wrong side of the county?", "answer": "Check the source map and correct the dots.", "check": null },
+        { "question": "Why is it wrong to mock a place because few people live there?", "answer": "The people there are part of the county, and sparse population is a pattern, not an insult.", "check": null }
+      ],
+      "summary": [
+        "Dense areas may need more shared services. Sparse areas may need roads to reach services.",
+        "Both patterns are part of the county and deserve respect.",
+        "Display the map, explain the key, and correct mistakes."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Population distribution means ___.", "options": ["the name of the county", "how people are spread out", "the four cardinal points", "a type of museum"], "answer": "B", "explanation": "Distribution is the spread of people, not the county name.", "outcome": "a", "check": null },
+    { "question": "What is the difference between population and population distribution?", "answer": "Population is the people who live in a place. Distribution is how they are spread out.", "explanation": "One answers who or how many. The other answers where.", "outcome": "a", "check": null },
+    { "question": "Many people living close together is called a ___ population.", "options": ["sparse", "dense", "linear only", "historic"], "answer": "B", "explanation": "Dense means crowded together. Sparse means few people over a wide area.", "outcome": "a", "check": null },
+    { "question": "Homes in a line along a main road show which pattern?", "options": ["Clustered only", "Linear", "A lake", "A season"], "answer": "B", "explanation": "A line of settlement is a linear pattern.", "outcome": "a", "check": null },
+    { "question": "Dots spread far apart across farmland show a ___ pattern.", "answer": "scattered", "explanation": "Scattered dots are separate and spread out. The area may also be described as sparse.", "outcome": "a", "check": null },
+    { "question": "What should you read before saying a colour means many people?", "options": ["The key", "The price of the atlas", "A poem", "The school bell"], "answer": "A", "explanation": "The key explains the symbols on that map.", "outcome": "a", "check": null },
+    { "question": "You cannot see a linear pattern on your county map. What should you write?", "answer": "I cannot see a clear linear pattern on this map.", "explanation": "Describe only the patterns the map supports.", "outcome": "a", "check": null },
+    { "question": "Close dots on your sketch should be placed where the source map shows ___.", "options": ["the fewest people", "a denser population", "the ocean in every county", "a monument"], "answer": "B", "explanation": "The sketch must agree with the source map and the key.", "outcome": "b", "check": null },
+    { "question": "Which set belongs on a population distribution map?", "options": ["Title, outline, North sign and key", "A guessed population total and no key", "Only a poem", "The four seasons"], "answer": "A", "explanation": "Those items make the pattern readable and honest.", "outcome": "b", "check": null },
+    { "question": "Why might a sparse area need good roads?", "options": ["So people can reach schools and hospitals that are far away", "So that the area can become a museum", "Because sparse means no people live there", "So dots can be rubbed out"], "answer": "A", "explanation": "Distance is the challenge where people live far apart.", "outcome": "c", "check": null },
+    { "question": "Which sentence shows appreciation of population distribution?", "options": ["We laugh at places with few people.", "We respect people in both dense and sparse areas and we correct map errors.", "We invent a population number.", "We ignore the key."], "answer": "B", "explanation": "Appreciation includes respect and honest maps.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 2.0 People and Population, Sub-strand 2.2 Population distribution"
+  ]
+}

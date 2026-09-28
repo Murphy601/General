@@ -1,0 +1,139 @@
+{
+  "subject": "CHRISTIAN RELIGIOUS EDUCATION",
+  "subStrand": "1.4",
+  "title": "My Family",
+  "overview": "A family is the people God has given you to belong to. In this sub-strand you will name members of the nuclear family and the extended family, draw a family tree, and learn why children should honour their parents. You will recite Ephesians 6:1-3 and practise respect so that the family can live in harmony.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Members of the nuclear and extended family",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name the members of a nuclear family.",
+        "Name members of the extended family, including cousins, aunts, uncles and grandparents."
+      ],
+      "intro": "When you go home, certain people are waiting for you. They share your name, your meals and your prayers. Knowing who they are helps you know where you belong.",
+      "notes": "A family is a group of people joined by birth, marriage or care. God uses families to give children food, safety, teaching and love. It is important to know the members so that you can respect them and ask the right people for help.\n\n### The nuclear family\nThe nuclear family is the small family that lives closest to you. Its members are:\n\n- Father\n- Mother\n- Children (brothers and sisters)\n\nSome children are cared for by a guardian instead of a parent. That guardian is part of the family that looks after them. Not every home looks the same, but each child can name the people who care for him or her every day.\n\n### The extended family\nThe extended family is wider. It includes relatives beyond the mother, father and children. The design names these members:\n\n- Grandparents: the parents of your father or mother\n- Aunts: the sisters of your father or mother\n- Uncles: the brothers of your father or mother\n- Cousins: the children of your aunts and uncles\n\nYou may not see all of them every day, but they are still family. When they visit, greet them by the right title. Knowing their names shows that you value the family God gave you.\n\n### Why names matter\nIf you can name your people, you know whom to obey, whom to help, and whom to tell when you are in trouble. A stranger is not a family member. Do not treat a stranger as if he or she were an uncle or an aunt unless your parents have told you that the person is safe.",
+      "keyWords": [
+        { "word": "nuclear family", "meaning": "father, mother and children" },
+        { "word": "extended family", "meaning": "relatives beyond the nuclear family, such as grandparents, aunts, uncles and cousins" },
+        { "word": "guardian", "meaning": "a person who cares for a child in place of a parent" }
+      ],
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 200\" font-family=\"sans-serif\"><rect width=\"420\" height=\"200\" fill=\"#ffffff\"/><text x=\"210\" y=\"22\" text-anchor=\"middle\" font-size=\"14\" fill=\"#14532d\">A simple family tree</text><rect x=\"155\" y=\"36\" width=\"110\" height=\"28\" rx=\"4\" fill=\"#dcfce7\" stroke=\"#166534\"/><text x=\"210\" y=\"55\" text-anchor=\"middle\" font-size=\"12\" fill=\"#14532d\">Grandparents</text><line x1=\"210\" y1=\"64\" x2=\"210\" y2=\"84\" stroke=\"#166534\" stroke-width=\"2\"/><rect x=\"40\" y=\"84\" width=\"90\" height=\"28\" rx=\"4\" fill=\"#fef9c3\" stroke=\"#854d0e\"/><text x=\"85\" y=\"103\" text-anchor=\"middle\" font-size=\"12\" fill=\"#713f12\">Uncle / Aunt</text><rect x=\"165\" y=\"84\" width=\"90\" height=\"28\" rx=\"4\" fill=\"#dbeafe\" stroke=\"#1d4ed8\"/><text x=\"210\" y=\"103\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e3a8a\">Father / Mother</text><rect x=\"290\" y=\"84\" width=\"90\" height=\"28\" rx=\"4\" fill=\"#fef9c3\" stroke=\"#854d0e\"/><text x=\"335\" y=\"103\" text-anchor=\"middle\" font-size=\"12\" fill=\"#713f12\">Aunt / Uncle</text><line x1=\"210\" y1=\"112\" x2=\"210\" y2=\"132\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><rect x=\"165\" y=\"132\" width=\"90\" height=\"28\" rx=\"4\" fill=\"#dbeafe\" stroke=\"#1d4ed8\"/><text x=\"210\" y=\"151\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e3a8a\">Children</text><text x=\"210\" y=\"186\" text-anchor=\"middle\" font-size=\"11\" fill=\"#374151\">Blue: nuclear family. Yellow: extended family.</text></svg>",
+        "caption": "Nuclear family members sit in the centre. Aunts, uncles and grandparents belong to the extended family."
+      },
+      "activity": {
+        "title": "Name your family members",
+        "materials": ["Exercise book"],
+        "steps": [
+          "Sing a song related to family relationships.",
+          "Each learner names the members of his or her nuclear family.",
+          "Name members of the extended family: cousins, aunts, uncles and grandparents.",
+          "Tell a partner why it is important to know these people."
+        ]
+      },
+      "practice": [
+        { "question": "Who are the members of a nuclear family?", "answer": "Father, mother and children.", "check": null },
+        { "question": "Name four members of the extended family.", "answer": "Cousins, aunts, uncles and grandparents.", "check": null },
+        { "question": "Why is it important to know the members of your family?", "answer": "So that you know whom you belong to, whom to respect, whom to help and whom to tell when you need help.", "check": null }
+      ],
+      "summary": [
+        "The nuclear family is father, mother and children.",
+        "The extended family includes cousins, aunts, uncles and grandparents.",
+        "Knowing family members helps you belong, respect them and ask for help."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Drawing a family tree",
+      "outcomes": ["b"],
+      "objectives": [
+        "Draw a family tree.",
+        "Write the names of family members on the tree to show how they are related."
+      ],
+      "intro": "A tree has a trunk, branches and leaves. A family tree uses that picture to show how people in a family are joined. Grandparents are near the top. Children are on the lower branches.",
+      "notes": "A family tree is a drawing that shows relationships in a family. It is called a tree because older generations are at the top, like the trunk, and younger people branch out below them.\n\n### How to draw one\n1. Near the top, write the names of your grandparents.\n2. Under them, write your father and your mother. Draw a line to show they are joined.\n3. Under your parents, write your name and the names of your brothers and sisters.\n4. To the side, you may add an aunt or uncle, and under them a cousin.\n\nUse a line to join a parent to a child. The line means \"this person was born to\" or \"this person is cared for by\" that parent. Do not crowd the page. Leave space so each name can be read.\n\n### What the tree teaches\nWhen you look at the tree you can answer questions such as: Who is my mother's brother? That person is my uncle. Who is my uncle's child? That person is my cousin. Who are my father's parents? They are my grandparents.\n\nThe tree also teaches that you are part of a story that began before you. Your grandparents were children once. You are linked to them. This is why families pray together and eat together. A video of a family sharing a meal or a prayer shows the same bond that the tree draws on paper.\n\nIf you do not know a name, leave a blank and ask a parent later. Do not invent a relative. Write only the people who truly belong to your family. Some learners live with a guardian. Write that guardian in the place of the parent who cares for you, and be respectful about what you do not know.",
+      "keyWords": [
+        { "word": "family tree", "meaning": "a drawing that shows how members of a family are related" },
+        { "word": "generation", "meaning": "people of about the same age in a family, such as grandparents or children" },
+        { "word": "relationship", "meaning": "the way two people in a family are connected" }
+      ],
+      "activity": {
+        "title": "Draw and label a family tree",
+        "materials": ["Exercise book", "Pencil", "Ruler"],
+        "steps": [
+          "Draw a family tree in your book.",
+          "Write the names of your family members on it, including nuclear and extended family members you know.",
+          "Draw lines to show who is a parent, a child, an aunt, an uncle or a cousin.",
+          "Explain your tree to a partner.",
+          "If a video clip of a family eating or praying together is available, watch it and say how those people are related."
+        ]
+      },
+      "practice": [
+        { "question": "What is a family tree?", "answer": "A drawing that shows how members of a family are related.", "check": null },
+        { "question": "Where do you write grandparents on a family tree?", "answer": "Near the top, above the parents.", "check": null },
+        { "question": "Your mother's brother is your ______.", "answer": "Uncle.", "check": null },
+        { "question": "The child of your aunt is your ______.", "answer": "Cousin.", "check": null }
+      ],
+      "summary": [
+        "A family tree shows relationships with names and lines.",
+        "Older family members are written above their children.",
+        "The tree helps you see who is an uncle, an aunt, a cousin or a grandparent."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Honouring parents and respecting the family",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Explain why it is important to honour parents.",
+        "Recite Ephesians 6:1-3.",
+        "List ways of respecting family members."
+      ],
+      "intro": "Parents and guardians wake early, work, and care for children. The Bible does not treat that care lightly. Ephesians 6:1-3 tells children to obey and honour their parents.",
+      "notes": "To honour parents means to treat them with high respect. It includes obeying them, speaking politely, and thanking them. Ephesians 6:1-3 says: Children, obey your parents in the Lord, for this is right. Honour your father and mother. This is the first commandment with a promise, so that it may go well with you and you may enjoy long life on the earth.\n\n### Why honour matters\n- It is right. God commands it.\n- It is the first commandment that comes with a promise.\n- The promise is that it may go well with you and that you may live long.\n- Honour keeps peace at home. That peace is harmonious co-existence, living together without constant fights.\n- Parents and guardians are the adults God has given to guide you.\n\n### Ways to respect family members\n- Greet them when you arrive and when you leave.\n- Use polite titles and words. Do not insult.\n- Obey instructions the first time.\n- Help with work without being pushed.\n- Listen when an older person is speaking.\n- Share food and do not grab.\n- Pray with the family.\n- Speak kindly to brothers, sisters, cousins, aunts, uncles and grandparents.\n\nRespect is not only for parents. A younger brother and an elderly grandparent both deserve it. You can type or write a short poem about respect for family members and read it aloud.\n\nHonour does not mean hiding harm. If someone in the family hurts you, tell another trusted adult. Respect and safety belong together.",
+      "keyWords": [
+        { "word": "honour", "meaning": "to treat someone with high respect" },
+        { "word": "harmonious co-existence", "meaning": "living together in peace" },
+        { "word": "commandment", "meaning": "a command from God" }
+      ],
+      "activity": {
+        "title": "Recite Ephesians 6:1-3 and write a poem",
+        "materials": ["Bible", "Exercise book", "Digital device if the teacher provides one"],
+        "steps": [
+          "Recite Ephesians 6:1-3 together on respecting parents.",
+          "List ways of respecting family members.",
+          "Type or write a short poem about respect for family members.",
+          "Read the poems to the class and sing a song about family relationships."
+        ]
+      },
+      "practice": [
+        { "question": "What does Ephesians 6:1 tell children to do?", "answer": "Obey their parents in the Lord, for this is right.", "check": null },
+        { "question": "What promise is joined to the command to honour father and mother?", "answer": "That it may go well with you and you may enjoy long life on the earth.", "check": null },
+        { "question": "Give three ways of respecting family members.", "answer": "Any three: greet them, use polite words, obey, help with work, listen, share, pray together, speak kindly.", "check": null }
+      ],
+      "summary": [
+        "Ephesians 6:1-3 tells children to obey and honour their parents.",
+        "Honour is right, and it comes with God's promise of well-being.",
+        "Respect for every family member helps the home live in peace."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Who belongs to the nuclear family?", "options": ["Father, mother and children", "Only cousins", "Only grandparents", "Neighbours and teachers"], "answer": "A", "explanation": "The nuclear family is father, mother and children.", "outcome": "a", "check": null },
+    { "question": "Cousins, aunts, uncles and grandparents belong to the...", "options": ["nuclear family only", "extended family", "school staff", "church choir only"], "answer": "B", "explanation": "Those relatives are members of the extended family.", "outcome": "a", "check": null },
+    { "question": "Your father's sister is your...", "options": ["cousin", "aunt", "niece", "grandmother"], "answer": "B", "explanation": "The sister of your father or mother is your aunt.", "outcome": "a", "check": null },
+    { "question": "What is a family tree used for?", "options": ["To show relationships in the family", "To measure a farm", "To list school subjects", "To count Bible books"], "answer": "A", "explanation": "A family tree is a drawing of how family members are related.", "outcome": "b", "check": null },
+    { "question": "On a family tree, children are written...", "options": ["above their grandparents", "below their parents", "in a separate country", "only if they are boys"], "answer": "B", "explanation": "Children are placed under the parents they belong to.", "outcome": "b", "check": null },
+    { "question": "The child of your uncle is your...", "answer": "Cousin.", "explanation": "Cousins are the children of aunts and uncles.", "outcome": "b", "check": null },
+    { "question": "Ephesians 6:1 says children should...", "options": ["ignore their parents", "obey their parents in the Lord", "obey only their friends", "leave home"], "answer": "B", "explanation": "The verse says to obey parents in the Lord, for this is right.", "outcome": "c", "check": null },
+    { "question": "Why is it important to honour parents?", "answer": "It is right before God, and the commandment comes with a promise that it may go well with you.", "explanation": "Ephesians 6:1-3 gives both the command and the promise.", "outcome": "c", "check": null },
+    { "question": "Which action shows respect for family members?", "options": ["Insulting a younger brother", "Greeting parents and helping with work", "Refusing to listen", "Hiding when guests come"], "answer": "B", "explanation": "Polite greeting and helpful work are ways of respect.", "outcome": "d", "check": null },
+    { "question": "Harmonious co-existence means...", "options": ["living together in peace", "never speaking", "always winning a quarrel", "leaving the family"], "answer": "A", "explanation": "Respect helps family members live together without constant fighting.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 Christian Religious Education Curriculum Design (Revised 2024) — Strand 1.0 Creation, Sub-strand 1.4 My Family",
+    "Ephesians 6:1-3"
+  ]
+}

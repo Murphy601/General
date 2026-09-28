@@ -171,6 +171,57 @@
         "Knowing location and size helps with directions, planning and services.",
         "Every county is an important part of Kenya."
       ]
+    },
+    {
+      "number": 5,
+      "title": "A fact file, digital maps and a location game",
+      "outcomes": ["b", "c", "d"],
+      "objectives": [
+        "Record the location and size of your own county in a fact file checked against a map.",
+        "Use a game to describe neighbouring counties and compare their sizes."
+      ],
+      "intro": "A visitor who only hears the name of your county still does not know where it sits in Kenya or whether it is large or small. A fact file, checked on a map, lets you describe your county clearly.",
+      "notes": "### A county fact file\nA fact file is a page of true information about your own county. Copy these headings. Fill a line only after you have checked a map or your teacher has confirmed it:\n\n- Name of our county\n- Sub-county where our school is\n- List of sub-counties\n- Neighbour to the North, the South, the East and the West\n- Any other neighbouring counties\n- What lies on a side that has no county, if your map shows another country, a lake or the ocean there\n- Neighbours that cover more squares than our county\n- Neighbours that cover fewer squares\n- Neighbours that cover about the same number of squares\n\nLeave a line empty until you are sure. A guess written down as a fact can send a visitor the wrong way. Not every side of a county has another county beside it. Counties at the edge of Kenya may touch another country or a large water body.\n\n### Print and digital maps\nAn atlas and your social studies textbook show the counties of Kenya. There are 47 counties, so look carefully until you find yours. A digital map on a computer or phone can show the same boundaries if an adult helps you open it. Zoom in until you can read the names around your county. Compare the screen with your fact file and correct any line that does not match.\n\n### A location and size game\nWrite each neighbouring county on a card. A partner says, \"I am the neighbour to the North. What is my name?\" or \"Am I bigger or smaller than our county?\" Answer from the fact file, then prove the answer on the map. The square-counting method from your sketch tells you who is bigger. Groups can race, but the map is the judge, not the loudest voice.\n\n### Why the fact file is worth keeping\nIt helps you tell a new classmate where your county is, plan a journey to a neighbouring county, and see why roads and offices must serve the whole county. Knowing the location and size of your county is a way of knowing your home area well and of respecting the neighbours who share your boundaries.",
+      "keyWords": [
+        { "word": "fact file", "meaning": "a page where you record information you have checked and know to be true" },
+        { "word": "digital map", "meaning": "a map shown on a computer, tablet or phone" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner writes \"The northern neighbour is the biggest county in Kenya\" because a friend said so. What should the learner do before leaving that sentence in the fact file?",
+          "steps": ["A fact file should contain information checked on a map or confirmed by the teacher.", "A friend's guess is not enough."],
+          "answer": "Check a map of the counties, or ask the teacher, and change the sentence if it is not shown to be true.",
+          "check": null
+        },
+        {
+          "problem": "On the west, a county's boundary touches another country and not a county. What should the fact file say for that side?",
+          "steps": ["Not every side has a neighbouring county.", "Write what the map actually shows."],
+          "answer": "Write the name of the country that touches that side, and leave the neighbouring-county line for the West empty or marked \"no county\".",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "County location game",
+        "materials": ["A print or digital map of the counties of Kenya", "Cards", "Your square-count notes", "Exercise book"],
+        "steps": [
+          "In groups, open a print map or, with an adult, a digital map, and find your county.",
+          "Complete a fact file: sub-counties, neighbours by direction, and which neighbours are bigger, smaller or about the same size.",
+          "Make cards for the neighbouring counties and for \"bigger\" and \"smaller\".",
+          "Play the game: one learner gives a direction or a size clue, and the others name the county, then prove it on the map.",
+          "Discuss why it is useful to know the location and size of your county, and display the fact file beside your sketch map."
+        ]
+      },
+      "practice": [
+        { "question": "When should you fill a line in your county fact file?", "answer": "Only after checking a map or after the teacher confirms the fact.", "check": null },
+        { "question": "A side of your county touches a lake, not another county. What do you record?", "answer": "Record the lake for that side. Do not invent a neighbouring county.", "check": null },
+        { "question": "In the location game, what decides whether an answer is correct?", "answer": "The map, together with the square counts for size.", "check": null },
+        { "question": "Give one reason for keeping a fact file about your county.", "answer": "Any one: to describe where the county is, to plan a journey, to compare its size with its neighbours, or to explain why services must reach the whole county.", "check": null }
+      ],
+      "summary": [
+        "A fact file records checked information about your own county.",
+        "Print and digital maps show neighbours and help you compare size.",
+        "Not every side of a county has another county beside it."
+      ]
     }
   ],
   "quiz": [
@@ -183,7 +234,9 @@
     { "question": "County M covers 16 squares on a map and County N covers 10 squares. Which is bigger?", "options": ["County M", "County N", "They are the same"], "answer": "A", "explanation": "16 squares is more than 10 squares.", "outcome": "c", "check": "16 > 10" },
     { "question": "Which is the best way to estimate and compare the size of two counties on a map?", "options": ["Measure the length of their names", "Count squares on tracing paper placed over the map", "Count the towns", "Look at the colours"], "answer": "B", "explanation": "Counting squares compares the amount of land inside each boundary.", "outcome": "c", "check": null },
     { "question": "Give one reason why it is important to know the location and size of your county.", "answer": "Any one: to give directions, to plan journeys, to understand services people need, to cooperate with neighbouring counties.", "explanation": "Location and size help us understand and serve our home area.", "outcome": "d", "check": null },
-    { "question": "Which of these should a sketch map of your county always have?", "options": ["A North sign", "A photograph", "A price list", "A poem"], "answer": "A", "explanation": "The North sign shows direction on the map.", "outcome": "d", "check": null }
+    { "question": "Which of these should a sketch map of your county always have?", "options": ["A North sign", "A photograph", "A price list", "A poem"], "answer": "A", "explanation": "The North sign shows direction on the map.", "outcome": "d", "check": null },
+    { "question": "You want to write the names of neighbouring counties in a fact file. What should you do first?", "options": ["Guess from a story", "Check a print or digital map", "Copy another learner's county", "Count the classrooms"], "answer": "B", "explanation": "Location facts must match a map of your own county.", "outcome": "b", "check": null },
+    { "question": "The western side of a county on a map touches another country. What is true?", "options": ["That side must still have a neighbouring county", "You should invent a county name", "That side has a country as a neighbour, not a county", "The county has no location"], "answer": "C", "explanation": "Counties at the edge of Kenya may touch another country or a large water body.", "outcome": "b", "check": null }
   ],
   "sources": [
     "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 1.0 Natural and Built Environments, Sub-strand 1.2 Location and size of the County"

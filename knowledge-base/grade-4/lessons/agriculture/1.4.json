@@ -1,0 +1,364 @@
+{
+  "subject": "AGRICULTURE",
+  "subStrand": "1.4",
+  "title": "Conserving Wild Animals",
+  "overview": "Birds, hares, squirrels and monkeys sometimes eat crops, but they are still part of the environment. In this sub-strand you will identify the small wild animals that damage crops, make a scarecrow from local materials, and learn how to protect the harvest without killing the animals.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Small wild animals that destroy crops",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name small wild animals that damage crops.",
+        "Describe the kind of damage each one causes."
+      ],
+      "intro": "A farmer can plant a fine bed of vegetables and still lose them. The eater is often not a cow or a goat. It may be a bird at dawn, a hare at night, or a monkey from a nearby thicket.",
+      "notes": "Wild animals are animals that are not kept by people. Some small wild animals enter farms and eat or spoil crops. The ones you should be able to name are birds, hares, squirrels and monkeys.\n\n### Birds\nBirds such as weavers and seed-eaters peck sown seeds, ripe sorghum, millet and maize. They also peck soft fruits. A flock can strip a seedbed in a short time. Birds are active in the daytime, especially early morning and late evening.\n\n### Hares\nA hare has long ears and strong back legs. It feeds at night or in dim light. Hares bite young vegetables, bean plants, cabbages and the tender tips of crops. You may see clean, slanted bites and droppings near the bed.\n\n### Squirrels\nSquirrels are small, quick climbers with bushy tails. They dig up sown seeds, bite maize cobs and eat fruits. They are busy in the daytime and can run along fences and trees to reach the crop.\n\n### Monkeys\nMonkeys live in groups. They raid maize, bananas, fruits and vegetables, often pulling up more than they eat. They are common where farms are near trees or bush. They are clever and soon learn to ignore a scarecrow that never moves.\n\nOther small animals, such as rats and moles, also spoil crops in some places. Start with the four named here, then add any others you have truly seen on farms in your locality. Do not invent animals you have not observed or been taught about.",
+      "keyWords": [
+        { "word": "wild animal", "meaning": "an animal that is not kept by people" },
+        { "word": "crop damage", "meaning": "harm done to growing or stored crops" },
+        { "word": "raid", "meaning": "to enter a farm and take crops" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner finds maize seeds dug up in the daytime and sees a small animal with a bushy tail running to a tree. Which animal is the most likely cause?",
+          "steps": [
+            "The damage happened in the daytime and the animal climbed toward a tree.",
+            "Squirrels dig up seeds and are daytime climbers with bushy tails."
+          ],
+          "answer": "A squirrel",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Animals we have seen on crops",
+        "materials": ["Exercise book", "Pictures of a bird, a hare, a squirrel and a monkey"],
+        "steps": [
+          "Look at the pictures and name each animal.",
+          "In groups, share any real experience of birds, hares, squirrels or monkeys on a farm or garden.",
+          "For each animal, write the crop it damages and whether it comes by day or by night.",
+          "Make a class list and tick only the animals learners have seen or learnt about."
+        ]
+      },
+      "practice": [
+        { "question": "Name four small wild animals that destroy crops.", "answer": "Birds, hares, squirrels and monkeys.", "check": null },
+        { "question": "Which of these animals usually feeds on crops at night?", "answer": "The hare.", "check": null },
+        { "question": "What crop damage do birds often cause?", "answer": "They eat sown seeds, grains such as millet, sorghum and maize, and soft fruits.", "check": null }
+      ],
+      "summary": [
+        "Birds, hares, squirrels and monkeys are small wild animals that damage crops.",
+        "Birds and squirrels are busy by day. Hares feed at night.",
+        "Name animals from real observation, not from guesswork."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Reading the signs of crop damage",
+      "outcomes": ["a"],
+      "objectives": [
+        "Match signs in the garden to the animal that made them.",
+        "Explain why the right identification matters."
+      ],
+      "intro": "By the time someone sees the animal, the cabbages may already be gone. Footprints, bite marks, the time of day and the crop that was eaten are clues.",
+      "notes": "Farmers identify the visitor from signs, because the animal may hide when people arrive.\n\n### What to look for\n- Missing seeds in a newly sown row, with scratching, often means birds. If the holes are dug and the time is daytime, think of squirrels too.\n- Seedlings cut with a clean slanted bite, and damage found in the morning, point to a hare that fed at night.\n- Maize cobs bitten on the plant, with bits of grain under a tree, point to squirrels or monkeys. Monkeys often leave plants pulled down or broken, because they are heavier.\n- Banana fingers or fruits missing from the bunch, with plants shaken, are a common monkey sign where monkeys live nearby.\n- Droppings, footprints and paths through the fence show where the animal entered.\n\n### Why the name matters\nA scarecrow in the middle of the bed can worry birds in the daytime. It does little for a hare that feeds at night unless it moves or is paired with a fence. A low fence may stop a hare and still let a monkey climb over. When you know the animal, you choose a method that scares that animal away.\n\n### Be fair to the animal\nDo not blame monkeys if you have never had monkeys in your locality. Do not blame a neighbour's goat if the footprints are small and there is no tether. Wild animals and domestic animals leave different signs. Domestic animals are kept by people and should be herded away from crops. Wild animals need to be scared off, not accused by guesswork.\n\nWalk the school garden after break and after a night, and record what you see. Empty beds are not proof by themselves. Look for the clues.",
+      "keyWords": [
+        { "word": "sign", "meaning": "a mark or clue that shows what happened" },
+        { "word": "footprint", "meaning": "the mark left by an animal's foot" }
+      ],
+      "examples": [
+        {
+          "problem": "Cabbages are bitten down. The damage is seen at dawn and was not there at sunset. No monkeys live in the area. Which animal should the class suspect first?",
+          "steps": [
+            "The feeding happened at night.",
+            "Hares feed at night on young vegetables. Monkeys are not found in this place."
+          ],
+          "answer": "A hare",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Clue cards",
+        "materials": ["Cards describing garden clues", "Pictures of birds, hares, squirrels and monkeys"],
+        "steps": [
+          "Read each clue card aloud. Example: 'Seeds missing in the morning, feathers nearby.'",
+          "The group decides which animal fits the clue and says why.",
+          "Sort the cards into day visitors and night visitors.",
+          "Discuss one wrong guess people might make and how the clues correct it."
+        ]
+      },
+      "practice": [
+        { "question": "What signs suggest a hare rather than a bird?", "answer": "Damage happens at night, and young plants show clean slanted bites. Birds feed by day and peck seeds and grains.", "check": null },
+        { "question": "Why should a farmer identify the animal before choosing a control method?", "answer": "Different animals come at different times and are scared off in different ways.", "check": null },
+        { "question": "Give one sign that monkeys have raided a crop.", "answer": "Any one: plants pulled down or broken, fruits or bananas missing, maize cobs eaten, damage near trees where monkeys live.", "check": null }
+      ],
+      "summary": [
+        "Bite marks, time of day and entry paths identify the animal.",
+        "Birds and squirrels work by day. Hares work by night.",
+        "The right name leads to the right way of scaring the animal off."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Living better with small wild animals",
+      "outcomes": ["c"],
+      "objectives": [
+        "Explain why small wild animals should not be killed to protect crops.",
+        "Give reasons for living alongside them."
+      ],
+      "intro": "A monkey in the maize is a problem for the farmer. A dead monkey is a different kind of problem. Conserving wild animals means protecting the crop and leaving the animal alive.",
+      "notes": "Small wild animals do damage crops. They also belong in the environment. Living better with them means reducing the damage without wiping them out.\n\n### What these animals also do\nMany birds eat insects that harm crops, such as caterpillars. When birds are destroyed, insect pests can increase. Some animals help plants by moving seeds from one place to another. Hares, squirrels and monkeys are food for larger wild animals. If the small animals disappear, those larger animals lose food.\n\nThis variety of living things is called biodiversity. Conserving biodiversity means we do not destroy a kind of animal just because it sometimes eats our crops.\n\n### Harm that comes from killing\nPoison left for hares or rats can kill dogs, cats and birds that eat the poison or eat the dead animal. Traps can injure people and domestic animals. Fire used to drive animals out can burn the farm. Killing animals that are protected by law can also get a person into trouble. For Grade 4, the safe rule is simple: scare animals away, do not kill them.\n\n### Ways of living together\n- Plant a little extra, knowing some loss may happen.\n- Harvest ripe grain and fruit promptly so it is not left as a temptation.\n- Fence vegetable beds against hares.\n- Cover seedbeds with light netting or dry thorny branches against birds.\n- Use scarecrows, shiny tins and noise to frighten animals.\n- Keep the compound cleared so animals have fewer hiding places right beside the crop.\n\nThe crop is protected and the animal remains part of nature. That is conservation of wild animals.",
+      "keyWords": [
+        { "word": "biodiversity", "meaning": "the variety of living things in a place" },
+        { "word": "coexist", "meaning": "to live in the same place without destroying each other" }
+      ],
+      "examples": [
+        {
+          "problem": "A class wants to stop birds eating millet. One learner suggests poison. Why is a scarecrow a better choice?",
+          "steps": [
+            "Poison can kill birds that also eat insect pests, and it can harm other animals.",
+            "A scarecrow frightens birds away and leaves them alive."
+          ],
+          "answer": "A scarecrow protects the millet without killing birds or other animals.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Living together presentation",
+        "materials": ["Manila paper", "Markers"],
+        "steps": [
+          "Discuss why birds, hares, squirrels and monkeys matter even when they eat crops.",
+          "List methods that scare them off without killing them.",
+          "Prepare a short presentation titled 'Live better with small wild animals'.",
+          "Present to the class and listen to other groups without laughing at their ideas."
+        ]
+      },
+      "practice": [
+        { "question": "Give one useful thing birds do on a farm.", "answer": "Many birds eat insect pests such as caterpillars.", "check": null },
+        { "question": "Why is poison a poor way to stop hares eating cabbages?", "answer": "Poison can kill other animals and is dangerous to people and domestic animals.", "check": null },
+        { "question": "What does it mean to coexist with small wild animals?", "answer": "To protect crops while leaving the animals alive as part of the environment.", "check": null }
+      ],
+      "summary": [
+        "Small wild animals can harm crops and still have a place in nature.",
+        "Killing them can harm other animals and reduce biodiversity.",
+        "Fences, nets, prompt harvest and scarecrows let people and animals coexist."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Materials and plan for a scarecrow",
+      "outcomes": ["b"],
+      "objectives": [
+        "List local materials for making a scarecrow.",
+        "Plan a scarecrow that can stand in a garden."
+      ],
+      "intro": "Birds avoid people. A scarecrow copies the shape of a person so that birds hesitate before they land on the crop. It only works if it is planned to stand, to be seen, and to move a little.",
+      "notes": "A scarecrow is a figure set in a garden to frighten birds and other small wild animals. It is not a trap and it does not hurt them.\n\n### The frame\nTwo strong sticks make the body. One upright stick is the backbone and is pointed so it can be pushed into the ground. A shorter stick is tied across it for the arms. Sisal twine, banana fibre or strips of old cloth can be used to tie the joint tightly. If the cross is loose, the arms will droop in the wind.\n\n### The body and head\nOld clothes give the human shape: a shirt on the arms and a trouser leg or sack stuffed with dry grass, leaves or paper for the body. The stuffing should be dry so it does not rot at once. A head can be a small cloth bag or a tin, with a simple face drawn on it. A hat or bright headcloth makes the figure taller and easier to see.\n\n### Things that move and shine\nBirds get used to a figure that never moves. Tie strips of plastic, old reflective pieces or small tins so they swing and flash. The noise of tins also startles monkeys and birds. Do not use broken glass.\n\n### A plan before you build\nDecide the height. The scarecrow should stand above the crop so it can be seen. Decide who will bring sticks, who will bring old clothes, and who will bring twine. Ask at home before taking any clothing. Leave out materials that can cut people or that you may need again.\n\nDraw your scarecrow and label the stick frame, the stuffed body, the head and one moving part. That drawing is your building plan.",
+      "keyWords": [
+        { "word": "scarecrow", "meaning": "a figure put in a garden to frighten animals away from crops" },
+        { "word": "frame", "meaning": "the sticks that give the scarecrow its shape" }
+      ],
+      "examples": [
+        {
+          "problem": "A group has two sticks, an old shirt, dry grass, sisal twine and a broken bottle. Which item should they leave out, and why?",
+          "steps": [
+            "Sticks, shirt, dry grass and twine can make the frame and body.",
+            "A broken bottle can cut people and animals and is not needed."
+          ],
+          "answer": "The broken bottle, because it is dangerous and is not a suitable material.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Scarecrow materials plan",
+        "materials": ["Paper", "Pencil", "A list of items available at school"],
+        "steps": [
+          "Discuss what a scarecrow needs: frame, body, head and something that moves.",
+          "List materials you can get locally without buying, such as sticks, old clothes, dry grass and twine.",
+          "Cross out anything sharp or poisonous.",
+          "Draw and label the scarecrow your group will make.",
+          "Share the jobs: who brings each material next lesson."
+        ]
+      },
+      "practice": [
+        { "question": "What is a scarecrow used for?", "answer": "To frighten small wild animals, especially birds, away from crops without killing them.", "check": null },
+        { "question": "Name three local materials used to make a scarecrow.", "answer": "Any three: sticks, old clothes, dry grass or leaves, sisal twine, a cloth bag or tin for the head, strips that move.", "check": null },
+        { "question": "Why should part of the scarecrow be able to move?", "answer": "Animals get used to a figure that never moves, so flashing or swinging parts keep them away.", "check": null }
+      ],
+      "summary": [
+        "A scarecrow copies a person to frighten animals away.",
+        "Use a stick frame, old clothes, dry stuffing and twine.",
+        "Add a moving, shining part, and leave out broken glass."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Constructing a scarecrow",
+      "outcomes": ["b"],
+      "objectives": [
+        "Build a scarecrow that can stand upright.",
+        "Follow safety rules while using sticks and tools."
+      ],
+      "intro": "The drawing is done. Now the sticks, the shirt and the stuffing become a figure that can stand in the garden today, not only on paper.",
+      "notes": "Work in a group and give each person a job. One learner holds the frame, one ties, one stuffs, and one checks that the figure looks like a person from a distance.\n\n### Steps to construct it\n1. Choose a straight stick about as tall as a learner, or a little taller, for the upright. Point one end.\n2. Tie the arm stick across the upright, a short way down from the top, so a neck is left for the head. Bind the joint many times so it cannot twist loose.\n3. Push dry grass or leaves into an old shirt to make a chest and sleeves. Tie the cuffs so the stuffing stays in.\n4. Fix the shirt to the frame with twine at the neck, wrists and waist.\n5. Stuff a cloth bag for the head, tie it on the neck, and add a hat or bright cloth.\n6. Tie strips of plastic, cloth or a few small tins to the arms so they can swing.\n7. Stand the scarecrow up and push the pointed end firmly into the soil. Pack soil around the stick. If the garden is hard, an adult can help make the hole.\n\n### Safety and care of materials\nDo not wave pointed sticks near faces. Do not use pangas unless an adult is cutting the sticks. Wash your hands after handling old stuffing. Keep the work area clear so nobody trips. If clothes were borrowed, use ones the owner has agreed to give.\n\n### Check the finished figure\nLook at it from the crop's edge. You should see a head, two arms and a body. The arms should not slide down. A strip should move when you blow it or when the wind catches it. A scarecrow that falls over in a light breeze needs a deeper hole or a stronger upright.\n\nWhen it passes the check, it is ready to be placed among the crops.",
+      "keyWords": [
+        { "word": "upright", "meaning": "the standing stick that holds the scarecrow up" },
+        { "word": "bind", "meaning": "to tie firmly by wrapping many times" }
+      ],
+      "examples": [
+        {
+          "problem": "The arm stick slides down as soon as the shirt is added. What is wrong and how can the group fix it?",
+          "steps": [
+            "The joint was not tied tightly enough for the weight of the shirt.",
+            "They should bind the cross joint again until it cannot twist or slide."
+          ],
+          "answer": "The cross joint is loose. Bind it firmly before dressing the frame.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Build the scarecrow",
+        "materials": ["Two sticks", "Sisal twine or strong string", "Old shirt and a cloth bag", "Dry grass", "Strips of cloth or small tins"],
+        "steps": [
+          "Share roles: holder, tier, stuffer and checker.",
+          "Tie the arm stick across the upright and test that it does not slide.",
+          "Stuff and fit the clothes and head.",
+          "Add at least one part that moves in the wind.",
+          "Stand it up, pack the soil, and check the shape from a few metres away."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 240\" font-family=\"sans-serif\"><rect width=\"280\" height=\"240\" fill=\"#ffffff\"/><line x1=\"20\" y1=\"200\" x2=\"260\" y2=\"200\" stroke=\"#a16207\" stroke-width=\"4\"/><line x1=\"140\" y1=\"200\" x2=\"140\" y2=\"36\" stroke=\"#78350f\" stroke-width=\"6\"/><line x1=\"70\" y1=\"78\" x2=\"210\" y2=\"78\" stroke=\"#78350f\" stroke-width=\"6\"/><circle cx=\"140\" cy=\"28\" r=\"16\" fill=\"#fde68a\" stroke=\"#92400e\"/><rect x=\"100\" y=\"70\" width=\"80\" height=\"70\" rx=\"8\" fill=\"#2563eb\" opacity=\"0.85\"/><line x1=\"70\" y1=\"78\" x2=\"50\" y2=\"120\" stroke=\"#16a34a\" stroke-width=\"2\"/><line x1=\"210\" y1=\"78\" x2=\"236\" y2=\"110\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"236\" cy=\"116\" r=\"6\" fill=\"#d6d3d1\" stroke=\"#111\"/><text x=\"148\" y=\"24\" font-size=\"11\" fill=\"#111827\">head</text><text x=\"168\" y=\"100\" font-size=\"11\" fill=\"#111827\">shirt</text><text x=\"20\" y=\"224\" font-size=\"12\" fill=\"#111827\">Pointed stick pushed into the soil</text></svg>",
+        "caption": "A scarecrow has a stick frame, a head, a body and parts that can move"
+      },
+      "practice": [
+        { "question": "In what order should the frame be made?", "answer": "Tie the arm stick firmly across the upright stick, then add clothes, head and moving parts.", "check": null },
+        { "question": "Why is the bottom of the upright stick pointed and pushed deep into the soil?", "answer": "So the scarecrow stands firmly and does not fall over.", "check": null },
+        { "question": "Give two safety rules for constructing a scarecrow.", "answer": "Any two: do not wave pointed sticks, let an adult use a panga, keep the area clear, wash hands, do not use broken glass.", "check": null }
+      ],
+      "summary": [
+        "Bind a cross of two sticks, then add stuffed clothes and a head.",
+        "Add strips or tins that move, and plant the upright firmly.",
+        "Handle sticks safely and check the figure from a distance."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Using the scarecrow to protect crops",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Place a scarecrow where it can protect a crop.",
+        "Explain how a scarecrow helps people live better with wild animals."
+      ],
+      "intro": "A scarecrow stored in the classroom scares nobody. It has to stand in the garden, in sight of the birds, and it has to be moved before the birds decide it is only a stick.",
+      "notes": "### Where to place it\nPut the scarecrow inside or at the edge of the crop that is being damaged, where birds land. It should stand higher than the plants. In a large garden, one figure is not enough. Place two where the crop is wide, so there is no far corner where birds can feed in peace.\n\nFace it toward the side where birds usually enter. Keep it clear of paths so people do not walk into the sticks. If hares are the problem, a scarecrow alone is weak at night. Pair it with a low fence or thorny branches around the bed. If monkeys are the problem, moving shiny tins and someone checking the garden matter more than a still figure.\n\n### Keep it working\nBirds learn. Move the scarecrow to a new spot every few days. Change the hat or the hanging strips so the shape is not always the same. Replace stuffing if it falls out after rain. A fallen scarecrow should be stood up again the same day.\n\n### Other gentle methods to use with it\nCover a seedbed with netting or light dry branches until the seeds have germinated. Harvest ripe heads of millet and fruits promptly. Weed so the crop is easy to see and guard. These methods support the scarecrow. None of them needs to kill the animal.\n\n### What success looks like\nSuccess is not an empty sky with no birds left in the area. Success is a crop that can be harvested, and birds, hares, squirrels and monkeys still alive in the environment. Record each week whether damage has reduced. If it has not, move the scarecrow or add a fence rather than turning to poison.\n\nTell your family that the figure in the garden is there to scare, not to harm. That is conserving wild animals while producing food.",
+      "keyWords": [
+        { "word": "netting", "meaning": "a light cover with holes, used to keep birds off a seedbed" },
+        { "word": "guard", "meaning": "to watch and protect a crop" }
+      ],
+      "examples": [
+        {
+          "problem": "Birds that avoided a scarecrow in week 1 are feeding beside it in week 3. What should the learners do?",
+          "steps": [
+            "Birds have learnt that the figure does not move and is not a person.",
+            "The scarecrow should be moved and its hanging parts changed."
+          ],
+          "answer": "Move the scarecrow and change its shape or hanging strips.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Place the scarecrow and report",
+        "materials": ["Finished scarecrow", "School garden or a marked plot", "Exercise book"],
+        "steps": [
+          "With the teacher, choose the spot where birds or other small animals trouble the crop.",
+          "Stand the scarecrow firmly above the plants, away from the path.",
+          "Add or check a moving part. If hares are a problem, lay thorny branches along the edge of the bed.",
+          "Visit twice in the week, record any crop damage, and move the scarecrow once.",
+          "Present how the scarecrow protects crops while letting wild animals live."
+        ]
+      },
+      "practice": [
+        { "question": "Where should a scarecrow stand?", "answer": "In or at the edge of the crop being damaged, higher than the plants, and out of the path.", "check": null },
+        { "question": "Why should a scarecrow be moved every few days?", "answer": "Birds get used to a figure that stays in one place.", "check": null },
+        { "question": "How does using a scarecrow show care for wild animals?", "answer": "It frightens them away from crops without killing them, so they remain part of the environment.", "check": null },
+        { "question": "What extra method helps when the crop raider is a hare at night?", "answer": "A low fence or thorny branches around the bed, because a scarecrow alone is weak at night.", "check": null }
+      ],
+      "summary": [
+        "Stand the scarecrow in the crop, higher than the plants.",
+        "Move it often so birds do not get used to it.",
+        "Scaring animals away protects food and conserves wildlife."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which list names small wild animals that destroy crops?",
+      "options": ["Cow, sheep, goat and hen", "Birds, hares, squirrels and monkeys", "Dog, cat, donkey and camel", "Fish, frog, crab and snail"],
+      "answer": "B",
+      "explanation": "Birds, hares, squirrels and monkeys are the small wild animals named for this sub-strand.",
+      "outcome": "a"
+    },
+    {
+      "question": "When do hares usually feed on crops?",
+      "options": ["At midday in the open", "At night or in dim light", "Only during heavy rain", "Only when people are watching"],
+      "answer": "B",
+      "explanation": "Hares feed on young vegetables at night or in dim light.",
+      "outcome": "a"
+    },
+    {
+      "question": "Seedlings are bitten down between sunset and dawn. Which animal is the most likely?",
+      "answer": "A hare",
+      "explanation": "Hares feed at night and leave clean bites on young plants. Birds feed by day.",
+      "outcome": "a"
+    },
+    {
+      "question": "Why are birds useful even though they eat grain?",
+      "options": ["They scare monkeys", "Many of them eat insect pests", "They water the crops", "They make compost"],
+      "answer": "B",
+      "explanation": "Many birds eat caterpillars and other insects, so killing all birds can increase pests.",
+      "outcome": "c"
+    },
+    {
+      "question": "Which method conserves wild animals while protecting crops?",
+      "options": ["Poisoning them", "Burning their habitat", "Scaring them off with a scarecrow", "Trapping and killing them"],
+      "answer": "C",
+      "explanation": "A scarecrow frightens animals away and leaves them alive.",
+      "outcome": "c"
+    },
+    {
+      "question": "What is the frame of a scarecrow made from?",
+      "answer": "Two sticks tied in a cross, one upright and one for the arms.",
+      "explanation": "The sticks give the shape of a standing person. Clothes and stuffing are added afterwards.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why are strips or tins tied to a scarecrow?",
+      "options": ["To make it heavier", "To move and flash so animals do not get used to it", "To water the plants", "To trap the animals"],
+      "answer": "B",
+      "explanation": "Movement and shine keep frightening animals after they have seen the figure.",
+      "outcome": "b"
+    },
+    {
+      "question": "A scarecrow falls over in a light wind. What should you do?",
+      "answer": "Push the upright deeper into the soil and pack the soil firmly.",
+      "explanation": "A shallow hole cannot hold the figure. The pointed stick must be set firmly.",
+      "outcome": "b"
+    },
+    {
+      "question": "Birds are feeding beside a scarecrow that has stood in one place for a month. What is the best next step?",
+      "options": ["Leave it, because they will go away", "Move it and change its hanging parts", "Knock it down and stop farming", "Spray poison on the crop"],
+      "answer": "B",
+      "explanation": "Birds learn a still figure. Moving it and changing it makes it unfamiliar again.",
+      "outcome": "b"
+    },
+    {
+      "question": "What does successful crop protection look like in this sub-strand?",
+      "answer": "The crop is harvested and the wild animals are still alive.",
+      "explanation": "The aim is to live better with small wild animals, not to destroy them.",
+      "outcome": "c"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Agriculture Curriculum Design (Revised 2024) — Strand 1.0 Conservation of Resources, Sub-strand 1.4 Conserving Wild Animals"
+  ]
+}

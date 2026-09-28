@@ -1,0 +1,567 @@
+{
+  "subject": "SCIENCE AND TECHNOLOGY",
+  "subStrand": "2.1",
+  "title": "Properties of matter",
+  "overview": "Matter is anything that occupies space and has mass. In this sub-strand you will sort substances from the environment into solids, liquids and gases, and describe the shape, volume and mass of each state. You will also see why each state of matter is useful in daily life.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "The meaning of matter",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain the meaning of matter.",
+        "Give examples of things that are matter and things that are not matter."
+      ],
+      "intro": "Hold a stone in one hand and an empty open hand beside it. The stone stops your fingers from closing, and it feels heavy. Those two clues — it takes up space and it has mass — are how we recognise matter.",
+      "notes": "Matter is anything that occupies space and has mass. Occupies space means it takes up room, so two things cannot be in exactly the same place at the same time. A book on your desk occupies the space where it lies. Water poured into a bottle occupies part of the bottle. Even the air in an “empty” cup occupies space. If you push an inverted glass straight down into a basin of water, water does not fill the glass at once, because air is already inside it.\n\nMass is the amount of matter in an object. A large stone has more mass than a small pebble. A jerrycan full of water has more mass than the same jerrycan when it is empty. When you lift an object, you feel its mass as weight.\n\n### Things that are matter\nLook around the classroom. The walls, the floor, the desks, the chalk and your clothes are all matter. Drinking water is matter. The milk in a packet is matter. The air you breathe is matter, even though you cannot see it. Your own body is matter too.\n\n### Things that are not matter\nLight, sound, heat and a shadow are not matter. They do not occupy space in the way a stone does, and they do not have mass. You cannot put light in a bottle or collect a handful of sound. Feelings and ideas, such as happiness or the number three, are not matter either.\n\nScientists study matter because almost everything we use — food, water, tools, clothes and the air we breathe — is matter. In the lessons that follow you will group matter into three states and describe how each state behaves.",
+      "keyWords": [
+        { "word": "matter", "meaning": "anything that occupies space and has mass" },
+        { "word": "occupies space", "meaning": "takes up room so that something else cannot be in the same place" },
+        { "word": "mass", "meaning": "the amount of matter in an object" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner says that the air in a football is not matter because it cannot be seen. Is the learner correct?",
+          "steps": [
+            "Matter is anything that occupies space and has mass.",
+            "Air inside the ball occupies space, which is why the ball is firm.",
+            "Air also has mass, even though we cannot see it."
+          ],
+          "answer": "No. Air is matter because it occupies space and has mass.",
+          "check": null
+        },
+        {
+          "problem": "Which of these are matter: a wooden ruler, sunlight, water in a cup, and the sound of a bell?",
+          "steps": [
+            "A wooden ruler occupies space and has mass.",
+            "Water occupies space in the cup and has mass.",
+            "Sunlight and sound do not occupy space or have mass."
+          ],
+          "answer": "The wooden ruler and the water are matter. Sunlight and sound are not matter.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Brainstorm: what is matter?",
+        "materials": ["Manila paper or the chalkboard", "A stone, a bottle of water and an empty open bottle"],
+        "steps": [
+          "In a group, handle the stone, the bottle of water and the open bottle of air.",
+          "Discuss what the three things have in common. Agree on a meaning of matter.",
+          "Make two lists: Things that are matter and Things that are not matter. Include objects you can see in the classroom.",
+          "Share your lists with another group and correct any item that does not match the meaning.",
+          "Wash your hands after handling shared objects."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 150\" font-family=\"sans-serif\"><rect width=\"480\" height=\"150\" fill=\"#ffffff\"/><rect x=\"16\" y=\"28\" width=\"90\" height=\"70\" rx=\"6\" fill=\"#d1d5db\" stroke=\"#374151\" stroke-width=\"2\"/><text x=\"61\" y=\"68\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">stone</text><rect x=\"140\" y=\"36\" width=\"50\" height=\"62\" rx=\"4\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"165\" y=\"120\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">water</text><ellipse cx=\"280\" cy=\"70\" rx=\"42\" ry=\"28\" fill=\"#e0f2fe\" stroke=\"#0369a1\" stroke-width=\"2\"/><text x=\"280\" y=\"74\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">air</text><text x=\"380\" y=\"60\" font-size=\"13\" fill=\"#111827\">Matter</text><text x=\"380\" y=\"80\" font-size=\"12\" fill=\"#374151\">occupies space</text><text x=\"380\" y=\"98\" font-size=\"12\" fill=\"#374151\">and has mass</text></svg>",
+        "caption": "A stone, water and air are all matter"
+      },
+      "practice": [
+        { "question": "What is matter?", "answer": "Matter is anything that occupies space and has mass.", "check": null },
+        { "question": "Give two examples of matter found in a classroom.", "answer": "Any two, such as a desk, a book, chalk, water or air.", "check": null },
+        { "question": "Why is sunlight not matter?", "answer": "Sunlight does not occupy space and does not have mass.", "check": null }
+      ],
+      "summary": [
+        "Matter is anything that occupies space and has mass.",
+        "Stones, water and air are matter.",
+        "Light, sound, heat and shadows are not matter."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The three states of matter",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name the three states of matter.",
+        "Give examples of solids, liquids and gases from the environment."
+      ],
+      "intro": "Leave a piece of ice in a plate in the sun. It turns into a puddle of water. If that water is heated in a sufuria, steam rises from it. Ice, water and steam are the same substance in three different states.",
+      "notes": "Matter exists in three states: solid, liquid and gas. The state tells us how the substance behaves, not what colour it is or whether it is useful.\n\n### Solids\nA solid has a shape of its own. A stone, a wooden spoon, a metal sufuria, a book, a piece of chalk and a block of ice are solids. You can hold most solids in your hand. Sugar and salt are also solids. Each grain is a tiny solid, even though the grains can be poured.\n\n### Liquids\nA liquid flows and can be poured. Water, milk, cooking oil, juice, honey and paraffin are liquids. A liquid does not keep one shape. It spreads out until it meets the walls of the container it is in. The top of a still liquid is flat.\n\n### Gases\nA gas spreads out to fill the space it is given. Air is a mixture of gases. The gas used for cooking is a gas. Steam rising from boiling water is water in the gas state, called water vapour. The air you blow into a balloon is a gas. You often cannot see a gas, but you can feel moving air and you can see a balloon grow bigger as gas goes into it.\n\n### Same substance, different states\nIce is solid water. Water you drink is liquid. Steam is water as a gas. Heating or cooling can change a substance from one state to another. The substance is still matter in every state.\n\nDo not touch steam or boiling water. Steam can burn the skin. Do not taste a substance just to find out its state.",
+      "keyWords": [
+        { "word": "solid", "meaning": "a state of matter that has a shape of its own, such as a stone or a piece of ice" },
+        { "word": "liquid", "meaning": "a state of matter that flows and takes the shape of its container, such as water" },
+        { "word": "gas", "meaning": "a state of matter that spreads out to fill the space it is in, such as air" },
+        { "word": "water vapour", "meaning": "water in the gas state, such as steam" }
+      ],
+      "examples": [
+        {
+          "problem": "Sort these into solid, liquid and gas: cooking oil, a nail, air in a ball, honey, a brick.",
+          "steps": [
+            "A nail and a brick keep their own shape, so they are solids.",
+            "Cooking oil and honey can be poured, so they are liquids.",
+            "Air spreads inside the ball, so it is a gas."
+          ],
+          "answer": "Solids: nail and brick. Liquids: cooking oil and honey. Gas: air in the ball.",
+          "check": null
+        },
+        {
+          "problem": "A learner pours salt from a packet and says salt is a liquid because it flows. What is the correct state of salt?",
+          "steps": [
+            "Each grain of salt keeps its own tiny shape.",
+            "The grains are small solids, not a liquid.",
+            "A liquid has no grains that keep their own shape."
+          ],
+          "answer": "Salt is a solid.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Identify the three states",
+        "materials": ["A stone or piece of wood", "A cup of water", "A balloon for each learner", "Three labels: Solid, Liquid, Gas"],
+        "steps": [
+          "Brainstorm with your group and name the three states of matter.",
+          "Place the stone, the cup of water and a balloon on the table.",
+          "Each learner blows up their own balloon. Do not share a balloon or blow into a balloon someone else has used.",
+          "Match each object to a label and say why.",
+          "Add three more examples from the classroom to each label."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 160\" font-family=\"sans-serif\"><rect width=\"480\" height=\"160\" fill=\"#ffffff\"/><rect x=\"30\" y=\"40\" width=\"70\" height=\"70\" fill=\"#9ca3af\" stroke=\"#111827\" stroke-width=\"2\"/><text x=\"65\" y=\"135\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">Solid</text><path d=\"M180 110 L200 50 L250 50 L270 110 Z\" fill=\"none\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><path d=\"M188 100 L262 100 L255 70 L205 70 Z\" fill=\"#93c5fd\"/><text x=\"225\" y=\"135\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">Liquid</text><circle cx=\"380\" cy=\"75\" r=\"36\" fill=\"#e0f2fe\" stroke=\"#0369a1\" stroke-width=\"2\"/><text x=\"380\" y=\"135\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">Gas</text></svg>",
+        "caption": "Solid, liquid and gas are the three states of matter"
+      },
+      "practice": [
+        { "question": "Name the three states of matter.", "answer": "Solid, liquid and gas.", "check": null },
+        { "question": "Give one example of a solid, one liquid and one gas.", "answer": "Examples: stone (solid), water (liquid), air (gas).", "check": null },
+        { "question": "Ice, water and steam are three states of which substance?", "answer": "Water.", "check": null },
+        { "question": "Why is salt a solid even though it can be poured?", "answer": "Each grain of salt is a tiny solid that keeps its own shape.", "check": null }
+      ],
+      "summary": [
+        "The three states of matter are solid, liquid and gas.",
+        "Solids keep their shape, liquids flow, and gases spread out.",
+        "Ice, water and steam are water in the three states."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Grouping substances from the environment",
+      "outcomes": ["a"],
+      "objectives": [
+        "Collect substances from the environment.",
+        "Group them into solids, liquids and gases."
+      ],
+      "intro": "On the way from home to school you pass stones, puddles, smoke from a kitchen and the wind on your face. Each of those is matter, and each one belongs in one of the three states.",
+      "notes": "To categorise substances means to put them into groups that share the same features. For states of matter, the three groups are solid, liquid and gas.\n\n### How to decide the state\nAsk these questions about each substance:\n\n- Does it keep its own shape when you put it down? If yes, it is a solid. A maize cob, a bottle top, a leaf and a lump of clay are solids.\n- Does it flow and take the shape of the container, while you can still pour it from one container to another? If yes, it is a liquid. Tea, milk, rainwater and liquid soap are liquids.\n- Does it spread to fill the container, and is it difficult to hold in an open hand? If yes, it is a gas. Air, steam and the gas in a balloon are gases.\n\n### Substances you can collect safely\nAround the school you can collect small solids such as pebbles, dry leaves, pieces of paper, bottle tops and sticks. Liquids should be in closed or open containers an adult has allowed, such as water or cooking oil. You cannot collect a gas in your bare hands. You can trap air in a balloon or in an inverted glass.\n\n### Careful cases\nA wet cloth is a solid that has liquid in it. The cloth is the solid; the water in it is the liquid. Smoke from a fire is tiny solid bits carried in hot air. The air is a gas. Ice floating in a glass is a solid sitting in a liquid.\n\nDo not pick up broken glass, unknown powders or containers you cannot identify. Do not taste substances. Wash your hands after the collection.",
+      "keyWords": [
+        { "word": "categorise", "meaning": "to put things into groups that share the same features" },
+        { "word": "substance", "meaning": "a kind of matter, such as water, wood or air" }
+      ],
+      "examples": [
+        {
+          "problem": "Group these substances: a dry leaf, milk, air in a tyre, a coin, porridge that can be poured, steam from ugali.",
+          "steps": [
+            "The leaf and the coin keep their shape: solids.",
+            "Milk and pourable porridge flow: liquids.",
+            "Air in a tyre and steam spread out: gases."
+          ],
+          "answer": "Solids: dry leaf, coin. Liquids: milk, porridge. Gases: air in the tyre, steam.",
+          "check": null
+        },
+        {
+          "problem": "A glass holds ice cubes and water. How many states of matter are in the glass?",
+          "steps": [
+            "Ice cubes are solid water.",
+            "The water around them is liquid.",
+            "A little air sits above the water if the glass is not full, but the substances named are ice and water."
+          ],
+          "answer": "Two states: solid (ice) and liquid (water).",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Collect and group substances",
+        "materials": ["Three boxes or labelled manila charts: Solid, Liquid, Gas", "Gloves or a stick for picking litter", "A balloon", "A small bottle of water"],
+        "steps": [
+          "Walk with your teacher around the school compound and list substances you see.",
+          "Collect only safe solids, such as pebbles, dry leaves and clean bottle tops. Do not touch broken glass, sharp metal or animal waste.",
+          "Back in class, place each solid on the Solid chart. Put the bottle of water with the Liquid chart. Trap air in a balloon for the Gas chart.",
+          "Work together to add more examples to each group from memory.",
+          "Wash your hands with soap when you finish."
+        ]
+      },
+      "practice": [
+        { "question": "What does it mean to categorise substances?", "answer": "To put them into groups that share the same features, such as solid, liquid and gas.", "check": null },
+        { "question": "A learner finds a bottle top, cooking oil and air in a ball. State the group for each.", "answer": "Bottle top: solid. Cooking oil: liquid. Air in a ball: gas.", "check": null },
+        { "question": "A wet shirt is hanging on a line. Which part is solid and which part is liquid?", "answer": "The shirt is solid. The water in the shirt is liquid.", "check": null }
+      ],
+      "summary": [
+        "Substances can be grouped as solids, liquids or gases.",
+        "Shape and the ability to flow help you decide the group.",
+        "Collect only safe substances and wash your hands afterwards."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Shape of solids, liquids and gases",
+      "outcomes": ["b"],
+      "objectives": [
+        "Describe the shape of a solid, a liquid and a gas.",
+        "Show that a liquid takes the shape of its container."
+      ],
+      "intro": "Move a stone from a box into a bowl. The stone looks the same. Pour water from a jug into that bowl. The water no longer looks like the jug. Shape is one property that separates the three states.",
+      "notes": "Shape is the outline or form of a substance. Shape is one property of matter.\n\n### Solids have a definite shape\nA definite shape means the shape stays the same unless you break, cut or bend the solid. A brick stays brick-shaped on the table, in a box or in your hands. A metal spoon keeps its shape when you move it from a cup to a plate. You can change the shape of some solids by force: clay can be pressed, paper can be folded and a stick can be broken. Until you do that, the solid keeps its shape.\n\n### Liquids have no definite shape\nA liquid takes the shape of the part of the container it fills. Water in a tall glass is tall. The same water poured into a wide plate is wide and shallow. The liquid itself has not changed; only the container has. The surface of a still liquid is level. Honey, milk and cooking oil behave in the same way, although thick liquids flow more slowly than water.\n\n### Gases have no definite shape\nA gas also takes the shape of its container, then spreads to fill all of it. Air in a round balloon makes a round shape. Air in a long balloon makes a long shape. If the balloon bursts, the air does not stay in a ball. It mixes with the air in the room and has no shape of its own.\n\nWhen you compare shape, remember: solids keep their shape; liquids and gases take the shape of the container. A gas goes further and fills the whole container.",
+      "keyWords": [
+        { "word": "shape", "meaning": "the outline or form of a substance" },
+        { "word": "definite shape", "meaning": "a shape that stays the same when the substance is moved" },
+        { "word": "property", "meaning": "a feature that describes how matter behaves, such as shape, volume or mass" }
+      ],
+      "examples": [
+        {
+          "problem": "Water is poured from a narrow bottle into a wide basin. What happens to the shape of the water?",
+          "steps": [
+            "A liquid has no definite shape.",
+            "It takes the shape of the new container.",
+            "The water was narrow in the bottle and becomes wide in the basin."
+          ],
+          "answer": "The water takes the wide shape of the basin.",
+          "check": null
+        },
+        {
+          "problem": "Air is pumped into a football. What shape does the air take?",
+          "steps": [
+            "A gas takes the shape of its container.",
+            "The container is the football.",
+            "The air fills the ball and matches its shape."
+          ],
+          "answer": "The air takes the shape of the football.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Test shape with water and a stone",
+        "materials": ["A small stone", "Water", "A cup", "A wide plate or lid", "A balloon for each learner"],
+        "steps": [
+          "Put the stone in the cup, then on the plate. Draw its outline each time and discuss whether the shape changed.",
+          "Pour the same water into the cup, then onto the plate. Draw the outline of the water each time.",
+          "Each learner inflates their own balloon only. Observe the shape of the air inside. Do not share balloons.",
+          "Write one sentence for the shape of a solid, a liquid and a gas.",
+          "Empty the water onto plants if it is clean, and wash your hands."
+        ]
+      },
+      "practice": [
+        { "question": "Which state of matter has a definite shape?", "answer": "Solid.", "check": null },
+        { "question": "What happens to the shape of milk when it is poured from a packet into a glass?", "answer": "The milk takes the shape of the glass.", "check": null },
+        { "question": "Why does air have no shape of its own after a balloon bursts?", "answer": "A gas spreads out to fill the space around it and does not keep the balloon's shape.", "check": null }
+      ],
+      "summary": [
+        "Shape is a property of matter.",
+        "Solids have a definite shape.",
+        "Liquids and gases take the shape of their container, and a gas fills the whole container."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Volume of the three states",
+      "outcomes": ["b"],
+      "objectives": [
+        "Explain the meaning of volume.",
+        "Describe the volume of a solid, a liquid and a gas."
+      ],
+      "intro": "Fill a cup with water to the brim, then pour that water into an empty bottle. The water looks different, but it still fills the same amount of space. That amount of space is the volume.",
+      "notes": "Volume is the amount of space that matter occupies. We measure the volume of liquids in millilitres (ml) and litres (l). One litre is the same as 1,000 millilitres. A measuring jar or a marked bottle helps us read the volume.\n\n### Liquids have a definite volume\nA definite volume means the amount of space stays the same even when the shape changes. If you pour 250 ml of water from a tall glass into a wide bowl, a measuring jar still shows 250 ml when you pour it back. You have not added or removed water, so the volume does not change. The same is true of milk, oil and juice.\n\n### Solids have a definite volume\nA stone occupies the same amount of space on the table as it does inside a box. You do not need to melt it or pour it. Its volume stays the same as long as you do not break pieces off or add pieces on. Two identical bricks occupy twice the space of one brick.\n\n### Gases have no definite volume\nA gas spreads to fill whatever container it is in. A small amount of air pumped into a balloon occupies the balloon. If that air escapes into the classroom, it spreads through the whole room. You can also squeeze a gas into a smaller space: a bicycle pump pushes air into a smaller volume inside a tyre. Because a gas can be squeezed and can spread, it does not have one fixed volume.\n\nWhen you compare the three states, solids and liquids have a definite volume. Gases do not.",
+      "keyWords": [
+        { "word": "volume", "meaning": "the amount of space that matter occupies" },
+        { "word": "millilitre", "meaning": "a small unit used to measure the volume of a liquid" },
+        { "word": "litre", "meaning": "a unit of volume; 1 litre is equal to 1,000 millilitres" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner measures 200 ml of juice in a jug and pours it into a glass. How much juice is in the glass?",
+          "steps": [
+            "Juice is a liquid.",
+            "Liquids have a definite volume.",
+            "Pouring changes the shape, not the volume."
+          ],
+          "answer": "200 ml",
+          "check": null
+        },
+        {
+          "problem": "Air from a small balloon is released into a large empty room. What happens to the volume the air occupies?",
+          "steps": [
+            "A gas has no definite volume.",
+            "It spreads to fill the space available.",
+            "The room is larger than the balloon."
+          ],
+          "answer": "The air spreads out and occupies the volume of the room.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Measure volume before and after pouring",
+        "materials": ["Measuring jar or a bottle marked in millilitres", "Water", "A cup", "A wide bowl", "A small stone"],
+        "steps": [
+          "Pour water into the measuring jar and read the volume. Record it.",
+          "Pour that water into the cup, then into the wide bowl. Talk about the shape each time.",
+          "Pour the water back into the measuring jar and read the volume again. Compare the two readings.",
+          "Place the stone in a box and then on the table. Discuss whether its volume changed.",
+          "With a partner, write one sentence about the volume of a solid, a liquid and a gas."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 150\" font-family=\"sans-serif\"><rect width=\"460\" height=\"150\" fill=\"#ffffff\"/><rect x=\"40\" y=\"30\" width=\"36\" height=\"80\" fill=\"none\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><rect x=\"44\" y=\"50\" width=\"28\" height=\"60\" fill=\"#93c5fd\"/><text x=\"58\" y=\"128\" text-anchor=\"middle\" font-size=\"12\" fill=\"#111827\">250 ml</text><path d=\"M150 70 L190 70\" stroke=\"#111827\" stroke-width=\"2\" marker-end=\"url(#a)\"/><defs><marker id=\"a\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6\" refY=\"3\" orient=\"auto\"><path d=\"M0 0 L6 3 L0 6 Z\" fill=\"#111827\"/></marker></defs><path d=\"M230 55 L310 55 L300 110 L240 110 Z\" fill=\"none\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><path d=\"M238 90 L302 90 L298 110 L242 110 Z\" fill=\"#93c5fd\"/><text x=\"270\" y=\"128\" text-anchor=\"middle\" font-size=\"12\" fill=\"#111827\">still 250 ml</text></svg>",
+        "caption": "Pouring changes the shape of water but not its volume"
+      },
+      "practice": [
+        { "question": "What is volume?", "answer": "Volume is the amount of space that matter occupies.", "check": null },
+        { "question": "Which two states of matter have a definite volume?", "answer": "Solids and liquids.", "check": null },
+        { "question": "300 ml of water is poured from a bottle into a basin. What is the volume of the water in the basin?", "answer": "300 ml", "check": null },
+        { "question": "Why does a gas not have a definite volume?", "answer": "A gas spreads to fill its container and can also be squeezed into a smaller space.", "check": null }
+      ],
+      "summary": [
+        "Volume is the space matter occupies.",
+        "Solids and liquids have a definite volume.",
+        "Gases have no definite volume because they spread and can be squeezed."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Mass of solids, liquids and gases",
+      "outcomes": ["b"],
+      "objectives": [
+        "Explain the meaning of mass.",
+        "Show that solids, liquids and gases all have mass."
+      ],
+      "intro": "Lift an empty school bag, then lift the same bag after you have packed your books. The bag is harder to lift the second time because you have added matter. The amount of matter is the mass.",
+      "notes": "Mass is the amount of matter in a substance or object. Every state of matter has mass, because every state is matter. A heavier feeling usually means more mass, though the correct way to compare mass is to measure it.\n\nWe measure mass with a beam balance or a weighing scale. Common units are the gram (g) and the kilogram (kg). One kilogram is equal to 1,000 grams. A mathematics lesson on measuring helps you read these units.\n\n### Solids have mass\nA stone, a book and a metal spoon all have mass. A big stone has more mass than a small pebble of the same kind. You can compare them by placing one on each side of a beam balance. The side that goes down has more mass.\n\n### Liquids have mass\nAn empty bottle has less mass than the same bottle filled with water. The extra mass is the mass of the water. Milk, oil and juice have mass too. This is why a full jerrycan is harder to carry than an empty one.\n\n### Gases have mass\nAir has mass, even though it is invisible. A balloon full of air has a little more mass than the same balloon when it is empty. A full cooking-gas cylinder has more mass than the same cylinder when the gas has been used up. The difference is the mass of the gas.\n\nDo not try to weigh a hot sufuria or a cylinder that is leaking. Tell an adult if you smell gas. Use your own balloon if you compare the mass of air, and do not share it.",
+      "keyWords": [
+        { "word": "beam balance", "meaning": "an instrument that compares or measures mass" },
+        { "word": "gram", "meaning": "a unit used to measure mass" },
+        { "word": "kilogram", "meaning": "a unit of mass equal to 1,000 grams" }
+      ],
+      "examples": [
+        {
+          "problem": "An empty bottle is placed on one side of a beam balance and the same bottle full of water on the other side. Which side goes down, and why?",
+          "steps": [
+            "The full bottle contains water as well as the bottle.",
+            "Water is matter, so it has mass.",
+            "The side with more mass goes down."
+          ],
+          "answer": "The side with the bottle full of water goes down because the water adds mass.",
+          "check": null
+        },
+        {
+          "problem": "A cooking-gas cylinder feels lighter after many meals have been cooked. What has changed?",
+          "steps": [
+            "Cooking uses gas from the cylinder.",
+            "Gas is matter and has mass.",
+            "When some gas has left, the cylinder has less mass."
+          ],
+          "answer": "Some gas has been used, so the mass of the cylinder has decreased.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compare mass of the three states",
+        "materials": ["A beam balance or a ruler balanced on a pencil", "A stone and a smaller pebble", "Two similar empty bottles", "Water", "Two similar balloons"],
+        "steps": [
+          "Compare the stone and the pebble on the balance. Record which has more mass.",
+          "Compare an empty bottle with a bottle of water. Say what the water adds.",
+          "Each learner uses their own balloon. Compare an empty balloon with a balloon blown up by that same learner. Do not share balloons.",
+          "Discuss how the activity shows that solids, liquids and gases have mass.",
+          "Put the materials away and wash your hands."
+        ]
+      },
+      "practice": [
+        { "question": "What is mass?", "answer": "Mass is the amount of matter in a substance or object.", "check": null },
+        { "question": "Name the instrument used to measure mass.", "answer": "A beam balance (or a weighing scale).", "check": null },
+        { "question": "Why is a jerrycan of water harder to carry than the same jerrycan when it is empty?", "answer": "The water has mass, so the full jerrycan has more mass.", "check": null },
+        { "question": "Do gases have mass? Give one example.", "answer": "Yes. Air in a balloon, or gas in a cooking-gas cylinder, has mass.", "check": null }
+      ],
+      "summary": [
+        "Mass is the amount of matter in an object.",
+        "Solids, liquids and gases all have mass.",
+        "A beam balance measures mass in grams or kilograms."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Comparing the properties of the three states",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Describe shape, volume and mass for each state of matter.",
+        "Use the properties to classify a substance."
+      ],
+      "intro": "You now have three questions you can ask about any substance: What is its shape? What is its volume? Does it have mass? Putting the answers side by side shows how solids, liquids and gases differ.",
+      "notes": "The properties of matter in this sub-strand are shape, volume and mass. All three states have mass. Shape and volume are what make the states different.\n\n### Solids\nA solid has a definite shape and a definite volume. A brick looks the same and occupies the same space wherever you place it, and it has mass. Solids do not need a container to hold their shape. They do not flow in the way water flows.\n\n### Liquids\nA liquid has a definite volume but no definite shape. It takes the shape of the container. It has mass. A liquid flows and can be poured, and its surface stays level when the container is still. It needs a container if you want to carry it without spilling.\n\n### Gases\nA gas has no definite shape and no definite volume. It fills the whole container and can be squeezed into a smaller space. It has mass. A gas spreads quickly if it is released. Most gases are invisible, so we notice them by the space they fill, the mass they add, or the way they move, as when wind blows.\n\n### Using the properties to classify\nIf a substance keeps its shape and its volume, call it a solid. If the volume stays the same but the shape changes to match the container, call it a liquid. If it spreads to fill any space and can be squeezed, call it a gas. Then check that it has mass, which all matter has.\n\nYou can search a book or a safe digital source with your teacher for more characteristics, such as how easily each state flows. Write the facts in your own words and compare them with what you observed in class.",
+      "keyWords": [
+        { "word": "definite volume", "meaning": "a volume that stays the same when the substance is moved to a new container" },
+        { "word": "characteristic", "meaning": "a feature that describes something, such as the shape of a solid" }
+      ],
+      "examples": [
+        {
+          "problem": "A substance takes the shape of any bottle it is poured into, but a measuring jar shows the same volume each time. It also has mass. Which state is it?",
+          "steps": [
+            "It has no definite shape, so it is not a solid.",
+            "It has a definite volume, so it is not a gas.",
+            "It has mass, like all matter."
+          ],
+          "answer": "It is a liquid.",
+          "check": null
+        },
+        {
+          "problem": "Complete the comparison: solids have a definite shape; liquids and gases do not. Which states have a definite volume?",
+          "steps": [
+            "Solids keep the same volume.",
+            "Liquids keep the same volume when poured.",
+            "Gases spread and can be squeezed, so their volume is not definite."
+          ],
+          "answer": "Solids and liquids have a definite volume. Gases do not.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Properties table",
+        "materials": ["Manila paper", "A stone", "A bottle of water", "A balloon", "A textbook or a digital device used with the teacher"],
+        "steps": [
+          "Draw a table with the headings Property, Solid, Liquid and Gas.",
+          "Rows: Shape, Volume, Mass. Fill the table from your experiments.",
+          "Demonstrate each property again with the stone, the water and the balloon. Each learner uses only their own balloon.",
+          "Use a book or a digital search, with your teacher, to check one extra characteristic of each state. Write it in your own words.",
+          "Present the table to another group."
+        ]
+      },
+      "practice": [
+        { "question": "State the shape and volume of a solid.", "answer": "A solid has a definite shape and a definite volume.", "check": null },
+        { "question": "State the shape and volume of a gas.", "answer": "A gas has no definite shape and no definite volume.", "check": null },
+        { "question": "Which property is shared by solids, liquids and gases?", "answer": "They all have mass.", "check": null },
+        { "question": "A substance fills the whole bottle and can be squeezed into a smaller space. Which state is it?", "answer": "Gas.", "check": null }
+      ],
+      "summary": [
+        "Solids have a definite shape and a definite volume.",
+        "Liquids have a definite volume but no definite shape.",
+        "Gases have no definite shape and no definite volume. All three states have mass."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Importance of the three states in daily life",
+      "outcomes": ["c"],
+      "objectives": [
+        "Explain how solids, liquids and gases are used in daily life.",
+        "Appreciate why each state of matter is important."
+      ],
+      "intro": "Think through one morning at home. You sit on a wooden stool, drink water, and breathe air before you leave for school. Those three actions use a solid, a liquid and a gas.",
+      "notes": "Each state of matter does jobs that the other states cannot do as well. Knowing this helps us use matter wisely and respect the materials around us.\n\n### Why solids are important\nSolids keep their shape, so we use them to build and to make tools. Stones, bricks and timber make houses and classroom walls. Wood and metal make desks, spoons, pangas and cooking pots. Clothes, books and shoes are solids. Foods such as maize grains, beans and bread are solids. Because a solid keeps its shape, a bridge stays firm and a cup can hold a drink.\n\n### Why liquids are important\nLiquids flow, so they can be poured, drunk and used for washing. Water is used for drinking, cooking, bathing and watering crops. Milk gives the body nutrients. Blood, which is a liquid, moves food and oxygen around the body. Liquid medicines can be swallowed. Cooking oil is used in food. Without liquids, plants and animals cannot live.\n\n### Why gases are important\nWe breathe air, which is a mixture of gases. The oxygen in air keeps people and animals alive, and plants use air as they make food. Wind, which is moving air, dries clothes and can turn a windmill. Air inside a ball or a tyre makes it firm enough to use. Cooking gas is used to cook food in many homes. Plants and animals also give out gases as part of living.\n\n### Using each state well\nWe should not waste water, because it is a liquid we all need. We should not pollute the air with smoke from burning rubbish. We should take care of solid materials so that furniture and buildings last. When you name the state of something you use, you also see why it matters.",
+      "keyWords": [
+        { "word": "oxygen", "meaning": "a gas in air that people and animals need for breathing" },
+        { "word": "appreciate", "meaning": "to understand the value of something and treat it as important" }
+      ],
+      "examples": [
+        {
+          "problem": "A family cooks supper using a metal sufuria, water and cooking gas. Name the state of matter used for each item and one reason it is useful.",
+          "steps": [
+            "The sufuria is a solid. It keeps its shape and holds the food.",
+            "Water is a liquid. It flows and is used in cooking.",
+            "Cooking gas is a gas. It burns and provides heat."
+          ],
+          "answer": "Sufuria: solid, holds the food. Water: liquid, used for cooking. Cooking gas: gas, provides heat.",
+          "check": null
+        },
+        {
+          "problem": "Why is air an important gas for people and for plants?",
+          "steps": [
+            "People and animals breathe oxygen from the air.",
+            "Plants use air when they make food.",
+            "Without air, people, animals and plants cannot live."
+          ],
+          "answer": "People and animals need air to breathe, and plants use air to make food.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "States of matter in a day",
+        "materials": ["Exercise book", "Pictures from a book, newspaper or a digital device used with the teacher"],
+        "steps": [
+          "Discuss in a group how you used a solid, a liquid and a gas since you woke up.",
+          "Make a chart with three columns: Solid, Liquid and Gas. List uses under each.",
+          "Search a book or a safe website, with your teacher, for one more use of each state. Write it in your own words.",
+          "Present the chart and say why we should not waste water or pollute the air.",
+          "Display the chart in the classroom."
+        ]
+      },
+      "practice": [
+        { "question": "Give two uses of solids in daily life.", "answer": "Any two, such as building houses, making tools and furniture, clothing, or solid food.", "check": null },
+        { "question": "Give two uses of water as a liquid.", "answer": "Any two, such as drinking, cooking, washing, or watering crops.", "check": null },
+        { "question": "Why is the air we breathe important?", "answer": "Air contains oxygen, which people and animals need to stay alive.", "check": null },
+        { "question": "Name one solid, one liquid and one gas you use when cooking a meal.", "answer": "Examples: a sufuria (solid), water or oil (liquid), and cooking gas or air (gas).", "check": null }
+      ],
+      "summary": [
+        "Solids keep their shape, so they are used for building, tools, clothes and many foods.",
+        "Liquids are used for drinking, cooking, washing and keeping living things alive.",
+        "Gases such as air and cooking gas are used for breathing, drying and cooking."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is matter?",
+      "options": ["Anything that occupies space and has mass", "Only things we can see", "Only solids and liquids", "Light and sound"],
+      "answer": "A",
+      "explanation": "Matter occupies space and has mass. Air is matter even though we cannot see it. Light and sound are not matter.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which list names the three states of matter?",
+      "options": ["Hard, soft and wet", "Solid, liquid and gas", "Heavy, light and hot", "Stone, water and wood"],
+      "answer": "B",
+      "explanation": "The three states are solid, liquid and gas. Stone and wood are both solids.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which substance is a gas?",
+      "options": ["A coin", "Honey", "Air in a ball", "A dry leaf"],
+      "answer": "C",
+      "explanation": "Air spreads to fill the ball. A coin and a dry leaf are solids. Honey is a liquid.",
+      "outcome": "a"
+    },
+    {
+      "question": "Salt can be poured from a packet. Salt is a:",
+      "options": ["gas", "liquid", "solid", "shadow"],
+      "answer": "C",
+      "explanation": "Each grain of salt is a tiny solid that keeps its own shape.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which state of matter has a definite shape?",
+      "options": ["Gas only", "Liquid only", "Solid", "Neither solid nor liquid"],
+      "answer": "C",
+      "explanation": "A solid keeps its shape unless it is broken or bent. Liquids and gases take the shape of the container.",
+      "outcome": "b"
+    },
+    {
+      "question": "200 ml of water is poured from a jug into a plate. What is the volume of the water now?",
+      "options": ["Less than 200 ml", "More than 200 ml", "200 ml", "The water no longer has volume"],
+      "answer": "C",
+      "explanation": "A liquid has a definite volume. Pouring changes the shape, not the amount of space the water occupies.",
+      "outcome": "b"
+    },
+    {
+      "question": "Which statement about mass is correct?",
+      "options": ["Only solids have mass", "Gases have no mass", "Solids, liquids and gases have mass", "Mass is the shape of an object"],
+      "answer": "C",
+      "explanation": "Mass is the amount of matter. All three states are matter, so all three have mass.",
+      "outcome": "b"
+    },
+    {
+      "question": "A substance fills the whole container and spreads out when the container is opened. It has mass. Which state is it?",
+      "answer": "Gas",
+      "explanation": "A gas has no definite shape or volume. It fills the container and has mass.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why are liquids important in daily life?",
+      "answer": "Liquids such as water are used for drinking, cooking, washing and watering crops.",
+      "explanation": "Because liquids flow, we can pour them and drink them. Living things need water.",
+      "outcome": "c"
+    },
+    {
+      "question": "Give one use of a solid and one use of a gas in daily life.",
+      "answer": "A solid such as timber is used to build or make furniture. A gas such as air is used for breathing, or cooking gas is used for cooking.",
+      "explanation": "Solids keep their shape, so they make buildings and tools. Gases are used for breathing and for cooking.",
+      "outcome": "c"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Science and Technology Curriculum Design (Revised 2024) — Strand 2.0 Matter, Sub-strand 2.1 Properties of matter"
+  ]
+}

@@ -1,0 +1,448 @@
+{
+  "subject": "CREATIVE ARTS",
+  "subStrand": "1.3",
+  "title": "Painting and Montage",
+  "overview": "Painting and montage are two ways of making pictures. In this sub-strand you will classify colours as primary or secondary, mix secondary colours, and change their value by adding white or black. You will paint one object so that light and dark tones make it look solid. You will also cut out pictures of ball games, arrange them with overlapping, and paste a neat montage.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Primary colours",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name the three primary colours.",
+        "Explain why they are called primary.",
+        "Sort colours into primary and not primary."
+      ],
+      "intro": "Before you mix a new colour, you need to know which colours you cannot mix. Red, yellow and blue are the starting colours of painting.",
+      "notes": "Colour classification means putting colours into groups so that you know how to use them. The first group is the **primary colours**: red, yellow and blue.\n\n### Why they are primary\nPrimary means first. In painting, these three colours come first because you cannot make them by mixing other colours. If you have only green and orange, you cannot mix them and get a true red, yellow or blue. You need the primary colours themselves in your paint box.\n\n### What they are not\nOrange, green, purple, black, white, brown and pink are not primary colours. Black and white are used later to make a colour darker or lighter. They are not part of the primary group.\n\n### Why classification matters\nIf you know the primary colours, you know:\n\n- which paints you must have before you start\n- which colours you can mix for yourself\n- how to correct a mixture that has gone wrong, by thinking about which primary colour is too strong\n\nLook around the room and name only the things that are truly red, yellow or blue. A red bucket, a yellow pencil and a blue book cover are primary. A green plant is not, even though green is a common colour. Green has to be mixed.\n\nKeep paints clean. Put a little of each primary colour on a palette, which can be a tin lid, a plastic plate or a piece of cardboard covered with plastic. Do not dip a brush that has yellow paint into the blue pot. That spoils the primary colour for the next person.",
+      "keyWords": [
+        { "word": "primary colours", "meaning": "red, yellow and blue, the colours that cannot be made by mixing other colours" },
+        { "word": "classify", "meaning": "to sort things into groups" },
+        { "word": "palette", "meaning": "a surface on which paints are placed and mixed" }
+      ],
+      "examples": [
+        {
+          "problem": "A paint box has red, green, yellow, purple and blue. Which colours are primary?",
+          "steps": ["The primary colours are only red, yellow and blue.", "Green and purple are mixed colours."],
+          "answer": "Red, yellow and blue.",
+          "check": null
+        },
+        {
+          "problem": "Can you make yellow by mixing orange and green? Explain.",
+          "steps": ["Yellow is a primary colour.", "Primary colours cannot be made by mixing other colours."],
+          "answer": "No. Yellow is primary, so it cannot be mixed from other colours.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sort the colour cards",
+        "materials": ["Paints or coloured paper in red, yellow, blue, green, orange, purple, black and white", "Two labels: Primary and Not primary", "A palette or plate"],
+        "steps": [
+          "Spread out the colour samples.",
+          "Place only red, yellow and blue under the label Primary.",
+          "Place the other colours under Not primary.",
+          "Tell a partner why black and white are not primary colours.",
+          "Put a small amount of each primary colour on a palette without mixing the pots."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 120\" font-family=\"sans-serif\"><rect width=\"420\" height=\"120\" fill=\"#ffffff\"/><rect x=\"20\" y=\"20\" width=\"100\" height=\"60\" fill=\"#dc2626\" stroke=\"#111827\"/><rect x=\"160\" y=\"20\" width=\"100\" height=\"60\" fill=\"#facc15\" stroke=\"#111827\"/><rect x=\"300\" y=\"20\" width=\"100\" height=\"60\" fill=\"#2563eb\" stroke=\"#111827\"/><text x=\"48\" y=\"105\" font-size=\"14\" fill=\"#111827\">Red</text><text x=\"180\" y=\"105\" font-size=\"14\" fill=\"#111827\">Yellow</text><text x=\"325\" y=\"105\" font-size=\"14\" fill=\"#111827\">Blue</text></svg>",
+        "caption": "The three primary colours"
+      },
+      "practice": [
+        { "question": "Name the three primary colours.", "answer": "Red, yellow and blue.", "check": null },
+        { "question": "Why can a primary colour not be made by mixing?", "answer": "Primary colours are the first colours. Other colours are mixed from them, not the other way round.", "check": null },
+        { "question": "Why should you keep the primary paints in separate pots?", "answer": "A dirty brush would mix them in the pot and spoil the pure primary colour.", "check": null }
+      ],
+      "summary": [
+        "The primary colours are red, yellow and blue.",
+        "They cannot be made by mixing other colours.",
+        "Classifying them tells you which paints you need before you mix."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Mixing secondary colours",
+      "outcomes": ["a"],
+      "objectives": [
+        "Mix each secondary colour from two primary colours.",
+        "State the pair of primary colours that makes orange, green and purple.",
+        "Use about equal amounts so the new colour is clear."
+      ],
+      "intro": "With only red, yellow and blue you can produce three more colours. Each new colour is called a secondary colour because it comes second, after the primary colours.",
+      "notes": "A **secondary colour** is made by mixing two primary colours. There are three secondary colours: orange, green and purple (also called violet).\n\n### The mixtures\n- Red + yellow = **orange**\n- Yellow + blue = **green**\n- Blue + red = **purple**\n\nUse about the same amount of each primary colour. If you use much more red than yellow, the orange looks reddish. If you use much more yellow, it looks yellowish. Equal amounts give a clear secondary colour. Measuring by eye, such as one brush-load of each, is a simple way to keep the amounts fair. That is a link with the idea of equal parts in mathematics.\n\n### How to mix\n1. Place a little of the first primary colour on the palette.\n2. Add about the same amount of the second primary colour beside it.\n3. Use a clean brush to blend them until you cannot see streaks of the two colours.\n4. Wipe or wash the brush before the next mixture so the colours stay clear.\n5. Paint a small rectangle of each secondary colour and label it with the two colours you used.\n\n### If the mixture looks muddy\nMuddy brown usually means all three primary colours have been mixed together, or the brush was dirty. Start again with a clean brush and only two primaries.\n\nSecondary colours are the colours you will lighten and darken in the next lessons, so keep your labelled samples.",
+      "keyWords": [
+        { "word": "secondary colours", "meaning": "orange, green and purple, each made by mixing two primary colours" },
+        { "word": "equal amounts", "meaning": "about the same quantity of each colour in the mixture" }
+      ],
+      "examples": [
+        {
+          "problem": "Which two primary colours make green?",
+          "steps": ["Green is a secondary colour.", "It is mixed from yellow and blue."],
+          "answer": "Yellow and blue.",
+          "check": null
+        },
+        {
+          "problem": "A learner mixes a lot of red with a little yellow and gets a red-orange. How can the colour be moved closer to a clear orange?",
+          "steps": ["Clear orange needs about equal red and yellow.", "More yellow will balance the extra red."],
+          "answer": "Add more yellow, a little at a time, until the two colours look balanced.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mix the three secondary colours",
+        "materials": ["Red, yellow and blue paint", "A palette", "Brushes", "Water", "Paper", "A cloth to wipe brushes"],
+        "steps": [
+          "Mix red and yellow in about equal amounts to make orange. Paint and label a patch.",
+          "Wash the brush. Mix yellow and blue to make green. Paint and label a patch.",
+          "Wash the brush. Mix blue and red to make purple. Paint and label a patch.",
+          "Compare your patches with a partner and talk about any mixture that looks too close to one primary colour."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 150\" font-family=\"sans-serif\"><rect width=\"480\" height=\"150\" fill=\"#ffffff\"/><rect x=\"10\" y=\"20\" width=\"50\" height=\"36\" fill=\"#dc2626\"/><rect x=\"65\" y=\"20\" width=\"50\" height=\"36\" fill=\"#facc15\"/><text x=\"125\" y=\"44\" font-size=\"16\" fill=\"#111827\">=</text><rect x=\"150\" y=\"20\" width=\"70\" height=\"36\" fill=\"#f97316\"/><text x=\"230\" y=\"44\" font-size=\"13\" fill=\"#111827\">orange</text><rect x=\"10\" y=\"70\" width=\"50\" height=\"36\" fill=\"#facc15\"/><rect x=\"65\" y=\"70\" width=\"50\" height=\"36\" fill=\"#2563eb\"/><text x=\"125\" y=\"94\" font-size=\"16\" fill=\"#111827\">=</text><rect x=\"150\" y=\"70\" width=\"70\" height=\"36\" fill=\"#16a34a\"/><text x=\"230\" y=\"94\" font-size=\"13\" fill=\"#111827\">green</text><rect x=\"10\" y=\"110\" width=\"50\" height=\"28\" fill=\"#2563eb\"/><rect x=\"65\" y=\"110\" width=\"50\" height=\"28\" fill=\"#dc2626\"/><text x=\"125\" y=\"130\" font-size=\"16\" fill=\"#111827\">=</text><rect x=\"150\" y=\"110\" width=\"70\" height=\"28\" fill=\"#7e22ce\"/><text x=\"230\" y=\"130\" font-size=\"13\" fill=\"#111827\">purple</text></svg>",
+        "caption": "Two primary colours mix to make one secondary colour"
+      },
+      "practice": [
+        { "question": "What is a secondary colour?", "answer": "A colour made by mixing two primary colours. The secondary colours are orange, green and purple.", "check": null },
+        { "question": "Which colours mix to make purple?", "answer": "Blue and red.", "check": null },
+        { "question": "Why do you wash the brush between mixtures?", "answer": "A dirty brush would carry the last colour into the next mixture and make it muddy.", "check": null },
+        { "question": "What happens if you use much more blue than yellow when mixing green?", "answer": "The green looks bluish instead of a clear, balanced green.", "check": null }
+      ],
+      "summary": [
+        "Red and yellow make orange, yellow and blue make green, and blue and red make purple.",
+        "Use about equal amounts and a clean brush.",
+        "Secondary colours come from primary colours, so they are a different class."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Light tones on a scale strip",
+      "outcomes": ["b"],
+      "objectives": [
+        "Explain colour value and what a light tone is.",
+        "Mix white with a secondary colour to make a row of lighter tones.",
+        "Paint the tones in order on a scale strip."
+      ],
+      "intro": "A green leaf in sunshine is not the same green all over. The lit part is lighter. Adding white is how a painter makes that lighter tone.",
+      "notes": "**Colour value** is how light or dark a colour is. Value is different from the name of the colour. Two greens can both be green, but one can be light and the other dark.\n\nA **light tone** is made by mixing white with a colour. The mixture is sometimes called a tint. In this lesson the colour you lighten is a **secondary colour**: orange, green or purple. Do not start with a primary colour for this strip.\n\n### Making a scale strip\nA scale strip is a row of boxes that shows one colour changing step by step.\n\n1. Draw a long rectangle and divide it into five boxes.\n2. In the first box, paint the secondary colour with no white. This is the deepest tone on this strip.\n3. Mix a little white into a fresh amount of the same secondary colour. Paint the second box.\n4. Add a little more white for each next box.\n5. The last box should be a very pale tone, but you should still be able to see a hint of orange, green or purple. Pure white is not a tint of that colour.\n\nAdd white a little at a time. You can always add more white. You cannot take it out. If a box becomes too pale too soon, you have nothing left for the later steps. Stir each mixture until it is even, with no white streaks.\n\n### What the strip teaches\nWhen you paint an object, the part facing the light can use a light tone from this strip. The strip is your guide so the change from stronger colour to pale colour is gradual, not a sudden jump.",
+      "keyWords": [
+        { "word": "colour value", "meaning": "how light or dark a colour is" },
+        { "word": "light tone", "meaning": "a paler version of a colour, made by mixing in white" },
+        { "word": "scale strip", "meaning": "a row of boxes showing a colour changing step by step" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner wants a lighter green. Which colour should be added, and which green should be used?",
+          "steps": ["White makes a colour lighter.", "The scale in this lesson starts from a secondary colour. Green is secondary."],
+          "answer": "Add white to green.",
+          "check": null
+        },
+        {
+          "problem": "The second box on the strip is already almost white. What went wrong?",
+          "steps": ["White should be added a little at a time.", "Too much white at the first mix skips the middle tones."],
+          "answer": "Too much white was added at once. The learner should start again and add smaller amounts of white.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Paint a light-tone strip",
+        "materials": ["One secondary colour", "White paint", "Brush", "Palette", "Paper with five boxes drawn"],
+        "steps": [
+          "Choose orange, green or purple.",
+          "Paint the first box with the pure secondary colour.",
+          "Mix in a little white for each following box so the colour becomes lighter step by step.",
+          "Label the strip 'light tones' and write the name of the secondary colour.",
+          "Compare strips and point to the box you would use for the lit side of an object."
+        ]
+      },
+      "practice": [
+        { "question": "What is colour value?", "answer": "How light or dark a colour is.", "check": null },
+        { "question": "How do you make a light tone of a secondary colour?", "answer": "Mix white into the secondary colour, a little at a time.", "check": null },
+        { "question": "Why is the last box of the strip not painted pure white?", "answer": "A light tone should still show a little of the secondary colour.", "check": null }
+      ],
+      "summary": [
+        "Colour value means how light or dark a colour is.",
+        "White mixed into a secondary colour makes light tones.",
+        "A scale strip shows the change in even steps."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Dark tones on a scale strip",
+      "outcomes": ["b"],
+      "objectives": [
+        "Mix black with a secondary colour to make darker tones.",
+        "Paint a dark-tone scale strip in order.",
+        "Explain why only a little black is added at a time."
+      ],
+      "intro": "The side of a ball turned away from the window looks darker, but it is still the same colour. A tiny amount of black can make that darker tone.",
+      "notes": "A **dark tone** is made by mixing black with a colour. The mixture is sometimes called a shade. Use a secondary colour again: orange, green or purple.\n\n### Black is strong\nBlack changes a colour faster than white does. One large brush-load of black can swallow orange and turn it nearly black. Dip the tip of the brush in black, or take a pin-head amount, and mix it in. Look at the colour. Then add more only if you still need a darker step.\n\n### Making the dark scale strip\n1. Draw five boxes in a row.\n2. Paint the first box with the pure secondary colour.\n3. Mix a very small amount of black into a fresh portion of the same colour. Paint the second box.\n4. Add a little more black for each next box.\n5. The last box should be dark, but a careful look should still tell whether it began as orange, green or purple.\n\nPlace this strip next to your light-tone strip. Together they show the value of one secondary colour, from pale, through the pure colour, to dark. When you paint, you will pick tones from both strips.\n\n### A careful habit\nKeep black in its own place on the palette, away from white. A brush that has touched black will grey your light tones if you do not wash it. Wash the brush well and wipe it before you go back to a light mixture.\n\nIf a mixture becomes too dark, do not try to rescue it with a lot of white in the same puddle. That often makes a dull grey. Take fresh secondary colour and start that step again with less black.",
+      "keyWords": [
+        { "word": "dark tone", "meaning": "a deeper version of a colour, made by mixing in a little black" },
+        { "word": "shade", "meaning": "another name for a colour darkened with black" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner adds a large blob of black to green and gets a near-black puddle. How should the next try be different?",
+          "steps": ["Black is strong.", "Only a very small amount is needed for the first darker step."],
+          "answer": "Start with fresh green and add a tiny amount of black.",
+          "check": null
+        },
+        {
+          "problem": "Which strip, light or dark, would you use for the side of an orange fruit that is turned away from the sun?",
+          "steps": ["The side away from the light is darker.", "Dark tones are made with black mixed into the secondary colour. Orange is a secondary colour."],
+          "answer": "The dark-tone strip of orange.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Paint a dark-tone strip",
+        "materials": ["The same secondary colour used for the light strip", "Black paint", "Brush", "Palette", "Paper with five boxes"],
+        "steps": [
+          "Paint the first box with the pure secondary colour.",
+          "Add a tiny amount of black for each next box so the colour darkens step by step.",
+          "Wash the brush before it touches any white paint.",
+          "Put the dark strip beside the light strip and say which box is the pure colour on each.",
+          "Point to the box you would use for a shadow."
+        ]
+      },
+      "practice": [
+        { "question": "How is a dark tone made?", "answer": "By mixing a little black into the colour.", "check": null },
+        { "question": "Why must black be added in very small amounts?", "answer": "Black is strong and can hide the secondary colour if too much is used at once.", "check": null },
+        { "question": "What should you do with the brush after using black and before using white?", "answer": "Wash it and wipe it so black does not grey the light tones.", "check": null }
+      ],
+      "summary": [
+        "A dark tone is a secondary colour mixed with a little black.",
+        "Add black in tiny amounts so the steps stay clear.",
+        "Light and dark strips together show the value of one colour."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Painting one object with colour value",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Draw one simple object and decide where the light is coming from.",
+        "Paint it with light, middle and dark tones of one secondary colour.",
+        "Say what the tones do to the picture."
+      ],
+      "intro": "An outline of a ball looks flat. When the lit side is pale and the far side is dark, the same ball starts to look round. That is colour value at work.",
+      "notes": "Choose **one** object with a simple shape. A ball is a good choice because this sub-strand later builds a montage about ball games, and a round object shows value clearly. A fruit, a pot or a drum would also work. Do not draw a whole scene yet.\n\n### Steps\n1. Look at the object with the light coming from one side, for example from a window.\n2. Draw the outline lightly in pencil. Keep the shape large enough to paint inside.\n3. Choose one secondary colour. Orange suits a ball that you want to look warm; green or purple will also show value if you use their tones.\n4. Mix three tones: a light tone (secondary colour plus white), the pure colour, and a dark tone (secondary colour plus a little black).\n5. Paint the part facing the light with the light tone. This is the highlight area.\n6. Paint the middle with the pure colour.\n7. Paint the part turned away from the light with the dark tone.\n8. While the paint is still wet, you may blend the edges slightly so the change is gradual. Do not scrub until the colours turn muddy.\n9. Leave the paper border clean. Wash the brush and the palette when you finish.\n\n### What to look for\nThe object should look as if light is falling on it. If every part is the same tone, the value is missing. If black covers the whole shadow side with no hint of the original colour, too much black was used.\n\nPainting is one method of making a picture: you apply colour with a brush. When you talk about a classmate's painting, name what works. For example: 'The light side is pale and the far side is darker, so the ball looks round.' Then you may offer one kind suggestion.",
+      "keyWords": [
+        { "word": "highlight", "meaning": "the lightest part of an object, on the side facing the light" },
+        { "word": "painting", "meaning": "making a picture by applying colour with a brush" }
+      ],
+      "examples": [
+        {
+          "problem": "Light comes from the left of a ball. Which tone goes on the right side?",
+          "steps": ["The side facing the light is lightest.", "The side turned away is darkest."],
+          "answer": "The dark tone.",
+          "check": null
+        },
+        {
+          "problem": "A painting of a ball uses only one flat green. What is missing?",
+          "steps": ["Colour value needs light and dark tones.", "A single flat colour does not show where the light falls."],
+          "answer": "Light and dark tones. The lit side needs white mixed in, and the far side needs a little black mixed in.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Paint a ball in three tones",
+        "materials": ["Paper", "Pencil", "One secondary colour", "White and black paint", "Brush", "A ball or other single object to observe"],
+        "steps": [
+          "Place the object so light falls on one side.",
+          "Draw one large outline.",
+          "Mix a light tone, keep some pure colour, and mix a dark tone.",
+          "Paint the lit side light, the middle pure and the far side dark.",
+          "Show the painting and say where the light is in the picture."
+        ]
+      },
+      "practice": [
+        { "question": "Which tone is painted on the side of the object that faces the light?", "answer": "The light tone, made by mixing white with the secondary colour.", "check": null },
+        { "question": "Why paint only one object in this lesson?", "answer": "So you can concentrate on colour value instead of filling a busy scene.", "check": null },
+        { "question": "How can colour value make a ball look round?", "answer": "The change from a light tone to a dark tone shows that one side faces the light and the other turns away.", "check": null }
+      ],
+      "summary": [
+        "Draw one object and decide where the light comes from.",
+        "Use a light tone, the pure secondary colour and a dark tone.",
+        "Gradual value makes the object look solid."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "What a montage is",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Explain montage, subject matter, overlapping and neatness.",
+        "Find these three ideas in a sample montage.",
+        "Compare montage with painting as ways of making pictures."
+      ],
+      "intro": "A montage is a picture made from other pictures. You cut pieces out and paste them together so they tell one idea. Our idea will be ball games.",
+      "notes": "A **montage** is a picture made by cutting out pictures, or parts of pictures, and pasting them on a background to make a new composition. You are not asked to paint this one. The pictures themselves bring the colour and the detail.\n\n### Subject matter\nSubject matter is what the picture is about. The subject matter for this montage is **ball games**. Football, netball, volleyball and handball all fit. A picture of a car or a plate of food does not fit, even if it is attractive. Every piece you choose should belong to the theme.\n\n### Overlapping\nOverlapping means one cut-out covers part of another. The pieces then look joined, like a crowd or a game, not like separate stickers with gaps of empty paper between them. Overlap edges. Do not hide a whole picture under another one, or there was no point in cutting it out.\n\n### Neatness\nNeatness means careful cutting, smooth pasting and a clean background. Jagged accidental tears, glue puddles and dirty fingerprints make the work hard to read. Neat does not mean boring. A neat montage can still be full of action.\n\n### Looking at samples\nWhen you study a sample montage, ask:\n\n- What is the subject matter?\n- Where do shapes overlap?\n- Are the edges cut with care?\n- Does any piece fail to fit the theme?\n\n### Two methods\nPainting makes a picture by brushing on colour you mixed. Montage makes a picture by arranging ready-made images. Both can express an idea. A painted ball shows colour value. A montage of ball games shows many actions at once. Appreciate both: each method does something the other does not.",
+      "keyWords": [
+        { "word": "montage", "meaning": "a picture made by cutting out pictures and pasting them together" },
+        { "word": "subject matter", "meaning": "what a picture is about" },
+        { "word": "overlapping", "meaning": "placing one cut-out so that it covers part of another" },
+        { "word": "neatness", "meaning": "careful cutting, smooth pasting and a clean finished surface" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner pastes a picture of a cooking pot in the middle of a ball-games montage. What is the problem?",
+          "steps": ["The subject matter is ball games.", "Every piece should belong to that theme."],
+          "answer": "The pot does not belong to the subject matter. It should be replaced with a picture about a ball game.",
+          "check": null
+        },
+        {
+          "problem": "All the players are pasted in a neat row with spaces between them. Which montage skill is missing?",
+          "steps": ["Neatness is already there.", "Overlapping is needed so the pieces join into one composition."],
+          "answer": "Overlapping.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Read a sample montage",
+        "materials": ["A sample montage, or a picture made by the teacher from magazine cuttings", "Paper and pencil"],
+        "steps": [
+          "Look at the sample quietly for a minute.",
+          "Write the subject matter in one sentence.",
+          "Point to two places where shapes overlap.",
+          "Say whether the cutting and pasting look neat, and give a reason.",
+          "Say one way this montage is different from the painted ball you made."
+        ]
+      },
+      "practice": [
+        { "question": "What is a montage?", "answer": "A picture made by cutting out pictures and pasting them together into a new composition.", "check": null },
+        { "question": "What is the subject matter of the montage you will make?", "answer": "Ball games.", "check": null },
+        { "question": "What is overlapping?", "answer": "Placing one cut-out so that it covers part of another.", "check": null },
+        { "question": "Name one difference between painting and montage.", "answer": "Painting applies colour with a brush. Montage arranges and pastes cut-out pictures.", "check": null }
+      ],
+      "summary": [
+        "A montage is built from cut-out pictures.",
+        "Check subject matter, overlapping and neatness.",
+        "Painting and montage are both useful ways to make pictures."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Cutting out pictures and improvising glue",
+      "outcomes": ["c"],
+      "objectives": [
+        "Choose and cut out pictures that fit the theme of ball games.",
+        "Prepare a simple flour paste with an adult's help.",
+        "Store the cut-outs so they stay flat and clean."
+      ],
+      "intro": "The montage begins before any pasting. You need pictures that really show ball games, cut smoothly, and a glue you can make if there is no bottle of paste in the cupboard.",
+      "notes": "### Finding pictures\nSource means to look for and collect. Use old newspapers, magazines, calendars or wrappers that are finished with. Do not cut pictures from textbooks, readers or library books that other learners still need.\n\nChoose pictures of ball games: a player kicking or throwing, a ball, a goal, a net, a team in action. Cut close to the shape you want. If you need the whole player, cut around the body. If you need only a ball, do not leave a large empty rectangle around it.\n\nHold scissors with the points away from other people. Turn the paper, not the blades, when you cut a curve. If your school has no old magazines, draw small pictures of ball games yourself, colour them and cut those out. Drawn cut-outs can still make a montage.\n\n### Improvised glue\nFlour paste is a glue you can make from food flour.\n\n1. Put about two spoons of wheat, maize or cassava flour in a clean tin.\n2. Stir in a little cold water until there are no dry lumps. It should look like thin porridge.\n3. With an adult, warm the mixture gently and keep stirring until it thickens.\n4. Let it cool before you touch it. Hot paste burns.\n5. The cooled paste should spread, not pour like water and not sit in dry lumps.\n\nUse the paste for pictures only. Do not eat it after it has been on the table or on your fingers. If a bottle of paper glue is already available, you may use that instead. A thin layer is enough. Thick glue wrinkles paper and leaves shiny stains.\n\n### Keeping the pieces\nPut the cut-outs in a paper envelope or between the pages of an old newspaper so they do not blow away or curl. Write your name on the envelope. Throw the scrap paper in the rubbish so the table is clear for pasting next time.",
+      "keyWords": [
+        { "word": "source", "meaning": "to find and collect the pictures you need" },
+        { "word": "flour paste", "meaning": "glue made by mixing flour with water and warming it until it thickens" }
+      ],
+      "examples": [
+        {
+          "problem": "There is no bottle of glue. What can the class make, and who should help with the heating?",
+          "steps": ["Flour and water can be warmed into a paste.", "Heating needs an adult because the paste gets hot."],
+          "answer": "Flour paste. An adult should help with the warming, and the paste must cool before use.",
+          "check": null
+        },
+        {
+          "problem": "A learner wants to cut a footballer out of a class textbook. What should happen instead?",
+          "steps": ["Textbooks are still in use.", "Pictures should come from old newspapers or magazines, or be drawn."],
+          "answer": "Leave the textbook whole. Use an old magazine or a drawing.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Cut and prepare paste",
+        "materials": ["Old newspapers or magazines", "Scissors", "Flour", "Water", "A clean tin", "An adult to help warm the paste", "Envelopes"],
+        "steps": [
+          "Find pictures of ball games from materials that are no longer needed.",
+          "Cut them out carefully, following the shapes you want to use.",
+          "Watch an adult help the class warm flour and water into a paste, then let it cool.",
+          "Store your cut-outs flat in an envelope with your name on it.",
+          "Clear the scraps from the table."
+        ]
+      },
+      "practice": [
+        { "question": "What is the theme of the pictures you should cut out?", "answer": "Ball games.", "check": null },
+        { "question": "How is flour paste made?", "answer": "Mix flour with a little water until smooth, warm it gently with an adult until it thickens, then let it cool.", "check": null },
+        { "question": "Why must the paste cool before you use it?", "answer": "Hot paste can burn the skin.", "check": null },
+        { "question": "Why should you not cut pictures from a textbook that is still in use?", "answer": "Other learners still need the book. Use old newspapers, magazines or your own drawings.", "check": null }
+      ],
+      "summary": [
+        "Cut pictures of ball games from old print or from your own drawings.",
+        "Flour paste is flour and water, warmed with an adult and cooled.",
+        "Keep cut-outs flat and leave textbooks whole."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Pasting the montage and talking about the work",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Arrange and paste a ball-games montage with overlapping and neatness.",
+        "Clean the working area.",
+        "Talk in turn about your own work and a classmate's work with respect."
+      ],
+      "intro": "Pasting is the moment the separate pictures become one composition. Move the pieces around before any glue touches the paper, because a pasted piece is hard to shift.",
+      "notes": "### Plan before you paste\nUse a background sheet that is larger than your biggest cut-out. Try the arrangement with dry pieces first.\n\n- Put larger shapes down first: a goal, a group of players, a pitch.\n- Add smaller shapes on top: a ball, a face, a raised arm.\n- Overlap edges so the eye moves from one picture to the next.\n- Leave a small clear border so the work does not look cramped.\n- Check the subject matter. Remove anything that is not a ball game.\n\nWhen you are satisfied, lift one piece at a time, spread a thin layer of paste on its back, and press it down. Wipe extra paste at once with a clean finger or a small cloth. Press from the centre outwards so air bubbles do not stay trapped. A heavy book can hold the montage flat while it dries. Do not pile wet work on top of someone else's painting.\n\n### Clean the working area\nPut lids on glue, wash brushes and hands, and wipe the table. Scraps go in the bin. A clean space shows responsibility and lets the next class work.\n\n### Talking about the pictures\nTake turns. When it is your turn, show your montage and answer three questions:\n\n1. What is the subject matter?\n2. Where did you overlap pieces?\n3. What did you do to keep the work neat?\n\nWhen you speak about someone else's work, start with something you can see: 'The players overlap, so it looks like one match.' You may add one respectful suggestion: 'A thinner layer of paste would leave fewer shiny marks.' Listen when others speak. You do not have to agree with every comment, but you do have to let each person finish. That is respect.\n\nAppreciate the two methods you have used. The painting showed one object with colour value. The montage brought many ball-game pictures together. Both are real ways of making pictures.",
+      "keyWords": [
+        { "word": "composition", "meaning": "the way the parts of a picture are arranged" },
+        { "word": "background", "meaning": "the sheet on which the cut-outs are pasted" },
+        { "word": "critique", "meaning": "a careful, fair comment on a piece of work" }
+      ],
+      "examples": [
+        {
+          "problem": "Glue wrinkles a player's face and leaves a shiny puddle. What caused it, and how can the next piece be pasted better?",
+          "steps": ["Too much paste wrinkles paper and leaves stains.", "A thin layer, pressed from the centre, stays flatter."],
+          "answer": "Too much paste was used. The next piece needs a thin layer, pressed from the centre outwards, with extra paste wiped away.",
+          "check": null
+        },
+        {
+          "problem": "During the talk, one learner laughs at a torn edge. What should the class do instead?",
+          "steps": ["Critique should be respectful.", "Name a strength first, then one helpful suggestion."],
+          "answer": "Let the maker finish, mention something that works, and suggest a cleaner cut next time without mocking.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Paste, clean and talk",
+        "materials": ["Cut-outs of ball games", "Background paper", "Cooled flour paste or paper glue", "A cloth", "A heavy book"],
+        "steps": [
+          "Arrange the dry cut-outs on the background, overlapping edges and keeping the theme of ball games.",
+          "Paste them with a thin layer of glue and wipe extra paste.",
+          "Clean the table, wash your hands and leave the montage under a book to dry.",
+          "Take turns to talk about subject matter, overlapping and neatness in your own work.",
+          "Give one respectful comment on a classmate's montage."
+        ]
+      },
+      "practice": [
+        { "question": "Why should you arrange the cut-outs before you paste them?", "answer": "Once paste is on the paper, pieces are hard to move. A dry plan lets you fix overlapping and the theme first.", "check": null },
+        { "question": "How much paste should you use?", "answer": "A thin layer. Extra paste should be wiped off so the paper does not wrinkle or stain.", "check": null },
+        { "question": "What three things should you mention when you talk about your montage?", "answer": "The subject matter, where you overlapped pieces, and how you kept the work neat.", "check": null }
+      ],
+      "summary": [
+        "Plan the arrangement, then paste with thin glue and overlap the pieces.",
+        "Keep to ball games and clean the working area.",
+        "Talk about your own work and others' work with respect."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Which colours are primary?", "options": ["Orange, green and purple", "Red, yellow and blue", "Black, white and brown", "Red, green and black"], "answer": "B", "explanation": "Red, yellow and blue cannot be made by mixing other colours.", "outcome": "a" },
+    { "question": "Which mixture makes green?", "options": ["Red and yellow", "Yellow and blue", "Blue and red", "Black and white"], "answer": "B", "explanation": "Green is a secondary colour mixed from yellow and blue.", "outcome": "a" },
+    { "question": "Red mixed with yellow in about equal amounts makes which colour?", "options": ["Purple", "Green", "Orange", "Black"], "answer": "C", "explanation": "Orange is the secondary colour from red and yellow.", "outcome": "a" },
+    { "question": "How do you make a light tone of purple?", "answer": "Mix white into purple, a little at a time.", "explanation": "White lightens a colour. Purple is a secondary colour, which is what the scale strip uses.", "outcome": "b" },
+    { "question": "Why is black added in tiny amounts when making a dark tone?", "options": ["Black is too expensive to use", "Black quickly hides the colour if too much is added", "Black makes the colour lighter", "Black is a primary colour"], "answer": "B", "explanation": "A large amount of black can turn the secondary colour almost black.", "outcome": "b" },
+    { "question": "Light falls on the left of a ball. Which tone belongs on the left side?", "options": ["The dark tone", "The light tone", "Pure black", "No paint"], "answer": "B", "explanation": "The side facing the light is painted with the light tone.", "outcome": "b" },
+    { "question": "What is a montage?", "answer": "A picture made by cutting out pictures and pasting them together.", "explanation": "Montage builds a new composition from sourced pictures rather than from brushstrokes alone.", "outcome": "c" },
+    { "question": "What does overlapping mean in a montage?", "options": ["Leaving equal gaps between every picture", "Covering part of one cut-out with another", "Painting over the paste", "Using only one picture"], "answer": "B", "explanation": "Overlapping joins the pieces into one composition.", "outcome": "c" },
+    { "question": "How can glue for pasting be improvised?", "answer": "Mix flour with water, warm it gently with an adult until it thickens, then cool it.", "explanation": "Flour paste is a reusable classroom glue when bottled paste is not available.", "outcome": "c" },
+    { "question": "Which picture does not belong in a montage themed ball games?", "options": ["A footballer", "A netball", "A cooking pot", "A goal net"], "answer": "C", "explanation": "The subject matter is ball games. A cooking pot does not fit the theme.", "outcome": "c" },
+    { "question": "How is painting different from montage?", "answer": "Painting applies colour with a brush. Montage arranges and pastes cut-out pictures.", "explanation": "Both methods make pictures, but they use different materials and actions.", "outcome": "d" },
+    { "question": "Which way of talking about a classmate's montage shows respect?", "options": ["Laughing at a torn edge", "Refusing to look", "Naming something that works, then one kind suggestion", "Talking over the maker"], "answer": "C", "explanation": "Respectful critique lets the maker speak and comments on the work fairly.", "outcome": "d" }
+  ],
+  "sources": [
+    "KICD Grade 4 Creative Arts Curriculum Design (Revised 2024) — Strand 1.0 Creating and Executing, Sub-strand 1.3 Painting and Montage"
+  ]
+}

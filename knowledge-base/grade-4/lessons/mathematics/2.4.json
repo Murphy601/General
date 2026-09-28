@@ -1,0 +1,414 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "2.4",
+  "title": "Capacity",
+  "overview": "Capacity is how much a container can hold. In this sub-strand you will measure capacity in litres, half litres and quarter litres, then add and subtract capacities written in litres.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "The litre",
+      "outcomes": ["a", "d"],
+      "objectives": [
+        "State that the litre is a unit of capacity.",
+        "Measure the capacity of a container by filling it with a one-litre container."
+      ],
+      "intro": "A jug, a bottle and a bucket do not all hold the same amount of water. Capacity is how much a container holds when it is full. The litre is the unit we use for that amount.",
+      "notes": "We write litre in short as L. A one-litre container is the measuring piece. Many water bottles used in school hold about 1 litre when they are full to the marked line. The mark matters: a bottle filled only halfway does not hold 1 litre yet.\n\n### Measuring by filling\nTo find the capacity of a larger container:\n\n1. Fill the one-litre container to its litre mark.\n2. Pour all of it into the larger container.\n3. Fill the one-litre container again and pour.\n4. Count the pours until the larger container is full.\n\nIf a bucket is full after 12 pours, its capacity is 12 litres.\n\nPour slowly. If water spills, that pour was not a full litre in the bucket, and the count will be wrong. A dry container at the start gives a true measurement.\n\n### Smaller containers\nA cup may hold less than 1 litre. You will need several cups to fill a one-litre container. Keep counting until the litre container is full. That count tells you how the cup compares with 1 litre.\n\n### Why the litre is useful\nWater for cooking, milk from a cow, juice in a bottle and fuel in a jerrycan are all described in litres. Using the same unit means a buyer and a seller agree on the amount. An unmarked gourd is an arbitrary container: two gourds may not hold the same amount. A litre container is the same every time you fill it to the mark.",
+      "keyWords": [
+        { "word": "capacity", "meaning": "how much a container can hold" },
+        { "word": "litre (L)", "meaning": "the unit used to measure capacity" }
+      ],
+      "examples": [
+        {
+          "problem": "A bucket is filled by 12 full one-litre bottles. What is the capacity of the bucket?",
+          "steps": ["Each bottle pours in 1 litre.", "12 pours make 12 litres."],
+          "answer": "12 litres",
+          "check": "12 * 1 === 12"
+        },
+        {
+          "problem": "A jerrycan is filled by pouring from a one-litre cup 20 times. What is its capacity?",
+          "steps": ["20 × 1 litre = 20 litres."],
+          "answer": "20 litres",
+          "check": "20 * 1 === 20"
+        }
+      ],
+      "activity": {
+        "title": "Fill and count the litres",
+        "materials": ["A one-litre container", "A jug, a bucket and a cup", "Water", "A basin to avoid spills"],
+        "steps": [
+          "Work outside or over a basin. Fill the one-litre container to its mark and pour it into the jug. Repeat until the jug is full, and record the number of litres.",
+          "Do the same for a bucket.",
+          "Find how many full cups fill the one-litre container.",
+          "Empty the containers when you finish and wipe the floor so that nobody slips.",
+          "Discuss one time at home when your family needs to know a capacity in litres."
+        ]
+      },
+      "practice": [
+        { "question": "A tank is filled by 25 one-litre bottles. What is the capacity poured in?", "answer": "25 litres", "check": "25 * 1 === 25" },
+        { "question": "A container becomes full after 8 pours from a one-litre jug. What is its capacity?", "answer": "8 litres", "check": "8 * 1 === 8" },
+        { "question": "Why is a one-litre container better for measuring than two unmarked gourds?", "answer": "The litre container holds the same amount each time it is filled to the mark, but the gourds may hold different amounts.", "check": null }
+      ],
+      "summary": [
+        "Capacity is how much a container holds.",
+        "The litre (L) is the unit.",
+        "Count how many times a full one-litre container fills the container you are measuring."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Making a one-litre container",
+      "outcomes": ["a"],
+      "objectives": [
+        "Make a one-litre mark on a container by filling and emptying.",
+        "Use the marked container to measure another container."
+      ],
+      "intro": "You may not have a measuring jug at home. If you have one true one-litre bottle, you can mark a tin or a plastic bottle so that it also holds one litre.",
+      "notes": "Borrow a container that you already trust as 1 litre. A bottle with a clear 1 L mark is a good start.\n\n### Filling and emptying\n1. Fill the trusted bottle with water or dry sand up to the 1 litre mark.\n2. Pour all of it into the container you want to mark.\n3. Keep the container upright on a flat surface.\n4. Draw a line at the level of the water or sand. Write 1 L beside the line.\n5. Empty it and fill it again to your line. Pour it back into the trusted bottle. It should fill that bottle to the same 1 litre mark.\n\nIf the level is short, your line was too low. If it overflows, your line was too high. Mark again.\n\nSand must be dry and level. Tap the container gently so that the sand settles, then mark. Do not pack the sand down hard in one container and leave it loose in the other.\n\n### Using the new container\nA cooking pot that takes 4 fills of your marked container has a capacity of 4 litres. Write the unit. The number 4 alone could mean 4 cups or 4 bottles.\n\n### Care\nDo not drink from containers that have held sand, soap or fuel. Ask an adult before you cut a bottle. Keep water off the floor.",
+      "keyWords": [
+        { "word": "mark", "meaning": "a line that shows where the container holds a stated amount" },
+        { "word": "emptying", "meaning": "pouring everything out so that you can check a measurement again" }
+      ],
+      "examples": [
+        {
+          "problem": "A pot is filled by 4 pours from a marked one-litre tin. What is the capacity of the pot?",
+          "steps": ["Each pour is 1 litre.", "4 × 1 = 4 litres."],
+          "answer": "4 litres",
+          "check": "4 * 1 === 4"
+        },
+        {
+          "problem": "A learner's mark is checked by pouring back into a true 1 litre bottle. The bottle overflows. What is wrong with the mark?",
+          "steps": ["More than 1 litre was poured back.", "The line on the learner's container is too high."],
+          "answer": "The mark is above the true 1 litre level.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mark one litre",
+        "materials": ["A container already marked 1 litre", "A plain plastic bottle or tin", "Water or dry sand", "A marker pen"],
+        "steps": [
+          "In pairs, fill the trusted 1 litre container and pour it into the plain container.",
+          "Mark the level and label it 1 L.",
+          "Empty the plain container, fill it to your mark, and pour it back. Adjust the mark if it does not match.",
+          "Use your marked container to find the capacity of a jug or a small bucket.",
+          "Wash your hands if you used sand, and do not leave containers where someone might trip."
+        ]
+      },
+      "practice": [
+        { "question": "A basin holds 6 fills of a marked 1 litre container. What is its capacity?", "answer": "6 litres", "check": "6 * 1 === 6" },
+        { "question": "You pour a marked container back into a true 1 litre bottle and the bottle is not full. Was your mark too high or too low?", "answer": "Too low", "check": null },
+        { "question": "Three marked one-litre tins are poured into an empty jerrycan, and the jerrycan is then full. What is its capacity?", "answer": "3 litres", "check": "3 * 1 === 3" }
+      ],
+      "summary": [
+        "Pour a true 1 litre into a plain container and mark the level.",
+        "Check the mark by pouring back into the true litre container.",
+        "Use the marked container to measure other capacities in litres."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Half litres and quarter litres",
+      "outcomes": ["b"],
+      "objectives": [
+        "Show that 2 half litres make 1 litre and 4 quarter litres make 1 litre.",
+        "Measure a capacity using half-litre and quarter-litre containers."
+      ],
+      "intro": "A small cup of milk may be only part of a litre. Half a litre and a quarter of a litre are the parts you can make from one litre by sharing it into equal amounts.",
+      "notes": "Half a litre is written ½ L. A quarter of a litre is written ¼ L.\n\n### Making a half litre\nFill a 1 litre container. Pour it into two matching empty bottles until the water is at the same level in both. Each bottle then holds ½ L. Two half litres poured back fill the 1 litre container exactly.\n\n2 × ½ L = 1 L\n\n### Making a quarter litre\nShare ½ L equally between two matching smaller bottles, or share 1 L equally among four. Each small bottle holds ¼ L.\n\n4 × ¼ L = 1 L\n\n2 × ¼ L = ½ L\n\n### Counting the parts\nIf a jug is filled by 6 half-litre cups, its capacity is 6 × ½ L = 3 L.\n\nIf a bottle is filled by 5 quarter-litre cups, its capacity is 5 × ¼ L = 1¼ L. Four of the quarters make 1 litre, and one quarter is left.\n\nAsk an adult before cutting a bottle to the water line. Cut away from your hands. A container that held chemicals should not be used for drinking water.",
+      "keyWords": [
+        { "word": "half litre", "meaning": "½ L, the amount in one of two equal parts of a litre" },
+        { "word": "quarter litre", "meaning": "¼ L, the amount in one of four equal parts of a litre" }
+      ],
+      "examples": [
+        {
+          "problem": "How many half litres are there in 3 litres?",
+          "steps": ["Each litre contains 2 half litres.", "3 × 2 = 6."],
+          "answer": "6 half litres",
+          "check": "3 * 2 === 6"
+        },
+        {
+          "problem": "How many quarter litres are there in 2 litres?",
+          "steps": ["Each litre contains 4 quarter litres.", "2 × 4 = 8."],
+          "answer": "8 quarter litres",
+          "check": "2 * 4 === 8"
+        },
+        {
+          "problem": "A bottle is filled by five quarter-litre cups. What is its capacity?",
+          "steps": ["5 × ¼ L = 5/4 L.", "5/4 L = 1¼ L."],
+          "answer": "1¼ litres",
+          "check": "5 / 4 === 1.25"
+        }
+      ],
+      "activity": {
+        "title": "Halves and quarters of a litre",
+        "materials": ["A 1 litre container", "Matching plastic bottles", "Water", "Marker pen"],
+        "steps": [
+          "Fill the 1 litre container. Share the water equally between two matching bottles and mark each as ½ L.",
+          "Pour both halves back and check that they fill 1 litre.",
+          "Share 1 litre equally among four small matching containers and mark each as ¼ L.",
+          "Find how many of your ½ L containers fill a jug.",
+          "Wipe up spills. Do not cut bottles unless an adult is helping."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 140\" font-family=\"sans-serif\"><rect width=\"440\" height=\"140\" fill=\"#ffffff\"/><rect x=\"20\" y=\"30\" width=\"50\" height=\"80\" fill=\"#93c5fd\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"45\" y=\"125\" font-size=\"14\" text-anchor=\"middle\">1 L</text><text x=\"100\" y=\"75\" font-size=\"20\">=</text><rect x=\"130\" y=\"70\" width=\"40\" height=\"40\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><rect x=\"180\" y=\"70\" width=\"40\" height=\"40\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"175\" y=\"125\" font-size=\"14\" text-anchor=\"middle\">two 1/2 L</text><text x=\"250\" y=\"75\" font-size=\"20\">=</text><rect x=\"280\" y=\"90\" width=\"28\" height=\"20\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><rect x=\"314\" y=\"90\" width=\"28\" height=\"20\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><rect x=\"348\" y=\"90\" width=\"28\" height=\"20\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><rect x=\"382\" y=\"90\" width=\"28\" height=\"20\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"345\" y=\"125\" font-size=\"14\" text-anchor=\"middle\">four 1/4 L</text></svg>",
+        "caption": "1 litre equals 2 half litres and also equals 4 quarter litres."
+      },
+      "practice": [
+        { "question": "How many half litres make 5 litres?", "answer": "10 half litres", "check": "5 * 2 === 10" },
+        { "question": "How many quarter litres make 1 half litre?", "answer": "2 quarter litres", "check": "2 * 1 === 2" },
+        { "question": "Seven half-litre cups fill a jug. What is the capacity of the jug?", "answer": "3½ litres", "check": "7 / 2 === 3.5" },
+        { "question": "How many quarter litres are there in 3 litres?", "answer": "12 quarter litres", "check": "3 * 4 === 12" }
+      ],
+      "summary": [
+        "2 × ½ L = 1 L and 4 × ¼ L = 1 L.",
+        "2 × ¼ L = ½ L.",
+        "Count the half-litre or quarter-litre pours, then change the count into litres."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Measuring with litres, half litres and quarter litres",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Record a capacity that is a mixture of litres and parts of a litre.",
+        "Change a count of quarter litres into litres."
+      ],
+      "intro": "A container is not always a whole number of litres. It might hold 3 full litres and then one more half litre. You record both parts.",
+      "notes": "Use the biggest container that fits, then the smaller ones for what is left.\n\nSuppose a jerry can takes four full litres, and the leftover water fills one half-litre container and one quarter-litre container. The capacity is\n\n4 L + ½ L + ¼ L.\n\nChange the parts into quarters so that you can add them:\n\n- 1 L = 4 quarters, so 4 L = 16 quarters.\n- ½ L = 2 quarters.\n- ¼ L = 1 quarter.\n\n16 + 2 + 1 = 19 quarters. That is 4 litres and 3 quarters, or 4¾ L, because 16 quarters make 4 litres and 3 quarters remain.\n\n### A shorter way\n½ + ¼ = ¾. So 4 L + ½ L + ¼ L = 4¾ L.\n\n### Checking a measurement\nPour the water back with your measuring containers and count again. Two groups measuring the same full container should get the same result if nobody spills. Write the unit every time. A capacity of 4¾ without a unit is not a finished answer.\n\nWater and sand both show capacity, but do not mix them in the same container during one measurement. Use one substance, empty the container, and start the next measurement clean.",
+      "keyWords": [
+        { "word": "mixed capacity", "meaning": "a measure with whole litres and a fraction of a litre, such as 4¾ L" },
+        { "word": "quarter", "meaning": "one of four equal parts" }
+      ],
+      "examples": [
+        {
+          "problem": "A container holds 4 L + ½ L + ¼ L. Write the capacity as one mixed number.",
+          "steps": ["½ + ¼ = ¾.", "4 + ¾ = 4¾."],
+          "answer": "4¾ litres",
+          "check": "4 + 0.5 + 0.25 === 4.75"
+        },
+        {
+          "problem": "A jug is filled by seven half-litre cups. Write the capacity in litres.",
+          "steps": ["7 × ½ = 7/2.", "7/2 = 3½."],
+          "answer": "3½ litres",
+          "check": "7 / 2 === 3.5"
+        }
+      ],
+      "activity": {
+        "title": "Whole litres and parts",
+        "materials": ["1 L, ½ L and ¼ L containers", "A jug", "Water", "Basin"],
+        "steps": [
+          "In a group, fill a jug using the 1 litre container as many times as you can.",
+          "Measure what is still needed with the half-litre container, then the quarter-litre container.",
+          "Write the capacity as whole litres and a fraction.",
+          "Empty the jug and let another pair measure it. Compare the two results.",
+          "Pour the water onto plants if it is clean, or back into a storage container. Do not leave the floor wet."
+        ]
+      },
+      "practice": [
+        { "question": "Write 3 L + ½ L as a mixed number of litres.", "answer": "3½ litres", "check": "3 + 0.5 === 3.5" },
+        { "question": "Write 2 L + ¼ L + ¼ L in litres.", "answer": "2½ litres", "check": "2 + 0.25 + 0.25 === 2.5" },
+        { "question": "Nine quarter litres fill a bottle. What is its capacity?", "answer": "2¼ litres", "check": "9 / 4 === 2.25" },
+        { "question": "How many quarter litres are in 4¾ litres?", "answer": "19 quarter litres", "check": "4 * 4 + 3 === 19" }
+      ],
+      "summary": [
+        "Measure whole litres first, then halves and quarters.",
+        "½ L + ¼ L = ¾ L.",
+        "Check by measuring the same container a second time."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Adding capacity in litres",
+      "outcomes": ["c"],
+      "objectives": [
+        "Add whole-litre capacities, regrouping when a column is 10 or more.",
+        "Add capacities that include half litres and quarter litres."
+      ],
+      "intro": "A family may collect 326 litres of water in the morning and 174 litres in the afternoon. To know the total, add the litres in the same way you add whole numbers.",
+      "notes": "Write the numbers in columns: hundreds, tens and ones. Add the ones first. If a column is 10 or more, write the ones digit of that sum and carry the tens digit to the next column.\n\n### Whole litres\nAdd 326 L and 174 L.\n\n- Ones: 6 + 4 = 10. Write 0, carry 1 ten.\n- Tens: 2 + 7 + 1 = 10. Write 0, carry 1 hundred.\n- Hundreds: 3 + 1 + 1 = 5.\n- The total is 500 L.\n\nAdd 87 L and 232 L.\n\n- Ones: 7 + 2 = 9.\n- Tens: 8 + 3 = 11. Write 1, carry 1 hundred.\n- Hundreds: 2 + 1 = 3.\n- The total is 319 L.\n\nCheck by adding in the other order. 232 + 87 must also give 319.\n\n### Fractions of a litre\nAdd the fraction parts, then the whole litres. Change 2 quarters into a half, or 2 halves into a litre, when you can.\n\n2½ L + 1¼ L = 2 L + 1 L + ½ L + ¼ L = 3 L + ¾ L = 3¾ L.\n\n1½ L + 1½ L = 3 L, because ½ + ½ = 1.\n\nAlways write litres in the answer. A total of 500 could be mistaken for metres or shillings if the unit is missing.",
+      "keyWords": [
+        { "word": "total capacity", "meaning": "the amount when two or more capacities are added" },
+        { "word": "carry", "meaning": "to move 10 from one column into 1 in the next column when adding" }
+      ],
+      "examples": [
+        {
+          "problem": "Add 326 litres and 174 litres.",
+          "steps": ["Ones: 6 + 4 = 10. Write 0, carry 1.", "Tens: 2 + 7 + 1 = 10. Write 0, carry 1.", "Hundreds: 3 + 1 + 1 = 5."],
+          "answer": "500 litres",
+          "check": "326 + 174 === 500"
+        },
+        {
+          "problem": "Add 87 litres and 232 litres.",
+          "steps": ["Ones: 7 + 2 = 9.", "Tens: 8 + 3 = 11. Write 1, carry 1.", "Hundreds: 2 + 1 = 3."],
+          "answer": "319 litres",
+          "check": "87 + 232 === 319"
+        },
+        {
+          "problem": "Add 2½ litres and 1¼ litres.",
+          "steps": ["Wholes: 2 + 1 = 3.", "Fractions: ½ + ¼ = ¾.", "Total: 3¾ litres."],
+          "answer": "3¾ litres",
+          "check": "2.5 + 1.25 === 3.75"
+        }
+      ],
+      "activity": {
+        "title": "Pour two amounts together",
+        "materials": ["Two containers of known capacity", "A larger basin", "A one-litre container", "Water"],
+        "steps": [
+          "Measure 2 litres into one container and 3 litres into another.",
+          "Pour both into a basin. Predict the total, then measure it with the one-litre container.",
+          "In your book, add 154 litres and 163 litres in columns. Check by adding the numbers in the reverse order.",
+          "Add 2½ litres and 1½ litres. Explain where the two halves make an extra litre.",
+          "Empty the basin where the water can be used, and dry the working place."
+        ]
+      },
+      "practice": [
+        { "question": "Add 467 litres and 192 litres.", "answer": "659 litres", "check": "467 + 192 === 659" },
+        { "question": "Add 923 litres and 69 litres.", "answer": "992 litres", "check": "923 + 69 === 992" },
+        { "question": "Add 1½ litres and ¾ litres.", "answer": "2¼ litres", "check": "1.5 + 0.75 === 2.25" },
+        { "question": "A tank received 1,250 litres and then 875 litres. How much water was received altogether?", "answer": "2,125 litres", "check": "1250 + 875 === 2125" }
+      ],
+      "summary": [
+        "Add litres in columns, starting at the ones, and carry when a column is 10 or more.",
+        "Add fraction parts separately, and change 2 halves into 1 litre.",
+        "Check by adding the two numbers in the other order."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Subtracting capacity in litres",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Subtract litres, regrouping when a digit is too small.",
+        "Subtract half litres and quarter litres from whole litres."
+      ],
+      "intro": "A tank held 2,958 litres. After a week the family had used 839 litres. Subtraction tells you how many litres are left. The same skill works for a cup of milk when you pour some out.",
+      "notes": "Set the subtraction in columns. Start at the ones. If the top digit is smaller than the bottom digit, regroup 1 ten as 10 ones.\n\n### Whole litres\nSubtract 19 L from 32 L.\n\n- Ones: 2 is smaller than 9. Regroup 1 ten. The tens become 2, and the ones become 12.\n- 12 − 9 = 3.\n- Tens: 2 − 1 = 1.\n- 13 litres remain.\n\nSubtract 839 L from 2,958 L.\n\n- Ones: 8 − 9 cannot be done. Regroup: 18 − 9 = 9.\n- Tens: 4 − 3 = 1, after the regroup left 4 in the tens.\n- Hundreds: 9 − 8 = 1. The thousands digit 2 stays.\n- 2,119 litres remain.\n\nCheck by adding: 2,119 + 839 = 2,958.\n\n### Parts of a litre\nTake the whole litres away first, then the fraction.\n\n6 L − 1½ L = 6 L − 1 L − ½ L. First, 6 − 1 = 5. Then 5 − ½ = 4½. So 4½ L remain.\n\n1 L − ¼ L = ¾ L.\n\n½ L − ¼ L = ¼ L.\n\nMeasuring what is left in a real container checks a small subtraction. For a large tank you check by adding the remainder to the amount used.",
+      "keyWords": [
+        { "word": "remainder", "meaning": "the capacity left after some has been used or poured out" },
+        { "word": "regroup", "meaning": "to change 1 ten into 10 ones so that subtraction is possible" }
+      ],
+      "examples": [
+        {
+          "problem": "A container held 32 litres. 19 litres were poured out. How much is left?",
+          "steps": ["Ones: regroup 1 ten, 12 − 9 = 3.", "Tens: 2 − 1 = 1."],
+          "answer": "13 litres",
+          "check": "32 - 19 === 13"
+        },
+        {
+          "problem": "A tank held 2,958 litres. The family used 839 litres. How much water is left?",
+          "steps": ["2,958 − 839.", "Check: 2,119 + 839 = 2,958."],
+          "answer": "2,119 litres",
+          "check": "2958 - 839 === 2119"
+        },
+        {
+          "problem": "Subtract 1½ litres from 6 litres.",
+          "steps": ["6 − 1 = 5.", "5 − ½ = 4½."],
+          "answer": "4½ litres",
+          "check": "6 - 1.5 === 4.5"
+        }
+      ],
+      "activity": {
+        "title": "What is left in the container?",
+        "materials": ["A one-litre container", "A half-litre container", "A basin of water", "Exercise book"],
+        "steps": [
+          "Pour 2 litres into a basin. Take out ½ litre. Measure what is left and write the subtraction.",
+          "In your book, subtract 19 litres from 32 litres and check by adding.",
+          "Solve: a tank had 7,535 litres and 3,229 litres were used. How many litres remain?",
+          "Share one story from home where someone needs to know how much water, milk or juice is left.",
+          "Play a capacity game with containers of different sizes, or a digital game if your teacher provides one. Record one subtraction you worked out."
+        ]
+      },
+      "practice": [
+        { "question": "Subtract 174 litres from 500 litres.", "answer": "326 litres", "check": "500 - 174 === 326" },
+        { "question": "A school tank had 7,535 litres. Learners used 3,229 litres. How many litres remain?", "answer": "4,306 litres", "check": "7535 - 3229 === 4306" },
+        { "question": "Subtract ¼ litre from 1 litre.", "answer": "¾ litre", "check": "1 - 0.25 === 0.75" },
+        { "question": "How can you check that 2,958 − 839 = 2,119?", "answer": "Add 2,119 and 839. The sum should be 2,958.", "check": "2119 + 839 === 2958" }
+      ],
+      "summary": [
+        "Subtract litres in columns and regroup when the top digit is smaller.",
+        "Check a subtraction by adding the answer to the amount taken away.",
+        "1½ litres taken from 6 litres leaves 4½ litres."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A bucket is filled by 15 one-litre bottles. What is its capacity?",
+      "options": ["15 litres", "16 litres", "14 litres", "1 litre"],
+      "answer": "A",
+      "explanation": "Each full bottle is 1 litre, so 15 bottles fill 15 litres.",
+      "outcome": "a",
+      "check": "15 * 1 === 15"
+    },
+    {
+      "question": "You pour a marked container back into a true 1 litre bottle and the bottle overflows. What does that show?",
+      "answer": "The mark is too high, so the container held more than 1 litre.",
+      "explanation": "A correct 1 litre mark fills the true bottle exactly.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "How many half litres make 4 litres?",
+      "options": ["2", "4", "8", "6"],
+      "answer": "C",
+      "explanation": "Each litre has 2 half litres, so 4 × 2 = 8.",
+      "outcome": "b",
+      "check": "4 * 2 === 8"
+    },
+    {
+      "question": "How many quarter litres are there in 3 litres?",
+      "answer": "12 quarter litres",
+      "explanation": "Each litre has 4 quarters, so 3 × 4 = 12.",
+      "outcome": "b",
+      "check": "3 * 4 === 12"
+    },
+    {
+      "question": "Seven half-litre cups fill a jug. What is the capacity of the jug?",
+      "options": ["7 litres", "3½ litres", "14 litres", "2 litres"],
+      "answer": "B",
+      "explanation": "7 × ½ = 3½ litres.",
+      "outcome": "b",
+      "check": "7 / 2 === 3.5"
+    },
+    {
+      "question": "Add 326 litres and 174 litres.",
+      "answer": "500 litres",
+      "explanation": "326 + 174 = 500.",
+      "outcome": "c",
+      "check": "326 + 174 === 500"
+    },
+    {
+      "question": "Add 2½ litres and 1¼ litres.",
+      "answer": "3¾ litres",
+      "explanation": "2 + 1 = 3 and ½ + ¼ = ¾, so the total is 3¾ litres.",
+      "outcome": "c",
+      "check": "2.5 + 1.25 === 3.75"
+    },
+    {
+      "question": "Subtract 19 litres from 32 litres.",
+      "options": ["13 litres", "11 litres", "21 litres", "51 litres"],
+      "answer": "A",
+      "explanation": "32 − 19 = 13.",
+      "outcome": "c",
+      "check": "32 - 19 === 13"
+    },
+    {
+      "question": "A tank held 2,958 litres and 839 litres were used. How many litres are left?",
+      "answer": "2,119 litres",
+      "explanation": "2,958 − 839 = 2,119. Adding 2,119 + 839 returns 2,958.",
+      "outcome": "c",
+      "check": "2958 - 839 === 2119"
+    },
+    {
+      "question": "Why do we use litres instead of unmarked cups when we buy milk or juice?",
+      "answer": "A litre is the same amount every time, so the buyer and the seller agree on the capacity.",
+      "explanation": "Unmarked cups can hold different amounts.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 2.0 Measurement, Sub-strand 2.4 Capacity",
+    "KICD Grade 4 Mathematics radio lessons: Measuring capacity; Addition of capacity; Subtraction of capacity"
+  ]
+}

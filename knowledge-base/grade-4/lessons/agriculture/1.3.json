@@ -1,0 +1,358 @@
+{
+  "subject": "AGRICULTURE",
+  "subStrand": "1.3",
+  "title": "Fuel Conservation",
+  "overview": "Homes cook with firewood, charcoal, gas and kerosene. In this sub-strand you will name these fuels, learn how each one is used, practise ways of cooking that waste less fuel, and explain why saving fuel protects trees, money and clean air.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Types of fuels used at home",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name the common fuels used for cooking at home.",
+        "State one use of each fuel."
+      ],
+      "intro": "Before a meal is ready, someone has supplied heat. That heat comes from a fuel. The fuel in one kitchen may be split wood, and in another kitchen it may be a gas cylinder or a jerrycan of kerosene.",
+      "notes": "A fuel is a material that is burnt or used to give heat or light. At home, fuels are used mainly for cooking, and sometimes for warming a room or lighting a lamp.\n\n### Four fuels named in this sub-strand\n- Firewood is pieces of dry wood or branches. It is burnt on three stones or in a wood stove.\n- Charcoal is black, light and made from wood that has been heated slowly with little air. It is burnt in a charcoal jiko.\n- Gas for cooking is kept as a liquid in a strong cylinder. When the valve is opened it becomes a gas and burns on a gas cooker with a blue flame.\n- Kerosene, also called paraffin, is a liquid. It is burnt in a wick stove for cooking or in a lamp for light.\n\n### Other fuels you may meet\nSome homes and schools use biogas made from animal dung, or they burn dry maize cobs and coconut shells. These are still fuels. The four you must be able to name and describe are firewood, charcoal, gas and kerosene.\n\n### How to tell them apart\nFirewood is solid, heavy when wet, and shows the grain of wood. Charcoal is solid, black and light, and it marks the fingers. Gas is inside a metal cylinder and you cannot see it until it burns. Kerosene is a clear or pale liquid with a strong smell. Never taste a fuel to identify it.\n\nLook around your home with an adult and list the fuels you actually use. Different families use different fuels, and one home may use more than one.",
+      "keyWords": [
+        { "word": "fuel", "meaning": "a material used to give heat or light" },
+        { "word": "charcoal", "meaning": "a black fuel made by heating wood with little air" },
+        { "word": "kerosene", "meaning": "a liquid fuel, also called paraffin, used in stoves and lamps" }
+      ],
+      "examples": [
+        {
+          "problem": "A family cooks on a metal stove that holds black lumps, and they also keep a cylinder that is joined to a cooker by a pipe. Which two fuels do they use?",
+          "steps": [
+            "Black lumps burnt in a jiko are charcoal.",
+            "A cylinder joined to a cooker holds cooking gas."
+          ],
+          "answer": "Charcoal and gas",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Fuel survey at home",
+        "materials": ["Exercise book", "Pictures of firewood, charcoal, a gas cylinder and kerosene"],
+        "steps": [
+          "In groups, look at pictures of firewood, charcoal, gas and kerosene and describe how each one looks.",
+          "Each learner lists the fuels used for cooking in their home. Do not bring fuels to school.",
+          "Share the lists and count how many homes use each fuel.",
+          "Agree on one sentence that names the four fuels used at home."
+        ]
+      },
+      "practice": [
+        { "question": "Name four fuels used for cooking at home.", "answer": "Firewood, charcoal, gas and kerosene.", "check": null },
+        { "question": "Which fuel is a liquid with a strong smell, used in a wick stove?", "answer": "Kerosene (paraffin).", "check": null },
+        { "question": "How is charcoal different from firewood in appearance?", "answer": "Charcoal is black, light and marks the fingers. Firewood is pieces of wood and shows the grain.", "check": null }
+      ],
+      "summary": [
+        "A fuel gives heat or light.",
+        "Common cooking fuels at home are firewood, charcoal, gas and kerosene.",
+        "Identify fuels by looking, not by tasting."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "How each fuel is used for cooking",
+      "outcomes": ["a"],
+      "objectives": [
+        "Match each fuel to the equipment used to burn it.",
+        "Describe where firewood and charcoal come from."
+      ],
+      "intro": "A sack of charcoal cannot be used safely on a gas ring, and a gas cylinder is not burnt on three stones. Each fuel needs the right equipment.",
+      "notes": "### Firewood\nFirewood comes from trees and shrubs. Dry wood lights more easily and makes less smoke than wet wood. It may be burnt between three stones, with the pot resting on the stones, or in a wood stove that holds the fire in a closed space. Three stones use a lot of wood because much of the heat escapes into the air.\n\n### Charcoal\nCharcoal is made from wood. Because the wood has already been heated, charcoal lights more slowly than dry twigs but burns with strong heat and less flame. It is used in a metal jiko. The jiko has holes that let in air. If those holes are blocked with ash, the charcoal does not burn well and is wasted.\n\n### Gas\nCooking gas is bought in a cylinder. The cylinder stands upright and is joined to a cooker. A match or lighter is used only after the knob is opened slightly, and the flame should be blue. A yellow, smoky flame means the air hole needs cleaning. Gas lights at once and can be turned down to a small flame.\n\n### Kerosene\nKerosene is poured into the tank of a wick stove. The wick soaks up the liquid and the top of the wick is lit. The flame is adjusted so that it is blue and does not smoke. Kerosene is also used in lamps. It must be stored in a labelled container with a tight lid, never in a drink bottle.\n\nKnowing the equipment helps you name the fuel. A three-stone fire points to firewood. A jiko points to charcoal. A cylinder points to gas. A wick stove points to kerosene.",
+      "keyWords": [
+        { "word": "jiko", "meaning": "a metal or clay stove used for burning charcoal" },
+        { "word": "three stones", "meaning": "three stones placed to hold a pot over an open wood fire" },
+        { "word": "cylinder", "meaning": "a strong metal container that holds cooking gas" }
+      ],
+      "examples": [
+        {
+          "problem": "Neema's aunt cooks on three stones and dries the wood in the sun before using it. Which fuel is she using, and why does she dry it?",
+          "steps": [
+            "Three stones are used with firewood.",
+            "Dry wood lights more easily and smokes less than wet wood."
+          ],
+          "answer": "Firewood. Dry wood burns better and makes less smoke.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Match the fuel to the cooker",
+        "materials": ["Picture cards of fuels and of cookers", "Exercise book"],
+        "steps": [
+          "Spread out cards showing firewood, charcoal, a gas cylinder and kerosene.",
+          "Match each fuel to a picture of three stones, a jiko, a gas cooker or a wick stove.",
+          "Explain to your partner where firewood and charcoal come from.",
+          "Write the four matches in your book."
+        ]
+      },
+      "practice": [
+        { "question": "Which equipment is used to burn charcoal?", "answer": "A jiko.", "check": null },
+        { "question": "Why is wet firewood a poor fuel?", "answer": "It is hard to light and makes a lot of smoke.", "check": null },
+        { "question": "Why must kerosene not be stored in a drink bottle?", "answer": "Someone may mistake it for a drink and be poisoned.", "check": null },
+        { "question": "What colour should a gas flame be when the cooker is working well?", "answer": "Blue.", "check": null }
+      ],
+      "summary": [
+        "Firewood is used on three stones or in a wood stove.",
+        "Charcoal is burnt in a jiko, gas on a gas cooker, and kerosene in a wick stove.",
+        "Firewood and charcoal both come from trees."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "How fuel is wasted during cooking",
+      "outcomes": ["b"],
+      "objectives": [
+        "Describe actions that waste fuel while cooking.",
+        "Explain how a small change in cooking can waste or save fuel."
+      ],
+      "intro": "A pot can sit on a roaring fire long after the food is cooked. The food does not get better, but the wood, charcoal, gas or kerosene keeps being used up. That is wastage.",
+      "notes": "Fuel is wasted when heat is made and then not used to cook the food. Watch for these habits.\n\n### Leaving the fire burning\nWhen the food is ready, the fire is sometimes left to die slowly. Charcoal keeps glowing, a wood fire keeps eating sticks, and a gas knob left open keeps burning. All of that heat warms the air, not the meal.\n\n### Cooking without a lid\nAn open pot lets heat escape. The food takes longer to cook, so more fuel is used. Steam on the lid is a sign that heat is staying inside the pot.\n\n### Too much water and pieces that are too big\nA huge pot of water takes a long time to boil. Dry beans or maize that were not soaked also take much longer. Very large pieces of food cook slowly. Each extra minute on the fire is extra fuel.\n\n### The wrong size of fire\nA flame that licks up the sides of the pot wastes heat. So does a jiko piled higher with charcoal than the cooking needs. A small pot on a very wide, fierce fire loses heat around the edges.\n\n### Poor equipment and wet fuel\nA jiko with blocked air holes burns badly. A leaking gas pipe is dangerous and wasteful. Wet firewood hisses, smokes and gives less heat, so the cook keeps adding more wood.\n\nWastage matters because firewood and charcoal come from trees. Gas and kerosene cost money and are not replaced once they are burnt. Reducing wastage is the first step in conserving fuel.",
+      "keyWords": [
+        { "word": "wastage", "meaning": "using more of something than is needed" },
+        { "word": "lid", "meaning": "the cover of a pot" }
+      ],
+      "examples": [
+        {
+          "problem": "Two pots of the same stew are cooked. One is covered and is ready in 30 minutes. The other is open and takes 45 minutes. How many minutes of fuel were wasted on the open pot?",
+          "steps": ["Subtract the shorter time from the longer time.", "45 − 30 = 15"],
+          "answer": "15 minutes",
+          "check": "45 - 30 === 15"
+        }
+      ],
+      "activity": {
+        "title": "Spot the waste",
+        "materials": ["A short teacher demonstration or pictures of cooking", "Exercise book"],
+        "steps": [
+          "Watch a demonstration or study pictures of someone cooking.",
+          "List every action that wastes fuel, such as an open pot, a fire left burning, or wet wood.",
+          "Beside each action, write a better action.",
+          "Share your list with another group and add any waste they noticed that you missed."
+        ]
+      },
+      "practice": [
+        { "question": "Give three ways fuel is wasted during cooking.", "answer": "Any three: leaving the fire on after cooking, cooking without a lid, using too much water, not soaking dry foods, pieces that are too big, a fire that is too big, blocked jiko holes, wet firewood.", "check": null },
+        { "question": "Why does cooking without a lid use more fuel?", "answer": "Heat escapes, so the food takes longer to cook.", "check": null },
+        { "question": "Why is wasting firewood also wasting trees?", "answer": "Firewood and charcoal are made from trees, so using more wood means more trees are cut.", "check": null }
+      ],
+      "summary": [
+        "Fuel is wasted when heat is made but not used for cooking.",
+        "Open pots, fires left burning, too much water and wet wood all waste fuel.",
+        "Firewood wasted is trees wasted."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Saving fuel while you cook",
+      "outcomes": ["b"],
+      "objectives": [
+        "Describe practical ways to conserve fuel during cooking.",
+        "Explain why soaking and using a lid reduce fuel use."
+      ],
+      "intro": "Conserving fuel does not mean eating cold food. It means getting the meal cooked with the smallest amount of firewood, charcoal, gas or kerosene.",
+      "notes": "These habits can be practised whenever food is cooked at home. An adult should handle the fire. Learners plan and remind, and they can do the safe parts such as soaking and covering.\n\n### Put the fire out when you are done\nWhen the food is cooked, put the fire out or turn it off. Close the gas knob. For charcoal, remove the burning pieces with a pair of metal tongs and cover them in a safe metal tin so they go out and can be lit again later. Do not pour water into hot oil. For firewood, separate the burning sticks and cover the embers with ash if an adult shows you how.\n\n### Keep heat in the pot\nUse a lid. Cut food into smaller pieces. Soak beans, maize and dried grains for several hours before cooking so they soften. Use only the water the recipe needs. Once the pot is boiling, a smaller flame is often enough.\n\n### Cook in a sensible order\nLight the fire when the food is already washed, cut and ready. Do not light it and then start looking for ingredients. If two foods need cooking, start with the one that takes longer. A pot of hot water left after boiling maize can be used to start another dish instead of throwing the heat away.\n\n### Measure the fuel\nPut on only as much charcoal or wood as the meal needs. Turn a gas flame down so that it stays under the pot and does not climb the sides. A learner can help by checking that the lid is on and by telling an adult when the food is ready so the fire is put out at once.\n\nPractise one new habit this week and tell the class what changed.",
+      "keyWords": [
+        { "word": "soak", "meaning": "to leave dry food in water so that it becomes soft" },
+        { "word": "ember", "meaning": "a small piece of wood or charcoal that is still hot" }
+      ],
+      "examples": [
+        {
+          "problem": "A cook soaks beans overnight. They then cook in 1 hour. Unsoaked beans of the same type take 3 hours. How much cooking time is saved?",
+          "steps": ["Subtract the soaked cooking time from the unsoaked time.", "3 − 1 = 2"],
+          "answer": "2 hours",
+          "check": "3 - 1 === 2"
+        }
+      ],
+      "activity": {
+        "title": "Fuel-saving cooking plan",
+        "materials": ["Exercise book", "A simple meal plan agreed with the teacher"],
+        "steps": [
+          "Choose a common meal such as githeri, rice or green vegetables.",
+          "Write the steps in order, marking where fuel is used.",
+          "Add fuel-saving actions: soak if needed, use a lid, cut pieces smaller, and put the fire out at the end.",
+          "If the school allows a teacher-led demonstration, follow the plan and note when the fire is put out.",
+          "Report one habit you will remind your family to use."
+        ]
+      },
+      "practice": [
+        { "question": "What should be done to the fire as soon as cooking is finished?", "answer": "It should be put out or turned off.", "check": null },
+        { "question": "Give two ways to make food cook in a shorter time.", "answer": "Any two: use a lid, soak dry foods, cut food into smaller pieces, avoid extra water.", "check": null },
+        { "question": "Why should the fire be lit only when the food is ready to go on it?", "answer": "Fuel is wasted if the fire burns while ingredients are still being looked for.", "check": null }
+      ],
+      "summary": [
+        "Put the fire out or turn the gas off when cooking is finished.",
+        "Use a lid, soak dry foods and avoid extra water.",
+        "Use only as much fuel as the meal needs."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Fuel-efficient cooking equipment",
+      "outcomes": ["b"],
+      "objectives": [
+        "Describe a fuel-efficient jiko and a fireless cooker.",
+        "Explain how better equipment conserves fuel."
+      ],
+      "intro": "Two families can cook the same meal and use very different amounts of charcoal. Often the difference is the stove, not the food.",
+      "notes": "Fuel-efficient equipment is equipment that uses less fuel to do the same cooking. It keeps heat around the pot instead of letting it escape.\n\n### Improved charcoal jiko\nAn improved jiko is usually made of metal with a clay or ceramic lining. The lining holds heat. The pot sits down into the jiko so heat does not rush out at the sides. Air holes are sized so the charcoal burns steadily. Compared with an open fire, an improved jiko cooks with less charcoal and makes less smoke in the cook's face.\n\nKeep the lining unbroken, empty the ash so air can enter, and choose a pot that fits the opening. A tiny pot on a wide jiko wastes heat around it.\n\n### Wood-saving stoves\nA wood stove with a wall around the fire uses less firewood than three stones. Dry wood cut to the right length fits inside and burns completely. The cook is also safer because the fire is contained.\n\n### Fireless cooker\nA fireless cooker, sometimes called a hay box, is a basket or box lined with pillows, blankets or dry hay, with a space for a hot pot. The food is brought to the boil on a stove for a short time, then the pot is covered and placed in the box. The stored heat finishes the cooking without more fuel. It works well for foods that need long, gentle cooking, such as beans, maize and stews. The pot must be closed and the box kept dry.\n\n### What learners can do\nYou may not buy a new jiko, but you can use the one you have well: clear the ash, fit the lid, and move the boiling pot into a fireless cooker if the family has one. Using efficient equipment is a practical way of conserving fuel during cooking.",
+      "keyWords": [
+        { "word": "fuel-efficient", "meaning": "using less fuel to do the same work" },
+        { "word": "fireless cooker", "meaning": "an insulated box that finishes cooking a hot pot without more fire" },
+        { "word": "lining", "meaning": "the inner layer of a jiko that holds heat" }
+      ],
+      "examples": [
+        {
+          "problem": "An open fire uses 6 tins of charcoal in a week. An improved jiko uses 4 tins for the same cooking. How many tins are saved in four weeks?",
+          "steps": ["Tins saved each week = 6 − 4 = 2.", "In four weeks = 2 × 4 = 8."],
+          "answer": "8 tins",
+          "check": "(6-4)*4 === 8"
+        }
+      ],
+      "activity": {
+        "title": "Compare the cookers",
+        "materials": ["Pictures or real examples of three stones, an improved jiko and a fireless cooker", "Manila paper"],
+        "steps": [
+          "Study each piece of equipment and say which fuel it uses.",
+          "Discuss where heat escapes on three stones and where an improved jiko keeps heat in.",
+          "Describe the steps for using a fireless cooker: boil, cover, place in the box, leave to finish.",
+          "Make a poster that shows one fuel-efficient habit and one piece of fuel-efficient equipment."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 180\" font-family=\"sans-serif\"><rect width=\"440\" height=\"180\" fill=\"#ffffff\"/><ellipse cx=\"90\" cy=\"130\" rx=\"50\" ry=\"12\" fill=\"#d6d3d1\"/><circle cx=\"60\" cy=\"118\" r=\"10\" fill=\"#78716c\"/><circle cx=\"90\" cy=\"114\" r=\"10\" fill=\"#78716c\"/><circle cx=\"120\" cy=\"118\" r=\"10\" fill=\"#78716c\"/><rect x=\"70\" y=\"70\" width=\"40\" height=\"28\" fill=\"#e7e5e4\" stroke=\"#44403c\"/><path d=\"M80 70 q10 -25 20 0\" fill=\"none\" stroke=\"#ea580c\" stroke-width=\"2\"/><text x=\"40\" y=\"30\" font-size=\"13\" fill=\"#111827\">Three stones</text><text x=\"28\" y=\"160\" font-size=\"11\" fill=\"#111827\">heat escapes</text><path d=\"M230 120 L270 120 L260 70 L240 70 Z\" fill=\"#57534e\" stroke=\"#292524\"/><rect x=\"242\" y=\"48\" width=\"16\" height=\"22\" fill=\"#d6d3d1\" stroke=\"#444\"/><rect x=\"236\" y=\"40\" width=\"28\" height=\"10\" fill=\"#a8a29e\"/><text x=\"210\" y=\"30\" font-size=\"13\" fill=\"#111827\">Improved jiko</text><text x=\"200\" y=\"160\" font-size=\"11\" fill=\"#111827\">pot sits in the heat</text><rect x=\"330\" y=\"50\" width=\"90\" height=\"80\" fill=\"#fef3c7\" stroke=\"#a16207\" stroke-width=\"3\"/><rect x=\"348\" y=\"68\" width=\"54\" height=\"40\" fill=\"#e7e5e4\" stroke=\"#444\"/><text x=\"336\" y=\"30\" font-size=\"13\" fill=\"#111827\">Fireless box</text><text x=\"332\" y=\"160\" font-size=\"11\" fill=\"#111827\">no extra fuel</text></svg>",
+        "caption": "Three stones let heat escape. An improved jiko and a fireless cooker keep heat for cooking."
+      },
+      "practice": [
+        { "question": "What makes an improved jiko use less charcoal than an open fire?", "answer": "It holds heat around the pot, so less heat escapes into the air.", "check": null },
+        { "question": "Describe how a fireless cooker saves fuel.", "answer": "Food is boiled briefly, then the covered pot finishes cooking in an insulated box without more fire.", "check": null },
+        { "question": "Why should ash be removed from a jiko?", "answer": "Ash blocks the air holes, so the charcoal burns poorly and is wasted.", "check": null }
+      ],
+      "summary": [
+        "Fuel-efficient equipment keeps heat around the pot.",
+        "An improved jiko uses less charcoal than an open fire.",
+        "A fireless cooker finishes cooking without more fuel."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Why conserving fuel matters, and how to stay safe",
+      "outcomes": ["c"],
+      "objectives": [
+        "Explain the importance of conserving fuel.",
+        "State safety rules for fuels and fires."
+      ],
+      "intro": "A forest does not disappear in one day. It disappears when many families cut a little more wood than they need, week after week. Saving fuel is one way to slow that loss.",
+      "notes": "### Why fuel conservation matters\nFirewood and charcoal come from trees. When trees are cut faster than new ones grow, the land loses shade, soil is more easily washed away, and there is less wood for the future. Using less wood gives trees time to grow.\n\nGas and kerosene are bought with money. Fuel that is wasted is money that cannot be used for food, school needs or farm inputs. A family that soaks beans, uses a lid and turns the fire off spends less.\n\nSmoky fires also harm people. Smoke in the kitchen makes eyes sore and makes breathing hard, especially for children and for the person who cooks. A hotter, cleaner burn from dry wood, a good jiko or gas makes less smoke.\n\nConserving fuel therefore protects three resources at once: trees, money and clean air. That is why reducing wastage matters even when the saving each day looks small.\n\n### Safety with fuels and fires\n- An adult lights and puts out fires. Learners do not play near flames.\n- Do not use a charcoal jiko in a closed room. The fumes can make people very ill.\n- Stand a gas cylinder upright. If you smell gas, do not light a match. Open doors and tell an adult.\n- Store kerosene in a labelled container, away from the fire and out of reach of young children.\n- Do not pour water on burning oil or kerosene. Smother a small pan fire with a lid.\n- Keep clothes and loose sleeves away from the flame.\n- Have a bucket of sand or soil nearby to smother a small fire on the ground.\n\nPrepare a short talk that gives two reasons for saving fuel and two safety rules. Speak clearly so the class can use the ideas at home.",
+      "keyWords": [
+        { "word": "fumes", "meaning": "harmful gases and smoke from a fire" },
+        { "word": "resource", "meaning": "something useful that can run out if it is wasted" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner wants to warm the sleeping room by taking the lit charcoal jiko inside and closing the door. Why is this unsafe?",
+          "steps": [
+            "A charcoal fire in a closed room produces harmful fumes.",
+            "People in the room can become very ill."
+          ],
+          "answer": "The fumes from charcoal in a closed room are dangerous to breathe.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Presentation on saving fuel",
+        "materials": ["Manila paper", "Markers", "Your notes on fuels and fuel-saving habits"],
+        "steps": [
+          "In groups, list the importance of conserving firewood, charcoal, gas and kerosene.",
+          "Add safety rules for fires and for storing fuels.",
+          "Make a short presentation with a poster titled 'Reduce fuel wastage'.",
+          "Present to the class and listen to the other groups.",
+          "Write one action you will take at home this week."
+        ]
+      },
+      "practice": [
+        { "question": "Give two reasons for conserving fuel.", "answer": "Any two: saves trees, saves money, reduces smoke, leaves resources for the future.", "check": null },
+        { "question": "Why should a charcoal jiko not be used in a closed room?", "answer": "The fumes are harmful to breathe.", "check": null },
+        { "question": "What should you do if you smell gas?", "answer": "Do not light a match. Open the doors and tell an adult.", "check": null },
+        { "question": "How does using less firewood help the soil?", "answer": "Fewer trees are cut, and trees help to stop soil being washed away.", "check": null }
+      ],
+      "summary": [
+        "Saving fuel protects trees, money and clean air.",
+        "Small daily habits add up to less wastage.",
+        "Keep fires, gas and kerosene under adult control and follow safety rules."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which set names fuels commonly used for cooking at home?",
+      "options": ["Cement, sand and stones", "Firewood, charcoal, gas and kerosene", "Milk, eggs and meat", "Compost, ash and topsoil"],
+      "answer": "B",
+      "explanation": "The cooking fuels in this sub-strand are firewood, charcoal, gas and kerosene.",
+      "outcome": "a"
+    },
+    {
+      "question": "Charcoal is burnt in which equipment?",
+      "options": ["A gas cylinder", "A wick stove", "A jiko", "A hay box with no fire at all"],
+      "answer": "C",
+      "explanation": "Charcoal is placed in a jiko. Gas uses a cylinder and cooker, and kerosene uses a wick stove.",
+      "outcome": "a"
+    },
+    {
+      "question": "Where do firewood and charcoal come from?",
+      "answer": "They come from trees.",
+      "explanation": "Firewood is wood from trees and shrubs. Charcoal is made by heating that wood with little air.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which action wastes fuel?",
+      "options": ["Covering the pot with a lid", "Soaking beans before cooking", "Leaving the fire burning after the food is ready", "Putting out the fire when cooking is done"],
+      "answer": "C",
+      "explanation": "A fire left burning after the food is ready uses fuel without cooking anything more.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why does a lid help to conserve fuel?",
+      "options": ["It makes the pot heavier", "It keeps heat in so the food cooks sooner", "It puts the fire out", "It soaks the food"],
+      "answer": "B",
+      "explanation": "Heat stays in a covered pot, so less fuel is needed.",
+      "outcome": "b"
+    },
+    {
+      "question": "What is a fireless cooker used for?",
+      "answer": "To finish cooking a hot, covered pot without using more fuel.",
+      "explanation": "The food is boiled first, then the insulated box keeps enough heat to finish the cooking.",
+      "outcome": "b"
+    },
+    {
+      "question": "An improved jiko conserves charcoal mainly because it",
+      "options": ["burns plastic as well as charcoal", "holds heat around the pot", "needs no air", "cooks without a pot"],
+      "answer": "B",
+      "explanation": "The lining and the shape keep heat on the pot instead of letting it escape.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why is conserving firewood important for the environment?",
+      "answer": "Less wood is cut, so trees are saved and the land keeps shade and protection from soil erosion.",
+      "explanation": "Firewood and charcoal come from trees. Using less wood reduces pressure on trees.",
+      "outcome": "c"
+    },
+    {
+      "question": "Which practice is safe?",
+      "options": ["Storing kerosene in a soda bottle", "Using a lit jiko in a closed bedroom", "Telling an adult if you smell gas and not lighting a match", "Pouring water on burning oil"],
+      "answer": "C",
+      "explanation": "A gas smell needs fresh air and an adult. The other actions can poison, suffocate or spread fire.",
+      "outcome": "c"
+    },
+    {
+      "question": "A family uses 5 bundles of firewood in a week. After using lids and dry wood they use 3 bundles. How many bundles do they save in one week?",
+      "answer": "2 bundles",
+      "explanation": "5 − 3 = 2 bundles saved.",
+      "outcome": "c",
+      "check": "5 - 3 === 2"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Agriculture Curriculum Design (Revised 2024) — Strand 1.0 Conservation of Resources, Sub-strand 1.3 Fuel Conservation"
+  ]
+}

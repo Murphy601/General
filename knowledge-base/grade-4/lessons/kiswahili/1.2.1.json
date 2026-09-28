@@ -1,0 +1,198 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "1.2.1",
+  "title": "Kusoma: Kusoma kwa Ufahamu",
+  "overview": "Kusoma kwa ufahamu ni kusoma ukielewa ujumbe, si kutamka maneno tu. Katika mada hii ndogo utajifunza msamiati wa vifaa na sehemu za nyumbani, utautumia katika sentensi, na utatoa muhtasari wa kifungu cha hadithi. Pia utajenga mazoea ya kusoma kila siku.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Msamiati wa nyumbani",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutambua msamiati wa nyumbani katika kifungu.",
+        "Kueleza maana ya maneno hayo.",
+        "Kutumia msamiati lengwa katika sentensi sahihi."
+      ],
+      "intro": "Unapoingia nyumbani unapita kizingiti, unakaa sebuleni na pengine unasaidia kupiga deki. Majina ya vitu hivyo si meza na kiti peke yake. Leo tutajifunza maneno yanayotaja sehemu na vifaa vya nyumba ili uyaelewe unaposoma.",
+      "notes": "### Maneno ya sehemu na samani\nMsamiati ni orodha ya maneno ya jambo fulani. Msamiati wa nyumbani hutaja sehemu na vifaa unavyoona ukiwa ndani.\n\n- **Sebule** ni chumba cha kukaa, kupumzika na kupokea wageni.\n- **Meza** ni samani inayotumika kuwekea vitu au kula.\n- **Mtoto wa meza** ni meza ndogo inayowekwa kando ya meza kubwa ili kuwekea vitu vidogo.\n- **Kochi** ni samani ndefu ya kukalia sebuleni.\n- **Tumbuu** ni mto wa mviringo unaotumika kuwekea kichwa au kukalia. Wingi wake ni matumbuu.\n- **Tendegu** ni mguu wa samani kama meza, kiti au kitanda, si mguu wa mtu. Wingi ni matendegu.\n- **Mvungu** ni nafasi iliyo chini ya kitanda, meza au kochi.\n\n### Maneno ya taa, mlango na usafi\n- **Balbu** au **globu** ni taa ndogo ya umeme inayowaka ndani ya nyumba.\n- **Fremu** ni bawa linalozunguka picha au dirisha.\n- **Neti** ni wavu mwembamba, kama neti ya mbu au neti ya dirisha.\n- **Kizingiti** ni pau au jiwe lililowekwa chini ya mlango. Unalikanyaga unapoingia au kutoka.\n- **Kupiga deki** ni kusafisha sakafu kwa kitambaa chenye maji hadi iwe safi.\n\n### Maneno ya jikoni\n- **Figa** ni jiwe moja kati ya mawe matatu yanayoshika sufuria kwenye jiko la jadi. Wingi ni mafiga.\n- **Kinu** ni chombo cha kupondia nafaka. Mchi hutumiwa kuponda ndani ya kinu.\n\nNeno linapotokea katika hadithi, angalia vitu vilivyo karibu nalo. Fremu ya picha si fremu ya mlango. Tendegu la kitanda si mguu wa mtoto. Ukielewa neno, litumie katika sentensi yako mwenyewe.",
+      "keyWords": [
+        { "word": "msamiati", "meaning": "maneno ya jambo fulani na maana zake" },
+        { "word": "tendegu", "meaning": "mguu wa samani kama meza, kiti au kitanda" },
+        { "word": "mvungu", "meaning": "nafasi iliyo chini ya kitanda, meza au kochi" },
+        { "word": "figa", "meaning": "jiwe la jiko la jadi linaloshika sufuria" }
+      ],
+      "examples": [
+        {
+          "problem": "Eleza maana ya tendegu na uitofautishe na mguu wa mtu.",
+          "steps": ["Tendegu ni sehemu ya samani.", "Mguu ni sehemu ya mwili wa mtu au mnyama."],
+          "answer": "Tendegu ni mguu wa meza, kiti au kitanda. Si mguu wa mtu.",
+          "check": null
+        },
+        {
+          "problem": "Tunga sentensi ukitumia maneno: sebule na kupiga deki.",
+          "steps": ["Sebule ni chumba.", "Kupiga deki ni kusafisha sakafu."],
+          "answer": "Amina alipiga deki sebuleni hadi sakafu ikang'aa.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chora na taja vifaa vya nyumbani",
+        "materials": ["Kadi za maneno", "Daftari", "Chati au tarakilishi kwa ruhusa ya mwalimu"],
+        "steps": [
+          "Soma orodha: meza, sebule, balbu, globu, kizingiti, fremu, neti, tendegu, mtoto wa meza, mvungu, figa, kinu, tumbuu, kochi, kupiga deki.",
+          "Kwa vikundi, jadilini maana ya kila neno na mnaandike sentensi moja.",
+          "Chora kifaa kimoja na ukiandike jina lake chini ya picha. Mkitumia tarakilishi, chora kwa uangalifu na usifungue kurasa zisizojulikana.",
+          "Imba wimbo mfupi unaotaja angalau maneno matano ya nyumbani.",
+          "Someeni sentensi zenu na mkubaliane kama neno limetumika sawasawa."
+        ]
+      },
+      "practice": [
+        { "question": "Mvungu ni nini?", "answer": "Ni nafasi iliyo chini ya kitanda, meza au kochi.", "check": null },
+        { "question": "Tofautisha balbu na fremu.", "answer": "Balbu au globu ni taa ya umeme. Fremu ni bawa linalozunguka picha au dirisha.", "check": null },
+        { "question": "Tunga sentensi ukitumia neno kinu na neno figa.", "answer": "Mfano: Jikoni kulikuwa na kinu, na sufuria ilikaa juu ya mafiga matatu.", "check": null },
+        { "question": "Mtoto wa meza ni nini?", "answer": "Ni meza ndogo inayowekwa kando ya meza kubwa ili kuwekea vitu vidogo.", "check": null }
+      ],
+      "summary": [
+        "Msamiati wa nyumbani hutaja sehemu na vifaa kama sebule, kochi, tendegu na kinu.",
+        "Tendegu ni mguu wa samani; mvungu ni nafasi iliyo chini yake.",
+        "Neno linaloeleweka hutumiwa katika sentensi kamili."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kifungu, maswali na muhtasari",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kusoma kifungu cha hadithi na kutambua ujumbe wake.",
+        "Kujibu maswali kwa kutumia ushahidi wa kifungu.",
+        "Kutoa muhtasari mfupi na kujenga mazoea ya kusoma."
+      ],
+      "intro": "Kujua maana ya neno moja hakutoshi. Unaposoma hadithi unatafuta nani alifanya nini, wapi, na kwa nini. Leo utasoma kifungu kuhusu Amina akisaidia nyumbani, kisha utaeleza ujumbe wake kwa maneno yako mwenyewe.",
+      "notes": "### Kifungu\nSoma polepole. Maneno yaliyo nzito yana maana ulizojifunza.\n\nJana jioni Amina alisaidia mama yake nyumbani. Aliingia kwa kukanyaga kizingiti polepole. Sebuleni alipiga deki hadi sakafu ikang'aa. Kulikuwa na kochi laini na tumbuu la mviringo juu yake. Juu ya meza kulikuwa na fremu ya picha ya familia. Kando ya meza hiyo kulikuwa na mtoto wa meza, na juu yake balbu mpya. Dirishani kulikuwa na neti ya kuzuia mbu. Amina aliangalia mvungu wa kitanda na kuona mpira. Tendegu moja la kitanda lilikuwa limelegea. Jikoni, sufuria ilikaa juu ya mafiga matatu, na kinu kilikuwa pembeni. Mama alimwomba Amina abadilishe globu ili chumba kiwe na mwanga.\n\n### Jinsi ya kupata ujumbe\nJiulize maswali manne ukimaliza kusoma.\n- Nani? Amina na mama yake.\n- Wapi? Nyumbani, sebuleni na jikoni.\n- Nini kilitendeka? Amina alisafisha, akaangalia vifaa, na akapewa kazi ya kubadilisha globu.\n- Kwa nini? Ili nyumba iwe safi na chumba kiwe na mwanga.\n\nJibu maswali kwa maneno ya kifungu. Usibuni jambo ambalo halijaandikwa. Kwa mfano, kifungu hakisemi Amina alipika chakula. Kinasema sufuria ilikaa juu ya mafiga.\n\n### Muhtasari na mazoea\nMuhtasari ni maelezo mafupi ya ujumbe mkuu. Si kunakili kila sentensi. Mfano: Amina alisaidia mama yake kusafisha sebule na kuangalia vifaa vya nyumba. Alipiga deki, akaona tendegu lililolegea, na mwishoni aliombwa abadilishe globu ili kuwe na mwanga.\n\nIli ujenge mazoea ya usomaji bora, soma kifungu kifupi kila siku mahali penye mwanga. Usiruke maneno. Ukimaliza, mweleze mzazi au mlezi ujumbe uliousoma. Mazoea haya hukuza ufahamu wako hatua kwa hatua.",
+      "keyWords": [
+        { "word": "ufahamu", "meaning": "kuelewa ujumbe wa ulichosoma, si kutamka maneno tu" },
+        { "word": "muhtasari", "meaning": "maelezo mafupi ya ujumbe mkuu" },
+        { "word": "kifungu", "meaning": "sehemu ya hadithi au maelezo unayosoma kwa makini" }
+      ],
+      "examples": [
+        {
+          "problem": "Kwa nini mama alimwomba Amina abadilishe globu?",
+          "steps": ["Rudi kwenye sentensi ya mwisho.", "Tafuta neno ili."],
+          "answer": "Ili chumba kiwe na mwanga.",
+          "check": null
+        },
+        {
+          "problem": "Toa muhtasari wa sentensi moja kuhusu kazi ya Amina sebuleni.",
+          "steps": ["Chagua tendo kuu, si kila kifaa.", "Taja mahali na kitendo."],
+          "answer": "Amina alipiga deki sebuleni na kupanga vifaa vilivyokuwa huko.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Soma, jibu, kisha eleza mzazi",
+        "materials": ["Kifungu cha hadithi", "Daftari", "Kitabu au tarakilishi kwa ruhusa"],
+        "steps": [
+          "Someni kifungu kwa zamu, kila mmoja aya moja, huku mkibainisha msamiati wa nyumbani.",
+          "Jibuni maswali: Amina alifanya nini? Nini lilikuwa limelegea? Mama alimtuma afanye nini?",
+          "Kila mwanafunzi aandike muhtasari wa sentensi mbili kwa maneno yake.",
+          "Msomeeni muhtasari wenzenu na mtoe maoni kwa heshima.",
+          "Nyumbani, mweleze mzazi au mlezi ujumbe wa kifungu ulichosoma leo."
+        ]
+      },
+      "practice": [
+        { "question": "Amina alikuta nini katika mvungu wa kitanda?", "answer": "Alikuta mpira.", "check": null },
+        { "question": "Tendegu la kitanda lilikuwa katika hali gani?", "answer": "Lilikuwa limelegea.", "check": null },
+        { "question": "Andika muhtasari wa kifungu kwa sentensi mbili.", "answer": "Amina alisaidia kusafisha nyumba na kuangalia vifaa. Mama alimwomba abadilishe globu ili chumba kiwe na mwanga.", "check": null },
+        { "question": "Taja jambo moja utakalofanya ili ujenge mazoea ya kusoma.", "answer": "Mfano: kusoma kifungu kifupi kila siku na kumweleza mzazi au mlezi ujumbe wake.", "check": null }
+      ],
+      "summary": [
+        "Ufahamu unapatikana kwa kuuliza nani, wapi, nini na kwa nini.",
+        "Muhtasari ni ujumbe mkuu kwa maneno mafupi, si kunakili kifungu chote.",
+        "Kusoma kila siku na kueleza ujumbe huimarisha mazoea ya usomaji."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Sebule ni nini?",
+      "options": ["chumba cha kupikia", "chumba cha kukaa na kupokea wageni", "nafasi chini ya kitanda", "jiwe la jiko"],
+      "answer": "B",
+      "explanation": "Sebule ni chumba cha kukaa, kupumzika na kupokea wageni.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Tendegu ni nini?",
+      "options": ["mguu wa mtu", "mguu wa samani kama kitanda au meza", "taa ya umeme", "wavu wa mbu"],
+      "answer": "B",
+      "explanation": "Tendegu ni mguu wa meza, kiti au kitanda. Wingi ni matendegu.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Kupiga deki ni kazi gani?",
+      "options": ["kupika kwa mafiga", "kusafisha sakafu kwa kitambaa chenye maji", "kuweka fremu ukutani", "kuponda nafaka"],
+      "answer": "B",
+      "explanation": "Kupiga deki ni kusafisha sakafu hadi iwe safi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi imetumia neno mvungu ipasavyo?",
+      "options": ["Amina aliangalia mvungu wa kitanda na kuona mpira.", "Mvungu alipika chakula kitamu.", "Nilivaa mvungu shuleni.", "Mvungu ni mwalimu wetu."],
+      "answer": "A",
+      "explanation": "Mvungu ni nafasi iliyo chini ya kitanda, meza au kochi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Figa hutumikaje?",
+      "options": ["Kuwekea kichwa", "Kushika sufuria kwenye jiko la mawe", "Kuzunguka picha", "Kuwekea mlango"],
+      "answer": "B",
+      "explanation": "Figa ni jiwe moja kati ya mawe matatu yanayoshika sufuria. Wingi ni mafiga.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Kwa nini mama alimtuma Amina abadilishe globu?",
+      "options": ["Ili apike chakula", "Ili chumba kiwe na mwanga", "Ili avue neti", "Ili avunje kinu"],
+      "answer": "B",
+      "explanation": "Sentensi ya mwisho ya kifungu inasema globu ibadilishwe ili kuwe na mwanga.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Muhtasari mzuri hufanya nini?",
+      "options": ["Unakili kila neno la kifungu", "Unaeleza ujumbe mkuu kwa ufupi", "Unaongeza hadithi mpya", "Unatoa orodha ya silabi"],
+      "answer": "B",
+      "explanation": "Muhtasari ni maelezo mafupi ya ujumbe, si nakala ya kifungu.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Amina alikuta nini chini ya kitanda?",
+      "options": ["kinu", "mpira", "globu", "fremu"],
+      "answer": "B",
+      "explanation": "Kifungu kinasema aliangalia mvungu wa kitanda na kuona mpira.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Taja njia moja ya kujenga mazoea ya usomaji bora.",
+      "answer": "Kusoma kifungu kifupi kila siku na kumweleza mzazi au mlezi ujumbe wake.",
+      "explanation": "Mazoea hujengwa kwa kusoma mara kwa mara na kueleza ulichoelewa.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Tunga sentensi ukitumia neno kizingiti.",
+      "answer": "Mfano: Amina alikanyaga kizingiti polepole alipoingia nyumbani.",
+      "explanation": "Kizingiti ni pau au jiwe lililowekwa chini ya mlango.",
+      "outcome": "b",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 1.0 Nyumbani, Mada Ndogo 1.2.1 Kusoma: Kusoma kwa Ufahamu"
+  ]
+}

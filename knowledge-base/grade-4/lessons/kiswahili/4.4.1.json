@@ -1,0 +1,239 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "4.4.1",
+  "title": "Sarufi: Ngeli ya A-WA",
+  "overview": "Ngeli ya A-WA ni kundi la nomino za watu na wanyama. Katika mada hii ndogo utatambua nomino hizo, utazitofautisha na ngeli nyingine, na utajifunza viambishi vya upatanisho katika umoja na wingi. Kisha utatunga sentensi sahihi unapozungumza na kuandika.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Nomino za ngeli ya A-WA",
+      "outcomes": ["b"],
+      "objectives": [
+        "Kueleza maana ya ngeli ya nomino.",
+        "Kutaja nomino za watu na wanyama zilizo katika ngeli ya A-WA.",
+        "Kuzitofautisha na nomino za ngeli nyingine."
+      ],
+      "intro": "Ukisema mtoto anasoma, neno mtoto linaambatana na anasoma. Ukisema watoto wanasoma, neno na kitenzi vyote vinabadilika pamoja. Mabadiliko hayo ndiyo yanayoonyesha ngeli.",
+      "notes": "### Ngeli ni nini?\nNgeli ni kundi la nomino zinazofanana kwa viambishi vya umoja na wingi. Nomino ya kundi moja huambatana na vivumishi na vitenzi vyake kwa muundo uleule. Hii huitwa upatanisho wa kisarufi. Kiswahili kina ngeli kadhaa. Leo tunaangalia ngeli ya A-WA.\n\n### Nani yuko katika A-WA?\nNgeli hii huwa na viumbe vyenye uhai: watu na wanyama. Pia ndege, wadudu na samaki wanapojulikana kama viumbe hai.\n\nWatu: mtu/watu, mtoto/watoto, mwanafunzi/wanafunzi, mwalimu/walimu, mgeni/wageni, mpishi/wapishi, mjomba/wajomba.\n\nWanyama: mbwa, paka, simba, ng'ombe, chui, chura. Baadhi ya majina haya hayabadiliki umbo katika wingi, lakini bado ni A-WA kwa sababu ya upatanisho: mbwa amelala, mbwa wamelala.\n\nWadudu na ndege wa kundi hili ni kama nzi, mbu, kuku na kasuku tunapozungumzia wanyama hao.\n\n### Jinsi ya kuitambua\nUliza maswali matatu:\n\n- Je, neno linataja mtu au mnyama?\n- Wingi unachukua wa- au unabaki umbo moja lakini kitenzi kinakuwa wa-?\n- Kitenzi cha umoja kina a-, kama anasoma au amelala?\n\nKama jibu ni ndiyo, nomino iko katika A-WA.\n\n### Si kila neno linaloanza na m- ni A-WA\nMti si mtu. Mti unakua, miti inakua. Hiyo ni ngeli ya U-I, si A-WA. Kiti ni kitu: kiti kimevunjika. Hiyo ni ngeli nyingine. Tunda limeiva, matunda yameiva. Hiyo pia ni ngeli nyingine.\n\nKinachotuwezesha kutambua A-WA si herufi ya kwanza peke yake. Ni maana ya kiumbe hai pamoja na viambishi a- na wa-.",
+      "keyWords": [
+        { "word": "ngeli", "meaning": "kundi la nomino zinazofanana kwa viambishi vya umoja na wingi" },
+        { "word": "nomino", "meaning": "neno linalotaja mtu, mnyama, mahali au kitu" },
+        { "word": "umoja", "meaning": "kitu kimoja au mtu mmoja" },
+        { "word": "wingi", "meaning": "vitu vingi au watu wengi" }
+      ],
+      "examples": [
+        {
+          "problem": "Chagua nomino za A-WA: kalamu, chui, mjomba, mti, chura, kiti, paka.",
+          "steps": ["Chui, chura na paka ni wanyama.", "Mjomba ni mtu.", "Kalamu, mti na kiti si viumbe hai vya A-WA."],
+          "answer": "chui, mjomba, chura, paka",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini mti si ngeli ya A-WA ingawa unaanza na m-?",
+          "steps": ["Mti si mtu wala mnyama.", "Wingi ni miti, si wati.", "Kitenzi ni unakua, si anakua."],
+          "answer": "Kwa sababu mti si kiumbe hai cha A-WA, na upatanisho wake ni u- na i-, si a- na wa-.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Taja na uchague nomino",
+        "materials": ["Kadi za maneno", "Kapu au boksi", "Daftari"],
+        "steps": [
+          "Pamoja na wenzako, elezeni maana ya ngeli ya nomino kwa maneno yenu.",
+          "Kila mmoja ataje nomino mbili za watu na mbili za wanyama.",
+          "Andikeni umoja na wingi, kwa mfano mtoto/watoto na mbwa/mbwa.",
+          "Chopoeni kadi kwenye kapu na msome neno. Darasa liseme kama ni A-WA au la, na kwa nini.",
+          "Wekeni orodha safi ya A-WA pembeni, na orodha ya maneno ya ngeli nyingine pembeni ya pili."
+        ]
+      },
+      "practice": [
+        { "question": "Ngeli ya nomino ni nini?", "answer": "Ni kundi la nomino zinazofanana kwa viambishi vya umoja na wingi.", "check": null },
+        { "question": "Andika wingi wa: mtoto, mwanafunzi, mwalimu.", "answer": "watoto, wanafunzi, walimu", "check": null },
+        { "question": "Ni zipi kati ya hizi ni A-WA: simba, kiti, mgeni, tunda?", "answer": "simba na mgeni", "check": null },
+        { "question": "Mbwa habadiliki umbo katika wingi. Tunawezaje kujua kuwa ni A-WA?", "answer": "Kwa upatanisho: mbwa amelala katika umoja, na mbwa wamelala katika wingi.", "check": null }
+      ],
+      "summary": [
+        "Ngeli ya A-WA ina watu na wanyama.",
+        "Wingi wa mtu mara nyingi huchukua wa-, kama mtoto/watoto.",
+        "Mti na kiti vinaanza kwa sauti tofauti za upatanisho, kwa hivyo si A-WA."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Viambishi vya upatanisho wa A-WA",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutambua viambishi vya kitenzi, kivumishi na kiamilishi vya A-WA.",
+        "Kuvitumia katika umoja na wingi.",
+        "Kujaza nafasi kwa kiambishi kinachofaa."
+      ],
+      "intro": "Sentensi mbili zinafanana lakini hazisikiki sawa: Mtoto mzuri anasoma. Watoto wazuri wanasoma. Herufi zilizobadilika ni viambishi. Tuzitambue kwa makini.",
+      "notes": "### Upatanisho ni nini?\nUpatanisho wa kisarufi ni kufanya kivumishi, kitenzi na kiamilishi vifuate ngeli ya nomino. Viambishi ni vipande vidogo vya neno vinavyoonyesha umoja au wingi.\n\n### Jedwali la A-WA\n- **Kitenzi:** umoja a-, wingi wa-. Mtoto anasoma. Watoto wanasoma. Mwalimu amefika. Walimu wamefika.\n- **Kivumishi:** umoja m- au mw-, wingi wa- au w-. Mtoto mzuri. Watoto wazuri. Mtu mwema. Watu wema. Mgeni mpya. Wageni wapya.\n- **Kiamilishi:** w- katika umoja na wingi. Mtoto wangu. Watoto wangu. Mwalimu wetu. Walimu wetu.\n- **Kuonyesha:** huyu, huyo, yule katika umoja; hawa, hao, wale katika wingi. Mtoto huyu. Watoto hawa.\n- **Kihusishi -a:** wa katika umoja na wingi. Mtoto wa mwalimu. Watoto wa mwalimu.\n\n### Mfano kamili\nUmoja: Mwanafunzi mzuri wetu anasoma.\nWingi: Wanafunzi wazuri wetu wanasoma.\n\nAngalia mabadiliko: mwanafunzi/wanafunzi, mzuri/wazuri, anasoma/wanasoma. Neno wetu halibadiliki kwa sababu kiamilishi cha A-WA ni w- pande zote mbili.\n\n### Makosa ya kuepuka\n- Usiandike watoto anasoma. Wingi unataka wa-: wanasoma.\n- Usiandike mtoto wazuri. Umoja unataka m-: mzuri.\n- Usiandike mwalimu anasoma vizuri ukimaanisha walimu wengi. Hesabu ya nomino na kitenzi ziwe sawa.\n\nUnaposoma sentensi, pigia mstari kiambishi. Hii ndiyo njia ya kukitambua haraka.",
+      "keyWords": [
+        { "word": "kiambishi", "meaning": "kipande cha neno kinachoonyesha ngeli, umoja au wingi" },
+        { "word": "upatanisho", "meaning": "kufuatana kwa nomino, kivumishi na kitenzi" },
+        { "word": "kivumishi", "meaning": "neno linaloeleza sifa, kama mzuri au mrefu" },
+        { "word": "kiamilishi", "meaning": "neno linaloonyesha umiliki, kama wangu au wetu" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza nafasi: Watoto ______ wanasoma. (mzuri)",
+          "steps": ["Watoto ni wingi wa A-WA.", "Kivumishi cha wingi kinachukua wa-.", "mzuri inakuwa wazuri."],
+          "answer": "wazuri",
+          "check": null
+        },
+        {
+          "problem": "Tambua viambishi katika sentensi: Mwalimu wetu amefika.",
+          "steps": ["Mwalimu ni umoja wa A-WA.", "wetu kina kiambishi w- cha kiamilishi.", "amefika kina kiambishi a- cha kitenzi."],
+          "answer": "w- katika wetu, na a- katika amefika",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Soma na upigie mstari viambishi",
+        "materials": ["Sentensi kwenye ubao au chati", "Kadi za kujaza nafasi", "Daftari"],
+        "steps": [
+          "Soma kwa sauti: Mtoto mzuri anasoma. Watoto wazuri wanasoma.",
+          "Piga mstari viambishi a-, wa-, m- na wa-.",
+          "Jaza nafasi tatu kwenye kadi: Mgeni ______ amefika. Wageni ______ wamefika. (mpya)",
+          "Msomee mwenzako majibu yako ili ayatathmini.",
+          "Badilishana kadi na mkafanye zoezi lingine."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 180\" font-family=\"sans-serif\"><rect width=\"520\" height=\"180\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"500\" height=\"160\"/><line x1=\"10\" y1=\"50\" x2=\"510\" y2=\"50\"/><line x1=\"170\" y1=\"10\" x2=\"170\" y2=\"170\"/><line x1=\"340\" y1=\"10\" x2=\"340\" y2=\"170\"/></g><g font-size=\"14\" fill=\"#111827\"><text x=\"90\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Kipengele</text><text x=\"255\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Umoja</text><text x=\"425\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Wingi</text><text x=\"20\" y=\"78\">Kitenzi</text><text x=\"180\" y=\"78\">a- anasoma</text><text x=\"350\" y=\"78\">wa- wanasoma</text><text x=\"20\" y=\"112\">Kivumishi</text><text x=\"180\" y=\"112\">m- mzuri</text><text x=\"350\" y=\"112\">wa- wazuri</text><text x=\"20\" y=\"146\">Kiamilishi</text><text x=\"180\" y=\"146\">w- wangu</text><text x=\"350\" y=\"146\">w- wangu</text></g></svg>",
+        "caption": "Viambishi vya upatanisho vya ngeli ya A-WA"
+      },
+      "practice": [
+        { "question": "Jaza: Mwanafunzi ______ anasoma. (mzuri)", "answer": "mzuri", "check": null },
+        { "question": "Jaza: Wanafunzi ______ wanasoma. (mzuri)", "answer": "wazuri", "check": null },
+        { "question": "Andika wingi wa sentensi: Mgeni huyu amefika.", "answer": "Wageni hawa wamefika.", "check": null },
+        { "question": "Kiambishi cha kitenzi cha umoja katika A-WA ni kipi?", "answer": "a-", "check": null }
+      ],
+      "summary": [
+        "Umoja unatumia a- katika kitenzi na m- au mw- katika kivumishi.",
+        "Wingi unatumia wa- katika kitenzi na kivumishi.",
+        "Kiamilishi cha A-WA ni wangu au wetu katika umoja na wingi."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Sentensi za umoja na wingi",
+      "outcomes": ["c"],
+      "objectives": [
+        "Kusoma sentensi za A-WA kwa umoja na wingi.",
+        "Kutunga sentensi sahihi akizingatia upatanisho.",
+        "Kugeuza sentensi ya umoja iwe wingi."
+      ],
+      "intro": "Dira ya darasa letu ni kuandika sentensi zinazosomeka. Sentensi inaposema watoto anasoma, msomaji anasimama. Leo tutafanya umoja na wingi viseme lugha moja.",
+      "notes": "### Kutoka umoja hadi wingi\nUnapogeuza sentensi, badilisha kila sehemu inayopaswa kufuata nomino. Usibadilishe nomino peke yake.\n\nUmoja: Mtoto mdogo anacheza uwanjani.\nWingi: Watoto wadogo wanacheza uwanjani.\n\nMabadiliko: mtoto/watoto, mdogo/wadogo, anacheza/wanacheza. Neno uwanjani halibadiliki kwa sababu si sehemu ya upatanisho wa mtoto.\n\nMifano mingine:\n\n- Mwalimu mpya anafundisha. Walimu wapya wanafundisha.\n- Mbwa mkubwa amelala. Mbwa wakubwa wamelala.\n- Mpishi wetu amepika. Wapishi wetu wamepika.\n\n### Kutunga sentensi\nChagua nomino, ongeza kivumishi, kisha kitenzi.\n\n1. Nomino: mwanafunzi\n2. Kivumishi: mzuri\n3. Kitenzi: anasoma\n4. Unganisha: Mwanafunzi mzuri anasoma.\n\nKatika wingi: Wanafunzi wazuri wanasoma.\n\nUnaweza kuongeza mahali au muda: Wanafunzi wazuri wanasoma darasani kila asubuhi. Maneno darasani na kila asubuhi hayabadili ngeli.\n\n### Kusoma kwa makini\nSoma sentensi kwa sauti. Sikio husikia kosa haraka. Watoto anasoma hayasikiki sawa. Watoto wanasoma yanasikika sawa. Ukiandika kwenye daftari au kifaa, soma tena kabla ya kumwonyesha mwenzako.",
+      "keyWords": [
+        { "word": "sentensi", "meaning": "maneno yaliyopangwa kutoa maana kamili" },
+        { "word": "kugeuza", "meaning": "kubadilisha umoja uwe wingi, au wingi uwe umoja" }
+      ],
+      "examples": [
+        {
+          "problem": "Geuza iwe wingi: Mchezaji mzuri amekimbia.",
+          "steps": ["mchezaji inakuwa wachezaji.", "mzuri inakuwa wazuri.", "amekimbia inakuwa wamekimbia."],
+          "answer": "Wachezaji wazuri wamekimbia.",
+          "check": null
+        },
+        {
+          "problem": "Tunga sentensi ya umoja ukitumia: paka, mdogo, analala.",
+          "steps": ["Paka ni A-WA.", "Kivumishi cha umoja ni mdogo.", "Kitenzi cha umoja ni analala."],
+          "answer": "Paka mdogo analala.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kapu la sentensi",
+        "materials": ["Kadi za sentensi", "Kapu au boksi", "Daftari au kifaa cha kidijitali"],
+        "steps": [
+          "Chopoeni kadi ya sentensi yenye nomino ya A-WA kutoka kapuni.",
+          "Isomeni kwa sauti na semeni kama ni umoja au wingi.",
+          "Igeuzeni: umoja uwe wingi, au wingi uwe umoja.",
+          "Andikeni sentensi mpya daftarini au kwenye kifaa, mkizingatia upatanisho.",
+          "Msomeeni wenzako na mwalimu ili waitathmini."
+        ]
+      },
+      "practice": [
+        { "question": "Geuza iwe wingi: Mtoto huyu analia.", "answer": "Watoto hawa wanalia.", "check": null },
+        { "question": "Geuza iwe umoja: Walimu wazuri wanafundisha.", "answer": "Mwalimu mzuri anafundisha.", "check": null },
+        { "question": "Tunga sentensi ya wingi ukitumia nomino mwanafunzi.", "answer": "Mfano: Wanafunzi wangu wanasoma kwa bidii.", "check": null },
+        { "question": "Rekebisha: Wageni mzuri amefika.", "answer": "Wageni wazuri wamefika.", "check": null }
+      ],
+      "summary": [
+        "Unapobadilisha nomino, badilisha kivumishi na kitenzi pia.",
+        "Sentensi hujengwa kwa nomino, kivumishi na kitenzi vinavyopatana.",
+        "Soma sentensi kwa sauti ili upate kosa la upatanisho."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Kutumia ngeli ya A-WA katika mawasiliano",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kutumia nomino za A-WA katika mazungumzo na maandishi.",
+        "Kutathmini sentensi za wenzake kwa heshima.",
+        "Kuchangamkia kuongea kwa upatanisho sahihi."
+      ],
+      "intro": "Sarufi haikai daftari peke yake. Unapomweleza mzazi kuwa walimu wapya wamefika, unatumia ngeli ya A-WA katika maisha. Sentensi safi huonyesha heshima kwa msikilizaji.",
+      "notes": "### Mazungumzo ya kila siku\nNgeli ya A-WA hutokea unapozungumzia watu na wanyama wa nyumbani au wa shule.\n\n- Mama, wageni wetu wamefika.\n- Mwalimu wangu anafundisha vizuri.\n- Wanafunzi wenzangu wanasoma kwa bidii.\n- Mbwa wetu amelala nje. Usiseme mbwa wetu wamelala ukimaanisha mbwa mmoja.\n\nAngalia idadi kwanza. Mmoja anatumia a-. Wengi wanatumia wa-.\n\n### Kuandika habari fupi\nAndika habari za darasa kwa sentensi tatu. Tumia angalau nomino mbili za A-WA.\n\nMfano: Wanafunzi wa darasa la nne wamefika mapema. Mwalimu wao anawasaidia kusoma. Wageni wadogo wanacheza uwanjani kwa amani.\n\nHabari hii ina wanafunzi, mwalimu na wageni. Kila moja imepatana na kitenzi chake.\n\n### Kutathmini kwa upendo\nMwenzako akisoma sentensi, sikiliza upatanisho. Kama umesikia watoto anasoma, usimcheke. Sema: Jaribu wa- kwa sababu watoto ni wingi. Kisha msifu sehemu iliyo sahihi. Heshima katika sarufi ni kusikiliza na kusaidia, si kudhihaki.\n\nUnapotumia kifaa kuandika au kusambaza sentensi, funga faili ukimaliza na usitume ujumbe kwa mtu usiyemjua. Kifaa ni cha kujifunzia.\n\nKuzungumza kwa upatanisho kunafanya ujumbe ueleweke mara ya kwanza. Hicho ndicho kuchangamkia ngeli katika mawasiliano.",
+      "keyWords": [
+        { "word": "mawasiliano", "meaning": "kueleza mawazo kwa kuzungumza au kuandika" },
+        { "word": "kutathmini", "meaning": "kuangalia kama kazi imefuata kanuni na kutoa ushauri" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika habari ya sentensi mbili kuhusu mwalimu na wanafunzi.",
+          "steps": ["Tumia umoja kwa mwalimu mmoja.", "Tumia wingi kwa wanafunzi.", "Viambishi vipatane."],
+          "answer": "Mwalimu wetu amefika darasani. Wanafunzi wake wanasoma kwa bidii.",
+          "check": null
+        },
+        {
+          "problem": "Mwenzako ameandika: Paka wadogo amelala. Mshauri aje?",
+          "steps": ["Paka mmoja anahitaji kivumishi cha umoja.", "Mdogo, si wadogo, na kitenzi amelala tayari ni sahihi kwa umoja."],
+          "answer": "Andika: Paka mdogo amelala. Kama paka ni wengi: Paka wadogo wamelala.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Habari za watu na wanyama",
+        "materials": ["Daftari au kifaa cha kidijitali", "Kadi za nomino za A-WA"],
+        "steps": [
+          "Chopoeni nomino mbili za A-WA, moja ya mtu na moja ya mnyama.",
+          "Tungeni sentensi nne: mbili za umoja na mbili za wingi.",
+          "Msomee kikundi. Wao watathmini upatanisho.",
+          "Rekebisha sentensi moja kulingana na ushauri wa wenzako.",
+          "Iambatanisheni na habari fupi ya dira ya darasa, kwa mfano kuheshimiana."
+        ]
+      },
+      "practice": [
+        { "question": "Andika sentensi ukimweleza mzazi kuwa walimu wapya wamefika.", "answer": "Mfano: Mama, walimu wapya wamefika shuleni.", "check": null },
+        { "question": "Chagua sentensi sahihi: Mbwa mkubwa wamelala, au Mbwa mkubwa amelala?", "answer": "Mbwa mkubwa amelala.", "check": null },
+        { "question": "Tunga sentensi ya wingi kuhusu wageni.", "answer": "Mfano: Wageni wetu wameketi kivulini.", "check": null },
+        { "question": "Unamwambiaje mwenzako aliyetumia anasoma kwa watoto, bila kumdhalilisha?", "answer": "Mfano: Watoto ni wingi, kwa hivyo jaribu wanasoma. Sehemu ya nomino umeipata vizuri.", "check": null }
+      ],
+      "summary": [
+        "Tumia a- kwa mtu mmoja na wa- kwa watu wengi unapoongea.",
+        "Habari fupi inahitaji kila nomino ipatane na kitenzi chake.",
+        "Tathmini ya mwenzako huwa ya heshima na ya kusaidia."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Ngeli ya A-WA huwa na nomino za aina gani?", "options": ["Miti na mito", "Watu na wanyama", "Matunda na mawe", "Viti na vitabu"], "answer": "B", "explanation": "A-WA ni ngeli ya viumbe hai: watu na wanyama.", "outcome": "b", "check": null },
+    { "question": "Wingi wa mwanafunzi ni upi?", "options": ["mwanafunzi", "wanafunzi", "wanafunzia", "mianafunzi"], "answer": "B", "explanation": "Mwanafunzi huwa wanafunzi katika wingi.", "outcome": "b", "check": null },
+    { "question": "Ni lipi si nomino ya A-WA?", "options": ["mjomba", "chui", "mti", "paka"], "answer": "C", "explanation": "Mti si mtu wala mnyama. Upatanisho wake ni unakua, si anakua.", "outcome": "b", "check": null },
+    { "question": "Kiambishi cha kitenzi cha umoja katika A-WA ni kipi?", "options": ["wa-", "a-", "i-", "li-"], "answer": "B", "explanation": "Umoja unatumia a-, kama anasoma.", "outcome": "a", "check": null },
+    { "question": "Jaza: Watoto ______ wanasoma.", "options": ["mzuri", "wazuri", "mizuri", "zuri"], "answer": "B", "explanation": "Wingi wa A-WA unatumia wa- katika kivumishi: wazuri.", "outcome": "a", "check": null },
+    { "question": "Sentensi ipi ni sahihi?", "options": ["Walimu wamefika.", "Walimu amefika.", "Walimu limefika.", "Walimu umefika."], "answer": "A", "explanation": "Walimu ni wingi, kwa hivyo wamefika.", "outcome": "c", "check": null },
+    { "question": "Geuza iwe wingi: Mtoto mdogo anacheza.", "answer": "Watoto wadogo wanacheza.", "explanation": "Mtoto, mdogo na anacheza vyote vinabadilika kuwa wingi.", "outcome": "c", "check": null },
+    { "question": "Kiamilishi sahihi ni kipi: mtoto ______ ?", "options": ["yangu", "wangu", "langu", "changu"], "answer": "B", "explanation": "A-WA inatumia w-: mtoto wangu.", "outcome": "a", "check": null },
+    { "question": "Tunga sentensi ya umoja ukitumia mwalimu.", "answer": "Mfano: Mwalimu wetu anafundisha vizuri.", "explanation": "Mwalimu mmoja anapatana na kitenzi a-.", "outcome": "c", "check": null },
+    { "question": "Kwa nini tunachangamkia kutumia upatanisho sahihi?", "answer": "Ili ujumbe ueleweke na tuonyeshe heshima kwa msikilizaji.", "explanation": "Sentensi inayopatana hurahisisha mawasiliano.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 4.0 Dira, Mada Ndogo 4.4.1 Sarufi: Ngeli ya A-WA"
+  ]
+}

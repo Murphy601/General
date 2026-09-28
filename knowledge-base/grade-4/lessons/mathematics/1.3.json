@@ -1,0 +1,365 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "1.3",
+  "title": "Subtraction",
+  "overview": "Subtraction finds what is left or how much more one amount is than another. In this sub-strand you will subtract numbers with up to four digits, first without regrouping and then with regrouping. You will estimate differences by rounding off to the nearest ten and create patterns by subtracting.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Subtracting 4-digit numbers without regrouping",
+      "outcomes": ["a"],
+      "objectives": [
+        "Arrange a subtraction in place-value columns.",
+        "Subtract up to 4-digit numbers when no column needs regrouping."
+      ],
+      "intro": "A store had 7,490 bags of maize and sold 2,160 bags. To find how many bags are left, subtract. In this problem every top digit is big enough, so you do not need to regroup.",
+      "notes": "Subtraction takes one number away from another. The answer is called the difference. Write the bigger number on top and the smaller number below it so that ones are under ones, tens under tens, hundreds under hundreds and thousands under thousands. Start from the ones column on the right.\n\n### When there is no regrouping\nIf every digit on top is greater than or equal to the digit below it, subtract each column directly. For 8,765 − 4,321:\n\n- Ones: 5 − 1 = 4\n- Tens: 6 − 2 = 4\n- Hundreds: 7 − 3 = 4\n- Thousands: 8 − 4 = 4\n\nThe difference is 4,444. Nothing was exchanged between columns.\n\n### A second example\n9,586 − 3,245 gives 6,341, because 6 − 5 = 1, 8 − 4 = 4, 5 − 2 = 3 and 9 − 3 = 6. The same method works for the store: 7,490 − 2,160 = 5,330 bags left.\n\n### Using a place value apparatus\nShow the top number with sticks or bottle tops on a chart. Take away the bottom number from each column. If a column still has enough items, you do not exchange anything with the column on its left. Count what remains.\n\n### Check the answer\nAdd the difference to the number you subtracted. You should get the top number back. 4,444 + 4,321 = 8,765, so the subtraction is correct. The difference is always smaller than the number you started with, unless you subtracted 0.",
+      "keyWords": [
+        { "word": "difference", "meaning": "the answer when one number is subtracted from another" },
+        { "word": "minuend", "meaning": "the number you subtract from, written on top" }
+      ],
+      "examples": [
+        {
+          "problem": "Subtract 8,765 − 4,321.",
+          "steps": ["Ones: 5 − 1 = 4", "Tens: 6 − 2 = 4", "Hundreds: 7 − 3 = 4", "Thousands: 8 − 4 = 4"],
+          "answer": "4,444",
+          "check": "8765 - 4321 === 4444"
+        },
+        {
+          "problem": "Subtract 9,586 − 3,245.",
+          "steps": ["Ones: 6 − 5 = 1", "Tens: 8 − 4 = 4", "Hundreds: 5 − 2 = 3", "Thousands: 9 − 3 = 6"],
+          "answer": "6,341",
+          "check": "9586 - 3245 === 6341"
+        },
+        {
+          "problem": "A store had 7,490 bags of maize and sold 2,160 bags. How many bags are left?",
+          "steps": ["Subtract 7,490 − 2,160.", "Each top digit is big enough, so there is no regrouping."],
+          "answer": "5,330 bags",
+          "check": "7490 - 2160 === 5330"
+        }
+      ],
+      "activity": {
+        "title": "Take away on a place value chart",
+        "materials": ["Sticks or bottle tops", "A place value chart made from locally available materials", "Number cards"],
+        "steps": [
+          "Prepare a chart with Thousands, Hundreds, Tens and Ones columns.",
+          "Show a 4-digit number, such as 8,765, with sticks.",
+          "Take away a smaller number whose digits are each smaller than or equal to the digits above them, such as 4,321.",
+          "Count what remains in each column and write the difference.",
+          "Check by putting the removed sticks back. You should get the starting number."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 180\" font-family=\"sans-serif\"><rect width=\"420\" height=\"180\" fill=\"#ffffff\"/><text x=\"210\" y=\"22\" text-anchor=\"middle\" font-size=\"14\" fill=\"#166534\">8,765 − 4,321</text><g text-anchor=\"middle\" font-size=\"22\" fill=\"#111827\"><text x=\"90\" y=\"70\">8</text><text x=\"160\" y=\"70\">7</text><text x=\"230\" y=\"70\">6</text><text x=\"300\" y=\"70\">5</text><text x=\"50\" y=\"110\">−</text><text x=\"90\" y=\"110\">4</text><text x=\"160\" y=\"110\">3</text><text x=\"230\" y=\"110\">2</text><text x=\"300\" y=\"110\">1</text></g><line x1=\"70\" y1=\"125\" x2=\"330\" y2=\"125\" stroke=\"#166534\" stroke-width=\"2\"/><g text-anchor=\"middle\" font-size=\"22\" font-weight=\"bold\" fill=\"#166534\"><text x=\"90\" y=\"160\">4</text><text x=\"160\" y=\"160\">4</text><text x=\"230\" y=\"160\">4</text><text x=\"300\" y=\"160\">4</text></g></svg>",
+        "caption": "Column subtraction with no regrouping"
+      },
+      "practice": [
+        { "question": "Subtract 6,548 − 2,315.", "answer": "4,233", "check": "6548 - 2315 === 4233" },
+        { "question": "Subtract 9,876 − 5,432.", "answer": "4,444", "check": "9876 - 5432 === 4444" },
+        { "question": "Subtract 4,750 − 1,640.", "answer": "3,110", "check": "4750 - 1640 === 3110" },
+        { "question": "Subtract 5,869 − 2,034.", "answer": "3,835", "check": "5869 - 2034 === 3835" }
+      ],
+      "summary": [
+        "Line up the digits by place value and start from the ones.",
+        "If each top digit is big enough, subtract that column directly.",
+        "Add the difference back to check."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Subtracting with regrouping in one column",
+      "outcomes": ["b"],
+      "objectives": [
+        "Regroup 1 from the next column when a digit is too small.",
+        "Subtract up to 4-digit numbers with regrouping in one column."
+      ],
+      "intro": "You cannot take 7 ones from 2 ones. Just as 10 ones make 1 ten, you can exchange 1 ten for 10 ones and then subtract. That exchange is called regrouping.",
+      "notes": "Regrouping in subtraction is also called borrowing. When a digit on top is smaller than the digit below it, take 1 from the next column on the left. That 1 is worth 10 in the column you are working on.\n\n### Worked example: 5,342 − 2,127\n\n- Ones: 2 is smaller than 7. The tens digit 4 becomes 3, and the ones become 12. 12 − 7 = 5.\n- Tens: 3 − 2 = 1.\n- Hundreds: 5 − 1 = 4.\n- Thousands: 5 − 2 = 3.\n\nThe difference is 3,215. Only the ones column needed regrouping. This is single regrouping.\n\n### Regrouping in another column\nIn 7,305 − 2,142 the ones are fine: 5 − 2 = 3. The tens digit is 0, which is smaller than 4. Take 1 hundred. The hundreds digit 3 becomes 2, and the tens become 10. Then 10 − 4 = 6, the hundreds are 2 − 1 = 1, and the thousands are 7 − 2 = 5. The difference is 5,163.\n\n### Keep the new digits\nCross out the digit you borrowed from and write the new digit above it. Use the new digit when you reach that column. Forgetting this is the most common mistake.\n\n### Check\n3,215 + 2,127 = 5,342. If the check fails, look first at the column where you regrouped.",
+      "keyWords": [
+        { "word": "regroup", "meaning": "exchange 1 of a bigger place for 10 of the next smaller place" },
+        { "word": "borrow", "meaning": "another word for regrouping in subtraction" }
+      ],
+      "examples": [
+        {
+          "problem": "Subtract 5,342 − 2,127.",
+          "steps": ["Ones: borrow, 12 − 7 = 5, tens digit becomes 3", "Tens: 3 − 2 = 1", "Hundreds: 5 − 1 = 4", "Thousands: 5 − 2 = 3"],
+          "answer": "3,215",
+          "check": "5342 - 2127 === 3215"
+        },
+        {
+          "problem": "Subtract 8,456 − 3,128.",
+          "steps": ["Ones: 16 − 8 = 8, tens digit becomes 4", "Tens: 4 − 2 = 2", "Hundreds: 4 − 1 = 3", "Thousands: 8 − 3 = 5"],
+          "answer": "5,328",
+          "check": "8456 - 3128 === 5328"
+        },
+        {
+          "problem": "Subtract 7,305 − 2,142.",
+          "steps": ["Ones: 5 − 2 = 3", "Tens: borrow from hundreds, 10 − 4 = 6", "Hundreds: 2 − 1 = 1", "Thousands: 7 − 2 = 5"],
+          "answer": "5,163",
+          "check": "7305 - 2142 === 5163"
+        }
+      ],
+      "activity": {
+        "title": "One borrow with number cards",
+        "materials": ["Number cards", "Place value chart"],
+        "steps": [
+          "In pairs, build two 4-digit numbers so that regrouping is needed in only one column.",
+          "Show the top number on a chart.",
+          "When a column does not have enough, exchange 1 item from the next column for 10 items.",
+          "Write the subtraction in your book and circle the column where you regrouped.",
+          "Your partner adds the difference back to check."
+        ]
+      },
+      "practice": [
+        { "question": "Subtract 6,254 − 1,138.", "answer": "5,116", "check": "6254 - 1138 === 5116" },
+        { "question": "Subtract 9,470 − 2,180.", "answer": "7,290", "check": "9470 - 2180 === 7290" },
+        { "question": "Subtract 4,083 − 1,251.", "answer": "2,832", "check": "4083 - 1251 === 2832" },
+        { "question": "Subtract 5,630 − 2,415.", "answer": "3,215", "check": "5630 - 2415 === 3215" }
+      ],
+      "summary": [
+        "If a top digit is too small, take 1 from the next column and add 10 to the column you are in.",
+        "Use the reduced digit when you subtract that next column.",
+        "Single regrouping means borrowing in only one column."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Subtracting with regrouping in more than one column",
+      "outcomes": ["b"],
+      "objectives": [
+        "Subtract when two columns each need regrouping.",
+        "Regroup across a zero."
+      ],
+      "intro": "Some subtractions need a borrow in two different columns. Others have a zero in the way, so you must go further left before you can regroup. Slow, tidy work keeps both cases correct.",
+      "notes": "Double regrouping means two columns are each too small. Do one column at a time from the right, and write every new digit as soon as you borrow.\n\n### Two separate borrows: 4,372 − 1,548\n\n- Ones: 2 is smaller than 8. Tens digit 7 becomes 6, and 12 − 8 = 4.\n- Tens: 6 − 4 = 2. No borrow here.\n- Hundreds: 3 is smaller than 5. Thousands digit 4 becomes 3, and 13 − 5 = 8.\n- Thousands: 3 − 1 = 2.\n\nThe difference is 2,824. Check: 1,548 + 2,824 = 4,372.\n\n### Another double borrow: 9,316 − 4,582\nThe ones are fine: 6 − 2 = 4. The tens need a borrow, so the hundreds digit 3 becomes 2 and 11 − 8 = 3. The hundreds now show 2, which is smaller than 5, so borrow from the thousands: 12 − 5 = 7, and the thousands become 8 − 4 = 4. The difference is 4,734.\n\n### Borrowing across a zero\nIn 8,003 − 2,547 the ones need help, but the tens and the hundreds are both 0. Go to the thousands. The 8 becomes 7. The hundreds become 10, then give 1 to the tens, so the hundreds become 9. The tens become 10, then give 1 to the ones, so the tens become 9 and the ones become 13.\n\n- Ones: 13 − 7 = 6\n- Tens: 9 − 4 = 5\n- Hundreds: 9 − 5 = 4\n- Thousands: 7 − 2 = 5\n\nThe difference is 5,456. Think of 8,003 as 7 thousands, 9 hundreds, 9 tens and 13 ones.",
+      "keyWords": [
+        { "word": "double regrouping", "meaning": "regrouping in two columns of the same subtraction" },
+        { "word": "across a zero", "meaning": "borrowing from a further column because the next digit is 0" }
+      ],
+      "examples": [
+        {
+          "problem": "Subtract 4,372 − 1,548.",
+          "steps": ["Ones: 12 − 8 = 4", "Tens: 6 − 4 = 2", "Hundreds: 13 − 5 = 8", "Thousands: 3 − 1 = 2"],
+          "answer": "2,824",
+          "check": "4372 - 1548 === 2824"
+        },
+        {
+          "problem": "Subtract 9,316 − 4,582.",
+          "steps": ["Ones: 6 − 2 = 4", "Tens: 11 − 8 = 3", "Hundreds: 12 − 5 = 7", "Thousands: 8 − 4 = 4"],
+          "answer": "4,734",
+          "check": "9316 - 4582 === 4734"
+        },
+        {
+          "problem": "Subtract 8,003 − 2,547.",
+          "steps": ["Borrow across the two zeros.", "Ones 13 − 7 = 6, tens 9 − 4 = 5, hundreds 9 − 5 = 4, thousands 7 − 2 = 5"],
+          "answer": "5,456",
+          "check": "8003 - 2547 === 5456"
+        }
+      ],
+      "activity": {
+        "title": "Two borrows on a chart",
+        "materials": ["Number cards", "Manila chart", "Pencil"],
+        "steps": [
+          "With a partner, write a 4-digit subtraction that needs two borrows, such as 5,263 − 1,847.",
+          "Work it on the chart, writing the new digit above each column you borrow from.",
+          "Now try a subtraction with a zero, such as 8,003 − 2,547.",
+          "Swap charts and check each answer by addition."
+        ]
+      },
+      "practice": [
+        { "question": "Subtract 5,263 − 1,847.", "answer": "3,416", "check": "5263 - 1847 === 3416" },
+        { "question": "Subtract 6,280 − 1,455.", "answer": "4,825", "check": "6280 - 1455 === 4825" },
+        { "question": "Subtract 3,610 − 1,285.", "answer": "2,325", "check": "3610 - 1285 === 2325" },
+        { "question": "Subtract 7,052 − 2,638.", "answer": "4,414", "check": "7052 - 2638 === 4414" }
+      ],
+      "summary": [
+        "Work from the ones, and write each new digit as soon as you borrow.",
+        "Two columns may each need a borrow.",
+        "If the next digit is 0, keep moving left until you find a digit you can borrow from."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Estimating differences by rounding off to the nearest ten",
+      "outcomes": ["c"],
+      "objectives": [
+        "Round off numbers to the nearest ten.",
+        "Estimate a difference by subtracting the rounded numbers."
+      ],
+      "intro": "You may want a quick idea of how much bigger 486 is than 253. Rounding each number to the nearest ten gives a close difference that you can subtract in your head.",
+      "notes": "To estimate a difference, round off each number to the nearest ten first, then subtract. Do not subtract first and then round. Rounded numbers end in zero, so the subtraction is easier.\n\n### Rounding reminder\nLook at the ones digit. If it is 0, 1, 2, 3 or 4, round down. If it is 5, 6, 7, 8 or 9, round up. So 486 rounds to 490, and 253 rounds to 250.\n\n### Estimating 486 − 253\n490 − 250 = 240. The estimate is about 240. The exact difference is 486 − 253 = 233. The estimate is 7 more than the exact answer, which is close enough for a check.\n\n### A 4-digit example\nEstimate 2,347 − 1,582. Round 2,347 to 2,350 and 1,582 to 1,580. Then 2,350 − 1,580 = 770. The exact difference is 765. Again the estimate is very near the exact answer.\n\n### Why the estimate can be a little off\nEach number may round up or down, so the estimated difference is not always bigger than the exact one. In 875 − 438, the estimate is 880 − 440 = 440, and the exact difference is 437. Use the estimate to see whether an exact answer is sensible. If you work out 2,347 − 1,582 and get 1,765, the estimate of 770 shows that the exact answer is far too big.\n\nSay \"about\" when you give an estimate. If the question asks for the estimate, round first.",
+      "keyWords": [
+        { "word": "estimate", "meaning": "a close answer found by rounding before calculating" },
+        { "word": "nearest ten", "meaning": "the multiple of 10 that is closest to the number" }
+      ],
+      "examples": [
+        {
+          "problem": "Estimate 486 − 253 by rounding off to the nearest ten.",
+          "steps": ["486 rounds to 490", "253 rounds to 250", "490 − 250 = 240"],
+          "answer": "About 240 (exact difference 233)",
+          "check": "Math.round(486/10)*10 - Math.round(253/10)*10 === 240 && 486 - 253 === 233"
+        },
+        {
+          "problem": "Estimate 2,347 − 1,582.",
+          "steps": ["2,347 rounds to 2,350", "1,582 rounds to 1,580", "2,350 − 1,580 = 770"],
+          "answer": "About 770",
+          "check": "Math.round(2347/10)*10 - Math.round(1582/10)*10 === 770 && 2347 - 1582 === 765"
+        },
+        {
+          "problem": "Estimate 875 − 438.",
+          "steps": ["875 rounds to 880", "438 rounds to 440", "880 − 440 = 440"],
+          "answer": "About 440 (exact difference 437)",
+          "check": "Math.round(875/10)*10 - Math.round(438/10)*10 === 440 && 875 - 438 === 437"
+        }
+      ],
+      "activity": {
+        "title": "Approximate, then find the difference",
+        "materials": ["Number cards", "Exercise book"],
+        "steps": [
+          "Share number cards with your group and make two numbers up to 1,000.",
+          "Each learner rounds both numbers to the nearest ten and subtracts to estimate the difference.",
+          "Work out the exact difference and find how far the estimate is from it.",
+          "Repeat with a pair of 4-digit numbers and share which estimates were closest."
+        ]
+      },
+      "practice": [
+        { "question": "Estimate 654 − 289 by rounding off to the nearest ten.", "answer": "650 − 290 = 360", "check": "Math.round(654/10)*10 - Math.round(289/10)*10 === 360" },
+        { "question": "Estimate 1,926 − 1,348.", "answer": "1,930 − 1,350 = 580", "check": "Math.round(1926/10)*10 - Math.round(1348/10)*10 === 580" },
+        { "question": "Estimate 738 − 265, then find the exact difference.", "answer": "Estimate 740 − 270 = 470; exact difference 473", "check": "Math.round(738/10)*10 - Math.round(265/10)*10 === 470 && 738 - 265 === 473" },
+        { "question": "A learner says 4,165 − 1,238 = 3,927. Use an estimate to show that this is wrong.", "answer": "4,170 − 1,240 = 2,930, so the answer should be near 2,930, not 3,927. The exact difference is 2,927.", "check": "Math.round(4165/10)*10 - Math.round(1238/10)*10 === 2930 && 4165 - 1238 === 2927" }
+      ],
+      "summary": [
+        "Round each number to the nearest ten, then subtract.",
+        "An estimate is close to the exact difference.",
+        "Use the estimate to check an exact answer."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Creating patterns involving subtraction",
+      "outcomes": ["d"],
+      "objectives": [
+        "Find the rule of a subtraction pattern.",
+        "Continue a pattern that starts from a number up to 10,000."
+      ],
+      "intro": "A water tank starts the week with 10,000 litres and the same amount is used regularly. The water levels form a pattern: each number is found by subtracting.",
+      "notes": "A subtraction pattern is a list of numbers in which the same amount is taken away each time, or the amount taken away follows its own rule. The biggest number in these patterns is not more than 10,000.\n\n### A constant rule\nLook at 10,000, 9,750, 9,500, 9,250.\n\n- 10,000 − 9,750 = 250\n- 9,750 − 9,500 = 250\n- 9,500 − 9,250 = 250\n\nThe rule is subtract 250. The next two numbers are 9,250 − 250 = 9,000 and 9,000 − 250 = 8,750.\n\n### Missing numbers\nIn 8,400, 8,200, ___, 7,800, ___ the jump is 200. The missing numbers are 8,000 and 7,600, because 8,200 − 200 = 8,000 and 7,800 − 200 = 7,600.\n\n### A rule that changes\nSome patterns subtract a little more each time: 500, 480, 450, 410. The jumps are 20, then 30, then 40. The next jump is 50, so 410 − 50 = 360.\n\n### Patterns in real life\nIf a tank holds 2,000 litres and 125 litres are used each day, the levels are 2,000, 1,875, 1,750, 1,625 and 1,500. After 4 days, 2,000 − 125 × 4 = 1,500 litres remain. You can also check the last step by subtracting 125 from 1,625.\n\nTo create your own pattern, choose a starting number up to 10,000 and a number to subtract. Write at least five terms and make sure you do not go below 0 unless the story allows it.",
+      "keyWords": [
+        { "word": "rule", "meaning": "what is done to one number to get the next" },
+        { "word": "term", "meaning": "one number in a pattern" }
+      ],
+      "examples": [
+        {
+          "problem": "Find the next two numbers: 10,000, 9,750, 9,500, 9,250, ___, ___.",
+          "steps": ["The rule is subtract 250.", "9,250 − 250 = 9,000", "9,000 − 250 = 8,750"],
+          "answer": "9,000 and 8,750",
+          "check": "9250 - 250 === 9000 && 9000 - 250 === 8750"
+        },
+        {
+          "problem": "Fill in: 8,400, 8,200, ___, 7,800, ___.",
+          "steps": ["The rule is subtract 200.", "8,200 − 200 = 8,000", "7,800 − 200 = 7,600"],
+          "answer": "8,000 and 7,600",
+          "check": "8200 - 200 === 8000 && 7800 - 200 === 7600"
+        },
+        {
+          "problem": "What is the next number: 500, 480, 450, 410, ___?",
+          "steps": ["Jumps: 20, 30, 40", "Next jump: 50", "410 − 50 = 360"],
+          "answer": "360",
+          "check": "500 - 480 === 20 && 480 - 450 === 30 && 450 - 410 === 40 && 410 - 50 === 360"
+        }
+      ],
+      "activity": {
+        "title": "Subtraction pattern chain",
+        "materials": ["Paper strips", "Pencils"],
+        "steps": [
+          "In a group, choose a starting number up to 10,000 and a number to subtract, such as 150 or 500.",
+          "Write the first six terms on paper strips and join them into a chain.",
+          "Hide two terms and give the chain to another group.",
+          "The other group finds the rule and fills in the missing numbers."
+        ]
+      },
+      "practice": [
+        { "question": "Continue: 6,000, 5,750, 5,500, ___, ___.", "answer": "5,250 and 5,000", "check": "5500 - 250 === 5250 && 5250 - 250 === 5000" },
+        { "question": "What is the rule in 9,000, 8,500, 8,000, 7,500?", "answer": "Subtract 500", "check": "9000 - 8500 === 500 && 8000 - 7500 === 500" },
+        { "question": "Fill in: 4,050, 3,900, ___, 3,600.", "answer": "3,750", "check": "4050 - 150 === 3900 && 3900 - 150 === 3750 && 3750 - 150 === 3600" },
+        { "question": "A tank holds 2,000 litres and 125 litres are used each day. How much is left after 4 days?", "answer": "1,500 litres", "check": "2000 - 125 * 4 === 1500" }
+      ],
+      "summary": [
+        "Find the rule by subtracting neighbouring terms.",
+        "Use the rule to fill gaps and to find the next terms.",
+        "Patterns in this sub-strand start from numbers up to 10,000."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Using subtraction in real-life situations",
+      "outcomes": ["a", "b", "e"],
+      "objectives": [
+        "Choose subtraction from the words in a problem.",
+        "Solve real-life problems with and without regrouping."
+      ],
+      "intro": "Shopkeepers find change, farmers compare two harvests, and schools find how many books are still in the store. All of these questions are subtraction.",
+      "notes": "A word problem tells you to subtract with words such as left, remaining, difference, how many more, how many fewer, take away and change. Read the question twice, pick out the two numbers, and decide which one you subtract from. You subtract from the number you started with, or from the larger amount when the question asks for a difference.\n\n### How many are left?\nA school had 3,250 exercise books and gave out 1,475. How many are left?\n\n- Ones: 10 − 5 = 5, and the tens digit becomes 4.\n- Tens: 14 − 7 = 7, and the hundreds digit becomes 1.\n- Hundreds: 11 − 4 = 7, and the thousands digit becomes 2.\n- Thousands: 2 − 1 = 1.\n\nThere are 1,775 books left. Check: 1,475 + 1,775 = 3,250.\n\n### How many more?\nA farmer harvested 4,680 kg of maize and 2,935 kg of beans. How many more kilograms of maize were there? Subtract the smaller amount from the larger: 4,680 − 2,935 = 1,745 kg.\n\n### Change\nA buyer pays with KSh 5,000 for goods costing KSh 3,275. The change is 5,000 − 3,275 = 1,725 shillings. The zeros mean you regroup across zeros, just as in 8,003 − 2,547.\n\n### Why subtraction matters\nSubtraction tells you what remains, what is missing, and how two amounts compare. It helps a family see if money is left after buying, and it helps a farmer compare two crops. Always write the unit in the answer: books, kilograms or shillings.",
+      "keyWords": [
+        { "word": "change", "meaning": "the money returned when you pay with more than the price" },
+        { "word": "how many more", "meaning": "the difference between a larger amount and a smaller one" }
+      ],
+      "examples": [
+        {
+          "problem": "A school had 3,250 exercise books and gave out 1,475. How many books are left?",
+          "steps": ["Subtract 3,250 − 1,475.", "Regroup in the ones, tens and hundreds."],
+          "answer": "1,775 books",
+          "check": "3250 - 1475 === 1775"
+        },
+        {
+          "problem": "A farmer harvested 4,680 kg of maize and 2,935 kg of beans. How many more kilograms of maize were there?",
+          "steps": ["Subtract the smaller mass from the larger.", "4,680 − 2,935 = 1,745"],
+          "answer": "1,745 kg",
+          "check": "4680 - 2935 === 1745"
+        },
+        {
+          "problem": "Goods cost KSh 3,275 and the buyer pays with KSh 5,000. What is the change?",
+          "steps": ["Change = amount paid − cost", "5,000 − 3,275 = 1,725"],
+          "answer": "KSh 1,725",
+          "check": "5000 - 3275 === 1725"
+        }
+      ],
+      "activity": {
+        "title": "Subtraction stories",
+        "materials": ["Number cards", "Exercise book"],
+        "steps": [
+          "In a group, write three short stories: one about items left, one about how many more, and one about change.",
+          "Use numbers up to 4 digits. Make one story need no regrouping and two stories need regrouping.",
+          "Swap stories with another group and solve them.",
+          "Tell the class one place at home where your family uses subtraction."
+        ]
+      },
+      "practice": [
+        { "question": "A school expected 2,860 visitors and 1,245 had arrived by noon. How many were still expected?", "answer": "1,615 visitors", "check": "2860 - 1245 === 1615" },
+        { "question": "Find the difference between 7,500 and 4,280.", "answer": "3,220", "check": "7500 - 4280 === 3220" },
+        { "question": "A tank holds 8,000 litres and 2,650 litres are used. How much remains?", "answer": "5,350 litres", "check": "8000 - 2650 === 5350" },
+        { "question": "Name two words that tell you to subtract.", "answer": "Any two, for example left, remaining, difference, how many more, change.", "check": null }
+      ],
+      "summary": [
+        "Words such as left, difference, how many more and change tell you to subtract.",
+        "Subtract from the starting amount, or from the larger amount.",
+        "Write the unit with the answer and check by adding."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Subtract 8,765 − 4,321.", "options": ["4,444", "4,344", "4,544", "12,086"], "answer": "A", "explanation": "Each column subtracts directly: 4, 4, 4 and 4.", "outcome": "a", "check": "8765 - 4321 === 4444" },
+    { "question": "Subtract 6,548 − 2,315.", "answer": "4,233", "explanation": "No regrouping: 8 − 5 = 3, 4 − 1 = 3, 5 − 3 = 2, 6 − 2 = 4.", "outcome": "a", "check": "6548 - 2315 === 4233" },
+    { "question": "Subtract 5,342 − 2,127.", "options": ["3,225", "3,215", "3,115", "2,215"], "answer": "B", "explanation": "Borrow in the ones: 12 − 7 = 5, then 3 − 2 = 1, 5 − 1 = 4, 5 − 2 = 3.", "outcome": "b", "check": "5342 - 2127 === 3215" },
+    { "question": "Subtract 4,372 − 1,548.", "answer": "2,824", "explanation": "Borrow in the ones and in the hundreds.", "outcome": "b", "check": "4372 - 1548 === 2824" },
+    { "question": "Subtract 8,003 − 2,547.", "answer": "5,456", "explanation": "Borrow across the zeros so the top number is worked as 7 thousands, 9 hundreds, 9 tens and 13 ones.", "outcome": "b", "check": "8003 - 2547 === 5456" },
+    { "question": "Estimate 486 − 253 by rounding off each number to the nearest ten.", "options": ["230", "240", "250", "200"], "answer": "B", "explanation": "486 rounds to 490 and 253 rounds to 250. 490 − 250 = 240.", "outcome": "c", "check": "Math.round(486/10)*10 - Math.round(253/10)*10 === 240" },
+    { "question": "Estimate 2,347 − 1,582 by rounding off to the nearest ten.", "answer": "2,350 − 1,580 = 770", "explanation": "Round first, then subtract. The exact difference is 765.", "outcome": "c", "check": "Math.round(2347/10)*10 - Math.round(1582/10)*10 === 770" },
+    { "question": "What is the next number: 10,000, 9,750, 9,500, 9,250, ___?", "options": ["9,000", "9,100", "8,250", "9,500"], "answer": "A", "explanation": "The rule is subtract 250. 9,250 − 250 = 9,000.", "outcome": "d", "check": "9250 - 250 === 9000" },
+    { "question": "A school had 3,250 books and gave out 1,475. How many are left?", "answer": "1,775 books", "explanation": "Subtract to find what remains: 3,250 − 1,475 = 1,775.", "outcome": "e", "check": "3250 - 1475 === 1775" },
+    { "question": "Which question needs subtraction?", "options": ["Find the total of two harvests", "Find how much change to give", "Find the product of two prices", "Share seedlings equally"], "answer": "B", "explanation": "Change is the amount paid minus the cost.", "outcome": "e", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 1.0 Numbers, Sub-strand 1.3 Subtraction"
+  ]
+}

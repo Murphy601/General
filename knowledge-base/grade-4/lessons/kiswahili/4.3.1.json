@@ -1,0 +1,135 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "4.3.1",
+  "title": "Kuandika: Barua ya Kirafiki",
+  "overview": "Barua ya kirafiki ni ujumbe unaoandikwa kwa rafiki, ndugu au mzazi ili kumjulia hali, kutoa habari au kumshukuru. Katika mada hii ndogo utatambua muundo wake, utajadili umuhimu wake, na utaandika barua inayofuata kanuni za anwani, mpangilio, tahajia, sarufi na uakifishaji.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Muundo na umuhimu wa barua ya kirafiki",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutaja sehemu za barua ya kirafiki kwa mpangilio.",
+        "Kutambua barua ya kirafiki kwa kuangalia muundo wake.",
+        "Kueleza umuhimu wa barua ya kirafiki katika mawasiliano."
+      ],
+      "intro": "Amina anaishi mbali na rafiki yake Zawadi. Simu wakati mwingine haina nafuu, lakini barua inaweza kubeba habari za masomo, dira na salamu. Leo tutaona barua hiyo inapangwaje.",
+      "notes": "### Barua ya kirafiki ni nini?\nBarua ya kirafiki ni insha fupi inayoandikwa kumjulia hali au kutoa ujumbe kwa mtu unayemfahamu: rafiki, ndugu, mzazi, shangazi au mjomba. Lugha yake ni ya upole na ya kirafiki, si ya ofisi. Mwandishi anajitambulisha kwa jina lake mwishoni.\n\n### Sehemu zake\nBarua nzuri hufuata mpangilio huu:\n\n1. **Anwani** huandikwa juu, upande wa kulia. Weka jina la shule au mahali unapoandikia, kisha sanduku la posta ikiwa unalo.\n2. **Tarehe** huandikwa chini ya anwani.\n3. **Salamu** huanzia upande wa kushoto. Mfano: Mpendwa Amina, au Kwa mama mpendwa,\n4. **Utangulizi** ni aya ya kwanza. Humjulia hali mwandikiwa.\n5. **Mwili** unaeleza madhumuni: habari, shukrani, mwaliko au dira yako. Kila hoja ipate aya yake.\n6. **Hitimisho** hufunga kwa maagano, matakwa au ombi la jibu.\n7. **Kuaga** ni maneno kama Wako rafiki, au Wako mwanao,\n8. **Jina** la mwandishi huwa mwisho.\n\n### Vielelezo\nUnaposoma barua kwenye kitabu au tarakilishi, uliza: Je, anwani iko juu kulia? Je, kuna salamu, ujumbe na jina mwishoni? Kama vipengele hivyo vipo, hiyo ni barua ya kirafiki. Orodha ya manunuzi au insha isiyo na salamu si barua.\n\n### Umuhimu\n- Huwasilisha habari kwa mtu aliye mbali.\n- Hudumisha urafiki, upendo na heshima kati ya ndugu.\n- Humjulia mtu hali bila kusubiri mkutano.\n- Hukufundisha kuandika kwa adabu, mpangilio na ufasaha.\n- Huweza kubeba pongezi, shukrani, samahani au ushauri.\n\nMasuala yanayofaa ni hali ya afya, masomo, dira, habari za nyumbani, mwaliko na shukrani. Siri za mtu mwingine, maneno ya kumdhalilisha, au habari usizozihakikisha hazifai kuandikwa.",
+      "keyWords": [
+        { "word": "barua ya kirafiki", "meaning": "ujumbe unaoandikwa kwa rafiki au ndugu kumjulia hali au kutoa habari" },
+        { "word": "anwani", "meaning": "mahali pa mwandishi, huandikwa juu ya barua upande wa kulia" },
+        { "word": "salamu", "meaning": "maneno ya kumuamkua mwandikiwa, kama Mpendwa Amina" },
+        { "word": "madhumuni", "meaning": "sababu ya kuandika barua" }
+      ],
+      "examples": [
+        {
+          "problem": "Panga vipengele hivi kwa mpangilio wa barua: jina la mwandishi, anwani, salamu, tarehe.",
+          "steps": ["Anwani huja kwanza juu kulia.", "Tarehe hufuata anwani.", "Salamu huwa upande wa kushoto.", "Jina la mwandishi huwa mwisho."],
+          "answer": "Anwani, tarehe, salamu, jina la mwandishi.",
+          "check": null
+        },
+        {
+          "problem": "Je, orodha ya vifaa vya darasa ni barua ya kirafiki? Toa sababu.",
+          "steps": ["Barua ina anwani, salamu, ujumbe na jina.", "Orodha haina salamu wala mwandikiwa."],
+          "answer": "Hapana. Haina muundo wa barua: salamu, ujumbe kwa mtu na jina la mwandishi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chunguza vielelezo vya barua",
+        "materials": ["Vielelezo vya barua za kirafiki kwenye kitabu, chati au tarakilishi", "Daftari"],
+        "steps": [
+          "Soma kielelezo cha barua ya kirafiki pamoja na mwenzako.",
+          "Wekeni mstari chini ya anwani, tarehe, salamu, utangulizi, mwili, hitimisho, kuaga na jina.",
+          "Jadilini umuhimu wa barua hiyo: inamjulia nani hali, na inatoa habari gani?",
+          "Orodhesheni masuala mengine yanayofaa kuandikwa kwa rafiki au mzazi.",
+          "Mwambieni darasa kipengele kimoja ambacho hakikosekani kwenye barua."
+        ]
+      },
+      "practice": [
+        { "question": "Anwani ya barua ya kirafiki huandikwa wapi?", "answer": "Juu ya karatasi, upande wa kulia.", "check": null },
+        { "question": "Taja sehemu nne za barua ya kirafiki kwa mpangilio.", "answer": "Mfano: anwani, tarehe, salamu, utangulizi. Mwili, hitimisho, kuaga na jina hufuata.", "check": null },
+        { "question": "Taja umuhimu mmoja wa barua ya kirafiki.", "answer": "Mfano: huwasilisha habari kwa mtu aliye mbali; hudumisha urafiki na heshima.", "check": null },
+        { "question": "Taja suala moja linalofaa katika barua ya kirafiki na suala moja lisilofaa.", "answer": "Linafaa: kumjulia hali au kumshukuru. Halifai: kumdhalilisha mtu au kuandika siri za wengine.", "check": null }
+      ],
+      "summary": [
+        "Barua ya kirafiki huanza na anwani na tarehe, kisha salamu, ujumbe, kuaga na jina.",
+        "Huandikwa kwa rafiki, ndugu au mzazi kwa lugha ya upole.",
+        "Umuhimu wake ni kuwasilisha habari na kudumisha uhusiano mwema."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kuandika barua ya kirafiki",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kuandaa vidokezo kabla ya kuandika barua.",
+        "Kuandika barua ya kirafiki kuhusu dira kwa kufuata kanuni.",
+        "Kuitathmini barua ya mwenzako kwa heshima."
+      ],
+      "intro": "Vidokezo ni ramani fupi ya barua. Ukijaandika kabla ya kuandika, hutaruka salamu wala kusahau jina lako mwishoni. Leo tutaandika barua halisi kwa rafiki.",
+      "notes": "### Vidokezo kwanza\nKabla ya sentensi, andika vidokezo vifupi:\n\n- Namwandikia nani?\n- Nataka nimwambie nini? Chagua hoja moja kuu, kwa mfano dira yangu.\n- Nitamuuliza swali gani ili ajibu?\n\nKisha zipange: utangulizi, hoja, hitimisho.\n\n### Kanuni za uandishi\n- **Anwani na tarehe** ziwe juu kulia.\n- **Mpangilio wa mawazo:** kila aya hoja moja.\n- **Hati safi:** maandishi yasomeke, mistari iwe na nafasi.\n- **Tahajia:** angalia maneno kama asante, samahani, na herufi kubwa mwanzo wa sentensi na majina.\n- **Sarufi:** umoja na wingi vipatane. Usandike watoto anasoma; andika watoto wanasoma.\n- **Uakifishaji:** kikomo mwisho wa sentensi, koma unapotaja orodha, kiulizi baada ya swali.\n- **Lugha ya kiubunifu:** chagua maneno ya heshima na picha wazi, bila kumuumiza mtu.\n\n### Kielelezo\nShule ya Msingi ya Mwangaza,\nSanduku la Posta 12.\n\n4 Aprili 2026.\n\nMpendwa Amina,\n\nHujambo? Natumai uko mzima na masomo yanaendelea vizuri. Mimi huku niko salama.\n\nNimekuandikia kukuambia dira yangu. Nataka niwe mwalimu nikikua. Kwa sasa ninasoma kwa bidii na ninawasaidia wadogo kusoma maneno magumu.\n\nNaomba unijibu ukaniambia dira yako. Tutaongea likizo ijapo.\n\nWako rafiki,\nZawadi.\n\nAngalia: anwani na tarehe ziko juu kulia, salamu ziko kushoto, aya ya kwanza inamjulia hali, aya ya pili inatoa habari, aya ya tatu inaomba jibu, kisha kuaga na jina.\n\n### Kutathmini\nMsomee mwenzako barua yako. Yeye aone kama vipengele vyote vipo, kama tahajia inasomeka, na kama lugha ina heshima. Semeni lililo vizuri kwanza, kisha pendekezo moja la kurekebisha. Hii ndiyo tathmini ya upendo, si kudhihaki.",
+      "keyWords": [
+        { "word": "vidokezo", "meaning": "hoja fupi unazoandika kwanza ili zikuongoze kuandika" },
+        { "word": "tahajia", "meaning": "kuandika maneno kwa herufi sahihi" },
+        { "word": "uakifishaji", "meaning": "matumizi ya kikomo, koma na kiulizi" },
+        { "word": "hati safi", "meaning": "maandishi yanayosomeka vizuri" }
+      ],
+      "examples": [
+        {
+          "problem": "Rekebisha sentensi hii ili ifae kwenye barua: watoto wenu anasoma vizuri.",
+          "steps": ["Watoto ni wingi.", "Kitenzi kifae wingi: wanasoma, si anasoma."],
+          "answer": "Watoto wenu wanasoma vizuri.",
+          "check": null
+        },
+        {
+          "problem": "Andika salamu na kuaga vinavyofaa ukimwandikia mama yako.",
+          "steps": ["Salamu zinaonyesha upendo na heshima.", "Kuaga kunaonyesha uhusiano: wewe ni mwana."],
+          "answer": "Salamu: Kwa mama mpendwa, Kuaga: Wako mwanao,",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika barua kisha isomwe",
+        "materials": ["Daftari na kalamu", "Kielelezo cha barua", "Kifaa cha kidijitali panapowezekana"],
+        "steps": [
+          "Jadiliana na mwenzako: utamwandikia nani, na dira gani utaieleza?",
+          "Andika vidokezo vitatu: utangulizi, hoja kuu, hitimisho.",
+          "Andika barua kamili ukizingatia anwani, tarehe, salamu, aya, uakifishaji na jina.",
+          "Msomee mwenzako na mwalimu. Wao waitathmini vipengele na tahajia.",
+          "Rekebisha kosa moja waliokwambia, kisha usome tena."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\" font-family=\"sans-serif\"><rect width=\"420\" height=\"280\" fill=\"#fffef8\"/><rect x=\"16\" y=\"12\" width=\"388\" height=\"256\" fill=\"none\" stroke=\"#166534\" stroke-width=\"2\"/><text x=\"390\" y=\"40\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">Anwani</text><text x=\"390\" y=\"62\" text-anchor=\"end\" font-size=\"13\" fill=\"#111827\">Tarehe</text><text x=\"32\" y=\"100\" font-size=\"13\" fill=\"#111827\">Salamu</text><text x=\"32\" y=\"132\" font-size=\"13\" fill=\"#374151\">Utangulizi: kumjulia hali</text><text x=\"32\" y=\"164\" font-size=\"13\" fill=\"#374151\">Mwili: habari au dira yako</text><text x=\"32\" y=\"196\" font-size=\"13\" fill=\"#374151\">Hitimisho: maagano na ombi la jibu</text><text x=\"32\" y=\"232\" font-size=\"13\" fill=\"#111827\">Kuaga</text><text x=\"32\" y=\"254\" font-size=\"13\" fill=\"#111827\">Jina la mwandishi</text></svg>",
+        "caption": "Mpangilio wa sehemu za barua ya kirafiki"
+      },
+      "practice": [
+        { "question": "Andika vidokezo vitatu vya barua unayomwandikia mzazi kuhusu masomo yako.", "answer": "Mfano: kumjulia hali; kusema mitihani imeenda vipi; kuahidi bidii na kuomba jibu.", "check": null },
+        { "question": "Kwa nini herufi kubwa inahitajika mwanzo wa sentensi na kwenye majina?", "answer": "Ni kanuni ya tahajia na uandishi safi. Sentensi huanza kwa herufi kubwa, na majina ya watu huandikwa kwa herufi kubwa.", "check": null },
+        { "question": "Andika upya kwa uakifishaji sahihi: hujambo natumai uko mzima", "answer": "Hujambo? Natumai uko mzima.", "check": null },
+        { "question": "Unapoitathmini barua ya mwenzako, utaamza nini?", "answer": "Kama anwani, salamu, ujumbe na jina vipo, na kama tahajia na heshima zimetumika. Nasema lililo vizuri kwanza.", "check": null }
+      ],
+      "summary": [
+        "Andika vidokezo kwanza, kisha barua yenye sehemu zote.",
+        "Zingatia tahajia, sarufi, uakifishaji na lugha ya heshima.",
+        "Tathmini ya mwenzako huanza kwa lililo vizuri, kisha pendekezo moja."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Barua ya kirafiki huandikwa kwa nani?", "options": ["Kwa mtu usiyemjua mtandaoni", "Kwa rafiki, ndugu au mzazi", "Kwa kila mgeni barabarani", "Kwa faili isiyo na jina"], "answer": "B", "explanation": "Barua ya kirafiki huandikwa kwa mtu unayemfahamu kama rafiki au mzazi.", "outcome": "a", "check": null },
+    { "question": "Anwani huandikwa wapi?", "options": ["Chini kushoto", "Juu kulia", "Katikati ya mwili", "Baada ya jina"], "answer": "B", "explanation": "Anwani huwa juu ya barua upande wa kulia.", "outcome": "a", "check": null },
+    { "question": "Ni lipi mpangilio sahihi?", "options": ["Jina, anwani, salamu", "Anwani, tarehe, salamu", "Salamu, anwani, tarehe", "Tarehe, jina, anwani"], "answer": "B", "explanation": "Anwani hutangulia, kisha tarehe, kisha salamu.", "outcome": "a", "check": null },
+    { "question": "Kazi ya utangulizi ni ipi?", "options": ["Kuandika orodha ya vifaa", "Kumjulia mwandikiwa hali", "Kufunga kifaa", "Kutoa jina la faili"], "answer": "B", "explanation": "Aya ya kwanza humjulia mwandikiwa hali.", "outcome": "a", "check": null },
+    { "question": "Ni upi umuhimu wa barua ya kirafiki?", "options": ["Kudhalilisha watu", "Kuwasilisha habari na kudumisha urafiki", "Kuficha jina la mwandishi", "Kubadilisha tahajia"], "answer": "B", "explanation": "Barua husaidia mawasiliano na uhusiano mwema.", "outcome": "b", "check": null },
+    { "question": "Suala lipi linafaa kwenye barua ya kirafiki?", "options": ["Siri za mwenzako", "Dira yako na hali ya masomo", "Maneno ya kumuumiza mtu", "Ujumbe kwa mgeni usiyemjua"], "answer": "B", "explanation": "Masomo na dira ni masuala yanayofaa kati ya marafiki.", "outcome": "b", "check": null },
+    { "question": "Vidokezo vinasaidiaje kabla ya kuandika?", "answer": "Vinapanga hoja: namwandikia nani, nitamwambia nini, na nitaomba jibu gani.", "explanation": "Vidokezo ni ramani fupi ili usisahau sehemu za barua.", "outcome": "c", "check": null },
+    { "question": "Sentensi ipi inafaa kisarufi kwenye barua?", "options": ["Watoto anasoma.", "Watoto wanasoma.", "Watoto unasoma.", "Watoto lina soma."], "answer": "B", "explanation": "Watoto ni wingi, kwa hivyo kitenzi ni wanasoma.", "outcome": "c", "check": null },
+    { "question": "Uakifishaji sahihi ni upi?", "options": ["Hujambo natumai uko mzima", "Hujambo? Natumai uko mzima.", "hujambo, natumai uko mzima", "Hujambo natumai uko mzima?"], "answer": "B", "explanation": "Swali lina kiulizi, na sentensi inayofuata ina kikomo na herufi kubwa.", "outcome": "c", "check": null },
+    { "question": "Unapoitathmini barua ya mwenzako, unaanza vipi?", "answer": "Nasema kitu kilichoandikwa vizuri, kisha natoa pendekezo moja la kurekebisha kwa heshima.", "explanation": "Tathmini ya upendo huanza kwa lililo jema.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 4.0 Dira, Mada Ndogo 4.3.1 Kuandika: Barua ya Kirafiki"
+  ]
+}

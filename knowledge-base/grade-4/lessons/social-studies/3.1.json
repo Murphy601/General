@@ -122,6 +122,47 @@
         "Culture gives identity, teaches values, unites people and attracts tourists.",
         "Respect other cultures, but harmful practices should be stopped."
       ]
+    },
+    {
+      "number": 4,
+      "title": "Songs, dances and culture we still practise",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Illustrate traditional culture through songs and dances from the community.",
+        "Explain which aspects of culture are still practised and why they should be appreciated."
+      ],
+      "intro": "A wedding, a naming day or a harvest celebration is often full of song. The words, the drums and the dance steps are another way a community shows its culture.",
+      "notes": "Culture is not only what people eat or wear. It is also heard and seen when people sing and dance. Traditional songs and dances carry messages. They entertain people, and they teach the young about the life of the community.\n\n### Songs for different occasions\nCommunities sang different songs for different events:\n\n- Naming songs, sung when a baby is given a name\n- Wedding songs, sung when two people marry\n- Initiation songs, sung when young people are prepared for adulthood\n- Victory songs, sung after a success such as a good harvest or a contest\n- Work songs, sung while people farmed, fished or built, so that the work felt lighter\n\nThe words of a song may praise a person, give advice, tell a story or thank God for a harvest. Dances use steps, clapping and instruments such as drums, horns and shakers. Costumes and body decoration used in the dance are part of traditional dressing.\n\n### Culture then and now\nSome aspects of culture are still practised today. Many families still eat traditional foods, wear traditional dress on special days, and sing traditional songs. Other aspects have changed. Few people now build only grass houses or wear animal skins every day, because new materials and new ways of living have come.\n\nAsk an elder which aspects of your community's culture are still practised and which have stopped. Record the answer. A good record names the aspect, describes it, and says who taught you.\n\n### Appreciating culture\nWe appreciate culture when we learn it, perform it with respect and teach it to others. Appreciating culture does not mean copying every old practice. Practices that harm people, such as female genital mutilation and early marriage, should stop. Songs, foods, crafts, games and peaceful ceremonies should be kept, because they give us identity, bring people together and can attract visitors who want to learn.",
+      "keyWords": [
+        { "word": "traditional song", "meaning": "a song passed down in a community and sung at special occasions" },
+        { "word": "dance", "meaning": "movement, often with music, used to celebrate or to pass a message" },
+        { "word": "appreciate", "meaning": "to value something and show that it matters" }
+      ],
+      "examples": [
+        { "problem": "A class learns a wedding song from an elder and performs it on culture day. Which aspect of culture are they illustrating?", "steps": ["The song belongs to a ceremony and is performed for others to see and hear."], "answer": "Festivals and ceremonies, shown through traditional music and dance.", "check": null },
+        { "problem": "Name one aspect of culture that many families still practise, and one harmful practice that should stop.", "steps": ["Think of food, dress or songs that continue.", "Think of practices that injure children."], "answer": "Still practised: traditional foods, dress on special days, or traditional songs. Should stop: female genital mutilation or early marriage.", "check": null }
+      ],
+      "activity": {
+        "title": "Showcase a traditional song or dance",
+        "materials": ["Exercise book", "Permission from home", "A drum, shaker or clapping if available"],
+        "steps": [
+          "Ask a parent, guardian or grandparent to teach you one traditional song or dance from your community. Note the occasion it is used for.",
+          "In groups, practise the song or dance. Write the message the song carries.",
+          "Showcase it to the class. Other learners listen respectfully, even if the song is from a community different from theirs.",
+          "Record the performance on paper: the name of the song, the occasion, the instruments and who taught you.",
+          "Discuss which aspects of culture your families still practise and why those aspects are important."
+        ]
+      },
+      "practice": [
+        { "question": "Give two occasions when traditional songs are sung.", "answer": "Any two, for example naming, wedding, initiation, victory or work.", "check": null },
+        { "question": "What two things can a traditional song do for a community?", "answer": "It can carry a message and it can entertain. It can also teach the young.", "check": null },
+        { "question": "Why should we keep traditional songs but stop harmful practices?", "answer": "Songs give identity, teach and bring people together. Harmful practices such as female genital mutilation injure people and are against the law.", "check": null }
+      ],
+      "summary": [
+        "Songs and dances illustrate culture and carry messages for naming, weddings, initiation and work.",
+        "Some aspects of culture continue today, while others have changed.",
+        "Appreciate useful culture, and do not continue practices that harm people."
+      ]
     }
   ],
   "quiz": [
@@ -135,7 +176,8 @@
     { "question": "When you borrow an artefact from home for a culture corner, what should you do?", "answer": "Handle it with care, label it and return it.", "explanation": "Artefacts are valuable to families and should be kept safe.", "outcome": "b" },
     { "question": "Which is an importance of traditional culture?", "options": ["It gives people an identity", "It causes fights", "It makes people lazy", "It wastes time"], "answer": "A", "explanation": "Culture tells us who we are and where we come from.", "outcome": "c" },
     { "question": "How does traditional culture help the country earn money?", "answer": "It attracts tourists who come to see traditional dances, crafts and ways of life.", "explanation": "Tourists pay for visits, crafts and services.", "outcome": "c" },
-    { "question": "Which traditional practice should NOT be continued?", "options": ["Traditional songs", "Weaving baskets", "Female genital mutilation", "Eating traditional vegetables"], "answer": "C", "explanation": "Female genital mutilation harms girls and is against the law in Kenya.", "outcome": "c" }
+    { "question": "Which traditional practice should NOT be continued?", "options": ["Traditional songs", "Weaving baskets", "Female genital mutilation", "Eating traditional vegetables"], "answer": "C", "explanation": "Female genital mutilation harms girls and is against the law in Kenya.", "outcome": "c" },
+    { "question": "A naming song is an example of culture shown through:", "options": ["Mining", "Music and ceremony", "A school motto", "Currency trade"], "answer": "B", "explanation": "Naming songs are sung at naming ceremonies and carry a message from the community.", "outcome": "b" }
   ],
   "sources": [
     "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 3.0 Social Organisations, Sub-strand 3.1 Aspects of Traditional Culture in the County",

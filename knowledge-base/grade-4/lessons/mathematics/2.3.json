@@ -1,0 +1,406 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "2.3",
+  "title": "Volume",
+  "overview": "Volume is the amount of space an object takes up. In this sub-strand you will pile blocks into cubes and cuboids, then find the volume by counting the blocks in the pile, including the blocks you cannot see.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Cubes, cuboids and piling",
+      "outcomes": ["a"],
+      "objectives": [
+        "Describe a cube and a cuboid.",
+        "Stack blocks safely to make a cube and a cuboid."
+      ],
+      "intro": "In a shop, loaves of bread, packets of milk and trays of eggs are often stacked. Putting objects neatly on top of one another is called piling. Some of those stacks form cubes and some form cuboids.",
+      "notes": "A cube and a cuboid are both solid shapes with flat faces. They are not flat drawings. You can hold them and stack them.\n\n### The cube\nA cube has 6 faces, and every face is a square of the same size. A dice and some gift boxes are cubes. All the edges of a cube are equal. If you build a cube from small blocks, the number of blocks along the length, the width and the height is the same.\n\n### The cuboid\nA cuboid also has 6 faces, but the faces are rectangles and they are not all the same. A chalk box, a matchbox and many book piles are cuboids. The length, the width and the height need not be equal.\n\n### Piling\nPiling means arranging objects in layers, one layer on top of another. The bottom layer must sit on a flat surface. Each block should rest fully on the blocks below it, not on an edge.\n\nBuild on the floor or on a low table. Do not stand on a chair to add a high layer. Keep your fingers clear when you lower a block. A stack that leans can fall. If it starts to lean, take it down and begin again.\n\nThe same blocks can be piled into a cube or into a cuboid, depending on how many you put along each direction.",
+      "keyWords": [
+        { "word": "cube", "meaning": "a solid with 6 equal square faces and equal edges" },
+        { "word": "cuboid", "meaning": "a box-shaped solid with 6 rectangular faces" },
+        { "word": "piling", "meaning": "stacking objects in layers, one on top of another" }
+      ],
+      "examples": [
+        {
+          "problem": "A stack is 4 blocks long, 4 blocks wide and 4 blocks high. Is it a cube or a cuboid?",
+          "steps": ["The length, width and height are all 4 blocks.", "All three measurements are equal, so the stack is a cube."],
+          "answer": "A cube",
+          "check": "4 === 4"
+        },
+        {
+          "problem": "A stack is 6 blocks long, 2 blocks wide and 3 blocks high. Is it a cube or a cuboid?",
+          "steps": ["The three measurements are 6, 2 and 3.", "They are not all equal, so the stack is a cuboid."],
+          "answer": "A cuboid",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Build a cube and a cuboid",
+        "materials": ["Equal small boxes, matchboxes or building blocks", "A flat part of the floor"],
+        "steps": [
+          "In a group, talk about which objects at home are piled, such as books, bricks or packets.",
+          "On a flat surface, stack blocks into a cuboid. Say how many blocks are along the length, the width and the height.",
+          "Use other blocks to stack a cube, with the same number of blocks in each direction.",
+          "Look at each stack from the side. If it leans, take it down safely and rebuild it.",
+          "Leave the floor clear when you finish so that nobody trips over the blocks."
+        ]
+      },
+      "practice": [
+        { "question": "How many faces does a cube have, and what shape is each face?", "answer": "6 faces, and each face is a square.", "check": null },
+        { "question": "A stack is 5 blocks long, 5 blocks wide and 2 blocks high. Is it a cube or a cuboid?", "answer": "A cuboid, because the height is not equal to the length and the width.", "check": null },
+        { "question": "Name one safety rule to follow when you pile blocks.", "answer": "Build on a flat surface and stop if the stack starts to lean, so that it does not fall.", "check": null }
+      ],
+      "summary": [
+        "A cube has equal edges and six equal square faces.",
+        "A cuboid is a box shape whose length, width and height need not be equal.",
+        "Pile blocks on a flat surface and keep the stack straight."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Stacks of different sizes",
+      "outcomes": ["a"],
+      "objectives": [
+        "Arrange the same number of blocks into different cuboids.",
+        "Explain that rearranging the same blocks does not change how many blocks there are."
+      ],
+      "intro": "Twelve bricks can make a long low wall or a shorter, taller stack. The shape changes. The number of bricks does not.",
+      "notes": "Start with a known number of equal blocks. Arrange them in one layer first. A single layer is a flat cuboid of height 1.\n\nTwelve blocks can be arranged in several ways:\n\n- 12 blocks in one row: 12 by 1 by 1\n- 6 by 2 by 1\n- 4 by 3 by 1\n- 3 by 2 by 2\n\nEach arrangement uses 12 blocks. The piles look different, but you have not added or lost a block.\n\n### Rows, columns and layers\nCall the lines going back the rows, the lines going across the columns, and the levels from the bottom the layers.\n\nNumber of blocks = rows × columns × layers.\n\nFor 3 rows, 2 columns and 2 layers: 3 × 2 × 2 = 12 blocks.\n\n### Practise different sizes\nTry 24 blocks. One possible cuboid is 4 rows, 3 columns and 2 layers, because 4 × 3 × 2 = 24. Another is 6 rows, 2 columns and 2 layers, because 6 × 2 × 2 = 24.\n\nA cube needs the same number in each direction. Eight blocks make a cube of 2 by 2 by 2. Twenty-seven blocks make a cube of 3 by 3 by 3. You cannot make a cube with 12 equal blocks, because no whole number multiplies by itself three times to give 12.\n\nBuild on a flat surface and keep each layer complete before you start the next one.",
+      "keyWords": [
+        { "word": "layer", "meaning": "one flat level of blocks in a stack" },
+        { "word": "rearrange", "meaning": "to build a different shape using the same blocks" }
+      ],
+      "examples": [
+        {
+          "problem": "Show that 4 rows, 3 columns and 2 layers use 24 blocks.",
+          "steps": ["One layer: 4 × 3 = 12 blocks.", "Two layers: 12 × 2 = 24 blocks."],
+          "answer": "24 blocks",
+          "check": "4 * 3 * 2 === 24"
+        },
+        {
+          "problem": "A group has 18 equal blocks. Can they make a stack of 3 rows, 3 columns and 2 layers?",
+          "steps": ["3 × 3 × 2 = 18.", "Yes, that stack uses exactly 18 blocks."],
+          "answer": "Yes. The stack uses 18 blocks.",
+          "check": "3 * 3 * 2 === 18"
+        }
+      ],
+      "activity": {
+        "title": "Same blocks, different stacks",
+        "materials": ["24 equal blocks or small boxes", "Flat floor space"],
+        "steps": [
+          "Count out 12 blocks together so that everyone agrees on the number.",
+          "Build a cuboid of 6 by 2 by 1. Then rebuild the same blocks as 3 by 2 by 2.",
+          "Count the blocks after each build to show that you still have 12.",
+          "With 8 blocks, build a cube. Check that the length, width and height are equal.",
+          "Take the stacks down carefully and return every block."
+        ]
+      },
+      "practice": [
+        { "question": "How many blocks are in a stack of 6 rows, 2 columns and 2 layers?", "answer": "24 blocks", "check": "6 * 2 * 2 === 24" },
+        { "question": "A single layer has 4 rows and 3 columns. How many blocks are in that layer?", "answer": "12 blocks", "check": "4 * 3 === 12" },
+        { "question": "How many blocks make a cube that is 2 blocks along each edge?", "answer": "8 blocks", "check": "2 * 2 * 2 === 8" }
+      ],
+      "summary": [
+        "The same blocks can be piled into different cuboids.",
+        "Rows × columns × layers gives the number of blocks.",
+        "A cube has the same number of blocks along every edge."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Volume of a cuboid by piling",
+      "outcomes": ["b"],
+      "objectives": [
+        "Explain volume as the number of unit cubes that fill a solid.",
+        "Find the volume of a cuboid by counting the blocks in its pile."
+      ],
+      "intro": "A chalk box takes up space on the table. The amount of space a solid takes up is its volume. When the solid is built from equal blocks, the volume is the number of those blocks.",
+      "notes": "Volume is the space occupied by an object. For a stack of equal blocks, you do not need a new measuring tool. Each small block is one unit cube, and the volume is how many unit cubes are in the stack.\n\n### Count a cuboid in layers\nA cuboid pile has rows, columns and layers.\n\n1. Count the blocks in one row.\n2. Count how many such rows are in the bottom layer. Multiply to get the blocks in one layer.\n3. Count the layers. Multiply the blocks in one layer by the number of layers.\n\nA cuboid with 5 rows, 3 columns and 2 layers has volume 5 × 3 × 2 = 30 unit cubes.\n\n### Hidden blocks still count\nIn a solid stack, blocks in the middle and at the back are hidden. They still fill space, so they are part of the volume. Do not count only the blocks you can see on the front.\n\n### The unit\nSay what the unit cube is. If you used matchboxes, the volume is that many matchboxes. If you used centimetre cubes, the volume is that many cubic centimetres. Two people who use different blocks will get different numbers for the same big box.\n\nAn egg tray with 6 rows and 5 columns holds 6 × 5 = 30 eggs in one layer. Four such trays piled up hold 6 × 5 × 4 = 120 eggs. The pile is a cuboid, and 120 is the number of egg spaces in it.",
+      "keyWords": [
+        { "word": "volume", "meaning": "the amount of space an object takes up" },
+        { "word": "unit cube", "meaning": "one equal block used to fill a cube or a cuboid" }
+      ],
+      "examples": [
+        {
+          "problem": "A cuboid is piled with 5 rows, 3 columns and 2 layers of blocks. What is its volume?",
+          "steps": ["One layer: 5 × 3 = 15 blocks.", "Two layers: 15 × 2 = 30 blocks."],
+          "answer": "30 unit cubes",
+          "check": "5 * 3 * 2 === 30"
+        },
+        {
+          "problem": "One egg tray has 6 rows and 5 columns. Four trays are piled. How many egg spaces are in the pile?",
+          "steps": ["One tray: 6 × 5 = 30.", "Four layers: 30 × 4 = 120."],
+          "answer": "120 egg spaces",
+          "check": "6 * 5 * 4 === 120"
+        }
+      ],
+      "activity": {
+        "title": "Count the cuboid",
+        "materials": ["Equal blocks or small boxes", "Exercise book"],
+        "steps": [
+          "In a group, pile blocks into a cuboid with at least 2 layers.",
+          "Count the rows, the columns and the layers. Multiply to find the volume.",
+          "Take the stack apart and count every block. The two numbers should match.",
+          "Build a different cuboid and repeat. Record both volumes.",
+          "Point to a block that was hidden inside the first stack and explain why it was still counted."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 180\" font-family=\"sans-serif\"><rect width=\"420\" height=\"180\" fill=\"#ffffff\"/><g stroke=\"#1e3a8a\" stroke-width=\"2\" fill=\"#bfdbfe\"><rect x=\"40\" y=\"70\" width=\"36\" height=\"36\"/><rect x=\"76\" y=\"70\" width=\"36\" height=\"36\"/><rect x=\"112\" y=\"70\" width=\"36\" height=\"36\"/><rect x=\"148\" y=\"70\" width=\"36\" height=\"36\"/><rect x=\"40\" y=\"34\" width=\"36\" height=\"36\"/><rect x=\"76\" y=\"34\" width=\"36\" height=\"36\"/><rect x=\"112\" y=\"34\" width=\"36\" height=\"36\"/><rect x=\"148\" y=\"34\" width=\"36\" height=\"36\"/></g><text x=\"210\" y=\"60\" font-size=\"15\" fill=\"#111827\">4 columns</text><text x=\"210\" y=\"82\" font-size=\"15\" fill=\"#111827\">2 layers</text><text x=\"210\" y=\"104\" font-size=\"15\" fill=\"#111827\">1 row shown</text><text x=\"210\" y=\"140\" font-size=\"15\" fill=\"#111827\">4 x 1 x 2 = 8 cubes</text></svg>",
+        "caption": "A cuboid of 4 columns, 1 row and 2 layers has a volume of 8 unit cubes."
+      },
+      "practice": [
+        { "question": "Find the volume of a cuboid with 4 rows, 4 columns and 3 layers.", "answer": "48 unit cubes", "check": "4 * 4 * 3 === 48" },
+        { "question": "A cuboid has 8 rows, 2 columns and 5 layers. What is its volume?", "answer": "80 unit cubes", "check": "8 * 2 * 5 === 80" },
+        { "question": "Why do hidden blocks inside a stack still count in the volume?", "answer": "They fill space inside the cuboid, so they are part of the pile.", "check": null }
+      ],
+      "summary": [
+        "The volume of a block cuboid is the number of unit cubes in the pile.",
+        "Multiply rows × columns × layers.",
+        "Count hidden blocks as well as the ones you can see."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Volume of a cube by piling",
+      "outcomes": ["c"],
+      "objectives": [
+        "Build a cube from equal blocks.",
+        "Calculate the volume of a cube by multiplying three equal numbers."
+      ],
+      "intro": "A dice is a cube. If you could fill a large cube with tiny equal cubes, every edge would hold the same number. That equal number is the key to the volume.",
+      "notes": "A cube made of unit blocks has the same number of rows, columns and layers. Call that number the side of the cube, measured in blocks.\n\n### Small cubes you can build\n- Side 1: 1 × 1 × 1 = 1 unit cube. This is just one block.\n- Side 2: 2 × 2 × 2 = 8 unit cubes.\n- Side 3: 3 × 3 × 3 = 27 unit cubes.\n- Side 4: 4 × 4 × 4 = 64 unit cubes.\n- Side 5: 5 × 5 × 5 = 125 unit cubes.\n\n### How to multiply three numbers\nMultiply two of them first. For a cube of side 3: 3 × 3 = 9 blocks in one layer. Then 9 × 3 = 27 blocks in three layers.\n\n### Do not count only the outside\nA cube of side 3 looks as if it has blocks only on its faces. There is also a block in the centre that you cannot see when the cube is solid. The volume is 27, not just the blocks on the shell. Taking the cube apart and counting all the blocks checks the multiplication.\n\n### Cube or cuboid?\nIf the three numbers are equal, the pile is a cube and you may multiply the side by itself and by itself again. If one number is different, the pile is a cuboid and you still multiply rows × columns × layers, but you do not call it a cube.",
+      "keyWords": [
+        { "word": "side of a cube", "meaning": "the number of unit cubes along one edge" },
+        { "word": "cubic unit", "meaning": "the volume of one unit cube" }
+      ],
+      "examples": [
+        {
+          "problem": "Find the volume of a cube of side 3 unit cubes.",
+          "steps": ["One layer: 3 × 3 = 9.", "Three layers: 9 × 3 = 27."],
+          "answer": "27 unit cubes",
+          "check": "3 * 3 * 3 === 27"
+        },
+        {
+          "problem": "A cube is 4 blocks along each edge. What is its volume?",
+          "steps": ["4 × 4 = 16 blocks in one layer.", "16 × 4 = 64."],
+          "answer": "64 unit cubes",
+          "check": "4 * 4 * 4 === 64"
+        },
+        {
+          "problem": "Is a stack of 5 by 5 by 4 a cube? What is its volume?",
+          "steps": ["5, 5 and 4 are not all equal, so it is a cuboid.", "5 × 5 × 4 = 100."],
+          "answer": "It is a cuboid of volume 100 unit cubes.",
+          "check": "5 * 5 * 4 === 100"
+        }
+      ],
+      "activity": {
+        "title": "Build cubes and count",
+        "materials": ["At least 27 equal blocks", "Flat surface", "Exercise book"],
+        "steps": [
+          "Team up and build a cube of side 2. Count the blocks and check that 2 × 2 × 2 gives the same number.",
+          "If you have enough blocks, build a cube of side 3. Before you take it apart, predict the volume.",
+          "Take it apart and count every block, including any that were hidden.",
+          "Try to build a cube with 12 blocks. Discuss why a cube does not form.",
+          "Stack and unstack slowly so that blocks do not fall on feet or fingers."
+        ]
+      },
+      "practice": [
+        { "question": "What is the volume of a cube of side 2?", "answer": "8 unit cubes", "check": "2 * 2 * 2 === 8" },
+        { "question": "What is the volume of a cube of side 5?", "answer": "125 unit cubes", "check": "5 * 5 * 5 === 125" },
+        { "question": "A learner counts only the 9 blocks on the front face of a solid 3 by 3 by 3 cube. What is the correct volume?", "answer": "27 unit cubes", "check": "3 * 3 * 3 === 27" }
+      ],
+      "summary": [
+        "In a cube, rows, columns and layers are equal.",
+        "Volume of a cube = side × side × side.",
+        "Blocks hidden inside the cube are part of the volume."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Counting layers to find volume",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Find the number of blocks in one layer, then multiply by the number of layers.",
+        "Use the same method for cubes and for cuboids."
+      ],
+      "intro": "Once you know how many blocks make the bottom layer, every layer above it is a copy of that layer. You can find the volume without touching every block.",
+      "notes": "The bottom layer of a pile is a rectangle of unit cubes. Its area, in unit squares, is also the number of cubes in that layer.\n\nBlocks in one layer = rows × columns.\n\nVolume = blocks in one layer × number of layers.\n\n### A cuboid\nA bottom layer has 8 cubes, and there are 5 layers. The volume is 8 × 5 = 40 unit cubes. You should still be able to say the rows and columns. If the layer is 4 by 2, then 4 × 2 × 5 = 40 as well.\n\n### A cube\nEach layer of a cube of side 4 has 4 × 4 = 16 cubes. There are 4 layers, so the volume is 16 × 4 = 64 unit cubes.\n\n### Two ways, one answer\nCount all the blocks if the pile is small. Multiply if the pile is large or if some blocks are hidden. The two ways agree when every layer is complete. A missing block in the middle means the pile is not a full cuboid, so you cannot multiply as if every layer were full. Fill the gap or subtract the missing block: a full 3 × 3 × 2 cuboid has 18 blocks, and if 1 block is missing the solid part has 17.\n\nThis layer method is still the piling method. You are counting the pile by groups instead of one block at a time.",
+      "keyWords": [
+        { "word": "bottom layer", "meaning": "the first complete level of blocks, resting on the surface" },
+        { "word": "complete layer", "meaning": "a layer with every space filled, and no missing block" }
+      ],
+      "examples": [
+        {
+          "problem": "One layer of a cuboid has 8 blocks. There are 5 layers. What is the volume?",
+          "steps": ["Each layer matches the bottom layer.", "8 × 5 = 40."],
+          "answer": "40 unit cubes",
+          "check": "8 * 5 === 40"
+        },
+        {
+          "problem": "A cube of side 4 is built in layers. Find the volume from the layers.",
+          "steps": ["One layer: 4 × 4 = 16.", "Four layers: 16 × 4 = 64."],
+          "answer": "64 unit cubes",
+          "check": "4 * 4 * 4 === 64"
+        },
+        {
+          "problem": "A full cuboid of 3 rows, 3 columns and 2 layers has one block missing. How many blocks are actually in the pile?",
+          "steps": ["Full volume: 3 × 3 × 2 = 18.", "18 − 1 = 17."],
+          "answer": "17 blocks",
+          "check": "3 * 3 * 2 - 1 === 17"
+        }
+      ],
+      "activity": {
+        "title": "Layer by layer",
+        "materials": ["Equal blocks", "Exercise book"],
+        "steps": [
+          "Build only the bottom layer of a cuboid. Count the blocks and write the number.",
+          "Add two more layers that match the bottom layer. Predict the volume, then count to check.",
+          "Build a cube layer by layer. Record the side, the blocks in one layer and the volume.",
+          "Remove one block from a cuboid and explain why you must subtract instead of using the full multiplication.",
+          "Compare your method with another group. A different order of multiplying should give the same volume."
+        ]
+      },
+      "practice": [
+        { "question": "A layer has 6 rows and 4 columns. Six such layers are piled. What is the volume?", "answer": "144 unit cubes", "check": "6 * 4 * 6 === 144" },
+        { "question": "How many blocks are in one layer of a cube of side 5, and what is the volume of the cube?", "answer": "25 blocks in one layer, and the volume is 125 unit cubes.", "check": "5 * 5 * 5 === 125" },
+        { "question": "A cuboid of volume 30 unit cubes is made of 3 equal layers. How many blocks are in each layer?", "answer": "10 blocks", "check": "30 / 3 === 10" }
+      ],
+      "summary": [
+        "Find the blocks in one layer, then multiply by the number of layers.",
+        "The same method works for a cube, where every side is equal.",
+        "Multiply only when every layer is complete."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Using volume in everyday piles",
+      "outcomes": ["d"],
+      "objectives": [
+        "Describe situations where people stack objects into cubes or cuboids.",
+        "Work out how many items are in a real pile of equal layers."
+      ],
+      "intro": "A grocer stacks packets so that customers can see them and so that they do not fall. A builder stacks bricks. Knowing the number in the pile tells them how much they have, without unpacking every layer.",
+      "notes": "The piling method is useful whenever equal objects are stacked in a cuboid.\n\n- Packets of flour or sugar stacked in a store\n- Bricks stacked at a building site\n- Books packed in a carton in equal rows\n- Crates of bottles arranged in layers\n- Boxes used to keep produce off a damp floor\n\nIn each case, count one layer and multiply by the number of layers. A store has 4 packets along the row, 3 packets across and 5 layers. The stack holds 4 × 3 × 5 = 60 packets.\n\n### Same items, different stack\nSixty packets can also be arranged as 6 × 5 × 2. The volume in packets stays 60, but a lower stack may be safer. A tall stack of bottles can fall and break, so a wide, low cuboid is often the better pile.\n\n### What volume tells you\nVolume tells you how much space the stack fills and how many unit items are inside it. It does not tell you the mass of the items or the price. A large pile of empty boxes can have a big volume and a small mass.\n\nPeople who pack goods, build stores or make containers rely on careful stacking. Counting honestly, and stacking safely, makes the piling method worth using.",
+      "keyWords": [
+        { "word": "stack", "meaning": "a pile of objects arranged in layers" },
+        { "word": "packing", "meaning": "arranging items so that they fit in a space without wasting room" }
+      ],
+      "examples": [
+        {
+          "problem": "Packets are stacked 4 along a row, 3 across and 5 layers high. How many packets are in the stack?",
+          "steps": ["One layer: 4 × 3 = 12 packets.", "Five layers: 12 × 5 = 60 packets."],
+          "answer": "60 packets",
+          "check": "4 * 3 * 5 === 60"
+        },
+        {
+          "problem": "The same 60 packets are restacked as 6 rows, 5 columns and 2 layers. How many packets is that?",
+          "steps": ["6 × 5 × 2 = 60.", "The number of packets has not changed."],
+          "answer": "60 packets",
+          "check": "6 * 5 * 2 === 60"
+        }
+      ],
+      "activity": {
+        "title": "Pack a model stack",
+        "materials": ["Equal boxes, books or blocks", "Exercise book"],
+        "steps": [
+          "Discuss places where you have seen cubes or cuboids stacked, such as a shop, a store or a building site.",
+          "Pile 24 equal objects into a cuboid that is only 2 layers high. Record rows, columns and layers.",
+          "Work out the volume by multiplying, then count to check.",
+          "Talk about why a lower stack can be safer than a tall one.",
+          "If a digital device is allowed, play a stacking game and write the volume of one cuboid you built. Stop if the stack in the classroom becomes unsteady."
+        ]
+      },
+      "practice": [
+        { "question": "Bricks are piled in 8 rows, 5 columns and 4 layers. How many bricks is that?", "answer": "160 bricks", "check": "8 * 5 * 4 === 160" },
+        { "question": "A carton holds books in 3 rows, 4 columns and 3 layers. How many books is that?", "answer": "36 books", "check": "3 * 4 * 3 === 36" },
+        { "question": "Give one reason for finding the volume of a stack instead of unpacking it.", "answer": "You can find how many items are in the stack by counting one layer and multiplying, without taking the stack apart.", "check": null },
+        { "question": "A cube stack of packets is 3 packets along each edge. How many packets is that?", "answer": "27 packets", "check": "3 * 3 * 3 === 27" }
+      ],
+      "summary": [
+        "Shops, stores and building sites pile equal objects into cuboids.",
+        "Rows × columns × layers gives the number of items.",
+        "A lower stack of the same items can be safer than a tall one."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which stack is a cube?",
+      "options": ["3 by 3 by 2", "4 by 4 by 4", "5 by 2 by 5", "6 by 1 by 4"],
+      "answer": "B",
+      "explanation": "A cube has the same number of blocks along the length, the width and the height. Only 4 by 4 by 4 is equal in all three.",
+      "outcome": "a",
+      "check": "4 * 4 * 4 === 64"
+    },
+    {
+      "question": "How many blocks are used in a stack of 3 rows, 2 columns and 2 layers?",
+      "answer": "12 blocks",
+      "explanation": "3 × 2 × 2 = 12.",
+      "outcome": "a",
+      "check": "3 * 2 * 2 === 12"
+    },
+    {
+      "question": "What is the volume of a cuboid with 5 rows, 3 columns and 2 layers?",
+      "options": ["10 unit cubes", "30 unit cubes", "25 unit cubes", "15 unit cubes"],
+      "answer": "B",
+      "explanation": "5 × 3 × 2 = 30 unit cubes.",
+      "outcome": "b",
+      "check": "5 * 3 * 2 === 30"
+    },
+    {
+      "question": "One layer has 7 rows and 4 columns. There are 3 layers. What is the volume?",
+      "answer": "84 unit cubes",
+      "explanation": "7 × 4 × 3 = 84.",
+      "outcome": "b",
+      "check": "7 * 4 * 3 === 84"
+    },
+    {
+      "question": "Four egg trays, each with 6 rows and 5 columns, are piled. How many egg spaces are in the pile?",
+      "answer": "120 egg spaces",
+      "explanation": "6 × 5 × 4 = 120.",
+      "outcome": "b",
+      "check": "6 * 5 * 4 === 120"
+    },
+    {
+      "question": "What is the volume of a cube of side 3?",
+      "options": ["9 unit cubes", "12 unit cubes", "27 unit cubes", "18 unit cubes"],
+      "answer": "C",
+      "explanation": "3 × 3 × 3 = 27.",
+      "outcome": "c",
+      "check": "3 * 3 * 3 === 27"
+    },
+    {
+      "question": "What is the volume of a cube of side 5?",
+      "answer": "125 unit cubes",
+      "explanation": "5 × 5 × 5 = 125.",
+      "outcome": "c",
+      "check": "5 * 5 * 5 === 125"
+    },
+    {
+      "question": "A cube of side 4 is counted layer by layer. How many unit cubes are in one layer?",
+      "answer": "16 unit cubes",
+      "explanation": "One layer is 4 × 4 = 16. The full cube is 64.",
+      "outcome": "c",
+      "check": "4 * 4 === 16"
+    },
+    {
+      "question": "Packets are stacked 6 by 4 by 3, then restacked as 8 by 3 by 3. What happens to the number of packets?",
+      "options": ["It becomes 72", "It stays 72", "It becomes 36", "It becomes 24"],
+      "answer": "B",
+      "explanation": "6 × 4 × 3 = 72 and 8 × 3 × 3 = 72. Rearranging does not change the number.",
+      "outcome": "d",
+      "check": "6 * 4 * 3 === 8 * 3 * 3"
+    },
+    {
+      "question": "Why is a low, wide stack often safer than a tall stack of the same blocks?",
+      "answer": "A tall stack can lean and fall, while a lower stack is steadier.",
+      "explanation": "The number of blocks can stay the same while the shape of the pile changes.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 2.0 Measurement, Sub-strand 2.3 Volume",
+    "KICD Grade 4 Mathematics radio lesson: Volume of cubes and cuboids"
+  ]
+}

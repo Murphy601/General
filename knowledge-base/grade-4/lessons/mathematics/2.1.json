@@ -299,6 +299,119 @@
         "Divide: metres first, change any remainder to centimetres, then divide the centimetres.",
         "Changing everything to centimetres is a quick way to check."
       ]
+    },
+    {
+      "number": 7,
+      "title": "Measuring longer lengths in metres and centimetres",
+      "outcomes": ["b", "c", "j"],
+      "objectives": [
+        "Measure a length longer than one metre and record it in metres and centimetres.",
+        "Change that measurement into centimetres.",
+        "Compare an estimate in metres with the measured length."
+      ],
+      "intro": "A desk may fit on a 30 cm ruler, but a classroom wall, a path or a seedbed is much longer. For those lengths you use a metre rule or a tape measure and record both metres and centimetres.",
+      "notes": "A metre rule is 100 cm long. If an object is longer than the rule, one placement is not enough.\n\n### Measuring past one metre\nPut the 0 mark at one end of the object. Where the rule ends, make a small chalk mark. Move the rule so that 0 sits on that mark, and measure again. Count the full metres, then read the centimetres that are left.\n\nIf the rule fits 6 times and 35 cm remain, the length is 6 m 35 cm.\n\nA tape measure is often easier for a path or the length of a room, because the metres and centimetres are already printed on it. Keep the tape straight. A sagging tape gives a length that is too long.\n\n### Changing the record into centimetres\nUse 1 m = 100 cm.\n\n- 6 m 35 cm = 600 cm + 35 cm = 635 cm\n- 3 m 4 cm = 300 cm + 4 cm = 304 cm\n\nThe 4 cm in 3 m 4 cm is not 40 cm. The tens place stays empty, so you write 304 cm, not 34 cm and not 340 cm.\n\n### Estimate, then measure\nPicture how many metre rules would fit. A classroom door is about 2 m high. Write the estimate, measure, and subtract the smaller length from the larger one. If you estimated 6 m, that is 600 cm. If the actual length is 6 m 45 cm, that is 645 cm. The difference is 645 − 600 = 45 cm.\n\n### Why the measurement is worth doing\nA farmer measures a seedbed so that planting rows fit the land. A person buying rope, wire or pipe needs the right length, so money and material are not wasted. Take care of the metre rule and the tape measure: do not bend them, step on them or leave them in the rain.",
+      "keyWords": [
+        { "word": "metre rule", "meaning": "a straight measuring stick that is 1 metre, or 100 centimetres, long" },
+        { "word": "mixed units", "meaning": "a length written with both metres and centimetres, such as 6 m 35 cm" }
+      ],
+      "examples": [
+        {
+          "problem": "A metre rule fits along a wall 6 times, and 35 cm are left. Write the length in metres and centimetres, and also in centimetres only.",
+          "steps": ["6 full metres and 35 cm make 6 m 35 cm.", "6 × 100 = 600 cm, and 600 + 35 = 635 cm."],
+          "answer": "6 m 35 cm, which is 635 cm",
+          "check": "6*100 + 35 === 635"
+        },
+        {
+          "problem": "Cherono estimated a path to be 8 m long. She measured 7 m 40 cm. By how many centimetres was the estimate off?",
+          "steps": ["8 m = 800 cm.", "7 m 40 cm = 740 cm.", "800 − 740 = 60 cm. The estimate was too long."],
+          "answer": "60 cm",
+          "check": "8*100 - (7*100 + 40) === 60"
+        }
+      ],
+      "activity": {
+        "title": "Metre by metre around the classroom",
+        "materials": ["Metre rule or tape measure", "Chalk", "Exercise book"],
+        "steps": [
+          "In a group, choose three long objects or distances: the length of the classroom, the width of the classroom and the length of the chalkboard.",
+          "Each person first writes an estimate in metres.",
+          "Measure each one. If you use a metre rule, mark each metre with chalk, then measure the leftover centimetres.",
+          "Record every length in metres and centimetres, then change it to centimetres and find the difference from your estimate.",
+          "Discuss one job, such as marking a seedbed or buying rope, where this kind of measuring saves material."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 130\" font-family=\"sans-serif\"><rect width=\"460\" height=\"130\" fill=\"#ffffff\"/><rect x=\"20\" y=\"40\" width=\"400\" height=\"28\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><line x1=\"220\" y1=\"40\" x2=\"220\" y2=\"68\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><line x1=\"370\" y1=\"40\" x2=\"370\" y2=\"68\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><g font-size=\"14\" fill=\"#111827\" text-anchor=\"middle\"><text x=\"120\" y=\"59\">1 m</text><text x=\"295\" y=\"59\">1 m</text><text x=\"415\" y=\"59\">35 cm</text><text x=\"230\" y=\"105\">2 m 35 cm = 235 cm</text></g></svg>",
+        "caption": "Two full metres and 35 cm left over make 2 m 35 cm, or 235 cm."
+      },
+      "practice": [
+        { "question": "A metre rule fits along a bench 4 times, with 18 cm left. How long is the bench in centimetres?", "answer": "418 cm", "check": "4*100 + 18 === 418" },
+        { "question": "Write 9 m 5 cm in centimetres.", "answer": "905 cm", "check": "9*100 + 5 === 905" },
+        { "question": "Baraka estimated a rope to be 2 m. It measured 1 m 95 cm. What is the difference in centimetres?", "answer": "5 cm", "check": "2*100 - (1*100 + 95) === 5" },
+        { "question": "Why should a tape measure be kept straight while you measure a path?", "answer": "A sagging tape is longer than the straight distance, so the reading would be too big.", "check": null }
+      ],
+      "summary": [
+        "Count full metres, then read the centimetres that are left.",
+        "To change metres and centimetres into centimetres, multiply the metres by 100 and add the centimetres.",
+        "Compare an estimate with the measurement by subtracting."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Mixed problems on length",
+      "outcomes": ["d", "e", "f", "g", "h", "i"],
+      "objectives": [
+        "Choose whether a length problem needs conversion, perimeter, addition, subtraction, multiplication or division.",
+        "Solve a problem that uses more than one of these skills.",
+        "Check the answer by working in centimetres."
+      ],
+      "intro": "Real measuring jobs rarely use only one skill. A farmer may find the distance around a seedbed and then change metres into centimetres. A carpenter may add two lengths and later cut a plank into equal pieces.",
+      "notes": "Read the whole question before you calculate. The words tell you the operation.\n\n- Altogether, total or perimeter: add.\n- Left, how much more or difference: subtract.\n- Each, times or equal pieces of the same length: multiply.\n- Shared equally or cut into equal pieces: divide.\n- Change between metres and centimetres: multiply or divide by 100.\n\n### Work in one unit when it helps\nA rectangle is 9 m long and 6 m wide. The perimeter is 9 + 6 + 9 + 6 = 30 m. If the wire is sold by the centimetre, change the answer: 30 × 100 = 3,000 cm.\n\n### More than one step\nA tailor has 3 m 55 cm of cloth and buys 2 m 70 cm more.\n\n- Centimetres: 55 + 70 = 125 cm = 1 m 25 cm.\n- Metres: 3 + 2 + 1 = 6 m.\n- She has 6 m 25 cm.\n\nCheck in centimetres: 355 + 270 = 625 cm = 6 m 25 cm.\n\nFive pieces of ribbon, each 1 m 40 cm, have total length 140 × 5 = 700 cm = 7 m.\n\nA wire of 9 m 60 cm cut into 6 equal pieces gives 960 ÷ 6 = 160 cm = 1 m 60 cm each.\n\n### A check you can trust\nChange every length to centimetres, do the operation, then change back if the question asks for metres and centimetres. The two methods must agree. If they do not, go back to the step where you regrouped 100 cm as 1 m.",
+      "keyWords": [
+        { "word": "mixed problem", "meaning": "a question that needs more than one operation or a change of units" },
+        { "word": "operation", "meaning": "addition, subtraction, multiplication or division" }
+      ],
+      "examples": [
+        {
+          "problem": "A seedbed is 9 m long and 6 m wide. What is its perimeter?",
+          "steps": ["Add the length and the width: 9 + 6 = 15 m.", "Double that distance: 15 × 2 = 30 m."],
+          "answer": "30 m",
+          "check": "(9 + 6) * 2 === 30"
+        },
+        {
+          "problem": "Add 3 m 55 cm and 2 m 70 cm.",
+          "steps": ["55 + 70 = 125 cm = 1 m 25 cm.", "3 + 2 + 1 = 6 m."],
+          "answer": "6 m 25 cm",
+          "check": "355 + 270 === 625"
+        },
+        {
+          "problem": "A wire 9 m 60 cm long is cut into 6 equal pieces. How long is each piece?",
+          "steps": ["9 m 60 cm = 960 cm.", "960 ÷ 6 = 160 cm = 1 m 60 cm."],
+          "answer": "1 m 60 cm",
+          "check": "960 / 6 === 160"
+        }
+      ],
+      "activity": {
+        "title": "Choose the operation",
+        "materials": ["Metre rule or tape measure", "String", "Exercise book"],
+        "steps": [
+          "In pairs, measure two lengths of string in metres and centimetres.",
+          "Write four questions about your strings: an addition, a subtraction, a multiplication by 2 or 3, and a division into 2 equal pieces.",
+          "Swap books with another pair and solve their questions. Show a check by changing the lengths to centimetres.",
+          "Measure the sides of a rectangular table and find its perimeter in metres and centimetres, then in centimetres only."
+        ]
+      },
+      "practice": [
+        { "question": "A triangle has sides 5 m, 5 m and 6 m. Find its perimeter.", "answer": "16 m", "check": "5 + 5 + 6 === 16" },
+        { "question": "Subtract 3 m 75 cm from 8 m 20 cm.", "answer": "4 m 45 cm", "check": "820 - 375 === 445" },
+        { "question": "Multiply 2 m 15 cm by 4.", "answer": "8 m 60 cm", "check": "215 * 4 === 860" },
+        { "question": "Divide 7 m 50 cm by 5.", "answer": "1 m 50 cm", "check": "750 / 5 === 150" }
+      ],
+      "summary": [
+        "The words of the question tell you which operation to use.",
+        "Perimeter is still the sum of all the sides.",
+        "Changing every length to centimetres is a reliable check."
+      ]
     }
   ],
   "quiz": [

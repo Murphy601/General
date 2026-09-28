@@ -185,6 +185,103 @@
         "Compost adds nutrients, improves soil structure and helps soil hold water.",
         "Composting turns wastes into a resource and keeps the environment clean."
       ]
+    },
+    {
+      "number": 5,
+      "title": "How composting conserves soil and the environment",
+      "outcomes": ["c"],
+      "objectives": [
+        "Explain how compost manure helps to stop soil from being washed or blown away.",
+        "Explain how turning wastes into compost cares for the environment."
+      ],
+      "intro": "After a heavy rain, water running down a bare path is brown. That brown colour is soil being carried away. A garden that has compost behaves differently, and that difference is part of soil conservation.",
+      "notes": "The top layer of soil is the most useful part. It holds plant nutrients and many small living things. When rainwater runs quickly over bare ground, it picks up this topsoil and carries it away. Strong wind can blow dry, loose soil away too. This loss of soil is called soil erosion. Once topsoil is gone, crops do not grow well.\n\n### How compost holds soil in place\nCompost manure helps the soil particles stick together. Water then soaks into the ground instead of racing over the surface and taking soil with it. A bed that has compost stays softer after rain. Roots hold on more easily, and the soil is less likely to form a hard crust.\n\nCompost also acts like a sponge. It stores water for the crop, so the farmer does not need to water as often. Soil that stays slightly moist is not easily blown away by wind.\n\n### Keeping plant food on the farm\nBanana peels, slashed grass and crop remains already contain plant food. If they are thrown away or burnt, that food is lost and burning makes smoke. If they are composted and returned to the garden, the next crop can use the same food. Nutrients stay in the farm instead of being wasted.\n\n### Composting as care for the environment\nWastes left in the open smell, breed flies and make the compound untidy. Plastics should still be kept out and taken to the right place, but organic wastes can be composted. Making compost is therefore a way of disposing of waste that also conserves soil. In Science and Technology you learn about waste disposal. Composting is one safe method for wastes that can rot.\n\nLook at two places after rain: a bare path and a bed where compost was mixed in. On the path, water runs off and the soil looks washed. On the composted bed, water soaks in and the soil stays where it is. That observation shows why farmers value compost.",
+      "keyWords": [
+        { "word": "soil erosion", "meaning": "the carrying away of soil by water or wind" },
+        { "word": "topsoil", "meaning": "the upper layer of soil, which is richest in plant food" },
+        { "word": "conserve", "meaning": "to look after something so that it is not lost or wasted" }
+      ],
+      "examples": [
+        {
+          "problem": "Two beds were left bare during a heavy rain. One had compost mixed into it and the other did not. Which bed is more likely to lose soil, and why?",
+          "steps": [
+            "Compost helps soil particles stick together and lets water soak in.",
+            "On the bed without compost, water runs off the surface and carries soil away."
+          ],
+          "answer": "The bed without compost, because water runs off and washes the soil away.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "After-rain soil watch",
+        "materials": ["Two small plots or trays of soil", "Compost", "Watering can", "Exercise book"],
+        "steps": [
+          "Fill two trays with the same soil. Mix compost into one tray only.",
+          "Tilt both trays slightly and pour the same amount of water at the top of each.",
+          "Collect the water that runs off and compare how muddy it is.",
+          "Discuss how composting wastes and returning them to the garden conserves soil.",
+          "Write two sentences on how composting cares for the environment."
+        ]
+      },
+      "practice": [
+        { "question": "What is soil erosion?", "answer": "The carrying away of soil by water or wind.", "check": null },
+        { "question": "Give two ways compost manure helps to conserve soil.", "answer": "Any two: holds soil particles together, lets water soak in, stores water, stops soil being blown away easily, keeps nutrients on the farm.", "check": null },
+        { "question": "Why is burning kitchen waste a poorer choice than composting it?", "answer": "Burning wastes plant food and makes smoke, while composting returns the food to the soil.", "check": null }
+      ],
+      "summary": [
+        "Soil erosion is the loss of soil by water or wind.",
+        "Compost holds soil together, stores water and keeps nutrients on the farm.",
+        "Composting organic waste keeps the compound clean and cares for the environment."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Practising compost making for the school garden",
+      "outcomes": ["a", "b", "c"],
+      "objectives": [
+        "Collect suitable local wastes and build or care for a compost heap.",
+        "Use finished compost in a gardening activity and explain why the work matters."
+      ],
+      "intro": "Knowing the layers of a compost heap is only the start. The skill becomes real when you collect wastes from your own compound, build the heap with others, and later spread the manure where crops are growing.",
+      "notes": "Every home and school has organic wastes, but they are not all the same. Walk around and name what you can use. Slashed grass from the compound, fallen leaves, weeds that have not made seeds, and kitchen wastes such as fruit peels and vegetable stalks are suitable. If the school keeps rabbits or chickens, their droppings can be added in a thin layer. Maize stalks make a good coarse bottom layer.\n\n### Working as one group\nCompost making is easier when the work is shared. One pair can collect dry vegetation, another can collect green wastes, and another can fetch water, ash and a little topsoil. Agree on the jobs before you start, then help anyone who finishes early. Unity means everyone is aiming at the same finished heap.\n\n### Safety while you work\nWear gloves or use a stick to pick up wastes. Do not put your hands in your mouth. Wash with soap when you finish. Carry a jembe or panga with the sharp side pointing down, and never play with tools. Keep plastics, glass and tins out of the heap and put them aside for proper disposal.\n\n### From heap to garden\nIf your heap is still new, keep watering and turning it as you learned. If an older heap is dark, crumbly and smells like soil, it is ready. Spread it on a vegetable bed and mix it in before planting, or place it around crops that are already growing without touching the stems. Label the bed so the class can watch how the plants grow.\n\n### Why the practice matters\nEach time you compost slashed vegetation and kitchen waste, you do three things at once. You identify suitable materials, you prepare manure for farming, and you care for the soil and the compound. That is soil conservation you can see with your own eyes.",
+      "keyWords": [
+        { "word": "slashed vegetation", "meaning": "grass, weeds and leaves that have been cut" },
+        { "word": "kitchen waste", "meaning": "leftover food materials from preparing meals, such as peels" },
+        { "word": "unity", "meaning": "working together for the same goal" }
+      ],
+      "examples": [
+        {
+          "problem": "A group has maize stalks, fresh grass, a polythene bag, chicken droppings and cabbage leaves. Which materials should they put in the compost heap?",
+          "steps": [
+            "Maize stalks, fresh grass, chicken droppings and cabbage leaves can rot.",
+            "A polythene bag does not rot and must be left out."
+          ],
+          "answer": "Maize stalks, fresh grass, chicken droppings and cabbage leaves.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Collect, compost and use",
+        "materials": ["Gloves", "Sacks or baskets", "Jembe", "Watering can", "Slashed vegetation", "Kitchen wastes", "Crop garden or planting bed"],
+        "steps": [
+          "In groups, collect suitable materials from the school compound and kitchen. Sort out anything that should not be composted.",
+          "Add the materials to your heap in layers, or start a new heap if you do not have one. Water it lightly.",
+          "Share the tasks so that every learner has a job.",
+          "If you have ready compost, spread it in a crop garden and mix it into the soil.",
+          "Tell the class one way this work conserves soil and one way it keeps the environment clean."
+        ]
+      },
+      "practice": [
+        { "question": "Name three organic wastes you can collect at school for compost.", "answer": "Any three: slashed grass, leaves, weeds without seeds, fruit peels, vegetable stalks, animal droppings, maize stalks.", "check": null },
+        { "question": "Why should the class share the jobs when making compost?", "answer": "The work is easier and finishes well when everyone works together for the same heap.", "check": null },
+        { "question": "What should you do with finished compost in a crop garden?", "answer": "Spread it on the bed and mix it in, or place it around growing crops without touching the stems.", "check": null },
+        { "question": "Give one safety rule to follow when collecting wastes.", "answer": "Any one: wear gloves, do not touch your mouth, wash hands with soap, keep plastics and glass out, carry tools safely.", "check": null }
+      ],
+      "summary": [
+        "Collect local organic wastes such as slashed vegetation and kitchen wastes.",
+        "Share the work, follow safety rules and build the heap in layers.",
+        "Use ready compost in the crop garden so the soil and the environment both benefit."
+      ]
     }
   ],
   "quiz": [

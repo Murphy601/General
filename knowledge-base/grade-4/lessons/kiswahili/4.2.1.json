@@ -1,0 +1,131 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "4.2.1",
+  "title": "Kusoma: Kusoma kwa Mapana",
+  "overview": "Kusoma kwa mapana ni kusoma maandishi mengi ili kuongeza maarifa, si kumaliza ukurasa mmoja tu. Katika mada hii ndogo utajifunza kufungua na kufunga faili yenye kifungu, kuzingatia hatua za kiusalama unapotumia kifaa cha kidijitali, na kusakura tovuti salama ili kupata matini kuhusu dira. Pia utatoa muhtasari wa ulichosoma.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kufungua faili na hatua za kiusalama",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutambua jina la faili iliyo na kifungu cha kusoma na kuifungua.",
+        "Kufunga faili kwa namna inayotunza kifaa.",
+        "Kutaja na kufuata hatua za kiusalama unapotumia kifaa cha kidijitali."
+      ],
+      "intro": "Mwalimu amesema kifungu cha leo kipo kwenye faili iitwayo dira-ya-kusoma. Kabla ya kubofya, unahitaji kujua faili ipi ifunguliwe na jinsi ya kujilinda wewe na kifaa.",
+      "notes": "### Kusoma kwa mapana\nKusoma kwa mapana ni kusoma maandishi mengi na ya aina mbalimbali ili kuongeza maarifa. Hukusomi kurasa chache za zoezi tu. Unasoma vifungu, hadithi na makala kuhusu suala lengwa. Suala lengwa la mada hii ni dira: mwelekeo na malengo ya maisha. Ukijua unapotaka kufika, unasoma ili ujifunze njia.\n\n### Faili ni nini?\nFaili ni kabrasha la maandishi, picha au sauti lililohifadhiwa kwenye kifaa cha kidijitali kama tarakilishi, kibao au simu ya shule. Faili ya kusoma huwa na jina linaloonekana, kwa mfano dira-ya-kusoma. Jina hukusaidia kuichagua kati ya faili nyingine. Usiifungue faili ambayo hujapewa jina lake na mwalimu au mzazi.\n\n### Jinsi ya kufungua na kufunga\n- Omba ruhusa, kisha washa kifaa.\n- Fungua folda uliyoonyeshwa, kwa mfano Folda ya Kusoma.\n- Soma majina ya faili polepole. Chagua ile mwalimu amekutaja.\n- Bofya mara mbili kwa kipanya, au gusa jina la faili kwenye kibao, ili uifungue.\n- Soma kifungu. Neno gumu liandike daftari ili ulitafute kamusini baadaye.\n- Ukimaliza, funga faili kwa alama ya kufunga. Usizime kifaa kwa kuvuta waya ghafla. Mrudishie mwalimu kwa adabu.\n\n### Hatua za kiusalama\nKifaa ni cha kujifunzia, si cha kucheza na wageni wa mtandaoni.\n\n- Usizungumze na mtu usiyemjua. Mgeni mtandaoni si rafiki.\n- Ukipata ujumbe kutoka kwa mtu usiyemjua, usijibu. Mwambie mwalimu, mzazi au mlezi siku ile ile.\n- Usibonyeze viungo, picha wala matangazo usivyovijua.\n- Usitoe jina lako kamili, picha, jina la shule, anwani wala namba ya simu.\n- Tumia faili na tovuti ambazo mtu mzima amekubali tu.\n- Tunza kifaa: usikimwage maji, usilikanyage na usilitumie unapokula.\n\nKuwajibika kunamaanisha kufuata hatua hizi kila mara, hata kama hakuna mtu anayekuangalia. Usalama wako ni muhimu kuliko kuifungua kila kitu unachoona.",
+      "keyWords": [
+        { "word": "kusoma kwa mapana", "meaning": "kusoma maandishi mengi ili kuongeza maarifa" },
+        { "word": "faili", "meaning": "kabrasha la maandishi au picha lililohifadhiwa kwenye kifaa" },
+        { "word": "kiusalama", "meaning": "tahadhari unazochukua ili usidhuriwe wewe wala kifaa" },
+        { "word": "dira", "meaning": "mwelekeo au lengo unalotaka kufikia maishani" }
+      ],
+      "examples": [
+        {
+          "problem": "Kwenye folda kuna faili tatu: picha-ya-darasa, dira-ya-kusoma na mchezo-wa-video. Ni ipi ifunguliwe kwa somo la kusoma?",
+          "steps": ["Somo linahitaji kifungu cha kusoma kuhusu dira.", "Jina la faili linalolingana ni dira-ya-kusoma.", "Mchezo wa video si kifungu cha kusoma."],
+          "answer": "dira-ya-kusoma",
+          "check": null
+        },
+        {
+          "problem": "Ujumbe umetokea ukisema: Nitumie picha yako na jina la shule yako. Ufanye nini?",
+          "steps": ["Hujui mtu huyo.", "Usijibu na usitume picha wala jina la shule.", "Mwambie mwalimu, mzazi au mlezi mara moja."],
+          "answer": "Usijibu. Mwambie mtu mzima unayemwamini siku ile ile.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Fungua na ufunge faili kwa usalama",
+        "materials": ["Kifaa cha kidijitali kilichoidhinishwa na mwalimu", "Chati ya hatua za kiusalama", "Daftari na kalamu"],
+        "steps": [
+          "Kwenye kikundi, someni chati ya hatua za kiusalama na kila mmoja ataje hatua moja.",
+          "Kwa zamu, tambueni jina la faili lengwa kwenye tarakilishi kisha muifungue.",
+          "Mmoja asome sentensi ya kwanza kwa sauti, wengine waisikilize.",
+          "Fungeni faili na muonyeshe kuwa kifaa kimerejeshwa salama.",
+          "Jadilini: ni kwa nini hatufai kuwasiliana na watu tusiowajua mtandaoni?"
+        ]
+      },
+      "practice": [
+        { "question": "Faili ni nini?", "answer": "Ni kabrasha la maandishi, picha au sauti lililohifadhiwa kwenye kifaa cha kidijitali.", "check": null },
+        { "question": "Taja hatua mbili za kiusalama unapotumia mtandao.", "answer": "Mfano: usizungumze na mtu usiyemjua; usijibu ujumbe wa mgeni bali umwambie mwalimu au mzazi; usitoe picha wala jina la shule.", "check": null },
+        { "question": "Ukimaliza kusoma, unafanyaje ili ufunge faili kwa usalama?", "answer": "Ninabofya alama ya kufunga, sitoki na kifaa bila ruhusa, na ninalirudisha kwa mwalimu.", "check": null },
+        { "question": "Kwa nini tunasoma jina la faili kabla ya kuifungua?", "answer": "Ili tuchague faili lengwa iliyo na kifungu cha kusoma na tusifungue faili tusiyoijua.", "check": null }
+      ],
+      "summary": [
+        "Faili inatambuliwa kwa jina lake, kisha hufunguliwa na kufungwa kwa uangalifu.",
+        "Usiwasiliane na watu usiowajua mtandaoni, wala kutoa picha na jina la shule.",
+        "Ujumbe wa mgeni huambiwa mwalimu, mzazi au mlezi, na hujibiwi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kusakura matini na kutoa muhtasari",
+      "outcomes": ["c", "d", "e"],
+      "objectives": [
+        "Kutambua tovuti salama yenye matini inayofaa umri wako.",
+        "Kutumia kifaa cha kidijitali kupata kifungu kuhusu dira.",
+        "Kutoa muhtasari wa matini uliyosoma na kujibu maswali."
+      ],
+      "intro": "Zawadi anataka kujua maana ya neno dira na kusoma kifungu kinachomsaidia kuelewa lengo lake. Anatumia kamusi na ukurasa aliokubaliwa na mwalimu, si kurasa zozote zinazojitokeza.",
+      "notes": "### Kusakura kwa uwajibikaji\nKusakura ni kutafuta kurasa na vifungu kwenye mtandao. Unaporuka kutoka ukurasa mmoja hadi mwingine, chagua vilivyo salama. Tovuti salama kwa mwanafunzi ni ile mwalimu, mzazi au mlezi amekubali, yenye matini inayolingana na umri wako na somo. Ukurasa wa michezo ya kamari, maongezi na wageni, au picha zisizofaa si mahali pa kusoma.\n\nUkiona kitu kinachokutia wasiwasi, funga ukurasa na umwambie mtu mzima. Usijaribu kukificha.\n\n### Kutafuta maana na matamshi\nNeno gumu lifuate hatua hizi. Kwanza liandike. Pili, litafute kamusini kwa herufi yake ya kwanza, au kwenye kamusi ya mtandaoni iliyoidhinishwa. Tatu, chagua maana inayofaa kwenye sentensi, kwa sababu neno linaweza kuwa na maana zaidi ya moja. Panapowezekana, sikiliza matamshi kwenye kifaa ili usome neno kwa usahihi.\n\n### Kifungu: Dira Yangu\nJina langu ni Zawadi. Niko darasa la nne. Kila asubuhi nauliza, nitakapokuwa mkubwa nitafanya kazi gani? Hili ndilo swali la dira.\n\nDira ni mwelekeo wa maisha. Ni lengo unalotaka kufikia. Dira yangu ni kuwa mwalimu, kwa sababu napenda kuona mtoto akisoma na kuelewa. Ili nifike huko, ninasoma vitabu vingi darasani na nyumbani. Ninapokutana na neno gumu, natafuta maana yake kamusini.\n\nMwalimu wetu hutuonyesha kifungu kwenye tarakilishi. Tunafungua faili, tunasoma, kisha tunafunga faili. Sikusikilizi ujumbe wa mtu nisiyemjua. Nikiona ujumbe kama huo, namwambia mama. Dira yangu inanipa bidii. Nataka nifaulu na niwasaidie wenzangu. Mtu aliye na dira hasemi siwezi; anajaribu tena.\n\n### Muhtasari\nMuhtasari ni kueleza mambo muhimu kwa maneno machache, si kunakili kila sentensi. Muhtasari wa kifungu hiki ni: Zawadi yuko darasa la nne na dira yake ni kuwa mwalimu. Anasoma sana, anatumia kamusi, na anafuata usalama anapotumia kifaa.\n\nUnapojibu maswali, tumia habari zilizo kwenye matini. Usibuni tarehe, majina ya kaunti wala idadi ambayo haijaandikwa.",
+      "keyWords": [
+        { "word": "kusakura", "meaning": "kutafuta kurasa na vifungu kwenye mtandao" },
+        { "word": "matini", "meaning": "maandishi yanayosomwa, kama kifungu au makala" },
+        { "word": "muhtasari", "meaning": "maelezo mafupi ya mambo muhimu uliyosoma" },
+        { "word": "tovuti salama", "meaning": "ukurasa wa mtandaoni ulioidhinishwa na mwalimu au mzazi na unaofaa umri wako" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika muhtasari wa sentensi mbili wa kifungu Dira Yangu.",
+          "steps": ["Chagua mtu mkuu na lengo lake.", "Ongeza jinsi anavyojitahidi na usalama wake.", "Usinakili kifungu chote."],
+          "answer": "Zawadi anataka kuwa mwalimu. Anasoma vitabu vingi, anatumia kamusi, na hamjibu mtu asiyemjua mtandaoni.",
+          "check": null
+        },
+        {
+          "problem": "Neno dira katika kifungu lina maana gani?",
+          "steps": ["Rudi sehemu inayoeleza neno.", "Kifungu kinasema dira ni mwelekeo wa maisha na lengo unalotaka kufikia."],
+          "answer": "Mwelekeo wa maisha au lengo unalotaka kufikia.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sakura, soma, na simulia",
+        "materials": ["Kifaa cha kidijitali au chati ya kifungu", "Kamusi", "Daftari"],
+        "steps": [
+          "Kwa msaada wa mwalimu, fungueni ukurasa au faili salama yenye kifungu kuhusu dira.",
+          "Mmoja asome kwa sauti huku wengine mkifuatilia. Sikilizeni matamshi panapowezekana.",
+          "Andikeni maneno mawili magumu na mutafute maana zake kamusini au mtandaoni kwa ruhusa.",
+          "Kila mmoja aandike muhtasari wa sentensi mbili.",
+          "Jibuni maswali ya mwenzako kuhusu kifungu, kwa maandishi au kwa mazungumzo."
+        ]
+      },
+      "practice": [
+        { "question": "Tovuti salama kwa mwanafunzi ni ipi?", "answer": "Ni ile mwalimu, mzazi au mlezi amekubali, yenye matini inayofaa umri wake na somo.", "check": null },
+        { "question": "Dira ya Zawadi katika kifungu ni ipi?", "answer": "Kuwa mwalimu.", "check": null },
+        { "question": "Zawadi anafanya nini anapokutana na neno gumu?", "answer": "Anatafuta maana yake kamusini.", "check": null },
+        { "question": "Kwa nini muhtasari si kunakili kifungu chote?", "answer": "Muhtasari hueleza mambo muhimu tu kwa maneno machache.", "check": null }
+      ],
+      "summary": [
+        "Sakura tovuti zilizoidhinishwa tu, zenye matini inayofaa umri wako.",
+        "Neno gumu hutafutwa kamusini na maana huchaguliwa kulingana na sentensi.",
+        "Muhtasari hueleza hoja kuu za ulichosoma."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Kusoma kwa mapana ni nini?", "options": ["Kusoma neno moja tu", "Kusoma maandishi mengi ili kuongeza maarifa", "Kufunga kitabu bila kusoma", "Kunakili picha"], "answer": "B", "explanation": "Kusoma kwa mapana ni kusoma maandishi mengi ili kuongeza maarifa.", "outcome": "e", "check": null },
+    { "question": "Faili inatambuliwaje kwenye kifaa?", "options": ["Kwa rangi ya ukuta", "Kwa jina lake", "Kwa ukubwa wa darasa", "Kwa sauti ya kengele"], "answer": "B", "explanation": "Jina la faili hukusaidia kuichagua na kuifungua.", "outcome": "a", "check": null },
+    { "question": "Ni ipi hatua sahihi ya kufungua faili lengwa?", "options": ["Fungua faili yoyote inayoonekana", "Soma jina, chagua faili uliyoambiwa, kisha uifungue", "Vuta waya mara moja", "Tuma faili kwa mgeni"], "answer": "B", "explanation": "Unatambua jina la faili lengwa kisha unaifungua.", "outcome": "a", "check": null },
+    { "question": "Ukipata ujumbe kutoka kwa mtu usiyemjua mtandaoni, ufanye nini?", "options": ["Ujibu haraka", "Umtumie picha", "Usijibu na umwambie mwalimu au mzazi", "Umpe namba ya simu"], "answer": "C", "explanation": "Hujibu mgeni. Unamwambia mwalimu, mzazi au mlezi.", "outcome": "b", "check": null },
+    { "question": "Ni lipi si hatua ya kiusalama?", "options": ["Kutunza kifaa", "Kutoa jina la shule kwa mgeni", "Kutotuma picha yako", "Kutumia tovuti iliyoidhinishwa"], "answer": "B", "explanation": "Kutoa jina la shule kwa mtu usiyemjua si salama.", "outcome": "b", "check": null },
+    { "question": "Tovuti ipi inafaa kusakurwa na mwanafunzi?", "options": ["Ukurasa wowote unaojitokeza", "Ukurasa wa maongezi na wageni", "Tovuti iliyoidhinishwa na mwalimu yenye matini ya somo", "Ukurasa unaoomba picha yako"], "answer": "C", "explanation": "Tovuti salama ni ile iliyokubaliwa na mtu mzima na inayofaa umri na somo.", "outcome": "c", "check": null },
+    { "question": "Katika kifungu, dira ya Zawadi ni ipi?", "options": ["Kuwa dereva", "Kuwa mwalimu", "Kuwa mvuvi", "Kufunga shule"], "answer": "B", "explanation": "Zawadi anasema dira yake ni kuwa mwalimu.", "outcome": "d", "check": null },
+    { "question": "Neno gumu linatafutwaje?", "answer": "Liandike, kisha litafute kamusini kwa herufi yake ya kwanza na uchague maana inayofaa kwenye sentensi.", "explanation": "Kamusi husaidia kupata maana, na maana huchaguliwa kulingana na sentensi.", "outcome": "d", "check": null },
+    { "question": "Muhtasari mzuri hufanya nini?", "options": ["Hunakili kila neno", "Hueleza mambo muhimu kwa maneno machache", "Hubadilisha maana ya kifungu", "Huacha hoja kuu"], "answer": "B", "explanation": "Muhtasari ni maelezo mafupi ya hoja muhimu.", "outcome": "e", "check": null },
+    { "question": "Kwa nini mwanafunzi achangamkie kutumia kifaa cha kidijitali kusoma?", "answer": "Ili kutafuta na kusoma ujumbe unaoongeza maarifa yake, akiwa na usalama.", "explanation": "Kifaa husaidia kupata matini, lakini kinatumiwa kwa kuzingatia hatua za kiusalama.", "outcome": "e", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 4.0 Dira, Mada Ndogo 4.2.1 Kusoma: Kusoma kwa Mapana"
+  ]
+}

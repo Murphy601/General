@@ -240,6 +240,78 @@
         "Two quarter turns make a half turn; four make a full turn.",
         "Turns help us give and follow directions."
       ]
+    },
+    {
+      "number": 5,
+      "title": "Combining turns to follow a path",
+      "outcomes": ["c", "d", "e"],
+      "objectives": [
+        "Find the direction you face after two or more turns.",
+        "Follow a path made of quarter, half and full turns safely."
+      ],
+      "intro": "A singing game often asks the whole group to turn, walk a few steps, then turn again. Each turn is small on its own. Together they make a path, and the order of the turns decides where you finish facing.",
+      "notes": "One turn changes the way you face. A path is a list of turns and straight moves done in order. You start facing a known direction, make the first turn, walk straight, then make the next turn. The order matters. A quarter turn clockwise followed by a quarter turn anti-clockwise brings you back to the start. The same two turns done the other way round also bring you back, but a different mix does not.\n\n### Three-quarter turns\nThree quarter turns in the same direction make a three-quarter turn. On a clock, the minute hand goes from 12 to 9 when it makes a clockwise three-quarter turn, and 45 minutes pass. One quarter turn anti-clockwise from 12 also ends at 9, because 9 is a quarter of the way round the other way. The hand finishes on the same number, but the amount of turning is different: three quarter turns one way, and one quarter turn the other way.\n\nThree quarter turns one way finish in the same direction as one quarter turn the other way. From North, three quarter turns clockwise go East, South, then West. One quarter turn anti-clockwise from North also finishes at West. From North, three quarter turns anti-clockwise go West, South, then East. One quarter turn clockwise from North also finishes at East. Four quarter turns in the same direction make a full turn and you face the way you started.\n\n### The four directions in order\nClockwise order is North, East, South, West, then North again. Anti-clockwise order is North, West, South, East, then North again. Each step is one quarter turn.\n\nStart facing North.\n\n- A quarter turn clockwise, then a half turn clockwise: you face East, then West.\n- A full turn, then a quarter turn anti-clockwise: the full turn leaves you facing North, and you finish facing West.\n- A half turn either way, then another half turn: you face the way you started, because two half turns make a full turn.\n\nWalking forward does not change the way you face. Only a turn does. So count the turns, not the steps, when you are asked which way you face at the end.\n\n### Games and real paths\nIn a singing game the caller says a turn and everyone makes it together, then walks. On a school digital device, a game may ask you to turn a character clockwise or anti-clockwise and then move it a number of steps. The words are the same as the words you use on the field. Giving a visitor a path works the same way: 'Face the gate, make a quarter turn to your right, walk to the flag, then make a half turn.'\n\n### Safety\nBefore anyone moves, pick up bags and stones. Turn slowly. Leave an arm's length between learners. If the path goes near a road, a ditch or a building corner, stop and let the teacher lead. Position is the place where you are. Direction is the way you face. Turns join them so that you can follow a path.",
+      "keyWords": [
+        { "word": "three-quarter turn", "meaning": "three quarter turns in the same direction" },
+        { "word": "path", "meaning": "a list of turns and straight moves done in order" }
+      ],
+      "examples": [
+        {
+          "problem": "The minute hand is at 12. It makes a three-quarter turn clockwise. Which number does it point to, and how many minutes pass?",
+          "steps": [
+            "Each quarter turn moves the hand 3 numbers and takes 15 minutes.",
+            "Three quarter turns move it 3 × 3 = 9 numbers, so it points to 9.",
+            "Minutes: 3 × 15 = 45."
+          ],
+          "answer": "It points to 9; 45 minutes pass",
+          "check": "3*3 === 9 && 3*15 === 45"
+        },
+        {
+          "problem": "Juma faces North. He makes a quarter turn anti-clockwise and then a half turn. Which direction does he face?",
+          "steps": [
+            "A quarter turn anti-clockwise from North faces West.",
+            "A half turn from West faces the opposite way, which is East."
+          ],
+          "answer": "East",
+          "check": null
+        },
+        {
+          "problem": "A game asks for a full turn and then one more quarter turn clockwise. How many quarter turns is that altogether, and which way do you face compared with the start?",
+          "steps": [
+            "A full turn is 4 quarter turns.",
+            "4 + 1 = 5 quarter turns.",
+            "4 of them bring you back to the start, so you finish one quarter turn clockwise from the start."
+          ],
+          "answer": "5 quarter turns; one quarter turn clockwise from the start",
+          "check": "4 + 1 === 5"
+        }
+      ],
+      "activity": {
+        "title": "Singing-game path",
+        "materials": ["Open space away from the road", "Chalk", "A paper clock"],
+        "steps": [
+          "As a group, mark North, East, South and West on the ground and stand on the centre facing North.",
+          "The caller gives a path, for example 'quarter turn clockwise, three steps, half turn, two steps'. Agree the finishing direction before anyone walks.",
+          "Walk the path slowly, with space between learners, and check the direction at the end.",
+          "Take turns to call a three-quarter turn, a quarter turn the other way, and a full turn.",
+          "If a digital device is available, play a direction game that uses the same turns. If not, sing a short song and turn together when the caller says clockwise or anti-clockwise."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 160\" font-family=\"sans-serif\"><rect width=\"360\" height=\"160\" fill=\"#ffffff\"/><circle cx=\"80\" cy=\"75\" r=\"48\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2\"/><g font-size=\"13\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"80\" y=\"38\">12</text><text x=\"118\" y=\"80\">3</text><text x=\"80\" y=\"118\">6</text><text x=\"42\" y=\"80\">9</text></g><path d=\"M80,27 A48,48 0 1 1 32,75\" fill=\"none\" stroke=\"#166534\" stroke-width=\"3\"/><text x=\"80\" y=\"148\" font-size=\"12\" text-anchor=\"middle\" fill=\"#166534\">3 quarter turns, 12 to 9</text><g font-size=\"14\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"250\" y=\"36\">N</text><text x=\"310\" y=\"78\">E</text><text x=\"250\" y=\"120\">S</text><text x=\"190\" y=\"78\">W</text></g><path d=\"M250,48 L298,70\" fill=\"none\" stroke=\"#166534\" stroke-width=\"2\"/><path d=\"M298,70 L250,108\" fill=\"none\" stroke=\"#166534\" stroke-width=\"2\"/><text x=\"250\" y=\"148\" font-size=\"12\" text-anchor=\"middle\">N, quarter then half clockwise, ends W</text></svg>",
+        "caption": "Three quarter turns clockwise take the minute hand from 12 to 9. Two turns can be followed in order on the compass."
+      },
+      "practice": [
+        { "question": "How many minutes pass when the minute hand makes a three-quarter turn?", "answer": "45 minutes", "check": "3 * 15 === 45" },
+        { "question": "You face East and make a half turn, then a quarter turn clockwise. Which direction do you face?", "answer": "North", "check": null },
+        { "question": "How many quarter turns anti-clockwise take you from North to East?", "answer": "3", "check": "4 - 1 === 3" },
+        { "question": "A path has two half turns and one quarter turn clockwise. How many quarter turns is that altogether?", "answer": "5", "check": "2 * 2 + 1 === 5" }
+      ],
+      "summary": [
+        "Do turns in the order they are given. Walking straight does not change the way you face.",
+        "A three-quarter turn is three quarter turns. From 12, clockwise, the minute hand finishes at 9.",
+        "Three quarter turns one way finish in the same direction as one quarter turn the other way."
+      ]
     }
   ],
   "quiz": [
@@ -253,7 +325,8 @@
     { "question": "Facing North, you make a quarter turn clockwise. Which direction do you face?", "options": ["South", "West", "East", "North"], "answer": "C", "explanation": "Clockwise from North the next direction is East.", "outcome": "d", "check": null },
     { "question": "Facing East, you make a half turn. Which direction do you face?", "options": ["West", "North", "South", "East"], "answer": "A", "explanation": "A half turn faces the opposite way; the opposite of East is West.", "outcome": "d", "check": null },
     { "question": "The minute hand makes three quarter turns. How many minutes pass?", "answer": "45 minutes", "explanation": "Each quarter turn is 15 minutes: 3 × 15 = 45.", "outcome": "d", "check": "3 * 15 === 45" },
-    { "question": "Why is it useful to know turns when giving directions?", "answer": "Turns tell a person exactly which way to face and move, for example 'make a quarter turn to the left at the tap'.", "explanation": "Clear turns help others reach a place without getting lost.", "outcome": "e", "check": null }
+    { "question": "Why is it useful to know turns when giving directions?", "answer": "Turns tell a person exactly which way to face and move, for example 'make a quarter turn to the left at the tap'.", "explanation": "Clear turns help others reach a place without getting lost.", "outcome": "e", "check": null },
+    { "question": "You face North and make three quarter turns clockwise. Which way do you face?", "options": ["East", "South", "West", "North"], "answer": "C", "explanation": "Clockwise from North the directions are East, South, then West. The minute hand takes 3 × 15 = 45 minutes to make the same three quarter turns.", "outcome": "d", "check": "3 * 15 === 45" }
   ],
   "sources": [
     "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 3.0 Geometry, Sub-strand 3.1 Position and Direction"

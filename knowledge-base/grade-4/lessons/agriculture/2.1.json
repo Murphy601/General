@@ -1,0 +1,369 @@
+{
+  "subject": "AGRICULTURE",
+  "subStrand": "2.1",
+  "title": "Direct Sowing of Tiny Seeds",
+  "overview": "Some food crops are grown by placing their tiny seeds straight into the garden. In this sub-strand you will name crops such as carrots and millet, prepare a fine seedbed, sow the seeds, and care for the seedlings until they can feed the household.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Crops grown from tiny seeds sown directly",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain what direct sowing means.",
+        "Name food crops established by sowing tiny seeds directly."
+      ],
+      "intro": "A bean seed is large enough to hold one by one. A carrot seed is a speck. The way a farmer plants them cannot be the same, because the seeds themselves are not the same.",
+      "notes": "Direct sowing means putting seeds in the place where the crop will grow until harvest. The seedlings are not moved to another bed. This is different from nursery practice, where seeds are started in a small bed and the seedlings are later transplanted.\n\n### Tiny seeds\nTiny seeds are very small. You cannot easily plant them one by one with your fingers the way you plant maize or beans. Examples of food crops established through direct sowing of tiny seeds are:\n\n- Carrots, grown for the orange root\n- Millet, including finger millet, grown for the grain\n- Radishes, grown for the root\n- Amaranth, the leafy vegetable sometimes called terere, grown for the leaves\n\nCarrots and millet are the examples to remember first. They do not require transplanting.\n\n### Crops that are not in this group\nMaize and beans are often sown directly, but their seeds are large, not tiny. Tomatoes, kale and onions are often started in a nursery and transplanted. Do not call every direct-sown crop a tiny-seed crop. Look at the size of the seed and at whether the crop is moved after germination.\n\n### Why these crops matter\nCarrots and amaranth add vegetables to meals. Millet is a grain that can be ground into flour. A family that sows a small bed of these crops adds to the food available at home. That is one way direct sowing supports food production.\n\nBring a few seeds to the next lesson only if your teacher asks. Keep them dry in a labelled paper packet.",
+      "keyWords": [
+        { "word": "direct sowing", "meaning": "planting seeds in the place where the crop will grow to harvest" },
+        { "word": "tiny seeds", "meaning": "very small seeds that are hard to handle one by one" },
+        { "word": "transplanting", "meaning": "moving a seedling from a nursery to another bed" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner lists maize, carrots, tomatoes and millet as crops sown as tiny seeds without transplanting. Which two fit the description?",
+          "steps": [
+            "Carrot and millet seeds are tiny and the crops are sown where they will grow.",
+            "Maize seeds are large. Tomatoes are usually transplanted."
+          ],
+          "answer": "Carrots and millet",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sort the crops",
+        "materials": ["Picture or seed cards of maize, beans, carrots, millet, tomatoes and amaranth", "Two labels: 'tiny seeds, sown directly' and 'not this group'"],
+        "steps": [
+          "Discuss what direct sowing means and what a tiny seed looks like.",
+          "Sort the cards into crops established by direct sowing of tiny seeds and crops that do not fit.",
+          "Give a reason for each card.",
+          "Write a final list that includes carrots and millet."
+        ]
+      },
+      "practice": [
+        { "question": "What is direct sowing?", "answer": "Planting seeds in the place where the crop will grow until harvest, without transplanting.", "check": null },
+        { "question": "Name two food crops established through direct sowing of tiny seeds.", "answer": "Carrots and millet. Radish and amaranth are also correct examples.", "check": null },
+        { "question": "Why is the tomato not a good example of this practice?", "answer": "Tomatoes are usually raised in a nursery and transplanted.", "check": null }
+      ],
+      "summary": [
+        "Direct sowing means the seed stays where it is planted until harvest.",
+        "Carrots and millet are food crops grown from tiny seeds in this way.",
+        "Large seeds and transplanted crops are a different practice."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Why tiny seeds are sown where they will grow",
+      "outcomes": ["a", "c"],
+      "objectives": [
+        "Explain why carrots and similar crops are not transplanted.",
+        "State how direct sowing helps food production at home."
+      ],
+      "intro": "A carrot is a root. If that root is broken or bent when the plant is young, the carrot you harvest is forked and small. That is one reason the seed is sown where the root will grow.",
+      "notes": "Farmers choose direct sowing for tiny seeds for clear reasons.\n\n### The root must stay straight\nCarrots and radishes are grown for their taproots. A taproot is the main root that grows straight down. When a seedling is pulled up and planted again, the tip of the taproot often breaks or bends. The plant then makes a forked or twisted root. Sowing the seed in the final bed avoids that damage.\n\n### The seeds are too small for nursery work\nMillet and amaranth seeds are tiny. A nursery of such seeds is easy to sow too thickly, and the seedlings are delicate to lift. Broadcasting or sowing them in shallow rows in a prepared garden is simpler and wastes fewer plants.\n\n### Time and space\nDirect sowing skips the work of making a nursery and of transplanting on another day. For a household garden this means food is started with one careful job: prepare the bed, sow, and care for it. Millet can occupy a small plot and later give grain. A short row of carrots can be pulled over several weeks.\n\n### What direct sowing asks of the farmer\nBecause the seed is not moved, the bed must be right from the start. Clods, stones and deep planting stop tiny seeds from coming up. The farmer trades the work of transplanting for the work of making a fine seedbed.\n\nChoosing this method is part of adopting direct sowing. When the household grows carrots, millet or amaranth this way, it adds vegetables and grain to the meals it can produce itself.",
+      "keyWords": [
+        { "word": "taproot", "meaning": "the main root that grows straight down" },
+        { "word": "forked root", "meaning": "a root that splits because the tip was damaged" },
+        { "word": "broadcast", "meaning": "to scatter seeds over the surface of the soil" }
+      ],
+      "examples": [
+        {
+          "problem": "A gardener transplanted carrot seedlings and later harvested many forked roots. What caused the forked roots?",
+          "steps": [
+            "Carrots are grown for a straight taproot.",
+            "Lifting and replanting can break or bend the root tip, so the root forks."
+          ],
+          "answer": "The taproots were damaged during transplanting.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Why not transplant?",
+        "materials": ["A carrot or a picture of a straight carrot and a forked carrot", "Millet or amaranth seeds in a packet if available"],
+        "steps": [
+          "Look at a straight carrot and a forked carrot, or at pictures of both.",
+          "Discuss how breaking a root tip can change the shape of the carrot.",
+          "Look at how small millet or amaranth seeds are compared with a maize seed.",
+          "Write two reasons for sowing these crops directly, and one way this helps food at home."
+        ]
+      },
+      "practice": [
+        { "question": "Why are carrot seeds sown directly instead of being transplanted?", "answer": "Transplanting can damage the taproot, so the carrot becomes forked or twisted.", "check": null },
+        { "question": "Give one reason millet is awkward to transplant.", "answer": "The seeds and seedlings are very small and easily damaged or sown too thickly.", "check": null },
+        { "question": "How does a household garden of carrots or millet support food production?", "answer": "It adds vegetables or grain that the family can eat.", "check": null }
+      ],
+      "summary": [
+        "Carrots are sown directly so the taproot is not broken.",
+        "Tiny seeds such as millet are hard to lift and replant.",
+        "Direct sowing is a simple way to add food at home."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Preparing a fine seedbed in the ground",
+      "outcomes": ["b"],
+      "objectives": [
+        "Prepare a fine, level seedbed for tiny seeds.",
+        "Explain why clods and stones must be removed."
+      ],
+      "intro": "A maize seed can push up through a rough clod. A carrot seed cannot. The bed for tiny seeds must be fine, level and free of stones.",
+      "notes": "A seedbed is the piece of soil prepared for sowing. For tiny seeds it is sometimes called a fine seedbed because the soil is broken into small crumbs.\n\n### Steps\n1. Choose a sunny place that is not waterlogged. Mark a small plot with sticks and string so the edges are straight.\n2. Clear weeds, including the roots, so they do not grow back among the seedlings.\n3. Dig with a jembe to loosen the soil. Break big clods.\n4. Remove stones, sticks and plastic. A stone can block a tiny seedling.\n5. Mix in well-rotted compost or manure and dig it through the topsoil. Do not leave fresh manure in lumps on the surface.\n6. Rake the bed until the soil is fine and level. The surface should look even, without holes where water can collect.\n7. Firm the soil lightly with the back of the rake or a flat board. Soil that is too fluffy dries out and buries seeds unevenly. Soil that is stamped hard stops the seedlings.\n\n### Tools\nA jembe digs. A rake finishes the surface. A panga may be needed to cut tough roots, and an adult should handle it. These tools make the work easier and more even than using hands alone. Clean the tools and store them safely when you finish.\n\n### Working together fairly\nOne person should not do all the digging while others watch. Share the digging, the removal of stones and the raking. If someone prefers a different corner of the plot, listen and agree. A good seedbed is the result of that shared care.\n\nThe bed is ready when a handful of soil crumbles and the surface is level. Only then should tiny seeds be sown.",
+      "keyWords": [
+        { "word": "seedbed", "meaning": "soil prepared for sowing seeds" },
+        { "word": "fine tilth", "meaning": "soil broken into small, even crumbs" },
+        { "word": "clod", "meaning": "a hard lump of soil" }
+      ],
+      "examples": [
+        {
+          "problem": "A bed still has clods the size of a fist and stones on the surface. Why is it not ready for carrot seeds?",
+          "steps": [
+            "Tiny seeds need fine soil so they can be covered evenly and can push up.",
+            "Clods and stones block seedlings and make the depth uneven."
+          ],
+          "answer": "The soil is too rough. It must be raked fine and the stones removed.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Make a fine seedbed",
+        "materials": ["Jembe", "Rake", "Compost", "String and sticks", "Gloves"],
+        "steps": [
+          "Mark a small plot in the school garden with your teacher.",
+          "Share digging, weeding and stone removal.",
+          "Mix in compost and rake the soil to a fine, level surface.",
+          "Press the bed lightly and check that a handful of soil crumbles.",
+          "Clean and return the tools."
+        ]
+      },
+      "practice": [
+        { "question": "What does a fine seedbed look like?", "answer": "The soil is crumbly, level, and free of clods, stones and weeds.", "check": null },
+        { "question": "Why is compost mixed into the seedbed before sowing?", "answer": "It adds plant food and makes the soil better for the seedlings.", "check": null },
+        { "question": "Name two tools used to prepare a seedbed and say what each does.", "answer": "A jembe loosens the soil. A rake makes the surface fine and level.", "check": null }
+      ],
+      "summary": [
+        "Dig, remove stones and weeds, and mix in compost.",
+        "Rake the soil fine and level, then firm it lightly.",
+        "Tiny seeds are sown only on a finished fine seedbed."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Preparing a container seedbed",
+      "outcomes": ["b"],
+      "objectives": [
+        "Prepare a container as a seedbed for tiny seeds.",
+        "Explain why a container needs holes and fine soil."
+      ],
+      "intro": "Not every school has a large garden. A basin, a wooden box or a sack can still be a seedbed if water can drain and the soil is fine.",
+      "notes": "A container seedbed is a pot, box, basin or trough filled with soil and used for sowing. It suits a veranda, a balcony or a crowded compound. Carrots and amaranth can be grown in a deep container. Millet prefers more space, so a long trough or a small plot is better for millet.\n\n### Choosing the container\nThe container must be deep enough for the crop. A short box will not grow a long carrot. It must have holes in the bottom so extra water drains away. If water stands in the container, the seeds rot. Raise the container on stones so the holes are not blocked by the ground.\n\n### Filling it\n1. Place small stones or broken pot pieces over the holes. They let water out and stop soil from washing away.\n2. Mix garden soil with well-rotted compost. Remove stones and break clods until the mixture is fine.\n3. Fill the container, leaving a small space at the top so water does not spill soil over the edge.\n4. Level the surface and firm it lightly.\n5. Water with a fine spray and let extra water drain before you sow.\n\n### Care that is different from a ground bed\nSoil in a container dries faster than a garden bed. It also heats up quickly in the sun. Place the container where it gets morning sun but can be shaded on a very hot afternoon. Do not let the container sit in a pool of water.\n\nLabel the container with the crop name and the date. A label stops the class from sowing a second crop on top of seeds that have not yet germinated.\n\nWhether you use the ground or a container, the rule is the same: fine, moist soil, with a way for extra water to leave.",
+      "keyWords": [
+        { "word": "container seedbed", "meaning": "a box, pot or trough of soil used for sowing" },
+        { "word": "drainage", "meaning": "the way extra water flows out of the soil" }
+      ],
+      "examples": [
+        {
+          "problem": "Carrot seeds in a sealed plastic basin rot after heavy watering. What is missing from the container?",
+          "steps": [
+            "The water could not leave the basin.",
+            "A container seedbed needs holes in the bottom for drainage."
+          ],
+          "answer": "Drainage holes",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Build a container seedbed",
+        "materials": ["A box, basin or trough", "A nail for an adult to make holes", "Small stones", "Fine soil", "Compost", "A label"],
+        "steps": [
+          "Ask an adult to make holes in the bottom if there are none.",
+          "Cover the holes with small stones.",
+          "Mix fine soil and compost and fill the container, leaving space at the top.",
+          "Level and firm the soil lightly, then water it so that extra water drains out.",
+          "Write a label with the crop you will sow and put the container in a safe, sunny place."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" font-family=\"sans-serif\"><rect width=\"360\" height=\"200\" fill=\"#ffffff\"/><path d=\"M40 40 h200 l-20 120 h-160 z\" fill=\"#f5f5f4\" stroke=\"#44403c\" stroke-width=\"2\"/><rect x=\"50\" y=\"70\" width=\"160\" height=\"70\" fill=\"#a16207\"/><circle cx=\"70\" cy=\"168\" r=\"4\" fill=\"#111\"/><circle cx=\"110\" cy=\"168\" r=\"4\" fill=\"#111\"/><circle cx=\"150\" cy=\"168\" r=\"4\" fill=\"#111\"/><circle cx=\"190\" cy=\"168\" r=\"4\" fill=\"#111\"/><text x=\"60\" y=\"100\" font-size=\"13\" fill=\"#fff\">fine soil and compost</text><text x=\"250\" y=\"80\" font-size=\"12\" fill=\"#111827\">space at the top</text><text x=\"250\" y=\"170\" font-size=\"12\" fill=\"#111827\">drainage holes</text><line x1=\"230\" y1=\"50\" x2=\"248\" y2=\"70\" stroke=\"#111\"/></svg>",
+        "caption": "A container seedbed has fine soil, space for watering, and holes so extra water can leave"
+      },
+      "practice": [
+        { "question": "Why must a container seedbed have holes?", "answer": "So extra water can drain out and the seeds do not rot.", "check": null },
+        { "question": "What two materials are mixed to fill the container?", "answer": "Fine garden soil and well-rotted compost.", "check": null },
+        { "question": "Why does a container need more frequent checking than a garden bed?", "answer": "The soil in a container dries out faster.", "check": null }
+      ],
+      "summary": [
+        "A container can be a seedbed where garden space is small.",
+        "Put holes in the bottom, then fine soil mixed with compost.",
+        "Label the container and do not let it stand in water."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Sowing tiny seeds",
+      "outcomes": ["b"],
+      "objectives": [
+        "Sow tiny seeds evenly in a fine seedbed.",
+        "Cover and water the seeds without washing them away."
+      ],
+      "intro": "If a whole packet of carrot seed falls in one spot, the seedlings come up as a mat and almost all of them fail. Sowing tiny seeds is a lesson in spreading a little seed over the whole bed.",
+      "notes": "Sow when the fine seedbed is ready and the soil is slightly moist. Do not sow into mud, and do not sow on a day of very heavy rain if you can wait, because rain can wash the seeds away.\n\n### Mixing so the seeds spread\nPour a small amount of seed into a dry tin. Add several handfuls of dry sand or dry fine soil and mix. The sand helps you see where the seed falls and stops it falling in clumps. This is the usual way to handle carrot, millet and amaranth seed.\n\n### Two ways to sow\n- In rows: use a stick to make a shallow drill, only as deep as the thickness of a fingernail. Sprinkle the seed-and-sand mix along the drill. Rows make weeding easier. Space the rows about the width of your hand for carrots, and a little wider for millet.\n- By broadcasting: scatter the mix evenly over the whole bed. This suits amaranth and millet. Practise the hand movement with sand only before you use seed.\n\n### Covering\nCover the seeds with a thin layer of fine soil. Tiny seeds must not be buried deeply. They do not have enough stored food to push up from the bottom of a deep hole. A light cover, then a gentle firming with a board, is enough.\n\n### Watering\nUse a watering can with a fine rose, or a bottle cap with very small holes. Water slowly so the surface is moist and the seeds stay in place. A hard jet digs them out.\n\nWrite the crop and the date on a label at the end of the row. Keep people and animals off the bed. Germination of carrots may take one to three weeks, so do not dig the bed up because you cannot see plants on the second day.",
+      "keyWords": [
+        { "word": "drill", "meaning": "a shallow line made in the soil for sowing a row" },
+        { "word": "germination", "meaning": "the start of growth, when a seed sends out a root and a shoot" },
+        { "word": "rose", "meaning": "the sprinkler head on a watering can" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner covers carrot seeds with soil as deep as a finger. Why may the seedlings fail to appear?",
+          "steps": [
+            "Tiny seeds have little stored food.",
+            "They cannot push up through a deep layer of soil."
+          ],
+          "answer": "The seeds were buried too deep.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sow a row of tiny seeds",
+        "materials": ["Fine seedbed or container", "Carrot, millet or amaranth seed", "Dry sand", "Stick", "Watering can with a fine rose", "Label"],
+        "steps": [
+          "Mix a pinch of seed with dry sand.",
+          "Make a shallow drill or prepare to broadcast.",
+          "Sow the mix evenly and cover it with a thin layer of fine soil.",
+          "Water gently and label the bed with the crop and the date.",
+          "Agree who will check that the surface stays moist until the seedlings appear."
+        ]
+      },
+      "practice": [
+        { "question": "Why are tiny seeds mixed with dry sand before sowing?", "answer": "So they spread evenly and do not fall in one clump.", "check": null },
+        { "question": "How deep should tiny seeds be covered?", "answer": "With a thin layer of fine soil, not a deep covering.", "check": null },
+        { "question": "Why is a fine rose used when watering a newly sown bed?", "answer": "A gentle spray wets the soil without washing the seeds away.", "check": null },
+        { "question": "What should be written on the label?", "answer": "The name of the crop and the date of sowing.", "check": null }
+      ],
+      "summary": [
+        "Mix tiny seeds with dry sand so they spread evenly.",
+        "Sow in a shallow drill or broadcast, and cover thinly.",
+        "Water with a fine spray and label the bed."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Caring for tiny seedlings",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Care for seedlings after direct sowing.",
+        "Explain how this care leads to food at home."
+      ],
+      "intro": "The day of sowing is not the end of the work. Tiny seedlings dry out, get crowded, and disappear under weeds unless someone looks at the bed often.",
+      "notes": "### Water\nKeep the surface moist until the seedlings are growing strongly. Water in the morning or evening. In a container, check every day. Do not flood the bed. Once the plants are larger, water more deeply and a little less often so the roots grow down.\n\n### Weeds\nWeeds steal water and light. Pull them when they are small, while the soil is moist. Hold the crop seedling in place with two fingers so you do not pull it out with the weed. Tiny seedlings look like grass at first. Learn the shape of the crop leaves before you weed.\n\n### Thinning\nSeeds sown in a row often come up too close together. Thinning means removing some seedlings so the ones left have space. For carrots, thin in stages until the remaining plants have room for the roots to swell. Water first, then pull the extras gently. Washed carrot thinnings can be eaten as small vegetables. Do not leave the pulled plants on the bed, because they attract pests.\n\n### Shade, mulch and protection\nIf the sun is fierce, a light shade of dry grass on sticks can help for the first days. Remove it once the seedlings are green and sturdy, because they need light. A thin mulch can be added later, not while the seeds are still germinating, or it may block them. Use the class scarecrow or light branches if birds scratch up the rows.\n\n### From seedbed to plate\nCarrots are ready when the shoulder of the root shows at the soil and is large enough to eat. Pull them gently and wash them. Amaranth leaves can be picked while the plant keeps growing. Millet is left until the heads are dry, then harvested and stored in a dry place.\n\nCaring for the bed until harvest is how you adopt direct sowing. The food on the table started as a speck of seed in a fine seedbed.",
+      "keyWords": [
+        { "word": "thinning", "meaning": "removing some seedlings so the rest have space to grow" },
+        { "word": "seedling", "meaning": "a young plant that has just come up from a seed" },
+        { "word": "mulch", "meaning": "a cover of dry grass or leaves spread on the soil" }
+      ],
+      "examples": [
+        {
+          "problem": "Carrot seedlings are growing as a thick green line and their leaves are touching. What should the gardener do?",
+          "steps": [
+            "The seedlings are overcrowded, so the roots cannot swell.",
+            "The gardener should water the row and thin the seedlings, leaving space between those that remain."
+          ],
+          "answer": "Thin the row after watering.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Seedbed care rota",
+        "materials": ["The sown bed or container", "Watering can", "Record sheet"],
+        "steps": [
+          "Visit the seedbed and record whether the soil is moist and whether seedlings have appeared.",
+          "Weed carefully if weeds are present. Do not thin until you can tell the crop from the weeds.",
+          "When seedlings are crowded, water and thin them, then water again.",
+          "Protect the bed from birds if they scratch the soil.",
+          "Write how this crop will add food at home when it is ready."
+        ]
+      },
+      "practice": [
+        { "question": "What is thinning?", "answer": "Removing some seedlings so the remaining plants have space to grow.", "check": null },
+        { "question": "Why should you learn the shape of the crop leaves before weeding?", "answer": "Young crop plants can look like weeds and be pulled out by mistake.", "check": null },
+        { "question": "Give two care tasks after direct sowing.", "answer": "Any two: watering, weeding, thinning, shading, protecting from birds, mulching later.", "check": null }
+      ],
+      "summary": [
+        "Keep tiny seedlings moist, weeded and protected.",
+        "Thin crowded rows so roots and leaves have space.",
+        "Harvest and eat the crop to complete direct sowing as food production."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which crops are established by direct sowing of tiny seeds?",
+      "options": ["Maize and beans", "Carrots and millet", "Tomatoes and kale", "Bananas and guavas"],
+      "answer": "B",
+      "explanation": "Carrots and millet have tiny seeds and are sown where they will grow. They are not transplanted.",
+      "outcome": "a"
+    },
+    {
+      "question": "What does direct sowing mean?",
+      "options": ["Moving seedlings from a nursery", "Sowing seeds where the crop will grow until harvest", "Planting only large seeds", "Scattering compost on a path"],
+      "answer": "B",
+      "explanation": "Direct sowing places the seed in its final growing place.",
+      "outcome": "a"
+    },
+    {
+      "question": "Why are carrots not transplanted?",
+      "answer": "Transplanting can damage the taproot, so the carrot becomes forked.",
+      "explanation": "Carrots are grown for a straight root, so the seed is sown in the final bed.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which seedbed is ready for tiny seeds?",
+      "options": ["Hard soil with fist-sized clods", "A waterlogged path", "Fine, level soil with stones removed", "A bed of fresh unrotted manure only"],
+      "answer": "C",
+      "explanation": "Tiny seeds need a fine, level seedbed so they can be covered thinly and can emerge.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why does a container seedbed need holes?",
+      "options": ["To let roots out onto the path", "To drain extra water so seeds do not rot", "To make it lighter to throw", "To count the seeds"],
+      "answer": "B",
+      "explanation": "Without drainage, water stands in the container and the seeds rot.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why mix tiny seeds with dry sand?",
+      "answer": "So the seeds spread evenly and do not fall in one clump.",
+      "explanation": "Sand makes the small seeds easier to scatter along a drill or over a bed.",
+      "outcome": "b"
+    },
+    {
+      "question": "How should newly sown tiny seeds be watered?",
+      "options": ["With a hard jet from a hose", "With a fine spray so the seeds are not washed away", "By flooding the bed until it is a pool", "They should not be watered at all"],
+      "answer": "B",
+      "explanation": "A fine rose or a bottle with small holes moistens the soil gently.",
+      "outcome": "b"
+    },
+    {
+      "question": "What is thinning?",
+      "answer": "Removing some seedlings so the ones left have enough space.",
+      "explanation": "Crowded carrots and similar crops cannot form good roots or leaves.",
+      "outcome": "b"
+    },
+    {
+      "question": "A carrot row is a thick mat of seedlings. What should you do?",
+      "options": ["Add more seed", "Water and thin the row", "Transplant them all to a nursery", "Cover them with a thick layer of soil"],
+      "answer": "B",
+      "explanation": "Thinning gives the remaining roots room to swell.",
+      "outcome": "c"
+    },
+    {
+      "question": "How does direct sowing of carrots or millet help a household?",
+      "answer": "It produces vegetables or grain that the family can eat.",
+      "explanation": "Growing these crops at home adds to the food the household has.",
+      "outcome": "c"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Agriculture Curriculum Design (Revised 2024) — Strand 2.0 Food Production Processes, Sub-strand 2.1 Direct Sowing of Tiny Seeds"
+  ]
+}

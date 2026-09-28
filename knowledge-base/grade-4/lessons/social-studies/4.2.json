@@ -1,0 +1,332 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "4.2",
+  "title": "Industries in the County",
+  "overview": "An industry turns raw materials into things people use. In this sub-strand you will identify industries that may be found in a county, locate where they are set up, explain their benefits, and recognise the part they play in the life of the county.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What an industry is",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain the meaning of an industry, a raw material and a finished product.",
+        "Match common raw materials to the products made from them."
+      ],
+      "intro": "The flour used to cook ugali did not come from the shop as a maize cob. Somewhere, maize was cleaned, dried and ground. That place is an industry.",
+      "notes": "An industry is a place where raw materials are processed into finished products. A raw material is something we use to make a finished product. A finished product is the item that is ready to be used or sold.\n\nPeople sometimes confuse a raw material with the product. The cob of maize is not yet flour. The flour is not yet ugali. The industry does the middle step: it changes the raw material into something new.\n\n### Examples of raw materials and products\n- Maize is ground into maize flour.\n- Coffee berries are processed into coffee.\n- Tea leaves are processed into tea.\n- Trees are used to make paper. Not every kind of tree is used for paper.\n- Limestone is used to make cement.\n- Clay soil is used to make pots and jars.\n- Cloth is cut and sewn into clothes.\n\nProcessing can be done by a machine, as in a maize mill, or by hand, as when a potter shapes clay. Both are industries if raw materials are turned into products people use.\n\nIndustries depend on the economic activities you have already studied. Farmers grow the maize, the tea and the cotton. Foresters grow trees. Miners dig limestone. Without those activities, many industries would have nothing to process.",
+      "keyWords": [
+        { "word": "industry", "meaning": "a place where raw materials are processed into finished products" },
+        { "word": "raw material", "meaning": "the material used to make a finished product" },
+        { "word": "finished product", "meaning": "the item that is ready to be used or sold" }
+      ],
+      "examples": [
+        {
+          "problem": "A mill grinds dry maize into flour. Name the raw material and the finished product.",
+          "steps": ["Maize goes into the mill.", "Flour comes out."],
+          "answer": "Raw material: maize. Finished product: maize flour.",
+          "check": null
+        },
+        {
+          "problem": "Clay is shaped and dried into a water pot. Is this an industry? Why?",
+          "steps": ["Clay is a raw material.", "The pot is a finished product."],
+          "answer": "Yes. Raw clay has been processed into a finished pot.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "From raw material to product",
+        "materials": ["Cards or small pieces of paper", "Marker pens"],
+        "steps": [
+          "In pairs, write these raw materials on separate cards: maize, tea leaves, trees, limestone, clay, cloth.",
+          "Write the matching finished products on other cards: flour, tea, paper, cement, pots, clothes.",
+          "Shuffle the cards and match each raw material to its product.",
+          "Tell the class one industry you have seen or heard of in your county and what it makes."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 140\" font-family=\"sans-serif\"><rect width=\"520\" height=\"140\" fill=\"#ffffff\"/><rect x=\"16\" y=\"40\" width=\"130\" height=\"60\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#b45309\"/><text x=\"81\" y=\"66\" text-anchor=\"middle\" font-size=\"13\" fill=\"#92400e\">Raw material</text><text x=\"81\" y=\"84\" text-anchor=\"middle\" font-size=\"12\" fill=\"#b45309\">maize</text><polygon points=\"160,70 190,55 190,85\" fill=\"#166534\"/><rect x=\"196\" y=\"40\" width=\"130\" height=\"60\" rx=\"8\" fill=\"#dcfce7\" stroke=\"#166534\"/><text x=\"261\" y=\"66\" text-anchor=\"middle\" font-size=\"13\" fill=\"#14532d\">Industry</text><text x=\"261\" y=\"84\" text-anchor=\"middle\" font-size=\"12\" fill=\"#166534\">milling</text><polygon points=\"340,70 370,55 370,85\" fill=\"#166534\"/><rect x=\"376\" y=\"40\" width=\"130\" height=\"60\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#1d4ed8\"/><text x=\"441\" y=\"66\" text-anchor=\"middle\" font-size=\"13\" fill=\"#1e3a8a\">Finished product</text><text x=\"441\" y=\"84\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1d4ed8\">maize flour</text></svg>",
+        "caption": "An industry changes a raw material into a finished product"
+      },
+      "practice": [
+        { "question": "What is an industry?", "answer": "A place where raw materials are processed into finished products.", "check": null },
+        { "question": "Name the finished product made from tea leaves, and the finished product made from limestone.", "answer": "Tea leaves make tea. Limestone is used to make cement.", "check": null },
+        { "question": "Why do many industries need farmers?", "answer": "Farmers produce raw materials such as maize, tea, coffee and cotton.", "check": null }
+      ],
+      "summary": [
+        "An industry processes raw materials into finished products.",
+        "Maize becomes flour, clay becomes pots, and trees can become paper.",
+        "Industries depend on farming, forestry and mining for raw materials."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Industries you may find in a county",
+      "outcomes": ["a"],
+      "objectives": [
+        "Describe examples of industries found in counties in Kenya.",
+        "Identify which of those industries are in your own county."
+      ],
+      "intro": "You may hear a sewing machine in a tailor's shop, a mill grinding maize, or hammers in an open shed where people make metal boxes. Those sounds are clues that an industry is at work.",
+      "notes": "Not every county has the same industries. You identify the industries of your county by asking, looking and listening, not by guessing that every county has a cement factory.\n\n### Industries learners in Kenya often meet\n- Milling: a milling machine grinds dry maize into flour. The flour is packed and sold in shops. Families use it to cook foods such as ugali and porridge.\n- Tailoring: tailors use sewing machines to make and repair clothes.\n- Jua kali: workers use local materials, often metal, in small sheds or open spaces. They make items such as sufurias, frying pans, wheelbarrows and metal boxes. Jua kali means work done in the hot sun, in simple workshops rather than big factory buildings.\n- Pottery: potters use clay to make pots and jars for fetching and storing water, cooking, and storing food or grain.\n- Processing of farm crops: tea leaves and coffee berries are processed where those crops are grown.\n- Paper making: wood from suitable trees is turned into a watery pulp, flattened and dried into paper for books.\n- Cement making: limestone is processed into cement. This industry is found where limestone is available, not in every county.\n\nWhen you name an industry, say three things: what it is called, the raw material it uses, and the finished product. Then check whether that industry is actually in your county.",
+      "keyWords": [
+        { "word": "jua kali", "meaning": "small workshops, often in the open, where people make goods from local materials" },
+        { "word": "potter", "meaning": "a person who makes pots from clay" },
+        { "word": "milling", "meaning": "grinding grain, such as maize, into flour" }
+      ],
+      "examples": [
+        {
+          "problem": "Workers in a small shed make sufurias from metal sheets. Which industry is this, and what is the raw material?",
+          "steps": ["The work is done in a simple shed.", "Metal is shaped into cooking pots."],
+          "answer": "Jua kali industry. The raw material is metal.",
+          "check": null
+        },
+        {
+          "problem": "Why should you not say that every county has a cement industry?",
+          "steps": ["Cement needs limestone.", "Limestone is not found in every county."],
+          "answer": "A cement industry is set up where limestone is available. Counties have different resources.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Share the industries in our county",
+        "materials": ["Exercise book", "Manila paper"],
+        "steps": [
+          "Each learner names one industry they have seen or heard about in the county.",
+          "The class makes one list and removes repeats.",
+          "Beside each industry, write the raw material and the finished product.",
+          "If nobody is sure, mark that industry as 'to find out' and ask a parent or teacher.",
+          "Share the finished list with another group and add anything you missed."
+        ]
+      },
+      "practice": [
+        { "question": "What do jua kali workers often make?", "answer": "Metal items such as sufurias, frying pans, wheelbarrows and metal boxes.", "check": null },
+        { "question": "Name the raw material and two uses of the pots made in a pottery industry.", "answer": "The raw material is clay. Pots are used to fetch or store water, cook, or store food and grain.", "check": null },
+        { "question": "What three facts should you give when you identify an industry?", "answer": "Its name, the raw material it uses, and the finished product it makes.", "check": null }
+      ],
+      "summary": [
+        "Counties have different industries.",
+        "Milling, tailoring, jua kali, pottery and crop processing are common examples.",
+        "Name the raw material and the product, and check that the industry is really in your county."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Where industries are located",
+      "outcomes": ["c"],
+      "objectives": [
+        "Explain why industries are set up in particular places.",
+        "Locate industries in the county on a simple sketch."
+      ],
+      "intro": "A maize mill is more useful near the farms and the shops than in a place where nobody grows maize. The place an industry chooses is called its location.",
+      "notes": "To locate an industry means to say where it is and why it was put there. On a simple sketch of your county or town, you mark the industry and the places it depends on.\n\n### Why an industry is put in a certain place\n- Near the raw material, so that heavy goods are not carried far. A maize mill is near farms. A pottery workshop is near clay. A paper industry needs a supply of suitable trees. A cement industry is near limestone.\n- Near a market, so that finished goods can be sold. A tailor works where people need clothes. A mill sells flour to nearby shops.\n- Near a road, so that raw materials and products can be transported. Some large industries also use the railway.\n- Near power, such as electricity, because many machines cannot run without it.\n- Near workers, so that there are people to do the jobs.\n- Near water, because some industries need water for cleaning and processing.\n\nJua kali sheds are often in town centres and markets, where customers pass. A home mill may be in a trading centre. A big processing factory may be on the edge of a town, where there is space and a good road.\n\nWhen you locate an industry, use direction words you already know. You might say the mill is east of the market, or the jua kali sheds are beside the main road. Do not invent a factory that you have not seen or been told about.",
+      "keyWords": [
+        { "word": "locate", "meaning": "to find or show where something is" },
+        { "word": "location", "meaning": "the place where something is found" },
+        { "word": "market", "meaning": "a place where people buy and sell goods" }
+      ],
+      "examples": [
+        {
+          "problem": "A potter sets up a workshop next to a place with plenty of clay and a path to the market. Give two reasons for this location.",
+          "steps": ["Clay is the raw material.", "The market is where pots are sold."],
+          "answer": "The workshop is near the raw material and near the customers.",
+          "check": null
+        },
+        {
+          "problem": "The posho mill is on the road between the farms and the shopping centre. Why is the road important?",
+          "steps": ["Maize must be brought in.", "Flour must be taken to the shops."],
+          "answer": "The road is used to transport the raw material and the finished product.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Locate industries on a sketch",
+        "materials": ["Manila paper", "Pencils and crayons", "Information from a walk or from parents"],
+        "steps": [
+          "Draw a simple sketch showing your school, the nearest market and the main road. Mark North.",
+          "Add any industry you know: a mill, a tailor, a jua kali shed or a workshop.",
+          "Write why it is in that place: raw material, market, road, power or workers.",
+          "In groups, compare sketches and correct any industry you cannot really locate.",
+          "Display the sketches in class."
+        ]
+      },
+      "practice": [
+        { "question": "Give three reasons why an industry may be located in a certain place.", "answer": "Any three: near raw materials, near a market, near a road, near power, near workers or near water.", "check": null },
+        { "question": "Why is a cement industry not built in a county that has no limestone?", "answer": "Limestone is the raw material. Carrying it a very long way would be difficult and costly.", "check": null },
+        { "question": "What does it mean to locate an industry?", "answer": "To show where it is and to explain why it was set up there.", "check": null }
+      ],
+      "summary": [
+        "Industries are located near raw materials, markets, roads, power and workers.",
+        "A sketch with a north arrow can show where an industry is.",
+        "Only mark industries you can actually find in your county."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Benefits of industries",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Explain the benefits of industries in the county.",
+        "Recognise how those benefits change daily life."
+      ],
+      "intro": "When a mill opens, farmers have somewhere to sell maize, workers earn wages, and families buy flour nearby. One industry can help many people at once.",
+      "notes": "A benefit is a good result. Industries benefit a county in several ways.\n\n- Employment: people are employed to run machines, drive vehicles, keep records and sell products. They earn a living and can improve how they live.\n- A ready market for raw materials: farmers and other producers sell maize, milk, tea, cotton, trees or hides to the industry instead of struggling to find buyers.\n- Goods we need: industries provide flour, tea, clothes, pots, paper, cement and metal items used every day.\n- Growth of towns: workers need houses, shops and schools, so towns grow around busy industries.\n- Better services: industries encourage better roads, electricity and, in some places, railway lines, because heavy goods must move.\n- Income for the county government: industries and the businesses around them pay taxes and fees. The county uses that income for services.\n\nThese benefits are the role of industries. Their role is to turn local resources into useful goods, to give people work, and to support the growth of the county.\n\nIndustries can also cause problems if they are careless: smoke, dirty water, loud noise and unsafe machines. Recognising their role includes expecting them to work safely and to avoid spoiling the resources of the county. A benefit is not a reason to damage rivers or to employ children.",
+      "keyWords": [
+        { "word": "benefit", "meaning": "a good result that helps people" },
+        { "word": "employment", "meaning": "paid work" },
+        { "word": "tax", "meaning": "money paid to the government to fund services" }
+      ],
+      "examples": [
+        {
+          "problem": "Farmers near a new tea factory sell their leaves every week. Which benefit is this?",
+          "steps": ["The farmers are producers of a raw material.", "The factory buys the leaves."],
+          "answer": "The industry provides a ready market for raw materials.",
+          "check": null
+        },
+        {
+          "problem": "A factory employs drivers and machine operators. Which benefit is this?",
+          "steps": ["These people are paid for their work."],
+          "answer": "Creation of employment.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Discuss the benefits",
+        "materials": ["Exercise book", "Manila paper"],
+        "steps": [
+          "In groups, discuss the benefits of one industry found in your county or of a maize mill if you cannot name a local one.",
+          "List at least four benefits.",
+          "Add one way the industry should avoid harming people or the environment.",
+          "Present the list to the class and answer questions from other groups."
+        ]
+      },
+      "practice": [
+        { "question": "State four benefits of industries in a county.", "answer": "Any four: employment, a market for raw materials, finished goods, growth of towns, better roads and power, and income for the county government.", "check": null },
+        { "question": "What is the role of an industry in one sentence?", "answer": "To turn raw materials into useful goods, provide work and support the growth of the county.", "check": null },
+        { "question": "Why is child labour not an acceptable way for an industry to cut costs?", "answer": "Children should be in school. Forcing them to work is child abuse and is against the law.", "check": null }
+      ],
+      "summary": [
+        "Industries create jobs, buy raw materials and supply goods.",
+        "They can help towns, roads and county income to grow.",
+        "Their role does not include harming people or the environment."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Learning from an industry visit",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Describe how to visit an industry safely.",
+        "Record the benefits of an industry on a poster."
+      ],
+      "intro": "Machines have moving parts, hot surfaces and loud noise. A visit can teach you a great deal, but only if everybody stays with the guide and keeps hands away from the machines.",
+      "notes": "The design asks learners to visit an industry where that is possible. If a visit cannot be arranged, a resource person from a mill, a tailor's shop or a jua kali shed can come to school, or the class can study pictures and a worker's description. The learning is the same: what goes in, what comes out, who works there, and how the county benefits.\n\n### Safety on a visit\nSafety means protecting yourself and others from harm.\n\n- Stay with the teacher and the guide. Do not wander off.\n- Do not touch machines, switches or hot surfaces.\n- Wear closed shoes. Tie long hair back.\n- Do not run, push or shout.\n- Keep away from vehicles that are loading goods.\n- Ask questions when the guide invites them.\n- Wash your hands after the visit if you have been near dust or clay.\n\n### What to find out\nPrepare questions before you go:\n\n- What raw material do you use, and where does it come from?\n- What finished product do you make?\n- How many people work here, and what jobs do they do?\n- How does this industry help our county?\n- What dangers should visitors avoid?\n\nAfter the visit, create a poster. A good poster has the name of the industry, a drawing of the raw material and the product, three benefits, and one safety rule. Use paper carefully. Using materials prudently, without waste, is part of honesty and care. Display the poster in class for other learners to read.",
+      "keyWords": [
+        { "word": "safety", "meaning": "keeping yourself and others from harm" },
+        { "word": "guide", "meaning": "a person who leads visitors and explains what they are seeing" },
+        { "word": "poster", "meaning": "a large sheet that shows a message with words and pictures" }
+      ],
+      "examples": [
+        {
+          "problem": "During a visit, a learner wants to touch a moving mill belt. What should the learner do instead?",
+          "steps": ["Moving parts can injure hands.", "The guide is there to explain."],
+          "answer": "Keep hands away and ask the guide to explain how the belt works.",
+          "check": null
+        },
+        {
+          "problem": "List three things a poster of a visited industry should show.",
+          "steps": ["Think of what other learners need to learn from the visit."],
+          "answer": "The name of the industry, the raw material and product, and the benefits to the county. A safety rule is also useful.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Poster of an industry",
+        "materials": ["Manila paper", "Crayons or marker pens", "Notes from a visit, a resource person or pictures"],
+        "steps": [
+          "Visit an industry with the teacher, or listen to a resource person, and write answers to the prepared questions.",
+          "Obey every safety instruction during the visit.",
+          "In groups, create a poster of the industry and display it in class.",
+          "Use only the paper you need. Do not waste materials.",
+          "Let other groups ask one question about the benefits shown on your poster."
+        ]
+      },
+      "practice": [
+        { "question": "State three safety rules for visiting an industry.", "answer": "Any three: stay with the teacher, do not touch machines, wear closed shoes, do not run, and keep away from loading vehicles.", "check": null },
+        { "question": "What is the purpose of the poster after a visit?", "answer": "To show the industry, its raw material and product, and its benefits, so that other learners can learn from the visit.", "check": null },
+        { "question": "If the class cannot travel to a factory, how else can they learn about an industry?", "answer": "Invite a resource person, or study pictures and a worker's description of a local mill, tailor or jua kali shed.", "check": null }
+      ],
+      "summary": [
+        "A visit, or a talk by a worker, shows how an industry works.",
+        "Safety rules protect learners from machines and vehicles.",
+        "A poster records the benefits and uses materials carefully."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "The role of industries in our county",
+      "outcomes": ["d", "b"],
+      "objectives": [
+        "Recognise the role of industries by linking them to daily life.",
+        "Compose a poem on the benefits of industries in the county."
+      ],
+      "intro": "Look at your exercise book, your school uniform and the sufuria at home. Each one passed through somebody's industry before it reached you. That is the role of industry in ordinary life.",
+      "notes": "To recognise the role of industries means to see what they do for the county and to value that work. The role is bigger than one factory gate.\n\n### A chain you can trace\n1. A resource is produced: maize on a farm, clay in the soil, trees in a forest, or scrap metal collected for reuse.\n2. An industry processes it: milling, pottery, paper making, tailoring or jua kali.\n3. A finished product reaches people through trade: shops, markets and supermarkets.\n4. Workers earn income. The county may earn fees and taxes. Towns and roads may grow.\n\nIf one part of the chain fails, the others suffer. If farmers have a poor season, the mill has less maize. If the road is impassable, products do not reach the market. This is why industries, farming, trade and good roads belong together.\n\n### Appreciating industries\nLearners show appreciation by:\n\n- Naming local industries correctly\n- Respecting the workers\n- Buying and using products without wasting them\n- Refusing to damage workshops or to throw waste into industrial areas\n- Composing poems that tell the benefits honestly, including the need for safety and a clean environment\n\nA poem does not need many verses. Four lines that name an industry, its product and one benefit are enough, if the words are your own.",
+      "keyWords": [
+        { "word": "role", "meaning": "the part something plays in a bigger activity" },
+        { "word": "chain", "meaning": "a series of steps in which each step depends on the one before it" },
+        { "word": "appreciate", "meaning": "to recognise the value of something and treat it with respect" }
+      ],
+      "examples": [
+        {
+          "problem": "Trace the chain from a maize farm to ugali on the table.",
+          "steps": ["The farm produces maize.", "A mill makes flour.", "A shop sells the flour.", "A family cooks ugali."],
+          "answer": "Farm, mill, shop, then the home kitchen.",
+          "check": null
+        },
+        {
+          "problem": "A poem says a factory gives jobs but also must not pour waste into the river. Does this still recognise the role of the industry?",
+          "steps": ["The jobs are a real benefit.", "The warning is part of responsible recognition."],
+          "answer": "Yes. Recognising the role includes both the benefits and the duty to avoid harm.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compose a poem on industries",
+        "materials": ["Exercise book"],
+        "steps": [
+          "Choose one industry in your county, or a maize mill if you are still finding out.",
+          "List three benefits you are sure of.",
+          "Compose a short poem on those benefits and recite it to your group.",
+          "Include one line about safety or caring for the environment.",
+          "The class chooses two poems to display beside the industry posters."
+        ]
+      },
+      "practice": [
+        { "question": "What is the role of industries in a county?", "answer": "They process raw materials into goods people use, provide work and support trade and development.", "check": null },
+        { "question": "Put these in order: shop, farm, mill, family meal.", "answer": "Farm, mill, shop, family meal.", "check": null },
+        { "question": "Give one way a learner can appreciate industries.", "answer": "Any one: name them correctly, respect workers, avoid waste, or recite a poem about their benefits.", "check": null }
+      ],
+      "summary": [
+        "Industries link resources, work, trade and daily goods.",
+        "Their role includes jobs and products, and also a duty of care.",
+        "Poems help the class remember the benefits."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "An industry is a place where:", "options": ["Raw materials are processed into finished products", "Learners sit exams", "Wild animals are kept only as pets", "Money is exchanged for goods with no processing"], "answer": "A", "explanation": "Processing raw materials into finished products is what makes a place an industry.", "outcome": "a" },
+    { "question": "Which pair is correct?", "options": ["Clay to pots", "Flour to maize cobs", "Cement to limestone", "Paper to standing forests with no processing"], "answer": "A", "explanation": "Clay is the raw material and pots are a finished product.", "outcome": "a" },
+    { "question": "Jua kali workers often make:", "options": ["Sufurias and wheelbarrows from metal", "Rainfall", "Cardinal points", "School mottos"], "answer": "A", "explanation": "Jua kali workshops shape local materials, often metal, into useful items.", "outcome": "a" },
+    { "question": "Why is a maize mill often near farms and a road?", "options": ["So the raw material and the flour can be transported easily", "So learners can miss school", "So wildlife can be poached", "So the mill can avoid all customers"], "answer": "A", "explanation": "Industries are located near raw materials, markets and transport.", "outcome": "c" },
+    { "question": "Locating an industry means:", "options": ["Showing where it is and why it is there", "Closing it down", "Changing its raw material into soil", "Hiding it from the county"], "answer": "A", "explanation": "Location is the place, together with the reasons for choosing that place.", "outcome": "c" },
+    { "question": "Which is a benefit of industries?", "options": ["They create employment", "They stop all farming", "They ban trade", "They waste every raw material"], "answer": "A", "explanation": "People are paid to work in industries and in the businesses around them.", "outcome": "b" },
+    { "question": "A tea factory that buys leaves from local farmers provides:", "options": ["A ready market for a raw material", "Barter trade only", "A school motto", "Soil erosion"], "answer": "A", "explanation": "Farmers can sell their leaves to the factory.", "outcome": "b" },
+    { "question": "Which safety rule is correct on an industry visit?", "options": ["Touch every moving belt", "Stay with the teacher and do not touch machines", "Run between loading vehicles", "Wander off alone"], "answer": "B", "explanation": "Machines and vehicles can injure visitors who leave the group or touch equipment.", "outcome": "d" },
+    { "question": "The role of industries is to:", "options": ["Turn resources into useful goods and provide work", "Replace all schools", "Stop the county government from earning income", "Ban finished products"], "answer": "A", "explanation": "Industries process materials, employ people and support development.", "outcome": "d" },
+    { "question": "Why should a poem about industries mention care for rivers and safety?", "answer": "Because recognising the role of industries includes their benefits and their duty not to harm people or the environment.", "explanation": "Benefits and responsibility belong together.", "outcome": "d" }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 4.0 Resources and Economic Activities, Sub-strand 4.2 Industries in the County",
+    "KICD Grade 4 Social Studies radio lesson: Industries in the County"
+  ]
+}

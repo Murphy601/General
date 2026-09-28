@@ -274,6 +274,122 @@
         "A smaller letter after a bigger one adds; before a bigger one subtracts.",
         "Whole numbers help us count, buy, measure and keep time."
       ]
+    },
+    {
+      "number": 7,
+      "title": "Place value when we build and change numbers",
+      "outcomes": ["a", "k"],
+      "objectives": [
+        "Build the largest and smallest numbers from a set of digits.",
+        "Show how moving a digit to a new place changes its total value."
+      ],
+      "intro": "The digits 3, 0, 8, 1 and 5 can be arranged in many ways. The place you give each digit decides whether the number is large or small, so place value is a decision, not only a name.",
+      "notes": "A digit's place decides how much it is worth. The same digit can mean very different amounts. In 4,275 the digit 4 stands for 4,000. In 2,475 the same digit stands for 400. Before you read, write or compare a number, name the place of every digit.\n\n### The largest and the smallest number\nYou can build different numbers from the same digits. Take 3, 0, 8, 1 and 5, and use each digit once. To make the largest number, put the biggest digit in the highest place and the next biggest in the next place: 85,310. To make the smallest five-digit number, put the smallest digit that is not zero first, then the remaining digits from smallest to largest: 10,358. You cannot start with 0. If you write 01,358, that zero is not really a tens-of-thousands digit, and the number is only 1,358.\n\n### Moving a digit changes the total value\nStart with 12,406. If the thousands digit changes from 2 to 7, the number becomes 17,406. It has grown by 5,000, because that digit went up by 5 thousands. If you swap the hundreds digit and the tens digit, 12,406 becomes 12,046. The number is smaller by 360. You moved 4 from the hundreds place, where it was worth 400, to the tens place, where it is worth 40.\n\n### Why the place matters in daily life\nPlace value stops mistakes with money, counts and measurements. Writing 5,280 when you mean 528 makes the amount ten times too big. When you copy a number onto a form, a receipt or a chart, check each digit against its place. Then add the total values. If they do not give the number back, a digit is in the wrong column. Whole numbers are useful only when every digit is in the place you intended.",
+      "keyWords": [
+        { "word": "expanded form", "meaning": "a number written as the sum of the total values of its digits" },
+        { "word": "leading zero", "meaning": "a zero at the start of a whole number, which does not change the value" }
+      ],
+      "examples": [
+        {
+          "problem": "Use the digits 3, 0, 8, 1 and 5 once each to make the largest number.",
+          "steps": ["Order the digits from largest to smallest.", "8, then 5, then 3, then 1, then 0."],
+          "answer": "85,310",
+          "check": "80000 + 5000 + 300 + 10 + 0 === 85310"
+        },
+        {
+          "problem": "Use the same digits to make the smallest five-digit number.",
+          "steps": ["The first digit cannot be 0.", "Start with 1, then use 0, 3, 5 and 8."],
+          "answer": "10,358",
+          "check": "10000 + 0 + 300 + 50 + 8 === 10358 && 10358 < 85310"
+        },
+        {
+          "problem": "12,406 becomes 17,406 when the thousands digit changes from 2 to 7. By how much has the number increased?",
+          "steps": ["The thousands digit increased by 5.", "5 × 1,000 = 5,000"],
+          "answer": "5,000",
+          "check": "17406 - 12406 === 5000"
+        }
+      ],
+      "activity": {
+        "title": "Digit cards, biggest and smallest",
+        "materials": ["Digit cards 0 to 9", "Place value chart with five columns"],
+        "steps": [
+          "In a group, shuffle the digit cards and deal five cards to one learner.",
+          "The learner builds the largest number and the smallest five-digit number on the place value chart.",
+          "The group works out the total value of each digit in the largest number and writes the number in expanded form.",
+          "Take turns until everyone has built both numbers, then discuss a time when writing a digit in the wrong place would cause a problem."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 130\" font-family=\"sans-serif\"><rect width=\"500\" height=\"130\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"480\" height=\"110\"/><line x1=\"106\" y1=\"10\" x2=\"106\" y2=\"120\"/><line x1=\"202\" y1=\"10\" x2=\"202\" y2=\"120\"/><line x1=\"298\" y1=\"10\" x2=\"298\" y2=\"120\"/><line x1=\"394\" y1=\"10\" x2=\"394\" y2=\"120\"/><line x1=\"10\" y1=\"55\" x2=\"490\" y2=\"55\"/></g><g font-size=\"12\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"58\" y=\"30\">Tens of</text><text x=\"58\" y=\"46\">thousands</text><text x=\"154\" y=\"38\">Thousands</text><text x=\"250\" y=\"38\">Hundreds</text><text x=\"346\" y=\"38\">Tens</text><text x=\"442\" y=\"38\">Ones</text></g><g font-size=\"32\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#166534\"><text x=\"58\" y=\"100\">8</text><text x=\"154\" y=\"100\">5</text><text x=\"250\" y=\"100\">3</text><text x=\"346\" y=\"100\">1</text><text x=\"442\" y=\"100\">0</text></g></svg>",
+        "caption": "85,310, the largest number from the digits 3, 0, 8, 1 and 5"
+      },
+      "practice": [
+        { "question": "Use 4, 7, 2, 0 and 9 once each to make the largest number.", "answer": "97,420", "check": "90000 + 7000 + 400 + 20 + 0 === 97420" },
+        { "question": "Use 4, 7, 2, 0 and 9 once each to make the smallest five-digit number.", "answer": "20,479", "check": "20000 + 0 + 400 + 70 + 9 === 20479" },
+        { "question": "What is the total value of 6 in 16,045, and in 10,645?", "answer": "6,000 in 16,045 and 600 in 10,645", "check": "6*1000 === 6000 && 6*100 === 600" },
+        { "question": "By how much is 12,406 bigger than 12,046?", "answer": "360", "check": "12406 - 12046 === 360" }
+      ],
+      "summary": [
+        "Put bigger digits in higher places to make a larger number.",
+        "A five-digit number cannot start with 0.",
+        "Moving a digit to a new place changes its total value."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Choosing factors, multiples and even numbers",
+      "outcomes": ["f", "g", "h", "i", "k"],
+      "objectives": [
+        "Decide whether a sharing or packing question needs factors, multiples, or even and odd numbers.",
+        "Continue a pattern that stays even or stays odd."
+      ],
+      "intro": "A class of 36 learners needs equal groups, complete packs of books, and partners for a game. Each question uses a different idea about whole numbers, so the first step is to decide which idea fits.",
+      "notes": "Factors, multiples, even numbers and odd numbers answer different questions. A factor tells you a way to share a number exactly. A multiple tells you a total made from equal groups. Even and odd tell you whether pairing will leave someone out.\n\n### Sharing with factors\nThe factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18 and 36. A class of 36 can stand in equal rows of 6, because 6 × 6 = 36. They cannot stand in equal rows of 5, because 36 ÷ 5 leaves a remainder of 1. When a question says \"share equally\" or \"equal groups with none left over\", list the factors.\n\n### Packing with multiples\nIf books are packed in bundles of 8, the totals you can make up to 100 are the multiples of 8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88 and 96. A pile of 50 books is not a multiple of 8, so it cannot be made of complete bundles only. When a question says \"complete packs\" or \"groups of the same size\", test whether the total is a multiple.\n\n### Patterns that stay even or odd\nEven numbers end in 0, 2, 4, 6 or 8. Odd numbers end in 1, 3, 5, 7 or 9. Adding an even number keeps a number even or odd, just as it was: 12 + 4 = 16 and 13 + 4 = 17. Adding an odd number switches even to odd and odd to even: 12 + 5 = 17 and 13 + 5 = 18. So the pattern 4, 8, 12, 16 stays even, and the pattern 5, 9, 13, 17 stays odd.\n\n### Whole numbers in real tasks\nBefore you calculate, name the question. Equal sharing needs factors. Equal packs need multiples. Pairing needs even and odd. A pattern needs the rule that joins one number to the next. Using the right idea makes whole numbers useful at home, in class and at the market.",
+      "keyWords": [
+        { "word": "equal groups", "meaning": "groups that have the same number of items, with none left over" },
+        { "word": "remainder", "meaning": "what is left over when a number does not divide exactly" }
+      ],
+      "examples": [
+        {
+          "problem": "Can 36 learners stand in equal rows of 5? Can they stand in equal rows of 6?",
+          "steps": ["36 ÷ 5 leaves remainder 1, so 5 is not a factor of 36.", "36 ÷ 6 = 6 exactly, so 6 is a factor."],
+          "answer": "Not in rows of 5. Yes, in 6 rows of 6.",
+          "check": "36 % 5 === 1 && 36 % 6 === 0 && 6 * 6 === 36"
+        },
+        {
+          "problem": "Which of 40, 48 and 50 can be made from complete bundles of 8?",
+          "steps": ["Test which numbers are multiples of 8.", "40 ÷ 8 = 5 and 48 ÷ 8 = 6. 50 ÷ 8 leaves a remainder."],
+          "answer": "40 and 48",
+          "check": "40 % 8 === 0 && 48 % 8 === 0 && 50 % 8 === 2"
+        },
+        {
+          "problem": "Continue the pattern and say whether the numbers stay even or odd: 5, 9, 13, 17, __, __.",
+          "steps": ["Each number is 4 more than the one before.", "17 + 4 = 21 and 21 + 4 = 25.", "Adding an even number to an odd number keeps the number odd."],
+          "answer": "21 and 25, and the pattern stays odd",
+          "check": "17 + 4 === 21 && 21 + 4 === 25 && 21 % 2 === 1 && 25 % 2 === 1"
+        }
+      ],
+      "activity": {
+        "title": "Which idea fits the task?",
+        "materials": ["20 counters", "Number cards up to 50", "Exercise book"],
+        "steps": [
+          "In a group, take 20 counters and find every way to arrange them in equal rows. List the factors of 20.",
+          "Write the multiples of 5 that are not more than 50, and circle the ones that are also even.",
+          "Make one even pattern and one odd pattern with number cards, each jumping by the same amount.",
+          "Share the patterns with another group and explain which question — sharing, packing or pairing — each list answers."
+        ]
+      },
+      "practice": [
+        { "question": "List all the factors of 20.", "answer": "1, 2, 4, 5, 10, 20", "check": "20%1===0 && 20%2===0 && 20%4===0 && 20%5===0 && 20%10===0 && 20%20===0 && 20%3!==0" },
+        { "question": "Is 42 a multiple of 7?", "answer": "Yes, because 7 × 6 = 42.", "check": "7 * 6 === 42" },
+        { "question": "Continue: 18, 22, 26, __, __.", "answer": "30 and 34, and the numbers stay even", "check": "26 + 4 === 30 && 30 + 4 === 34 && 30 % 2 === 0" },
+        { "question": "36 learners want partners so that nobody is left out. Is 36 even or odd, and will everyone have a partner?", "answer": "36 is even, so everyone can have a partner.", "check": "36 % 2 === 0" }
+      ],
+      "summary": [
+        "Use factors for equal sharing and multiples for complete packs.",
+        "Even numbers pair exactly; odd numbers leave one out.",
+        "Adding an even number keeps a pattern even or odd; adding an odd number switches it."
+      ]
     }
   ],
   "quiz": [
