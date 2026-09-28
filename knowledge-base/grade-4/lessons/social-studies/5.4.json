@@ -1,0 +1,175 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "5.4",
+  "title": "Democracy in school",
+  "overview": "Democracy means people take part in decisions that affect them. In school, learners practise it when they choose leaders, make class rules, share duties and listen to one another. This sub-strand explains those processes, their benefits, and how to carry them out fairly.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Democratic processes in school",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain the meaning of democracy.",
+        "Identify democratic processes used in school."
+      ],
+      "intro": "When a teacher asks the class which game to play at break and then counts the choices, the class is doing something bigger than picking a game. They are practising democracy.",
+      "notes": "Democracy is a way of making decisions in which people are allowed to take part in matters that affect them. It is not a single event. It is a set of processes, which means regular ways of deciding.\n\n### Democratic processes in school\n- Choosing leaders: learners vote for a class representative, a prefect or members of the children's government, instead of a bully simply announcing themselves\n- Making class rules: learners suggest rules, discuss them, and agree which ones are fair\n- Class discussions: many learners speak, and the class looks for the best idea rather than the loudest voice\n- Debates: two sides present reasons, and listeners may change their minds\n- Sharing duties: cleaning, leading songs and fetching registers are rotated so that the same learners are not always servants or always bosses\n- Consultations: the teacher or head teacher asks learners' views before some decisions, such as the date of a class activity\n- Accepting results: after a fair vote, the class follows the decision even if their own idea lost\n\nA process is not democratic if some learners are barred because of gender, disability, tribe or poverty. Every learner who is part of the class has a voice. Younger or quieter learners may need a turn protected by the teacher, or their ideas will disappear.\n\nDemocracy in school does not cancel the head teacher's duty to keep learners safe. A vote cannot make bullying, stealing or missing school lawful. Democratic decisions stay inside the law and inside safety.\n\nA chart of these processes helps the class see that democracy is more than election day. Draw one box for each process and a small picture: a ballot, a rule list, a talking circle, a duty roster.",
+      "keyWords": [
+        { "word": "democracy", "meaning": "a way of deciding in which people take part in matters that affect them" },
+        { "word": "process", "meaning": "a regular way of doing something" },
+        { "word": "vote", "meaning": "a formal choice, usually by ballot or by raising hands" }
+      ],
+      "examples": [
+        {
+          "problem": "The class writes rules together and votes to adopt them. Which democratic process is this?",
+          "steps": ["Learners helped to make the decision.", "A vote confirmed it."],
+          "answer": "Making class rules through discussion and voting.",
+          "check": null
+        },
+        {
+          "problem": "A group says only boys may stand for class representative. Is this democratic?",
+          "steps": ["Half the class would be barred.", "Democracy includes every learner."],
+          "answer": "No. Barring girls makes the process unfair.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chart of democratic processes",
+        "materials": ["Manila paper", "Marker pens"],
+        "steps": [
+          "Brainstorm the ways your school already lets learners take part in decisions.",
+          "Prepare a chart showing the democratic processes: choosing leaders, making rules, discussions, debates and sharing duties.",
+          "Tick the processes your class uses often and circle one you rarely use.",
+          "Display the chart in class."
+        ]
+      },
+      "practice": [
+        { "question": "What is democracy?", "answer": "A way of making decisions in which people take part in matters that affect them.", "check": null },
+        { "question": "Name four democratic processes in school.", "answer": "Any four: choosing leaders, making class rules, discussions, debates, sharing duties, consultation and accepting fair results.", "check": null },
+        { "question": "Why can a class not vote to allow bullying?", "answer": "Democracy stays inside the law and safety. A vote cannot make harm lawful.", "check": null }
+      ],
+      "summary": [
+        "Democracy means taking part in decisions that affect you.",
+        "School processes include voting, rule-making, discussion, debate and shared duties.",
+        "Every learner should have a voice, and safety still stands."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Benefits of democracy in school",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Explain the benefits of democracy in school.",
+        "Show appreciation by describing fair treatment."
+      ],
+      "intro": "A learner who helped to write the class rules is more likely to keep them. The rule feels like theirs. That feeling is one benefit of democracy.",
+      "notes": "A benefit is a good result. Democracy in school brings several benefits.\n\n- Learners can say their ideas without fear. Fear hides useful information, such as a broken tap or a bully's name.\n- Learners feel they belong, because they helped to decide matters that affect them.\n- The class can choose leaders who show good qualities, instead of accepting whoever shouts.\n- Learners who serve as leaders practise leadership they may need later.\n- People treat one another more fairly. Fairness reduces anger.\n- Peace and harmony grow, because losers of a vote are still respected and winners do not punish them.\n- Duties are shared, so work is finished and resentment falls.\n- Teachers can be given subjects and duties that match their strengths, which helps learning. Learners benefit when the adults are also placed fairly.\n- Disagreements are handled in the open. Rumours have less room.\n\nThere is a cost to democracy: it takes time. A vote is slower than one person deciding. The time is worth it when the decision will touch many people. A teacher may still decide quickly in an emergency, such as a fire drill, and explain later.\n\nAppreciating democratic practices means you do not wreck them. You do not buy votes with gifts, tear up ballot papers, or sulk so that the winning team cannot work. You also thank learners who accept defeat calmly. That calm is a gift to the class.\n\nUnity grows when you can disagree and still sit together afterwards. Inclusivity means the benefit reaches learners with disabilities, new learners and quiet learners, not only the popular group.",
+      "keyWords": [
+        { "word": "benefit", "meaning": "a good result" },
+        { "word": "fairness", "meaning": "treating people according to the same just rules" },
+        { "word": "harmony", "meaning": "living together without lasting conflict" }
+      ],
+      "examples": [
+        {
+          "problem": "After a fair election, the loser congratulates the winner and still helps with the class duty. Which benefit does this protect?",
+          "steps": ["The class is not split into enemies.", "Work continues."],
+          "answer": "Peace and harmony, and shared duties.",
+          "check": null
+        },
+        {
+          "problem": "Why is being allowed to report a broken toilet a benefit of democracy?",
+          "steps": ["Learners can speak without fear.", "The problem can be fixed."],
+          "answer": "Speaking freely helps the school solve real problems.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Posters on the benefits",
+        "materials": ["Manila paper", "Crayons"],
+        "steps": [
+          "Discuss the benefits of democracy in school. Let several learners speak, and do not laugh at an opinion you dislike.",
+          "Each group prepares a poster with three benefits and a simple picture.",
+          "Display the posters.",
+          "Walk around and add one benefit another group found that yours had missed."
+        ]
+      },
+      "practice": [
+        { "question": "State four benefits of democracy in school.", "answer": "Any four: learners speak without fear, they feel they belong, they choose good leaders, they practise leadership, treatment is fairer, and peace grows.", "check": null },
+        { "question": "Why should a loser of a fair vote still work with the winner?", "answer": "So that peace continues and the class duty is done. Respect after a vote is part of democracy.", "check": null },
+        { "question": "When might a teacher decide quickly without a vote?", "answer": "In an emergency, such as a fire drill, when waiting would be unsafe.", "check": null }
+      ],
+      "summary": [
+        "Democracy helps learners speak, belong, choose leaders and live more fairly.",
+        "It takes time, but it reduces fear and rumours.",
+        "Accepting a fair result is part of appreciating democracy."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "A mock election",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Carry out a mock election of class leaders.",
+        "Practise other democratic elements such as taking turns and accepting results."
+      ],
+      "intro": "A mock election is a practice election. The votes can be real for a class role, but the lesson is how to choose fairly: no threats, no bribes and no hidden counting.",
+      "notes": "Practising democracy means doing it, not only describing it. A mock election of a class leader is a full process in a small space.\n\n### Steps\n1. Agree the post, such as class representative, and the qualities needed: honest, kind, hardworking and fair.\n2. Nominations: learners who are willing may be proposed. Nobody is dragged into standing, and nobody is barred unfairly.\n3. Campaign: each candidate says what they will do. They do not insult others or promise gifts. Buying votes is corruption, even when the 'payment' is a sweet.\n4. Ballot: each learner writes a choice or marks a paper in secret, so that nobody is punished for their vote. If the class is small, the teacher may use a method that still hides each person's choice.\n5. Count: two learners count aloud while the teacher watches. The numbers are recorded.\n6. Result: the person with the most votes wins. If the post must be shared for fairness, agree that rule before voting, not after you see who won.\n7. Acceptance: the winner thanks the class. The others promise to work with the winner.\n\nDemocratic elements besides voting include raising hands and waiting, letting a classmate finish a sentence, and changing a duty roster when someone shows it is unfair.\n\nA resource person, such as a teacher who has been a club patron or a parent who has served on a school committee, can explain what fair campaigns look like. Ask them one question: what should a leader do on the day after the election?\n\nAppreciate the process even if your friend loses. Next time the vote may go differently. Destroying the process because you lost teaches the class that only power matters.",
+      "keyWords": [
+        { "word": "mock election", "meaning": "a practice election carried out to learn the fair steps" },
+        { "word": "ballot", "meaning": "a secret vote, usually on paper" },
+        { "word": "corruption", "meaning": "using gifts, threats or lies to get an unfair advantage" }
+      ],
+      "examples": [
+        {
+          "problem": "A candidate gives sweets to classmates and asks them to vote for her. What is wrong?",
+          "steps": ["The sweets are a payment for a vote.", "Votes should follow qualities and ideas."],
+          "answer": "It is corruption. Votes must not be bought.",
+          "check": null
+        },
+        {
+          "problem": "The count is done in a closed desk by the candidate's friend. Why is this weak?",
+          "steps": ["Nobody else can see the count.", "A fair count is open and watched."],
+          "answer": "The count should be done aloud with the teacher watching, so people trust the result.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mock election in class",
+        "materials": ["Small pieces of paper", "A box or envelope", "Exercise book for the tally"],
+        "steps": [
+          "Agree one post and the qualities a holder should have.",
+          "Nominate willing candidates. Each gives a short talk with no insults and no gifts.",
+          "Vote by secret ballot. Two learners count aloud with the teacher.",
+          "Announce the result. The winner and the others say how they will work together.",
+          "If a resource person is present, ask how fair leadership continues after election day."
+        ]
+      },
+      "practice": [
+        { "question": "List the main steps of a fair class election.", "answer": "Agree the post, nominate willing candidates, campaign without insults or bribes, vote secretly, count in the open, announce the result and accept it.", "check": null },
+        { "question": "Why is the ballot secret?", "answer": "So that nobody is punished or rewarded for the way they voted.", "check": null },
+        { "question": "Name one democratic element that is not an election.", "answer": "Making rules together, taking turns to speak, or sharing duties fairly.", "check": null }
+      ],
+      "summary": [
+        "A mock election teaches nomination, a clean campaign, a secret ballot and an open count.",
+        "Buying votes and insulting opponents destroy democracy.",
+        "Accepting the result is part of the practice."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Democracy means:", "options": ["People take part in decisions that affect them", "One bully decides everything", "Only adults may ever speak", "Rules are abolished"], "answer": "A", "explanation": "Taking part in decisions is the heart of democracy.", "outcome": "a" },
+    { "question": "Which of these is a democratic process in school?", "options": ["Choosing leaders by vote", "A stronger learner seizing the position", "Barring girls from speaking", "Buying votes with sweets"], "answer": "A", "explanation": "A vote in which learners may take part is a democratic process.", "outcome": "a" },
+    { "question": "A class vote to allow stealing would be wrong because:", "options": ["Democracy must stay inside the law and safety", "Voting is never allowed", "Only prefects may have ideas", "Stealing is a raw material"], "answer": "A", "explanation": "Participation does not make a crime acceptable.", "outcome": "a" },
+    { "question": "A benefit of democracy in school is that:", "options": ["Learners can give ideas without fear", "Quiet learners must never speak", "Losers should be punished", "Campaigns should use insults"], "answer": "A", "explanation": "Freedom to speak helps the school solve problems and helps learners belong.", "outcome": "b" },
+    { "question": "After a fair election, the learner who lost should:", "options": ["Tear up the results", "Work with the winner", "Buy a new vote", "Refuse every class duty forever"], "answer": "B", "explanation": "Accepting a fair result protects peace.", "outcome": "d" },
+    { "question": "Sharing duties by a roster is democratic because:", "options": ["The same learners are not always given the hard work", "One friend of the leader does nothing", "Duties disappear", "Only boys are listed"], "answer": "A", "explanation": "Fair rotation is a democratic way to share work.", "outcome": "c" },
+    { "question": "Buying votes with gifts is:", "options": ["Good campaigning", "Corruption", "A secret ballot", "A peace garden"], "answer": "B", "explanation": "Votes should be based on ideas and qualities, not payment.", "outcome": "c" },
+    { "question": "Why is a secret ballot used?", "options": ["So voters are not punished for their choice", "So the teacher can never count", "So candidates can add extra papers unseen", "So some learners get two votes"], "answer": "A", "explanation": "Secrecy protects the voter. The count itself should still be open.", "outcome": "c" },
+    { "question": "An open count means:", "options": ["Votes are counted where others can see and hear", "The papers are hidden in one candidate's bag", "Nobody records the numbers", "The loser chooses the winner"], "answer": "A", "explanation": "An open count builds trust in the result.", "outcome": "c" },
+    { "question": "Inclusivity in a class election means:", "answer": "Every learner may take part, and nobody is barred for gender, disability or background.", "explanation": "Democracy in school is for the whole class.", "outcome": "d" }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 5.0 Citizenship and Governance in Kenya, Sub-strand 5.4 Democracy in school",
+    "KICD Grade 4 Social Studies radio lesson: Benefits of Democracy in School"
+  ]
+}
