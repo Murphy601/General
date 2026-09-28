@@ -52,36 +52,57 @@ function designSource(slug) {
   return normalize(cleaned);
 }
 
-/** Exact match, or up to `maxParts` in-order fragments that sit close together in the design. */
-function matchInSource(source, text, maxParts = 3) {
+const FRAGMENT_WINDOW = 6000;
+
+function occurrences(source, piece) {
+  const out = [];
+  for (let i = source.indexOf(piece); i !== -1 && out.length < 50; i = source.indexOf(piece, i + 1)) out.push(i);
+  return out;
+}
+
+/** True if `pieces` appear in order, each starting within FRAGMENT_WINDOW of the previous one's end. */
+function piecesInOrder(source, pieces) {
+  for (const start of occurrences(source, pieces[0])) {
+    let end = start + pieces[0].length;
+    let ok = true;
+    for (const piece of pieces.slice(1)) {
+      const idx = source.indexOf(piece, end);
+      if (idx === -1 || idx - end > FRAGMENT_WINDOW) {
+        ok = false;
+        break;
+      }
+      end = idx + piece.length;
+    }
+    if (ok) return true;
+  }
+  return false;
+}
+
+/**
+ * Exact match, or the text split at word boundaries into up to 3 in-order fragments that sit close together
+ * in the design (sentences broken by page breaks or by the neighbouring table column).
+ */
+function matchInSource(source, text) {
   const needle = normalize(text);
   if (!needle) return { ok: false };
   if (source.includes(needle)) return { ok: true, parts: 1 };
 
-  let from = 0;
-  let rest = needle;
-  let windowEnd = source.length;
-  for (let part = 1; part <= maxParts; part += 1) {
-    let lo = Math.min(12, rest.length);
-    let best = -1;
-    let bestLen = 0;
-    let hi = rest.length;
-    while (lo <= hi) {
-      const mid = Math.floor((lo + hi) / 2);
-      const idx = source.indexOf(rest.slice(0, mid), from);
-      if (idx !== -1 && idx < windowEnd) {
-        best = idx;
-        bestLen = mid;
-        lo = mid + 1;
-      } else {
-        hi = mid - 1;
-      }
+  const words = String(text).split(/\s+/).map(normalize).filter(Boolean);
+  const join = (a, b) => words.slice(a, b).join('');
+  const minPiece = 6;
+  for (let i = 1; i < words.length; i += 1) {
+    const a = join(0, i);
+    const b = join(i, words.length);
+    if (a.length >= minPiece && b.length >= minPiece && piecesInOrder(source, [a, b])) return { ok: true, parts: 2 };
+  }
+  for (let i = 1; i < words.length - 1; i += 1) {
+    const a = join(0, i);
+    if (a.length < minPiece || !source.includes(a)) continue;
+    for (let j = i + 1; j < words.length; j += 1) {
+      const b = join(i, j);
+      const c = join(j, words.length);
+      if (b.length >= minPiece && c.length >= minPiece && piecesInOrder(source, [a, b, c])) return { ok: true, parts: 3 };
     }
-    if (best === -1) return { ok: false };
-    rest = rest.slice(bestLen);
-    if (!rest) return { ok: true, parts: part };
-    from = best + bestLen;
-    windowEnd = from + 6000;
   }
   return { ok: false };
 }
