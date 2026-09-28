@@ -1,0 +1,130 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "9.4.1",
+  "title": "Sarufi: Vinyume vya Nomino",
+  "overview": "Kinyume cha nomino ni neno ambalo maana yake inapingana na nomino nyingine. Utajifunza jozi kama rafiki na adui, furaha na huzuni, usiku na mchana, na afya na ugonjwa. Utaweza kuzitambua, kuzitumia katika sentensi, na kurekebisha upatanisho neno jipya linapobadilisha ngeli.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana na utambuzi wa vinyume",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya kinyume cha nomino.",
+        "Kuambatanisha nomino na kinyume chake.",
+        "Kutambua vinyume katika sentensi na orodha."
+      ],
+      "intro": "Usiku unapoingia, mchana unaisha. Rafiki anapokuwa karibu, adui hayuko upande huo. Maneno haya yanapingana. Tunayaita vinyume vya nomino, na yanapanua lugha yetu ya kila siku, kutia afya na mahusiano.",
+      "notes": "### Kinyume ni nini?\nKinyume cha nomino ni neno ambalo maana yake inapingana na nomino nyingine. Wingi wake ni **vinyume**. Rafiki si adui. Furaha si huzuni. Ukitaja moja, mawazo yanaelekea upande wa pili.\n\nVinyume husaidia lugha. Unaweza kulinganisha, kuonya, au kueleza mabadiliko: \"Furaha imeondoka, huzuni imeingia.\" Pia unajifunza maneno mapya kwa jozi, si moja moja.\n\n### Jozi za msingi\n- **rafiki** na **adui**\n- **mgeni** na **mwenyeji**\n- **furaha** na **huzuni**\n- **mfalme** na **malkia** (mtawala wa kiume na mtawala wa kike)\n- **usiku** na **mchana**\n- **tajiri** na **maskini**\n\nJozi nyingine zinazofaa katika afya na maisha:\n- **afya** na **ugonjwa**\n- **upendo** na **chuki**\n- **ukweli** na **uongo**\n- **amani** na **vita**\n- **mwangaza** na **giza**\n- **mwanzo** na **mwisho**\n\nMfalme na malkia si \"kheri na shari\". Ni jozi inayopingana katika cheo: mmoja si mwenzake. Tunazifunza kama vinyume kwa sababu kila neno linawakilisha upande mwingine wa jozi.\n\n### Jinsi ya kutambua\nSoma sentensi na utafute neno ambalo linaweza kubadilishwa na kinyume na maana ikageuka.\n\n\"Mgeni amefika, naye mwenyeji amemkaribisha.\" Mgeni na mwenyeji vinapingana.\n\n\"Usiku huu umeingia.\" Kinyume cha usiku ni mchana.\n\nSi kila tofauti ni kinyume. Embe na ndizi ni matunda tofauti, si vinyume. Simba na twiga si vinyume. Uliza: je, moja inakanusha lingine? Kama hapana, si jozi ya vinyume.\n\nUnaweza kuvitambua kwenye chati, kadi, kapu la maneno au mti wa maneno wenye matawi mawili.",
+      "keyWords": [
+        { "word": "kinyume", "meaning": "neno ambalo maana yake inapingana na neno lingine" },
+        { "word": "vinyume", "meaning": "wingi wa kinyume" },
+        { "word": "mwenyeji", "meaning": "mwenye nyumba au mahali, kinyume cha mgeni" },
+        { "word": "huzuni", "meaning": "kinyume cha furaha" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika vinyume vya: rafiki, usiku, tajiri, afya.",
+          "steps": ["Tafuta neno linalopingana, si kisawe.", "Afya inapingana na ugonjwa, si na tiba."],
+          "answer": "adui, mchana, maskini, ugonjwa",
+          "check": null
+        },
+        {
+          "problem": "Tambua vinyume katika sentensi: Amani inapotea vita vinapoanza, yaani amani hukoma vita vinapoanza.",
+          "steps": ["Tafuta nomino mbili zinazopingana.", "Amani na vita ndiyo jozi."],
+          "answer": "amani na vita",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mti wa vinyume",
+        "materials": ["Kadi za nomino", "Kapu", "Mti wa maneno au chati"],
+        "steps": [
+          "Andika kila neno la jozi peke yake: rafiki, adui, mgeni, mwenyeji, furaha, huzuni, mfalme, malkia, usiku, mchana, tajiri, maskini, afya, ugonjwa.",
+          "Changanya kadi kwenye kapu. Kila mwanafunzi achopoe moja.",
+          "Amtafute mwenzake mwenye kinyume.",
+          "Weka jozi kwenye mti wa maneno na ieleze kwa sentensi moja.",
+          "Kama kifaa kipo, angalieni picha zinazoonyesha usiku na mchana ili kuona tofauti."
+        ]
+      },
+      "practice": [
+        { "question": "Kinyume cha nomino ni nini?", "answer": "Ni neno ambalo maana yake inapingana na nomino nyingine.", "check": null },
+        { "question": "Andika vinyume vya: mgeni, furaha, malkia, mwangaza.", "answer": "mwenyeji, huzuni, mfalme, giza", "check": null },
+        { "question": "Kwa nini embe na ndizi si vinyume?", "answer": "Kwa sababu ni matunda tofauti, lakini moja halipingani na lingine.", "check": null },
+        { "question": "Tambua jozi katika: Tajiri amemsaidia maskini.", "answer": "tajiri na maskini", "check": null }
+      ],
+      "summary": [
+        "Kinyume ni neno linalopingana na lingine.",
+        "Rafiki na adui, usiku na mchana, afya na ugonjwa ni jozi.",
+        "Matunda tofauti si vinyume."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia vinyume katika sentensi",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa kinyume kinachofaa.",
+        "Kurekebisha upatanisho neno jipya likibadilisha ngeli.",
+        "Kutunga sentensi zinazotumia jozi ya vinyume."
+      ],
+      "intro": "Kubadilisha rafiki kuwa adui ni rahisi ikiwa sentensi inabaki na yangu na ame-. Kubadilisha afya kuwa ugonjwa kunahitaji uangalifu, kwa sababu viambishi vinabadilika. Leo tutatumia vinyume kwa usahihi.",
+      "notes": "### Kubadilisha pasipo kuharibu upatanisho\nBaadhi ya jozi ziko katika ngeli inayofanana. Ukibadilisha neno, kitenzi kinaweza kubaki.\n\n- Rafiki **yangu amekuja**. → Adui **yangu amekuja**.\n- Mgeni **amefika**. → Mwenyeji **amefika**.\n- Furaha **yangu ni kubwa**. → Huzuni **yangu ni kubwa**.\n- Mfalme **anatawala**. → Malkia **anatawala**.\n- Usiku **huu umeingia**. → Mchana **huu umeingia**.\n- Tajiri **amesaidia**. → Maskini **amesaidia**.\n\nRafiki na adui vinatumia yangu na a-. Furaha na huzuni vinatumia yangu. Usiku na mchana vinatumia huu na u-.\n\n### Ngeli inapobadilika\nAfya ni ngeli ya I-ZI. Ugonjwa ni ngeli ya U-U.\n- Afya **hii** ni **njema**. Afya **yangu ni njema**.\n- Ugonjwa **huu** ni **mbaya**. Ugonjwa **wangu umetibiwa**.\n\nUsiandike \"Ugonjwa yangu imetibiwa.\" Sahihi ni \"Ugonjwa wangu umetibiwa.\"\n\nAmani ni I-ZI, na vita ni VI.\n- Amani **imerudi** kijijini.\n- Vita **vimeisha**.\n\n\"Vita imerudi\" si sahihi. Vita **vime**isha, si *imeisha.\n\n### Kujaza nafasi\nChagua kinyume kinachopingana, kisha angalia kama ndicho neno linaloongoza kitenzi.\n\n- Mgeni amefika. ____ amemkaribisha. (mwenyeji)\n- Furaha imepungua, ____ imeongezeka. (huzuni)\n- ____ ni bora kuliko vita. (amani)\n- Afya njema inapingana na ____ mbaya. (ugonjwa)\n\nKatika \"Amani ni bora kuliko vita,\" neno **ni** halibadiliki. Hapa huna haja ya kubadilisha kiambishi.\n\n### Katika mawasiliano\nVinyume hufanya maelezo ya afya na mahusiano kuwa wazi: \"Tunachagua afya, si ugonjwa. Tunataka amani, si vita. Tunakaribisha mgeni kwa upendo, si chuki.\" Tumia jozi unapozungumza na unapoandika. Ukikosea yangu na wangu, rekebisha kiambishi na usome tena. Lugha inakua unapojua pande zote mbili za neno.",
+      "keyWords": [
+        { "word": "upatanisho", "meaning": "kufananisha viambishi vya kitenzi na ngeli ya nomino" },
+        { "word": "njema", "meaning": "kivumishi cha I-ZI kinachoonyesha hali nzuri, kama afya njema" },
+        { "word": "wangu", "meaning": "kimilikishi cha ngeli ya U, kama ugonjwa wangu" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza: Usiku umeisha, ____ umeanza.",
+          "steps": ["Kinyume cha usiku ni mchana.", "Mchana hutumia u- kama usiku, kwa hiyo umeanza."],
+          "answer": "mchana (Usiku umeisha, mchana umeanza.)",
+          "check": null
+        },
+        {
+          "problem": "Andika upya ukibadilisha afya kuwa ugonjwa na kurekebisha viambishi: Afya yangu ni njema.",
+          "steps": ["Ugonjwa hutumia wangu, si yangu.", "Kivumishi kinachopingana na njema hapa ni mbaya."],
+          "answer": "Ugonjwa wangu ni mbaya.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Jaza na tunga",
+        "materials": ["Sentensi zenye nafasi", "Orodha ya vinyume", "Daftari"],
+        "steps": [
+          "Pokea orodha ya nomino na utafute vinyume kwa kushirikiana.",
+          "Jaza nafasi nne darasani: rafiki, furaha, usiku na afya.",
+          "Kwa sentensi ya afya, rekebisha yangu kuwa wangu unapoandika ugonjwa.",
+          "Tunga sentensi mbili kuhusu amani na afya ukitumia vinyume.",
+          "Msomeane na mkasahihishe upatanisho."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza: Mwenyeji amemkaribisha ____.", "answer": "mgeni", "check": null },
+        { "question": "Andika upya kwa kinyume: Furaha yangu ni kubwa.", "answer": "Huzuni yangu ni kubwa.", "check": null },
+        { "question": "Sahihisha: Ugonjwa yangu imetibiwa.", "answer": "Ugonjwa wangu umetibiwa.", "check": null },
+        { "question": "Tunga sentensi ukitumia amani na vita.", "answer": "Mfano: Tunachagua amani, si vita, ili tuishi salama.", "check": null }
+      ],
+      "summary": [
+        "Tumia kinyume kinachopingana na neno lililopo.",
+        "Rafiki na adui hubaki na yangu na ame-.",
+        "Afya yangu ni njema, lakini ugonjwa wangu ni mbaya."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Kinyume cha nomino ni nini?", "options": ["neno lenye maana sawa", "neno linalopingana na lingine", "kitenzi cha kutenda", "kiambishi cha umoja"], "answer": "B", "explanation": "Vinyume hubadilisha maana kwenda upande unaopingana.", "outcome": "a", "check": null },
+    { "question": "Kinyume cha rafiki ni nani?", "options": ["mwenyeji", "adui", "mfalme", "tajiri"], "answer": "B", "explanation": "Rafiki na adui vinapingana.", "outcome": "b", "check": null },
+    { "question": "Kinyume cha usiku ni nini?", "options": ["giza", "mchana", "alfajiri tu", "jioni tu"], "answer": "B", "explanation": "Usiku unapingana na mchana.", "outcome": "b", "check": null },
+    { "question": "Kinyume cha afya ni nini?", "options": ["tiba", "ugonjwa", "dawa", "mlo"], "answer": "B", "explanation": "Afya inapingana na ugonjwa.", "outcome": "b", "check": null },
+    { "question": "Mfalme anapingana na nani katika jozi hii?", "options": ["maskini", "malkia", "mgeni", "adui"], "answer": "B", "explanation": "Mfalme na malkia ni jozi ya vinyume katika somo hili.", "outcome": "b", "check": null },
+    { "question": "Chagua sentensi iliyo sahihi.", "options": ["Huzuni yangu ni kubwa.", "Huzuni wangu ni kubwa.", "Huzuni letu ni kubwa.", "Huzuni vyangu ni kubwa."], "answer": "A", "explanation": "Huzuni ni ngeli ya I-ZI kama furaha, kwa hiyo yangu.", "outcome": "c", "check": null },
+    { "question": "Ugonjwa ____ umetibiwa. Kiambishi sahihi ni kipi?", "options": ["yangu; ime", "wangu; ume", "changu; kime", "langu; lime"], "answer": "B", "explanation": "Ugonjwa hutumia wangu na ume-.", "outcome": "c", "check": null },
+    { "question": "Jaza: Mgeni amefika. ____ amemkaribisha.", "options": ["Adui", "Mwenyeji", "Maskini", "Giza"], "answer": "B", "explanation": "Mwenyeji ndiye anayemkaribisha mgeni.", "outcome": "c", "check": null },
+    { "question": "Sahihisha: Vita imerudi.", "answer": "Vita vimerudi. (au: Vita vimeanza.)", "explanation": "Vita hutumia vi-, si i-.", "outcome": "c", "check": null },
+    { "question": "Vinyume vinakuza lugha vipi?", "answer": "Vinakupa maneno ya pande zinazopingana, hivyo unaweza kulinganisha na kueleza mabadiliko kwa usahihi.", "explanation": "Kujua jozi kunapanua msamiati na kufanya sentensi kuwa wazi.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 9.0 Afya Bora, Mada Ndogo 9.4.1 Sarufi: Vinyume vya Nomino"
+  ]
+}
