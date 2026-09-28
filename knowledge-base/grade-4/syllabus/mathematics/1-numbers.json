@@ -1,0 +1,70 @@
+{
+  "subject": "MATHEMATICS",
+  "slug": "mathematics",
+  "totalLessons": 150,
+  "strands": [
+    {
+      "number": "1.0",
+      "name": "Numbers",
+      "subStrands": [
+        {
+          "number": "1.1",
+          "name": "Whole Numbers",
+          "lessons": 10,
+          "content": [
+            "Place value and total value",
+            "Reading and writing numbers in symbols and in words",
+            "Factors and multiples",
+            "Even and odd numbers",
+            "Roman numbers"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "use place value and total value of digits up to tens of thousands in daily life situations" },
+            { "id": "b", "text": "read and write numbers up to 10,000 in symbols in real-life situations" },
+            { "id": "c", "text": "read and write numbers up to 1,000 in words in day-to-day activities" },
+            { "id": "d", "text": "order numbers up to 1,000 in different situations" },
+            { "id": "e", "text": "round off numbers up to 1,000 to the nearest ten in different situations" },
+            { "id": "f", "text": "identify factors of numbers upto 50 in different contexts" },
+            { "id": "g", "text": "identify multiples of numbers up to100 in different situations" },
+            { "id": "h", "text": "apply even and odd numbers up to 100 in different situations" },
+            { "id": "i", "text": "make patterns involving even and odd numbers in real-life situations" },
+            { "id": "j", "text": "represent Hindu Arabic numerals using Roman numerals up to ‘X’ in different situations" },
+            { "id": "k", "text": "appreciate use of whole numbers in real-life situations" }
+          ],
+          "learningExperiences": [
+            "share tasks in identifying place value of numbers up to tens of thousands using place value apparatus and other resources",
+            "jointly work with others to identify total values of digits up to ten thousand",
+            "read numbers up to10,000 in symbols",
+            "team up with peers to read and write numbers up to 1,000 in words froma number chart or other resources",
+            "work with peers and arrange numbers up to 1,000 from smallest to largest and largest to smallest using number cards and share with others",
+            "team up with peers to round off numbers up to 1,000 to the nearest ten and share with others",
+            "jointly work with peers to identify factors/divisors of numbers up to 50 and share with others",
+            "team up with peers to identify multiples of numbers up to 100 and share with others",
+            "jointly work with peers to identify even and odd numbers up to 100 and share them with others",
+            "team up with peers to use number cards to make patterns involving even and odd numbers",
+            "jointly with peers write Hindu Arabic numerals using Roman numerals up to ‘X’ using number charts",
+            "team up with peers to use digital devices to play digital games involving whole numbers"
+          ],
+          "keyInquiryQuestions": [
+            "What should you consider when writing numbersin words?",
+            "Why should we determine the place value of a digit in a number?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking and problem solving: learner uses place value apparatus to identify place value of numbers up to tens of thousands.",
+            "Learning to learn: learner rounds off numbers up to 1,000 to the nearest ten and share experiences with others."
+          ],
+          "values": [
+            "Respect: learner takes turn to represent Hindu Arabic numerals using Roman numerals up to ‘X’ using number charts.",
+            "Unity: learner works amicably with peers to identify multiples of numbers up to 100 and share with others."
+          ],
+          "pcis": [
+            "Social Cohesion: learner works harmoniously with others in identifying factors/divisors of numbers up to 50."
+          ],
+          "links": [
+            "The learner is able to relate rounding off numbers up to 1,000 to the nearest ten to rounding off distances on a map in Social Studies."
+          ]
+        }
+      ]
+    }
+  ]
+}
