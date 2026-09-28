@@ -1,0 +1,111 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "4.1.1",
+  "title": "Kusikiliza na Kuzungumza: Maneno ya Upole",
+  "overview": "Maneno ya upole ni maneno tunayotumia badala ya maneno ambayo yanaweza kuonekana machafu, makali au ya aibu yakitamkwa waziwazi. Katika mada hii ndogo utatambua maneno ya upole, utaeleza maana zake na utayatumia katika sentensi na mazungumzo ya kila siku. Pia utaona kwa nini maneno haya huleta heshima katika mawasiliano.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kutambua maneno ya upole na maana zake",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kueleza maana ya maneno ya upole.",
+        "Kutambua maneno ya upole katika chati, ubao au sentensi.",
+        "Kutaja neno la upole linalofaa badala ya neno la waziwazi."
+      ],
+      "intro": "Wakati wa somo, Baraka alinyoosha mkono akasema, \"Mwalimu, naomba ruhusa niende msalani.\" Mwalimu alitabasamu na kumruhusu. Baraka alitumia maneno ya upole. Je, unajua maneno mengine kama hayo?",
+      "notes": "### Maneno ya upole ni nini?\nManeno ya upole ni maneno au misemo inayotumiwa kueleza jambo ambalo likitajwa waziwazi linaweza kuleta aibu, kuudhi au kuonekana kukosa adabu. Tunayatumia ili kuficha ukali wa jambo hilo na kuonyesha heshima kwa tunaozungumza nao.\n\nMambo yanayohusu mwili, choo, ugonjwa, uzazi na kifo huzungumziwa kwa maneno ya upole hasa mbele ya wakubwa, wageni na hadharani.\n\n### Mifano ya maneno ya upole\n- **kwenda msalani** – kwenda chooni.\n- **kwenda haja ndogo** – kukojoa.\n- **kwenda haja kubwa** – kutoa kinyesi.\n- **kuendesha** – kuharisha, yaani kupata choo chepesi mara nyingi kwa sababu ya ugonjwa.\n- **kujifungua** – kuzaa mtoto.\n- **mja mzito** – mwanamke mwenye mimba.\n- **kuaga dunia** au **kufariki** – kufa.\n- **asiyeona** – mtu kipofu.\n\n### Jinsi ya kuyatambua\nUnaposikia au kusoma sentensi, jiulize: Je, jambo hili lingeweza kusemwa kwa njia nyingine iliyo kali zaidi? Kama jibu ni ndiyo, basi huenda umetumiwa msemo wa upole. Kwa mfano, katika sentensi \"Shangazi amejifungua mtoto wa kike,\" neno **amejifungua** ni la upole kwa sababu badala ya kusema \"amezaa\".\n\nMara nyingi maneno ya upole huwa na zaidi ya neno moja, kama vile **kwenda haja kubwa** na **kuaga dunia**. Hivyo tunaweza kuyaita pia misemo ya upole.\n\n### Kumbuka\nManeno ya upole si maneno ya uongo. Yanaeleza ukweli uleule lakini kwa lugha nzuri inayomstahi msikilizaji.",
+      "keyWords": [
+        { "word": "maneno ya upole", "meaning": "maneno yanayotumiwa badala ya maneno makali au ya aibu ili kuonyesha heshima" },
+        { "word": "msalani", "meaning": "chooni" },
+        { "word": "kujifungua", "meaning": "kuzaa mtoto" },
+        { "word": "kuendesha", "meaning": "kuharisha kwa sababu ya ugonjwa" }
+      ],
+      "examples": [
+        { "problem": "Tambua neno la upole katika sentensi: Mtoto huyu anaendesha tangu jana.", "steps": ["Tafuta neno linaloeleza hali ya mwili kwa njia ya staha.", "Anaendesha linamaanisha anaharisha."], "answer": "anaendesha", "check": null },
+        { "problem": "Andika neno la upole badala ya neno lililopigiwa mstari: Bibi yake Amina amekufa.", "steps": ["Kufa ni neno la waziwazi.", "Neno la upole ni kufariki au kuaga dunia."], "answer": "Bibi yake Amina amefariki. (au: ameaga dunia)", "check": null }
+      ],
+      "activity": {
+        "title": "Kapu la maneno ya upole",
+        "materials": ["Vikaratasi vilivyoandikwa maneno", "Kapu au boksi", "Chati ya maneno ya upole"],
+        "steps": [
+          "Mwalimu aandike maneno ya upole na maana zake kwenye vikaratasi tofauti kisha ayaweke kapuni.",
+          "Kila mwanafunzi achopoe kikaratasi kimoja na asome kilichoandikwa.",
+          "Mwanafunzi aliye na neno la upole amtafute mwenzake aliye na maana yake.",
+          "Kila jozi ieleze darasa neno lao na maana yake.",
+          "Jadilianeni kama kundi ni wakati gani neno hilo hutumika."
+        ]
+      },
+      "practice": [
+        { "question": "Maneno ya upole ni nini?", "answer": "Ni maneno yanayotumiwa badala ya maneno makali au ya aibu ili kuonyesha heshima katika mawasiliano.", "check": null },
+        { "question": "Neno kwenda msalani lina maana gani?", "answer": "Kwenda chooni.", "check": null },
+        { "question": "Taja neno la upole la kueleza kwamba mwanamke amezaa mtoto.", "answer": "Amejifungua.", "check": null },
+        { "question": "Tambua msemo wa upole katika sentensi: Mzee Kazungu aliaga dunia mwaka jana.", "answer": "aliaga dunia", "check": null }
+      ],
+      "summary": [
+        "Maneno ya upole huficha ukali wa jambo bila kubadilisha ukweli wake.",
+        "Mifano ni kwenda msalani, kwenda haja ndogo, kwenda haja kubwa, kuendesha na kujifungua.",
+        "Tunayatumia hasa mbele ya wakubwa, wageni na hadharani."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia maneno ya upole katika mawasiliano",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kutunga sentensi sahihi kwa kutumia maneno ya upole.",
+        "Kuigiza mazungumzo yanayotumia maneno ya upole.",
+        "Kueleza umuhimu wa kutumia maneno ya upole."
+      ],
+      "intro": "Fikiria umefika zahanati na mdogo wako ni mgonjwa. Muuguzi anakuuliza shida yake. Utaelezaje kwa adabu kwamba anaharisha? Leo tutajifunza kutumia maneno ya upole katika hali kama hizi.",
+      "notes": "### Kutumia maneno ya upole katika sentensi\nNeno la upole huchukua nafasi ya neno la waziwazi katika sentensi. Sentensi hubaki na maana ileile lakini inakuwa na adabu.\n\n- Mwalimu, naomba niende **msalani**.\n- Mtoto mdogo alilia kwa sababu alitaka **kwenda haja ndogo**.\n- Daktari alimuuliza mgonjwa kama **alienda haja kubwa** asubuhi.\n- Juma hakuja shuleni kwa sababu **anaendesha**.\n- Mama Wanjiru **amejifungua** mapacha hospitalini.\n\n### Mazungumzo mafupi\nSoma mazungumzo haya kati ya Neema na muuguzi.\n\nMuuguzi: Karibu, mwanangu. Unamleta nani?\n\nNeema: Asante. Nimemleta mdogo wangu Tumaini. Tangu jana usiku **anaendesha** na hataki kula.\n\nMuuguzi: Pole sana. Amekunywa maji ya kutosha?\n\nNeema: Mama amempa maji yaliyochemshwa. Pia anaomba **kwenda msalani** kila mara.\n\nMuuguzi: Umefanya vizuri kumleta mapema. Daktari atamwona sasa hivi.\n\nNeema alieleza tatizo waziwazi lakini kwa heshima. Muuguzi alielewa bila Neema kutumia maneno ya aibu.\n\n### Umuhimu wa maneno ya upole\n- Huonyesha heshima kwa msikilizaji, hasa wazazi, walimu, wazee na wageni.\n- Huzuia aibu kwa anayezungumza na kwa anayesikiliza.\n- Hudumisha amani na uhusiano mwema kati ya watu.\n- Humfanya mzungumzaji aonekane kuwa mtu mwenye adabu na nidhamu.\n- Humsaidia mtu kueleza shida zake, kama za kiafya, bila kuona haya.\n\nMtu anayetumia maneno ya upole huheshimiwa na wenzake. Jizoeze kuyatumia shuleni, nyumbani na kila mahali.",
+      "keyWords": [
+        { "word": "heshima", "meaning": "adabu na staha anayoonyeshwa mtu" },
+        { "word": "mazungumzo", "meaning": "maongezi kati ya watu wawili au zaidi" },
+        { "word": "haya", "meaning": "aibu" }
+      ],
+      "examples": [
+        { "problem": "Tunga sentensi ukitumia msemo: kwenda haja ndogo.", "steps": ["Chagua hali inayofaa, kama mtoto mdogo au safarini.", "Tumia msemo katika sentensi kamili."], "answer": "Dereva alisimamisha basi ili abiria waende haja ndogo.", "check": null },
+        { "problem": "Andika upya sentensi kwa lugha ya upole: Mke wa jirani amezaa jana.", "steps": ["Neno amezaa lina neno la upole amejifungua."], "answer": "Mke wa jirani amejifungua jana.", "check": null }
+      ],
+      "activity": {
+        "title": "Maigizo ya zahanati",
+        "materials": ["Kadi za majukumu (mgonjwa, mzazi, muuguzi, daktari)", "Kifaa cha kidijitali cha kutazama maigizo, panapowezekana"],
+        "steps": [
+          "Tazameni maigizo mafupi kuhusu matumizi ya maneno ya upole kwenye video, panapowezekana.",
+          "Gawanyikeni katika vikundi vya watu wanne na kila mmoja apewe jukumu.",
+          "Igizeni mazungumzo ya zahanati mkitumia angalau maneno matatu ya upole.",
+          "Kikundi kingine kisikilize na kuorodhesha maneno ya upole yaliyotumiwa.",
+          "Jadilini kwa nini maneno hayo yalifaa katika maigizo yenu."
+        ]
+      },
+      "practice": [
+        { "question": "Tunga sentensi ukitumia neno: msalani.", "answer": "Mfano: Mwanafunzi aliomba ruhusa kwenda msalani wakati wa mapumziko.", "check": null },
+        { "question": "Tunga sentensi ukitumia neno: kujifungua.", "answer": "Mfano: Shangazi alijifungua mtoto wa kiume jana usiku.", "check": null },
+        { "question": "Andika upya kwa lugha ya upole: Mtoto huyu anaharisha.", "answer": "Mtoto huyu anaendesha.", "check": null },
+        { "question": "Taja faida mbili za kutumia maneno ya upole.", "answer": "Mfano: huonyesha heshima kwa msikilizaji; huzuia aibu; hudumisha amani na uhusiano mwema.", "check": null }
+      ],
+      "summary": [
+        "Neno la upole huchukua nafasi ya neno la waziwazi bila kubadilisha maana.",
+        "Tumia maneno ya upole unapozungumza na wakubwa, wageni, wahudumu wa afya na hadharani.",
+        "Maneno ya upole huleta heshima, amani na uhusiano mwema."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Ni lipi kati ya haya ni neno la upole la choo?", "options": ["jikoni", "msalani", "sebuleni", "bustanini"], "answer": "B", "explanation": "Kwenda msalani ni njia ya upole ya kusema kwenda chooni.", "outcome": "a", "check": null },
+    { "question": "Msemo 'kwenda haja ndogo' una maana gani?", "options": ["kwenda kulala", "kukojoa", "kwenda sokoni", "kunawa mikono"], "answer": "B", "explanation": "Haja ndogo ni njia ya upole ya kutaja kukojoa.", "outcome": "a", "check": null },
+    { "question": "Mama amejifungua. Neno amejifungua lina maana gani?", "options": ["amefungua mlango", "amezaa mtoto", "amepona", "amelala"], "answer": "B", "explanation": "Kujifungua ni neno la upole la kuzaa.", "outcome": "a", "check": null },
+    { "question": "Neno la upole la kueleza kwamba mtu anaharisha ni lipi?", "options": ["anaendesha", "anakimbia", "anatembea", "anapumzika"], "answer": "A", "explanation": "Kuendesha ni neno la upole la kuharisha.", "outcome": "a", "check": null },
+    { "question": "Andika upya kwa lugha ya upole: Babu yake Otieno amekufa.", "answer": "Babu yake Otieno amefariki. (au: ameaga dunia)", "explanation": "Kufariki na kuaga dunia ni maneno ya upole ya kufa.", "outcome": "b", "check": null },
+    { "question": "Sentensi ipi imetumia neno la upole ipasavyo?", "options": ["Mwalimu, naomba niende msalani.", "Mwalimu, nataka kula msalani.", "Mwalimu, msalani ni mzuri kusoma.", "Mwalimu, nimeweka vitabu msalani."], "answer": "A", "explanation": "Mwanafunzi anaomba ruhusa kwenda chooni kwa adabu.", "outcome": "b", "check": null },
+    { "question": "Tunga sentensi ukitumia msemo: kwenda haja kubwa.", "answer": "Mfano: Daktari alimuuliza mgonjwa kama alienda haja kubwa leo.", "explanation": "Msemo umetumika mahali ambapo mtu angetaja choo kwa njia ya waziwazi.", "outcome": "b", "check": null },
+    { "question": "Mtu mwenye mimba huitwaje kwa lugha ya upole?", "options": ["mja mzito", "mja mwepesi", "mja mgonjwa", "mja mzee"], "answer": "A", "explanation": "Mja mzito ni msemo wa upole wa mwanamke mwenye mimba.", "outcome": "a", "check": null },
+    { "question": "Kwa nini tunatumia maneno ya upole mbele ya wazee na wageni?", "answer": "Ili kuonyesha heshima na kuepuka kuwaaibisha au kuwaudhi.", "explanation": "Maneno ya upole huonyesha adabu na staha kwa msikilizaji.", "outcome": "c", "check": null },
+    { "question": "Ni ipi SI faida ya kutumia maneno ya upole?", "options": ["huonyesha heshima", "huzuia aibu", "huleta ugomvi", "hudumisha amani"], "answer": "C", "explanation": "Maneno ya upole huleta amani, si ugomvi.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 4.0 Dira, Mada Ndogo 4.1.1 Kusikiliza na Kuzungumza: Maneno ya Upole",
+    "KICD Kiswahili Gredi ya 4, kipindi cha redio 8: Maneno ya Adabu"
+  ]
+}

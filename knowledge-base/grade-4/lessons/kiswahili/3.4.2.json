@@ -1,0 +1,196 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "3.4.2",
+  "title": "Sarufi: Vihusishi",
+  "overview": "Kihusishi kinaonyesha uhusiano wa mahali kati ya kitu na kingine. Utajifunza karibu na, mbali na, juu ya, chini ya, ndani ya na nje ya. Utavitambua na kuvitumia katika sentensi za mavazi na nyumbani ili msomaji aone kitu kilipo.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya kihusishi na jinsi ya kukitambua",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya kihusishi.",
+        "Kutaja mifano ya mahali.",
+        "Kutambua vihusishi katika orodha na sentensi."
+      ],
+      "intro": "Kofia haijisemi peke yake. Unasema iko juu ya kichwa. Viatu viko chini ya kitanda. Maneno juu ya na chini ya yanaonyesha mahali. Bila hayo, mtu hajui kitu kilipo. Hayo ndiyo vihusishi.",
+      "notes": "### Kihusishi ni nini?\nKihusishi ni neno au kundi la maneno linaloonyesha uhusiano, hasa wa mahali, kati ya nomino na nyingine. Wingi ni vihusishi. Katika darasa hili tunajifunza:\n\n- **karibu na**: umbali mdogo. Duka la nguo liko karibu na soko.\n- **mbali na**: umbali mkubwa. Shule iko mbali na nyumba.\n- **juu ya**: mahali pa juu. Kofia iko juu ya kichwa.\n- **chini ya**: mahali pa chini. Viatu viko chini ya kitanda.\n- **ndani ya**: ndani. Soksi ziko ndani ya viatu.\n- **nje ya**: nje. Sweta iko nje ya begi.\n\nKihusishi hakisimami peke yake. Kinahitaji nomino baada yake. Juu ya kichwa inaeleweka. Juu ya peke yake inaacha swali: juu ya nini?\n\n### Kutambua\nOrodha: juu ya, shati, chini ya, vaa, karibu na, lakini, ndani ya.\n\nVihusishi ni juu ya, chini ya, karibu na na ndani ya. Shati ni nomino. Vaa ni kitenzi. Lakini ni kiunganishi, si kihusishi. Kiunganishi hufunga sentensi. Kihusishi huonyesha mahali.\n\nKatika sentensi Koti liko ndani ya kabati, kihusishi ni ndani ya. Koti na kabati ni nomino. Liko ni kitenzi cha mahali.\n\nKumbuka makubaliano mafupi:\n- kofia iko, sweta iko, shule iko\n- viatu viko\n- soksi ziko\n- duka liko\n\nHaya yanakusaidia sentensi isianguke, lakini kazi kuu ya leo ni kutambua kihusishi chenyewe.",
+      "keyWords": [
+        { "word": "kihusishi", "meaning": "neno linaloonyesha uhusiano wa mahali kati ya vitu" },
+        { "word": "juu ya", "meaning": "kihusishi cha mahali pa juu" },
+        { "word": "ndani ya", "meaning": "kihusishi cha mahali pa ndani" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua vihusishi: mbali na, sketi, nje ya, lakini, chini ya.",
+          "steps": ["Ondoa nomino sketi na kiunganishi lakini.", "Maneno ya mahali ndiyo vihusishi."],
+          "answer": "mbali na, nje ya, chini ya",
+          "check": null
+        },
+        {
+          "problem": "Katika Kofia iko juu ya kichwa, kihusishi ni kipi?",
+          "steps": ["Kofia na kichwa ni nomino.", "Juu ya huonyesha mahali."],
+          "answer": "juu ya",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Onyesha mahali kwa vihusishi",
+        "materials": ["Vitu vya darasa: kitabu, begi, kalamu", "Kadi za vihusishi", "Tarakilishi panapopatikana"],
+        "steps": [
+          "Elezeni maana ya kihusishi na mtoe mifano sita ya mada.",
+          "Mwekeni kalamu juu ya kitabu, chini ya kiti, na ndani ya begi, huku mkisema sentensi.",
+          "Chagueni vihusishi kwenye orodha na mvitenganishe na viunganishi kama na na lakini.",
+          "Kwenye tarakilishi, buruteni kihusishi na kukiweka kwenye kapu la picha.",
+          "Andikeni sentensi moja kwa kila kihusishi mlichokiona."
+        ]
+      },
+      "practice": [
+        { "question": "Kihusishi ni nini?", "answer": "Ni neno linaloonyesha uhusiano wa mahali kati ya vitu.", "check": null },
+        { "question": "Tofautisha juu ya na chini ya.", "answer": "Juu ya ni mahali pa juu. Chini ya ni mahali pa chini.", "check": null },
+        { "question": "Tambua kihusishi: Soksi ziko ndani ya viatu.", "answer": "ndani ya", "check": null },
+        { "question": "Kwa nini lakini si kihusishi?", "answer": "Lakini huonyesha tofauti kati ya mambo. Haionyeshi mahali.", "check": null }
+      ],
+      "summary": [
+        "Kihusishi huonyesha mahali: karibu na, mbali na, juu ya, chini ya, ndani ya, nje ya.",
+        "Kinahitaji nomino baada yake.",
+        "Kiunganishi hufunga; kihusishi huonyesha ulipo."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia vihusishi katika sentensi",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa kihusishi kinachofaa.",
+        "Kutunga sentensi za mavazi zenye mahali sahihi.",
+        "Kuthamini vihusishi katika mawasiliano."
+      ],
+      "intro": "Ukiambiwa sweta iko, bado huwezi kuichukua. Unahitaji kujua iko ndani ya begi au nje ya begi. Kihusishi kinakupa picha. Leo utakiweka katika sentensi zinazomsaidia mtu kupata kitu.",
+      "notes": "### Kujaza nafasi\nFikiria picha halisi.\n\n- Kofia iko ____ kichwa. Iko juu: **juu ya**.\n- Viatu viko ____ kitanda. Vipo chini: **chini ya**.\n- Soksi ziko ____ viatu. Zipo ndani: **ndani ya**.\n- Sweta iko ____ begi. Ikiwa haijaingizwa: **nje ya**.\n- Duka la nguo liko ____ soko. Ikiwa si mbali: **karibu na**. Ikiwa safari ni ndefu: **mbali na**.\n\nUsibadilishe kihusishi bila kubadilisha maana. Juu ya kitanda si chini ya kitanda. Msikilizaji atakosea mahali.\n\n### Sentensi za mavazi\n- Kofia iko juu ya kichwa.\n- Shati jeupe liko juu ya kiti.\n- Viatu viko chini ya kitanda.\n- Soksi ziko ndani ya viatu.\n- Sweta iko nje ya begi.\n- Duka la nguo liko karibu na soko.\n- Shule iko mbali na nyumba, hivyo ninaondoka mapema.\n\nShati liko, si shati iko, kwa sababu shati linakubaliana na li-. Kofia iko. Viatu viko. Makosa haya yakifanyika, rekebisha pamoja na kihusishi.\n\n### Fahari ya kuvitumia\nVihusishi sahihi hukuokoa kutafuta vitu kwa muda mrefu na hufanya maelezo yawe ya kuamini. Unapomwambia mdogo wako sweta iko nje ya begi, anaiokota mara moja. Soma sentensi zako kwa wenzako na mwalimu. Wakuonyeshe kama umechanganya ndani na nje. Pokea shauri. Matumizi haya yanastahili fahari kwa sababu yanafanya lugha iwe kioo cha mahali halisi.",
+      "keyWords": [
+        { "word": "karibu na", "meaning": "umbali mdogo kati ya vitu viwili" },
+        { "word": "mbali na", "meaning": "umbali mkubwa kati ya vitu viwili" },
+        { "word": "nje ya", "meaning": "mahali pa nje, si ndani" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza: Viatu viko ____ kitanda. (vilipo sakafuni chini ya kitanda)",
+          "steps": ["Vipo sakafuni, si juu ya godoro.", "Kihusishi ni chini ya."],
+          "answer": "Viatu viko chini ya kitanda.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: Kofia viko juu ya kichwa.",
+          "steps": ["Kofia ni moja, hivyo iko.", "Viko ni wingi."],
+          "answer": "Kofia iko juu ya kichwa.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tunga sentensi za mahali",
+        "materials": ["Daftari", "Picha za mavazi", "Kifaa cha kidijitali panapopatikana"],
+        "steps": [
+          "Angalieni picha ya chumba au mchoreni begi, kiti na kofia.",
+          "Tungeni sentensi sita, kila moja ikiwa na kihusishi tofauti.",
+          "Zingatia iko, viko, ziko au liko kulingana na nomino.",
+          "Andikeni daftarini au mtandaoni kwa ruhusa.",
+          "Msomee wenzako na mwalimu ili wapime kama mahali pameeleweka."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza: Soksi ziko ____ viatu.", "answer": "ndani ya", "check": null },
+        { "question": "Sahihisha: Viatu iko chini ya kitanda.", "answer": "Viatu viko chini ya kitanda.", "check": null },
+        { "question": "Tunga sentensi ukitumia karibu na na duka la nguo.", "answer": "Mfano: Duka la nguo liko karibu na soko.", "check": null },
+        { "question": "Kwa nini vihusishi ni muhimu unapotafuta sweta?", "answer": "Hukuambia iko wapi, kwa mfano ndani ya begi au nje ya begi, ili uipate haraka.", "check": null }
+      ],
+      "summary": [
+        "Chagua kihusishi kinachoendana na picha halisi ya mahali.",
+        "Kofia iko juu ya kichwa; viatu viko chini ya kitanda.",
+        "Vihusishi hufanya maelezo ya mavazi kuwa ya kuamini."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kihusishi kinaonyesha nini zaidi katika mada hii?",
+      "options": ["mahalali ya vitu", "rangi ya herufi", "kasi ya kusoma", "jina la faili"],
+      "answer": "A",
+      "explanation": "Vihusishi kama juu ya na ndani ya huonyesha mahali.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Lipi ni kihusishi?",
+      "options": ["lakini", "chini ya", "shati", "vaa"],
+      "answer": "B",
+      "explanation": "Chini ya huonyesha mahali. Lakini ni kiunganishi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Katika Kofia iko juu ya kichwa, kihusishi ni kipi?",
+      "options": ["kofia", "iko", "juu ya", "kichwa"],
+      "answer": "C",
+      "explanation": "Juu ya huonyesha mahali pa kofia.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Soksi ziko wapi kama zimetajwa ndani ya viatu?",
+      "options": ["nje ya viatu", "ndani ya viatu", "mbali na viatu", "juu ya kichwa"],
+      "answer": "B",
+      "explanation": "Ndani ya huweka soksi ndani ya viatu.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Duka lenye umbali mdogo na soko liko vipi?",
+      "options": ["mbali na soko", "karibu na soko", "chini ya soko", "ndani ya kiatu"],
+      "answer": "B",
+      "explanation": "Karibu na huonyesha umbali mdogo.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi iko sahihi?",
+      "options": ["Viatu iko chini ya kitanda.", "Viatu viko chini ya kitanda.", "Kofia viko juu ya kichwa.", "Soksi iko ndani ya viatu."],
+      "answer": "B",
+      "explanation": "Viatu ni wingi, hivyo viko. Kofia iko. Soksi ziko.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sweta ambayo haijaingizwa begini iko vipi?",
+      "options": ["ndani ya begi", "nje ya begi", "chini ya kichwa", "mbali na sentensi"],
+      "answer": "B",
+      "explanation": "Isiyo ndani ipo nje ya begi.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sahihisha: Kofia viko juu ya kichwa.",
+      "answer": "Kofia iko juu ya kichwa.",
+      "explanation": "Kofia inachukua iko, si viko.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Tunga sentensi ukitumia mbali na.",
+      "answer": "Mfano: Shule iko mbali na nyumba.",
+      "explanation": "Mbali na huonyesha umbali mkubwa.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tujivunie kutumia vihusishi sahihi?",
+      "answer": "Kwa sababu humsaidia mtu kuona kitu kilipo na kukipata haraka.",
+      "explanation": "Mahali panapoelezwa vizuri huboresha mawasiliano.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 3.0 Mavazi, Mada Ndogo 3.4.2 Sarufi: Vihusishi"
+  ]
+}

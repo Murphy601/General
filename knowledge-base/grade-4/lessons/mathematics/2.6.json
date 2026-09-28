@@ -1,0 +1,530 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "2.6",
+  "title": "Time",
+  "overview": "Time tells us when something happens and how long it lasts. In this sub-strand you will read analogue and digital clocks in a.m. and p.m., estimate time from shadows, convert hours, minutes, days and weeks, and work out how long an activity takes.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Reading analogue and digital clocks",
+      "outcomes": ["a"],
+      "objectives": [
+        "Read o'clock, quarter past, half past, quarter to and times in multiples of 5 minutes on an analogue clock.",
+        "Match those times to a digital clock."
+      ],
+      "intro": "The short hand of a clock tells the hour. The long hand tells the minutes. A digital clock shows the same time with numbers, such as 7:40. Learning both helps you read the clock at school and the clock at home.",
+      "notes": "An analogue clock is a round face with numbers from 1 to 12. The short hand is the hour hand. The long hand is the minute hand.\n\n### Minutes on the clock\nThe minute hand moves once around the clock in 60 minutes, which is 1 hour. There are 12 numbers, so the space from one number to the next is 60 ÷ 12 = 5 minutes.\n\n- 12 means 0 minutes, and the time is o'clock.\n- 3 means 15 minutes, a quarter past the hour.\n- 6 means 30 minutes, half past the hour.\n- 9 means 45 minutes. That is a quarter to the next hour, because 60 − 45 = 15 minutes remain.\n\nCount in fives if the minute hand is on another number. On the 4 it is 4 × 5 = 20 minutes. On the 8 it is 8 × 5 = 40 minutes.\n\n### Which hour?\nLook at the short hand. At 2:00 it points at 2. At 2:20 it has moved a little past 2, towards 3, but the hour is still 2 until the hand reaches 3. At quarter to 3, which is 2:45, the short hand is close to 3 but the hour is still 2.\n\n### Digital time\nA digital clock shows hours, then a colon, then minutes. 2:20 means 2 hours and 20 minutes, the same as twenty minutes past 2. 2:45 means quarter to 3. 2:00 means 2 o'clock. If the minutes are less than 10, a zero is written first: fifteen minutes past 2 is 2:15, and five minutes past 2 is 2:05.",
+      "keyWords": [
+        { "word": "analogue clock", "meaning": "a clock with a face and hands" },
+        { "word": "digital clock", "meaning": "a clock that shows the time in numbers, such as 2:20" },
+        { "word": "minute hand", "meaning": "the long hand, which moves all the way round in 60 minutes" }
+      ],
+      "examples": [
+        {
+          "problem": "The minute hand is on 4 and the hour hand is just after 2. What is the time on a digital clock?",
+          "steps": ["From 12 to 4 is 4 × 5 = 20 minutes.", "The hour is 2, so the time is 2:20."],
+          "answer": "2:20",
+          "check": "4 * 5 === 20"
+        },
+        {
+          "problem": "A digital clock shows 6:45. What is another way to say this time?",
+          "steps": ["45 minutes have passed since 6 o'clock.", "60 − 45 = 15 minutes remain before 7, so it is quarter to 7."],
+          "answer": "Quarter to 7",
+          "check": "60 - 45 === 15"
+        }
+      ],
+      "activity": {
+        "title": "Show the time",
+        "materials": ["A model analogue clock or a drawn clock face", "A digital clock or a phone clock that a teacher is holding", "Pencil"],
+        "steps": [
+          "With a partner, set the model clock to 4:00, 4:15, 4:30 and 4:45. Say each time in words.",
+          "Move the minute hand to the 2, the 5, the 7 and the 10. Write each time in digital form, such as 4:10.",
+          "One partner writes a digital time. The other shows it with the hands.",
+          "Look at a real digital clock and draw the hands for that time.",
+          "Check each other's hour hand. It should sit between the two numbers, not jump to the next hour too soon."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 180\" font-family=\"sans-serif\"><rect width=\"280\" height=\"180\" fill=\"#ffffff\"/><circle cx=\"90\" cy=\"90\" r=\"70\" fill=\"#f8fafc\" stroke=\"#0f172a\" stroke-width=\"3\"/><g font-size=\"13\" text-anchor=\"middle\" fill=\"#0f172a\"><text x=\"90\" y=\"32\">12</text><text x=\"148\" y=\"95\">3</text><text x=\"90\" y=\"158\">6</text><text x=\"34\" y=\"95\">9</text></g><line x1=\"90\" y1=\"90\" x2=\"90\" y2=\"48\" stroke=\"#b91c1c\" stroke-width=\"4\"/><line x1=\"90\" y1=\"90\" x2=\"132\" y2=\"112\" stroke=\"#0f172a\" stroke-width=\"3\"/><circle cx=\"90\" cy=\"90\" r=\"4\" fill=\"#0f172a\"/><text x=\"210\" y=\"80\" font-size=\"16\" fill=\"#111827\">2:20</text><text x=\"210\" y=\"102\" font-size=\"13\" fill=\"#111827\">hour hand</text><text x=\"210\" y=\"120\" font-size=\"13\" fill=\"#111827\">near 2</text></svg>",
+        "caption": "The long minute hand is on 4, so 20 minutes have passed. The time is 2:20."
+      },
+      "practice": [
+        { "question": "How many minutes is it when the minute hand is on 8?", "answer": "40 minutes", "check": "8 * 5 === 40" },
+        { "question": "Write quarter past 5 as a digital time.", "answer": "5:15", "check": "60 / 4 === 15" },
+        { "question": "A clock shows 10:30. How many minutes is that past 10?", "answer": "30 minutes", "check": "60 / 2 === 30" },
+        { "question": "The minute hand is on 9 and the hour hand is near 3. What time is it?", "answer": "2:45, or quarter to 3", "check": "9 * 5 === 45" }
+      ],
+      "summary": [
+        "The short hand is the hour hand and the long hand is the minute hand.",
+        "Each number on the clock stands for 5 minutes.",
+        "Digital time shows the hour, a colon and the minutes."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Time in a.m. and p.m.",
+      "outcomes": ["a"],
+      "objectives": [
+        "Say that midnight to midday is a.m. and midday to midnight is p.m.",
+        "Choose a.m. or p.m. for a familiar activity."
+      ],
+      "intro": "Seven thirty in the morning and seven thirty in the evening look the same on a clock face. The letters a.m. and p.m. tell you which one is meant.",
+      "notes": "A full day has 24 hours. Those hours are split into two cycles of 12 hours.\n\n### a.m.\nThe first cycle runs from midnight to midday. Midday is also called noon, when the time is 12:00 in the middle of the day. Times in this cycle are a.m. Midnight itself is 12:00 a.m. Three hours after midnight is 3:00 a.m. One hour and 40 minutes after midnight is 1:40 a.m.\n\nMorning activities are a.m.: waking up, washing, walking to school and the first lessons.\n\n### p.m.\nThe second cycle runs from midday to the next midnight. Times in this cycle are p.m. Midday is 12:00 p.m. Two hours after midday is 2:00 p.m. Afternoon lessons, games, the journey home, supper and bedtime are p.m.\n\n### The same numbers, a different part of the day\n7:30 a.m. may be the time you are on the way to school. 7:30 p.m. may be the time you are having supper. The hands of the clock are in the same place. Only a.m. or p.m. tells the two times apart.\n\n12:00 needs care. 12:00 at noon is p.m. 12:00 at midnight is a.m. Lunch time is after noon has begun, so 12:30 is 12:30 p.m.",
+      "keyWords": [
+        { "word": "a.m.", "meaning": "the time from midnight to midday" },
+        { "word": "p.m.", "meaning": "the time from midday to midnight" },
+        { "word": "midday", "meaning": "12:00 noon, the start of p.m." }
+      ],
+      "examples": [
+        {
+          "problem": "What time is three hours after midnight, in a.m. or p.m.?",
+          "steps": ["Midnight is the start of the a.m. cycle.", "Three hours later is 3:00 a.m."],
+          "answer": "3:00 a.m.",
+          "check": "0 + 3 === 3"
+        },
+        {
+          "problem": "What time is two hours after midday?",
+          "steps": ["Midday is 12:00 p.m.", "Two hours later is 2:00 p.m."],
+          "answer": "2:00 p.m.",
+          "check": "12 + 2 - 12 === 2"
+        }
+      ],
+      "activity": {
+        "title": "Morning or afternoon?",
+        "materials": ["Analogue clock", "Digital clock or written digital times", "Exercise book"],
+        "steps": [
+          "In pairs, list six things you do on a school day and the time you usually do each one.",
+          "Write a.m. or p.m. beside each time. Use midnight to midday for a.m. and midday to midnight for p.m.",
+          "Show one of the times on the analogue clock and say the digital time with a.m. or p.m.",
+          "Ask your partner: what is one hour and forty minutes after midnight? Write 1:40 a.m.",
+          "Find one time, such as 7:30, that could be a.m. or p.m., and say a different activity for each."
+        ]
+      },
+      "practice": [
+        { "question": "A learner wakes up at 6:15 to start the day. Is that a.m. or p.m.?", "answer": "a.m.", "check": null },
+        { "question": "Supper is eaten at 7:30 in the evening. Is that a.m. or p.m.?", "answer": "p.m.", "check": null },
+        { "question": "What time is one hour and 40 minutes after midnight?", "answer": "1:40 a.m.", "check": "1 * 60 + 40 === 100" },
+        { "question": "Is 12:30 at lunch time a.m. or p.m.?", "answer": "p.m.", "check": null }
+      ],
+      "summary": [
+        "From midnight to midday the time is a.m.",
+        "From midday to midnight the time is p.m.",
+        "12:00 noon is 12:00 p.m. and 12:00 midnight is 12:00 a.m."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Estimating time from a shadow",
+      "outcomes": ["b"],
+      "objectives": [
+        "Describe how a shadow changes from morning to afternoon.",
+        "Use a shadow to estimate whether the time is a.m. or p.m., then check with a clock."
+      ],
+      "intro": "Before you look at a clock, a shadow on the ground can give a rough idea of the time of day. A long shadow and a short shadow do not mean the same part of the day.",
+      "notes": "A shadow forms when an object blocks the sunlight. The shadow points away from the sun.\n\n### Through the day\nIn the morning the sun is in the east, so shadows point towards the west. They are long because the sun is low.\n\nAs midday gets closer, the sun climbs higher and the shadow grows shorter. Around midday the shadow is at its shortest. Near the equator, a midday shadow can be very short.\n\nIn the afternoon the sun is in the west, so shadows point towards the east, and they grow longer again towards evening.\n\n### What you can estimate\nIf you watch one tree or one building from the same place:\n\n- a long shadow pointing west suggests morning, so the time is a.m.,\n- a short shadow suggests the time is near midday,\n- a long shadow pointing east suggests afternoon or evening, so the time is p.m.\n\nThis is an estimate, not an exact minute. Clouds, the season and where you stand all change what you see. A clock gives the exact time. Use the shadow first, write your estimate in a.m. or p.m., then read the clock and compare.\n\nNever look straight at the sun. It can damage your eyes. Look at the shadow on the ground instead. Choose a tree or a building in a safe place, away from a road.",
+      "keyWords": [
+        { "word": "shadow", "meaning": "the dark shape made when an object blocks the light" },
+        { "word": "estimate of time", "meaning": "a sensible guess about the time of day, checked later with a clock" }
+      ],
+      "examples": [
+        {
+          "problem": "At midday a stick's shadow is 20 cm long. Earlier it was 55 cm long. Which observation was closer to midday?",
+          "steps": ["Shadows are shortest around midday.", "20 cm is shorter than 55 cm, so the 20 cm shadow was closer to midday."],
+          "answer": "The shadow that was 20 cm long",
+          "check": "55 - 20 === 35"
+        },
+        {
+          "problem": "A shadow is long and points east. Is the time more likely to be 8:00 a.m. or 5:00 p.m.?",
+          "steps": ["Afternoon shadows point east and become long.", "5:00 p.m. is in the afternoon. 8:00 a.m. is morning, when shadows point west."],
+          "answer": "5:00 p.m.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Watch one shadow",
+        "materials": ["A stick or a bottle", "Chalk", "A clock", "Exercise book"],
+        "steps": [
+          "With your teacher, choose a tree, a building or a stick in a safe open place. Do not look at the sun.",
+          "Mark the tip of the shadow with chalk and write the clock time beside it, including a.m. or p.m.",
+          "Later in the lesson, or at another agreed time, mark the tip again and record the clock time.",
+          "Say whether the shadow became shorter or longer, and whether that matches morning moving towards midday or afternoon moving towards evening.",
+          "Write one estimate you could make from a shadow if you had no clock, and one reason a clock is still needed."
+        ]
+      },
+      "practice": [
+        { "question": "At what part of the day is a shadow usually shortest?", "answer": "Around midday", "check": null },
+        { "question": "A morning shadow is 80 cm and a later shadow is 45 cm. By how many centimetres did it shorten?", "answer": "35 cm", "check": "80 - 45 === 35" },
+        { "question": "Shadows in the morning point west. Would you record that time as a.m. or p.m.?", "answer": "a.m.", "check": null },
+        { "question": "Why should you not look directly at the sun when you estimate time?", "answer": "Looking at the sun can damage your eyes. Look at the shadow instead.", "check": null }
+      ],
+      "summary": [
+        "Shadows are long in the morning and afternoon, and shortest around midday.",
+        "Morning shadows point west and afternoon shadows point east.",
+        "A shadow gives an estimate. A clock gives the exact time."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Hours and minutes",
+      "outcomes": ["c"],
+      "objectives": [
+        "Convert hours to minutes and minutes to hours and minutes.",
+        "Use the fact that 1 hour = 60 minutes."
+      ],
+      "intro": "A lesson may last 40 minutes. A game may last 2 hours. To compare them, or to add them, both times need to be in minutes or both in hours and minutes.",
+      "notes": "There are 60 minutes in 1 hour.\n\n### Hours to minutes\nMultiply the number of hours by 60.\n\n- 2 hours = 2 × 60 = 120 minutes\n- 3 hours = 180 minutes\n- ½ hour = 60 ÷ 2 = 30 minutes\n- ¼ hour = 60 ÷ 4 = 15 minutes\n\nIf there are extra minutes, multiply the hours and then add the minutes.\n\n2 hours 15 minutes = 120 + 15 = 135 minutes.\n\n3 hours 20 minutes = 180 + 20 = 200 minutes.\n\n### Minutes to hours\nDivide the minutes by 60. The quotient is the hours. The remainder is the minutes left over.\n\n- 90 ÷ 60 = 1 hour remainder 30, so 90 minutes = 1 hour 30 minutes.\n- 150 ÷ 60 = 2 hours remainder 30, so 150 minutes = 2 hours 30 minutes.\n- 200 ÷ 60 = 3 hours remainder 20, so 200 minutes = 3 hours 20 minutes.\n\nA remainder of 0 means a whole number of hours. 120 minutes = 2 hours exactly.\n\n### A check\nChange your answer back. If 135 minutes really is 2 hours 15 minutes, then 2 × 60 + 15 must equal 135.",
+      "keyWords": [
+        { "word": "hour", "meaning": "a unit of time equal to 60 minutes" },
+        { "word": "convert", "meaning": "to change a time from one unit to another" }
+      ],
+      "examples": [
+        {
+          "problem": "Change 3 hours 20 minutes into minutes.",
+          "steps": ["3 × 60 = 180 minutes.", "180 + 20 = 200 minutes."],
+          "answer": "200 minutes",
+          "check": "3 * 60 + 20 === 200"
+        },
+        {
+          "problem": "Change 150 minutes into hours and minutes.",
+          "steps": ["150 ÷ 60 = 2 hours, remainder 30.", "2 × 60 = 120, and 150 − 120 = 30."],
+          "answer": "2 hours 30 minutes",
+          "check": "2 * 60 + 30 === 150"
+        }
+      ],
+      "activity": {
+        "title": "Sixty minutes in the hour",
+        "materials": ["A clock", "Exercise book"],
+        "steps": [
+          "Count in fives around a clock face and check that you reach 60 when you return to 12.",
+          "Change 1 hour, 2 hours and ½ hour into minutes.",
+          "A partner calls a number of minutes, such as 75, 90 or 125. Change it into hours and minutes.",
+          "Check each answer by changing it back into minutes.",
+          "Write one activity at home that lasts about ¼ hour and one that lasts about 1 hour."
+        ]
+      },
+      "practice": [
+        { "question": "How many minutes are in 4 hours?", "answer": "240 minutes", "check": "4 * 60 === 240" },
+        { "question": "Change 2 hours 15 minutes into minutes.", "answer": "135 minutes", "check": "2 * 60 + 15 === 135" },
+        { "question": "Change 90 minutes into hours and minutes.", "answer": "1 hour 30 minutes", "check": "1 * 60 + 30 === 90" },
+        { "question": "How many minutes are in ¼ hour?", "answer": "15 minutes", "check": "60 / 4 === 15" }
+      ],
+      "summary": [
+        "1 hour = 60 minutes.",
+        "Hours to minutes: multiply by 60, then add any extra minutes.",
+        "Minutes to hours: divide by 60. The remainder is the extra minutes."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Days and weeks",
+      "outcomes": ["c"],
+      "objectives": [
+        "Convert days to hours and hours to days.",
+        "Convert weeks to days and days to weeks."
+      ],
+      "intro": "A school week and a journey that lasts several days are easier to compare when you can change weeks into days and days into hours.",
+      "notes": "Two more relationships sit beside the 60 minutes in an hour.\n\n1 day = 24 hours\n\n1 week = 7 days\n\n### Days and hours\nMultiply days by 24 to get hours.\n\n- 2 days = 48 hours\n- 3 days = 72 hours\n- 5 days = 120 hours\n\nDivide hours by 24 to get days. 48 ÷ 24 = 2 days. If there is a remainder, it is extra hours.\n\n36 ÷ 24 = 1 day remainder 12, so 36 hours = 1 day 12 hours.\n\nHalf a day is 24 ÷ 2 = 12 hours. Two and a half days are 2 × 24 + 12 = 60 hours.\n\n### Weeks and days\nMultiply weeks by 7 to get days.\n\n- 2 weeks = 14 days\n- 4 weeks = 28 days\n\nDivide days by 7 to get weeks. 21 ÷ 7 = 3 weeks. 35 ÷ 7 = 5 weeks.\n\n1 week and 3 days = 7 + 3 = 10 days. You cannot call 10 days \"1 week\" and ignore the 3 days.\n\nThere are 7 days in every week: Sunday, Monday, Tuesday, Wednesday, Thursday, Friday and Saturday. Counting them is a check that 1 week really is 7 days.",
+      "keyWords": [
+        { "word": "day", "meaning": "a unit of time equal to 24 hours" },
+        { "word": "week", "meaning": "a unit of time equal to 7 days" }
+      ],
+      "examples": [
+        {
+          "problem": "How many hours are there in 5 days?",
+          "steps": ["1 day = 24 hours.", "5 × 24 = 120."],
+          "answer": "120 hours",
+          "check": "5 * 24 === 120"
+        },
+        {
+          "problem": "Change 36 hours into days and hours.",
+          "steps": ["36 ÷ 24 = 1 day, remainder 12 hours.", "24 + 12 = 36."],
+          "answer": "1 day 12 hours",
+          "check": "1 * 24 + 12 === 36"
+        },
+        {
+          "problem": "A visit lasts 1 week and 3 days. How many days is that?",
+          "steps": ["1 week = 7 days.", "7 + 3 = 10 days."],
+          "answer": "10 days",
+          "check": "7 + 3 === 10"
+        }
+      ],
+      "activity": {
+        "title": "Days into hours, weeks into days",
+        "materials": ["A calendar page for one month", "Exercise book"],
+        "steps": [
+          "Count the days from Sunday to Saturday and record that 1 week = 7 days.",
+          "Change 2 weeks, 3 weeks and 4 weeks into days.",
+          "Change 1 day, 2 days and ½ day into hours.",
+          "On the calendar, count 21 days from a date your teacher gives you and say how many weeks that is.",
+          "Write 2½ days in hours and show the multiplication 2 × 24 + 12."
+        ]
+      },
+      "practice": [
+        { "question": "How many hours are in 3 days?", "answer": "72 hours", "check": "3 * 24 === 72" },
+        { "question": "How many days are in 4 weeks?", "answer": "28 days", "check": "4 * 7 === 28" },
+        { "question": "Change 2½ days into hours.", "answer": "60 hours", "check": "2 * 24 + 12 === 60" },
+        { "question": "How many weeks are in 35 days?", "answer": "5 weeks", "check": "35 / 7 === 5" }
+      ],
+      "summary": [
+        "1 day = 24 hours and 1 week = 7 days.",
+        "Multiply to change to the smaller unit. Divide to change to the larger unit.",
+        "Keep any remainder in the smaller unit."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Recording how long an event lasts",
+      "outcomes": ["d"],
+      "objectives": [
+        "Read a start time and a finish time from a clock.",
+        "Record the duration in hours and minutes."
+      ],
+      "intro": "A football match, a lesson and a journey each have a start and a finish. The time between them is the duration. Writing it down carefully is part of using a clock well.",
+      "notes": "Duration is how long an event takes. To record it, write the start time, the finish time and the length of the event.\n\n### Same hour\nA lesson starts at 8:00 a.m. and ends at 8:40 a.m. The hour does not change. The duration is 40 − 0 = 40 minutes.\n\nA game starts at 4:15 p.m. and ends at 4:55 p.m. The duration is 55 − 15 = 40 minutes.\n\n### Crossing an hour\nCount from the start to the next exact hour, then on to the finish.\n\nA lesson starts at 9:20 a.m. and ends at 11:05 a.m.\n\n- From 9:20 to 10:20 is 1 hour.\n- From 10:20 to 11:05 is 45 minutes.\n- The duration is 1 hour 45 minutes.\n\nIn minutes only, that is 60 + 45 = 105 minutes.\n\n### Write the full record\nA clear record looks like this: start 9:20 a.m., finish 11:05 a.m., duration 1 hour 45 minutes. Leaving out a.m. or p.m. can mix up a morning activity and an evening one.\n\nRead the clock at the real start and the real finish. Do not write a longer time because you wish the game had been longer. An honest record can be checked by another person who saw the same clock.\n\nUse either an analogue clock or a digital clock, but use the same one for the start and the finish so the two readings agree.",
+      "keyWords": [
+        { "word": "duration", "meaning": "how long an event lasts from its start to its finish" },
+        { "word": "record", "meaning": "to write the start, the finish and the duration" }
+      ],
+      "examples": [
+        {
+          "problem": "A match starts at 4:15 p.m. and ends at 5:15 p.m. What is the duration?",
+          "steps": ["From 4:15 to 5:15 is exactly 1 hour.", "The minutes did not change."],
+          "answer": "1 hour",
+          "check": "(5 * 60 + 15) - (4 * 60 + 15) === 60"
+        },
+        {
+          "problem": "An activity starts at 9:20 a.m. and ends at 11:05 a.m. Record the duration.",
+          "steps": ["From 9:20 to 11:05 is 105 minutes.", "105 minutes = 1 hour 45 minutes."],
+          "answer": "1 hour 45 minutes",
+          "check": "(11 * 60 + 5) - (9 * 60 + 20) === 105"
+        }
+      ],
+      "activity": {
+        "title": "Time an activity",
+        "materials": ["Analogue clock or digital clock", "Exercise book"],
+        "steps": [
+          "As a group, choose a short activity such as reading a paragraph or arranging books.",
+          "One person reads the start time on a digital or analogue clock and writes it with a.m. or p.m.",
+          "When the activity ends, another person reads the finish time and writes it.",
+          "Work out the duration in minutes, or in hours and minutes if it passes an hour.",
+          "A third person checks the subtraction. Correct the record if the clock was misread. Do not change a true time."
+        ]
+      },
+      "practice": [
+        { "question": "A lesson starts at 8:00 a.m. and ends at 8:40 a.m. How long is the lesson?", "answer": "40 minutes", "check": "40 - 0 === 40" },
+        { "question": "A walk starts at 10:10 a.m. and ends at 10:55 a.m. What is the duration?", "answer": "45 minutes", "check": "55 - 10 === 45" },
+        { "question": "Work starts at 2:30 p.m. and ends at 3:15 p.m. What is the duration?", "answer": "45 minutes", "check": "(3 * 60 + 15) - (2 * 60 + 30) === 45" },
+        { "question": "Why should a duration record include a.m. or p.m.?", "answer": "So that a morning time is not confused with the same numbers in the evening.", "check": null }
+      ],
+      "summary": [
+        "Duration is the time from the start of an event to its finish.",
+        "Subtract the minutes when both times are in the same hour.",
+        "Write the start, the finish and the duration, including a.m. or p.m."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Adding and subtracting time",
+      "outcomes": ["e"],
+      "objectives": [
+        "Add hours and minutes, changing 60 minutes into 1 hour.",
+        "Subtract hours and minutes, changing 1 hour into 60 minutes when needed.",
+        "Find a duration that crosses midday."
+      ],
+      "intro": "Two parts of a journey may take 2 hours 40 minutes and 1 hour 35 minutes. Adding those times gives the whole journey. Subtracting a start time from a finish time gives a duration.",
+      "notes": "Keep hours in one column and minutes in another. Work with the minutes first.\n\n### Addition\nAdd 2 h 40 min and 1 h 35 min.\n\n- Minutes: 40 + 35 = 75.\n- 75 minutes = 1 hour 15 minutes. Write 15 in the minutes column and carry 1 hour.\n- Hours: 2 + 1 + 1 = 4.\n- The total is 4 hours 15 minutes.\n\nCheck in minutes: (2 × 60 + 40) + (1 × 60 + 35) = 160 + 95 = 255 minutes, and 4 × 60 + 15 = 255 minutes.\n\n### Subtraction\nSubtract 2 h 45 min from 5 h 20 min.\n\n- Minutes: 20 − 45 cannot be done. Change 1 hour into 60 minutes.\n- You now have 4 hours and 20 + 60 = 80 minutes.\n- 80 − 45 = 35 minutes.\n- Hours: 4 − 2 = 2.\n- The difference is 2 hours 35 minutes.\n\n### Across midday\nAn activity starts at 11:40 a.m. and ends at 1:10 p.m.\n\n- From 11:40 to 12:00 is 20 minutes.\n- From 12:00 to 1:10 is 1 hour 10 minutes.\n- 20 minutes + 1 hour 10 minutes = 1 hour 30 minutes.\n\nThe letters change from a.m. to p.m. at midday, but the counting of minutes does not stop.",
+      "keyWords": [
+        { "word": "carry an hour", "meaning": "to change 60 minutes into 1 hour when adding" },
+        { "word": "borrow an hour", "meaning": "to change 1 hour into 60 minutes when subtracting" }
+      ],
+      "examples": [
+        {
+          "problem": "Add 2 hours 40 minutes and 1 hour 35 minutes.",
+          "steps": ["40 + 35 = 75 minutes = 1 hour 15 minutes.", "Hours: 2 + 1 + 1 = 4."],
+          "answer": "4 hours 15 minutes",
+          "check": "(2*60+40)+(1*60+35) === 4*60+15"
+        },
+        {
+          "problem": "Subtract 2 hours 45 minutes from 5 hours 20 minutes.",
+          "steps": ["Borrow 1 hour: 80 − 45 = 35 minutes.", "Hours: 4 − 2 = 2."],
+          "answer": "2 hours 35 minutes",
+          "check": "(5*60+20)-(2*60+45) === 2*60+35"
+        },
+        {
+          "problem": "A trip starts at 11:40 a.m. and ends at 1:10 p.m. How long is the trip?",
+          "steps": ["11:40 to 12:00 is 20 minutes.", "12:00 to 1:10 is 1 hour 10 minutes.", "Total: 1 hour 30 minutes."],
+          "answer": "1 hour 30 minutes",
+          "check": "(13*60+10)-(11*60+40) === 90"
+        }
+      ],
+      "activity": {
+        "title": "Add and subtract times",
+        "materials": ["Model clock", "Exercise book", "An electronic clock if the teacher allows"],
+        "steps": [
+          "Each pair writes two durations in hours and minutes and adds them. Regroup if the minutes reach 60 or more.",
+          "Subtract a shorter duration from a longer one. Borrow 1 hour when the minutes are too small.",
+          "Set a start time of 11:40 on a model clock and move the hands to 1:10. Count the duration.",
+          "If you use an electronic clock, hold it with dry hands, do not drop it and do not open it. Ask the teacher before you press any control.",
+          "Check one addition by changing both times into minutes."
+        ]
+      },
+      "practice": [
+        { "question": "Add 3 hours 50 minutes and 2 hours 25 minutes.", "answer": "6 hours 15 minutes", "check": "(3*60+50)+(2*60+25) === 6*60+15" },
+        { "question": "Subtract 1 hour 40 minutes from 4 hours 10 minutes.", "answer": "2 hours 30 minutes", "check": "(4*60+10)-(1*60+40) === 2*60+30" },
+        { "question": "A film starts at 10:50 a.m. and ends at 12:20 p.m. What is its duration?", "answer": "1 hour 30 minutes", "check": "(12*60+20)-(10*60+50) === 90" },
+        { "question": "How many minutes are in the sum 1 hour 20 minutes + 40 minutes?", "answer": "120 minutes, or 2 hours", "check": "(1*60+20)+40 === 120" }
+      ],
+      "summary": [
+        "Add minutes first. Change 60 minutes into 1 hour.",
+        "If you cannot subtract the minutes, change 1 hour into 60 minutes.",
+        "A duration can cross midday from a.m. into p.m."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Time in the day",
+      "outcomes": ["f"],
+      "objectives": [
+        "Order familiar activities using a.m. and p.m.",
+        "Explain why keeping to a time matters in daily life."
+      ],
+      "intro": "A day runs more smoothly when you know what happens at 6:30 a.m. and what happens at 8:00 p.m. Time is not only a clock face. It organises school, meals, work and rest.",
+      "notes": "A simple timetable lists activities in the order they happen.\n\n- 6:00 a.m. wake up\n- 7:30 a.m. leave for school\n- 8:15 a.m. first lesson\n- 12:40 p.m. lunch\n- 4:00 p.m. games or chores\n- 7:00 p.m. supper\n- 9:00 p.m. bedtime\n\nFrom waking at 6:00 a.m. to the first lesson at 8:15 a.m. is 2 hours 15 minutes. You can use that duration to judge whether you have enough time to wash, eat and walk.\n\n### Why the record matters\nArriving at school after the lesson has started means you miss the beginning. A cook who starts a meal too late may not have food ready when people are hungry. A person who knows the duration of a journey can leave early enough.\n\nEstimating from a shadow helps when you are outside, but the timetable uses clock time so that everyone meets at the same moment.\n\n### Taking care of a clock\nAn electronic clock or a phone used as a clock should be handled with dry hands and should not be dropped. Do not pull it apart. If it is shared, return it so the next person can read the time too.\n\nTime spent at school, at home and at rest all belong in the day. Writing a timetable is one way to respect those parts of the day instead of guessing.",
+      "keyWords": [
+        { "word": "timetable", "meaning": "a list of activities and the times they happen" },
+        { "word": "on time", "meaning": "arriving or starting at the agreed time" }
+      ],
+      "examples": [
+        {
+          "problem": "Lessons start at 8:15 a.m. A learner wakes at 6:00 a.m. How long is there between waking and the first lesson?",
+          "steps": ["From 6:00 to 8:00 is 2 hours.", "From 8:00 to 8:15 is 15 minutes."],
+          "answer": "2 hours 15 minutes",
+          "check": "(8*60+15)-(6*60) === 135"
+        },
+        {
+          "problem": "Supper is at 7:00 p.m. and bedtime is at 9:00 p.m. What is the duration?",
+          "steps": ["9 − 7 = 2 hours.", "The minutes are both 00."],
+          "answer": "2 hours",
+          "check": "(21*60)-(19*60) === 120"
+        }
+      ],
+      "activity": {
+        "title": "A day on paper",
+        "materials": ["Exercise book", "Clock"],
+        "steps": [
+          "Write five activities from your own day in order, with a.m. or p.m.",
+          "Choose two that follow each other and work out the duration.",
+          "Compare one duration with a partner. Say which activity is longer.",
+          "Discuss one problem that happens if someone is late for that activity.",
+          "If the class uses an electronic clock, agree on one safety rule before anyone holds it."
+        ]
+      },
+      "practice": [
+        { "question": "School ends at 3:30 p.m. and games end at 4:15 p.m. How long are the games if they start when school ends?", "answer": "45 minutes", "check": "(16*60+15)-(15*60+30) === 45" },
+        { "question": "From 7:20 a.m. to 8:00 a.m. is how many minutes?", "answer": "40 minutes", "check": "(8*60)-(7*60+20) === 40" },
+        { "question": "Why is a timetable useful on a school morning?", "answer": "It shows how much time you have for each activity so that you can arrive when the lesson starts.", "check": null },
+        { "question": "Name one way to take care of an electronic clock.", "answer": "Handle it with dry hands and do not drop it or pull it apart.", "check": null }
+      ],
+      "summary": [
+        "A timetable puts the day's activities in order with a.m. and p.m.",
+        "Durations show whether there is enough time between activities.",
+        "Being on time and taking care of a clock are part of using time well."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "The minute hand is on 4. How many minutes past the hour is that?",
+      "options": ["4 minutes", "20 minutes", "25 minutes", "40 minutes"],
+      "answer": "B",
+      "explanation": "Each number stands for 5 minutes. 4 × 5 = 20.",
+      "outcome": "a",
+      "check": "4 * 5 === 20"
+    },
+    {
+      "question": "What digital time is quarter to 7?",
+      "answer": "6:45",
+      "explanation": "Quarter to 7 is 45 minutes past 6, because 60 − 15 = 45.",
+      "outcome": "a",
+      "check": "60 - 15 === 45"
+    },
+    {
+      "question": "Lunch at 12:40 is in which part of the day?",
+      "options": ["a.m.", "p.m.", "midnight"],
+      "answer": "B",
+      "explanation": "12:40 is after midday, so it is p.m.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "What time is two hours after midday?",
+      "answer": "2:00 p.m.",
+      "explanation": "Midday is 12:00 p.m. Two hours later is 2:00 p.m.",
+      "outcome": "b",
+      "check": "12 + 2 - 12 === 2"
+    },
+    {
+      "question": "Around what time of day is a shadow shortest?",
+      "options": ["Early morning", "Around midday", "Late evening"],
+      "answer": "B",
+      "explanation": "The sun is highest around midday, so the shadow is shortest then.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Change 3 hours 20 minutes into minutes.",
+      "answer": "200 minutes",
+      "explanation": "3 × 60 = 180, and 180 + 20 = 200.",
+      "outcome": "c",
+      "check": "3 * 60 + 20 === 200"
+    },
+    {
+      "question": "How many days are in 4 weeks?",
+      "options": ["21 days", "28 days", "30 days", "24 days"],
+      "answer": "B",
+      "explanation": "1 week = 7 days, so 4 × 7 = 28 days.",
+      "outcome": "c",
+      "check": "4 * 7 === 28"
+    },
+    {
+      "question": "An activity starts at 9:20 a.m. and ends at 11:05 a.m. What is the duration?",
+      "answer": "1 hour 45 minutes",
+      "explanation": "The difference is 105 minutes, which is 1 hour 45 minutes.",
+      "outcome": "d",
+      "check": "(11*60+5)-(9*60+20) === 105"
+    },
+    {
+      "question": "Add 2 hours 40 minutes and 1 hour 35 minutes.",
+      "options": ["3 hours 75 minutes", "4 hours 15 minutes", "3 hours 15 minutes", "4 hours 75 minutes"],
+      "answer": "B",
+      "explanation": "40 + 35 = 75 minutes = 1 hour 15 minutes. Hours: 2 + 1 + 1 = 4.",
+      "outcome": "e",
+      "check": "(2*60+40)+(1*60+35) === 4*60+15"
+    },
+    {
+      "question": "A learner wakes at 6:00 a.m. and lessons start at 8:15 a.m. How long is the gap?",
+      "answer": "2 hours 15 minutes",
+      "explanation": "From 6:00 to 8:15 is 2 hours 15 minutes, or 135 minutes.",
+      "outcome": "f",
+      "check": "(8*60+15)-(6*60) === 135"
+    },
+    {
+      "question": "Subtract 1 hour 40 minutes from 4 hours 10 minutes.",
+      "answer": "2 hours 30 minutes",
+      "explanation": "Borrow 1 hour: 3 hours 70 minutes minus 1 hour 40 minutes is 2 hours 30 minutes.",
+      "outcome": "e",
+      "check": "(4*60+10)-(1*60+40) === 150"
+    },
+    {
+      "question": "How many hours are in 3 days?",
+      "answer": "72 hours",
+      "explanation": "1 day = 24 hours, so 3 × 24 = 72.",
+      "outcome": "c",
+      "check": "3 * 24 === 72"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 2.0 Measurement, Sub-strand 2.6 Time",
+    "KICD Grade 4 Mathematics radio lesson: Telling time in a.m. and p.m."
+  ]
+}

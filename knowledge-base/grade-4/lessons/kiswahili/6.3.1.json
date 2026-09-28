@@ -1,0 +1,130 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "6.3.1",
+  "title": "Kuandika: Insha ya Wasifu",
+  "overview": "Insha ya wasifu hueleza sifa za mtu: mzazi, mlezi, rafiki, mwalimu au kiongozi unayemjua. Katika mada hii ndogo utatambua muundo wake na utaandika insha ukitumia vivumishi na vielezi ili picha iwe dhahiri. Utaandika ukweli unaoujua, si sifa ulizobuni.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Muundo wa insha ya wasifu",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kueleza maana ya insha ya wasifu.",
+        "Kutambua sehemu za muundo wake katika kielelezo.",
+        "Kutofautisha wasifu na orodha ya majina."
+      ],
+      "intro": "Ukiulizwa rafiki yako ni nani, jina peke yake halitoshi. Msomaji anataka kujua tabia, anachopenda, na jinsi mnavyoshirikiana. Hiyo ndiyo kazi ya insha ya wasifu.",
+      "notes": "### Wasifu ni nini?\nInsha ya wasifu hueleza sifa za mtu fulani ili msomaji amwone akilini. Mtu huyo anaweza kuwa mzazi, mlezi, rafiki, mwalimu au kiongozi unayemfahamu. Si kila kiongozi anafaa kuandikiwa ikiwa hukujui ukweli wake. Andika unachokijua wewe mwenyewe.\n\n### Muundo\n1. **Anwani** ni kichwa, mara nyingi kwa herufi kubwa: RAFIKI YANGU au MWALIMU WANGU.\n2. **Utangulizi** husema mtu ni nani na uhusiano wenu.\n3. **Kiini** kina aya kuhusu sura au sifa, tabia, anachopenda, na mnavyoshirikiana. Hapa vivumishi na vielezi hujenga picha.\n4. **Hitimisho** husema kwa nini mtu huyo ni muhimu kwako.\n\n### Kielelezo\n**MWALIMU WANGU**\n\nMwalimu wangu ni Bi. Neema. Anafundisha darasa la nne. Sisi tumemfahamu tangu tulipoingia darasa hili.\n\nYeye ni mwenye adabu na mchangamfu. Anasema kwa sauti ya upole. Anafika mapema kila siku na kuandika kazi ubaoni kabla hatujafika.\n\nAnapenda kusoma na kueleza polepole. Tukikwama na neno, anatuliza tufuate kamusi. Pia anatuongoza tupandisha bendera kwa heshima, isiguse ardhi.\n\nMwalimu huyu ananisaidia kupenda masomo. Nataka niige bidii yake.\n\nAngalia: anwani ipo, utangulizi unamtaja, kiini kinaeleza tabia na matendo, hitimisho linafunza. Vivumishi: mwenye adabu, mchangamfu. Vielezi: kwa upole, mapema, polepole.\n\n### Si wasifu\nNeema. Shule. Bendera. Hii ni orodha. Haielezi tabia wala tendo. Pia si wasifu kuandika sifa ulizobuni kuhusu mtu mashuhuri usiyemjua, au tarehe usizozihakikisha.\n\nUnaposoma vielelezo kwenye kitabu au tarakilishi, weka alama kwenye anwani, utangulizi, kiini na hitimisho. Kama havipo, maandishi hayo hayajafuata muundo.",
+      "keyWords": [
+        { "word": "insha ya wasifu", "meaning": "utungo unaoeleza sifa za mtu fulani" },
+        { "word": "kivumishi", "meaning": "neno la sifa, kama mchangamfu au mwenye adabu" },
+        { "word": "kielezi", "meaning": "neno linaloeleza jinsi au wakati, kama polepole au mapema" },
+        { "word": "anwani", "meaning": "kichwa cha insha" }
+      ],
+      "examples": [
+        {
+          "problem": "Je, maneno haya ni wasifu? Mama. Baba. Rafiki.",
+          "steps": ["Haya ni majina yaliyotengwa.", "Hayasemi tabia wala tendo."],
+          "answer": "Hapana. Ni orodha, si insha ya wasifu.",
+          "check": null
+        },
+        {
+          "problem": "Tambua kivumishi na kielezi: Anafika mapema na kuzungumza kwa upole.",
+          "steps": ["Mapema kinaeleza wakati.", "Kwa upole kinaeleza jinsi."],
+          "answer": "Vielezi ni mapema na kwa upole. Sentensi hii haina kivumishi; sifa iko katika jinsi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chunguza kielelezo cha wasifu",
+        "materials": ["Kielelezo cha insha kwenye kitabu, chati au tarakilishi", "Penseli"],
+        "steps": [
+          "Soma kielelezo cha MWALIMU WANGU.",
+          "Weka alama kwenye anwani, utangulizi, kiini na hitimisho.",
+          "Pigia mstari kivumishi kimoja na kielezi kimoja.",
+          "Jadiliana na mwenzako: mtu anayefaa kuandikiwa wasifu ni nani, na kwa nini?",
+          "Sema kitu ambacho hakiandikwi ikiwa hukuki hakikisha."
+        ]
+      },
+      "practice": [
+        { "question": "Insha ya wasifu inaeleza nini?", "answer": "Inaeleza sifa za mtu fulani ili msomaji apate picha yake.", "check": null },
+        { "question": "Taja sehemu nne za muundo kwa mpangilio.", "answer": "Anwani, utangulizi, kiini na hitimisho.", "check": null },
+        { "question": "Kwa nini tusibuni sifa za kiongozi tusiyemjua?", "answer": "Kwa sababu wasifu unapaswa kuegemea ukweli tunaojua, si kubuni.", "check": null },
+        { "question": "Katika kielelezo, Bi. Neema anafanya nini kuhusu bendera?", "answer": "Anawaongoza wanafunzi waipandishe kwa heshima, isiguse ardhi.", "check": null }
+      ],
+      "summary": [
+        "Wasifu hueleza mtu unayemjua: sifa, tabia na matendo.",
+        "Muundo ni anwani, utangulizi, kiini na hitimisho.",
+        "Orodha ya majina peke yake si wasifu."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kuandika insha ya wasifu",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kuandaa vidokezo vya wasifu wa mtu anayemjua.",
+        "Kuandika insha kwa vivumishi na vielezi.",
+        "Kuiwasomea wenzake ili waitathmini."
+      ],
+      "intro": "Vidokezo vinakukinga usiandike kila kitu kwa pamoja. Chagua mtu mmoja, hoja nne, kisha sentensi. Picha itakuwa wazi kama kila aya ina kazi yake.",
+      "notes": "### Vidokezo\nChagua mtu mmoja. Mfano: rafiki yangu.\n\n- Yeye ni nani, na yuko darasa gani?\n- Ana tabia gani? Tumia vivumishi.\n- Anapenda kufanya nini, na anafanyaje? Tumia vielezi.\n- Mnasaidiaje, hasa katika heshima au masomo?\n- Hitimisho: kwa nini urafiki huu unafaa?\n\n### Kanuni\nZingatia anwani, mpangilio, hati safi, tahajia, sarufi na uakifishaji. Herufi kubwa mwanzo wa sentensi na kwenye majina. Kikomo mwisho wa sentensi. Swali liwe na kiulizi.\n\nUsandike uvumi. Usitaje kaunti, tarehe ya kuzaliwa wala cheo usichokijua. Ikiwa huijui shule aliyosomea zamani, usiibuni.\n\n### Kielelezo kifupi\n**RAFIKI YANGU**\n\nRafiki yangu anaitwa Juma. Yuko darasa la nne kama mimi. Tunaishi karibu, kwa hivyo tunatembea pamoja kuja shule.\n\nJuma ni mchangamfu na mwenye adabu. Anawaamkua walimu kwa upole. Hasemi maneno ya kumuumiza mwenzake.\n\nAnapenda kusoma kwa bidii. Kila jioni tunarudia maneno magumu polepole. Asubuhi ya gwaride, tunasimama tulivu bendera inapopandishwa.\n\nRafiki huyu ananifundisha heshima. Nataka tuendelee kusaidiana.\n\nVivumishi: mchangamfu, mwenye adabu. Vielezi: kwa upole, kwa bidii, polepole, tulivu.\n\n### Tathmini\nMsomee mwenzako au umpe mwalimu kwa njia aliyoidhinisha. Kama unatumia kifaa, andika, funga faili, na usitume kazi kwa mtu usiyemjua. Mwenzako aseme picha aliyoiona, kisha pendekezo moja. Rekebisha tahajia moja na usome tena.\n\nKuchangamkia wasifu ni kupenda kumweleza mtu mwema bila kumzusha sifa zisizo kweli.",
+      "keyWords": [
+        { "word": "vidokezo", "meaning": "hoja fupi zinazoongoza insha" },
+        { "word": "picha dhahiri", "meaning": "maelezo yanayomfanya msomaji amwone mtu akilini" },
+        { "word": "hati safi", "meaning": "maandishi yanayosomeka vizuri" }
+      ],
+      "examples": [
+        {
+          "problem": "Geuza maneno haya yawe sentensi ya wasifu: mama, upole, kila asubuhi, nasaha.",
+          "steps": ["Weka mtu na tendo.", "Ongeza kivumishi au kielezi."],
+          "answer": "Mama yangu hunipa nasaha kwa upole kila asubuhi.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini usiandike kaunti ya kuzaliwa ikiwa huijui?",
+          "steps": ["Wasifu unaegemea ukweli.", "Kubuni mahali ni kosa la ukweli."],
+          "answer": "Kwa sababu ningekuwa nabuni, na wasifu unapaswa kuegemea ninachokijua.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika wasifu na usome",
+        "materials": ["Daftari na kalamu", "Kielelezo cha muundo", "Kifaa cha kidijitali panapowezekana"],
+        "steps": [
+          "Jadiliana na wenzako muundo wa insha ya wasifu.",
+          "Chagua mtu mmoja unayemjua: mzazi, mlezi, rafiki au mwalimu.",
+          "Andika vidokezo vitano, kisha insha yenye anwani na aya.",
+          "Tumia angalau vivumishi viwili na vielezi viwili.",
+          "Msomee kikundi. Wakutathmini picha na tahajia, kisha rekebisha kosa moja."
+        ]
+      },
+      "practice": [
+        { "question": "Andika vidokezo vitatu vya wasifu wa mzazi au mlezi wako.", "answer": "Mfano: yeye ni nani kwangu; tabia yake; jinsi anavyonisaidia.", "check": null },
+        { "question": "Andika sentensi ukitumia kivumishi mwenye adabu na kielezi kwa upole.", "answer": "Mfano: Rafiki yangu ni mwenye adabu na huzungumza kwa upole.", "check": null },
+        { "question": "Taja kanuni mbili za uandishi wa wasifu.", "answer": "Mfano: mpangilio wa mawazo na tahajia. Pia uakifishaji, hati safi na ukweli.", "check": null },
+        { "question": "Unaposambaza insha kwa kifaa, unazingatia nini?", "answer": "Naandika kwa ruhusa, nafunga faili, na situmi kazi kwa mtu nisiyemjua.", "check": null }
+      ],
+      "summary": [
+        "Chagua mtu mmoja unayemjua na uandike vidokezo kwanza.",
+        "Vivumishi na vielezi hujenga picha dhahiri.",
+        "Andika ukweli, kisha pitisha kazi kwa mwenzako."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Insha ya wasifu inahusu nini?", "options": ["Orodha ya bei", "Sifa za mtu fulani", "Sheria za hesabu", "Ramani ya barabara"], "answer": "B", "explanation": "Wasifu hueleza sifa za mtu.", "outcome": "a", "check": null },
+    { "question": "Ni nani anayefaa kuandikiwa wasifu darasani?", "options": ["Mtu usiyemjua kabisa", "Mzazi, rafiki au mwalimu unayemjua", "Kila jina kwenye gazeti", "Mgeni wa mtandaoni"], "answer": "B", "explanation": "Andika kuhusu mtu unayemfahamu.", "outcome": "a", "check": null },
+    { "question": "Anwani ya wasifu ni ipi?", "options": ["Hitimisho", "Kichwa kama RAFIKI YANGU", "Kamusi", "Tarehe ya bendera"], "answer": "B", "explanation": "Anwani ni kichwa cha insha.", "outcome": "a", "check": null },
+    { "question": "Ni lipi si wasifu?", "options": ["Insha inayoeleza tabia ya mwalimu", "Aya kuhusu rafiki", "Orodha: Mama. Baba. Rafiki.", "Hitimisho linalosema umuhimu wa mtu"], "answer": "C", "explanation": "Orodha ya majina haina maelezo ya sifa.", "outcome": "a", "check": null },
+    { "question": "Kivumishi katika sentensi Juma ni mchangamfu ni kipi?", "options": ["Juma", "ni", "mchangamfu", "sentensi"], "answer": "C", "explanation": "Mchangamfu ni sifa, yaani kivumishi.", "outcome": "b", "check": null },
+    { "question": "Kielezi katika Anazungumza kwa upole ni kipi?", "options": ["Anazungumza", "kwa upole", "Juma", "darasa"], "answer": "B", "explanation": "Kwa upole kinaeleza jinsi.", "outcome": "b", "check": null },
+    { "question": "Kwa nini usibuni tarehe ya kuzaliwa ya mtu?", "answer": "Kwa sababu wasifu unaegemea ukweli unaoujua, si kubuni.", "explanation": "Kuandika ukweli usiojulikana kunaharibu wasifu.", "outcome": "b", "check": null },
+    { "question": "Hitimisho la wasifu hufanya nini?", "options": ["Huanza mada mpya isiyohusiana", "Hueleza kwa nini mtu huyo ni muhimu kwako", "Huorodhesha bei", "Huficha jina"], "answer": "B", "explanation": "Hitimisho hufunga kwa umuhimu wa mtu.", "outcome": "a", "check": null },
+    { "question": "Andika sentensi ya wasifu kuhusu mwalimu anayefika mapema.", "answer": "Mfano: Mwalimu wangu anafika mapema na kuanza somo kwa upole.", "explanation": "Sentensi ina mtu, tendo na kielezi.", "outcome": "b", "check": null },
+    { "question": "Unachangamkiaje utunzi wa wasifu?", "answer": "Kwa kuandika kwa ubunifu kuhusu mtu ninaemjua, na kwa kurekebisha baada ya tathmini.", "explanation": "Kuchangamkia ni kupenda kuandika na kuboresha kazi.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 6.0 Bendera ya Taifa, Mada Ndogo 6.3.1 Kuandika: Insha ya Wasifu"
+  ]
+}

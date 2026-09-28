@@ -1,0 +1,234 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "7.4.2",
+  "title": "Sarufi: Ngeli ya LI-LI",
+  "overview": "Ngeli ya LI-LI ina nomino ambazo hazibadiliki, kama jua na giza. Umoja na wingi ni neno lilelile, na viambishi vya upatanisho hubaki vya li-. Utajifunza kuzitofautisha na ngeli ya LI-YA na KI-VI, kisha utazitumia katika sentensi kuhusu mwanga unaohitajika na mimea.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kutambua nomino za ngeli ya LI-LI",
+      "outcomes": ["b"],
+      "objectives": [
+        "Kutaja nomino za ngeli ya LI-LI katika umoja na wingi.",
+        "Kueleza kuwa nomino hizi hazibadiliki.",
+        "Kuzitofautisha na nomino za LI-YA na KI-VI."
+      ],
+      "intro": "Asubuhi unasema jua limechomoza. Jioni unasema giza limeingia. Maneno jua na giza hayabadiliki ukiyasema mara moja au kuyataja kama hali. Hii ndiyo ngeli ya LI-LI.",
+      "notes": "### Ngeli ya LI-LI\nNgeli ya LI-LI ni kundi dogo la nomino. Mifano yake mikuu ni **jua** na **giza**. Umoja na wingi ni neno lilelile:\n- jua → jua\n- giza → giza\n\nHatusemi majua wala magiza tunapofuata ngeli hii. Tunaandika neno hilohilo katika safu ya umoja na safu ya wingi. Nomino hizi pia si rahisi kuzihesabu kama vitabu. Tunaposema idadi, tunasema jua moja.\n\n### Tofauti na LI-YA\nNgeli ya LI-YA hubadilika.\n- tunda → matunda\n- embe → maembe\n- shamba → mashamba\n- jina → majina\n\nKatika LI-YA, umoja hutumia li- (tunda limeiva) na wingi hutumia ya- (matunda yameiva). Katika LI-LI, neno halibadiliki, na kiambishi hubaki li- katika umoja na wingi: jua limechomoza.\n\nUsichanganye jua na tunda. Tunda lina wingi matunda. Jua halina *majua katika ngeli hii.\n\n### Tofauti na KI-VI\n- kitabu → vitabu (ki- huwa vi-)\n- chakula → vyakula\n- jua → jua (hakuna mabadiliko)\n\nKama wingi unaanza na vi-, vy- au ma-, nomino hiyo si ya LI-LI. Kama neno linabaki jua au giza, liweke katika ngeli ya LI-LI.\n\n### Jinsi ya kutambua\n1. Angalia kama neno ni jua au giza, au nomino nyingine inayofanana nayo kwa kutobadilika na kutumia li-.\n2. Jaribu kuunda wingi. Kama umepata matunda, vitabu au miti, hiyo ni ngeli nyingine.\n3. Sikiliza kitenzi. Jua **lime**chomoza. Giza **lime**ingia. Kiambishi li- ni alama ya ngeli hii.\n\nMiche inahitaji mwanga wa jua, na giza la usiku huacha shamba bila mwanga huo.",
+      "keyWords": [
+        { "word": "ngeli ya LI-LI", "meaning": "kundi la nomino ambazo hazibadiliki, kama jua na giza, na hutumia viambishi vya li-" },
+        { "word": "jua", "meaning": "nyota inayoangaza mchana na kutoa mwanga na joto" },
+        { "word": "giza", "meaning": "hali ya kukosa mwanga" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika umoja na wingi wa jua na giza.",
+          "steps": ["Kumbuka nomino za LI-LI hazibadiliki.", "Andika neno lilelile pande zote mbili."],
+          "answer": "jua – jua; giza – giza",
+          "check": null
+        },
+        {
+          "problem": "Ni lipi la LI-LI: tunda, kitabu, giza, mti?",
+          "steps": ["Tunda huwa matunda (LI-YA).", "Kitabu huwa vitabu (KI-VI).", "Mti huwa miti (M-MI).", "Giza hubaki giza."],
+          "answer": "giza",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mti wa maneno wa ngeli",
+        "materials": ["Kadi za maneno: jua, giza, tunda, matunda, kitabu, vitabu, shamba", "Kapu", "Chati"],
+        "steps": [
+          "Weka kadi zote kwenye kapu la maneno.",
+          "Kila mwanafunzi achopoe kadi na asome neno kwa sauti.",
+          "Wekeni jua na giza kwenye tawi la LI-LI. Wekeni tunda na matunda kwenye tawi la LI-YA, na kitabu na vitabu kwenye tawi la KI-VI.",
+          "Andikeni umoja na wingi wa jua na giza kwenye daftari. Onyesha kuwa neno halibadiliki.",
+          "Elezeni kwa nini hamkuandika majua."
+        ]
+      },
+      "practice": [
+        { "question": "Kwa nini jua na giza viko katika ngeli ya LI-LI?", "answer": "Kwa sababu hazibadiliki katika umoja na wingi, na hutumia viambishi vya li-.", "check": null },
+        { "question": "Andika wingi wa: jua, giza, tunda, kitabu.", "answer": "jua, giza, matunda, vitabu", "check": null },
+        { "question": "Tofautisha jua na tunda kwa wingi na kwa kitenzi kimoja kila moja.", "answer": "Jua hubaki jua: Jua limechomoza. Tunda huwa matunda: Tunda limeiva, lakini matunda yameiva.", "check": null },
+        { "question": "Ni kipi si sahihi: majua, jua, giza?", "answer": "majua si umbo la ngeli ya LI-LI. Tunasema jua katika umoja na wingi.", "check": null }
+      ],
+      "summary": [
+        "Jua na giza hazibadiliki: jua–jua, giza–giza.",
+        "LI-YA hubadilika, kwa mfano tunda na matunda.",
+        "KI-VI hubadilika, kwa mfano kitabu na vitabu."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Viambishi vya kitenzi na kivumishi",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutambua kiambishi li- katika vitenzi vya jua na giza.",
+        "Kutumia kivumishi sahihi cha ngeli ya LI-LI.",
+        "Kujaza nafasi katika sentensi za umoja na wingi."
+      ],
+      "intro": "Jua linawaka. Giza limeingia. Kiambishi li- kinarudiwa kwa sababu nomino haibadiliki. Leo tutaona jinsi li- inavyoingia katika kitenzi na jinsi kivumishi kinavyofuata.",
+      "notes": "### Kitenzi cha LI-LI\nKiambishi cha kitenzi ni **li-** katika umoja na wingi. Kwa sababu neno ni lilelile, sentensi ya wingi inafanana na sentensi ya umoja.\n\n- Jua **lina**waka. (wakati uliopo)\n- Jua **lime**chomoza. (hali timilifu)\n- Jua **lili**chomoza asubuhi. (wakati uliopita)\n- Jua **lita**chomoza kesho. (wakati ujao)\n- Giza **lina**ingia.\n- Giza **lime**ingia.\n- Giza **lili**ingia mapema.\n- Giza **lita**ingia jioni.\n\nUsitumie ki- wala ya-.\n- Si sahihi: Jua **kime**chomoza. Hicho ni kiambishi cha KI-VI.\n- Si sahihi: Jua **yame**chomoza. Ya- ni wingi wa LI-YA, kama matunda yameiva.\n- Sahihi: Jua **lime**chomoza.\n\n### Kivumishi\nKabla ya konsonanti, kivumishi cha ngeli hii hakina kiambishi cha mbele:\n- jua **zuri**\n- giza **zito**\n- jua **kubwa**\n\nKabla ya irabu fulani, tumia **j-**:\n- giza **jingine**\n- jua **jema**\n\nNeno -ote huwa **lote**: jua lote, giza lote.\n\nMifano katika mada ya mimea:\n- Jua zuri limechomoza juu ya shamba.\n- Giza zito limefunika miche.\n- Jua lote linawaka mchana.\n\nUnapojaza nafasi, kumbuka: umoja na wingi vinatumia li- ileile. Kama swali linauliza wingi wa jua, bado andika li-, si ya-.",
+      "keyWords": [
+        { "word": "li-", "meaning": "kiambishi cha kitenzi katika ngeli ya LI-LI, kwa umoja na wingi" },
+        { "word": "lote", "meaning": "umbo la -ote linalotumika na nomino za LI-LI, kama jua lote" },
+        { "word": "zito", "meaning": "kivumishi cha giza kinachoonyesha giza kubwa au nene" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza: Giza ___meingia shambani. (ki / vi / li / ya)",
+          "steps": ["Giza ni la LI-LI.", "Hali timilifu hutumia li- na -me-."],
+          "answer": "li (Giza limeingia shambani.)",
+          "check": null
+        },
+        {
+          "problem": "Chagua sentensi sahihi: Jua kimechomoza. Jua limechomoza. Majua yamechomoza.",
+          "steps": ["Epusa ki- ya KI-VI.", "Epusa majua na ya-."],
+          "answer": "Jua limechomoza.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chopoa sentensi",
+        "materials": ["Kadi za sentensi zenye nafasi", "Kikapu au boksi", "Daftari"],
+        "steps": [
+          "Andikeni sentensi kama: Jua ___nawaka. Giza ___zito ___meingia.",
+          "Weka kadi kwenye kikapu. Kila mwanafunzi achopoe moja na aisome.",
+          "Ajaze nafasi kwa li-, lote, zuri au jingine kulingana na sentensi.",
+          "Aandike sentensi ileile kama 'wingi' na aone kuwa maneno hayabadiliki.",
+          "Kikundi kisome sentensi mbili zinazohusu miche na jua."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza: Jua ___tawaka kesho asubuhi.", "answer": "Jua litawaka kesho asubuhi.", "check": null },
+        { "question": "Kwa nini 'Matunda yameiva' si mfano wa LI-LI?", "answer": "Kwa sababu matunda ni wingi wa LI-YA na kinatumia ya-, si li- inayobaki katika jua na giza.", "check": null },
+        { "question": "Andika kivumishi: giza ___ (zito), jua ___ (ote).", "answer": "giza zito; jua lote", "check": null },
+        { "question": "Sahihisha: Jua kimechomoza na giza vimeingia.", "answer": "Jua limechomoza na giza limeingia.", "check": null }
+      ],
+      "summary": [
+        "Kitenzi cha jua na giza hutumia li- katika umoja na wingi.",
+        "Jua limechomoza, si kimechomoza wala yamechomoza.",
+        "Vivumishi: jua zuri, giza zito, jua lote."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Kiashiria, umiliki na la",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutumia viashiria hili, hilo na lile.",
+        "Kutumia kimilikishi langu, lako na lake.",
+        "Kutumia la kuhusisha nomino ya LI-LI na neno lingine."
+      ],
+      "intro": "Jua hili linawaka. Giza hilo linatisha. Kiashiria hiki si hiki cha kitabu, wala haya ya matunda. Ni hili, kwa sababu ngeli ni LI-LI.",
+      "notes": "### Viashiria\nNgeli ya LI-LI hutumia:\n- **hili** ukionyesha karibu na msemaji\n- **hilo** ukionyesha karibu na msikilizaji\n- **lile** ukionyesha mbali\n\nMifano:\n- Jua **hili** linawaka vizuri.\n- Giza **hilo** ni zito.\n- Jua **lile** linatua polepole.\n\nKatika wingi, viashiria ni hivyo hivyo, kwa sababu nomino haibadiliki. Hatusemi *jua haya. Haya ni kiashiria cha wingi wa LI-YA, kama matunda haya.\n\n### Kimilikishi\nUmbo ni **l-** kabla ya -angu, -ako, -ake, -etu, -enu na -ao:\n- langu, lako, lake, letu, lenu, lao\n\nJua na giza si vitu tunavyomiliki kama kitabu. Hata hivyo, kiambishi hiki hutumika tunapolizungumzia jua linalotuangazia au giza la mahali fulani.\n- Jua **letu** linawaka kila mchana.\n- Giza **lake** limefunika chumba.\n\nUsiseme *jua changu. Changu ni cha KI-VI. Usiseme *jua yangu. Yangu inafaa na nomino kama barua au ndizi, si na jua.\n\n### La ya kuhusisha\nKiambishi ni **la** katika umoja na wingi.\n- jua **la** asubuhi\n- giza **la** usiku\n- mwanga si \"la\" ikiwa neno kuu ni mwanga: tunasema **mwanga wa jua**, kwa sababu mwanga ni ngeli ya U-U au M-MI, si kwa sababu jua limebadilika.\n\nSentensi kamili:\n- Jua la asubuhi limechomoza juu ya miche.\n- Giza la usiku linaingia shamba jua linapotua.\n- Jua hili letu ni zuri kwa ukuaji wa mimea.\n\nUnapojaza nafasi, soma nomino kwanza. Ikiwa ni jua au giza, chagua li-, la, hili au letu. Ikiwa ni vitabu, rudi kwenye vi- na vya. Ikiwa ni matunda, tumia ya- na haya.",
+      "keyWords": [
+        { "word": "hili", "meaning": "kiashiria cha karibu katika ngeli ya LI-LI" },
+        { "word": "lile", "meaning": "kiashiria cha mbali katika ngeli ya LI-LI" },
+        { "word": "la", "meaning": "kiambishi cha kuhusisha nomino ya LI-LI na neno lingine" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza: Giza ___ usiku ___metanda shambani.",
+          "steps": ["-a ya LI-LI ni la.", "Hali timilifu ni lime-."],
+          "answer": "Giza la usiku limetanda shambani.",
+          "check": null
+        },
+        {
+          "problem": "Chagua: (Jua hili / Vitabu hivi / Matunda haya) limechomoza.",
+          "steps": ["Kitenzi lime- kinaambatana na LI-LI.", "Vitabu vinaambatana na vi-, na matunda na ya-."],
+          "answer": "Jua hili limechomoza.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Jedwali la li-",
+        "materials": ["Daftari au tarakilishi", "Jedwali tupu"],
+        "steps": [
+          "Chora jedwali lenye safu: nomino, kiashiria, umiliki, -a, kitenzi.",
+          "Jaza mstari wa jua na mstari wa giza. Rudia mstari huo kama wingi ili muone kuwa viambishi havibadiliki.",
+          "Jaza mstari mfupi wa tunda na matunda ili kulinganisha na LI-YA.",
+          "Tunga sentensi moja kuhusu miche na jua la asubuhi.",
+          "Wasomeeni wenzako na mkasahihishe kama mtu ametumia cha au ya badala ya la."
+        ]
+      },
+      "practice": [
+        { "question": "Andika kiashiria sahihi: giza ___ (karibu nawe), jua ___ (mbali).", "answer": "giza hilo; jua lile", "check": null },
+        { "question": "Jaza: Jua ___ asubuhi ___nawaka juu ya shamba.", "answer": "Jua la asubuhi linawaka juu ya shamba.", "check": null },
+        { "question": "Kwa nini tunasema mwanga wa jua, si mwanga la jua?", "answer": "Kwa sababu neno kuu ni mwanga, na mwanga hutumia wa, si la. La hutumika jua linapokuwa neno kuu, kama jua la asubuhi.", "check": null },
+        { "question": "Sahihisha: Jua haya yetu yamechomoza.", "answer": "Jua hili letu limechomoza.", "check": null }
+      ],
+      "summary": [
+        "Viashiria ni hili, hilo na lile.",
+        "Umiliki ni langu, lako, letu na mengine yanayoanza na l-.",
+        "Uhusiano ni la: jua la asubuhi, giza la usiku."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Kutunga sentensi za LI-LI",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kuunda sentensi sahihi akitumia jua na giza.",
+        "Kusahihisha sentensi zenye viambishi vya ngeli nyingine.",
+        "Kutumia nomino za LI-LI katika mazungumzo kuhusu mimea."
+      ],
+      "intro": "Mkulima anaposema, \"Jua la asubuhi limechomoza; ni wakati wa kumwagilia,\" anatumia ngeli ya LI-LI katika kazi halisi. Sentensi sahihi hufanya maelezo ya shamba yawe wazi.",
+      "notes": "### Hatua za kutunga\n1. Chagua jua au giza.\n2. Amua unachotaka kusema: kinawaka, limeingia, ni zuri, au ni la wakati gani.\n3. Tumia li-, la, hili au kivumishi sahihi. Usibadilishe neno kuwa wingi wa ma-.\n4. Soma kwa sauti na uhakikishe hukutumia kime- wala yame-.\n\nMifano:\n- Jua zuri limechomoza, kwa hiyo miche itapata mwanga.\n- Giza zito limeingia, na hatuoni vichaka vizuri.\n- Jua hili la mchana linawaka kwa nguvu.\n- Giza la usiku litaingia baada ya jua kutua.\n- Jua letu linawaka kila siku juu ya shamba la matunda.\n\nMiche inahitaji jua. Tusiseme *miche zinahitaji, kwa sababu miche hutumia i- ya ngeli ya M-MI: miche **ina**hitaji jua. Jua lenyewe linabaki na li-.\n\n### Kusahihisha\nPotofu: Majua haya yamechomoza shambani.\nSahihi: Jua hili limechomoza shambani.\n\nPotofu: Giza kimeingia chumbani.\nSahihi: Giza limeingia chumbani.\n\nPotofu: Jua ya asubuhi inawaka.\nSahihi: Jua la asubuhi linawaka.\n\n### Katika mawasiliano\nTumia sentensi hizi unapoeleza hali ya hewa, shamba au safari ya kwenda bustani.\n- \"Jua limechomoza. Twende tukamwagilie miche.\"\n- \"Giza limeingia. Hatuwezi kuchuma matunda bila mwanga.\"\n- \"Jua la alasiri ni kali. Tumwagilie miche mapema.\"\n\nKuzungumza hivi kunaonyesha unajua ngeli na unajali mimea. Changamkia kutunga sentensi zako, kisha uwasomee wenzako. Wakikutathmini, uliza: je, wamesikia li- au wamesikia ki-? Rekebisha kiambishi na usome tena.",
+      "keyWords": [
+        { "word": "alasiri", "meaning": "muda wa mchana baada ya adhuhuri, kabla ya jioni" },
+        { "word": "kutua", "meaning": "kushuka na kutoweka, kama jua linapotua jioni" }
+      ],
+      "examples": [
+        {
+          "problem": "Tunga sentensi mbili: moja kuhusu jua na miche, na nyingine kuhusu giza.",
+          "steps": ["Tumia li- katika kila kitenzi cha jua na giza.", "Miche iwe na kiambishi chake, si cha jua."],
+          "answer": "Jua la asubuhi linawaka juu ya miche. Giza la usiku limeingia na kufunika shamba.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: Giza haya yameingia na jua kimezama.",
+          "steps": ["Giza linahitaji hili au hilo, na lime-.", "Kwa jua, kitendo cha kutua ni lime- au lina-. Zama si kitenzi cha kawaida cha jua; tumia tua."],
+          "answer": "Giza hili limeingia na jua limetua.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sentensi za shamba na jua",
+        "materials": ["Daftari au kifaa cha kidijitali", "Picha ya shamba lenye jua au giza, ikiwa ipo"],
+        "steps": [
+          "Kila mwanafunzi aandike sentensi tatu za umoja kuhusu jua na mimea.",
+          "Aandike sentensi mbili kuhusu giza la usiku shambani.",
+          "Aandike 'wingi' kwa kunakili sentensi moja ya jua na kuonyesha kuwa neno na viambishi havibadiliki.",
+          "Awasomee wenzake au awasambazie ili wazitathmini.",
+          "Kikundi kiokote makosa ya ya-, ki- au ma-, kisha kisahihishe."
+        ]
+      },
+      "practice": [
+        { "question": "Tunga sentensi ukitumia: jua la alasiri.", "answer": "Mfano: Jua la alasiri linawaka kwa nguvu juu ya miche.", "check": null },
+        { "question": "Sahihisha: Majua mazuri yamechomoza.", "answer": "Jua zuri limechomoza.", "check": null },
+        { "question": "Jaza nafasi: Giza ___ usiku ___taingia baada ya jua kutua.", "answer": "Giza la usiku litaingia baada ya jua kutua.", "check": null },
+        { "question": "Kwa nini inafaa kutumia jua na giza katika mazungumzo ya shamba?", "answer": "Kwa sababu mimea inahitaji mwanga wa jua, na giza linaonyesha wakati ambao mwanga huo haupo. Viambishi sahihi hufanya maelezo yaeleweke.", "check": null }
+      ],
+      "summary": [
+        "Tunga kwa li-, la na hili. Usibadilishe jua kuwa majua.",
+        "Giza limeingia, na jua la asubuhi linawaka.",
+        "Sentensi hizi zinafaa unapozungumza kuhusu mwanga na mimea."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Wingi wa jua katika ngeli ya LI-LI ni upi?", "options": ["majua", "vijua", "jua", "mijua"], "answer": "C", "explanation": "Jua halibadiliki. Umoja na wingi ni jua.", "outcome": "b", "check": null },
+    { "question": "Ni nomino gani ya ngeli ya LI-LI?", "options": ["kitabu", "tunda", "giza", "mti"], "answer": "C", "explanation": "Giza hubaki giza. Kitabu, tunda na mti si mifano ya ngeli ya LI-LI.", "outcome": "b", "check": null },
+    { "question": "Tunda si la LI-LI kwa sababu gani?", "options": ["Wingi wake ni matunda na hutumia ya-", "Linaanza na t-", "Ni tunda la shamba", "Haliliwi"], "answer": "A", "explanation": "Tunda na matunda ni ngeli ya LI-YA, si LI-LI.", "outcome": "b", "check": null },
+    { "question": "Chagua sentensi sahihi.", "options": ["Jua kimechomoza.", "Jua limechomoza.", "Majua yamechomoza.", "Jua vimechomoza."], "answer": "B", "explanation": "LI-LI hutumia li-: limechomoza.", "outcome": "a", "check": null },
+    { "question": "Giza ___ingia. Kiambishi sahihi ni kipi?", "options": ["kime", "vime", "lime", "yame"], "answer": "C", "explanation": "Giza limeingia.", "outcome": "a", "check": null },
+    { "question": "Kivumishi sahihi ni kipi: jua ___?", "options": ["mzuri", "zuri", "kizuri", "mazuri"], "answer": "B", "explanation": "Kivumishi cha LI-LI kabla ya konsonanti hakina kiambishi: jua zuri.", "outcome": "a", "check": null },
+    { "question": "Jua ___ asubuhi ___nawaka.", "options": ["cha; kina", "la; lina", "ya; yana", "wa; una"], "answer": "B", "explanation": "Jua la asubuhi linawaka.", "outcome": "c", "check": null },
+    { "question": "Sahihisha: Giza haya yamefunika miche.", "answer": "Giza hili limefunika miche.", "explanation": "Kiashiria ni hili na kitenzi ni lime-.", "outcome": "c", "check": null },
+    { "question": "Andika sentensi ukitumia giza la usiku.", "answer": "Mfano: Giza la usiku limeingia shambani.", "explanation": "La linahusisha giza na usiku, na kitenzi kinatumia li-.", "outcome": "c", "check": null },
+    { "question": "Kwa nini mwanafunzi anafaa kuzungumza kwa ngeli sahihi kuhusu jua na mimea?", "answer": "Ili maelezo yake yaeleweke, na ili asichanganye jua na nomino za ngeli nyingine.", "explanation": "Upatanisho sahihi hufanya mawasiliano kuwa bayana.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 7.0 Matunda na Mimea, Mada Ndogo 7.4.2 Sarufi: Ngeli ya LI-LI"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "9.3.1",
+  "title": "Kuandika: Insha ya Maelezo",
+  "overview": "Insha ya maelezo hueleza sifa za kitu ili msomaji apate picha dhahiri. Katika mada ya afya bora, utaeleza mlo, usafi wa asubuhi au mazingira safi. Utaandaa vidokezo, kisha uandike kwa anwani, mpangilio, tahajia, uakifishaji, vivumishi na vielezi vinavyofaa.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kutambua maelezo yanayohusu afya",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutambua kifungu cha maelezo katika matini ya afya.",
+        "Kutaja sehemu za muundo: anwani, utangulizi, maelezo na hitimisho.",
+        "Kutofautisha maelezo ya mlo na kisa cha siku moja."
+      ],
+      "intro": "Ukiulizwa eleza mlo wako wa mchana, usianze kwa 'Ghafla nilikimbia jikoni.' Eleza kile kilicho mezani, rangi yake, na kinachofanya mwilini. Huo ndio utunzi wa maelezo.",
+      "notes": "### Insha ya maelezo inafanya nini?\nInaeleza sifa za kitu, mahali au mazoea ili msomaji aone picha. Haihitaji mshangao wa kisa. Katika afya bora, unaweza kueleza:\n- mlo wa mchana,\n- usafi wa asubuhi,\n- maji unayokunywa,\n- uwanja safi wa kucheza,\n- vyombo vilivyosafishwa jikoni.\n\nSwali dadisi ni: ni vitu gani vinavyoweza kutungiwa insha ya maelezo? Jibu: chochote unachoweza kukieleza kwa sifa, kama chakula, usafi au mahali.\n\n### Muundo\n- **Anwani** ni kichwa, kwa mfano Mlo Wangu wa Mchana.\n- **Utangulizi** unasema unachoeleza na kinapopatikana.\n- **Maelezo** yanagawanya vipengele. Aya moja inaweza kuwa vyakula vya nishati, nyingine vyakula vya kujenga mwili, na nyingine vyakula vya kukinga. Tumia vivumishi: maji **masafi**, mboga **mbichi**, chakula **kitamu**. Tumia vielezi: **kila siku**, **polepole**, **mapema**.\n- **Hitimisho** linasema thamani, bila mada mpya. Hapa methali **Afya ni mali** inafaa.\n\n### Kielelezo kifupi\nAnwani: Usafi wa Asubuhi\n\nUsafi wa asubuhi huanza chumbani kwangu kabla ya shule. Nachukua muda mfupi, lakini kila kazi ina nafasi yake.\n\nKwanza ninanawa uso na mikono kwa sabuni na maji masafi. Kisha ninafyatua meno polepole. Nguo zangu huwa safi na zilizopigwa pasi. Sipiti mlangoni nikiwa na mikono michafu.\n\nUsafi huu hunikinga. Kinga ni bora kuliko tiba, kwa hiyo nazoea kazi hizi kila siku.\n\nAya ya kwanza inatanguliza, ya pili inaeleza vipengele, na ya tatu inahitimisha kwa methali.\n\n### Tofauti na kisa\n\"Jana niliumwa tumbo na nikaenda zahanati\" ni kisa. \"Mlo wangu huwa na ugali, kunde na mboga mbichi\" ni maelezo. Ukitafuta sifa na mazoea yanayorudiwa, si tukio la siku moja, umetambua insha ya maelezo.",
+      "keyWords": [
+        { "word": "insha ya maelezo", "meaning": "utunzi unaoeleza sifa ili msomaji apate picha" },
+        { "word": "kivumishi", "meaning": "neno la sifa, kama masafi au kitamu" },
+        { "word": "kielezi", "meaning": "neno linaloeleza jinsi au wakati, kama polepole" },
+        { "word": "mbichi", "meaning": "iliyo safi na hai, si iliyokauka; kwa tunda, ambayo haijaiva" }
+      ],
+      "examples": [
+        {
+          "problem": "Sentensi ipi ni ya maelezo: (1) Jana nilikimbia na kuanguka. (2) Maji tunayokunywa huwa masafi na yaliyochemshwa.",
+          "steps": ["Tafuta sifa inayoeleza mazoea.", "Tukio la jana ni kisa."],
+          "answer": "Sentensi ya pili.",
+          "check": null
+        },
+        {
+          "problem": "Taja vivumishi viwili katika 'mboga mbichi na chakula kitamu'.",
+          "steps": ["Kivumishi hueleza nomino.", "Mbichi hueleza mboga, na kitamu hueleza chakula."],
+          "answer": "mbichi na kitamu",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Weka rangi kwenye kielelezo",
+        "materials": ["Kielelezo cha usafi wa asubuhi", "Kalama", "Tarakilishi panapopatikana"],
+        "steps": [
+          "Someni kielelezo kwenye chati au tarakilishi.",
+          "Tambueni anwani, utangulizi, maelezo na hitimisho.",
+          "Orodhesheni vivumishi na vielezi.",
+          "Jadilini mada nyingine ya afya: mlo, uwanja safi, au vyombo vya jikoni.",
+          "Kila kikundi kiandike vipengele vitatu ambavyo kingeeleza, si matukio ya siku moja."
+        ]
+      },
+      "practice": [
+        { "question": "Insha ya maelezo inalenga nini?", "answer": "Kueleza sifa za kitu ili msomaji apate picha dhahiri.", "check": null },
+        { "question": "Taja mada mbili za afya zinazofaa kuandikiwa maelezo.", "answer": "Mfano: mlo wa mchana na usafi wa asubuhi.", "check": null },
+        { "question": "Kwa nini 'Jana niliumwa tumbo' si maelezo ya usafi?", "answer": "Kwa sababu inasimulia tukio la siku moja, si sifa za mazoea ya usafi.", "check": null },
+        { "question": "Anwani inayofaa kwa maelezo ya chakula cha mchana ni ipi?", "answer": "Mfano: Mlo Wangu wa Mchana.", "check": null }
+      ],
+      "summary": [
+        "Maelezo hutoa sifa, si kisa cha ghafla.",
+        "Muundo ni anwani, utangulizi, maelezo na hitimisho.",
+        "Afya inaweza kuelezwa kwa mlo, usafi au mahali safi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kuandika insha ya maelezo kuhusu afya",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kuandaa vidokezo vya insha inayohusu afya bora.",
+        "Kuandika aya zenye vivumishi, vielezi na methali inayofaa.",
+        "Kusoma au kusambaza insha ili wenzako waitathmini."
+      ],
+      "intro": "Vidokezo ni orodha fupi, si insha yenyewe. Ukiandika 'nishati, kujenga, kukinga, usafi' kwanza, aya zako hazitachanganyika. Kisha utaandika picha ya mlo au ya usafi.",
+      "notes": "### Vidokezo vya mlo\nMada: Mlo Wangu wa Mchana.\n- Utangulizi: mlo huwa mezani baada ya kunawa mikono.\n- Aya ya kwanza: ugali au uji kwa nishati.\n- Aya ya pili: kunde au maharagwe kujenga mwili.\n- Aya ya tatu: mboga mbichi na tunda kukinga.\n- Hitimisho: Afya ni mali. Nakula kila siku bila kuchagua mboga.\n\n### Kanuni\n- Anwani iwe wazi.\n- Kila aya ishike wazo moja.\n- Vivumishi vifuate ngeli: maji **masafi** (wingi wa MA), chakula **kitamu** (KI), mboga **mbichi**.\n- Vielezi: polepole, kila siku, mapema, vizuri.\n- Tahajia: kunawa, fyatua, kunde, mboga, nishati.\n- Uakifishaji: nukta mwisho wa sentensi. Swali likiwa, tumia alama ya swali.\n- Ingiza methali moja inayofaa: **Afya ni mali** au **Kinga ni bora kuliko tiba**. Isiingizwe kwa nguvu ikiwa haielezi wazo lako.\n- Hati iwe safi. Ukikosea, kata neno kwa mstari mmoja.\n- Usibuni idadi ya magonjwa wala bei ya chakula usiyoijua.\n\n### Aya ya mfano\nMlo wangu wa mchana huandaliwa baada ya kunawa mikono kwa sabuni. Ugali hunipa nishati ya kucheza na kusoma. Kunde zinajenga mwili, na mboga mbichi pamoja na tunda hunikinga. Nakula polepole, bila kuacha mboga. Afya ni mali, kwa hiyo nazoea mlo huu kila siku.\n\nAngalia: kunde **zinajenga** kwa sababu kunde ni wingi. Ugali **hunipa** kwa kauli ya mazoea. Usiseme *kunde inanijenga.\n\n### Baada ya kuandika\nJisome. Je, msomaji anaona chakula au usafi? Kisha wasomee wenzako, au uandike kwa kifaa cha kidijitali na usambaze kwa mwalimu na mwenzako ili waitathmini. Pokea maoni kuhusu vivumishi na mpangilio. Boresha sentensi moja. Ubunifu wako unaonekana unapochagua picha sahihi, si kurudia neno zuri mara nyingi bila maana.",
+      "keyWords": [
+        { "word": "vidokezo", "meaning": "mambo mafupi yanayopanga insha kabla ya kuiandika" },
+        { "word": "masafi", "meaning": "kivumishi cha wingi cha ngeli ya MA, kama maji masafi" },
+        { "word": "tahajia", "meaning": "kuandika herufi sahihi za neno" },
+        { "word": "uakifishaji", "meaning": "matumizi ya nukta na alama nyinginezo" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika vidokezo vitatu vya insha inayoeleza usafi wa asubuhi.",
+          "steps": ["Weka utangulizi, vipengele vya usafi, na hitimisho.", "Usianze na tukio la kuumwa."],
+          "answer": "Mfano: (1) usafi hufanywa kabla ya shule (2) kunawa, kufyatua meno na nguo safi (3) umuhimu wa kinga.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: Kunde inanijenga mwili kila siku.",
+          "steps": ["Kunde ni wingi.", "Kitenzi kiwe zinajenga, si ina-."],
+          "answer": "Kunde zinajenga mwili kila siku.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika mlo na utathminiwe",
+        "materials": ["Daftari au kifaa cha kidijitali", "Orodha ya vidokezo"],
+        "steps": [
+          "Jadiliana na mwenzako mada ya afya: mlo, usafi wa asubuhi, au uwanja safi.",
+          "Andika vidokezo vya utangulizi, maelezo na hitimisho.",
+          "Andika insha fupi ya aya tatu ukitumia kivumishi, kielezi na methali moja.",
+          "Msomee kikundi au usambaze mtandaoni kwa mwalimu na mwenzako ili waitathmini.",
+          "Pokea maoni mawili na boresha sentensi iliyokosea ngeli, kama kunde ina badala ya zinajenga."
+        ]
+      },
+      "practice": [
+        { "question": "Kwa nini vidokezo vinaandikwa kwanza?", "answer": "Ili mawazo yawe na mpangilio na kila aya ishike wazo moja.", "check": null },
+        { "question": "Tunga sentensi ukitumia maji masafi na kielezi kila siku.", "answer": "Mfano: Kila siku ninakunywa maji masafi yaliyochemshwa.", "check": null },
+        { "question": "Ingiza methali Afya ni mali katika hitimisho la sentensi moja.", "answer": "Mfano: Afya ni mali, kwa hiyo ninalinda mwili kwa mlo kamili.", "check": null },
+        { "question": "Taja mambo matatu ya kuzingatia unapoandika insha ya maelezo.", "answer": "Anwani, mpangilio wa mawazo, na tahajia pamoja na uakifishaji. (Vivumishi na vielezi navyo vinazingatiwa.)", "check": null }
+      ],
+      "summary": [
+        "Panga vidokezo vya mlo au usafi kabla ya kuandika.",
+        "Kunde zinajenga, maji ni masafi, na chakula ni kitamu.",
+        "Methali ya afya huingia pale inapoongeza maana."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Insha ya maelezo inalenga nini?", "options": ["kusimulia tukio la ghafla", "kueleza sifa ili kuwe na picha", "kuandika orodha ya magonjwa", "kuhesabu bei"], "answer": "B", "explanation": "Maelezo hutoa sifa za kitu au mazoea.", "outcome": "a", "check": null },
+    { "question": "Ni kipi kinachofaa kuandikiwa maelezo ya afya?", "options": ["mlo wa mchana", "siku ulipoanguka tu", "orodha tupu", "hesabu ya darasa"], "answer": "A", "explanation": "Mlo una sifa zinazoweza kuelezwa.", "outcome": "a", "check": null },
+    { "question": "Sentensi ipi ni ya maelezo?", "options": ["Ghafla nilikimbia zahanati.", "Jana niliumwa usiku.", "Mlo wangu huwa na ugali, kunde na mboga mbichi.", "Nilipoamka nilipiga kelele."], "answer": "C", "explanation": "Inaeleza vyakula vilivyomo, si tukio.", "outcome": "a", "check": null },
+    { "question": "Kivumishi katika 'chakula kitamu' ni kipi?", "options": ["chakula", "kitamu", "mlo", "kila"], "answer": "B", "explanation": "Kitamu kinaeleza sifa ya chakula cha ngeli ya KI-VI.", "outcome": "a", "check": null },
+    { "question": "Kielezi katika 'nakula polepole' ni kipi?", "options": ["nakula", "polepole", "kunde", "mlo"], "answer": "B", "explanation": "Polepole kinaeleza jinsi ya kula.", "outcome": "b", "check": null },
+    { "question": "Kivumishi sahihi cha maji ni kipi?", "options": ["kisafi", "masafi", "wasafi", "lisafi"], "answer": "B", "explanation": "Maji ni wingi wa ngeli ya MA, kwa hiyo masafi.", "outcome": "b", "check": null },
+    { "question": "Chagua sentensi sahihi.", "options": ["Kunde inanijenga mwili.", "Kunde zinajenga mwili.", "Kunde linajenga mwili.", "Kunde unajenga mwili."], "answer": "B", "explanation": "Kunde ni wingi na hutumia zi-.", "outcome": "b", "check": null },
+    { "question": "Andika anwani ya insha inayoeleza usafi wa asubuhi.", "answer": "Mfano: Usafi wa Asubuhi Yangu.", "explanation": "Anwani inataja kinachoelezwa.", "outcome": "b", "check": null },
+    { "question": "Unazingatia nini unapoandika insha ya maelezo?", "answer": "Anwani, mpangilio, hati safi, tahajia, uakifishaji, vivumishi na vielezi vinavyotoa picha.", "explanation": "Kanuni hizi zinafanya maelezo yaeleweke.", "outcome": "b", "check": null },
+    { "question": "Kwa nini ubunifu unaonekana katika insha ya afya?", "options": ["kwa kurudia neno moja", "kwa kuchagua sifa na methali zinazofaa mlo au usafi", "kwa kuacha hitimisho", "kwa kubuni idadi ya magonjwa"], "answer": "B", "explanation": "Ubunifu ni picha iliyo wazi, si kubuni mambo usiyoyajua.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 9.0 Afya Bora, Mada Ndogo 9.3.1 Kuandika: Insha ya Maelezo"
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "5.6",
+  "title": "Community Leadership",
+  "overview": "A leader is the head of a group of people who share a goal. In the community, religious leaders, clan leaders and village leaders guide daily life. This sub-strand names those leaders, explains their duties, and shows the qualities that make leadership good.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Leaders in the community",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain who a leader is.",
+        "Identify religious leaders, clan leaders and village leaders."
+      ],
+      "intro": "When neighbours quarrel about a boundary, or a family wants prayers at a funeral, people do not start from nowhere. They look for the person the community already trusts to lead.",
+      "notes": "A leader is the head of a group of people who share interests or goals. A community leader guides people who live in the same area and share much of daily life. Kenya has 47 counties, and inside each county there are many communities. The leaders you study here are the ones close to home, not only leaders on the national news.\n\n### Leaders to identify\n- Religious leaders: people who lead worship and teach faith. In Christian communities these include bishops, priests and pastors. In Muslim communities these include sheikhs and imams. Other faiths also have their own leaders. Learn the titles used in your area.\n- Clan leaders: leaders of a clan, which is a group of families who trace themselves to a common ancestor. In some Kenyan communities they sit in a council of elders. Councils of elders are known among communities such as the Ameru, the Agikuyu and the Luo. Not every community uses a council. Ask what your own community uses.\n- Village leaders: leaders of a village or location. These include village elders. Chiefs and assistant chiefs also work among the people of a location. They are government officers, and many communities treat them as local leaders because they handle daily problems of order and welfare.\n\nOther people sometimes called community leaders include cultural leaders and the members of a council of elders. Name the person and the office. 'Elder' alone is vague. 'The chair of our clan council' is clear.\n\nDo not confuse these leaders with the county governor. The governor leads the county government. You will study that office separately. A chief is not a governor, and a pastor is not a chief.",
+      "keyWords": [
+        { "word": "leader", "meaning": "the head of a group of people who share a goal" },
+        { "word": "clan", "meaning": "a group of families who trace themselves to a common ancestor" },
+        { "word": "council of elders", "meaning": "a group of respected older leaders who guide a community" }
+      ],
+      "examples": [
+        {
+          "problem": "An imam leads prayers and teaches at the mosque. Which type of community leader is this?",
+          "steps": ["The work is worship and faith.", "Imam is a Muslim religious title."],
+          "answer": "A religious leader.",
+          "check": null
+        },
+        {
+          "problem": "Why should you not call the chief the governor?",
+          "steps": ["A chief serves a location.", "A governor leads a whole county government."],
+          "answer": "They hold different offices. The chief is a local administrator. The governor heads the county government.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Name the leaders",
+        "materials": ["Exercise book"],
+        "steps": [
+          "Draw three columns: religious leaders, clan leaders, village leaders.",
+          "Name the leaders you know in your community. Use offices if you are not sure of personal names.",
+          "Add one duty you think each office has. You will check the duties in a later lesson.",
+          "Share the list in class and correct any leader placed in the wrong column."
+        ]
+      },
+      "practice": [
+        { "question": "Who is a leader?", "answer": "The head of a group of people who share interests or goals.", "check": null },
+        { "question": "Name the three kinds of community leaders in this sub-strand.", "answer": "Religious leaders, clan leaders and village leaders.", "check": null },
+        { "question": "Give one example of a Christian religious leader and one example of a Muslim religious leader.", "answer": "Christian: a bishop, priest or pastor. Muslim: a sheikh or an imam.", "check": null }
+      ],
+      "summary": [
+        "A leader heads a group that shares a goal.",
+        "Community leadership in this sub-strand covers religious, clan and village leaders.",
+        "Use the correct office. A chief is not the governor."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Religious leaders",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Describe the work of religious leaders.",
+        "Explain how that work serves the whole community."
+      ],
+      "intro": "On a worship day the person at the front is easy to see. Their work continues after the service, when families ask for advice, comfort or a word of peace.",
+      "notes": "Religious leaders serve people of a faith. Their duties are spiritual and also social, because worshippers are members of the wider community.\n\n### Duties\n- Lead prayers and worship services\n- Teach the beliefs and the good values of the faith, such as honesty, kindness, peace and care for the needy\n- Guide people on what the faith counts as right and wrong\n- Visit the sick and comfort families at funerals and other hard times\n- Lead or bless ceremonies such as weddings, according to the religion\n- Speak for peace when groups in the community quarrel\n- Help the needy through the community of worshippers\n- Teach young people, including in religious classes\n\nA religious leader serves their own faith. They should not force people of another faith to convert, mock another religion, or use the pulpit or the mosque to spread hate. Respect between faiths is part of peace in a county where neighbours may pray in different ways.\n\nGood religious leaders also protect children. They do not hide abuse. If a child reports harm, the leader should help the child reach a parent, a teacher or the police. A title does not put a leader above the law.\n\nYou can identify the religious leaders near your school by their places of worship and their titles. Write the title, the place and one duty. Avoid rumours about their private lives.",
+      "keyWords": [
+        { "word": "imam", "meaning": "a Muslim leader who leads worship" },
+        { "word": "pastor", "meaning": "a Christian leader who teaches and cares for a congregation" },
+        { "word": "worship", "meaning": "prayer and other acts of honouring God" }
+      ],
+      "examples": [
+        {
+          "problem": "A priest visits a bereaved family and leads the funeral prayers. Which duties are these?",
+          "steps": ["He comforts people in a hard time.", "He leads a religious ceremony."],
+          "answer": "Comforting the family and leading worship at a ceremony.",
+          "check": null
+        },
+        {
+          "problem": "A religious leader tells followers to insult another faith. Is this good leadership?",
+          "steps": ["The words would cause conflict.", "Good leaders promote peace."],
+          "answer": "No. Religious leaders should guide their own faith without spreading hate.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Duties of religious leaders",
+        "materials": ["Exercise book", "Manila paper"],
+        "steps": [
+          "List religious leaders in your area by title, not by gossip.",
+          "Discuss their duties and prepare a short class presentation.",
+          "Include one way they promote peace and one limit: they must not harm children or other faiths.",
+          "Present to the class and answer one question."
+        ]
+      },
+      "practice": [
+        { "question": "State three duties of a religious leader.", "answer": "Any three: leading worship, teaching values, guiding right and wrong, comforting the sick and bereaved, leading ceremonies, promoting peace and helping the needy.", "check": null },
+        { "question": "Why should religious leaders of different faiths treat one another with respect?", "answer": "Because neighbours may pray differently, and respect keeps peace in the community.", "check": null },
+        { "question": "What should a religious leader do if a child reports abuse?", "answer": "Help the child tell a trusted adult, such as a parent, teacher or the police. The harm should not be hidden.", "check": null }
+      ],
+      "summary": [
+        "Religious leaders lead worship, teach values and comfort people.",
+        "They also promote peace and help the needy.",
+        "They must not spread hate or hide harm to children."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Clan leaders and village leaders",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Explain the duties of clan leaders and councils of elders.",
+        "Explain the duties of village leaders."
+      ],
+      "intro": "A clan council may meet under a tree. A village elder may walk from homestead to homestead. The furniture is simple. The work is to hold people together.",
+      "notes": "Clan leaders look after the life of a clan. Where a council of elders exists, the council shares that work instead of leaving it to one person.\n\n### Duties of clan leaders and elders\n- Represent the interests of the clan\n- Settle disputes among members, for example about family disagreements, in a peaceful way\n- Pass on customs that support harmony, order and peace\n- Teach moral values such as honesty, humility, cooperation and respect\n- Unite members for shared work\n- Encourage care of the environment, including not cutting trees carelessly\n- Help the community relate well internally, including during ceremonies\n\nCustoms that harm children, such as female genital mutilation or early marriage, are not duties. A good clan leader refuses those practices even if they are old.\n\n### Duties of village leaders\nVillage elders, and chiefs and assistant chiefs working in the location, have duties such as:\n\n- Knowing the households and the needs of the village\n- Helping to keep law and order and reporting crime\n- Solving small local disputes or sending bigger ones to the right office\n- Mobilising people for development, such as a water point or a school work day\n- Passing government information, including health messages, in a form people understand\n- Supporting security by encouraging people to report danger\n- Linking the village to the assistant chief, the chief and other officers\n\nA village leader who demands bribes for a letter or a hearing is failing the office. Service is the duty. Payment under the table is corruption.",
+      "keyWords": [
+        { "word": "dispute", "meaning": "a serious disagreement" },
+        { "word": "village elder", "meaning": "a local leader who helps to guide a village" },
+        { "word": "chief", "meaning": "a government officer responsible for a location" }
+      ],
+      "examples": [
+        {
+          "problem": "Two families disagree about a wedding plan and ask the clan elders to help them talk. Which duty is this?",
+          "steps": ["The elders are asked to settle a disagreement peacefully."],
+          "answer": "Settling disputes among community members.",
+          "check": null
+        },
+        {
+          "problem": "A village elder asks for money before writing a short introduction letter. What is wrong?",
+          "steps": ["The letter is part of the duty.", "Extra secret payment is a bribe."],
+          "answer": "It is corruption. The duty should be done without a bribe.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Duties presentation",
+        "materials": ["Manila paper", "Marker pens"],
+        "steps": [
+          "In groups, discuss the duties of either clan leaders or village leaders.",
+          "Make a chart with four duties and one example for each.",
+          "Mark any old practice that a good leader should stop because it harms children.",
+          "Present the chart to the class."
+        ]
+      },
+      "practice": [
+        { "question": "State three duties of a council of elders.", "answer": "Any three: settling disputes, teaching moral values, uniting members, passing on peaceful customs and encouraging care of the environment.", "check": null },
+        { "question": "Name two duties of a village elder or chief.", "answer": "Any two: keeping law and order, solving small disputes, mobilising people for development, passing information and supporting security.", "check": null },
+        { "question": "Why should clan leaders reject early marriage?", "answer": "It harms children and takes them out of school. A harmful custom is not a true duty.", "check": null }
+      ],
+      "summary": [
+        "Clan leaders settle disputes, teach values and unite families.",
+        "Village leaders support order, development and security.",
+        "Bribes and harmful practices are not part of good leadership."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Duties leaders share",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Explain duties that religious, clan and village leaders have in common.",
+        "Appreciate leaders who do those duties well."
+      ],
+      "intro": "The imam, the clan elder and the chief do not do the same tasks every morning. Yet when you list their duties side by side, the same aims keep appearing.",
+      "notes": "Different leaders have different tools. A pastor uses teaching and worship. A clan elder uses custom and family meetings. A chief uses the law of the location. The aims often match.\n\n### Shared duties\n- Uniting the people they lead\n- Maintaining law and order, or the moral order of the community, so that peace and harmony grow\n- Caring for the welfare of members, including the needy, the sick and children\n- Resolving disputes\n- Encouraging cooperation\n- Promoting security by rejecting violence and asking people to report danger\n- Teaching values such as honesty, kindness and hard work\n- Protecting useful culture and the environment\n\nAppreciating good leadership means you notice these duties when they are done. You greet the leader politely, you tell the truth when you are asked about a community problem, and you thank a leader who settled a dispute without taking a side for money. Appreciation is not flattery. Flattery praises even bad acts. Appreciation names the good act.\n\nYou can also appreciate leaders by not making their work harder. Spreading a false story about a village elder, or refusing to help in a community clean-up they have called, shows contempt rather than respect.\n\nSome leaders fail. Saying so is allowed when you stick to the duty they failed: 'The dispute was not heard' is fairer than an insult about their family. Report corruption or abuse to a teacher, a parent or the police. Do not organise revenge.",
+      "keyWords": [
+        { "word": "welfare", "meaning": "the health, safety and daily needs of people" },
+        { "word": "harmony", "meaning": "living together without lasting hatred" },
+        { "word": "appreciate", "meaning": "to recognise a good act and respond with respect" }
+      ],
+      "examples": [
+        {
+          "problem": "A chief stops a fight, and a pastor later helps the two families talk. Which shared duty are both performing?",
+          "steps": ["Both are dealing with a conflict.", "The aim is peace."],
+          "answer": "Resolving disputes and promoting peace.",
+          "check": null
+        },
+        {
+          "problem": "Learners clap for an elder who settled a case fairly. Is this appreciation or flattery?",
+          "steps": ["They are naming a real good act.", "They are not praising a wrong."],
+          "answer": "Appreciation, because it responds to a duty done well.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Shared duties chart",
+        "materials": ["Manila paper"],
+        "steps": [
+          "Draw three columns for religious, clan and village leaders.",
+          "Write duties that appear in more than one column.",
+          "Present one example from your community of a duty done well. Do not shame a named person.",
+          "Agree one sentence of thanks the class could sincerely say to a good community leader."
+        ]
+      },
+      "practice": [
+        { "question": "State four duties shared by many community leaders.", "answer": "Any four: uniting people, promoting peace and order, caring for welfare, resolving disputes, encouraging cooperation, supporting security and teaching values.", "check": null },
+        { "question": "What is the difference between appreciation and flattery?", "answer": "Appreciation recognises a real good act. Flattery praises someone even when the act was wrong.", "check": null },
+        { "question": "How should learners respond to corruption by a leader?", "answer": "Report it to a trusted adult or the police. Do not insult the leader’s family or plan revenge.", "check": null }
+      ],
+      "summary": [
+        "Leaders of different kinds often share duties of unity, peace, welfare and dispute settlement.",
+        "Appreciate real good acts.",
+        "Report failure and corruption without revenge."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Qualities of a good community leader",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Demonstrate qualities of good leadership.",
+        "Explain why those qualities matter."
+      ],
+      "intro": "Two people can hold the same office and leave the village in very different conditions. The difference is often the qualities they bring to the office.",
+      "notes": "A quality is a habit of character. Community members feel it long before they read a title.\n\n### Qualities of a good leader\n- Honesty: speaking and acting truthfully, and refusing bribes\n- Fairness: giving each person a just hearing, including people who did not vote for you or who are not your relatives\n- Listening: learning from others before deciding\n- Leading by example: keeping the rules you ask others to keep\n- Ability to inspire: encouraging people to do good work without threats\n- Uniting people instead of favouring one side\n- Humility: accepting correction and not boasting\n- Care for the future: protecting land, water and schools for children yet to come\n- Trustworthiness: doing what you promised\n- Help for the needy\n- Care for the environment\n\n### Signs of poor leadership\nA poor leader is corrupt, selfish, unwilling to listen, disobedient to the law, and not trustworthy. People stop bringing disputes to them. That silence is dangerous, because conflicts then grow in secret.\n\nAnyone can practise these qualities now. A class representative who listens, a team captain who picks players fairly, and a learner who tells the truth are already training for community leadership.\n\nRole-play makes the qualities visible. In one scene, an elder listens to both families. In the other, the elder decides before anyone speaks because one family is related to them. The class names the quality that was present or missing.\n\nSongs can carry the same lesson. A short song that says a good leader is honest, fair and humble is easy to remember and can be performed without mocking any real person.",
+      "keyWords": [
+        { "word": "honesty", "meaning": "speaking and acting truthfully" },
+        { "word": "fairness", "meaning": "giving each person a just hearing" },
+        { "word": "trustworthy", "meaning": "able to be relied on to do what was promised" }
+      ],
+      "examples": [
+        {
+          "problem": "A village leader hears both sides of a dispute before deciding. Which qualities are shown?",
+          "steps": ["Both sides were allowed to speak.", "The leader did not decide from favour."],
+          "answer": "Listening and fairness.",
+          "check": null
+        },
+        {
+          "problem": "Why does corruption make a leader untrustworthy?",
+          "steps": ["A bribe means the decision was bought.", "People cannot rely on the leader to do what is right."],
+          "answer": "Because decisions follow money instead of fairness, so people cannot trust the leader.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Poster, role-play and song",
+        "materials": ["Manila paper", "Crayons"],
+        "steps": [
+          "If a resource person can visit, ask them which qualities matter most and write a short report. If not, use the qualities in this lesson.",
+          "Role-play a fair leader and an unfair leader in a village dispute.",
+          "Design and display a poster with qualities of good leadership.",
+          "Compose a short song on good leadership and sing it as a class."
+        ]
+      },
+      "practice": [
+        { "question": "Name five qualities of a good community leader.", "answer": "Any five: honesty, fairness, listening, leading by example, inspiring others, uniting people, humility, care for the future, trustworthiness, helping the needy and caring for the environment.", "check": null },
+        { "question": "Name three signs of poor leadership.", "answer": "Any three: corruption, selfishness, refusing to listen, breaking the law and being untrustworthy.", "check": null },
+        { "question": "How can a Grade 4 learner practise good leadership now?", "answer": "By listening, telling the truth, sharing duties fairly and keeping promises in class.", "check": null }
+      ],
+      "summary": [
+        "Good leaders are honest, fair, humble and ready to listen.",
+        "Poor leaders are corrupt, selfish and untrustworthy.",
+        "Learners can practise the same qualities in school."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "A leader is:", "options": ["The head of a group that shares a goal", "Only a person with a lot of money", "Any older person, with no duty", "A finished product"], "answer": "A", "explanation": "Leadership is heading a group towards shared interests or goals.", "outcome": "a" },
+    { "question": "Which set matches this sub-strand?", "options": ["Religious leaders, clan leaders and village leaders", "Only factory managers", "Only tourists", "Only members of the county assembly"], "answer": "A", "explanation": "These are the community leaders named in the sub-strand.", "outcome": "a" },
+    { "question": "An imam is:", "options": ["A Muslim religious leader", "A county governor", "A maize mill", "A class prefect only"], "answer": "A", "explanation": "An imam leads Muslim worship.", "outcome": "a" },
+    { "question": "A duty of a council of elders is to:", "options": ["Settle disputes peacefully", "Replace all schools", "Sell the clan’s children", "Ignore customs that support peace"], "answer": "A", "explanation": "Peaceful settlement of disputes is a central duty.", "outcome": "b" },
+    { "question": "A chief’s work includes:", "options": ["Supporting law and order in the location", "Heading the county executive", "Grinding maize into flour", "Cancelling children’s rights"], "answer": "A", "explanation": "The chief is a local government officer concerned with order and welfare, not the governor.", "outcome": "b" },
+    { "question": "Which duty do many community leaders share?", "options": ["Uniting people and resolving disputes", "Collecting bribes", "Hiding child abuse", "Closing places of worship"], "answer": "A", "explanation": "Unity and peaceful settlement of disputes appear across religious, clan and village leadership.", "outcome": "b" },
+    { "question": "Demanding money for an official letter is:", "options": ["Good fundraising", "Corruption", "A religious ceremony", "Fairness"], "answer": "B", "explanation": "A bribe makes the office serve money instead of the people.", "outcome": "c" },
+    { "question": "A good community leader is:", "options": ["Honest, fair and willing to listen", "Selfish and above the law", "Interested only in relatives", "Unwilling to hear both sides"], "answer": "A", "explanation": "Honesty, fairness and listening are qualities of good leadership.", "outcome": "c" },
+    { "question": "Leading by example means:", "options": ["Keeping the rules you ask others to keep", "Telling others to work while you break the rules", "Shouting the loudest", "Refusing all advice"], "answer": "A", "explanation": "People copy what the leader does, not only what the leader says.", "outcome": "c" },
+    { "question": "How can learners appreciate a good community leader?", "answer": "By naming the good duty the leader did, speaking politely, and refusing to spread false stories about them.", "explanation": "Appreciation responds to real service. It is not flattery and not gossip.", "outcome": "d" },
+    { "question": "Why do good leadership qualities matter?", "answer": "They decide whether disputes are settled fairly, whether people are safe, and whether the community trusts its leaders.", "explanation": "The same office can help or harm, depending on the qualities of the holder.", "outcome": "d" }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 5.0 Citizenship and Governance in Kenya, Sub-strand 5.6 Community Leadership",
+    "KICD Grade 4 Social Studies radio lessons: Community Leaders in the County; Qualities of a Good Leader in the Community"
+  ]
+}

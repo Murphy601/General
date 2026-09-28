@@ -1,0 +1,150 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "7.2.1",
+  "title": "Reading: Extensive Reading (Independent Reading)",
+  "overview": "Extensive reading means reading many books and texts on your own, for information and for fun. In this sub-strand you will choose good narratives, poems and graded readers, read them independently, retell what you read, talk about proverbs you find and set up a reading club with your classmates.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Choosing what to read",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name different types of reading materials: narratives, poems and graded readers.",
+        "Choose reading materials that suit your age and interest, in print or electronic form.",
+        "Explain why reading many kinds of materials helps us all our lives."
+      ],
+      "intro": "The school library has a shelf of storybooks, a box of poem cards and a tablet with electronic books. Where do you start? Choosing the right book is the first step to becoming a strong reader.",
+      "notes": "### Types of reading materials\n- **Narratives** are stories. They have characters, a setting (where and when the story happens) and events that happen in order: a beginning, a middle and an end.\n- **Poems** are written in lines and verses (stanzas). They often have rhythm and rhyme, and they use few words to share feelings and pictures.\n- **Graded readers** are storybooks written for a particular level. The level or grade is often printed on the cover so you can pick one that is not too easy and not too hard.\n\nThese materials come in **print** (books, magazines, newspapers) and in **electronic** form (e-books on a phone, tablet or computer).\n\n### How to choose a good book\n- Look at the title and cover picture. Do they interest you?\n- Read the back cover or the first page.\n- Use the five-finger test: read one page and put up a finger for every word you do not know. Zero or one finger is easy, two or three is just right, and five means the book is too hard for now.\n- Choose books about topics you like: animals, adventure, friendship, technology.\n\n### Choosing safely online\nWhen you look for electronic books, ask a parent, guardian or teacher to help you. Use websites and apps they trust. Do not click on pop-up adverts, do not give your name or home address, and close any page that makes you uncomfortable. Choosing honest, suitable materials shows integrity.\n\n### Why read many kinds of materials?\nStories teach us about people and how to solve problems. Poems help us enjoy the sounds of words. Information books and articles teach us facts. Reading many kinds of texts gives you new words, new ideas and a habit that will help you learn for the rest of your life. This is called **lifelong learning**.",
+      "keyWords": [
+        { "word": "narrative", "meaning": "a story with characters, a setting and events" },
+        { "word": "graded reader", "meaning": "a book written for readers at a certain level" },
+        { "word": "electronic book (e-book)", "meaning": "a book you read on a phone, tablet or computer" },
+        { "word": "lifelong learning", "meaning": "continuing to learn throughout your life" }
+      ],
+      "examples": [
+        { "problem": "Juma reads one page of a book and does not know four words. Is the book right for him?", "steps": ["Use the five-finger test.", "Four fingers means the book is quite hard."], "answer": "It is too hard for now; he should choose an easier book or read it with help.", "check": null },
+        { "problem": "Is a text written in short lines and stanzas with rhyming words a narrative or a poem?", "steps": ["Lines, stanzas and rhyme are features of poems."], "answer": "A poem", "check": null }
+      ],
+      "activity": {
+        "title": "Library hunt",
+        "materials": ["Class library or book box", "A tablet or computer with e-books (if available)"],
+        "steps": [
+          "In groups, sort the books in your book box into narratives, poems and graded readers.",
+          "Each learner chooses one book using the five-finger test.",
+          "With the teacher, find one electronic story about technology or cyber safety on a trusted site.",
+          "Tell your group why you chose your book."
+        ]
+      },
+      "practice": [
+        { "question": "Name three types of reading materials you can read on your own.", "answer": "Narratives, poems and graded readers.", "check": null },
+        { "question": "What is the five-finger test?", "answer": "Reading one page and putting up a finger for each unknown word to see if a book is easy, just right or too hard.", "check": null },
+        { "question": "Give one safety rule when looking for e-books online.", "answer": "Any one: ask an adult to help; use trusted sites; do not click pop-ups; do not share your name or address.", "check": null }
+      ],
+      "summary": [
+        "Narratives are stories; poems use lines and stanzas; graded readers are written for a level.",
+        "Choose books that interest you and are just right for your level.",
+        "Reading many kinds of materials helps you learn all your life."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Reading on my own and retelling",
+      "outcomes": ["b"],
+      "objectives": [
+        "Read a narrative and a poem independently.",
+        "Pick out important information from what you read.",
+        "Retell a story in the correct order."
+      ],
+      "intro": "Reading on your own is like travelling alone: you decide where to go and how fast. But you must still remember the way. Today you will read a short story and a poem by yourself and then tell them to a friend.",
+      "notes": "### Tips for independent reading\n- Find a quiet place and sit comfortably.\n- Before reading, look at the title and pictures and guess what the text is about.\n- While reading, ask yourself: Who? Where? What happened? Why?\n- If you meet a new word, read the sentence again and guess the meaning from the other words. Check it later in a dictionary.\n- After reading, close the book and say what you remember.\n\n### Read this story\n**Kendi and the Prize Message**\nKendi was using her aunt's phone to play a spelling game. Suddenly, a message popped up: You have won a new laptop! Send your name, school and your aunt's PIN to claim it. Kendi's heart jumped. A laptop of her own! She started typing, then she stopped. Her teacher had said, If something online sounds too good to be true, ask an adult first. Kendi ran to her aunt. Her aunt read the message and shook her head. This is a trick, she said. People who send such messages want to steal money. She deleted the message and blocked the number. That evening, Kendi told her classmates what had happened so that they, too, would be careful.\n\n### Read this poem\n**Think Before You Click**\nA picture, a game, a message, a link,\nBefore you click, stop and think.\nKeep your password safe inside,\nNo stranger needs to be your guide.\nIf something online makes you afraid,\nTell an adult; you will get aid.\n\n### Retelling\nTo retell a story, say the main events in order using linking words: **first**, **then**, **next**, **after that**, **finally**. For example: First, Kendi was playing a game. Then a message said she had won a laptop. Next, she remembered her teacher's advice. After that, her aunt deleted the message. Finally, Kendi warned her classmates.",
+      "keyWords": [
+        { "word": "independent reading", "meaning": "reading on your own without the teacher reading to you" },
+        { "word": "retell", "meaning": "to tell a story again in your own words" },
+        { "word": "block", "meaning": "to stop a phone number or account from contacting you" }
+      ],
+      "examples": [
+        { "problem": "In the story, why did Kendi stop typing?", "steps": ["Find the sentence after she started typing.", "She remembered her teacher's advice."], "answer": "She remembered her teacher said to ask an adult if something online sounds too good to be true.", "check": null },
+        { "problem": "Which two words rhyme in the first two lines of the poem?", "steps": ["Look at the last word of each line: link, think."], "answer": "link and think", "check": null }
+      ],
+      "activity": {
+        "title": "Read, close, retell",
+        "materials": ["The story and poem above, or a graded reader of your choice"],
+        "steps": [
+          "Read the story silently on your own.",
+          "Close the book and write down five main events.",
+          "Retell the story to your partner using first, then, next, after that and finally.",
+          "Read the poem aloud to your partner and say what advice it gives."
+        ]
+      },
+      "practice": [
+        { "question": "What did the message tell Kendi to send?", "answer": "Her name, her school and her aunt's PIN.", "check": null },
+        { "question": "What did Kendi's aunt do with the message?", "answer": "She deleted it and blocked the number.", "check": null },
+        { "question": "According to the poem, what should you do if something online makes you afraid?", "answer": "Tell an adult.", "check": null },
+        { "question": "Write two linking words you can use when retelling a story.", "answer": "Any two: first, then, next, after that, finally.", "check": null }
+      ],
+      "summary": [
+        "Ask who, where, what and why while you read.",
+        "Guess new words from the sentence, then check a dictionary.",
+        "Retell stories in order using linking words."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Reading clubs, opinions and proverbs",
+      "outcomes": ["c", "b"],
+      "objectives": [
+        "Share opinions and reflections on texts you have read.",
+        "Identify and explain proverbs found in stories.",
+        "Plan an after-school reading club."
+      ],
+      "intro": "Reading is more fun when you share it. When you tell a friend about a funny story, they may want to read it too. A reading club is a group of friends who meet regularly to read and talk about books.",
+      "notes": "### Sharing opinions and reflections\nAn **opinion** is what you think or feel about something. After reading, you can say:\n- I liked the story because…\n- My favourite character is… because…\n- The part that surprised me was…\n- I would have… if I were…\n\nA **reflection** is thinking about what the text taught you: This story taught me never to share a PIN. Other readers may have different opinions. Listen to them with respect.\n\n### Proverbs\nA **proverb** is a short, well-known saying that gives advice or a lesson. Writers often put proverbs in stories. Here are some English proverbs and their meanings:\n\n- **Look before you leap.** Think carefully before you act.\n- **Prevention is better than cure.** It is better to stop a problem before it happens than to fix it later.\n- **Honesty is the best policy.** Always tell the truth.\n- **A friend in need is a friend indeed.** A true friend helps you when you have a problem.\n- **All that glitters is not gold.** Something that looks attractive may not be good.\n\nIn Kendi's story, the proverb **All that glitters is not gold** fits well: the prize message looked exciting but was a trick. **Look before you leap** fits too, because she stopped to think before typing.\n\n### Setting up a reading club\n1. Agree on a name for the club and a day and time to meet, for example every Wednesday after school.\n2. Choose a club leader and a secretary to write down the books members read.\n3. At each meeting, members read quietly, then take turns to retell a story and give an opinion.\n4. Keep a chart of the books each member has finished.\n5. Swap books so everyone reads something new.\n\nReading independently every day builds speed, new vocabulary and a love for books. It is also a free and enjoyable way to spend leisure time.",
+      "keyWords": [
+        { "word": "opinion", "meaning": "what a person thinks or feels about something" },
+        { "word": "reflection", "meaning": "careful thinking about what you have learnt" },
+        { "word": "proverb", "meaning": "a short, well-known saying that gives advice" }
+      ],
+      "examples": [
+        { "problem": "Explain the proverb: Prevention is better than cure.", "steps": ["Prevention means stopping something before it happens.", "Cure means fixing it afterwards."], "answer": "It is better to stop a problem before it happens than to fix it later.", "check": null },
+        { "problem": "Give an opinion about the poem Think Before You Click.", "steps": ["Start with I liked or I did not like.", "Give a reason."], "answer": "I liked the poem because it rhymes and gives useful advice about staying safe online.", "check": null }
+      ],
+      "activity": {
+        "title": "Start a class reading club",
+        "materials": ["Graded readers and storybooks", "Manila paper for a reading chart"],
+        "steps": [
+          "As a class, choose a club name, a meeting day and a leader.",
+          "Each member reads a book of their choice during the week.",
+          "At the first meeting, each member retells their story in two minutes and gives one opinion.",
+          "Look for a proverb in any book you read and explain it to the club.",
+          "Record each finished book on the reading chart."
+        ]
+      },
+      "practice": [
+        { "question": "What is a proverb?", "answer": "A short, well-known saying that gives advice or a lesson.", "check": null },
+        { "question": "What does Look before you leap mean?", "answer": "Think carefully before you act.", "check": null },
+        { "question": "Start a sentence that shares your opinion about a book.", "answer": "For example: I liked the story because the character was brave. Or: My favourite character is the aunt, because she told the truth.", "check": null },
+        { "question": "Give two reasons why independent reading is important.", "answer": "Any two: it builds new vocabulary, improves reading speed, gives information, is enjoyable, helps lifelong learning.", "check": null }
+      ],
+      "summary": [
+        "Share your opinions about texts and respect other readers' views.",
+        "Proverbs are short sayings with advice.",
+        "A reading club helps members read regularly and enjoy books."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "A story with characters, a setting and events is called a ________.", "options": ["poem", "narrative", "dictionary", "chart"], "answer": "B", "explanation": "A narrative is a story.", "outcome": "a", "check": null },
+    { "question": "Which book is written for readers at a particular level?", "options": ["A graded reader", "A newspaper", "A calendar", "A diary"], "answer": "A", "explanation": "Graded readers are written for a certain reading level.", "outcome": "a", "check": null },
+    { "question": "In the five-finger test, how many unknown words on a page show that a book is too hard?", "options": ["None", "One", "Two", "Five"], "answer": "D", "explanation": "Five unknown words on one page means the book is too hard for now.", "outcome": "a", "check": null },
+    { "question": "Why did Kendi's aunt say the message was a trick?", "answer": "Because people who send such messages want to steal money.", "explanation": "The aunt explained that prize messages asking for a PIN are used to steal money.", "outcome": "b", "check": null },
+    { "question": "Who did Kendi warn about the message?", "options": ["Her teacher", "Her classmates", "The stranger", "The police"], "answer": "B", "explanation": "That evening she told her classmates so they would be careful.", "outcome": "b", "check": null },
+    { "question": "Which linking word is best for the last event when retelling a story?", "options": ["First", "Next", "Then", "Finally"], "answer": "D", "explanation": "Finally introduces the last event.", "outcome": "b", "check": null },
+    { "question": "What does All that glitters is not gold mean?", "options": ["Gold is always shiny", "Something that looks attractive may not be good", "Shiny things are expensive", "Keep your gold safe"], "answer": "B", "explanation": "The proverb warns that good-looking things can be harmful or false.", "outcome": "c", "check": null },
+    { "question": "Which proverb means ‘Always tell the truth’?", "options": ["Honesty is the best policy", "Look before you leap", "Prevention is better than cure", "A friend in need is a friend indeed"], "answer": "A", "explanation": "Honesty is the best policy teaches truthfulness.", "outcome": "c", "check": null },
+    { "question": "Give one thing members do at a reading club meeting.", "answer": "Any one: read quietly, retell a story, share an opinion, swap books, record finished books.", "explanation": "A reading club meets regularly to read and talk about books.", "outcome": "c", "check": null },
+    { "question": "Why is reading on your own every day useful?", "answer": "It builds vocabulary and reading speed, gives information and is enjoyable.", "explanation": "Regular independent reading supports lifelong learning and enjoyment.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 English Curriculum Design (Revised 2024) — Theme 7.0 Technology - Cyber Safety, Sub-strand 7.2.1 Extensive Reading: Independent Reading"
+  ]
+}

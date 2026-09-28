@@ -1,0 +1,237 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "6.4.1",
+  "title": "Sarufi: Ngeli ya LI-YA",
+  "overview": "Ngeli ya LI-YA ina nomino kama tunda, jiwe, jicho na gari. Wingi wake mara nyingi huchukua ma-. Katika mada hii ndogo utazitambua, utazifautisha na ngeli nyingine, na utajifunza viambishi li- na ya-. Kisha utatunga sentensi sahihi za umoja na wingi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Nomino za ngeli ya LI-YA",
+      "outcomes": ["b"],
+      "objectives": [
+        "Kutambua nomino za ngeli ya LI-YA katika umoja na wingi.",
+        "Kuzitofautisha na nomino za A-WA na U-I.",
+        "Kukumbuka wingi maalum kama jicho/macho na jiwe/mawe."
+      ],
+      "intro": "Tunda limeiva. Matunda yameiva. Jiwe limeanguka. Mawe yameanguka. Maneno haya hayataji watu wala miti. Yanatumia li- na ya-, kwa hivyo yako katika ngeli ya LI-YA.",
+      "notes": "### Jinsi ya kuitambua\nNgeli ya LI-YA huitwa hivyo kwa sababu kitenzi cha umoja huanza na li-, na kitenzi cha wingi huanza na ya-. Wingi wa nomino nyingi huchukua ma-.\n\nUliza:\n\n- Je, wingi una ma-, matunda, mawe, magari?\n- Je, umoja unasema limeiva, limeanguka au limefika?\n- Je, wingi unasema yameiva au yamefika?\n\nKama ndiyo, nomino iko katika LI-YA. Si lazima ianze na ji-. Gari, tunda, shamba na yai hazianzi na ji-, lakini ni LI-YA.\n\n### Mifano\n- tunda/matunda\n- embe/maembe\n- chungwa/machungwa\n- yai/mayai\n- jiwe/mawe\n- jembe/majembe\n- gari/magari\n- shamba/mashamba\n- darasa/madarasa\n- jina/majina\n- gazeti/magazeti\n- sanduku/masanduku\n\n### Wingi unaobadilika sana\nBaadhi ya nomino haziambatishi ma- kwa urahisi:\n\n- jicho/macho\n- jino/meno\n- jiwe/mawe\n\nHata hivyo viambishi hubaki: Jicho langu linauma. Macho yangu yanauma. Jino langu linauma. Meno yangu yanauma.\n\n### Tofauti na ngeli nyingine\n- Mtoto anasoma, watoto wanasoma. Hiyo ni A-WA, kwa sababu ni mtu.\n- Mti unakua, miti inakua. Hiyo ni U-I, kwa sababu ni mmea.\n- Tunda limeiva, matunda yameiva. Hiyo ni LI-YA.\n\nUa, jani na tawi pia ni LI-YA: ua/maua, jani/majani, tawi/matawi. Si lazima kila neno la mmea liwe U-I. Upatanisho ndio unaoamua.\n\nUnazingatia wingi wa ma- na viambishi li- na ya- ili kutambua na kutumia ngeli hii.",
+      "keyWords": [
+        { "word": "ngeli ya LI-YA", "meaning": "kundi la nomino linalotumia li- katika umoja na ya- katika wingi" },
+        { "word": "umoja", "meaning": "kitu kimoja" },
+        { "word": "wingi", "meaning": "vitu vingi" }
+      ],
+      "examples": [
+        {
+          "problem": "Chagua nomino za LI-YA: tunda, mtoto, jiwe, mti, gari, mwalimu.",
+          "steps": ["Tunda, jiwe na gari hupata li- na ma-.", "Mtoto na mwalimu ni A-WA.", "Mti ni U-I."],
+          "answer": "tunda, jiwe, gari",
+          "check": null
+        },
+        {
+          "problem": "Andika wingi wa: jicho, jino, yai, shamba.",
+          "steps": ["jicho huwa macho.", "jino huwa meno.", "yai huwa mayai.", "shamba huwa mashamba."],
+          "answer": "macho, meno, mayai, mashamba",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kapu la nomino za LI-YA",
+        "materials": ["Kadi za nomino", "Kapu au boksi", "Mti maneno"],
+        "steps": [
+          "Chopoeni kadi na msome nomino.",
+          "Semeni kama wingi unachukua ma- au umbo maalum kama macho.",
+          "Wekeni kadi za LI-YA kwenye mti maneno, na kadi za A-WA au U-I pembeni.",
+          "Andikeni sentensi fupi: Tunda limeiva. Mti unakua. Mtoto anasoma.",
+          "Elezeni kwa nini sentensi hizo ni ngeli tatu tofauti."
+        ]
+      },
+      "practice": [
+        { "question": "Wingi wa tunda, gari na jiwe ni upi?", "answer": "matunda, magari, mawe", "check": null },
+        { "question": "Kwa nini mti si LI-YA?", "answer": "Kwa sababu unasema unakua na miti inakua, si limeota na mayai. Hiyo ni U-I.", "check": null },
+        { "question": "Jicho na jino vina wingi gani?", "answer": "macho na meno", "check": null },
+        { "question": "Gari halianzi na ji-. Kwa nini bado ni LI-YA?", "answer": "Kwa sababu wingi ni magari, na kitenzi ni limefika / yamefika.", "check": null }
+      ],
+      "summary": [
+        "LI-YA hutumia li- katika umoja na ya- katika wingi.",
+        "Wingi mara nyingi huchukua ma-.",
+        "Jicho/macho na jino/meno ni wingi maalum, lakini viambishi hubaki."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Viambishi vya upatanisho wa LI-YA",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutambua viambishi vya kitenzi, kivumishi na kiamilishi.",
+        "Kujaza nafasi katika umoja na wingi.",
+        "Kutofautisha li- na ya- na viambishi vya ngeli nyingine."
+      ],
+      "intro": "Tunda zuri limeiva. Matunda mazuri yameiva. Neno zuri linabadilika kuwa mazuri, na limeiva linabadilika kuwa yameiva. Mabadiliko hayo ni viambishi vya LI-YA.",
+      "notes": "### Jedwali\n- **Kitenzi:** umoja li-, wingi ya-. Tunda limeiva. Matunda yameiva. Gari limefika. Magari yamefika. Jiwe limeanguka. Mawe yameanguka.\n- **Kivumishi:** umoja hukosa kiambishi kama neno linaanza na konsonanti, au huchukua ji- kama kuna umbo maalum. Wingi huchukua ma-. Jiwe kubwa. Mawe makubwa. Tunda dogo. Matunda madogo. Tunda zuri. Matunda mazuri. Gari jipya. Magari mapya. Jambo baya. Mambo mabaya.\n- **Kiamilishi:** umoja l-, wingi y-. Tunda langu. Matunda yangu. Gari letu. Magari yetu. Jina lako. Majina yako.\n- **Kuonyesha:** umoja hili, hilo, lile. Wingi haya, hayo, yale. Jiwe hili. Mawe haya.\n- **Kihusishi -a:** umoja la, wingi ya. Tunda la embe. Matunda ya embe. Shamba la mama. Mashamba ya mama.\n\n### Mfano kamili\nUmoja: Tunda zuri langu limeiva.\nWingi: Matunda mazuri yangu yameiva.\n\n### Makosa ya kuepuka\n- Usiandike matunda limeiva. Wingi unataka ya-: yameiva.\n- Usiandike tunda yangu. Umoja unataka langu.\n- Usiandike gari mapya. Umoja ni jipya; mapya ni wingi.\n- Usiandike jiwe unakua. Jiwe si mti. Andika jiwe limeanguka.\n- Usiandike mawe limeanguka. Wingi ni yameanguka.\n\nNeno jipya ni kivumishi cha umoja. Usikisome kama nomino. Gari jipya maana yake gari ambalo ni jipya.\n\nUnaposoma, tafuta li- au ya- kwenye kitenzi kwanza. Hicho ndicho kiashiria thabiti.",
+      "keyWords": [
+        { "word": "kiambishi", "meaning": "kipande cha neno kinachoonyesha ngeli na idadi" },
+        { "word": "upatanisho", "meaning": "kufuatana kwa nomino, kivumishi na kitenzi" },
+        { "word": "kiamilishi", "meaning": "neno la umiliki, kama langu au yangu" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza: Matunda ______ yameiva. (zuri)",
+          "steps": ["Matunda ni wingi wa LI-YA.", "Kivumishi cha wingi huchukua ma-.", "zuri inakuwa mazuri."],
+          "answer": "mazuri",
+          "check": null
+        },
+        {
+          "problem": "Chagua: Jembe ______ limevunjika. (yangu / langu)",
+          "steps": ["Jembe ni umoja.", "Kiamilishi cha umoja ni l-.", "langu, si yangu."],
+          "answer": "langu",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Piga mstari li- na ya-",
+        "materials": ["Sentensi kwenye ubao", "Kadi za kujaza nafasi"],
+        "steps": [
+          "Soma: Tunda limeiva. Matunda yameiva.",
+          "Piga mstari li- na ya-.",
+          "Jaza nafasi: Gari ______ limefika. Magari ______ yamefika. (jipya)",
+          "Linganisha na Mti unakua ili muone ngeli nyingine.",
+          "Msomee mwenzako majibu."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 180\" font-family=\"sans-serif\"><rect width=\"520\" height=\"180\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"500\" height=\"160\"/><line x1=\"10\" y1=\"50\" x2=\"510\" y2=\"50\"/><line x1=\"170\" y1=\"10\" x2=\"170\" y2=\"170\"/><line x1=\"340\" y1=\"10\" x2=\"340\" y2=\"170\"/></g><g font-size=\"14\" fill=\"#111827\"><text x=\"90\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Kipengele</text><text x=\"255\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Umoja</text><text x=\"425\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Wingi</text><text x=\"20\" y=\"78\">Kitenzi</text><text x=\"180\" y=\"78\">li- limeiva</text><text x=\"350\" y=\"78\">ya- yameiva</text><text x=\"20\" y=\"112\">Kivumishi</text><text x=\"180\" y=\"112\">kubwa / jipya</text><text x=\"350\" y=\"112\">ma- makubwa</text><text x=\"20\" y=\"146\">Kiamilishi</text><text x=\"180\" y=\"146\">l- langu</text><text x=\"350\" y=\"146\">y- yangu</text></g></svg>",
+        "caption": "Viambishi vya upatanisho vya ngeli ya LI-YA"
+      },
+      "practice": [
+        { "question": "Jaza: Jiwe ______ limeanguka. (kubwa)", "answer": "kubwa", "check": null },
+        { "question": "Jaza: Mawe ______ yameanguka. (kubwa)", "answer": "makubwa", "check": null },
+        { "question": "Andika wingi: Gari jipya letu limefika.", "answer": "Magari mapya yetu yamefika.", "check": null },
+        { "question": "Kiambishi cha kitenzi cha umoja katika LI-YA ni kipi?", "answer": "li-", "check": null }
+      ],
+      "summary": [
+        "Kitenzi cha umoja ni li-, na cha wingi ni ya-.",
+        "Kiamilishi ni langu katika umoja na yangu katika wingi.",
+        "Kivumishi cha wingi huchukua ma-, kama makubwa na mazuri."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Sentensi za umoja na wingi",
+      "outcomes": ["c"],
+      "objectives": [
+        "Kusoma sentensi za LI-YA kwa umoja na wingi.",
+        "Kutunga sentensi sahihi akizingatia upatanisho.",
+        "Kugeuza sentensi ya umoja iwe wingi."
+      ],
+      "intro": "Shambani kuna tunda moja na matunda mengi. Ukisema vyote kwa kitenzi kimoja, sentensi inavunjika. Leo tutaunganisha idadi na kitenzi.",
+      "notes": "### Kutoka umoja hadi wingi\nBadilisha nomino, kivumishi, kiamilishi na kitenzi.\n\nUmoja: Tunda zuri langu limeiva.\nWingi: Matunda mazuri yangu yameiva.\n\nUmoja: Jembe langu limevunjika shambani.\nWingi: Majembe yangu yamevunjika shambani.\n\nNeno shambani halibadiliki hapa kwa sababu ni mahali, si nomino inayobadilishwa. Kama unabadilisha shamba lenyewe: Shamba kubwa limepandwa. Mashamba makubwa yamepandwa.\n\nMifano mingine:\n\n- Yai dogo limeanguka. Mayai madogo yameanguka.\n- Darasa letu limejaa. Madarasa yetu yamejaa.\n- Jicho langu linauma. Macho yangu yanauma.\n- Chungwa hili ni zuri. Machungwa haya ni mazuri.\n\n### Kutunga\n1. Nomino: gari\n2. Kivumishi: jipya\n3. Kitenzi: limefika\n4. Unganisha: Gari jipya limefika.\n\nWingi: Magari mapya yamefika.\n\nUnaweza kuongeza mahali: Gari jipya limefika shuleni. Magari mapya yamefika shuleni.\n\n### Kusoma kadi\nSoma kwa sauti. Matunda limeiva hayasikiki. Matunda yameiva yanasikika. Ukikosa, rekebisha kiambishi. Usibadilishe maana ya sentensi.\n\nKumbuka pia: Embe zuri limeiva. Maembe mazuri yameiva. Embe ni LI-YA, si U-I.\n\nUkimaliza, hesabu mabadiliko. Katika Yai dogo limeanguka, wingi hubadilisha maneno matatu: mayai, madogo na yameanguka. Ukisahau moja, sentensi inabaki nusu. Pitia nomino, kivumishi na kitenzi kabla ya kuandika.",
+      "keyWords": [
+        { "word": "kugeuza", "meaning": "kubadilisha sentensi ya umoja iwe ya wingi" },
+        { "word": "sentensi", "meaning": "maneno yaliyopangwa kutoa maana kamili" }
+      ],
+      "examples": [
+        {
+          "problem": "Geuza iwe wingi: Jiwe kubwa limeanguka.",
+          "steps": ["jiwe inakuwa mawe.", "kubwa inakuwa makubwa.", "limeanguka inakuwa yameanguka."],
+          "answer": "Mawe makubwa yameanguka.",
+          "check": null
+        },
+        {
+          "problem": "Tunga sentensi ya umoja ukitumia: darasa, letu, limejaa.",
+          "steps": ["Darasa ni umoja wa LI-YA.", "Kiamilishi ni letu na kitenzi ni limejaa."],
+          "answer": "Darasa letu limejaa.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chopoa kadi na igeuze",
+        "materials": ["Kadi za sentensi za LI-YA", "Kapu au boksi", "Daftari au kifaa cha kidijitali"],
+        "steps": [
+          "Chopoeni kadi kutoka kapuni na msome sentensi.",
+          "Semeni kama ni umoja au wingi kwa kuangalia li- au ya-.",
+          "Igeuzeni upande mwingine na muiandike.",
+          "Tumieni nomino moja ya wingi maalum, kama jicho/macho.",
+          "Msomeeni wenzako na mwalimu ili waitathmini upatanisho."
+        ]
+      },
+      "practice": [
+        { "question": "Geuza iwe wingi: Yai dogo limeanguka.", "answer": "Mayai madogo yameanguka.", "check": null },
+        { "question": "Geuza iwe umoja: Magari mapya yamefika.", "answer": "Gari jipya limefika.", "check": null },
+        { "question": "Rekebisha: Matunda langu limeiva.", "answer": "Matunda yangu yameiva.", "check": null },
+        { "question": "Tunga sentensi ya wingi ukitumia mashamba.", "answer": "Mfano: Mashamba yetu yamepandwa.", "check": null }
+      ],
+      "summary": [
+        "Tunda limeiva huwa matunda yameiva.",
+        "Langu huwa yangu, na jipya huwa mapya.",
+        "Soma kwa sauti ili upate kosa la li- na ya-."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Kutumia ngeli ya LI-YA katika mawasiliano",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kutumia nomino za LI-YA katika maelezo ya kila siku.",
+        "Kutathmini sentensi za wenzake kwa heshima.",
+        "Kuchangamkia kuongea kwa upatanisho sahihi."
+      ],
+      "intro": "Unapomwambia mzazi kuwa matunda yetu yameiva, unatumia LI-YA nje ya zoezi. Sentensi inayopatana hufanya habari ya shamba, darasa au gari ieleweke mara moja.",
+      "notes": "### Mazungumzo\n- Mama, tunda langu limeiva.\n- Matunda yetu yameiva.\n- Jicho langu linauma. Macho yangu yanaona vizuri.\n- Gari jipya limefika shuleni. Magari mengine yamekaa nje.\n- Darasa letu limejaa wanafunzi. Hapa darasa ni LI-YA, na wanafunzi ni A-WA. Sentensi moja inaweza kuwa na ngeli mbili, kila moja na kiambishi chake.\n\nUsiseme darasa wamejaa. Darasa si watu. Watu ndio wanafunzi: Wanafunzi wamejaa darasani, au Darasa limejaa wanafunzi.\n\n### Habari fupi\nShamba letu limepandwa. Matunda machache yameiva. Jembe langu limevunjika, kwa hivyo tutumie majembe mengine.\n\nAngalia limepandwa, yameiva na limevunjika. Kila kitenzi kimefuata nomino yake.\n\nUnaweza kuunganisha na uraia: Tunatunza mashamba yetu na bendera ya nchi yetu. Mashamba ni LI-YA. Bendera katika sentensi hii haibadilishi upatanisho wa mashamba.\n\n### Tathmini\nMwenzako akiandika matunda limeiva, sema: Matunda ni wingi, jaribu yameiva. Kisha msifu nomino aliyoichagua. Heshima ni sehemu ya kujifunza pamoja.\n\nUkiandika kwenye kifaa, tumia kifaa kilichoruhusiwa na funga faili ukimaliza. Usitume sentensi zako kwa mtu usiyemjua.\n\nKuchangamkia ngeli hii ni kuitumia unapoona tunda, jiwe, gari au jicho, bila kusita. Upatanisho unapokuwa mazoea, mawasiliano yanakuwa safi.",
+      "keyWords": [
+        { "word": "mawasiliano", "meaning": "kueleza mawazo kwa kuzungumza au kuandika" },
+        { "word": "kutathmini", "meaning": "kuangalia kama sentensi imepatana na kutoa ushauri" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika sentensi mbili: moja kuhusu jicho, na moja kuhusu macho.",
+          "steps": ["Umoja: langu na linauma.", "Wingi: yangu na yanauma."],
+          "answer": "Jicho langu linauma. Macho yangu yanauma.",
+          "check": null
+        },
+        {
+          "problem": "Rekebisha: Mashamba letu limepandwa na matunda langu limeiva.",
+          "steps": ["Mashamba ni wingi: yetu na yamepandwa.", "Matunda ni wingi: yangu na yameiva."],
+          "answer": "Mashamba yetu yamepandwa na matunda yangu yameiva.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Eleza vitu unavyoviona",
+        "materials": ["Kadi za picha za tunda, jiwe, gari au jembe", "Daftari"],
+        "steps": [
+          "Chagua kadi moja ya kitu cha LI-YA.",
+          "Andika sentensi mbili za umoja na mbili za wingi.",
+          "Tumia kiamilishi langu au yangu na kivumishi kimoja.",
+          "Msomee kikundi. Wao watathmini li- na ya-.",
+          "Rekebisha sentensi moja kulingana na ushauri."
+        ]
+      },
+      "practice": [
+        { "question": "Andika sentensi ukimwambia mzazi kuwa matunda yameiva.", "answer": "Mfano: Mama, matunda yetu yameiva.", "check": null },
+        { "question": "Chagua sahihi: Darasa letu limejaa, au Darasa letu wamejaa?", "answer": "Darasa letu limejaa.", "check": null },
+        { "question": "Tunga sentensi ya wingi ukitumia magari.", "answer": "Mfano: Magari mapya yamefika shuleni.", "check": null },
+        { "question": "Unamrekebishaje mwenzako aliyeandika mawe limeanguka?", "answer": "Mfano: Mawe ni wingi, jaribu yameanguka. Neno mawe umelipata vizuri.", "check": null }
+      ],
+      "summary": [
+        "Tumia li- kwa kitu kimoja na ya- kwa vingi.",
+        "Darasa limejaa, lakini wanafunzi wamekaa.",
+        "Tathmini ya mwenzako iwe ushauri wa heshima."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Ni ipi nomino ya ngeli ya LI-YA?", "options": ["mtoto", "mti", "tunda", "mwalimu"], "answer": "C", "explanation": "Tunda limeiva na matunda yameiva.", "outcome": "b", "check": null },
+    { "question": "Wingi wa jiwe ni upi?", "options": ["mijiwe", "mawe", "vijiwe", "wajiwe"], "answer": "B", "explanation": "Jiwe huwa mawe.", "outcome": "b", "check": null },
+    { "question": "Wingi wa jicho ni upi?", "options": ["majicho", "macho", "vicho", "wajicho"], "answer": "B", "explanation": "Jicho huwa macho, na macho yanatumia ya-.", "outcome": "b", "check": null },
+    { "question": "Kiambishi cha kitenzi cha umoja katika LI-YA ni kipi?", "options": ["a-", "u-", "li-", "i-"], "answer": "C", "explanation": "Umoja unatumia li-, kama limeiva.", "outcome": "a", "check": null },
+    { "question": "Jaza: Matunda ______ yameiva.", "options": ["zuri", "mzuri", "mazuri", "wazuri"], "answer": "C", "explanation": "Wingi unatumia ma-: mazuri.", "outcome": "a", "check": null },
+    { "question": "Kiamilishi sahihi ni kipi: tunda ______?", "options": ["yangu", "langu", "wangu", "changu"], "answer": "B", "explanation": "Umoja wa LI-YA unatumia langu.", "outcome": "a", "check": null },
+    { "question": "Sentensi ipi ni sahihi?", "options": ["Magari yamefika.", "Magari limefika.", "Magari amefika.", "Magari unakua."], "answer": "A", "explanation": "Magari ni wingi, kwa hivyo yamefika.", "outcome": "c", "check": null },
+    { "question": "Geuza iwe wingi: Gari jipya limefika.", "answer": "Magari mapya yamefika.", "explanation": "Gari, jipya na limefika vinabadilika kuwa wingi.", "outcome": "c", "check": null },
+    { "question": "Tunga sentensi ya umoja ukitumia jembe.", "answer": "Mfano: Jembe langu limevunjika.", "explanation": "Jembe moja linapatana na li- na langu.", "outcome": "c", "check": null },
+    { "question": "Unazingatia nini ili kutumia LI-YA vizuri?", "answer": "Naangalia kama wingi una ma-, kitenzi li- au ya-, na kiamilishi langu au yangu.", "explanation": "Upatanisho ndio unaothibitisha ngeli.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 6.0 Bendera ya Taifa, Mada Ndogo 6.4.1 Sarufi: Ngeli ya LI-YA"
+  ]
+}

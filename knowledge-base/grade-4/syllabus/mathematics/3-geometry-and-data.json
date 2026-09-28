@@ -1,0 +1,181 @@
+{
+  "subject": "MATHEMATICS",
+  "slug": "mathematics",
+  "strands": [
+    {
+      "number": "3.0",
+      "name": "Geometry",
+      "subStrands": [
+        {
+          "number": "3.1",
+          "name": "Position and Direction",
+          "lessons": 5,
+          "content": [
+            "Clockwise and an anti- clockwise turn",
+            "Quarter, half and full turns"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify a clockwise and an anti-clockwise turn in the environment" },
+            { "id": "b", "text": "demonstrate a clockwise and an anti-clockwise turn in the environment" },
+            { "id": "c", "text": "identify quarter, half and full turns direction in the environment" },
+            { "id": "d", "text": "demonstrate a quarter turn, half turn and full turn direction in the environment" },
+            { "id": "e", "text": "appreciate use of position and direction in real-life situations" }
+          ],
+          "learningExperiences": [
+            "make clockwise or anticlockwise turns",
+            "discuss and demonstrate a clockwise turn",
+            "team up with peers to demonstrate an anti-clockwise turn",
+            "work with peers to safely make quarter, half and full turns in the surroundings",
+            "team up with peers to demonstrate a quarter turn in both directions",
+            "demonstrate a half turn from a point",
+            "demonstrate a full turn from a point",
+            "jointly with others, play digital games involving position and direction"
+          ],
+          "keyInquiryQuestions": [
+            "How can you changeyour position?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: learner works collaboratively with others while making clockwise or anticlockwise turns in the environment."
+          ],
+          "values": [
+            "Unity: learner embraces others as they demonstrate a clockwise turn."
+          ],
+          "pcis": [
+            "Safety: learner observes care and precautions while making quarter, half and full turns in the environment."
+          ],
+          "links": [
+            "The learner is able to relate making quarter, half and full turns in the surroundings to the location, position and size of Kenya in Social Studies."
+          ]
+        },
+        {
+          "number": "3.2",
+          "name": "Angles",
+          "lessons": 5,
+          "content": [
+            "Angles at a point",
+            "Relating turns to angles"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify an angle at a point in lines" },
+            { "id": "b", "text": "identify angles from the objects in the environment" },
+            { "id": "c", "text": "relate a turn to angles in real-life situations" },
+            { "id": "d", "text": "appreciate use of angles in real-life situations" }
+          ],
+          "learningExperiences": [
+            "discuss and recognise angles that are made by 2 lines that meet at point using a chart with a different line",
+            "team u[ with peers to explore and identify angles from objects such as cubes and cuboids in the environment",
+            "make clockwise quarter and half turns, and relate the turns to angles",
+            "play digital games and learn more about angles"
+          ],
+          "keyInquiryQuestions": [
+            "How can we use angles in daily life?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: learner collaboratively works with others and recognises angles that are made by 2 lines that meet at a point using a chart with a different line."
+          ],
+          "values": [
+            "Responsibility: learner observes safety precautions while identifying angles from objects such as cubes, cuboids in the environment."
+          ],
+          "pcis": [
+            "Environmental Education: learner explores and identifies angles from objects such as cubes, and cuboids in the environment."
+          ],
+          "links": [
+            "The learner is able to relate angles from objects such as cubes and cuboids in the environment to perspective in Creative Arts."
+          ]
+        },
+        {
+          "number": "3.3",
+          "name": "Plane Figures",
+          "lessons": 6,
+          "content": [
+            "Rectangles, squares, triangles, circles and ovals",
+            "Lines of symmetry",
+            "Properties of plane figures"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify rectangles, squares, triangles, circles and ovals from objects in the environment" },
+            { "id": "b", "text": "draw the shapes of rectangles, squares, triangles, circles and ovals from objects in the environment" },
+            { "id": "c", "text": "identify lines of symmetry of different shapes" },
+            { "id": "d", "text": "make patterns using squares, rectangles and triangles" },
+            { "id": "e", "text": "identify properties of plane figures in different situations" },
+            { "id": "f", "text": "appreciate using shapes in real-life situations" }
+          ],
+          "learningExperiences": [
+            "discuss and recognise shapes of rectangles, squares, triangles, circles and ovals from common objects in the environment",
+            "sketch the shapes of rectangles, squares, triangles, circles and ovals in their books or charts using objects in the environment",
+            "discuss and fold the shapes into two equal parts and recognise the fold line as the line of symmetry",
+            "discuss how many lines of symmetry can each shape possibly have by folding the shapes",
+            "work with peers to make patterns using squares, rectangles and triangles",
+            "identify the properties of a square practically",
+            "discuss the properties of a rectangle practically",
+            "identify properties of a triangle practically",
+            "collaboratively use digital devices to learnmore about plane figures and make patterns"
+          ],
+          "keyInquiryQuestions": [
+            "How can you make patterns using shapes?"
+          ],
+          "coreCompetencies": [
+            "Creativity and imagination: learner explores new ideas while making patterns using squares, rectangles and triangles."
+          ],
+          "values": [
+            "Respect: learner displays humility while recognising shapes of rectangles, squares, triangles, circles and ovals from common objects in the environment."
+          ],
+          "pcis": [
+            "Peer Education and Mentorship: learner exhibits teamwork while sketching the shapes of rectangles, squares, triangles, circles and ovals from objects in the environment."
+          ],
+          "links": [
+            "The learner is able to relate making patterns using squares, rectangles and triangles to perspective in Creative Arts."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4.0",
+      "name": "Data Handling",
+      "subStrands": [
+        {
+          "number": "4.1",
+          "name": "Data",
+          "lessons": 10,
+          "content": [
+            "Collecting data",
+            "Drawing tables",
+            "Recording data",
+            "Interpreting raw data"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify materials for data collection and recording in real-life situations" },
+            { "id": "b", "text": "collect data of at most 10 items within the school environment" },
+            { "id": "c", "text": "draw a table for recording data" },
+            { "id": "d", "text": "record data in the table" },
+            { "id": "e", "text": "interpret the raw data from the table" },
+            { "id": "f", "text": "appreciate use of tables in representing data in real-life situations" }
+          ],
+          "learningExperiences": [
+            "name and gather different materials that can used for data collection and recording such as rulers, exercise books for drawing tables, and textbooks",
+            "collect and record data on different items such the types of vehicles in the environment",
+            "team up with peers to represent the raw data in simple tables",
+            "explain and interpret the raw data from the table",
+            "explain the data on the types of vehicles in relation to responding to emergencies in case they are hurt while on the road",
+            "team up with peers to use digital devices or other resources for data collection and recording"
+          ],
+          "keyInquiryQuestions": [
+            "How can you representdata?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking and problem solving: learner explores new ways of gathering and sharing different items for the purposes of recording data."
+          ],
+          "values": [
+            "Patriotism: learner exhibits honesty while gathering and sharing different items for the purposes of recording data."
+          ],
+          "pcis": [
+            "Environmental Education: learner collects materials from the immediate classroom environment."
+          ],
+          "links": [
+            "The learner is able to relate data collection and recording to Democracy in society in Social Studies."
+          ]
+        }
+      ]
+    }
+  ]
+}

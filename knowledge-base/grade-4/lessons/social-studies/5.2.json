@@ -1,0 +1,225 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "5.2",
+  "title": "Peace",
+  "overview": "Peace is living together without hurting one another, and dealing with problems fairly. In this sub-strand you will identify what helps peace grow in school, plan ways to live peacefully, and take part in a peacebuilding activity.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What helps peace to grow in school",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain the meaning of peace in school.",
+        "Identify factors that promote peace."
+      ],
+      "intro": "A class can be quiet because everyone is afraid, or quiet because everyone is busy and fair. Only the second kind of quiet is peace. Peace is felt when people are safe to learn.",
+      "notes": "Peace is a condition in which people live together without violence, treat one another fairly, and solve problems with words. In school, peace means learners and teachers can work, play and disagree without fear.\n\nA factor that promotes peace is something that makes peace more likely. You can see the factors in the way a peaceful school behaves.\n\n### Factors that promote peace\n- Love and care: learners notice when someone is hurt or left out\n- Respect: people listen, use polite names, and do not mock families, bodies or beliefs\n- Kindness: help is given freely, including with cleaning and with difficult work\n- Sharing: books, space and duties are shared\n- Hard work: everyone does their part, so nobody feels used\n- Tolerance: differences of language, ability, faith and home area are accepted\n- Obedience to fair rules: rules protect people; they are not an excuse to be cruel\n- Fair choice of leaders: learners help to choose leaders instead of having bullies take over\n- Peace meetings: a class sits with the teacher and talks about problems before they grow\n- Fairness from adults: teachers give learning materials fairly and listen to more than one side\n\nFeelings are part of this. Anger and jealousy are normal, but they do not have to become fists or insults. Coping with emotions means noticing the feeling, pausing, and choosing a peaceful action such as telling the teacher or walking away from a fight. A learner who is often angry can still be a peacemaker by asking for help early.\n\nReligious education in many homes teaches peace, forgiveness and care for the neighbour. Those teachings support the same factors you see at school. You do not have to share another person's religion in order to live peacefully with them.",
+      "keyWords": [
+        { "word": "peace", "meaning": "living together without violence and solving problems fairly" },
+        { "word": "factor", "meaning": "something that helps to cause a result" },
+        { "word": "tolerance", "meaning": "accepting people who are different from you" }
+      ],
+      "examples": [
+        {
+          "problem": "A class holds a weekly meeting to talk about problems with the teacher. Which factor is this?",
+          "steps": ["The meeting is for solving problems early."],
+          "answer": "Peace meetings.",
+          "check": null
+        },
+        {
+          "problem": "Learners from two communities refuse to share a bench. Which factor is missing?",
+          "steps": ["They are rejecting people because of difference."],
+          "answer": "Tolerance, and also sharing.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Factors that promote peace",
+        "materials": ["Manila paper", "Marker pens"],
+        "steps": [
+          "Discuss times when your class has been peaceful and times when it has not.",
+          "List the factors that were present when there was peace.",
+          "Add factors from a textbook or a short story the teacher reads, such as respect, sharing and fair rules.",
+          "Star the two factors your class most needs to grow."
+        ]
+      },
+      "practice": [
+        { "question": "What is peace in school?", "answer": "Living and learning together without violence, and solving problems fairly so that people are not afraid.", "check": null },
+        { "question": "Name four factors that promote peace.", "answer": "Any four: love, respect, kindness, sharing, hard work, tolerance, obedience to fair rules, fair leadership and peace meetings.", "check": null },
+        { "question": "What does it mean to cope with anger peacefully?", "answer": "To notice the anger, pause, and choose words or a teacher's help instead of a fight.", "check": null }
+      ],
+      "summary": [
+        "Peace is fairness and safety, not silence caused by fear.",
+        "Respect, kindness, sharing, tolerance and fair rules promote peace.",
+        "Anger can be handled without hurting anyone."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Ways of living in peace with others",
+      "outcomes": ["b"],
+      "objectives": [
+        "Develop strategies for living in peace at school.",
+        "Create short peace messages."
+      ],
+      "intro": "Knowing that respect matters is useful. Knowing what to say when someone bumps your desk is more useful. A strategy is the next step you actually take.",
+      "notes": "A strategy is a planned way of acting. Strategies of living in peace turn the factors into habits.\n\n### Strategies you can use\n- Use words: say what happened and how you feel, without insults. 'You took my book and I need it' is clearer than name-calling.\n- Listen to the other person's account before you decide they are wrong.\n- Apologise when you are at fault, and accept a sincere apology.\n- Share materials and space before an argument starts.\n- Invite learners who are standing alone to join the game.\n- Refuse to spread rumours. Rumours are stories passed on without checking, and they damage peace.\n- Walk away from a fight and call a teacher or a prefect. Walking away is courage when the other choice is harm.\n- Keep the school rules that protect people: no hitting, no stealing, no hate speech.\n- Include everyone in group work, including learners with disabilities.\n- Solve small problems in a class peace meeting instead of forming gangs of friends against other friends.\n\nMessages help people remember the strategies. A message should be short enough to read on a card: 'Speak kindly.' 'Share the book.' 'Tell a teacher. Do not fight.' 'Everyone plays.'\n\nPractise the strategy when the problem is small. If you only try peaceful words during a huge quarrel, they will feel strange. Everyday politeness is training.\n\nAt home, the same strategies apply with siblings. Parents and guardians can tell you how they keep peace in the family. Bring one of their ideas back to class, as long as it does not harm anyone.",
+      "keyWords": [
+        { "word": "strategy", "meaning": "a planned way of acting" },
+        { "word": "apology", "meaning": "words that admit a fault and express regret" },
+        { "word": "rumour", "meaning": "a story passed around without being checked" }
+      ],
+      "examples": [
+        {
+          "problem": "Two learners both claim the same rubber. Which peaceful strategy can they use first?",
+          "steps": ["They need words before a fight.", "A teacher can decide if they cannot agree."],
+          "answer": "They state what happened without insults, and ask the teacher if they still disagree.",
+          "check": null
+        },
+        {
+          "problem": "A learner hears an unkind story about a classmate and wants to retell it. What should they do?",
+          "steps": ["The story may be false.", "Retelling it would spread harm."],
+          "answer": "Refuse to spread the rumour.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Peace messages",
+        "materials": ["Small cards or paper", "Marker pens"],
+        "steps": [
+          "Each group creates five short messages on strategies for living in peace.",
+          "Role-play one strategy: an apology, sharing a book, or inviting someone into a game.",
+          "Swap cards with another group and tick every message you could really use this week.",
+          "Choose one message to practise at break."
+        ]
+      },
+      "practice": [
+        { "question": "What is a strategy for peace?", "answer": "A planned action that helps people live together without harm, such as apologising or telling a teacher.", "check": null },
+        { "question": "Give three peaceful strategies.", "answer": "Any three: use words without insults, listen, apologise, share, include others, refuse rumours, and call a teacher instead of fighting.", "check": null },
+        { "question": "Why is spreading a rumour harmful?", "answer": "The story may be false, and it turns people against one another.", "check": null }
+      ],
+      "summary": [
+        "Strategies are the actions that turn peace into a habit.",
+        "Words, apologies, sharing and refusing rumours prevent fights.",
+        "Short messages remind the class what to do."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Peace gardens, corners and posters",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Describe peace activities used in schools.",
+        "Design a poster with a peacebuilding message."
+      ],
+      "intro": "Some schools set aside a corner with a bench, a plant and a sign that says 'Talk it out'. The corner does not create peace by magic, but it gives peace a place.",
+      "notes": "Schools build peace through activities, not only through rules. You may find these examples in books, on school websites the teacher shows, or in a nearby school:\n\n- A peace garden or nature trail: learners plant and care for flowers or trees and use the path as a quiet place. Caring for living things teaches patience.\n- A peace corner: a small space in class with messages, a drawing book, and a chair where two learners can talk through a problem with a teacher nearby.\n- Peace essay competitions: learners write about how they will make the school kinder. The best ideas can be read at assembly.\n- Peace posters: short messages with pictures, placed where quarrels often start, such as the queue for water.\n- Peace days: songs, poems and games that include everybody.\n\nThese activities need a plan. A garden without water dies, and then the lesson is carelessness. A corner that is used to exclude people becomes the opposite of peace.\n\n### Designing a poster\nChoose one real problem in your school, such as pushing in the line or mocking names. Write one message that tells people what to do instead. Add a picture. Use colours that can be seen. Do not draw violence in a way that makes it look exciting. The poster should make peace look like the normal choice.\n\nWanting peace is a desire you show by joining the activity. Helping to water the garden, or standing in line calmly because the poster asks you to, is patriotism of a practical kind: you are looking after the community you belong to.\n\nWhen you use a digital resource, write down the name of the activity you found and one sentence on how your school could copy it. Do not copy a whole page. Use the idea.",
+      "keyWords": [
+        { "word": "peace corner", "meaning": "a small place set aside for calm talk and peace messages" },
+        { "word": "peace garden", "meaning": "a garden learners care for as a sign and practice of peace" },
+        { "word": "peacebuilding", "meaning": "actions that create or repair peace" }
+      ],
+      "examples": [
+        {
+          "problem": "Pushing at the water tap causes daily arguments. Which poster message fits?",
+          "steps": ["The message should say what to do instead of pushing."],
+          "answer": "A message such as 'Wait your turn at the tap.'",
+          "check": null
+        },
+        {
+          "problem": "Why does a peace garden need a watering plan?",
+          "steps": ["Plants die without water.", "A dead garden teaches neglect."],
+          "answer": "So that the plants live and the activity really teaches care.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Design a peace poster",
+        "materials": ["Manila paper", "Crayons", "A textbook or a short digital resource on school peace activities"],
+        "steps": [
+          "Use print or digital resources to find one peace activity, such as a peace garden, peace corner or essay competition.",
+          "Choose one real problem in your school.",
+          "Design a poster with a peacebuilding message that tells people what to do.",
+          "Display the posters and explain how a peace corner or garden could support the message."
+        ]
+      },
+      "practice": [
+        { "question": "Name three peace activities a school can undertake.", "answer": "Any three: a peace garden or nature trail, a peace corner, a peace essay competition, peace posters and a peace day.", "check": null },
+        { "question": "What makes a good peace poster?", "answer": "It names a real problem and gives a short, positive action, with a clear picture.", "check": null },
+        { "question": "Why should a peace corner not be used to exclude people?", "answer": "Excluding people destroys peace. The corner is for solving problems fairly.", "check": null }
+      ],
+      "summary": [
+        "Peace gardens, corners, essays and posters give peace a place in school.",
+        "A poster should answer a real problem with a clear action.",
+        "Activities need care, or they stop teaching peace."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Planning a peacebuilding activity",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Plan a simple peacebuilding activity.",
+        "Explain why the plan matters and how families can help."
+      ],
+      "intro": "Announcing a peace day on the morning it happens usually means no songs are ready and half the class does not know the plan. Peacebuilding works better when it is prepared.",
+      "notes": "A peacebuilding activity is something the school does on purpose to create or repair peace. It might be planting a peace garden, holding a class meeting, cleaning a shared space together, or presenting peace poems.\n\n### Why plan?\n- Everyone knows their role, so a few learners are not left to do all the work.\n- Materials are ready. Seeds, water and paper are not discovered missing at the last minute.\n- The activity answers a real problem. You do not hold a general party while bullying in one class is ignored.\n- Time is agreed with the teacher, so lessons are not simply cancelled.\n- Safety is checked. Tools, water and the place of the activity are safe.\n- You can tell afterwards whether it worked.\n\n### A simple plan\n1. Name the problem, such as name-calling at break.\n2. Choose the activity, such as a class agreement and a poster.\n3. List materials and who will bring them.\n4. Share roles.\n5. Set the day and the place.\n6. Decide how you will know it helped. For example, fewer reports of name-calling in the next two weeks.\n\nAsk parents and guardians how they uphold peace at home. They may mention apologies, fair turns, prayers, or refusing to insult neighbours. Bring the ideas that fit school. Do not bring ideas that include beating or shaming people. Those do not build peace.\n\nDesire to uphold peace is shown when you keep the agreement after the activity day is over. The garden still needs water next week. The promise about names still applies on Friday. Peace is a practice, not a single event.",
+      "keyWords": [
+        { "word": "peacebuilding", "meaning": "work done on purpose to create or repair peaceful living" },
+        { "word": "uphold", "meaning": "to keep and defend something, such as peace, over time" },
+        { "word": "agreement", "meaning": "a decision people make together and promise to follow" }
+      ],
+      "examples": [
+        {
+          "problem": "A class wants a peace garden but has no plan for water. Why does the activity need a change?",
+          "steps": ["Plants need water.", "A plan should include materials and who provides them."],
+          "answer": "Without water the garden will die. They should add a watering role or choose another activity.",
+          "check": null
+        },
+        {
+          "problem": "Why is it important to name the problem before choosing the activity?",
+          "steps": ["The activity should repair a real difficulty."],
+          "answer": "So that the activity fits the problem instead of being a general event that changes nothing.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Plan one peacebuilding activity",
+        "materials": ["Exercise book", "Manila paper"],
+        "steps": [
+          "As a class, name one problem that disturbs peace.",
+          "Choose one activity that could help: a meeting, a poster campaign, a shared clean-up or a small garden.",
+          "Write the plan: materials, roles, day, place and how you will know it helped.",
+          "Ask a parent or guardian how they uphold peace at home and add one fitting idea.",
+          "Carry out the safest part of the plan with the teacher, such as the meeting or the poster."
+        ]
+      },
+      "practice": [
+        { "question": "Give two reasons for planning a peacebuilding activity.", "answer": "Any two: roles are clear, materials are ready, the activity fits a real problem, time and safety are checked, and you can tell whether it helped.", "check": null },
+        { "question": "What six parts can a simple peace plan have?", "answer": "The problem, the activity, materials, roles, the day and place, and a way to know whether it helped.", "check": null },
+        { "question": "How can you uphold peace after the activity day?", "answer": "Keep the agreement in ordinary days, for example by continuing to water the garden or to stop name-calling.", "check": null }
+      ],
+      "summary": [
+        "A peace activity needs a problem, materials, roles and a way to check results.",
+        "Families can suggest peaceful habits that fit school.",
+        "Peace continues after the special day."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Peace in school means:", "options": ["People are safe, fair to one another and able to solve problems without violence", "Everyone is silent because they are afraid", "Only one learner may speak all term", "Rules are ignored"], "answer": "A", "explanation": "Peace is safety and fairness, not fear.", "outcome": "a" },
+    { "question": "Which factors promote peace?", "options": ["Respect, sharing and tolerance", "Rumours, bullying and greed", "Name-calling and pushing", "Leaving some learners out of every game"], "answer": "A", "explanation": "Respect, sharing and tolerance make it easier to live together.", "outcome": "a" },
+    { "question": "Coping peacefully with anger means:", "options": ["Hitting first", "Noticing the feeling and choosing words or a teacher's help", "Spreading a rumour", "Breaking school property"], "answer": "B", "explanation": "The feeling can be real, but the action does not have to harm anyone.", "outcome": "a" },
+    { "question": "A peaceful strategy when two learners disagree is to:", "options": ["Insult each other", "State the problem without insults and involve a teacher if needed", "Form a gang", "Hide the other person's book"], "answer": "B", "explanation": "Words and a fair adult come before a fight.", "outcome": "b" },
+    { "question": "Spreading a rumour harms peace because:", "options": ["The story may be false and it sets people against each other", "It always tells the truth", "It is a peace garden", "It shares textbooks fairly"], "answer": "A", "explanation": "Unchecked stories damage trust.", "outcome": "b" },
+    { "question": "A peace corner is:", "options": ["A place set aside for calm talk and peace messages", "A place used to punish people by excluding them", "A shop", "A county office"], "answer": "A", "explanation": "The corner supports talk. It is not for shutting people out.", "outcome": "b" },
+    { "question": "A good peace poster:", "options": ["Names a problem and a positive action", "Shows violence as exciting", "Has no message", "Mocks a classmate"], "answer": "A", "explanation": "The poster should tell people what to do instead.", "outcome": "c" },
+    { "question": "Why plan a peacebuilding activity?", "options": ["So roles, materials and the real problem are clear", "So that nobody knows what is happening", "So lessons can be cancelled with no purpose", "So one learner does all the work in secret"], "answer": "A", "explanation": "A plan makes the activity possible and honest.", "outcome": "c" },
+    { "question": "Which home idea should not be copied at school?", "options": ["Apologising after a mistake", "Taking fair turns", "Beating or shaming people", "Speaking politely to neighbours"], "answer": "C", "explanation": "Beating and shaming do not build peace.", "outcome": "c" },
+    { "question": "Upholding peace after a peace day means:", "answer": "Keeping the peaceful behaviour in ordinary days, not only during the event.", "explanation": "Peace is a practice that continues.", "outcome": "c" }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 5.0 Citizenship and Governance in Kenya, Sub-strand 5.2 Peace",
+    "KICD Grade 4 Social Studies radio lesson: Factors that Promote Peace in School"
+  ]
+}

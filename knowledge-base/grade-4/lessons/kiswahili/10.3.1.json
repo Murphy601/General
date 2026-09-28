@@ -1,0 +1,211 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "10.3.1",
+  "title": "Kuandika: Insha ya Masimulizi",
+  "overview": "Insha ya masimulizi hueleza kisa kilichotokea kwa mpangilio, kuanzia mwanzo hadi mwisho. Katika mada hii ndogo utatambua ujumbe, mtindo na muundo wake. Kisha utaandika insha yako kuhusu tukio la uhalifu wa kawaida, ukizingatia anwani, hati safi, tahajia, sarufi na uakifishaji.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Ujumbe, mtindo na muundo wa insha ya masimulizi",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutambua insha ya masimulizi kati ya matini mengine.",
+        "Kueleza ujumbe, mtindo na sehemu kuu za muundo wake."
+      ],
+      "intro": "Mwenzako anakuambia, \"Jana nilipoteza rula, kisha nikaipata chini ya dawati.\" Hajasoma orodha ya sheria. Anasimulia kisa. Insha ya masimulizi hufanya hivyo hivyo, lakini kwa maandishi yaliyopangwa vizuri.",
+      "notes": "### Insha ya masimulizi ni nini?\nInsha ya masimulizi ni mtungo unaoeleza kisa au tukio kwa mpangilio wa matukio. Msomaji anafuata kilichotokea kwanza, kisha kilichofuata, hadi mwisho. Sio orodha ya ununuzi, wala sio barua inayoanza kwa anwani ya posta. Ni hadithi fupi yenye mwanzo, kiini na mwisho.\n\n### Ujumbe\nUjumbe ni funzo au wazo kuu analoliweka mwandishi. Katika mada ya kukabiliana na uhalifu, ujumbe unaweza kuwa: usichukue kitu kisicho chako; ukipoteza kitu mwambie mtu mzima; au usimshutumu mwenzako bila ushahidi. Kisa kinasimuliwa ili msomaji aone funzo hilo, si kusema tu \"usiibe\".\n\n### Mtindo\nMtindo ni jinsi lugha ilivyotumika. Insha ya masimulizi kwa kawaida:\n\n- hutumia wakati uliopita, kwa sababu kisa kimekwisha tokea: alirudi, alifungua, hakupata\n- hutaja wahusika kwa majina ili tuwaone\n- hutumia maneno yanayoonyesha hisia na mahali, kama alishangaa, chini ya dawati\n- huwa na sentensi zilizokamilika na alama za uandishi\n\nLugha ya kiubunifu hupamba kisa bila kupotosha ukweli wa matukio. Unaweza kuandika \"Amina alihisi moyo ukidunda\" badala ya kurudia \"Amina aliogopa\" kila sentensi.\n\n### Muundo\nInsha nzuri huwa na sehemu hizi:\n\n- **Anwani:** kichwa kifupi kinachoonyesha mada, kwa mfano Kalamu Iliyopotea. Huandikwa juu ya insha.\n- **Utangulizi:** aya ya kwanza. Inamtambulisha mhusika, mahali na muda. Kwa mfano: Jana asubuhi, Amina alirudi darasani.\n- **Kiini:** aya za katikati. Matukio yanafuatana. Hakuna kuruka ghafla kutoka mwanzo hadi mwisho bila kueleza kilichotokea.\n- **Hitimisho:** aya ya mwisho. Inamaliza kisa na kuonyesha funzo.\n\n### Mfano mfupi uliogawanywa\nAnwani: Mkoba wa Juma\n\nUtangulizi: Juma alirudi nyumbani bila mkoba wake.\n\nKiini: Alikumbuka aliuacha uwanjani. Mwenzake aliuchukua na kumpelekea mwalimu. Mwalimu alimwita Juma.\n\nHitimisho: Juma alishukuru. Aliamua kuangalia vitu vyake kila anapoondoka uwanjani.\n\nUjumbe ni kutunza mali yako na kurudisha ulichokuta. Mtindo ni masimulizi ya wakati uliopita. Muundo una anwani, utangulizi, kiini na hitimisho.",
+      "keyWords": [
+        { "word": "insha ya masimulizi", "meaning": "mtungo unaoeleza kisa kwa mpangilio wa matukio" },
+        { "word": "anwani", "meaning": "kichwa cha insha kinachoonyesha mada" },
+        { "word": "ujumbe", "meaning": "wazo kuu au funzo la kisa" },
+        { "word": "mtindo", "meaning": "jinsi lugha ilivyotumika kueleza kisa" }
+      ],
+      "examples": [
+        {
+          "problem": "Soma sentensi: \"Jana Neema alikuta shilingi hamsini uwanjani, akazipeleka kwa mwalimu.\" Je, hii inaweza kuwa sehemu ya insha ya masimulizi? Eleza.",
+          "steps": [
+            "Ina tukio lililotokea.",
+            "Inatumia wakati uliopita: alikuta, akazipeleka.",
+            "Ina mhusika na kitendo."
+          ],
+          "answer": "Ndiyo. Inasimulia tukio kwa mpangilio, kwa hivyo inafaa katika insha ya masimulizi.",
+          "check": null
+        },
+        {
+          "problem": "Gawanya kisa hiki: Amina alipoteza rula. Aliuliza wenzake. Rula ilipatikana chini ya dawati. Alifunga kabati. Andika anwani na utaje sehemu ya hitimisho.",
+          "steps": [
+            "Anwani iwe kifupi na iendane na tukio.",
+            "Hitimisho ni tukio la mwisho na funzo."
+          ],
+          "answer": "Anwani: Rula Iliyopotea. Hitimisho: Alifunga kabati, yaani alijifunza kutunza vitu vyake.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chambua kielelezo cha insha",
+        "materials": ["Kielelezo cha insha ya masimulizi kwenye kitabu, chati au tarakilishi", "Daftari"],
+        "steps": [
+          "Katika kikundi, someni kielelezo cha insha ya masimulizi alichoonyesha mwalimu.",
+          "Pigieni mstari anwani, utangulizi, kiini na hitimisho.",
+          "Andikeni ujumbe wa insha hiyo kwa sentensi moja.",
+          "Tajeni maneno mawili yanayoonyesha kuwa mtindo ni wa kusimulia, kama alirudi au akashangaa.",
+          "Jadilini kama matukio yamepangwa vizuri. Kama hapana, semeni nini kimepandishwa."
+        ]
+      },
+      "practice": [
+        { "question": "Insha ya masimulizi ni nini?", "answer": "Ni mtungo unaoeleza kisa au tukio kwa mpangilio wa matukio.", "check": null },
+        { "question": "Taja sehemu nne za muundo wa insha ya masimulizi.", "answer": "Anwani, utangulizi, kiini na hitimisho.", "check": null },
+        { "question": "Kwa nini insha ya masimulizi hutumia wakati uliopita?", "answer": "Kwa sababu inasimulia kisa ambacho tayari kimetokea.", "check": null },
+        { "question": "Anwani ya insha ina kazi gani?", "answer": "Ni kichwa kinachoonyesha mada ya kisa kwa maneno machache.", "check": null }
+      ],
+      "summary": [
+        "Insha ya masimulizi hueleza kisa kwa mpangilio.",
+        "Ujumbe ni funzo; mtindo ni lugha ya kusimulia; muundo ni anwani, utangulizi, kiini na hitimisho."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kuandika insha ya tukio la uhalifu wa kawaida",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kuandaa vidokezo na kuandika insha ya masimulizi kuhusu uhalifu wa kawaida.",
+        "Kuzingatia anwani, mpangilio, hati safi, tahajia, sarufi na uakifishaji.",
+        "Kusomea wenzake insha na kupokea maoni kwa heshima."
+      ],
+      "intro": "Leo hutaishia kutambua insha. Utaandika yako mwenyewe. Kisa kiwe cha tukio la kawaida unaloweza kukiona shuleni, kama kitu kilichochukuliwa bila ruhusa, si kisa cha kutisha.",
+      "notes": "### Andaa vidokezo kwanza\nUsianze kwa kuandika insha nzima mara moja. Andika vidokezo vifupi:\n\n- Anwani itakuwa ipi?\n- Nani amehusika, wapi na lini?\n- Tukio la kwanza, la pili na la tatu ni lipi?\n- Mwisho na funzo ni nini?\n\nVidokezo hukinga kuruka matukio. Ukimaliza orodha, ndipo unapoyaandika kwa sentensi kamili.\n\n### Kanuni za uandishi\n- **Anwani** iwe juu, fupi na iendane na kisa.\n- **Mpangilio:** utangulizi, kiini, hitimisho. Kila aya iwe na wazo moja.\n- **Hati safi:** andika kwa herufi zinazosomeka, na acha nafasi kati ya maneno. Ukikosea, kata neno kwa mstari mwembamba na uendelee.\n- **Tahajia:** kagua maneno kama shule, mwalimu, kabati, msamaha.\n- **Sarufi:** kitenzi kikubaliane na mtendaji. Amina alirudi, si Amina walirudi. Wanafunzi walijifunza, si wanafunzi alijifunza.\n- **Uakifishaji:** kila sentensi ianze kwa herufi kubwa na iishie kwa nukta. Swali liwe na alamisho ya swali. Mazungumzo yatumie alama za kunukuu.\n- **Lugha ya kiubunifu:** onyesha hisia na mahali, lakini usichanganye mpangilio.\n\n### Kielelezo\nKalamu Iliyopotea\n\nJana asubuhi, baada ya mapumziko, Amina alirudi darasani. Alifungua kabati lake ili kuchukua kalamu mpya. Kalamu haikuwa humo. Aliangalia chini ya dawati na ndani ya mkoba. Hakupata.\n\nAmina alimwendea mwalimu na kumweleza. Mwalimu aliwauliza wanafunzi kwa upole. Neema alinyamaza, kisha akatoa kalamu katika kabati lake. Alisema alikuwa ameichukua kwa haraka na kusahau kuirudisha. Aliomba msamaha. Amina alipokea kalamu na kusema asante.\n\nDarasa lilijifunza mambo mawili. Kwanza, usichukue kitu kisicho chako. Pili, ukipoteza kitu, mwambie mtu mzima badala ya kuwashutumu wenzako bila ushahidi.\n\nAngalia jinsi utangulizi unavyotaja muda na mhusika, kiini kinavyoeleza tatizo na suluhu, na hitimisho linavyotoa funzo.\n\n### Baada ya kuandika\nSoma insha yako kwa sauti ya chini. Rekebisha tahajia na nukta. Kisha umsomee mwenzako au umwandikishe mwalimu kwenye kifaa, panapowezekana, ili apate maoni. Sikiliza maoni bila kukasirika, kwa sababu yanakusaidia kuboresha ubunifu wako. Funzo la kisa liheshimu watu: uhalifu wa kawaida hurekebishwa kwa ukweli na msamaha, si kwa kebehi.",
+      "keyWords": [
+        { "word": "vidokezo", "meaning": "mawazo mafupi yanayokuelekeza kabla ya kuandika insha" },
+        { "word": "tahajia", "meaning": "kuandika maneno kwa herufi sahihi" },
+        { "word": "uakifishaji", "meaning": "matumizi ya nukta, mkato na alama nyingine za kuandika" },
+        { "word": "kiubunifu", "meaning": "kwa njia ya kipekee na ya kuvutia, bila kupoteza ukweli wa kisa" }
+      ],
+      "examples": [
+        {
+          "problem": "Panga vidokezo hivi kwa mpangilio wa kisa: Neema aliomba msamaha. Amina hakupata kalamu. Amina alimwambia mwalimu.",
+          "steps": [
+            "Kwanza tatizo latokee.",
+            "Kisha mhusika atafute msaada.",
+            "Mwisho liwe suluhu na msamaha."
+          ],
+          "answer": "1. Amina hakupata kalamu. 2. Amina alimwambia mwalimu. 3. Neema aliomba msamaha.",
+          "check": null
+        },
+        {
+          "problem": "Rekebisha sentensi hii ili sarufi na uakifishaji viwe sahihi: wanafunzi alirudi darasani na kupata mkoba wazi",
+          "steps": [
+            "Wanafunzi ni wingi, kwa hivyo kitenzi ni walirudi.",
+            "Sentensi ianze kwa herufi kubwa na iishie kwa nukta."
+          ],
+          "answer": "Wanafunzi walirudi darasani na kupata mkoba wazi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika na wasomee wenzako",
+        "materials": ["Daftari na kalamu", "Kielelezo cha insha", "Tarakilishi panapowezekana"],
+        "steps": [
+          "Jadiliana na mwenzako: mada ya insha iwe tukio gani la uhalifu wa kawaida? Chagueni kisa kisichotisha.",
+          "Andika vidokezo: anwani, wahusika, matukio matatu na funzo.",
+          "Andika insha daftarini ukizingatia anwani, mpangilio, hati safi, tahajia, sarufi, uakifishaji na lugha ya kiubunifu.",
+          "Msomee kikundi insha yako. Wao waseme kilicho wazi na neno moja la kurekebisha.",
+          "Panapowezekana, andika insha hiyo kwenye kifaa na umtumie mwalimu ili aithamini."
+        ]
+      },
+      "practice": [
+        { "question": "Andika vidokezo vitatu vya insha kuhusu mwanafunzi aliyekuta pesa uwanjani na kuzipeleka kwa mwalimu.", "answer": "Mfano: 1. Zawadi anakuta pesa uwanjani. 2. Anazipeleka kwa mwalimu. 3. Mwalimu anampongeza kwa uaminifu.", "check": null },
+        { "question": "Kwa nini unaandika vidokezo kabla ya insha nzima?", "answer": "Vidokezo vinapanga matukio ili nisijaruke wala nisije sahau funzo.", "check": null },
+        { "question": "Rekebisha: juma alichukua kitabu kisicho chake na hakurudisha", "answer": "Juma alichukua kitabu kisicho chake na hakurudisha.", "check": null },
+        { "question": "Unaposomewa insha na mwenzako, unapokeaje maoni yake?", "answer": "Nasikiliza kwa heshima, nasema asante, na narekebisha sehemu aliyoonyesha.", "check": null }
+      ],
+      "summary": [
+        "Anza kwa vidokezo, kisha andika utangulizi, kiini na hitimisho.",
+        "Kagua tahajia, sarufi, nukta na hati safi.",
+        "Kisa cha uhalifu wa kawaida kiwe na funzo na kiheshimu watu."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Insha ya masimulizi hasa hufanya nini?",
+      "options": ["Inaorodhesha vitu vya kununua", "Inaeleza kisa kwa mpangilio wa matukio", "Inaamkua rafiki kwa anwani ya posta", "Inaeleza maana ya maneno kwenye kamusi"],
+      "answer": "B",
+      "explanation": "Masimulizi hufuata tukio kuanzia mwanzo hadi mwisho.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Ujumbe wa insha ni nini?",
+      "options": ["Jina la mwandishi", "Funzo au wazo kuu la kisa", "Idadi ya aya", "Rangi ya kalamu"],
+      "answer": "B",
+      "explanation": "Ujumbe ni wazo analolitaka mwandishi msomaji aondoke nalo.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Ni ipi inaonyesha mtindo wa insha ya masimulizi?",
+      "options": ["Orodha: mkoba, rula, kalamu", "Jana Amina alifungua kabati na kushangaa", "Kwa mpendwa Juma, hujambo", "Mti, miti, jiti"],
+      "answer": "B",
+      "explanation": "Inatumia wakati uliopita na kueleza tukio lenye mhusika.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Anwani katika insha ya masimulizi ni nini?",
+      "options": ["Sanduku la posta la mwandishi", "Kichwa cha insha", "Aya ya mwisho", "Jina la mwalimu"],
+      "answer": "B",
+      "explanation": "Katika insha, anwani ni kichwa kinachoonyesha mada.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Panga sehemu hizi kuanzia mwanzo: hitimisho, utangulizi, kiini.",
+      "answer": "Utangulizi, kiini, hitimisho.",
+      "explanation": "Mwanzo hutambulisha, katikati hueleza matukio, na mwisho hutoa funzo.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Vidokezo vina umuhimu gani kabla ya kuandika?",
+      "options": ["Vinabadilisha anwani ya posta", "Vinapanga mawazo na matukio", "Vinatumika badala ya insha yote", "Vinaondoa hitimisho"],
+      "answer": "B",
+      "explanation": "Vidokezo vinamwongoza mwandishi asijaruke matukio.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Chagua sentensi iliyo sahihi kisarufi.",
+      "options": ["Wanafunzi alirudi darasani.", "Wanafunzi walirudi darasani.", "Wanafunzi ninarudi darasani.", "Wanafunzi utarudi darasani."],
+      "answer": "B",
+      "explanation": "Wanafunzi ni wingi, kwa hivyo kitenzi ni walirudi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi imeakifishwa vizuri?",
+      "options": ["aMina alipata kalamu.", "Amina alipata kalamu.", "amina alipata kalamu", "Amina alipata kalamu"],
+      "answer": "B",
+      "explanation": "Sentensi huanza kwa herufi kubwa na inaisha kwa nukta. Chaguo la mwisho lina herufi kubwa lakini halina nukta; chaguo B lina zote mbili.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Ukipanga kisa cha mwanafunzi aliyekuta pesa, tukio lipi lifae mwishoni?",
+      "options": ["Anaamka asubuhi", "Anazipeleka kwa mwalimu na kujifunza uaminifu", "Anaeleza jina la shule tu", "Anaandika orodha ya vyakula"],
+      "answer": "B",
+      "explanation": "Hitimisho linaonyesha matokeo na funzo la kisa.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kwa nini inafaa kusomea wenzako insha uliyoandika?",
+      "answer": "Wao hutoa maoni yanayonisaidia kuona makosa na kuboresha uandishi wangu.",
+      "explanation": "Tathmini ya wenzako hujenga ubunifu unaposikiliza kwa heshima.",
+      "outcome": "c",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 10.0 Kukabiliana na Uhalifu, Mada Ndogo 10.3.1 Insha ya Masimulizi"
+  ]
+}

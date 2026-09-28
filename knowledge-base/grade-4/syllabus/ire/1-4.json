@@ -1,0 +1,471 @@
+{
+  "subject": "ISLAMIC RELIGIOUS EDUCATION",
+  "slug": "ire",
+  "totalLessons": 90,
+  "strands": [
+    {
+      "number": "1.0",
+      "name": "Qur’an",
+      "subStrands": [
+        {
+          "number": "1.1",
+          "name": "Selected Surahs",
+          "lessons": 21,
+          "content": ["Al- Fatiha", "An-Naas", "Al-Falaq", "Al-Ikhlas", "Al- Masad", "An-Nasr", "Al- Kafirun"],
+          "outcomes": [
+            { "id": "a", "text": "read the selected surah for spiritual nourishment" },
+            { "id": "b", "text": "recite the selected surah for use in devotional activities" },
+            { "id": "c", "text": "explain the basic meaning of the selected surah to enhance positive character formation" },
+            { "id": "d", "text": "apply the teachings of the selected surah in his/her daily life" },
+            { "id": "e", "text": "appreciate the importance of the selected surahs by adhering to their teachings" }
+          ],
+          "learningExperiences": [
+            "listen to the teacher/resource person or from a digital device recitation of the selected surahs",
+            "discuss the basic meaning of the selected surahs, in groups, and write in their notebook",
+            "listen to recorded translation of the selected surahs from a digital device",
+            "sort verses of the selected surahs with their corresponding meaning using digital devices/flash cards/ match individually/groups"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we recite suratul - Fatiha in every swalah?",
+            "Which surahs do Muslims recite before going to bed?",
+            "What lessons do we learn from the selected surahs?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skills of listening and teamwork are enhanced as learners discuss the basic meaning and lessons of the selected surah through group discussion.",
+            "Digital literacy: the skill of connecting using digital technology is enhanced through use of digital devices to listen to recorded translation of the selected surahs.",
+            "Creativity and imagination: the skill of making connection is enhanced as learners sort verses of the selected surahs with their corresponding meaning."
+          ],
+          "values": [
+            "Responsibility: enhanced as learners sort verses of the selected surahs with their corresponding meaning using digital devices/flash cards/ match individually/groups",
+            "Unity: cooperation is enhanced as learners work together in groups."
+          ],
+          "pcis": [
+            "Citizenship: Social cohesion as learners discuss the lessons learnt from the selected surahs, in pairs or small groups."
+          ],
+          "links": [
+            "As learners read selected surahs and relate reading skills in English and Kiswahili."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "2.0",
+      "name": "Hadith",
+      "subStrands": [
+        {
+          "number": "2.1",
+          "name": "Hadith of Prophet Muhammad (S.A.W.) as a Model of Good Character",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "read the selected hadith on the character of the Prophet as a role model" },
+            { "id": "b", "text": "analyse ways in which Prophet Muhammad (S.A.W.) is a model of good character" },
+            { "id": "c", "text": "emulate the character of the Prophet in his/her daily life" },
+            { "id": "d", "text": "value the Prophet as a role model by practising his character traits in daily life" }
+          ],
+          "learningExperiences": [
+            "read the hadith: “I have been sent for the purpose of perfecting good morals.” (Narrated by Al-Hakim)",
+            "discuss ways in which Prophet Muhammad (S.A.W.) is a model of good character (trustworthy, truthful, kind, and generous) and present in class",
+            "role-play character traits of the Prophet",
+            "watch/listen to the story that portrays the character of Prophet Muhammad (S.A.W.) from a digital device/teacher"
+          ],
+          "keyInquiryQuestions": [
+            "What are the character traits of a good child?",
+            "What were the character traits of Prophet Muhammad (S.A.W.) as a youth?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of listening and teamwork is enhanced as learners watch/listen to the story of Prophet Muhammad (S.A.W.) from a digital device/teacher and discuss ways in which Prophet Muhammad (S.A.W.) is a model of good character.",
+            "Digital literacy: the skill of connecting using digital technology is enhanced through use of digital devices to listen to the story of Prophet Muhammad (S.A.W)."
+          ],
+          "values": [
+            "Respect: is enhanced as learners listen attentively to the story of Prophet Muhammad (S.A.W.) from a digital device/teacher.",
+            "Responsibility: as learners role-play character traits of the Prophet Muhammad (S.A.W.)."
+          ],
+          "pcis": [
+            "Social cohesion: as learners role-play character traits of the Prophet"
+          ],
+          "links": [
+            "Creative Arts, as learner shows creativity as they role-play character traits of the Prophet."
+          ]
+        },
+        {
+          "number": "2.2",
+          "name": "Hadith on Etiquette of Eating",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "read the selected hadith on appropriate manners of eating" },
+            { "id": "b", "text": "demonstrate the etiquette of eating to uphold the sunnah of the Prophet (S.A.W.)" },
+            { "id": "c", "text": "appreciate the etiquette of eating in accordance with the teachings of the Prophet (S.A.W.)" }
+          ],
+          "learningExperiences": [
+            "read the hadith: “...Mention the name of Allah, eat with your right, and eat what is directly in front of you.” (Narrated by Al-Bukhari)",
+            "demonstrate the etiquette of eating individually/in small groups",
+            "role-play manners of eating",
+            "watch a video clip on good manners of eating"
+          ],
+          "keyInquiryQuestions": [
+            "What do you do before eating?",
+            "What is the benefit of saying Bismillah while eating?"
+          ],
+          "coreCompetencies": [
+            "Creativity and imagination: the skill of making connection is enhanced as learners role-play manners of eating.",
+            "Learning to learn: the skill of sharing learnt knowledge is enhanced as learners demonstrate the etiquette of eating with peers."
+          ],
+          "values": [
+            "Respect, for other learners while demonstrating etiquette of eating together.",
+            "Responsibility, accountability as learners role-play manners of eating."
+          ],
+          "pcis": [
+            "Self-esteem as learners collaborate with peers to demonstrate the etiquette of eating."
+          ],
+          "links": [
+            "Agriculture as learners demonstrate the etiquette of eating individually/in small groups."
+          ]
+        },
+        {
+          "number": "2.3",
+          "name": "Hadith on Brushing Teeth",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "read the selected hadith on brushing teeth for the promotion of oral hygiene" },
+            { "id": "b", "text": "assess the importance of brushing teeth as per the tradition of the Prophet (S.AW)" },
+            { "id": "c", "text": "practise brushing teeth as an act of ibadah" },
+            { "id": "d", "text": "appreciate the importance of brushing teeth to earn rewards from Allah (S.W.T.)" }
+          ],
+          "learningExperiences": [
+            "read the hadith: “Brushing of teeth is a means of purification of mouths and pleasing Allah.” (Narrated by Ibn Majah)",
+            "individually demonstrate how to brush his/her teeth",
+            "discuss the importance of brushing their teeth regularly",
+            "recite/sing song/qasida/poem on brushing teeth"
+          ],
+          "keyInquiryQuestions": [
+            "When do you brush your teeth?",
+            "Why do you brush your teeth?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of teamwork is enhanced through discussing the importance of brushing their teeth regularly.",
+            "Learning to learn: the skill of working collaboratively through discussing the importance of brushing their teeth regularly in small groups.",
+            "Self-efficacy: as learners individually demonstrate how to brush their teeth and recite/sing song/qasida/poem on brushing teeth."
+          ],
+          "values": [
+            "Responsibility: self-drive enhanced as learners individually demonstrate how to brush his/her teeth.",
+            "Respect: enhanced as learners respect each other’s view as they discuss the importance of brushing teeth."
+          ],
+          "pcis": [
+            "Personal hygiene as learners brush their teeth."
+          ],
+          "links": [
+            "Agriculture by maintaining oral hygiene."
+          ]
+        },
+        {
+          "number": "2.4",
+          "name": "Hadith on Fitness",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "read the selected hadith on physical fitness to promote healthy living" },
+            { "id": "b", "text": "assess the importance of physical fitness in the life of a Muslim" },
+            { "id": "c", "text": "participate in games and sports while observing Islamic values" },
+            { "id": "d", "text": "value the importance of physical fitness as means of being dearer to Allah (S.W.T)" }
+          ],
+          "learningExperiences": [
+            "read the hadith: “Teach your children swimming, archery and horse riding.” (Narrated by Muslim)",
+            "discuss the importance of physical fitness and values derived from participating in games and sports (such as teamwork, sharing, humility, fair- play, discipline, and leadership skills)",
+            "discuss the types of games and sports permissible in Islam",
+            "discuss the Islamic etiquette to be observed during games and sports activities (dressing mode, observing times for swalah)",
+            "demonstrate the Islamic etiquette to be observed during games"
+          ],
+          "keyInquiryQuestions": [
+            "Why should one be physically fit?",
+            "What Islamic rules should a Muslim observe while participating in games and sports activities?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of teamwork is enhanced through discussing the importance of physical fitness and values derived from participating in games and sports.",
+            "Learning to learn: the skill of sharing learnt knowledge is enhanced as learners discuss the Islamic etiquette to be observed during games and sports activities.",
+            "Citizenship: the skill of social skills is enhanced as learners discuss the Islamic etiquette to be observed during games and sports activities."
+          ],
+          "values": [
+            "Respect: acceptance is enhanced as learners respect each other opinion during discussion.",
+            "Responsibility: self-drive is enhanced as learners demonstrate etiquette to be observed during games."
+          ],
+          "pcis": [
+            "Learner support programmes through participating in games and sports"
+          ],
+          "links": [
+            "Creative Arts: as they participate in various games and sports activities",
+            "Agriculture: by avoiding lifestyle diseases through exercises and promoting good health."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3.0",
+      "name": "Pillars of Iman",
+      "subStrands": [
+        {
+          "number": "3.1",
+          "name": "Attributes of Allah (S.W.T)",
+          "lessons": 4,
+          "content": ["Ar-Rahman", "Ar-Rahim", "Al-Malik", "As-Salaam", "Al-Samiu", "Al- Basir"],
+          "outcomes": [
+            { "id": "a", "text": "mention the attributes of Allah (S.W.T.) with their corresponding meaning to strengthen the belief in Allah" },
+            { "id": "b", "text": "apply the attributes of Allah (S.W.T.) while making dua" },
+            { "id": "c", "text": "appreciate the unique attributes of Allah (S.W.T.) as part of Islamic faith" }
+          ],
+          "learningExperiences": [
+            "listen to the attributes of Allah from a digital device",
+            "sing qasida on the attributes of Allah",
+            "identify attributes of Allah and their corresponding meaning (Ar-Rahman, Ar-Rahim, Al-Malik, AL-Salaam, AL- Samiu and Al- Basir)",
+            "match and sort the attributes of Allah (S.W.T.) and their meaning",
+            "demonstrate reciting dua using the mentioned attributes of Allah (S.W.T.) individually or in pairs"
+          ],
+          "keyInquiryQuestions": [
+            "What are the favours of Allah (S.W.T.) to mankind?",
+            "What are the attributes of Allah (S.W.T.)?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of teamwork is enhanced as learners discuss the unique attributes of Allah (S.W.T.), in pairs or small groups.",
+            "Digital literacy: the skill of interacting with digital technology is enhanced as learners listen to the attributes of Allah from a digital device.",
+            "Self-efficacy: the skill of self-awareness and planning is enhanced as learners sing qasida on the attributes of Allah.",
+            "Creativity and Imagination: the skill of making connection is enhanced as learners sort and match different attributes of Allah (S.W.T.) and their corresponding meaning."
+          ],
+          "values": [
+            "Love is enhanced as learners sing qasida on the attributes of Allah.",
+            "Unity: cooperation is enhanced as learners work collaboratively while discussing the unique attributes of Allah (S.W.T.).",
+            "Responsibility is enhanced as learners demonstrate how the duas are recited using the mentioned attributes of Allah (S.W.T.) individually or in pairs."
+          ],
+          "pcis": [
+            "Self-esteem as learners recite duas that mention the attributes of Allah (S.W.T.)."
+          ],
+          "links": [
+            "English as learners acquire new vocabularies as they discuss the attributes of Allah (S.W.T.) and their meaning."
+          ]
+        },
+        {
+          "number": "3.2",
+          "name": "Belief in Angels",
+          "lessons": 4,
+          "content": ["Jibril", "Mikail", "Raqib and Atid", "Malakul Maut (Izrail)", "Israfil"],
+          "outcomes": [
+            { "id": "a", "text": "mention the names of the selected angels to strengthen their faith" },
+            { "id": "b", "text": "explain the duties of the selected angels as a pillar of Iman" },
+            { "id": "c", "text": "appreciate angels as Allah’s creation as a Pillar of Iman" }
+          ],
+          "learningExperiences": [
+            "name the angels of Allah, (Jibril, Mikail,Raqib and Atid, Izrail and Israfil)",
+            "match and sort the names of angels and their corresponding duties using flash cards/pocket boards",
+            "find names of angels from a crossword puzzle, in pairs or small groups",
+            "search and sing qasida on angels and their duties from a digital device",
+            "brainstorm on the duties of angels in their lives, in pairs or small groups, and write the points in their notebook"
+          ],
+          "keyInquiryQuestions": [
+            "What are the duties of angels?",
+            "Why did Allah (S.W.T.) create angels?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skills of speaking and writing are enhanced as learners discuss the significance of angels in their lives, in pairs or small groups, and write their points in their notebooks.",
+            "Critical thinking and problem solving: the skill of interpretation and inference is enhanced as learners find names of angels from a crossword puzzle, in pairs or small groups.",
+            "Self–efficacy: the skill of effective communication is enhanced as learners sing qasida on angels and their duties from a digital device."
+          ],
+          "values": [
+            "Responsibility: self-drive as learners search and sing qasida on angels and their duties from a digital device.",
+            "Respect: open-mindedness as learners respect each other’s opinions as they discuss the significance of angels in their lives."
+          ],
+          "pcis": [
+            "Self-awareness as learners will be cautious in carrying out his duties."
+          ],
+          "links": [
+            "English: reading skills as learners acquire new vocabularies while discussing the names of angels and their duties."
+          ]
+        },
+        {
+          "number": "3.3",
+          "name": "Prophets mentioned in the Qur’an",
+          "lessons": 6,
+          "content": ["Virtues of the Prophets (patience, honesty, truthfulness, generosity and obedience)"],
+          "outcomes": [
+            { "id": "a", "text": "mention the twenty-five prophets of Allah (S.W.T.) in the Qur’an" },
+            { "id": "b", "text": "analyse the virtues of the prophets of Allah for character formation" },
+            { "id": "c", "text": "apply the virtues of the prophets of Allah in their daily life" },
+            { "id": "d", "text": "acknowledge the belief in the prophets of Allah as a Pillar of Iman" }
+          ],
+          "learningExperiences": [
+            "identify fellow learners named after prophets",
+            "name the prophets of Allah in the Qur’an (Q.4:163-165, 6:84-86, 21: 85-88) and write in their notebook",
+            "describe the virtues (patience, honesty, truthfulness, generosity and obedience) of the prophets in pairs or small groups, and write the points in their notebook",
+            "dramatise/role-play how they can apply the virtues of the prophets in their daily life"
+          ],
+          "keyInquiryQuestions": [
+            "What virtues do we learn from these prophets?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skills of speaking and writing are enhanced as learners name the prophets of Allah and write them in their notebook.",
+            "Creativity and imagination: the skill is enhanced as learners dramatise/role-play how they can apply the virtues of the prophets of Allah in their daily life.",
+            "Citizenship: social and civic skills are enhanced as learners discuss the virtues (patience, honesty, truthfulness, generosity and obedience) of the prophets, in pairs or small groups."
+          ],
+          "values": [
+            "Social justice equity enhanced as learners dramatise/role-play how they can apply the virtues of the prophets in their daily life."
+          ],
+          "pcis": [
+            "Self-esteem as learners name prophets mentioned in the Qur’an."
+          ],
+          "links": [
+            "Social Studies: as learners discuss the virtues exhibited by the prophets of Allah S.W.T., which is related to good governance."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4.0",
+      "name": "Devotional Acts",
+      "subStrands": [
+        {
+          "number": "4.1",
+          "name": "Twahara (Ritual Purity)",
+          "lessons": 3,
+          "content": ["Types of Najasaat"],
+          "outcomes": [
+            { "id": "a", "text": "outline the types of najasaat (impurities) for physical and spiritual purification" },
+            { "id": "b", "text": "demonstrate appropriate ways of cleaning najasaat (impurities) for the purpose of purification" },
+            { "id": "c", "text": "acknowledge ritual cleanliness as a condition for ibadah" }
+          ],
+          "learningExperiences": [
+            "name the different types of najasaat (mukhaffafah or light, mutawassitah or medium, and mughalladha or heavy)",
+            "discuss items used in the purification of najasa and present in class",
+            "demonstrate how to purify different najasaat individually/in pairs/in groups"
+          ],
+          "keyInquiryQuestions": [
+            "How do you purify najasaat?",
+            "What items do you use in removing najasaat?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration the skill of team work is enhanced as learners discuss items used in the purification of najasa, in pairs or small groups, and present in class",
+            "Critical thinking and problem solving: the skill of explanation is enhanced as learners discuss items used in the purification of najasa, in pairs or small groups, and present in class",
+            "Learning to learn: the skill of sharing learnt knowledge as learners demonstrate how to purify different najasaat, individually/in pairs/in groups"
+          ],
+          "values": [
+            "Responsibility: enhanced as learners demonstrate how to purify different najasaat, individually/in pairs/in groups"
+          ],
+          "pcis": [
+            "Health Issues: Personal hygiene through maintenance of ritual cleanliness."
+          ],
+          "links": [
+            "Agriculture as learners observe and maintain cleanliness."
+          ]
+        },
+        {
+          "number": "4.1.2",
+          "name": "Wudhu (Ablution)",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "state the nullifiers of wudhu (ablution) to maintain a state of ritual purity" },
+            { "id": "b", "text": "assess the significance of wudhu in the life of a Muslim" },
+            { "id": "c", "text": "value the need to be in a state of purity as a condition for ibadah" }
+          ],
+          "learningExperiences": [
+            "search for nullifiers of wudhu (ablution) using digital devices/from resource books and write in their notebook",
+            "discuss times recommended to be in a state of wudhu and present in class",
+            "discuss the importance of maintaining wudhu and be guided to write the points in their notebook"
+          ],
+          "keyInquiryQuestions": [
+            "What nullifies wudhu?",
+            "Why is it important to be in a state of wudhu?",
+            "When is it recommended to be in a state of wudhu?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of writing is enhanced as learners search for nullifiers of wudhu (ablution) using digital devices/from resource books and write in their notebook.",
+            "Self-efficacy: the skill of effective communication is enhanced as learners discuss times recommended to be in a state of wudhu and present in class."
+          ],
+          "values": [
+            "Unity: cooperation enhanced as learners discuss the importance of maintaining wudhu, in pairs or groups.",
+            "Responsibility: hard work enhanced as learners search for nullifiers of wudhu (ablution) using digital devices/from resource books and write in their notebook."
+          ],
+          "pcis": [
+            "Personal hygiene as learners perform wudhu."
+          ],
+          "links": [
+            "Agriculture as learners observe and maintain ritual purity."
+          ]
+        },
+        {
+          "number": "4.1.3",
+          "name": "Conditions for Swalah",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "state the conditions for swalah as a requirement for its validity" },
+            { "id": "b", "text": "demonstrate the observable conditions for swalah in day-to- day life" },
+            { "id": "c", "text": "acknowledge the need for observing the condition for swalah for its validity" }
+          ],
+          "learningExperiences": [
+            "mention the conditions for swalah and write them in their notebook",
+            "discuss the conditions for swalah and present in class",
+            "demonstrate some of the conditions for swalah such as wudhu, appropriate dress code, individually",
+            "demonstrate appropriate use of digital devices/direction of the sun in identifying direction of Qibla, individually/in pairs/groups",
+            "discuss how to determine times for swalah and present in class"
+          ],
+          "keyInquiryQuestions": [
+            "How would you identify time for swalah and direction of Qibla"
+          ],
+          "coreCompetencies": [
+            "Digital literacy: the skill of interacting with digital technology is enhanced as learners demonstrate appropriate use of digital devices in identifying direction of Qibla.",
+            "Critical thinking and problem solving: the skill of interpretation and inference is enhanced as learners demonstrate appropriate use of digital devices/direction of the sun in identifying direction of Qibla, individually/in pairs/groups",
+            "Self-efficacy: the skill of effective communication is enhanced as learners demonstrate some of the conditions for swalah such as wudhu, appropriate dress code, individually."
+          ],
+          "values": [
+            "Responsibility: accountability enhanced as learners demonstrate some of the conditions for swalah such as wudhu, appropriate dress code, individually",
+            "Unity: cooperation is enhanced as learners work together to discuss the conditions for swalah, in pairs or groups, and present in class",
+            "Respect: enhanced as learners respect each other’s opinion as they discuss how to determine times for swalah, in pairs /groups, and present in class"
+          ],
+          "pcis": [
+            "Health issues: Personal hygiene as a requirement for swalah"
+          ],
+          "links": [
+            "Social Studies: as learners learn finding directions on the compass."
+          ]
+        },
+        {
+          "number": "4.3",
+          "name": "Pillars of Swalah",
+          "lessons": 4,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify the pillars of prayers for validity of swalah" },
+            { "id": "b", "text": "apply the pillars of swalah correctly in daily prayers" },
+            { "id": "c", "text": "appreciate the need for observing the pillars of swalah by emulating the Sunnah of the Prophet (S.A.W.)" }
+          ],
+          "learningExperiences": [
+            "pick the pillars of swalah (niyyah, qiyam, takbiratul ihram, reciting al-Fatiha, rukuu, raising from rukuu, sujud, siting between the sujud, sitting while reciting the last tashahhud, tashahhud, prayers for Ibrahim, taslim, tumaninah, tartib) from a flash cards and arrange them in sequence",
+            "discuss the pillars of swalah and write them in their notebook",
+            "role-play the pillars of swalah, individually/in pairs/in groups",
+            "watch a video clip of pillars of swalah on digital device",
+            "demonstrate the pillars of swalah, individually/in pairs/in groups"
+          ],
+          "keyInquiryQuestions": [
+            "What do you recite when praying?",
+            "Which postures are performed in prayers?"
+          ],
+          "coreCompetencies": [
+            "Learning to Learn: the skill of sharing learnt knowledge is enhanced as learners discuss the pillars of swalah, in pairs/groups, and be guided to write them in their notebook.",
+            "Communication and collaboration: the skill of writing and speaking is enhanced as learners discuss the pillars of swalah, in pairs/groups, and be guided to write them in their notebook",
+            "Creativity and imagination: the skill of networking is enhanced as learners role-play the pillars of swalah, individually/in pairs/in groups"
+          ],
+          "values": [
+            "Responsibility: accountability enhanced as learners role-play the pillars of swalah, individually/in pairs/in groups.",
+            "Unity: cooperation enhanced as learners demonstrate the pillars of swalah, in pairs/groups."
+          ],
+          "pcis": [
+            "Health issues: Postures of swalah prevent lifestyles diseases, which promotes good health."
+          ],
+          "links": [
+            "Creative Arts as learners perform the pillars of swalah, which is part of exercise."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "9.1.1",
+  "title": "Listening and Speaking: Pronunciation and Vocabulary",
+  "overview": "Speaking fluently means saying sounds clearly and keeping a steady pace. In this sub-strand you will practise /s/, /z/, /h/, /f/ and the letters gh, and you will learn respectful words for talking about HIV, AIDS and health. You will also use your voice, face and hands so that a listener can follow you without strain.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Sounds and words for a careful conversation",
+      "outcomes": ["b"],
+      "objectives": [
+        "Say /s/, /z/, /h/ and /f/, and read gh as /f/ in words such as cough.",
+        "Explain key words about HIV, AIDS and tuberculosis accurately.",
+        "Use the words in respectful sentences."
+      ],
+      "intro": "Some health words are long, and some short words are easy to mix up. Cough ends with the letters gh, but the sound is /f/. If we rush the word or the facts, people get the wrong idea about illness.",
+      "notes": "### The sounds\n**/s/** is a quiet hiss. Your voice box does not buzz. Practise safe, signs, spread, sit and this.\n\n**/z/** is the same mouth shape with the voice switched on. Touch your throat and say is, has, disease and razor. The buzz tells you it is /z/, not /s/. Pairs such as sip and zip, or bus and buzz, train the difference.\n\n**/h/** is a puff of air, as in health, help, hug, hope and haircut. **/f/** puts the top teeth on the bottom lip with no voice, as in food, friend and life. Safe ends with /f/.\n\nThe letters **gh** do not always sound the same. In cough, enough, laugh and rough, gh says /f/. In night, light, right and high, gh is silent. Say cough so that it rhymes with off, not with cow.\n\n### Words we need, used with care\n**HIV** means Human Immunodeficiency Virus. It is a virus that weakens the body's ability to fight germs. **AIDS** means Acquired Immune Deficiency Syndrome. It is the name for serious illnesses that can appear when HIV has made the body very weak. A person can live with HIV and not have AIDS, especially when they take medicine.\n\nHIV is in some body fluids, especially blood. It can pass into another person if that blood gets into a cut, or if people share a razor blade, needle or other sharp object that has fresh blood on it. A mother living with HIV can pass the virus to her baby. Doctors and medicine can greatly reduce the chance that the baby will get HIV. If you have other questions about how HIV is passed, ask a parent, guardian, teacher or nurse.\n\nHIV is not spread by hugging, sharing food or cups, sitting together, playing games, using a toilet or mosquito bites. A haircut does not spread HIV. The risk is a blade that cuts the skin and is then used on someone else while it still has fresh blood. Waiting for a clean blade is sensible. A cough does not mean a person has HIV.\n\n**Tuberculosis**, often called TB, is a different illness. It often affects the lungs. A person with TB disease in the lungs can spread those germs through the air when they cough. TB can be cured when the person takes all the medicine from the clinic. A cough that lasts about two weeks or more should be checked by a nurse. It is not a sign you can use to guess that someone has HIV.\n\nYou cannot tell by looking at someone whether they have HIV. Only a test at a clinic can show that. There is no cure for HIV yet. Medicine does not remove it, but it keeps the virus under control so the person can stay healthy, learn and play. A balanced diet of grains, vegetables, fruit, beans or other protein, and clean water helps the body. Food does not replace the medicine.\n\n**Prevention** means stopping a harm before it happens. Children can prevent harm by never sharing razor blades, needles or tweezers that might have blood on them, by not touching another person's blood, and by telling an adult about a cut. We share friendship. We do not share sharp objects.\n\nSpeak about illness without jokes, insults or gossip. The word death is a serious word. We do not use it to frighten or to shame anyone. With medicine, people living with HIV can live long lives.",
+      "keyWords": [
+        { "word": "HIV", "meaning": "Human Immunodeficiency Virus, a virus that weakens the body's defence against germs" },
+        { "word": "AIDS", "meaning": "Acquired Immune Deficiency Syndrome, serious illnesses that can follow when HIV has made the body very weak" },
+        { "word": "virus", "meaning": "a tiny germ that can make a person ill; HIV is one virus" },
+        { "word": "tuberculosis", "meaning": "a different illness, often of the lungs, that can be cured with a full course of medicine" },
+        { "word": "prevention", "meaning": "action that stops harm before it happens" }
+      ],
+      "examples": [
+        {
+          "problem": "What sound do the letters gh make in cough?",
+          "steps": ["Say cough so that it rhymes with off.", "The ending is the same sound as the end of safe."],
+          "answer": "/f/",
+          "check": null
+        },
+        {
+          "problem": "A classmate says HIV is spread by sharing a cup. What is the accurate reply?",
+          "steps": ["HIV is not passed in ordinary sharing of cups or food.", "Give the fact kindly, without insulting the classmate."],
+          "answer": "HIV is not spread by sharing a cup. It is passed through blood and in other ways a nurse can explain. We can still share a meal.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sound sort and gap fill",
+        "materials": ["Word cards: safe, signs, is, has, health, hug, food, cough, enough, night, razor, spread"],
+        "steps": [
+          "Listen to the teacher or a recording and repeat each card.",
+          "Sort the cards into /s/, /z/, /h/, /f/, gh as /f/, and silent gh.",
+          "In pairs, complete the gaps orally: HIV is a ________. We do not share a ________. A long ________ should be checked at a clinic. Medicine is not the same as a ________.",
+          "Say one respectful sentence using the words friend and medicine."
+        ]
+      },
+      "practice": [
+        { "question": "Is the last sound in has the quiet /s/ or the buzzing /z/?", "answer": "The buzzing /z/", "check": null },
+        { "question": "In which word is gh silent: cough or night?", "answer": "night", "check": null },
+        { "question": "Name two ways HIV is not spread.", "answer": "Any two: hugging, sharing food or cups, playing together, mosquito bites, toilet seats, or a haircut that does not involve a shared bloody blade.", "check": null },
+        { "question": "What is the difference between HIV medicine and a cure?", "answer": "There is no cure yet. Medicine controls the virus so the person can stay healthy.", "check": null }
+      ],
+      "summary": [
+        "/s/ is a quiet hiss, /z/ is voiced, /h/ is a puff and /f/ uses the teeth on the lip.",
+        "In cough, gh says /f/. In night, gh is silent.",
+        "HIV is not spread by friendship or shared meals, and people living with HIV deserve respect."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Speaking at a steady pace",
+      "outcomes": ["a", "c"],
+      "objectives": [
+        "Speak on a familiar health topic for a short time without long pauses.",
+        "Use eye contact, posture and calm gestures.",
+        "Recite a poem at a pace a listener can follow."
+      ],
+      "intro": "A speaker who stops after every second word makes the listener work too hard. A speaker who races makes the facts blur. Fluency is a reasonable speed, clear sounds and a message you can stand by.",
+      "notes": "### What fluent speaking sounds like\nFluent speech moves forward. You may pause at a full stop, because that pause helps the listener. You do not need to fill every gap with um, eh or I don't know. Those extra sounds are hesitation. A little thinking is fine. A long silence in the middle of a short sentence usually means the word was not prepared.\n\nPrepare the difficult words before you speak to the class. Tuberculosis has five beats: tu-ber-cu-lo-sis. Prevention has four: pre-ven-tion. Say each word on its own, then put it in a sentence.\n\n### A pace other people can follow\nChoose a speed at which a partner can repeat your sentence. If they cannot, you are too fast. If they finish the sentence in their head before you do, you may be hesitating. One useful practice is to speak for half a minute on a single idea, then stop. Ideas for that half minute include: why we do not share razor blades, or how to welcome a classmate.\n\n### Voice and body together\nLook at the listeners, not at the floor. Stand or sit still enough for people to watch your face. Use a calm hand to show a point, then let the hand rest. A kind message needs a kind face. Covering your mouth or turning away makes even correct facts hard to trust.\n\nIf you mispronounce a word, stop, say it once more, and continue. If a friend slips, wait and let them repair it. Laughing at a sound breaks the speaker's confidence and wastes the practice.\n\n### A poem to recite\nRead it once silently, then aloud in a steady rhythm. Do not gallop the short lines.\n\nA virus is tiny, too small for the eye,\nBut facts keep us kinder than rumours that fly.\nWe share our games, our food and our fun,\nWe do not share a blade with anyone.\nA long cough needs a nurse, a test and some rest,\nA hug is not a way that HIV is spread.\nSpeak calmly, speak clearly, and look up to say:\nPeople with medicine can learn, work and play.\n\nThe poem uses /s/ in small and facts, /h/ in hug, /f/ in facts and fun, and the idea of a cough, where gh says /f/. Recite it to a partner. Then close the page and explain one line in your own words without a long hunt for the next sentence. That is fluency: the meaning is ready, so the voice can keep moving.",
+      "keyWords": [
+        { "word": "fluency", "meaning": "speaking clearly and at a steady speed, without unnecessary stops" },
+        { "word": "hesitation", "meaning": "an unwanted pause or filler sound that breaks the message" },
+        { "word": "pace", "meaning": "the speed of your speaking" },
+        { "word": "gesture", "meaning": "a movement of the hands or body that helps the words" }
+      ],
+      "examples": [
+        {
+          "problem": "Which pause is useful: a short stop at a full stop, or a long um in the middle of the word medicine?",
+          "steps": ["A pause at a full stop shows the end of an idea.", "A filler sound inside a word is hesitation."],
+          "answer": "A short stop at a full stop is useful. The um inside medicine is not.",
+          "check": null
+        },
+        {
+          "problem": "Give one nonverbal cue that helps a listener trust a kind message.",
+          "steps": ["Think of the face, the eyes or the hands.", "The cue should match a respectful meaning."],
+          "answer": "Look at the listeners, or use a calm face and open hands.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Half a minute, then the poem",
+        "materials": ["The poem", "A timer or a clock with a second hand"],
+        "steps": [
+          "Practise tuberculosis, prevention, medicine and cough until you can say them smoothly.",
+          "Speak for about half a minute on why we do not share sharp objects. A partner listens for long hesitations.",
+          "Recite the poem together at a pace the class can follow, using a steady voice and a calm face.",
+          "Tell your partner one nonverbal cue they used well."
+        ]
+      },
+      "practice": [
+        { "question": "What is the difference between a pause at a full stop and hesitation?", "answer": "A pause at a full stop helps the listener. Hesitation is an extra stop or filler sound that breaks the word or the idea.", "check": null },
+        { "question": "How many beats are in the word tuberculosis?", "answer": "Five: tu-ber-cu-lo-sis.", "check": null },
+        { "question": "According to the poem, what should we not share?", "answer": "A blade, or sharp objects.", "check": null },
+        { "question": "Why should you look at listeners when you speak?", "answer": "Eye contact helps them follow the message and shows respect.", "check": null }
+      ],
+      "summary": [
+        "Fluent speaking is clear, steady and free of long hesitation.",
+        "Prepare hard words, then speak at a pace a partner can follow.",
+        "Eyes, posture and calm gestures support the words."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Which sound is a quiet hiss?", "options": ["/z/", "/s/", "/h/", "/v/"], "answer": "B", "explanation": "/s/ is voiceless. /z/ uses the voice.", "outcome": "b", "check": null },
+    { "question": "Which word ends with the buzzing sound /z/?", "options": ["safe", "has", "help", "cough"], "answer": "B", "explanation": "Has ends with /z/. Safe and cough end with /f/.", "outcome": "b", "check": null },
+    { "question": "What sound does gh make in cough?", "options": ["It is silent", "/f/", "/s/", "/h/"], "answer": "B", "explanation": "Cough rhymes with off. Gh says /f/ in cough, enough and laugh.", "outcome": "b", "check": null },
+    { "question": "In which word is gh silent?", "options": ["enough", "rough", "night", "laugh"], "answer": "C", "explanation": "Night has a silent gh. Enough, rough and laugh use gh for /f/.", "outcome": "b", "check": null },
+    { "question": "HIV is a ________.", "options": ["kind of food", "virus", "tool for cutting hair", "cure"], "answer": "B", "explanation": "HIV is the Human Immunodeficiency Virus.", "outcome": "b", "check": null },
+    { "question": "Which action can pass HIV?", "options": ["Sharing a razor blade that has fresh blood on it", "Sharing a cup", "Hugging a friend", "A mosquito bite"], "answer": "A", "explanation": "HIV can pass through blood on a shared sharp object. It is not spread by cups, hugs or mosquitoes.", "outcome": "b", "check": null },
+    { "question": "Which statement is accurate?", "options": ["There is no medicine for HIV.", "Medicine can control HIV, but it is not a cure.", "You can see HIV on a person's face.", "TB and HIV are the same illness."], "answer": "B", "explanation": "Medicine keeps HIV under control. It is not a cure, and HIV cannot be seen by looking at someone. TB is a different illness.", "outcome": "b", "check": null },
+    { "question": "A useful speaking pause happens ________.", "options": ["in the middle of a word", "at a full stop", "every time you forget a fact and say um five times", "only when you laugh at a friend"], "answer": "B", "explanation": "Pausing at a full stop helps the listener. Fillers and laughter at mistakes are not fluent speech.", "outcome": "a", "check": null },
+    { "question": "Why should you speak at a reasonable speed?", "answer": "So the listener can understand every fact and you do not hide the meaning in a rush or in long gaps.", "explanation": "Pace is part of fluency and of respectful communication.", "outcome": "c", "check": null },
+    { "question": "Name one nonverbal cue that supports fluent speaking.", "answer": "Any one: look at the listeners, stand or sit calmly, use a kind face, or use a simple hand gesture and then let the hand rest.", "explanation": "The body should help the words, not hide them.", "outcome": "a", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 English Curriculum Design (Revised 2024) — Theme 9.0 HIV and AIDS, Sub-strand 9.1.1 Pronunciation and Vocabulary"
+  ]
+}

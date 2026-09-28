@@ -1,0 +1,375 @@
+{
+  "subject": "CREATIVE ARTS",
+  "slug": "creative-arts",
+  "strands": [
+    {
+      "number": "2.0",
+      "name": "Performing and Displaying",
+      "subStrands": [
+        {
+          "number": "2.1",
+          "name": "Athletics",
+          "lessons": 18,
+          "content": [
+            "Medium sprint start",
+            "Elongated sprint start",
+            "Sprinting techniques",
+            "Painting"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "discuss the sprint starts and sprinting techniques in athletics" },
+            { "id": "b", "text": "perform the sprint starts and sprinting techniques for skill development" },
+            { "id": "c", "text": "paint the Kenyan flag for an athletic event" },
+            { "id": "d", "text": "recognise the value of flying the Kenyan flag during an athletics event" }
+          ],
+          "learningExperiences": [
+            "watch a virtual or live demonstration of sprint starts and sprinting techniques",
+            "demonstrate a medium and elongated sprint start techniques",
+            "demonstrate the sprinting technique",
+            "sketch the Kenyan flag on a paper/fabric",
+            "paint the flag observing colour arrangement and neatness",
+            "attach the flag to a suitable handle",
+            "practise the medium and elongated start",
+            "practise sprinting technique",
+            "run sprint races while observing safety and cheering each other using the flags made"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to maintain appropriate posture during sprints?",
+            "Why is the national flag flown during a national athletic event?"
+          ],
+          "coreCompetencies": [
+            "Citizenship: The learner acquires a sense of belonging to their country as they paint and fly the Kenyan flag",
+            "Digital literacy: The learner uses digital technology to watch a virtual demonstration of sprint starts and sprinting techniques"
+          ],
+          "values": [
+            "Patriotism: The learner appreciates sketching and painting the Kenyan flag",
+            "Love: The learner works with peers to demonstrate the techniques of starting sprints and sprinting techniques"
+          ],
+          "pcis": [
+            "Safety and security: The learner performs sprints while observing the safety of self and others",
+            "Social cohesion: The learner works with peers as they play sprint games while observing safety and cheering each other using the flags"
+          ],
+          "links": [
+            "Social Studies: The learner links knowledge of Kenyan flag learnt in Social Studies as they learn colours of the flag"
+          ]
+        },
+        {
+          "number": "2.2",
+          "name": "Gymnastics",
+          "lessons": 15,
+          "content": [
+            "Crab balance",
+            "Side roll"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "explain a crab balance and a side roll in gymnastics" },
+            { "id": "b", "text": "perform the crab balance for skill acquisition" },
+            { "id": "c", "text": "execute the side roll for skill acquisition" },
+            { "id": "d", "text": "appreciate performing gymnastics skills for enjoyment" }
+          ],
+          "learningExperiences": [
+            "watch a virtual or live performance of crab balance and side roll",
+            "demonstrate the crab balance",
+            "demonstrate a side roll",
+            "practise the crab balance while observing safety",
+            "practise the side roll while observing safety",
+            "combine a crab balance into a side roll in turns",
+            "observe each other’s performance and give feedback"
+          ],
+          "keyInquiryQuestions": [
+            "How does performance of rolls and balances improve body health?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: The learner appreciates their unique abilities in practising the side roll and crab balance",
+            "Critical thinking and problem solving: The learner follows simple instructions while performing a crab balance and side roll in gymnastics"
+          ],
+          "values": [
+            "Love: The learner takes turn to support a peer during performance of the crab balance and side roll",
+            "Responsibility: The learner puts into practise the aspects of safety of self and others when performing the rolls and balances"
+          ],
+          "pcis": [
+            "Safety: The learner observes safety of self and others as they perform the rolls and balances",
+            "Social cohesion: The learner works in pairs to perform the side roll and crab balance"
+          ],
+          "links": [
+            "Mathematics: The learner uses number and sequence concepts in performing gymnastics"
+          ]
+        },
+        {
+          "number": "2.3",
+          "name": "Songs",
+          "lessons": 15,
+          "content": [
+            "Sacred, patriotic and topical songs - Accuracy in pitch, rhythm, performance directions: tempo, dynamics",
+            "Performance techniques and etiquette: gestures, facial expressions diction",
+            "Kenyan Folk Songs- identifying: name, community",
+            "Classifying: work, funeral, naming, initiation, marriage and worship songs"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "sing different types of songs applying performance techniques" },
+            { "id": "b", "text": "perform the East African Community Anthem in unison" },
+            { "id": "c", "text": "identify types of folk songs performed by indigenous Kenyan communities" },
+            { "id": "d", "text": "perform an indigenous Kenyan folk song applying performance techniques" },
+            { "id": "e", "text": "value performing indigenous songs from different Kenyan communities" }
+          ],
+          "learningExperiences": [
+            "listen to and identify different types of songs",
+            "sing different types of songs with accuracy in pitch and rhythm adhering to performance directions and applying appropriate performance techniques",
+            "discuss the messages of the songs and demonstrate how the mood of the songs can be expressed while singing",
+            "listen to a live or recorded performance of the East African Community Anthem in unison, with peers, discuss and internalise the words of the anthem",
+            "practise singing East African Community Anthem in unison observing performance techniques and etiquette",
+            "watch a variety of live/recorded folk songs from different indigenous Kenyan communities, identify and classify them",
+            "take a role to perform different folk songs"
+          ],
+          "keyInquiryQuestions": [
+            "What does good singing involve?"
+          ],
+          "coreCompetencies": [
+            "Citizenship: The learner performs songs and folk songs drawn from different communities developing and appreciating cultural diversity",
+            "Critical thinking and problem solving: The learner listens to and discusses different messages in songs",
+            "Communication and Collaboration: The learner sings different types of songs expressively using appropriate gestures, facial expressions and diction to convey the message in the songs"
+          ],
+          "values": [
+            "Responsibility: The learner takes different roles in folk songs performance",
+            "Patriotism: The learner performs folk songs from diverse Kenyan communities and the East African Community Anthem"
+          ],
+          "pcis": [
+            "Social Cohesion: The learner performs with peers’ different types of folk songs drawn from diverse Kenyan communities"
+          ],
+          "links": [
+            "Indigenous Languages: The learner uses indigenous languages when singing songs drawn from different communities in Kenya"
+          ]
+        },
+        {
+          "number": "2.4",
+          "name": "Photography",
+          "lessons": 10,
+          "content": [
+            "Devices",
+            "Elements- light and centre of interest"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify digital devices for photography" },
+            { "id": "b", "text": "discuss elements of photography for familiarisation" },
+            { "id": "c", "text": "take photographs using digital devices" },
+            { "id": "d", "text": "enjoy taking photographs using digital devices" }
+          ],
+          "learningExperiences": [
+            "observe virtual and actual pictures to recognise devices for taking photographs",
+            "observe sample photographs to discuss lighting and centre of interest",
+            "source and set the digital devices for taking photographs",
+            "take photographs of self and objects within the surrounding focusing on; lighting and centre of interest",
+            "select photographs with proper lighting and centre of interest",
+            "show and talk about own and others photographs and share feedback"
+          ],
+          "keyInquiryQuestions": [
+            "Why is light important in photography?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking and problem solving: The learner selects to store photographs with proper lighting and centre of interest"
+          ],
+          "values": [
+            "Respect: The learner listens to and appreciate peers’ views during group discussions",
+            "Responsibility: The learner uses and cares for the digital devices during use"
+          ],
+          "pcis": [
+            "Social Cohesion: The learner works with peers to take photos of self and objects in the surroundings"
+          ],
+          "links": [
+            "Mathematics: The learner applies mathematical concepts, such as geometry and proportion",
+            "Science and Technology: The learner delves into the science behind digital imaging technologies, connecting scientific principles to the functioning of devices used in photography"
+          ]
+        },
+        {
+          "number": "2.5",
+          "name": "Descant Recorder",
+          "lessons": 15,
+          "content": [
+            "Parts: head joint, middle joint, foot joint, finger holes",
+            "Care: hygiene measures, handling and storage",
+            "Techniques: posture, fingering and blowing"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify the parts of a descant recorder for familiarisation" },
+            { "id": "b", "text": "care for a descant recorder for longevity" },
+            { "id": "c", "text": "play notes B A and G on a descant recorder using appropriate playing techniques" },
+            { "id": "d", "text": "play simple melodies based on notes B A and G on the descant recorder" },
+            { "id": "e", "text": "enjoy playing melodies using the descant recorder" }
+          ],
+          "learningExperiences": [
+            "familiarise with the descant recorder to identify its parts",
+            "brainstorm on ways of caring for a descant recorder and its importance",
+            "practise the techniques of playing a descant recorder",
+            "use digital devices responsibly to search and watch recordings/ watch live demonstrations on how to play notes B A and G on the descant recorder",
+            "play simple melodies based on B A and G on the descant recorder with accuracy in pitch and rhythm applying the playing techniques",
+            "watch peers play melodies on the descant recorder, critique and give feedback to peers for improvement"
+          ],
+          "keyInquiryQuestions": [
+            "How can a good tone be produced on the descant recorder?"
+          ],
+          "coreCompetencies": [
+            "Digital literacy: The learner uses digital devices to search and watch how to play notes on the descant recorder",
+            "Learning to learn: The learner searches for and acquires skills of how to play new notes on the descant recorder"
+          ],
+          "values": [
+            "Respect: The learner listens to and accommodates peers’ views during discussions",
+            "Responsibility: The learner takes care of the descant recorder during and after use"
+          ],
+          "pcis": [
+            "Communicable diseases: The learner prevents the spread of communicable diseases by observing hygiene measures in the use of the descant recorder",
+            "Social cohesion: The learner plays the descant recorder with peers in a group"
+          ],
+          "links": [
+            "Agriculture: The learner applies the concepts and knowledge learnt on prevention of communicable diseases in the use of the descant recorder"
+          ]
+        },
+        {
+          "number": "2.6",
+          "name": "Swimming (Optional)",
+          "lessons": 15,
+          "content": [
+            "Water entry",
+            "Water games",
+            "Floating technique- mushroom supine and prone",
+            "Gliding"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "recognise ways of water entry in the swimming pool" },
+            { "id": "b", "text": "play water games in the swimming pool for fun" },
+            { "id": "c", "text": "float in water for skill acquisition" },
+            { "id": "d", "text": "glide in water for water confidence" },
+            { "id": "e", "text": "appreciate safety in and out of the swimming pool while playing water games" }
+          ],
+          "learningExperiences": [
+            "visit the swimming pool for familiarisation and water orientation",
+            "demonstrate water entry into the pool",
+            "use feet first technique",
+            "collaboratively, engage in different water games while observing safety",
+            "demonstrate floating techniques",
+            "practise floating technique while observing safety",
+            "demonstrate gliding in water, observing safety",
+            "practise gliding",
+            "observe each other performing the glide and floating and provide feedback"
+          ],
+          "keyInquiryQuestions": [
+            "Why is Swimming an essential life skill?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: The learner builds confidence by floating in water",
+            "Learning to learn: The learner acquires the skills of pool entry and floating in water"
+          ],
+          "values": [
+            "Respect: The learner respects others' performance in floating and gliding in water",
+            "Responsibility: The learner observes own and others safety while performing and practising the water entry, floating and gliding"
+          ],
+          "pcis": [
+            "Safety and security: The learner adheres to water safety precautions while practising water entry, floating and gliding",
+            "Environmental awareness: The learner familiarises with the pool environment, safe use of water and pool hygiene"
+          ],
+          "links": [
+            "Science and Technology: The learner develops a practical understanding of correct body posture when floating and gliding"
+          ]
+        },
+        {
+          "number": "2.7",
+          "name": "Indigenous Kenyan Games (Optional)",
+          "lessons": 15,
+          "content": [
+            "Animal games"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify types of indigenous animal games played in Kenya" },
+            { "id": "b", "text": "perform different indigenous animal games for skill acquisition" },
+            { "id": "c", "text": "perform indigenous animal games to a musical rhythm for enjoyment" },
+            { "id": "d", "text": "appreciate the role played by animal games for fitness and health" }
+          ],
+          "learningExperiences": [
+            "watch a virtual or live demonstration of indigenous animal game and identify the skills observed",
+            "demonstrate different animal games while observing safety",
+            "practice different animal games while observing safety",
+            "practise different types of animal games while combining it with a musical rhythm"
+          ],
+          "keyInquiryQuestions": [
+            "How do indigenous animal games enhance physical fitness?",
+            "Why are animal games considered as indigenous activities?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: The learner works with others in playing animal games",
+            "Learning to learn: The learner acquires physical fitness skills while participating in animal games"
+          ],
+          "values": [
+            "Responsibility: The learner takes on different roles while playing animal games",
+            "Unity: The learner works with others while playing animal games"
+          ],
+          "pcis": [
+            "Safety: The learner observes safety rules when playing animal games",
+            "Health and Fitness: The learner improves fitness when playing animal games for a healthy lifestyle"
+          ],
+          "links": [
+            "Mathematics: The learner keeps counting during animal games",
+            "Agriculture: The learner's knowledge of different animals is enhanced during performance of animal games"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3.0",
+      "name": "Appreciation in Creative Arts",
+      "subStrands": [
+        {
+          "number": "3.1",
+          "name": "Analysis of Creative Arts Works",
+          "lessons": 15,
+          "content": [
+            "Making a portfolio",
+            "Concept of appreciation: appropriate behaviour, aesthetic, skills, message communicated, how to give feedback, care of displayed works",
+            "Kenya National Anthem; role, values, occasions and number of verses performed",
+            "Components of a folk song: community of origin Type/ occasion, Message, participants and their roles (soloist, instrumentalist, singers), instruments"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "explain the concept of appreciation in Creative Arts" },
+            { "id": "b", "text": "make a portfolio for presenting creative art works" },
+            { "id": "c", "text": "analyse the Kenya National Anthem to foster patriotism" },
+            { "id": "d", "text": "describe a Kenyan folk song performance using appropriate terminologies" },
+            { "id": "e", "text": "participate in games and sports within the school for enjoyment" },
+            { "id": "f", "text": "value appreciation of Creative Arts works drawn from various cultural backgrounds" }
+          ],
+          "learningExperiences": [
+            "research and brainstorm the concept of appreciation in Creative Arts",
+            "prepare a working/display portfolio from locally available resources",
+            "decorate by pasting coloured paper/fabric",
+            "present artwork in the portfolio",
+            "listen to/watch a performance of the three verses of the Kenya National Anthem and talk about its aspects",
+            "listen to or watch a live or recorded performance of a Kenyan folk song and analyse the components",
+            "participate in Netball, athletics, gymnastics, swimming/animal games for fun and for inter class/inter school championships",
+            "appreciate the performances with focus on; teamwork, safety for self and others"
+          ],
+          "keyInquiryQuestions": [
+            "What is the importance of analysis in Creative Arts?"
+          ],
+          "coreCompetencies": [
+            "Citizenship: The learner gets to appreciate Kenyan music as they listen to and analyse Kenyan National Anthem and folk songs",
+            "Learning to learn: The learner gets to interact with different type of Creative Arts works gaining new knowledge",
+            "Digital Literacy: The learner appreciates different works of art displayed through multimedia"
+          ],
+          "values": [
+            "Unity: The learner collaborates with others when analysing in groups the execution of sports skills",
+            "Respect: The learner appreciates others while analysing Creative Arts works in groups",
+            "Integrity: The learner observes sportsmanship during mini games",
+            "Patriotism: The learner develops the love for Kenya as they discuss aspects of the Kenya National Anthem"
+          ],
+          "pcis": [
+            "Health and safety: The learner participates in sports activities for enjoyment and fun",
+            "Social cohesion: The learner analyses in groups the execution of sports skills in inter class/inter school championships",
+            "Analytical and creative thinking: The learner analyses music and sports events and critiques art works",
+            "Cultural awareness: The learner analyses folk songs from different parts of the Kenya"
+          ],
+          "links": [
+            "Social Studies: The learner integrates with others while undertaking various tasks in groups",
+            "English: The learner enhances their listening and speaking skills in English while discussing the music listened to"
+          ]
+        }
+      ]
+    }
+  ]
+}

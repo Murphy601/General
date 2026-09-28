@@ -1,0 +1,197 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "1.4.2",
+  "title": "Sarufi: Vitenzi",
+  "overview": "Vitenzi ni maneno yanayoonyesha vitendo tunavyofanya. Utajifunza kuvitofautisha na nomino, kuvitambua katika orodha na sentensi, na kuvitumia unapozungumza kuhusu kazi za nyumbani. Matumizi sahihi ya vitenzi hufanya ujumbe wako ueleweke.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya kitenzi na jinsi ya kukitambua",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya kitenzi.",
+        "Kutofautisha vitenzi na nomino.",
+        "Kutambua vitenzi katika orodha, picha na sentensi."
+      ],
+      "intro": "Asubuhi unaamka, unaoga, unakula na unakwenda shuleni. Maneno amka, oga, kula na kwenda yanaeleza unachofanya. Hayataji jina la mtu wala cha kiti. Maneno ya aina hiyo ndiyo vitenzi.",
+      "notes": "### Kitenzi ni nini?\nKitenzi ni neno linaloonyesha tendo katika sentensi. Tendo linaweza kuwa la mwili, kama kimbia na andika, au la hali, kama furahi na lala. Wingi wa kitenzi ni vitenzi.\n\nNomino hutaja jina. Kitenzi huonyesha kinachofanyika. Katika sentensi Mtoto anasoma kitabu, anasoma ni kitenzi. Mtoto na kitabu ni nomino.\n\n### Mifano ya kila siku\nKazi za nyumbani hutupa vitenzi vingi: amka, nawa, oga, vaa, kula, safisha, pika, pangusa, fagia, soma, cheza, lala na amkua. Shuleni tunatumia andika, soma, sikiliza, jibu na shiriki.\n\nKatika picha, tendo huonekana. Mtu aliyeshika ufagio anafagia. Mtu aliyeshika kalamu anaandika. Mtu anayetabasamu anaonyesha furaha; tabasamu hapa ni kitendo.\n\n### Kutambua katika orodha\nOrodha: mbwa, sema, kiti, andika, soma, darasa, shule, amkua, cheza, lia, furahi, mwalimu, kimbia.\n\nVitenzi ni: sema, andika, soma, amkua, cheza, lia, furahi, kimbia. Nomino ni: mbwa, kiti, darasa, shule, mwalimu.\n\nUliza: Je, naweza kufanya jambo hili? Ukisema naweza sema, naweza kimbia, au naweza furahi, neno hilo ni kitenzi. Huwezi kusema naweza kiti.\n\nVitenzi hubadilika kidogo kulingana na wakati. Soma linakuwa anasoma sasa, alisoma jana, na atasoma kesho. Mzizi bado ni soma.",
+      "keyWords": [
+        { "word": "kitenzi", "meaning": "neno linaloonyesha tendo katika sentensi" },
+        { "word": "tendo", "meaning": "jambo linalofanyika, kama kula au kuandika" },
+        { "word": "mzizi", "meaning": "sehemu ya msingi ya kitenzi, kama soma katika anasoma" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua vitenzi: lala, meza, fagia, sebule, pika.",
+          "steps": ["Ondoa majina ya vitu na mahali.", "Bakia na maneno ya kutenda."],
+          "answer": "lala, fagia, pika",
+          "check": null
+        },
+        {
+          "problem": "Katika sentensi Dada anapangusa meza, kitenzi ni kipi?",
+          "steps": ["Dada na meza ni nomino.", "Anapangusa ndicho kitendo."],
+          "answer": "anapangusa",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Igiza kitenzi, wenzako wakitegue",
+        "materials": ["Kadi za maneno", "Picha au michoro ya vitendo", "Kapu"],
+        "steps": [
+          "Jadilini kwa amani: kitenzi ni nini, na kinatofautianaje na nomino?",
+          "Chomoeni kadi kwenye kapu. Ikiwa ni kitenzi, kiigize bila kukitaja.",
+          "Wenzako wakitaje kitenzi walichokiona, kwa mfano fagia au soma.",
+          "Angalieni picha na mwandike vitendo vinavyoonekana.",
+          "Tenganisheni kadi za vitenzi na kadi za nomino katika makundi mawili."
+        ]
+      },
+      "practice": [
+        { "question": "Kitenzi ni nini?", "answer": "Ni neno linaloonyesha tendo katika sentensi.", "check": null },
+        { "question": "Tambua vitenzi katika orodha: cheza, kiti, lia, shule, andika.", "answer": "cheza, lia, andika", "check": null },
+        { "question": "Kitenzi katika sentensi Juma alikimbia uwanjani ni kipi?", "answer": "alikimbia", "check": null },
+        { "question": "Andika mzizi wa vitenzi hivi: anasoma, alisoma, atasoma.", "answer": "soma", "check": null }
+      ],
+      "summary": [
+        "Kitenzi huonyesha tendo; nomino hutaja jina.",
+        "Unaweza kukitambua kwa kuuliza kama neno linaweza kutendwa.",
+        "Mzizi hubaki hata wakati unapobadilika: soma, anasoma, alisoma."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia vitenzi katika mawasiliano",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa kitenzi kinachofaa.",
+        "Kutunga sentensi kuhusu kazi za nyumbani.",
+        "Kuthamini vitenzi katika mazungumzo ya kila siku."
+      ],
+      "intro": "Kujua kuwa fagia ni kitenzi hakutoshi. Unahitaji kukiweka katika sentensi inayomwambia mtu aliyefagia, na lini. Leo utajaza nafasi na kutunga sentensi za kazi unazozifanya nyumbani.",
+      "notes": "### Kujaza nafasi\nKitenzi kinachojaza nafasi lazima kiendane na mtendaji na wakati.\n\n- Amina ____ deki kila jioni. Kitenzi kinachofaa ni hupiga au anapiga, si meza.\n- Jana tuli____ mikono kabla ya kula. Kitenzi kinachofaa ni **tulinawa** au **tuliosha**.\n\nTumia:\n- sasa: anapika, wanasoma\n- jana: alipika, walisoma\n- kesho: atapika, watasoma\n\nUsichanganye: Watoto anasoma ni kosa. Watoto ni wingi, hivyo wanasoma.\n\n### Kutunga kuhusu nyumbani\n- Asubuhi ninaamka na kuosha uso.\n- Mama anapika chakula jikoni.\n- Tunafagia sebule baada ya kula.\n- Baba alisoma gazeti jioni.\n\nKila sentensi ina mtendaji na kitenzi. Heshima inaonekana katika tendo pia: tunaamkua wazee, tunaomba ruhusa, hatudanganyi.\n\n### Fahari ya kuvitumia\nVitenzi sahihi hukuonyesha unajua kufanya na kueleza kazi zako. Unapoigiza au kuandika, chagua neno linalofaa tendo halisi. Kusafisha si kucheza. Kuamkua si kukaripia.\n\nMsomee mwenzako sentensi zako. Akionyesha kosa, mrekebishe pamoja bila dhihaka. Kazi hii hujenga amani darasani na hukufanya ujue lugha yako kwa fahari.",
+      "keyWords": [
+        { "word": "mtendaji", "meaning": "aliyefanya tendo, kama Amina katika Amina anapika" },
+        { "word": "wakati", "meaning": "muda wa tendo: sasa, jana au kesho" },
+        { "word": "kujaza nafasi", "meaning": "kuweka kitenzi kinachofaa katika pengo" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza nafasi: Watoto ____ mikono kabla ya kula.",
+          "steps": ["Watoto ni wingi, hivyo kitenzi kinaanza na wa-.", "Tendo la sasa ni kunawa au kuosha."],
+          "answer": "Watoto wananawa mikono kabla ya kula.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: Mama wanasoma kitabu.",
+          "steps": ["Mama ni mmoja.", "Kitenzi cha mmoja kwa wakati wa sasa ni anasoma."],
+          "answer": "Mama anasoma kitabu.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sentensi za kazi za nyumbani",
+        "materials": ["Daftari", "Kadi za vitenzi", "Kifaa cha kidijitali panapopatikana"],
+        "steps": [
+          "Chagueni vitenzi vitano vinavyohusu nyumbani, kama fagia, pika, nawa, lala na amkua.",
+          "Jazeni nafasi katika sentensi alizoandika mwalimu ubaoni.",
+          "Kila mwanafunzi atunge sentensi tatu daftarini au mtandaoni kwa ruhusa.",
+          "Msomeane sentensi na mtoe maoni kwa heshima: mtendaji na wakati vimepatana?",
+          "Rekebisha sentensi moja iliyokuwa na kosa na uisoma tena."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza nafasi: Jana Amina ____ sebule.", "answer": "Mfano: Jana Amina alifagia sebule.", "check": null },
+        { "question": "Sahihisha kosa: Watoto anapika chai.", "answer": "Watoto wanapika chai.", "check": null },
+        { "question": "Tunga sentensi ukitumia kitenzi amkua.", "answer": "Mfano: Tunawaamkua wazee tunapoingia nyumbani.", "check": null },
+        { "question": "Kwa nini vitenzi ni muhimu katika mawasiliano?", "answer": "Hueleza kitendo kilichofanyika ili msikilizaji aelewe, si kutaja majina tu.", "check": null }
+      ],
+      "summary": [
+        "Kitenzi kiendane na mtendaji na wakati.",
+        "Mmoja anatumia a- kama anasoma; wingi unatumia wa- kama wanasoma.",
+        "Vitenzi sahihi hueleza kazi za nyumbani kwa heshima na uwazi."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kitenzi ni nini?",
+      "options": ["neno la kutaja mahali", "neno linaloonyesha tendo", "kichwa cha insha", "mguu wa samani"],
+      "answer": "B",
+      "explanation": "Kitenzi huonyesha kitendo katika sentensi.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Lipi kati ya haya ni kitenzi?",
+      "options": ["meza", "fagia", "sebule", "kinu"],
+      "answer": "B",
+      "explanation": "Fagia ni tendo. Mengine ni nomino.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Katika orodha: kiti, soma, mbwa, kimbia, ni vitenzi vipi?",
+      "options": ["kiti na mbwa", "soma na kimbia", "mbwa na kimbia", "kiti na soma"],
+      "answer": "B",
+      "explanation": "Soma na kimbia ni vitendo. Kiti na mbwa ni nomino.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kitenzi katika sentensi Mama anapika ugali ni kipi?",
+      "options": ["Mama", "anapika", "ugali", "ni"],
+      "answer": "B",
+      "explanation": "Anapika ndicho tendo. Mama na ugali ni nomino.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Mzizi wa anasoma, alisoma na atasoma ni upi?",
+      "options": ["ana", "soma", "sasa", "kitabu"],
+      "answer": "B",
+      "explanation": "Soma ndicho kitenzi cha msingi. Ana, ali na ata huonyesha wakati.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi iko sahihi?",
+      "options": ["Watoto anasoma.", "Watoto wanasoma.", "Watoto wanasoma meza tu bila kitenzi.", "Anasoma watoto kitabu jana kesho."],
+      "answer": "B",
+      "explanation": "Watoto ni wingi, hivyo tunasema wanasoma.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Jaza ipasavyo: Jana baba ____ gazeti.",
+      "options": ["anasoma", "alisoma", "watasoma", "meza"],
+      "answer": "B",
+      "explanation": "Jana huonyesha wakati uliopita, na baba ni mmoja: alisoma.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sahihisha: Dada wanapiga deki.",
+      "answer": "Dada anapiga deki.",
+      "explanation": "Dada ni mmoja, hivyo kitenzi ni anapiga si wanapiga.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Tunga sentensi ukitumia kitenzi nawa.",
+      "answer": "Mfano: Watoto wananawa mikono kabla ya kula.",
+      "explanation": "Nawa limetumika kuonyesha tendo la kusafisha mikono.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tujivunie kutumia vitenzi sahihi?",
+      "answer": "Kwa sababu hueleza vitendo vizuri na kufanya mawasiliano yawe wazi na ya heshima.",
+      "explanation": "Kitenzi sahihi humsaidia msikilizaji kuelewa kilichofanyika.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 1.0 Nyumbani, Mada Ndogo 1.4.2 Sarufi: Vitenzi",
+    "KICD Kiswahili Gredi ya 4, kipindi cha redio: Vitenzi"
+  ]
+}

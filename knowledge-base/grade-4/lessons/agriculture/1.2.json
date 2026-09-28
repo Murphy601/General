@@ -1,0 +1,296 @@
+{
+  "subject": "AGRICULTURE",
+  "subStrand": "1.2",
+  "title": "Water Conservation",
+  "overview": "Water is scarce in many places, and crops need it to grow. In this sub-strand you will learn how drip irrigation gives water to crops a little at a time, make simple drip irrigation equipment from pipes and containers, use it to water crops, and see how it saves water.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What is drip irrigation?",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain what irrigation and drip irrigation are.",
+        "Describe how drip irrigation saves water."
+      ],
+      "intro": "When you pour a whole bucket of water on a garden bed, some of it runs off, some soaks deep below the roots and some dries up in the sun. Is there a way to give each plant just the water it needs?",
+      "notes": "Irrigation is giving water to crops when there is not enough rain. People irrigate in many ways, for example using a watering can, a hosepipe, a furrow that carries water along the ground, or sprinklers.\n\n### Drip irrigation\nDrip irrigation is a way of watering crops where water falls slowly, drop by drop, onto the soil right next to each plant. The water soaks into the soil around the roots, where the plant needs it.\n\nA simple drip irrigation system has:\n\n- A water container, such as a tank, drum or bucket, raised above the ground\n- Pipes that carry water from the container along the rows of crops\n- Small holes or drippers (emitters) in the pipes, one next to each plant\n- A tap or valve to open and close the flow of water\n\nThe container is raised so that water flows down the pipes on its own. This flow caused by the pull of the earth is called gravity flow.\n\n### How drip irrigation conserves water\n- Water goes only to the roots of the crop, not to the spaces between plants.\n- Water drips slowly, so it soaks in and does not run off the surface.\n- Less water is left on the surface to dry up in the sun.\n- Weeds between the rows get little water, so there is less weeding.\n\nBecause of this, a farmer using drip irrigation can grow crops with much less water than when pouring or flooding. You may see drip irrigation in neighbouring farms, in greenhouses or in pictures and videos.",
+      "keyWords": [
+        { "word": "irrigation", "meaning": "giving water to crops by people when rain is not enough" },
+        { "word": "drip irrigation", "meaning": "watering crops slowly, drop by drop, at the roots of each plant" },
+        { "word": "emitter", "meaning": "a small opening or dripper that lets water out drop by drop" }
+      ],
+      "examples": [
+        {
+          "problem": "Why does the water container in a drip irrigation system need to be raised above the ground?",
+          "steps": ["Water flows from a high place to a low place.", "A raised container lets water flow down the pipes without pumping."],
+          "answer": "So that water flows down through the pipes by gravity.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Observing drip irrigation",
+        "materials": ["Pictures, print media or video clips of drip irrigation", "Exercise book"],
+        "steps": [
+          "Watch a video clip or study pictures of drip irrigation, or visit a neighbouring farm that uses it, with your teacher.",
+          "Draw the system and label the container, pipes, drippers and tap.",
+          "In groups, discuss how the water moves from the container to the plants.",
+          "Share one way the system saves water."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 220\" font-family=\"sans-serif\"><rect width=\"460\" height=\"220\" fill=\"#ffffff\"/><line x1=\"0\" y1=\"190\" x2=\"460\" y2=\"190\" stroke=\"#a16207\" stroke-width=\"3\"/><rect x=\"30\" y=\"40\" width=\"60\" height=\"70\" fill=\"#93c5fd\" stroke=\"#1e3a8a\" stroke-width=\"2\"/><line x1=\"40\" y1=\"110\" x2=\"40\" y2=\"190\" stroke=\"#78350f\" stroke-width=\"4\"/><line x1=\"80\" y1=\"110\" x2=\"80\" y2=\"190\" stroke=\"#78350f\" stroke-width=\"4\"/><path d=\"M60 110 L60 175 L440 175\" fill=\"none\" stroke=\"#111827\" stroke-width=\"4\"/><rect x=\"54\" y=\"125\" width=\"12\" height=\"8\" fill=\"#dc2626\"/><g fill=\"#16a34a\"><path d=\"M150 175 l-10 -30 l10 12 l10 -12 z\"/><path d=\"M240 175 l-10 -30 l10 12 l10 -12 z\"/><path d=\"M330 175 l-10 -30 l10 12 l10 -12 z\"/><path d=\"M420 175 l-10 -30 l10 12 l10 -12 z\"/></g><g fill=\"#2563eb\"><circle cx=\"140\" cy=\"183\" r=\"3\"/><circle cx=\"230\" cy=\"183\" r=\"3\"/><circle cx=\"320\" cy=\"183\" r=\"3\"/><circle cx=\"410\" cy=\"183\" r=\"3\"/></g><g font-size=\"12\" fill=\"#111827\"><text x=\"20\" y=\"30\">raised container</text><text x=\"72\" y=\"133\">tap</text><text x=\"180\" y=\"210\">pipe with a dripper next to each plant</text></g></svg>",
+        "caption": "A simple gravity drip irrigation system"
+      },
+      "practice": [
+        { "question": "What is drip irrigation?", "answer": "Watering crops slowly, drop by drop, at the roots of each plant.", "check": null },
+        { "question": "Name the four main parts of a simple drip irrigation system.", "answer": "A raised water container, pipes, drippers or small holes, and a tap.", "check": null },
+        { "question": "Give two reasons why drip irrigation uses less water than pouring water on a bed.", "answer": "Any two: water goes only to the roots, it does not run off, less water dries up on the surface, weeds get little water.", "check": null }
+      ],
+      "summary": [
+        "Irrigation is giving water to crops when rain is not enough.",
+        "Drip irrigation drops water slowly next to each plant.",
+        "It saves water because little is lost to run-off, drying up or weeds."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Making simple drip irrigation equipment",
+      "outcomes": ["b"],
+      "objectives": [
+        "Make a bottle drip for a single plant.",
+        "Make a bucket and pipe drip system for a row of plants."
+      ],
+      "intro": "You do not need to buy expensive equipment to water crops drop by drop. Old plastic bottles, a bucket and a piece of pipe can be turned into a working drip system.",
+      "notes": "Innovate means to come up with a new way of doing something using what you have. Here are two drip systems you can make.\n\n### A. Bottle drip\nMaterials: an empty plastic bottle with its cap, a thin nail, string or wire and a stick.\n\n1. Wash the bottle.\n2. An adult makes one very small hole in the cap with a thin nail.\n3. Fill the bottle with water and close the cap.\n4. Hang the bottle upside down on a stick next to the plant, or bury it cap-down in the soil beside the plant, leaving the bottom above the ground.\n5. Watch the water come out drop by drop. If it runs out too fast, the hole is too big; use a new cap with a smaller hole.\n\nSome farmers cut off the bottom of the bottle so that it is easy to refill.\n\n### B. Bucket and pipe drip\nMaterials: a bucket or container with a lid, a piece of pipe or hosepipe long enough to reach along a row, a stand made of poles or a table, a thin nail, and a small stick or cork to block the end of the pipe.\n\n1. An adult makes a hole near the bottom of the bucket and fixes one end of the pipe into it tightly so that it does not leak.\n2. Block the other end of the pipe.\n3. Lay the pipe along the row of crops and mark where each plant is.\n4. Make a small hole in the pipe next to each plant.\n5. Put the bucket on the raised stand, fill it with water and cover it to keep out dirt.\n6. Water flows into the pipe and drips out beside each plant.\n\n### Safety\nNails, knives and pangas are sharp. Let an adult make holes and cut pipes, handle tools carefully and keep them in a safe place after use.",
+      "keyWords": [
+        { "word": "innovate", "meaning": "to make something new or find a new way of doing something" },
+        { "word": "stand", "meaning": "a raised support on which the container is placed" }
+      ],
+      "examples": [
+        {
+          "problem": "Akinyi's bottle drip empties in two minutes. What is wrong and how can she fix it?",
+          "steps": ["Water should come out slowly, drop by drop.", "If it empties fast, the hole is too big."],
+          "answer": "The hole is too big. She should use a cap with a smaller hole.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Group drip irrigation project",
+        "materials": ["Plastic bottles with caps", "Bucket", "Old pipe or hosepipe", "Poles for a stand", "Thin nails", "String", "Water"],
+        "steps": [
+          "In groups, decide whether to make bottle drips or a bucket and pipe system.",
+          "Give each member a task: collecting materials, measuring the pipe, building the stand or testing.",
+          "With an adult making the holes, assemble your drip system.",
+          "Fill with water and test that the water comes out drop by drop without leaking at the joints.",
+          "Show your equipment to another group and explain how it works."
+        ]
+      },
+      "practice": [
+        { "question": "List three materials you need to make a bottle drip.", "answer": "Any three: plastic bottle, cap, thin nail, string or wire, stick, water.", "check": null },
+        { "question": "Why should the bucket in a drip system be covered?", "answer": "To keep dirt out so the small holes do not get blocked.", "check": null },
+        { "question": "Why is the far end of the pipe blocked?", "answer": "So that water comes out only through the small holes next to the plants.", "check": null }
+      ],
+      "summary": [
+        "A bottle drip waters one plant; a bucket and pipe system waters a row.",
+        "Holes must be small so water drips slowly.",
+        "Let an adult handle nails and cutting tools."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Watering crops with drip irrigation",
+      "outcomes": ["b"],
+      "objectives": [
+        "Use drip irrigation equipment to water crops.",
+        "Look after drip irrigation equipment."
+      ],
+      "intro": "Your drip equipment is ready. Now it must do its job in the garden every day, and it must be kept working well.",
+      "notes": "### Setting up in the garden\n- Place each dripper or bottle close to the base of a plant so that water reaches the roots.\n- Make sure the container stays raised above the level of the crops.\n- Spread mulch, such as dry grass, on the soil around the plants. Mulch covers the wet soil and slows down drying, so water lasts longer.\n\n### When and how much to water\n- Fill the container in the morning or evening. Less water dries up when the sun is not hot.\n- Check the soil near a plant with your finger. If it is damp a few centimetres down, the plant has enough water.\n- Refill the container before it runs dry, especially during hot, dry weather.\n\n### Caring for the equipment\n- Use clean water, because dirt blocks the small holes.\n- If a hole stops dripping, clear it gently with a thin wire or pin.\n- Check joints for leaks and fix them with tape or a tighter fit.\n- Keep the container covered.\n- Do not step on the pipes or leave them where animals can damage them.\n- After the season, drain and store the pipes in a shaded place.\n\n### Keeping a record\nWrite down how many litres of water you put in the container each day. At the end of the week, add them up. This helps you see how much water the crops really need.",
+      "keyWords": [
+        { "word": "mulch", "meaning": "dry grass, leaves or other material spread on the soil to keep it moist" },
+        { "word": "blocked", "meaning": "closed so that water cannot pass" }
+      ],
+      "examples": [
+        {
+          "problem": "A group fills their drip bucket with 5 litres of water each day for 7 days. How much water did they use in the week?",
+          "steps": ["Water per day = 5 litres", "Water in 7 days = 5 × 7"],
+          "answer": "35 litres",
+          "check": "5*7 === 35"
+        }
+      ],
+      "activity": {
+        "title": "Drip watering duty",
+        "materials": ["Drip equipment made in the last lesson", "Crops in the school garden or in containers", "Dry grass for mulch", "Record sheet"],
+        "steps": [
+          "Set up your drip equipment next to the crops and mulch around them.",
+          "Take turns to fill the container each morning or evening.",
+          "Record the amount of water and check the soil moisture with your finger.",
+          "Clear any blocked holes and report leaks to your group.",
+          "After a week, share your records with the class."
+        ]
+      },
+      "practice": [
+        { "question": "Why should the drip container be filled in the morning or evening?", "answer": "Less water dries up when the sun is not hot.", "check": null },
+        { "question": "How can you clear a blocked dripper hole?", "answer": "Gently push a thin wire or pin through the hole.", "check": null },
+        { "question": "Why is mulch used together with drip irrigation?", "answer": "It covers the wet soil and slows down drying, so the water lasts longer.", "check": null }
+      ],
+      "summary": [
+        "Put drippers close to the plant roots and mulch the soil.",
+        "Water in the morning or evening and check soil moisture.",
+        "Use clean water, clear blocked holes and fix leaks."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Why drip irrigation matters in farming",
+      "outcomes": ["c"],
+      "objectives": [
+        "Explain the benefits of drip irrigation to farmers.",
+        "State some challenges of drip irrigation and how to solve them."
+      ],
+      "intro": "In dry months, water tanks and rivers get low. A farmer who uses water carefully can keep crops alive and still have water for the family and animals.",
+      "notes": "### Benefits of drip irrigation\n- Saves water. Water goes straight to the roots, so the same amount of water can grow more crops.\n- Crops can grow in the dry season. Farmers can grow vegetables when there is little rain and sell them when prices are good.\n- Less weeding. The spaces between rows stay dry, so fewer weeds grow.\n- Saves labour. Once the container is filled, the water flows on its own. There is no need to carry water to every plant.\n- Soil is not washed away. Water drips gently and does not wash away topsoil.\n- Leaves stay dry. Water goes to the soil, not the leaves, which helps reduce some plant diseases.\n- Uses waste materials. Simple systems can be made from old bottles, buckets and pipes.\n\n### Challenges and solutions\n- Holes get blocked by dirt. Use clean water and cover the container.\n- Pipes can be damaged by animals, sun or people stepping on them. Lay them carefully and store them after use.\n- Someone must refill the container regularly. Share duties so the crops are never left dry.\n\n### Water conservation at home and school\nDrip irrigation is one way of conserving water. Other ways include harvesting rainwater from roofs, fixing leaking taps, mulching and reusing clean water from washing vegetables to water plants. When we conserve water, there is enough for drinking, cooking, animals and crops.",
+      "keyWords": [
+        { "word": "conserve", "meaning": "to use something carefully so that it is not wasted" },
+        { "word": "labour", "meaning": "work done by people" }
+      ],
+      "examples": [
+        {
+          "problem": "Watering a bed with a watering can used 20 litres a day. A drip system for the same bed used 8 litres a day. How much water was saved each day?",
+          "steps": ["Water saved = 20 − 8"],
+          "answer": "12 litres",
+          "check": "20 - 8 === 12"
+        }
+      ],
+      "activity": {
+        "title": "Presentation on drip irrigation",
+        "materials": ["Your drip irrigation records", "Manila paper", "Markers"],
+        "steps": [
+          "In your group, list the benefits you saw while using drip irrigation.",
+          "List any problems you met and how you solved them.",
+          "Make a poster titled 'Drip irrigation saves water'.",
+          "Present the poster to the class."
+        ]
+      },
+      "practice": [
+        { "question": "Give three benefits of drip irrigation to a farmer.", "answer": "Any three: saves water, crops grow in dry season, less weeding, saves labour, soil not washed away, leaves stay dry, uses cheap materials.", "check": null },
+        { "question": "State one challenge of drip irrigation and how it can be solved.", "answer": "Example: holes get blocked; use clean water and cover the container.", "check": null },
+        { "question": "Name two other ways of conserving water at home or school.", "answer": "Any two: harvesting rainwater, fixing leaking taps, mulching, reusing clean water to water plants.", "check": null }
+      ],
+      "summary": [
+        "Drip irrigation saves water, labour and soil.",
+        "It lets farmers grow crops even in dry weather.",
+        "Keep the water clean and the pipes safe to avoid problems."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Comparing ways of watering crops",
+      "outcomes": ["a"],
+      "objectives": [
+        "Describe watering with a can, watering along a furrow, and drip irrigation.",
+        "Explain why drip irrigation conserves more water than flooding a bed."
+      ],
+      "intro": "A learner with a watering can, a farmer leading water along a small channel, and a pipe dripping beside each plant are all irrigating. The difference is how much water reaches the roots and how much is wasted.",
+      "notes": "Crops need water, but the way we give it changes how much is lost.\n\n### Watering can\nA watering can is useful for a few pots or a small bed. You carry water to each plant. Some water lands on leaves and paths, and some runs off if you pour too fast. Carrying many cans is tiring when the garden is large or the tap is far away.\n\n### Furrow or flooding\nIn furrow irrigation, water is led along a small channel between the rows. Flooding covers most of the bed. These ways can water many plants at once, but a lot of water sinks below the roots, runs off the edge or wets the paths. Bare wet soil also loses water quickly to the sun, and the flow can wash away topsoil.\n\n### Drip irrigation\nIn drip irrigation a raised container, pipes and small holes give water drop by drop beside each plant. The soil around the roots becomes moist while the paths stay drier. Less water runs off, less is lost to the sun, and fewer weeds grow between the rows.\n\n### Choosing the careful way\nAll three methods can keep crops alive. Drip irrigation is the careful choice when water is scarce, because each drop is aimed at the roots. A bottle drip suits one plant. A bucket and pipe suit a row. Watching a video, a picture or a neighbouring garden helps you see the container, the pipe and the wet circle of soil at each plant.\n\nWhen you describe drip irrigation, say what it is and how it conserves water. It is slow watering at the roots, so little water is wasted.",
+      "keyWords": [
+        { "word": "furrow", "meaning": "a small channel that leads water between rows of crops" },
+        { "word": "run-off", "meaning": "water that flows away on the surface instead of soaking in" },
+        { "word": "gravity", "meaning": "the pull that makes water flow from a high place to a low place" }
+      ],
+      "examples": [
+        {
+          "problem": "A bed watered by flooding used 30 litres. The same bed on drip irrigation used 12 litres and the crops stayed healthy. How many litres were saved?",
+          "steps": ["Subtract the drip amount from the flooding amount.", "30 − 12 = 18"],
+          "answer": "18 litres",
+          "check": "30 - 12 === 18"
+        }
+      ],
+      "activity": {
+        "title": "Three ways, one cup of water",
+        "materials": ["Three small trays of dry soil", "A cup", "A bottle cap with a tiny hole", "Pictures or a short video of drip irrigation"],
+        "steps": [
+          "Watch a short clip or study a picture of drip irrigation and name the container, pipe and dripper.",
+          "On tray 1, pour the water quickly in one place, like a flood.",
+          "On tray 2, pour along a small groove, like a furrow.",
+          "On tray 3, let water drip from a bottle cap onto one spot.",
+          "Compare how far the water spreads and where the soil is wettest. Discuss which way wastes the least water."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 160\" font-family=\"sans-serif\"><rect width=\"480\" height=\"160\" fill=\"#ffffff\"/><g font-size=\"13\" fill=\"#111827\"><text x=\"40\" y=\"20\">Watering can</text><text x=\"190\" y=\"20\">Furrow</text><text x=\"340\" y=\"20\">Drip</text></g><rect x=\"20\" y=\"40\" width=\"130\" height=\"80\" fill=\"#fde68a\" stroke=\"#a16207\"/><ellipse cx=\"85\" cy=\"80\" rx=\"40\" ry=\"18\" fill=\"#93c5fd\" opacity=\"0.8\"/><rect x=\"170\" y=\"40\" width=\"130\" height=\"80\" fill=\"#fde68a\" stroke=\"#a16207\"/><rect x=\"185\" y=\"70\" width=\"100\" height=\"16\" fill=\"#60a5fa\"/><rect x=\"320\" y=\"40\" width=\"140\" height=\"80\" fill=\"#fde68a\" stroke=\"#a16207\"/><circle cx=\"360\" cy=\"90\" r=\"10\" fill=\"#93c5fd\"/><circle cx=\"410\" cy=\"90\" r=\"10\" fill=\"#93c5fd\"/><line x1=\"340\" y1=\"55\" x2=\"430\" y2=\"55\" stroke=\"#111827\" stroke-width=\"3\"/><line x1=\"360\" y1=\"55\" x2=\"360\" y2=\"78\" stroke=\"#2563eb\" stroke-width=\"2\"/><line x1=\"410\" y1=\"55\" x2=\"410\" y2=\"78\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"24\" y=\"140\" font-size=\"11\" fill=\"#111827\">wets a wide area</text><text x=\"174\" y=\"140\" font-size=\"11\" fill=\"#111827\">fills a channel</text><text x=\"330\" y=\"140\" font-size=\"11\" fill=\"#111827\">wet circles at roots</text></svg>",
+        "caption": "The same garden can be watered widely, along a furrow, or drop by drop at the roots"
+      },
+      "practice": [
+        { "question": "What is the difference between furrow irrigation and drip irrigation?", "answer": "Furrow irrigation leads water along a channel between rows. Drip irrigation gives water slowly, drop by drop, beside each plant.", "check": null },
+        { "question": "Give two ways water is wasted when a bed is flooded.", "answer": "Any two: water runs off, water sinks below the roots, water dries from the wide wet surface, water wets paths and weeds.", "check": null },
+        { "question": "Why is drip irrigation described as a way of conserving water?", "answer": "Water goes to the roots of the crop, so less is lost to run-off, drying and weeds.", "check": null }
+      ],
+      "summary": [
+        "A watering can, a furrow and drip irrigation all give water to crops.",
+        "Flooding and furrows wet a wide area and can waste water.",
+        "Drip irrigation wets the soil at the roots and conserves water."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Running a drip irrigation duty in the garden",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Use and maintain a simple drip system while watering crops.",
+        "Present how drip irrigation conserves water in farming."
+      ],
+      "intro": "A drip system only conserves water if someone fills it, checks the drips and keeps the holes clear. That daily care is part of the farming skill, not an extra chore.",
+      "notes": "Set the container above the crops so water flows by itself. Lay the pipe along the row, with one small hole or bottle drip beside each plant. Cover the wet soil with dry grass so the sun does not dry it at once. Fill the container in the morning or in the evening.\n\n### Sharing the work\nWrite a duty list. Each day one pair fills the container, one learner checks that every plant is getting a drip, and one learner looks for leaks. Responsibility means doing your task even when the teacher is not watching. If you are absent, tell your partner so the crops are not left dry.\n\n### Fixing small problems\nIf a hole stops dripping, the dirt in it is the usual cause. Clear it gently with a thin wire and use cleaner water next time. If water leaks at a joint, push the pipe in more firmly or seal it. If the bottle empties in a rush, the hole is too big and needs a smaller one. An adult should make any new holes with a nail. Keep tools in a safe place and do not leave nails on the ground.\n\n### Showing what you have learned\nKeep a simple record: date, amount of water added, and whether the soil at the roots was damp. After several days, compare this with how much a watering can used on a similar bed. Then tell the class what you found. A clear explanation helps others appreciate drip irrigation: it saves water, saves carrying, and keeps crops growing when rain is little.\n\nWater saved in the garden is water still available for drinking, cooking and animals. That is why the drip project is water conservation, not only a science model.",
+      "keyWords": [
+        { "word": "duty", "meaning": "a task you are responsible for doing" },
+        { "word": "maintenance", "meaning": "the care that keeps equipment working" },
+        { "word": "record", "meaning": "a written note of what was done and what was observed" }
+      ],
+      "examples": [
+        {
+          "problem": "A drip bucket is filled with 4 litres each morning for 5 days. How much water is used?",
+          "steps": ["Multiply litres per day by the number of days.", "4 × 5 = 20"],
+          "answer": "20 litres",
+          "check": "4*5 === 20"
+        }
+      ],
+      "activity": {
+        "title": "Garden drip duty and report",
+        "materials": ["Drip equipment made earlier", "Clean water", "Dry grass for mulch", "Record sheet", "Manila paper"],
+        "steps": [
+          "Set the drip equipment beside crops in the garden or in containers and mulch the wet spots.",
+          "Share duties for filling, checking drips and looking for leaks. An adult handles any new holes.",
+          "Each day, record the water used and whether the soil at the roots is damp.",
+          "Clear blocked holes and repair leaks you can fix safely.",
+          "Present to the class how your drip system conserved water compared with pouring."
+        ]
+      },
+      "practice": [
+        { "question": "Why should a drip container be filled in the morning or evening?", "answer": "Less water is lost by drying when the sun is not hot.", "check": null },
+        { "question": "A hole has stopped dripping. What is the likely cause and what should you do?", "answer": "Dirt is blocking the hole. Clear it gently with a thin wire and use clean water.", "check": null },
+        { "question": "Give two reasons a farmer should appreciate drip irrigation.", "answer": "Any two: it saves water, crops can grow in dry weather, it saves labour, fewer weeds grow, soil is not washed away.", "check": null }
+      ],
+      "summary": [
+        "Place drippers at the roots, mulch, and fill the container morning or evening.",
+        "Share duties, use clean water and clear blocked holes safely.",
+        "Records and a class report show how drip irrigation conserves water."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "What is drip irrigation?", "options": ["Flooding a whole field with water", "Watering crops drop by drop at the roots", "Spraying water high into the air", "Waiting for rain"], "answer": "B", "explanation": "In drip irrigation water drips slowly next to each plant.", "outcome": "a" },
+    { "question": "In a gravity drip system, why is the water container raised?", "options": ["To keep it cool", "So water flows down the pipes on its own", "So animals cannot drink", "To make it look nice"], "answer": "B", "explanation": "Water flows from a high place to a low place by gravity.", "outcome": "a" },
+    { "question": "Explain one way drip irrigation conserves water.", "answer": "Any one: water goes only to the roots, it does not run off, less dries up, weeds do not get it.", "explanation": "Water is given only where the crop needs it.", "outcome": "a" },
+    { "question": "Which of these can be used to make a simple drip for one plant?", "options": ["A plastic bottle with a small hole in the cap", "A wheelbarrow", "A jembe", "A sack"], "answer": "A", "explanation": "A bottle with a small hole lets water out drop by drop.", "outcome": "b" },
+    { "question": "Who should make holes in bottle caps and pipes using a nail?", "answer": "An adult.", "explanation": "Nails and cutting tools are sharp and can cause injury.", "outcome": "b" },
+    { "question": "Which problem is caused by dirty water in a drip system?", "options": ["Holes get blocked", "Pipes get longer", "Plants grow too fast", "Water gets hotter"], "answer": "A", "explanation": "Dirt collects in the small holes and stops the drips.", "outcome": "b" },
+    { "question": "What is the best time of day to fill the drip container?", "options": ["At midday", "Morning or evening", "Only at night during rain", "Any time it is hot"], "answer": "B", "explanation": "Less water is lost by drying when the sun is not hot.", "outcome": "b" },
+    { "question": "A drip bucket holds 10 litres and is filled 6 times in a week. How many litres were used?", "answer": "60 litres", "explanation": "10 × 6 = 60 litres.", "outcome": "b", "check": "10*6 === 60" },
+    { "question": "Why is there less weeding when crops are watered by drip irrigation?", "options": ["Weeds are afraid of pipes", "Spaces between rows stay dry", "Drip water kills weeds", "Weeds need sunlight only"], "answer": "B", "explanation": "Water goes only to the crops, so weeds between rows get little water.", "outcome": "c" },
+    { "question": "How does drip irrigation help a farmer earn money?", "answer": "Crops can be grown in the dry season and sold when prices are good, using little water.", "explanation": "Drip irrigation makes water last longer.", "outcome": "c" }
+  ],
+  "sources": [
+    "KICD Grade 4 Agriculture Curriculum Design (Revised 2024) — Strand 1.0 Conservation of Resources, Sub-strand 1.2 Water Conservation"
+  ]
+}

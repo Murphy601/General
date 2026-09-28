@@ -3,6 +3,10 @@ import { PlatformLayout } from '@/components/PlatformLayout';
 import { getTopics, findSubjectBySlug, listVideoScripts } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
 
+export function generateStaticParams() {
+  return [];
+}
+
 export default async function VideoTopicPage({
   params,
 }: {

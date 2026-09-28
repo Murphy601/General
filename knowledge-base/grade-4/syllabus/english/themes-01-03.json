@@ -1,0 +1,471 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "slug": "english",
+  "totalLessons": 150,
+  "strands": [
+    {
+      "number": "1.0",
+      "name": "The Family",
+      "subStrands": [
+        {
+          "number": "1.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Listening Comprehension"],
+          "outcomes": [
+            { "id": "a", "text": "pronounce sounds and words correctly for effective oral communication" },
+            { "id": "b", "text": "use vocabulary in sentences for effective oral communication" },
+            { "id": "c", "text": "listen attentively to an oral text for comprehension" },
+            { "id": "d", "text": "appreciate the importance of accurate pronunciation in oral texts" }
+          ],
+          "learningExperiences": [
+            "say tongue twisters with words containing the sounds; /t/ /d/ /f/ /v/ and the digraph /tw/",
+            "repeat saying minimal pairs with the sounds /t/ /d/ /f/ /v/ and the digraph /tw/ from the teacher or an audio recording",
+            "find out the correct pronunciation of words and sentences from electronic or print dictionaries",
+            "match words that have the same sounds and use them to construct sentences collaboratively",
+            "work jointly to search for words related to the theme on the internet and use them in sentences",
+            "listen to an audio text and answer comprehension questions",
+            "play a language game with words containing the sounds /t/ /d/ /f/ /v/ and the digraph /tw/"
+          ],
+          "keyInquiryQuestions": ["Why should we pronounce sounds and words correctly?"],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced as the learner pronounces words correctly and accurately with others.",
+            "Digital Literacy: It is enhanced as the learner uses digital devices to listen to sounds and search for correct pronunciation of words."
+          ],
+          "values": [
+            "Unity: This is developed as the learner works collaboratively during group tasks such as playing a language game.",
+            "Respect: This is enhanced as the learner appreciates individual differences in pronunciation and articulation of sounds."
+          ],
+          "pcis": [
+            "Social Cohesion: This is promoted as learners interact with texts on the theme of family to get the vocabulary."
+          ],
+          "links": [
+            "The learner is able to connect the concept of correct pronunciation and articulation to their learning in Kiswahili and Indigenous languages."
+          ]
+        },
+        {
+          "number": "1.2.1",
+          "name": "Reading: Extensive Reading",
+          "lessons": 3,
+          "content": ["Reference Materials"],
+          "outcomes": [
+            { "id": "a", "text": "identify the spelling and meaning of words from the dictionary" },
+            { "id": "b", "text": "read the junior encyclopaedia to obtain information for lifelong learning" },
+            { "id": "c", "text": "promote the use of reference materials to obtain information" }
+          ],
+          "learningExperiences": [
+            "arrange words alphabetically or according to related thematic areas",
+            "discuss with peers how words are organised in a dictionary",
+            "collaboratively identify the spelling and meaning of words from electronic or print dictionaries",
+            "read grade appropriate texts, write down unfamiliar words and check their meaning",
+            "select a topic and obtain information from references such as a junior encyclopaedia"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to spell words correctly?",
+            "How does a dictionary help us to learn?"
+          ],
+          "coreCompetencies": [
+            "Learning to Learn: This is developed as the learner acquires skills necessary to properly utilise reference materials.",
+            "Digital Literacy: This is promoted as the learner interacts with digital devices to search for meaning of words and information from the online dictionaries."
+          ],
+          "values": [
+            "Responsibility: This is enhanced as the learner collaborates with peers to perform various roles as they search for spelling and meaning of words.",
+            "Integrity: This is developed as the learner focuses on specific information from relevant sites when searching on online platforms."
+          ],
+          "pcis": [
+            "Citizenship: This is promoted as the learner is exposed to content on the theme of the family as a basic unit of the society."
+          ],
+          "links": [
+            "The learner is able to relate the concept of reading for information to their learning in Kiswahili."
+          ]
+        },
+        {
+          "number": "1.3.1",
+          "name": "Grammar in Use: Word Classes (Determiners)",
+          "lessons": 3,
+          "content": ["Definite articles", "Indefinite articles"],
+          "outcomes": [
+            { "id": "a", "text": "identify definite and indefinite articles in a written text for effective communication" },
+            { "id": "b", "text": "use definite and indefinite articles in sentences for effective communication" },
+            { "id": "c", "text": "acknowledge the use of articles in oral and written contexts for self- expression" }
+          ],
+          "learningExperiences": [
+            "read aloud the articles a, an and the with peers",
+            "identify definite and indefinite articles (a, an, and the) from a paragraph",
+            "collaborate to match definite and indefinite articles with a list of nouns",
+            "complete blanks in sentences using correct articles",
+            "construct sentences with peers using definite and indefinite articles",
+            "type sentences on a digital device and share with friends or family via mobile phone, email, computer printouts, among others",
+            "view a video related to the theme in which the definite and indefinite articles are used",
+            "cooperate with others to search for sentences with articles from a selected newspaper, magazine or internet"
+          ],
+          "keyInquiryQuestions": ["How are articles used with nouns?"],
+          "coreCompetencies": [
+            "Creativity and Imagination: This is developed as the learner creates sentences containing articles and shares the content via digital device.",
+            "Critical thinking and problem solving: This is promoted as the learner completes blanks in sentences using correct articles."
+          ],
+          "values": [
+            "Tolerance: This is developed as the learner is able to accommodate diverse views from peers when searching for sentences with articles from a selected newspaper, magazine or internet.",
+            "Love: It is cultivated as the learner is able to show empathy and take initiative to assist others as they use technology to share their work."
+          ],
+          "pcis": [
+            "Digital Safety: This is promoted as the learner observes discipline and cyber safety as they share their work through mobile phones, emails or online platforms."
+          ],
+          "links": [
+            "The learner is able to relate the concept of definite and indefinite articles to their learning of similar concepts in Foreign Langauges."
+          ]
+        },
+        {
+          "number": "1.4.1",
+          "name": "Writing: Functional Writing",
+          "lessons": 3,
+          "content": ["Filling forms"],
+          "outcomes": [
+            { "id": "a", "text": "identify the required information to be filled in forms for different purposes" },
+            { "id": "b", "text": "fill information in forms correctly for self- expression" },
+            { "id": "c", "text": "realise the importance of filling forms correctly for effective communication" }
+          ],
+          "learningExperiences": [
+            "fill forms provided by the teacher with specific details such as: Personal details Name ______ Grade _______ Date of Birth _________ School Details Name _______ Address ______ Name of Class Teacher _______ Name of Head teacher ________",
+            "read instructions on filling in forms collaboratively",
+            "record the required information related to the theme in the forms with peers",
+            "team up to fill in forms in print format and display them",
+            "download online forms and fill in information with guidance from the teacher",
+            "create a form, and type it on a computer, laptop or tablet"
+          ],
+          "keyInquiryQuestions": [
+            "Why should one be careful when filling in forms?",
+            "What information do we fill in forms?"
+          ],
+          "coreCompetencies": [
+            "Creativity and Imagination: This is promoted as the learner generates ideas and uses them to create a form and shares it with peers.",
+            "Digital Literacy: It is enhanced as the learner manipulates digital devices to download, create and fill in forms."
+          ],
+          "values": [
+            "Love: This is promoted as the learner accommodates other’s contributions as they work jointly to fill in forms.",
+            "Integrity : This is promoted as the learner willingly displays their forms for peer review and feedback."
+          ],
+          "pcis": [
+            "Gender Education: This is promoted as the learner interacts with content about the various people and genders in the theme of family."
+          ],
+          "links": [
+            "The learner is able to relate the concept of filling in forms to their learning in Kiswahili."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "2.0",
+      "name": "Family Celebrations",
+      "subStrands": [
+        {
+          "number": "2.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Target sounds"],
+          "outcomes": [
+            { "id": "a", "text": "discriminate sounds and words for listening, comprehension" },
+            { "id": "b", "text": "pronounce words containing target sounds accurately for effective communication" },
+            { "id": "c", "text": "appreciate the importance of accurate pronunciation for effective communication" }
+          ],
+          "learningExperiences": [
+            "listen to a variety of audio materials and identify sounds (/ɜː/ /ɑː/ /ɔɪ/ /aɪ/ / l/ /r/), words and expressions related to the theme",
+            "listen to a passage or dialogue read by the teacher and identify the sounds /ɜː/ /ɑː/ /ɔɪ/ /aɪ/ / l/ /r/",
+            "use vocabulary related to the theme to construct a variety of sentences",
+            "team up to use word wheels with sounds /ɜː/ /ɑː/ /ɔɪ/ /aɪ/ / l/ /r/ to form new words such as load, road, boy, toy",
+            "watch a video together from the web offline or online and identify target sounds and words",
+            "role play and create a video collaboratively using the learnt sounds and words"
+          ],
+          "keyInquiryQuestions": [
+            "Why should you pronounce sounds and words correctly?",
+            "Which words are used as subjects in a sentence?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced as the learner role-plays and creates a video collaboratively using learnt sounds and words.",
+            "Digital Literacy: The skills are developed as the learner watches a video and identifies words with target sounds."
+          ],
+          "values": [
+            "Unity: This is enhanced as the learner cooperates with peers to use word wheels to form new words with target sounds.",
+            "Love: It is developed as the learner displays an attitude of care for others as they work together."
+          ],
+          "pcis": [
+            "Social cohesion: This is developed as the learner works together with peers harmoniously to complete tasks."
+          ],
+          "links": [
+            "The learner is able to relate the concept of pronunciation to their learning in Kiswahili."
+          ]
+        },
+        {
+          "number": "2.2.1",
+          "name": "Reading: Intensive Reading",
+          "lessons": 3,
+          "content": ["Poems", "Stories", "Similes and sayings", "Reading techniques"],
+          "outcomes": [
+            { "id": "a", "text": "read poems or stories related to the theme for comprehension" },
+            { "id": "b", "text": "apply appropriate reading techniques to answer direct and indirect questions based on a poem or story for self- expression" },
+            { "id": "c", "text": "realise the importance of reading comprehension for lifelong learning" }
+          ],
+          "learningExperiences": [
+            "talk about pictures and the title of a poem and story (featuring similes and sayings) together",
+            "read a poem or story (featuring similes and sayings) in print and non-print texts related to the theme for comprehension",
+            "identify events in a poem or a story for logical and fluent flow",
+            "find new words and similes in a poem or story with peers",
+            "recite the poem and answer oral questions from poems and stories (featuring similes and sayings)",
+            "participate in a readers’ theatre collaboratively to read a story",
+            "discuss and role-play events in a text based on the theme",
+            "watch a video related to the theme for specific information"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we read the title and pictures in a story?",
+            "What is your favourite poem or story?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: This is developed as the learner is able to identify and talk about events in a story logically and fluently.",
+            "Learning to learn: It is enhanced as the learner uses appropriate reading techniques to answer questions appropriately."
+          ],
+          "values": [
+            "Social justice: This is promoted as the learner fosters fairness by allowing equal opportunities to peers when participating in a readers' theatre.",
+            "Responsibility: This is enhanced as the learner engages in assigned roles and duties diligently."
+          ],
+          "pcis": [
+            "Self-esteem: It is developed as the learner gains confidence as they recite poems or stories with peers."
+          ],
+          "links": [
+            "The learner is able to link the concept of reading poems and songs to their learning in Creative Arts."
+          ]
+        },
+        {
+          "number": "2.3.1",
+          "name": "Grammar in Use: Word Classes (Nouns)",
+          "lessons": 3,
+          "content": ["Regular Nouns", "Irregular Nouns"],
+          "outcomes": [
+            { "id": "a", "text": "identify plurals of regular and irregular nouns for effective communication" },
+            { "id": "b", "text": "use plurals of regular and irregular nouns in spoken and written language for communication clarity" },
+            { "id": "c", "text": "promote the use of regular and irregular nouns in communication" }
+          ],
+          "learningExperiences": [
+            "give examples of regular and irregular nouns",
+            "work jointly to discuss the difference between regular and irregular nouns",
+            "pick out and write plurals of regular and irregular nouns from an audio recording",
+            "construct sentences using regular and irregular nouns in their plural forms",
+            "look up regular and irregular nouns on the internet and write them down",
+            "create a puzzle using a list of regular and irregular nouns and solve with peers"
+          ],
+          "keyInquiryQuestions": [
+            "How do you show the number of things you have?",
+            "Which things do we have in our classroom?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking and problem solving: This is enhanced as the learner creates a puzzle using a list of regular and irregular nouns with peers.",
+            "Learning to Learn: It is developed as the learner gains knowledge on nouns and applies it in making sentences as well as creating puzzles."
+          ],
+          "values": [
+            "Peace: This is cultivated as the learners work harmoniously to discuss the difference between regular and irregular nouns.",
+            "Unity: This is developed as the learner collaborates with others to use digital devices to learn about nouns."
+          ],
+          "pcis": [
+            "Peace Education: This is developed as the learner appreciates the need to coexist with peers while working together in group tasks."
+          ],
+          "links": [
+            "The learner is able to connect the concept of plural forms of nouns to their learning in Kiswahili."
+          ]
+        },
+        {
+          "number": "2.4.1",
+          "name": "Writing: Creative Writing",
+          "lessons": 3,
+          "content": ["Open ended Compositions"],
+          "outcomes": [
+            { "id": "a", "text": "express relevant ideas on a given topic for effective communication" },
+            { "id": "b", "text": "write an open ended composition creatively for self-expression" },
+            { "id": "c", "text": "realise the importance of creativity in writing for effective communication" }
+          ],
+          "learningExperiences": [
+            "discuss how to write a story on a given topic together",
+            "talk about the possible order of events in a given story with peers",
+            "write the first paragraph of a composition while observing the correct punctuation and spelling",
+            "write the whole composition legibly, neatly, and independently",
+            "proof-read compositions with peers",
+            "collaborate with peers to share their completed stories",
+            "search and read written compositions online or offline"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it necessary to express thoughts and feelings clearly?",
+            "How can you make your story interesting?"
+          ],
+          "coreCompetencies": [
+            "Creativity and Imagination: This is nurtured as the learner explores creative ideas to talk about the possible order of events in a given story with peers.",
+            "Digital Literacy: This is developed as the learner interacts with digital devices to search for resources on guided compositions online."
+          ],
+          "values": [
+            "Integrity: This is developed as the learner puts in effort to complete own compositions independently.",
+            "Responsibility: This is enhanced as the learner takes up allocated tasks to search and read written compositions online or offline"
+          ],
+          "pcis": [
+            "Social Cohesion: This is developed as the learner fosters tolerance and respect for one another during group activities."
+          ],
+          "links": [
+            "The learner is able to connect the aspect of guided composition writing to their learning in Kiswahili."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3.0",
+      "name": "Etiquette",
+      "subStrands": [
+        {
+          "number": "3.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Polite words and phrases", "Target sounds"],
+          "outcomes": [
+            { "id": "b", "text": "identify polite words and phrases in a conversation for communication" },
+            { "id": "c", "text": "pronounce words and phrases containing target sounds accurately for effective communication" },
+            { "id": "d", "text": "use appropriate words and phrases to show politeness in different contexts" },
+            { "id": "e", "text": "promote the use of using polite words and phrases in different contexts" }
+          ],
+          "learningExperiences": [
+            "use tongue twisters to practise the sounds /e/, /eɪ/, /p/ and /b/",
+            "listen to correct pronunciation of words and phrases related to the theme containing sounds /e/, /eɪ/, /p/ and /b/ from a digital device",
+            "practise saying words and phrases containing the sounds /e/, /eɪ/, /p/ and /b/",
+            "write words containing the sounds /e/, /eɪ/, /p/ and /b/ from a dictation",
+            "solve a word puzzle by finding words and phrases with polite words learnt collaboratively",
+            "construct simple sentences using polite words and phrases related to the theme",
+            "team up to recite a poem featuring polite words and phrases"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we pronounce sounds and words clearly?",
+            "Which words do we use to show politeness?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is developed as the learner works with peers to practise saying words and phrases containing the sounds.",
+            "Learning to Learn: It is enhanced as the learner builds onto their learning experience by using polite words and phrases in different contexts."
+          ],
+          "values": [
+            "Unity: This promoted as the learner teams up with peers to recite a poem featuring polite words and phrases.",
+            "Respect: The value is developed as the learner appreciates individual differences and accommodates diverse views when solving word puzzles."
+          ],
+          "pcis": [
+            "Social Cohesion: This is developed as the learner appreciates the use of etiquette to promote harmonious co-existence and interpersonal relationships."
+          ],
+          "links": [
+            "The learner is able to link the concept of pronunciation and vocabulary to their learning in Kiswahili."
+          ]
+        },
+        {
+          "number": "3.2.1",
+          "name": "Reading: Intensive Reading (Comprehension)",
+          "lessons": 3,
+          "content": ["Text (300 words)", "Factual information", "Inferential information"],
+          "outcomes": [
+            { "id": "a", "text": "read a text of about 300 words for comprehension" },
+            { "id": "b", "text": "apply appropriate reading skills to obtain both factual and inferential information from a text" },
+            { "id": "c", "text": "recommend intensive reading in their day-to- day life" }
+          ],
+          "learningExperiences": [
+            "read a variety of print and non-print texts of about 300 words",
+            "identify events in a story or a passage of about 300 words with logical and fluent flow",
+            "answer factual and inferential questions from a text of about 300 words",
+            "work together to infer the meaning of vocabulary from contexts",
+            "skim through a digital text of about 300 words focusing mainly on the title and illustrations",
+            "scan for information such as vocabulary words and answer questions from print or digital text",
+            "skim or scan a comic, magazine, newspaper or age-appropriate reader",
+            "discuss and role-play events in texts based on the theme"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we read?",
+            "How can we read faster?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking and problem solving: This is developed as the learner uses logical thinking to answer factual and inferential questions from a text of about 300 words.",
+            "Digital Literacy: It is promoted as the learner is able to interact with digital devices to skim through digital texts focusing on the title and illustrations."
+          ],
+          "values": [
+            "Social Justice: This is promoted as the learner accords peers equal opportunities to infer the meaning of vocabulary from contexts.",
+            "Respect: This is developed as the learner is able to demonstrate etiquette when dealing with peers in class during common tasks."
+          ],
+          "pcis": [
+            "Citizenship: This is fostered as the learner works with peers peacefully during group activities."
+          ],
+          "links": [
+            "The learner is able to connect the concept of etiquette and politeness to their daily interactions and in all other learning areas."
+          ]
+        },
+        {
+          "number": "3.3.1",
+          "name": "Grammar in Use: Language Pattern",
+          "lessons": 3,
+          "content": ["Enough + Nominal + Infinitive", "A lot/a lot of"],
+          "outcomes": [
+            { "id": "a", "text": "use the target language pattern in sentences correctly for fluency in speech" },
+            { "id": "b", "text": "respond to questions on the language patterns in written communication" },
+            { "id": "c", "text": "adopt the use of language structures for effective communication" }
+          ],
+          "learningExperiences": [
+            "recite a poem with the pattern enough + nominal + infinitive and a lot/a lot of... related to the theme with peers",
+            "identify lines from the poem that have the language patterns enough + nominal + infinitive and a lot/a lot of",
+            "construct sentences using the language patterns enough + nominal + infinitive and a lot/a lot of... with peers",
+            "complete a written exercise based on the language patterns enough + nominal + infinitive and a lot/a lot of"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we use correct sentences in our speech or writing?",
+            "How can we write sentences correctly?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is promoted as the learner is able to make own sentences using appropriate language patterns correctly.",
+            "Self-efficacy: This is enhanced as the learner gains confidence to recite poems before peers."
+          ],
+          "values": [
+            "Respect: This is promoted as the learner is able to appreciates other’s contributions when working to identify lines from the poem that have language patterns.",
+            "Integrity: This is enhanced as the learner is able to demonstrate commitment to tasks both individually and when working with peers."
+          ],
+          "pcis": [
+            "Peaceful coexistence: It is promoted as the learner is able to interact and socialise with peers harmoniously when working on tasks."
+          ],
+          "links": [
+            "The learner is able to relate the concept of language structures with their learning of similar concepts in Kiswahili."
+          ]
+        },
+        {
+          "number": "3.4.1",
+          "name": "Writing: Mechanics of Writing (Handwriting)",
+          "lessons": 3,
+          "content": ["Legibility", "Neatness", "Spelling"],
+          "outcomes": [
+            { "id": "a", "text": "write legibly and neatly in print script for clarity of communication" },
+            { "id": "b", "text": "apply accurate and consistent spelling in print script for writing fluency" },
+            { "id": "c", "text": "adopt the use of accurate and consistent spelling in a variety of print scripts for effective communication" }
+          ],
+          "learningExperiences": [
+            "use appropriate writing instruments (pencil first and then a pen) to copy a simple text",
+            "print lower and upper case letters neatly and legibly",
+            "pay attention to consistent letter size and height, direction of strokes such as dots, tails, crossbars, curves and differences in letter orientation like ‘d and ‘b",
+            "write silent letters in words and phrases such as ‘please listen’ ‘I beg your pardon’, ‘may I borrow your watch’",
+            "look up words and find the correct spelling from a digital device with peers",
+            "consistently use the correct spelling of words with blends and double consonants"
+          ],
+          "keyInquiryQuestions": [
+            "How does being unable to read other people’s work make you feel?",
+            "Why should you ensure your written work is easy to read?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: This is enhanced as the learner writes words legibly, neatly and spells them correctly.",
+            "Learning to learn: This is developed as the learner builds on their writing skills by paying attention to consistent letter size and height, direction of strokes such as dots, tails, crossbars, curves and differences in letter orientation."
+          ],
+          "values": [
+            "Love: It is shown as the learners work harmoniously with peers to look up words and find the correct spelling from a digital device.",
+            "Responsibility: It is enhanced as the learner uses the digital devices appropriately to look up words and find correct spelling."
+          ],
+          "pcis": [
+            "Self-esteem: This is developed as learner gains confidence in writing legibly and neatly."
+          ],
+          "links": [
+            "The learner is able to relate the concept of writing legibly and neatly in Kiswahili."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "2.1.1",
+  "title": "Kusikiliza na Kuzungumza: Maamkuzi na Maagano",
+  "overview": "Maamkuzi ni maneno tunayosema tunapokutana. Maagano ni maneno tunayosema tunapoagana. Utajifunza aina zake, mahali zinapofaa, na jinsi ya kuzitumia kwa heshima nyumbani, shuleni na mezani. Kuzitumia vizuri hujenga mahusiano mema.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Aina za maamkuzi na maagano",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutofautisha maamkuzi na maagano.",
+        "Kutaja maamkuzi na majibu yake.",
+        "Kueleza ni lini kila aina hutumika."
+      ],
+      "intro": "Unapomwona mwalimu asubuhi humwamkua. Unapoondoka jioni unamuaga. Maneno hayo si ya kupamba tu. Yanaonyesha umemwona mtu na unamheshimu. Leo tutajifunza maneno hayo na majibu yake.",
+      "notes": "### Maamkuzi na maagano\nMaamkuzi ni maneno ya kumsalimu mtu mnapokutana. Maagano ni maneno ya kumwacha mtu mnapoagana. Kila maamkuzi yana jibu. Hujibiwi kwa ukimya.\n\n### Maamkuzi na majibu\n- **Shikamoo** huambiwa mtu mmoja mkubwa kuliko wewe, kama mzazi, mwalimu au mzee. Jibu ni **Marahaba**. Watu wengi huambiwa **Shikamooni**, nalo hujibiwa Marahaba.\n- **Hujambo?** huambiwa mtu mmoja. Jibu ni **Sijambo**.\n- **Hamjambo?** huambiwa watu wengi. Jibu ni **Hatujambo**.\n- **U hali gani?** Jibu ni **Njema** au **Salama**.\n- **U mzima?** Jibu ni **Mzima**.\n- **Habari?** Jibu ni **Nzuri**.\n\nShikamoo hutangulia unapozungumza na wakubwa. Hujambo hutumika kwa wenzako au mtu mkubwa anapokusalimu kwanza.\n\n### Maagano na majibu\n- **Kwaheri.** Jibu: **Kwaheri ya kuonana**.\n- **Siku njema.** Jibu: **Asante, nawe siku njema.**\n- **Lala unono.** Jibu: **Nawe lala unono.** Hutumika usiku mtu akienda kulala.\n- **Alamsiki.** Jibu: **Alamsiki** au **Nawe alamsiki.** Nalo ni agano la usiku.\n\n### Miktadha\nAsubuhi shuleni unatumia shikamoo kwa walimu. Mezani, unawaamkua waliokaa kabla hujachukua chakula. Unapomaliza, unasema asante na kwaheri au siku njema. Usiku unamuaga mzazi kwa lala unono au alamsiki. Kila jamii inaweza kuongeza maamkuzi yake, lakini haya ya Kiswahili yanaeleweka kote unapozungumza lugha hii.\n\nKuwajibu watu kunaonyesha umewasikia. Kukosa jibu kunaweza kuonekana kama dharau.",
+      "keyWords": [
+        { "word": "maamkuzi", "meaning": "maneno ya kumsalimu mtu mnapokutana" },
+        { "word": "maagano", "meaning": "maneno ya kumwacha mtu mnapoagana" },
+        { "word": "alamsiki", "meaning": "agano la usiku, kama lala unono" }
+      ],
+      "examples": [
+        {
+          "problem": "Mwalimu amekuamkua: Hujambo? Jibu lipi linafaa?",
+          "steps": ["Hujambo huulizwa mtu mmoja.", "Jibu lake ni sijambo."],
+          "answer": "Sijambo.",
+          "check": null
+        },
+        {
+          "problem": "Ni agano gani linalofaa usiku unapoenda kulala?",
+          "steps": ["Asubuhi hutumii lala unono.", "Usiku mnaagana kwa lala unono au alamsiki."],
+          "answer": "Lala unono, au alamsiki.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Oanisha maamkuzi na majibu",
+        "materials": ["Chati ya maamkuzi", "Kadi za maneno", "Picha za watu wakiamkuana"],
+        "steps": [
+          "Tazameni chati, ubao au picha na mtaje maamkuzi na maagano mnayoona.",
+          "Oanisheni kadi: Shikamoo na Marahaba, Hujambo na Sijambo, Lala unono na Nawe lala unono, Siku njema na Nawe siku njema.",
+          "Jadilini ni lini kila neno hutumika: asubuhi, mezani, au usiku.",
+          "Andikeni majibu sahihi kwenye daftari.",
+          "Muulizeni mzazi au mlezi maamkuzi mengine yanayotumika katika jamii yenu, kisha myaeleze darasani kwa heshima."
+        ]
+      },
+      "practice": [
+        { "question": "Tofautisha maamkuzi na maagano.", "answer": "Maamkuzi ni maneno ya kukutana. Maagano ni maneno ya kuagana.", "check": null },
+        { "question": "Jibu la Shikamoo ni lipi?", "answer": "Marahaba.", "check": null },
+        { "question": "U hali gani? hujibiwaje?", "answer": "Njema, au Salama.", "check": null },
+        { "question": "Ni lini tunasema Lala unono?", "answer": "Usiku, mtu anapoenda kulala.", "check": null }
+      ],
+      "summary": [
+        "Maamkuzi hutumika kukutana; maagano hutumika kuagana.",
+        "Kila maamkuzi yana jibu, kama Shikamoo na Marahaba.",
+        "Lala unono na alamsiki ni maagano ya usiku; siku njema hutumika mchana."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia maamkuzi na maagano",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kuigiza mazungumzo yenye maamkuzi na maagano.",
+        "Kuchagua neno linalofaa kulingana na mtu na wakati.",
+        "Kueleza umuhimu wa maamkuzi katika mahusiano."
+      ],
+      "intro": "Kujua neno na kulitumia si kitu kimoja. Ukimwambia mwenzako shikamoo bila sababu, atashangaa. Ukimwacha mwalimu bila kwaheri, atafikiri hukupenda. Leo mtaigiza hali halisi.",
+      "notes": "### Mazungumzo mafupi\nAsubuhi darasani:\n\nNeema: Shikamoo, mwalimu.\nMwalimu: Marahaba, Neema. U mzima?\nNeema: Mzima, asante.\n\nJioni nyumbani:\n\nJuma: Kwaheri, mama. Lala unono.\nMama: Nawe lala unono, mwanangu.\n\nMezani:\n\nAmina: Shikamoo, babu. Habari za jioni?\nBabu: Marahaba. Nzuri. Karibu, kaa vizuri.\nAmina: Asante. Baada ya kula: Asante kwa chakula. Siku njema.\n\n### Kuchagua neno\n- Mtu mkubwa: anza na shikamoo.\n- Mwenzako: hujambo, u hali gani, au habari.\n- Watu wengi: hamjambo au shikamooni.\n- Unapoondoka mchana: siku njema au kwaheri.\n- Unapoenda kulala: lala unono au alamsiki.\n\nSauti iwe laini. Tazama uso wa mtu. Usiseme maamkuzi ukikimbia bila kusubiri jibu.\n\n### Umuhimu\nMaamkuzi na maagano huleta heshima, upendo na amani. Hunyima ugomvi unaotokana na kudhani hukusalimiwa. Hunajenga urafiki kati ya wanafunzi wa koo tofauti, kwa sababu Kiswahili huwaunganisha. Mezani, maamkuzi ni sehemu ya nidhamu: unasalimu, unakaa, unakula kwa adabu, kisha unaaga.\n\nChangamkia kuyatumia kila siku. Yatakuwa rahisi ukiyaigiza darasani na kuyarudia nyumbani na mzazi wako.",
+      "keyWords": [
+        { "word": "kuamkua", "meaning": "kumsalimu mtu mnapokutana" },
+        { "word": "kuaga", "meaning": "kumwacha mtu kwa maneno ya maagano" },
+        { "word": "heshima", "meaning": "adabu unayoionyesha kwa maneno na vitendo" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika maamkuzi yanayomfaa mwalimu unapoingia darasani.",
+          "steps": ["Mwalimu ni mkubwa kuliko mwanafunzi.", "Neno linalotangulia ni shikamoo."],
+          "answer": "Shikamoo, mwalimu.",
+          "check": null
+        },
+        {
+          "problem": "Chagua agano la jioni baada ya kula: lala unono au pa pe pi?",
+          "steps": ["Pa pe pi ni silabi, si agano.", "Ukiondoka usiku, lala unono linafaa."],
+          "answer": "Lala unono.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Igiza kukutana na kuagana",
+        "materials": ["Kadi za majukumu: mwanafunzi, mwalimu, mzazi, babu", "Picha au video fupi panapopatikana"],
+        "steps": [
+          "Tazameni picha au video ya watu wakiamkuana na kuagana, panapopatikana.",
+          "Gawanyikeni jozi. Mmoja awe mzee, mwingine mwanafunzi.",
+          "Igizeni maamkuzi ya kukutana na maagano ya kuondoka, mkijibu ipasavyo.",
+          "Badilisheni nafasi na mwongeze tukio la mezani: salimu, kaa, shukuru, aga.",
+          "Jadilini kwa nini maamkuzi yanakuza amani na uhusiano mwema."
+        ]
+      },
+      "practice": [
+        { "question": "Unamwambia nini babu unapoingia mezani?", "answer": "Shikamoo, babu.", "check": null },
+        { "question": "Andika jibu la: Hamjambo?", "answer": "Hatujambo.", "check": null },
+        { "question": "Tunga mazungumzo mafupi ya kuagana usiku kati ya mtoto na mama.", "answer": "Mtoto: Lala unono, mama. Mama: Nawe lala unono.", "check": null },
+        { "question": "Taja faida mbili za kuamkua na kuaga.", "answer": "Huonyesha heshima; hujenga amani na mahusiano mema.", "check": null }
+      ],
+      "summary": [
+        "Chagua maamkuzi kulingana na umri wa mtu na wakati wa siku.",
+        "Subiri jibu; usikimbie baada ya kusema shikamoo.",
+        "Mezani, amkua kabla ya kula na aga kwa heshima ukimaliza."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Maagano ni nini?",
+      "options": ["maneno ya kukutana", "maneno ya kuagana", "majina ya vifaa", "vitanzandimi"],
+      "answer": "B",
+      "explanation": "Maagano husemwa mnapoagana. Maamkuzi husemwa mnapokutana.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Jibu la Shikamoo ni lipi?",
+      "options": ["Sijambo", "Marahaba", "Nzuri", "Kwaheri"],
+      "answer": "B",
+      "explanation": "Mtu mkubwa hujibu shikamoo kwa marahaba.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Hamjambo? hujibiwaje?",
+      "options": ["Sijambo", "Hatujambo", "Marahaba", "Lala unono"],
+      "answer": "B",
+      "explanation": "Hamjambo huulizwa watu wengi, nao hujibu hatujambo.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Ni lipi agano la usiku?",
+      "options": ["Habari za asubuhi", "Lala unono", "Shikamoo", "U mzima"],
+      "answer": "B",
+      "explanation": "Lala unono na alamsiki hutumika usiku. Shikamoo na u mzima ni maamkuzi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Unapomwona mwalimu asubuhi, unaanza vipi?",
+      "options": ["Kwaheri, mwalimu", "Shikamoo, mwalimu", "Lala unono", "Pa pe pi"],
+      "answer": "B",
+      "explanation": "Mwalimu ni mkubwa, hivyo unaanza kwa shikamoo.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Jibu sahihi la Siku njema ni lipi?",
+      "options": ["Marahaba", "Asante, nawe siku njema", "Hatujambo", "Kiti kizuri"],
+      "answer": "B",
+      "explanation": "Siku njema hujibiwa kwa kumtakia mwenzako mema pia.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Alamsiki hutumika lini?",
+      "options": ["usiku unapoagana", "ndani ya kamusi tu", "ukitamka silabi", "ukipika chakula"],
+      "answer": "A",
+      "explanation": "Alamsiki ni agano la usiku.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kwa nini maamkuzi ni sehemu ya nidhamu mezani?",
+      "answer": "Unawaamkua waliokaa kabla ya kula, na unaaga kwa heshima ukimaliza.",
+      "explanation": "Maamkuzi yanaonyesha adabu kwa wazee na wale waliokaa mezani.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Andika jibu la: U mzima?",
+      "answer": "Mzima.",
+      "explanation": "U mzima hujibiwa kwa kusema mzima.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Taja faida moja ya kuamkua watu wa koo tofauti kwa Kiswahili.",
+      "answer": "Hujenga umoja, amani na uhusiano mwema.",
+      "explanation": "Maamkuzi ya pamoja huwaunganisha watu na kuonyesha heshima.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 2.0 Nidhamu Mezani, Mada Ndogo 2.1.1 Kusikiliza na Kuzungumza: Maamkuzi na Maagano"
+  ]
+}

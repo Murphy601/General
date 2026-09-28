@@ -1,0 +1,196 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "3.4.1",
+  "title": "Sarufi: Viunganishi",
+  "overview": "Kiunganishi ni neno linalounganisha maneno, virai au sentensi. Utajifunza na, pia, kwa sababu na lakini, utavitambua katika sentensi, na utavitumia unapozungumza kuhusu mavazi. Viunganishi hufanya maelezo yako yawe na mtiririko.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya kiunganishi na jinsi ya kukitambua",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya kiunganishi.",
+        "Kutofautisha kazi za na, pia, kwa sababu na lakini.",
+        "Kutambua viunganishi katika orodha na sentensi."
+      ],
+      "intro": "Unaweza kusema Nina shati. Nina sketi. Sentensi hizo ziko sawa, lakini zinasimama kama orodha isiyoshikana. Ukisema Nina shati na sketi, msomaji anasikia vitu viwili vya sare moja. Neno na limevifunga. Hilo ndilo kazi ya kiunganishi.",
+      "notes": "### Kiunganishi ni nini?\nKiunganishi ni neno linalounganisha maneno, virai au sentensi. Wingi ni viunganishi. Halitaji kitu, halionyeshi tendo, wala halielezi sifa. Kazi yake ni kufunga.\n\n### Aina nne za msingi\n- **na** huunganisha vitu vinavyofanana au vinavyoendelea pamoja. Amina anavaa shati na sketi.\n- **pia** huongeza jambo jingine. Anavaa sweta pia.\n- **kwa sababu** hutoa sababu. Anavaa koti kwa sababu kuna baridi.\n- **lakini** huonyesha tofauti. Shati ni zuri lakini lina mawaa.\n\nAngalia tofauti. Na haielezi sababu. Kwa sababu haionyeshi tofauti. Lakini haiongezi kitu kinachofanana; kinaonyesha upande mwingine.\n\n### Kutambua\nOrodha: na, shati, lakini, vaa, pia, meza, kwa sababu.\n\nViunganishi ni na, lakini, pia na kwa sababu. Shati na meza ni nomino. Vaa ni kitenzi.\n\nKatika sentensi Napenda sketi hii lakini nina sweta pia, viunganishi ni lakini na pia. Napenda na nina ni vitenzi. Sketi na sweta ni nomino.\n\nUliza: je, neno hili linafunga sehemu mbili? Kama jibu ni ndiyo, na kama si jina wala tendo, huenda ni kiunganishi. Usiandike na kama sehemu ya kitenzi. Katika anavaa, hakuna kiunganishi na. Katika shati na sketi, na ndilo kiunganishi.",
+      "keyWords": [
+        { "word": "kiunganishi", "meaning": "neno linalounganisha maneno, virai au sentensi" },
+        { "word": "kwa sababu", "meaning": "kiunganishi kinachoonyesha sababu" },
+        { "word": "lakini", "meaning": "kiunganishi kinachoonyesha tofauti" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua viunganishi: na, koti, pia, vaa, lakini.",
+          "steps": ["Ondoa nomino koti na kitenzi vaa.", "Maneno yanayofunga ndiyo viunganishi."],
+          "answer": "na, pia, lakini",
+          "check": null
+        },
+        {
+          "problem": "Katika sentensi Anavaa koti kwa sababu kuna baridi, kiunganishi ni kipi?",
+          "steps": ["Tafuta neno linalotoa sababu.", "Kwa sababu linafunga vazi na hali ya hewa."],
+          "answer": "kwa sababu",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tafuta viunganishi vitabuni",
+        "materials": ["Vitabu au vifaa vya kidijitali", "Kadi za maneno", "Daftari"],
+        "steps": [
+          "Elezeni maana ya kiunganishi kwa wenzako.",
+          "Tafuteni mifano ya na, pia, kwa sababu na lakini kwenye kitabu au mtandaoni kwa ruhusa.",
+          "Andikeni sentensi nne, kila moja ikiwa na kiunganishi kimoja.",
+          "Pigieni mstari kiunganishi pekee, si nomino.",
+          "Msomeeni mzazi au mlezi sentensi moja jioni na muulize kama maana imeeleweka."
+        ]
+      },
+      "practice": [
+        { "question": "Kiunganishi ni nini?", "answer": "Ni neno linalounganisha maneno, virai au sentensi.", "check": null },
+        { "question": "Tofautisha na na lakini.", "answer": "Na huunganisha vitu vinavyofanana. Lakini huonyesha tofauti.", "check": null },
+        { "question": "Tambua kiunganishi: Sweta ni nzuri lakini ina shimo.", "answer": "lakini", "check": null },
+        { "question": "Kwa sababu hutumika kufanya nini?", "answer": "Kuonyesha sababu ya jambo.", "check": null }
+      ],
+      "summary": [
+        "Kiunganishi hufunga maneno au sentensi.",
+        "Na huunganisha, pia huongeza, kwa sababu hutoa sababu, lakini huonyesha tofauti.",
+        "Si nomino wala kitenzi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia viunganishi katika sentensi",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa kiunganishi kinachofaa.",
+        "Kutunga sentensi kuhusu mavazi.",
+        "Kuthamini mtiririko unaotokana na viunganishi."
+      ],
+      "intro": "Nafasi tupu inaweza kuhitaji sababu au tofauti. Ukiweka na mahali pa lakini, maana inageuka. Leo utachagua kiunganishi kwa kuangalia uhusiano wa pande mbili za sentensi.",
+      "notes": "### Kujaza nafasi\nSoma pande mbili kwanza.\n\n- Nina shati ____ sketi. Vinakwenda pamoja: **na**.\n- Nina kofia ____. Unataka kuongeza: **pia**. Nina kofia pia.\n- Nimevaa sweta ____ kuna baridi. Kuna sababu: **kwa sababu**.\n- Shati ni zuri ____ lina mawaa. Kuna tofauti: **lakini**.\n\nShati ni kundi la tunda, hivyo tunasema shati ni zuri, na lina mawaa. Sketi na sweta, zikiwa za kundi la nguo, zinakuwa: sketi ni nzuri, sweta ni nzuri.\n\nMakosa: Nimevaa sweta na kuna baridi. Na haielezi sababu vizuri hapa. Sahihi ni Nimevaa sweta kwa sababu kuna baridi.\n\nMakosa mengine: Shati ni zuri kwa sababu lina mawaa. Mawaa si sababu ya uzuri. Sahihi ni Shati ni zuri lakini lina mawaa.\n\n### Sentensi za mavazi\n- Amina anavaa shati na sketi.\n- Anavaa kofia pia.\n- Juma anavaa koti kwa sababu mvua inanyesha.\n- Sare ni safi lakini kiatu hakijafungwa.\n\nUnaweza kuunganisha sentensi mbili. Neema aliosha sura. Neema alivaa sweta. Zinakuwa: Neema aliosha sura na kuvaa sweta.\n\n### Fahari ya kuvitumia\nViunganishi hufanya usimulie mavazi yako kama mtu anayefikiri, si kama orodha kavu. Msomaji anaona sababu na tofauti. Soma sentensi zako kwa mwenzako. Akionyesha umechanganya lakini na kwa sababu, rekebisha. Matumizi haya yanastahili fahari kwa sababu yanaboresha mawasiliano yako kila siku.",
+      "keyWords": [
+        { "word": "mtiririko", "meaning": "maelezo yanavyoendelea bila kusimama ghafla" },
+        { "word": "tofauti", "meaning": "upande mwingine unaoonyeshwa na lakini" },
+        { "word": "sababu", "meaning": "chanzo cha jambo, kinachoonyeshwa na kwa sababu" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza: Nimevaa koti ____ kuna baridi.",
+          "steps": ["Upande wa pili ni sababu.", "Kiunganishi ni kwa sababu."],
+          "answer": "Nimevaa koti kwa sababu kuna baridi.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: Sketi ni nzuri kwa sababu ina mawaa.",
+          "steps": ["Mawaa hayafanyi sketi kuwa nzuri.", "Kuna tofauti, hivyo lakini linafaa."],
+          "answer": "Sketi ni nzuri lakini ina mawaa.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tunga sentensi za mavazi",
+        "materials": ["Daftari", "Kadi za viunganishi"],
+        "steps": [
+          "Jazeni nafasi nne ubaoni kwa na, pia, kwa sababu na lakini.",
+          "Kila mwanafunzi atunge sentensi nne kuhusu mavazi, kila moja ikiwa na kiunganishi tofauti.",
+          "Andikeni daftarini au mtandaoni kwa ruhusa.",
+          "Msomeeni mwenzako na atathmini kama kiunganishi kimefaa maana.",
+          "Msomeeni mzazi sentensi mbili jioni."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza: Nina sweta ____ kofia.", "answer": "na", "check": null },
+        { "question": "Sahihisha: Shati ni zuri kwa sababu lina mawaa.", "answer": "Shati ni zuri lakini lina mawaa.", "check": null },
+        { "question": "Tunga sentensi ukitumia kwa sababu na neno sweta.", "answer": "Mfano: Nimevaa sweta kwa sababu kuna baridi.", "check": null },
+        { "question": "Kwa nini viunganishi ni muhimu?", "answer": "Hufanya sentensi ziwe na mtiririko na kuonyesha uhusiano wa kuongeza, sababu au tofauti.", "check": null }
+      ],
+      "summary": [
+        "Chagua na kuunganisha, pia kuongeza, kwa sababu kutoa sababu, na lakini kuonyesha tofauti.",
+        "Shati ni zuri lakini lina mawaa ni sahihi kuliko kutumia kwa sababu.",
+        "Viunganishi hufanya maelezo ya mavazi kuwa na mtiririko."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kiunganishi hufanya kazi gani?",
+      "options": ["Huunganisha maneno au sentensi", "Hueleza rangi tu", "Huonyesha tendo", "Huhifadhi faili"],
+      "answer": "A",
+      "explanation": "Kazi yake ni kufunga sehemu za maelezo.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Lipi ni kiunganishi?",
+      "options": ["shati", "lakini", "vaa", "meza"],
+      "answer": "B",
+      "explanation": "Lakini huunganisha kwa kuonyesha tofauti. Mengine ni nomino au kitenzi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Na hutumika vipi?",
+      "options": ["Kuonyesha sababu ya ugonjwa", "Kuunganisha vitu vinavyofanana", "Kuuliza swali", "Kuhifadhi faili"],
+      "answer": "B",
+      "explanation": "Na huunganisha, kama shati na sketi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kiunganishi katika Anavaa koti kwa sababu kuna baridi ni kipi?",
+      "options": ["anavaa", "koti", "kwa sababu", "baridi"],
+      "answer": "C",
+      "explanation": "Kwa sababu hufunga vazi na sababu ya baridi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Jaza: Nina kofia ____.",
+      "options": ["pia", "meza", "vaa", "jeusi tu bila neno"],
+      "answer": "A",
+      "explanation": "Pia huongeza jambo jingine.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi iko sahihi?",
+      "options": ["Shati ni zuri kwa sababu lina mawaa.", "Shati ni zuri lakini lina mawaa.", "Shati na kwa sababu lina.", "Lakini shati meza."],
+      "answer": "B",
+      "explanation": "Mawaa ni tofauti, si sababu ya uzuri, hivyo lakini linafaa.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Pia linaonyesha nini?",
+      "options": ["tofauti kali", "kuongeza jambo jingine", "swali", "kasi ya kusoma"],
+      "answer": "B",
+      "explanation": "Pia huongeza, kama Anavaa kofia pia.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sahihisha: Nimevaa sweta na kuna baridi.",
+      "answer": "Nimevaa sweta kwa sababu kuna baridi.",
+      "explanation": "Upande wa pili ni sababu, hivyo kwa sababu linafaa kuliko na.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Tunga sentensi ukitumia na kuhusu shati na sketi.",
+      "answer": "Mfano: Amina anavaa shati na sketi.",
+      "explanation": "Na huunganisha mavazi mawili ya sare.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tujivunie kutumia viunganishi?",
+      "answer": "Kwa sababu hufanya maelezo yawe na mtiririko na kuonyesha uhusiano wa mambo.",
+      "explanation": "Mawasiliano yanakuwa wazi zaidi kuliko sentensi fupi zisizoshikana.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 3.0 Mavazi, Mada Ndogo 3.4.1 Sarufi: Viunganishi"
+  ]
+}

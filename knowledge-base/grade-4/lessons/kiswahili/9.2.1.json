@@ -1,0 +1,184 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "9.2.1",
+  "title": "Kusoma: Kusoma kwa Mapana (Matini ya Kujichagulia)",
+  "overview": "Katika mada ya afya bora, utajichagulia matini yanayokuvutia: vitabu, majarida au magazeti kuhusu usafi, lishe na mazoezi. Utayasoma ili kufahamu ujumbe na lugha, kisha uwasimulie wenzako ili kupanua mawazo na kuchocheana kusoma zaidi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kuchagua matini kuhusu afya bora",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutaja aina za matini za kusoma kwa mapana.",
+        "Kuchagua matini inayohusu usafi, lishe au mazoezi.",
+        "Kutoa sababu ya chaguo lake."
+      ],
+      "intro": "Huwezi kusoma kila chapisho lililo maktabani. Unachagua kinachokuvutia na unachoweza kukielewa. Leo chaguo lako lihusu afya: kuosha mikono, chakula, au kucheza ili mwili uwe imara.",
+      "notes": "### Kujichagulia ni nini?\nKusoma kwa mapana kunamaanisha wewe mwenyewe unatafuta matini, si kusubiri zoezi moja tu la ubao. Unasoma ili kujifurahisha na kupanua mawazo. Katika mada hii, mada inayokuvutia inahusu afya bora.\n\n### Unapata wapi matini?\n- **Maktaba:** vitabu vya hadithi zenye funzo la usafi, na vitabu vinavyoeleza chakula.\n- **Jarida:** makala mafupi yenye picha za mboga, matunda na watoto wakicheza.\n- **Gazeti:** makala fupi kuhusu maji safi au kunawa mikono.\n- **Mtandao,** ukiongozwa na mwalimu: ukurasa mfupi unaoeleweka. Usifungue kurasa za wageni wala usiandike jina lako kamili.\n\n### Jinsi ya kuchagua\nSoma kichwa na aya ya kwanza. Jiulize:\n- Je, inazungumzia usafi, lishe, usingizi, mazoezi au mazingira safi?\n- Je, ninaelewa maneno mengi?\n- Je, ninaweza kuimaliza kwa muda niliokubaliwa?\n- Je, itanipa wazo nitakaloweza kulisimulia?\n\nChaguo zuri si kijitabu kigumu zaidi. Ni kile utakachosoma kweli. Mfano wa sababu: \"Nimechagua jarida lenye picha za mboga kwa sababu nataka kujua vyakula vinavyokinga mwili.\"\n\nAndika jina la matini na sababu katika daftari. Tunza kitabu: usikirarue wala kuandika ndani ya nakala ya maktaba. Uwajibikaji ni kurudisha matini katika hali njema ili mwenzako naye asome.",
+      "keyWords": [
+        { "word": "kujichagulia", "meaning": "kuchagua mwenyewe badala ya kupewa tu" },
+        { "word": "afya bora", "meaning": "hali ya mwili na mazoea yanayomfanya mtu awe salama na mwenye nguvu" },
+        { "word": "lishe", "meaning": "chakula tunachokula ili kujenga na kukinga mwili" },
+        { "word": "jarida", "meaning": "chapisho linalotoka mara kwa mara lenye makala na picha" }
+      ],
+      "examples": [
+        {
+          "problem": "Hassan anataka kusoma kuhusu kunawa mikono. Aina gani ya matini anayoweza kuchagua?",
+          "steps": ["Taja vitabu, majarida na magazeti.", "Chagua lile linaloweza kuwa na mada ya usafi."],
+          "answer": "Anaweza kuchagua kitabu, jarida au gazeti lenye maelezo ya usafi wa mikono.",
+          "check": null
+        },
+        {
+          "problem": "Andika sababu ya kuchagua matini kuhusu matunda.",
+          "steps": ["Taja aina ya matini.", "Unganisha na kukinga mwili."],
+          "answer": "Mfano: Nimechagua gazeti lenye makala ya matunda kwa sababu nataka kujua jinsi yanavyokinga mwili.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kona ya afya maktabani",
+        "materials": ["Vitabu, majarida na magazeti", "Kadi ya chaguo", "Tarakilishi panapopatikana"],
+        "steps": [
+          "Tembelea maktaba au kona ya vitabu. Kama mtandao upo, mwalimu aonyeshe kurasa chache zinazofaa.",
+          "Chunguza matini matatu na usome vichwa vyake.",
+          "Chagua kimoja kinachohusu afya bora na uandike sababu.",
+          "Mwambie mwenzako chaguo lako kwa sentensi mbili.",
+          "Kubalianeni kurudisha matini bila kuchana kurasa."
+        ]
+      },
+      "practice": [
+        { "question": "Kujichagulia matini kunamaanisha nini?", "answer": "Kunamaanisha mwanafunzi mwenyewe anatafuta na kuchagua anachosoma.", "check": null },
+        { "question": "Taja mada mbili za afya unazoweza kutafuta maktabani.", "answer": "Mfano: usafi wa mikono, lishe, mazoezi, au maji safi.", "check": null },
+        { "question": "Unazingatia nini kabla ya kukopa kitabu?", "answer": "Kama mada inakuvutia, lugha inaeleweka, na unaweza kukimaliza.", "check": null },
+        { "question": "Kwa nini tunarudisha kitabu cha maktaba katika hali njema?", "answer": "Ili mwenzako naye aweze kukisoma, na ili tuonyeshe uwajibikaji.", "check": null }
+      ],
+      "summary": [
+        "Chagua mwenyewe matini yanayokuvutia kuhusu afya.",
+        "Vitabu, majarida, magazeti na kurasa zinazoongozwa na mwalimu zinafaa.",
+        "Sababu ya chaguo iunganishe matini na usafi, lishe au mazoezi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kusoma ujumbe na lugha ya afya",
+      "outcomes": ["b"],
+      "objectives": [
+        "Kusoma kifungu cha afya na kueleza ujumbe wake.",
+        "Kutaja makundi matatu ya vyakula.",
+        "Kutumia maneno mapya katika sentensi."
+      ],
+      "intro": "Soma kifungu kifuatacho polepole. Usikimbilie nukta. Baada ya kusoma, tutaje mazoea ya afya na maneno mapya, si tu jina la mwandishi.",
+      "notes": "### Kifungu\nAfya bora huanza na mazoea madogo ya kila siku. Asubuhi ninaamka na ninanawa uso na mikono kwa sabuni na maji masafi. Ninafyatua meno. Kisha nakula uji wa wimbi na tunda moja, kama ndizi au embe. Shuleni ninakunywa maji yaliyochemshwa ninapokuwa na kiu. Wakati wa mapumziko ninacheza kwa bidii ili mwili upate mazoezi. Jioni ninaoga na kulala mapema. Kinga ni bora kuliko tiba.\n\n### Ujumbe\nMwandishi hatoi orodha ya magonjwa. Anatuonyesha mazoea: kunawa, kufyatua meno, kula uji na tunda, kunywa maji yaliyochemshwa, kucheza, kuoga na kulala mapema. Funzo ni kwamba kuzuia ugonjwa ni bora kuliko kusubiri kuugua. Hiyo ndiyo maana ya methali **Kinga ni bora kuliko tiba**.\n\n### Lugha na makundi ya chakula\nManeno ya kukumbuka:\n- **fyatua** ni kusafisha meno.\n- **maji masafi** ni maji yasiyo na uchafu.\n- **maji yaliyochemshwa** yamepikwa ili yawe salama kunywa.\n- **mazoezi** ni kucheza au kutembea ili mwili uwe imara.\n\nChakula katika mada hii kinaweza kugawanywa katika makundi matatu unayoyasikia shuleni:\n- **Vyakula vya nishati:** ugali, uji, mchele, viazi na ndizi.\n- **Vyakula vya kujenga mwili:** maharagwe, kunde, maziwa, mayai na samaki.\n- **Vyakula vya kukinga mwili:** mboga za majani na matunda.\n\nUji wa wimbi unatoa nishati. Tunda linakinga. Sentensi yako inaweza kuwa: \"Ninakula ndizi kwa sababu matunda yanakinga mwili.\" Matunda ni wingi, kwa hiyo **yanakinga**, si *inakinga.\n\nUkikuta neno gumu, soma sentensi nzima tena, kisha uulize au utafute kamusi. Andika neno, maana na sentensi moja.",
+      "keyWords": [
+        { "word": "kufyatua meno", "meaning": "kusafisha meno" },
+        { "word": "nishati", "meaning": "nguvu anayoipata mwili kutokana na chakula" },
+        { "word": "kinga", "meaning": "kuzuia ugonjwa kabla haujatokea" },
+        { "word": "tiba", "meaning": "kutibu ugonjwa uliotokea" }
+      ],
+      "examples": [
+        {
+          "problem": "Ujumbe mkuu wa kifungu ni upi?",
+          "steps": ["Orodhesha mazoea, kisha chagua funzo.", "Tumia methali kama funzo."],
+          "answer": "Mazoea madogo ya usafi, lishe, mazoezi na usingizi huzuia ugonjwa. Kinga ni bora kuliko tiba.",
+          "check": null
+        },
+        {
+          "problem": "Ndizi iko katika kundi gani la chakula, na kwa nini?",
+          "steps": ["Ndizi hutoa nguvu za kufanya kazi.", "Kundi hilo huitwa nishati."],
+          "answer": "Vyakula vya nishati, kwa sababu hutoa nguvu za kufanya kazi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Soma na ugawanye vyakula",
+        "materials": ["Kifungu cha afya", "Daftari", "Kamusi panapopatikana"],
+        "steps": [
+          "Soma kifungu kwa sauti ndogo, kisha kwa sauti darasani kwa zamu.",
+          "Andika mazoea manne ya afya yaliyotajwa.",
+          "Chora safu tatu: nishati, kujenga mwili, kukinga. Weka uji, kunde na embe katika safu sahihi.",
+          "Chagua maneno mawili mapya na utunge sentensi.",
+          "Msomee mwenzako ujumbe kwa sentensi mbili."
+        ]
+      },
+      "practice": [
+        { "question": "Kwa nini mwandishi anakunywa maji yaliyochemshwa?", "answer": "Ili maji yawe salama kunywa anapokuwa na kiu.", "check": null },
+        { "question": "Fyatua meno ni kufanya nini?", "answer": "Ni kusafisha meno.", "check": null },
+        { "question": "Weka katika kundi sahihi: maharagwe, sukuma wiki, viazi.", "answer": "Maharagwe hujenga mwili, sukuma wiki hukinga mwili, na viazi hutoa nishati.", "check": null },
+        { "question": "Eleza methali: Kinga ni bora kuliko tiba.", "answer": "Kuzuia ugonjwa kwa usafi na lishe ni bora kuliko kusubiri uwe mgonjwa ndipo utibiwe.", "check": null }
+      ],
+      "summary": [
+        "Kifungu kinafundisha mazoea ya kila siku ya afya.",
+        "Vyakula ni vya nishati, vya kujenga mwili, na vya kukinga.",
+        "Kinga ni bora kuliko tiba."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Kusimulia matini na kupanua mawazo",
+      "outcomes": ["c"],
+      "objectives": [
+        "Kusimulia wenzake kuhusu matini ya afya aliyosoma.",
+        "Kuuliza swali linalopanua wazo, si kurudia tu.",
+        "Kueleza jinsi usomaji unavyomsaidia yeye na wenzake."
+      ],
+      "intro": "Ujumbe ukibaki kichwani peke yako, darasa halifaidiki. Simulia kwa mpangilio, kisha sikiliza mwenzako. Swali zuri linaweza kukuonyesha mazoea ya afya hukuyafikiria.",
+      "notes": "### Mpangilio wa masimulizi\n1. Jina na aina ya matini.\n2. Mada yake kwa sentensi moja.\n3. Ujumbe mkuu.\n4. Neno jipya na maana.\n5. Jambo utakalofanya wewe mwenyewe.\n\nMfano: \"Nimesoma kifungu kuhusu mazoea ya asubuhi. Ujumbe ni kwamba usafi, uji, tunda, maji yaliyochemshwa na usingizi hutulinda. Neno jipya ni fyatua, yaani kusafisha meno. Mimi nitaoga mikono kwa sabuni kabla ya kula.\"\n\nSentensi \"nitaoga mikono\" si sahihi. Kuoga ni kuosha mwili mzima. Unaposafisha mikono, sema: \"Nitanawa mikono kwa sabuni kabla ya kula.\" Usomaji unakufundisha kutofautisha maneno yanayofanana.\n\n### Swali linalopanua\n\"Ulisoma nini?\" linakwisha haraka. Swali zuri linaongeza wazo:\n- Kunde zinajenga mwili. Je, maziwa nayo yanajenga?\n- Kwa nini maji yaliyochemshwa, si maji ya mto moja kwa moja?\n- Usingizi unahusiana vipi na afya?\n\nMaji ya mto yasiyochemshwa yanaweza kuwa na uchafu. Kwa hiyo kifungu kinasema maji yaliyochemshwa. Usingizi unampa mwili nafasi ya kupumzika. Haya ni mawazo mapya yanayotoka katika matini, si kubuni idadi ya magonjwa.\n\n### Kuchocheana\nMwenzako akimaliza, mpe wazo moja la kusoma: jarida la mboga, kifungu cha mazoezi, au hadithi ya mtoto anayenawa mikono. Furaha ya kusoma inakuja unapochagua, unapomaliza, na unapowapa wenzako habari wanayoweza kuitumia nyumbani.\n\nSikilizeni bila kukatiza. Kama hamkubaliani, rudi kwenye sentensi ya matini. Heshima na umoja vinaonekana mnapojadili afya bila kudharau chakula cha nyumbani mwa mwenzako.",
+      "keyWords": [
+        { "word": "kunawa", "meaning": "kuosha, hasa mikono au uso" },
+        { "word": "kuoga", "meaning": "kuosha mwili mzima" },
+        { "word": "kupanua mawazo", "meaning": "kuongeza uelewa zaidi ya jambo ulilosoma" }
+      ],
+      "examples": [
+        {
+          "problem": "Sahihisha masimulizi: Nitaoga mikono kabla ya uji.",
+          "steps": ["Mtu ananawa mikono.", "Kuoga ni kuosha mwili mzima."],
+          "answer": "Nitanawa mikono kabla ya uji.",
+          "check": null
+        },
+        {
+          "problem": "Andika swali moja linalopanua wazo la kundi la vyakula vya kukinga.",
+          "steps": ["Taja tunda au mboga.", "Uliza mfano mwingine, si ndiyo au hapana tu."],
+          "answer": "Mfano: Mboga za majani zinakinga mwili. Je, embe nalo linakinga?",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mzunguko wa afya",
+        "materials": ["Matini aliyosoma kila mwanafunzi", "Daftari"],
+        "steps": [
+          "Keti katika vikundi vya watu wanne.",
+          "Kila mmoja asimulie kwa dakika moja: matini, ujumbe, neno jipya na jambo atakalofanya.",
+          "Kila msikilizaji aulize swali moja linalopanua wazo la lishe au usafi.",
+          "Kundi lichague mazoea mawili mtakayoyafuata shuleni wiki hii.",
+          "Mweleze darasa jinsi usomaji umewapanua mawazo bila kudharau chakula cha mwenzako."
+        ]
+      },
+      "practice": [
+        { "question": "Tofautisha kunawa na kuoga.", "answer": "Kunawa ni kuosha mikono au uso. Kuoga ni kuosha mwili mzima.", "check": null },
+        { "question": "Andika masimulizi ya sentensi tatu kuhusu kifungu cha mazoea ya asubuhi.", "answer": "Mfano: Nimesoma kifungu cha mazoea ya afya. Ujumbe ni kwamba usafi, lishe na usingizi hutulinda. Neno jipya ni fyatua, yaani kusafisha meno.", "check": null },
+        { "question": "Kwa nini swali 'Je, embe nalo linakinga?' ni zuri?", "answer": "Kwa sababu linaongeza mfano mwingine wa chakula cha kukinga, si kurudia tu jina la kifungu.", "check": null },
+        { "question": "Usomaji wa matini mbalimbali unakusaidia vipi?", "answer": "Unanipa maneno mapya na mawazo ya afya ninayoweza kuyatumia na kuyasimulia wenzangu.", "check": null }
+      ],
+      "summary": [
+        "Simulia ujumbe, neno jipya na jambo utakalofanya.",
+        "Kunawa si kuoga.",
+        "Maswali mazuri hupanua mawazo ya lishe na usafi."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Kujichagulia matini ni nini?", "options": ["kusubiri mwalimu akuchagulie daima", "kuchagua mwenyewe unachosoma", "kunakili gazeti lote", "kusoma bila kuelewa"], "answer": "B", "explanation": "Mwanafunzi anatafuta matini yanayomvutia.", "outcome": "a", "check": null },
+    { "question": "Matini gani inafaa kwa mada ya afya bora?", "options": ["jarida la mboga na usafi", "orodha tupu", "kitabu kisichosomwa", "daftari lisiloandikwa"], "answer": "A", "explanation": "Jarida lenye usafi au lishe linafaa kusomwa kwa mapana.", "outcome": "a", "check": null },
+    { "question": "Unapochagua, unazingatia nini?", "options": ["ugumu mkubwa tu", "mada inayokuvutia na lugha inayoeleweka", "rangi ya jalada pekee", "idadi ya kurasa kubwa"], "answer": "B", "explanation": "Matini zuri unaweza kulielewa na kulimaliza.", "outcome": "a", "check": null },
+    { "question": "Katika kifungu, fyatua meno ni nini?", "options": ["kulala", "kusafisha meno", "kupika uji", "kukimbia"], "answer": "B", "explanation": "Kufyatua meno ni kuyasafisha.", "outcome": "b", "check": null },
+    { "question": "Uji wa wimbi uko katika kundi gani?", "options": ["kukinga tu", "nishati", "si chakula", "dawa ya hospitali"], "answer": "B", "explanation": "Uji hutoka nafaka na hutoa nishati.", "outcome": "b", "check": null },
+    { "question": "Kunde zina kazi gani mwilini?", "options": ["kutoa nishati pekee", "kujenga mwili", "kukausha mikono", "kutoa usingizi"], "answer": "B", "explanation": "Kunde ni chakula cha kujenga mwili.", "outcome": "b", "check": null },
+    { "question": "Kinga ni bora kuliko tiba. Hii ina maana gani?", "options": ["Subiri uwe mgonjwa kwanza", "Kuzuia ugonjwa ni bora kuliko kuutibu baadaye", "Usile mboga", "Usinawa mikono"], "answer": "B", "explanation": "Usafi na lishe hulinda kabla ugonjwa haujatokea.", "outcome": "b", "check": null },
+    { "question": "Sahihisha: Nitaoga mikono kabla ya kula.", "answer": "Nitanawa mikono kabla ya kula.", "explanation": "Mtu hunawa mikono. Kuoga ni kuosha mwili mzima.", "outcome": "b", "check": null },
+    { "question": "Unaposimulia matini ya afya, unataja nini?", "answer": "Jina la matini, ujumbe, neno jipya na jambo utakalofanya.", "explanation": "Mpangilio huu unawapa wenzako wazo wanaloweza kulitumia.", "outcome": "c", "check": null },
+    { "question": "Kusoma na kusimulia kunapanua mawazo vipi?", "answer": "Unajifunza maneno na mazoea mapya, kisha maswali ya wenzako yanakuongezea mifano ya lishe na usafi.", "explanation": "Usomaji hauishii kwenye kifungu; unaendelea katika mazungumzo.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 9.0 Afya Bora, Mada Ndogo 9.2.1 Kusoma: Kusoma kwa Mapana (Matini ya Kujichagulia)"
+  ]
+}

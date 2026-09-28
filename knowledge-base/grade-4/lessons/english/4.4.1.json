@@ -1,0 +1,177 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "4.4.1",
+  "title": "Writing: Functional Writing",
+  "overview": "A friendly letter and an SMS are two ways to pass news to someone you know. In this sub-strand you will learn the parts of a friendly letter, write one about road safety words, and set out a short SMS with a number, a clear message, a sender and a receiver.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "The parts of a friendly letter",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name the address, date, salutation, body and ending of a friendly letter.",
+        "Say what job each part does.",
+        "Point out a missing part in a sample letter."
+      ],
+      "intro": "When you speak to a friend, your face and voice help the message. A letter has to do that work on paper. Each part of the letter has a job, and leaving one out makes the writing harder to trust or to answer.",
+      "notes": "### Why the format matters\nA friendly letter is a letter to someone you know well, such as a friend, a sibling or a parent. It sounds warm, but it is still organised. The reader should see at once who wrote, when, and what the news is.\n\n### The five key parts\n1. The sender's address. Write it at the top right. Include a place the reader could use to reply, such as a school address or a post office box. Do not invent a house number you are not sure of.\n2. The date. Write it under the address. A clear date, such as 12th May 2026, tells the reader when you wrote.\n3. The salutation. This is the greeting on the left: Dear Otieno, or Dear Mother,. Use a capital letter for the name and a comma after it.\n4. The body. This is the message. Start with a polite question or greeting, then give the news in order, and close the body with a kind wish.\n5. The ending. A friendly ending matches the person. Your friend, fits a classmate. Your son, or Your daughter, fits a parent. Sign your name under the ending. Do not write Yours faithfully in a letter to a close friend. That ending belongs to a formal letter.\n\n### A labelled example\nThe address and date sit on the right. Dear Achieng, begins the salutation. The body tells her about a cycling lane the class learnt. Your friend, and the name Chebet close the letter.\n\n### What does not belong\nA friendly letter does not need a subject line such as REF or a stamp drawn in the corner of your exercise book. It does not need unkind jokes about someone's accident. Share useful news. If you describe a small cut, say that an adult cleaned it. Do not tell your friend to treat a serious injury alone.",
+      "keyWords": [
+        { "word": "friendly letter", "meaning": "a letter written in a warm style to someone you know, using a set format" },
+        { "word": "salutation", "meaning": "the greeting at the start of a letter, such as Dear Otieno," },
+        { "word": "body", "meaning": "the main message of a letter" },
+        { "word": "ending", "meaning": "the short close before your name, such as Your friend," }
+      ],
+      "examples": [
+        {
+          "problem": "Name the part: Dear Mother,",
+          "steps": ["It greets the person who will read the letter.", "That job belongs to the salutation."],
+          "answer": "The salutation"
+        },
+        {
+          "problem": "A letter has a greeting and a body but no date and no name at the end. What is missing?",
+          "steps": ["Check the five parts: address, date, salutation, body, ending and name.", "The greeting is the salutation. The date and the signed ending are absent."],
+          "answer": "The date, and the ending with the writer's name. The address may also be missing."
+        }
+      ],
+      "activity": {
+        "title": "Label a letter",
+        "materials": ["A sample friendly letter written on the board or on paper", "Pencils of two colours"],
+        "steps": [
+          "Read the sample letter quietly with a partner.",
+          "Draw a light box around the address, the date, the salutation, the body and the ending.",
+          "Write the name of each part in the margin.",
+          "Tell your partner one reason the date is useful and one reason the salutation should match the reader."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 250\" font-family=\"sans-serif\"><rect width=\"460\" height=\"250\" fill=\"#ffffff\" stroke=\"#cbd5e1\"/><text x=\"300\" y=\"28\" font-size=\"12\" fill=\"#1d4ed8\">Sender's address</text><text x=\"300\" y=\"48\" font-size=\"12\" fill=\"#111827\">P.O. Box 10,</text><text x=\"300\" y=\"64\" font-size=\"12\" fill=\"#111827\">Riverside Primary.</text><text x=\"300\" y=\"90\" font-size=\"12\" fill=\"#1d4ed8\">Date</text><text x=\"300\" y=\"108\" font-size=\"12\" fill=\"#111827\">12th May 2026.</text><text x=\"24\" y=\"140\" font-size=\"12\" fill=\"#1d4ed8\">Salutation</text><text x=\"120\" y=\"140\" font-size=\"12\" fill=\"#111827\">Dear Achieng,</text><text x=\"24\" y=\"164\" font-size=\"12\" fill=\"#1d4ed8\">Body</text><text x=\"120\" y=\"164\" font-size=\"12\" fill=\"#111827\">I hope you are well. Today we learnt</text><text x=\"120\" y=\"180\" font-size=\"12\" fill=\"#111827\">the words cycling lane and roundabout.</text><text x=\"24\" y=\"214\" font-size=\"12\" fill=\"#1d4ed8\">Ending</text><text x=\"120\" y=\"214\" font-size=\"12\" fill=\"#111827\">Your friend,</text><text x=\"120\" y=\"232\" font-size=\"12\" fill=\"#111827\">Chebet.</text></svg>",
+        "caption": "A friendly letter with the address, date, salutation, body and ending"
+      },
+      "practice": [
+        { "question": "List the five key parts of a friendly letter in order.", "answer": "Sender's address, date, salutation, body, ending (with the writer's name)." },
+        { "question": "Where do you write the sender's address?", "answer": "At the top, on the right." },
+        { "question": "Which ending fits a letter to your father: 'Yours faithfully' or 'Your daughter'?", "answer": "Your daughter. Yours faithfully is for a formal letter." }
+      ],
+      "summary": [
+        "A friendly letter has an address, a date, a salutation, a body and an ending.",
+        "The salutation greets the reader by name.",
+        "The ending and your name show who wrote the letter."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Writing a friendly letter about road safety",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Write a friendly letter in the correct format.",
+        "Use road safety words such as cycling lane, roundabout and railway crossing in the body.",
+        "Keep the tone kind and the information true."
+      ],
+      "intro": "Otieno goes to another school. He has not heard the new words your class uses for the road. A letter can teach him those words and still sound like a friend, not like a poster.",
+      "notes": "### Plan before you write\nDecide three things: who will read the letter, what you want them to know, and which words you will teach. For this theme, useful words are U-turn, cycling lane, roundabout, railway crossing and number plate.\n\n- A U-turn turns a vehicle so that it faces the way it came. Drivers should make one only where it is allowed.\n- A cycling lane is a part of the road marked for bicycles. Walkers keep to the footpath.\n- A roundabout is a circular junction.\n- A railway crossing is where a road crosses railway tracks. Stop, look and listen.\n- A number plate shows the registration of a vehicle. You might note it if an adult asks you to help report an incident. Do not run after vehicles to read plates.\n\n### A model letter\nP.O. Box 10,\nRiverside Primary School.\n\n12th May 2026.\n\nDear Otieno,\n\nHow are you? I hope your class is enjoying the term. Yesterday we learnt words that keep people safer on the road. A cycling lane is the part marked for bicycles, so walkers should stay on the footpath. Vehicles go around a roundabout. At a railway crossing we stop, look both ways and listen for a train. A number plate helps an adult identify a vehicle. I would like to hear the new words your class has learnt.\n\nYour friend,\nChebet.\n\n### Check the draft\nRead the letter as if you were Otieno. Can you find the address, the date, the salutation, one clear message and the ending? Are the names spelt correctly? Did you stay polite? Cross out any sentence that tells a friend to cross a railway when the barrier is down, or to give first aid for a snake bite. Serious injuries need an adult and a hospital.\n\nWrite in your own words. You may follow the shape of the model, but change the news so the letter is yours.",
+      "keyWords": [
+        { "word": "cycling lane", "meaning": "a part of the road marked for people riding bicycles" },
+        { "word": "U-turn", "meaning": "a turn that makes a vehicle face the opposite direction" },
+        { "word": "number plate", "meaning": "the plate on a vehicle that shows its registration" },
+        { "word": "draft", "meaning": "a first copy of a piece of writing that you can improve" }
+      ],
+      "examples": [
+        {
+          "problem": "Which road safety word means a circular junction?",
+          "steps": ["Check the five words in the plan.", "A circular junction is a roundabout."],
+          "answer": "roundabout"
+        },
+        {
+          "problem": "Improve this body sentence: 'Just run over the railway crossing if you are late.'",
+          "steps": ["The advice is unsafe.", "Replace it with the rule to stop, look and listen, and to wait if a barrier is down."],
+          "answer": "At a railway crossing, stop, look both ways and listen. If the barrier is down, wait until the way is clear."
+        }
+      ],
+      "activity": {
+        "title": "A letter to a friend in another school",
+        "materials": ["Exercise books", "The list of road safety words on the board"],
+        "steps": [
+          "With a partner, list the five parts of the letter down the margin before you write.",
+          "Draft a letter to a friend, sibling or parent. Teach at least three road safety words in the body.",
+          "Swap books. The partner ticks the address, date, salutation, body and ending, and underlines any unsafe advice.",
+          "Write a neat copy in your own words."
+        ]
+      },
+      "practice": [
+        { "question": "What should walkers do where there is a cycling lane?", "answer": "Keep to the footpath. The cycling lane is for bicycles." },
+        { "question": "Write a salutation for a letter to your uncle Kamau.", "answer": "Dear Uncle Kamau," },
+        { "question": "Name two things you check before you copy a letter neatly.", "answer": "That all five parts are present, and that the safety information is correct and polite." }
+      ],
+      "summary": [
+        "Plan the reader, the news and the words before you draft.",
+        "Use the five parts, and sign your name.",
+        "Share road safety facts that an adult would agree are safe."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Writing a clear SMS",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Name the receiver's number, the message, the sender and the receiver.",
+        "Write a short SMS that gives one clear piece of information.",
+        "Say why honesty and permission matter when you use a phone."
+      ],
+      "intro": "An SMS is a short text message. It travels quickly, so a missing name or a wrong number can send your news to the wrong person. A good SMS is short, true and easy to answer.",
+      "notes": "### The parts of an SMS\nAn SMS has four things to think about.\n\n- The receiver's telephone number. You type this in the 'To' line. A Kenyan mobile number has ten digits and often begins with 07 or 01. Check every digit before you send.\n- The receiver. This is the person who should read the message. Use their name in the first line so they know the message is for them.\n- The message. One main point is enough. Say what happened, what you need, or what you learnt.\n- The sender. The phone shows your number, but the reader may not have it saved. Write your name at the end.\n\nThe number 0700 000 001 in the sample below is not a real person's number. It is only a pattern for practice on paper. Do not send a message to a made-up number, and do not copy a number from a stranger's advert.\n\n### A sample SMS\nTo: 0700 000 001\nHello Achieng. It is Chebet. We learnt that at a railway crossing we stop, look and listen. Use the footbridge where there is one. Your friend, Chebet.\n\n### Rules that keep the message safe and honest\nUse a phone only with permission from a parent or teacher. Send news that is true. Do not pretend to be another person. Do not forward a classmate's number or photograph without asking. Do not send unkind words. If you are reporting an accident, tell a trusted adult first. An SMS can say, 'Please come to the gate. Juma has a small cut and the teacher is with him.' It should not tell a child to give medicine.\n\nLetters and SMS messages do different jobs. A letter can explain slowly. An SMS is for a short, urgent or friendly note. Both should be polite, because the reader cannot hear your voice.",
+      "keyWords": [
+        { "word": "SMS", "meaning": "a short text message sent from one mobile phone to another" },
+        { "word": "receiver", "meaning": "the person who gets the message" },
+        { "word": "sender", "meaning": "the person who sends the message" },
+        { "word": "telephone number", "meaning": "the digits you dial or type to reach one phone" }
+      ],
+      "examples": [
+        {
+          "problem": "What is missing? 'Come to the field now.'",
+          "steps": ["There is no name of the receiver and no name of the sender.", "The reader may not know who is writing or who should come."],
+          "answer": "The receiver's name and the sender's name. A place and a reason would also make it clearer."
+        },
+        {
+          "problem": "Rewrite this SMS so it is honest and useful: 'I am the teacher. Bring money to the toilet block.'",
+          "steps": ["Pretending to be the teacher is dishonest.", "Asking a child to bring money to a hidden place is unsafe.", "A real message uses your own name and a public, sensible place."],
+          "answer": "Hello Mother. It is Chebet. Please meet me at the school gate at 4 o'clock. The teacher said you should sign my form."
+        }
+      ],
+      "activity": {
+        "title": "Practise an SMS on paper",
+        "materials": ["Paper set out like a phone screen", "A mobile phone only if the teacher has given permission and is supervising"],
+        "steps": [
+          "Brainstorm the four parts of an SMS: telephone number, message, sender and receiver.",
+          "On paper, write an SMS to a classmate about one road safety word you have learnt.",
+          "Swap papers. Check the number line, the greeting, one clear point and the sender's name.",
+          "If the teacher allows a supervised phone, type the message to a number the teacher gives you. Do not add a different number on your own."
+        ]
+      },
+      "practice": [
+        { "question": "Name the four components of an SMS.", "answer": "The receiver's telephone number, the message, the sender and the receiver." },
+        { "question": "Why should you write your name in an SMS?", "answer": "The reader may not have your number saved, so your name shows who is writing." },
+        { "question": "Write a one-sentence SMS body telling a parent that you will use the footbridge after school. Include your name.", "answer": "Hello Mother. It is Baraka. I will cross on the footbridge after school and come straight home." }
+      ],
+      "summary": [
+        "An SMS needs the right number, a named receiver, one clear message and the sender's name.",
+        "Use a phone only with permission, and never pretend to be someone else.",
+        "Letters and text messages should both carry true, kind information."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Which list shows the parts of a friendly letter?", "options": ["Subject, reference, stamp, signature", "Address, date, salutation, body, ending", "Inbox, outbox, password, click", "Title, verse, chorus, rhyme"], "answer": "B", "explanation": "Those five parts are the format you prepare before you write.", "outcome": "a" },
+    { "question": "The salutation of a letter is", "options": ["the date", "the greeting, such as Dear Otieno,", "the post office box only", "the writer's drawing"], "answer": "B", "explanation": "The salutation greets the reader.", "outcome": "a" },
+    { "question": "Where is the sender's address placed?", "options": ["At the bottom left", "At the top right", "Inside the salutation", "After the ending only"], "answer": "B", "explanation": "The address sits at the top on the right, above the date.", "outcome": "a" },
+    { "question": "A cycling lane is", "options": ["a shelf for bags", "a part of the road marked for bicycles", "a plate showing a registration", "a circular junction"], "answer": "B", "explanation": "Bicycles use the cycling lane. Walkers use the footpath.", "outcome": "b" },
+    { "question": "Which ending best fits a friendly letter to a classmate?", "options": ["Yours faithfully,", "Your friend,", "REF: Road safety,", "To whom it may concern,"], "answer": "B", "explanation": "Your friend, matches a personal letter. Yours faithfully is formal.", "outcome": "b" },
+    { "question": "At a railway crossing a writer should tell a friend to", "options": ["run if the train looks far away", "stop, look both ways and listen", "stand on the tracks to wave", "make a U-turn on the tracks"], "answer": "B", "explanation": "Stop, look and listen. Wait when a barrier is down or warning lights are on.", "outcome": "d" },
+    { "question": "Which set names the components of an SMS?", "options": ["Address, salutation, body, ending", "Telephone number, message, sender, receiver", "North, south, east, west", "Noun, verb, adjective, pronoun"], "answer": "B", "explanation": "Those are the parts you plan before you send a text.", "outcome": "c" },
+    { "question": "Why do you type your name at the end of an SMS?", "options": ["The phone cannot send a message without a poem", "The receiver may not recognise your number", "Names replace the need for a true message", "The date will not appear otherwise"], "answer": "B", "explanation": "Your name tells the reader who is writing.", "outcome": "c" },
+    { "question": "Which SMS is the honest one?", "options": ["I am your teacher. Bring money behind the hall.", "Hello Father. It is Neema. Please pick me up at the school gate.", "Click this link and send your home address.", "Do not tell anyone I used your phone to pretend I was you."], "answer": "B", "explanation": "Neema uses her own name, tells the truth and chooses a safe meeting place.", "outcome": "d" },
+    { "question": "Write the salutation and ending you would use in a friendly letter to your mother.", "answer": "Salutation: Dear Mother, Ending: Your daughter, or Your son, followed by your name.", "explanation": "The salutation greets her and the ending shows your relationship before you sign.", "outcome": "b" }
+  ],
+  "sources": [
+    "KICD Grade 4 English Curriculum Design (Revised 2024) — Theme 4.0 Accidents- First Aid, Sub-strand 4.4.1 Functional Writing"
+  ]
+}

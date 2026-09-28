@@ -1,0 +1,198 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "1.4.1",
+  "title": "Sarufi: Nomino",
+  "overview": "Nomino ni majina ya watu, wanyama, vitu, wadudu na mahali. Katika mada hii ndogo utaieleza ili uitofautishe na aina nyingine za maneno, utaitambua katika orodha na sentensi, na utaitumia kwa usahihi unapoandika na kuzungumza kuhusu nyumbani.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya nomino na jinsi ya kuitambua",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya nomino.",
+        "Kutaja aina za majina yanayopatikana nyumbani na shuleni.",
+        "Kutambua nomino katika kundi la maneno na katika sentensi."
+      ],
+      "intro": "Angalia darasani. Unaweza kutaja kiti, kitabu, mwalimu na dirisha. Maneno hayo yanataja vitu na watu. Hayasemi kitendo kama kula au kukimbia. Maneno yanayotaja ndiyo nomino.",
+      "notes": "### Nomino ni nini?\nNomino ni neno la kutaja mtu, mnyama, kitu, mdudu au mahali. Huitofautisha na kitenzi, kwa sababu kitenzi huonyesha tendo. Katika sentensi Amina alisoma kitabu, maneno Amina na kitabu ni nomino. Alisoma ni kitenzi.\n\nUnaweza kuitambua nomino kwa kuuliza: Je, neno hili linataja kitu ninachoweza kukionyesha, kukitaja au kukifikiria kama jina? Kama jibu ni ndiyo, huenda ni nomino.\n\n### Makundi unayoyaona kila siku\n- Watu: mama, baba, mwalimu, mwanafunzi, mpishi.\n- Wanyama: mbwa, paka, kuku, ng'ombe.\n- Wadudu: nzi, mbu, kipepeo.\n- Vitu: meza, kochi, kitabu, sufuria, kinu.\n- Mahali: sebule, jikoni, shule, soko, bustani.\n\nMajina maalum ya watu huandikwa kwa kuanza na herufi kubwa, kama Amina na Juma. Majina ya vitu ya kawaida huandikwa kwa herufi ndogo ndani ya sentensi, kama meza na kochi.\n\n### Katika orodha na sentensi\nKatika orodha: mbwa, sema, kiti, andika, shule. Nomino ni mbwa, kiti na shule. Sema na andika ni vitendo.\n\nKatika sentensi, nomino huwa nafasi ya mtendaji au kitu kinachotendewa. Mama alipiga deki. Mama ni mtendaji. Deki hapa ni sehemu ya kitenzi kupiga deki, yaani kusafisha sakafu. Meza ilianguka. Meza ni nomino.\n\nMazoezi ya kutambua hukusaidia usichanganye jina na tendo unapoandika.",
+      "keyWords": [
+        { "word": "nomino", "meaning": "neno la kutaja mtu, mnyama, kitu, mdudu au mahali" },
+        { "word": "jina maalum", "meaning": "jina la mtu fulani, linaloanza kwa herufi kubwa" },
+        { "word": "kitenzi", "meaning": "neno linaloonyesha tendo, kama soma au kimbia" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua nomino katika orodha: paka, kimbia, sufuria, cheza, jikoni.",
+          "steps": ["Ondoa maneno ya vitendo: kimbia na cheza.", "Bakiwa na majina."],
+          "answer": "paka, sufuria, jikoni",
+          "check": null
+        },
+        {
+          "problem": "Katika sentensi Juma aliweka kinu jikoni, zipi ni nomino?",
+          "steps": ["Aliweka ni tendo.", "Juma, kinu na jikoni vinataja."],
+          "answer": "Juma, kinu na jikoni",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chagua nomino uziweke kapuni",
+        "materials": ["Kadi za maneno", "Kapu", "Tarakilishi panapopatikana"],
+        "steps": [
+          "Kwa vikundi, elezeni maana ya nomino kwa maneno yenu.",
+          "Chagueni nomino kwenye orodha iliyo ubao, kadi au tarakilishi na mziweke kapuni.",
+          "Kadi isiyokuwa nomino ibaki nje. Mwelezeni mwenzako kwa nini imebaki.",
+          "Toeni mifano mipya ya nomino za watu, vitu na mahali nyumbani.",
+          "Andikeni majina maalum mkiyaanza kwa herufi kubwa."
+        ]
+      },
+      "practice": [
+        { "question": "Nomino ni nini?", "answer": "Ni neno la kutaja mtu, mnyama, kitu, mdudu au mahali.", "check": null },
+        { "question": "Tambua nomino: mama, lala, mbwa, ruka, sebule.", "answer": "mama, mbwa, sebule", "check": null },
+        { "question": "Kwa nini Amina huandikwa kwa herufi kubwa?", "answer": "Ni jina maalum la mtu.", "check": null },
+        { "question": "Katika sentensi Mwalimu aliweka kitabu mezani, taja nomino.", "answer": "Mwalimu, kitabu na meza (katika neno mezani).", "check": null }
+      ],
+      "summary": [
+        "Nomino hutaja watu, wanyama, vitu, wadudu na mahali.",
+        "Kitenzi huonyesha tendo; nomino hutaja jina.",
+        "Majina maalum ya watu huanzia kwa herufi kubwa."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia nomino katika sentensi",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa nomino inayofaa.",
+        "Kutunga sentensi zinazotumia nomino za nyumbani.",
+        "Kuthamini matumizi ya nomino katika mawasiliano."
+      ],
+      "intro": "Bila nomino, tungesema alisafisha bila kumwambia mtu alichosafisha. Nomino humpa msikilizaji picha: nani, kitu gani, na wapi. Leo utaziweka katika sentensi zinazoeleza kazi za nyumbani.",
+      "notes": "### Kujaza nafasi\nNafasi tupu inahitaji jina linaloendana na maana ya sentensi, si neno lolote.\n\n- ____ alipiga deki sebuleni. Nafasi inahitaji mtu: Amina, mama au Juma.\n- Sufuria imekaa juu ya ____. Nafasi inahitaji kitu cha jikoni: mafiga.\n- Tulikaa kwenye ____ kuongea. Nafasi inafaa kochi au sebule, si kinu.\n\nChagua nomino inayoeleweka. Sentensi Mama alipika kochi haifai, kwa sababu kochi si chakula wala jiko.\n\n### Kutunga sentensi\nSentensi kamili huwa na nomino na kitenzi. Anza kwa herufi kubwa na maliza kwa kikomo.\n\n- Baba aliweka fremu ya picha juu ya meza.\n- Mtoto aliketi kwenye kochi.\n- Dada alisafisha kinu baada ya kuponda mahindi.\n\nUkitoa nomino, sentensi inabaki giza: Aliweka juu ya. Msomaji anauliza: aliweka nini, na juu ya nini?\n\n### Fahari ya kuzitumia vizuri\nNomino sahihi huonyesha unajua mazingira yako na unaheshimu lugha. Unapozungumza kuhusu nyumba, taja vifaa kwa majina yake badala ya kusema kitu kile kila mara. Wenzako watakusahihisha ukikosea. Pokea shauri hilo kwa utulivu, kisha andika upya. Kazi hii ya pamoja huimarisha mawasiliano nyumbani na shuleni.\n\nJizoeze kila siku. Taja nomino tano unapoamka: kitanda, mto, dirisha, mlango na sebule. Kisha utunge sentensi moja.",
+      "keyWords": [
+        { "word": "sentensi", "meaning": "kundi la maneno linalokamilisha wazo" },
+        { "word": "mtendaji", "meaning": "nomino ya mtu au kitu kinachofanya tendo" },
+        { "word": "kujaza nafasi", "meaning": "kuweka neno linalofaa katika pengo la sentensi" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza nafasi: ____ ilikaa juu ya mafiga matatu.",
+          "steps": ["Mafiga hushika chombo cha kupikia.", "Nomino inayofaa ni sufuria."],
+          "answer": "Sufuria ilikaa juu ya mafiga matatu.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini sentensi hii haifai: Juma alilala kinu?",
+          "steps": ["Kinu ni chombo cha kupondia nafaka.", "Mtu halali ndani ya kinu."],
+          "answer": "Kinu si mahali pa kulala. Ingefaa kusema Juma alilala kitandani, au Juma alisafisha kinu.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tunga sentensi za nyumbani",
+        "materials": ["Daftari", "Orodha ya nomino", "Kifaa cha kidijitali panapopatikana"],
+        "steps": [
+          "Chagueni nomino tano za nyumbani kutoka kwenye kapu la maneno au tarakilishi.",
+          "Kila mwanafunzi ajaze nafasi mbili kwenye sentensi alizopewa na mwalimu.",
+          "Tunga sentensi tatu daftarini ukitumia nomino hizo.",
+          "Msomee mwenzako sentensi zako ili azisahihishe kwa uaminifu na heshima.",
+          "Sahihisha kosa moja uliloonyeshwa na uandike sentensi upya."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza nafasi kwa nomino ifaayo: Tulipumzika sebuleni tukikaa kwenye ____.", "answer": "kochi", "check": null },
+        { "question": "Tunga sentensi ukitumia nomino mama na kinu.", "answer": "Mfano: Mama aliponda mahindi kwa kinu.", "check": null },
+        { "question": "Kwa nini nomino ni muhimu katika mawasiliano?", "answer": "Hutaja watu, vitu na mahali ili msikilizaji aelewe ujumbe bila kuchanganyikiwa.", "check": null },
+        { "question": "Andika sentensi moja yenye nomino ya mtu na nomino ya mahali.", "answer": "Mfano: Amina yuko jikoni.", "check": null }
+      ],
+      "summary": [
+        "Nomino hujaza nafasi ili sentensi iwe na maana.",
+        "Chagua jina linaloendana na tendo, si neno lolote.",
+        "Kuzitumia vizuri huonyesha fahari na heshima katika lugha."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Nomino ni neno la aina gani?",
+      "options": ["neno la kutaja jina", "neno la kuonyesha tendo tu", "alama ya swali", "neno la kujiunga sentensi"],
+      "answer": "A",
+      "explanation": "Nomino hutaja mtu, mnyama, kitu, mdudu au mahali.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Lipi kati ya haya ni nomino?",
+      "options": ["kimbia", "sebule", "haraka", "lakini"],
+      "answer": "B",
+      "explanation": "Sebule ni mahali. Kimbia ni kitenzi, haraka ni kielezi, lakini ni kiunganishi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Katika orodha: andika, kuku, ruka, sufuria, ni zipi nomino?",
+      "options": ["andika na ruka", "kuku na sufuria", "ruka na sufuria", "andika na kuku"],
+      "answer": "B",
+      "explanation": "Kuku ni ndege na sufuria ni kitu. Andika na ruka ni vitendo.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kwa nini Juma huandikwa kwa herufi kubwa?",
+      "options": ["Ni kitenzi", "Ni jina maalum la mtu", "Ni kielezi", "Ni alama ya hisi"],
+      "answer": "B",
+      "explanation": "Majina maalum ya watu huanzia kwa herufi kubwa.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Jaza nafasi: Sufuria imekaa juu ya ____.",
+      "options": ["mafiga", "kimbia", "polepole", "lakini"],
+      "answer": "A",
+      "explanation": "Mafiga ni nomino ya mawe yanayoshika sufuria.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi imetumia nomino ipasavyo?",
+      "options": ["Mama aliponda mahindi kwa kinu.", "Kinu alikimbia shuleni.", "Alisoma lakini meza.", "Polepole ni sufuria."],
+      "answer": "A",
+      "explanation": "Mama, mahindi na kinu ni nomino zinazoendana na tendo la kuponda.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Katika sentensi Dada alisafisha sebule, nomino ni zipi?",
+      "options": ["alisafisha tu", "Dada na sebule", "alisafisha na sebule", "hakuna nomino"],
+      "answer": "B",
+      "explanation": "Dada ni mtu na sebule ni mahali. Alisafisha ni kitenzi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Tunga sentensi ukitumia nomino kochi.",
+      "answer": "Mfano: Wageni walikaa kwenye kochi sebuleni.",
+      "explanation": "Kochi imetumika kama jina la samani, pamoja na kitenzi.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tujivunie kutumia nomino sahihi?",
+      "answer": "Kwa sababu humsaidia msikilizaji kuelewa watu, vitu na mahali, na huonyesha heshima kwa lugha.",
+      "explanation": "Matumizi sahihi huboresha mawasiliano ya kila siku.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Ni lipi si nomino?",
+      "options": ["mbu", "kinu", "lala", "shule"],
+      "answer": "C",
+      "explanation": "Lala ni kitenzi. Mbu, kinu na shule ni majina.",
+      "outcome": "a",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 1.0 Nyumbani, Mada Ndogo 1.4.1 Sarufi: Nomino",
+    "KICD Kiswahili Gredi ya 4, kipindi cha redio: Nomino"
+  ]
+}

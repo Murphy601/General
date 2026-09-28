@@ -1,0 +1,479 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "1.7",
+  "title": "Decimals",
+  "overview": "Decimals name parts of a whole using tenths and hundredths. In this sub-strand you will identify a tenth and a hundredth, write them with a decimal point, read the place value of each digit, and put decimals in order. The work stays with numbers up to hundredths.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What a tenth is",
+      "outcomes": ["a"],
+      "objectives": [
+        "Show one tenth as one of ten equal parts.",
+        "Write several tenths as a fraction and say where tenths are used."
+      ],
+      "intro": "A metre stick can be split into ten equal pieces. Each piece is one tenth of a metre. Tenths let us talk about a part of a whole without cutting the idea into halves only.",
+      "notes": "When one whole is divided into 10 equal parts, each part is a tenth. One tenth is the fraction 1/10. Three of those parts are three tenths, or 3/10. Ten tenths make one whole, because 10/10 = 1.\n\n### Seeing tenths\nFold a paper strip into 10 equal parts. Shade one part and you have shaded 1/10 of the strip. Shade four parts and you have shaded 4/10. The parts must be equal. Ten unequal pieces are not tenths.\n\n### Tenths around you\nLength is one place tenths appear. One metre is 100 centimetres, so one tenth of a metre is 10 centimetres. A length of 3 tenths of a metre is 30 centimetres. Capacity can be thought of in the same way: one tenth of a full bottle is one of ten equal shares of that bottle.\n\nMoney uses the same idea. One shilling is 100 cents, so one tenth of a shilling is 10 cents. You do not need to calculate every price yet. The important point is that a tenth is a fixed equal part, wherever you meet it.\n\n### Counting in tenths\nStart at 0 and count tenths: 1/10, 2/10, 3/10, and so on up to 10/10. After 10/10 you have one whole, and the next tenth begins the next whole. Later you will write these same amounts with a decimal point. In this lesson, be sure you can say \"one tenth\" and show it as 1 out of 10 equal parts.",
+      "keyWords": [
+        { "word": "tenth", "meaning": "one of ten equal parts of a whole" },
+        { "word": "whole", "meaning": "one complete thing, equal to ten tenths" }
+      ],
+      "examples": [
+        {
+          "problem": "A strip is folded into 10 equal parts and 1 part is shaded. What fraction of the strip is shaded?",
+          "steps": ["There are 10 equal parts.", "1 part is shaded.", "That is one tenth."],
+          "answer": "1/10",
+          "check": "1 < 10"
+        },
+        {
+          "problem": "How many tenths make one whole?",
+          "steps": ["The whole was divided into 10 equal parts.", "All 10 parts make the whole."],
+          "answer": "10 tenths",
+          "check": "10 / 10 === 1"
+        },
+        {
+          "problem": "How many centimetres are in 3 tenths of a metre?",
+          "steps": ["1 tenth of a metre is 10 cm.", "3 tenths are 3 × 10 cm."],
+          "answer": "30 cm",
+          "check": "3 * 10 === 30"
+        }
+      ],
+      "activity": {
+        "title": "Tenths on a strip",
+        "materials": ["Paper strips", "Pencil", "Ruler if you have one"],
+        "steps": [
+          "Fold or mark a strip into 10 equal parts.",
+          "Shade 1 part and say \"one tenth\". Shade 4 parts on another strip and say \"four tenths\".",
+          "Discuss where tenths are used, such as parts of a metre or parts of a shilling.",
+          "Share your strips with another group and check that the parts are equal."
+        ]
+      },
+      "practice": [
+        { "question": "What fraction is four tenths?", "answer": "4/10", "check": "4 < 10" },
+        { "question": "How many tenths are in one whole?", "answer": "10", "check": "10 / 10 === 1" },
+        { "question": "One tenth of a metre is how many centimetres?", "answer": "10 cm", "check": "100 / 10 === 10" },
+        { "question": "Seven tenths of a metre is how many centimetres?", "answer": "70 cm", "check": "7 * 10 === 70" }
+      ],
+      "summary": [
+        "A tenth is one of ten equal parts.",
+        "Ten tenths make one whole.",
+        "One tenth of a metre is 10 centimetres."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "What a hundredth is",
+      "outcomes": ["a"],
+      "objectives": [
+        "Show one hundredth as one of one hundred equal parts.",
+        "Relate hundredths to tenths."
+      ],
+      "intro": "If each tenth of a strip is split into ten smaller equal pieces, the strip has one hundred pieces. Each small piece is one hundredth.",
+      "notes": "A hundredth is one of 100 equal parts of a whole. One hundredth is the fraction 1/100. Twenty-five of those parts are 25/100. One hundred hundredths make one whole, because 100/100 = 1.\n\n### Hundredths and tenths together\nEach tenth contains 10 hundredths. So 10 hundredths make 1 tenth, and 1/10 = 10/100. Thirty hundredths make 3 tenths, because 30/100 = 3/10. This link stops you treating tenths and hundredths as unrelated names.\n\n### A hundred grid\nDraw a square and divide it into 10 rows and 10 columns. There are 100 small squares. Shade one square for 1/100. Shade a whole row of 10 squares for 1/10, which is also 10/100. Shade 25 squares for 25/100.\n\n### Where hundredths are used\nOne metre is 100 centimetres, so one hundredth of a metre is 1 centimetre. One shilling is 100 cents, so one cent is one hundredth of a shilling. A price written with cents is using hundredths of a shilling, even before you learn the decimal point in the next lesson.\n\nCount hundredths carefully. It takes ten times as many hundredths as tenths to make the same amount. Four tenths is 40 hundredths, not 4 hundredths.",
+      "keyWords": [
+        { "word": "hundredth", "meaning": "one of one hundred equal parts of a whole" },
+        { "word": "hundred grid", "meaning": "a square split into 100 equal smaller squares" }
+      ],
+      "examples": [
+        {
+          "problem": "How many hundredths make one tenth?",
+          "steps": ["One tenth is 10 of the 100 equal parts.", "So 10 hundredths make 1 tenth."],
+          "answer": "10 hundredths",
+          "check": "10 / 100 === 1 / 10"
+        },
+        {
+          "problem": "How many centimetres are in one hundredth of a metre?",
+          "steps": ["1 metre = 100 cm.", "1/100 of 100 cm is 1 cm."],
+          "answer": "1 cm",
+          "check": "100 / 100 === 1"
+        },
+        {
+          "problem": "Write four tenths as a number of hundredths.",
+          "steps": ["1 tenth = 10 hundredths.", "4 tenths = 40 hundredths."],
+          "answer": "40 hundredths",
+          "check": "4 * 10 === 40"
+        }
+      ],
+      "activity": {
+        "title": "Hundred square",
+        "materials": ["Squared paper or a drawn 10 by 10 grid", "Coloured pencil"],
+        "steps": [
+          "Draw a grid with 10 rows and 10 columns.",
+          "Shade 1 square and label it one hundredth. Shade one full row and label it one tenth.",
+          "Shade 25 squares and write 25/100.",
+          "Discuss with your group where hundredths appear, such as cents in a shilling or centimetres in a metre."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 140\" font-family=\"sans-serif\"><rect width=\"280\" height=\"140\" fill=\"#ffffff\"/><rect x=\"20\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"16\" width=\"10\" height=\"10\" fill=\"#86efac\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"26\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"36\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"46\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"56\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"66\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"76\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"86\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"96\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"20\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"30\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"40\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"50\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"60\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"70\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"80\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"90\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"100\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><rect x=\"110\" y=\"106\" width=\"10\" height=\"10\" fill=\"#ffffff\" stroke=\"#166534\" stroke-width=\"1\"/><text x=\"140\" y=\"50\" font-size=\"13\" fill=\"#111827\">1 row = 10 hundredths</text><text x=\"140\" y=\"70\" font-size=\"13\" fill=\"#111827\">= 1 tenth</text></svg>",
+        "caption": "One row of a hundred grid is one tenth"
+      },
+      "practice": [
+        { "question": "What fraction is one hundredth?", "answer": "1/100", "check": "1 < 100" },
+        { "question": "How many hundredths make one whole?", "answer": "100", "check": "100 / 100 === 1" },
+        { "question": "How many hundredths are the same as 3 tenths?", "answer": "30 hundredths", "check": "3 * 10 === 30" },
+        { "question": "One cent is what fraction of one shilling?", "answer": "1/100", "check": "1 < 100" }
+      ],
+      "summary": [
+        "A hundredth is one of 100 equal parts.",
+        "Ten hundredths make one tenth.",
+        "One hundredth of a metre is 1 centimetre."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Writing decimals with a decimal point",
+      "outcomes": ["b"],
+      "objectives": [
+        "Use a decimal point to separate wholes from parts.",
+        "Write tenths and hundredths in decimal notation."
+      ],
+      "intro": "Instead of writing three and four tenths as 3 4/10 every time, we write 3.4. The dot is the decimal point, and it shows where the whole number ends.",
+      "notes": "Decimal notation uses a decimal point. Digits before the point are whole numbers. Digits after the point are parts of a whole. The first digit after the point is tenths. The second digit after the point is hundredths.\n\n### Tenths\nFour tenths is 0.4. The zero before the point shows that there is no whole. Three and four tenths is 3.4. Eight tenths is 0.8. Read 3.4 as \"three point four\" or \"three and four tenths\".\n\n### Hundredths\nTwenty-five hundredths is 0.25. Six and twenty-five hundredths is 6.25. Five hundredths is 0.05. The zero between the point and the 5 is important: it shows that there are no tenths. If you write 0.5, that is five tenths, which is 50 hundredths, not five hundredths.\n\n### Matching fractions and decimals\n\n- 1/10 = 0.1\n- 7/10 = 0.7\n- 1/100 = 0.01\n- 45/100 = 0.45\n- 3 and 4/10 = 3.4\n- 6 and 25/100 = 6.25\n\n### Zeros that keep a place\n0.40 has 4 tenths and 0 hundredths. It is the same amount as 0.4, but the extra zero shows the hundredths place clearly. 2.08 has 2 wholes, 0 tenths and 8 hundredths. Do not leave out the 0 in the tenths place, or 2.08 becomes 2.8, which is much bigger.",
+      "keyWords": [
+        { "word": "decimal point", "meaning": "the dot that separates whole numbers from tenths and hundredths" },
+        { "word": "decimal notation", "meaning": "a way of writing fractions of tenths and hundredths with a decimal point" }
+      ],
+      "examples": [
+        {
+          "problem": "Write three and four tenths in decimal notation.",
+          "steps": ["3 wholes are written before the point.", "4 tenths are written in the first place after the point."],
+          "answer": "3.4",
+          "check": "3 + 4/10 === 3.4"
+        },
+        {
+          "problem": "Write six and twenty-five hundredths in decimal notation.",
+          "steps": ["6 wholes, then the point.", "2 tenths and 5 hundredths give 25 hundredths."],
+          "answer": "6.25",
+          "check": "6 + 25/100 === 6.25"
+        },
+        {
+          "problem": "Write five hundredths as a decimal.",
+          "steps": ["There are no wholes and no tenths.", "Write 0.05, not 0.5."],
+          "answer": "0.05",
+          "check": "5/100 === 0.05 && 5/100 < 0.5"
+        }
+      ],
+      "activity": {
+        "title": "Decimal notation on a chart",
+        "materials": ["Place value chart with a decimal point", "Digit cards"],
+        "steps": [
+          "Draw columns for Ones, a decimal point, Tenths and Hundredths.",
+          "Write 0.7, 3.4, 0.05 and 6.25 on the chart.",
+          "Say each number in words: tenths or hundredths.",
+          "Ask a partner to cover one card and read the number from the chart alone."
+        ]
+      },
+      "practice": [
+        { "question": "Write seven tenths as a decimal.", "answer": "0.7", "check": "7/10 === 0.7" },
+        { "question": "Write 45 hundredths as a decimal.", "answer": "0.45", "check": "45/100 === 0.45" },
+        { "question": "Write 2 and 8 hundredths as a decimal.", "answer": "2.08", "check": "2 + 8/100 === 2.08" },
+        { "question": "Which is five hundredths, 0.5 or 0.05?", "answer": "0.05", "check": "5/100 === 0.05 && 5/10 === 0.5" }
+      ],
+      "summary": [
+        "The decimal point separates wholes from parts.",
+        "The first decimal place is tenths and the second is hundredths.",
+        "0.05 means five hundredths; 0.5 means five tenths."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Place value of decimals up to hundredths",
+      "outcomes": ["c"],
+      "objectives": [
+        "Name the place of each digit in a number with hundredths.",
+        "Use zeros to hold empty decimal places."
+      ],
+      "intro": "In 46.78 the digit 7 is not worth 7 ones and it is not worth 7 tens. Its place, just after the decimal point, tells you that it is worth 7 tenths.",
+      "notes": "A decimal place value chart up to hundredths has these columns from the left: tens, ones, the decimal point, tenths, hundredths. Each place is ten times the place on its right, just as in whole numbers. Ten hundredths make one tenth, and ten tenths make one one.\n\n### Reading 46.78\n\n- 4 is in the tens place.\n- 6 is in the ones place.\n- 7 is in the tenths place.\n- 8 is in the hundredths place.\n\nSay the number as \"forty-six point seven eight\" or \"forty-six and seventy-eight hundredths\". Both mean the same amount. There are 78 hundredths after the 46 wholes, because 7 tenths is 70 hundredths and 8 more hundredths make 78.\n\n### A number with a zero\nIn 30.05:\n\n- 3 is tens\n- 0 is ones\n- 0 is tenths\n- 5 is hundredths\n\nThe zeros keep the 3 and the 5 in the correct places. Without the zero in the tenths place, someone might read the number as 30.5, which has 5 tenths instead of 5 hundredths.\n\n### Another example\nIn 5.40 the digit 5 is ones, 4 is tenths and 0 is hundredths. The last zero does not change the value, but it shows that the hundredths place has been considered. In 5.04 the 0 is tenths and the 4 is hundredths, so 5.04 is much smaller than 5.40.\n\nAlways name the place before you say what a digit is worth.",
+      "keyWords": [
+        { "word": "tenths place", "meaning": "the first column to the right of the decimal point" },
+        { "word": "hundredths place", "meaning": "the second column to the right of the decimal point" }
+      ],
+      "examples": [
+        {
+          "problem": "What is the place value of 7 in 46.78?",
+          "steps": ["7 is the first digit after the decimal point.", "That place is tenths."],
+          "answer": "Tenths",
+          "check": "7/10 === 0.7"
+        },
+        {
+          "problem": "What is the place value of 8 in 46.78?",
+          "steps": ["8 is the second digit after the decimal point.", "That place is hundredths."],
+          "answer": "Hundredths",
+          "check": "8/100 === 0.08"
+        },
+        {
+          "problem": "In 30.05, what is the place value of 5?",
+          "steps": ["The digit just after the point is 0, so that is tenths.", "5 is in the hundredths place."],
+          "answer": "Hundredths",
+          "check": "5/100 === 0.05"
+        }
+      ],
+      "activity": {
+        "title": "Decimal place value chart",
+        "materials": ["A chart labelled Tens, Ones, point, Tenths, Hundredths", "Digit cards including 0"],
+        "steps": [
+          "Build 46.78 on the chart.",
+          "Each learner names the place of one digit.",
+          "Change the number to 30.05 and to 5.40, and explain what each zero is doing.",
+          "Reuse the same chart for a number chosen by another group."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 130\" font-family=\"sans-serif\"><rect width=\"500\" height=\"130\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"480\" height=\"110\"/><line x1=\"106\" y1=\"10\" x2=\"106\" y2=\"120\"/><line x1=\"202\" y1=\"10\" x2=\"202\" y2=\"120\"/><line x1=\"250\" y1=\"10\" x2=\"250\" y2=\"120\"/><line x1=\"346\" y1=\"10\" x2=\"346\" y2=\"120\"/><line x1=\"10\" y1=\"55\" x2=\"490\" y2=\"55\"/></g><g font-size=\"13\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"58\" y=\"38\">Tens</text><text x=\"154\" y=\"38\">Ones</text><text x=\"226\" y=\"38\">.</text><text x=\"298\" y=\"38\">Tenths</text><text x=\"418\" y=\"38\">Hundredths</text></g><g font-size=\"32\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#166534\"><text x=\"58\" y=\"100\">4</text><text x=\"154\" y=\"100\">6</text><text x=\"298\" y=\"100\">7</text><text x=\"418\" y=\"100\">8</text></g></svg>",
+        "caption": "46.78 on a decimal place value chart"
+      },
+      "practice": [
+        { "question": "What is the place value of 4 in 46.78?", "answer": "Tens", "check": "4 * 10 === 40" },
+        { "question": "What is the place value of 6 in 46.78?", "answer": "Ones", "check": "6 === 6" },
+        { "question": "What is the place value of 4 in 5.04?", "answer": "Hundredths", "check": "4/100 === 0.04" },
+        { "question": "What is the place value of 4 in 5.40?", "answer": "Tenths", "check": "4/10 === 0.4" }
+      ],
+      "summary": [
+        "After the decimal point, the places are tenths then hundredths.",
+        "Each place is worth ten times the place on its right.",
+        "A zero holds a place so the other digits stay correct."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "The total value of decimal digits",
+      "outcomes": ["c"],
+      "objectives": [
+        "Find the total value of a digit up to hundredths.",
+        "Write a decimal in expanded form."
+      ],
+      "intro": "Naming a place is the first step. The next step is to say what the digit is worth in that place. In 46.78 the digit 7 does not just sit in the tenths place: it is worth 0.7.",
+      "notes": "The total value of a digit is the digit multiplied by the value of its place. This is the same idea you used with whole numbers, extended past the decimal point.\n\n### Total values in 46.78\n\n- 4 is tens: 4 × 10 = 40\n- 6 is ones: 6 × 1 = 6\n- 7 is tenths: 7 × 0.1 = 0.7, or 7/10\n- 8 is hundredths: 8 × 0.01 = 0.08, or 8/100\n\nExpanded form puts these total values back together: 46.78 = 40 + 6 + 0.7 + 0.08. Adding them returns 46.78, so the split is correct.\n\n### A zero changes a total value to zero\nIn 3.05 the digit 0 is in the tenths place, so its total value is 0. The digit 5 is hundredths: 5 × 0.01 = 0.05. So 3.05 = 3 + 0.05. There is no 0.5 in this number.\n\n### Hundredths as a single part\n46.78 can also be read as 46 wholes and 78 hundredths, because 0.7 + 0.08 = 0.78. Both readings match. Use the reading that the question asks for. If it asks for the total value of one digit, give only that digit's worth, not the whole number.\n\nCheck an expanded form by adding. If the sum is not the original decimal, one digit has been given the wrong place.",
+      "keyWords": [
+        { "word": "total value", "meaning": "what a digit is worth, found by multiplying it by its place" },
+        { "word": "expanded form", "meaning": "a number written as the sum of the total values of its digits" }
+      ],
+      "examples": [
+        {
+          "problem": "What is the total value of 7 in 46.78?",
+          "steps": ["7 is in the tenths place.", "7 × 0.1 = 0.7"],
+          "answer": "0.7",
+          "check": "7/10 === 0.7"
+        },
+        {
+          "problem": "Write 46.78 in expanded form.",
+          "steps": ["40 + 6 + 0.7 + 0.08", "The tenths digit contributes 0.7 and the hundredths digit contributes 0.08."],
+          "answer": "40 + 6 + 0.7 + 0.08",
+          "check": "40 + 6 + 0.7 + 0.08 === 46.78"
+        },
+        {
+          "problem": "What is the total value of 5 in 3.05?",
+          "steps": ["5 is in the hundredths place.", "5 × 0.01 = 0.05"],
+          "answer": "0.05",
+          "check": "5/100 === 0.05 && 3 + 0.05 === 3.05"
+        }
+      ],
+      "activity": {
+        "title": "Split a decimal and add it back",
+        "materials": ["Place value chart", "Exercise book"],
+        "steps": [
+          "Write 46.78 on the chart.",
+          "List the total value of every digit, including any zero as 0.",
+          "Add the total values and check that you get 46.78 again.",
+          "Repeat with 3.05 and with a decimal chosen by your partner."
+        ]
+      },
+      "practice": [
+        { "question": "What is the total value of 8 in 46.78?", "answer": "0.08", "check": "8/100 === 0.08" },
+        { "question": "What is the total value of 4 in 46.78?", "answer": "40", "check": "4 * 10 === 40" },
+        { "question": "Write 3.05 in expanded form.", "answer": "3 + 0.05", "check": "3 + 0.05 === 3.05" },
+        { "question": "Write 12.46 in expanded form.", "answer": "10 + 2 + 0.4 + 0.06", "check": "10 + 2 + 0.4 + 0.06 === 12.46" }
+      ],
+      "summary": [
+        "Total value = digit × value of its place.",
+        "A tenth is worth 0.1 and a hundredth is worth 0.01.",
+        "Expanded form adds the total values back to the decimal."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Ordering decimals from smallest to largest",
+      "outcomes": ["d"],
+      "objectives": [
+        "Compare decimals by whole numbers, then tenths, then hundredths.",
+        "Arrange decimals in ascending order."
+      ],
+      "intro": "Four lengths are 2.05 m, 2.45 m, 2.5 m and 2.54 m. To plant them in order from the shortest, compare the decimals from the left, one place at a time.",
+      "notes": "Ascending order means from smallest to largest. Compare decimals in three steps.\n\n1. Compare the whole-number part. The bigger whole number makes the bigger decimal.\n2. If the wholes are equal, compare the tenths.\n3. If the tenths are also equal, compare the hundredths.\n\n### Give every number two decimal places\nIt is easier to compare when tenths are written with a zero in the hundredths place. 2.5 is the same as 2.50, and 0.4 is the same as 0.40. The extra zero does not change the value. It only shows the empty hundredths place.\n\n### Ordering 2.05, 2.45, 2.5 and 2.54\nAll four numbers have 2 wholes, so look at the tenths. 2.05 has 0 tenths, so it is the smallest. 2.45 has 4 tenths. Both 2.5 and 2.54 have 5 tenths, so compare hundredths: 2.50 has 0 hundredths and 2.54 has 4 hundredths. Ascending order is 2.05, 2.45, 2.5, 2.54.\n\n### A list with different wholes\nOrder 0.35, 0.39, 0.4 and 1.2. The number 1.2 has 1 whole, so it is the largest. The others have 0 wholes. Write 0.4 as 0.40. Then 0.35 has 3 tenths, while 0.39 and 0.40 have 3 tenths and 4 tenths. Ascending order is 0.35, 0.39, 0.4, 1.2.\n\nLine the decimal points under each other if you are unsure. Compare the digits in the same column.",
+      "keyWords": [
+        { "word": "ascending order", "meaning": "from smallest to largest" },
+        { "word": "compare", "meaning": "decide which of two numbers is larger" }
+      ],
+      "examples": [
+        {
+          "problem": "Arrange 2.05, 2.45, 2.5 and 2.54 from smallest to largest.",
+          "steps": ["All have 2 wholes.", "Tenths: 0, then 4, then 5.", "2.50 is smaller than 2.54."],
+          "answer": "2.05, 2.45, 2.5, 2.54",
+          "check": "2.05 < 2.45 && 2.45 < 2.5 && 2.5 < 2.54"
+        },
+        {
+          "problem": "Arrange 0.35, 0.39, 0.4 and 1.2 in ascending order.",
+          "steps": ["1.2 is the only number with a whole, so it is largest.", "Write 0.4 as 0.40.", "0.35, then 0.39, then 0.40."],
+          "answer": "0.35, 0.39, 0.4, 1.2",
+          "check": "0.35 < 0.39 && 0.39 < 0.4 && 0.4 < 1.2"
+        },
+        {
+          "problem": "Which is smaller, 3.08 or 3.18?",
+          "steps": ["Both have 3 wholes.", "0 tenths is less than 1 tenth."],
+          "answer": "3.08",
+          "check": "3.08 < 3.18"
+        }
+      ],
+      "activity": {
+        "title": "Decimal cards in a line",
+        "materials": ["Decimal cards up to hundredths"],
+        "steps": [
+          "Each learner in a group takes one decimal card.",
+          "Rewrite any one-place decimal with a zero in the hundredths place.",
+          "Stand or place the cards from smallest to largest.",
+          "Another group checks the order by comparing one place at a time."
+        ]
+      },
+      "practice": [
+        { "question": "Arrange 0.8, 0.75, 0.08 and 1.0 from smallest to largest.", "answer": "0.08, 0.75, 0.8, 1.0", "check": "0.08 < 0.75 && 0.75 < 0.8 && 0.8 < 1" },
+        { "question": "Arrange 4.06, 4.6, 4.16 and 4.61 in ascending order.", "answer": "4.06, 4.16, 4.6, 4.61", "check": "4.06 < 4.16 && 4.16 < 4.6 && 4.6 < 4.61" },
+        { "question": "Which is smaller, 0.5 or 0.45?", "answer": "0.45", "check": "0.45 < 0.5" },
+        { "question": "Write 0.7 with two decimal places.", "answer": "0.70", "check": "0.7 === 0.70" }
+      ],
+      "summary": [
+        "Compare wholes, then tenths, then hundredths.",
+        "Write a tenth with a zero hundredths digit when it helps you compare.",
+        "Ascending order runs from smallest to largest."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Ordering decimals from largest to smallest",
+      "outcomes": ["d"],
+      "objectives": [
+        "Arrange decimals in descending order.",
+        "Avoid the mistake of comparing decimal digits as if they were whole numbers."
+      ],
+      "intro": "A learner looks at 0.39 and 0.4 and says 0.39 is bigger because 39 is bigger than 4. The decimal point makes that comparison wrong. The places, not the number of digits, decide the size.",
+      "notes": "Descending order means from largest to smallest. Use the same three steps as ascending order, then write the list the other way.\n\n### The 0.39 and 0.4 mistake\n0.4 means 4 tenths, which is 40 hundredths. 0.39 means 3 tenths and 9 hundredths, which is 39 hundredths. Compare 40 hundredths and 39 hundredths: 0.40 is bigger than 0.39. More digits after the point do not make a decimal bigger. A hundredth is smaller than a tenth.\n\nYou can also line them up:\n\n- 0.40\n- 0.39\n\nThe tenths digit 4 is bigger than the tenths digit 3, so 0.40 is bigger.\n\n### A full descending list\nTake 2.05, 2.45, 2.5 and 2.54. From the previous lesson, the ascending order is 2.05, 2.45, 2.5, 2.54. Descending order reverses it: 2.54, 2.5, 2.45, 2.05.\n\n### Choosing the greater amount\nWhich length is longer, 1.8 m or 1.75 m? Write 1.8 as 1.80. The tenths digit 8 is bigger than 7, so 1.8 m is longer. Which price is higher, KSh 15.50 or KSh 15.05? Both have 15 wholes. Five tenths is more than zero tenths, so KSh 15.50 is higher.\n\nWhen two decimals are equal, say so. 0.4 and 0.40 are equal. Equal numbers sit together in an order; neither is larger.",
+      "keyWords": [
+        { "word": "descending order", "meaning": "from largest to smallest" },
+        { "word": "equal decimals", "meaning": "decimals that name the same amount, such as 0.4 and 0.40" }
+      ],
+      "examples": [
+        {
+          "problem": "Which is greater, 0.39 or 0.4?",
+          "steps": ["Write 0.4 as 0.40.", "40 hundredths is more than 39 hundredths."],
+          "answer": "0.4",
+          "check": "0.4 > 0.39"
+        },
+        {
+          "problem": "Arrange 2.54, 2.05, 2.5 and 2.45 from largest to smallest.",
+          "steps": ["All have 2 wholes.", "5 tenths come before 4 tenths, and 0 tenths is last.", "2.54 is greater than 2.50."],
+          "answer": "2.54, 2.5, 2.45, 2.05",
+          "check": "2.54 > 2.5 && 2.5 > 2.45 && 2.45 > 2.05"
+        },
+        {
+          "problem": "Which price is higher, KSh 15.50 or KSh 15.05?",
+          "steps": ["Both have 15 wholes.", "5 tenths is more than 0 tenths."],
+          "answer": "KSh 15.50",
+          "check": "15.50 > 15.05"
+        }
+      ],
+      "activity": {
+        "title": "Largest to smallest",
+        "materials": ["Decimal cards", "A place value chart"],
+        "steps": [
+          "Include the pair 0.39 and 0.4 in a set of cards.",
+          "Rewrite each card with two decimal places.",
+          "Arrange the cards from largest to smallest.",
+          "Explain to another group why 0.4 is greater than 0.39."
+        ]
+      },
+      "practice": [
+        { "question": "Which is greater, 0.6 or 0.59?", "answer": "0.6", "check": "0.6 > 0.59" },
+        { "question": "Arrange 4.61, 4.06, 4.6 and 4.16 from largest to smallest.", "answer": "4.61, 4.6, 4.16, 4.06", "check": "4.61 > 4.6 && 4.6 > 4.16 && 4.16 > 4.06" },
+        { "question": "Which is longer, 1.8 m or 1.75 m?", "answer": "1.8 m", "check": "1.8 > 1.75" },
+        { "question": "Are 0.4 and 0.40 equal?", "answer": "Yes", "check": "0.4 === 0.40" }
+      ],
+      "summary": [
+        "More digits after the decimal point do not make a number larger.",
+        "Write tenths as hundredths before you compare them with hundredths.",
+        "Descending order is ascending order written backwards."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Using decimals in real-life situations",
+      "outcomes": ["b", "e"],
+      "objectives": [
+        "Read prices and lengths written as decimals.",
+        "Explain why decimals are useful when a whole number is not exact enough."
+      ],
+      "intro": "A price of KSh 15.50 and a length of 1.25 m both need parts of a unit. Whole shillings or whole metres would not be exact enough, so we use decimals.",
+      "notes": "Decimals are used when a measure falls between two whole numbers. The decimal point keeps the wholes and the parts in one number.\n\n### Money\nOne shilling is 100 cents, so cents are hundredths of a shilling. KSh 15.50 means 15 shillings and 50 cents. The digit 5 is tenths of a shilling, worth 50 cents, and the digit 0 is hundredths. KSh 15.05 means 15 shillings and 5 cents. Those two prices are not the same. You already know that 15.50 is greater than 15.05.\n\n### Length\n1.25 m means 1 whole metre and 25 hundredths of a metre. Because one hundredth of a metre is 1 centimetre, 25 hundredths is 25 centimetres. So 1.25 m is 1 metre and 25 centimetres. A length of 0.4 m is 4 tenths of a metre, which is 40 centimetres.\n\n### Choosing a decimal in a story\nA bottle that is only partly full can be described as 0.5 of a litre if it is half full, because 5 tenths is one half. A mixture that uses part of a litre can be recorded as a decimal instead of saying \"a bit\". The decimal tells another person the amount more clearly than a rough word.\n\n### Why decimals are worth learning\nThey connect to the fractions you know: 0.1 is 1/10 and 0.01 is 1/100. They also let you compare prices, lengths and other measures fairly, as long as you compare the same places. A zero after the point can change a price by many cents, so write every digit in its correct place.",
+      "keyWords": [
+        { "word": "cent", "meaning": "one hundredth of a shilling" },
+        { "word": "decimal", "meaning": "a number that uses a decimal point to show tenths or hundredths" }
+      ],
+      "examples": [
+        {
+          "problem": "What does KSh 15.50 mean in shillings and cents?",
+          "steps": ["15 is the whole shillings.", "50 hundredths of a shilling is 50 cents."],
+          "answer": "15 shillings and 50 cents",
+          "check": "15 * 100 + 50 === 1550"
+        },
+        {
+          "problem": "How many centimetres are there in 1.25 m?",
+          "steps": ["1 metre is 100 cm.", "0.25 m is 25 hundredths of a metre, which is 25 cm.", "100 + 25 = 125 cm."],
+          "answer": "125 cm",
+          "check": "100 + 25 === 125"
+        },
+        {
+          "problem": "Which is more money, KSh 15.50 or KSh 15.05?",
+          "steps": ["Compare tenths: 5 tenths is more than 0 tenths."],
+          "answer": "KSh 15.50",
+          "check": "15.50 > 15.05"
+        }
+      ],
+      "activity": {
+        "title": "Prices and lengths",
+        "materials": ["Cards showing prices in shillings and cents", "A metre rule or a paper strip marked in centimetres"],
+        "steps": [
+          "Read each price card as shillings and cents, then write it as a decimal.",
+          "Order the prices from smallest to largest.",
+          "Show 0.4 m and 1.25 m using a metre strip, remembering that 0.1 m is 10 cm.",
+          "Tell the group one measurement at home that is easier to write as a decimal than as a whole number."
+        ]
+      },
+      "practice": [
+        { "question": "Write 8 shillings and 25 cents as a decimal in shillings.", "answer": "8.25", "check": "8 + 25/100 === 8.25" },
+        { "question": "How many centimetres are in 0.4 m?", "answer": "40 cm", "check": "4 * 10 === 40" },
+        { "question": "How many cents are in KSh 0.05?", "answer": "5 cents", "check": "5/100 * 100 === 5" },
+        { "question": "Why is a decimal useful for a price that is not a whole number of shillings?", "answer": "It shows the shillings and the cents in one number, using tenths and hundredths.", "check": null }
+      ],
+      "summary": [
+        "KSh 15.50 means 15 shillings and 50 cents.",
+        "Hundredths of a metre are centimetres.",
+        "Decimals record parts of a unit clearly and can be compared by place value."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "How many tenths make one whole?", "options": ["1", "10", "100", "2"], "answer": "B", "explanation": "A whole divided into 10 equal parts has 10 tenths.", "outcome": "a", "check": "10 / 10 === 1" },
+    { "question": "How many hundredths make one tenth?", "options": ["1", "10", "100", "2"], "answer": "B", "explanation": "Each tenth contains 10 hundredths.", "outcome": "a", "check": "10 / 100 === 1 / 10" },
+    { "question": "Write three and four tenths as a decimal.", "options": ["3.04", "34", "3.4", "0.34"], "answer": "C", "explanation": "3 wholes and 4 in the tenths place is 3.4.", "outcome": "b", "check": "3 + 4/10 === 3.4" },
+    { "question": "Write five hundredths as a decimal.", "answer": "0.05", "explanation": "There are no tenths, so a zero holds the tenths place.", "outcome": "b", "check": "5/100 === 0.05" },
+    { "question": "What is the place value of 7 in 46.78?", "options": ["Tens", "Ones", "Tenths", "Hundredths"], "answer": "C", "explanation": "7 is the first digit after the decimal point.", "outcome": "c", "check": "7/10 === 0.7" },
+    { "question": "What is the total value of 8 in 46.78?", "answer": "0.08", "explanation": "8 is in the hundredths place: 8 × 0.01 = 0.08.", "outcome": "c", "check": "8/100 === 0.08" },
+    { "question": "Arrange 2.05, 2.5, 2.45 and 2.54 from smallest to largest.", "answer": "2.05, 2.45, 2.5, 2.54", "explanation": "Compare tenths, then hundredths. Write 2.5 as 2.50.", "outcome": "d", "check": "2.05 < 2.45 && 2.45 < 2.5 && 2.5 < 2.54" },
+    { "question": "Which is greater, 0.39 or 0.4?", "options": ["0.39", "0.4", "They are equal", "0.39 because 39 is bigger than 4"], "answer": "B", "explanation": "0.4 = 0.40, and 40 hundredths is more than 39 hundredths.", "outcome": "d", "check": "0.4 > 0.39" },
+    { "question": "KSh 15.50 is the same as which amount?", "answer": "15 shillings and 50 cents", "explanation": "The two decimal places are hundredths of a shilling, and one hundredth is one cent.", "outcome": "e", "check": "15 * 100 + 50 === 1550" },
+    { "question": "How many centimetres are in 1.25 m?", "answer": "125 cm", "explanation": "1 m is 100 cm and 0.25 m is 25 cm.", "outcome": "e", "check": "100 + 25 === 125" }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 1.0 Numbers, Sub-strand 1.7 Decimals"
+  ]
+}

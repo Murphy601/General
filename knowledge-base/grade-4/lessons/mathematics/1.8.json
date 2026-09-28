@@ -1,0 +1,359 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "1.8",
+  "title": "Use of letters",
+  "overview": "A letter can stand for a number we do not want to write yet. In this sub-strand you will use letters for amounts in real situations, write simple expressions, and simplify expressions that have one or two letters. You will combine only the parts that have the same letter.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Letters stand for numbers and items",
+      "outcomes": ["a"],
+      "objectives": [
+        "Use a letter to stand for an unknown number.",
+        "Use a letter to stand for a count of items."
+      ],
+      "intro": "You may know that a stall has some bags of maize, but not how many. A letter can hold that unknown number until you are ready to use it.",
+      "notes": "A letter in mathematics can stand for a number. We choose a letter and say what it means. If n stands for the number of learners in a class, then n might be 35 today and a different number in another class. The letter keeps the place of the number.\n\n### Letters for items\nPeople in different parts of Kenya count different goods: bags of maize, baskets of fish or bunches of bananas. A letter can stand for any of these counts.\n\n- Let m stand for the number of bags of maize.\n- Let f stand for the number of baskets of fish.\n- Let b stand for the number of bunches of bananas.\n\nThe letter is not the item itself. m is not a bag. m is the number of bags. If there are 12 bags, then m stands for 12.\n\n### Why a letter helps\nYou can talk about the number before you know it. \"m bags of maize\" works for a small farm and for a large store. You do not have to invent a number. You can also compare two unknown amounts: if one store has m bags and another has more, you can still write about both.\n\n### Choosing the letter\nAny letter will do, but say what it means. Using m for maize and f for fish makes the work easier to read. Do not use the same letter for two different amounts in one problem. If m is bags of maize, it cannot also be baskets of fish.\n\nWrite a short key before you calculate: \"Let n stand for the number of exercise books.\" That sentence is part of the mathematics.",
+      "keyWords": [
+        { "word": "letter", "meaning": "a symbol such as n or m that stands for a number" },
+        { "word": "unknown", "meaning": "a number whose value we have not fixed yet" }
+      ],
+      "examples": [
+        {
+          "problem": "Let m stand for the number of bags of maize. If there are 12 bags, what number does m stand for?",
+          "steps": ["The letter stands for the number of bags.", "There are 12 bags, so m stands for 12."],
+          "answer": "12",
+          "check": "12 === 12"
+        },
+        {
+          "problem": "A learner lets f stand for the number of baskets of fish and also for the number of bunches of bananas. What is wrong?",
+          "steps": ["One letter should stand for one amount in a problem.", "Fish and bananas need two different letters."],
+          "answer": "The same letter is being used for two different amounts.",
+          "check": null
+        },
+        {
+          "problem": "There are n learners in a class. Another class has 3 more learners than this class. The other class does not have n learners. Which letter still stands for this class?",
+          "steps": ["n was defined as the number in this class.", "The other class has a different number."],
+          "answer": "n still stands for the number of learners in this class.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Letters for goods from different places",
+        "materials": ["Cards", "Pictures or names of goods such as maize, fish and bananas"],
+        "steps": [
+          "In a group, choose three different goods that people count in different parts of the country.",
+          "Give each good its own letter and write a sentence: \"Let m stand for the number of bags of maize.\"",
+          "Pick a number for each letter and say the sentence with the number.",
+          "Swap cards with another group and check that no letter is used twice."
+        ]
+      },
+      "practice": [
+        { "question": "Let b stand for the number of bunches of bananas. There are 8 bunches. What number does b stand for?", "answer": "8", "check": "8 === 8" },
+        { "question": "Write a sentence that lets t stand for the number of trees planted.", "answer": "Let t stand for the number of trees planted.", "check": null },
+        { "question": "Why should maize and fish have different letters?", "answer": "They are different amounts, so one letter cannot stand for both.", "check": null },
+        { "question": "If n stands for 20 learners, how many learners is n?", "answer": "20", "check": "20 === 20" }
+      ],
+      "summary": [
+        "A letter stands for a number, not for the object itself.",
+        "Say what the letter means before you use it.",
+        "Use a different letter for each different amount."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Forming addition expressions",
+      "outcomes": ["b"],
+      "objectives": [
+        "Write an expression for 'more than' a number.",
+        "Add a letter amount to a number or to another amount."
+      ],
+      "intro": "A class has n learners and 5 more learners arrive. You can write the new total as n + 5 even before you know how many learners were there at the start.",
+      "notes": "An expression is a mathematical phrase. It has numbers, letters and operation signs, but it does not have an equals sign. n + 5 is an expression. It means \"5 more than n\".\n\n### Words that mean addition\n\n- 5 more than n is n + 5\n- n increased by 8 is n + 8\n- a number and 12 is n + 12\n- the total of m and 4 is m + 4\n\nThe letter can come first. \"5 more than n\" is n + 5, which is the same amount as 5 + n. Both expressions describe the same total.\n\n### Adding two letter amounts\nIf one stall has m bags of maize and another stall has 6 bags, together they have m + 6 bags. If both amounts are unknown, and one stall has m bags while the other has p bags, together they have m + p bags. You cannot turn m + p into one letter, because m and p may be different numbers.\n\n### Trying a value\nAn expression can be checked by choosing a number for the letter. If n stands for 30, then n + 5 stands for 30 + 5 = 35. If n stands for 18, then n + 5 stands for 23. The expression stays n + 5. Only the value changes when the letter changes.\n\nDo not write n + 5 = unless the question gives you the total and asks you to form the expression for that story. In this lesson the expression itself is the answer.",
+      "keyWords": [
+        { "word": "expression", "meaning": "numbers and letters combined by operations, with no equals sign" },
+        { "word": "more than", "meaning": "a phrase that tells you to add" }
+      ],
+      "examples": [
+        {
+          "problem": "A class has n learners and 5 more arrive. Write the expression for the new number of learners.",
+          "steps": ["Start with n.", "Add 5."],
+          "answer": "n + 5",
+          "check": "30 + 5 === 35"
+        },
+        {
+          "problem": "One stall has m bags of maize and another has 6 bags. Write the total.",
+          "steps": ["Add the unknown amount and the 6 known bags."],
+          "answer": "m + 6",
+          "check": "10 + 6 === 16"
+        },
+        {
+          "problem": "If n = 18, what is the value of n + 8?",
+          "steps": ["Replace n with 18.", "18 + 8 = 26."],
+          "answer": "26",
+          "check": "18 + 8 === 26"
+        }
+      ],
+      "activity": {
+        "title": "Expression stories for addition",
+        "materials": ["Paper strips", "Pencil"],
+        "steps": [
+          "In pairs, write three stories that use \"more than\" or \"total\".",
+          "Let a letter stand for the starting amount in each story.",
+          "Write the addition expression under the story.",
+          "Choose a number for the letter and work out the value to check the story."
+        ]
+      },
+      "practice": [
+        { "question": "Write an expression for 12 more than n.", "answer": "n + 12", "check": "7 + 12 === 19" },
+        { "question": "A farmer has m goats and buys 4 more. Write the expression for the new number of goats.", "answer": "m + 4", "check": "9 + 4 === 13" },
+        { "question": "Two gardens have a trees and c trees. Write the total number of trees.", "answer": "a + c", "check": "6 + 5 === 11" },
+        { "question": "If m = 15, what is the value of m + 6?", "answer": "21", "check": "15 + 6 === 21" }
+      ],
+      "summary": [
+        "An expression has no equals sign.",
+        "\"More than\" and \"total\" tell you to add.",
+        "You can test an expression by putting a number in place of the letter."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Forming subtraction and multiplication expressions",
+      "outcomes": ["b"],
+      "objectives": [
+        "Write expressions for 'less than' and for 'times'.",
+        "Tell n − 4 apart from 4 − n."
+      ],
+      "intro": "Taking 4 away from a number is not the same as taking the number away from 4. The order of a subtraction expression matters, and so does the meaning of \"times\".",
+      "notes": "Addition is not the only operation we write with letters. Subtraction and multiplication also make expressions.\n\n### Subtraction\n\"4 less than n\" means start at n and take away 4. The expression is n − 4. \"n less than 10\" means start at 10 and take away n. The expression is 10 − n. These are different. If n stands for 7, then n − 4 = 3, but 10 − n = 3 only by chance in a different story. If n stands for 6, then n − 4 = 2 and 10 − n = 4. Always read which amount is being reduced.\n\nOther phrases: \"n decreased by 9\" is n − 9. \"The difference when 5 is taken from m\" is m − 5.\n\n### Multiplication\n\"3 times n\" means n + n + n, which we write as 3 × n or 3n. The number and the letter are written next to each other. 3n means 3 groups of n, not 3 + n.\n\n- 3 times the number of bags is 3b\n- twice a number n is 2n\n- 5 groups of m is 5m\n\nIf b stands for 4, then 3b stands for 3 × 4 = 12.\n\n### Putting a story into symbols\n\"A shop had m bottles and sold 6\" is m − 6. \"Each of 4 crates holds m bottles\" is 4m. Look for the words less than, decreased by, times, groups of, twice and each. Then write the expression without an equals sign.",
+      "keyWords": [
+        { "word": "3n", "meaning": "3 times n, which means n + n + n" },
+        { "word": "less than", "meaning": "a phrase that tells you to subtract from the amount named after it" }
+      ],
+      "examples": [
+        {
+          "problem": "Write an expression for 4 less than n.",
+          "steps": ["Start with n.", "Subtract 4.", "The expression is n − 4."],
+          "answer": "n − 4",
+          "check": "7 - 4 === 3"
+        },
+        {
+          "problem": "Write an expression for n less than 10.",
+          "steps": ["Start with 10.", "Subtract n."],
+          "answer": "10 − n",
+          "check": "10 - 6 === 4"
+        },
+        {
+          "problem": "Each of 4 crates holds b bottles. Write the total number of bottles.",
+          "steps": ["4 groups of b is 4 × b.", "Write 4b."],
+          "answer": "4b",
+          "check": "4 * 4 === 16"
+        }
+      ],
+      "activity": {
+        "title": "Match the story to the expression",
+        "materials": ["Story cards", "Expression cards such as n − 4, 4 − n, 3n and n + 3"],
+        "steps": [
+          "In a group, write stories for \"4 less than a number\", \"a number less than 4\", \"3 times a number\" and \"3 more than a number\".",
+          "Match each story to an expression.",
+          "Pick n = 6 and work out each expression to see that they are not all the same.",
+          "Explain to another group why 3n is not the same as n + 3."
+        ]
+      },
+      "practice": [
+        { "question": "Write an expression for 9 less than m.", "answer": "m − 9", "check": "20 - 9 === 11" },
+        { "question": "Write an expression for m less than 20.", "answer": "20 − m", "check": "20 - 8 === 12" },
+        { "question": "Write an expression for 5 times a number n.", "answer": "5n", "check": "5 * 6 === 30" },
+        { "question": "If b = 4, what is the value of 3b?", "answer": "12", "check": "3 * 4 === 12" }
+      ],
+      "summary": [
+        "\"4 less than n\" is n − 4. \"n less than 10\" is 10 − n.",
+        "3n means 3 × n, not 3 + n.",
+        "Read the story before you choose the operation."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Simplifying expressions with one letter",
+      "outcomes": ["c"],
+      "objectives": [
+        "Recognise like terms.",
+        "Add or subtract terms that have the same letter."
+      ],
+      "intro": "3a + 2a is not left as a long sum. Both parts count the same kind of thing, so they combine to make 5a. This shortening is called simplifying.",
+      "notes": "Like terms have exactly the same letter. 3a and 2a are like terms. 3a and 2b are not, because the letters are different. A number with no letter, such as 4, is its own kind of term. It is not an a or a b.\n\n### Adding like terms\nAdd the numbers in front of the letter and keep the letter. 3a + 2a = 5a. Think of 3 bags plus 2 bags: you have 5 bags, not 5 of something else, and not 6a.\n\nMore examples:\n\n- 4n + n = 5n, because n means 1n\n- 6m + 3m = 9m\n- 4a + 3 + 2a = 6a + 3\n\nIn the last one, 4a and 2a combine, but the 3 has no letter, so it stays. Do not write 9a and do not write 9.\n\n### Subtracting like terms\n7n − 2n = 5n. You have 7 groups of n and you take away 2 groups, so 5 groups remain. 9m − 4m + 2 = 5m + 2. The 2 stays separate.\n\n### What you cannot combine\n2a + 3 is already simple. There is no second a to join to 2a. 5a − a = 4a, but 5a − 2 is not 3a. The 2 is not an a.\n\nSimplifying does not find the value of the letter. It only writes the expression in a shorter form. If you want a value, you must be told what the letter stands for.",
+      "keyWords": [
+        { "word": "like terms", "meaning": "terms that have the same letter" },
+        { "word": "simplify", "meaning": "rewrite an expression in a shorter form by combining like terms" }
+      ],
+      "examples": [
+        {
+          "problem": "Simplify 3a + 2a.",
+          "steps": ["3a and 2a are like terms.", "3 + 2 = 5", "Keep the letter a."],
+          "answer": "5a",
+          "check": "3 + 2 === 5"
+        },
+        {
+          "problem": "Simplify 4a + 3 + 2a.",
+          "steps": ["Combine 4a and 2a to make 6a.", "The 3 has no letter, so it stays."],
+          "answer": "6a + 3",
+          "check": "4 + 2 === 6"
+        },
+        {
+          "problem": "Simplify 9m − 4m + 2.",
+          "steps": ["9m − 4m = 5m", "Keep the + 2."],
+          "answer": "5m + 2",
+          "check": "9 - 4 === 5"
+        }
+      ],
+      "activity": {
+        "title": "Combine the like cards",
+        "materials": ["Cards labelled 3a, 2a, 4, a, 5b and 2"],
+        "steps": [
+          "Sort the cards into like terms. Put every a card in one pile and number cards in another.",
+          "Add the a cards and write one term.",
+          "Simplify 4a + 3 + 2a as a group and explain why the 3 stays.",
+          "Check by letting a stand for 2: work out the long expression and the simplified one. They should match."
+        ]
+      },
+      "practice": [
+        { "question": "Simplify 6m + 3m.", "answer": "9m", "check": "6 + 3 === 9" },
+        { "question": "Simplify 7n − 2n.", "answer": "5n", "check": "7 - 2 === 5" },
+        { "question": "Simplify 4n + n.", "answer": "5n", "check": "4 + 1 === 5" },
+        { "question": "Simplify 8p + 5 − 3p.", "answer": "5p + 5", "check": "8 - 3 === 5" }
+      ],
+      "summary": [
+        "Like terms have the same letter.",
+        "Add or subtract the numbers in front and keep the letter.",
+        "A plain number stays separate from the letter terms."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Simplifying expressions with two letters",
+      "outcomes": ["c"],
+      "objectives": [
+        "Combine terms in an expression that has two different letters.",
+        "Leave unlike terms uncombined."
+      ],
+      "intro": "A store has bags of maize and baskets of fish. Adding the maize bags together does not change the number of fish baskets. Each letter is simplified on its own.",
+      "notes": "An expression can have up to two different letters. Simplify by combining each letter with its own kind. Do not add different letters together.\n\n### One example\n5a + 2b + 3a. The like terms are 5a and 3a. 5 + 3 = 8, so those terms make 8a. The 2b has nothing to join, so it stays. The simplified expression is 8a + 2b.\n\n### Both letters have partners\n4a + 3b + 2a + b. Combine the a terms: 4a + 2a = 6a. Combine the b terms: 3b + b = 4b, because b means 1b. The result is 6a + 4b. You may write 4b + 6a; it is the same expression. Many people write the letters in alphabetical order so the answer is easy to check.\n\n### Subtraction with two letters\n8p − 3p + 2q = 5p + 2q. Only the p terms are subtracted. 2q is a different letter, so it is not part of that subtraction.\n\n### Unlike terms stay as they are\n2a + 3b is already simple. It is not 5ab, not 5a and not 6. If a stands for bags and b stands for baskets, 2 bags plus 3 baskets is not 5 bags and it is not 5 baskets.\n\n### A value check\nLet a = 2 and b = 3. Then 4a + 3b + 2a + b = 4×2 + 3×3 + 2×2 + 3 = 8 + 9 + 4 + 3 = 24. The simplified form 6a + 4b = 6×2 + 4×3 = 12 + 12 = 24. The same value means the simplifying is correct.",
+      "keyWords": [
+        { "word": "unlike terms", "meaning": "terms with different letters, which cannot be combined" },
+        { "word": "two unknowns", "meaning": "two different letters in one expression, each standing for its own number" }
+      ],
+      "examples": [
+        {
+          "problem": "Simplify 5a + 2b + 3a.",
+          "steps": ["5a + 3a = 8a", "2b stays as it is."],
+          "answer": "8a + 2b",
+          "check": "5 + 3 === 8"
+        },
+        {
+          "problem": "Simplify 4a + 3b + 2a + b.",
+          "steps": ["4a + 2a = 6a", "3b + 1b = 4b"],
+          "answer": "6a + 4b",
+          "check": "4 + 2 === 6 && 3 + 1 === 4"
+        },
+        {
+          "problem": "Simplify 8p − 3p + 2q.",
+          "steps": ["8p − 3p = 5p", "2q stays."],
+          "answer": "5p + 2q",
+          "check": "8 - 3 === 5"
+        }
+      ],
+      "activity": {
+        "title": "Two letters, two piles",
+        "materials": ["Cards for a terms and b terms", "Exercise book"],
+        "steps": [
+          "Write 4a + 3b + 2a + b on the board or on paper.",
+          "Sort the terms into an a pile and a b pile.",
+          "Simplify each pile and write the expression.",
+          "Let a = 2 and b = 3. Work out the original expression and the simplified one. Compare the values."
+        ]
+      },
+      "practice": [
+        { "question": "Simplify 7a + 2b + a.", "answer": "8a + 2b", "check": "7 + 1 === 8" },
+        { "question": "Simplify 3m + 4n + 2m + 5n.", "answer": "5m + 9n", "check": "3 + 2 === 5 && 4 + 5 === 9" },
+        { "question": "Simplify 9x − 4x + 3y.", "answer": "5x + 3y", "check": "9 - 4 === 5" },
+        { "question": "Is 2a + 3b already simple? Give the simplified form.", "answer": "Yes. It stays 2a + 3b.", "check": "2 === 2 && 3 === 3" }
+      ],
+      "summary": [
+        "Combine each letter only with the same letter.",
+        "A term such as b means 1b.",
+        "Unlike terms cannot be added into one term."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Expressions in real-life situations",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Form an expression from a short real-life story.",
+        "Simplify that expression when like terms appear."
+      ],
+      "intro": "Two stalls sell maize and fish. One has a bags of maize and b baskets of fish. The other has 2a bags of maize and 3b baskets of fish. An expression tells the total without guessing the numbers.",
+      "notes": "Expressions are useful because the same sentence works for any number. You form the expression from the story, then simplify it if like terms appear.\n\n### A two-stall story\nThe first stall has a bags of maize and b baskets of fish. The second stall has 2a bags of maize and 3b baskets of fish. Together:\n\n- Maize: a + 2a = 3a\n- Fish: b + 3b = 4b\n\nThe total is 3a + 4b. You do not know the number of bags or baskets yet, but you know how the two stalls combine. If later a = 10 and b = 5, the total is 3×10 + 4×5 = 30 + 20, which is 30 bags and 20 baskets. The expression 3a + 4b kept the two goods separate.\n\n### A saving story\nA learner has n shillings and then saves 15 more shillings. The expression is n + 15. If the learner spends 4 shillings after that, the amount left is n + 15 − 4, which simplifies to n + 11. The 15 and the 4 are both plain numbers, so they combine. The letter n stays.\n\n### Why we bother\nA letter lets you describe a plan before the count is known: goods from different kinds of work, learners still arriving, or money still being saved. Simplifying makes that plan shorter and easier to check. When you finally learn the number, you put it in place of the letter and calculate. Until then, the expression is the careful record of the story.",
+      "keyWords": [
+        { "word": "story", "meaning": "a real situation that can be written as an expression" },
+        { "word": "record", "meaning": "the expression that keeps the amounts clear before the numbers are known" }
+      ],
+      "examples": [
+        {
+          "problem": "One stall has a bags of maize and b baskets of fish. Another has 2a bags and 3b baskets. Write a simplified expression for the total.",
+          "steps": ["Maize: a + 2a = 3a", "Fish: b + 3b = 4b"],
+          "answer": "3a + 4b",
+          "check": "1 + 2 === 3 && 1 + 3 === 4"
+        },
+        {
+          "problem": "A learner has n shillings, saves 15 more, then spends 4. Simplify the expression for what is left.",
+          "steps": ["Start with n + 15.", "Subtract 4: n + 15 − 4.", "15 − 4 = 11, so the expression is n + 11."],
+          "answer": "n + 11",
+          "check": "15 - 4 === 11"
+        },
+        {
+          "problem": "If a = 10 and b = 5, how many bags and how many baskets are in 3a + 4b?",
+          "steps": ["3 × 10 = 30 bags", "4 × 5 = 20 baskets"],
+          "answer": "30 bags and 20 baskets",
+          "check": "3 * 10 === 30 && 4 * 5 === 20"
+        }
+      ],
+      "activity": {
+        "title": "Stories into short expressions",
+        "materials": ["Paper", "Digit cards for checking values"],
+        "steps": [
+          "In a group, write a story about two amounts, using two different goods.",
+          "Form an expression and simplify any like terms.",
+          "Choose values for the letters with digit cards and calculate.",
+          "Give the simplified expression to another group and ask them to tell the story back to you."
+        ]
+      },
+      "practice": [
+        { "question": "Simplify the total of m + 4m bags.", "answer": "5m", "check": "1 + 4 === 5" },
+        { "question": "A learner has k shillings and is given 8 more, then spends 3. Write the simplified expression.", "answer": "k + 5", "check": "8 - 3 === 5" },
+        { "question": "Simplify 2f + 5 + f.", "answer": "3f + 5", "check": "2 + 1 === 3" },
+        { "question": "If a = 10, what is the value of 3a?", "answer": "30", "check": "3 * 10 === 30" }
+      ],
+      "summary": [
+        "Turn the story into an expression before you simplify.",
+        "Combine like terms so the record is short.",
+        "Put a number in place of the letter only when you know it."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "What does the letter m stand for if m is the number of bags and there are 12 bags?", "options": ["The bag itself", "12", "Maize", "The letter M"], "answer": "B", "explanation": "The letter stands for the number of bags, which is 12.", "outcome": "a", "check": "12 === 12" },
+    { "question": "Why should fish and bananas have different letters in one problem?", "answer": "They are different amounts, so one letter cannot stand for both.", "explanation": "Each letter stands for one number in a problem.", "outcome": "a", "check": null },
+    { "question": "A class has n learners and 5 more arrive. Which expression shows the new number?", "options": ["n − 5", "5n", "n + 5", "5 − n"], "answer": "C", "explanation": "5 more than n is n + 5.", "outcome": "b", "check": "30 + 5 === 35" },
+    { "question": "Which expression means 4 less than n?", "options": ["4 − n", "n − 4", "4n", "n + 4"], "answer": "B", "explanation": "Start at n and take away 4.", "outcome": "b", "check": "7 - 4 === 3" },
+    { "question": "Which expression means 3 times b?", "options": ["b + 3", "3 − b", "3b", "b − 3"], "answer": "C", "explanation": "3b means 3 × b.", "outcome": "b", "check": "3 * 4 === 12" },
+    { "question": "Simplify 3a + 2a.", "answer": "5a", "explanation": "Like terms: 3 + 2 = 5, and the letter stays a.", "outcome": "c", "check": "3 + 2 === 5" },
+    { "question": "Simplify 4a + 3 + 2a.", "options": ["9a", "6a + 3", "9", "4a + 5"], "answer": "B", "explanation": "4a + 2a = 6a, and the plain 3 stays.", "outcome": "c", "check": "4 + 2 === 6" },
+    { "question": "Simplify 4a + 3b + 2a + b.", "answer": "6a + 4b", "explanation": "4a + 2a = 6a and 3b + b = 4b.", "outcome": "c", "check": "4 + 2 === 6 && 3 + 1 === 4" },
+    { "question": "Simplify 8p − 3p + 2q.", "options": ["7p + 2q", "5p + 2q", "7pq", "13pq"], "answer": "B", "explanation": "8p − 3p = 5p, and 2q is a different letter.", "outcome": "c", "check": "8 - 3 === 5" },
+    { "question": "A learner has n shillings, saves 15, then spends 4. Which simplified expression shows what is left?", "answer": "n + 11", "explanation": "n + 15 − 4 = n + 11. The expression records the story before n is known.", "outcome": "d", "check": "15 - 4 === 11" }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 1.0 Numbers, Sub-strand 1.8 Use of letters"
+  ]
+}

@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getSubjects, getGrades, getTopics, findSubjectBySlug, slugifySubject } from '@/lib/content-store';
+import { learnGradeParams } from '@/lib/static-params';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return learnGradeParams();
+}
 
 export default async function GradeSubjectsPage({ params }: { params: Promise<{ grade: string }> }) {
   const { grade } = await params;

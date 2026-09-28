@@ -1,0 +1,127 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "10.1.1",
+  "title": "Kusikiliza na Kuzungumza: Tashbihi",
+  "overview": "Katika mada hii ndogo utajifunza maana ya tashbihi. Utatambua na kutumia tashbihi za kimo, yaani zinazoeleza urefu au ufupi, na tashbihi za umbo, yaani zinazoeleza wembamba, unene au ukonde. Tashbihi hizi hufanya maelezo yako yawe wazi na ya kuvutia, kwa mfano unapomweleza mtu jinsi mtu au kitu fulani kilivyo.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya tashbihi na tashbihi za kimo na umbo",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya tashbihi.",
+        "Kutambua tashbihi za kimo na tashbihi za umbo katika sentensi na vifungu."
+      ],
+      "intro": "Mtu akikuambia, \"Mjomba wangu ni mrefu kama twiga,\" mara moja unapata picha ya mtu mrefu sana. Hajakuambia urefu wake kwa mita, lakini umeelewa. Hii ndiyo kazi ya tashbihi.",
+      "notes": "### Tashbihi ni nini?\nTashbihi ni mbinu ya lugha ya kulinganisha vitu viwili tofauti kwa kutumia maneno ya kulinganisha. Tunachukua kitu kinachojulikana na wengi, kama twiga au sindano, ili kueleza sifa ya kitu kingine.\n\nManeno yanayotumika kulinganisha ni kama vile:\n\n- kama\n- mithili ya\n- sawa na\n- ja\n\nKwa mfano: Mwalimu wetu ni mrefu kama twiga. Hapa mwalimu analinganishwa na twiga kwa sababu twiga ni mnyama mrefu sana.\n\n### Tashbihi za kimo\nKimo ni urefu au ufupi wa mtu, mnyama au kitu. Tashbihi za kimo hueleza jinsi mtu alivyo mrefu au mfupi.\n\n- mrefu kama twiga\n- mrefu kama mnazi\n- mfupi kama nyundo\n- mfupi kama kisiki\n\n### Tashbihi za umbo\nUmbo ni sura au hali ya mwili wa mtu au kitu, kama vile wembamba, unene au ukonde. Tashbihi za umbo hueleza jinsi mwili ulivyo.\n\n- mwembamba kama sindano\n- mwembamba kama uzi\n- konda kama ng'onda (ng'onda ni samaki waliokaushwa)\n- mnene kama pipa\n\n### Jinsi ya kutambua tashbihi\nTafuta neno la kulinganisha kama kama au mithili ya. Kisha jiulize: Ni kitu gani kinalinganishwa na kipi? Sifa inayolinganishwa ni ipi? Ikiwa sifa ni urefu au ufupi, hiyo ni tashbihi ya kimo. Ikiwa ni wembamba, unene au ukonde, hiyo ni tashbihi ya umbo.\n\nMfano: Mtoto yule ni mwembamba kama sindano. Mtoto analinganishwa na sindano. Sifa ni wembamba, kwa hivyo hii ni tashbihi ya umbo.",
+      "keyWords": [
+        { "word": "tashbihi", "meaning": "ulinganisho wa vitu viwili kwa kutumia maneno kama vile kama, mithili ya au sawa na" },
+        { "word": "kimo", "meaning": "urefu au ufupi wa mtu au kitu" },
+        { "word": "umbo", "meaning": "sura ya mwili, kama vile wembamba au unene" },
+        { "word": "ng'onda", "meaning": "samaki waliokaushwa" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua tashbihi katika sentensi hii: Mlinzi wa shule ni mrefu kama mnazi.",
+          "steps": ["Neno la kulinganisha ni kama.", "Mlinzi analinganishwa na mnazi.", "Sifa inayolinganishwa ni urefu."],
+          "answer": "mrefu kama mnazi (tashbihi ya kimo)",
+          "check": null
+        },
+        {
+          "problem": "Tambua tashbihi katika sentensi hii: Baada ya kuugua kwa muda mrefu, mzee alikuwa konda kama ng'onda.",
+          "steps": ["Neno la kulinganisha ni kama.", "Mzee analinganishwa na ng'onda.", "Sifa ni ukonde, yaani hali ya mwili."],
+          "answer": "konda kama ng'onda (tashbihi ya umbo)",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tafuta tashbihi kwenye chati",
+        "materials": ["Chati yenye sentensi zenye tashbihi", "Daftari na kalamu", "Tarakilishi au kitabu cha hadithi panapowezekana"],
+        "steps": [
+          "Katika kikundi, jadilianeni na mweleze kwa maneno yenu maana ya tashbihi.",
+          "Someni sentensi zilizo kwenye chati au kitabu na mpigie mstari kila tashbihi.",
+          "Andikeni tashbihi hizo kwenye jedwali lenye safu mbili: Tashbihi za kimo na Tashbihi za umbo.",
+          "Kila kikundi kiwasomee wenzake jedwali lake na kueleza kwa nini kila tashbihi iko kwenye safu hiyo."
+        ]
+      },
+      "practice": [
+        { "question": "Eleza maana ya tashbihi kwa sentensi moja.", "answer": "Tashbihi ni ulinganisho wa vitu viwili kwa kutumia maneno kama vile kama, mithili ya au sawa na.", "check": null },
+        { "question": "Taja maneno mawili yanayotumika kulinganisha katika tashbihi.", "answer": "Kwa mfano: kama, mithili ya, sawa na, ja (yoyote mawili).", "check": null },
+        { "question": "Je, 'mfupi kama nyundo' ni tashbihi ya kimo au ya umbo?", "answer": "Ni tashbihi ya kimo kwa sababu inaeleza ufupi.", "check": null },
+        { "question": "Je, 'mwembamba kama uzi' ni tashbihi ya kimo au ya umbo?", "answer": "Ni tashbihi ya umbo kwa sababu inaeleza wembamba wa mwili.", "check": null }
+      ],
+      "summary": [
+        "Tashbihi hulinganisha vitu viwili kwa kutumia maneno kama, mithili ya, sawa na au ja.",
+        "Tashbihi za kimo hueleza urefu au ufupi.",
+        "Tashbihi za umbo hueleza wembamba, unene au ukonde."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia tashbihi za kimo na umbo",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa kutumia tashbihi za kimo na umbo zifaazo.",
+        "Kutunga sentensi zenye tashbihi za kimo na umbo.",
+        "Kutumia tashbihi kutoa maelezo ya picha au ya mtu kwa heshima."
+      ],
+      "intro": "Mtu akiibiwa, polisi humwuliza, \"Mwizi alikuwa mtu wa namna gani?\" Ukijua kutumia tashbihi vizuri, unaweza kutoa maelezo yaliyo wazi yatakayosaidia kumtambua mhalifu.",
+      "notes": "### Kuchagua tashbihi ifaayo\nUnapotumia tashbihi, chagua kitu ambacho kweli kina sifa hiyo. Twiga ni mrefu, kwa hivyo tunasema mrefu kama twiga. Hatuwezi kusema mrefu kama nyundo, kwa sababu nyundo ni fupi. Sindano ni nyembamba, kwa hivyo tunasema mwembamba kama sindano. Pipa ni nene, kwa hivyo tunasema mnene kama pipa.\n\n### Kulinganisha kivumishi na nomino\nKumbuka kwamba neno la sifa hukubaliana na nomino. Tunasema mtu mrefu, lakini mti mrefu na nyumba ndefu. Kwa mfano:\n\n- Mvulana yule ni mrefu kama twiga.\n- Mnara ule ni mrefu kama mnazi.\n- Barabara ile ni nyembamba kama uzi.\n\n### Tashbihi katika maelezo\nSoma kifungu hiki kifupi:\n\nJana jioni, Amani aliona watu wawili wakivunja kibanda cha duka la Mama Rehema. Mmoja alikuwa mrefu kama twiga na mwembamba kama sindano. Mwingine alikuwa mfupi kama nyundo na mnene kama pipa. Amani hakuwakaribia. Alikimbia moja kwa moja kumwambia mzee wa mtaa, naye akawapigia polisi simu. Maelezo ya Amani yaliwasaidia polisi kuwatambua washukiwa.\n\nKatika kifungu hiki tashbihi zimesaidia kueleza kimo na umbo la washukiwa kwa njia iliyo wazi. Pia tunajifunza kwamba ukiona uhalifu, usijiingize mwenyewe; waarifu watu wazima au polisi.\n\n### Tumia tashbihi kwa heshima\nTashbihi ni za kupamba lugha na kutoa maelezo, si za kuwacheka watu. Usimwite mwenzako konda kama ng'onda ili kumkejeli. Tumia tashbihi kueleza mambo kwa njia inayoheshimu wengine.",
+      "keyWords": [
+        { "word": "mshukiwa", "meaning": "mtu anayedhaniwa kuwa ametenda kosa" },
+        { "word": "mhalifu", "meaning": "mtu anayevunja sheria kwa kutenda kosa kama wizi" },
+        { "word": "kukejeli", "meaning": "kumdharau au kumcheka mtu kwa maneno" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza nafasi kwa tashbihi ifaayo: Mchezaji wa mpira wa kikapu ni mrefu kama ______.",
+          "steps": ["Tunahitaji kitu kinachojulikana kwa urefu.", "Twiga ni mrefu sana."],
+          "answer": "twiga",
+          "check": null
+        },
+        {
+          "problem": "Tunga sentensi yenye tashbihi ya umbo ukitumia neno sindano.",
+          "steps": ["Sindano inajulikana kwa wembamba.", "Tumia kivumishi mwembamba pamoja na kama sindano."],
+          "answer": "Kijana aliyeiba simu alikuwa mwembamba kama sindano.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Eleza picha kwa tashbihi",
+        "materials": ["Picha au michoro ya watu na vitu kwenye chati au tarakilishi", "Daftari"],
+        "steps": [
+          "Tazama picha za watu na vitu mbalimbali zilizo kwenye chati au tarakilishi.",
+          "Chagua picha tatu na uandike sentensi moja kwa kila picha ukitumia tashbihi ya kimo au ya umbo.",
+          "Jaza nafasi katika sentensi alizoandika mwalimu ubaoni kwa kutumia tashbihi zifaazo.",
+          "Wasilisha sentensi zako darasani. Wenzako watoe maoni: je, tashbihi imechaguliwa vizuri?"
+        ]
+      },
+      "practice": [
+        { "question": "Jaza nafasi: Mtoto yule ni mfupi kama ______.", "answer": "nyundo (au kisiki)", "check": null },
+        { "question": "Jaza nafasi: Mzigo huu ni mzito na mnene kama ______.", "answer": "pipa", "check": null },
+        { "question": "Tunga sentensi yako mwenyewe yenye tashbihi ya kimo.", "answer": "Mfano: Kaka yangu ni mrefu kama mnazi.", "check": null },
+        { "question": "Kwa nini si vizuri kutumia tashbihi kumkejeli mwenzako?", "answer": "Kwa sababu humwumiza na kumvunjia heshima; tashbihi zitumike kutoa maelezo kwa heshima.", "check": null }
+      ],
+      "summary": [
+        "Chagua kitu kinachojulikana kwa sifa unayotaka kueleza.",
+        "Tashbihi husaidia kutoa maelezo yaliyo wazi, kwa mfano ya mshukiwa wa uhalifu.",
+        "Tumia tashbihi kwa heshima, si kuwacheka wengine."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Tashbihi ni nini?", "options": ["Neno lenye maana kinyume", "Ulinganisho wa vitu viwili kwa kutumia maneno kama 'kama' au 'mithili ya'", "Swali linaloulizwa darasani", "Jina la mtu au mahali"], "answer": "B", "explanation": "Tashbihi hulinganisha vitu viwili kwa kutumia maneno ya kulinganisha.", "outcome": "a", "check": null },
+    { "question": "Ni neno lipi hutumika kulinganisha katika tashbihi?", "options": ["lakini", "mithili ya", "kwa hivyo", "ingawa"], "answer": "B", "explanation": "Mithili ya ni neno la kulinganisha sawa na kama.", "outcome": "a", "check": null },
+    { "question": "Ni ipi kati ya hizi ni tashbihi ya kimo?", "options": ["mwembamba kama sindano", "mnene kama pipa", "mrefu kama twiga", "konda kama ng'onda"], "answer": "C", "explanation": "Mrefu kama twiga inaeleza urefu, yaani kimo.", "outcome": "b", "check": null },
+    { "question": "Ni ipi kati ya hizi ni tashbihi ya umbo?", "options": ["mfupi kama nyundo", "mwembamba kama sindano", "mrefu kama mnazi", "mfupi kama kisiki"], "answer": "B", "explanation": "Wembamba ni sifa ya umbo la mwili.", "outcome": "b", "check": null },
+    { "question": "Tambua tashbihi katika sentensi: Mbwa wa jirani ni konda kama ng'onda.", "answer": "konda kama ng'onda", "explanation": "Mbwa analinganishwa na ng'onda kwa ukonde wake.", "outcome": "b", "check": null },
+    { "question": "Jaza nafasi: Mwanariadha yule ni mrefu kama ______.", "options": ["nyundo", "twiga", "kisiki", "pipa"], "answer": "B", "explanation": "Twiga anajulikana kwa urefu.", "outcome": "c", "check": null },
+    { "question": "Jaza nafasi: Uzi huu ni mwembamba kama ______.", "options": ["pipa", "tembo", "sindano", "mnazi"], "answer": "C", "explanation": "Sindano ni nyembamba sana.", "outcome": "c", "check": null },
+    { "question": "Sentensi ipi imetumia tashbihi kwa usahihi?", "options": ["Mzee yule ni mfupi kama twiga.", "Mzee yule ni mrefu kama nyundo.", "Mzee yule ni mfupi kama nyundo.", "Mzee yule ni mwembamba kama pipa."], "answer": "C", "explanation": "Nyundo ni fupi, kwa hivyo mfupi kama nyundo ni sahihi.", "outcome": "c", "check": null },
+    { "question": "Tunga sentensi yenye tashbihi ya umbo kuhusu mtu aliyeonekana akiiba.", "answer": "Mfano: Mtu aliyeiba kuku alikuwa mnene kama pipa.", "explanation": "Sentensi iwe na kivumishi cha umbo na kitu kinacholinganishwa, pamoja na neno kama.", "outcome": "c", "check": null },
+    { "question": "Tashbihi zina umuhimu gani katika mawasiliano?", "answer": "Hufanya maelezo yawe wazi na ya kuvutia; msikilizaji hupata picha haraka.", "explanation": "Kwa kulinganisha na vitu vinavyojulikana, msikilizaji anaelewa sifa inayoelezwa.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 10.0 Kukabiliana na Uhalifu, Mada Ndogo 10.1.1 Tashbihi"
+  ]
+}

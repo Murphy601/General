@@ -1,0 +1,634 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "slug": "english",
+  "strands": [
+    {
+      "number": "10.0",
+      "name": "Hygiene and Sanitation",
+      "subStrands": [
+        {
+          "number": "10.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 2,
+          "content": ["Sounds", "Oral presentations", "Interrupting politely"],
+          "outcomes": [
+            { "id": "a", "text": "articulate sounds /ɪ/, /iː/, /s/, /ʃ/ and /əʊ/ accurately for effective communication" },
+            { "id": "b", "text": "interact with a speaker actively during an oral presentation, speech or narration for listening fluency" },
+            { "id": "c", "text": "interrupt a speaker appropriately for politeness in conversation" },
+            { "id": "d", "text": "use vocabulary related to the theme in a variety of contexts for self- expression" },
+            { "id": "e", "text": "promote the importance of turn taking in oral interviews or debates for effective oral communication" }
+          ],
+          "learningExperiences": [
+            "repeat words with the sounds /ɪ/, /iː/, /s/, /ʃ/ and /əʊ/ after the teacher or audio recordings accurately",
+            "tell riddles with words containing the sounds /ɪ/, /iː/, /s/, /ʃ/ and /əʊ/ with peers",
+            "interact with a speaker or presenter through verbal and non-verbal cues",
+            "engage the audience when making an oral presentation",
+            "watch a video recorded riddling session or listen to an audio recording",
+            "interview one another on a topical issue",
+            "listen to a poem, a story or a song based on the theme and answer questions orally",
+            "use digital devices to record solo or choral poetry performances"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we listen to others?",
+            "What do you do when you want to talk and your friend is still talking?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This competence are developed when the learner says the words correctly and when working with peers.",
+            "Self-efficacy: It is developed when the learner communicates accurately thereby enhancing their confidence."
+          ],
+          "values": [
+            "Love: It is nurtured when the learner puts the interest of others before their own interests during collaborative activities.",
+            "Responsibility: This is encouraged as the learner solves the given problems proactively by making oral presentations as assigned."
+          ],
+          "pcis": [
+            "The learner’s self-esteem is enhanced as they acquire better self-expression and pronunciation ability through engaging in various activities for interactive listening and turn-taking."
+          ],
+          "links": [
+            "The learner applies the skills of interactive listening to all learning areas as listening is a key skill for effective learning."
+          ]
+        },
+        {
+          "number": "10.2.1",
+          "name": "Reading: Intensive Reading (Factual Texts)",
+          "lessons": 3,
+          "content": ["Factual Texts"],
+          "outcomes": [
+            { "id": "a", "text": "read factual texts of about 320 words related to the theme for comprehension" },
+            { "id": "b", "text": "apply appropriate reading habits in reading factual texts of about 320 words for information" },
+            { "id": "c", "text": "realise the importance of reading for comprehension and information" }
+          ],
+          "learningExperiences": [
+            "read factual texts in print and non- print formats",
+            "infer the meaning of vocabulary in a text",
+            "answer factual and inferential questions from a variety of texts",
+            "discuss and role play events in a story with peers",
+            "watch a video related to the theme and pick out specific information",
+            "use the encyclopaedia to get more information related to the theme"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we read at the right speed?",
+            "What should we do to remember what we read?"
+          ],
+          "coreCompetencies": [
+            "Digital Literacy: This is enhanced as the learner manipulates electronic devices to read factual information based on the theme of hygiene and sanitation.",
+            "Learning to Learn: It is developed as the learner uses resource materials like the encyclopaedia to obtain relevant information."
+          ],
+          "values": [
+            "Respect: This is developed as the learner displays open mindedness to the factual information read from different sources.",
+            "Unity: This is achieved as the learner shares resources amicably with other learners during the activities that require the use of electronic devices."
+          ],
+          "pcis": [
+            "Personal Hygiene: It is enhanced as the learner reads stories on hygiene and watches a video on how to take care of oneself by focusing on personal hygiene and sanitation."
+          ],
+          "links": [
+            "The learner applies the knowledge of reading for factual information to all other areas of learning as they require this skill.",
+            "The learner also uses the skills gained in using the dictionary and other reference materials to other learning areas like Kiswahili which require them to use dictionaries as well."
+          ]
+        },
+        {
+          "number": "10.3.1",
+          "name": "Grammar in Use: Word Class (Conjunctions)",
+          "lessons": 3,
+          "content": ["Coordinating conjunctions"],
+          "outcomes": [
+            { "id": "a", "text": "identify conjunctions correctly in oral and written texts for fluency in speech" },
+            { "id": "b", "text": "engage in short dialogues featuring conjunctions for fluency in speech" },
+            { "id": "c", "text": "use conjunctions in a variety of contexts for effective oral and written communication" },
+            { "id": "d", "text": "realise the importance of conjunctions in communication" }
+          ],
+          "learningExperiences": [
+            "use the conjunctions (and, but, or, yet, so, for, nor) to talk about topics related to the theme",
+            "construct sentences using the conjunctions (and, but, or, yet, so, for, nor) and type them on a digital device",
+            "listen to a short dialogue containing the conjunctions (and, but, or, yet, so, for, nor) and discuss their usage with peers",
+            "answer and ask questions involving conjunctions correctly"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we join sentences?",
+            "Which words do we use to join sentences?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This competence are realised as the learner engages in assigned activities collaboratively.",
+            "Digital Literacy: This is enhanced as the learner interacts with technology while typing their sentences on a digital device."
+          ],
+          "values": [
+            "Responsibility: It is seen as the learner engages in assigned roles and duties in different activities while learning conjunctions.",
+            "Unity: This is achieved as the learner shares the available resources like the digital devices so that peers can as well type their sentences on the device."
+          ],
+          "pcis": [
+            "Personal Hygiene: This is promoted as the learner listens to short dialogues on sanitation and how to take care of oneself."
+          ],
+          "links": [
+            "The learner relates the knowledge on conjunctions to similar concepts taught in Kiswahili.",
+            "The learner relates content learnt from the theme of hygiene and sanitation to what is learnt in Agriculture and Creative Arts."
+          ]
+        },
+        {
+          "number": "10.4.1",
+          "name": "Writing: Creative Writing (Descriptive Compositions)",
+          "lessons": 3,
+          "content": ["Descriptive Compositions"],
+          "outcomes": [
+            { "id": "a", "text": "describe the parts of a descriptive composition for self-expression" },
+            { "id": "b", "text": "organise thoughts clearly, precisely and creatively into a coherent paragraph for self- expression" },
+            { "id": "c", "text": "create a descriptive composition of about 80-100 words on various topics for effective communication" },
+            { "id": "d", "text": "promote the role of creativity in descriptive writing for effective communication" }
+          ],
+          "learningExperiences": [
+            "read a sample descriptive composition of about 80-100 words with peers and identify the paragraphs",
+            "talk about different activities they engage in such as ‘how we clean our house’ in pairs",
+            "write four descriptive sentences on a given topic about personal hygiene",
+            "write a descriptive composition of about 80 -100 (2 – 3 coherent paragraphs)",
+            "proofread and display their composition",
+            "type their compositions on a digital device"
+          ],
+          "keyInquiryQuestions": [
+            "Why should you organise your thoughts in clear sentences and paragraphs?",
+            "How can you tell others about yourself?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: This is achieved as the learner writes descriptive compositions for effective communication.",
+            "Learning to learn: It is enhanced as the learner works with peers to discover how to write descriptive compositions."
+          ],
+          "values": [
+            "Responsibility: This is nurtured as the learner engages in assigned roles and duties in different activities of planning and writing a descriptive composition.",
+            "Unity: It is achieved as the learner shares the available resources like the digital devices so that peers can as well type their descriptive compositions on the device."
+          ],
+          "pcis": [
+            "Proper Sanitation: This is achieved as the learner talks about ‘how to clean a house’ before peers making them learn sanitation from each other."
+          ],
+          "links": [
+            "The learner relates the skill of descriptive writing to writing skills taught in Kiswahili."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "11.0",
+      "name": "Sports: My Favourite Game",
+      "subStrands": [
+        {
+          "number": "11.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 2,
+          "content": ["Listening Fluency"],
+          "outcomes": [
+            { "id": "a", "text": "listen to short speeches related to the theme for listening fluency" },
+            { "id": "b", "text": "apply vocabulary related to the theme in a variety of contexts for self-expression" },
+            { "id": "c", "text": "distinguish sounds /ð/ and /θ/ and words from an oral text for listening fluency" },
+            { "id": "d", "text": "interpret nonverbal cues correctly for listening fluency" },
+            { "id": "e", "text": "realise the importance of listening fluency in oral comprehension" }
+          ],
+          "learningExperiences": [
+            "listen attentively to an audio recording with the sounds /aʊ/ /ð/ /θ/ and consonant cluster ‘sk’",
+            "repeat words with the sounds /aʊ/ /ð/ /θ/ and consonant cluster ‘sk’ after the teacher or audio recordings accurately",
+            "make a three-minute speech using vocabulary related to the theme",
+            "recite poems about games",
+            "watch videos on speeches related to sports and then make similar speeches collaboratively with peers",
+            "use and interpret nonverbal cues in oral contexts correctly"
+          ],
+          "keyInquiryQuestions": [
+            "How do facial expressions and gestures help us to communicate well?",
+            "Why should we listen actively to what others are saying?",
+            "What should we do to make people enjoy listening to us?"
+          ],
+          "coreCompetencies": [
+            "Creativity and Imagination: This is enhanced when the learner engages in activities such as giving a speech using non- verbal cues.",
+            "Self-efficacy: This is realised when the learner ably interprets the nonverbal cues used by peers in communication."
+          ],
+          "values": [
+            "Social Justice is encouraged as the learner accords equal opportunities and shares resources equitably while they watch and give a speech about sports."
+          ],
+          "pcis": [
+            "Effective Communication skills: These skills are developed as the learner engages in activities such as giving brief speeches.",
+            "Peer Education and Career Guidance: These are enhanced as the learner participates in making speeches in club meetings as well as sporting activities."
+          ],
+          "links": [
+            "The learner applies the skill of listening in all learning areas.",
+            "The learner also relates the content gained in listening to speeches on sports in learning of similar content in Creative Arts."
+          ]
+        },
+        {
+          "number": "11.2.1",
+          "name": "Reading: Intensive Reading (Digital Texts)",
+          "lessons": 3,
+          "content": ["Reading digital texts"],
+          "outcomes": [
+            { "id": "a", "text": "read grade- appropriate digital poems and narratives of about 300-320 words interpretively for comprehension" },
+            { "id": "b", "text": "access grade appropriate online materials of about 300-320 words for lifelong learning" },
+            { "id": "c", "text": "promote reading digital resources for information" }
+          ],
+          "learningExperiences": [
+            "read animated stories, comics and cartoons interpretively, individually and collaboratively with peers",
+            "watch videos or mimes and answer questions",
+            "interpret visual representations such as mind maps",
+            "carry out simple online research on topics related to the theme",
+            "create simple crossword puzzles based on animated stories",
+            "read a poem or story expressively to bring out varying emotions"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we read using technology?",
+            "How do you search for information using technology?"
+          ],
+          "coreCompetencies": [
+            "Critical Thinking and Problem Solving: This is developed when the learner engages in watching and interpreting mimes and visuals.",
+            "Digital Literacy: This is enhanced when the learner uses digital devices to read on issues or topics online and offline."
+          ],
+          "values": [
+            "Unity: This is developed as the learner works together with peers as they discuss and interpret visuals and mimes collaboratively.",
+            "Love: This is enhanced as the learner appreciates each other’s opinions in viewing and interpreting visuals collaboratively."
+          ],
+          "pcis": [
+            "Self-esteem is achieved as the learner’s confidence level is nurtured when they watch videos or mimes and answer questions, interpret visual representations such as mind maps and carry out simple online research on how to play their favourite game."
+          ],
+          "links": [
+            "The learner is able to apply research skills to look for information in all learning areas that they engage in."
+          ]
+        },
+        {
+          "number": "11.3.1",
+          "name": "Grammar in Use: Language Patterns (Interrogatives)",
+          "lessons": 3,
+          "content": ["Interrogatives"],
+          "outcomes": [
+            { "id": "a", "text": "identify interrogatives in a variety of texts for communication clarity" },
+            { "id": "b", "text": "use interrogatives in a variety of contexts for effective communication" },
+            { "id": "c", "text": "respond to a variety of questions based on interrogatives for effective communication" },
+            { "id": "d", "text": "realise the importance of interrogatives in communication" }
+          ],
+          "learningExperiences": [
+            "answer questions based on interrogatives (when, where, whose, who and what)",
+            "identify the interrogatives when, where, whose, who and what in a variety of texts",
+            "construct sentences with interrogatives (when, where, whose, who and what) with peers",
+            "view videos, cartoons or pictures and ask one another questions",
+            "read a newspaper, magazine, brochure or any other authentic texts and identify the interrogative (when, where, whose, who and what) sentences",
+            "write sentences in their exercise books or type them on a word processor collaboratively"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we ask questions?",
+            "Which words do we use to ask questions?"
+          ],
+          "coreCompetencies": [
+            "Learning to Learn: This is enhanced as the learner uses appropriate interrogatives to ask questions.",
+            "Digital Literacy: The learner interacts with digital devices to watch videos and type sentences."
+          ],
+          "values": [
+            "Unity: The learner collaborates with peers to perform task such as watching videos and typing sentences on a digital device.",
+            "Respect: This is promoted as the learner is able to accommodate the views of others during the discussion."
+          ],
+          "pcis": [
+            "Self-esteem: This is built in the learner as they ask and answer questions using interrogatives about their favourite sports making them discover their talents."
+          ],
+          "links": [
+            "The learner can relate the concept of interrogatives to question and answer sessions in Religious Education among other learning areas."
+          ]
+        },
+        {
+          "number": "11.4.1",
+          "name": "Writing: Mechanics of Writing (Spelling)",
+          "lessons": 2,
+          "content": ["Commonly Misspelt Words"],
+          "outcomes": [
+            { "id": "a", "text": "identify commonly misspelt words in oral and written contexts" },
+            { "id": "b", "text": "write commonly misspelt words correctly for communication clarity" },
+            { "id": "c", "text": "adopt the skill of writing words clearly and correctly in communication" }
+          ],
+          "learningExperiences": [
+            "listen to and write commonly misspelt words",
+            "listen to a dictation and spell selected words and sentences",
+            "search for commonly misspelt words and create a word puzzle with peers",
+            "copy the words correctly in their vocabulary book",
+            "construct sentences using commonly misspelt words",
+            "form commonly misspelt words from jumbled up letters"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it difficult to spell some words correctly?",
+            "How can we become better at spelling words?"
+          ],
+          "coreCompetencies": [
+            "Critical Thinking and Problem Solving: This is nurtured as the learner makes words from jumbled up letters.",
+            "Learning to learn: This is enhanced as the learner learns how to spell commonly misspelt words through learner centred- activities."
+          ],
+          "values": [
+            "Responsibility is encouraged as the learner engages in assigned roles of searching for commonly misspelt words and creating puzzles."
+          ],
+          "pcis": [
+            "Effective Communication: The learner learns how to spell words correctly and can therefore communicate by writing effectively.",
+            "Self-esteem is developed as the learner engages in games-related activities such as creating a puzzle with commonly misspelt words."
+          ],
+          "links": [
+            "The learner is able to apply knowledge on proper spelling skills to all learning areas as they all insist on correct spelling."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "12.0",
+      "name": "Clean Environment",
+      "subStrands": [
+        {
+          "number": "12.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 2,
+          "content": ["Speaking Fluency"],
+          "outcomes": [
+            { "id": "a", "text": "speak accurately, with expression and at the right speed (minimal hesitation) for fluency" },
+            { "id": "b", "text": "use nonverbal cues appropriately for self- expression" },
+            { "id": "c", "text": "use vocabulary related to the theme in a variety of contexts" },
+            { "id": "d", "text": "promote the importance of fluency in speech" }
+          ],
+          "learningExperiences": [
+            "say words containing the sounds /ʌ/ /ɔː/ and the consonant clusters ‘br’ ‘sw’ ‘pr’ ‘cl’ ‘gr’ correctly",
+            "select words with the sounds /ʌ/ /ɔː/ and the consonant clusters ‘br’ ‘sw’ ‘pr’ ‘cl’ ‘gr’ from an oral text",
+            "construct sentences that require a yes or no response using the vocabulary",
+            "repeat oral texts from the teacher or an audio recording without hesitations",
+            "make short speeches on the environment accurately, at the right speed and with expression",
+            "recite poems related to the theme collaboratively with peers"
+          ],
+          "keyInquiryQuestions": [
+            "Why should you speak at the right speed?",
+            "How can one pass a message without using words?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This iss achieved as the learner makes short speeches in collaboration with peers.",
+            "Creativity and Imagination: The learner creatively composes a speech on clean environment and delivers it fluently to the peers."
+          ],
+          "values": [
+            "Respect is nurtured as the learner respects the peers’ opinions when reciting poems collaboratively."
+          ],
+          "pcis": [
+            "Social Cohesion and integrity are enhanced as the learner engages with peers in doing activities such as reciting poems and making short speeches."
+          ],
+          "links": [
+            "The learner is able to link fluency in speaking to all learning areas as fluency is required when making presentations."
+          ]
+        },
+        {
+          "number": "12.2.1",
+          "name": "Reading: Intensive Reading (Poems, Songs and Passages)",
+          "lessons": 3,
+          "content": ["Poem", "Song", "Passage", "Proverbs"],
+          "outcomes": [
+            { "id": "a", "text": "read a poem, song or passage containing proverbs with expression for effective communication" },
+            { "id": "b", "text": "apply basic stress and rhythm when reading a poem, song or passage containing proverbs for self-expression" },
+            { "id": "c", "text": "respond to questions based on a poem, song or passage containing proverbs for comprehension" },
+            { "id": "d", "text": "adopt intensive reading in day-to-day communication" }
+          ],
+          "learningExperiences": [
+            "read a poem, song or passage that incorporates proverbs related to the theme and answer questions",
+            "apply stress and rhythm when reciting a poem, reading a passage or singing a song that incorporates proverbs",
+            "answer factual and inferential questions from a given poem, song or passage",
+            "discuss and role play events in a passage containing proverbs, poem or a song based on the theme",
+            "watch a recitation of a poem on video and identify specific details",
+            "identify proverbs used in a passage, then give their meaning"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we enjoy reading poems?",
+            "How are poems different from stories?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: The learner discusses and role plays with peers events in the passage or in the song.",
+            "Self-efficacy: This is achieved as the learner answers questions from songs and poems, and takes part in the role play confidently."
+          ],
+          "values": [
+            "Responsibility: It is inculcated in the learner as they take upon assigned duties of reading the poems, discussing the events and identifying the proverbs in the passage."
+          ],
+          "pcis": [
+            "Online Safety: The learner’s knowledge on personal safety is emphasised when accessing internet resources to watch a video on how people recite poems."
+          ],
+          "links": [
+            "The learner applies the skills acquired in reading intensively to their learning of reading skills in other areas such as Kiswahili."
+          ]
+        },
+        {
+          "number": "12.3.1",
+          "name": "Grammar in Use: Word Classes (Verb Aspect)",
+          "lessons": 3,
+          "content": ["Present Perfect Aspect", "Past Perfect Aspect"],
+          "outcomes": [
+            { "id": "a", "text": "identify the present and past perfect aspect in varied texts for effective communication" },
+            { "id": "b", "text": "use the present perfect and past perfect aspect correctly in sentences" },
+            { "id": "c", "text": "realise the importance of correct use of aspect in everyday communication" }
+          ],
+          "learningExperiences": [
+            "respond to questions on activities they have just completed depicting the present and past perfect aspects with peers",
+            "identify present perfect and past perfect aspect in sentences",
+            "use games to form sentences in the present perfect and past perfect aspect with given verbs",
+            "repeat sentences containing present perfect and past perfect aspect from a story or poem heard",
+            "create a list of sentences in the present perfect and past perfect aspect on a computer or tablet",
+            "sing songs containing the present perfect and past perfect aspect"
+          ],
+          "keyInquiryQuestions": [
+            "How do we show the time if an action has just taken place?",
+            "How do we show that an action has been completed?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: The learner engages in responding to questions on activities they have just completed collaboratively with peers.",
+            "Self-efficacy: This is developed when the learner confidently makes correct sentences while creating a list of sentences in present and past perfect aspect."
+          ],
+          "values": [
+            "Love: This is nurtured as the learner puts the interest of others before own interest when engaging in language games featuring sentences in present and past perfect aspect."
+          ],
+          "pcis": [
+            "Effective Communication Skills: These skills are perfected as the learner uses the present and past perfect aspects correctly in sentences and learns how to communicate with clarity."
+          ],
+          "links": [
+            "The learner can apply the knowledge of present and past perfect aspect in learning similar concepts in Kiswahili."
+          ]
+        },
+        {
+          "number": "12.4.1",
+          "name": "Writing: Guided Composition (Diary)",
+          "lessons": 3,
+          "content": ["Diary"],
+          "outcomes": [
+            { "id": "a", "text": "identify the components of a diary for effective writing" },
+            { "id": "b", "text": "write a diary in the right format for effective communication" },
+            { "id": "c", "text": "adopt the use of diaries in our day-today lives" }
+          ],
+          "learningExperiences": [
+            "identify components of a diary individually",
+            "view samples of diaries and discuss them with peers",
+            "search for information on how to write personal diaries from electronic devices or printed sources",
+            "write a diary with peers and display it to the rest of the class members"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we keep a record of what we do?",
+            "What information do we record?"
+          ],
+          "coreCompetencies": [
+            "Critical Thinking and Problem Solving: These competencies are manifested when the learner comes up with their own diary and displays it for the rest of the class members.",
+            "Digital Literacy: This is achieved as learner ably manipulates digital devices when searching for information on how to write a diary from electronic resources."
+          ],
+          "values": [
+            "Responsibility: This is inculcated as the learner applies their diary in their day-to-day operations."
+          ],
+          "pcis": [
+            "Self-esteem: The learner’s self-esteem is enhanced as they search for information on how to write a diary and apply it in their writing of a diary."
+          ],
+          "links": [
+            "The learner applies the knowledge of writing a diary to learning of the same concept in Kiswahili."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13.0",
+      "name": "Money",
+      "subStrands": [
+        {
+          "number": "13.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Language Pattern ‘very...but...’", "Silent letters"],
+          "outcomes": [
+            { "id": "a", "text": "listen intensively for specific sounds, words, phrases or sentences for fluency" },
+            { "id": "b", "text": "select silent letters in words from an oral text for listening fluency" },
+            { "id": "c", "text": "use the language pattern ‘very...but...’ correctly for effective oral communication" },
+            { "id": "d", "text": "use vocabulary to construct sentences for effective communication" },
+            { "id": "e", "text": "promote the skill of listening intensively to a variety of texts for information and enjoyment" }
+          ],
+          "learningExperiences": [
+            "identify the sounds /k/ in letter x as well as the sounds /m/ /n/ /ŋ// from an oral text",
+            "identify the silent letters in words such as honest, park, debt among others",
+            "listen to stories related to the theme from a teacher or audio recordings",
+            "play the telephone game with peers",
+            "make sentneces with the target language pattern ‘very...but...’"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we listen carefully?",
+            "How can we learn a new word?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: This is enhanced as the learner plays with peers the telephone game."
+          ],
+          "values": [
+            "Respect: This is enhanced as the learner displays humility while playing the telephone game with peers.",
+            "Responsibility: The learner offers leadership and guidance to others while preparing to play the telephone game."
+          ],
+          "pcis": [
+            "Financial Literacy: It is developed as the learner listens to stories about money either recorded or from the teacher."
+          ],
+          "links": [
+            "The learner applies the skill of intensive listening to all other learning areas. The learner can also relate the stories listened to about money to the same concept in Mathematics."
+          ]
+        },
+        {
+          "number": "13.2.1",
+          "name": "Reading: Extensive Reading (Independent Reading)",
+          "lessons": 3,
+          "content": ["Newspapers and Magazines"],
+          "outcomes": [
+            { "id": "a", "text": "read a variety of grade- appropriate digital and print texts such as newspapers and magazines for lifelong learning" },
+            { "id": "b", "text": "demonstrate independent reading of grade-appropriate digital and print texts such as newspapers, magazines and articles for information and enjoyment" },
+            { "id": "c", "text": "adopt independent reading in lifelong learning" }
+          ],
+          "learningExperiences": [
+            "read newspapers, magazines and articles",
+            "select and read age-appropriate and high-interest materials from print and electronic sources related to the theme",
+            "infer the meaning of words related to the theme",
+            "retell the stories they have read in groups",
+            "share opinions and reflect on the materials they have read",
+            "set up an after-school club offline or online where they meet on a regular basis to read books and do extensive reading activities"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to read newspapers and magazines?",
+            "How do we choose the materials we read?",
+            "When do we read?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced when the learner sets up after-school clubs for reading purposes.",
+            "Learning to Learn: This is achieved as the learner develops independent reading skills that enable them to look for information on their own."
+          ],
+          "values": [
+            "Responsibility: This is nurtured as the learner offers leadership and guidance to others while preparing to play the telephone game."
+          ],
+          "pcis": [
+            "Financial Literacy: It is nurtured as the learner interacts with reading materials on money.",
+            "Problem solving skills for better living: The learner reads stories on how people handle money and the consequences of that."
+          ],
+          "links": [
+            "The learner can ably link extensive reading to other subjects such as Kiswahili which have such concepts taught and encouraged."
+          ]
+        },
+        {
+          "number": "13.3.1",
+          "name": "Grammar in Use: Word Class (Prepositions)",
+          "lessons": 2,
+          "content": ["Prepositions"],
+          "outcomes": [
+            { "id": "a", "text": "identify prepositions of position and direction in sentences" },
+            { "id": "b", "text": "use prepositions correctly in oral and written contexts" },
+            { "id": "c", "text": "promote the use of prepositions for clarity in communication" }
+          ],
+          "learningExperiences": [
+            "identify prepositions in samples of oral or written texts",
+            "play grade-appropriate preposition games online or offline",
+            "construct sentences using prepositions",
+            "complete gaps in sentences, as well as match prepositions with pictures",
+            "complete substitution exercises using prepositions",
+            "watch videos, visit web pages and other online resources and pick out prepositions collaboratively",
+            "create and display preposition charts"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we tell others exactly where people and things are?",
+            "How do we show the position of people and things?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: The learner develops confidence and self-esteem when using prepositions correctly.",
+            "Digital Literacy: The learner interacts with technology through watching videos and television programmes and seeing how people use prepositions in conversation.",
+            "Learning to Learn: This is enhanced as the learner creates and displays charts featuring prepositions in the classroom."
+          ],
+          "values": [
+            "Love: It is achieved as the learner respects others’ work as created and displayed on preposition charts.",
+            "Responsibility: The learner offers leadership and guidance to others while preparing to play appropriate preposition online and offline games."
+          ],
+          "pcis": [
+            "Financial Literacy: This is realised when the learner interacts with materials about money as they watch videos about how people use money in their daily lives.",
+            "Citizenship: This is nurtured as the learner learns about money and the importance of paying taxes to foster patriotism."
+          ],
+          "links": [
+            "The learner can link the content taught here to Social Studies where as a concept patriotism is promoted through sensitising learners about money and payment of tax."
+          ]
+        },
+        {
+          "number": "13.4.1",
+          "name": "Writing: Spelling (Double Consonants)",
+          "lessons": 2,
+          "content": ["Double Word Consonants"],
+          "outcomes": [
+            { "id": "a", "text": "spell words with double consonants correctly for clarity of writing" },
+            { "id": "b", "text": "construct correct sentences using words with double consonants for cohesive writing" },
+            { "id": "c", "text": "realise the importance of writing words clearly and correctly in communication" }
+          ],
+          "learningExperiences": [
+            "listen to the teacher or an audio recording and write words with double consonants",
+            "construct sentences using words with double consonants",
+            "watch a video and write various words with peers",
+            "use jigsaw puzzle to form words with double consonants",
+            "make words with double consonants from jumbled up letters",
+            "write words and sentences as dictated by a peer"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to write words correctly?",
+            "How can we improve our spelling?"
+          ],
+          "coreCompetencies": [
+            "Critical Thinking and Problem Solving: The learner forms words with double consonants from jumbled up letters.",
+            "Learning to Learn: This is encouraged as the learner learns how to spell words through learner centred activities such as peer dictation, jigsaw puzzles and watching video as they write words learnt from peers."
+          ],
+          "values": [
+            "Unity: It is portrayed as the learner takes turns while watching a video with peers and also shares the resources amicably to watch videos.",
+            "Integrity: This is achieved as the learner displays self-discipline and honesty when watching videos online and writing down words with double consonants used in the video."
+          ],
+          "pcis": [
+            "Effective Communication: This is enhanced as the learner learns how to spell words correctly thereby effectively communicating especially in written form.",
+            "Financial Literacy: The learner listens to audio recordings and watches videos about the theme of money to pick out words on double consonants."
+          ],
+          "links": [
+            "The learner ably transfers the knowledge on proper spelling to all other learning areas as they all emphasise on correct spelling in written work."
+          ]
+        }
+      ]
+    }
+  ]
+}

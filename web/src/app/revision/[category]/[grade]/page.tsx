@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getSubjects, getGrades, slugifySubject, listExams } from '@/lib/content-store';
+import { revisionGradeParams } from '@/lib/static-params';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return revisionGradeParams();
+}
 
 const CATEGORY_LABELS: Record<string, string> = {
   general: 'General Assessment',

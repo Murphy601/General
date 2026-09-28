@@ -1,0 +1,508 @@
+{
+  "subject": "SCIENCE AND TECHNOLOGY",
+  "subStrand": "3.1",
+  "title": "Force and its effects",
+  "overview": "A force is a push or a pull. In this sub-strand you will describe two forces in nature, gravity and friction, and show what a force can do to an object. You will also learn how people use these forces every day, and how friction can be reduced when it makes work harder.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What a force is",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain the meaning of force as used in science.",
+        "Give examples of pushes and pulls from daily life."
+      ],
+      "intro": "You open a door by pushing or pulling it. You lift a school bag, kick a ball and drag a chair. Each of those actions uses a force, even though nobody can see the force itself.",
+      "notes": "In science, a force is a push or a pull. A push moves something away from you. A pull moves something towards you. Your muscles make many of the forces you use at home and at school.\n\nYou cannot see a force, and you cannot put it in a bottle. You know a force is there because of what it does to an object. A ball that was still can start to roll. A moving toy can stop. Clay can be flattened. These changes are the effects of a force.\n\n### Pushes and pulls\n- Pushing a wheelbarrow, closing a door and kicking a ball are pushes.\n- Pulling a rope, opening a drawer and lifting a bucket with a rope are pulls.\n- Sometimes both happen together. When you pedal a bicycle you push the pedals, and the chain pulls the wheel around.\n\nA force always acts on an object. The object might be a book, a stone, water or your own body. If nothing changes, look again: even holding a bag up uses a pull that stops the bag from falling.\n\n### Types of forces in nature\nThere is more than one type of force. In this sub-strand we study two forces that act in nature even when a person is not pushing:\n\n- **Force of gravity**, which pulls objects towards the Earth.\n- **Force of friction**, which acts when two surfaces rub against each other.\n\nOther pulls exist too. A magnet pulls objects made of iron. We will meet that idea when we talk about holding objects together. The forces you must be able to describe are gravity and friction.\n\nWhen you talk about a force, name the object and say whether it was pushed or pulled. That is clearer than saying only that something moved.",
+      "keyWords": [
+        { "word": "force", "meaning": "a push or a pull" },
+        { "word": "push", "meaning": "a force that moves an object away from you" },
+        { "word": "pull", "meaning": "a force that moves an object towards you" },
+        { "word": "effect", "meaning": "the change a force causes in an object" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner drags a desk across the floor. Is this force a push or a pull?",
+          "steps": ["The desk moves towards the learner.", "A force that moves an object towards you is a pull."],
+          "answer": "A pull",
+          "check": null
+        },
+        {
+          "problem": "A goalkeeper throws a ball away with both hands. What type of force do the hands apply?",
+          "steps": ["The ball moves away from the goalkeeper.", "A force that moves an object away is a push."],
+          "answer": "A push",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Brainstorm: what does force mean?",
+        "materials": ["Manila paper or the chalkboard", "Chalk or a felt pen"],
+        "steps": [
+          "In a group, brainstorm the meaning of the word force as it is used in science.",
+          "List five actions from home or school. Mark each one as a push or a pull.",
+          "Choose one action and say which object the force acts on.",
+          "Take turns to share your list with the class and agree on one meaning of force."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 150\" font-family=\"sans-serif\"><rect width=\"440\" height=\"150\" fill=\"#ffffff\"/><rect x=\"40\" y=\"50\" width=\"70\" height=\"50\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#166534\" stroke-width=\"2\"/><polygon points=\"150,75 190,60 190,90\" fill=\"#166534\"/><text x=\"75\" y=\"80\" text-anchor=\"middle\" font-size=\"14\" fill=\"#14532d\">box</text><text x=\"170\" y=\"120\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">push</text><rect x=\"280\" y=\"50\" width=\"70\" height=\"50\" rx=\"4\" fill=\"#bbf7d0\" stroke=\"#166534\" stroke-width=\"2\"/><polygon points=\"250,75 210,60 210,90\" fill=\"#166534\"/><text x=\"315\" y=\"80\" text-anchor=\"middle\" font-size=\"14\" fill=\"#14532d\">box</text><text x=\"230\" y=\"120\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">pull</text></svg>",
+        "caption": "A push moves the box away. A pull moves the box towards you."
+      },
+      "practice": [
+        { "question": "What is a force?", "answer": "A force is a push or a pull.", "check": null },
+        { "question": "Name the two types of forces in nature that this sub-strand studies.", "answer": "The force of gravity and the force of friction.", "check": null },
+        { "question": "Why can we not see a force, yet still know it is acting?", "answer": "We see the effects, such as an object starting to move, stopping or changing shape.", "check": null }
+      ],
+      "summary": [
+        "A force is a push or a pull.",
+        "We know a force is acting when an object changes.",
+        "Gravity and friction are two forces in nature."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The force of gravity",
+      "outcomes": ["a"],
+      "objectives": [
+        "Describe the force of gravity.",
+        "Explain why unsupported objects fall downwards."
+      ],
+      "intro": "Let go of a stone and it falls to the ground. Rain falls. A ripe mango drops from a tree. Something is pulling these things downwards all the time.",
+      "notes": "The force of gravity is the pull of the Earth on objects. It pulls objects towards the centre of the Earth. From where we stand, that direction is downwards, towards the ground.\n\nGravity acts on every object near the Earth. It acts on you, on your book, on water and on the air. It acts whether the object is moving or still. You do not switch gravity on. It is always there.\n\n### Why things fall\nAn object falls when nothing holds it up. Your hand can hold a book up by pulling against gravity. A table can support a cup. Take the support away and gravity pulls the object down.\n\nA heavy stone and a light stone are both pulled downwards. The pull on the heavier stone is greater, so it feels heavier in your hand. That pull is the object's weight. A leaf may fall more slowly than a stone because air pushes against the wide leaf. The leaf is still pulled downwards by gravity.\n\n### Gravity around us\n- Fruits fall from trees when the stalk can no longer hold them.\n- Water poured from a cup flows downwards.\n- You stay on the ground instead of floating away.\n- A ball thrown upwards slows, stops and comes back down.\n\nRivers flow from higher ground to lower ground because gravity pulls the water down. A water tank placed up high can supply taps below it for the same reason: gravity pulls the water down the pipes.\n\nGravity is useful, and it can also cause harm. A tool left at the edge of a table can fall on someone's foot. Keep heavy objects low and away from edges.",
+      "keyWords": [
+        { "word": "gravity", "meaning": "the force that pulls objects towards the centre of the Earth" },
+        { "word": "weight", "meaning": "the pull of gravity on an object" },
+        { "word": "downwards", "meaning": "towards the ground" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner holds a rubber, then opens the hand. The rubber falls. Which force pulls it down?",
+          "steps": ["Nothing is holding the rubber up after the hand opens.", "The Earth pulls objects towards the ground.", "That pull is the force of gravity."],
+          "answer": "The force of gravity",
+          "check": null
+        },
+        {
+          "problem": "Why does water from a tank on a high stand come out of a tap lower down?",
+          "steps": ["The water is higher than the tap.", "Gravity pulls the water downwards through the pipe."],
+          "answer": "Gravity pulls the water down from the tank to the tap.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Show that gravity pulls objects down",
+        "materials": ["A small stone", "A rubber", "A dry leaf", "A clear space on the floor"],
+        "steps": [
+          "Stand in an open space. Make sure nobody's feet are under the drop.",
+          "Hold the stone at shoulder height and let it go. Watch the direction it moves.",
+          "Repeat with the rubber and then with the leaf. Do not throw the objects.",
+          "Talk about what was the same. All of them moved downwards.",
+          "Discuss why the leaf may have fallen more slowly. Air pushes against it, but gravity still pulls it down."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 180\" font-family=\"sans-serif\"><rect width=\"360\" height=\"180\" fill=\"#ffffff\"/><circle cx=\"180\" cy=\"36\" r=\"16\" fill=\"#f59e0b\" stroke=\"#b45309\" stroke-width=\"2\"/><line x1=\"180\" y1=\"58\" x2=\"180\" y2=\"120\" stroke=\"#166534\" stroke-width=\"3\"/><polygon points=\"180,138 170,118 190,118\" fill=\"#166534\"/><line x1=\"30\" y1=\"150\" x2=\"330\" y2=\"150\" stroke=\"#78716c\" stroke-width=\"4\"/><text x=\"180\" y=\"100\" text-anchor=\"middle\" font-size=\"13\" fill=\"#14532d\">gravity</text><text x=\"180\" y=\"172\" text-anchor=\"middle\" font-size=\"13\" fill=\"#44403c\">ground</text></svg>",
+        "caption": "Gravity pulls an object downwards towards the ground."
+      },
+      "practice": [
+        { "question": "What is the force of gravity?", "answer": "The pull of the Earth on objects, towards the centre of the Earth.", "check": null },
+        { "question": "A mango falls from a tree. What makes it fall?", "answer": "The force of gravity.", "check": null },
+        { "question": "Why might a leaf fall more slowly than a stone?", "answer": "Air pushes against the wide leaf, but gravity still pulls the leaf downwards.", "check": null },
+        { "question": "What is an object's weight?", "answer": "The pull of gravity on that object.", "check": null }
+      ],
+      "summary": [
+        "Gravity pulls objects towards the centre of the Earth.",
+        "Unsupported objects fall downwards.",
+        "Weight is the pull of gravity on an object."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The force of friction",
+      "outcomes": ["a"],
+      "objectives": [
+        "Describe the force of friction.",
+        "Compare friction on rough and smooth surfaces."
+      ],
+      "intro": "Push a book across a desk and it slows down, then stops. Rub your palms together quickly and they feel warm. Both of these happen because the surfaces are rubbing.",
+      "notes": "The force of friction is a force that opposes sliding when two surfaces rub against each other. It tries to stop one surface from sliding over the other. Friction acts along the surfaces that are touching.\n\nYou meet friction whenever you walk, write, ride a bicycle or slide a chair. Without it, shoes would slip on the floor and a pencil would slide out of your fingers.\n\n### Rough and smooth surfaces\nRough surfaces have more friction than smooth surfaces. It is harder to slide a box on soil or on sandpaper than on a smooth tiled floor or a polished table. Tiny bumps on a rough surface catch against each other.\n\nSmooth surfaces have less friction, so objects slide more easily. A wet soapy floor is slippery because water and soap make the surface smoother and reduce friction. That is why we walk carefully on a wet floor.\n\n### What friction does\n- It slows moving objects and can stop them.\n- It can make heat. Rubbing your hands, or a match against a matchbox, makes the surfaces warm.\n- It wears surfaces down. Shoe soles, bicycle tyres and the blades of tools become thinner after a long time of rubbing.\n\nFriction can be helpful or a nuisance. It helps us walk and stop a bicycle. It also makes it harder to push a heavy load and makes machine parts wear out. Later you will learn how to reduce friction when we do not want it, and where we must keep it.",
+      "keyWords": [
+        { "word": "friction", "meaning": "a force that opposes sliding when two surfaces rub together" },
+        { "word": "rough surface", "meaning": "a surface with bumps that catch and cause more friction" },
+        { "word": "smooth surface", "meaning": "a surface with few bumps, so objects slide more easily" }
+      ],
+      "examples": [
+        {
+          "problem": "A box is easier to slide on a polished table than on a rough mat. Where is friction greater?",
+          "steps": ["The box is harder to move where friction is greater.", "Rough surfaces produce more friction than smooth ones.", "The rough mat has greater friction."],
+          "answer": "Friction is greater on the rough mat.",
+          "check": null
+        },
+        {
+          "problem": "Why do your palms feel warm when you rub them together fast?",
+          "steps": ["The skin of the two palms rubs.", "Friction between rubbing surfaces produces heat."],
+          "answer": "Friction between the palms produces heat.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Feel the force of friction",
+        "materials": ["A textbook", "A smooth desk", "A rough mat or a piece of sandpaper", "Your hands"],
+        "steps": [
+          "Slide the textbook gently across the smooth desk. Notice how easily it moves and how soon it stops.",
+          "Slide the same book across the rough mat or sandpaper using a similar push.",
+          "Say which surface made the book harder to slide. That surface has more friction.",
+          "Rub your palms together quickly for a few seconds and say what you feel.",
+          "Take turns so each person both slides the book and describes the result."
+        ]
+      },
+      "practice": [
+        { "question": "What is the force of friction?", "answer": "A force that opposes sliding when two surfaces rub against each other.", "check": null },
+        { "question": "Which surface has more friction: a rough earthen floor or a smooth tile?", "answer": "A rough earthen floor.", "check": null },
+        { "question": "Give one helpful effect and one harmful effect of friction.", "answer": "Helpful: it lets us walk without slipping, or it helps brakes stop a bicycle. Harmful: it wears out shoes and tyres, or it makes pushing a load harder.", "check": null }
+      ],
+      "summary": [
+        "Friction opposes sliding between surfaces that touch.",
+        "Rough surfaces cause more friction than smooth surfaces.",
+        "Friction can slow things, produce heat and wear surfaces."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Changing shape and holding objects together",
+      "outcomes": ["b"],
+      "objectives": [
+        "Show that a force can change the shape of an object.",
+        "Show that a force can hold objects together."
+      ],
+      "intro": "Press a lump of clay in your hand and it becomes flat. Stretch a rubber band around a bundle of sticks and the sticks stay together. Both results come from a force.",
+      "notes": "One effect of a force is a change of shape. Soft objects show this clearly. Clay, plasticine, a sponge and dough can be squeezed, stretched, bent or twisted. The shape you see afterwards is different from the shape you started with.\n\nSome objects spring back when you remove the force. A sponge gets thicker again. A rubber band becomes short again. Other objects keep the new shape. Clay stays flat until you mould it again. A thin wire stays bent. The force still changed the shape while it acted.\n\n### How hard you push or pull\nA small force may change the shape only a little. A larger force changes it more. If the force is too large, the object may tear or break. Pull a rubber band gently and it stretches. Pull it too hard and it can snap and hit someone. Stretch it only a little, and do not aim it at anyone.\n\n### Holding objects together\nA force can also hold objects together.\n\n- Press two pieces of clay firmly and they join into one lump.\n- A stretched rubber band pulls inwards and can hold sticks or papers in a bundle.\n- A magnet pulls pins made of iron and can hold them against it.\n- Gravity holds people, animals and objects on the Earth so they do not float away.\n\nWhen you describe this effect, name the force and the objects. For example: the rubber band pulls the sticks and holds them together. Do not say only that the sticks are tied.",
+      "keyWords": [
+        { "word": "change of shape", "meaning": "when a force squeezes, stretches, bends or twists an object" },
+        { "word": "magnet", "meaning": "an object that can pull things made of iron" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner squeezes a sponge and it becomes thinner. Which effect of force is this?",
+          "steps": ["The sponge looks different after it is squeezed.", "Its size and shape have changed.", "This effect is change of shape."],
+          "answer": "Change of shape",
+          "check": null
+        },
+        {
+          "problem": "A magnet is held against steel pins and the pins stay on the magnet. Which effect is shown?",
+          "steps": ["The pins do not fall off.", "The magnet's pull keeps them on it.", "A force is holding the objects together."],
+          "answer": "The force holds the objects together.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Change shape and join objects",
+        "materials": ["Clay or plasticine", "A sponge", "A rubber band", "Short sticks or pencils", "A magnet and pins if the school has them"],
+        "steps": [
+          "Work with a partner. Squeeze, roll and bend the clay. Say how the shape changed.",
+          "Press the sponge, then let go. Compare what happens with what happened to the clay.",
+          "Put the sticks in a bundle and stretch a rubber band around them. Explain which force holds them together.",
+          "If you have a magnet, pick up the pins with it. Do not put pins in your mouth.",
+          "Wash your hands after using clay. Put the rubber band away so it is not flicked at anyone."
+        ]
+      },
+      "practice": [
+        { "question": "Give two effects of force shown when you mould clay and when you use a rubber band on a bundle of sticks.", "answer": "Moulding clay changes shape. The rubber band holds the sticks together.", "check": null },
+        { "question": "A sponge returns to its old shape after you stop squeezing it. Did a force change its shape?", "answer": "Yes. The force changed its shape while you squeezed it. The sponge sprang back when the force was removed.", "check": null },
+        { "question": "How does gravity hold you together with the Earth?", "answer": "Gravity pulls you towards the Earth, so you stay on the ground.", "check": null }
+      ],
+      "summary": [
+        "A force can change the shape of an object by squeezing, stretching, bending or twisting it.",
+        "Some objects spring back. Others keep the new shape.",
+        "A force can hold objects together, as a rubber band, a magnet or gravity can do."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "How force changes motion",
+      "outcomes": ["b"],
+      "objectives": [
+        "Demonstrate that a force can start, stop, speed up, slow down or change the direction of a moving object."
+      ],
+      "intro": "A ball lying on the field does nothing until someone kicks it. After the kick it rolls, slows on the grass, and may change direction if another player taps it. Each of those changes needs a force.",
+      "notes": "Motion means movement. A force can change the motion of an object in five ways that you should be able to show.\n\n### The five changes\n- **Start motion.** The object is still, then a push or a pull makes it move. Kicking a ball or pushing a wheelbarrow shows this.\n- **Stop a moving object.** A catch stops a ball. Bicycle brakes rub the wheel and friction stops the bicycle. A wall stops a rolling ball if the ball hits it.\n- **Increase speed.** Pushing a moving swing, or pedalling harder, makes the object go faster. A larger force in the direction of motion increases speed.\n- **Decrease speed.** A force against the motion makes the object slow down. Dragging your feet, or friction from the ground, slows a rolling ball.\n- **Change direction.** A force from the side turns the object. A bat can send a ball a new way. You change a bicycle's direction by turning the handlebar.\n\nAn object does not change its motion by itself. If it starts, stops, goes faster, goes slower or turns, a force acted on it. The force might come from a person, from gravity, from friction or from another object.\n\nWhen you demonstrate, use a soft ball or a toy car, and keep the path clear. Do not throw anything at another learner. Say the effect in a full sentence: The push started the car. The tap changed its direction.",
+      "keyWords": [
+        { "word": "motion", "meaning": "movement of an object" },
+        { "word": "speed", "meaning": "how fast an object is moving" },
+        { "word": "direction", "meaning": "the way an object is moving" }
+      ],
+      "examples": [
+        {
+          "problem": "A toy car is still. A learner pushes it and it rolls. Which effect of force is this?",
+          "steps": ["The car was not moving.", "The push made it move.", "The force started the motion."],
+          "answer": "The force started the motion.",
+          "check": null
+        },
+        {
+          "problem": "A rolling ball is tapped from the side and it rolls a different way. Which effect is this?",
+          "steps": ["The ball was already moving.", "The tap came from the side.", "The path of the ball changed."],
+          "answer": "The force changed the direction of the ball.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Show five effects on a moving toy",
+        "materials": ["A toy car or a soft ball", "A clear floor space", "Chalk to mark a path"],
+        "steps": [
+          "Put the toy car still on the floor. Give it a gentle push so that it starts to move.",
+          "While it is moving, push it again from behind so that it goes faster.",
+          "On the next run, press lightly against the front so that it slows down, then stop it completely with your hand.",
+          "Roll it once more and tap it gently from the side so that its direction changes.",
+          "After each action, the group names the effect: start, increase speed, decrease speed, stop or change direction."
+        ]
+      },
+      "practice": [
+        { "question": "List five ways a force can change the motion of an object.", "answer": "It can start motion, stop a moving object, increase speed, decrease speed and change direction.", "check": null },
+        { "question": "A cyclist squeezes the brakes and the bicycle slows, then stops. Which effects of force are these?", "answer": "The force decreases speed and then stops the moving bicycle.", "check": null },
+        { "question": "A ball is thrown upwards and then comes back down. Which force changes its motion?", "answer": "The force of gravity.", "check": null }
+      ],
+      "summary": [
+        "A force can start motion or stop a moving object.",
+        "A force can increase speed, decrease speed or change direction.",
+        "An object does not change its motion unless a force acts on it."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Uses of force in daily life",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Describe uses of force at home, at school and in the community.",
+        "Explain why force is important in day-to-day life."
+      ],
+      "intro": "Think through one morning. You lift a jerry can, push a door, write with a pencil and maybe ride a bicycle. Take away every push and pull, and those jobs cannot be done.",
+      "notes": "People use force all day. Some forces come from our muscles. Others, such as gravity and friction, are used as part of the way tools and buildings work.\n\n### At home\n- We push and pull doors, drawers and windows.\n- We lift pots, babies, firewood and water containers. Lifting is a pull against gravity.\n- We cut vegetables and knead dough. The knife and the hands change the shape of the food.\n- Sweeping uses a push to move dust.\n\n### At school and at work\n- Writing needs a push of the pencil on the paper, and friction stops the pencil slipping through the fingers.\n- Learners push swings, pull ropes and kick balls in games.\n- A farmer pushes a wheelbarrow and pulls weeds. A builder lifts stones and hammers nails.\n- Drivers and cyclists use forces to start, steer and stop.\n\n### Why force matters\nWithout force we could not move loads, shape materials, open gates or stop moving bicycles. Gravity lets water flow from a raised tank and keeps us on the ground. Friction lets us walk on a path. Force is important because almost every job needs a push, a pull, or both.\n\nWe also use force with care. A hard push can hurt a classmate or break a tool. When you work in a group, take turns and keep forces gentle enough for the task. Caring for others means you do not use a push or a pull to cause pain.",
+      "keyWords": [
+        { "word": "daily life", "meaning": "the ordinary things people do at home, at school and at work" },
+        { "word": "load", "meaning": "an object that is lifted, pushed or carried" }
+      ],
+      "examples": [
+        {
+          "problem": "Name the force a learner uses when lifting a school bag off the floor, and say why it is needed.",
+          "steps": ["The bag is pulled upwards.", "Gravity is pulling the bag down.", "The upward pull must overcome that pull of gravity."],
+          "answer": "An upward pull is used to lift the bag against gravity.",
+          "check": null
+        },
+        {
+          "problem": "A carpenter hammers a nail into wood. Which effect of force makes the nail go into the wood?",
+          "steps": ["The hammer pushes the nail.", "The nail was still and then moves into the wood.", "The force starts the nail moving and pushes it through the wood."],
+          "answer": "The hammer's push starts the nail moving into the wood.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Search and observe uses of force",
+        "materials": ["A Grade 4 Science and Technology textbook or a teacher-approved page", "Exercise book", "A digital device only if the teacher provides one"],
+        "steps": [
+          "With the teacher, look in the textbook or another print source for pictures of people using force. If a digital device is used, the teacher opens a safe page and learners do not search alone.",
+          "Observe the school compound for real uses: doors, wheelbarrows, balls, water taps and people carrying loads.",
+          "Write six uses. For each one, name the object and say whether the force is a push, a pull, gravity or friction.",
+          "Discuss why life would be difficult without those forces.",
+          "Share the list and let each group member explain one use."
+        ]
+      },
+      "practice": [
+        { "question": "Give three uses of force at home.", "answer": "Any three, such as opening a door, lifting water, sweeping, cutting food or kneading dough.", "check": null },
+        { "question": "Why is force important when writing?", "answer": "You push the pencil on the paper, and friction helps you grip the pencil.", "check": null },
+        { "question": "Why should a push used in a game stay gentle?", "answer": "A hard push can hurt someone or break something. We use force carefully.", "check": null }
+      ],
+      "summary": [
+        "People use pushes and pulls at home, at school and at work.",
+        "Gravity and friction are part of many everyday jobs.",
+        "Force should be used carefully so that nobody is hurt."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Using gravity and friction",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Describe applications of gravity in day-to-day life.",
+        "Describe applications of friction in day-to-day life."
+      ],
+      "intro": "A cyclist rolls downhill without pedalling, then squeezes the brake levers to stop. Gravity helps the bicycle move down the slope. Friction in the brakes helps it stop.",
+      "notes": "Gravity and friction are not only ideas for a science lesson. People rely on both of them.\n\n### Applications of gravity\n- Objects stay on the ground, on shelves and on tables.\n- Rain falls and waters crops. Rivers run downhill.\n- Water in a tank on a stand flows to lower taps.\n- We pour tea, grain or sand downwards into a container.\n- A plumb line, a weight on a string, hangs straight down. Builders use that idea to check a wall is upright.\n- Fruits and leaves fall when they are no longer held by the plant.\n\nWe work with gravity when we put heavy loads low on a shelf so they will not fall far, and when we walk carefully down a steep path.\n\n### Applications of friction\n- Shoes grip the ground so we can walk and run.\n- Bicycle and vehicle brakes rub and stop the wheels.\n- Rough soles and tyre treads increase friction so we do not skid.\n- We grip a pen, a jembe or a glass because of friction.\n- A match lights when it is rubbed on the rough strip, because friction makes heat.\n- Knots and ropes hold partly because the fibres rub and do not slide easily.\n\n### On the farm\nFriction matters when tools are used and stored. A sharp jembe needs enough grip in the hands, which is friction we want. The wheel of a wheelbarrow should turn easily, so extra friction in a dry axle is a problem. Wiping and oiling that axle is part of looking after farm equipment. The blade that must bite into soil should not be left covered in slippery oil.\n\nBoth forces can be dangerous if we ignore them. Gravity pulls people off ladders and pulls rocks down slopes. Too little friction on a wet floor causes falls. Too little friction in worn brakes makes a bicycle hard to stop.",
+      "keyWords": [
+        { "word": "application", "meaning": "a way something is used in real life" },
+        { "word": "brakes", "meaning": "parts that rub on a wheel so friction can slow or stop it" },
+        { "word": "tread", "meaning": "the patterned surface of a shoe sole or a tyre that helps it grip" }
+      ],
+      "examples": [
+        {
+          "problem": "Why are bicycle brakes lined with a material that can rub firmly on the wheel?",
+          "steps": ["Stopping needs a force against the motion.", "Rubbing produces friction.", "The brake uses friction to slow and stop the bicycle."],
+          "answer": "The rubbing causes friction, which slows and stops the wheel.",
+          "check": null
+        },
+        {
+          "problem": "A family puts the water tank on a stand above the taps. Which force makes the water flow to the taps?",
+          "steps": ["The water is stored higher than the taps.", "Gravity pulls the water downwards."],
+          "answer": "The force of gravity",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Discuss where gravity and friction work for us",
+        "materials": ["Exercise book", "Pictures in the textbook of brakes, water tanks, shoes or tools"],
+        "steps": [
+          "In a group, one learner leads the discussion and makes sure everyone speaks.",
+          "List four applications of gravity and four applications of friction from home, school or the farm.",
+          "Mark each one as useful. Add one way each force can cause an accident if we are careless.",
+          "Talk about a wheelbarrow or a bicycle: where do you want friction, and where is too much friction a problem?",
+          "Share your list with another group and add any use you had missed."
+        ]
+      },
+      "practice": [
+        { "question": "Give two applications of the force of gravity.", "answer": "Any two: rain falling, water flowing from a raised tank, objects staying on the ground, pouring liquids downwards.", "check": null },
+        { "question": "How do brakes stop a bicycle?", "answer": "They rub on the wheel. Friction then slows and stops the bicycle.", "check": null },
+        { "question": "Why should a wheelbarrow axle be oiled, while the handles should still be easy to grip?", "answer": "Oil reduces unwanted friction so the wheel turns easily. Grip on the handles uses useful friction so the wheelbarrow does not slip from the hands.", "check": null }
+      ],
+      "summary": [
+        "Gravity lets water flow downwards and keeps objects on the Earth.",
+        "Friction helps us walk, grip tools and stop bicycles.",
+        "We want friction in some places and less friction in others."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Reducing friction between moving objects",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Describe ways of minimising friction.",
+        "Explain when friction should be reduced and when it should be kept."
+      ],
+      "intro": "A heavy box is hard to drag across the ground, but it moves more easily when round sticks are placed under it. The sticks do not remove the box's weight. They change the way the surfaces rub.",
+      "notes": "Sometimes friction wastes effort, makes parts hot and wears them out. We minimise friction, which means we reduce it, when parts need to keep moving easily. We do not try to remove all friction. Walking, holding tools and braking need friction.\n\n### Ways of minimising friction\n- **Smoothening surfaces.** Sanding wood or polishing metal removes some of the bumps that catch. A smooth drawer slides more easily than a rough one.\n- **Oiling.** A thin oil fills tiny gaps between moving parts. A bicycle chain, a hinge and a sewing-machine wheel are oiled so they move freely and do not rust as quickly.\n- **Greasing.** Grease is thicker than oil. It stays in place on axles and some machine parts and reduces rubbing.\n- **Rollers.** Round logs, pipes or pencils placed under a load let it roll instead of slide. Rolling meets less friction than sliding.\n- **Ball bearings.** Small hard balls sit between two parts, such as in a bicycle wheel hub. The parts roll on the balls instead of sliding on each other, so friction is smaller and the wheel spins more freely.\n- **Wheels.** A wheelbarrow, a cart and a bicycle use wheels for the same reason rollers help: rolling is easier than dragging.\n\n### Using these ideas safely\nOil and grease are slippery. Keep them off floors, shoe soles and brake surfaces. Do not oil the brake blocks of a bicycle or the sole of a shoe. Wipe extra oil off your hands so you do not drop tools. On the farm, oiling moving parts of equipment is good maintenance. Cutting edges should stay clean so they can still grip and cut.\n\nReducing friction in the right place saves effort and makes tools last longer. Keeping friction in the right place keeps people from slipping and helps machines stop. Both choices show why force matters in day-to-day life.",
+      "keyWords": [
+        { "word": "minimise", "meaning": "to reduce something and make it as small as is useful" },
+        { "word": "lubricant", "meaning": "oil or grease put on moving parts to reduce friction" },
+        { "word": "ball bearing", "meaning": "a set of small balls that let parts roll instead of slide" },
+        { "word": "roller", "meaning": "a round object placed under a load so the load can roll" }
+      ],
+      "examples": [
+        {
+          "problem": "A door hinge squeaks and is hard to move. Which way of minimising friction should be used?",
+          "steps": ["The two metal parts of the hinge are rubbing.", "Oil or grease lets metal parts slide more easily.", "Oiling or greasing the hinge reduces the friction."],
+          "answer": "Oil or grease the hinge.",
+          "check": null
+        },
+        {
+          "problem": "Why do ball bearings in a bicycle wheel make the wheel turn more easily?",
+          "steps": ["Without bearings, parts would slide and rub.", "The balls let the parts roll.", "Rolling causes less friction than sliding."],
+          "answer": "The balls let the parts roll instead of slide, so friction is reduced.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compare sliding with rollers",
+        "materials": ["A heavy book", "Three round pencils or biro pens", "A smooth desk"],
+        "steps": [
+          "Slide the book across the desk with one finger and notice the effort.",
+          "Place the round pencils under the book like rollers and push again.",
+          "Discuss which way needed less force, and why rolling reduces friction.",
+          "As a group, list the other ways of minimising friction: smoothening, oiling, greasing and ball bearings.",
+          "Decide one place where friction must stay, such as brakes or shoe soles, and say why oil would be dangerous there."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 160\" font-family=\"sans-serif\"><rect width=\"420\" height=\"160\" fill=\"#ffffff\"/><rect x=\"30\" y=\"40\" width=\"90\" height=\"36\" fill=\"#bbf7d0\" stroke=\"#166534\" stroke-width=\"2\"/><line x1=\"30\" y1=\"100\" x2=\"160\" y2=\"100\" stroke=\"#78716c\" stroke-width=\"3\"/><text x=\"75\" y=\"130\" text-anchor=\"middle\" font-size=\"12\" fill=\"#111827\">sliding</text><rect x=\"230\" y=\"36\" width=\"90\" height=\"36\" fill=\"#bbf7d0\" stroke=\"#166534\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"84\" r=\"12\" fill=\"#e5e7eb\" stroke=\"#166534\" stroke-width=\"2\"/><circle cx=\"290\" cy=\"84\" r=\"12\" fill=\"#e5e7eb\" stroke=\"#166534\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"84\" r=\"12\" fill=\"#e5e7eb\" stroke=\"#166534\" stroke-width=\"2\"/><text x=\"290\" y=\"130\" text-anchor=\"middle\" font-size=\"12\" fill=\"#111827\">rollers</text></svg>",
+        "caption": "A load rolls on rollers with less friction than when it slides."
+      },
+      "practice": [
+        { "question": "Name four ways of minimising friction between moving objects.", "answer": "Smoothening surfaces, oiling, greasing, and using rollers or ball bearings.", "check": null },
+        { "question": "Why is rolling a load easier than sliding it?", "answer": "Rolling causes less friction than sliding.", "check": null },
+        { "question": "Why should you not put oil on bicycle brakes?", "answer": "Brakes need friction to stop the bicycle. Oil would make them slip.", "check": null },
+        { "question": "How does oiling a wheelbarrow axle help maintain the tool?", "answer": "It reduces friction so the wheel turns more easily and the parts wear out more slowly.", "check": null }
+      ],
+      "summary": [
+        "Smoothening, oiling, greasing, rollers and ball bearings reduce friction.",
+        "Rolling causes less friction than sliding.",
+        "Keep friction where you need grip or brakes. Reduce it where parts must move freely."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "In science, a force is:",
+      "options": ["only a push", "only a pull", "a push or a pull", "the colour of an object"],
+      "answer": "C",
+      "explanation": "A force is a push or a pull. Both are forces.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which force pulls objects towards the centre of the Earth?",
+      "options": ["Friction", "Gravity", "A magnet only", "Oil"],
+      "answer": "B",
+      "explanation": "The force of gravity is the Earth's pull on objects.",
+      "outcome": "a"
+    },
+    {
+      "question": "Friction is greater when two surfaces are:",
+      "options": ["rough", "very smooth and oily", "not touching", "made of air only"],
+      "answer": "A",
+      "explanation": "Rough surfaces catch against each other, so friction is greater.",
+      "outcome": "a"
+    },
+    {
+      "question": "Squeezing clay until it is flat shows that a force can:",
+      "options": ["remove gravity", "change shape", "make the clay heavier", "stop friction forever"],
+      "answer": "B",
+      "explanation": "Changing shape is one effect of a force.",
+      "outcome": "b"
+    },
+    {
+      "question": "A still ball is kicked and starts to roll. The kick has:",
+      "options": ["started the motion", "only changed the colour", "removed gravity", "held the ball in the air with no force"],
+      "answer": "A",
+      "explanation": "A force can start an object moving.",
+      "outcome": "b"
+    },
+    {
+      "question": "Which set lists effects of force on motion?",
+      "options": ["Start, stop, speed up, slow down, change direction", "Only melting and boiling", "Only planting and weeding", "Only reading and writing"],
+      "answer": "A",
+      "explanation": "A force can start motion, stop it, change its speed or change its direction.",
+      "outcome": "b"
+    },
+    {
+      "question": "Bicycle brakes stop the bicycle mainly by using:",
+      "options": ["gravity alone", "friction", "light", "a larger wheel only"],
+      "answer": "B",
+      "explanation": "The brake rubs on the wheel. That friction slows and stops the bicycle.",
+      "outcome": "c"
+    },
+    {
+      "question": "Water flows from a tank on a high stand to a lower tap because of:",
+      "options": ["friction in the tap", "the force of gravity", "ball bearings", "a rough pipe"],
+      "answer": "B",
+      "explanation": "Gravity pulls the water downwards from the tank to the tap.",
+      "outcome": "c"
+    },
+    {
+      "question": "Which action minimises friction in a bicycle wheel?",
+      "options": ["Making the brake blocks rougher", "Fitting ball bearings so parts roll", "Pouring sand into the hub", "Removing the wheel"],
+      "answer": "B",
+      "explanation": "Ball bearings let parts roll instead of slide, which reduces friction.",
+      "outcome": "c"
+    },
+    {
+      "question": "Why is friction important when you walk?",
+      "answer": "Friction between shoes and the ground stops your feet from slipping.",
+      "explanation": "Without friction, shoes would slide and walking would be difficult.",
+      "outcome": "d"
+    },
+    {
+      "question": "Why should oil not be put on shoe soles or brake blocks?",
+      "answer": "Those places need friction for grip and for stopping. Oil would make them slippery and dangerous.",
+      "explanation": "Friction should be reduced only where parts need to move freely, not where grip is needed.",
+      "outcome": "d"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Science and Technology Curriculum Design (Revised 2024) — Strand 3.0 Force and Energy, Sub-strand 3.1 Force and its effects"
+  ]
+}

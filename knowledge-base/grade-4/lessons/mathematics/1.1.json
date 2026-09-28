@@ -1,0 +1,412 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "1.1",
+  "title": "Whole Numbers",
+  "overview": "Whole numbers are the counting numbers 0, 1, 2, 3 and so on. In this sub-strand you will find the place value and total value of digits up to tens of thousands, read and write numbers, put numbers in order, round off to the nearest ten, find factors and multiples, work with even and odd numbers, and write Roman numerals up to X.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Place value and total value",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name the place value of each digit in a number with up to five digits.",
+        "Work out the total value of a digit."
+      ],
+      "intro": "A school collected 24,315 shillings for a charity walk. The digit 4 in that number does not mean four shillings. Where a digit sits in a number tells us how much it is really worth.",
+      "notes": "Every digit in a number sits in a place. The place tells us its value. For numbers up to tens of thousands, the places from right to left are:\n\n- Ones\n- Tens\n- Hundreds\n- Thousands\n- Tens of thousands\n\nEach place is ten times the place on its right. Ten ones make one ten, ten tens make one hundred, ten hundreds make one thousand, and ten thousands make one ten thousand.\n\n### Place value\nThe place value of a digit is the name of the place where the digit is. In 24,315 the digit 2 is in the tens of thousands place, 4 is in the thousands place, 3 is in the hundreds place, 1 is in the tens place and 5 is in the ones place.\n\n### Total value\nThe total value of a digit is the digit multiplied by the value of its place. In 24,315:\n\n- 2 × 10,000 = 20,000\n- 4 × 1,000 = 4,000\n- 3 × 100 = 300\n- 1 × 10 = 10\n- 5 × 1 = 5\n\nWhen you add all the total values you get the number back: 20,000 + 4,000 + 300 + 10 + 5 = 24,315. This is called writing a number in expanded form.\n\nA zero keeps a place empty. In 30,406 there are no thousands and no tens, but the zeros keep the 3, 4 and 6 in their correct places.",
+      "keyWords": [
+        { "word": "digit", "meaning": "one of the symbols 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 used to write numbers" },
+        { "word": "place value", "meaning": "the name of the position a digit holds in a number, such as tens or thousands" },
+        { "word": "total value", "meaning": "the digit multiplied by the value of its place" }
+      ],
+      "examples": [
+        {
+          "problem": "What is the place value of 7 in 47,120?",
+          "steps": ["Count the places from the right: 0 is ones, 2 is tens, 1 is hundreds, 7 is thousands."],
+          "answer": "Thousands",
+          "check": null
+        },
+        {
+          "problem": "Find the total value of 6 in 56,208.",
+          "steps": ["6 is in the thousands place.", "Total value = 6 × 1,000"],
+          "answer": "6,000",
+          "check": "6*1000 === 6000"
+        },
+        {
+          "problem": "Write 38,052 in expanded form.",
+          "steps": [
+            "3 is tens of thousands: 3 × 10,000 = 30,000",
+            "8 is thousands: 8 × 1,000 = 8,000",
+            "0 is hundreds: 0",
+            "5 is tens: 5 × 10 = 50",
+            "2 is ones: 2"
+          ],
+          "answer": "30,000 + 8,000 + 50 + 2",
+          "check": "30000 + 8000 + 50 + 2 === 38052"
+        }
+      ],
+      "activity": {
+        "title": "Build a number on a place value chart",
+        "materials": ["Place value chart drawn on a manila paper or in your book", "Bottle tops or small stones"],
+        "steps": [
+          "Work in a group. Draw five columns labelled Tens of thousands, Thousands, Hundreds, Tens and Ones.",
+          "One learner calls out a number such as 12,403.",
+          "Another learner places bottle tops in each column to show the number.",
+          "The group states the place value and total value of each digit and writes the number in expanded form.",
+          "Take turns until every member has called a number."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 130\" font-family=\"sans-serif\"><rect x=\"0\" y=\"0\" width=\"500\" height=\"130\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"480\" height=\"110\"/><line x1=\"106\" y1=\"10\" x2=\"106\" y2=\"120\"/><line x1=\"202\" y1=\"10\" x2=\"202\" y2=\"120\"/><line x1=\"298\" y1=\"10\" x2=\"298\" y2=\"120\"/><line x1=\"394\" y1=\"10\" x2=\"394\" y2=\"120\"/><line x1=\"10\" y1=\"55\" x2=\"490\" y2=\"55\"/></g><g font-size=\"12\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"58\" y=\"30\">Tens of</text><text x=\"58\" y=\"46\">thousands</text><text x=\"154\" y=\"38\">Thousands</text><text x=\"250\" y=\"38\">Hundreds</text><text x=\"346\" y=\"38\">Tens</text><text x=\"442\" y=\"38\">Ones</text></g><g font-size=\"32\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#166534\"><text x=\"58\" y=\"100\">2</text><text x=\"154\" y=\"100\">4</text><text x=\"250\" y=\"100\">3</text><text x=\"346\" y=\"100\">1</text><text x=\"442\" y=\"100\">5</text></g></svg>",
+        "caption": "The number 24,315 on a place value chart"
+      },
+      "practice": [
+        { "question": "Write the place value of 9 in 19,604.", "answer": "Thousands", "check": null },
+        { "question": "What is the total value of 5 in 52,871?", "answer": "50,000", "check": "5*10000 === 50000" },
+        { "question": "Write 40,317 in expanded form.", "answer": "40,000 + 300 + 10 + 7", "check": "40000 + 300 + 10 + 7 === 40317" },
+        { "question": "What is the total value of 8 in 10,850?", "answer": "800", "check": "8*100 === 800" }
+      ],
+      "summary": [
+        "The places from the right are ones, tens, hundreds, thousands and tens of thousands.",
+        "Total value = digit × value of its place.",
+        "Adding all the total values gives the number back."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Reading and writing numbers in symbols and in words",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Read and write numbers up to 10,000 in symbols.",
+        "Read and write numbers up to 1,000 in words."
+      ],
+      "intro": "On a cheque, a receipt or a sign at the market, numbers are written in symbols like 745 and sometimes in words like seven hundred and forty-five. You need to read both correctly.",
+      "notes": "### Numbers in symbols\nNumbers in symbols are written with digits. When a number has four or more digits we group the digits in threes from the right using a comma or a space, for example 7,508 or 10,000. This makes big numbers easier to read.\n\nTo read a number in symbols, start from the biggest place on the left. 6,294 is read as six thousand, two hundred and ninety-four.\n\n### Numbers in words\nWhen writing a number up to 1,000 in words:\n\n- Say the hundreds first, then the word hundred.\n- Put the word and before the tens and ones.\n- Join tens and ones with a hyphen, for example twenty-one, forty-five, ninety-nine.\n- If there are no tens or ones, stop at hundred, for example 300 is three hundred.\n- 1,000 is written as one thousand.\n\nExamples: 408 is four hundred and eight. 670 is six hundred and seventy. 915 is nine hundred and fifteen.\n\nTake care with spelling: forty (not fourty), ninety, eleven, twelve, fifteen, nineteen.\n\n### From words to symbols\nRead the words and put each part into its place. Seven hundred and three has 7 hundreds, 0 tens and 3 ones, so it is 703. The zero must be written to keep the place.",
+      "keyWords": [
+        { "word": "symbols", "meaning": "digits used to write a number, such as 745" },
+        { "word": "hyphen", "meaning": "a short line (-) that joins tens and ones in words, as in sixty-two" }
+      ],
+      "examples": [
+        { "problem": "Write 856 in words.", "steps": ["8 hundreds: eight hundred", "5 tens and 6 ones: fifty-six", "Join with and."], "answer": "Eight hundred and fifty-six", "check": "800 + 50 + 6 === 856" },
+        { "problem": "Write six hundred and four in symbols.", "steps": ["6 hundreds, 0 tens, 4 ones"], "answer": "604", "check": "600 + 4 === 604" },
+        { "problem": "Read 9,072.", "steps": ["9 thousands, 0 hundreds, 7 tens, 2 ones"], "answer": "Nine thousand and seventy-two", "check": "9000 + 70 + 2 === 9072" }
+      ],
+      "activity": {
+        "title": "Number chart reading",
+        "materials": ["Number chart or number cards", "Exercise book"],
+        "steps": [
+          "In pairs, one learner points to a number on the chart.",
+          "The partner reads it aloud and writes it in words.",
+          "Check the spelling together, then swap roles.",
+          "Finish by writing three numbers you see at home or in the market, first in symbols then in words."
+        ]
+      },
+      "practice": [
+        { "question": "Write 319 in words.", "answer": "Three hundred and nineteen", "check": "300 + 19 === 319" },
+        { "question": "Write five hundred and ninety in symbols.", "answer": "590", "check": "500 + 90 === 590" },
+        { "question": "Write eight thousand, four hundred and six in symbols.", "answer": "8,406", "check": "8000 + 400 + 6 === 8406" },
+        { "question": "Write 1,000 in words.", "answer": "One thousand", "check": null }
+      ],
+      "summary": [
+        "Group digits in threes from the right for big numbers.",
+        "Use and before the tens and ones, and a hyphen between tens and ones.",
+        "Write a zero for any empty place."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Ordering and rounding off numbers",
+      "outcomes": ["d", "e"],
+      "objectives": [
+        "Arrange numbers up to 1,000 from smallest to largest and from largest to smallest.",
+        "Round off numbers up to 1,000 to the nearest ten."
+      ],
+      "intro": "Four classes collected bottle tops for a project: 452, 425, 504 and 245. Which class collected the most? To answer quickly you need to order the numbers.",
+      "notes": "### Ordering numbers\nTo compare numbers, first look at how many digits they have. A number with more digits is bigger. If they have the same number of digits, compare the digits from the left:\n\n- Compare the hundreds. The bigger hundreds digit gives the bigger number.\n- If the hundreds are the same, compare the tens.\n- If the tens are also the same, compare the ones.\n\nFor 452, 425, 504 and 245: the hundreds digits are 4, 4, 5 and 2. So 504 is the largest and 245 is the smallest. For 452 and 425 the hundreds are the same, so compare tens: 5 is bigger than 2, so 452 is bigger than 425.\n\nSmallest to largest (ascending order): 245, 425, 452, 504.\nLargest to smallest (descending order): 504, 452, 425, 245.\n\n### Rounding off to the nearest ten\nRounding off gives a number that is close and easy to use. To round off to the nearest ten, look at the ones digit:\n\n- If the ones digit is 0, 1, 2, 3 or 4, round down. Keep the tens digit and change the ones to 0. 63 becomes 60.\n- If the ones digit is 5, 6, 7, 8 or 9, round up. Add one to the tens digit and change the ones to 0. 67 becomes 70.\n\nThe same rule works for bigger numbers: 348 rounds to 350 and 712 rounds to 710. When the tens digit is 9 and you round up, the hundreds change too: 996 rounds to 1,000.",
+      "keyWords": [
+        { "word": "ascending order", "meaning": "from smallest to largest" },
+        { "word": "descending order", "meaning": "from largest to smallest" },
+        { "word": "round off", "meaning": "change a number to a close, simpler number" }
+      ],
+      "examples": [
+        { "problem": "Arrange 718, 781, 187 and 871 from smallest to largest.", "steps": ["Hundreds digits: 7, 7, 1, 8", "187 is smallest and 871 is largest.", "718 and 781 have the same hundreds; compare tens: 1 < 8"], "answer": "187, 718, 781, 871", "check": "187 < 718 && 718 < 781 && 781 < 871" },
+        { "problem": "Round off 574 to the nearest ten.", "steps": ["The ones digit is 4, which is less than 5.", "Round down: keep 7 tens and write 0 ones."], "answer": "570", "check": "Math.round(574/10)*10 === 570" },
+        { "problem": "Round off 835 to the nearest ten.", "steps": ["The ones digit is 5.", "Round up: 3 tens become 4 tens."], "answer": "840", "check": "Math.round(835/10)*10 === 840" }
+      ],
+      "activity": {
+        "title": "Number card line-up",
+        "materials": ["Number cards with numbers up to 1,000"],
+        "steps": [
+          "Each learner in a group picks one number card.",
+          "Stand in a line from the smallest number to the largest.",
+          "Now turn around and stand from the largest to the smallest.",
+          "Each learner rounds off their number to the nearest ten and tells the group."
+        ]
+      },
+      "practice": [
+        { "question": "Arrange 609, 690, 96 and 960 from largest to smallest.", "answer": "960, 690, 609, 96", "check": "960 > 690 && 690 > 609 && 609 > 96" },
+        { "question": "Round off 243 to the nearest ten.", "answer": "240", "check": "Math.round(243/10)*10 === 240" },
+        { "question": "Round off 468 to the nearest ten.", "answer": "470", "check": "Math.round(468/10)*10 === 470" },
+        { "question": "Round off 995 to the nearest ten.", "answer": "1,000", "check": "Math.round(995/10)*10 === 1000" }
+      ],
+      "summary": [
+        "Compare digits from the left to order numbers.",
+        "Ones digit 0–4: round down. Ones digit 5–9: round up."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Factors and multiples",
+      "outcomes": ["f", "g"],
+      "objectives": [
+        "Identify the factors of numbers up to 50.",
+        "Identify the multiples of numbers up to 100."
+      ],
+      "intro": "A teacher has 12 books to share equally between groups with no book left over. She can make 1, 2, 3, 4, 6 or 12 groups. These numbers are the factors of 12.",
+      "notes": "### Factors\nA factor of a number is a number that divides it exactly, with no remainder. Factors are also called divisors.\n\nTo find all the factors of a number, look for pairs of numbers that multiply to give it. For 18:\n\n- 1 × 18 = 18\n- 2 × 9 = 18\n- 3 × 6 = 18\n\nSo the factors of 18 are 1, 2, 3, 6, 9 and 18. Stop when the pairs start to repeat.\n\nEvery number has 1 and itself as factors. A number like 7 has only these two factors.\n\n### Multiples\nA multiple of a number is what you get when you multiply it by 1, 2, 3, 4 and so on. Multiples are the numbers in its multiplication table.\n\nMultiples of 4 up to 40: 4, 8, 12, 16, 20, 24, 28, 32, 36, 40.\n\nMultiples of 9 up to 100: 9, 18, 27, 36, 45, 54, 63, 72, 81, 90, 99.\n\nA number has a limited number of factors, but its multiples go on and on. Factors are equal to or smaller than the number; multiples are equal to or bigger than the number.\n\n### Connecting the two\nIf 5 is a factor of 30, then 30 is a multiple of 5, because 5 × 6 = 30.",
+      "keyWords": [
+        { "word": "factor", "meaning": "a number that divides another number exactly" },
+        { "word": "divisor", "meaning": "another name for a factor" },
+        { "word": "multiple", "meaning": "the result of multiplying a number by a whole number" }
+      ],
+      "examples": [
+        { "problem": "List all the factors of 24.", "steps": ["1 × 24", "2 × 12", "3 × 8", "4 × 6"], "answer": "1, 2, 3, 4, 6, 8, 12, 24", "check": "24%1===0 && 24%2===0 && 24%3===0 && 24%4===0 && 24%6===0 && 24%8===0 && 24%12===0 && 24%24===0 && 24%5!==0 && 24%7!==0" },
+        { "problem": "Write the multiples of 7 between 20 and 50.", "steps": ["7 × 3 = 21", "7 × 4 = 28", "7 × 5 = 35", "7 × 6 = 42", "7 × 7 = 49"], "answer": "21, 28, 35, 42, 49", "check": "7*3===21 && 7*4===28 && 7*5===35 && 7*6===42 && 7*7===49" }
+      ],
+      "activity": {
+        "title": "Arrange counters in rows",
+        "materials": ["20 bottle tops or counters"],
+        "steps": [
+          "Take 20 counters and arrange them in equal rows in as many ways as you can.",
+          "Record each arrangement, for example 4 rows of 5.",
+          "List the factors of 20 from your arrangements.",
+          "Share your list with another group and check that nobody missed a factor."
+        ]
+      },
+      "practice": [
+        { "question": "List all the factors of 36.", "answer": "1, 2, 3, 4, 6, 9, 12, 18, 36", "check": "36%9===0 && 36%12===0 && 36%18===0 && 36%5!==0 && 36%8!==0" },
+        { "question": "Is 6 a factor of 45? Explain.", "answer": "No, because 45 ÷ 6 leaves a remainder of 3.", "check": "45%6 === 3" },
+        { "question": "Write the first five multiples of 8.", "answer": "8, 16, 24, 32, 40", "check": "8*5 === 40" },
+        { "question": "Which multiples of 12 are less than 100?", "answer": "12, 24, 36, 48, 60, 72, 84, 96", "check": "12*8 === 96 && 12*9 > 100" }
+      ],
+      "summary": [
+        "Factors divide a number exactly.",
+        "Multiples come from the multiplication table of a number.",
+        "1 and the number itself are always factors."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Even and odd numbers",
+      "outcomes": ["h", "i"],
+      "objectives": [
+        "Tell whether a number up to 100 is even or odd.",
+        "Make and continue patterns of even and odd numbers."
+      ],
+      "intro": "When pupils line up in pairs for assembly, sometimes one pupil is left without a partner. That happens when the number of pupils is odd.",
+      "notes": "### Even numbers\nAn even number can be shared into two equal groups with nothing left over. Even numbers can be divided exactly by 2. They always end in 0, 2, 4, 6 or 8.\n\nExamples: 14, 36, 50, 78, 100.\n\n### Odd numbers\nAn odd number leaves one left over when shared into two equal groups. Odd numbers end in 1, 3, 5, 7 or 9.\n\nExamples: 11, 23, 45, 67, 99.\n\nTo decide if a number is even or odd, you only need to look at its ones digit. 58 ends in 8, so it is even. 73 ends in 3, so it is odd.\n\n### Patterns\nEven and odd numbers take turns on a number line: 1 odd, 2 even, 3 odd, 4 even, and so on.\n\n- Counting in twos from 2 gives even numbers: 2, 4, 6, 8, 10 …\n- Counting in twos from 1 gives odd numbers: 1, 3, 5, 7, 9 …\n\nYou can also make patterns by adding: even + even = even, odd + odd = even, and even + odd = odd. For example 6 + 8 = 14 (even), 7 + 5 = 12 (even), 6 + 7 = 13 (odd).",
+      "keyWords": [
+        { "word": "even number", "meaning": "a number that can be divided exactly by 2" },
+        { "word": "odd number", "meaning": "a number that leaves a remainder of 1 when divided by 2" },
+        { "word": "pattern", "meaning": "numbers that follow a rule" }
+      ],
+      "examples": [
+        { "problem": "Sort these numbers into even and odd: 17, 40, 63, 88, 95.", "steps": ["Look at the ones digit of each number.", "0 and 8 are even endings; 7, 3 and 5 are odd endings."], "answer": "Even: 40, 88. Odd: 17, 63, 95.", "check": "40%2===0 && 88%2===0 && 17%2===1 && 63%2===1 && 95%2===1" },
+        { "problem": "Fill in the missing numbers: 51, 53, __, 57, __, 61.", "steps": ["The pattern adds 2 each time.", "53 + 2 = 55 and 57 + 2 = 59"], "answer": "55 and 59", "check": "53+2===55 && 57+2===59" }
+      ],
+      "activity": {
+        "title": "Even and odd number card pattern",
+        "materials": ["Number cards 1 to 30"],
+        "steps": [
+          "Spread the cards on the table.",
+          "Pick out all the even numbers and arrange them in order.",
+          "Pick out all the odd numbers and arrange them in order.",
+          "Make your own pattern that jumps by 4 starting from an even number, then one starting from an odd number. What do you notice?"
+        ]
+      },
+      "practice": [
+        { "question": "Is 76 even or odd?", "answer": "Even", "check": "76%2 === 0" },
+        { "question": "Write all the odd numbers between 40 and 50.", "answer": "41, 43, 45, 47, 49", "check": "41%2===1 && 49%2===1" },
+        { "question": "Continue the pattern: 80, 82, 84, __, __.", "answer": "86, 88", "check": "84+2===86 && 86+2===88" },
+        { "question": "Is 35 + 47 even or odd?", "answer": "Even (35 + 47 = 82)", "check": "(35+47)%2 === 0" }
+      ],
+      "summary": [
+        "Even numbers end in 0, 2, 4, 6 or 8.",
+        "Odd numbers end in 1, 3, 5, 7 or 9.",
+        "Counting in twos gives even or odd patterns."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Roman numerals up to X",
+      "outcomes": ["j", "k"],
+      "objectives": [
+        "Write the numbers 1 to 10 in Roman numerals.",
+        "Explain where whole numbers and Roman numerals are used in daily life."
+      ],
+      "intro": "Some clocks, book chapters and school class lists use letters such as IV or IX instead of 4 or 9. These are Roman numerals.",
+      "notes": "The numbers we use every day, 0 to 9, are called Hindu Arabic numerals. The Romans wrote numbers using letters. Up to ten, you only need three letters:\n\n- I = 1\n- V = 5\n- X = 10\n\n### Rules\n- When a letter is repeated, add: II = 1 + 1 = 2, III = 3.\n- A smaller letter after a bigger one is added: VI = 5 + 1 = 6, VII = 7, VIII = 8.\n- A smaller letter before a bigger one is subtracted: IV = 5 − 1 = 4, IX = 10 − 1 = 9.\n- A letter is not repeated more than three times in a row, which is why 4 is IV and not IIII.\n\n### Numbers 1 to 10\n1 = I, 2 = II, 3 = III, 4 = IV, 5 = V, 6 = VI, 7 = VII, 8 = VIII, 9 = IX, 10 = X\n\n### Whole numbers in real life\nWe use whole numbers every day: counting learners in class, reading prices in shillings, telling the time, reading house or plot numbers, keeping scores in games and following page numbers in books. Roman numerals are still found on some clock faces, on chapter headings and in names of kings and events. Being able to read both helps you understand information around you.",
+      "keyWords": [
+        { "word": "Hindu Arabic numerals", "meaning": "the digits 0 to 9 that we use to write numbers" },
+        { "word": "Roman numerals", "meaning": "letters such as I, V and X used by the Romans to write numbers" }
+      ],
+      "examples": [
+        { "problem": "Write 7 in Roman numerals.", "steps": ["7 = 5 + 2", "5 is V and 2 is II"], "answer": "VII", "check": "5 + 1 + 1 === 7" },
+        { "problem": "What number is IX?", "steps": ["I comes before X, so subtract.", "10 − 1"], "answer": "9", "check": "10 - 1 === 9" }
+      ],
+      "activity": {
+        "title": "Roman numeral clock",
+        "materials": ["Paper plate or manila paper", "Pencil and crayons"],
+        "steps": [
+          "Draw a clock face and write Roman numerals I to X in their places. Leave 11 and 12 as Hindu Arabic numerals.",
+          "Swap clocks with a partner and check each other's work using a number chart.",
+          "List three places at home or school where you see whole numbers used."
+        ]
+      },
+      "practice": [
+        { "question": "Write 4 in Roman numerals.", "answer": "IV", "check": "5 - 1 === 4" },
+        { "question": "Write 8 in Roman numerals.", "answer": "VIII", "check": "5 + 3 === 8" },
+        { "question": "What number is VI?", "answer": "6", "check": "5 + 1 === 6" },
+        { "question": "Name two places where we use whole numbers every day.", "answer": "Any two, for example prices in a shop, counting learners, page numbers, telling the time, scores in a game.", "check": null }
+      ],
+      "summary": [
+        "I = 1, V = 5, X = 10.",
+        "A smaller letter after a bigger one adds; before a bigger one subtracts.",
+        "Whole numbers help us count, buy, measure and keep time."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Place value when we build and change numbers",
+      "outcomes": ["a", "k"],
+      "objectives": [
+        "Build the largest and smallest numbers from a set of digits.",
+        "Show how moving a digit to a new place changes its total value."
+      ],
+      "intro": "The digits 3, 0, 8, 1 and 5 can be arranged in many ways. The place you give each digit decides whether the number is large or small, so place value is a decision, not only a name.",
+      "notes": "A digit's place decides how much it is worth. The same digit can mean very different amounts. In 4,275 the digit 4 stands for 4,000. In 2,475 the same digit stands for 400. Before you read, write or compare a number, name the place of every digit.\n\n### The largest and the smallest number\nYou can build different numbers from the same digits. Take 3, 0, 8, 1 and 5, and use each digit once. To make the largest number, put the biggest digit in the highest place and the next biggest in the next place: 85,310. To make the smallest five-digit number, put the smallest digit that is not zero first, then the remaining digits from smallest to largest: 10,358. You cannot start with 0. If you write 01,358, that zero is not really a tens-of-thousands digit, and the number is only 1,358.\n\n### Moving a digit changes the total value\nStart with 12,406. If the thousands digit changes from 2 to 7, the number becomes 17,406. It has grown by 5,000, because that digit went up by 5 thousands. If you swap the hundreds digit and the tens digit, 12,406 becomes 12,046. The number is smaller by 360. You moved 4 from the hundreds place, where it was worth 400, to the tens place, where it is worth 40.\n\n### Why the place matters in daily life\nPlace value stops mistakes with money, counts and measurements. Writing 5,280 when you mean 528 makes the amount ten times too big. When you copy a number onto a form, a receipt or a chart, check each digit against its place. Then add the total values. If they do not give the number back, a digit is in the wrong column. Whole numbers are useful only when every digit is in the place you intended.",
+      "keyWords": [
+        { "word": "expanded form", "meaning": "a number written as the sum of the total values of its digits" },
+        { "word": "leading zero", "meaning": "a zero at the start of a whole number, which does not change the value" }
+      ],
+      "examples": [
+        {
+          "problem": "Use the digits 3, 0, 8, 1 and 5 once each to make the largest number.",
+          "steps": ["Order the digits from largest to smallest.", "8, then 5, then 3, then 1, then 0."],
+          "answer": "85,310",
+          "check": "80000 + 5000 + 300 + 10 + 0 === 85310"
+        },
+        {
+          "problem": "Use the same digits to make the smallest five-digit number.",
+          "steps": ["The first digit cannot be 0.", "Start with 1, then use 0, 3, 5 and 8."],
+          "answer": "10,358",
+          "check": "10000 + 0 + 300 + 50 + 8 === 10358 && 10358 < 85310"
+        },
+        {
+          "problem": "12,406 becomes 17,406 when the thousands digit changes from 2 to 7. By how much has the number increased?",
+          "steps": ["The thousands digit increased by 5.", "5 × 1,000 = 5,000"],
+          "answer": "5,000",
+          "check": "17406 - 12406 === 5000"
+        }
+      ],
+      "activity": {
+        "title": "Digit cards, biggest and smallest",
+        "materials": ["Digit cards 0 to 9", "Place value chart with five columns"],
+        "steps": [
+          "In a group, shuffle the digit cards and deal five cards to one learner.",
+          "The learner builds the largest number and the smallest five-digit number on the place value chart.",
+          "The group works out the total value of each digit in the largest number and writes the number in expanded form.",
+          "Take turns until everyone has built both numbers, then discuss a time when writing a digit in the wrong place would cause a problem."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 130\" font-family=\"sans-serif\"><rect width=\"500\" height=\"130\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"2\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"480\" height=\"110\"/><line x1=\"106\" y1=\"10\" x2=\"106\" y2=\"120\"/><line x1=\"202\" y1=\"10\" x2=\"202\" y2=\"120\"/><line x1=\"298\" y1=\"10\" x2=\"298\" y2=\"120\"/><line x1=\"394\" y1=\"10\" x2=\"394\" y2=\"120\"/><line x1=\"10\" y1=\"55\" x2=\"490\" y2=\"55\"/></g><g font-size=\"12\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"58\" y=\"30\">Tens of</text><text x=\"58\" y=\"46\">thousands</text><text x=\"154\" y=\"38\">Thousands</text><text x=\"250\" y=\"38\">Hundreds</text><text x=\"346\" y=\"38\">Tens</text><text x=\"442\" y=\"38\">Ones</text></g><g font-size=\"32\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#166534\"><text x=\"58\" y=\"100\">8</text><text x=\"154\" y=\"100\">5</text><text x=\"250\" y=\"100\">3</text><text x=\"346\" y=\"100\">1</text><text x=\"442\" y=\"100\">0</text></g></svg>",
+        "caption": "85,310, the largest number from the digits 3, 0, 8, 1 and 5"
+      },
+      "practice": [
+        { "question": "Use 4, 7, 2, 0 and 9 once each to make the largest number.", "answer": "97,420", "check": "90000 + 7000 + 400 + 20 + 0 === 97420" },
+        { "question": "Use 4, 7, 2, 0 and 9 once each to make the smallest five-digit number.", "answer": "20,479", "check": "20000 + 0 + 400 + 70 + 9 === 20479" },
+        { "question": "What is the total value of 6 in 16,045, and in 10,645?", "answer": "6,000 in 16,045 and 600 in 10,645", "check": "6*1000 === 6000 && 6*100 === 600" },
+        { "question": "By how much is 12,406 bigger than 12,046?", "answer": "360", "check": "12406 - 12046 === 360" }
+      ],
+      "summary": [
+        "Put bigger digits in higher places to make a larger number.",
+        "A five-digit number cannot start with 0.",
+        "Moving a digit to a new place changes its total value."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Choosing factors, multiples and even numbers",
+      "outcomes": ["f", "g", "h", "i", "k"],
+      "objectives": [
+        "Decide whether a sharing or packing question needs factors, multiples, or even and odd numbers.",
+        "Continue a pattern that stays even or stays odd."
+      ],
+      "intro": "A class of 36 learners needs equal groups, complete packs of books, and partners for a game. Each question uses a different idea about whole numbers, so the first step is to decide which idea fits.",
+      "notes": "Factors, multiples, even numbers and odd numbers answer different questions. A factor tells you a way to share a number exactly. A multiple tells you a total made from equal groups. Even and odd tell you whether pairing will leave someone out.\n\n### Sharing with factors\nThe factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18 and 36. A class of 36 can stand in equal rows of 6, because 6 × 6 = 36. They cannot stand in equal rows of 5, because 36 ÷ 5 leaves a remainder of 1. When a question says \"share equally\" or \"equal groups with none left over\", list the factors.\n\n### Packing with multiples\nIf books are packed in bundles of 8, the totals you can make up to 100 are the multiples of 8: 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88 and 96. A pile of 50 books is not a multiple of 8, so it cannot be made of complete bundles only. When a question says \"complete packs\" or \"groups of the same size\", test whether the total is a multiple.\n\n### Patterns that stay even or odd\nEven numbers end in 0, 2, 4, 6 or 8. Odd numbers end in 1, 3, 5, 7 or 9. Adding an even number keeps a number even or odd, just as it was: 12 + 4 = 16 and 13 + 4 = 17. Adding an odd number switches even to odd and odd to even: 12 + 5 = 17 and 13 + 5 = 18. So the pattern 4, 8, 12, 16 stays even, and the pattern 5, 9, 13, 17 stays odd.\n\n### Whole numbers in real tasks\nBefore you calculate, name the question. Equal sharing needs factors. Equal packs need multiples. Pairing needs even and odd. A pattern needs the rule that joins one number to the next. Using the right idea makes whole numbers useful at home, in class and at the market.",
+      "keyWords": [
+        { "word": "equal groups", "meaning": "groups that have the same number of items, with none left over" },
+        { "word": "remainder", "meaning": "what is left over when a number does not divide exactly" }
+      ],
+      "examples": [
+        {
+          "problem": "Can 36 learners stand in equal rows of 5? Can they stand in equal rows of 6?",
+          "steps": ["36 ÷ 5 leaves remainder 1, so 5 is not a factor of 36.", "36 ÷ 6 = 6 exactly, so 6 is a factor."],
+          "answer": "Not in rows of 5. Yes, in 6 rows of 6.",
+          "check": "36 % 5 === 1 && 36 % 6 === 0 && 6 * 6 === 36"
+        },
+        {
+          "problem": "Which of 40, 48 and 50 can be made from complete bundles of 8?",
+          "steps": ["Test which numbers are multiples of 8.", "40 ÷ 8 = 5 and 48 ÷ 8 = 6. 50 ÷ 8 leaves a remainder."],
+          "answer": "40 and 48",
+          "check": "40 % 8 === 0 && 48 % 8 === 0 && 50 % 8 === 2"
+        },
+        {
+          "problem": "Continue the pattern and say whether the numbers stay even or odd: 5, 9, 13, 17, __, __.",
+          "steps": ["Each number is 4 more than the one before.", "17 + 4 = 21 and 21 + 4 = 25.", "Adding an even number to an odd number keeps the number odd."],
+          "answer": "21 and 25, and the pattern stays odd",
+          "check": "17 + 4 === 21 && 21 + 4 === 25 && 21 % 2 === 1 && 25 % 2 === 1"
+        }
+      ],
+      "activity": {
+        "title": "Which idea fits the task?",
+        "materials": ["20 counters", "Number cards up to 50", "Exercise book"],
+        "steps": [
+          "In a group, take 20 counters and find every way to arrange them in equal rows. List the factors of 20.",
+          "Write the multiples of 5 that are not more than 50, and circle the ones that are also even.",
+          "Make one even pattern and one odd pattern with number cards, each jumping by the same amount.",
+          "Share the patterns with another group and explain which question — sharing, packing or pairing — each list answers."
+        ]
+      },
+      "practice": [
+        { "question": "List all the factors of 20.", "answer": "1, 2, 4, 5, 10, 20", "check": "20%1===0 && 20%2===0 && 20%4===0 && 20%5===0 && 20%10===0 && 20%20===0 && 20%3!==0" },
+        { "question": "Is 42 a multiple of 7?", "answer": "Yes, because 7 × 6 = 42.", "check": "7 * 6 === 42" },
+        { "question": "Continue: 18, 22, 26, __, __.", "answer": "30 and 34, and the numbers stay even", "check": "26 + 4 === 30 && 30 + 4 === 34 && 30 % 2 === 0" },
+        { "question": "36 learners want partners so that nobody is left out. Is 36 even or odd, and will everyone have a partner?", "answer": "36 is even, so everyone can have a partner.", "check": "36 % 2 === 0" }
+      ],
+      "summary": [
+        "Use factors for equal sharing and multiples for complete packs.",
+        "Even numbers pair exactly; odd numbers leave one out.",
+        "Adding an even number keeps a pattern even or odd; adding an odd number switches it."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "What is the place value of 3 in 43,109?", "options": ["Hundreds", "Thousands", "Tens of thousands", "Tens"], "answer": "B", "explanation": "From the right: 9 ones, 0 tens, 1 hundreds, 3 thousands.", "outcome": "a", "check": null },
+    { "question": "What is the total value of 2 in 25,640?", "options": ["2,000", "200", "20,000", "20"], "answer": "C", "explanation": "2 is in the tens of thousands place: 2 × 10,000 = 20,000.", "outcome": "a", "check": "2*10000 === 20000" },
+    { "question": "Write 7,035 in words.", "answer": "Seven thousand and thirty-five", "explanation": "7 thousands, 0 hundreds, 3 tens, 5 ones.", "outcome": "b", "check": "7000 + 30 + 5 === 7035" },
+    { "question": "Which is the correct way to write 468 in words?", "options": ["Four hundred sixty eight", "Four hundred and sixty-eight", "Fourty hundred and sixty-eight", "Four and sixty-eight"], "answer": "B", "explanation": "Use and before the tens and a hyphen between sixty and eight.", "outcome": "c", "check": "400 + 60 + 8 === 468" },
+    { "question": "Arrange 350, 305, 530 and 503 from smallest to largest.", "answer": "305, 350, 503, 530", "explanation": "Compare hundreds first, then tens.", "outcome": "d", "check": "305 < 350 && 350 < 503 && 503 < 530" },
+    { "question": "Round off 786 to the nearest ten.", "options": ["780", "790", "800", "700"], "answer": "B", "explanation": "The ones digit 6 is 5 or more, so round up to 790.", "outcome": "e", "check": "Math.round(786/10)*10 === 790" },
+    { "question": "Which of these is NOT a factor of 30?", "options": ["5", "6", "8", "15"], "answer": "C", "explanation": "30 ÷ 8 leaves a remainder of 6.", "outcome": "f", "check": "30%8 === 6 && 30%5===0 && 30%6===0 && 30%15===0" },
+    { "question": "List all the factors of 16.", "answer": "1, 2, 4, 8, 16", "explanation": "1 × 16, 2 × 8, 4 × 4.", "outcome": "f", "check": "1*16===16 && 2*8===16 && 4*4===16 && 16%3!==0" },
+    { "question": "Which number is a multiple of 6?", "options": ["32", "44", "54", "62"], "answer": "C", "explanation": "6 × 9 = 54.", "outcome": "g", "check": "6*9 === 54" },
+    { "question": "Write the even numbers between 91 and 99.", "answer": "92, 94, 96, 98", "explanation": "Even numbers end in 0, 2, 4, 6 or 8.", "outcome": "h", "check": "92%2===0 && 98%2===0" },
+    { "question": "Continue the pattern of odd numbers: 21, 23, 25, __, __.", "answer": "27, 29", "explanation": "Add 2 each time.", "outcome": "i", "check": "25+2===27 && 27+2===29" },
+    { "question": "Which Roman numeral stands for 9?", "options": ["VIIII", "XI", "IX", "IIX"], "answer": "C", "explanation": "I before X means 10 − 1 = 9.", "outcome": "j", "check": "10 - 1 === 9" }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 1.0 Numbers, Sub-strand 1.1 Whole Numbers"
+  ]
+}

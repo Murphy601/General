@@ -1,0 +1,412 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "2.7",
+  "title": "Money",
+  "overview": "Kenyan money is counted in shillings and cents. In this sub-strand you will change shillings into cents and cents into shillings, make a shopping list of three items, and find the total cost when it is not more than ten thousand shillings.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Shillings and cents",
+      "outcomes": ["a"],
+      "objectives": [
+        "State that 1 shilling equals 100 cents.",
+        "Read an amount written in shillings and cents."
+      ],
+      "intro": "Coins and notes are used to buy food, books and other goods. The unit is the shilling. Each shilling is made of 100 cents, in the same way that each metre is made of 100 centimetres.",
+      "notes": "We count money in shillings. The short way to write shillings is Sh. Cents are the smaller unit.\n\n1 shilling = 100 cents\n\nAn amount can be written in two parts: the shillings, then the cents. Five shillings and forty cents means 5 whole shillings and 40 cents out of the next shilling. There are not 40 shillings in that amount.\n\n### Reading the two parts\n- 8 shillings 5 cents is 8 whole shillings and 5 extra cents.\n- 12 shillings 75 cents is 12 whole shillings and 75 extra cents.\n- 20 shillings and no cents is just 20 shillings. You can think of the cents as 00.\n\nThe cents part is never 100 or more in a finished amount. If you have 100 cents, that is another 1 shilling. If you have 140 cents, that is 1 shilling and 40 cents.\n\n### Why both units are used\nA price may be a whole number of shillings, such as 50 shillings. A smaller amount, or a remainder after you change a note, may include cents. Knowing that 100 cents make 1 shilling lets you combine the two units instead of treating cents as if they were shillings.\n\nImitation coins and notes are useful for practice in class. They must stay in the class shop and must not be mixed with real money at home. Real coins and notes should be counted over a table so that they do not roll away.",
+      "keyWords": [
+        { "word": "shilling", "meaning": "the unit of Kenyan money" },
+        { "word": "cent", "meaning": "a small unit of money; 100 cents make 1 shilling" }
+      ],
+      "examples": [
+        {
+          "problem": "How many cents make 1 shilling?",
+          "steps": ["The relationship is 1 shilling = 100 cents."],
+          "answer": "100 cents",
+          "check": "100 === 100"
+        },
+        {
+          "problem": "A learner has 140 cents. How many shillings and cents is that?",
+          "steps": ["100 cents make 1 shilling.", "140 − 100 = 40 cents left."],
+          "answer": "1 shilling 40 cents",
+          "check": "1 * 100 + 40 === 140"
+        }
+      ],
+      "activity": {
+        "title": "Count shillings and cents",
+        "materials": ["Real or imitation coins and notes", "A table", "Exercise book"],
+        "steps": [
+          "In a group, sort the money into shillings and, if you have them, cents.",
+          "Write 1 shilling = 100 cents and show 100 cent pieces, or a drawing of them, next to one shilling.",
+          "One person calls an amount such as 3 shillings 25 cents. The partner says how many whole shillings and how many extra cents.",
+          "Change 250 cents into shillings and cents by grouping hundreds.",
+          "Put every coin and note back in the class box. Do not take imitation money home."
+        ]
+      },
+      "practice": [
+        { "question": "How many cents are equal to 1 shilling?", "answer": "100 cents", "check": "1 * 100 === 100" },
+        { "question": "Write 2 shillings 15 cents as a number of whole shillings and a number of extra cents.", "answer": "2 shillings and 15 cents", "check": "2 * 100 + 15 === 215" },
+        { "question": "200 cents make how many shillings?", "answer": "2 shillings", "check": "200 / 100 === 2" }
+      ],
+      "summary": [
+        "1 shilling = 100 cents.",
+        "A finished amount does not leave 100 or more in the cents.",
+        "100 cents are regrouped as 1 shilling."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Converting shillings and cents",
+      "outcomes": ["a"],
+      "objectives": [
+        "Convert shillings and cents into cents only.",
+        "Convert cents into shillings and cents."
+      ],
+      "intro": "Sometimes a price is written as 1,250 cents, and sometimes as 12 shillings 50 cents. Both describe the same amount of money. Converting means changing from one way of writing it to the other.",
+      "notes": "### Shillings to cents\nMultiply the shillings by 100, then add the extra cents.\n\n- 7 shillings = 7 × 100 = 700 cents\n- 15 shillings = 1,500 cents\n- 3 shillings 25 cents = 300 + 25 = 325 cents\n- 8 shillings 5 cents = 800 + 5 = 805 cents\n\nDo not write 8 shillings 5 cents as 85 cents. The 5 cents are added after the 8 shillings have been changed.\n\n### Cents to shillings\nDivide the cents by 100. The quotient is the shillings. The remainder is the cents left over.\n\n- 450 ÷ 100 = 4 shillings remainder 50, so 4 shillings 50 cents.\n- 1,375 ÷ 100 = 13 shillings remainder 75, so 13 shillings 75 cents.\n- 2,500 ÷ 100 = 25 shillings exactly.\n\nA remainder of 0 means there are no extra cents.\n\n### A check\nChange the answer back. If 1,375 cents is 13 shillings 75 cents, then 13 × 100 + 75 must equal 1,375.\n\nUse real or imitation money to check a small amount. Ten coins of 1 shilling should match 1,000 cents. Counting the coins and doing the multiplication should agree.",
+      "keyWords": [
+        { "word": "convert", "meaning": "to change an amount from shillings to cents, or from cents to shillings" },
+        { "word": "remainder", "meaning": "the cents left over after the whole shillings have been grouped" }
+      ],
+      "examples": [
+        {
+          "problem": "Convert 3 shillings 25 cents into cents.",
+          "steps": ["3 × 100 = 300 cents.", "300 + 25 = 325 cents."],
+          "answer": "325 cents",
+          "check": "3 * 100 + 25 === 325"
+        },
+        {
+          "problem": "Convert 1,375 cents into shillings and cents.",
+          "steps": ["1,375 ÷ 100 = 13 shillings, remainder 75.", "13 × 100 = 1,300, and 1,375 − 1,300 = 75."],
+          "answer": "13 shillings 75 cents",
+          "check": "13 * 100 + 75 === 1375"
+        },
+        {
+          "problem": "Convert 20 shillings 50 cents into cents.",
+          "steps": ["20 × 100 = 2,000.", "2,000 + 50 = 2,050."],
+          "answer": "2,050 cents",
+          "check": "20 * 100 + 50 === 2050"
+        }
+      ],
+      "activity": {
+        "title": "Change it both ways",
+        "materials": ["Imitation or real coins and notes", "Exercise book"],
+        "steps": [
+          "Discuss with your group why 1 shilling equals 100 cents. Show it with coins if you have cent coins, or with a hundred-square drawing.",
+          "Convert 6 shillings, 9 shillings 20 cents and 12 shillings 5 cents into cents.",
+          "A partner converts 800 cents, 1,250 cents and 2,040 cents back into shillings and cents.",
+          "Check each conversion by reversing it.",
+          "Count the money back into the box before you leave the table."
+        ]
+      },
+      "practice": [
+        { "question": "Convert 15 shillings into cents.", "answer": "1,500 cents", "check": "15 * 100 === 1500" },
+        { "question": "Convert 8 shillings 5 cents into cents.", "answer": "805 cents", "check": "8 * 100 + 5 === 805" },
+        { "question": "Convert 450 cents into shillings and cents.", "answer": "4 shillings 50 cents", "check": "4 * 100 + 50 === 450" },
+        { "question": "Convert 2,500 cents into shillings.", "answer": "25 shillings", "check": "2500 / 100 === 25" }
+      ],
+      "summary": [
+        "Shillings to cents: multiply by 100 and add any extra cents.",
+        "Cents to shillings: divide by 100. The remainder is the cents.",
+        "Check by converting the answer back."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "A shopping list of three items",
+      "outcomes": ["b"],
+      "objectives": [
+        "Prepare a shopping list with three items, their quantities and their prices.",
+        "Explain why the list is written before going to the shop."
+      ],
+      "intro": "Walking into a shop without a plan makes it easy to forget the salt and easy to buy something you do not need. A shopping list is the plan. At this level the list has three items.",
+      "notes": "A useful shopping list has four facts for each item:\n\n- the name of the item,\n- the quantity, such as 1 packet or 2 kg,\n- the price of one,\n- the cost of that quantity.\n\nIf the quantity is more than one, multiply. Two packets at 120 shillings each cost 2 × 120 = 240 shillings.\n\n### A list of three food items\nThe prices below are the prices in this exercise. Shop prices change, so a real list uses the prices in the shop you are going to.\n\n- Maize flour: 2 packets at 180 shillings. Cost = 360 shillings.\n- Beans: 1 kg at 160 shillings. Cost = 160 shillings.\n- Cooking oil: 1 bottle at 240 shillings. Cost = 240 shillings.\n\nThere are exactly three items. Adding a fourth would no longer match the task. Leaving out the quantity makes the cost unclear, because 180 shillings might be for one packet or for two.\n\n### Why write the list first\nThe list reminds you what to buy. It shows the cost of each line before you spend. It helps you leave out things the household already has. It also gives the shopkeeper and the buyer the same information, so you can both check the goods.\n\nWrite neatly. A quantity that looks like 1 when you meant 2 will double the mistake when you find the total in the next lesson.",
+      "keyWords": [
+        { "word": "shopping list", "meaning": "a written plan of the items to buy, with quantity and price" },
+        { "word": "quantity", "meaning": "how many, or how much, of an item you will buy" },
+        { "word": "price", "meaning": "the cost of one item" }
+      ],
+      "examples": [
+        {
+          "problem": "A list has 2 packets of maize flour at 180 shillings each. What is the cost of the maize flour?",
+          "steps": ["Multiply quantity by price.", "2 × 180 = 360."],
+          "answer": "360 shillings",
+          "check": "2 * 180 === 360"
+        },
+        {
+          "problem": "Beans cost 160 shillings for 1 kg and cooking oil costs 240 shillings for 1 bottle. What is the cost of these two lines before the maize flour is added?",
+          "steps": ["1 × 160 = 160.", "1 × 240 = 240.", "160 + 240 = 400."],
+          "answer": "400 shillings",
+          "check": "160 + 240 === 400"
+        }
+      ],
+      "activity": {
+        "title": "Write the list",
+        "materials": ["Exercise book", "Pictures or empty packets of food", "Imitation money"],
+        "steps": [
+          "In a group, choose exactly three food items a household might need.",
+          "Agree a quantity and a price for each item. Write them in a table: item, quantity, price, cost.",
+          "Work out the cost of each line. Do not add the total yet if another group will check your line costs first.",
+          "Swap lists. Check that there are three items and that each line cost equals quantity times price.",
+          "Talk about one item you would remove from a list if it was already at home."
+        ]
+      },
+      "practice": [
+        { "question": "Rice costs 210 shillings a packet. What is the cost of 3 packets?", "answer": "630 shillings", "check": "3 * 210 === 630" },
+        { "question": "How many items should the shopping list in this sub-strand contain?", "answer": "Three items", "check": "1 + 1 + 1 === 3" },
+        { "question": "Sugar is 130 shillings for 1 packet and tea is 90 shillings for 1 packet. What is the cost of these two lines?", "answer": "220 shillings", "check": "130 + 90 === 220" },
+        { "question": "Why is the quantity written on a shopping list?", "answer": "So that you know how many to buy and can multiply to find the cost of that line.", "check": null }
+      ],
+      "summary": [
+        "A shopping list of three items shows the name, quantity, price and line cost.",
+        "Line cost = quantity × price.",
+        "The list is written before shopping so that nothing needed is forgotten and extra items are left out."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "The total cost of the list",
+      "outcomes": ["c"],
+      "objectives": [
+        "Add the costs of three items to find the total.",
+        "Work with totals that are not more than 10,000 shillings.",
+        "Check the total by adding in a different order."
+      ],
+      "intro": "Each line on a shopping list has its own cost. The total cost is those line costs added together. You need the total before you know whether the money you are carrying is enough.",
+      "notes": "Add the three line costs in a column. Line up the ones, tens, hundreds and thousands. Start at the ones and carry when a column is 10 or more.\n\n### A small list\nMaize flour 360 shillings, beans 160 shillings and cooking oil 240 shillings.\n\n360 + 160 = 520. Then 520 + 240 = 760. The total is 760 shillings.\n\nCheck by adding in another order: 240 + 160 + 360. The ones are 0 + 0 + 0. The tens are 4 + 6 + 6 = 16, write 6 carry 1. The hundreds are 2 + 1 + 3 + 1 = 7. You get 760 again.\n\n### A larger list, still within ten thousand\nThe outcome asks you to work with a value not more than ten thousand shillings. These prices are for practice:\n\n- Rice: 3,200 shillings\n- Maize: 2,800 shillings\n- Beans: 2,400 shillings\n\n3,200 + 2,800 = 6,000. Then 6,000 + 2,400 = 8,400. The total is 8,400 shillings, which is less than 10,000 shillings.\n\nAnother list: 4,200 + 3,100 + 2,500. First, 4,200 + 3,100 = 7,300. Then 7,300 + 2,500 = 9,800. That total is also not more than 10,000.\n\nIf a total goes over 10,000 shillings, the list is too big for this task. Reduce a quantity and add again.\n\nWrite shillings in the answer. A total without a unit could be mistaken for cents.",
+      "keyWords": [
+        { "word": "total cost", "meaning": "the sum of the costs of all the items on the list" },
+        { "word": "ten thousand shillings", "meaning": "the largest total used for these shopping lists; 10,000 shillings" }
+      ],
+      "examples": [
+        {
+          "problem": "Add 360 shillings, 160 shillings and 240 shillings.",
+          "steps": ["360 + 160 = 520.", "520 + 240 = 760."],
+          "answer": "760 shillings",
+          "check": "360 + 160 + 240 === 760"
+        },
+        {
+          "problem": "A list costs 3,200 shillings, 2,800 shillings and 2,400 shillings. Find the total and say whether it is more than 10,000 shillings.",
+          "steps": ["3,200 + 2,800 = 6,000.", "6,000 + 2,400 = 8,400.", "8,400 is less than 10,000."],
+          "answer": "8,400 shillings, which is not more than 10,000 shillings",
+          "check": "3200 + 2800 + 2400 === 8400"
+        },
+        {
+          "problem": "Find the total of 4,200 shillings, 3,100 shillings and 2,500 shillings.",
+          "steps": ["4,200 + 3,100 = 7,300.", "7,300 + 2,500 = 9,800."],
+          "answer": "9,800 shillings",
+          "check": "4200 + 3100 + 2500 === 9800"
+        }
+      ],
+      "activity": {
+        "title": "Add the three costs",
+        "materials": ["The shopping list from the previous activity", "Exercise book"],
+        "steps": [
+          "Add the three line costs on your group's list.",
+          "A second person adds them in a different order. The totals must match.",
+          "If you were asked to use prices under ten thousand altogether, check that the total is 10,000 shillings or less.",
+          "Make one new list whose prices are 1,850 shillings, 2,460 shillings and 3,790 shillings. Find the total.",
+          "Explain how you would change the list if the total were above 10,000 shillings."
+        ]
+      },
+      "practice": [
+        { "question": "Add 220 shillings, 180 shillings and 410 shillings.", "answer": "810 shillings", "check": "220 + 180 + 410 === 810" },
+        { "question": "Add 2,400 shillings, 1,350 shillings and 980 shillings.", "answer": "4,730 shillings", "check": "2400 + 1350 + 980 === 4730" },
+        { "question": "Add 1,850 shillings, 2,460 shillings and 3,790 shillings.", "answer": "8,100 shillings", "check": "1850 + 2460 + 3790 === 8100" },
+        { "question": "Is 9,800 shillings more than 10,000 shillings?", "answer": "No. 9,800 is less than 10,000.", "check": "9800 < 10000" }
+      ],
+      "summary": [
+        "The total cost is the sum of the three line costs.",
+        "Add in columns and check by adding in another order.",
+        "In this work the total is not more than 10,000 shillings."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Buying in a model shop",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Role-play a buyer and a shopkeeper using a list of three items.",
+        "Find the change by subtracting the total cost from the money paid."
+      ],
+      "intro": "In a class shop, one learner is the buyer and one is the shopkeeper. The buyer reads the list. The shopkeeper adds the cost. Then both of them work out the change.",
+      "notes": "Change is the money returned to the buyer when the money offered is more than the total cost.\n\nChange = money paid − total cost.\n\nCheck by adding: change + total cost = money paid.\n\n### A small purchase\nThe list totals 865 shillings. The buyer pays with a 1,000 shilling note.\n\n1,000 − 865 = 135. The change is 135 shillings.\n\nCheck: 865 + 135 = 1,000.\n\n### A larger purchase\nA list totals 6,480 shillings. The buyer hands over 7,000 shillings.\n\n7,000 − 6,480 = 520. The change is 520 shillings.\n\nCheck: 6,480 + 520 = 7,000.\n\nIf the list totals 9,250 shillings and the buyer pays 10,000 shillings, the change is 10,000 − 9,250 = 750 shillings. The goods stay within the ten-thousand limit.\n\n### In the role-play\nThe shopkeeper should show the addition. The buyer should count the change before leaving the table. If the change is short, add again before anyone says the sale is finished. Imitation money stays in the shop. If a phone is used to record the role-play, the teacher decides, and the phone is returned afterwards.\n\nCounting the change is part of using money carefully. A correct total and a correct change mean the buyer pays only for the three items on the list.",
+      "keyWords": [
+        { "word": "change", "meaning": "the money given back when you pay more than the total cost" },
+        { "word": "shopkeeper", "meaning": "the person who sells the items and works out the bill" }
+      ],
+      "examples": [
+        {
+          "problem": "A list totals 865 shillings. The buyer pays 1,000 shillings. How much change is due?",
+          "steps": ["1,000 − 865 = 135.", "Check: 865 + 135 = 1,000."],
+          "answer": "135 shillings",
+          "check": "1000 - 865 === 135"
+        },
+        {
+          "problem": "A list totals 6,480 shillings and the buyer pays 7,000 shillings. Find the change.",
+          "steps": ["7,000 − 6,480 = 520."],
+          "answer": "520 shillings",
+          "check": "7000 - 6480 === 520"
+        },
+        {
+          "problem": "Goods cost 9,250 shillings and the buyer pays 10,000 shillings. What is the change?",
+          "steps": ["10,000 − 9,250 = 750.", "Check: 9,250 + 750 = 10,000."],
+          "answer": "750 shillings",
+          "check": "10000 - 9250 === 750"
+        }
+      ],
+      "activity": {
+        "title": "Class shop",
+        "materials": ["A table set up as a shop", "Three food packets or pictures", "Imitation money", "Price labels", "A phone only if the teacher allows a short recording"],
+        "steps": [
+          "Set out exactly three items with prices. Prepare a shopping list for them.",
+          "The buyer asks for the three items. The shopkeeper writes the total.",
+          "The buyer pays with imitation money that is more than the total. Both work out the change.",
+          "The buyer checks by adding the change to the total.",
+          "Swap roles. If a video is taken, film only classmates who have agreed, then give the phone back to the teacher."
+        ]
+      },
+      "practice": [
+        { "question": "The total is 735 shillings and the buyer pays 1,000 shillings. What is the change?", "answer": "265 shillings", "check": "1000 - 735 === 265" },
+        { "question": "The total is 8,400 shillings and the buyer pays 10,000 shillings. What is the change?", "answer": "1,600 shillings", "check": "10000 - 8400 === 1600" },
+        { "question": "Change of 135 shillings was given on a bill of 865 shillings. How much had the buyer paid?", "answer": "1,000 shillings", "check": "865 + 135 === 1000" },
+        { "question": "Why should the buyer count the change before leaving the shop?", "answer": "To check that the change plus the total equals the money that was paid.", "check": null }
+      ],
+      "summary": [
+        "Change = money paid − total cost.",
+        "Check by adding the change to the total.",
+        "Both the buyer and the shopkeeper should see the working."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Using money carefully",
+      "outcomes": ["d"],
+      "objectives": [
+        "Give reasons for preparing a shopping list.",
+        "Check a bill of three items before paying."
+      ],
+      "intro": "Money is earned by work. A shopping list and a checked total help a family spend it on what is needed, and only on the amount that was agreed.",
+      "notes": "A list is worth writing even for three items.\n\n- You remember what you came to buy.\n- You can leave out food that is already at home.\n- You know the total before you leave the house, so you carry enough money and not a large extra amount.\n- You can compare the shopkeeper's bill with your own addition.\n\n### Checking a bill\nSuppose your list is:\n\n- 2 kg of rice at 150 shillings a kilogram: 300 shillings\n- 1 packet of sugar at 180 shillings: 180 shillings\n- 1 bottle of oil at 420 shillings: 420 shillings\n\nYour total is 300 + 180 + 420 = 900 shillings.\n\nIf the bill says 990 shillings, add the lines again before you pay. 900 and 990 are not the same. A careful buyer asks which line was added twice. Paying the wrong total wastes money that could buy another needed item later.\n\n### Staying within what you have\nIf you have 1,000 shillings and the honest total is 900 shillings, you can pay and take 100 shillings change. If a fourth item would push the cost above what you have, it stays off this list. The task itself stops at three items and at ten thousand shillings, which keeps the addition at Grade 4 size.\n\nKeeping imitation money in the class box, and keeping real money in a safe place, is part of respecting what it can buy. Converting cents and shillings correctly matters too: 50 cents is not 50 shillings.",
+      "keyWords": [
+        { "word": "bill", "meaning": "the shopkeeper's record of items and the total to be paid" },
+        { "word": "need", "meaning": "something the household must buy, as opposed to an extra item" }
+      ],
+      "examples": [
+        {
+          "problem": "Rice costs 300 shillings, sugar 180 shillings and oil 420 shillings. What is the total?",
+          "steps": ["300 + 180 = 480.", "480 + 420 = 900."],
+          "answer": "900 shillings",
+          "check": "300 + 180 + 420 === 900"
+        },
+        {
+          "problem": "You have 1,000 shillings and the total is 900 shillings. How much will you have left after paying?",
+          "steps": ["1,000 − 900 = 100."],
+          "answer": "100 shillings",
+          "check": "1000 - 900 === 100"
+        }
+      ],
+      "activity": {
+        "title": "Check the bill",
+        "materials": ["Two copies of a three-item list", "Imitation money", "Exercise book"],
+        "steps": [
+          "One pair writes a correct total for three food items. The other pair copies the list but changes the total.",
+          "Swap papers. Find whether the total matches the three line costs.",
+          "Pay the correct total with imitation money and count the change.",
+          "Give one reason a family should write a shopping list before going to the market.",
+          "Return the imitation money and talk about where real money should be kept at home."
+        ]
+      },
+      "practice": [
+        { "question": "Items cost 450 shillings, 275 shillings and 125 shillings. What is the total?", "answer": "850 shillings", "check": "450 + 275 + 125 === 850" },
+        { "question": "You have 2,000 shillings. The bill is 1,650 shillings. How much remains?", "answer": "350 shillings", "check": "2000 - 1650 === 350" },
+        { "question": "A bill shows 990 shillings, but the three items add to 900 shillings. What should the buyer do?", "answer": "Add the three items again and ask about the difference before paying.", "check": "990 - 900 === 90" },
+        { "question": "Give one reason for writing a shopping list.", "answer": "It helps you buy what is needed, remember every item and know the cost before you pay.", "check": null }
+      ],
+      "summary": [
+        "A shopping list shows what is needed and what it should cost.",
+        "Check the shopkeeper's total against your own addition.",
+        "Change is what remains after the correct total is paid."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How many cents make 1 shilling?",
+      "options": ["10", "50", "100", "1,000"],
+      "answer": "C",
+      "explanation": "1 shilling = 100 cents.",
+      "outcome": "a",
+      "check": "1 * 100 === 100"
+    },
+    {
+      "question": "Convert 7 shillings into cents.",
+      "answer": "700 cents",
+      "explanation": "7 × 100 = 700.",
+      "outcome": "a",
+      "check": "7 * 100 === 700"
+    },
+    {
+      "question": "Convert 8 shillings 5 cents into cents.",
+      "options": ["85 cents", "805 cents", "850 cents", "580 cents"],
+      "answer": "B",
+      "explanation": "8 × 100 = 800, then 800 + 5 = 805 cents.",
+      "outcome": "a",
+      "check": "8 * 100 + 5 === 805"
+    },
+    {
+      "question": "Convert 1,375 cents into shillings and cents.",
+      "answer": "13 shillings 75 cents",
+      "explanation": "13 × 100 = 1,300, and 75 cents remain.",
+      "outcome": "a",
+      "check": "13 * 100 + 75 === 1375"
+    },
+    {
+      "question": "Two packets cost 180 shillings each. What is the line cost?",
+      "answer": "360 shillings",
+      "explanation": "2 × 180 = 360.",
+      "outcome": "b",
+      "check": "2 * 180 === 360"
+    },
+    {
+      "question": "How many items are on the shopping list in this sub-strand?",
+      "options": ["Two", "Three", "Ten", "One hundred"],
+      "answer": "B",
+      "explanation": "The list has three items.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Add 360 shillings, 160 shillings and 240 shillings.",
+      "answer": "760 shillings",
+      "explanation": "360 + 160 + 240 = 760.",
+      "outcome": "c",
+      "check": "360 + 160 + 240 === 760"
+    },
+    {
+      "question": "What is the total of 3,200 shillings, 2,800 shillings and 2,400 shillings?",
+      "options": ["8,400 shillings", "7,400 shillings", "10,400 shillings", "8,200 shillings"],
+      "answer": "A",
+      "explanation": "3,200 + 2,800 + 2,400 = 8,400, which is not more than 10,000.",
+      "outcome": "c",
+      "check": "3200 + 2800 + 2400 === 8400"
+    },
+    {
+      "question": "A bill is 865 shillings and the buyer pays 1,000 shillings. What is the change?",
+      "answer": "135 shillings",
+      "explanation": "1,000 − 865 = 135. Check: 865 + 135 = 1,000.",
+      "outcome": "c",
+      "check": "1000 - 865 === 135"
+    },
+    {
+      "question": "Why should a buyer write a shopping list before going to the shop?",
+      "answer": "To remember the items that are needed and to know the cost before paying.",
+      "explanation": "The list also helps the buyer leave out items that are not needed.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 2.0 Measurement, Sub-strand 2.7 Money"
+  ]
+}

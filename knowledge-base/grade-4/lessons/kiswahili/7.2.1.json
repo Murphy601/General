@@ -1,0 +1,183 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "7.2.1",
+  "title": "Kusoma: Kusoma kwa Mapana (Matini)",
+  "overview": "Kusoma kwa mapana ni kuchagua wewe mwenyewe matini unayopenda na kuyasoma ili kujifurahisha na kukuza lugha. Utatambua vitabu, majarida na magazeti kuhusu matunda na mimea, utayasoma kwa makini, kisha uwasimulie wenzako ujumbe na maneno mapya uliyopata.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kutambua na kuchagua matini yanayovutia",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutaja aina za matini zinazosomwa kwa mapana.",
+        "Kuchagua matini inayomvutia kuhusu matunda na mimea.",
+        "Kutoa sababu ya chaguo lake."
+      ],
+      "intro": "Maktaba ya shule ina vitabu vya hadithi, majarida yenye picha za matunda, na magazeti yenye makala fupi. Hauhitaji kusoma vyote leo. Unachagua kinachokuvutia na unachoweza kukimaliza.",
+      "notes": "### Kusoma kwa mapana ni nini?\nKusoma kwa mapana ni kusoma matini mengi unayojichagulia, si tu kifungu cha zoezi la darasa. Lengo ni kujifurahisha, kupata ujumbe na kukuza msamiati. Unasoma kwa utulivu, ukirudiwa neno gumu hadi lieleweke.\n\n### Aina za matini\n- **Kitabu** kina hadithi ndefu au maelezo kuhusu mada moja, kwa mfano kitabu cha upandaji wa miti.\n- **Jarida** hutoka mara kwa mara na huwa na makala mafupi, picha na maelezo. Jarida la kilimo linaweza kuonyesha miche na matunda.\n- **Gazeti** lina habari na makala. Makala ya gazeti kuhusu kuosha matunda kabla ya kula inafaa kwa usomaji wa mapana.\n- **Matini ya mtandaoni**, ukiongozwa na mwalimu, yanaweza kuwa makala fupi unayosoma kwenye tarakilishi. Chagua ukurasa unaoeleweka na usibofye viungo vya wageni.\n\n### Jinsi ya kuchagua\nJiulize maswali haya kabla ya kukopa au kufungua matini:\n- Je, mada inanivutia? Mimea, matunda, shamba la shule au hadithi ya mtoto anayepanda mti ni mada zinazofaa katika mada hii.\n- Je, lugha ni ya kiwango changu? Ukisoma aya ya kwanza na kuelewa mengi, matini hiyo inakufaa.\n- Je, ninaweza kuimaliza kwa muda niliokubaliwa na mwalimu?\n- Je, picha na vichwa vinanisaidia kuelewa?\n\nChaguo zuri si kitabu kirefu zaidi. Ni kile utakachosoma kweli. Andika jina la matini, mwandishi ikiwa ameandikwa, na sababu ya kuchagua. Kwa mfano: \"Nimechagua jarida la kilimo kwa sababu lina picha za maembe na maelezo mafupi ya kumwagilia.\"",
+      "keyWords": [
+        { "word": "kusoma kwa mapana", "meaning": "kusoma matini unayojichagulia ili kujifurahisha na kukuza lugha" },
+        { "word": "matini", "meaning": "kitu kilichoandikwa unachosoma, kama kitabu, jarida au gazeti" },
+        { "word": "jarida", "meaning": "chapisho linalotoka mara kwa mara lenye makala na picha" },
+        { "word": "gazeti", "meaning": "chapisho la habari na makala" }
+      ],
+      "examples": [
+        {
+          "problem": "Amina anataka kusoma kuhusu utunzaji wa miche. Aina gani ya matini anayoweza kuchagua maktabani?",
+          "steps": ["Taja matini yanayopatikana maktabani.", "Chagua lile linaloweza kuwa na mada ya miche."],
+          "answer": "Anaweza kuchagua kitabu, jarida au gazeti lenye maelezo ya utunzaji wa miche.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini kitabu kigumu sana si chaguo zuri la kusoma kwa mapana?",
+          "steps": ["Kumbuka lengo ni kujifurahisha na kuelewa.", "Kama huelewi aya ya kwanza, hutafaidi ujumbe."],
+          "answer": "Kwa sababu asipoelewa lugha, hawezi kufurahia wala kufaidi ujumbe.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Soko la matini maktabani",
+        "materials": ["Vitabu, majarida na magazeti", "Kadi ya kuchagua matini", "Tarakilishi panapopatikana"],
+        "steps": [
+          "Tembelea maktaba ya shule au kona ya vitabu darasani. Kama mtandao unapatikana, mwalimu aonyeshe kurasa chache zinazofaa umri wenu.",
+          "Kila mwanafunzi achunguze angalau matini matatu: kitabu, jarida na gazeti.",
+          "Achague kimoja kinachomvutia kuhusu matunda au mimea na aandike jina lake na sababu.",
+          "Awashirikishe wenzake chaguo lake kwa sentensi mbili.",
+          "Tunzeni vitabu: msirarue kurasa wala kuandika ndani ya kitabu cha maktaba."
+        ]
+      },
+      "practice": [
+        { "question": "Taja aina tatu za matini unazoweza kusoma kwa mapana.", "answer": "Vitabu, majarida na magazeti. (Matini ya mtandaoni nayo inafaa ukiongozwa na mwalimu.)", "check": null },
+        { "question": "Unazingatia nini unapochagua matini?", "answer": "Unazingatia kama mada inakuvutia, lugha inaeleweka, na unaweza kuimaliza kwa muda ulio nao.", "check": null },
+        { "question": "Andika sentensi ya kuchagua matini kuhusu matunda.", "answer": "Mfano: Nimechagua jarida lenye picha za machungwa kwa sababu nahitaji kujua jinsi yanavyotunzwa.", "check": null }
+      ],
+      "summary": [
+        "Kusoma kwa mapana huanza na kuchagua matini inayokuvutia.",
+        "Vitabu, majarida, magazeti na makala za mtandaoni ni matini ya kusoma.",
+        "Chagua lugha unayoielewa na mada ya matunda au mimea."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kusoma ili kufaidi ujumbe na lugha",
+      "outcomes": ["b"],
+      "objectives": [
+        "Kusoma kifungu alichokichagua na kukieleza kwa ufupi.",
+        "Kutaja ujumbe mkuu wa matini.",
+        "Kutambua maneno mapya na kuyatumia katika sentensi."
+      ],
+      "intro": "Chaguo peke yake halitoshi. Unaposoma, tafuta mwandishi anachotaka ukaelewe, na ukusanye maneno mapya. Soma kifungu kifuatacho polepole, kisha tutaje ujumbe wake.",
+      "notes": "### Kifungu cha kusoma\nShule yetu ina shamba dogo la matunda nyuma ya madarasa. Kuna miembe, michungwa na migomba. Kila Jumatatu wanafunzi wanamwagilia miche mipya na wanapalilia kwa makini. Mwalimu anasema, \"Mti mdogo unahitaji maji, mwanga wa jua na palizi.\" Maembe yakiiva, tunayachuma kwa uangalifu. Tunayaosha kwa maji safi kabla ya kula. Baadhi ya matunda tunayapeleka jikoni. Hatuchumi bila ruhusa. Tunajifunza kuwa kutunza mimea ni kazi ya kila mmoja, na haba na haba hujaza kibaba.\n\n### Jinsi ya kufaidi ujumbe\nBaada ya kusoma, jibu maswali haya kwa maneno yako:\n- Matini hii inahusu nini? Inahusu shamba la matunda la shule na kazi ya kulitunza.\n- Nani anafanya kazi hiyo? Wanafunzi, kwa mwongozo wa mwalimu.\n- Wanafanya nini? Wanamwagilia, wanapalilia, wanachuma na wanaiosha matunda.\n- Funzo ni lipi? Kutunza mimea ni wajibu wa kila mtu, na matunda huchumwa kwa ruhusa kisha huoshwa.\n\nUjumbe mkuu si kuorodhesha kila mti. Ni wazo linalobaki: mimea inahitaji utunzaji, na matunda salama huoshwa kabla ya kuliwa.\n\n### Jinsi ya kufaidi lugha\nChagua maneno ambayo unayatambua lakini hukuyatumia mara nyingi.\n- **miche** ni mimea michanga iliyo tayari kupandwa.\n- **palizi** ni kazi ya kung'oa magugu.\n- **kwa uangalifu** ni kielezi kinachoonyesha kufanya kazi bila kuharibu.\n- **miembe, michungwa, migomba** ni wingi wa miti ya maembe, machungwa na ndizi.\n\nAndika neno, maana yake, na sentensi yako mwenyewe. Mfano: Palizi ni kazi ya kung'oa magugu. Sentensi: Tulipalilia shamba la migomba jana. Hivyo usomaji unakuza lugha, si kuelewa hadithi tu.\n\nUkikwama neno, soma sentensi nzima tena. Maana mara nyingi hujitokeza kwa maneno ya jirani. Kisha uulize mwenzako au mwalimu, au utafute kamusi.",
+      "keyWords": [
+        { "word": "ujumbe", "meaning": "wazo kuu analotaka mwandishi ukaelewe" },
+        { "word": "miche", "meaning": "mimea michanga iliyo tayari kupandwa" },
+        { "word": "palizi", "meaning": "kazi ya kung'oa magugu shambani" },
+        { "word": "kielezi", "meaning": "neno linaloeleza jinsi kitendo kinavyofanywa" }
+      ],
+      "examples": [
+        {
+          "problem": "Ujumbe mkuu wa kifungu cha shamba la shule ni upi?",
+          "steps": ["Taja kinachofanyika shambani.", "Chagua funzo linalobaki, si orodha ya miti tu."],
+          "answer": "Mimea inahitaji utunzaji, na matunda huchumwa kwa ruhusa kisha huoshwa kabla ya kuliwa.",
+          "check": null
+        },
+        {
+          "problem": "Tumia neno palizi katika sentensi yako.",
+          "steps": ["Kumbuka palizi ni kung'oa magugu.", "Tunga sentensi kamili."],
+          "answer": "Mfano: Wanafunzi walifanya palizi shamba la miembe ili magugu yasiishinde miche.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Soma na ukusanye maneno",
+        "materials": ["Matini uliyochagua", "Daftari", "Kamusi panapopatikana"],
+        "steps": [
+          "Soma matini uliyochagua kwa utulivu. Kama ni kifungu cha darasa, soma kifungu cha shamba la shule.",
+          "Andika ujumbe mkuu kwa sentensi mbili.",
+          "Chagua maneno manne mapya, uandike maana ya kila neno na sentensi moja.",
+          "Msomee mwenzako ujumbe wako na neno moja jipya.",
+          "Sahihisheni maana zenu kwa kamusi, mwalimu au mjadala wa kikundi."
+        ]
+      },
+      "practice": [
+        { "question": "Kwa nini wanafunzi katika kifungu wanaosha maembe kabla ya kula?", "answer": "Ili matunda yawe safi na salama kuliwa.", "check": null },
+        { "question": "Neno miche lina maana gani?", "answer": "Mimea michanga iliyo tayari kupandwa.", "check": null },
+        { "question": "Andika ujumbe mkuu wa kifungu kwa sentensi moja.", "answer": "Wanafunzi wanatunza shamba la matunda kwa kumwagilia, kupalilia, kuchuma kwa ruhusa na kuosha matunda.", "check": null },
+        { "question": "Tunga sentensi ukitumia maneno: kwa uangalifu.", "answer": "Mfano: Tulichuma maembe kwa uangalifu ili tusiangushe mabichi.", "check": null }
+      ],
+      "summary": [
+        "Ujumbe mkuu ni wazo linalobaki baada ya kusoma.",
+        "Maneno mapya huandikwa pamoja na maana na sentensi.",
+        "Kifungu cha shamba kinafundisha utunzaji wa mimea na usafi wa matunda."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Kusimulia na kujadili matini",
+      "outcomes": ["c"],
+      "objectives": [
+        "Kusimulia wenzake kuhusu matini aliyosoma.",
+        "Kusikiliza masimulizi ya mwenzake na kuuliza swali.",
+        "Kueleza jinsi usomaji wa mapana unavyokuza lugha na kuleta furaha."
+      ],
+      "intro": "Ukishasoma, usiache ujumbe kichwani peke yako. Uwasimulie wenzako kwa maneno yako. Kusikiliza kwao kutakuchochea kusoma kifungu kingine kesho.",
+      "notes": "### Mpangilio wa kusimulia\nUsomaji wa mapana unakamilika unapowasilisha ulichopata. Tumia mpangilio huu:\n- Jina la matini na aina yake, kwa mfano jarida, kitabu au kifungu.\n- Mada yake kwa sentensi moja.\n- Ujumbe mkuu.\n- Neno au nahau mpya na maana yake.\n- Sehemu iliyokupendeza, na sababu.\n\nMfano: \"Nimesoma kifungu kiitwacho Shamba letu la matunda. Linahusu wanafunzi wanaomwagilia miche na kuchuma maembe. Ujumbe ni kuwa mimea inahitaji utunzaji na matunda huoshwa. Neno jipya ni palizi, yaani kung'oa magugu. Nimependa kwa sababu ninaweza kufanya kazi hiyo shuleni.\"\n\n### Kusikiliza na kujadili\nMwenzako anaposimulia, usimkatize. Andika swali moja. Maswali mazuri huuliza ujumbe, neno jipya au maoni, si tu \"nani?\" Unaweza kuuliza: \"Je, walipanda mti gani?\" au \"Neno palizi linatumikaje katika sentensi?\"\n\nJadili kwa heshima. Kama hukubaliani kuhusu ujumbe, rudieni kwenye matini na msome tena sentensi husika. Sikiliza maoni ya kila mmoja. Heshima ni kumsikiliza mwenzako hadi amalize.\n\n### Furaha na ukuzaji wa lugha\nUnaposoma matini mbalimbali, unakutana na vivumishi, vielezi, nahau na methali katika miktadha halisi. Methali haba na haba hujaza kibaba, katika kifungu cha shamba, inaonyesha kazi ndogo ya kila siku inavyojenga mavuno. Maneno kama miche, palizi na kwa uangalifu yanaingia katika masimulizi yako mwenyewe.\n\nFuraha inakuja unapochagua mada unayoipenda, unapomaliza kifungu na unapowapa wenzako habari mpya. Chocheana: mkimaliza jarida moja, pendekezaneni jingine. Tunzeni matini ili wengine nao wapate kuyasoma.",
+      "keyWords": [
+        { "word": "kusimulia", "meaning": "kuwaeleza wengine kwa maneno yako ulichosoma au ulichoona" },
+        { "word": "kujadili", "meaning": "kuzungumza na wenzako ili kuelewa wazo kwa undani zaidi" },
+        { "word": "methali", "meaning": "msemo wa hekima unaofundisha funzo" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika masimulizi mafupi ya kifungu cha shamba la shule ukitumia mpangilio uliofunzwa.",
+          "steps": ["Taja jina na mada.", "Ongeza ujumbe na neno moja jipya."],
+          "answer": "Nimesoma kifungu cha shamba la matunda la shule. Linahusu wanafunzi wanaotunza miembe, michungwa na migomba. Ujumbe ni kutunza mimea na kuosha matunda. Neno jipya ni miche, yaani mimea michanga.",
+          "check": null
+        },
+        {
+          "problem": "Mwenzako amesema ujumbe wa kifungu ni majina ya miti tu. Utamjibuje kwa heshima?",
+          "steps": ["Kumbuka ujumbe ni funzo, si orodha.", "Ruhusu mrejesho kwa sentensi ya matini."],
+          "answer": "Miti imetajwa, lakini ujumbe mkuu ni kuwa mimea inahitaji maji, palizi na kuchumwa kwa ruhusa. Tusome tena sentensi ya mwisho.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mzunguko wa masimulizi",
+        "materials": ["Matini aliyosoma kila mwanafunzi", "Daftari"],
+        "steps": [
+          "Kaa katika vikundi vya watu wanne.",
+          "Kila mmoja asimulie kwa dakika moja kuhusu matini aliyosoma: jina, ujumbe na neno jipya.",
+          "Wengine wasikilize bila kumkatiza, kisha kila mmoja aulize swali moja.",
+          "Kundi lichague neno moja zuri na mlichague kutumia katika sentensi ya pamoja kuhusu mimea.",
+          "Elezeni darasa jinsi usomaji huu unavyowafanya mtamani kusoma zaidi."
+        ]
+      },
+      "practice": [
+        { "question": "Taja vipengele vitatu vya masimulizi mazuri ya matini.", "answer": "Jina la matini, ujumbe mkuu, na neno jipya pamoja na maana yake. (Sehemu iliyopendeza nayo inafaa.)", "check": null },
+        { "question": "Kwa nini husimkatizi mwenzako anaposimulia?", "answer": "Ili kuonyesha heshima na kumsikiliza hadi amalize, ndipo uulize swali.", "check": null },
+        { "question": "Kusoma matini mbalimbali kunakuza lugha vipi?", "answer": "Unajifunza maneno mapya, methali na jinsi ya kueleza ujumbe kwa maneno yako mwenyewe.", "check": null },
+        { "question": "Methali haba na haba hujaza kibaba ina maana gani katika kazi ya shamba?", "answer": "Kazi ndogo inayofanywa kila siku, kama kumwagilia na kupalilia, hujenga mavuno baada ya muda.", "check": null }
+      ],
+      "summary": [
+        "Simulia jina la matini, ujumbe na neno jipya.",
+        "Sikiliza mwenzako hadi amalize, kisha uliza swali.",
+        "Usomaji wa mapana huleta furaha na kukuza msamiati."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Kusoma kwa mapana ni nini?", "options": ["kusoma tu zoezi la mwalimu bila kuchagua", "kuchagua matini na kuyasoma ili kujifurahisha na kukuza lugha", "kunakili kitabu chote", "kusoma kwa sauti bila kuelewa"], "answer": "B", "explanation": "Mwanafunzi hujichagulia matini ili kufaidi ujumbe na lugha.", "outcome": "a", "check": null },
+    { "question": "Ni lipi si aina ya matini ya kusoma kwa mapana?", "options": ["kitabu", "jarida", "gazeti", "daftari tupu"], "answer": "D", "explanation": "Daftari tupu si matini. Vitabu, majarida na magazeti ndiyo matini.", "outcome": "a", "check": null },
+    { "question": "Unapochagua matini, unazingatia nini kwanza?", "options": ["rangi ya jalada tu", "kama mada inakuvutia na lugha inaeleweka", "idadi ya kurasa kubwa zaidi", "jina refu la mwandishi tu"], "answer": "B", "explanation": "Matini zuri la kusoma kwa mapana linakuvutia na unaweza kulielewa.", "outcome": "a", "check": null },
+    { "question": "Katika kifungu cha shamba, miche inamaanisha nini?", "options": ["matunda yaliyoiva", "mimea michanga iliyo tayari kupandwa", "magugu", "kisima cha maji"], "answer": "B", "explanation": "Miche ni mimea michanga inayopandwa na kumwagiliwa.", "outcome": "b", "check": null },
+    { "question": "Ujumbe mkuu wa kifungu cha shamba la shule ni upi?", "options": ["Madarasa yako nyuma ya shamba.", "Mimea inahitaji utunzaji na matunda huoshwa baada ya kuchumwa kwa ruhusa.", "Wanafunzi hawapaswi kumwagilia.", "Maembe hayaliwi."], "answer": "B", "explanation": "Kifungu kinafundisha utunzaji wa mimea, ruhusa na usafi wa matunda.", "outcome": "b", "check": null },
+    { "question": "Palizi ni kazi gani?", "options": ["kuchuma matunda", "kung'oa magugu", "kupika ugali", "kusoma gazeti"], "answer": "B", "explanation": "Palizi ni kung'oa magugu ili mimea isishindwe.", "outcome": "b", "check": null },
+    { "question": "Neno kwa uangalifu katika kifungu linaonyesha nini?", "options": ["mahali", "jinsi ya kuchuma bila kuharibu", "idadi ya matunda", "jina la mti"], "answer": "B", "explanation": "Kwa uangalifu ni kielezi cha jinsi kazi inavyofanywa.", "outcome": "b", "check": null },
+    { "question": "Unaposimulia matini, unataja nini?", "answer": "Jina la matini, ujumbe mkuu, na neno jipya pamoja na maana yake.", "explanation": "Mpangilio huu unawasaidia wenzako kupata ujumbe bila kusoma matini yote.", "outcome": "c", "check": null },
+    { "question": "Kwa nini unamwacha mwenzako amalize kusimulia?", "options": ["ili uonyeshe heshima na usikilize", "ili ulale", "ili usijue ujumbe", "ili uondoke nje"], "answer": "A", "explanation": "Kusikiliza hadi mwisho ni heshima na kunakusaidia kuuliza swali zuri.", "outcome": "c", "check": null },
+    { "question": "Kusoma matini mbalimbali kunakuza lugha vipi?", "answer": "Unajifunza maneno mapya, methali na jinsi ya kueleza ujumbe kwa maneno yako.", "explanation": "Lugha inakua unapotumia maneno uliyoyasoma katika masimulizi yako.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 7.0 Matunda na Mimea, Mada Ndogo 7.2.1 Kusoma: Kusoma kwa Mapana (Matini)"
+  ]
+}

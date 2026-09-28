@@ -1,0 +1,214 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "11.4.2",
+  "title": "Sarufi: Ukubwa wa Nomino",
+  "overview": "Baadhi ya nomino hubadilika zenyewe ili kuonyesha kuwa kitu ni kikubwa sana. Katika mada hii ndogo utatambua nomino zinazoanza kwa m- na zenye mzizi wa silabi moja, kama mti, mto na mji. Utazibadilisha kuwa hali ya ukubwa, kama jiti, jito na jiji, kisha uzitumie katika sentensi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kutambua nomino na hali ya ukubwa",
+      "outcomes": ["a", "b", "c"],
+      "objectives": [
+        "Kueleza maana ya ukubwa wa nomino.",
+        "Kutambua nomino zinazoanza kwa m- na zenye mzizi wa silabi moja.",
+        "Kutofautisha nomino ya hali ya wastani na ile ya hali ya ukubwa."
+      ],
+      "intro": "Ukisema \"mti mkubwa\", bado neno ni mti, na umeongeza kivumishi. Lakini ukisema \"jiti\", nomino yenyewe imebadilika kuonyesha mti mkubwa sana. Huo ndio ukubwa wa nomino, na si kila nomino hufuata kanuni hii.",
+      "notes": "### Ukubwa wa nomino ni nini?\nUkubwa wa nomino ni umbo linaloonyesha kuwa kitu ni kikubwa kuliko kawaida. Hatuongezi neno mkubwa tu. Umbo la nomino linabadilika. Hali ya kawaida huitwa hali ya wastani.\n\nKatika somo hili tunatumia nomino zinazoanza kwa herufi **m-** na zenye mzizi wa silabi moja. Mzizi ni sehemu iliyobaki baada ya kuondoa m-.\n\n- mti: mzizi ni -ti (silabi moja)\n- mto: mzizi ni -to\n- mji: mzizi ni -ji\n\nNomino kama mkoba haifai hapa, kwa sababu mzizi -koba una silabi zaidi ya moja. Mkono pia haufai, kwa sababu mzizi -kono una silabi mbili.\n\n### Umbo la ukubwa\nOndoa m- mwanzoni, kisha weka ji-.\n\n- mti → jiti (mti mkubwa sana)\n- mto → jito (mto mkubwa sana)\n- mji → jiji (mji mkubwa sana)\n\nUsiache m- ndani. Si sahihi kusema jimti. Sahihi ni jiti.\n\nKatika matumizi ya kila siku, jiji ndilo neno la mji mkubwa sana. Bado, kisarufi, jiji ni ukubwa wa mji.\n\n### Umoja na wingi\nUsichanganye wingi wa hali ya wastani na ukubwa.\n\n- mti ni mmoja; miti ni mingi. Nomino hizo mbili ziko katika hali ya wastani.\n- jiti ni mmoja katika ukubwa; majiti ni mingi katika ukubwa.\n- mto / mito ni wastani; jito / majito ni ukubwa.\n- mji / miji ni wastani; jiji / majiji ni ukubwa.\n\nKwa hiyo miti si jiti. Miti ni miti mingi ya kawaida. Jiti ni mti mmoja mkubwa sana.\n\n### Jinsi ya kutambua kwenye sentensi\n- Mti huu umeanguka. (wastani, umoja)\n- Miti hii imeanguka. (wastani, wingi)\n- Jiti hili limeanguka. (ukubwa, umoja)\n- Majiti haya yameanguka. (ukubwa, wingi)\n\nJiti linakubaliana na hili na lime-, kwa sababu liko katika ngeli ya JI-MA. Mti unakubaliana na huu na ume-.",
+      "keyWords": [
+        { "word": "ukubwa wa nomino", "meaning": "umbo la nomino linaloonyesha kitu kikubwa kuliko kawaida" },
+        { "word": "hali ya wastani", "meaning": "umbo la kawaida la nomino, kama mti, mto au mji" },
+        { "word": "mzizi", "meaning": "sehemu ya nomino iliyobaki baada ya kuondoa m- mwanzoni" },
+        { "word": "jiji", "meaning": "ukubwa wa mji; katika maisha ya kila siku ni mji mkubwa sana" }
+      ],
+      "examples": [
+        {
+          "problem": "Je, mkoba unafaa katika kundi la mti, mto na mji? Eleza.",
+          "steps": [
+            "Inaanza kwa m-.",
+            "Mzizi ni -koba: ko-ba, silabi mbili.",
+            "Kanuni ya somo hili inahitaji mzizi wa silabi moja."
+          ],
+          "answer": "Hapana. Mzizi -koba una silabi mbili, si moja.",
+          "check": null
+        },
+        {
+          "problem": "Tambua nomino iliyo katika hali ya ukubwa: mto, mito, jito.",
+          "steps": [
+            "mto ni wastani, umoja.",
+            "mito ni wastani, wingi.",
+            "jito limeanza kwa ji-."
+          ],
+          "answer": "jito",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chagua nomino kwenye mti wa maneno",
+        "materials": ["Mti wa maneno, kapu la maneno au chati", "Daftari", "Kifaa cha kidijitali panapowezekana"],
+        "steps": [
+          "Tafuteni kwenye chati, ubao, mti wa maneno au kifaa nomino zinazoanza kwa m-.",
+          "Zigawe: zenye mzizi wa silabi moja, kama mti, mto na mji, na zile zenye mzizi mrefu.",
+          "Kwa kila nomino ya silabi moja, andikeni umbo la ukubwa: jiti, jito, jiji.",
+          "Tofautisheni mti na miti, na jiti na majiti, kwa sentensi moja kila moja."
+        ]
+      },
+      "practice": [
+        { "question": "Ukubwa wa nomino ni nini?", "answer": "Ni umbo la nomino linaloonyesha kuwa kitu ni kikubwa kuliko kawaida, kama jiti badala ya mti.", "check": null },
+        { "question": "Kwa nini mti unafaa katika somo hili, lakini mkono haufai?", "answer": "Mti una mzizi wa silabi moja (-ti). Mkono una mzizi wa silabi mbili (-kono).", "check": null },
+        { "question": "Ukubwa wa mto ni neno gani?", "answer": "jito", "check": null },
+        { "question": "Kuna tofauti gani kati ya miti na jiti?", "answer": "Miti ni miti mingi ya kawaida. Jiti ni mti mmoja mkubwa sana.", "check": null }
+      ],
+      "summary": [
+        "Ukubwa hubadilisha nomino yenyewe, si kuongeza neno mkubwa tu.",
+        "mti, mto na mji zina mzizi wa silabi moja.",
+        "mti → jiti, mto → jito, mji → jiji. Miti si jiti."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kubadilisha na kutumia nomino za ukubwa",
+      "outcomes": ["d", "e", "f"],
+      "objectives": [
+        "Kubadilisha nomino kutoka hali ya wastani hadi hali ya ukubwa.",
+        "Kuzitumia katika sentensi zenye ukubaliano sahihi.",
+        "Kufurahia kutumia ukubwa kwa usahihi na kwa heshima."
+      ],
+      "intro": "Sasa unafahamu jiti, jito na jiji. Hatua inayofuata ni kuyatumia katika sentensi ambayo maneno mengine yanakubaliana nayo. Jiti halisemi \"umeanguka\". Linasema \"limeanguka\".",
+      "notes": "### Kanuni ya kubadilisha\n1. Hakikisha nomino inaanza kwa m- na mzizi ni silabi moja.\n2. Ondoa m-.\n3. Weka ji-.\n4. Ukitaka wingi, weka ma- mbele ya umbo la ukubwa: jiti → majiti, jito → majito, jiji → majiji.\n\n- mti → jiti → majiti\n- mto → jito → majito\n- mji → jiji → majiji\n\n### Ukubaliano katika sentensi\nNomino ya ukubwa katika umoja inatumia viambishi vya ngeli ya JI-MA:\n\n- Jiti hili limeanguka pembeni mwa shamba.\n- Jito hili limefurika na kufunika matuta.\n- Jiji hili lina maduka mengi.\n\nWingi unatumia ya-:\n\n- Majiti haya yameanguka.\n- Majito haya yamefurika.\n- Majiji haya yana barabara nyingi.\n\nUsiseme \"jiti umeanguka\" wala \"jiji una maduka\". Sahihi ni limeanguka na lina.\n\n### Katika mada ya mapato\nUnaweza kutumia nomino hizi ukieleza kazi na biashara, bila kuzilazimisha kila sentensi.\n\n- Jiji hili lina soko kubwa. Watu wengi hupata mapato huko.\n- Jito limefurika. Wauzaji hawakupata mapato siku hiyo, kwa sababu mboga za kando ya mto ziliharibika.\n\n### Heshima na usahihi\nTumia ukubwa kueleza kitu, si kumkejeli mtu. \"Jiji\" na \"jiti\" si majina ya kumwita mwenzako. Ukiomba wenzako wakague sentensi yako, sikiliza marekebisho yao. Kucheka makosa kunavunja ujasiri; kuyarekebisha pamoja kunaimarisha lugha.",
+      "keyWords": [
+        { "word": "majiti", "meaning": "miti mikubwa sana; wingi wa jiti" },
+        { "word": "ukubaliano", "meaning": "maneno mengine katika sentensi yanavyolingana na nomino" },
+        { "word": "ngeli ya JI-MA", "meaning": "kundi la nomino kama jiti/majiti na jiji/majiji" }
+      ],
+      "examples": [
+        {
+          "problem": "Badilisha nomino iliyopigiwa mstari iwe katika ukubwa: Mto umefurika.",
+          "steps": [
+            "mto → jito.",
+            "Jito ni umoja wa JI-MA, kwa hivyo umefurika inakuwa limefurika."
+          ],
+          "answer": "Jito limefurika.",
+          "check": null
+        },
+        {
+          "problem": "Chagua sentensi sahihi: \"Jiji una soko\" au \"Jiji lina soko\".",
+          "steps": [
+            "Jiji liko katika ngeli ya JI-MA.",
+            "Umoja unatumia li-, si u-."
+          ],
+          "answer": "Jiji lina soko.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mchezo wa wastani na ukubwa",
+        "materials": ["Kadi za nomino", "Tarakilishi yenye zoezi la kuambatanisha, panapowezekana", "Daftari"],
+        "steps": [
+          "Gawanyikeni katika vikundi viwili. Kikundi cha kwanza kitaje nomino katika hali ya wastani, kwa mfano mti.",
+          "Kikundi cha pili kijibu ukubwa wake, kwa mfano jiti, na kitunge sentensi: Jiti hili limeanguka.",
+          "Badilishaneni majukumu kwa mto na mji, umoja na wingi.",
+          "Panapowezekana, buruteni kadi za ukubwa mkabala na kadi za wastani kwenye tarakilishi.",
+          "Kila mmoja aandike sentensi mbili kuhusu jiji au soko, kisha wenzako wazikague."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 150\" font-family=\"sans-serif\"><rect width=\"520\" height=\"150\" fill=\"#ffffff\"/><rect x=\"16\" y=\"28\" width=\"140\" height=\"90\" rx=\"8\" fill=\"#ecfdf5\" stroke=\"#166534\" stroke-width=\"2\"/><rect x=\"190\" y=\"28\" width=\"140\" height=\"90\" rx=\"8\" fill=\"#fff7ed\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"364\" y=\"28\" width=\"140\" height=\"90\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><g text-anchor=\"middle\" font-size=\"20\" font-weight=\"bold\"><text x=\"86\" y=\"80\" fill=\"#166534\">mti</text><text x=\"260\" y=\"80\" fill=\"#c2410c\">jiti</text><text x=\"434\" y=\"80\" fill=\"#1d4ed8\">majiti</text></g><g font-size=\"13\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"86\" y=\"140\">wastani</text><text x=\"260\" y=\"140\">ukubwa</text><text x=\"434\" y=\"140\">wingi wa ukubwa</text></g><g font-size=\"22\" fill=\"#111827\"><text x=\"162\" y=\"80\">→</text><text x=\"336\" y=\"80\">→</text></g></svg>",
+        "caption": "Mti hubadilika kuwa jiti, na wingi wake ni majiti"
+      },
+      "practice": [
+        { "question": "Andika ukubwa wa umoja na wingi wa neno mji.", "answer": "Umoja: jiji. Wingi: majiji.", "check": null },
+        { "question": "Badilisha sentensi iwe katika ukubwa: Mti umeanguka.", "answer": "Jiti limeanguka.", "check": null },
+        { "question": "Jaza: Majito haya ______ (furika).", "answer": "yamefurika", "check": null },
+        { "question": "Kwa nini haifai kumwita mwenzako kwa nomino ya ukubwa ili kumcheka?", "answer": "Kwa sababu ukubwa wa nomino ni wa kueleza vitu, si wa kumkejeli mtu.", "check": null }
+      ],
+      "summary": [
+        "Ondoa m- na uweke ji- ili kupata ukubwa.",
+        "Wingi wa ukubwa huwa na ma-: majiti, majito, majiji.",
+        "Jiti limeanguka; majiti yameanguka."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ukubwa wa nomino ni nini?",
+      "options": ["Kuongeza neno ndogo", "Umbo la nomino linaloonyesha kitu kikubwa kuliko kawaida", "Wingi wa nomino yoyote", "Kitenzi cha wakati uliopita"],
+      "answer": "B",
+      "explanation": "Nomino yenyewe hubadilika, kama mti kuwa jiti.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Ni nomino ipi inayoanza kwa m- na kuwa na mzizi wa silabi moja?",
+      "options": ["mkoba", "mkono", "mti", "mshahara"],
+      "answer": "C",
+      "explanation": "Mzizi wa mti ni -ti, silabi moja. Mzizi wa mkoba una silabi zaidi ya moja, na mzizi wa mkono pia.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Mzizi wa mto ni upi?",
+      "options": ["-to", "-mto", "-oto", "-ji"],
+      "answer": "A",
+      "explanation": "Baada ya kuondoa m-, inabaki -to.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Ni neno lipi lililo katika hali ya ukubwa?",
+      "options": ["mji", "miji", "jiji", "kijiji"],
+      "answer": "C",
+      "explanation": "jiji ni ukubwa wa mji. miji ni wingi wa wastani, na kijiji ni udogo.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kuna tofauti gani kati ya miti na jiti?",
+      "answer": "Miti ni miti mingi ya kawaida. Jiti ni mti mmoja mkubwa sana.",
+      "explanation": "Wingi wa wastani si sawa na umoja wa ukubwa.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Ukubwa wa mto ni upi?",
+      "options": ["mito", "kijito", "jito", "maji"],
+      "answer": "C",
+      "explanation": "m- huondolewa na ji- huwekwa: jito.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Wingi wa jiji ni upi?",
+      "options": ["miji", "vijiji", "majiji", "jijini"],
+      "answer": "C",
+      "explanation": "Wingi wa ukubwa huwekewa ma-: majiji.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Badilisha: Mti umeanguka.",
+      "answer": "Jiti limeanguka.",
+      "explanation": "mti unakuwa jiti, na kitenzi kinakuwa limeanguka.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Chagua sentensi sahihi.",
+      "options": ["Jiji una maduka mengi.", "Jiji lina maduka mengi.", "Jiji wana maduka mengi.", "Jiji zina maduka mengi."],
+      "answer": "B",
+      "explanation": "Jiji katika umoja linatumia li-: lina.",
+      "outcome": "e",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tunajifunza kutumia ukubwa kwa usahihi?",
+      "answer": "Ili tueleze vitu vikubwa kwa ufasaha na bila kumkejeli mtu.",
+      "explanation": "Nomino ya ukubwa huboresha maelezo inapotumiwa kwa heshima.",
+      "outcome": "f",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 11.0 Mapato, Mada Ndogo 11.4.2 Ukubwa wa Nomino"
+  ]
+}

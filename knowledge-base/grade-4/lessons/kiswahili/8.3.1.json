@@ -1,0 +1,131 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "8.3.1",
+  "title": "Kuandika: Insha ya Masimulizi",
+  "overview": "Insha ya masimulizi husimulia kisa kilichotokea, kwa mpangilio wa mwanzo, katikati na mwisho. Utatambua muundo wake, utaandaa vidokezo, kisha utaandika kisa kinachohusu wanyama wa porini ukizingatia anwani, hati safi, tahajia, uakifishaji na lugha ya kiubunifu.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kutambua muundo wa insha ya masimulizi",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kueleza kuwa insha ya masimulizi husimulia tukio.",
+        "Kutambua utangulizi, tukio na hitimisho katika kielelezo.",
+        "Kutofautisha masimulizi na insha ya maelezo."
+      ],
+      "intro": "Ukiambiwa eleza jinsi twiga alivyo mrefu, utatoa sifa. Ukiambiwa simulia siku mlipomwona twiga barabarani, utaambia yaliyotokea kwanza, kisha yaliyofuata. Hiyo ndiyo insha ya masimulizi.",
+      "notes": "### Insha ya masimulizi inahusu nini?\nInsha ya masimulizi husimulia kisa. Ina wahusika, mahali, wakati na matukio yanayofuata. Msomaji anataka kujua: kilianza vipi, kilitokea nini, na kiliishia vipi?\n\nKatika mada hii, kisa kinahusiana na wanyama wa porini. Unaweza kusimulia siku ya kutembelea hifadhi, mnyama aliyevuka barabara, au wanafunzi waliomsaidia mlinzi kwa kutovuruga wanyama. Usibuni idadi ya wanyama wala mahali usilojua. Simulia tukio unaloweza kulieleza kwa uaminifu, hata kama ni hadithi uliyoiunda darasani kwa kuzingatia usalama wa wanyama.\n\n### Muundo\n- **Anwani** ni kichwa kinachoashiria kisa, kwa mfano Twiga Barabarani.\n- **Utangulizi** unamweleza msomaji wahusika, mahali na wakati. Aya hii haianzi katikati ya mshangao.\n- **Tukio** linaeleza yaliyotokea kwa mpangilio. Tumia maneno ya kuunganisha: kwanza, kisha, ghafla, baada ya hapo, mwishoni.\n- **Hitimisho** linafunga kisa na linaweza kuwa na funzo. Funzo si hotuba ndefu. Sentensi moja inatosha.\n\n### Kielelezo kifupi\nAnwani: Twiga Barabarani\n\nSiku moja, timu yetu ya skauti ilitembelea hifadhi ya wanyama iliyo karibu na shule. Mlinzi alituambia tukae ndani ya gari na tusiwe na kelele.\n\nTuliposonga polepole, twiga mrefu alitokea msituni. Alisimama katikati ya barabara akiangalia pande zote. Dereva alisimamisha gari. Twiga alipita, kisha twiga mwingine akamfuata. Hatukupiga honi wala kufanya kelele.\n\nTuliporudi shuleni, tulijua kuwa wanyama wa porini wanahitaji amani. Haraka haraka haina baraka; karibu na hifadhi, polepole ndiyo salama.\n\nAya ya kwanza ni utangulizi, ya pili ni tukio, na ya tatu ni hitimisho lenye methali.\n\n### Tofauti na maelezo\n\"Twiga ana shingo ndefu na miguu mirefu\" ni maelezo ya sifa. \"Twiga alisimama barabarani, kisha akapita\" ni masimulizi. Ukiona maneno ya wakati na matukio yanayofuata, umetambua insha ya masimulizi.",
+      "keyWords": [
+        { "word": "insha ya masimulizi", "meaning": "utunzi unaosimulia kisa kwa mpangilio wa matukio" },
+        { "word": "tukio", "meaning": "jambo lililotokea katika kisa" },
+        { "word": "funzo", "meaning": "wazo unalojifunza mwishoni mwa kisa" },
+        { "word": "anwani", "meaning": "kichwa cha insha" }
+      ],
+      "examples": [
+        {
+          "problem": "Sentensi ipi inaanzisha masimulizi: (1) Simba ana manyoya ya kimanjano. (2) Ghafla simba alisimama mbele ya gari.",
+          "steps": ["Tafuta kitendo kilichotokea kwa wakati.", "Sifa peke yake ni maelezo."],
+          "answer": "Sentensi ya pili: Ghafla simba alisimama mbele ya gari.",
+          "check": null
+        },
+        {
+          "problem": "Panga vipande hivi: dereva alisimamisha gari; tuliondoka shuleni; twiga alivuka.",
+          "steps": ["Anza na kutoka shuleni.", "Kisha tukio la twiga, kisha kusimamisha gari."],
+          "answer": "Tuliondoka shuleni. Twiga alivuka. Dereva alisimamisha gari.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Gawa kielelezo",
+        "materials": ["Kielelezo cha insha kwenye chati au tarakilishi", "Kalama"],
+        "steps": [
+          "Someni kielelezo cha Twiga Barabarani.",
+          "Gaweni aya katika utangulizi, tukio na hitimisho.",
+          "Orodhesheni maneno yanayoonyesha mpangilio, kama kisha na tuliposonga.",
+          "Jadilini mada nyingine ya kisa kinachohusu wanyama wa porini bila kuwadhuru.",
+          "Kila kikundi kiandike vidokezo vitatu: mwanzo, katikati, mwisho."
+        ]
+      },
+      "practice": [
+        { "question": "Insha ya masimulizi inahusu nini?", "answer": "Inahusu kisa kilichotokea, chenye mwanzo, katikati na mwisho.", "check": null },
+        { "question": "Utangulizi wa masimulizi huwa na nini?", "answer": "Wahusika, mahali na wakati.", "check": null },
+        { "question": "Kwa nini 'Kifaru ana pembe' si kisa?", "answer": "Kwa sababu inaeleza sifa, si tukio linalofuata tukio lingine.", "check": null },
+        { "question": "Taja maneno mawili yanayosaidia mpangilio wa matukio.", "answer": "Mfano: kwanza, kisha, ghafla, baada ya hapo, mwishoni.", "check": null }
+      ],
+      "summary": [
+        "Masimulizi yanaeleza yaliyotokea kwa mpangilio.",
+        "Muundo ni anwani, utangulizi, tukio na hitimisho.",
+        "Sifa peke yake ni maelezo, si kisa."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kuandika kisa cha wanyama wa porini",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kuandaa vidokezo vya kisa kinachohusu wanyama wa porini.",
+        "Kuandika insha fupi kwa kanuni za anwani, mpangilio, tahajia na uakifishaji.",
+        "Kutumia lugha ya kiubunifu na funzo linalofaa."
+      ],
+      "intro": "Kabla ya kuandika kisa, panga vidokezo. Ukishaanza kwa 'Siku moja' bila kujua mwisho, insha inapotea njiani. Leo tutaandika tukio linalowatunza wanyama, si kuwaumiza.",
+      "notes": "### Vidokezo\nChagua tukio moja. Mfano: Siku tulipomwona kiboko mbali na barabara.\n\nAndika vidokezo vifupi:\n- Mwanzo: nani, wapi, lini. Skauti, hifadhi iliyo karibu na shule, asubuhi.\n- Katikati: kilichotokea. Kiboko alionekana. Dereva alisimama. Hatukuteremka.\n- Mwisho: tulifanya nini na funzo. Tulirudi kwa amani. Wanyama wanahitaji nafasi.\n\n### Kanuni za kuandika\n- Anwani iwe kifupi na iwashawishi msomaji, bila kutoa mwisho wote.\n- Fuata mpangilio. Usisimulie mwisho kabla ya mwanzo.\n- Hati iwe safi, maneno yawe na nafasi, na tahajia izingatiwe: twiga, kiboko, hifadhi, mlinzi, barabara.\n- Uakifishaji: nukta mwisho wa sentensi, mkato wa maswali unapouliza, na alama ya mshangao ikiwa ni lazima tu.\n- Kanuni za kisarufi: wahusika wengi hutumia wa- (tuli, hatuku). Mnyama mmoja anayetendewa kama mhusika hutumia a- (alisimama, akapita).\n- Lugha ya kiubunifu: tumia neno moja la hisia au picha, kama \"tulishika pumzi\", na methali inayofaa kama **Haraka haraka haina baraka** au **Umoja ni nguvu**.\n- Usiandike ukatili dhidi ya wanyama kama kitendo cha kufurahisha. Kisa kizuri kinaonyesha ulinzi.\n\n### Mfano wa aya ya tukio\nGhafla kiboko alitokea kwenye nyasi. Dereva alisimamisha gari kabla ya kufika karibu. Tulikaa kimya. Kiboko alitazama, kisha akaingia porini polepole. Hatukumfuata.\n\n### Baada ya kuandika\nJisome. Je, mtu ambaye hakuwepo anaelewa yaliyotokea? Je, kuna mwanzo na mwisho? Kisha wasomee wenzako, au uwasambazie ikiwa mmeandika kwa kifaa cha kidijitali. Pokea maoni kuhusu mpangilio na tahajia. Boresha sentensi moja. Kuandika kisa kunajenga ubunifu kwa sababu unachagua maneno yanayomfanya msomaji aone tukio.",
+      "keyWords": [
+        { "word": "vidokezo", "meaning": "mambo mafupi unayoandika kwanza ili kupanga kisa" },
+        { "word": "tahajia", "meaning": "kuandika maneno kwa herufi sahihi" },
+        { "word": "uakifishaji", "meaning": "matumizi ya nukta na alama nyinginezo" },
+        { "word": "hifadhi", "meaning": "eneo linalolindwa ili wanyama wa porini wawe salama" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika vidokezo vitatu vya kisa kuhusu pundamilia anayevuka barabara.",
+          "steps": ["Weka mwanzo, katikati na mwisho.", "Usianze na mwisho."],
+          "answer": "Mfano: (1) Tulikuwa kwenye gari karibu na hifadhi. (2) Pundamilia alivuka na dereva alisimama. (3) Alipita salama, na tukajifunza kusubiri.",
+          "check": null
+        },
+        {
+          "problem": "Boresha mpangilio: Twiga alipita. Tuliona twiga. Dereva alisimama.",
+          "steps": ["Kwanza kuona, kisha kusimama, kisha kupita."],
+          "answer": "Tuliona twiga. Dereva alisimama. Twiga alipita.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika kisa na ukisome",
+        "materials": ["Daftari au kifaa cha kidijitali", "Orodha ya vidokezo"],
+        "steps": [
+          "Jadiliana na mwenzako mada ya kisa kinachohusu usalama wa wanyama wa porini.",
+          "Andika vidokezo vya mwanzo, katikati na mwisho.",
+          "Andika insha fupi ya aya tatu ukizingatia anwani, mpangilio, tahajia, uakifishaji na funzo.",
+          "Msomee kikundi au usambaze kwa mwalimu na mwenzako ili waitathmini.",
+          "Pokea maoni mawili na boresha sentensi moja iliyochanganya mpangilio."
+        ]
+      },
+      "practice": [
+        { "question": "Andika anwani inayofaa kwa kisa cha kiboko barabarani.", "answer": "Mfano: Kiboko Barabarani. (au: Siku Tulipomwona Kiboko.)", "check": null },
+        { "question": "Kwa nini huandiki ukatili dhidi ya wanyama kama kitendo cha kufurahisha?", "answer": "Kwa sababu insha hii inafundisha utunzaji wa wanyama wa porini, si kuwaumiza.", "check": null },
+        { "question": "Ingiza methali Haraka haraka haina baraka katika hitimisho la sentensi moja.", "answer": "Mfano: Haraka haraka haina baraka; kwa hiyo dereva alisubiri twiga apite.", "check": null },
+        { "question": "Taja kanuni tatu za kuandika insha nzuri ya masimulizi.", "answer": "Anwani inayofaa, mpangilio wa matukio, na tahajia pamoja na uakifishaji. (Hati safi na funzo navyo ni kanuni.)", "check": null }
+      ],
+      "summary": [
+        "Panga vidokezo vya mwanzo, katikati na mwisho kabla ya kuandika.",
+        "Kisa kiheshimu usalama wa wanyama wa porini.",
+        "Tumia mpangilio, tahajia na funzo lililo wazi."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Insha ya masimulizi inafanya nini?", "options": ["inaeleza sifa tu", "inasimulia kisa kwa mpangilio", "inaandika orodha ya maneno", "inahesabu wanyama"], "answer": "B", "explanation": "Masimulizi yana mwanzo, katikati na mwisho wa tukio.", "outcome": "a", "check": null },
+    { "question": "Anwani inafaa iweje?", "options": ["kichwa kinachoashiria kisa", "aya ndefu ya sifa", "orodha ya wahusika wote", "methali pekee"], "answer": "A", "explanation": "Anwani ni kichwa cha insha.", "outcome": "a", "check": null },
+    { "question": "Sentensi ipi ni ya masimulizi?", "options": ["Twiga ana shingo ndefu.", "Kiboko ni mnyama mkubwa.", "Ghafla twiga alisimama katikati ya barabara.", "Pundamilia ana milia."], "answer": "C", "explanation": "Inasimulia tukio, si sifa.", "outcome": "a", "check": null },
+    { "question": "Utangulizi mzuri huwa na nini?", "options": ["wahusika, mahali na wakati", "funzo pekee", "orodha ya vivumishi", "mwisho wa kisa kwanza"], "answer": "A", "explanation": "Msomaji anahitaji kujua nani, wapi na lini kabla ya tukio.", "outcome": "a", "check": null },
+    { "question": "Mpangilio sahihi ni upi?", "options": ["Mwisho, kisha mwanzo, bila katikati.", "Tuliona mnyama, dereva alisimama, mnyama alipita.", "Mnyama alipita, kisha tuliona mnyama.", "Funzo, kisha hatukuondoka."], "answer": "B", "explanation": "Matukio yafuate jinsi yalivyotokea.", "outcome": "b", "check": null },
+    { "question": "Neno gani linaonyesha mpangilio?", "options": ["mrefu", "kisha", "mzuri", "pori"], "answer": "B", "explanation": "Kisha linaunganisha tukio na tukio linalofuata.", "outcome": "a", "check": null },
+    { "question": "Unapoandika kuhusu wanyama wa porini, unazingatia nini?", "options": ["kuwaonyesha wakiumizwa kwa furaha", "usalama na utunzaji wao", "kuwafuata nje ya gari", "kupiga honi ili wakimbie"], "answer": "B", "explanation": "Kisa kinapaswa kuheshimu usalama wa wanyama.", "outcome": "b", "check": null },
+    { "question": "Andika anwani ya kisa kuhusu simba aliyeonekana mbali.", "answer": "Mfano: Simba Mbali na Barabara.", "explanation": "Anwani inataja tukio bila kueleza sifa tu.", "outcome": "b", "check": null },
+    { "question": "Methali Haraka haraka haina baraka inaweza kufundisha nini katika kisa cha barabara?", "answer": "Inafundisha kuwa kufanya haraka karibu na wanyama si salama; ni bora kusubiri.", "explanation": "Funzo linaambatana na kusimamisha gari na kusubiri mnyama apite.", "outcome": "b", "check": null },
+    { "question": "Kwa nini uandishi wa kisa unajenga ubunifu?", "options": ["kwa sababu unanakili neno moja", "kwa sababu unachagua maneno na mpangilio unaomfanya msomaji aone tukio", "kwa sababu huandiki hitimisho", "kwa sababu huepuki wahusika"], "answer": "B", "explanation": "Ubunifu ni kuchagua lugha inayofanya kisa kieleweke na kivutie.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 8.0 Wanyama wa Porini, Mada Ndogo 8.3.1 Kuandika: Insha ya Masimulizi"
+  ]
+}

@@ -11,6 +11,9 @@ knowledge-base/textbooks/raw/
 node_modules/
 web/node_modules/
 web/.next/
+web/out/
+web/tsconfig.tsbuildinfo
+.wrangler/
 web/.env.local
 # Generated lessons are committed so users get content without re-running the generator
 # web/data/content/*.json

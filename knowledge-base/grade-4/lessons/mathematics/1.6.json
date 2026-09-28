@@ -1,0 +1,364 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "1.6",
+  "title": "Fractions",
+  "overview": "A fraction names equal parts of a whole or of a group. In this sub-strand the denominator is not more than 12. You will name the numerator and the denominator, show fractions with shapes and with groups, tell proper, improper and mixed fractions apart, and convert between improper fractions and mixed numbers.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Numerator and denominator",
+      "outcomes": ["a"],
+      "objectives": [
+        "Point to the numerator and the denominator in a fraction.",
+        "Say what each number tells you about the equal parts."
+      ],
+      "intro": "A rope is cut into 8 equal pieces and 5 of those pieces are used. The fraction 5/8 records both numbers, and each number has its own job.",
+      "notes": "A fraction is written with two numbers and a bar between them. The bottom number is the denominator. It tells how many equal parts the whole has been divided into. The top number is the numerator. It tells how many of those equal parts we are talking about.\n\n### Reading 3/5\nIn 3/5 the denominator is 5, so the whole is in 5 equal parts. The numerator is 3, so we have 3 of those parts. We read 3/5 as \"three fifths\" or \"3 out of 5\". The bar can be read as \"out of\".\n\n### More fractions\n\n- In 7/12 the numerator is 7 and the denominator is 12. Seven parts out of twelve equal parts.\n- In 5/8 the numerator is 5 and the denominator is 8. Five pieces of a rope that was cut into eight equal pieces.\n- In 1/2 the numerator is 1 and the denominator is 2. One of two equal parts, which we call a half.\n- In 2/9 the denominator is the bottom number, 9, even though 2 is the number we might notice first.\n\n### The parts must be equal\nThe denominator only makes sense when the parts are the same size. Five unequal pieces of a rope are not fifths. If one piece is much longer than the others, you cannot call one piece 1/5 of the rope.\n\n### Denominators up to 12\nIn Grade 4 we work with denominators from 2 up to 12. So halves, thirds, quarters, fifths, sixths, eighths, tenths and twelfths are all in this work. The numerator can be smaller than, equal to, or bigger than the denominator. You will sort those types in a later lesson. For now, always name the top number and the bottom number before you do anything else.",
+      "keyWords": [
+        { "word": "numerator", "meaning": "the top number of a fraction, showing how many equal parts are being counted" },
+        { "word": "denominator", "meaning": "the bottom number of a fraction, showing how many equal parts make the whole" }
+      ],
+      "examples": [
+        {
+          "problem": "In 7/12, which number is the numerator and which is the denominator?",
+          "steps": ["The top number is the numerator.", "The bottom number is the denominator."],
+          "answer": "Numerator 7, denominator 12",
+          "check": "7 < 12"
+        },
+        {
+          "problem": "A rope is cut into 8 equal pieces and 5 pieces are used. Write the fraction and name both parts.",
+          "steps": ["8 equal pieces, so the denominator is 8.", "5 pieces used, so the numerator is 5."],
+          "answer": "5/8; numerator 5, denominator 8",
+          "check": "5 < 8"
+        },
+        {
+          "problem": "What is the denominator of 2/9?",
+          "steps": ["The denominator is the bottom number."],
+          "answer": "9",
+          "check": "2 < 9"
+        }
+      ],
+      "activity": {
+        "title": "Top and bottom",
+        "materials": ["Fraction cards with denominators up to 12", "Paper strips"],
+        "steps": [
+          "In a group, fold a paper strip into an equal number of parts, not more than 12.",
+          "Shade some of the parts and write the fraction.",
+          "Each learner points to the numerator and the denominator and says what each one means.",
+          "Swap cards and check that the bottom number matches the number of equal parts."
+        ]
+      },
+      "practice": [
+        { "question": "Name the numerator and the denominator of 5/8.", "answer": "Numerator 5, denominator 8", "check": "5 < 8" },
+        { "question": "Name the numerator and the denominator of 11/12.", "answer": "Numerator 11, denominator 12", "check": "11 < 12" },
+        { "question": "A bar is divided into 6 equal parts and 1 part is shaded. Write the fraction.", "answer": "1/6", "check": "1 < 6" },
+        { "question": "Why must the parts be equal before you write a fraction?", "answer": "The denominator counts equal parts. Unequal pieces are not fair parts of the whole.", "check": null }
+      ],
+      "summary": [
+        "The numerator is the top number. The denominator is the bottom number.",
+        "The denominator tells how many equal parts make the whole.",
+        "The numerator tells how many of those parts we mean."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Fractions as part of a whole",
+      "outcomes": ["b"],
+      "objectives": [
+        "Show a fraction by shading equal parts of a shape.",
+        "Read a fraction from a clock face or a folded strip."
+      ],
+      "intro": "A chapati cut into 4 equal pieces, with 1 piece taken, shows the fraction 1/4. The whole chapati is the shape, and the pieces must be the same size.",
+      "notes": "A fraction can describe part of one whole thing: a shape, a strip of paper, a chapati or a clock face. First divide the whole into equal parts. The number of parts is the denominator. Then shade or choose some parts. That number is the numerator.\n\n### Shapes\n\n- A circle divided into 4 equal parts, with 1 part shaded, is 1/4.\n- A rectangle divided into 8 equal parts, with 5 parts shaded, is 5/8.\n- A strip divided into 12 equal sections, with 7 sections coloured, is 7/12.\n\nIf the rectangle is divided into 8 parts that are not equal, the shaded picture is not 5/8, even if five pieces are coloured. Check the parts before you name the fraction.\n\n### A paper strip\nFold a strip into 2 equal parts for halves, 3 for thirds, or 4 for quarters. You can keep folding equal parts up to 12. Shade 3 of 5 equal parts and you have shown 3/5 of the strip.\n\n### A clock face\nA clock face is a circle marked in 12 hours, so it is already divided into 12 equal parts. From 12 to 3 is 3 hours, which is 3/12 of the clock face. From 12 to 6 is 6 hours, which is 6/12 of the clock face. Count the hours carefully. Do not count the numbers themselves as extra parts.\n\n### Writing what you see\nCount all the equal parts first, then count the shaded parts. Write shaded parts over all the parts. For denominators, stay at 12 or below.",
+      "keyWords": [
+        { "word": "whole", "meaning": "one complete thing that is divided into equal parts" },
+        { "word": "shade", "meaning": "colour the parts that the numerator counts" }
+      ],
+      "examples": [
+        {
+          "problem": "A circle is divided into 4 equal parts and 1 part is shaded. What fraction is shaded?",
+          "steps": ["There are 4 equal parts, so the denominator is 4.", "1 part is shaded, so the numerator is 1."],
+          "answer": "1/4",
+          "check": "1 < 4"
+        },
+        {
+          "problem": "A rectangle has 8 equal parts and 5 are shaded. What fraction is shaded?",
+          "steps": ["Denominator 8, numerator 5."],
+          "answer": "5/8",
+          "check": "5 < 8"
+        },
+        {
+          "problem": "Three hours have passed on a clock face divided into 12 hours. What fraction of the clock face is that?",
+          "steps": ["3 hours out of 12 equal hours.", "The fraction is 3/12."],
+          "answer": "3/12",
+          "check": "3 < 12"
+        }
+      ],
+      "activity": {
+        "title": "Cut-outs and a clock face",
+        "materials": ["Paper circles and rectangles", "A paper clock face", "Coloured pencils"],
+        "steps": [
+          "In pairs, divide a rectangle into 8 equal parts and shade 5 of them. Write 5/8.",
+          "Divide a circle into 4 equal parts and shade 1. Write 1/4.",
+          "On a clock face, colour from 12 to 3 and write the fraction of the 12 hours.",
+          "Swap work and check that every part of a shape is the same size."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 120\" font-family=\"sans-serif\"><rect width=\"420\" height=\"120\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"2\"><rect x=\"20\" y=\"30\" width=\"60\" height=\"60\" fill=\"#86efac\"/><rect x=\"80\" y=\"30\" width=\"60\" height=\"60\" fill=\"#86efac\"/><rect x=\"140\" y=\"30\" width=\"60\" height=\"60\" fill=\"#86efac\"/><rect x=\"200\" y=\"30\" width=\"60\" height=\"60\" fill=\"#ffffff\"/><rect x=\"260\" y=\"30\" width=\"60\" height=\"60\" fill=\"#ffffff\"/></g><text x=\"210\" y=\"112\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">3/5 of the strip is shaded</text></svg>",
+        "caption": "Three of five equal parts are shaded"
+      },
+      "practice": [
+        { "question": "A strip is divided into 5 equal parts and 3 are shaded. What fraction is shaded?", "answer": "3/5", "check": "3 < 5" },
+        { "question": "A circle is divided into 12 equal parts and 7 are shaded. What fraction is shaded?", "answer": "7/12", "check": "7 < 12" },
+        { "question": "Six hours out of 12 on a clock face is which fraction?", "answer": "6/12", "check": "6 < 12" },
+        { "question": "A shape is split into 4 pieces that are not equal, and 1 piece is coloured. Is the coloured part 1/4?", "answer": "No. The parts must be equal before the coloured part is 1/4.", "check": null }
+      ],
+      "summary": [
+        "Divide one whole into equal parts, then count the parts you mean.",
+        "The denominator is the total number of equal parts.",
+        "A clock face can show twelfths, because it has 12 hours."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Fractions as part of a group",
+      "outcomes": ["b"],
+      "objectives": [
+        "Write a fraction for part of a set of objects.",
+        "Tell the difference between part of a whole and part of a group."
+      ],
+      "intro": "Eight bottle tops are on the table and three of them are red. The fraction 3/8 does not come from cutting one bottle top. It comes from part of the group.",
+      "notes": "A fraction can also name part of a group. The whole group is the denominator. The objects you are talking about are the numerator. The objects are separate things, not pieces of one shape.\n\n### Examples from groups\n\n- 3 red bottle tops out of 8 bottle tops is 3/8.\n- 5 cracked eggs out of 12 eggs is 5/12.\n- 4 blue counters out of 10 counters is 4/10.\n- 2 learners who have finished, out of a group of 9, is 2/9.\n\nCount the whole group first. It is easy to count only the red ones and forget the others. If there are 3 red and 5 blue bottle tops, the group has 8, so the red fraction is 3/8, not 3/5.\n\n### Whole or group?\nPart of a whole is one object divided into equal pieces, such as 5/8 of a rectangle. Part of a group is some of the objects in a set, such as 5/8 of the counters. The fraction is written the same way. The story tells you which meaning you have.\n\n### Keep the denominator at 12 or below\nChoose groups of 2 to 12 objects. A group of 12 eggs is a useful limit. If you had 20 objects you would be past the denominator used in this grade, so work with a group of 12 or fewer.\n\nYou can show the fraction with counters: put out the whole group, push the chosen objects to one side, and write chosen over total.",
+      "keyWords": [
+        { "word": "group", "meaning": "a set of separate objects that together make the whole" },
+        { "word": "part of a group", "meaning": "some of the objects in a set, written as a fraction" }
+      ],
+      "examples": [
+        {
+          "problem": "There are 8 bottle tops and 3 are red. What fraction are red?",
+          "steps": ["The whole group has 8 bottle tops.", "3 of them are red.", "The fraction is 3/8."],
+          "answer": "3/8",
+          "check": "3 < 8"
+        },
+        {
+          "problem": "5 of 12 eggs are cracked. What fraction are cracked?",
+          "steps": ["Denominator 12, numerator 5."],
+          "answer": "5/12",
+          "check": "5 < 12"
+        },
+        {
+          "problem": "A group has 3 red and 5 blue bottle tops. What fraction are red?",
+          "steps": ["The whole group is 3 + 5 = 8.", "Red bottle tops: 3.", "The fraction is 3/8, not 3/5."],
+          "answer": "3/8",
+          "check": "3 + 5 === 8"
+        }
+      ],
+      "activity": {
+        "title": "Counters in a group",
+        "materials": ["Counters of two colours", "A tin or circle of string to hold the group"],
+        "steps": [
+          "Put 8 counters in the ring. Make 3 of them a different colour.",
+          "Write the fraction for the coloured counters and for the other counters.",
+          "Repeat with 10 counters and with 12 counters.",
+          "Explain to a partner how this is different from shading part of one rectangle."
+        ]
+      },
+      "practice": [
+        { "question": "4 of 10 counters are blue. What fraction are blue?", "answer": "4/10", "check": "4 < 10" },
+        { "question": "2 of 9 learners have finished. What fraction have finished?", "answer": "2/9", "check": "2 < 9" },
+        { "question": "A group has 4 red counters and 8 green counters. What fraction are red?", "answer": "4/12", "check": "4 + 8 === 12" },
+        { "question": "Is 3 red counters out of 8 a part of a whole or a part of a group?", "answer": "A part of a group", "check": null }
+      ],
+      "summary": [
+        "In a group, the denominator is the number of objects in the whole set.",
+        "The numerator is the number of objects you are naming.",
+        "Count every object in the group, not only the ones you are interested in."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Proper, improper and mixed fractions",
+      "outcomes": ["c"],
+      "objectives": [
+        "Identify a proper fraction, an improper fraction and a mixed number.",
+        "Match each type to a picture of a whole or a group."
+      ],
+      "intro": "Three fifths of a chapati is less than one chapati. Seven quarters is more than one chapati. The size of the numerator compared with the denominator tells you which kind of fraction you have.",
+      "notes": "Fractions come in three types that you can tell apart by looking at the numbers.\n\n### Proper fractions\nThe numerator is smaller than the denominator. The value is less than one whole. Examples: 3/5, 7/12, 1/2 and 5/8. If you shade 3 parts of a shape that has 5 equal parts, some of the shape is still unshaded.\n\n### Improper fractions\nThe numerator is equal to or bigger than the denominator. The value is one whole or more than one whole. Examples: 5/5, 7/4, 12/12 and 9/2. The fraction 5/5 means all 5 parts, so it is exactly 1. The fraction 7/4 means 7 quarters. One whole needs only 4 quarters, so 7/4 is more than one whole. You may need two shapes to show it: one whole shape shaded, and 3 of the 4 parts of a second shape.\n\n### Mixed numbers\nA mixed number, also called a mixed fraction, has a whole number and a proper fraction together. Examples: 1 3/4 and 2 1/3. The whole number tells how many complete wholes, and the fraction tells the extra part. So 1 3/4 means 1 whole and 3 quarters more. It is the same amount as the improper fraction 7/4, but the mixed number shows the wholes clearly.\n\n### Sorting in real life\nHalf a cup of water is a proper fraction, 1/2. Two full cups and a half is a mixed number, 2 1/2. Seven half-cups, written 7/2, is an improper fraction. Look at the numbers, or look at whether you have less than one whole, exactly the wholes, or wholes plus a part.",
+      "keyWords": [
+        { "word": "proper fraction", "meaning": "a fraction whose numerator is smaller than its denominator" },
+        { "word": "improper fraction", "meaning": "a fraction whose numerator is equal to or bigger than its denominator" },
+        { "word": "mixed number", "meaning": "a whole number together with a proper fraction" }
+      ],
+      "examples": [
+        {
+          "problem": "What type of fraction is 3/5?",
+          "steps": ["3 is smaller than 5.", "The fraction is less than one whole."],
+          "answer": "Proper fraction",
+          "check": "3 < 5"
+        },
+        {
+          "problem": "What type of fraction is 7/4?",
+          "steps": ["7 is bigger than 4.", "The fraction is more than one whole."],
+          "answer": "Improper fraction",
+          "check": "7 > 4"
+        },
+        {
+          "problem": "What type of number is 2 1/3?",
+          "steps": ["There is a whole number, 2, and a proper fraction, 1/3."],
+          "answer": "Mixed number",
+          "check": "1 < 3"
+        }
+      ],
+      "activity": {
+        "title": "Sort the cut-outs",
+        "materials": ["Paper circles cut into equal parts, up to 12", "Three labelled cards: Proper, Improper, Mixed"],
+        "steps": [
+          "In a group, show 3/5 by shading part of one circle. Place it under Proper.",
+          "Show 7/4 using two circles. Place that picture under Improper.",
+          "Show 1 3/4 as one whole circle and 3 quarters of another. Place it under Mixed.",
+          "Write the fraction next to each picture and explain your sorting to another group."
+        ]
+      },
+      "practice": [
+        { "question": "Is 7/12 proper or improper?", "answer": "Proper", "check": "7 < 12" },
+        { "question": "Is 9/2 proper or improper?", "answer": "Improper", "check": "9 > 2" },
+        { "question": "Is 5/5 proper or improper?", "answer": "Improper, and it is equal to 1 whole", "check": "5 === 5" },
+        { "question": "What type of number is 1 3/4?", "answer": "Mixed number", "check": "3 < 4" }
+      ],
+      "summary": [
+        "A proper fraction is less than one whole.",
+        "An improper fraction is one whole or more.",
+        "A mixed number shows the wholes and the fraction that is left."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Changing improper fractions to mixed numbers",
+      "outcomes": ["d"],
+      "objectives": [
+        "Divide the numerator by the denominator.",
+        "Write the quotient as the whole number and the remainder as the new numerator."
+      ],
+      "intro": "Seven thirds is hard to picture until you ask how many groups of 3 are in 7. That division turns the improper fraction 7/3 into the mixed number 2 1/3.",
+      "notes": "An improper fraction can be written as a mixed number. Divide the numerator by the denominator.\n\n- The quotient is the whole number.\n- The remainder is the new numerator.\n- The denominator stays the same.\n\n### Worked examples\n7/3. Divide 7 by 3: 3 × 2 = 6, and the remainder is 1. So 7/3 = 2 1/3. Two wholes, and 1 third left over.\n\n11/4. Divide 11 by 4: 4 × 2 = 8, remainder 3. So 11/4 = 2 3/4.\n\n13/5. Divide 13 by 5: 5 × 2 = 10, remainder 3. So 13/5 = 2 3/5.\n\n10/3. Divide 10 by 3: 3 × 3 = 9, remainder 1. So 10/3 = 3 1/3.\n\n17/6. Divide 17 by 6: 6 × 2 = 12, remainder 5. So 17/6 = 2 5/6.\n\n### When the remainder is 0\n9/9. Divide 9 by 9: the quotient is 1 and the remainder is 0. There is no fraction left, so 9/9 = 1. In the same way, 8/2 = 4, because 2 × 4 = 8 exactly.\n\n### A picture check\n2 1/3 means two whole shapes and 1 of 3 equal parts of another. Altogether that is 3 + 3 + 1 = 7 thirds, which is 7/3. If your picture does not match the improper fraction, divide again.\n\nThe remainder must be smaller than the denominator. If it is not, the whole-number part is too small.",
+      "keyWords": [
+        { "word": "convert", "meaning": "rewrite a fraction in another form without changing its value" },
+        { "word": "quotient", "meaning": "the whole-number result of dividing the numerator by the denominator" }
+      ],
+      "examples": [
+        {
+          "problem": "Convert 7/3 to a mixed number.",
+          "steps": ["7 ÷ 3 = 2 remainder 1", "The whole number is 2 and the fraction is 1/3."],
+          "answer": "2 1/3",
+          "check": "Math.floor(7/3) === 2 && 7 % 3 === 1"
+        },
+        {
+          "problem": "Convert 11/4 to a mixed number.",
+          "steps": ["11 ÷ 4 = 2 remainder 3", "Write 2 3/4."],
+          "answer": "2 3/4",
+          "check": "Math.floor(11/4) === 2 && 11 % 4 === 3"
+        },
+        {
+          "problem": "Convert 9/9 to a mixed number or a whole number.",
+          "steps": ["9 ÷ 9 = 1 remainder 0", "There is no extra fraction."],
+          "answer": "1",
+          "check": "9 % 9 === 0 && 9 / 9 === 1"
+        }
+      ],
+      "activity": {
+        "title": "Wholes from an improper fraction",
+        "materials": ["Paper circles cut into equal parts", "Counters"],
+        "steps": [
+          "Take 7 paper thirds. Group them into wholes of 3 thirds.",
+          "Record 2 wholes and 1 third, and write 7/3 = 2 1/3.",
+          "Repeat with 11 quarter-circles to show 11/4 = 2 3/4.",
+          "Discuss in your group how the remainder of the division becomes the numerator."
+        ]
+      },
+      "practice": [
+        { "question": "Convert 15/4 to a mixed number.", "answer": "3 3/4", "check": "Math.floor(15/4) === 3 && 15 % 4 === 3" },
+        { "question": "Convert 11/2 to a mixed number.", "answer": "5 1/2", "check": "Math.floor(11/2) === 5 && 11 % 2 === 1" },
+        { "question": "Convert 19/6 to a mixed number.", "answer": "3 1/6", "check": "Math.floor(19/6) === 3 && 19 % 6 === 1" },
+        { "question": "Convert 12/5 to a mixed number.", "answer": "2 2/5", "check": "Math.floor(12/5) === 2 && 12 % 5 === 2" }
+      ],
+      "summary": [
+        "Divide the numerator by the denominator.",
+        "The quotient is the whole number and the remainder is the new numerator.",
+        "If the remainder is 0, the result is a whole number."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Changing mixed numbers to improper fractions",
+      "outcomes": ["e", "f"],
+      "objectives": [
+        "Turn a mixed number into an improper fraction.",
+        "Use fractions to describe everyday amounts."
+      ],
+      "intro": "A tailor has 2 metres of cloth and 1/3 of a metre more. The mixed number 2 1/3 is clear in the shop, and the improper fraction 7/3 is useful when every part must be counted in thirds.",
+      "notes": "To change a mixed number to an improper fraction, count every part, including the parts hidden inside the wholes.\n\n### The rule\nWhole number × denominator, then add the numerator. Write that total over the same denominator.\n\n2 1/3 = (2 × 3 + 1) / 3 = 7/3.\nThe 2 wholes make 6 thirds, and the extra 1 third makes 7 thirds.\n\n### More conversions\n\n- 3 2/5 = (3 × 5 + 2) / 5 = 17/5\n- 1 3/4 = (1 × 4 + 3) / 4 = 7/4\n- 4 1/2 = (4 × 2 + 1) / 2 = 9/2\n- 2 1/4 = (2 × 4 + 1) / 4 = 9/4\n- 5 5/12 = (5 × 12 + 5) / 12 = 65/12\n\n### Check by going backwards\nConvert 7/3 back to a mixed number: 7 ÷ 3 = 2 remainder 1, which is 2 1/3. If you do not get the mixed number you started with, multiply again.\n\n### Fractions in daily life\nPeople use fractions whenever a whole is not enough to describe the amount.\n\n- Half a chapati is 1/2.\n- Three quarters of a garden bed is 3/4.\n- A piece of rope that is 2 metres and a quarter is 2 1/4 metres, or 9/4 metres.\n- One and a half hours is 1 1/2 hours, or 3/2 hours.\n\nThe mixed number is often easier to say. The improper fraction is easier when you are counting equal parts. Both are correct, and choosing the helpful form is part of using fractions well.",
+      "keyWords": [
+        { "word": "improper fraction", "meaning": "a fraction equal to or greater than one whole" },
+        { "word": "mixed number", "meaning": "a whole number and a proper fraction written together" }
+      ],
+      "examples": [
+        {
+          "problem": "Convert 2 1/3 to an improper fraction.",
+          "steps": ["2 × 3 = 6", "6 + 1 = 7", "Write 7/3."],
+          "answer": "7/3",
+          "check": "2 * 3 + 1 === 7"
+        },
+        {
+          "problem": "Convert 3 2/5 to an improper fraction.",
+          "steps": ["3 × 5 = 15", "15 + 2 = 17", "Write 17/5."],
+          "answer": "17/5",
+          "check": "3 * 5 + 2 === 17"
+        },
+        {
+          "problem": "A rope is 2 1/4 metres long. Write the length as an improper fraction.",
+          "steps": ["2 × 4 + 1 = 9", "The length is 9/4 metres."],
+          "answer": "9/4 metres",
+          "check": "2 * 4 + 1 === 9"
+        }
+      ],
+      "activity": {
+        "title": "From wholes back to parts",
+        "materials": ["Paper wholes cut into equal parts", "Exercise book"],
+        "steps": [
+          "Show 2 1/3 with paper thirds: two whole circles and one extra third.",
+          "Count every third and write 7/3.",
+          "Repeat with 1 3/4 and with 4 1/2.",
+          "Tell the group one time at home when you use a fraction, such as half a chapati or a quarter of an hour."
+        ]
+      },
+      "practice": [
+        { "question": "Convert 3 1/5 to an improper fraction.", "answer": "16/5", "check": "3 * 5 + 1 === 16" },
+        { "question": "Convert 2 3/8 to an improper fraction.", "answer": "19/8", "check": "2 * 8 + 3 === 19" },
+        { "question": "Convert 1 1/2 to an improper fraction.", "answer": "3/2", "check": "1 * 2 + 1 === 3" },
+        { "question": "Convert 4 2/3 to an improper fraction.", "answer": "14/3", "check": "4 * 3 + 2 === 14" }
+      ],
+      "summary": [
+        "Multiply the whole number by the denominator and add the numerator.",
+        "Keep the same denominator.",
+        "Fractions describe parts of food, time, rope and gardens."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "In the fraction 7/12, which number is the denominator?", "options": ["7", "12", "19", "5"], "answer": "B", "explanation": "The denominator is the bottom number.", "outcome": "a", "check": "7 < 12" },
+    { "question": "A rope cut into 8 equal pieces has 5 pieces used. Which fraction shows the used pieces?", "answer": "5/8", "explanation": "5 is the numerator and 8 is the denominator.", "outcome": "a", "check": "5 < 8" },
+    { "question": "A rectangle has 8 equal parts and 5 are shaded. What fraction is shaded?", "options": ["8/5", "5/8", "5/3", "3/8"], "answer": "B", "explanation": "Shaded parts over all the equal parts is 5/8.", "outcome": "b", "check": "5 < 8" },
+    { "question": "Three hours out of 12 on a clock face is which fraction?", "answer": "3/12", "explanation": "The clock face is the whole, divided into 12 hours.", "outcome": "b", "check": "3 < 12" },
+    { "question": "3 of 8 bottle tops are red. What fraction are red?", "options": ["3/5", "8/3", "3/8", "5/8"], "answer": "C", "explanation": "The whole group has 8 bottle tops, and 3 of them are red.", "outcome": "b", "check": "3 < 8" },
+    { "question": "What type of fraction is 7/4?", "options": ["Proper", "Improper", "Mixed", "Whole only"], "answer": "B", "explanation": "7 is bigger than 4, so the fraction is more than one whole.", "outcome": "c", "check": "7 > 4" },
+    { "question": "Convert 7/3 to a mixed number.", "answer": "2 1/3", "explanation": "7 ÷ 3 = 2 remainder 1.", "outcome": "d", "check": "Math.floor(7/3) === 2 && 7 % 3 === 1" },
+    { "question": "Convert 11/4 to a mixed number.", "answer": "2 3/4", "explanation": "11 ÷ 4 = 2 remainder 3.", "outcome": "d", "check": "Math.floor(11/4) === 2 && 11 % 4 === 3" },
+    { "question": "Convert 2 1/3 to an improper fraction.", "options": ["7/3", "6/3", "5/3", "3/7"], "answer": "A", "explanation": "2 × 3 + 1 = 7, so the fraction is 7/3.", "outcome": "e", "check": "2 * 3 + 1 === 7" },
+    { "question": "A rope is 2 1/4 metres long. Write this as an improper fraction.", "answer": "9/4 metres", "explanation": "2 × 4 + 1 = 9, so the length is 9/4 metres.", "outcome": "f", "check": "2 * 4 + 1 === 9" }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 1.0 Numbers, Sub-strand 1.6 Fractions"
+  ]
+}

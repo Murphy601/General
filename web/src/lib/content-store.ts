@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 import type { ContentType, GeneratedContent, CurriculumGrade } from './types';
 import { GRADE_ORDER, gradeStage } from './types';
@@ -12,10 +12,24 @@ function ensureDir() {
   mkdirSync(CONTENT_DIR, { recursive: true });
 }
 
+const jsonCache = new Map<string, { mtimeMs: number; value: unknown }>();
+
+/** index.json is tens of MB; re-parse it only when the file changes. */
+function readJsonCached<T>(path: string): T {
+  const { mtimeMs } = statSync(path);
+  const hit = jsonCache.get(path);
+  if (hit && hit.mtimeMs === mtimeMs) return hit.value as T;
+  const value = JSON.parse(readFileSync(path, 'utf8')) as T;
+  jsonCache.set(path, { mtimeMs, value });
+  return value;
+}
+
 function readIndex(): GeneratedContent[] {
   ensureDir();
   if (!existsSync(INDEX_PATH)) return [];
-  return JSON.parse(readFileSync(INDEX_PATH, 'utf8'));
+  const items = readJsonCached<GeneratedContent[]>(INDEX_PATH);
+  const only = process.env.DEPLOY_GRADE;
+  return only ? items.filter((item) => item.topic?.grade === only) : [...items];
 }
 
 export function listContent(filters?: {
@@ -100,7 +114,7 @@ function parseStudyPagesFromLesson(lesson: string) {
 
 export function getCurriculumIndex(): { grades: CurriculumGrade[] } | null {
   if (!existsSync(CURRICULUM_INDEX)) return null;
-  return JSON.parse(readFileSync(CURRICULUM_INDEX, 'utf8'));
+  return readJsonCached<{ grades: CurriculumGrade[] }>(CURRICULUM_INDEX);
 }
 
 export function getGrades(options?: { includeEmpty?: boolean; includeSne?: boolean }): Array<{
@@ -129,6 +143,7 @@ export function getGrades(options?: { includeEmpty?: boolean; includeSne?: boole
       if (!options?.includeEmpty && g.topicCount === 0) return false;
       if (!options?.includeSne && g.grade.startsWith('sne/')) return false;
       if (g.grade === 'curriculum-designs') return false;
+      if (process.env.DEPLOY_GRADE && g.grade !== process.env.DEPLOY_GRADE) return false;
       return true;
     })
     .sort((a, b) => {

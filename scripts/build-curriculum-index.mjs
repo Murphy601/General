@@ -12,6 +12,7 @@ import {
   gradeSortKey,
   INDEX_PATH,
 } from './curriculum-source.mjs';
+import { applyGrade4Index } from './grade4/curriculum.mjs';
 
 const byGrade = {};
 
@@ -56,6 +57,9 @@ const output = {
   grades,
 };
 
+// Grade 4 topics come from the validated KICD syllabus files, not from heuristic extraction.
+applyGrade4Index(output);
+
 mkdirSync(dirname(INDEX_PATH), { recursive: true });
 writeFileSync(INDEX_PATH, JSON.stringify(output, null, 2));
-console.log(`Index v2: ${grades.length} grades, ${totalTopics} topics`);
+console.log(`Index v2: ${grades.length} grades, ${output.totalTopics} topics`);

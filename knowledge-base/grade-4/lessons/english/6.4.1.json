@@ -1,0 +1,177 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "6.4.1",
+  "title": "Writing: Creative Writing (Pictorial Compositions)",
+  "overview": "A pictorial composition is a short story written from pictures. In this sub-strand you will put pictures about email and the internet into a sensible order, write about 60 to 80 words from them, and choose other pictures safely when you want a new topic.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Putting pictures in order",
+      "outcomes": ["a"],
+      "objectives": [
+        "Say what is happening in each picture before you write.",
+        "Arrange pictures so the story moves from start to finish.",
+        "Explain why one order is more logical than another."
+      ],
+      "intro": "Four pictures can tell a story only if they stand in the right queue. If the reply arrives before the email is written, the reader cannot trust the writer.",
+      "notes": "### Look before you order\nA pictorial composition begins with looking, not with writing. For each picture, say:\n\n- Who is in it?\n- Where are they?\n- What are they doing?\n- What might have happened just before, and what might happen next?\n\nUse only what you can see, plus a sensible link between pictures. Do not invent a crash, a prize or a private address that no picture shows.\n\n### Four pictures about an email\nPicture A. A girl and her aunt sit at a computer. The girl points at a button labelled Compose.\nPicture B. The girl types. The aunt points at an email address on a slip of paper.\nPicture C. The girl's finger is near Send. Both of them are looking at the address on the screen.\nPicture D. The girl smiles. A new line in the inbox shows that a reply has arrived. The aunt nods.\n\nThe logical order is A, B, C, D. She prepares to write, she types and checks the address, she sends, and then a reply comes. Order D, A, C, B would make the reply appear before the typing, which does not make sense.\n\n### Clues that lock the order\nCompose comes before a finished message. Checking the address comes before Send. A reply cannot arrive before something was sent, unless the picture is clearly about an older message. In this set, the smile and the inbox belong at the end.\n\nIf two orders seem possible, choose the one you can tell in words without adding 'suddenly everything went backwards'. Logical order is the order a careful person would live through.\n\n### From order to notes\nWrite one short note under each picture, not a full story yet.\n\nA. Open Compose with an adult.\nB. Type the message and the address.\nC. Check, then send.\nD. A reply arrives.\n\nThose notes are the bones of a 60 to 80 word composition. The next lesson puts sentences on them.",
+      "keyWords": [
+        { "word": "pictorial composition", "meaning": "a piece of writing that tells a story based on a series of pictures" },
+        { "word": "logical order", "meaning": "an order in which each step follows sensibly from the one before" },
+        { "word": "compose", "meaning": "to start writing a new email" }
+      ],
+      "examples": [
+        {
+          "problem": "Why can Picture D not come first?",
+          "steps": ["Picture D shows a reply in the inbox.", "A reply comes after a message has been sent."],
+          "answer": "The reply has to follow the sending, so D belongs at the end."
+        },
+        {
+          "problem": "Which picture shows the safety check?",
+          "steps": ["Look for the moment when they study the address before sending.", "That is Picture C."],
+          "answer": "Picture C"
+        }
+      ],
+      "activity": {
+        "title": "Order the four pictures",
+        "materials": ["Four picture cards of the email story, labelled on the back only", "Paper for notes"],
+        "steps": [
+          "In a group, lay the pictures out in the order you first think is right.",
+          "Each learner describes one picture in a single sentence.",
+          "Agree on a final order and write a four-line note plan.",
+          "Explain to another group why Compose cannot follow the reply."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 150\" font-family=\"sans-serif\"><rect width=\"520\" height=\"150\" fill=\"#f8fafc\"/><rect x=\"10\" y=\"20\" width=\"110\" height=\"90\" rx=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\"/><text x=\"65\" y=\"48\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1d4ed8\">A</text><text x=\"65\" y=\"72\" text-anchor=\"middle\" font-size=\"11\" fill=\"#111827\">Compose</text><text x=\"65\" y=\"90\" text-anchor=\"middle\" font-size=\"11\" fill=\"#111827\">with an adult</text><rect x=\"140\" y=\"20\" width=\"110\" height=\"90\" rx=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\"/><text x=\"195\" y=\"48\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1d4ed8\">B</text><text x=\"195\" y=\"72\" text-anchor=\"middle\" font-size=\"11\" fill=\"#111827\">Type the</text><text x=\"195\" y=\"90\" text-anchor=\"middle\" font-size=\"11\" fill=\"#111827\">address</text><rect x=\"270\" y=\"20\" width=\"110\" height=\"90\" rx=\"6\" fill=\"#fff\" stroke=\"#1d4ed8\"/><text x=\"325\" y=\"48\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1d4ed8\">C</text><text x=\"325\" y=\"72\" text-anchor=\"middle\" font-size=\"11\" fill=\"#111827\">Check, then</text><text x=\"325\" y=\"90\" text-anchor=\"middle\" font-size=\"11\" fill=\"#111827\">send</text><rect x=\"400\" y=\"20\" width=\"110\" height=\"90\" rx=\"6\" fill=\"#fff\" stroke=\"#166534\"/><text x=\"455\" y=\"48\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#166534\">D</text><text x=\"455\" y=\"72\" text-anchor=\"middle\" font-size=\"11\" fill=\"#111827\">A reply</text><text x=\"455\" y=\"90\" text-anchor=\"middle\" font-size=\"11\" fill=\"#111827\">arrives</text></svg>",
+        "caption": "A logical picture order: compose, type, check and send, then receive a reply"
+      },
+      "practice": [
+        { "question": "What four questions help you read one picture?", "answer": "Who is in it? Where are they? What are they doing? What might come before and after?" },
+        { "question": "Write the correct order of Pictures A, B, C and D.", "answer": "A, B, C, D" },
+        { "question": "Why is checking the address before Send a logical step?", "answer": "It stops the message from going to the wrong person. The picture of Send comes after the typing and before the reply." }
+      ],
+      "summary": [
+        "Describe each picture before you decide the order.",
+        "Compose, type, check, send, then reply is a logical email story.",
+        "Notes under the pictures become the plan for the composition."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Writing 60 to 80 words from pictures",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Turn a four-picture plan into a short composition.",
+        "Keep the writing between about 60 and 80 words.",
+        "Use linking words so the pictures feel like one story."
+      ],
+      "intro": "A picture will not write the sentences for you. It gives you the events. You still choose the words, the order and the length.",
+      "notes": "### From notes to a story\nTake the four notes from the email pictures and join them with linking words: one afternoon, first, then, after that, soon.\n\nName the people once, then use she or they. Stay in the past tense if the pictures show a finished afternoon. Mention the adult, because the pictures include the aunt. Do not add a password, a home address or a strange link. The pictures do not show those things, and they are not safe extras.\n\n### A model\nThe model below is the length you are aiming for. Count the story, not the title.\n\nA Reply in the Inbox\n\nOne afternoon Awuor sat with her aunt at the computer. She wanted to email her cousin. First she clicked Compose and typed the address carefully. Then she wrote a short, polite note about the music festival. Her aunt checked the address with her. After that, Awuor clicked Send. Soon a reply arrived in the inbox. Awuor was glad she had asked an adult before she used the internet.\n\nRead it against the pictures. Compose is there. Typing is there. The check and Send are there. The reply is there. Nothing important has been skipped, and nothing unsafe has been added.\n\n### Hitting the word count\nWrite your own version about the same pictures or about a similar set your teacher shows you. Change the name, the reason for the email, or the simile-free detail so the piece is yours. You do not have to copy the model.\n\nCount every word in the story. If you are under 60, add one sentence you can actually see, such as the smile or the nod. If you are over 80, remove a repeated idea. Keep a beginning, a middle and an ending.\n\n### A last read\nAsk: would a reader who never saw the pictures still understand what happened? If yes, the composition works. If the reader would not know why an adult is there, put the adult back in.",
+      "keyWords": [
+        { "word": "linking word", "meaning": "a word such as first, then or soon that joins events" },
+        { "word": "word count", "meaning": "the number of words in the story, not counting the title" },
+        { "word": "model", "meaning": "an example you can learn from without copying it word for word" }
+      ],
+      "examples": [
+        {
+          "problem": "The draft never mentions Send, but Picture C shows it. What should the writer do?",
+          "steps": ["Every important picture needs a place in the story.", "Add a short sentence about checking the address and clicking Send."],
+          "answer": "Add a sentence for Picture C so the reply has a reason to arrive."
+        },
+        {
+          "problem": "The draft is 95 words because it explains how to build a computer. What should go?",
+          "steps": ["The pictures are about sending an email, not about building a machine.", "Cut the extra explanation."],
+          "answer": "Cut the building explanation and keep the email story near 60 to 80 words."
+        }
+      ],
+      "activity": {
+        "title": "Write from the picture plan",
+        "materials": ["The ordered pictures or the diagram", "Exercise books"],
+        "steps": [
+          "Discuss the pictures once more and agree the order.",
+          "Each learner writes a composition of about 60 to 80 words. Include the adult and the four steps.",
+          "Count the words. Adjust the draft.",
+          "Read two compositions aloud. The class says which picture each sentence matches."
+        ]
+      },
+      "practice": [
+        { "question": "Does the title count in the 60 to 80 words?", "answer": "No. Count the words of the story only." },
+        { "question": "Name the four actions the email pictures should lead you to mention.", "answer": "Opening Compose, typing the address and message, checking and sending, and receiving a reply." },
+        { "question": "Why should you not add a password to this story?", "answer": "The pictures do not show one, and a password should not be written in a message or shared in a story as if that were safe." },
+        { "question": "What can you add if the story is only 45 words long?", "answer": "One true detail from the pictures, such as the aunt checking the address or the smile when the reply arrives." }
+      ],
+      "summary": [
+        "Join the pictures with linking words and the past tense.",
+        "Aim for about 60 to 80 words, not counting the title.",
+        "Include what the pictures show, including the adult and the safety check."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Using many kinds of pictures safely",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Choose drawings, photographs or video scenes as starting points for writing.",
+        "Write a short pictorial composition on a new but familiar topic.",
+        "Follow cyber-safety rules when pictures come from the internet."
+      ],
+      "intro": "Once you can write from four email pictures, you can write from a market photograph, a road-safety poster or a short video. The skill stays the same. The safety rules change only when the picture comes from a screen.",
+      "notes": "### Pictures you can use\nA wide range means more than one kind.\n\n- A drawing or comic your teacher gives you\n- A photograph in a textbook or newspaper\n- A poster about road safety or a balanced meal\n- A paused moment from a video the class watches together\n- A picture you took of your own schoolwork, with permission\n\nFor any set, order the moments, name what you see, and write about 60 to 80 words. A poster with one picture can still give a composition if you describe the scene, the choice a person makes, and the result.\n\n### A second topic, still in order\nImagine three pictures of a different afternoon.\n\n1. Learners watch a short video of a footbridge with their teacher.\n2. They draw the bridge and a railway crossing in their books.\n3. They pin the drawings on the wall and explain them.\n\nA composition from those pictures might say: Our teacher played a short video of a footbridge. First we watched quietly. Then we drew the bridge and a railway crossing. After that we pinned the drawings on the wall and told the class why we should cross only when the way is safe. The pictures helped us remember the lesson.\n\nCount a draft like that and stretch or trim it into the 60 to 80 word range if your teacher asks for that length.\n\n### Cyber safety\nIf you look for pictures on the internet, do it with a teacher or parent. Use a site they have opened. Do not download files from a stranger. Do not click a picture that leads to a prize or a request for your address. Do not copy a classmate's face into your story online without asking. School writing can use drawings and printed pictures when no device is free.\n\nGive a simple credit when you know the source: 'Photograph from our class textbook' or 'Drawing by our group'. You do not need a long bibliography. You do need honesty about what you saw.\n\nFeelings belong in the writing too. A picture of a reply arriving may make you write that Awuor was glad. A picture of a busy road may make you write that the children were careful. Name the feeling you can defend from the picture, and respect a partner who reads the same picture a little differently.",
+      "keyWords": [
+        { "word": "photograph", "meaning": "a picture taken with a camera" },
+        { "word": "source", "meaning": "the place a picture or fact came from" },
+        { "word": "cyber safety", "meaning": "habits that keep you safer when you use the internet" },
+        { "word": "credit", "meaning": "a short note that says where a picture came from" }
+      ],
+      "examples": [
+        {
+          "problem": "A search result shows a bright 'You have won' picture and asks you to click. Should you use it for a composition?",
+          "steps": ["It is an unknown prize lure, not a class picture.", "Tell an adult and choose a picture the teacher has approved."],
+          "answer": "No. Do not click it. Use an approved drawing, textbook photo or class video still."
+        },
+        {
+          "problem": "How is a video still like a picture in a composition?",
+          "steps": ["A paused video gives one moment you can describe.", "Several pauses can be ordered like several pictures."],
+          "answer": "You describe what you see in that moment, and you can order several moments into a story."
+        }
+      ],
+      "activity": {
+        "title": "A new set of pictures",
+        "materials": ["Textbook pictures, drawings, or a short video the teacher plays", "Paper"],
+        "steps": [
+          "As a group, choose three or four pictures from class materials, or watch a short approved video and sketch three moments.",
+          "Order them and discuss what feeling each one suggests.",
+          "Each learner writes about 60 to 80 words. Add a one-line credit for the source.",
+          "If anyone found a picture online, they explain who opened the site and why they did not click unknown links."
+        ]
+      },
+      "practice": [
+        { "question": "Name two kinds of pictures you can write from besides a computer drawing.", "answer": "A textbook photograph, a poster, a newspaper picture, a comic, or a paused video. Any two are acceptable." },
+        { "question": "What should you do before you search for pictures on the internet?", "answer": "Ask a teacher or parent and use a site they have opened. Do not download from strangers or click prize links." },
+        { "question": "What is a simple credit?", "answer": "A short note such as 'Drawing by our group' or 'Photograph from our class textbook'." },
+        { "question": "Why can two learners describe the same picture with slightly different feelings?", "answer": "A picture can suggest more than one careful reading. They should still stick to what the picture shows and listen to each other." }
+      ],
+      "summary": [
+        "Drawings, photographs, posters and video stills can all start a composition.",
+        "Keep the story about 60 to 80 words and in logical order.",
+        "Use the internet for pictures only with an adult, and say where the picture came from."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Before writing a pictorial composition you should", "options": ["hide the pictures", "say what each picture shows and put them in order", "click every link on the page", "write the ending first and ignore the drawings"], "answer": "B", "explanation": "Looking and ordering come before the sentences.", "outcome": "a" },
+    { "question": "In the email pictures, which order is logical?", "options": ["Reply, send, compose, type", "Compose, type, check and send, reply", "Send, then compose, then delete the adult", "Inbox first, with no message written"], "answer": "B", "explanation": "A reply arrives only after a message has been composed and sent.", "outcome": "a" },
+    { "question": "Picture C, with a finger near Send, belongs", "options": ["before anyone opens Compose", "after typing and before the reply", "after the story has ended", "in a different subject"], "answer": "B", "explanation": "Checking and sending sit between the typing and the reply.", "outcome": "a" },
+    { "question": "The story part of the composition should be about", "options": ["60 to 80 words", "6 words", "600 words", "a password and a home address"], "answer": "A", "explanation": "That is the length for this sub-strand. The title is extra.", "outcome": "b" },
+    { "question": "Which sentence best links two pictures?", "options": ["First she clicked Compose. Then she typed the address.", "Computer computer computer.", "Password is 1234 and my home is here.", "Suddenly the reply arrived before she wrote."], "answer": "A", "explanation": "First and Then keep the pictures in a possible order without sharing private information.", "outcome": "b" },
+    { "question": "If a draft is far too long, the writer should", "options": ["add another unrelated story", "cut repeated ideas and stay with the pictures", "include a stranger's phone number", "remove all the verbs"], "answer": "B", "explanation": "The composition should stay near 60 to 80 words and follow the pictures.", "outcome": "b" },
+    { "question": "A video the class watches can help you write because", "options": ["you can order moments you saw", "you should copy any link in the corner", "videos replace all sentences", "you must download unknown files"], "answer": "A", "explanation": "Paused moments work like pictures in a sequence.", "outcome": "c" },
+    { "question": "Looking online for pictures is safer when", "options": ["you click every prize you see", "a teacher or parent opens an approved site and stays with you", "you send your address to get a download", "you use a stranger's password"], "answer": "B", "explanation": "Cyber safety means an adult chooses the site and you avoid unknown links.", "outcome": "c" },
+    { "question": "A credit in this lesson is", "options": ["a loan of money", "a short note saying where the picture came from", "a password", "the inbox"], "answer": "B", "explanation": "Honesty about the source is enough at this level.", "outcome": "c" },
+    { "question": "Write one sentence that could match a picture of an adult and a child checking an email address.", "answer": "Awuor and her aunt checked the address before she clicked Send.", "explanation": "The sentence names the people and the safety check the picture shows.", "outcome": "b" }
+  ],
+  "sources": [
+    "KICD Grade 4 English Curriculum Design (Revised 2024) — Theme 6.0 Internet-Email, Sub-strand 6.4.1 Creative Writing: Pictorial Compositions"
+  ]
+}

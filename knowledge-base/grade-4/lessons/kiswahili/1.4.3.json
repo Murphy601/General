@@ -1,0 +1,308 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "1.4.3",
+  "title": "Sarufi: Vivumishi",
+  "overview": "Kivumishi ni neno linaloeleza sifa ya nomino. Utajifunza mizizi kama -zuri, -baya, -refu, -fupi, -eusi na -eupe, utavitambua katika maneno na sentensi, na utavitumia vikiambatana na nomino ipasavyo. Sifa sahihi hufanya maelezo yako ya nyumbani yawe wazi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya kivumishi na jinsi ya kukitambua",
+      "outcomes": [
+        "a",
+        "b"
+      ],
+      "objectives": [
+        "Kueleza maana ya kivumishi.",
+        "Kutambua mizizi ya vivumishi katika orodha.",
+        "Kutofautisha kivumishi na nomino na kitenzi."
+      ],
+      "intro": "Shati linaweza kuwa jeupe au jeusi. Meza inaweza kuwa ndefu au fupi. Maneno hayo hayaelezi jina peke yake wala tendo. Yanaeleza sifa. Katika sarufi tunayaita vivumishi.",
+      "notes": "### Kivumishi ni nini?\nKivumishi ni neno linaloeleza sifa ya nomino. Huuliza: kitu hiki ni cha namna gani? Wingi wa kivumishi ni vivumishi. Mizizi tunayoitazama leo ni -zuri, -baya, -refu, -fupi, -eusi na -eupe. Mstari kabla ya mzizi unaonyesha kuwa mzizi unahitaji kiambishi kinachoendana na nomino.\n\nNomino hutaja. Kitenzi huonyesha tendo. Kivumishi hueleza sifa. Katika sentensi Kiti kizuri kimevunjika, kiti ni nomino, kizuri ni kivumishi, na kimevunjika ni kitenzi.\n\n### Mifano ya sifa\n- -zuri: kitu kinachopendeza au kilicho safi na kizima.\n- -baya: kitu kisichopendeza au kilichoharibika.\n- -refu: chenye urefu mkubwa.\n- -fupi: chenye urefu mdogo.\n- -eusi: chenye rangi ya nyeusi.\n- -eupe: chenye rangi ya nyeupe.\n\nKatika orodha: -zuri, kimbia, -fupi, meza, -eupe, lala. Vivumishi ni -zuri, -fupi na -eupe. Kimbia na lala ni vitenzi. Meza ni nomino.\n\n### Jinsi ya kukitambua katika sentensi\nTafuta neno linalosema sifa ya jina lililo karibu.\n\n- Mtoto mrefu anasoma. Mrefu linamweleza mtoto.\n- Nguo nyeusi ziko juu ya kiti. Nyeusi inazieleza nguo.\n- Nyumba nzuri ina sebule kubwa. Nzuri inaeleza nyumba.\n\nKama neno linaweza kujibu swali la namna gani, liandike kama kivumishi. Usiandike tendo wala jina mahali pa sifa.",
+      "keyWords": [
+        {
+          "word": "kivumishi",
+          "meaning": "neno linaloeleza sifa ya nomino"
+        },
+        {
+          "word": "mzizi",
+          "meaning": "sehemu ya msingi ya kivumishi, kama -zuri au -refu"
+        },
+        {
+          "word": "sifa",
+          "meaning": "maelezo ya jinsi kitu kilivyo, kama kirefu au kifupi"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua vivumishi katika orodha: -baya, pika, -eusi, sufuria, -refu.",
+          "steps": [
+            "Ondoa kitenzi pika na nomino sufuria.",
+            "Mizizi iliyobaki hueleza sifa."
+          ],
+          "answer": "-baya, -eusi, -refu",
+          "check": null
+        },
+        {
+          "problem": "Katika sentensi Shati jeupe limechanika, kivumishi ni kipi?",
+          "steps": [
+            "Shati ni nomino.",
+            "Limechanika ni kitenzi.",
+            "Jeupe hueleza rangi ya shati."
+          ],
+          "answer": "jeupe",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Buruta vivumishi uviweke kapuni",
+        "materials": [
+          "Kadi za mizizi ya vivumishi",
+          "Kapu",
+          "Tarakilishi panapopatikana"
+        ],
+        "steps": [
+          "Elezeni maana ya kivumishi kwa wenzako.",
+          "Chagueni vivumishi kutoka kwenye orodha: -zuri, -baya, -refu, -fupi, -eusi, -eupe, kimbia, meza, lala.",
+          "Mviweke kapuni. Kwenye tarakilishi, buruteni neno na kuliweka kwenye kapu la picha.",
+          "Kila kadi iliyobaki nje, semeni ni kitenzi au nomino.",
+          "Tafuteni kivumishi kimoja katika sentensi iliyoandikwa ubaoni."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Kivumishi ni nini?",
+          "answer": "Ni neno linaloeleza sifa ya nomino.",
+          "check": null
+        },
+        {
+          "question": "Tambua vivumishi: -fupi, andika, -eupe, kochi, -baya.",
+          "answer": "-fupi, -eupe, -baya",
+          "check": null
+        },
+        {
+          "question": "Kivumishi katika sentensi Mtoto mfupi analala ni kipi?",
+          "answer": "mfupi",
+          "check": null
+        },
+        {
+          "question": "Kwa nini mzizi huandikwa -zuri na si zuri peke yake?",
+          "answer": "Mstari unaonyesha kuwa mzizi unahitaji kiambishi kinachoendana na nomino, kama mzuri au kizuri.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Kivumishi hueleza sifa ya nomino.",
+        "Mizizi ya leo ni -zuri, -baya, -refu, -fupi, -eusi na -eupe.",
+        "Kivumishi si nomino wala kitenzi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia vivumishi katika sentensi na aya",
+      "outcomes": [
+        "c",
+        "d"
+      ],
+      "objectives": [
+        "Kuambatanisha kivumishi na nomino ipasavyo.",
+        "Kujaza nafasi na kuandika aya fupi.",
+        "Kuthamini sifa zinazofanya maelezo yawe wazi."
+      ],
+      "intro": "Kusema kiti zuri si sawa na kusema kiti kizuri. Sifa inabadilika kulingana na nomino inayoieleza. Leo utajifunza viambishi vichache vinavyotumika sana, kisha utaandika aya kuhusu nyumba yako.",
+      "notes": "### Viambishi vinavyoendana na nomino\nKivumishi hukubaliana na nomino. Jifunze makundi matatu unayotumia kila siku.\n\nWatu, umoja na wingi:\n- mtoto mzuri, watoto wazuri\n- mtoto mbaya, watoto wabaya\n- mtoto mrefu, watoto warefu\n- mtoto mfupi, watoto wafupi\n- mtoto mweusi, watoto weusi\n- mtoto mweupe, watoto weupe\n\nVitu vya ki- na vi-:\n- kiti kizuri, viti vizuri\n- kiti kibaya, viti vibaya\n- kiti kirefu, viti virefu\n- kiti kifupi, viti vifupi\n- kiti cheusi, viti vyeusi\n- kiti cheupe, viti vyeupe\n\nNguo, nyumba na njia:\n- nguo nzuri, nguo mbaya, nguo ndefu, nguo fupi, nguo nyeusi, nguo nyeupe\n- nyumba nzuri; njia ndefu; njia fupi\n\nShati hufuata kundi la tunda: shati zuri, shati refu, shati jipya, shati jeupe, shati jeusi. Mashati yanakuwa mazuri, marefu, mapya, meupe na meusi.\n\n### Kujaza na kuandika aya\n- Huyu ni mtoto ____. (mzizi -refu: mrefu)\n- Viti ____ vimepangwa sebuleni. (vizuri)\n- Nguo ____ zimepikwa pasi. (nyeupe)\n\nAya fupi:\nNyumba yetu ni nzuri. Sebuleni kuna viti vizuri na kochi zuri. Dirishani kuna neti nyeupe. Napenda nyumba hii kwa sababu ni safi na tulivu.\n\n### Fahari ya kuzitumia\nSifa sahihi hukuonyesha unachunguza mazingira na unaheshimu kanuni za lugha. Usitumie sifa kumdharau mwenzako. Sema nguo fupi ukieleza urefu, si kumcheka mtu. Wenzako wakusomee aya yako na wakupe maoni kwa upendo. Pokea shauri na usahihishe.",
+      "keyWords": [
+        {
+          "word": "kiambishi",
+          "meaning": "sehemu inayoingia mwanzoni mwa mzizi ili kuendana na nomino, kama ki- katika kizuri"
+        },
+        {
+          "word": "kukubaliana",
+          "meaning": "kivumishi kubadilika kulingana na nomino linayoeleza"
+        },
+        {
+          "word": "aya",
+          "meaning": "kifungu kifupi cha sentensi zinazohusu wazo moja"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza nafasi: Viti ____ vimepangwa sebuleni. Tumia mzizi -zuri.",
+          "steps": [
+            "Viti ni wingi wa kiti.",
+            "Kiambishi cha wingi huo kwa -zuri ni vi-."
+          ],
+          "answer": "Viti vizuri vimepangwa sebuleni.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: Mtoto kizuri anasoma.",
+          "steps": [
+            "Mtoto ni mtu, si kitu cha ki-.",
+            "Sifa inayofaa ni mzuri."
+          ],
+          "answer": "Mtoto mzuri anasoma.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika aya ya sifa za nyumbani",
+        "materials": [
+          "Daftari",
+          "Orodha ya mizizi",
+          "Kifaa cha kidijitali panapopatikana"
+        ],
+        "steps": [
+          "Jazeni nafasi ubaoni kwa vivumishi vinavyoendana na nomino.",
+          "Andikeni aya ya sentensi nne kuhusu nyumba, nguo au usalama wa nyumbani mkitumia vivumishi vitatu tofauti.",
+          "Tumieni sifa kueleza, si kumdharau mtu.",
+          "Msomeane aya na mtoe maoni kwa heshima na upendo.",
+          "Sahihisheni kivumishi kimoja ambacho hakikuendana na nomino."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Andika kivumishi kinachoendana: watoto ____ (mzizi -refu).",
+          "answer": "warefu",
+          "check": null
+        },
+        {
+          "question": "Sahihisha: Kiti mzuri kimevunjika.",
+          "answer": "Kiti kizuri kimevunjika.",
+          "check": null
+        },
+        {
+          "question": "Jaza: Nguo ____ zimeanikwa (mzizi -eupe).",
+          "answer": "nyeupe",
+          "check": null
+        },
+        {
+          "question": "Andika sentensi moja ukitumia shati na kivumishi cha mzizi -eusi.",
+          "answer": "Mfano: Shati jeusi liko juu ya kiti.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Kivumishi hubadilika ili kukubaliana na nomino.",
+        "Mtoto mzuri, kiti kizuri, nguo nzuri na shati jeusi ni mifano sahihi.",
+        "Tumia sifa kueleza, si kudharau."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kivumishi hufanya kazi gani?",
+      "options": [
+        "Hueleza sifa ya nomino",
+        "Huonyesha tendo tu",
+        "Huunganisha sentensi",
+        "Hutaja jina la mtu tu"
+      ],
+      "answer": "A",
+      "explanation": "Kivumishi hueleza jinsi nomino ilivyo.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Lipi ni mzizi wa kivumishi?",
+      "options": [
+        "kimbia",
+        "-refu",
+        "meza",
+        "lakini"
+      ],
+      "answer": "B",
+      "explanation": "-refu hueleza urefu. Mengine si vivumishi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Katika sentensi Nguo nyeusi ziko tayari, kivumishi ni kipi?",
+      "options": [
+        "nguo",
+        "nyeusi",
+        "ziko",
+        "tayari tu bila sifa"
+      ],
+      "answer": "B",
+      "explanation": "Nyeusi hueleza rangi ya nguo. Nguo ni nomino.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Mtoto anayevaa nguo nyeupe anaelezwa na kivumishi gani cha mzizi -eupe?",
+      "options": [
+        "mweupe",
+        "cheupe",
+        "kizuri",
+        "anavaa"
+      ],
+      "answer": "A",
+      "explanation": "Mtoto huchukua mweupe. Cheupe huenda na kitu cha ki-, kama kiti cheupe.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Chagua sentensi sahihi.",
+      "options": [
+        "Kiti mzuri kimevunjika.",
+        "Kiti kizuri kimevunjika.",
+        "Viti kizuri vimevunjika.",
+        "Mtoto vizuri anasoma."
+      ],
+      "answer": "B",
+      "explanation": "Kiti kinachukua kizuri. Viti vinachukua vizuri, na mtoto anachukua mzuri.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Wingi wa mtoto mrefu ni upi?",
+      "options": [
+        "watoto mrefu",
+        "watoto warefu",
+        "watoto kirefu",
+        "watoto ndefu"
+      ],
+      "answer": "B",
+      "explanation": "Watu wengi huchukua warefu.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Nguo za rangi nyeupe zina kivumishi gani?",
+      "options": [
+        "mweupe",
+        "nyeupe",
+        "weupe",
+        "jeupe"
+      ],
+      "answer": "B",
+      "explanation": "Nguo huchukua nyeupe.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Jaza: Shati ____ limechanika. Tumia mzizi -eusi.",
+      "answer": "Shati jeusi limechanika.",
+      "explanation": "Shati hufuata kundi la tunda, hivyo -eusi huwa jeusi.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Andika sentensi ukitumia viti na mzizi -fupi.",
+      "answer": "Mfano: Viti vifupi vimewekwa sebuleni.",
+      "explanation": "Viti vinakubaliana na vifupi.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tusitumie kivumishi kumdharau mwenzako?",
+      "answer": "Kivumishi hutumika kueleza sifa kwa heshima, si kumcheka mtu.",
+      "explanation": "Matumizi ya heshima huonyesha fahari ya lugha na upendo.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 1.0 Nyumbani, Mada Ndogo 1.4.3 Sarufi: Vivumishi"
+  ]
+}

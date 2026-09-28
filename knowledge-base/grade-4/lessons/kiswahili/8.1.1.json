@@ -1,0 +1,131 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "8.1.1",
+  "title": "Kusikiliza na Kuzungumza: Visawe",
+  "overview": "Visawe ni maneno mawili yenye maana sawa. Utajifunza maana ya kisawe, utatambua jozi kama tembo na ndovu, kinyonga na lumbwi, au barua na waraka, kisha utatumia neno moja kuchukua nafasi ya lingine katika sentensi na kifungu kuhusu wanyama wa porini.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya kisawe na kutambua visawe",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya neno kisawe.",
+        "Kuambatanisha maneno yenye maana sawa.",
+        "Kutambua visawe katika orodha na sentensi."
+      ],
+      "intro": "Mlinzi alisema alimwona tembo. Mwenzake alisema alimwona ndovu. Hawakuona wanyama wawili tofauti. Tembo na ndovu ni kitu kimoja. Maneno kama hayo ndiyo visawe.",
+      "notes": "### Kisawe ni nini?\nKisawe ni neno lenye maana sawa na neno lingine. Wingi wake ni **visawe**. Tembo na ndovu ni majina ya mnyama yuleyule, mkubwa mwenye mkonga. Ukitumia neno lolote kati ya hayo mawili, msikilizaji anaelewa mnyama yuleyule.\n\nVisawe husaidia mawasiliano. Unapoandika au kuzungumza, hupendi kurudia neno moja kila sentensi. Kisawe kinakupa neno lingine bila kubadilisha maana. Pia vinapanua msamiati wako.\n\n### Visawe vya kiwango chako\n- **tembo** na **ndovu**\n- **kinyonga** na **lumbwi** (mnyama anayebadili rangi)\n- **adui** na **hasimu**\n- **siri** na **faragha** (jambo lisilotakiwa kujulikana na kila mtu)\n- **barua** na **waraka**\n- **ami** na **amu** (ndugu wa kiume wa baba)\n- **televisheni** na **runinga**\n\nFaragha pia humaanisha kuwa peke yako bila kuingiliwa. Katika somo hili, tunaitumia kama kisawe cha siri jambo linapopaswa kufichwa.\n\n### Jinsi ya kuvitambua\nSoma maneno mawili na ujiulize: je, yanaweza kubadilishana katika sentensi na maana ikabaki? Kama ndiyo, ni visawe.\n\nKatika sentensi \"Lumbwi alibadili rangi ukutani,\" neno lumbwi lina kisawe **kinyonga**. Katika \"Runinga inaonyesha wanyama wa porini,\" kisawe cha runinga ni **televisheni**.\n\nSi kila maneno yanayokaribiana ni visawe. Simba na chui ni wanyama wa porini, lakini si mnyama yuleyule. Nyani na tumbili nao si sawa kabisa. Usiviunganishe isipokuwa maana ni ileile.\n\nUnapopanga kadi, weka tembo karibu na ndovu, si karibu na twiga. Twiga ni mnyama mwingine.",
+      "keyWords": [
+        { "word": "kisawe", "meaning": "neno lenye maana sawa na neno lingine" },
+        { "word": "visawe", "meaning": "wingi wa kisawe" },
+        { "word": "ndovu", "meaning": "kisawe cha tembo" },
+        { "word": "lumbwi", "meaning": "kisawe cha kinyonga" },
+        { "word": "runinga", "meaning": "kisawe cha televisheni" }
+      ],
+      "examples": [
+        {
+          "problem": "Ambatanisha: tembo, barua, kinyonga na ndovu, lumbwi, waraka.",
+          "steps": ["Tafuta maana sawa, si tu mada inayofanana.", "Tembo ni mnyama, ndovu ni mnyama yuleyule."],
+          "answer": "tembo = ndovu; barua = waraka; kinyonga = lumbwi",
+          "check": null
+        },
+        {
+          "problem": "Tambua visawe katika sentensi: Ami yangu aliandika waraka kuhusu hasimu wa wanyama.",
+          "steps": ["Chagua kila nomino na uitafutie kisawe chake.", "Ami, waraka na hasimu vina visawe."],
+          "answer": "ami = amu; waraka = barua; hasimu = adui",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kapu la visawe",
+        "materials": ["Kadi za maneno", "Kapu la maneno", "Mti wa maneno au chati"],
+        "steps": [
+          "Andika kila neno la jozi peke yake: tembo, ndovu, kinyonga, lumbwi, adui, hasimu, siri, faragha, barua, waraka, ami, amu, televisheni, runinga.",
+          "Changanya kadi kwenye kapu. Kila mwanafunzi achopoe kadi moja.",
+          "Atamtafute mwenzake mwenye kisawe cha neno lake.",
+          "Kila jozi iambatanishe maneno kwenye mti wa maneno na ieleze maana kwa pamoja.",
+          "Kama kifaa cha kidijitali kinapatikana, angalieni picha ya tembo na kinyonga ili kuhusisha neno na kitu halisi."
+        ]
+      },
+      "practice": [
+        { "question": "Kisawe ni nini?", "answer": "Ni neno lenye maana sawa na neno lingine.", "check": null },
+        { "question": "Kisawe cha kinyonga ni nini?", "answer": "lumbwi", "check": null },
+        { "question": "Andika kisawe cha: televisheni, ami, siri.", "answer": "runinga, amu, faragha", "check": null },
+        { "question": "Kwa nini simba na chui si visawe?", "answer": "Kwa sababu ni wanyama tofauti. Visawe ni majina mawili ya kitu kilekile.", "check": null }
+      ],
+      "summary": [
+        "Kisawe ni neno lenye maana sawa na lingine.",
+        "Tembo na ndovu, kinyonga na lumbwi, barua na waraka ni visawe.",
+        "Maneno ya wanyama tofauti si visawe."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia visawe katika sentensi na vifungu",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kubadilisha neno kwa kisawe chake katika sentensi.",
+        "Kurekebisha upatanisho neno jipya likiwa katika ngeli tofauti.",
+        "Kueleza faida ya kutumia visawe katika mawasiliano."
+      ],
+      "intro": "Ukishajua tembo ni ndovu, jaribu kubadilisha neno katika sentensi nzima. Wakati mwingine kitenzi hubaki. Wakati mwingine, kama barua inakuwa waraka, viambishi hubadilika.",
+      "notes": "### Kubadilisha katika sentensi\nKisawe kinachukua nafasi ya neno lingine, na maana haibadiliki.\n\n- Tembo anakunywa maji. → **Ndovu** anakunywa maji.\n- Kinyonga hubadili rangi. → **Lumbwi** hubadili rangi.\n- Adui wa wanyama ni mwindaji haramu. → **Hasimu** wa wanyama ni mwindaji haramu.\n- Tuliongea kwa siri. → Tuliongea **kwa faragha**.\n- Ami yangu amelinda shamba. → **Amu** yangu amelinda shamba.\n- Televisheni inaonyesha ndovu. → **Runinga** inaonyesha ndovu.\n\nKatika mifano hii, viambishi havibadiliki kwa sababu nomino za jozi ziko katika ngeli inayofanana. Tembo na ndovu hutumia a-. Siri na faragha hutumia i- na ya. Ami na amu hutumia a- na yangu.\n\n### Barua na waraka\nHapa kuna tofauti. Barua ni ngeli ya I-ZI, na waraka ni ngeli ya U-U.\n- Barua **yake imefika**. Barua **hii** ni fupi.\n- Waraka **wake umefika**. Waraka **huu** ni mfupi.\n\nUkibadilisha neno pekee na kuacha viambishi, sentensi inaharibika. \"Waraka yake imefika\" si sahihi. Sahihi ni \"Waraka wake umefika.\"\n\n### Katika kifungu\nSoma kifungu hiki:\n\nMlinzi alimwona tembo akivuka barabara. Alimwambia mwenzake kwa siri, kisha akaandika barua. Ami yake alitazama televisheni na kuona kinyonga. Alisema adui wa wanyama ni mwindaji haramu.\n\nKwa visawe:\n\nMlinzi alimwona **ndovu** akivuka barabara. Alimwambia mwenzake **kwa faragha**, kisha akaandika **waraka**. **Amu** yake alitazama **runinga** na kuona **lumbwi**. Alisema **hasimu** wa wanyama ni mwindaji haramu.\n\nKatika kifungu hiki, waraka ni kitu kinachoandikwa, si mtendaji wa kitenzi akaandika. Kwa hiyo kitenzi hakibadiliki. Viambishi vingebadilika katika sentensi kama \"Barua yake imefika.\"\n\n### Kuthamini visawe\nVisawe hufanya masimulizi ya wanyama yawe hai. Badala ya kurudia tembo mara tano, unaweza kusema tembo mara moja na ndovu baadaye. Msomaji haachoki, na lugha yako inakua. Tumia kisawe unapokihakiki maana, si kuchagua neno zuri ambalo halilingani.",
+      "keyWords": [
+        { "word": "waraka", "meaning": "kisawe cha barua; nomino inayotumia viambishi vya u-" },
+        { "word": "hasimu", "meaning": "kisawe cha adui" },
+        { "word": "amu", "meaning": "kisawe cha ami, yaani ndugu wa kiume wa baba" }
+      ],
+      "examples": [
+        {
+          "problem": "Badilisha neno lililopigiwa mstari kwa kisawe: Runinga inaonyesha tembo.",
+          "steps": ["Kisawe cha runinga ni televisheni.", "Ngeli haibadiliki, kwa hiyo kitenzi kinabaki inaonyesha."],
+          "answer": "Televisheni inaonyesha tembo.",
+          "check": null
+        },
+        {
+          "problem": "Andika upya kwa kisawe, ukirekebisha viambishi: Barua hii imefika.",
+          "steps": ["Kisawe cha barua ni waraka.", "Hii huwa huu, na imefika huwa umefika."],
+          "answer": "Waraka huu umefika.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Badilisha neno katika kifungu",
+        "materials": ["Kifungu kifupi kwenye chati", "Daftari", "Kadi za visawe"],
+        "steps": [
+          "Someni kifungu cha mlinzi, tembo, siri, barua, ami, televisheni, kinyonga na adui.",
+          "Kwa jozi, badilisheni kila neno kwa kisawe chake.",
+          "Angalieni sentensi ya barua. Ikiwa mmebadilisha kuwa waraka, rekebisheni viambishi.",
+          "Msomeane vifungu vyenu na mthibitishe maana haijabadilika.",
+          "Jadilini: visawe vinasaidia vipi kuepuka kurudia neno moja?"
+        ]
+      },
+      "practice": [
+        { "question": "Andika upya: Kinyonga yuko ukutani.", "answer": "Lumbwi yuko ukutani.", "check": null },
+        { "question": "Andika upya ukirekebisha viambishi: Barua yangu imeandikwa.", "answer": "Waraka wangu umeandikwa.", "check": null },
+        { "question": "Kwa nini 'Waraka yake imefika' si sahihi?", "answer": "Kwa sababu waraka hutumia viambishi vya u-: wake na umefika, si yake na imefika.", "check": null },
+        { "question": "Taja faida mbili za kutumia visawe.", "answer": "Huepuka kurudia neno lilelile, na hupanua msamiati bila kubadilisha maana.", "check": null }
+      ],
+      "summary": [
+        "Badilisha neno kwa kisawe bila kubadilisha maana.",
+        "Barua inapokuwa waraka, viambishi hubadilika: imefika huwa umefika.",
+        "Visawe hufanya mawasiliano kuwa hai na wazi."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Kisawe ni nini?", "options": ["neno lenye maana tofauti", "neno lenye maana sawa na lingine", "kitenzi cha wakati ujao", "jina la ngeli"], "answer": "B", "explanation": "Visawe hubadilishana bila kubadilisha maana.", "outcome": "a", "check": null },
+    { "question": "Kisawe cha tembo ni kipi?", "options": ["twiga", "ndovu", "simba", "kiboko"], "answer": "B", "explanation": "Ndovu na tembo ni mnyama yuleyule.", "outcome": "b", "check": null },
+    { "question": "Lumbwi ni kisawe cha neno gani?", "options": ["nyoka", "kinyonga", "panya", "ndege"], "answer": "B", "explanation": "Lumbwi na kinyonga ni mnyama yuleyule anayebadili rangi.", "outcome": "b", "check": null },
+    { "question": "Amu ni kisawe cha nani?", "options": ["shangazi", "ami", "mjomba", "baba"], "answer": "B", "explanation": "Ami na amu ni ndugu wa kiume wa baba. Mjomba ni ndugu wa mama.", "outcome": "b", "check": null },
+    { "question": "Runinga inaonyesha wanyama. Kisawe cha runinga ni kipi?", "options": ["redio", "televisheni", "simu", "barua"], "answer": "B", "explanation": "Runinga na televisheni ni kifaa kilekile.", "outcome": "b", "check": null },
+    { "question": "Andika upya: Tuliongea kwa siri.", "options": ["Tuliongea kwa faragha.", "Tuliongea kwa adui.", "Tuliongea kwa ndovu.", "Tuliongea kwa barua."], "answer": "A", "explanation": "Faragha inachukua nafasi ya siri katika muktadha huu.", "outcome": "c", "check": null },
+    { "question": "Chagua sentensi iliyorekebishwa vizuri badala ya 'Barua yake imefika.'", "options": ["Waraka yake imefika.", "Waraka wake umefika.", "Waraka yake umefika.", "Barua wake umefika."], "answer": "B", "explanation": "Waraka hutumia wake na umefika.", "outcome": "c", "check": null },
+    { "question": "Hasimu anamaanisha nini?", "options": ["rafiki", "adui", "mlinzi", "mgeni"], "answer": "B", "explanation": "Hasimu ni kisawe cha adui.", "outcome": "b", "check": null },
+    { "question": "Badilisha maneno yaliyopigiwa mstari: Ami alimwona kinyonga.", "answer": "Amu alimwona lumbwi.", "explanation": "Ami huwa amu, na kinyonga huwa lumbwi. Viambishi vya a- vinabaki.", "outcome": "c", "check": null },
+    { "question": "Visawe vinasaidia mawasiliano vipi?", "answer": "Vinakupa neno lingine la maana ileile ili usirudie neno moja na msamiati wako ukue.", "explanation": "Maana haibadiliki, lakini lugha inakuwa hai.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 8.0 Wanyama wa Porini, Mada Ndogo 8.1.1 Kusikiliza na Kuzungumza: Visawe"
+  ]
+}

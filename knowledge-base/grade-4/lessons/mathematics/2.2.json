@@ -1,0 +1,406 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "2.2",
+  "title": "Area",
+  "overview": "Area is the amount of surface a shape covers. In this sub-strand you will compare surfaces by placing one on the other, cover squares and rectangles with unit squares, and find area by multiplying the number of rows by the number of columns.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Comparing areas by placing surfaces",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain area as the amount of surface covered.",
+        "Compare two surfaces by placing one on the other."
+      ],
+      "intro": "Two mats can look similar until you lay one on top of the other. The mat that still sticks out covers more surface. That amount of surface is called area.",
+      "notes": "Area is the size of a surface. A book cover, a desk top, a window pane and a floor all have area. A bigger surface has a bigger area.\n\n### Direct comparison\nThe surest way to compare two flat surfaces is to place one on the other, with their edges lined up as well as you can.\n\n- If one surface sticks out all the way around, it has the larger area.\n- If each surface sticks out in a different place, look at which leftover part is bigger. You may need to cover them with the same small squares before you decide.\n- If the edges match exactly, the areas are equal.\n\nLooking from a distance can trick you. A long thin strip and a square may cover the same amount of surface even though their shapes are different.\n\n### Squares, rectangles and other shapes\nA square has four equal sides and four square corners. A rectangle has opposite sides equal and four square corners. A triangle has three sides. You can still compare a triangle with a square by placing one on the other. The shape that leaves part of the other uncovered, and is not itself covered, needs a second look: covering both with the same unit squares is the fair test you will use in the next lesson.\n\n### What this comparison does not tell you\nPlacing surfaces tells you which area is larger. It does not yet tell you the number of the area. To get a number, you cover the surface with equal unit squares and count them.",
+      "keyWords": [
+        { "word": "area", "meaning": "the amount of surface a shape or object covers" },
+        { "word": "surface", "meaning": "the flat face of an object, such as the top of a desk" }
+      ],
+      "examples": [
+        {
+          "problem": "A slate is placed on an exercise book. The book sticks out on every side. Which has the larger area?",
+          "steps": ["The book is not completely covered by the slate.", "The part that sticks out is extra surface, so the book covers more."],
+          "answer": "The exercise book",
+          "check": null
+        },
+        {
+          "problem": "Surface A is covered by 20 equal unit squares. Surface B is covered by 15 of the same squares. Which area is larger, and by how many unit squares?",
+          "steps": ["20 is more than 15.", "20 − 15 = 5."],
+          "answer": "Surface A is larger by 5 unit squares.",
+          "check": "20 - 15 === 5"
+        }
+      ],
+      "activity": {
+        "title": "Which surface is bigger?",
+        "materials": ["Two books of different sizes", "A sheet of paper", "A leaf or a cut-out triangle", "Scissors if an adult is present"],
+        "steps": [
+          "Work with a partner. Place the smaller book on the larger book and say which has the greater area.",
+          "Place a sheet of paper on the desk. Does the paper cover the whole desk top?",
+          "Cut or tear a paper square and a paper triangle. Place one on the other and discuss which covers more surface.",
+          "Find two surfaces in the classroom that look different but might have nearly the same area. Explain how you would check."
+        ]
+      },
+      "practice": [
+        { "question": "A handkerchief is placed on a face towel. The towel sticks out on all sides. Which has the larger area?", "answer": "The face towel", "check": null },
+        { "question": "Two cards match exactly when one is placed on the other. What can you say about their areas?", "answer": "The areas are equal.", "check": null },
+        { "question": "Mat A is covered by 28 equal squares and mat B by 31 of the same squares. Which mat has the larger area, and by how many squares?", "answer": "Mat B is larger by 3 squares.", "check": "31 - 28 === 3" }
+      ],
+      "summary": [
+        "Area is the amount of surface covered.",
+        "Place one surface on the other to see which area is larger.",
+        "Equal edges mean equal areas. A number for the area comes from covering with unit squares."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Covering a surface with unit squares",
+      "outcomes": ["b"],
+      "objectives": [
+        "Cover a square or a rectangle with unit squares without gaps or overlaps.",
+        "State that the area is the number of unit squares used."
+      ],
+      "intro": "If you tile a floor, every tile is the same size and the tiles meet without leaving holes. Counting those tiles gives the area of the floor. One tile stands for one unit square.",
+      "notes": "A unit square is a square used as the measuring piece for area. In class it may be a cut-out of side 1 cm, a bottle top arranged in a square, or a square drawn in your book. The same unit must be used for the whole surface.\n\n### Covering without gaps or overlaps\nThe unit squares must:\n\n- cover the surface completely,\n- not overlap,\n- not hang off the edge.\n\nIf squares overlap, you count some surface twice and the area looks too big. If there are gaps, some surface is missed and the area looks too small.\n\nThe area is the number of unit squares that cover the surface. A rectangle covered by 24 unit squares has an area of 24 unit squares.\n\n### Squares and rectangles\nOn a square, the same number of unit squares fits along each side. On a rectangle, the number along the length can be different from the number along the width.\n\nA square that holds 5 unit squares along each side is covered by 5 rows with 5 squares in each row. A rectangle might hold 6 along the length and 4 along the width.\n\n### Say which unit you used\nTwenty small squares and twenty large squares do not cover the same surface. Always name the unit: 20 one-centimetre squares, or 20 tiles of the size you used. Cut-outs from old cardboard or thick paper work well, and they use material that might otherwise be thrown away.",
+      "keyWords": [
+        { "word": "unit square", "meaning": "one equal square used to cover a surface when measuring area" },
+        { "word": "cover", "meaning": "to lay unit squares over a surface with no gaps and no overlaps" }
+      ],
+      "examples": [
+        {
+          "problem": "A rectangle is covered by 4 rows with 6 unit squares in each row. What is its area?",
+          "steps": ["Count the squares: 4 rows of 6.", "4 × 6 = 24 unit squares."],
+          "answer": "24 unit squares",
+          "check": "4 * 6 === 24"
+        },
+        {
+          "problem": "A square is covered by 5 rows with 5 unit squares in each row. What is its area?",
+          "steps": ["5 × 5 = 25."],
+          "answer": "25 unit squares",
+          "check": "5 * 5 === 25"
+        }
+      ],
+      "activity": {
+        "title": "Cover the shape",
+        "materials": ["Cardboard or paper cut into equal squares", "A rectangular piece of paper", "Pencil"],
+        "steps": [
+          "In a group, cut equal unit squares from used cardboard or thick paper.",
+          "Cover a rectangular sheet completely. Do not leave gaps and do not overlap the squares.",
+          "Count the unit squares and write the area.",
+          "Cover a square sheet with the same unit squares and write that area too.",
+          "Compare your counts with another group. If the numbers differ, check for gaps or overlaps."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 160\" font-family=\"sans-serif\"><rect width=\"360\" height=\"160\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"2\" fill=\"#dcfce7\"><rect x=\"40\" y=\"20\" width=\"40\" height=\"40\"/><rect x=\"80\" y=\"20\" width=\"40\" height=\"40\"/><rect x=\"120\" y=\"20\" width=\"40\" height=\"40\"/><rect x=\"160\" y=\"20\" width=\"40\" height=\"40\"/><rect x=\"40\" y=\"60\" width=\"40\" height=\"40\"/><rect x=\"80\" y=\"60\" width=\"40\" height=\"40\"/><rect x=\"120\" y=\"60\" width=\"40\" height=\"40\"/><rect x=\"160\" y=\"60\" width=\"40\" height=\"40\"/><rect x=\"40\" y=\"100\" width=\"40\" height=\"40\"/><rect x=\"80\" y=\"100\" width=\"40\" height=\"40\"/><rect x=\"120\" y=\"100\" width=\"40\" height=\"40\"/><rect x=\"160\" y=\"100\" width=\"40\" height=\"40\"/></g><text x=\"220\" y=\"80\" font-size=\"16\" fill=\"#111827\">3 rows</text><text x=\"220\" y=\"102\" font-size=\"16\" fill=\"#111827\">4 columns</text><text x=\"220\" y=\"124\" font-size=\"16\" fill=\"#111827\">area 12</text></svg>",
+        "caption": "Three rows and four columns of unit squares cover 12 unit squares."
+      },
+      "practice": [
+        { "question": "A card is covered by 3 rows of 8 unit squares. What is its area?", "answer": "24 unit squares", "check": "3 * 8 === 24" },
+        { "question": "Why must the unit squares not overlap?", "answer": "Overlapping counts some of the surface more than once, so the area would be too big.", "check": null },
+        { "question": "A square stamp picture is covered by 4 rows of 4 unit squares. What is its area?", "answer": "16 unit squares", "check": "4 * 4 === 16" }
+      ],
+      "summary": [
+        "Cover the surface with equal unit squares, with no gaps and no overlaps.",
+        "The area is the number of unit squares used.",
+        "Name the unit, because different squares cover different amounts of surface."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Counting unit squares",
+      "outcomes": ["b"],
+      "objectives": [
+        "Count unit squares row by row on a square and on a rectangle.",
+        "Give an honest count of the squares that cover a surface."
+      ],
+      "intro": "A shopkeeper who counts tiles twice will order too many. A careful count, row by row, gives the true area of a square or a rectangle.",
+      "notes": "When the unit squares are already drawn, you do not need to cut new ones. You count the squares that are there.\n\n### Count one row, then the rows\nTouch each square in the first row and write how many there are. Check that every other full row has the same number. Then count the rows.\n\nArea = squares in one row × number of rows.\n\nYou can also add. A rectangle with 3 rows of 7 squares has area 7 + 7 + 7 = 21 unit squares. Multiplication is the short way of doing that addition.\n\n### Do not count lines\nThe grid lines are the edges of the squares. Count the squares themselves, not the lines. A row with 6 squares has 7 lines if you count both ends, and that 7 is not the area.\n\n### Squares\nOn a square, the number of squares in a row equals the number of rows. Four rows of 4 give 16. Six rows of 6 give 36. Nine rows of 9 give 81.\n\n### An honest count\nIf you lose your place, start the row again. Do not guess the last few squares. Two learners should be allowed to get the same number when they cover the same surface with the same unit squares. Writing a larger number to finish quickly is not correct measuring.",
+      "keyWords": [
+        { "word": "row", "meaning": "a line of unit squares going across" },
+        { "word": "grid", "meaning": "unit squares drawn in rows and columns" }
+      ],
+      "examples": [
+        {
+          "problem": "A rectangle has 7 rows with 3 unit squares in each row. Find the area by addition and by multiplication.",
+          "steps": ["Addition: 3 + 3 + 3 + 3 + 3 + 3 + 3 = 21.", "Multiplication: 7 × 3 = 21."],
+          "answer": "21 unit squares",
+          "check": "7 * 3 === 21"
+        },
+        {
+          "problem": "A square grid has 8 unit squares along each side. What is its area?",
+          "steps": ["The square has 8 rows of 8.", "8 × 8 = 64."],
+          "answer": "64 unit squares",
+          "check": "8 * 8 === 64"
+        }
+      ],
+      "activity": {
+        "title": "Count every square",
+        "materials": ["Squared paper or a grid drawn on manila paper", "Pencil", "Small stones or seeds as counters"],
+        "steps": [
+          "Draw a rectangle 6 squares long and 4 squares wide on squared paper.",
+          "Put a seed on each square as you count, so that you do not count any square twice.",
+          "Write the area. Ask a partner to count the same rectangle without looking at your number.",
+          "Draw a square of side 5 unit squares and count its area in the same way.",
+          "If your two counts differ, recount together until you agree."
+        ]
+      },
+      "practice": [
+        { "question": "How many unit squares cover a rectangle that is 9 squares long and 2 squares wide?", "answer": "18 unit squares", "check": "9 * 2 === 18" },
+        { "question": "A square has 6 unit squares along each side. What is its area?", "answer": "36 unit squares", "check": "6 * 6 === 36" },
+        { "question": "A learner counts the lines along one side of a grid and gets 5. There are 4 unit squares in that row. What should be recorded as the number in the row?", "answer": "4 unit squares", "check": "5 - 1 === 4" }
+      ],
+      "summary": [
+        "Count squares, not the grid lines.",
+        "Squares in one row times the number of rows gives the area.",
+        "The same surface and the same unit squares must give the same count."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Area as rows multiplied by columns",
+      "outcomes": ["c"],
+      "objectives": [
+        "Identify rows and columns on a square or rectangle.",
+        "Calculate the area as the number of rows multiplied by the number of columns."
+      ],
+      "intro": "Counting thirty tiles one by one is slow, and it is easy to skip one. If you know there are 5 rows and 6 columns, one multiplication gives the same area.",
+      "notes": "A row runs across. A column runs from top to bottom. On a rectangle of unit squares, every row has the same number of squares, and every column has the same number of squares.\n\n### The rule\nArea of a rectangle or a square = number of rows × number of columns.\n\nThe order does not change the answer. Six rows of 4 columns and 4 rows of 6 columns both cover 24 unit squares. The shapes may face different ways, but the areas are equal.\n\n### A square\nIn a square, the number of rows equals the number of columns. A square with 9 rows has 9 columns, so the area is 9 × 9 = 81 unit squares.\n\n### Matching the count\nRows × columns must agree with counting. Three rows and 5 columns:\n\n- Row by row: 5 + 5 + 5 = 15.\n- Multiplication: 3 × 5 = 15.\n\nIf the two answers differ, check whether you counted a row twice or multiplied the wrong numbers.\n\n### Units\nThe answer is a number of unit squares. If each unit square is a floor tile, the area is that many tiles. If each unit square measures 1 cm along each side, the area is that many square centimetres. Keep the unit in the answer.",
+      "keyWords": [
+        { "word": "column", "meaning": "a line of unit squares going from top to bottom" },
+        { "word": "square centimetre", "meaning": "the area of a unit square that measures 1 cm along each side" }
+      ],
+      "examples": [
+        {
+          "problem": "A rectangle has 8 rows and 5 columns of unit squares. Find its area.",
+          "steps": ["Area = rows × columns.", "8 × 5 = 40."],
+          "answer": "40 unit squares",
+          "check": "8 * 5 === 40"
+        },
+        {
+          "problem": "A square tile pattern has 9 rows. How many unit squares is that?",
+          "steps": ["A square has the same number of columns as rows.", "9 × 9 = 81."],
+          "answer": "81 unit squares",
+          "check": "9 * 9 === 81"
+        },
+        {
+          "problem": "Show that 6 rows of 4 columns cover the same area as 4 rows of 6 columns.",
+          "steps": ["6 × 4 = 24.", "4 × 6 = 24."],
+          "answer": "Both cover 24 unit squares.",
+          "check": "6 * 4 === 4 * 6"
+        }
+      ],
+      "activity": {
+        "title": "Rows times columns",
+        "materials": ["Squared paper", "Pencil", "Bottle tops or seeds"],
+        "steps": [
+          "With a partner, build a rectangle using 4 rows of 6 seeds.",
+          "Write rows × columns and find the area. Then count the seeds to check.",
+          "Rearrange the same seeds into 6 rows of 4. Work out the area again.",
+          "Build a square with 5 rows and 5 columns and record its area.",
+          "Explain to another pair why multiplying is quicker than counting every seed on a large rectangle."
+        ]
+      },
+      "practice": [
+        { "question": "Find the area of a rectangle with 7 rows and 6 columns of unit squares.", "answer": "42 unit squares", "check": "7 * 6 === 42" },
+        { "question": "A square has 10 rows of unit squares. What is its area?", "answer": "100 unit squares", "check": "10 * 10 === 100" },
+        { "question": "A card has 3 rows and 11 columns. What is its area?", "answer": "33 unit squares", "check": "3 * 11 === 33" },
+        { "question": "Which has the larger area: 5 rows by 8 columns, or 6 rows by 7 columns? By how many unit squares?", "answer": "6 by 7 is larger by 2 unit squares.", "check": "6 * 7 - 5 * 8 === 2" }
+      ],
+      "summary": [
+        "Area = number of rows × number of columns.",
+        "On a square, the number of rows equals the number of columns.",
+        "Changing the order of the two numbers does not change the area."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Area of tiled floors",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Find the number of tiles on a rectangular or square floor.",
+        "Find how many whole tiles remain when some are broken or missing."
+      ],
+      "intro": "A veranda, a classroom floor or a paved path is often covered with tiles of the same size. The number of tiles is the area of that floor in tile units.",
+      "notes": "Stand at one corner of a tiled rectangle. Count the tiles in one row. That number is the number of columns. Then count how many such rows there are.\n\nArea in tiles = rows × columns.\n\nA veranda with 4 rows of 12 tiles has 4 × 12 = 48 tiles. A square courtyard with 11 tiles along each side has 11 × 11 = 121 tiles.\n\n### Broken or missing tiles\nIf some tiles are cracked, first find how many tiles the whole rectangle would have. Then subtract the broken ones.\n\nA floor of 7 rows and 8 columns has 56 tiles. If 5 are broken, the whole tiles left are 56 − 5 = 51.\n\n### Comparing two floors\nWork out each area, then subtract. A room of 6 rows and 9 columns has 54 tiles. A room of 8 rows and 7 columns has 56 tiles. The second room has 56 − 54 = 2 tiles more area.\n\n### Why rows and columns help\nOn a large paved floor you cannot pick up the tiles to count them in your hands. Multiplying rows by columns gives the area while the tiles stay in place. It is the same number you would get by counting every tile, if the rows are equal and you do not skip one.",
+      "keyWords": [
+        { "word": "tile", "meaning": "one of the equal pieces that cover a floor; here it is used as a unit square" },
+        { "word": "paved", "meaning": "covered with flat stones or tiles" }
+      ],
+      "examples": [
+        {
+          "problem": "A veranda has 4 rows of 12 tiles. How many tiles cover it?",
+          "steps": ["Area = rows × columns.", "4 × 12 = 48."],
+          "answer": "48 tiles",
+          "check": "4 * 12 === 48"
+        },
+        {
+          "problem": "A floor has 7 rows and 8 columns of tiles. Five tiles are broken. How many tiles are still whole?",
+          "steps": ["Whole floor: 7 × 8 = 56 tiles.", "56 − 5 = 51."],
+          "answer": "51 tiles",
+          "check": "7 * 8 - 5 === 51"
+        },
+        {
+          "problem": "Room A has 6 rows of 9 tiles. Room B has 8 rows of 7 tiles. Which floor has the larger area, and by how many tiles?",
+          "steps": ["Room A: 6 × 9 = 54.", "Room B: 8 × 7 = 56.", "56 − 54 = 2."],
+          "answer": "Room B is larger by 2 tiles.",
+          "check": "8 * 7 - 6 * 9 === 2"
+        }
+      ],
+      "activity": {
+        "title": "Tiles on the floor",
+        "materials": ["A tiled or paved floor, or a grid drawn with chalk", "Exercise book"],
+        "steps": [
+          "In a group, find a rectangular tiled space, or draw a rectangle of equal squares with chalk.",
+          "Count the tiles in one row and the number of rows.",
+          "Multiply to find the area. Two people should multiply separately and compare answers.",
+          "Imagine 3 tiles are broken. Work out how many whole tiles would remain.",
+          "Talk about another place, such as a path or a courtyard, where rows and columns would help you find the area."
+        ]
+      },
+      "practice": [
+        { "question": "A path has 2 rows of 15 paving tiles. How many tiles is that?", "answer": "30 tiles", "check": "2 * 15 === 30" },
+        { "question": "A square floor has 12 tiles along each side. What is its area in tiles?", "answer": "144 tiles", "check": "12 * 12 === 144" },
+        { "question": "A room has 9 rows of 6 tiles, and 8 tiles are missing. How many tiles are in place?", "answer": "46 tiles", "check": "9 * 6 - 8 === 46" },
+        { "question": "Why is rows × columns useful on a floor you cannot pick up?", "answer": "You can find the number of tiles while they stay in place, without counting every tile one by one.", "check": null }
+      ],
+      "summary": [
+        "On a tiled rectangle, area in tiles = rows × columns.",
+        "Subtract broken or missing tiles from the full area.",
+        "Compare two floors by working out both areas and subtracting."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Choosing how to find an area",
+      "outcomes": ["a", "d"],
+      "objectives": [
+        "Decide whether to compare surfaces, count unit squares, or multiply rows by columns.",
+        "Explain why rows and columns are useful in real measuring."
+      ],
+      "intro": "You now have three ways to work with area. Placing one surface on another shows which is bigger. Counting unit squares gives a number. Multiplying rows by columns gives that number quickly when the rows are equal.",
+      "notes": "Choose the method that matches the question.\n\n### Which surface is bigger?\nIf you only need to compare, place one surface on the other. A triangle and a square can be compared in this way. You do not have to multiply unless you need the number of unit squares.\n\n### How many unit squares?\nIf the surface is covered, or can be covered, with equal squares, the area is the number of those squares. Count them when there are only a few. If you see equal rows and columns, multiply.\n\n### Check a multiplication by counting\nA small rectangle of 4 rows and 3 columns has area 12. Counting all 12 squares checks the multiplication. On a large floor, check by multiplying in the other order: 4 × 3 and 3 × 4 should match. You can also add the rows: 3 + 3 + 3 + 3 = 12.\n\n### Where people use this\nBuilders count tiles before they pave a floor. A person laying a mat wants a mat that covers the sleeping space. Farmers look at which plot of ground covers more land before they decide where to plant. In each case the fair comparison uses the same unit.\n\nGiving the true count matters. If a group reports 40 squares but only 36 were used, the area is wrong and a buyer might order the wrong number of tiles.",
+      "keyWords": [
+        { "word": "compare", "meaning": "to decide which of two areas is larger or whether they are equal" },
+        { "word": "check", "meaning": "a second method that should give the same area" }
+      ],
+      "examples": [
+        {
+          "problem": "A square has 4 rows and 4 columns of tiles. A rectangle has 2 rows and 8 columns. Compare their areas.",
+          "steps": ["Square: 4 × 4 = 16.", "Rectangle: 2 × 8 = 16.", "The areas are equal."],
+          "answer": "Both have an area of 16 tiles.",
+          "check": "4 * 4 === 2 * 8"
+        },
+        {
+          "problem": "A small rectangle is said to have area 5 × 4 = 20 unit squares. Check by addition of the rows.",
+          "steps": ["Five rows of 4: 4 + 4 + 4 + 4 + 4.", "4 × 5 = 20, so the multiplication agrees."],
+          "answer": "20 unit squares",
+          "check": "4 + 4 + 4 + 4 + 4 === 20"
+        }
+      ],
+      "activity": {
+        "title": "Area game",
+        "materials": ["Number cards for rows and columns", "Squared paper", "Pencil"],
+        "steps": [
+          "In pairs, draw two cards, one for the number of rows and one for the number of columns. Use numbers from 2 to 10.",
+          "Each person multiplies to find the area. If you agree, sketch the rectangle on squared paper and count to check.",
+          "Score a point for a correct area. Play five rounds.",
+          "For one round, also place two paper rectangles on each other and say which looks larger before you calculate.",
+          "If you have a digital device and your teacher allows it, play a tile-covering game and record one area you found."
+        ]
+      },
+      "practice": [
+        { "question": "When is placing one surface on the other enough, without counting?", "answer": "When you only need to know which surface has the larger area, or whether the areas are equal.", "check": null },
+        { "question": "A learner says 7 rows of 8 columns make 56 unit squares. Check using 8 × 7.", "answer": "56 unit squares", "check": "8 * 7 === 56" },
+        { "question": "A cloth is 10 rows by 10 columns of unit squares. Another is 12 rows by 8 columns. Which area is larger, and by how many unit squares?", "answer": "The cloth of 10 by 10 is larger by 4 unit squares.", "check": "10 * 10 - 12 * 8 === 4" }
+      ],
+      "summary": [
+        "Compare by placing surfaces when you only need to know which is larger.",
+        "Count unit squares, or multiply rows by columns, when you need the number.",
+        "Check a large area by multiplying in the other order or by adding one row several times."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A small mat is placed on a large mat. The large mat sticks out on every side. Which has the greater area?",
+      "options": ["The small mat", "The large mat", "They have the same area"],
+      "answer": "B",
+      "explanation": "The surface that sticks out covers more, so the large mat has the greater area.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Surface A is covered by 18 of the same unit squares and surface B by 23. How many more unit squares does B have?",
+      "answer": "5",
+      "explanation": "23 − 18 = 5.",
+      "outcome": "a",
+      "check": "23 - 18 === 5"
+    },
+    {
+      "question": "A rectangle is covered by 6 rows of 4 unit squares. What is its area?",
+      "options": ["10 unit squares", "24 unit squares", "20 unit squares", "64 unit squares"],
+      "answer": "B",
+      "explanation": "6 × 4 = 24 unit squares.",
+      "outcome": "b",
+      "check": "6 * 4 === 24"
+    },
+    {
+      "question": "A square is covered by 7 rows of 7 unit squares. What is its area?",
+      "answer": "49 unit squares",
+      "explanation": "7 × 7 = 49.",
+      "outcome": "b",
+      "check": "7 * 7 === 49"
+    },
+    {
+      "question": "What must you avoid when covering a surface with unit squares?",
+      "options": ["Using equal squares", "Leaving gaps or overlapping the squares", "Counting every square"],
+      "answer": "B",
+      "explanation": "Gaps miss some surface and overlaps count some surface twice.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "A rectangle has 9 rows and 3 columns of unit squares. What is its area?",
+      "options": ["12 unit squares", "27 unit squares", "93 unit squares", "6 unit squares"],
+      "answer": "B",
+      "explanation": "Area = rows × columns = 9 × 3 = 27.",
+      "outcome": "c",
+      "check": "9 * 3 === 27"
+    },
+    {
+      "question": "A paved floor has 8 rows of 11 tiles. How many tiles cover it?",
+      "answer": "88 tiles",
+      "explanation": "8 × 11 = 88.",
+      "outcome": "c",
+      "check": "8 * 11 === 88"
+    },
+    {
+      "question": "A floor of 5 rows and 6 columns has 4 broken tiles. How many tiles are still whole?",
+      "answer": "26 tiles",
+      "explanation": "5 × 6 = 30, then 30 − 4 = 26.",
+      "outcome": "c",
+      "check": "5 * 6 - 4 === 26"
+    },
+    {
+      "question": "A square has 4 rows of tiles and a rectangle has 2 rows of 8 tiles. Which statement is true?",
+      "options": ["The square is larger by 8 tiles", "The rectangle is larger by 8 tiles", "The areas are equal"],
+      "answer": "C",
+      "explanation": "4 × 4 = 16 and 2 × 8 = 16.",
+      "outcome": "d",
+      "check": "4 * 4 === 2 * 8"
+    },
+    {
+      "question": "Why do we multiply the number of rows by the number of columns on a large tiled floor?",
+      "answer": "It gives the number of tiles quickly, without counting every tile and losing the count.",
+      "explanation": "Rows × columns equals the count of the unit squares when every row is full.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 2.0 Measurement, Sub-strand 2.2 Area",
+    "KICD Grade 4 Mathematics radio lesson: Area of regular shapes"
+  ]
+}

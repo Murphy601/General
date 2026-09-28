@@ -1,0 +1,508 @@
+{
+  "subject": "SCIENCE AND TECHNOLOGY",
+  "subStrand": "3.3",
+  "title": "Heat",
+  "overview": "Heat is a form of energy that makes things warmer. In this sub-strand you will identify the sun, fire and electricity as sources of heat, show how heat is used for cooking, warming, ironing and drying, and describe the safety measures to follow. You will also make a simple pair of kitchen gloves from local materials.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "What heat is",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain the meaning of heat.",
+        "Tell the difference between heat and temperature."
+      ],
+      "intro": "Stand in the sun and your skin feels warm. Hold your hands near a cooking fire, without touching it, and you feel warm too. That warmth is caused by heat.",
+      "notes": "Heat is a form of energy that makes things hotter. You can feel heat, but you cannot see it. You see the effects: water starts to boil, clothes dry, a metal spoon in hot tea becomes too hot to hold, and ice melts.\n\nHeat moves from a hotter object to a cooler one. A hot sufuria warms the food inside it. The sun warms the ground. Your hands warm a cold metal cup when you hold it. Heat does not jump from a cold object to make a hot object even hotter by itself.\n\n### Temperature\nTemperature tells us how hot or cold something is. A clinical thermometer measures body temperature. A weather thermometer measures how hot or cold the air is. Two pots can both feel hot, but one can have a higher temperature than the other.\n\nHeat and temperature are related, but they are not the same word. Heat is the energy that warms things. Temperature is the measure of how hot or cold something is.\n\n### Sources you will study\nThe sources of heat in this sub-strand are:\n\n- the **sun**\n- **fire**\n- **electricity**\n\nRubbing your hands together also makes a little heat, because of friction. That is a useful observation, but the sources you must be able to name are the sun, fire and electricity.\n\nWe use heat every day, and we also treat it with respect. Hot water, hot metal and flames can burn the skin. In these lessons you will learn the uses first, and you will learn the safety rules before you try any activity with heat.",
+      "keyWords": [
+        { "word": "heat", "meaning": "a form of energy that makes things hotter" },
+        { "word": "temperature", "meaning": "a measure of how hot or cold something is" },
+        { "word": "source of heat", "meaning": "something that supplies heat, such as the sun, fire or electricity" }
+      ],
+      "examples": [
+        {
+          "problem": "A metal spoon is left in a cup of hot tea. After a short time the handle is hot. What has happened?",
+          "steps": ["The tea is hotter than the spoon was.", "Heat moves from the hotter tea to the cooler spoon.", "The spoon's temperature rises, so the handle feels hot."],
+          "answer": "Heat has moved from the hot tea to the spoon.",
+          "check": null
+        },
+        {
+          "problem": "What is the difference between heat and temperature?",
+          "steps": ["Heat is energy that makes things hotter.", "Temperature is how hot or cold something is.", "A thermometer measures temperature, not a pile of heat you can see."],
+          "answer": "Heat is the energy that warms things. Temperature measures how hot or cold something is.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Search for the meaning of heat",
+        "materials": ["Science textbook", "Exercise book", "A digital device only if the teacher supervises it"],
+        "steps": [
+          "With your group, find the meaning of heat in the textbook. If a digital device is used, the teacher opens the page.",
+          "Write the meaning in your own words and list the three sources: sun, fire and electricity.",
+          "Discuss one effect of heat you have seen at home, such as boiling water or drying clothes.",
+          "Write one sentence that tells heat apart from temperature.",
+          "Share your meaning with another group and improve the wording if it is unclear."
+        ]
+      },
+      "practice": [
+        { "question": "What is heat?", "answer": "Heat is a form of energy that makes things hotter.", "check": null },
+        { "question": "What does temperature tell us?", "answer": "How hot or cold something is.", "check": null },
+        { "question": "In which direction does heat move between a hot sufuria and cooler food?", "answer": "Heat moves from the hot sufuria to the cooler food.", "check": null }
+      ],
+      "summary": [
+        "Heat is a form of energy that makes things hotter.",
+        "Temperature measures how hot or cold something is.",
+        "Heat moves from hotter objects to cooler ones."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The sun as a source of heat",
+      "outcomes": ["a", "d"],
+      "objectives": [
+        "Describe the sun as a source of heat.",
+        "Give examples of how the sun's heat is used."
+      ],
+      "intro": "A stone left in the sun becomes warm, while a stone in deep shade stays cooler. Nobody lit a fire under the stone in the sun. The heat came from sunlight.",
+      "notes": "The sun is the main natural source of heat on Earth. Its heat warms the land, water and air. Without that warmth, the Earth would be too cold for people, animals and crops to live as they do.\n\nYou feel the sun's heat on your skin and on dark clothes. A metal roof can become very hot on a clear day. Water in a jerrycan left in the sun becomes warmer than water kept indoors.\n\n### Uses of the sun's heat\n- It dries clothes, maize, beans and other harvested crops spread on clean mats.\n- It warms our bodies on a cool morning.\n- It warms water that can later be used for washing.\n- It heats water in rivers, lakes and wet soil so that some water becomes vapour. That vapour helps to form clouds and later rain.\n- It helps to keep the surroundings warm enough for plants to grow. Plants also need the sun's light to make food.\n\n### Taking care in strong sun\nToo much sun on the skin can burn. A person may also feel dizzy, weak and very thirsty. Wear a hat, drink water and rest in the shade during the hottest part of a very sunny day. Tell an adult if you feel unwell.\n\nDo not look straight at the sun. Its light can damage your eyes. You can study the sun's heat by feeling warm objects that have been in the sun, not by staring at the sun.\n\nThe sun is a source we do not switch on. We choose where to stand, where to dry grain and when to seek shade.",
+      "keyWords": [
+        { "word": "sun", "meaning": "the main natural source of heat and light on Earth" },
+        { "word": "vapour", "meaning": "water in the form of a gas that you usually cannot see" },
+        { "word": "shade", "meaning": "a place blocked from direct sunlight" }
+      ],
+      "examples": [
+        {
+          "problem": "Two wet handkerchiefs are used. One is put in the sun and one in the shade. Which one is likely to dry first, and why?",
+          "steps": ["The sun is a source of heat.", "Heat helps water leave the cloth as vapour.", "The handkerchief in the sun gets more heat, so it dries faster."],
+          "answer": "The one in the sun, because the sun's heat dries it faster.",
+          "check": null
+        },
+        {
+          "problem": "Why should you not look directly at the sun when you are learning about its heat?",
+          "steps": ["The sun gives out very strong light as well as heat.", "That light can damage the eyes.", "Feel objects warmed by the sun instead."],
+          "answer": "Looking at the sun can damage the eyes.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compare sun and shade",
+        "materials": ["Two small stones or two metal spoons", "Two pieces of damp cloth", "A sunny place and a shady place"],
+        "steps": [
+          "Place one stone and one damp cloth in the sun. Place the other stone and cloth in the shade.",
+          "Wait as long as the lesson allows. Do not look at the sun.",
+          "Feel the two stones carefully with the back of your fingers. Say which is warmer.",
+          "Compare the cloths and discuss which source of heat made the difference.",
+          "Write two uses of the sun's heat and one safety rule."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 160\" font-family=\"sans-serif\"><rect width=\"420\" height=\"160\" fill=\"#ffffff\"/><circle cx=\"60\" cy=\"48\" r=\"22\" fill=\"#fbbf24\" stroke=\"#b45309\" stroke-width=\"2\"/><line x1=\"90\" y1=\"70\" x2=\"150\" y2=\"110\" stroke=\"#f59e0b\" stroke-width=\"2\"/><line x1=\"70\" y1=\"78\" x2=\"120\" y2=\"120\" stroke=\"#f59e0b\" stroke-width=\"2\"/><rect x=\"140\" y=\"100\" width=\"70\" height=\"28\" fill=\"#fde68a\" stroke=\"#92400e\" stroke-width=\"2\"/><text x=\"175\" y=\"118\" text-anchor=\"middle\" font-size=\"12\" fill=\"#78350f\">grain</text><rect x=\"280\" y=\"70\" width=\"90\" height=\"58\" fill=\"#e5e7eb\" stroke=\"#6b7280\" stroke-width=\"2\"/><text x=\"325\" y=\"102\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">shade</text></svg>",
+        "caption": "The sun's heat warms and dries things left in the open. Shade stays cooler."
+      },
+      "practice": [
+        { "question": "Which is the main natural source of heat on Earth?", "answer": "The sun.", "check": null },
+        { "question": "Give two uses of the sun's heat.", "answer": "Any two: drying clothes, drying grain, warming the body, warming water.", "check": null },
+        { "question": "What should you do if strong sun makes you dizzy?", "answer": "Rest in the shade, drink water and tell an adult.", "check": null },
+        { "question": "How does the sun's heat help rain to form later?", "answer": "It turns some water from rivers, lakes and wet soil into vapour, which helps to form clouds and later rain.", "check": null }
+      ],
+      "summary": [
+        "The sun is the main natural source of heat.",
+        "Its heat dries clothes and crops and warms the Earth.",
+        "Strong sun can burn the skin and damage eyes if you look at it."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Fire as a source of heat",
+      "outcomes": ["a"],
+      "objectives": [
+        "Describe fire as a source of heat.",
+        "Name what a fire needs in order to keep burning."
+      ],
+      "intro": "A jiko with burning charcoal heats a sufuria. A gas flame heats a kettle. A candle flame is small, but it can still burn a finger. In each case the heat comes from fire.",
+      "notes": "Fire is a source of heat made when a fuel burns. Common fuels are wood, charcoal, gas, paraffin, candle wax and dry crop remains. People use fire to cook, to boil water, to warm a room and to burn rubbish that an adult has said is safe to burn. Burning rubbish should not be a child's job, because the smoke and the flames are harmful.\n\nA fire gives heat and often gives light as well. The heat is greatest in and just above the flame. That is why a pot is placed over the fire, not far to the side.\n\n### What a fire needs\nA fire keeps burning only when three things are present:\n\n- **Fuel**, such as wood, charcoal or gas.\n- **Heat**, enough to keep the fuel burning.\n- **Air**, because burning uses oxygen from the air.\n\nIf one of these is removed, the fire goes out. A lid on a small pan fire keeps out air. Water cools some fires and removes heat. Taking away the remaining wood removes fuel. This knowledge is for safety. Learners must not start fires to test it.\n\n### A fire of cooking oil\nDo not pour water on burning cooking oil or petrol. Water can spread that fire. An adult may switch off the heat and cover the pan with a lid, or use sand, if it is safe to do so. Leave the room and call for help if the fire is growing.\n\nFire is useful when an adult controls it. It is one of the three sources of heat you must identify, together with the sun and electricity.",
+      "keyWords": [
+        { "word": "fire", "meaning": "the heat and flame produced when a fuel burns" },
+        { "word": "fuel", "meaning": "a material that is burned to give heat, such as wood, charcoal or gas" },
+        { "word": "oxygen", "meaning": "the part of air that a fire needs in order to burn" }
+      ],
+      "examples": [
+        {
+          "problem": "Name the source of heat when beans are cooked on a charcoal jiko.",
+          "steps": ["Charcoal is the fuel.", "The charcoal is burning.", "Burning fuel is fire, so the source of heat is fire."],
+          "answer": "Fire",
+          "check": null
+        },
+        {
+          "problem": "Why can a small flame go out when a lid is placed firmly over it?",
+          "steps": ["A fire needs air.", "The lid keeps fresh air away from the flame.", "Without air, the fire cannot keep burning."],
+          "answer": "The lid keeps air away, and a fire needs air.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Discuss fire as a source of heat",
+        "materials": ["Textbook pictures of a jiko, a gas cooker and a candle", "Exercise book"],
+        "steps": [
+          "Do not light any fire. Use pictures only.",
+          "Name the fuel in each picture and say what the fire is used to heat.",
+          "List the three things a fire needs: fuel, heat and air.",
+          "Discuss why water must not be poured on burning cooking oil.",
+          "Write a rule: only an adult lights and controls a fire."
+        ]
+      },
+      "practice": [
+        { "question": "What is fire as a source of heat?", "answer": "Heat produced when a fuel such as wood, charcoal or gas burns.", "check": null },
+        { "question": "What three things does a fire need in order to keep burning?", "answer": "Fuel, heat and air.", "check": null },
+        { "question": "Why should you not pour water on burning cooking oil?", "answer": "Water can spread the oil fire instead of putting it out.", "check": null }
+      ],
+      "summary": [
+        "Fire gives heat when a fuel burns.",
+        "A fire needs fuel, heat and air.",
+        "Only an adult should light a fire, and water is not used on burning oil."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Electricity as a source of heat",
+      "outcomes": ["a"],
+      "objectives": [
+        "Identify appliances that produce heat from electricity.",
+        "State simple safety rules for electric heat."
+      ],
+      "intro": "An electric kettle can boil water without any firewood. An electric iron smooths a shirt. The heat in both appliances comes from electricity, not from a flame.",
+      "notes": "Electricity is a source of heat when it passes through a special part of an appliance called the heating element. The element becomes hot. That heat then warms water, a room, food or the plate of an iron.\n\n### Appliances that give heat\n- An **electric kettle** heats water.\n- An **electric cooker** or coil heats pots.\n- An **electric iron** heats a metal plate for pressing clothes.\n- A **water heater** warms water for bathing.\n- An **electric heater** warms a room on a cold day.\n\nThese appliances do not burn wood. They must be plugged into electricity, or they use power stored from electricity. When the switch is off, the element cools down. It can stay hot for some time after it is switched off.\n\n### Safety with electric heat\n- An adult should plug in and switch on heaters, irons and cookers.\n- Do not touch a socket, switch or appliance with wet hands. Water and electricity together can give a dangerous shock.\n- Do not push metal objects into sockets.\n- Do not plug many strong appliances into one socket.\n- Switch off and unplug an iron or kettle after use.\n- Do not touch the heating element or the sole of an iron. They are hot enough to burn.\n\nIf you see a damaged wire, a spark or a burning smell, tell an adult and keep away. Do not try to repair it. Electricity is a useful source of heat only when it is used with these rules.",
+      "keyWords": [
+        { "word": "electricity", "meaning": "a form of energy that can be changed into heat in appliances" },
+        { "word": "heating element", "meaning": "the part of an electric appliance that becomes hot" },
+        { "word": "appliance", "meaning": "a machine used for a job at home, such as a kettle or an iron" }
+      ],
+      "examples": [
+        {
+          "problem": "A family boils water in an electric kettle. What is the source of heat?",
+          "steps": ["There is no firewood or charcoal.", "The kettle is plugged into electricity.", "The heating element changes electricity into heat."],
+          "answer": "Electricity",
+          "check": null
+        },
+        {
+          "problem": "Why is it dangerous to switch on a kettle with wet hands?",
+          "steps": ["The kettle uses electricity.", "Wet skin and water make a shock more likely.", "An electric shock can seriously hurt a person."],
+          "answer": "Wet hands and electricity can cause a dangerous shock.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Identify electric sources of heat",
+        "materials": ["Textbook pictures of a kettle, an iron, a cooker and a heater", "Exercise book"],
+        "steps": [
+          "Do not plug in any appliance. Look at pictures or at switches only with the teacher.",
+          "Name each appliance and say what it heats: water, clothes, food or air.",
+          "Point to where the heating element is likely to be, without touching a real one.",
+          "Write three safety rules for using electricity as a source of heat.",
+          "Compare your rules with another group and add any rule you missed."
+        ]
+      },
+      "practice": [
+        { "question": "Name three appliances that use electricity as a source of heat.", "answer": "Any three: electric kettle, electric iron, electric cooker, water heater, room heater.", "check": null },
+        { "question": "What is a heating element?", "answer": "The part of an electric appliance that becomes hot.", "check": null },
+        { "question": "Give two safety rules when using an electric iron.", "answer": "An adult should plug it in. Do not touch the hot plate. Switch it off and unplug it after use. Do not use it with wet hands.", "check": null }
+      ],
+      "summary": [
+        "Electricity produces heat in kettles, irons, cookers and heaters.",
+        "The heating element is the part that becomes hot.",
+        "Dry hands, adult help and switching off after use keep electric heat safer."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Cooking and warming with heat",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Describe how heat is used for cooking.",
+        "Describe how heat is used for warming the body, water and rooms."
+      ],
+      "intro": "Dry maize grains are hard to chew. After they are boiled they become soft enough to eat. On a cold morning, people also stand near a safe source of heat to feel warmer. Cooking and warming are two uses of heat.",
+      "notes": "Cooking uses heat to change food so that it can be eaten safely and comfortably. Boiling, frying, roasting and baking all use heat. Heat softens foods such as beans, maize and potatoes. It melts fat. It can kill many of the germs that would otherwise make people ill. Food must still be stored carefully after cooking. Heat during cooking does not protect food that is later left uncovered all day.\n\nDifferent foods need different amounts of heat. Water for tea is boiled. A chapati is cooked on a hot pan. Meat and beans need enough heat for long enough to become tender. An adult controls the fire or the cooker. Children can watch and can talk about what the heat is doing. They should not reach over a flame or a hot plate.\n\n### Warming\nWarming means raising the temperature of something that feels cold.\n\n- People warm themselves on a cold morning with the sun, with warm clothes, or near a controlled fire or heater.\n- Water is warmed for bathing.\n- Some houses are warmed with a heater when the air is cold.\n- A brooding hen or a warm box keeps chicks warm. Farmers use this idea when hatching chicks, because eggs and young chicks need warmth.\n\nWarming has a limit. A room heater should not be covered with clothes, because the clothes can catch fire. A person who is too hot should move to a cooler place and drink water. Heat for warming is helpful when it is gentle and watched.",
+      "keyWords": [
+        { "word": "cooking", "meaning": "using heat to prepare food so it can be eaten" },
+        { "word": "warming", "meaning": "using heat to raise the temperature of the body, water, a room or young animals" },
+        { "word": "germs", "meaning": "tiny living things that can cause disease" }
+      ],
+      "examples": [
+        {
+          "problem": "Why are beans boiled instead of eaten hard and dry?",
+          "steps": ["Dry beans are too hard to chew comfortably.", "Heat softens them.", "Enough heat during cooking also kills many germs."],
+          "answer": "Heat softens the beans and kills many germs so the beans are safe and pleasant to eat.",
+          "check": null
+        },
+        {
+          "problem": "A farmer keeps newly hatched chicks in a warm brooder. Which use of heat is this?",
+          "steps": ["The chicks need to be kept warm.", "The brooder supplies heat.", "This use is warming."],
+          "answer": "Warming",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Show uses of heat in cooking and warming",
+        "materials": ["Pictures of boiling, frying and a person warming by a fire or in the sun", "A cup of water left in the sun if the weather allows", "Exercise book"],
+        "steps": [
+          "Do not light a fire or switch on a cooker. The teacher may show a safely cooling cup of warm water if one is already prepared.",
+          "Sort the pictures into cooking and warming.",
+          "For each picture, name the source of heat: sun, fire or electricity.",
+          "Discuss how heat changes beans or maize during cooking.",
+          "Share one way heat is used to keep chicks or people warm, and one rule for staying safe."
+        ]
+      },
+      "practice": [
+        { "question": "Give two ways heat changes food during cooking.", "answer": "It can soften food, and it can kill many germs. It can also melt fat or brown food.", "check": null },
+        { "question": "Name two warming uses of heat.", "answer": "Any two: warming the body, warming bathing water, warming a room, keeping chicks warm.", "check": null },
+        { "question": "Why should clothes not be dried on top of a room heater?", "answer": "The clothes can catch fire.", "check": null }
+      ],
+      "summary": [
+        "Heat is used to cook food by boiling, frying, roasting or baking.",
+        "Heat warms people, water, rooms and young chicks.",
+        "An adult should control cooking fires and heaters."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Ironing and drying with heat",
+      "outcomes": ["b", "d"],
+      "objectives": [
+        "Describe how heat is used for ironing.",
+        "Describe how heat is used for drying."
+      ],
+      "intro": "A crumpled shirt becomes smooth when a hot iron is pressed over it. A wet shirt becomes dry when it is spread in the sun. Ironing and drying are two more uses of heat.",
+      "notes": "Ironing uses heat to remove creases from clothes. An electric iron has a hot metal plate called the sole. A charcoal iron holds burning charcoal in a metal box and the hot box is pressed on the cloth. The heat softens the fibres for a moment so they lie flat. Steam from a slightly damp cloth can help. Too much heat can scorch the cloth or burn the person using the iron.\n\nAn adult should iron clothes. The iron is stood upright while it heats and while it cools, away from children and away from the edge of the table. The sole is never touched. The cord of an electric iron should not trail where people walk.\n\n### Drying\nDrying means removing water by using heat. The water becomes vapour and leaves the material.\n\n- Wet clothes are spread in the sun or near a safe source of heat, not on a flame.\n- Maize, beans and other grains are dried before storage. Dry grain is harder for mould to spoil. Drying in the sun is also one way farmers reduce problems from pests that like damp grain.\n- Some vegetables and fish are dried so they can be kept longer.\n- Washed utensils are left to drain and dry.\n\nGrain should be dried on a clean surface, turned so that all of it gets heat, and covered or taken in if rain starts. Drying does not replace sorting. Spoilt grains should be removed.\n\nCooking utensils become hot when they are used, and they stay hot after they leave the fire. That is why drying and ironing, like cooking, need patience. Wait, or use a proper holder, instead of grabbing a hot object.",
+      "keyWords": [
+        { "word": "ironing", "meaning": "using a hot iron to remove creases from clothes" },
+        { "word": "sole", "meaning": "the flat metal plate of an iron that becomes hot" },
+        { "word": "drying", "meaning": "using heat to turn water in a material into vapour so the material becomes dry" }
+      ],
+      "examples": [
+        {
+          "problem": "What is the source of heat in a charcoal iron, and what is the use?",
+          "steps": ["Charcoal burns inside the iron.", "Burning charcoal is fire.", "The hot iron removes creases, so the use is ironing."],
+          "answer": "The source is fire, and the use is ironing.",
+          "check": null
+        },
+        {
+          "problem": "Why is maize dried in the sun before it is stored?",
+          "steps": ["Freshly harvested maize can still hold water.", "The sun's heat turns that water into vapour.", "Drier grain is less likely to go mouldy and is less attractive to some pests."],
+          "answer": "Drying removes water so the grain stores better and is less likely to spoil.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compare drying in the sun and in the shade",
+        "materials": ["Two small pieces of damp cloth", "A sunny place", "A shady place", "Exercise book"],
+        "steps": [
+          "Wet both cloths equally and squeeze them so they are damp, not dripping.",
+          "Spread one in the sun and one in the shade.",
+          "Check them near the end of the lesson or the next day and record which is drier.",
+          "Discuss ironing only from pictures or from a cold, unplugged iron shown by the teacher. Do not heat an iron yourselves.",
+          "Write the two uses, drying and ironing, and the source of heat in your cloth test."
+        ]
+      },
+      "practice": [
+        { "question": "How does an iron use heat?", "answer": "The hot sole presses the cloth and removes creases.", "check": null },
+        { "question": "Name two things that are dried using the sun's heat.", "answer": "Any two: clothes, maize, beans, vegetables, fish.", "check": null },
+        { "question": "Why should an iron be stood upright while it cools?", "answer": "So the hot sole does not burn the table, clothes or a person.", "check": null },
+        { "question": "How does drying grain help a farmer?", "answer": "Dry grain is less likely to go mouldy and is less attractive to some pests that like damp grain.", "check": null }
+      ],
+      "summary": [
+        "Ironing uses heat from electricity or from burning charcoal to smooth clothes.",
+        "Drying uses heat to turn water into vapour.",
+        "Dry grain stores better than damp grain."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Safety measures when using heat",
+      "outcomes": ["c"],
+      "objectives": [
+        "Describe safety measures to observe when using heat from the sun, fire and electricity.",
+        "Say what to do if skin is burned."
+      ],
+      "intro": "Heat cooks our food, and the same heat can cook skin. A burn from a sufuria, an iron or hot water is painful and can leave a scar. Safety measures are the habits that let us use heat without getting hurt.",
+      "notes": "Safety measures are the actions we take to avoid burns, fires and electric shocks. Learn them before you help near a kitchen.\n\n### Near fire and hot utensils\n- Do not play near a jiko, a stove or an open fire.\n- Only an adult lights matches, gas or charcoal.\n- Turn sufuria handles inward so they are not knocked over.\n- Use kitchen gloves, tongs or a thick dry cloth to hold hot handles. A wet cloth passes heat quickly and can scald you.\n- Keep clothes, paper, curtains and mosquito nets away from flames.\n- Do not leave a candle or a lamp burning in an empty room.\n- Do not pour water on burning oil. Cover a small pan fire with a lid if an adult says it is safe, or use sand.\n\n### Electricity and the sun\n- Do not touch appliances or switches with wet hands.\n- Switch off and unplug irons and kettles after use, and let them cool before they are stored.\n- Do not overload a socket.\n- In strong sun, wear a hat, drink water and rest in the shade. Do not look at the sun.\n\n### If someone is burned\nCool the burn under clean cool running water for several minutes. Tell an adult at once. Do not put toothpaste, butter, oil or soil on a burn. Do not burst blisters. If clothes catch fire, the person should stop, drop to the ground and roll. Others can help smother the flames with a heavy cloth, not by fanning them.\n\nThese measures protect you and the people working beside you. Using heat safely is part of caring for the whole household.",
+      "keyWords": [
+        { "word": "safety measure", "meaning": "an action taken to avoid harm" },
+        { "word": "scald", "meaning": "a burn caused by hot liquid or steam" },
+        { "word": "tongs", "meaning": "a tool used to hold hot objects so the hands stay away" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner wants to lift a hot sufuria with a wet cloth. Why is that unsafe?",
+          "steps": ["Water in the cloth heats up very quickly.", "The heat reaches the hands and can scald them.", "A thick dry cloth or kitchen gloves should be used instead."],
+          "answer": "A wet cloth heats quickly and can scald the hands. Use a thick dry cloth or kitchen gloves.",
+          "check": null
+        },
+        {
+          "problem": "Hot tea spills and burns a hand. What should be done first?",
+          "steps": ["The burn needs to be cooled.", "Clean cool running water is used for several minutes.", "An adult is told. Toothpaste, butter and oil are not put on the burn."],
+          "answer": "Cool the burn under clean cool running water and tell an adult. Do not put toothpaste, butter or oil on it.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Search and discuss safety with heat",
+        "materials": ["Science textbook", "Exercise book", "A digital device only with the teacher"],
+        "steps": [
+          "Search the textbook, or a page the teacher opens, for safety measures used with heat.",
+          "Sort the measures into three groups: fire, electricity and the sun.",
+          "Add the first aid for a small burn: cool running water, then tell an adult.",
+          "Discuss why water is not poured on an oil fire.",
+          "Make a short safety poster sentence for the class kitchen or science corner."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 150\" font-family=\"sans-serif\"><rect width=\"360\" height=\"150\" fill=\"#ffffff\"/><rect x=\"70\" y=\"40\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#fee2e2\" stroke=\"#b91c1c\" stroke-width=\"2\"/><rect x=\"40\" y=\"55\" width=\"36\" height=\"12\" fill=\"#fecaca\" stroke=\"#b91c1c\"/><text x=\"130\" y=\"70\" text-anchor=\"middle\" font-size=\"13\" fill=\"#7f1d1d\">sufuria</text><text x=\"250\" y=\"70\" font-size=\"13\" fill=\"#111827\">handle turned in</text><text x=\"40\" y=\"120\" font-size=\"13\" fill=\"#166534\">Keep the handle where it cannot be knocked.</text></svg>",
+        "caption": "Turn pot handles inward so the pot is not knocked off the cooker."
+      },
+      "practice": [
+        { "question": "List four safety measures to observe when using heat.", "answer": "Any four: do not play near fire, turn handles inward, use dry gloves or tongs, keep cloth away from flames, do not touch appliances with wet hands, switch off after use, do not look at the sun.", "check": null },
+        { "question": "What should you put on a small burn?", "answer": "Clean cool running water. Do not put toothpaste, butter or oil on it. Tell an adult.", "check": null },
+        { "question": "What should a person do if their clothes catch fire?", "answer": "Stop, drop to the ground and roll. Do not run.", "check": null },
+        { "question": "Why are pot handles turned inward?", "answer": "So the pot is not knocked over and the hot contents do not spill on someone.", "check": null }
+      ],
+      "summary": [
+        "Keep away from flames, turn handles in, and use dry gloves or tongs.",
+        "Keep water away from electricity and away from oil fires.",
+        "Cool a burn with clean running water and tell an adult."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Why heat matters, and kitchen gloves",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Explain the importance of heat in daily life and in nature.",
+        "Make kitchen gloves from locally available materials."
+      ],
+      "intro": "Without heat from the sun, nights would not be followed by warm days that crops depend on. Without heat in the kitchen, many foods would stay raw. Heat is important, and the hands that work near it need protection.",
+      "notes": "Heat is important in nature and at home.\n\n- The sun's heat warms the Earth so that people, animals and plants can live.\n- Heat from the sun drives part of the water cycle by turning water into vapour, which later helps to form rain.\n- Families use heat to cook, to warm themselves and water, to iron clothes and to dry clothes and food.\n- Farmers use heat when they dry grain and when they keep eggs and chicks warm during hatching.\n- Hot, clean water is used in washing utensils. Dry grain is less likely to spoil.\n\nIf heat is missing, food stays raw, clothes stay damp and the surroundings can be too cold. If heat is careless, it burns skin and can burn a house. Importance and safety belong together.\n\n### Kitchen gloves\nKitchen gloves protect the hands when an adult lifts a warm pot. They are made from thick cloth, not from plastic bags. Plastic melts and can stick to the skin.\n\nUse an old clean towel or thick cotton cloth, doubled if it is thin. Place a hand on the cloth and draw around it, leaving extra space so the glove is loose. Cut two layers for each hand. Sew the edges with a needle and thread, or ask an adult to stitch them, and leave the wrist open. Turn the glove so the stitches are inside.\n\nNeedles are sharp. Do not put a needle in your mouth, and do not leave it on a chair. The gloves are for warm handles. They are not for grabbing objects out of a fierce fire, and they do not replace adult help. Test them only on a pot that an adult says is safe to hold.",
+      "keyWords": [
+        { "word": "kitchen gloves", "meaning": "thick cloth covers that protect the hands from hot handles" },
+        { "word": "water cycle", "meaning": "the movement of water by evaporation into vapour and later as rain" },
+        { "word": "importance", "meaning": "the reason something matters in life" }
+      ],
+      "examples": [
+        {
+          "problem": "Give two reasons why heat is important on a farm.",
+          "steps": ["The sun's heat dries grain so it can be stored.", "Warmth is needed when hatching chicks.", "Crops also depend on a warm enough environment."],
+          "answer": "Heat dries grain for storage, and warmth is used when hatching chicks.",
+          "check": null
+        },
+        {
+          "problem": "Why are plastic bags a poor material for kitchen gloves?",
+          "steps": ["Plastic melts when it is heated.", "Melted plastic can stick to the skin and cause a worse burn.", "Thick cloth does not melt in the same way."],
+          "answer": "Plastic melts and can stick to the skin. Thick cloth should be used instead.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Project: make kitchen gloves",
+        "materials": ["Thick cotton cloth or old clean towels", "Chalk or a pencil", "Scissors", "Needle and thread", "A ruler"],
+        "steps": [
+          "Discuss why the gloves are needed and why plastic bags must not be used.",
+          "Trace a hand on doubled cloth, leaving space so the glove will be loose. Cut two gloves, one for each hand, with the teacher helping with scissors.",
+          "Sew the edges, leaving the wrist open. Take turns with the needle and keep fingers clear of the point.",
+          "Turn the gloves and check that the cloth is thick. If it is thin, add another layer.",
+          "Write three safety measures for using the gloves, and three reasons heat is important. Do not test the gloves on a hot pot unless an adult is supervising."
+        ]
+      },
+      "practice": [
+        { "question": "Give three reasons why heat is important in daily life.", "answer": "Any three: cooking, warming, ironing, drying clothes, drying grain, keeping chicks warm, warming the Earth.", "check": null },
+        { "question": "What materials are suitable for kitchen gloves?", "answer": "Thick cotton cloth or old clean towels, sewn into a loose glove. Not plastic bags.", "check": null },
+        { "question": "Why must kitchen gloves be loose and thick?", "answer": "Thick cloth slows the heat reaching the skin. Loose gloves are easier to take off quickly.", "check": null },
+        { "question": "Name one importance of heat in nature.", "answer": "The sun's heat warms the Earth so living things can survive, or it helps water become vapour that later falls as rain.", "check": null }
+      ],
+      "summary": [
+        "Heat is important for life, cooking, warmth, ironing, drying and farming.",
+        "Kitchen gloves are made from thick cloth to protect the hands.",
+        "Plastic melts and must not be used for gloves."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Heat is:",
+      "options": ["a form of energy that makes things hotter", "a type of rock", "only a bright colour", "the same thing as a thermometer"],
+      "answer": "A",
+      "explanation": "Heat is energy that raises temperature and makes things hotter.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which set lists the sources of heat in this sub-strand?",
+      "options": ["Sun, fire and electricity", "Moon, mirror and window", "Friction, gravity and light only", "Soil, roots and leaves"],
+      "answer": "A",
+      "explanation": "The sources to identify are the sun, fire and electricity.",
+      "outcome": "a"
+    },
+    {
+      "question": "The main natural source of heat on Earth is the:",
+      "options": ["candle", "sun", "electric iron", "torch"],
+      "answer": "B",
+      "explanation": "The sun heats the land, water and air. A candle and an iron are made by people.",
+      "outcome": "a"
+    },
+    {
+      "question": "A fire keeps burning only when it has fuel, heat and:",
+      "options": ["oil poured on top", "air", "plastic", "darkness"],
+      "answer": "B",
+      "explanation": "Burning uses oxygen from the air. Remove the air and a small flame can go out.",
+      "outcome": "a"
+    },
+    {
+      "question": "Boiling beans and baking are examples of using heat for:",
+      "options": ["cooking", "ironing only", "making electricity", "removing gravity"],
+      "answer": "A",
+      "explanation": "Cooking uses heat to make food soft and safer to eat.",
+      "outcome": "b"
+    },
+    {
+      "question": "Drying maize in the sun is important because:",
+      "options": ["wet grain stores better than dry grain", "dry grain is less likely to go mouldy", "the sun adds water to the grain", "maize needs to be frozen"],
+      "answer": "B",
+      "explanation": "Heat removes water. Drier grain is less likely to spoil in storage.",
+      "outcome": "b"
+    },
+    {
+      "question": "Which tool protects the hands when lifting a warm pot?",
+      "options": ["A plastic bag", "Kitchen gloves or a thick dry cloth", "Wet fingers", "A metal wire in a socket"],
+      "answer": "B",
+      "explanation": "Thick dry cloth or kitchen gloves protect the hands. Plastic can melt and a wet cloth can scald.",
+      "outcome": "c"
+    },
+    {
+      "question": "If skin is burned, you should first:",
+      "options": ["put toothpaste or butter on it", "cool it with clean cool running water", "cover it with soil", "hold it near the fire"],
+      "answer": "B",
+      "explanation": "Cool the burn under clean running water and tell an adult. Do not use toothpaste, butter or oil.",
+      "outcome": "c"
+    },
+    {
+      "question": "Water should not be poured on burning cooking oil because it can:",
+      "options": ["make the oil fire spread", "turn the oil into charcoal", "remove all the fuel safely every time", "freeze the pan"],
+      "answer": "A",
+      "explanation": "Water can spread burning oil. A lid or sand may be used by an adult if it is safe.",
+      "outcome": "c"
+    },
+    {
+      "question": "Why is the sun's heat important in nature?",
+      "answer": "It warms the Earth so living things can survive, and it helps turn water into vapour that later forms rain.",
+      "explanation": "Life on Earth depends on the sun's warmth, and the sun's heat is part of the water cycle.",
+      "outcome": "d"
+    },
+    {
+      "question": "Why are plastic bags unsuitable for kitchen gloves?",
+      "answer": "Plastic melts when heated and can stick to the skin.",
+      "explanation": "Kitchen gloves should be made from thick cloth such as an old towel.",
+      "outcome": "d"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Science and Technology Curriculum Design (Revised 2024) — Strand 3.0 Force and Energy, Sub-strand 3.3 Heat"
+  ]
+}

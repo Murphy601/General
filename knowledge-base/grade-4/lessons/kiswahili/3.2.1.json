@@ -1,0 +1,197 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "3.2.1",
+  "title": "Kusoma: Kusoma kwa Ufasaha",
+  "overview": "Kusoma kwa ufasaha ni kusoma ukisikika wazi na kwa mpangilio. Utajadili vipengele vinne: matamshi bora, kiwango cha sauti, kasi ifaayo, na ishara za uso na mikono. Kisha utasoma kifungu kuhusu mavazi huku wenzako wakikupa maoni.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Matamshi na kiwango cha sauti",
+      "outcomes": ["a", "b", "c"],
+      "objectives": [
+        "Kutaja vipengele vya kusoma kwa ufasaha.",
+        "Kusoma kifungu kwa matamshi bora.",
+        "Kurekebisha sauti na kiimbo ili visikike."
+      ],
+      "intro": "Ukisoma kwa sauti ya ndani mno, darasa halikusikii. Ukihamaki kila neno, masikio yanauma na maana inapotea. Ufasaha unapatikana katikati: maneno kamili, sauti inayofaa chumba, na kiimbo kinachofuata maana.",
+      "notes": "### Vipengele vya ufasaha\nKusoma kwa ufasaha kunazingatia mambo manne. Leo tunaangalia mawili ya kwanza, na somo linalofuata litaangalia kasi na ishara.\n\n- **Matamshi bora:** kila neno linatamkwa kamili. Huzimezi mwisho wa neno wala kuchanganya sauti zinazokaribiana, kama p na b.\n- **Kiwango cha sauti:** sauti inatosha kusikika hadi mwenzako wa nyuma, bila kupiga kelele. Chumba kidogo kinahitaji sauti ndogo kuliko uwanja.\n- **Kiimbo:** sauti hupanda na kushuka kulingana na maana. Swali linapanda mwishoni. Sentensi ya kikomo haipandi kama swali.\n- **Kasi na ishara:** zinafundishwa katika somo linalofuata, lakini ziko katika orodha ileile ya vipengele.\n\n### Kifungu cha mavazi\nSoma kwa sauti. Simama vizuri.\n\nAsubuhi Neema aliamka na kuvaa shati jeupe na sketi ya rangi ya samawati. Aliosha sura, akachana nywele, akafunga kiatu cha kulia kisha cha kushoto. Mama alimkagua kola na kumwambia avae sweta, kwa sababu hali ya hewa ilikuwa baridi. Neema alitabasamu, akaokota sweta na kofia. Alipoaga nyumbani, alimkumbusha mdogo wake asisahau sweta yake.\n\n### Matamshi na sauti katika kifungu hiki\nManeno kama shati, sketi, sweta na kola yatamkwe tofauti. Usiyachanganye. Kikomo baada ya kila sentensi ni nafasi ya pumzi fupi. Swali kama limekuwepo lingepandisha sauti; kifungu hiki kinaeleza, hivyo kiimbo kinabaki tulivu.\n\nJaribu mara ya kwanza kwa sauti ya wastani. Mwenzako aliye nyuma akisema hakusikia, ongeza kidogo. Akisema unapiga kelele, punguza. Ufasaha si mbio wala si kunong'ona. Ni kusoma ili ujumbe ufike.",
+      "keyWords": [
+        { "word": "ufasaha", "meaning": "kusoma kwa matamshi, sauti, kasi na ishara zinazofaa" },
+        { "word": "kiimbo", "meaning": "kupanda na kushuka kwa sauti kulingana na maana" },
+        { "word": "kiwango cha sauti", "meaning": "jinsi sauti ilivyo kubwa au ndogo" }
+      ],
+      "examples": [
+        {
+          "problem": "Mwenzako wa nyuma hakusikia ulichosoma. Unarekebisha nini?",
+          "steps": ["Tatizo si kasi peke yake.", "Sauti ni ndogo mno kwa chumba."],
+          "answer": "Naongeza kiwango cha sauti kidogo, bila kupiga kelele.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini usiseme shati na sweta kana kwamba ni neno moja?",
+          "steps": ["Ni mavazi mawili tofauti.", "Matamshi bora hutenganisha maneno."],
+          "answer": "Kwa sababu ni maneno mawili yenye maana tofauti. Yapatikane kamili.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sikiliza kisha soma",
+        "materials": ["Kifungu cha mavazi", "Video au mgeni anayesoma panapopatikana"],
+        "steps": [
+          "Jadilini vipengele vya kusoma kwa ufasaha: matamshi, sauti, kasi na ishara.",
+          "Sikilizeni mwalimu, mwenzako au video akisoma habari au hotuba fupi.",
+          "Taja vipengele mlivyosikia: matamshi yalikuwa wazi? Sauti ilifaa?",
+          "Someni kifungu cha Neema kwa zamu mkizingatia matamshi na kiwango cha sauti.",
+          "Mtolee mwenzako maoni mawili ya heshima."
+        ]
+      },
+      "practice": [
+        { "question": "Taja vipengele vinne vya kusoma kwa ufasaha.", "answer": "Matamshi bora, kiwango cha sauti, kasi ifaayo, na ishara zifaazo.", "check": null },
+        { "question": "Kiimbo kinabadilika vipi unapouliza swali?", "answer": "Sauti hupanda mwishoni mwa swali.", "check": null },
+        { "question": "Neema aliambiwa avae sweta kwa sababu gani?", "answer": "Kwa sababu hali ya hewa ilikuwa baridi.", "check": null },
+        { "question": "Sauti inayofaa darasani ni ipi?", "answer": "Sauti inayowafikia wenzako wa nyuma bila kuwa kelele.", "check": null }
+      ],
+      "summary": [
+        "Ufasaha huanza na matamshi kamili na sauti inayofaa chumba.",
+        "Kiimbo hufuata maana: swali linapanda, elezo linatulia.",
+        "Pumziko la kikomo hukusaidia usiunganishe sentensi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kasi ifaayo na ishara",
+      "outcomes": ["d", "e", "f"],
+      "objectives": [
+        "Kusoma kwa kasi inayolenga maneno sitini sahihi kwa dakika.",
+        "Kuambatanisha ishara za uso na mikono panapofaa.",
+        "Kupokea maoni na kuchangamkia mazoezi ya ufasaha."
+      ],
+      "intro": "Kusoma kwa mbio kunakufanya uruke maneno. Kusoma kwa ulegevu kunawalaza wasikilizaji. Kasi ifaayo ni ile inayokaa wazi na kuendelea. Leo utahesabu maneno sahihi na utaongeza ishara zinazosaidia maana, si michezo ya mikono.",
+      "notes": "### Kasi ifaayo\nLengo la darasa hili ni kusoma maneno sahihi yasiyopungua sitini kwa dakika moja. Hilo si shindano la kupiga kelele. Neno lisilotamkwa sawasawa halihesabiwi.\n\nJinsi ya kujipima:\n1. Chagua kifungu unachokijua.\n2. Mwenzako akaangalie muda wa dakika moja.\n3. Soma kwa sauti.\n4. Hesabu maneno yaliyotamkwa sahihi tu.\n5. Kama hayajafika sitini, rudia kesho. Usiruke silabi ili kuongeza idadi.\n\nKifungu hiki kinafaa mazoezi. Kisome mara moja kwa utulivu, kisha ujaribu dakika.\n\nAsubuhi Neema aliamka na kuvaa shati jeupe na sketi ya rangi ya samawati. Aliosha sura, akachana nywele, akafunga kiatu cha kulia kisha cha kushoto. Mama alimkagua kola na kumwambia avae sweta, kwa sababu hali ya hewa ilikuwa baridi. Neema alitabasamu, akaokota sweta na kofia. Alipoaga nyumbani, alimkumbusha mdogo wake asisahau sweta yake. Shuleni walimu waliwasifu wanafunzi waliovaa sare safi iliyopigwa pasi.\n\n### Ishara zifaazo\nIshara za uso na mikono zinaambatana na maana, hazichukui nafasi ya maneno.\n\n- Unaposema alitabasamu, unaweza kutabasamu kidogo.\n- Unaposema kofia, unaweza kuonyesha juu ya kichwa.\n- Unaposema baridi, unaweza kukunja mikono kana kwamba una baridi.\n\nUsiinamishie meza wala kuwashauri wenzako kwa mkono wakati unayatamka maneno. Ishara kubwa mno huvuruga. Ishara ndogo huongeza maana.\n\n### Changamkia mazoezi\nUfasaha unakuja kwa mazoezi ya kila siku. Soma kifungu cha mavazi, habari fupi, au hotuba ndogo kutoka kwenye kitabu au kifaa, kwa ruhusa. Tumia vifaa kwa zamu na uvitunze. Wenzako wakikuonya kuhusu kasi au ishara, pokea shauri. Unaposomeka wazi, ujumbe wako unafika. Hicho ndicho lengo la mawasiliano.",
+      "keyWords": [
+        { "word": "kasi", "meaning": "jinsi unavyosoma upesi au polepole" },
+        { "word": "ishara", "meaning": "mwendo wa uso au mikono unaoambatana na maneno" },
+        { "word": "neno sahihi", "meaning": "neno lililotamkwa kamili na kwa maana yake" }
+      ],
+      "examples": [
+        {
+          "problem": "Umesoma maneno hamsini katika dakika moja, lakini matano yalirukwa. Unahesabu mangapi?",
+          "steps": ["Maneno yaliyorukwa hayahesabiwi.", "Hamsini yaliyotamkwa sahihi ndiyo yanayohesabiwa."],
+          "answer": "Maneno hamsini sahihi. Bado najaribu kufikia sitini bila kuruka.",
+          "check": null
+        },
+        {
+          "problem": "Unaposoma neno kofia, ishara gani inafaa?",
+          "steps": ["Ishara ifuate maana.", "Kofia huvaliwa kichwani."],
+          "answer": "Kuonyesha juu ya kichwa kidogo.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Dakika moja ya usomaji",
+        "materials": ["Kifungu cha mavazi", "Saa inayoonyesha sekunde", "Daftari la maoni"],
+        "steps": [
+          "Kwa jozi, mmoja asome kwa dakika moja na mwingine ahesabu maneno sahihi.",
+          "Lengo ni maneno sitini sahihi, bila kuruka wala kupiga kelele.",
+          "Msomaji aongeze ishara moja inayofaa, kama kutabasamu anaposema alitabasamu.",
+          "Andikeni maoni: matamshi, sauti, kasi na ishara.",
+          "Badilishaneni nafasi. Nyumbani soma kifungu kingine ukizingatia vipengele hivyo."
+        ]
+      },
+      "practice": [
+        { "question": "Lengo la kasi ni maneno mangapi sahihi kwa dakika?", "answer": "Yasiyopungua sitini.", "check": null },
+        { "question": "Kwa nini neno lililorukwa halihesabiwi?", "answer": "Kwa sababu halikutamkwa sahihi, hivyo si usomaji wa ufasaha.", "check": null },
+        { "question": "Taja ishara moja inayofaa unaposoma neno alitabasamu.", "answer": "Kutabasamu kidogo.", "check": null },
+        { "question": "Kwa nini tuchangamkie kusoma kwa ufasaha?", "answer": "Ili ujumbe ufike wazi na mawasiliano yafaulu.", "check": null }
+      ],
+      "summary": [
+        "Lengo ni maneno sitini sahihi kwa dakika, si mbio za kuruka maneno.",
+        "Ishara ndogo za uso na mikono zinaambatana na maana.",
+        "Mazoezi na maoni ya wenzako huboresha ufasaha."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kusoma kwa ufasaha kunazingatia nini?",
+      "options": ["matamshi, sauti, kasi na ishara", "kuandika kamusi tu", "kuruka maneno yote", "kusoma bila sauti daima"],
+      "answer": "A",
+      "explanation": "Vipengele hivyo vinne hufanya usomaji usikike na kueleweka.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Matamshi bora yanamaanisha nini?",
+      "options": ["kutamka kila neno kamili", "kupiga kelele", "kusoma kwa mbio", "kunyamaza"],
+      "answer": "A",
+      "explanation": "Neno linatamkwa kamili bila kuchanganya sauti.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sauti inayofaa darasani ni ipi?",
+      "options": ["kelele inayoumiza masikio", "sauti inayowafikia walio nyuma bila kelele", "sauti isiyosikika kabisa", "kuimba bila maneno"],
+      "answer": "B",
+      "explanation": "Kiwango cha sauti kinafaa ukubwa wa chumba.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kiimbo cha swali hufanyaje?",
+      "options": ["kinapanda mwishoni", "kinakaa chini daima", "kinanuka", "kinapotea"],
+      "answer": "A",
+      "explanation": "Swali hupandisha sauti mwishoni ili lisikike kama swali.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Lengo la maneno sahihi kwa dakika moja ni lipi?",
+      "options": ["kumi", "ishirini", "sitini", "mia moja lazima"],
+      "answer": "C",
+      "explanation": "Lengo ni maneno sahihi yasiyopungua sitini kwa dakika.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Umeruka maneno matano. Unayahesabuje?",
+      "options": ["Kama maneno sahihi", "Hayahesabiwi kama sahihi", "Kama ishara", "Kama anwani"],
+      "answer": "B",
+      "explanation": "Maneno yaliyorukwa hayajatamkwa sawasawa.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Ishara inayofaa unaposema kofia ni ipi?",
+      "options": ["kuonyesha kichwa", "kupiga meza kwa nguvu", "kufunga macho muda mrefu", "kukimbia nje"],
+      "answer": "A",
+      "explanation": "Ishara inafuata maana. Kofia huvaliwa kichwani.",
+      "outcome": "e",
+      "check": null
+    },
+    {
+      "question": "Neema alivaa sweta kwa sababu gani?",
+      "options": ["kulikuwa na joto kali", "hali ya hewa ilikuwa baridi", "hakuwa na kiatu", "alichelewa kamusi"],
+      "answer": "B",
+      "explanation": "Mama alimwambia avae sweta kwa sababu kulikuwa na baridi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tuchangamkie kusoma kwa ufasaha?",
+      "answer": "Ili ujumbe ufike wazi na mawasiliano yafaulu.",
+      "explanation": "Usomaji unaosikika huwasaidia wasikilizaji kuelewa.",
+      "outcome": "f",
+      "check": null
+    },
+    {
+      "question": "Taja jambo moja la kufanya ukiambiwa kasi yako ni ndogo mno.",
+      "answer": "Kuongeza kasi kidogo bila kuruka maneno, kisha kujipima tena.",
+      "explanation": "Kasi ifaayo hubaki wazi. Hairuki maneno ili kuongeza idadi.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 3.0 Mavazi, Mada Ndogo 3.2.1 Kusoma: Kusoma kwa Ufasaha"
+  ]
+}

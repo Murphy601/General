@@ -1,0 +1,129 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "9.1.1",
+  "title": "Kusikiliza na Kuzungumza: Mazungumzo ya Kimuktadha (Miktadha isiyo Rasmi)",
+  "overview": "Miktadha isiyo rasmi ni mazungumzo ya kila siku: uwanjani, na marafiki, na nyumbani kwa wazazi, ndugu, nyanya au babu. Utajifunza kutambua miktadha hiyo na kutumia lugha ya upole, heshima na zamu ya kuzungumza, hata pale mazungumzo hayapo ofisini.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kutambua miktadha isiyo rasmi",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kueleza maana ya muktadha usio rasmi.",
+        "Kutaja mahali na nyakati tunazotumia lugha isiyo rasmi.",
+        "Kutofautisha mazungumzo ya nyumbani na mazungumzo ya sherehe rasmi."
+      ],
+      "intro": "Unapocheza kamba uwanjani, husemi \"Naomba nijulishe kwa heshima kubwa.\" Unasema, \"Nipe kamba niruke pia.\" Huo ni muktadha usio rasmi. Lugha inakuwa ya karibu, lakini bado ina adabu.",
+      "notes": "### Muktadha ni nini?\nMuktadha ni mazingira yanayozunguka mazungumzo: mahali, watu na wakati. Muktadha unatuambia lugha ipi inafaa. Miktadha isiyo rasmi ni mazungumzo ya kawaida, yasiyo ya ofisi wala sherehe kubwa.\n\n### Mifano ya miktadha isiyo rasmi\n- **Wakati wa kucheza:** uwanjani, kwenye kamba au mpira.\n- **Na marafiki:** wakati wa mapumziko, mnapojadili chakula, mchezo au kazi ya nyumbani.\n- **Nyumbani:** unapozungumza na wazazi, ndugu, nyanya au babu kuhusu siku yako.\n- **Jikoni au mezani:** mnapokula pamoja na kuongea kwa utulivu.\n\nKatika mada ya afya bora, muktadha usio rasmi unaweza kuwa mazungumzo ya kuosha mikono, kula mboga, au kunywa maji baada ya kucheza. Hamhitaji lugha ya barua rasmi ili kusema \"Nawa mikono kwanza.\"\n\n### Si kila mazungumzo ni ya namna moja\nMuktadha rasmi huwa na taratibu zaidi: hotuba ya mkutano, barua kwa ofisi, au kuongea na mgeni wa shule mbele ya darasa zima kwa lugha iliyopangwa. Muktadha usio rasmi hauna majina ya cheo kila sentensi. Huhitaji kusema \"Waheshimiwa\" unapomwambia rafiki akupe mpira.\n\nHata hivyo, kutokuwa rasmi si kuwa mkorofi. Bado unasema hujambo, asante na tafadhali. Bado unamsikiliza mwenzako. Tofauti ni uhuru wa kutumia maneno mafupi ya kirafiki, maswali mepesi na mzaha usioudhi.\n\n### Jinsi ya kutambua\nJiulize:\n- Tuko wapi, na niko na nani?\n- Je, tunaongea kazi ya ofisi au maisha ya kila siku?\n- Je, lugha ni ya karibu, kama \"Hujambo\" na \"Twende tukanywe maji\"?\n\nKama majibu yanaelekea nyumbani, uwanjani au marafiki, muktadha si rasmi. Ukitazama maigizo, sikiliza salamu na mada. Mazungumzo ya chakula cha jioni na nyanya ni yasiyo rasmi. Hotuba ya mwalimu mkuu siku ya mkutano ni rasmi.",
+      "keyWords": [
+        { "word": "muktadha", "meaning": "mazingira ya mazungumzo: mahali, watu na wakati" },
+        { "word": "usio rasmi", "meaning": "wa kawaida, si wa ofisi wala sherehe iliyopangwa" },
+        { "word": "miktadha", "meaning": "wingi wa muktadha" }
+      ],
+      "examples": [
+        {
+          "problem": "Ni muktadha gani usio rasmi: hotuba ya mkutano, au Amina na Baraka wakicheza kamba?",
+          "steps": ["Rasmi huwa na hadhira na lugha iliyopangwa.", "Kucheza na rafiki ni maisha ya kila siku."],
+          "answer": "Amina na Baraka wakicheza kamba ni muktadha usio rasmi.",
+          "check": null
+        },
+        {
+          "problem": "Taja miktadha mitatu isiyo rasmi unayoweza kukutana nayo leo.",
+          "steps": ["Fikiria nyumbani, uwanjani na mapumziko.", "Usitaje ofisi wala barua rasmi."],
+          "answer": "Mfano: kuongea na nyanya jikoni, kucheza na rafiki, na kuzungumza na ndugu baada ya shule.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Orodha ya miktadha",
+        "materials": ["Chati", "Kadi za mahali", "Kifaa cha kidijitali panapopatikana"],
+        "steps": [
+          "Kwa vikundi, orodhesheni miktadha isiyo rasmi: kucheza, kuongea na marafiki, kuwa nyumbani na wazazi, nyanya au babu.",
+          "Tazameni maigizo mafupi ya mazungumzo hayo kwenye video au tarakilishi, ikiwa kifaa kinapatikana. Vinginevyo, mwalimu asome mazungumzo mafupi.",
+          "Semeni kama kila onyesho ni rasmi au si rasmi, na mtoe sababu.",
+          "Chagueni muktadha mmoja unaohusu afya, kama kunawa mikono au kula mboga.",
+          "Andikeni salamu mbili zinazofaa katika muktadha huo."
+        ]
+      },
+      "practice": [
+        { "question": "Muktadha usio rasmi ni upi?", "answer": "Ni mazungumzo ya kawaida ya kila siku, kama nyumbani au uwanjani, si ya ofisi wala sherehe rasmi.", "check": null },
+        { "question": "Taja mahali patatu panapotumika lugha isiyo rasmi.", "answer": "Uwanjani, nyumbani na wakati wa mapumziko na marafiki.", "check": null },
+        { "question": "Kwa nini hotuba ya mkutano si muktadha usio rasmi?", "answer": "Kwa sababu ina taratibu na lugha iliyopangwa mbele ya hadhira, si mazungumzo ya kirafiki.", "check": null },
+        { "question": "Je, muktadha usio rasmi unaruhusu kuwa mkorofi? Eleza.", "answer": "Hapana. Lugha inakuwa ya karibu, lakini bado tunatumia salamu, asante na heshima.", "check": null }
+      ],
+      "summary": [
+        "Miktadha isiyo rasmi ni kucheza, marafiki na nyumbani.",
+        "Lugha huwa ya karibu, si ya hotuba rasmi.",
+        "Kutokuwa rasmi si kuacha adabu."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia lugha katika miktadha isiyo rasmi",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kutumia lugha ya upole na heshima katika mazungumzo yasiyo rasmi.",
+        "Kumpa mwenzako nafasi ya kuzungumza na kusikiliza.",
+        "Kuigiza mazungumzo ya uwanjani na ya nyumbani kuhusu afya."
+      ],
+      "intro": "Nyanya akisema \"Nawa mikono kwanza,\" hajatumia lugha ya ofisi, lakini amekuonyesha upendo na nidhamu. Jibu lako \"Ndiyo, nyanya\" linaheshimu muktadha. Leo tutaigiza mazungumzo kama hayo.",
+      "notes": "### Nidhamu ya lugha\nHata muktadha usio rasmi una nidhamu.\n- Tumia lugha ya upole: tafadhali, asante, pole, samahani.\n- Heshimu mkubwa na mwenzako. Nyanya, babu na mzazi hawadhihakiwi.\n- Mpe mwenzako nafasi. Usiongee juu ya sauti yake.\n- Sikiliza hadi amalize, kisha ujibu.\n- Mzaha uwe mwepesi. Usidhihaki mwili, chakula cha nyumbani wala kosa la mwenzako.\n\nManeno mafupi yanafaa: \"Hujambo?\", \"Karibu.\", \"Sawa.\", \"Twende.\" Hayahitaji \"Naomba radhi nijulishe\" unapomwomba rafiki kamba.\n\n### Mazungumzo ya uwanjani\nBaraka: Hujambo, Amina! Nipe kamba niruke pia.\n\nAmina: Karibu. Subiri nimalize zoezi hili, kisha nikupe nafasi.\n\nBaraka: Sawa. Je, umekula tunda leo?\n\nAmina: Ndiyo. Nilikula ndizi asubuhi. Mama alisema afya ni mali.\n\nBaraka: Vizuri. Mimi nilikula embe. Twende tukanywe maji baada ya kucheza.\n\nAmina: Twende. Usikimbie barabarani.\n\nAmina anampa Baraka nafasi, na Baraka anasubiri. Wanazungumzia tunda na maji, yaani afya, kwa lugha ya kirafiki.\n\n### Mazungumzo ya nyumbani\nNyanya: Karibu, mpendwa. Umefika? Haya, nawa mikono kwanza.\n\nAmina: Ndiyo, nyanya. Ninahisi njaa kidogo.\n\nNyanya: Chakula tayari. Kuna ugali, kunde na mboga. Kula vyote, usichague.\n\nAmina: Asante. Nitakula kunde kwa sababu zinajenga mwili. Je, naweza kukusaidia kuosha vyombo baadaye?\n\nNyanya: Ndiyo, mwanangu. Umenifurahisha.\n\nAmina anatumia \"nyanya\", \"asante\" na \"je\". Haamrishi nyanya. Anauliza kama anaweza kusaidia. Hii ndiyo lugha inayofaa nyumbani.\n\n### Kuchangamkia\nMazungumzo kama haya hufanya afya bora kuwa sehemu ya maisha, si somo tu. Unapoyatumia kila siku, unazoea heshima bila kuwa mtulivu kupita kiasi. Igiza kwa furaha, lakini usibadili ujumbe wa usafi na lishe kuwa dhihaka.",
+      "keyWords": [
+        { "word": "nidhamu ya lugha", "meaning": "kutumia maneno kwa upole, heshima na zamu" },
+        { "word": "zamu", "meaning": "nafasi ya kila mtu kuzungumza bila kukatiwa" },
+        { "word": "kunde", "meaning": "mbegu zinazoliwa na kujenga mwili" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika upya kwa heshima: 'Wewe nyanya, lete chakula sasa!'",
+          "steps": ["Muktadha ni nyumbani, lakini amri ya kejeli haifai.", "Tumia salamu na ombi."],
+          "answer": "Nyanya, je, chakula tayari? Naweza kusaidia kuandaa meza.",
+          "check": null
+        },
+        {
+          "problem": "Katika mazungumzo ya kamba, Amina anampa Baraka nafasi vipi?",
+          "steps": ["Tafuta sentensi inayosema subiri.", "Onyesha hatomkatizi."],
+          "answer": "Anamwambia asubiri amalize zoezi, kisha atampa nafasi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Igiza nyumbani na uwanjani",
+        "materials": ["Kadi za majukumu: rafiki, nyanya, babu, mzazi", "Nafasi ya kuigiza"],
+        "steps": [
+          "Kundi la kwanza liigize mazungumzo ya kucheza kamba, likitumia zamu na neno la afya.",
+          "Kundi la pili liigize mazungumzo ya nyumbani kuhusu mlo: ugali, kunde au mboga, na kunawa mikono.",
+          "Watazamaji waandike maneno ya heshima waliyoyasikia.",
+          "Jadilini kilichofaa na neno lolote lililodhihaki.",
+          "Rudieni kuigiza sehemu moja baada ya kusahihisha."
+        ]
+      },
+      "practice": [
+        { "question": "Taja kanuni mbili za lugha katika muktadha usio rasmi.", "answer": "Kutumia maneno ya upole na kumpa mwenzako nafasi ya kuzungumza huku ukisikiliza.", "check": null },
+        { "question": "Kwa nini Amina anasema 'Usikimbie barabarani'?", "answer": "Ili kumkumbusha rafiki usalama baada ya kucheza, kwa lugha ya kirafiki.", "check": null },
+        { "question": "Andika jibu la heshima nyanya anaposema 'Nawa mikono kwanza.'", "answer": "Mfano: Ndiyo, nyanya. Ninaenda kunawa sasa.", "check": null },
+        { "question": "Kwa nini tunachangamkia mazungumzo haya?", "answer": "Kwa sababu yanawezesha kuzungumzia afya na kuonyesha heshima kwa lugha ya kila siku.", "check": null }
+      ],
+      "summary": [
+        "Lugha isiyo rasmi huwa fupi na ya kirafiki, lakini ya heshima.",
+        "Sikiliza, mpe mwenzako nafasi, wala usidhihaki.",
+        "Mazungumzo ya uwanjani na ya nyumbani yanafaa kufundisha afya bora."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Muktadha usio rasmi ni upi?", "options": ["mazungumzo ya kila siku na marafiki au nyumbani", "hotuba ya mkutano mkubwa", "barua ya ofisi", "kiapo cha mahakama"], "answer": "A", "explanation": "Marafiki, uwanja na nyumba ni miktadha isiyo rasmi.", "outcome": "a", "check": null },
+    { "question": "Ni lipi si muktadha usio rasmi?", "options": ["kucheza kamba", "kuongea na nyanya jikoni", "hotuba mbele ya shule nzima", "kuongea na ndugu baada ya shule"], "answer": "C", "explanation": "Hotuba ya hadhara ina taratibu zaidi.", "outcome": "a", "check": null },
+    { "question": "Lini tunatumia lugha isiyo rasmi?", "options": ["tunapocheza na tunapoongea na wazazi nyumbani", "tunapoandika barua ya ofisi tu", "tunaposoma hotuba iliyoandikwa", "hatuitumii kamwe"], "answer": "A", "explanation": "Kucheza na mazungumzo ya nyumbani ni miktadha isiyo rasmi.", "outcome": "a", "check": null },
+    { "question": "Kutokuwa rasmi kunamaanisha nini?", "options": ["kuwa mkorofi", "kutumia lugha ya karibu bila kuacha heshima", "kupiga kelele", "kutokusalimu"], "answer": "B", "explanation": "Lugha inakuwa nyepesi, lakini adabu inabaki.", "outcome": "b", "check": null },
+    { "question": "Amina anamwambia Baraka asubiri. Hii inaonyesha nini?", "options": ["kumkataa kucheza kabisa", "kumpa nafasi baada ya zoezi lake", "kumdhihaki", "kumwamuru aondoke"], "answer": "B", "explanation": "Anamaliza zoezi kisha anampa nafasi. Hiyo ni zamu.", "outcome": "b", "check": null },
+    { "question": "Neno lipi linaonyesha heshima nyumbani?", "options": ["Wewe lete chakula", "Asante, nyanya", "Nyamaza", "Siitaki mboga"], "answer": "B", "explanation": "Asante na cheo cha upendo vinaheshimu nyanya.", "outcome": "b", "check": null },
+    { "question": "Kunde katika mazungumzo zinatajwa kwa sababu gani?", "options": ["haziliwi", "zinajenga mwili", "ni zawadi ya ofisi", "ni mchezo"], "answer": "B", "explanation": "Amina anasema kunde zinajenga mwili, yaani lishe.", "outcome": "b", "check": null },
+    { "question": "Unamjibuje nyanya anaposema nawa mikono kwanza?", "answer": "Mfano: Ndiyo, nyanya. Ninaenda kunawa sasa.", "explanation": "Jibu ni la heshima na linafuata ombi la usafi.", "outcome": "b", "check": null },
+    { "question": "Kwa nini husikilizi mwenzako hadi amalize?", "answer": "Ili kuonyesha heshima na kumpa nafasi, kisha ujibu kwa makini.", "explanation": "Nidhamu ya lugha inahitaji zamu.", "outcome": "c", "check": null },
+    { "question": "Kwa nini tunafurahia kuigiza mazungumzo ya afya?", "answer": "Kwa sababu tunazoea lugha ya heshima na tunakumbuka usafi na lishe katika maisha ya kila siku.", "explanation": "Mchezo unaunganisha lugha na afya bora.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 9.0 Afya Bora, Mada Ndogo 9.1.1 Kusikiliza na Kuzungumza: Mazungumzo ya Kimuktadha (Miktadha isiyo Rasmi)"
+  ]
+}

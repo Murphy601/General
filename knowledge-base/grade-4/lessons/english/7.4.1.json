@@ -1,0 +1,184 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "7.4.1",
+  "title": "Writing: Mechanics of Writing (Punctuation)",
+  "overview": "Punctuation marks tell a reader where a sentence starts and stops. In this sub-strand you will use a capital letter at the beginning of a sentence and for proper nouns such as names of people, places, days, mountains and rivers. You will end telling sentences with a full stop, punctuate short forms such as Mr. and Dr., and share clear sentences with your class.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Capital letters and full stops in sentences",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Recognise a capital letter and a full stop in a written sentence.",
+        "Begin every sentence with a capital letter.",
+        "End a telling sentence with a full stop."
+      ],
+      "intro": "Read this line aloud: the boy clicked a strange link he did not tell his father. It runs on like one long breath. A capital letter and a full stop would cut it into clear sentences.",
+      "notes": "### Two marks you already see every day\nA **capital letter** is the large form of a letter, such as T rather than t, or H rather than h. A **full stop** is the dot we write at the end of a telling sentence. Its symbol is a full stop (.).\n\nThese two marks work as a pair. The capital letter opens the sentence. The full stop closes it. Without them, a reader cannot tell where one idea ends and the next begins.\n\n### The first word\nThe first word of every sentence begins with a capital letter, even when that word is an ordinary word such as the, my or yesterday.\n\n- The password is a secret.\n- My sister closed the page.\n- Yesterday we learnt about strangers online.\n\n### The word I\nThe word **I**, when it means the person speaking, is always a capital letter. I asked my mother before I downloaded the game. Do not write i for yourself.\n\n### The full stop\nA sentence that tells us something is called a statement. It ends with a full stop.\n\n- Children need permission to use a cyber café.\n- We do not share passwords.\n\nWrite one full stop, not a handful of dots. Do not put a full stop after every word. The words inside the sentence stay in their usual small letters unless another capital rule applies.\n\n### A paragraph\nA paragraph is a group of sentences about one idea. Each sentence still needs its own capital letter and its own full stop. Read this corrected paragraph.\n\nHassan wanted to watch a video. He asked his mother first. She sat beside him. They closed the page when a stranger sent a message.\n\nIf those four sentences were joined with no capitals and no full stops, the warning would be hard to follow. Punctuation is there so the reader understands you the first time.",
+      "keyWords": [
+        { "word": "capital letter", "meaning": "the large form of a letter, used to begin a sentence and to write names" },
+        { "word": "full stop", "meaning": "the dot placed at the end of a telling sentence" },
+        { "word": "statement", "meaning": "a sentence that tells us something" }
+      ],
+      "examples": [
+        {
+          "problem": "Punctuate: my brother uploaded a picture he asked our father first",
+          "steps": ["There are two statements, so use two full stops.", "Capitalise the first word of each sentence."],
+          "answer": "My brother uploaded a picture. He asked our father first.",
+          "check": null
+        },
+        {
+          "problem": "Correct: i do not share my password.",
+          "steps": ["The word I is always a capital when it means yourself.", "The sentence already has a full stop."],
+          "answer": "I do not share my password.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Dictation with capitals and full stops",
+        "materials": ["Exercise book", "A pencil"],
+        "steps": [
+          "Listen while the teacher or a partner reads three short statements about staying safe online. The reader pauses at each full stop.",
+          "Write the sentences. Begin each one with a capital letter and end it with a full stop.",
+          "Swap books and underline every capital letter and circle every full stop.",
+          "Correct any sentence that runs into the next one without a full stop."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 90' font-family='sans-serif'><rect width='480' height='90' fill='#ffffff'/><text x='20' y='52' font-size='22' fill='#111827'>I keep my password secret.</text><circle cx='36' cy='36' r='14' fill='none' stroke='#b45309' stroke-width='2'/><circle cx='292' cy='58' r='6' fill='none' stroke='#1d4ed8' stroke-width='2'/><text x='20' y='80' font-size='12' fill='#b45309'>Capital letter</text><text x='310' y='80' font-size='12' fill='#1d4ed8'>Full stop</text></svg>",
+        "caption": "A statement begins with a capital letter and ends with a full stop"
+      },
+      "practice": [
+        { "question": "Rewrite correctly: the laptop is on the table", "answer": "The laptop is on the table.", "check": null },
+        { "question": "What mark ends a sentence that tells us something?", "answer": "A full stop", "check": null },
+        { "question": "Correct: Yesterday i blocked a strange number.", "answer": "Yesterday I blocked a strange number.", "check": null },
+        { "question": "How many sentences are in this text? We clicked the link. The page looked strange. We told the teacher.", "answer": "Three", "check": null }
+      ],
+      "summary": [
+        "A capital letter starts a sentence and a full stop ends a statement.",
+        "The word I is always a capital letter.",
+        "Each sentence in a paragraph needs both marks."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Capital letters for proper nouns",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Tell a common noun from a proper noun.",
+        "Capitalise names of people, places, days, months, mountains and rivers.",
+        "Write sentences that use proper nouns correctly."
+      ],
+      "intro": "The word river can mean any river, but the Tana River is one particular river. The second name needs capital letters. Names that point to one person or one place are proper nouns.",
+      "notes": "### Common nouns and proper nouns\nA **common noun** is a general name: girl, river, month, school, mountain, teacher. A **proper noun** is the special name of one person, place or thing. Proper nouns begin with a capital letter.\n\n### People\nCapitalise a person's name and the title that belongs with it.\n\n- Amina, Hassan, Mrs Njeri, Mr Otieno, Dr Achieng\n- I will ask Mrs Njeri before I use the computer.\n\nThe ordinary word teacher has no capital, but the name that follows a title does: our teacher, Mrs Njeri.\n\n### Places\nCapitalise the names of countries, counties, towns, schools and other particular places. Kenya is a country, so it takes a capital K. Write the name of your county and the name of your school with capital letters too. The ordinary words county and school stay small when they are not part of the name: our school is near a market.\n\n### Days and months\nMonday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday all begin with capitals. So do the months, from January to December. The words day and month themselves are common nouns.\n\nWe learn about cyber safety on Monday.\n\n### Mountains, rivers and lakes\nGeographical features that have their own names are proper nouns. Each important word in the name takes a capital.\n\n- Mount Kenya\n- the Tana River\n- Lake Victoria\n\nThe small words the, of and and inside a longer name are not usually capitalised. Compare a river with the Tana River. Only the special name takes capitals.\n\n### Putting them in sentences\nProper nouns still obey the full-stop rule. The sentence starts with a capital, the name has its capitals, and the statement ends with a full stop. On Friday, Hassan and I read about Mount Kenya on a school tablet.",
+      "keyWords": [
+        { "word": "common noun", "meaning": "a general name for a person, place or thing, such as river or girl" },
+        { "word": "proper noun", "meaning": "the special name of a particular person, place or thing" },
+        { "word": "title", "meaning": "a word such as Mr, Mrs or Dr used before a person's name" }
+      ],
+      "examples": [
+        {
+          "problem": "Capitalise the proper nouns: last tuesday amina saw a picture of mount kenya and the tana river.",
+          "steps": ["Tuesday is a day.", "Amina is a person.", "Mount Kenya and the Tana River are named features.", "The sentence still needs an opening capital and a full stop."],
+          "answer": "Last Tuesday Amina saw a picture of Mount Kenya and the Tana River.",
+          "check": null
+        },
+        {
+          "problem": "Which words need capitals in this list: kenya, laptop, mrs njeri, password, friday?",
+          "steps": ["Kenya is a country.", "Mrs Njeri is a person with a title.", "Friday is a day.", "Laptop and password are common nouns."],
+          "answer": "Kenya, Mrs Njeri, Friday",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Proper noun sentences",
+        "materials": ["Word cards for people, places, days, a mountain and a river", "Manila paper"],
+        "steps": [
+          "Sort the cards into common nouns and proper nouns. Proper nouns include names of people, your school, your county, a day, a month, a mountain and a river.",
+          "In pairs, write four sentences. Each sentence must contain one proper noun, begin with a capital letter and end with a full stop.",
+          "Underline every proper noun.",
+          "Read two sentences to the class and explain why those words have capitals."
+        ]
+      },
+      "practice": [
+        { "question": "Rewrite: we crossed the tana river in march.", "answer": "We crossed the Tana River in March.", "check": null },
+        { "question": "Is laptop a common noun or a proper noun?", "answer": "A common noun", "check": null },
+        { "question": "Write a sentence using the proper noun Mount Kenya and a full stop.", "answer": "Any correct sentence, for example: Mount Kenya is a famous mountain in Kenya.", "check": null },
+        { "question": "Correct the titles and names: mr otieno and dr achieng visited our class on monday.", "answer": "Mr Otieno and Dr Achieng visited our class on Monday.", "check": null }
+      ],
+      "summary": [
+        "Proper nouns name particular people, places, days, months and features.",
+        "Each important word in a proper noun begins with a capital letter.",
+        "Common nouns such as river, school and day do not take a capital unless they start a sentence."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Abbreviations and clear punctuation",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Write common abbreviations with capital letters and full stops.",
+        "Punctuate a short paragraph that mixes sentences and proper nouns.",
+        "Share a correctly punctuated sentence for other learners to read."
+      ],
+      "intro": "A timetable may say 10 a.m., and a letter may begin Dear Mr. Otieno. Those short forms still need careful punctuation. A missing full stop can make a reader stop in the wrong place.",
+      "notes": "### What an abbreviation is\nAn **abbreviation** is a short way of writing a word. We keep enough of the word for the reader to recognise it, and we often mark the shortening with a full stop.\n\n- Mr. is short for Mister.\n- Mrs. is a title used before a married woman's name.\n- Dr. is short for Doctor.\n- a.m. means before noon, and p.m. means after noon.\n\nThe letters in Mr., Mrs. and Dr. are capitals because they belong to a title. In a.m. and p.m. each letter is followed by a full stop.\n\nInitials of a person's names are also abbreviations. A. Hassan means a name that begins with A. Each initial is a capital followed by a full stop.\n\n### Your school\nMany schools are known by initials. Write those initials in capital letters. If your school uses full stops between the letters, keep them. Ask your teacher which form your school uses, and spell it the same way every time. Do not invent dots in the middle of an ordinary word.\n\n### Abbreviations inside sentences\nAn abbreviation does not remove the need for sentence punctuation. Mr. Otieno closed the cyber café at 5 p.m. The full stop after Mr. belongs to the short form. The full stop after p.m. ends the short form, and it can also close the sentence when the abbreviation comes last. If the abbreviation is not at the end, the sentence still needs its own full stop later.\n\n### Sharing clear writing\nPunctuation helps every subject, not only English. A science note, a letter and a phone message are easier to read when names, times and sentence endings are marked. You can make a small sticker with one correct sentence and place it where the class can see it. You can also type the sentence on a phone or computer with a parent, sibling or guardian, then show it to your teacher. Games such as a punctuation ladder, where each correct capital or full stop moves you up a rung, make the habit stick.\n\nRead your work aloud. Every time your voice falls and stops, check that a full stop is on the page. Every name of a person or place should still be wearing its capital letter.",
+      "keyWords": [
+        { "word": "abbreviation", "meaning": "a shortened form of a word, such as Mr. for Mister" },
+        { "word": "initial", "meaning": "the first letter of a name, written as a capital" },
+        { "word": "a.m.", "meaning": "the time from midnight until noon" },
+        { "word": "p.m.", "meaning": "the time from noon until midnight" }
+      ],
+      "examples": [
+        {
+          "problem": "Punctuate: dr achieng opened the computer room at 8 am",
+          "steps": ["Dr. is an abbreviation and Achieng is a name.", "The sentence starts with a capital.", "a.m. has a full stop after each letter, and the sentence ends there."],
+          "answer": "Dr. Achieng opened the computer room at 8 a.m.",
+          "check": null
+        },
+        {
+          "problem": "Why is the full stop in Mr. not the end of this sentence? Mr. Otieno teaches us on Friday.",
+          "steps": ["The full stop after Mr belongs to the abbreviation.", "The sentence continues with Otieno and ends after Friday."],
+          "answer": "The full stop after Mr. shortens Mister. The sentence ends with the full stop after Friday.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Punctuation stickers",
+        "materials": ["Small pieces of paper or stickers", "Coloured pencils", "A phone or computer if a parent or teacher is helping"],
+        "steps": [
+          "With a partner, list five abbreviations you use at school, including Mr., Mrs. or Dr., and the short form of your school's name.",
+          "Write each one with the correct capitals and full stops.",
+          "Use punctuation cards or slips of paper to rebuild this paragraph in order, then write it out: On Monday Mrs. Njeri typed a message. She sent it at 4 p.m. The children read it with their teacher.",
+          "Make one sticker with your best sentence. Stick it in an agreed place for the class to read. If you type it, do so with a parent, guardian or teacher."
+        ]
+      },
+      "practice": [
+        { "question": "What is the abbreviation of Doctor, written with a capital and a full stop?", "answer": "Dr.", "check": null },
+        { "question": "Rewrite: we met mrs njeri at 9 am", "answer": "We met Mrs. Njeri at 9 a.m.", "check": null },
+        { "question": "Give one reason to punctuate your writing.", "answer": "So that the reader can tell where sentences start and end and can read names and times correctly.", "check": null },
+        { "question": "Rewrite with correct punctuation: i learn at school with mrs njeri", "answer": "I learn at school with Mrs. Njeri.", "check": null }
+      ],
+      "summary": [
+        "Abbreviations such as Mr., Dr. and a.m. use capitals and full stops.",
+        "A full stop that belongs to an abbreviation is not always the end of the sentence.",
+        "Clear punctuation makes notes, letters and messages easier for everyone to read."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Which mark ends a telling sentence?", "options": ["A comma", "A full stop", "A capital B", "A question word"], "answer": "B", "explanation": "A statement ends with a full stop.", "outcome": "a", "check": null },
+    { "question": "Which word must always be a capital when it means the speaker?", "options": ["me", "my", "I", "mine"], "answer": "C", "explanation": "The word I is always written as a capital letter.", "outcome": "b", "check": null },
+    { "question": "Choose the correctly punctuated sentence.", "options": ["the phone is charging", "The phone is charging", "The phone is charging.", "the phone is charging."], "answer": "C", "explanation": "The sentence needs both an opening capital and a full stop.", "outcome": "b", "check": null },
+    { "question": "Which of these is a proper noun?", "options": ["river", "password", "Kenya", "laptop"], "answer": "C", "explanation": "Kenya is the name of one country, so it is a proper noun.", "outcome": "a", "check": null },
+    { "question": "Which words need capital letters?", "options": ["monday and march", "Monday and March", "monday and March", "Monday and march"], "answer": "B", "explanation": "Days and months are proper nouns, so both words take capitals.", "outcome": "b", "check": null },
+    { "question": "Choose the correct name of the mountain.", "options": ["mount kenya", "Mount kenya", "mount Kenya", "Mount Kenya"], "answer": "D", "explanation": "Both words in the name Mount Kenya begin with capitals.", "outcome": "b", "check": null },
+    { "question": "What does Mr. stand for?", "options": ["Miss", "Mister", "Mother", "Market"], "answer": "B", "explanation": "Mr. is the abbreviation of Mister.", "outcome": "a", "check": null },
+    { "question": "Which short form means the time after noon?", "options": ["a.m.", "p.m.", "Mr.", "Dr."], "answer": "B", "explanation": "p.m. is the abbreviation for the time from noon until midnight.", "outcome": "b", "check": null },
+    { "question": "Rewrite correctly: dr achieng closed the lab.", "answer": "Dr. Achieng closed the lab.", "explanation": "Dr. is a capital abbreviation and Achieng is a proper noun. The sentence ends with a full stop.", "outcome": "b", "check": null },
+    { "question": "Why should you punctuate sentences before you share them?", "answer": "Punctuation shows where each sentence starts and ends so other people can read the message clearly.", "explanation": "Capitals and full stops make writing fluent and easy to understand.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 English Curriculum Design (Revised 2024) — Theme 7.0 Technology - Cyber Safety, Sub-strand 7.4.1 Mechanics of Writing: Punctuation"
+  ]
+}

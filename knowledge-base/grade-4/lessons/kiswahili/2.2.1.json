@@ -1,0 +1,198 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "2.2.1",
+  "title": "Kusoma: Kusoma kwa Kina",
+  "overview": "Kusoma kwa kina hapa kunamaanisha kutumia kamusi kutafuta maana za maneno usiyoyajua. Utajifunza kamusi ni nini, jinsi maneno yalivyopangwa kwa alfabeti, na jinsi ya kuisoma kwa uangalifu. Kamusi hukuzia msamiati ili uelewe unachosoma.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kamusi na mpangilio wa alfabeti",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kueleza maana ya kamusi.",
+        "Kuitofautisha na vitabu vingine.",
+        "Kupanga maneno kulingana na alfabeti ya Kiswahili."
+      ],
+      "intro": "Ukisoma neno alamsiki na hukuelewi, huna haja ya kukisia. Kitabu cha kamusi kinakieleza. Leo utajifunza kamusi inavyotofautiana na hadithi, na jinsi maneno yanavyofuatana ndani yake.",
+      "notes": "### Kamusi ni nini?\nKamusi ni kitabu, au orodha ya kidijitali, kinachotoa maana za maneno. Huipangia maneno ili uyatapate haraka. Hadithi inasimulia kisa. Kitabu cha kiada kinafundisha mfululizo wa masomo. Kamusi haianzi na kisa. Inaanza na neno, kisha maana yake, na pengine sentensi fupi ya mfano.\n\nKuna kamusi ya maneno, kamusi ya semi, kamusi ya methali na kamusi ya vitendawili. Katika darasa hili tunatumia kamusi ya maneno.\n\n### Alfabeti ya Kiswahili\nManeno hufuatana kwa alfabeti. Herufi hizi ni sauti moja moja, hivyo usizigawanye: ch, dh, gh, ng', ny, sh na th.\n\nMfuatano ni: a, b, ch, d, dh, e, f, g, gh, h, i, j, k, l, m, n, ng', ny, o, p, r, s, sh, t, th, u, v, w, y, z.\n\nSh inakuja baada ya s na kabla ya t. Ch inakuja baada ya b na kabla ya d. Kwa hiyo cheza huja kabla ya dada, na shikamoo huja baada ya pole.\n\n### Kupanga maneno\nAngalia herufi ya kwanza. Ikifanana, angalia ya pili, kisha ya tatu. Herufi kubwa na ndogo hazibadilishi mpangilio.\n\nManeno: alamsiki, hujambo, kaa, karibu, kwaheri, pole, shikamoo.\n\nMpangilio: alamsiki, hujambo, kaa, karibu, kwaheri, pole, shikamoo.\n\nKaa huja kabla ya karibu kwa sababu herufi ya tatu ya kaa ni a, na ya karibu ni r. A inatangulia r. Karibu huja kabla ya kwaheri kwa sababu a inatangulia w.\n\nUkijua mpangilio huu, kurasa za kamusi zinakuwa rahisi kukitumia.",
+      "keyWords": [
+        { "word": "kamusi", "meaning": "kitabu kinachotoa maana za maneno yaliyopangwa kwa alfabeti" },
+        { "word": "alfabeti", "meaning": "orodha ya herufi au sauti za lugha kwa mpangilio maalum" },
+        { "word": "sh", "meaning": "sauti moja katika alfabeti ya Kiswahili, inayokuja baada ya s" }
+      ],
+      "examples": [
+        {
+          "problem": "Kati ya hadithi na kamusi, ni kipi kinachotoa maana ya neno moja moja?",
+          "steps": ["Hadithi inasimulia kisa.", "Kamusi inaeleza maana za maneno."],
+          "answer": "Kamusi.",
+          "check": null
+        },
+        {
+          "problem": "Panga maneno: pole, alamsiki, shikamoo.",
+          "steps": ["A inatangulia p.", "P inatangulia sh."],
+          "answer": "alamsiki, pole, shikamoo",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Panga maneno kama kamusi",
+        "materials": ["Kadi za maneno", "Chati ya alfabeti", "Kamusi ya darasa"],
+        "steps": [
+          "Jadilini: kamusi inafanana vipi na hadithi, na inatofautiana vipi?",
+          "Someni chati ya alfabeti ya Kiswahili na mgundue mahali pa ch, sh na th.",
+          "Pokeeni kadi: alamsiki, hujambo, kaa, karibu, kwaheri, makiwa, pole, shikamoo.",
+          "Zipange mezani kama zilivyo katika kamusi.",
+          "Fungueni kamusi mkurasa wa herufi K na mwone kama kaa inatangulia karibu."
+        ]
+      },
+      "practice": [
+        { "question": "Kamusi ni nini?", "answer": "Ni kitabu kinachotoa maana za maneno yaliyopangwa kwa alfabeti.", "check": null },
+        { "question": "Kwa nini kamusi si hadithi?", "answer": "Hadithi inasimulia kisa. Kamusi inaeleza maana ya neno moja moja.", "check": null },
+        { "question": "Neno lipi linatangulia katika kamusi: shikamoo au pole?", "answer": "pole", "check": null },
+        { "question": "Panga: karibu, kaa, kwaheri.", "answer": "kaa, karibu, kwaheri", "check": null }
+      ],
+      "summary": [
+        "Kamusi hutoa maana za maneno; hadithi husimulia kisa.",
+        "Maneno hufuatana kwa alfabeti ya Kiswahili, na ch na sh ni sauti moja moja.",
+        "Herufi ya kwanza inalinganishwa kwanza, kisha herufi zinazofuata."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutafuta maana katika kamusi",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kutafuta neno katika kamusi kwa hatua.",
+        "Kuchagua maana inayofaa sentensi.",
+        "Kutumia kamusi na mtandao kwa uangalifu ili kukuza msamiati."
+      ],
+      "intro": "Neno figa likitokea katika hadithi na hukulielewi, kamusi inakuokoa. Unalifungua kwa herufi f, unalisoma, kisha unarudi kwenye sentensi uone kama maana inafaa. Leo utafanya hivyo hatua kwa hatua.",
+      "notes": "### Hatua za kutafuta\n1. Angalia herufi ya kwanza ya neno. Figa huanza na f.\n2. Fungua kamusi kwenye sehemu ya f. Kurasa nyingi zina neno la kwanza na la mwisho juu, ili ujue uko wapi.\n3. Fuata herufi ya pili, kisha ya tatu. Fi inakuja kabla ya fo.\n4. Soma maana iliyoandikwa baada ya neno. Figa ni jiwe la jiko la jadi.\n5. Kama kuna maana zaidi ya moja, chagua inayofaa sentensi uliyosoma. Rudi kwenye kifungu na usome tena.\n\nUsisome kamusi kama hadithi kutoka ukurasa wa kwanza. Unatafuta neno husika tu, kisha unaendelea na kazi yako.\n\n### Msamiati mpya\nUkitumia kamusi kila unapokwama, msamiati wako unakua. Maneno kama alamsiki, tendegu na mvungu yanakuwa rahisi. Andika neno jipya na maana yake kwenye daftari. Litumie katika sentensi yako siku hiyo.\n\n### Mtandao kwa uangalifu\nUnaweza kusikiliza au kusoma maelezo ya neno mtandaoni kwa ruhusa ya mwalimu au mzazi. Tumia tovuti unayoijua. Usibofye viungo vya ajabu, usiandike nenosiri lako, wala usitumie picha yako. Ukishindwa, mwulize mtu mzima. Usalama mtandaoni ni sehemu ya kutafuta maana.\n\nChangamkia kamusi. Si adhabu. Ni chombo kinachokufanya usome kwa uhuru, kwa sababu neno gumu halikuzuii tena.",
+      "keyWords": [
+        { "word": "maana", "meaning": "elezo la neno linachomaanisha" },
+        { "word": "msamiati", "meaning": "jumla ya maneno unayoyajua na kuyatumia" },
+        { "word": "usalama mtandaoni", "meaning": "kutumia mtandao kwa uangalifu bila kujihatarisha" }
+      ],
+      "examples": [
+        {
+          "problem": "Unatafuta neno kwaheri. Unafungua sehemu gani ya kamusi kwanza?",
+          "steps": ["Angalia herufi ya kwanza.", "Kwaheri huanza na k."],
+          "answer": "Sehemu ya herufi k.",
+          "check": null
+        },
+        {
+          "problem": "Neno lina maana mbili. Unachaguaje?",
+          "steps": ["Soma sentensi uliyonayo.", "Chagua maana inayoifanya sentensi ieleweke."],
+          "answer": "Nachagua maana inayofaa maana ya sentensi, si maana ya kwanza tu.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tafuta maana tatu",
+        "materials": ["Kamusi ya darasa", "Daftari", "Kifaa chenye mtandao, kwa ruhusa na uangalifu"],
+        "steps": [
+          "Kwa vikundi, chagueni maneno matatu hamkuliyajua, kwa mfano figa, alamsiki na tumbuu.",
+          "Tafuteni kila neno katika kamusi kwa kufuata herufi ya kwanza na ya pili.",
+          "Andikeni maana na sentensi moja kwa kila neno.",
+          "Kama hamjakipata, sikilizeni maelezo mafupi mtandaoni kwa ruhusa, bila kubofya viungo vya ajabu.",
+          "Msomeeni darasa neno moja jipya na msemeni litawasaidiaje mnaposoma."
+        ]
+      },
+      "practice": [
+        { "question": "Taja hatua mbili za kwanza za kutafuta neno katika kamusi.", "answer": "Angalia herufi ya kwanza, kisha fungua sehemu hiyo ya kamusi.", "check": null },
+        { "question": "Kwa nini usichague maana ya kwanza kila wakati?", "answer": "Neno linaweza kuwa na maana zaidi ya moja. Unachagua inayofaa sentensi uliyosoma.", "check": null },
+        { "question": "Unatumiaje mtandao kwa usalama unapotafuta maana?", "answer": "Kwa ruhusa ya mwalimu au mzazi, kwenye tovuti unayoijua, bila kuandika nenosiri wala kubofya viungo vya ajabu.", "check": null },
+        { "question": "Kwa nini kamusi hukuzia msamiati?", "answer": "Kila neno unalotafuta na kulitumia linaongeza maneno unayoyaelewa unaposoma na kuandika.", "check": null }
+      ],
+      "summary": [
+        "Tafuta neno kwa herufi ya kwanza, kisha herufi zinazofuata.",
+        "Chagua maana inayofaa sentensi uliyonayo.",
+        "Kamusi na mtandao salama hukuzia msamiati."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kamusi inafanya kazi gani?",
+      "options": ["Inasimulia hadithi ndefu", "Inatoa maana za maneno", "Inafundisha hesabu tu", "Inachukua nafasi ya mazungumzo yote"],
+      "answer": "B",
+      "explanation": "Kamusi hueleza maana za maneno yaliyopangwa kwa alfabeti.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Kamusi inatofautianaje na hadithi?",
+      "options": ["Hadithi hutoa maana ya kila neno kwenye orodha", "Kamusi huanza na neno na maana, si na kisa", "Hazitofautiani", "Hadithi hupangwa kwa alfabeti tu"],
+      "answer": "B",
+      "explanation": "Hadithi husimulia kisa. Kamusi hueleza maneno.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Sauti sh katika alfabeti iko wapi?",
+      "options": ["kabla ya a", "baada ya s na kabla ya t", "baada ya z", "ndani ya herufi b"],
+      "answer": "B",
+      "explanation": "Sh ni sauti moja inayofuata s.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Neno lipi linatangulia: kaa, karibu, kwaheri?",
+      "options": ["kwaheri", "karibu", "kaa", "yote kwa pamoja"],
+      "answer": "C",
+      "explanation": "Herufi ya tatu ya kaa ni a, nayo inatangulia r ya karibu.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Unatafuta neno figa. Unafungua wapi kwanza?",
+      "options": ["sehemu ya a", "sehemu ya f", "ukurasa wa mwisho tu", "sehemu ya sh"],
+      "answer": "B",
+      "explanation": "Figa huanza na f, hivyo unafungua sehemu ya f.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Neno lina maana mbili. Unafanya nini?",
+      "options": ["Unachagua ya kwanza bila kusoma", "Unachagua inayofaa sentensi", "Unaacha kusoma", "Unabadili herufi zote"],
+      "answer": "B",
+      "explanation": "Maana inayofaa ni ile inayofanya sentensi ieleweke.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Panga: shikamoo, alamsiki, pole.",
+      "options": ["shikamoo, pole, alamsiki", "alamsiki, pole, shikamoo", "pole, shikamoo, alamsiki", "alamsiki, shikamoo, pole"],
+      "answer": "B",
+      "explanation": "A inatangulia p, na p inatangulia sh.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Ni tendo gani si salama mtandaoni unapotafuta maana?",
+      "options": ["Kusoma tovuti unayoijua kwa ruhusa", "Kuandika nenosiri lako kwenye ukurasa usiojulikana", "Kumwuliza mzazi ukishindwa", "Kuandika maana kwenye daftari"],
+      "answer": "B",
+      "explanation": "Hujiandiki nenosiri kwenye ukurasa usiojulikana.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kwa nini uandike neno jipya na maana yake kwenye daftari?",
+      "answer": "Ili ukumbuke na ulitumie, hivyo msamiati wako unakua.",
+      "explanation": "Kuandika na kutumia neno hukifanya kibaki akilini.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Eleza kwa sentensi moja umuhimu wa kamusi.",
+      "answer": "Kamusi hunisaidia kuelewa maneno magumu ili nisome kwa uhuru na nikuze msamiati.",
+      "explanation": "Maana zinazopatikana haraka hukuza ufahamu.",
+      "outcome": "c",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 2.0 Nidhamu Mezani, Mada Ndogo 2.2.1 Kusoma: Kusoma kwa Kina",
+    "KICD Kiswahili Gredi ya 4, kipindi cha redio: Matumizi ya Kamusi"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "8.2.1",
+  "title": "Kusoma: Kusoma kwa Ufahamu (Mchezo wa Kuigiza)",
+  "overview": "Mchezo wa kuigiza ni kazi inayosomwa na kuigizwa. Una wahusika wanaozungumza na maelekezo yanayowaonyesha jinsi ya kutenda. Utajifunza kuyatambua katika mchezo mfupi kuhusu usalama wa wanyama wa porini na baiskeli, utausoma kwa ufasaha, kisha utatafuta ujumbe wake.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Mchezo, mhusika na maelekezo",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya mchezo wa kuigiza, mhusika na maelekezo.",
+        "Kutofautisha maneno ya mhusika na maelekezo.",
+        "Kutambua mchezo wa kuigiza katika matini."
+      ],
+      "intro": "Ukurasa ukionyesha majina pembeni na maneno yao, na maelezo mafupi kwenye mabano, husoma mchezo wa kuigiza. Si insha ya aya wala barua. Ni maandishi yaliyoandaliwa kuigizwa.",
+      "notes": "### Mchezo wa kuigiza ni nini?\nMchezo wa kuigiza ni kazi ya fasihi inayosimuliwa kwa mazungumzo. Wahusika huzungumza moja kwa moja, na msomaji au mwigizaji anaweza kuuona tukio likifanyika. Mchezo hauna aya ndefu za masimulizi kama insha. Una majina ya wahusika na maneno yao.\n\n### Mhusika\nMhusika ni aliye na jukumu katika mchezo. Jina lake huandikwa kabla ya maneno anayosema. Mhusika anaweza kuwa mtoto, mlinzi, mnyama anayesemeshwa, au mtu mwingine. Katika mchezo wetu, wahusika ni Amina, Juma na Mlinzi. Kila mmoja ana sauti na wazo lake. Bila wahusika, hakuna mazungumzo.\n\n### Maelekezo\nMaelekezo ni maneno yanayomwonyesha mwigizaji afanye nini. Mara nyingi huwa kwenye mabano, na hayasemwi kama mazungumzo. Yanasema jinsi ya kuingia, sauti, au ishara.\n\nMfano:\n\nAmina: (akiashiria kwa mkono) Juma, angalia ndovu na mtoto wake!\n\nJuma: (kwa sauti ya chini) Tusikaribie.\n\n\"Akiashiria kwa mkono\" na \"kwa sauti ya chini\" ni maelekezo. \"Angalia ndovu\" na \"Tusikaribie\" ndiyo maneno ya kusema.\n\n### Jinsi ya kutambua mchezo\nMatini ni mchezo wa kuigiza ikiwa:\n- kuna majina ya wahusika yanayorudiwa kabla ya sentensi zao,\n- kuna mazungumzo, si tu aya moja ya msimulizi,\n- kuna maelekezo ya jinsi ya kutenda.\n\nInsha, barua na shairi hazipangwi hivi. Ukishindwa, uliza: nani anasema, na nani anaelekezwa atende? Kama majibu yapo, umetambua mchezo.",
+      "keyWords": [
+        { "word": "mchezo wa kuigiza", "meaning": "kazi ya fasihi yenye mazungumzo na maelekezo, inayosomwa na kuigizwa" },
+        { "word": "mhusika", "meaning": "aliye na jukumu na anayesema katika mchezo" },
+        { "word": "maelekezo", "meaning": "maneno yanayomwonyesha mwigizaji jinsi ya kutenda au kuzungumza" },
+        { "word": "wahusika", "meaning": "wingi wa mhusika" }
+      ],
+      "examples": [
+        {
+          "problem": "Katika 'Juma: (kwa sauti ya chini) Tusikaribie,' tambua mhusika, maelekezo na maneno ya kusema.",
+          "steps": ["Jina kabla ya koloni ni mhusika.", "Yaliyo kwenye mabano ni maelekezo."],
+          "answer": "Mhusika ni Juma. Maelekezo ni kwa sauti ya chini. Maneno ya kusema ni Tusikaribie.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini aya 'Twiga alivuka barabara' peke yake si mchezo wa kuigiza?",
+          "steps": ["Angalia kama kuna majina ya wahusika na mazungumzo.", "Aya moja ya masimulizi haina muundo huo."],
+          "answer": "Kwa sababu haina wahusika wanaozungumza wala maelekezo. Ni sentensi ya masimulizi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chora sehemu za mchezo",
+        "materials": ["Dondoo la mchezo kwenye chati au tarakilishi", "Kalama za rangi"],
+        "steps": [
+          "Jadilieni maana ya mchezo wa kuigiza, mhusika na maelekezo.",
+          "Someni dondoo la Amina na Juma kwenye chati, kitabu au tarakilishi.",
+          "Pakieni rangi majina ya wahusika, maneno yao na maelekezo.",
+          "Kundi lieleze darasa jinsi lilivyotambua kuwa matini hiyo ni mchezo.",
+          "Tofautisheni dondoo hilo na aya moja ya insha."
+        ]
+      },
+      "practice": [
+        { "question": "Mchezo wa kuigiza ni nini?", "answer": "Ni kazi ya fasihi yenye mazungumzo ya wahusika na maelekezo, inayosomwa na kuigizwa.", "check": null },
+        { "question": "Mhusika ni nani?", "answer": "Ni aliye na jukumu katika mchezo na anayesema maneno yake.", "check": null },
+        { "question": "Maelekezo huandikwa wapi mara nyingi, na je, husemwa kama mazungumzo?", "answer": "Huandikwa kwenye mabano, na hayasemwi kama mazungumzo. Yanamwongoza mwigizaji.", "check": null },
+        { "question": "Taja alama mbili za kutambua mchezo wa kuigiza.", "answer": "Majina ya wahusika kabla ya maneno yao, na maelekezo ya jinsi ya kutenda.", "check": null }
+      ],
+      "summary": [
+        "Mchezo una mazungumzo ya wahusika na maelekezo.",
+        "Mhusika ni anayesema. Maelekezo huwa kwenye mabano.",
+        "Insha ya aya si mchezo wa kuigiza."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kusoma mchezo kwa ufasaha",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kutaja wahusika na maelekezo katika mchezo mzima.",
+        "Kusoma mazungumzo kwa sauti inayofaa maelekezo.",
+        "Kujibu maswali ya ujumbe wa moja kwa moja."
+      ],
+      "intro": "Sasa soma mchezo mzima. Jina la mhusika husomwi kwa sauti ya chini au halisomwi unapoigiza, lakini unaposoma darasani unaweza kulitaja ili wengine wafuate. Fuata kila elekezo.",
+      "notes": "### Mchezo: Walinzi wa Porini\nWahusika: Amina, Juma na Mlinzi.\n\n(Amina na Juma wamesimama karibu na uzio. Wanaangalia tembo kwa mbali.)\n\nAmina: (akiashiria kwa mkono) Juma, angalia ndovu na mtoto wake! Wanatembea polepole.\n\nJuma: (kwa sauti ya chini) Wale ni wazuri sana. Tusikaribie. Mnyama wa porini si mnyama wa nyumbani.\n\nMlinzi: (akiingia na tabasamu) Hamjambo, vijana. Mbona mmesimama karibu na uzio?\n\nAmina: Hatujambo, mlinzi. Tunatazama tembo. Hatutavuka uzio.\n\nMlinzi: Vizuri sana. Tembo ni wanyama wakubwa. Tukikaribia, tunaweza kuwadhuru au kudhuriwa. Wanyama hawa wanahitaji usalama.\n\nJuma: Tunawezaje kuwasaidia?\n\nMlinzi: Msiwape chakula karibu na uzio. Msiwatuse. Mnapoendesha baiskeli karibu na hifadhi, endesheni polepole na muangalie pande zote mbili. Wanyama nao huvuka barabara.\n\nAmina: Tumefahamu. Tutawaambia wenzetu.\n\nMlinzi: Asante. Umoja ni nguvu. Kila mtu ana wajibu wa kulinda wanyama wa porini.\n\n(Amina na Juma wanaondoka wakipunga mikono.)\n\n### Jinsi ya kusoma kwa ufasaha\n- Tambua mhusika kabla ya kusoma maneno yake. Badilisha sauti kidogo ili Amina, Juma na Mlinzi wasiwe sawa.\n- Maelekezo ya mabano yasisomeke kama sentensi ya mhusika. Yafuatwe. \"Kwa sauti ya chini\" ina maana Juma asipige kelele.\n- Simama kwenye nukta na maswali. Swali \"Mbona mmesimama?\" lina sauti ya kuuliza.\n- Usikimbilie. Ufasaha ni kusoma vizuri na kueleweka, si kwa kasi.\n\n### Maswali ya kuelewa\nWahusika ni Amina, Juma na Mlinzi. Wanaangalia tembo kutoka nje ya uzio. Mlinzi anawakataza kuvuka, kuwapa chakula na kuwatusa. Anawaambia waendeshe baiskeli polepole na kuangalia pande zote, kwa sababu wanyama huvuka barabara. Amina anaahidi kuwaambia wenzake.",
+      "keyWords": [
+        { "word": "ufasaha", "meaning": "kusoma au kuzungumza kwa usahihi na kwa sauti inayoeleweka" },
+        { "word": "uzio", "meaning": "kitalu kinachotenganisha watu na eneo la wanyama" },
+        { "word": "kutusa", "meaning": "kumfanya mnyama aukasirike au aogope kwa kumsumbua" }
+      ],
+      "examples": [
+        {
+          "problem": "Taja maelekezo matatu katika mchezo wa Walinzi wa Porini.",
+          "steps": ["Tafuta maneno yaliyo kwenye mabano.", "Usiandike maneno ya mazungumzo."],
+          "answer": "Wamesimama karibu na uzio; akiashiria kwa mkono; kwa sauti ya chini. (Pia: akiingia na tabasamu; wanaondoka wakipunga mikono.)",
+          "check": null
+        },
+        {
+          "problem": "Mlinzi anawaambia nini kuhusu baiskeli?",
+          "steps": ["Tafuta neno baiskeli katika maneno ya Mlinzi.", "Taja masharti mawili."],
+          "answer": "Waendeshe polepole na waangalie pande zote mbili, kwa sababu wanyama huvuka barabara.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Soma kwa zamu",
+        "materials": ["Nakala ya mchezo", "Kifaa cha kidijitali panapopatikana ili kutazama mfano wa kuigiza"],
+        "steps": [
+          "Tazameni mfano mfupi wa kuigiza darasani au kwenye kifaa, ikiwa unapatikana, kisha mlinganishe na mchezo huu.",
+          "Gawanya wahusika: Amina, Juma na Mlinzi. Mwingine asome maelekezo kwa sauti ya chini ili wengine wafuate.",
+          "Someni mchezo mzima mkizingatia sauti, maswali na nukta.",
+          "Jibuni: wahusika ni akina nani, na mlinzi amepiga marufuku nini?",
+          "Rudieni sehemu ya baiskeli na msome tena polepole."
+        ]
+      },
+      "practice": [
+        { "question": "Wahusika wa mchezo ni akina nani?", "answer": "Amina, Juma na Mlinzi.", "check": null },
+        { "question": "Kwa nini Juma anasema 'Tusikaribie'?", "answer": "Kwa sababu mnyama wa porini si mnyama wa nyumbani, na kukaribia kunaweza kuwadhuru wanyama au kutudhuru.", "check": null },
+        { "question": "Mlinzi anawakataza watoto kufanya nini kwa wanyama?", "answer": "Kuwapa chakula na kuwatusa. Pia wasivuke uzio.", "check": null },
+        { "question": "Unaposoma maelekezo 'kwa sauti ya chini', unafanya nini?", "answer": "Unasoma maneno ya mhusika kwa sauti ndogo, na husomi maelekezo yenyewe kama mazungumzo.", "check": null }
+      ],
+      "summary": [
+        "Mchezo una Amina, Juma na Mlinzi.",
+        "Maelekezo yafuatwe, yasisomeke kama maneno ya mhusika.",
+        "Ujumbe wa moja kwa moja ni kutokaribia wanyama na kuendesha baiskeli polepole."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Ujumbe wa mchezo na kuiigiza",
+      "outcomes": ["e"],
+      "objectives": [
+        "Kueleza ujumbe wa mchezo kwa maneno yake mwenyewe.",
+        "Kuonyesha jinsi wahusika wanavyochangia ujumbe.",
+        "Kuigiza sehemu fupi akizingatia maelekezo."
+      ],
+      "intro": "Kusoma maneno si mwisho. Mchezo unafundisha jambo. Ukiigiza, wenzako wanaona funzo bila hotuba ndefu. Leo tutatafuta ujumbe na kujaribu kuuonyesha.",
+      "notes": "### Ujumbe ni nini?\nUjumbe ni funzo linalobaki baada ya mchezo. Si orodha ya kila sentensi. Katika Walinzi wa Porini, ujumbe ni huu: wanyama wa porini wanapaswa kulindwa. Hatukaribii ovyo, hatuwapi chakula, wala hatuwatusi. Tukikaribia, tunaweza kuwadhuru au kudhuriwa. Tukiendesha baiskeli karibu na hifadhi, tunaendesha polepole na tunaangalia pande zote kwa sababu wanyama huvuka barabara.\n\nMethali \"Umoja ni nguvu\" inaongeza kuwa kila mtu ana wajibu, si mlinzi peke yake. Amina anapoahidi kuwaambia wenzake, ujumbe unatoka kwa mtu mmoja hadi kwa wengine.\n\n### Wahusika wanachangia vipi?\n- Amina anaanza tukio kwa kuona wanyama na, mwishoni, anakubali kutoa taarifa. Yeye anawakilisha mtoto anayejifunza.\n- Juma anakumbusha kuwa mnyama wa porini si wa nyumbani, na anauliza jinsi ya kusaidia. Swali lake linampa mlinzi nafasi ya kutoa mafundisho.\n- Mlinzi anatoa kanuni: usivuke uzio, usiwape chakula, usiwatuse, na uendeshe baiskeli kwa hadhari.\n\nBila swali la Juma, maelezo ya baiskeli yasingetokea. Bila ahadi ya Amina, funzo lingeishia kwa watu wawili. Kwa hiyo kila mhusika ana kazi katika ujumbe.\n\n### Jinsi ya kuigiza\n1. Jifunze maneno yako ili usisome daftari mfululizo.\n2. Fuata maelekezo: sauti ya chini, kuashiria, kutabasamu, kupunga mkono.\n3. Mtazame mhusika unayezungumza naye, kisha ugeuze uso kidogo ili darasa lisikie.\n4. Mpe mwenzako nafasi. Usimkatize.\n5. Mwisho, simama. Msicheke mhusika anapotoa ujumbe mzito.\n\nKuigiza kunaleta furaha na kunasaidia kukumbuka usalama. Mkiigiza sehemu ya baiskeli, onyesheni kuangalia kushoto na kulia. Hiyo ndiyo elimu ya barabara iliyo ndani ya mchezo, si mbio.",
+      "keyWords": [
+        { "word": "ujumbe", "meaning": "funzo linalobaki baada ya kusoma au kuigiza mchezo" },
+        { "word": "kuigiza", "meaning": "kufanya kama mhusika kwa maneno na vitendo" },
+        { "word": "hadhari", "meaning": "uangalifu wa kuepuka hatari" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika ujumbe wa mchezo kwa sentensi mbili.",
+          "steps": ["Taja ulinzi wa wanyama.", "Ongeza usalama wa baiskeli."],
+          "answer": "Wanyama wa porini wanapaswa kulindwa bila kukaribiwa wala kupewa chakula. Baiskeli karibu na hifadhi huendeshwa polepole kwa kuangalia pande zote.",
+          "check": null
+        },
+        {
+          "problem": "Juma anachangiaje ujumbe?",
+          "steps": ["Tafuta swali lake na onyo lake.", "Onyesha yanavyomsaidia mlinzi kufundisha."],
+          "answer": "Anawakataza kukaribia na anauliza jinsi ya kusaidia, hivyo mlinzi anapata nafasi ya kutoa kanuni.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Igiza na jadili ujumbe",
+        "materials": ["Nakala ya mchezo", "Nafasi ndogo darasani"],
+        "steps": [
+          "Kwa vikundi vya watu watatu, igizeni mchezo mkizingatia maelekezo.",
+          "Kikundi kingine kitazame na kiandike ujumbe mmoja.",
+          "Jadilini: kila mhusika amechangia nini?",
+          "Rudieni sentensi za baiskeli na mzionyeshe kwa vitendo vya kuangalia pande zote.",
+          "Semeni jambo moja mtakalofanya mnapoona mnyama wa porini karibu na barabara."
+        ]
+      },
+      "practice": [
+        { "question": "Ujumbe mkuu wa mchezo ni upi?", "answer": "Wanyama wa porini walindwe: tusiwakaribie, tusiwape chakula, tusiwatuse, na tuendeshe baiskeli polepole karibu na hifadhi.", "check": null },
+        { "question": "Amina anachangia vipi mwishoni mwa mchezo?", "answer": "Anaahidi kuwaambia wenzake, ili funzo lifike kwa watu wengine.", "check": null },
+        { "question": "Unapoigiza maelekezo 'akiashiria kwa mkono', unafanya nini?", "answer": "Unaonyesha kwa mkono upande wa wanyama huku ukisema maneno ya Amina.", "check": null },
+        { "question": "Kwa nini mchezo huu unahusu pia baiskeli, si wanyama peke yao?", "answer": "Kwa sababu wanyama huvuka barabara, hivyo waendesha baiskeli wanapaswa kuwa na hadhari ili kuepuka ajali.", "check": null }
+      ],
+      "summary": [
+        "Ujumbe ni kulinda wanyama na kuendesha baiskeli kwa hadhari.",
+        "Kila mhusika ana kazi: kuona, kuuliza au kufundisha.",
+        "Kuigiza hufuata maelekezo na huleta furaha ya kujifunza."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Mchezo wa kuigiza ni upi?", "options": ["aya ya maelezo ya mnyama", "mazungumzo ya wahusika yenye maelekezo", "orodha ya visawe", "barua kwa mlinzi"], "answer": "B", "explanation": "Mchezo una mazungumzo na maelekezo ya kuigiza.", "outcome": "a", "check": null },
+    { "question": "Mhusika ni nani?", "options": ["aliyesema maneno katika mchezo", "mlango wa hifadhi", "kichwa cha insha", "mti wa maneno"], "answer": "A", "explanation": "Mhusika ana jukumu na huzungumza.", "outcome": "a", "check": null },
+    { "question": "Maelekezo katika 'Juma: (kwa sauti ya chini) Tusikaribie' ni yapi?", "options": ["Juma", "Tusikaribie", "kwa sauti ya chini", "ndovu"], "answer": "C", "explanation": "Yaliyo kwenye mabano ndiyo maelekezo.", "outcome": "c", "check": null },
+    { "question": "Unajuaje kuwa matini ni mchezo wa kuigiza?", "options": ["Ina aya moja ndefu tu", "Ina majina ya wahusika na mazungumzo", "Ina methali pekee", "Ina namba za hesabu"], "answer": "B", "explanation": "Muundo wa majina na mazungumzo hutofautisha mchezo na insha.", "outcome": "b", "check": null },
+    { "question": "Wahusika wa Walinzi wa Porini ni akina nani?", "options": ["Tembo, twiga na kiboko", "Amina, Juma na Mlinzi", "Mama, baba na nyanya", "Dereva na kondakta"], "answer": "B", "explanation": "Hao watu watatu ndio wanaozungumza katika mchezo.", "outcome": "c", "check": null },
+    { "question": "Mlinzi anasema nini kuhusu chakula?", "options": ["Wape tembo chakula karibu na uzio", "Msiwape chakula karibu na uzio", "Chukueni chakula chao", "Pikeni chakula porini"], "answer": "B", "explanation": "Mlinzi anawakataza kuwapa wanyama chakula karibu na uzio.", "outcome": "d", "check": null },
+    { "question": "Kwa nini baiskeli iendeshwe polepole karibu na hifadhi?", "options": ["Ili kuchelewa shuleni", "Kwa sababu wanyama huvuka barabara", "Ili kupiga honi", "Kwa sababu barabara haina pande"], "answer": "B", "explanation": "Wanyama wanaweza kuvuka, hivyo mwendo wa polepole na kuangalia pande zote huzuia ajali.", "outcome": "d", "check": null },
+    { "question": "Unaposoma, unafanya nini na maelekezo ya mabano?", "answer": "Unayafuata katika sauti na vitendo, lakini huyasomi kama maneno ya mhusika.", "explanation": "Maelekezo humwongoza mwigizaji.", "outcome": "d", "check": null },
+    { "question": "Ujumbe mkuu wa mchezo ni upi?", "answer": "Wanyama wa porini walindwe, na baiskeli karibu na hifadhi iendeshwe kwa hadhari.", "explanation": "Funzo linatokana na maonyo ya mlinzi na ahadi ya Amina.", "outcome": "e", "check": null },
+    { "question": "Juma anachangia ujumbe vipi?", "answer": "Anakataza kukaribia na anauliza jinsi ya kusaidia, hivyo kanuni za usalama zinasemwa.", "explanation": "Swali lake linamsaidia mlinzi kufundisha.", "outcome": "e", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 8.0 Wanyama wa Porini, Mada Ndogo 8.2.1 Kusoma: Kusoma kwa Ufahamu (Mchezo wa Kuigiza)"
+  ]
+}

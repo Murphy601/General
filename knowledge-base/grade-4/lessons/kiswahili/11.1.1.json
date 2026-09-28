@@ -1,0 +1,208 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "11.1.1",
+  "title": "Kusikiliza na Kuzungumza: Masimulizi",
+  "overview": "Masimulizi ni kisa unachosikiliza au unachosimulia mbele ya wenzako. Katika mada hii ndogo utasikiliza kisa kuhusu riziki na mapato, ukichukua ujumbe na msamiati. Kisha utabuni simulizi lako, ukitumia lugha safi na ishara za uso, mikono na mabega.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kusikiliza masimulizi na kuchukua ujumbe",
+      "outcomes": ["a", "d"],
+      "objectives": [
+        "Kusikiliza masimulizi kwa utulivu na kutaja ujumbe wake.",
+        "Kutambua msamiati wa mapato na riziki uliotumiwa katika kisa.",
+        "Kujibu maswali na kuzungumzia ubora wa masimulizi."
+      ],
+      "intro": "Mgeni anapoingia darasani na kuanza, \"Nakumbuka nilipoanza kuuza mboga,\" darasa linanyamaza. Huoni picha; kisa kinakuja kwa sauti. Leo utajifunza kusikiliza ili uondoke na ujumbe, si maneno yaliyopita tu.",
+      "notes": "### Masimulizi ni nini?\nMasimulizi ni kisa kinachoelezwa kwa mdomo. Kinataja mhusika, kinachotokea na funzo. Unaweza kuyasikia kutoka kwa mwalimu, mwenzako, mgeni mwalikwa au kifaa cha kidijitali. Kusikiliza kunahitaji utulivu: umtazame msimulizi, uache kuongea, na uandike neno jipya bila kumkatiza.\n\n### Maswali ya ujumbe\nUkimya peke yake hautoshi. Ukisikiliza, tafuta majibu ya maswali haya:\n\n- Nani anasimulia, na nani yuko katika kisa?\n- Amefanya kazi gani ili kupata riziki?\n- Ametumiaje pesa alizopata?\n- Funzo ni lipi?\n\n### Kisa cha kusikiliza\nBabu Juma alisimulia hivi:\n\nNilikuwa na kuku watano. Kila asubuhi niliokota mayai na kuyauza dukani. Kwa pesa nilizopata nilinunua unga na sukari. Niliweka akiba yangu katika kibubu. Siku moja nilinunua kuku wengine wawili. Sasa ninapata mayai mengi zaidi. Riziki huja kwa kazi na uvumilivu, si kwa kusubiri tu.\n\nUjumbe: mapato yanatokana na kazi ndogo inayofanywa kila siku. Sehemu ya pesa hutumiwa kwa mahitaji, na sehemu huwekwa akiba ili kupanua kazi.\n\n### Msamiati wa suala lengwa\nManeno haya yamo katika kisa:\n\n- **riziki** – chakula, pesa na mahitaji mengine unayopata ili kuishi\n- **mapato** – pesa unazopata kwa kazi au biashara\n- **akiba** – pesa unazoweka ili utumie baadaye\n- **kuuza** – kumpa mtu bidhaa na kupokea malipo\n\nUkiyaandika, utayaelewa unaposimulia kisa chako.\n\n### Kuzungumzia ubora\nBaada ya kusikiliza, jadiliana: Je, sauti ilisikika? Matukio yalifuata mpangilio? Funzo lilikuwa wazi? Toa maoni kwa heshima. Sema kilichokufaa kwanza, kisha kitu kimoja cha kuboresha. Masimulizi mazuri yanaweza kutokea darasani, nyumbani au kwenye mkutano wa familia. Furahia kuyasikia kila unapopata nafasi.",
+      "keyWords": [
+        { "word": "masimulizi", "meaning": "kisa kinachosimuliwa kwa mdomo" },
+        { "word": "riziki", "meaning": "mahitaji ya kuishi unayopata kwa kazi, kama chakula na pesa" },
+        { "word": "mapato", "meaning": "pesa unazopata kwa kazi au biashara" },
+        { "word": "akiba", "meaning": "pesa zinazowekwa ili kutumika baadaye" }
+      ],
+      "examples": [
+        {
+          "problem": "Kwa sentensi moja, eleza ujumbe wa kisa cha Babu Juma.",
+          "steps": [
+            "Alifanya kazi ya kuku na mayai.",
+            "Alitumia pesa kwa mahitaji na akiba.",
+            "Funzo ni kwamba riziki huja kwa kazi."
+          ],
+          "answer": "Babu Juma alipata riziki kwa kuuza mayai, kutumia pesa kwa mahitaji na kuweka akiba.",
+          "check": null
+        },
+        {
+          "problem": "Ni neno gani la suala la mapato lililotumiwa kumaanisha pesa zinazowekwa kwa ajili ya baadaye?",
+          "steps": ["Rudi kwenye kisa.", "Pesa alizoweka katika kikapu ndizo akiba."],
+          "answer": "akiba",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sikiliza kisha jibu",
+        "materials": ["Masimulizi ya mwalimu, mwenzako, mgeni au kifaa cha kidijitali", "Daftari"],
+        "steps": [
+          "Sikiliza kisa kuhusu kujipatia riziki. Mtazame msimulizi na usimkatize.",
+          "Andika maneno mapya ya mapato uliyosikia, kama riziki, akiba au kuuza.",
+          "Jibu: nani, alifanya nini, alitumiaje pesa, na funzo ni lipi?",
+          "Jadiliana na mwenzako kuhusu ubora: sauti, mpangilio na ujumbe. Anza kwa kitu kilichofaa."
+        ]
+      },
+      "practice": [
+        { "question": "Unazingatia nini unaposikiliza masimulizi?", "answer": "Namtazama msimulizi, simkatizi, na natafuta nani, kitendo, matumizi ya pesa na funzo.", "check": null },
+        { "question": "Katika kisa, Babu Juma alifanya nini kila asubuhi?", "answer": "Aliokota mayai na kuyauza dukani.", "check": null },
+        { "question": "Mapato ni nini?", "answer": "Ni pesa unazopata kwa kazi au biashara.", "check": null },
+        { "question": "Toa maoni ya heshima kuhusu masimulizi ambayo sauti yake haikusikika.", "answer": "Mfano: Kisa kilikuwa wazi, lakini inafaa kuongeza sauti ili wote tusikie.", "check": null }
+      ],
+      "summary": [
+        "Sikiliza kwa utulivu na utafute ujumbe: nani, kitendo, matumizi na funzo.",
+        "Riziki, mapato, akiba na kuuza ni msamiati wa mada hii.",
+        "Maoni huanzia kwa kilichofaa, kisha kitu kimoja cha kuboresha."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kusimulia kwa ubunifu na ishara",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kubuni na kusimulia kisa kuhusu riziki au matumizi ya mapato.",
+        "Kutumia lugha safi, mpangilio wa matukio na ishara zifaazo.",
+        "Kusimama mbele ya wenzako kwa ujasiri."
+      ],
+      "intro": "Sasa ni zamu yako. Wenzako watakusikiliza kama wewe ulivyomsikiliza Babu Juma. Kisa chako kiwe kifupi, lakini msikilizaji aone mahali, kazi na funzo. Mikono na uso wako vitakusaidia, si kuchukua nafasi ya maneno.",
+      "notes": "### Jinsi ya kubuni simulizi\nChagua mada moja: jinsi ya kujipatia riziki, au jinsi ya kutumia mapato. Tazama picha au mchoro wa soko, bustani au kibubu cha akiba, kisha uliza:\n\n- Mhusika anafanya kazi gani?\n- Anapata pesa kwa njia gani?\n- Anatumia au anaweka akiba?\n- Funzo ni lipi?\n\nPanga matukio matatu: mwanzo, kitendo cha kati, na mwisho. Ubunifu ni kuongeza hisia na maelezo, si kubadilisha funzo kuwa cha kuogofya. Kisa kama \"Zawadi anamsaidia mama kuuza ndizi, kisha anaweka nusu ya pesa kwenye kibubu\" kinatosha.\n\n### Usanifu wa lugha\nTumia sentensi kamili. Mhusika mmoja: Zawadi anauza. Wahusika wengi: Watu wananunua. Usichanganye. Eleza kwa mpangilio, na malizia kwa funzo. Mfano:\n\nKila Jumamosi Zawadi anamsaidia mama kuuza ndizi sokoni. Mama anampa sehemu ya pesa. Zawadi anaweka nusu katika kibubu cha akiba, na kwa nusu ananunua daftari. Anasema, \"Akiba ndogo ya leo hunisaidia kesho.\"\n\n### Ishara zifaazo\nIshara zinaimarisha maneno; hazichukui nafasi yake.\n\n- **Uso:** tabasamu unapoanza, uso wa furaha unaposema amepata malipo, uso wa kushangaa unaposema kibubu kilikuwa tupu.\n- **Mikono:** onyesha idadi kwa vidole, onyesha ukubwa wa kibubu, elekeza unaposema soko.\n- **Mabega:** yainue kidogo unapouliza swali la kisa, kisha uyateremshe unapotoa jibu. Usitikise mwili ovyo.\n\nSauti iwe inayosikika, si kelele. Tazama wenzako, simama vizuri, na usisome ukuta. Ukikwama, pumua na uendelee kutoka tukio ulilokuwa nalo. Wenzako wanakusikiliza ili kujifunza, si kukucheka.\n\n### Maelezo ya suala lengwa\nUnaweza kusimulia hatua hizi bila kisa kirefu: kwanza fanya kazi ndogo, pili tumia pesa kwa mahitaji, tatu weka akiba, nne usinunue kitu usichokihitaji. Ishara za vidole zinahesabu hatua hizo.",
+      "keyWords": [
+        { "word": "ishara", "meaning": "mwendo wa uso, mikono au mabega unaoongeza maana ya maneno" },
+        { "word": "ubunifu", "meaning": "uwezo wa kutunga kisa kwa maelezo yako mwenyewe" },
+        { "word": "usanifu wa lugha", "meaning": "kutumia sentensi sahihi na mpangilio unaoeleweka" },
+        { "word": "kibubu", "meaning": "chombo kidogo cha kuwekea akiba" }
+      ],
+      "examples": [
+        {
+          "problem": "Panga matukio haya: Ananunua daftari. Anauza ndizi. Anaweka nusu ya pesa kwenye kibubu.",
+          "steps": [
+            "Kwanza apate pesa.",
+            "Kisha agawanye pesa.",
+            "Mwisho atumie sehemu iliyobaki."
+          ],
+          "answer": "1. Anauza ndizi. 2. Anaweka nusu ya pesa kwenye kibubu. 3. Ananunua daftari.",
+          "check": null
+        },
+        {
+          "problem": "Unaposema \"nilinunua kuku wawili,\" ishara ipi inafaa?",
+          "steps": [
+            "Maneno yaeleze ununuzi.",
+            "Ishara ionyeshe idadi bila kelele."
+          ],
+          "answer": "Naonyesha vidole viwili huku nikisimulia.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Simulia mbele ya wenzako",
+        "materials": ["Picha au michoro za soko, bustani au kibubu", "Daftari"],
+        "steps": [
+          "Tazama picha na jadiliana na mwenzako: kisa chako kitakuwa cha kujipatia riziki au cha kutumia mapato?",
+          "Andika vidokezo vitatu: mwanzo, kati na funzo.",
+          "Fanya mazoezi ukitumia ishara za uso, mikono na mabega.",
+          "Simulia mbele ya kikundi. Wenzako wataje ujumbe na ishara moja iliyofaa.",
+          "Sikiliza maoni yao kwa heshima, kisha boresha sehemu moja na usimulie tena."
+        ]
+      },
+      "practice": [
+        { "question": "Taja mambo matatu ya kuzingatia unaposimulia.", "answer": "Mada iliyo wazi, mpangilio wa matukio, na lugha sahihi. Ishara zinaongeza maana.", "check": null },
+        { "question": "Ishara za mikono zinafaa vipi unapoeleza idadi?", "answer": "Naonyesha idadi kwa vidole huku nikisema namba kwa maneno.", "check": null },
+        { "question": "Tunga sentensi moja kuhusu kutumia mapato kwa akiba.", "answer": "Mfano: Naweka nusu ya pesa zangu katika kibubu cha akiba.", "check": null },
+        { "question": "Kwa nini haifai kutikisa mwili ovyo unaposimulia?", "answer": "Kwa sababu inawachanganya wasikilizaji; ishara zinapaswa kulingana na maneno.", "check": null }
+      ],
+      "summary": [
+        "Panga mwanzo, kati na funzo kabla ya kusimulia.",
+        "Tumia sentensi sahihi kuhusu riziki au matumizi ya pesa.",
+        "Ishara za uso, mikono na mabega zinaimarisha kisa."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Unaposikiliza masimulizi, unatafuta nini kwanza?",
+      "options": ["Rangi ya nguo ya msimulizi", "Ujumbe: nani, kitendo na funzo", "Idadi ya madirisha", "Jina la kitabu chochote"],
+      "answer": "B",
+      "explanation": "Kusikiliza kunalenga kuelewa kisa na funzo lake.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Katika kisa cha Babu Juma, aliuza nini?",
+      "options": ["Nguo", "Mayai", "Vitabu", "Mbao"],
+      "answer": "B",
+      "explanation": "Aliokota mayai ya kuku wake na kuyauza dukani.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Akiba ni nini?",
+      "options": ["Pesa zinazopotezwa", "Pesa zinazowekwa ili kutumika baadaye", "Deni usilolipa", "Chakula kilichoharibika"],
+      "answer": "B",
+      "explanation": "Akiba huwekwa kwa makusudi ili ikusaidie baadaye.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Riziki katika kisa hiki inamaanisha nini?",
+      "answer": "Mahitaji ya kuishi unayopata kwa kazi, kama pesa, unga na sukari.",
+      "explanation": "Babu Juma alipata riziki kwa kuuza mayai, si kwa kusubiri tu.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Unapotoa maoni kuhusu masimulizi, unaanzaje?",
+      "options": ["Kwa kucheka makosa", "Kwa kutaja kitu kilichofaa, kisha kitu cha kuboresha", "Kwa kunyamaza kabisa", "Kwa kubadilisha kisa bila kusikiliza"],
+      "answer": "B",
+      "explanation": "Heshima ni kutambua kilicho kizuri kabla ya kupendekeza marekebisho.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Mpangilio mzuri wa simulizi ni upi?",
+      "options": ["Funzo, kisha mwanzo, bila kati", "Mwanzo, kitendo cha kati, na mwisho wenye funzo", "Mwisho tu", "Orodha ya vitu bila kisa"],
+      "answer": "B",
+      "explanation": "Msikilizaji anafuata matukio kutoka mwanzo hadi funzo.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Chagua sentensi inayofaa katika simulizi la matumizi ya mapato.",
+      "options": ["Naweka nusu ya pesa katika kibubu cha akiba.", "Mti ni mrefu kama twiga.", "Faili inafungwa kwa kubonyeza.", "Jana -li- ni kiambishi."],
+      "answer": "A",
+      "explanation": "Inaeleza jinsi pesa zinavyotumiwa na kuwekwa akiba.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Unaposema ulinunua vitu viwili, ishara ipi inafaa?",
+      "options": ["Kufunga macho", "Kuonyesha vidole viwili", "Kugeuza mgongo", "Kupiga kelele"],
+      "answer": "B",
+      "explanation": "Vidole viwili vinaambatana na idadi unayosema.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Ishara za uso zina kazi gani katika masimulizi?",
+      "answer": "Zinaonyesha hisia kama furaha au mshangao na hivyo kuimarisha maneno.",
+      "explanation": "Uso unasaidia msikilizaji kuhisi tukio, lakini maneno ndiyo yanabeba kisa.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini unamwangalia msikilizaji unaposimulia?",
+      "answer": "Ili aone kuwa unazungumza naye na apate ujasiri wa kufuata kisa.",
+      "explanation": "Macho na msimamo vinakuonyesha kuwa uko tayari, na wenzako wanakusikiliza.",
+      "outcome": "b",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 11.0 Mapato, Mada Ndogo 11.1.1 Masimulizi"
+  ]
+}

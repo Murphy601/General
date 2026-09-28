@@ -1,0 +1,306 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "1.1.1",
+  "title": "Kusikiliza na Kuzungumza: Matamshi Bora",
+  "overview": "Matamshi bora yanakufanya usikike wazi unapozungumza au kusoma. Katika mada hii ndogo utatambua na kutamka silabi za sauti zinazokaribiana: p na b, t na d, k na g, pamoja na ch na j. Pia utakariri vitanzandimi vilivyotungwa kwa silabi hizo na utajifunza kuunda vyako mwenyewe ili kuboresha matamshi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Silabi za sauti p/b na t/d",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutambua silabi za sauti p, b, t na d katika maneno.",
+        "Kutamka silabi za p/b na t/d kwa ufasaha.",
+        "Kutofautisha maneno yanayofanana kwa sababu ya sauti hizi."
+      ],
+      "intro": "Ukisema bata badala ya pata, msikilizaji atasikia ndege badala ya kitendo cha kupata kitu. Tofauti kati ya p na b ni ndogo kinywani, lakini maana inabadilika kabisa. Leo tutajifunza kutofautisha sauti hizi na sauti t na d.",
+      "notes": "### Sauti zinazokaribiana kimatamshi\nSauti p na b, pamoja na t na d, zinaitwa vitate vinavyokaribiana kimatamshi. Zinasikika karibu, hivyo ni rahisi kuzichanganya. Ukizichanganya, neno linapoteza maana yake na mawasiliano yanakuwa magumu.\n\nUnapotamka p, midomo miwili hugusana na hewa hutoka bila mwing'ong'o wa koo. Unapotamka b, midomo hugusana vivyo hivyo, lakini koo hutetema. Kwa hiyo baba si papa, na bata si pata. Papa ni samaki mkubwa wa baharini. Baba ni mzazi wa kiume.\n\n### Silabi za p na b\nSilabi huundwa sauti inapoungana na irabu a, e, i, o au u.\n- p: pa, pe, pi, po, pu\n- b: ba, be, bi, bo, bu\n\nManeno yenye p: papa, pipa, paka, pua, pepo. Maneno yenye b: baba, bibi, bata, begi, buibui. Katika neno pipa kuna silabi pi na pa. Katika neno begi kuna be na gi; silabi yenye sauti lengwa ni be.\n\n### Silabi za t na d\nNcha ya ulimi hugusa ufizi wa juu. T haina mwing'ong'o wa koo; d ina mwing'ong'o.\n- t: ta, te, ti, to, tu\n- d: da, de, di, do, du\n\nManeno yenye t: tatu, tembo, kiti, tunda, mti. Maneno yenye d: dada, dawa, dari, doa, duara. Neno doa lina silabi do na a. Neno tatu lina ta na tu.\n\n### Jinsi ya kutamka\nTamka silabi polepole ukiangalia mdomo wako kwenye kioo au ukimsikiliza mwenzako. Kisha uunganishe silabi ili kupata neno. Usikimbilie. Matamshi bora yanamsaidia msikilizaji akuelewe mara ya kwanza bila kukuuliza urudie.",
+      "keyWords": [
+        { "word": "silabi", "meaning": "kipande cha neno kinachotamkwa kwa mpigo mmoja, kama pa au bi" },
+        { "word": "vitate", "meaning": "sauti za konsonanti zinazokaribiana kimatamshi, kama p na b" },
+        { "word": "mwing'ong'o", "meaning": "tetemo la koo linalosikika unapotamka sauti kama b na d" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua silabi zenye sauti p au b katika neno: pipa.",
+          "steps": ["Gawanya neno: pi + pa.", "Silabi zote mbili zinaanza na p."],
+          "answer": "pi na pa",
+          "check": null
+        },
+        {
+          "problem": "Chagua neno linalotofautiana na bata kwa sauti ya mwanzo tu.",
+          "steps": ["Bata linaanza na b.", "Neno linaloanza na p na kuishia na ata ni pata."],
+          "answer": "pata",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kapu la silabi p/b na t/d",
+        "materials": ["Kadi za maneno", "Kapu au boksi", "Ubao au kifaa cha kidijitali cha kusikiliza sauti"],
+        "steps": [
+          "Sikiliza mwalimu au rekodi akitamka silabi pa, pe, pi, po, pu na ba, be, bi, bo, bu, kisha ta, te, ti, to, tu na da, de, di, do, du.",
+          "Rudia kila silabi kwa pamoja, kisha mmoja mmoja.",
+          "Chopoeni kadi za maneno kwenye kapu. Mifano: papa, baba, bata, pata, dada, dari, tembo, doa.",
+          "Gawanya kila neno katika silabi na sema sauti lengwa iliyopo.",
+          "Mwenzako akusahihishe kama umechanganya p na b, au t na d."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 150\" font-family=\"sans-serif\"><rect width=\"520\" height=\"150\" fill=\"#ffffff\"/><rect x=\"8\" y=\"8\" width=\"248\" height=\"134\" rx=\"8\" fill=\"#ecfdf5\" stroke=\"#166534\"/><rect x=\"264\" y=\"8\" width=\"248\" height=\"134\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\"/><text x=\"132\" y=\"32\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#166534\">p na b</text><text x=\"132\" y=\"58\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">pa pe pi po pu</text><text x=\"132\" y=\"82\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">ba be bi bo bu</text><text x=\"132\" y=\"112\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">baba / papa</text><text x=\"388\" y=\"32\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1d4ed8\">t na d</text><text x=\"388\" y=\"58\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">ta te ti to tu</text><text x=\"388\" y=\"82\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">da de di do du</text><text x=\"388\" y=\"112\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">tatu / dada</text></svg>",
+        "caption": "Silabi za sauti p/b na t/d"
+      },
+      "practice": [
+        { "question": "Andika silabi tano za sauti b.", "answer": "ba, be, bi, bo, bu", "check": null },
+        { "question": "Neno dari lina silabi gani, na sauti lengwa ni ipi?", "answer": "Silabi ni da na ri. Sauti lengwa ni d.", "check": null },
+        { "question": "Kwa nini ni makosa kusema papa ukimaanisha mzazi wa kiume?", "answer": "Papa ni samaki wa baharini. Mzazi wa kiume ni baba. Sauti p na b zinabadilisha maana.", "check": null }
+      ],
+      "summary": [
+        "P na b, na t na d, ni sauti zinazokaribiana kimatamshi.",
+        "Silabi za p ni pa pe pi po pu; za b ni ba be bi bo bu.",
+        "Silabi za t ni ta te ti to tu; za d ni da de di do du."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Silabi za sauti k/g na ch/j",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutambua silabi za sauti k, g, ch na j katika maneno.",
+        "Kutamka silabi za k/g na ch/j bila kuzichanganya.",
+        "Kutumia maneno yenye sauti hizi katika sentensi fupi."
+      ],
+      "intro": "Kaka alivaa koti, kisha akaficha goti. Ukisikiliza kwa haraka, k na g zinaweza kuchanganyikana. Leo tutatofautisha k na g, pamoja na ch na j, ili maneno yako yasikike sawasawa.",
+      "notes": "### Sauti k na g\nNyuma ya ulimi hugusa sehemu ya nyuma ya kaakaa. Sauti k haina mwing'ong'o wa koo. Sauti g ina mwing'ong'o. Kwa hiyo kaka si gaga, na koti si goti. Koti ni vazi. Goti ni sehemu ya mguu.\n\nSilabi zake ni hizi:\n- k: ka, ke, ki, ko, ku\n- g: ga, ge, gi, go, gu\n\nManeno yenye k: kaka, kalamu, kiti, koti, kuku. Maneno yenye g: gari, goti, geti, goma, guruwe. Katika neno kalamu, silabi yenye k ni ka. Silabi la na mu hazina sauti lengwa ya leo.\n\n### Sauti ch na j\nUlimi hugusa kaakaa, kisha hewa hutoka kwa mshtuko mfupi. Ch haina mwing'ong'o; j ina mwing'ong'o. Chupa si jupa, na chura si jina la mtu.\n\nSilabi zake ni hizi:\n- ch: cha, che, chi, cho, chu\n- j: ja, je, ji, jo, ju\n\nKumbuka kuwa ch ni sauti moja, si c na h zilizotenganishwa. Maneno: chapa, cheza, chizi, choma, chumba; jana, jembe, jina, joko, juu. Neno chumba lina chu na mba. Sauti lengwa ni ch.\n\n### Kutumia katika sentensi\nTunga sentensi fupi kisha uitamke kwa sauti. Mfano: Kaka alifungua geti na kuingiza gari. Sentensi hii ina k na g. Mfano mwingine: Juma alichukua chupa ya juisi jikoni. Sentensi hii ina ch na j. Mwenzako akusikilize na kukuambia kama sauti zimesikika tofauti.",
+      "keyWords": [
+        { "word": "ch", "meaning": "sauti moja inayotamkwa kwa mshtuko wa hewa, kama katika chapa na chumba" },
+        { "word": "koti", "meaning": "vazi refu linalovaliwa juu ya nguo nyingine" },
+        { "word": "goti", "meaning": "sehemu ya mguu inayopinda unapokaa" }
+      ],
+      "examples": [
+        {
+          "problem": "Gawanya neno chumba katika silabi na taja sauti lengwa.",
+          "steps": ["Chumba = chu + mba.", "Silabi chu ina sauti ch."],
+          "answer": "chu na mba; sauti lengwa ni ch",
+          "check": null
+        },
+        {
+          "problem": "Andika sentensi moja yenye maneno koti na goti.",
+          "steps": ["Koti ni vazi na goti ni sehemu ya mguu.", "Yaunganishe katika tendo moja."],
+          "answer": "Kaka alivaa koti refu akaficha goti.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sikiliza na tamka jozi za k/g na ch/j",
+        "materials": ["Kadi za silabi", "Ubao", "Kifaa cha kidijitali kama kinasasauti au rununu, panapopatikana"],
+        "steps": [
+          "Sikiliza silabi ka, ke, ki, ko, ku na ga, ge, gi, go, gu zikitamkwa na mwalimu au kutoka kwenye kifaa.",
+          "Rudieni kama kikundi, kisha kila mwanafunzi atamke safu moja peke yake.",
+          "Fanyeni hivyo hivyo kwa cha, che, chi, cho, chu na ja, je, ji, jo, ju.",
+          "Onyesha kadi ya neno. Wenzako waseme kama wamesikia k, g, ch au j.",
+          "Tungeni sentensi moja mkitumia angalau maneno mawili yenye sauti tofauti, kisha mtaitamke."
+        ]
+      },
+      "practice": [
+        { "question": "Andika silabi tano za sauti ch.", "answer": "cha, che, chi, cho, chu", "check": null },
+        { "question": "Tambua sauti lengwa katika maneno haya: gari, jembe, kalamu, chupa.", "answer": "gari lina g; jembe lina j; kalamu lina k; chupa lina ch.", "check": null },
+        { "question": "Kwa nini ch katika neno cheza ni sauti moja?", "answer": "Ch hutamkwa kwa mpigo mmoja. Si herufi c na h zilizosomwa kivyake.", "check": null },
+        { "question": "Tunga sentensi fupi ukitumia neno jikoni na neno chupa.", "answer": "Mfano: Juma aliweka chupa jikoni.", "check": null }
+      ],
+      "summary": [
+        "K haina mwing'ong'o; g ina mwing'ong'o. Silabi zake ni ka ke ki ko ku na ga ge gi go gu.",
+        "Ch na j hutamkwa kwa mshtuko wa hewa. Silabi zake ni cha che chi cho chu na ja je ji jo ju.",
+        "Ch ni sauti moja katika neno."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Kutamka vitanzandimi",
+      "outcomes": ["c", "e"],
+      "objectives": [
+        "Kueleza maana ya kitanzandimi.",
+        "Kutamka vitanzandimi vya sauti p/b, k/g na ch/j.",
+        "Kueleza faida za kukariri vitanzandimi."
+      ],
+      "intro": "Jaribu kusema mara tatu bila kusita: baba alivua papa katika bahari pana. Ulimi unajizoeza kupishana kati ya b na p. Tungolugha fupi kama hii ndiyo kitanzandimi, na hukaririwa ili matamshi yawe bora.",
+      "notes": "### Kitanzandimi ni nini?\nKitanzandimi ni tungo fupi yenye sauti zinazokaribiana kimatamshi. Haliandikwi ili kueleza hadithi ndefu. Hutungwa ili ulimi ujizoeze kutofautisha sauti. Wingi wa kitanzandimi ni vitanzandimi.\n\n### Mifano ya kukariri\nAnza polepole. Ukifaulu, ongeza kasi lakini usipoteze sauti.\n\n- Baba alivua papa katika bahari pana. Hapa p na b zinapishana. Papa ni samaki; bahari pana ni bahari iliyo kubwa.\n- Kaka alivaa koti refu akaficha goti. Hapa k na g zinapishana. Koti ni vazi; goti ni sehemu ya mguu.\n- Kila Chacha akila hali chakula kikichacha. Hapa ch inarudiwa. Kikichacha ni chakula chenye ladha kali kiasi.\n- Juma alichukua chupa ya juisi jikoni. Hapa ch na j zinapishana.\n\nTamka kila neno kamili. Usimeze silabi ya mwisho. Ukishindwa, rudia neno hilo peke yake, kisha urudi kwenye tungo nzima.\n\n### Kwa nini tukariri?\nKukariri vitanzandimi huboresha matamshi yako kila siku. Unajizoeza kutofautisha sauti kabla ya kusoma kifungu kirefu au kuzungumza mbele ya wenzako. Pia unajenga ujasiri, unacheka na wenzako bila kudharauliana, na masomo ya kusoma kwa sauti yanakuwa mepesi. Mtu anayetamka vizuri hueleweka na darasa, na nyumbani, na sokoni.\n\nChangamkia mazoezi haya. Yafanye kwa zamu, msikilize mwenzako, na umsahihishe kwa heshima.",
+      "keyWords": [
+        { "word": "kitanzandimi", "meaning": "tungo fupi ya sauti zinazokaribiana, inayokaririwa ili kuboresha matamshi" },
+        { "word": "kukariri", "meaning": "kusema tungo mara kwa mara ili uizoeze" },
+        { "word": "bahari pana", "meaning": "bahari iliyo kubwa na wazi" }
+      ],
+      "examples": [
+        {
+          "problem": "Kitanzandimi hiki kinafundisha jozi gani ya sauti: Kaka alivaa koti refu akaficha goti?",
+          "steps": ["Angalia sauti zinazorudiwa.", "Koti lina k; goti lina g."],
+          "answer": "k na g",
+          "check": null
+        },
+        {
+          "problem": "Tamka na ueleze maana ya papa katika: Baba alivua papa katika bahari pana.",
+          "steps": ["Papa hapa si mzazi.", "Mtu anavua samaki baharini."],
+          "answer": "Papa ni samaki mkubwa wa baharini.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kariri vitanzandimi kwa zamu",
+        "materials": ["Chati ya vitanzandimi", "Kinasasauti au rununu, panapopatikana"],
+        "steps": [
+          "Sikiliza mwalimu, mgeni mwalikwa au rekodi akikariri kitanzandimi kimoja polepole.",
+          "Rudia kama darasa zima, kisha kwa vikundi, kisha mmoja mmoja.",
+          "Ongeza kasi kidogo bila kuchanganya sauti.",
+          "Mwenzako aandike sauti alizosikia zikipishana, kwa mfano p/b au ch/j.",
+          "Jadilini: ni kwa nini kukariri vitanzandimi kunasaidia maishani, shuleni na mnapozungumza na watu?"
+        ]
+      },
+      "practice": [
+        { "question": "Kitanzandimi ni nini?", "answer": "Ni tungo fupi yenye sauti zinazokaribiana kimatamshi, inayokaririwa ili kuboresha matamshi.", "check": null },
+        { "question": "Andika kitanzandimi kinachopishanisha sauti p na b.", "answer": "Baba alivua papa katika bahari pana.", "check": null },
+        { "question": "Taja faida mbili za kukariri vitanzandimi.", "answer": "Huboresha matamshi; humsaidia mtu kutofautisha sauti zinazofanana; hujenga ujasiri wa kusoma kwa sauti.", "check": null }
+      ],
+      "summary": [
+        "Kitanzandimi ni mazoezi ya matamshi, si hadithi ndefu.",
+        "Kariri polepole kwanza, kisha uongeze kasi bila kuchanganya sauti.",
+        "Kukariri kunaboresha mawasiliano na kujenga ujasiri."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Kuunda vitanzandimi",
+      "outcomes": ["d", "e"],
+      "objectives": [
+        "Kuunda kitanzandimi kifupi kutokana na jozi moja ya sauti.",
+        "Kusahihisha kitanzandimi cha mwenzako kwa heshima.",
+        "Kuchagua maneno yanayosomeka na kueleweka."
+      ],
+      "intro": "Sasa unazijua silabi na umekariri mifano ya walimu. Hatua inayofuata ni yako: chagua jozi ya sauti, chagua maneno, kisha uyafunge katika sentensi fupi unayoweza kuitamka mara tatu bila kukwama.",
+      "notes": "### Hatua za kuunda kitanzandimi\nKitanzandimi kizuri ni kifupi, kinasomeka, na kinapishanisha sauti lengwa. Fuata hatua hizi na wenzako.\n\n1. Chagua jozi moja: p/b, t/d, k/g au ch/j.\n2. Andika maneno manne au matano yenye silabi za jozi hiyo. Mfano wa p/b: baba, pipa, begi, papa, paka.\n3. Yafunge katika sentensi moja au mbili zinazoeleweka. Usirundike maneno bila maana.\n4. Kisome kwa sauti mara tatu. Kama ulimi unakwama, neno hilo linasaidia mazoezi. Kama sentensi haisomeki, ibadilishe.\n5. Mpe mwenzako aisome na akuambie sauti zipi zimesikika.\n\n### Mifano uliyoweza kuyaiga\n- P na b: Baba alipakia pipa na begi la papa.\n- T na d: Dada alitoa dawa na kutakasa doa la tatu.\n- K na g: Kaka alifungua geti, gari likaingia polepole.\n- Ch na j: Juma alichukua chupa ya juisi jikoni.\n\n### Kusahihisha kwa heshima\nUnaporekebisha kazi ya mwenzako, taja kitu kimoja kilicho vizuri kwanza. Kisha onyesha neno ambalo sauti yake imepotea. Mnakubaliana mbadilishe neno hilo tu. Mkiandika kwenye kifaa cha kidijitali, hifadhi mabadiliko mliyokubaliana na msitumie mtandao bila ruhusa ya mwalimu.\n\nUundapo vitanzandimi kila wiki, matamshi yako yanaboreka. Changamkia kazi hii. Ni yako, na unamsaidia mwenzako naye aweze kusikika wazi.",
+      "keyWords": [
+        { "word": "kuunda", "meaning": "kutengeneza kitu kipya, hapa kutunga kitanzandimi chako" },
+        { "word": "kurekebisha", "meaning": "kusahihisha kosa ili tungo isomeke vizuri" },
+        { "word": "jozi", "meaning": "sauti mbili zinazokaribiana, kama p na b" }
+      ],
+      "examples": [
+        {
+          "problem": "Unda kitanzandimi kifupi ukitumia maneno: kaka, geti, gari.",
+          "steps": ["Maneno yana k na g.", "Yafunge katika tendo linaloeleweka."],
+          "answer": "Kaka alifungua geti na kuingiza gari.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini sentensi hii si kitanzandimi bora cha p/b: Mtoto alisoma kitabu darasani?",
+          "steps": ["Tafuta p na b.", "Hakuna maneno yanayopishanisha p na b."],
+          "answer": "Haina sauti p wala b zinazopishana. Kitanzandimi lazima kitumie jozi lengwa.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tunga na rekebisha kitanzandimi",
+        "materials": ["Daftari na kalamu", "Kadi za maneno", "Kifaa cha kidijitali, panapopatikana na kwa ruhusa ya mwalimu"],
+        "steps": [
+          "Kwa jozi, chagueni jozi moja ya sauti: p/b, t/d, k/g au ch/j.",
+          "Andikeni maneno matano yenye silabi za jozi hiyo.",
+          "Tungeni kitanzandimi cha sentensi moja au mbili.",
+          "Kikitamke mbele ya kundi jingine. Kikundi hicho kiseme sauti zilizosikika na kama maneno yamechanganyika.",
+          "Rekebisheni pamoja. Mkifanya kazi kwenye kifaa, hifadhini tungo na msitumie mtandao pasipo ruhusa."
+        ]
+      },
+      "practice": [
+        { "question": "Taja hatua tatu za kwanza za kuunda kitanzandimi.", "answer": "Chagua jozi ya sauti; andika maneno yenye silabi hizo; yafunge katika sentensi inayoeleweka.", "check": null },
+        { "question": "Unda kitanzandimi kifupi cha sauti ch na j.", "answer": "Mfano: Juma alichukua chupa ya juisi jikoni.", "check": null },
+        { "question": "Unaporekebisha kazi ya mwenzako, unapaswa kuanza vipi?", "answer": "Taja kitu kimoja kilicho vizuri, kisha onyesha neno linalohitaji kurekebishwa, kwa heshima.", "check": null },
+        { "question": "Kwa nini kitanzandimi kiwe kifupi?", "answer": "Ili kiweze kukaririwa mara kadhaa na ulimi ujizoeze sauti bila kusahau maneno mengi.", "check": null }
+      ],
+      "summary": [
+        "Chagua jozi, chagua maneno, kisha tungo sentensi inayoeleweka.",
+        "Kariri mara tatu na usahihishe na mwenzako.",
+        "Kuunda vitanzandimi kunaboresha matamshi yako kila siku."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Silabi za sauti p ni zipi?",
+      "options": ["ba be bi bo bu", "pa pe pi po pu", "ta te ti to tu", "ka ke ki ko ku"],
+      "answer": "B",
+      "explanation": "Sauti p huungana na irabu kuunda pa, pe, pi, po na pu.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Neno lipi lina silabi za sauti d?",
+      "options": ["tembo", "dada", "paka", "kiti"],
+      "answer": "B",
+      "explanation": "Dada lina silabi da na da. Tembo, paka na kiti hayana d.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Unapotamka b, nini hutokea kooni kuliko unapotamka p?",
+      "options": ["Koo linakaa kimya", "Koo linatetema na kutoa mwing'ong'o", "Ulimi unagusa kaakaa la nyuma", "Hewa haitoki kabisa"],
+      "answer": "B",
+      "explanation": "B ina mwing'ong'o wa koo. P haina mwing'ong'o huo.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sauti ch katika neno chupa ni ya aina gani?",
+      "options": ["Sauti mbili zilizotenganishwa", "Sauti moja ya mshtuko wa hewa", "Irabu", "Sauti ya p"],
+      "answer": "B",
+      "explanation": "Ch ni sauti moja. Hutamkwa kwa mpigo mmoja.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kitanzandimi 'Baba alivua papa katika bahari pana' kinafundisha sauti zipi?",
+      "options": ["k na g", "t na d", "p na b", "ch na j"],
+      "answer": "C",
+      "explanation": "Baba na papa zinapishanisha b na p.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Neno papa katika kitanzandimi cha baba alivua papa linamaanisha nini?",
+      "options": ["mzazi wa kiume", "samaki mkubwa wa baharini", "ndege", "mti"],
+      "answer": "B",
+      "explanation": "Katika sentensi hiyo mtu anavua papa, yaani samaki, katika bahari pana.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Ni faida gani ya kukariri vitanzandimi?",
+      "options": ["Hupoteza maana ya maneno yote", "Huboresha matamshi na kutofautisha sauti", "Huzuia mtu kusoma", "Huchanganya irabu"],
+      "answer": "B",
+      "explanation": "Kukariri hulifundisha ulimi kutofautisha sauti zinazokaribiana.",
+      "outcome": "e",
+      "check": null
+    },
+    {
+      "question": "Hatua ya kwanza ya kuunda kitanzandimi ni ipi?",
+      "options": ["Kuongeza kasi mara moja", "Kuchagua jozi ya sauti lengwa", "Kuandika hadithi ndefu", "Kufuta maneno yote"],
+      "answer": "B",
+      "explanation": "Unachagua jozi kama p/b au ch/j, kisha unatafuta maneno.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Andika kitanzandimi kifupi chenye sauti k na g.",
+      "answer": "Mfano: Kaka alifungua geti na kuingiza gari.",
+      "explanation": "Maneno kaka, geti na gari yanapishanisha k na g katika sentensi inayoeleweka.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Unaposahihisha kitanzandimi cha mwenzako, unapaswa kufanya nini?",
+      "answer": "Kumwambia kitu kilicho vizuri, kisha kumwonyesha neno la kurekebisha kwa heshima.",
+      "explanation": "Urekebishaji wa pamoja hujenga matamshi bila kumdharau mwenzako.",
+      "outcome": "e",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 1.0 Nyumbani, Mada Ndogo 1.1.1 Kusikiliza na Kuzungumza: Matamshi Bora",
+    "KICD Kiswahili Gredi ya 4, kipindi cha redio: Matamshi Bora na Vitanzandimi"
+  ]
+}

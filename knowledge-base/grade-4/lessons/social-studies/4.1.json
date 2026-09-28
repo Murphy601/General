@@ -1,0 +1,233 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "4.1",
+  "title": "Economic activities in the County",
+  "overview": "People in every county use resources to earn a living. In this sub-strand you will explore the main resources in your county, name the economic activities people carry out, explain why those activities matter, and take part in a suitable activity near your school or home.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Resources found in the county",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain what a resource is.",
+        "Identify the main natural resources found in the county."
+      ],
+      "intro": "The soil under a shamba, the river people fetch water from, and the trees on a hillside are not just scenery. Families use them to grow food, earn money and meet daily needs.",
+      "notes": "A resource is something around us that people can use to create wealth. Wealth here means the goods, food and income that help a person or a county earn a living. If people cannot use a thing to meet a need, it is not yet a resource for them.\n\nKenya is divided into 47 counties. Counties do not all have the same resources. The main resource in your county may be good soil, a lake, a forest or a mineral. Find out which one people in your county depend on most.\n\n### Natural resources\nNatural resources are found in nature. People did not make them. The ones you should be able to name are:\n\n- Soil: the top layer of the ground. Crops grow in it and animals feed on the grass it supports.\n- Water: from rivers, lakes, dams and rain stored in tanks. People drink it, wash with it and give it to animals. Farmers in dry places practise irrigation, which means leading water to crops.\n- Land: the ground used for homes, farms, grazing, markets and roads.\n- Forests: large areas where trees grow close together. Some grew on their own and some were planted. Forests are common where rainfall is high. They shelter wild animals, reduce soil erosion, clean the air and give wood for paper and furniture.\n- Wildlife: animals, birds and plants living in forests, grasslands and water. Parts of Kenya have lions, zebras, giraffes, elephants, buffaloes, hippos and many birds. Your county may have only some of these. Wildlife attracts tourists. A tourist travels to a place for pleasure, to meet people and to see animals, scenery or old buildings.\n- Minerals: materials dug from the ground, such as limestone used to make cement. Ask whether your county has a mineral that people use.\n\nWhen you name a resource, also say how people use it. Use is what turns a natural thing into a resource.",
+      "keyWords": [
+        { "word": "resource", "meaning": "something around us that people use to create wealth or earn a living" },
+        { "word": "natural resource", "meaning": "a resource found in nature, not made by people" },
+        { "word": "irrigation", "meaning": "using water from a river, dam or tank to grow crops" }
+      ],
+      "examples": [
+        {
+          "problem": "A family grows vegetables on a plot and sells them at the market. Which resources are they using?",
+          "steps": ["The vegetables grow in soil.", "The plot is land.", "The plants need water."],
+          "answer": "Soil, land and water.",
+          "check": null
+        },
+        {
+          "problem": "Why is wildlife called a resource?",
+          "steps": ["Visitors come to see wild animals.", "Those visits bring income to people who offer services."],
+          "answer": "Because people use it to earn a living, especially through tourism.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Explore resources in our county",
+        "materials": ["Exercise book", "Manila paper", "Pictures or drawings of local resources"],
+        "steps": [
+          "In groups, brainstorm the resources you see around home and school.",
+          "Sort them into soil, water, land, forests, wildlife and minerals.",
+          "For each one, write one way people in your county use it.",
+          "Agree on the main resource of your county and present it to the class.",
+          "At home, ask a parent whether your list left anything out."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" font-family=\"sans-serif\"><rect width=\"520\" height=\"220\" fill=\"#ffffff\"/><text x=\"260\" y=\"28\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"bold\" fill=\"#14532d\">Natural resources in a county</text><g font-size=\"13\" text-anchor=\"middle\"><rect x=\"20\" y=\"50\" width=\"140\" height=\"64\" rx=\"8\" fill=\"#dcfce7\" stroke=\"#166534\"/><text x=\"90\" y=\"76\" fill=\"#14532d\">Soil and land</text><text x=\"90\" y=\"96\" fill=\"#166534\">farms and homes</text><rect x=\"190\" y=\"50\" width=\"140\" height=\"64\" rx=\"8\" fill=\"#dbeafe\" stroke=\"#1d4ed8\"/><text x=\"260\" y=\"76\" fill=\"#1e3a8a\">Water</text><text x=\"260\" y=\"96\" fill=\"#1d4ed8\">rivers, lakes, rain</text><rect x=\"360\" y=\"50\" width=\"140\" height=\"64\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#b45309\"/><text x=\"430\" y=\"76\" fill=\"#92400e\">Forests</text><text x=\"430\" y=\"96\" fill=\"#b45309\">trees and wood</text><rect x=\"100\" y=\"136\" width=\"140\" height=\"64\" rx=\"8\" fill=\"#ffedd5\" stroke=\"#c2410c\"/><text x=\"170\" y=\"162\" fill=\"#9a3412\">Wildlife</text><text x=\"170\" y=\"182\" fill=\"#c2410c\">animals and birds</text><rect x=\"280\" y=\"136\" width=\"140\" height=\"64\" rx=\"8\" fill=\"#f3e8ff\" stroke=\"#7e22ce\"/><text x=\"350\" y=\"162\" fill=\"#6b21a8\">Minerals</text><text x=\"350\" y=\"182\" fill=\"#7e22ce\">dug from the ground</text></g></svg>",
+        "caption": "Main natural resources learners look for in their county"
+      },
+      "practice": [
+        { "question": "What is a resource?", "answer": "Something around us that people can use to create wealth or earn a living.", "check": null },
+        { "question": "Name four natural resources.", "answer": "Any four of soil, water, land, forests, wildlife and minerals.", "check": null },
+        { "question": "What is irrigation?", "answer": "Using water from a river, dam or tank to grow crops, especially in dry areas.", "check": null }
+      ],
+      "summary": [
+        "Resources are things people use to earn a living.",
+        "Soil, water, land, forests, wildlife and minerals are natural resources.",
+        "Counties do not all have the same main resource."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Conserving resources in the county",
+      "outcomes": ["a", "e"],
+      "objectives": [
+        "Explain what it means to conserve a resource.",
+        "Describe ways of conserving water, soil, forests and wildlife."
+      ],
+      "intro": "A river that is full this year can become a trickle if everybody wastes water and cuts the trees on its banks. Using a resource well means it will still be there for the children who come after you.",
+      "notes": "To conserve a resource is to take good care of it while still using it. Conservation is not the same as locking a resource away. People still farm, fetch water and harvest some trees, but they do it in a way that does not finish the resource.\n\n### Why conservation matters\nResources can be damaged or used up. Soil can be washed away by rain. A forest can disappear if trees are cut and not replaced. Wild animals can be killed illegally. When a resource is destroyed, the economic activities that depend on it also fail. Farmers lose crops, and people who serve tourists lose work.\n\n### How to conserve resources\n- Water: use it sparingly. Close taps, repair leaks and store rainwater in tanks instead of letting it run to waste.\n- Soil: plant trees and grass so that rain does not wash the soil away. This washing away is called soil erosion. Avoid burning vegetation on steep slopes.\n- Forests: do not cut trees unnecessarily. When a tree is cut, plant at least two more. Planted forests can supply wood while natural forests are left to grow.\n- Wildlife: stop poaching. Poaching is killing or capturing wild animals illegally. Do not start bush fires that destroy animal homes.\n- Land: do not dump waste on farmland or in rivers. Keep grazing within what the land can support.\n- Minerals: take only what is allowed and repair the land after digging, so that pits are not left dangerous and bare.\n\nAppreciating resources begins with noticing them and refusing to waste them. A learner who waters tree seedlings at school is already conserving a resource of the county.",
+      "keyWords": [
+        { "word": "conserve", "meaning": "to use something carefully so that it is not wasted or destroyed" },
+        { "word": "soil erosion", "meaning": "the washing or blowing away of soil" },
+        { "word": "poaching", "meaning": "killing or capturing wild animals illegally" }
+      ],
+      "examples": [
+        {
+          "problem": "Learners cut one tree for firewood and plant two seedlings. Which conservation rule are they following?",
+          "steps": ["A tree was used.", "More trees were planted than were cut."],
+          "answer": "When a tree is cut, plant at least two more.",
+          "check": null
+        },
+        {
+          "problem": "Why does planting grass on a bare slope conserve soil?",
+          "steps": ["Roots hold the soil.", "Rain is less able to wash the soil away."],
+          "answer": "The grass holds the soil and reduces soil erosion.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "A conservation plan for one resource",
+        "materials": ["Exercise book", "Manila paper"],
+        "steps": [
+          "Each group chooses one resource found in your county: water, soil, forest or wildlife.",
+          "List two ways that resource is being wasted or damaged near you.",
+          "Write three actions learners can take to conserve it.",
+          "Make a poster titled 'How we conserve resources in our county' and display it.",
+          "Choose one action, such as planting a seedling or reporting a leaking tap, and do it this week."
+        ]
+      },
+      "practice": [
+        { "question": "What does it mean to conserve a resource?", "answer": "To take good care of it while still using it, so that it is not wasted or destroyed.", "check": null },
+        { "question": "State one way to conserve water and one way to conserve wildlife.", "answer": "Water: use it sparingly and store rainwater. Wildlife: stop poaching and do not burn animal homes.", "check": null },
+        { "question": "What is soil erosion?", "answer": "The washing or blowing away of soil.", "check": null }
+      ],
+      "summary": [
+        "Conservation means using a resource carefully so that it lasts.",
+        "Plant trees, save water, protect soil and stop poaching.",
+        "Damaged resources cannot support economic activities."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Economic activities carried out in the county",
+      "outcomes": ["b"],
+      "objectives": [
+        "Explain what an economic activity is.",
+        "Identify the main economic activities in the county."
+      ],
+      "intro": "On the way to school you may pass a farm, a kiosk, a fishing boat or a person carving wood for sale. Each of these is somebody's work, and each one uses a resource.",
+      "notes": "Economic activities are the things people do to make money. They use natural resources to produce wealth. The activities in your county depend on the resources you have. A county with a lake may have many fishers. A county with fertile soil may have many farmers.\n\n### Main economic activities\n- Farming: people grow crops and keep animals. Crops and livestock products are food, and the extra is sold.\n- Trading: people buy and sell goods and services. Trade takes place in shops, markets, hotels and garages. People sell what they have in plenty and buy what they do not have.\n- Fishing: people catch fish from rivers, lakes, dams and fish ponds and sell them.\n- Forestry: people plant and care for trees. Wood is used for timber, firewood and paper.\n- Tourism: people travel to places of interest for enjoyment. A person who visits places inside Kenya is a domestic tourist. Guides, hotels and craft sellers earn money from these visits.\n- Mining: people dig out minerals and sell them or send them to industries.\n\n### Two ways of trading\nLong ago, people often used barter trade, which is exchanging goods for other goods. Today, most trade in the county is currency trade. Currency trade means paying with money. Money is the medium of exchange. People may pay with notes and coins, or through a mobile phone, a card or a cheque.\n\nTrade takes place in a trading centre, a shopping centre or a commercial centre, where there are many shops and kiosks.\n\nOnly lawful economic activities should be done. Activities that harm people, such as selling illegal goods, are not acceptable even if they bring money.",
+      "keyWords": [
+        { "word": "economic activity", "meaning": "work people do to make money, using resources" },
+        { "word": "barter trade", "meaning": "exchanging goods for other goods without using money" },
+        { "word": "currency trade", "meaning": "buying and selling by paying with money" }
+      ],
+      "examples": [
+        {
+          "problem": "A woman catches fish in a pond and sells them at the market. Which economic activities is she doing?",
+          "steps": ["Catching fish is fishing.", "Selling them is trading."],
+          "answer": "Fishing and trading.",
+          "check": null
+        },
+        {
+          "problem": "Two farmers exchange a bag of maize for a goat. What kind of trade is this?",
+          "steps": ["No money is used.", "Goods are exchanged for goods."],
+          "answer": "Barter trade.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Posters of economic activities",
+        "materials": ["Manila paper", "Marker pens", "Pictures cut from old newspapers if available"],
+        "steps": [
+          "Brainstorm the economic activities carried out in your county.",
+          "In groups, make a poster for one activity. Draw the people, the resource they use and what they sell.",
+          "Label the poster with the name of the activity.",
+          "Display the posters and let each group explain where in the county the activity takes place.",
+          "Walk around and list any activity your group had forgotten."
+        ]
+      },
+      "practice": [
+        { "question": "What is an economic activity?", "answer": "Something people do to make money, using resources to produce wealth.", "check": null },
+        { "question": "Name four economic activities that may be carried out in a county.", "answer": "Any four of farming, trading, fishing, forestry, tourism and mining.", "check": null },
+        { "question": "What is the difference between barter trade and currency trade?", "answer": "Barter trade exchanges goods for goods. Currency trade uses money to pay for goods and services.", "check": null }
+      ],
+      "summary": [
+        "Economic activities are work people do to make money.",
+        "Farming, trading, fishing, forestry, tourism and mining are the main ones.",
+        "Most trade today uses money. Only lawful activities should be done."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Why economic activities matter",
+      "outcomes": ["c", "d", "e"],
+      "objectives": [
+        "Explain the importance of economic activities in the county.",
+        "Take part in an appropriate economic activity in the locality."
+      ],
+      "intro": "When farmers harvest, traders open their stalls and visitors come to see a forest or a lake, money and food move through the county. That movement is why these activities matter to every family.",
+      "notes": "Economic activities are important because life in the county depends on them.\n\n### Importance\n- They provide food. Farming and fishing put meals on the table.\n- They are a source of income. People are paid for crops, fish, crafts and services.\n- They create employment. Employment means work that a person is paid to do.\n- They supply raw materials to industries. Milk can go to a dairy. Cotton can go to a textile industry. Trees can go to a paper industry.\n- Tourism brings money into the county and leads to cultural exchange. Visitors and local people share ideas and learn one another's ways of life.\n- When people meet at markets and at work, they cooperate. This promotes unity and good citizenship.\n- Trade can lead to better roads and communication, because goods and people need to move.\n\n### Taking part\nGrade 4 learners can take part in appropriate activities, always with an adult and without missing school:\n\n- Weed or water a school or home garden\n- Help to plant tree seedlings\n- Feed animals at home if the family keeps them\n- Help to arrange goods in a family kiosk, without handling money alone\n- Keep the school compound attractive so that visitors feel welcome\n- Create and recite a poem or song that names the economic activities of the county and asks people to conserve the resources\n\nAppreciating economic activities means respecting the people who do them and refusing to waste what they produce. A learner who drops litter in a market is working against the traders. A learner who cares for seedlings is supporting forestry.",
+      "keyWords": [
+        { "word": "income", "meaning": "money a person receives from work or from selling goods" },
+        { "word": "employment", "meaning": "work that a person is paid to do" },
+        { "word": "raw material", "meaning": "a natural product used to make a finished product" }
+      ],
+      "examples": [
+        {
+          "problem": "Give two ways farming is important to a county.",
+          "steps": ["Farms produce food.", "Farmers earn income and may employ workers."],
+          "answer": "It provides food and it is a source of income and employment.",
+          "check": null
+        },
+        {
+          "problem": "A dairy factory buys milk from local farmers. Which importance of economic activities does this show?",
+          "steps": ["Milk is produced by farming.", "The factory uses it to make other products."],
+          "answer": "Economic activities provide raw materials for industries.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Poem and a real task",
+        "materials": ["Exercise book", "Garden tools or a watering can if the school allows", "Manila paper"],
+        "steps": [
+          "Discuss the importance of the economic activities in your county and write four points.",
+          "In groups, create a short poem or song that names the activities and one way to conserve a resource.",
+          "Recite or sing it to the class.",
+          "With the teacher, participate in one appropriate activity, such as watering the school garden or planting a seedling.",
+          "At home, ask a parent which economic activity they do and why it is important to the family."
+        ]
+      },
+      "practice": [
+        { "question": "State three importances of economic activities in the county.", "answer": "Any three: they provide food, income and employment, supply raw materials, bring money through tourism, and promote unity.", "check": null },
+        { "question": "What is a raw material? Give one example.", "answer": "A natural product used to make a finished product. Examples: milk for a dairy, cotton for textiles, trees for paper.", "check": null },
+        { "question": "Name one economic activity a Grade 4 learner can safely take part in.", "answer": "Watering a garden, planting a seedling, or helping to feed family animals, with an adult and without missing school.", "check": null }
+      ],
+      "summary": [
+        "Economic activities provide food, income, jobs and raw materials.",
+        "Tourism brings money and cultural exchange.",
+        "Learners can take part in safe local activities and can honour the work in poems and songs."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "A resource is:", "options": ["Anything people can use to create wealth", "Only money in a bank", "A school rule", "A type of ceremony"], "answer": "A", "explanation": "Resources are things around us that people use to earn a living.", "outcome": "a" },
+    { "question": "Which list contains only natural resources?", "options": ["Soil, water, forests and minerals", "Shops, hotels and garages", "Poems, songs and mottos", "Uniforms, desks and bells"], "answer": "A", "explanation": "Soil, water, forests and minerals are found in nature.", "outcome": "a" },
+    { "question": "What is irrigation?", "options": ["Exchanging goods for goods", "Using water to grow crops", "Killing wild animals illegally", "Buying goods with a phone"], "answer": "B", "explanation": "Irrigation leads water to crops, especially where rainfall is low.", "outcome": "a" },
+    { "question": "To conserve a resource means to:", "options": ["Destroy it quickly", "Use it carefully so that it lasts", "Hide it from everybody", "Sell it all in one day"], "answer": "B", "explanation": "Conservation is careful use, not waste and not locking the resource away forever.", "outcome": "e" },
+    { "question": "Which action conserves forests?", "options": ["Cutting every tree", "Planting two seedlings for each tree cut", "Burning the hillside", "Dumping waste among the trees"], "answer": "B", "explanation": "Replacing trees keeps the forest able to grow again.", "outcome": "a" },
+    { "question": "Economic activities are:", "options": ["Things people do to make money", "School rules", "Cardinal points", "Types of traditional dress"], "answer": "A", "explanation": "People carry out economic activities in order to earn a living.", "outcome": "b" },
+    { "question": "Exchanging a bag of beans for a hen, with no money, is:", "options": ["Currency trade", "Poaching", "Barter trade", "Irrigation"], "answer": "C", "explanation": "Barter trade is the exchange of goods for goods.", "outcome": "b" },
+    { "question": "Which is a benefit of economic activities?", "options": ["They provide food and employment", "They cause soil erosion on purpose", "They stop all trade", "They ban farming"], "answer": "A", "explanation": "Farming and other activities feed people and give them work.", "outcome": "c" },
+    { "question": "Milk sold to a dairy factory is an example of:", "options": ["A school motto", "A raw material for an industry", "Barter trade only", "A cardinal point"], "answer": "B", "explanation": "The factory uses milk to make other products.", "outcome": "c" },
+    { "question": "Which activity is appropriate for a Grade 4 learner?", "options": ["Working all day in a quarry instead of school", "Watering the school garden with the teacher", "Poaching wildlife", "Selling illegal goods"], "answer": "B", "explanation": "Helping in the school garden is safe, useful and does not replace school.", "outcome": "d" },
+    { "question": "Why should a county conserve the resources used in economic activities?", "answer": "If resources are destroyed, the activities that depend on them fail and people lose food, income and jobs.", "explanation": "Conservation keeps resources available for present and future use.", "outcome": "e" }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 4.0 Resources and Economic Activities, Sub-strand 4.1 Economic activities in the County",
+    "KICD Grade 4 Social Studies radio lessons: Resources in the County; Economic activities in the County; Trade in the County"
+  ]
+}

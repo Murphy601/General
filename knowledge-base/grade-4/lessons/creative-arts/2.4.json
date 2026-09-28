@@ -1,0 +1,797 @@
+{
+  "subject": "CREATIVE ARTS",
+  "subStrand": "2.4",
+  "title": "Photography",
+  "overview": "A photograph is a picture made with light and a digital device. In this sub-strand you will name the devices that take photographs, learn how light and the centre of interest change a picture, and take your own photographs of people and objects. You will then choose the clearer pictures and talk about them with respect.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Digital devices that take photographs",
+      "outcomes": [
+        "a"
+      ],
+      "objectives": [
+        "Name digital devices used for photography.",
+        "Point out the lens, the screen and the control that takes the picture.",
+        "Say how a digital photo is different from a drawing."
+      ],
+      "intro": "A drawing is made by a hand moving a pencil. A photograph is made when a device records the light coming from a person or an object. The device has to be a digital one for this sub-strand.",
+      "notes": "Photography is the art of taking pictures with a camera. A digital device stores the picture as a file that you can see again on a screen. You do not need film.\n\n### Devices you may use\n- A **digital camera** is a device made mainly for photographs. It has a lens, a screen and a button called the shutter.\n- A **phone** with a camera can take photographs. You open the camera app, look at the screen and press the on-screen button.\n- A **tablet** can have a camera on the back, and sometimes a smaller one on the front for a picture of yourself.\n- Some **computers** have a camera, often used for a picture of the person sitting in front of the screen.\n\nSchool tablets, cameras, phones and computers are all possible tools. Use the one your teacher provides. Do not take a family member’s phone without permission.\n\n### Parts to recognise\n- The **lens** is the glass the light enters. Do not touch it with your fingers. Fingerprints make the picture look misty.\n- The **screen** shows you what the device is about to record.\n- The **shutter button**, or the button on the screen, takes the picture when you press it.\n- The **memory** keeps the pictures so you can look at them later.\n\nA photograph records what is really in front of the lens at that moment. A drawing can add or leave out anything the artist chooses. Both are creative, and they are made in different ways. In the lessons that follow you will learn that the two things that matter most in your photographs are light and the centre of interest.",
+      "keyWords": [
+        {
+          "word": "digital device",
+          "meaning": "an electronic device that stores pictures as files"
+        },
+        {
+          "word": "lens",
+          "meaning": "the glass that lets light into the camera"
+        },
+        {
+          "word": "shutter",
+          "meaning": "the control you press to take the picture"
+        },
+        {
+          "word": "photography",
+          "meaning": "the art of taking photographs"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "A learner draws a tree, and another learner uses a tablet to record the same tree. Which one is a photograph?",
+          "steps": [
+            "A photograph is made by a device recording light.",
+            "A drawing is made by hand."
+          ],
+          "answer": "The picture made with the tablet.",
+          "check": null
+        },
+        {
+          "problem": "Why should fingers stay off the lens?",
+          "steps": [
+            "The lens is where light enters.",
+            "Dirt or fingerprints block some of that light."
+          ],
+          "answer": "Fingerprints make the photograph look misty or blurred.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Find the device",
+        "materials": [
+          "A school camera, tablet or phone",
+          "Pictures of cameras and phones",
+          "Exercise books"
+        ],
+        "steps": [
+          "Look at real devices and at pictures of devices.",
+          "Name each one: camera, phone, tablet or computer.",
+          "Point to the lens, the screen and the shutter control without touching the lens.",
+          "Write two ways a photograph is different from a drawing.",
+          "Agree who may hold the device in the next lesson."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Name three digital devices that can take photographs.",
+          "answer": "Any three: digital camera, phone, tablet, computer.",
+          "check": null
+        },
+        {
+          "question": "What is the lens for?",
+          "answer": "It lets light into the device so a picture can be recorded.",
+          "check": null
+        },
+        {
+          "question": "Where is a digital photograph kept after you take it?",
+          "answer": "In the device’s memory, as a file you can view again.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Cameras, phones, tablets and some computers can take digital photographs.",
+        "Learn the lens, the screen and the shutter.",
+        "A photograph records the light from what is really there."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Why light makes a photograph",
+      "outcomes": [
+        "b"
+      ],
+      "objectives": [
+        "Explain why a camera needs light.",
+        "Describe what happens when there is too little light.",
+        "Connect the lens to the science idea that light travels."
+      ],
+      "intro": "Close your eyes in a dark room and you see nothing. A camera has the same problem. Without light bouncing off objects and into the lens, there is no photograph.",
+      "notes": "Light is the raw material of a photograph. Light travels from the sun or from a lamp, hits a person or an object, and bounces into the lens. The device records that light. This is why the key question of the sub-strand is: why is light important in photography?\n\n### Too little light\nA photograph taken in a dark corner looks muddy. Faces become hard to see. Colours disappear. You may think the device is broken when the real problem is the light. Move towards a window or an open doorway, or switch on a lamp, and take the picture again.\n\n### Too much harsh light\nVery strong light straight into the lens can wash the picture out or hide the subject in a black shadow. You will study the direction of light in the next lesson. For now, remember that “more light” is not always “better light”. The light needs to fall on the subject in a way that shows shape and colour.\n\n### A science link\nYou cannot see light bending around a corner into a closed box. The lens must face the subject. Covering the lens with a hand is like closing a curtain: the picture goes dark. Wiping the lens gently with a soft cloth, not a rough shirt, lets the light through clearly.\n\n### A mathematics link\nThe photograph has a shape, usually a rectangle. Light does not change that frame. If you tilt the device, the edges of a building or a table look slanted. Holding the device level keeps the picture’s geometry honest.\n\nLook at two sample photographs, one taken in good daylight and one taken in a dark room. Say which one you can read easily, and point to the reason.",
+      "keyWords": [
+        {
+          "word": "light",
+          "meaning": "the brightness that bounces off things and enters the camera"
+        },
+        {
+          "word": "subject",
+          "meaning": "the person or object you are photographing"
+        },
+        {
+          "word": "frame",
+          "meaning": "the rectangle of the photograph"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "A photo of a friend indoors is so dark that the face cannot be seen. What is the most likely problem?",
+          "steps": [
+            "The device records light.",
+            "A dark picture usually means too little light on the subject."
+          ],
+          "answer": "There was not enough light on the friend.",
+          "check": null
+        },
+        {
+          "problem": "A learner covers the lens with a hand and presses the shutter. What kind of picture will be stored?",
+          "steps": [
+            "The hand blocks the light.",
+            "No useful light reaches the device."
+          ],
+          "answer": "A dark picture with little or nothing to see.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Light and no light",
+        "materials": [
+          "A digital device",
+          "A window or open shade",
+          "Two sample photographs, one bright and one too dark"
+        ],
+        "steps": [
+          "Look at the two sample photographs and say which one shows the subject clearly.",
+          "Stand away from the window and look at the screen. Notice how dark the picture is.",
+          "Move so that daylight falls on the subject and look at the screen again.",
+          "Do not take a photograph of anyone who has not agreed.",
+          "Write one sentence explaining why light is important in a photograph."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Why is light important in photography?",
+          "answer": "The camera records light that bounces off the subject. Without light there is no clear picture.",
+          "check": null
+        },
+        {
+          "question": "What does a photograph look like when there is too little light?",
+          "answer": "It looks dark, and faces and colours are hard to see.",
+          "check": null
+        },
+        {
+          "question": "What happens if you cover the lens?",
+          "answer": "Light cannot enter, so the picture is dark.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "A photograph is a record of light.",
+        "Too little light makes a dark, unclear picture.",
+        "The lens must face the subject and be kept clean."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The direction of light",
+      "outcomes": [
+        "b"
+      ],
+      "objectives": [
+        "Tell front light, side light and back light apart.",
+        "Choose a place where the subject is clearly lit.",
+        "Explain why a bright background can hide a person."
+      ],
+      "intro": "Standing with the sun behind you is comfortable for your eyes, but it can turn the person you are photographing into a dark shape. Where the light comes from matters as much as whether there is light at all.",
+      "notes": "Light has a direction. You can see it by looking at shadows.\n\n### Front light\nThe light is on the same side as the camera, falling on the face or the front of the object. Details show clearly. This is the easiest light for a beginner. Watch out for the subject squinting if the sun is very strong. Open shade, such as under a veranda with a bright yard in front, is often kinder than midday sun.\n\n### Side light\nThe light comes from the left or the right. It shows shape because one side is brighter and the other is gently darker. A cup, a face or a folded cloth looks more solid in side light.\n\n### Back light\nThe light is behind the subject and shines toward the camera. The edge of the hair or the shoulders may glow, but the front becomes dark. Unless you want a dark shape on purpose, do not put a person between you and the sun or a bright window. Ask the person to turn, or move yourself until the light is on their face.\n\n### A simple test\nLook at the screen before you press the shutter. Can you see the eyes, the pattern on the cloth, or the colour of the object? If you see only a black body and a bright sky, the light is in the wrong place.\n\nAlso look at the background. A very bright doorway behind a person acts like back light. A plain, quieter background lets the subject be seen. You will call that subject the centre of interest in the next lesson. Light is what makes that centre visible.",
+      "keyWords": [
+        {
+          "word": "front light",
+          "meaning": "light falling on the front of the subject from the camera’s side"
+        },
+        {
+          "word": "side light",
+          "meaning": "light coming from the left or the right of the subject"
+        },
+        {
+          "word": "back light",
+          "meaning": "light coming from behind the subject toward the camera"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "The sun is behind a learner and the face looks black in the screen. What should the photographer do?",
+          "steps": [
+            "This is back light.",
+            "The face needs light on it."
+          ],
+          "answer": "Move so the light falls on the face, or ask the learner to turn toward the light.",
+          "check": null
+        },
+        {
+          "problem": "One side of a clay pot is bright and the other is softly dark. Which direction of light is this?",
+          "steps": [
+            "A difference from one side to the other comes from side light."
+          ],
+          "answer": "Side light.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Turn the subject to the light",
+        "materials": [
+          "A digital device",
+          "An object such as a cup or a book",
+          "A bright window or outdoor shade"
+        ],
+        "steps": [
+          "Place the object with the window behind it and look at the screen.",
+          "Turn the object or move yourself until the light is on the front. Look again.",
+          "Try side light by placing the window to the left of the object.",
+          "Say which screen image shows the colour and shape most clearly.",
+          "Take one photograph only when the teacher says the device is ready, and only of the object."
+        ]
+      },
+      "practice": [
+        {
+          "question": "What is back light?",
+          "answer": "Light coming from behind the subject toward the camera.",
+          "check": null
+        },
+        {
+          "question": "Why can back light hide a face?",
+          "answer": "The front of the person falls into shadow while the background is bright.",
+          "check": null
+        },
+        {
+          "question": "Which light is easiest for a beginner who wants the face to be seen?",
+          "answer": "Front light, or open shade with light on the face.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Front light shows detail. Side light shows shape. Back light can hide the subject.",
+        "Check the screen before you take the picture.",
+        "Move yourself or the subject until the important part is lit."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "The centre of interest",
+      "outcomes": [
+        "b"
+      ],
+      "objectives": [
+        "Explain what a centre of interest is.",
+        "Place the main subject so it can be seen clearly.",
+        "Spot a photograph that has too many competing objects."
+      ],
+      "intro": "If a photograph contains a friend, a cooking pot, a bicycle and a goat, the eye does not know where to rest. A strong photograph lets the viewer know what matters.",
+      "notes": "The centre of interest is the most important person or object in the photograph. It is the reason you took the picture. Everything else is the background.\n\n### How to make it clear\n- Decide the centre of interest before you raise the device. Say it aloud: “the face”, “the clay pot”, “the flag”.\n- Move closer, or use the screen carefully, so the subject is large enough to see. A tiny person at the edge of a huge field is not yet a centre of interest.\n- Keep the subject near the middle of the frame, or just a little to one side. Do not cut off heads, hands or the top of an object you care about.\n- Simplify the background. Ask a friend to step away from a cluttered pile. Choose a plain wall or open shade.\n- Check that light falls on the centre of interest. A bright bin in the corner should not be brighter than the face you meant to show.\n\n### Proportion and the frame\nThe frame is a rectangle. The subject should fit inside it with a little space around the edges. If the subject fills the whole frame and important parts are missing, step back. If the subject is a speck, step forward. That is proportion: the size of the subject compared with the frame.\n\nLook at sample photographs and point to the centre of interest in each one. If you cannot point to it quickly, the picture needs a clearer subject or better light. In the next lessons you will take photographs with both ideas in mind: light on the subject, and one clear centre of interest.",
+      "keyWords": [
+        {
+          "word": "centre of interest",
+          "meaning": "the most important person or object in a photograph"
+        },
+        {
+          "word": "background",
+          "meaning": "what is behind the main subject"
+        },
+        {
+          "word": "proportion",
+          "meaning": "the size of the subject compared with the frame"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "A photograph of a school badge also shows three friends waving, a bin and a tree. What is weak?",
+          "steps": [
+            "There are many things competing.",
+            "The badge was meant to be the centre of interest."
+          ],
+          "answer": "The centre of interest is not clear. The photographer should move closer to the badge and simplify the background.",
+          "check": null
+        },
+        {
+          "problem": "The top of a friend’s head is missing. What should change?",
+          "steps": [
+            "Important parts should stay inside the frame.",
+            "Stepping back leaves space around the subject."
+          ],
+          "answer": "Step back a little so the whole head is inside the frame.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Point to what matters",
+        "materials": [
+          "Four sample photographs",
+          "Small cards"
+        ],
+        "steps": [
+          "In a group, look at each sample photograph.",
+          "Write on a card what you think the centre of interest is.",
+          "Say whether the light helps that centre or hides it.",
+          "Choose the photograph that is clearest and say why.",
+          "Plan one object in the school compound that you will photograph later."
+        ]
+      },
+      "practice": [
+        {
+          "question": "What is the centre of interest?",
+          "answer": "The most important person or object in the photograph.",
+          "check": null
+        },
+        {
+          "question": "Give two ways to make the centre of interest clearer.",
+          "answer": "Any two: move closer, keep it in the frame, simplify the background, light it well, do not cut off important parts.",
+          "check": null
+        },
+        {
+          "question": "What is proportion in a photograph?",
+          "answer": "The size of the subject compared with the rectangular frame.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Decide the centre of interest before you take the picture.",
+        "Make it large enough, lit, and free of clutter.",
+        "Leave the important parts inside the frame."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Setting the device and taking a photograph",
+      "outcomes": [
+        "c"
+      ],
+      "objectives": [
+        "Prepare a digital device safely for use.",
+        "Take a steady photograph of an object.",
+        "Care for the device while you use it."
+      ],
+      "intro": "Knowing about light is not the same as taking a picture. The device has to be ready, held still, and put away safely when you finish.",
+      "notes": "Your teacher will source the device: a school camera, tablet or phone. You help to set it.\n\n### Before you shoot\n- Wash and dry your hands.\n- Check that the device has power. A dark screen may only mean it needs charging.\n- Wipe the lens gently with a soft cloth if it is dusty. Do not use water, saliva or a sharp object.\n- Open the camera. Look at the screen, not only at the back of the device.\n- Loop a strap around the wrist if there is one. Hold a phone or tablet with two hands.\n\n### Taking the picture\n1. Choose an object, not a person, for this first photograph: a flower, a book, a pair of shoes or a handmade pot.\n2. Place it in good front light or side light.\n3. Move until it is the clear centre of interest.\n4. Hold the device level and still. Tuck your elbows in.\n5. Press the shutter gently. Jabbing the button shakes the picture.\n6. Look at the photograph. If it is dark, blurred or cluttered, take one more. Do not take twenty.\n\n### Care\nDo not run with the device. Do not leave it on the edge of a desk, in the sun, or near water. Do not drop it into a bag under heavy books. When the teacher says the turn is over, close the camera and hand the device back with the screen clean. Responsibility for a shared device is part of the lesson.\n\nA blurred picture is often a moving picture. Still object, still hands, gentle shutter.",
+      "keyWords": [
+        {
+          "word": "steady",
+          "meaning": "held still so the picture does not blur"
+        },
+        {
+          "word": "strap",
+          "meaning": "a band that stops the device falling if your hand slips"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "The flower is sharp in the middle but the picture is tilted and the pot is half cut off. What two things should change?",
+          "steps": [
+            "A tilt means the device was not level.",
+            "A cut-off object means the frame was too tight or badly aimed."
+          ],
+          "answer": "Hold the device level, and step back so the whole flower is in the frame.",
+          "check": null
+        },
+        {
+          "problem": "Why take one careful photograph again instead of twenty quick ones?",
+          "steps": [
+            "Each picture should be checked for light and centre of interest.",
+            "Careless shooting wastes time and fills the memory."
+          ],
+          "answer": "So you can correct the light, the framing and the stillness instead of storing many weak pictures.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "One careful object photograph",
+        "materials": [
+          "School camera, tablet or phone",
+          "An object from the classroom",
+          "Soft cloth"
+        ],
+        "steps": [
+          "Set the device: clean hands, power, clean lens, camera open.",
+          "Place the object in good light and check the centre of interest on the screen.",
+          "Hold the device level and take one photograph.",
+          "Look at it. If light or framing is weak, take one improved photograph.",
+          "Hand the device on carefully and tell the next person one thing you checked."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Name three checks before you take a photograph.",
+          "answer": "Any three: clean hands, power, clean lens, camera open, strap on, subject lit, device held steady.",
+          "check": null
+        },
+        {
+          "question": "Why press the shutter gently?",
+          "answer": "A hard jab shakes the device and blurs the picture.",
+          "check": null
+        },
+        {
+          "question": "Give two ways to care for the device.",
+          "answer": "Any two: do not run with it, do not leave it near water or in the sun, do not drop it under books, hand it back safely, keep fingers off the lens.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Prepare power, lens and grip before you shoot.",
+        "Hold the device level and press the shutter gently.",
+        "Look once, improve once, and look after the shared device."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Photographs of people and objects around you",
+      "outcomes": [
+        "c",
+        "d"
+      ],
+      "objectives": [
+        "Ask permission before photographing a person.",
+        "Take photographs of a person and of an object with good light and a clear centre of interest.",
+        "Enjoy the task while respecting the people in the picture."
+      ],
+      "intro": "An object cannot say no. A person can. Photographing people is enjoyable only when they have agreed to be in the picture and they know what you are doing.",
+      "notes": "You are ready to photograph both objects and people in the school surroundings. The same two elements still rule the picture: light, and one centre of interest.\n\n### People\n- Ask, “May I take your photograph?” Wait for a yes. A silent person, or a person who turns away, has not agreed.\n- Do not photograph anyone in a toilet, a changing room or any private moment.\n- Do not photograph a person who is hurt, crying or being punished. That is unkind.\n- Let the person choose to stand or sit. Put the light on the face. Ask them not to stand in front of a bright window.\n- The face, or the person doing a clear activity such as reading, is the centre of interest. Come close enough that we can see who it is, without cutting off the head.\n- Show them the picture afterwards. Delete it if they ask you to and the teacher agrees.\n\n### Objects\nChoose something you can walk around: a desk arrangement, a planted seedling, a pair of sports shoes, a painted flag. Walk until the light and the background help the object. Take the photograph when the screen looks clear.\n\n### Working together\nOne learner holds and shoots. One watches the light. One watches the background. Then you swap. Social cohesion here means sharing the device and the ideas, not grabbing.\n\nEnjoyment comes from noticing ordinary things carefully: the curve of a pot, the concentration on a friend’s face, the colours of a flower. A good photograph makes other people notice those things too.",
+      "keyWords": [
+        {
+          "word": "permission",
+          "meaning": "a clear yes from the person you want to photograph"
+        },
+        {
+          "word": "surroundings",
+          "meaning": "the places and things around you"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "A learner is facing a bright window and the face is dark. What change keeps the person as the centre of interest?",
+          "steps": [
+            "The person should stay the subject.",
+            "The light needs to reach the face."
+          ],
+          "answer": "Turn the person so the light is on the face, or move to the other side.",
+          "check": null
+        },
+        {
+          "problem": "You want a photograph of a classmate who says “not today”. What do you do?",
+          "steps": [
+            "Permission is required.",
+            "No means you choose another subject."
+          ],
+          "answer": "Do not take the photograph. Choose an object or someone who has agreed.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Two photographs with permission",
+        "materials": [
+          "A digital device",
+          "A place with good daylight",
+          "An object and a willing classmate"
+        ],
+        "steps": [
+          "In a trio, take one photograph of an object with clear light and a simple background.",
+          "Ask a classmate for permission, then take one photograph with the face well lit.",
+          "Show the person their photograph.",
+          "Swap roles so each learner presses the shutter once.",
+          "Say which photograph you enjoyed making, and why."
+        ]
+      },
+      "practice": [
+        {
+          "question": "What must you do before photographing a person?",
+          "answer": "Ask for permission and wait for a yes.",
+          "check": null
+        },
+        {
+          "question": "Name two places or moments you should not photograph.",
+          "answer": "Any two: toilets, changing rooms, private moments, someone who is hurt or has said no.",
+          "check": null
+        },
+        {
+          "question": "What two elements do you check on the screen?",
+          "answer": "Light on the subject, and a clear centre of interest.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Ask before you photograph a person.",
+        "Light the centre of interest and keep the background simple.",
+        "Share the device and enjoy looking carefully."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Choosing photographs worth keeping",
+      "outcomes": [
+        "b",
+        "c"
+      ],
+      "objectives": [
+        "Judge a photograph for light and centre of interest.",
+        "Select the stronger photograph from a pair.",
+        "Explain the choice with a clear reason."
+      ],
+      "intro": "Taking a photograph is quick. Choosing which one to keep is the thinking. A stored picture should be one you can defend.",
+      "notes": "Not every file in the device deserves to stay. Selection is a thinking skill. Look at two photographs of the same subject and keep the stronger one.\n\n### A selection checklist\n1. **Light:** Can you see the colour and the shape? Is the face lit, or is it a dark shape against a bright background?\n2. **Centre of interest:** Can you name it at once? Is it large enough? Are the important parts inside the frame?\n3. **Steadiness:** Are the edges sharp, or did the device move?\n4. **Respect:** If a person is in the picture, did they agree, and are they shown kindly?\n\nGive each photograph a simple score out of two: one point for good light, one point for a clear centre of interest. A photograph with two points is the one to store and show. A photograph with one point can sometimes be taken again. A photograph with zero points should be replaced, not defended.\n\nFor example, two pictures of a pot: the first is sharp, lit from the side, and the pot fills the frame. The second includes the pot, a bag, a shoe and a shadow across the pot. The first scores two. Store that one.\n\nSay your reason in a full sentence: “I chose this one because the pot is lit and it is clearly the centre of interest.” “I like it” is not yet a reason. Critical thinking means the reason matches the checklist.\n\nWhen several learners photographed the same kind of object, compare the selected pictures. You are not choosing a favourite person. You are choosing the clearer use of light and subject.",
+      "keyWords": [
+        {
+          "word": "select",
+          "meaning": "to choose the best item from a group"
+        },
+        {
+          "word": "checklist",
+          "meaning": "a short list of points used to judge work"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "Photo A has good light but a cluttered background. Photo B is sharp, well lit, and the seedling fills the frame. Which do you store, and what is its score out of 2?",
+          "steps": [
+            "Score 1 for light and 1 for centre of interest.",
+            "Photo B has both."
+          ],
+          "answer": "Store photo B. It scores 2.",
+          "check": "1 + 1 === 2"
+        },
+        {
+          "problem": "A learner says, “I chose this photo because it is mine.” Is that a good selection reason?",
+          "steps": [
+            "A reason should mention light or centre of interest."
+          ],
+          "answer": "No. The reason should be about light, the centre of interest, steadiness or respect.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Keep the stronger picture",
+        "materials": [
+          "Photographs taken in the previous lesson",
+          "The checklist on the board"
+        ],
+        "steps": [
+          "Work in pairs. Look at two photographs of a similar subject.",
+          "Score each one: 1 point for light, 1 point for centre of interest.",
+          "Select the higher score and say the reason in one sentence.",
+          "If scores are equal, look at steadiness and choose again.",
+          "Show the teacher the selected photographs only."
+        ]
+      },
+      "practice": [
+        {
+          "question": "What two points make up the score in this lesson?",
+          "answer": "One point for good light and one point for a clear centre of interest.",
+          "check": null
+        },
+        {
+          "question": "A face is black against a bright window, but the person is in the middle. What is missing?",
+          "answer": "Good light on the centre of interest.",
+          "check": null
+        },
+        {
+          "question": "Write a strong selection sentence about a clear photo of a book.",
+          "answer": "Example: “I chose this one because the book is well lit and it is clearly the centre of interest.”",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Keep photographs with good light and a clear centre of interest.",
+        "Give a reason, not only a preference.",
+        "Take a weak picture again instead of storing it."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Showing photographs and giving feedback",
+      "outcomes": [
+        "c",
+        "d"
+      ],
+      "objectives": [
+        "Present a selected photograph to a group.",
+        "Give respectful feedback about light and centre of interest.",
+        "Say what you enjoy about taking photographs."
+      ],
+      "intro": "A photograph finishes its work when someone else can see it and talk about it fairly. Showing your picture, and looking properly at other people’s pictures, is part of photography.",
+      "notes": "Bring only the photographs you selected. Hold the screen so the group can see, or let the teacher display them. Say three things:\n\n1. What the centre of interest is.\n2. Where the light was coming from.\n3. One choice you are proud of.\n\nThen the group responds with the same two-sentence pattern you can use in other Creative Arts work:\n\n- “I see a clear centre of interest in…”\n- “Next time, you could improve the light by…”\n\nIf the photograph is already strong, the second sentence can say what to keep: “Next time, keep the plain background.” Do not laugh at a person in a picture. Do not grab the device to delete someone else’s work. Respect is listening until the photographer has finished speaking.\n\n### Care after the showing\nClose the camera. Return the device. If the photographs will be printed or placed in a portfolio later, keep the selected files and note what each one shows. Wash your hands if you have been passing one device around.\n\n### Enjoyment\nPeople enjoy photography because it trains the eye. You start to notice light on a wall, the shape of a jerrycan, or the concentration on a classmate’s face. That pleasure is real even when the first pictures are imperfect. The way to enjoy it more is to take fewer pictures and look harder: permission, light, centre of interest, a steady hand, and a fair conversation afterwards.\n\nWrite one sentence in your book: “I enjoy taking photographs because…” Use your own reason.",
+      "keyWords": [
+        {
+          "word": "feedback",
+          "meaning": "a comment that says what works and what can improve"
+        },
+        {
+          "word": "present",
+          "meaning": "to show your work and explain it"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "Rewrite this comment so it is respectful and useful: “Your photo is bad and your friend looks silly.”",
+          "steps": [
+            "Do not insult the person in the picture.",
+            "Talk about light or the centre of interest."
+          ],
+          "answer": "Example: “I see the two of you in the frame. Next time, turn so the light is on your faces and stand a little closer.”",
+          "check": null
+        },
+        {
+          "problem": "A group took 8 photographs and selected 3. How many were not selected?",
+          "steps": [
+            "8 − 3 = 5"
+          ],
+          "answer": "5",
+          "check": "8 - 3 === 5"
+        }
+      ],
+      "activity": {
+        "title": "Show and talk",
+        "materials": [
+          "Selected photographs",
+          "A device or display",
+          "Exercise books"
+        ],
+        "steps": [
+          "Each learner shows one photograph and names the centre of interest and the light.",
+          "The group gives one seeing sentence and one next-time sentence.",
+          "The photographer says thank you and may ask one question.",
+          "Return and switch off the device.",
+          "Write why you enjoy taking photographs, and one skill you want to improve."
+        ]
+      },
+      "practice": [
+        {
+          "question": "What three things can a photographer say when showing a picture?",
+          "answer": "The centre of interest, where the light was, and one choice they are proud of.",
+          "check": null
+        },
+        {
+          "question": "What should feedback not do?",
+          "answer": "It should not insult the person in the picture or laugh at the photographer.",
+          "check": null
+        },
+        {
+          "question": "Give one reason a learner might enjoy photography.",
+          "answer": "Any one sound reason, such as noticing light and shape, keeping a memory, or sharing a clear picture with others.",
+          "check": null
+        }
+      ],
+      "summary": [
+        "Show the centre of interest and the light.",
+        "Give kind, specific feedback.",
+        "Enjoy looking carefully, then care for the device."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which of these is a digital device for photography?",
+      "options": [
+        "A pencil",
+        "A phone with a camera",
+        "A drum",
+        "A paintbrush"
+      ],
+      "answer": "B",
+      "explanation": "A phone with a camera records a digital photograph.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "What does the lens do?",
+      "options": [
+        "It stores the files",
+        "It lets light into the device",
+        "It prints the photo",
+        "It asks for permission"
+      ],
+      "answer": "B",
+      "explanation": "Light enters through the lens.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Why is light important in photography?",
+      "answer": "The device records light bouncing off the subject. Without enough light the picture is dark and unclear.",
+      "explanation": "Photographs are made of light.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "The sun is behind the person and the face looks black. What kind of light is this?",
+      "options": [
+        "front light",
+        "side light",
+        "back light",
+        "no light at all"
+      ],
+      "answer": "C",
+      "explanation": "Light from behind the subject toward the camera is back light.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "The centre of interest is…",
+      "options": [
+        "the brightest corner, whatever it shows",
+        "the most important person or object in the photo",
+        "the strap of the camera",
+        "always a building"
+      ],
+      "answer": "B",
+      "explanation": "It is the subject you most want the viewer to see.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Before photographing a classmate, what should you do?",
+      "options": [
+        "hide and surprise them",
+        "ask permission and wait for a yes",
+        "photograph them in the changing room",
+        "take twenty pictures quickly"
+      ],
+      "answer": "B",
+      "explanation": "People must agree to be photographed.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Why does a gentle press of the shutter help?",
+      "options": [
+        "it shakes the device",
+        "it keeps the device steadier so the picture is less blurred",
+        "it turns the light off",
+        "it deletes the picture"
+      ],
+      "answer": "B",
+      "explanation": "Jabbing the button moves the camera.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Photo A is dark. Photo B is sharp, lit, and the pot fills the frame. Which do you keep?",
+      "options": [
+        "Photo A",
+        "Photo B",
+        "Neither, because objects cannot be photographed",
+        "Both, without looking"
+      ],
+      "answer": "B",
+      "explanation": "Photo B has light and a clear centre of interest.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "A good feedback sentence would be…",
+      "options": [
+        "“You look silly.”",
+        "“I see a clear face in good light. Next time, step back so the hands are in the frame.”",
+        "“Delete it now.”",
+        "“I do not like your shirt.”"
+      ],
+      "answer": "B",
+      "explanation": "Useful feedback talks about light and the centre of interest without insulting anyone.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Give one way to care for a shared camera or tablet.",
+      "answer": "Any one: do not run with it, keep fingers off the lens, do not leave it near water or in the sun, hand it back safely.",
+      "explanation": "Responsibility includes caring for the device during and after use.",
+      "outcome": "c",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Creative Arts Curriculum Design (Revised 2024) — Strand 2.0 Performing and Displaying, Sub-strand 2.4 Photography"
+  ]
+}

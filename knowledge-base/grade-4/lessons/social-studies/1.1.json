@@ -1,0 +1,299 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "1.1",
+  "title": "Compass Direction",
+  "overview": "Direction tells us which way to go to reach a place. In this sub-strand you will learn the four cardinal points of a compass: North, South, East and West. You will draw and label them, use them to describe where places are on a map, and see how people use them every day.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "The four cardinal points of a compass",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name the four cardinal points of a compass.",
+        "Draw and label the four cardinal points in their correct positions."
+      ],
+      "intro": "A visitor stops at your school gate and asks the way to the nearest health centre. Pointing with your hand helps, but there is a better way to explain direction that everybody understands: the cardinal points.",
+      "notes": "Direction is the way we face or move to get from one place to another. To describe direction clearly, people all over the world use the four cardinal points. They are:\n\n- North (N)\n- South (S)\n- East (E)\n- West (W)\n\n### Where each point is\nNorth and South are opposite each other. East and West are opposite each other. When you face North:\n\n- South is behind you.\n- East is on your right-hand side.\n- West is on your left-hand side.\n\nA quick way to remember the order going round clockwise from North is: North, East, South, West. Some learners remember it with the sentence \"Never Eat Soggy Weetabix\" or make up their own sentence in Kiswahili or their mother tongue.\n\n### The compass\nA compass is an instrument used to find direction. It has a needle that is a small magnet. The needle turns freely and always settles pointing to the North. Once you know where North is, you can find the other three points.\n\nThe four cardinal points are often drawn as a cross with arrows. This drawing is called a compass rose or compass direction diagram. The letter N is written at the top, S at the bottom, E on the right and W on the left.\n\n### Using the sun\nWe can also use the sun. The sun rises in the East in the morning and sets in the West in the evening. If you stand in the morning with your right hand pointing to where the sun rises, you are facing North. West is on your left and South is behind you.",
+      "keyWords": [
+        { "word": "direction", "meaning": "the way to go or face to reach a place" },
+        { "word": "cardinal points", "meaning": "the four main directions: North, South, East and West" },
+        { "word": "compass", "meaning": "an instrument with a magnetic needle that points to the North" }
+      ],
+      "examples": [
+        { "problem": "You are facing North. Which direction is on your right-hand side?", "steps": ["When facing North, East is on the right and West is on the left."], "answer": "East", "check": null },
+        { "problem": "Which cardinal point is opposite West?", "steps": ["East and West are a pair of opposites."], "answer": "East", "check": null }
+      ],
+      "activity": {
+        "title": "Draw and label the four cardinal points",
+        "materials": ["Exercise book or manila paper", "Pencil, ruler and crayons"],
+        "steps": [
+          "In groups, brainstorm and list the four cardinal points.",
+          "Draw a large cross with a ruler. Put an arrow head at the end of each line.",
+          "Label N at the top, S at the bottom, E on the right and W on the left.",
+          "Colour your compass rose and display it in class.",
+          "Go outside in the morning. Point to where the sun rises and say which cardinal point it is. Then name the other three."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\" font-family=\"sans-serif\"><rect width=\"240\" height=\"240\" fill=\"#ffffff\"/><circle cx=\"120\" cy=\"120\" r=\"80\" fill=\"none\" stroke=\"#94a3b8\" stroke-width=\"2\"/><g fill=\"#166534\"><polygon points=\"120,40 110,120 130,120\"/><polygon points=\"120,200 110,120 130,120\" fill=\"#86efac\"/><polygon points=\"200,120 120,110 120,130\" fill=\"#86efac\"/><polygon points=\"40,120 120,110 120,130\" fill=\"#86efac\"/></g><g font-size=\"22\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"120\" y=\"30\">N</text><text x=\"120\" y=\"228\">S</text><text x=\"218\" y=\"128\">E</text><text x=\"22\" y=\"128\">W</text></g></svg>",
+        "caption": "The four cardinal points: North at the top, South at the bottom, East on the right and West on the left"
+      },
+      "practice": [
+        { "question": "Name the four cardinal points of a compass.", "answer": "North, South, East and West", "check": null },
+        { "question": "Which direction does the needle of a compass point to?", "answer": "North", "check": null },
+        { "question": "In which direction does the sun rise?", "answer": "East", "check": null },
+        { "question": "You are facing South. Which direction is behind you?", "answer": "North", "check": null }
+      ],
+      "summary": [
+        "The four cardinal points are North, South, East and West.",
+        "North is opposite South, and East is opposite West.",
+        "A compass needle points North; the sun rises in the East and sets in the West."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Giving directions to places around us",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Use the four cardinal points to describe where places are in the school and at home.",
+        "Give simple directions from one place to another."
+      ],
+      "intro": "Think of your classroom. Is the flag post in front of it or behind it? Instead of saying \"in front\" or \"behind\", which change when you turn around, you can say the flag post is to the North or South of the classroom. That stays the same whichever way you face.",
+      "notes": "Words like left, right, in front and behind depend on the way a person is facing. If two people face different ways, their \"left\" is not the same. The cardinal points do not change, so they give clear directions to everyone.\n\n### Describing where a place is\nTo describe the position of a place, we say where it is from another place. We use the word \"of\":\n\n- The office is North of the classroom.\n- The toilets are West of the playground.\n- The gate is South of the office.\n\nIf the office is North of the classroom, then the classroom is South of the office. The direction is turned to its opposite when you swap the two places.\n\n### Giving directions to move\nWhen telling someone how to reach a place, say which direction to walk and what they will pass on the way. For example: \"From the gate, walk North to the office. Then turn East and walk to the library.\"\n\nGood directions:\n\n- Start from a place the person knows.\n- Use the cardinal points in the correct order of the journey.\n- Mention things the person will see on the way, such as a tree, a church, a mosque, a shop or a bridge.\n\n### Finding North in your school\nBefore you give directions, you must know where North is in your school. Use a compass, or use the sun in the morning (it rises in the East). Your teacher can mark N, S, E and W on the walls of the classroom to help you practise.",
+      "keyWords": [
+        { "word": "position", "meaning": "the place where something is" },
+        { "word": "opposite", "meaning": "on the other side; North is opposite South" }
+      ],
+      "examples": [
+        { "problem": "The library is East of the classroom. In which direction is the classroom from the library?", "steps": ["Swap the two places.", "The opposite of East is West."], "answer": "The classroom is West of the library.", "check": null },
+        { "problem": "Juma leaves the school gate and walks towards where the sun sets. In which direction is he walking?", "steps": ["The sun sets in the West."], "answer": "West", "check": null }
+      ],
+      "activity": {
+        "title": "Direction walk in the school compound",
+        "materials": ["A compass (if available)", "Four cards labelled N, S, E and W", "Exercise book"],
+        "steps": [
+          "With your teacher, find North in the school compound and place the N, S, E and W cards on the ground.",
+          "In pairs, stand in the middle of the compound. Take turns naming one place in each direction, for example the gate, the office, the kitchen and the playground.",
+          "Write four sentences such as \"The office is North of the playground.\"",
+          "Give your partner directions from the classroom to another place using the cardinal points. Your partner follows them and checks if they reach the right place."
+        ]
+      },
+      "practice": [
+        { "question": "The staffroom is South of the Grade 4 classroom. In which direction is the classroom from the staffroom?", "answer": "North", "check": null },
+        { "question": "Why is it better to use the cardinal points than left and right when giving directions?", "answer": "Left and right change when a person turns around, but the cardinal points stay the same for everyone.", "check": null },
+        { "question": "Write one sentence using a cardinal point to describe where a place in your school is.", "answer": "Any correct sentence, for example: The kitchen is West of the dining hall.", "check": null }
+      ],
+      "summary": [
+        "Cardinal points give the same direction to everyone, whichever way they face.",
+        "We say a place is North, South, East or West of another place.",
+        "When you swap the two places, the direction changes to its opposite."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Using the cardinal points on a map",
+      "outcomes": ["b"],
+      "objectives": [
+        "Find North on a map.",
+        "Use the cardinal points to describe the position of places on a map."
+      ],
+      "intro": "A map is a drawing of a place seen from above. A map is only useful if you can tell which way is which. That is why almost every map shows where North is.",
+      "notes": "A map shows places as if you were a bird looking down from the sky. To read directions on a map, first find the North sign. It is usually an arrow with the letter N. On most maps North is at the top of the page. This means:\n\n- North is at the top.\n- South is at the bottom.\n- East is on the right.\n- West is on the left.\n\n### Describing places on a map\nLook at the map in the diagram. The school is in the middle.\n\n- The church is North of the school.\n- The market is East of the school.\n- The river is South of the school.\n- The dispensary is West of the school.\n\nWe can also compare other places. The market is East of the dispensary, and the dispensary is West of the market.\n\n### Directions of Kenya's neighbours\nWe can use the cardinal points on the map of Kenya too. Look at a map of Kenya in your atlas or textbook:\n\n- Ethiopia is to the North of Kenya.\n- Tanzania is to the South of Kenya.\n- Somalia is to the East of Kenya.\n- Uganda is to the West of Kenya.\n\nIn the same way, you can use a map of your county to describe where your school, the county headquarters and the neighbouring counties are.\n\n### Using an interactive map\nAn interactive map is a map on a computer, tablet or phone. You can zoom in and move around it. It also shows a North arrow or compass. With your teacher's help, open a map of your area and name places to the North, South, East and West of your school.",
+      "keyWords": [
+        { "word": "map", "meaning": "a drawing of a place as seen from above" },
+        { "word": "North sign", "meaning": "an arrow marked N on a map that shows which way is North" },
+        { "word": "interactive map", "meaning": "a map on a digital device that you can zoom and move" }
+      ],
+      "examples": [
+        { "problem": "On the map in the diagram, which place is South of the school?", "steps": ["South is at the bottom of the map.", "Below the school is the river."], "answer": "The river", "check": null },
+        { "problem": "Which country is to the West of Kenya?", "steps": ["Look at the map of Kenya. West is on the left."], "answer": "Uganda", "check": null }
+      ],
+      "activity": {
+        "title": "Read directions on a map",
+        "materials": ["Map of Kenya or of your county (print or digital)", "Exercise book", "Pencil"],
+        "steps": [
+          "Find the North sign on the map.",
+          "In groups, name one place or neighbour to the North, South, East and West of Kenya.",
+          "Draw a simple map of your school. Put the North sign at the top and draw the main buildings.",
+          "Write four sentences describing where places are on your map using the cardinal points.",
+          "If a digital device is available, use an interactive map or a compass direction game to practise finding places in each direction."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 260\" font-family=\"sans-serif\"><rect width=\"320\" height=\"260\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"300\" height=\"240\" fill=\"#f0fdf4\" stroke=\"#166534\" stroke-width=\"2\"/><g font-size=\"13\" text-anchor=\"middle\" fill=\"#111827\"><rect x=\"135\" y=\"110\" width=\"50\" height=\"36\" fill=\"#fde68a\" stroke=\"#92400e\"/><text x=\"160\" y=\"133\">School</text><rect x=\"135\" y=\"35\" width=\"50\" height=\"30\" fill=\"#e9d5ff\" stroke=\"#6b21a8\"/><text x=\"160\" y=\"55\">Church</text><rect x=\"225\" y=\"112\" width=\"60\" height=\"30\" fill=\"#fecaca\" stroke=\"#991b1b\"/><text x=\"255\" y=\"132\">Market</text><rect x=\"25\" y=\"112\" width=\"80\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#1e3a8a\"/><text x=\"65\" y=\"132\">Dispensary</text></g><path d=\"M10 205 C 80 185, 150 225, 220 200 S 290 195, 310 205\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"6\"/><text x=\"160\" y=\"238\" font-size=\"13\" text-anchor=\"middle\" fill=\"#1e3a8a\">River</text><g transform=\"translate(275,45)\"><polygon points=\"0,-22 -7,6 7,6\" fill=\"#111827\"/><text x=\"0\" y=\"22\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">N</text></g></svg>",
+        "caption": "A simple map with a North sign. The church is North, the market East, the river South and the dispensary West of the school."
+      },
+      "practice": [
+        { "question": "On most maps, where is North?", "answer": "At the top of the map", "check": null },
+        { "question": "Look at the map in the diagram. In which direction is the market from the school?", "answer": "East", "check": null },
+        { "question": "Which country is to the South of Kenya?", "answer": "Tanzania", "check": null },
+        { "question": "On the map in the diagram, in which direction is the dispensary from the market?", "answer": "West", "check": null }
+      ],
+      "summary": [
+        "Find the North sign first when reading a map.",
+        "On most maps, North is at the top, South at the bottom, East on the right and West on the left.",
+        "Ethiopia is North, Tanzania South, Somalia East and Uganda West of Kenya."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Why the cardinal points are useful in everyday life",
+      "outcomes": ["c", "b"],
+      "objectives": [
+        "Explain how people use the four cardinal points in everyday life.",
+        "Show care and patience when helping others find their way."
+      ],
+      "intro": "Long before phones and maps, travellers, herders and fishermen found their way by watching where the sun rose and set. Today, drivers, pilots and even delivery riders still depend on direction.",
+      "notes": "Knowing the four cardinal points helps us in many ways every day.\n\n### Who uses the cardinal points?\n- Travellers and visitors use them to find places they have never been to before.\n- Drivers, boda boda riders and delivery people use them together with maps and road signs.\n- Pilots and ship captains use compasses to keep going in the right direction.\n- Herders use the position of the sun to find their way when they move animals to look for pasture and water.\n- Fishermen use the sun and a compass to find their way on large lakes and the ocean.\n- Builders and farmers sometimes think about where the sun rises and sets when they place a house or plant crops.\n\n### How the cardinal points help us\n- They help us give clear directions that do not change when a person turns around.\n- They help us read and draw maps.\n- They help us describe where our home, school, county and country are.\n- They help people who are lost to find their way back safely.\n\n### Being helpful\nWhen someone asks you for directions, listen carefully, be patient and give the directions step by step. If you are not sure, it is better to say so than to send the person the wrong way. Never go away with a stranger to show them the way; explain the directions from where you are, or ask a trusted adult to help.\n\n### Practising with games\nThere are many simple games that help you learn the cardinal points. In \"Simon says direction\", a leader calls out \"Face North!\" or \"Take two steps West!\" and players must move correctly. On a computer or tablet, compass direction games let you move a character around a map using N, S, E and W. Take turns and be patient with others as you play.",
+      "keyWords": [
+        { "word": "traveller", "meaning": "a person who is going on a journey" },
+        { "word": "pasture", "meaning": "land with grass where animals feed" }
+      ],
+      "examples": [
+        { "problem": "Give one way a herder can find direction without a compass.", "steps": ["The sun rises in the East and sets in the West."], "answer": "By looking at where the sun rises or sets.", "check": null }
+      ],
+      "activity": {
+        "title": "Direction game",
+        "materials": ["Four cards labelled N, S, E and W placed on the walls of the classroom or on the ground outside"],
+        "steps": [
+          "The class stands in an open space with the N, S, E and W cards in place.",
+          "One learner is the leader and calls out instructions such as \"Face East\" or \"Take three steps South\".",
+          "Players who make a mistake help the leader call the next instruction.",
+          "After the game, discuss in groups three people in your community who use the cardinal points and how they use them.",
+          "If a computer or tablet is available, play a compass direction game and take turns."
+        ]
+      },
+      "practice": [
+        { "question": "Name two people who use the cardinal points in their work.", "answer": "Any two, for example drivers, pilots, ship captains, fishermen, herders, delivery riders.", "check": null },
+        { "question": "Give two ways in which the cardinal points help us.", "answer": "Any two: giving clear directions, reading and drawing maps, describing where places are, helping lost people find their way.", "check": null },
+        { "question": "A stranger asks you to walk with them to show them a shop. What should you do?", "answer": "Do not go with the stranger. Explain the directions from where you are or ask a trusted adult to help.", "check": null }
+      ],
+      "summary": [
+        "Travellers, drivers, pilots, herders and fishermen all depend on direction.",
+        "Cardinal points help us give clear directions and read maps.",
+        "Be patient and careful when helping others find their way."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Finding North with the sun and a shadow stick",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Find the four cardinal points using the morning sun and a shadow stick.",
+        "Use the direction you have found to give directions to places."
+      ],
+      "intro": "A compass is useful, but you will not always have one with you. On a sunny day you can still find North, South, East and West, and then use those directions to tell someone the way.",
+      "notes": "The four cardinal points are still there when you have no compass. You can find them from the sun, and you can check them with a shadow stick.\n\n### The morning sun\nEarly in the morning, stand in an open place and point your right hand towards where the sun is rising. Your right hand points East. You are facing North. Your left hand points West, and South is behind you. Say the four points aloud.\n\nDo not look straight at the sun. Looking at the sun can hurt your eyes. Point beside the bright light, not into it. Do this with your teacher, in the school compound, away from the road.\n\n### The shadow stick\nA shadow stick works after the sun is already up.\n\n1. Push a straight stick into open ground so that it stands upright.\n2. Mark the tip of the shadow with a stone. Call this stone A.\n3. Leave the stick in place. Later in the day the shadow will have moved. Mark the new tip with another stone. Call this stone B.\n4. Draw a straight line on the ground from A to B.\n\nStone A, the morning mark, is towards the West. Stone B, the later mark, is towards the East. The shadow moves that way because the sun travels across the sky from East towards West. Stand with stone A on your left and stone B on your right. You are facing North. South is behind you.\n\n### Check, then give directions\nIf the class has a compass or a North sign on the wall, compare it with your result. The two should agree. If they do not, set the stick upright again and mark the tip of the shadow carefully.\n\nOnce you know where North is, describe real places. Stand by a tree, the gate or the flag post and say, for example, \"The office is North of this tree\" or \"From here, walk East to the kitchen, then South to the garden.\" Write three sentences. A classmate should be able to follow them and arrive at the right place.",
+      "keyWords": [
+        { "word": "shadow stick", "meaning": "a stick stood upright in the sun so that its moving shadow can show East and West" },
+        { "word": "upright", "meaning": "standing straight up, not leaning" }
+      ],
+      "examples": [
+        {
+          "problem": "You face the morning sun with your right hand pointing towards it. Which direction are you facing?",
+          "steps": ["The morning sun is in the East.", "Right hand to the East means you face North."],
+          "answer": "North",
+          "check": null
+        },
+        {
+          "problem": "Stone A is the first shadow mark and stone B is the later mark. Which stone is towards the East?",
+          "steps": ["The shadow moves from West towards East during the day.", "The later mark, B, is towards the East."],
+          "answer": "Stone B",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Shadow stick and direction sentences",
+        "materials": ["A straight stick", "Two stones", "Chalk or a stick to draw a line", "Exercise book"],
+        "steps": [
+          "With your teacher, set up a shadow stick in an open part of the school compound.",
+          "Mark stone A at the tip of the shadow. Later, mark stone B and draw the line from A to B.",
+          "Stand with A on your left and B on your right, and name North, South, East and West.",
+          "Draw and label the four cardinal points in your book to match what you found on the ground.",
+          "Practise giving directions from the stick to three places in the compound."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 220\" font-family=\"sans-serif\"><rect width=\"420\" height=\"220\" fill=\"#ffffff\"/><rect x=\"10\" y=\"150\" width=\"400\" height=\"50\" fill=\"#d9f99d\"/><line x1=\"160\" y1=\"150\" x2=\"160\" y2=\"70\" stroke=\"#78350f\" stroke-width=\"6\"/><polygon points=\"160,70 154,88 166,88\" fill=\"#166534\"/><line x1=\"160\" y1=\"150\" x2=\"70\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"3\" stroke-dasharray=\"5 4\"/><circle cx=\"70\" cy=\"150\" r=\"8\" fill=\"#1d4ed8\"/><text x=\"70\" y=\"182\" font-size=\"14\" text-anchor=\"middle\" fill=\"#1d4ed8\">A West</text><line x1=\"160\" y1=\"150\" x2=\"250\" y2=\"150\" stroke=\"#94a3b8\" stroke-width=\"3\"/><circle cx=\"250\" cy=\"150\" r=\"8\" fill=\"#b45309\"/><text x=\"250\" y=\"182\" font-size=\"14\" text-anchor=\"middle\" fill=\"#b45309\">B East</text><polygon points=\"320,40 308,70 332,70\" fill=\"#111827\"/><text x=\"320\" y=\"90\" font-size=\"16\" font-weight=\"bold\" text-anchor=\"middle\">N</text><text x=\"210\" y=\"40\" font-size=\"13\" fill=\"#374151\">Face this way</text></svg>",
+        "caption": "Shadow stick: A is the first mark, towards the West. B is the later mark, towards the East. Facing with A on your left and B on your right means you face North."
+      },
+      "practice": [
+        { "question": "Why should you not look straight at the sun when finding direction?", "answer": "Looking straight at the sun can hurt your eyes.", "check": null },
+        { "question": "Stone A is on your left and stone B is on your right. Which direction is behind you?", "answer": "South", "check": null },
+        { "question": "Write one direction sentence from a shadow stick to a place in your school.", "answer": "Any correct sentence using a cardinal point, for example: The gate is South of the stick.", "check": null }
+      ],
+      "summary": [
+        "In the morning, a right hand towards the rising sun means you are facing North.",
+        "On a shadow stick, A is towards the West and B is towards the East.",
+        "With A on your left and B on your right, you are facing North and can give directions."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Direction games and interactive maps",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Show direction on a grid game and on an interactive map using the four cardinal points.",
+        "Explain why direction skills are still useful when we play games or use a phone map."
+      ],
+      "intro": "A game on paper or on a screen asks the same question a visitor asks at the gate: which way is North, South, East or West? Playing the game well means you can give directions that another person can follow.",
+      "notes": "### A grid game on paper\nDraw a grid of squares, five across and five down. Mark North at the top of the page. Choose one square as the start and another as the treasure. Write moves such as \"2 squares East, then 1 square North\". Your partner follows the moves with a bottle top. Landing on the treasure shows that the directions were correct. Then swap roles.\n\nMany computer games about the compass work in the same way. A character moves North, South, East or West when you press a key or tap an arrow. If a computer, tablet or phone is available, play one of these games with your teacher. Take turns and wait patiently when someone goes the wrong way. If no device is available, the paper grid teaches the same skill.\n\n### An interactive map\nAn interactive map is a map on a screen. You can zoom in to see the area around your school and zoom out to see your county or Kenya. Before you name any place, find the North arrow. Then answer questions in full sentences:\n\n- Which place is North of our school?\n- If we walk West from the market on the map, what do we pass?\n- Which neighbouring county, country or water body is East of our county?\n\nUse the four cardinal points to show direction on the map, just as you do on a map in your book.\n\n### Why the skill still matters\nA phone map helps, but the battery can run out and the signal can fail. When you know the cardinal points you can still read a printed map, use the sun, and give a visitor clear directions. Games are for enjoyment, and they are also practice for real journeys.\n\n### Working together\nPlay in a small group. One learner calls the moves, another follows them, and a third checks the North sign. Thank the person who helps you correct a wrong turn. Giving directions kindly is part of using the compass well in everyday life.",
+      "keyWords": [
+        { "word": "grid", "meaning": "a pattern of equal squares used to follow moves North, South, East and West" },
+        { "word": "interactive map", "meaning": "a map on a screen that you can zoom and move" }
+      ],
+      "examples": [
+        {
+          "problem": "A bottle top is on the start square. The move is 3 squares West, then 2 squares South. Which cardinal points does the player use, and in what order?",
+          "steps": ["The first move uses West.", "The second move uses South."],
+          "answer": "West, then South",
+          "check": null
+        },
+        {
+          "problem": "Give one reason to learn the cardinal points even if you can open a map on a phone.",
+          "steps": ["Think of what happens when the phone cannot be used."],
+          "answer": "The battery can run out or the signal can fail, so you still need to read a printed map or give directions yourself.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compass direction game",
+        "materials": ["Squared paper or an exercise book", "A bottle top", "A computer, tablet or phone if the school has one", "A printed or interactive map"],
+        "steps": [
+          "In pairs, draw a five-by-five grid and mark North at the top.",
+          "Hide a treasure square. Give your partner moves using only North, South, East and West.",
+          "Check whether your partner lands on the treasure. Then swap.",
+          "If a digital device is available, play a compass direction game and also open an interactive map. Use the North arrow to name one place in each cardinal direction from your school.",
+          "Tell the class one way the game helps you in everyday life."
+        ]
+      },
+      "practice": [
+        { "question": "On a grid game, where do you mark North?", "answer": "At the top of the page", "check": null },
+        { "question": "What should you find first on an interactive map before naming places?", "answer": "The North arrow", "check": null },
+        { "question": "Your partner moves the wrong way in a direction game. What should you do?", "answer": "Wait patiently, help them correct the move, and give them another turn.", "check": null }
+      ],
+      "summary": [
+        "Grid games and computer games both use North, South, East and West.",
+        "On an interactive map, find the North arrow before you describe places.",
+        "Direction skills still help when a phone map cannot be used."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Which of these is NOT a cardinal point?", "options": ["North", "East", "Up", "West"], "answer": "C", "explanation": "The four cardinal points are North, South, East and West.", "outcome": "a", "check": null },
+    { "question": "Which cardinal point is opposite North?", "options": ["East", "South", "West", "North-East"], "answer": "B", "explanation": "North and South are opposite each other.", "outcome": "a", "check": null },
+    { "question": "The needle of a compass always points to the ___.", "options": ["South", "East", "North", "West"], "answer": "C", "explanation": "The compass needle is a magnet that settles pointing North.", "outcome": "a", "check": null },
+    { "question": "In which direction does the sun set?", "answer": "West", "explanation": "The sun rises in the East and sets in the West.", "outcome": "a", "check": null },
+    { "question": "When you face North, which direction is on your left-hand side?", "options": ["East", "West", "South", "North"], "answer": "B", "explanation": "Facing North, East is on the right and West is on the left.", "outcome": "a", "check": null },
+    { "question": "On most maps, which direction is at the top?", "options": ["South", "West", "North", "East"], "answer": "C", "explanation": "Maps usually have North at the top, shown by a North sign.", "outcome": "b", "check": null },
+    { "question": "The church is North of the school. In which direction is the school from the church?", "answer": "South", "explanation": "When you swap the two places, the direction changes to its opposite.", "outcome": "b", "check": null },
+    { "question": "Which country is to the East of Kenya?", "options": ["Uganda", "Tanzania", "Somalia", "Ethiopia"], "answer": "C", "explanation": "Somalia is East of Kenya; Uganda is West, Tanzania South and Ethiopia North.", "outcome": "b", "check": null },
+    { "question": "On a map, a river is at the bottom and a hill is at the top. In which direction is the river from the hill?", "answer": "South", "explanation": "The bottom of a map is South.", "outcome": "b", "check": null },
+    { "question": "Why do pilots and ship captains carry a compass?", "options": ["To tell the time", "To find and keep the right direction", "To measure rain", "To weigh goods"], "answer": "B", "explanation": "A compass shows direction, which helps travellers keep going the right way.", "outcome": "c", "check": null },
+    { "question": "Give one reason why it is important to know the four cardinal points.", "answer": "Any one: to give clear directions, to read maps, to describe where places are, to find the way when lost.", "explanation": "Cardinal points stay the same for everyone, so directions using them are clear.", "outcome": "c", "check": null },
+    { "question": "On a shadow stick, stone A is the first mark and stone B is the later mark. You stand with A on your left and B on your right. Which way are you facing?", "options": ["East", "West", "North", "South"], "answer": "C", "explanation": "A is towards the West and B is towards the East. With West on your left and East on your right, you face North.", "outcome": "a", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 1.0 Natural and Built Environments, Sub-strand 1.1 Compass Direction"
+  ]
+}

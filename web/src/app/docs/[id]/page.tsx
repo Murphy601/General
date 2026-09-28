@@ -2,6 +2,10 @@ import { PlatformLayout } from '@/components/PlatformLayout';
 import { ContentCard } from '@/components/ContentCard';
 import { getContent } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return [];
+}
 import Link from 'next/link';
 
 export default async function DocDetailPage({ params }: { params: Promise<{ id: string }> }) {

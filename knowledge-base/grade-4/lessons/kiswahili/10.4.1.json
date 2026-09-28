@@ -1,0 +1,273 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "10.4.1",
+  "title": "Sarufi: Nyakati na Hali",
+  "overview": "Kila kitendo hutokea wakati fulani: kimeshapita, kinatokea sasa, au kitatokea baadaye. Katika mada hii ndogo utatambua viambishi vya wakati uliopita, uliopo na ujao ndani ya vitenzi. Utaweza kuvitambua kwenye matini, kutunga sentensi na kubadilisha sentensi kutoka wakati mmoja hadi mwingine.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Wakati uliopita na kiambishi -li-",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutambua kiambishi -li- cha wakati uliopita kwenye kitenzi.",
+        "Kutaja vitenzi vya wakati uliopita katika sentensi na kifungu."
+      ],
+      "intro": "Ukisema \"Jana nilimwambia mwalimu,\" msikilizaji anajua tukio limekwisha pita. Neno lililobeba habari hiyo si jana peke yake. Ndani ya nilimwambia kuna kiambishi kinachoonyesha wakati.",
+      "notes": "### Nyakati na hali\nWakati ni kipindi ambacho kitendo hufanyika. Hali ya kitenzi hubadilika ili kuonyesha kipindi hicho. Katika somo hili tunajifunza nyakati tatu: uliopita, uliopo na ujao. Kila wakati huwa na kiambishi chake ndani ya kitenzi.\n\nKitenzi hujengwa hivi: kiambishi cha nafsi + kiambishi cha wakati + mzizi + tamati. Katika neno nilisoma, ni- ni nafsi ya mimi, -li- ni wakati uliopita, som ni mzizi wa soma, na -a ni tamati.\n\n### Wakati uliopita\nWakati uliopita hueleza kitendo kilichokwisha fanyika. Kiambishi chake ni **-li-**. Maneno yanayoambatana nacho ni kama jana, juzi, wiki iliyopita na zamani.\n\n- Mimi nilisoma ripoti.\n- Wewe ulisoma ripoti.\n- Yeye alisoma ripoti.\n- Sisi tulisoma ripoti.\n- Ninyi mlisoma ripoti.\n- Wao walisoma ripoti.\n\nAngalia kuwa -li- halibadiliki. Kinachobadilika ni kiambishi cha nafsi: ni-, u-, a-, tu-, m-, wa-.\n\n### Katika matini\nSoma kifungu hiki:\n\nJana Amina alipoteza rula darasani. Alimwambia mwalimu. Wanafunzi walitafuta chini ya madawati. Juma aliiona karibu na dirisha, kisha akairudisha. Amina alishukuru.\n\nVitenzi vya wakati uliopita ni: alipoteza, alimwambia, walitafuta, aliiona, alishukuru. Vyote vina -li-. Neno akairudisha lina -ka-, kinachoendeleza tukio; si kiambishi cha somo hili. Kwa sasa tambua -li-.\n\n### Jinsi ya kukitambua\nChukua kitenzi na ukitenganishe. Alipoteza = a + li + poteza. Ukiiona -li- baada ya kiambishi cha nafsi, kitendo kiko katika wakati uliopita. Usichanganye na neno huru \"jana\"; jana husaidia, lakini ushahidi upo ndani ya kitenzi.",
+      "keyWords": [
+        { "word": "wakati uliopita", "meaning": "kipindi cha kitendo kilichokwisha fanyika" },
+        { "word": "kiambishi", "meaning": "kipande cha neno kinachounganishwa na mzizi ili kubadilisha maana" },
+        { "word": "mzizi", "meaning": "sehemu kuu ya kitenzi inayobeba maana, kama som katika soma" },
+        { "word": "nafsi", "meaning": "mtendaji wa kitendo, kama mimi, wewe au yeye" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua kiambishi cha wakati katika neno tulisoma.",
+          "steps": [
+            "tu- ni nafsi ya sisi.",
+            "som ni mzizi, na -a ni tamati.",
+            "Kilichobaki katikati ni -li-."
+          ],
+          "answer": "-li-, kinachoonyesha wakati uliopita.",
+          "check": null
+        },
+        {
+          "problem": "Katika sentensi \"Jana mlinzi alifunga mlango,\" ni kitenzi gani cha wakati uliopita?",
+          "steps": [
+            "Neno jana linaonyesha kipindi, lakini si kitenzi.",
+            "Kitenzi ni alifunga.",
+            "a- + -li- + funga."
+          ],
+          "answer": "alifunga",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chati ya -li-",
+        "materials": ["Chati au ubao wenye sentensi", "Daftari", "Tarakilishi au projekta panapowezekana"],
+        "steps": [
+          "Tazameni sentensi kwenye chati, ubao au projekta.",
+          "Kwa pamoja, pigieni mstari kila kitenzi chenye -li-.",
+          "Andikeni kiambishi cha nafsi na kiambishi cha wakati kando ya kila kitenzi. Kwa mfano: walisoma = wa- + -li- + soma.",
+          "Kundi liandike sentensi mbili za jana kuhusu kuripoti kitu kilichopotea."
+        ]
+      },
+      "practice": [
+        { "question": "Kiambishi cha wakati uliopita ni kipi?", "answer": "-li-", "check": null },
+        { "question": "Jaza nafasi: Jana sisi ______ (andika) barua.", "answer": "tuliandika", "check": null },
+        { "question": "Tambua vitenzi vya wakati uliopita: Leo ninasoma. Jana nilisoma. Kesho nitasoma.", "answer": "nilisoma", "check": null },
+        { "question": "Gawanya neno alirudi katika nafsi, wakati na sehemu iliyobaki.", "answer": "a- (nafsi ya yeye) + -li- (wakati uliopita) + rudi.", "check": null }
+      ],
+      "summary": [
+        "Wakati uliopita hueleza kitendo kilichokwisha pita.",
+        "Kiambishi chake ni -li-, kama katika nilisoma na walirudi.",
+        "Kiambishi cha nafsi hubadilika; -li- hubaki."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Wakati uliopo na kiambishi -na-",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutambua kiambishi -na- cha wakati uliopo.",
+        "Kutofautisha vitenzi vya wakati uliopo na vya wakati uliopita kwenye matini."
+      ],
+      "intro": "Darasani, mwalimu anauliza, \"Mnafanya nini sasa?\" Unajibu, \"Ninasoma kifungu.\" Kitendo kinaendelea hivi sasa. Kiambishi kinachoonyesha hali hii si -li-.",
+      "notes": "### Wakati uliopo\nWakati uliopo hueleza kitendo kinachofanyika sasa. Kiambishi chake ni **-na-**. Maneno yanayoambatana nacho ni kama sasa, leo na kwa sasa.\n\n- Mimi ninasoma.\n- Wewe unasoma.\n- Yeye anasoma.\n- Sisi tunasoma.\n- Ninyi mnasoma.\n- Wao wanasoma.\n\nKatika ninasoma: ni- ni nafsi ya mimi, -na- ni wakati uliopo, na soma ni sehemu iliyobaki. Linganisha na nilisoma. Mzizi haujabadilika. Kilichobadilika ni -li- kuwa -na-.\n\n### Usichanganye nyakati\nSentensi moja inaweza kuwa na wakati mmoja tu unaofaa.\n\n- Jana niliona mlinzi. (uliopita)\n- Sasa ninamwona mlinzi. (uliopo)\n\nSi sahihi kusema \"Jana ninaona mlinzi\" ukimaanisha tukio la jana, wala \"Sasa niliona\" ukimaanisha kitendo kinachoendelea sasa. Neno la muda na kiambishi vinapaswa kukubaliana.\n\n### Zoezi la matini\nSoma:\n\nLeo darasa letu linajadili usalama. Mwalimu anauliza maswali. Wanafunzi wanaandika majibu. Jana tuliandika insha kuhusu kalamu. Sasa tunasoma insha hizo kwa sauti.\n\nVitenzi vya wakati uliopo: linajadili, anauliza, wanaandika, tunasoma. Kitenzi cha wakati uliopita: tuliandika.\n\nUnapojaza nafasi, angalia neno la muda kwanza. Ikiwa ni sasa au leo na kitendo kinaendelea, tumia -na-. Ikiwa ni jana, tumia -li-.",
+      "keyWords": [
+        { "word": "wakati uliopo", "meaning": "kipindi cha kitendo kinachofanyika sasa" },
+        { "word": "-na-", "meaning": "kiambishi kinachoonyesha wakati uliopo, kama katika anasoma" },
+        { "word": "kukubaliana", "meaning": "kulingana; neno la muda na kiambishi cha wakati viende pamoja" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza nafasi: Sasa Juma ______ (andika) ripoti.",
+          "steps": [
+            "Sasa inaonyesha wakati uliopo, kwa hivyo tumia -na-.",
+            "Juma ni yeye, kiambishi cha nafsi ni a-.",
+            "a- + -na- + andika."
+          ],
+          "answer": "anaandika",
+          "check": null
+        },
+        {
+          "problem": "Ni kitenzi gani cha wakati uliopo: walirudi, wanarudi, watarudi?",
+          "steps": [
+            "walirudi kina -li-.",
+            "watarudi kina -ta-.",
+            "wanarudi kina -na-."
+          ],
+          "answer": "wanarudi",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Jaza nafasi za nyakati",
+        "materials": ["Sentensi zenye nafasi kwenye ubao au chati", "Daftari", "Kifaa cha kidijitali panapowezekana"],
+        "steps": [
+          "Mwalimu aandike sentensi zenye nafasi, kwa mfano: Leo mimi ______ (soma) kifungu.",
+          "Kwa jozi, jaze nafasi kwa kitenzi cha wakati unaofaa.",
+          "Pigieni rangi tofauti vitenzi vya -li- na vya -na- kwenye aya fupi.",
+          "Kila jozi isome sentensi mbili darasani ili wengine wasahihishe."
+        ]
+      },
+      "practice": [
+        { "question": "Kiambishi cha wakati uliopo ni kipi?", "answer": "-na-", "check": null },
+        { "question": "Jaza: Leo sisi ______ (cheza) mpira wa kuigiza kuhusu usalama.", "answer": "tunacheza", "check": null },
+        { "question": "Andika upya kwa wakati uliopo: Jana nilisoma kifungu.", "answer": "Sasa ninasoma kifungu.", "check": null },
+        { "question": "Kwa nini sentensi \"Jana ninasoma\" haifai ukimaanisha tukio la jana?", "answer": "Kwa sababu jana ni wakati uliopita, lakini -na- ni wakati uliopo. Ingefaa: Jana nilisoma.", "check": null }
+      ],
+      "summary": [
+        "Wakati uliopo hueleza kitendo cha sasa na hutumia -na-.",
+        "Neno la muda na kiambishi vinapaswa kukubaliana.",
+        "-li- ni uliopita; -na- ni uliopo."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Wakati ujao na kubadilisha nyakati",
+      "outcomes": ["a", "c", "d"],
+      "objectives": [
+        "Kutambua kiambishi -ta- cha wakati ujao na kutunga sentensi zake.",
+        "Kubadilisha sentensi kutoka wakati mmoja hadi wakati mwingine.",
+        "Kushirikiana na wenzake kwa furaha wakati wa kutunga."
+      ],
+      "intro": "Mpango wa kesho bado haujafanyika. Ukisema \"Kesho nitamwambia mwalimu,\" unazungumzia kitendo kinachokuja. Leo utajifunza kiambishi cha wakati huo, kisha ubadilishe sentensi moja iwe ya jana, ya sasa na ya kesho.",
+      "notes": "### Wakati ujao\nWakati ujao hueleza kitendo kitakachofanyika baadaye. Kiambishi chake ni **-ta-**. Maneno yanayoambatana nacho ni kama kesho, kesho kutwa na baadaye.\n\n- Mimi nitasoma.\n- Wewe utasoma.\n- Yeye atasoma.\n- Sisi tutasoma.\n- Ninyi mtasoma.\n- Wao watasoma.\n\nKatika nitasoma: ni- + -ta- + soma. Linganisha nyakati tatu za nafsi ya mimi:\n\n- nilisoma (uliopita)\n- ninasoma (uliopo)\n- nitasoma (ujao)\n\nMzizi soma haujabadilika. Viambishi -li-, -na- na -ta- ndivyo vinavyobadilisha hali ya kitenzi.\n\n### Kubadilisha wakati\nAnza kwa kutambua nafsi na mzizi, kisha ubadilishe kiambishi cha wakati tu.\n\nSentensi: Jana Juma aliandika ripoti.\n\n- Sasa: Juma anaandika ripoti.\n- Kesho: Juma ataandika ripoti.\n\nSentensi: Kesho tutafunga mlango.\n\n- Jana: Tulifunga mlango.\n- Sasa: Tunafunga mlango.\n\nUkibadilisha wakati, badilisha pia neno la muda ili lisipigane na kitenzi. \"Kesho tuliandika\" haifai. Sema \"Kesho tutaandika\" au \"Jana tuliandika\".\n\n### Kutenga sentensi pamoja\nKazi ya kikundi inafurahisha unapojaribu, kukusahihisha na kujaribu tena. Mmoja aseme sentensi ya jana. Mwingine aigeuze iwe ya sasa. Wa tatu aigeuze iwe ya kesho. Mnakagua kama -li-, -na- na -ta- vimekaa mahali pake. Heshimu sahihisho la mwenzako; yeye anakusaidia, hakucheki.\n\nUnaweza kuandika sentensi hizo daftarini au kuzipiga chapa kwenye tarakilishi, kisha uzisambaze kwa kikundi. Mfano wa sentensi zako: Jana niliripoti mlango wazi. Sasa ninaripoti mlango wazi. Kesho nitaripoti mlango ukiwa wazi.",
+      "keyWords": [
+        { "word": "wakati ujao", "meaning": "kipindi cha kitendo kitakachofanyika baadaye" },
+        { "word": "-ta-", "meaning": "kiambishi kinachoonyesha wakati ujao, kama katika nitasoma" },
+        { "word": "kubadilisha wakati", "meaning": "kuandika kitenzi kile kile katika wakati mwingine" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika sentensi \"Jana sisi tulisoma kifungu\" katika wakati ujao.",
+          "steps": [
+            "Nafsi ni sisi, mzizi ni soma.",
+            "Wakati ujao hutumia -ta-.",
+            "Badilisha neno jana liwe kesho."
+          ],
+          "answer": "Kesho sisi tutasoma kifungu.",
+          "check": null
+        },
+        {
+          "problem": "Tambua wakati wa kila kitenzi: anafunga, atafunga, alifunga.",
+          "steps": [
+            "anafunga kina -na-.",
+            "atafunga kina -ta-.",
+            "alifunga kina -li-."
+          ],
+          "answer": "anafunga ni uliopo; atafunga ni ujao; alifunga ni uliopita.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mchezo wa kubadilisha nyakati",
+        "materials": ["Kadi za maneno: jana, sasa, kesho", "Daftari au tarakilishi"],
+        "steps": [
+          "Katika vikundi vya watatu, mmoja achague kitenzi kama soma, andika au funga.",
+          "Kila mmoja aandike sentensi ya nafsi ileile katika wakati tofauti: uliopita, uliopo na ujao.",
+          "Badilisheni kadi za jana, sasa na kesho, kisha geuzeni sentensi ili ikubaliane na kadi.",
+          "Soma sentensi darasani. Wenzako waseme kama kiambishi ni sahihi.",
+          "Andikeni sentensi sahihi daftarini au kwenye kifaa na mzishirikishe na kundi lingine."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 160\" font-family=\"sans-serif\"><rect width=\"540\" height=\"160\" fill=\"#ffffff\"/><rect x=\"10\" y=\"16\" width=\"165\" height=\"128\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><rect x=\"188\" y=\"16\" width=\"165\" height=\"128\" rx=\"8\" fill=\"#ecfdf5\" stroke=\"#166534\" stroke-width=\"2\"/><rect x=\"366\" y=\"16\" width=\"164\" height=\"128\" rx=\"8\" fill=\"#fff7ed\" stroke=\"#c2410c\" stroke-width=\"2\"/><g text-anchor=\"middle\" fill=\"#111827\"><text x=\"92\" y=\"44\" font-size=\"14\" font-weight=\"bold\">Uliopita</text><text x=\"92\" y=\"70\" font-size=\"13\">jana, -li-</text><text x=\"92\" y=\"104\" font-size=\"18\" font-weight=\"bold\" fill=\"#1d4ed8\">nilisoma</text><text x=\"270\" y=\"44\" font-size=\"14\" font-weight=\"bold\">Uliopo</text><text x=\"270\" y=\"70\" font-size=\"13\">sasa, -na-</text><text x=\"270\" y=\"104\" font-size=\"18\" font-weight=\"bold\" fill=\"#166534\">ninasoma</text><text x=\"448\" y=\"44\" font-size=\"14\" font-weight=\"bold\">Ujao</text><text x=\"448\" y=\"70\" font-size=\"13\">kesho, -ta-</text><text x=\"448\" y=\"104\" font-size=\"18\" font-weight=\"bold\" fill=\"#c2410c\">nitasoma</text></g></svg>",
+        "caption": "Nyakati tatu za nafsi ya mimi kwa kitenzi soma"
+      },
+      "practice": [
+        { "question": "Kiambishi cha wakati ujao ni kipi?", "answer": "-ta-", "check": null },
+        { "question": "Jaza: Kesho wao ______ (andika) insha.", "answer": "wataandika", "check": null },
+        { "question": "Andika upya kwa wakati uliopita: Kesho Amina atafunga kabati.", "answer": "Jana Amina alifunga kabati.", "check": null },
+        { "question": "Kwa nini kazi ya kubadilisha sentensi na wenzako inafaa?", "answer": "Kwa sababu tunasaidiana kuona makosa na kujifunza kwa furaha.", "check": null }
+      ],
+      "summary": [
+        "Wakati ujao hutumia -ta-, kama katika nitasoma.",
+        "Unapobadilisha wakati, badilisha kiambishi na neno la muda.",
+        "-li- ni jana, -na- ni sasa, -ta- ni kesho."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kiambishi -li- kinaonyesha wakati gani?",
+      "options": ["Wakati ujao", "Wakati uliopita", "Wakati uliopo", "Hali ya amri"],
+      "answer": "B",
+      "explanation": "-li- huwekwa katika kitenzi cha kitendo kilichokwisha fanyika, kama nilisoma.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Kiambishi cha wakati uliopo ni kipi?",
+      "options": ["-ta-", "-li-", "-na-", "-ki-"],
+      "answer": "C",
+      "explanation": "Anasoma na tunasoma vina -na-, kiambishi cha sasa.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Ni neno lipi lina kiambishi cha wakati ujao?",
+      "options": ["tulisoma", "tunasoma", "tutasoma", "husoma"],
+      "answer": "C",
+      "explanation": "tutasoma = tu- + -ta- + soma.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Katika neno nilirudi, -li- lina maana gani?",
+      "answer": "Linaonyesha wakati uliopita.",
+      "explanation": "ni- ni nafsi ya mimi, -li- ni wakati, na rudi ni sehemu iliyobaki.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Ni kitenzi gani cha wakati uliopita?",
+      "options": ["anaandika", "aliandika", "ataandika", "anaandika tena"],
+      "answer": "B",
+      "explanation": "aliandika kina -li-.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Soma: \"Leo tunafunga madirisha. Jana tulifunga mlango.\" Kitenzi cha wakati uliopo ni kipi?",
+      "answer": "tunafunga",
+      "explanation": "tunafunga kina -na-. tulifunga kina -li-.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Jaza nafasi: Sasa mimi ______ (soma) kifungu.",
+      "options": ["nilisoma", "ninasoma", "nitasoma", "mlisoma"],
+      "answer": "B",
+      "explanation": "Sasa kinahitaji wakati uliopo: ni- + -na- + soma.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Andika sentensi \"Jana yeye alisoma\" katika wakati ujao.",
+      "answer": "Kesho yeye atasoma.",
+      "explanation": "Nafsi ya yeye hubaki a-, na -li- hubadilika kuwa -ta-. Jana hubadilika kuwa kesho.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Chagua sentensi sahihi.",
+      "options": ["Kesho tuliandika insha.", "Jana tutaandika insha.", "Kesho tutaandika insha.", "Sasa tuliandika insha."],
+      "answer": "C",
+      "explanation": "Kesho linakubaliana na -ta- katika tutaandika.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Unapobadilisha sentensi na wenzako, nini kinakusaidia kujifunza?",
+      "answer": "Kusasahihishana na kujaribu tena kunafanya zoezi liwe wazi na la kufurahisha.",
+      "explanation": "Kazi ya pamoja hukagua kama kiambishi na neno la muda vinakubaliana.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 10.0 Kukabiliana na Uhalifu, Mada Ndogo 10.4.1 Nyakati na Hali"
+  ]
+}

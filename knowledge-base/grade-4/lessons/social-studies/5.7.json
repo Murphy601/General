@@ -1,0 +1,332 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "5.7",
+  "title": "The County Governments in Kenya",
+  "overview": "Kenya has 47 counties, and each one has a county government. In this sub-strand you will identify how that government is structured, explain what the governor does, explain what a member of the county assembly does, and see why county government matters to daily life.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Why Kenya has county governments",
+      "outcomes": ["d", "a"],
+      "objectives": [
+        "State that Kenya has 47 counties, each with a county government.",
+        "Explain why a county government is important."
+      ],
+      "intro": "A health centre, a cattle dip, a market shed or a county road is often closer to your home than any office in the capital. County government is the reason many of those local services exist.",
+      "notes": "Kenya is divided into 47 counties. Each county has its own county government. County governments were created so that decisions and services would be closer to the people, instead of everything being decided far away.\n\nThis closeness is called devolution. Devolution means sharing power between the national government and the county governments. The national government looks after the whole country. The county government looks after the county.\n\n### Why a county government is important\n- It brings services nearer to the people. County work includes county health services, agriculture, county roads, early childhood education, and local markets and trade. Your county may be stronger in some of these than in others.\n- It lets people of the county choose their own leaders.\n- It can pass laws and plans that fit the county, within the Constitution of Kenya.\n- It uses money, including money sent from the national government, for development in the county.\n- It gives citizens a nearer place to ask questions about local services.\n\nThe county government is not the same as the national government officers you may already know. A chief serves a location under the national administration. The governor serves the county government. Both may work in the same county, but they are not the same office.\n\nFind out the name of your county. There are 47, so do not guess. A parent, a teacher or the county’s public information can tell you. Appreciate the county government by learning its real work, not by repeating slogans.",
+      "keyWords": [
+        { "word": "county", "meaning": "one of the 47 areas into which Kenya is divided for local government" },
+        { "word": "county government", "meaning": "the government that runs a county" },
+        { "word": "devolution", "meaning": "the sharing of power so that county governments handle many local services" }
+      ],
+      "examples": [
+        {
+          "problem": "How many counties does Kenya have?",
+          "steps": ["The Constitution divides Kenya into counties.", "The number is fixed at 47."],
+          "answer": "47.",
+          "check": null
+        },
+        {
+          "problem": "A learner says the chief and the governor are the same person. What is the correction?",
+          "steps": ["The chief is a national administration officer in a location.", "The governor heads the county government."],
+          "answer": "They are different offices. The governor leads the county government. The chief does not.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Our county",
+        "materials": ["Exercise book", "A map of Kenya showing counties if the school has one"],
+        "steps": [
+          "Write the name of your county and the fact that Kenya has 47 counties.",
+          "Brainstorm services you think the county government provides near your school.",
+          "Sort the ideas into health, agriculture, roads, early childhood education and markets.",
+          "Put a question mark beside any service you are not sure about, and ask the teacher before you state it as a fact."
+        ]
+      },
+      "practice": [
+        { "question": "How many counties are there in Kenya?", "answer": "47.", "check": null },
+        { "question": "What is devolution?", "answer": "Sharing power so that county governments handle many services close to the people.", "check": null },
+        { "question": "Name two services associated with county government.", "answer": "Any two: county health services, agriculture, county roads, early childhood education, and local markets.", "check": null }
+      ],
+      "summary": [
+        "Kenya has 47 counties, each with a county government.",
+        "Devolution brings many services and decisions closer to the people.",
+        "The governor’s office is not the same as the chief’s office."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The structure of the county government",
+      "outcomes": ["a"],
+      "objectives": [
+        "Identify the two arms of the county government.",
+        "Name the main leaders in each arm."
+      ],
+      "intro": "A county government is not one person sitting in an office. It has an arm that carries out services and an arm that makes county laws and checks that work. Both arms are needed.",
+      "notes": "The county government has two arms.\n\n### The county executive\nThe executive carries out the work of the county. It is led by:\n\n- The governor, who is the head of the county government and is elected by voters in the county\n- The deputy governor, who assists the governor and acts when the governor is absent\n- The county executive committee, whose members are appointed by the governor and approved by the county assembly. Each member usually looks after a department such as health, agriculture or roads\n\n### The county assembly\nThe county assembly makes county laws, approves plans and the budget, and watches how the executive uses power and money. It is made up of:\n\n- The speaker, who chairs the assembly sittings\n- Members of the county assembly, called MCAs. Voters in each ward elect an MCA. Other MCAs are nominated so that the assembly includes enough women, and includes youth, persons with disabilities and marginalised groups, as the Constitution requires\n\nThe executive and the assembly are separate on purpose. The people who carry out services should not be the only people who judge those services. The assembly questions the executive. The executive must answer.\n\nWhen you outline the structure, start with 'County government', then split into 'County executive' and 'County assembly', then list the leaders under each. Do not put the MCA under the governor as if the governor employs them. MCAs are elected or nominated to the assembly. They are not the governor’s staff.",
+      "keyWords": [
+        { "word": "county executive", "meaning": "the arm of the county government that carries out services, led by the governor" },
+        { "word": "county assembly", "meaning": "the arm that makes county laws and oversees the executive" },
+        { "word": "governor", "meaning": "the elected head of the county government" }
+      ],
+      "examples": [
+        {
+          "problem": "Which arm of the county government does the governor lead, and which arm do MCAs belong to?",
+          "steps": ["The governor leads the people who carry out services.", "MCAs sit in the law-making arm."],
+          "answer": "The governor leads the county executive. MCAs belong to the county assembly.",
+          "check": null
+        },
+        {
+          "problem": "Why are some MCAs nominated rather than elected in a ward?",
+          "steps": ["The Constitution requires inclusion.", "Nomination brings in groups that might otherwise be missing."],
+          "answer": "So that women, youth, persons with disabilities and marginalised groups are represented, as the Constitution requires.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Outline the structure",
+        "materials": ["Manila paper", "Marker pens"],
+        "steps": [
+          "Brainstorm the leaders of the county government you have heard of.",
+          "Outline the structure in two columns: county executive and county assembly.",
+          "Place the governor, deputy governor and executive committee in the first column.",
+          "Place the speaker and MCAs in the second column.",
+          "Check that nobody has drawn MCAs as employees of the governor."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 260\" font-family=\"sans-serif\"><rect width=\"560\" height=\"260\" fill=\"#ffffff\"/><text x=\"280\" y=\"24\" text-anchor=\"middle\" font-size=\"15\" font-weight=\"bold\" fill=\"#1e3a8a\">County government</text><rect x=\"30\" y=\"48\" width=\"230\" height=\"190\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\"/><text x=\"145\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e3a8a\">County executive</text><text x=\"145\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e3a8a\">Governor</text><text x=\"145\" y=\"124\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e3a8a\">Deputy governor</text><text x=\"145\" y=\"148\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e3a8a\">County executive</text><text x=\"145\" y=\"166\" text-anchor=\"middle\" font-size=\"12\" fill=\"#1e3a8a\">committee</text><rect x=\"300\" y=\"48\" width=\"230\" height=\"190\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#166534\"/><text x=\"415\" y=\"72\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"bold\" fill=\"#14532d\">County assembly</text><text x=\"415\" y=\"100\" text-anchor=\"middle\" font-size=\"12\" fill=\"#14532d\">Speaker</text><text x=\"415\" y=\"124\" text-anchor=\"middle\" font-size=\"12\" fill=\"#14532d\">Elected MCAs</text><text x=\"415\" y=\"148\" text-anchor=\"middle\" font-size=\"12\" fill=\"#14532d\">Nominated MCAs</text></svg>",
+        "caption": "The two arms of a county government in Kenya"
+      },
+      "practice": [
+        { "question": "Name the two arms of the county government.", "answer": "The county executive and the county assembly.", "check": null },
+        { "question": "Who leads the county executive?", "answer": "The governor, assisted by the deputy governor and the county executive committee.", "check": null },
+        { "question": "Who chairs the sittings of the county assembly?", "answer": "The speaker.", "check": null }
+      ],
+      "summary": [
+        "The county executive, led by the governor, carries out services.",
+        "The county assembly, made up of the speaker and MCAs, makes laws and oversees the executive.",
+        "MCAs are not staff of the governor."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "The county assembly and the wards",
+      "outcomes": ["a", "c"],
+      "objectives": [
+        "Describe how the county assembly is organised.",
+        "Explain what a ward is and how it relates to an MCA."
+      ],
+      "intro": "Voters do not all queue at one desk to pick every MCA. Each ward elects its own member. That is how a village voice is supposed to reach the assembly chamber.",
+      "notes": "A ward is an electoral area inside a county. The people of the ward elect one member of the county assembly. If you know your ward, you know which elected MCA speaks for your area. Nominated MCAs represent special interests for the whole county. They do not replace the elected MCA of your ward.\n\n### Inside the assembly\n- The speaker controls debate and keeps order. The speaker is not the governor.\n- Elected MCAs sit for their wards.\n- Nominated MCAs sit for gender balance and for special interests.\n- The assembly meets to discuss county bills, plans and the budget. A bill is a proposal for a law. When the assembly passes a bill and the governor signs it, it can become a county law.\n- Committees of MCAs may look closely at one subject, such as health or roads, and report to the full assembly.\n\nDraw the county assembly like this: a speaker at the top, then two groups of members, elected and nominated. Under the elected group, write 'one from each ward'. Under the nominated group, write 'special seats'.\n\n### What this means for a learner\nYou may not vote yet, but you can know your ward and the title of the person who represents it. You can also see that the assembly is a group, not a single hero. Laws and budgets need many members. Respect for MCAs includes listening to what the assembly decides and asking respectful questions through adults, not insulting leaders because a project has not reached your road yet.\n\nDo not invent the name of your MCA if you do not know it. 'The MCA for our ward' is an honest phrase until you have checked the name.",
+      "keyWords": [
+        { "word": "ward", "meaning": "an electoral area in a county that elects one MCA" },
+        { "word": "MCA", "meaning": "a member of the county assembly" },
+        { "word": "bill", "meaning": "a proposal for a law, before it is passed" }
+      ],
+      "examples": [
+        {
+          "problem": "Each ward elects one MCA. What does that MCA represent in the assembly?",
+          "steps": ["The voters of that ward chose the member."],
+          "answer": "The people of that ward.",
+          "check": null
+        },
+        {
+          "problem": "Who signs a county bill after the assembly has passed it?",
+          "steps": ["The assembly passes bills.", "The governor gives assent by signing."],
+          "answer": "The governor.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Draw the county assembly",
+        "materials": ["Manila paper", "Pencils"],
+        "steps": [
+          "Draw the structure of the county assembly: speaker, elected MCAs and nominated MCAs.",
+          "Label the elected MCAs with the words 'one from each ward'.",
+          "Write the name of your ward if you know it. If you do not, write a question to ask at home.",
+          "Explain the drawing to another group."
+        ]
+      },
+      "practice": [
+        { "question": "What is a ward?", "answer": "An area in a county whose voters elect one member of the county assembly.", "check": null },
+        { "question": "What is the difference between an elected MCA and a nominated MCA?", "answer": "An elected MCA is chosen by the voters of a ward. A nominated MCA is chosen to represent special interests such as gender, youth, persons with disabilities or marginalised groups.", "check": null },
+        { "question": "What is a bill?", "answer": "A proposal for a law.", "check": null }
+      ],
+      "summary": [
+        "Each ward elects one MCA.",
+        "Nominated MCAs add representation required by the Constitution.",
+        "The speaker guides the assembly. The governor signs bills the assembly has passed."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Duties of the county governor",
+      "outcomes": ["b"],
+      "objectives": [
+        "Explain the duties of the county governor.",
+        "Give an example of each duty in county life."
+      ],
+      "intro": "People sometimes think the governor’s only job is to appear at public events. The office is heavier than a ceremony. The governor is responsible for how the county is led and how its resources are used.",
+      "notes": "The governor is the chief executive of the county. Voters in the county elect the governor. These are the duties you should be able to explain.\n\n- Provide leadership to the county executive committee and to the governance of the county\n- Make sure that county laws and plans are carried out\n- Appoint the members of the county executive committee, with the approval of the county assembly. The governor does not appoint them alone\n- Submit county plans and policies to the county assembly for approval\n- Sign bills passed by the county assembly so that they can become county laws\n- Represent the county, including when meeting national leaders\n- Promote peace, unity, democracy and development in the county\n- Account for the management and use of the county’s resources and money. To account means to explain how they were used\n\nThe deputy governor assists in these duties and acts when the governor is not available.\n\nThe governor does not do every task personally. Health workers, agricultural officers and road teams do the daily work. The governor leads them through the executive committee and must answer for the results.\n\nThe governor is not above the assembly or the law. If the assembly asks how money was spent, the executive is supposed to answer. A good governor welcomes that checking. It protects the public.\n\nLearn the duties without memorising the name of today’s office-holder as if the name were the lesson. Governors change at elections. The duties remain.",
+      "keyWords": [
+        { "word": "chief executive", "meaning": "the person who heads the arm of government that carries out decisions" },
+        { "word": "appoint", "meaning": "to choose a person officially for a post" },
+        { "word": "account", "meaning": "to explain how money, resources or power were used" }
+      ],
+      "examples": [
+        {
+          "problem": "The governor wants to appoint a county executive committee member for health. What must happen as well?",
+          "steps": ["The governor nominates.", "The county assembly must approve."],
+          "answer": "The county assembly must approve the appointment.",
+          "check": null
+        },
+        {
+          "problem": "The assembly passes a bill about markets. What is the governor’s duty next?",
+          "steps": ["A passed bill still needs assent.", "Assent is the governor’s signature."],
+          "answer": "To sign the bill if it is to become county law.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Duties of the governor",
+        "materials": ["Exercise book", "Manila paper"],
+        "steps": [
+          "List the duties of the governor in your own words.",
+          "Beside three duties, write a simple example, such as signing a bill or answering for county money.",
+          "Discuss the list in groups.",
+          "Underline any duty that needs the county assembly as well, so you remember the governor does not work alone."
+        ]
+      },
+      "practice": [
+        { "question": "State four duties of the county governor.", "answer": "Any four: leading the county executive, carrying out county laws and plans, appointing executive members with the assembly’s approval, submitting plans, signing bills, representing the county, promoting peace and development, and accounting for county resources.", "check": null },
+        { "question": "Who approves the people the governor appoints to the county executive committee?", "answer": "The county assembly.", "check": null },
+        { "question": "What does it mean for the governor to account for county money?", "answer": "To explain how the county’s money and resources were used.", "check": null }
+      ],
+      "summary": [
+        "The governor leads the county executive and is elected by the county’s voters.",
+        "Duties include carrying out plans, appointing executive members with approval, signing bills and accounting for resources.",
+        "The governor works with the assembly and under the law."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Roles of a member of the county assembly",
+      "outcomes": ["c"],
+      "objectives": [
+        "Explain the roles of an MCA.",
+        "Show how those roles help the people of a ward."
+      ],
+      "intro": "If a market is planned and nobody from your ward is allowed to question the plan, the ward can be forgotten. The MCA’s roles exist so that the ward is not forgotten.",
+      "notes": "A member of the county assembly has roles in the chamber and roles among the people of the ward.\n\n### Roles of an MCA\n- Represent the people of the ward. For a nominated MCA, represent the special interest for which they were nominated\n- Take part in making county laws by debating and voting on bills\n- Approve the county budget and county development plans. The budget is the plan of how the county will raise and spend money\n- Approve appointments of county executive committee members\n- Oversee the county executive. Oversee means to watch and question, so that services are delivered and money is used properly\n- Present the needs of the ward, such as a health centre, a road or a market, during county planning\n- Keep in touch with the ward and explain county decisions in language people understand\n- Promote peace and respect among the communities in the ward\n\nAn MCA is not the governor’s assistant, and an MCA does not personally employ all county workers. The MCA’s power is mainly in the assembly: laws, the budget, approvals and questions. Promising to 'build everything myself' is a misunderstanding of the office.\n\nRespect for MCAs, which the Constitution’s idea of leadership also asks of citizens, means you speak about them truthfully. You may disagree with a decision. Disagreement is not the same as insult. Adults in the ward can attend public forums and ask questions. Learners can learn the roles so they are not fooled by false promises.\n\nBoth women and men can be MCAs. A ward does not lose representation when its MCA is a woman. The Constitution’s special seats exist because women, youth, persons with disabilities and marginalised groups must not be left out.",
+      "keyWords": [
+        { "word": "budget", "meaning": "a plan of how money will be raised and spent" },
+        { "word": "oversee", "meaning": "to watch work or spending and ask questions about it" },
+        { "word": "represent", "meaning": "to speak and act for other people" }
+      ],
+      "examples": [
+        {
+          "problem": "The county executive wants to spend a large sum on a project. Which role lets MCAs examine that spending?",
+          "steps": ["MCAs approve the budget.", "They also oversee how money is used."],
+          "answer": "Approving the budget and overseeing the executive.",
+          "check": null
+        },
+        {
+          "problem": "An MCA says, 'I alone will employ every nurse in the county.' What is wrong with the claim?",
+          "steps": ["Health services involve the county executive.", "An MCA’s main power is in the assembly, not as the employer of all staff."],
+          "answer": "The claim confuses the MCA’s role with the executive’s work.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Roles of the MCA",
+        "materials": ["Manila paper"],
+        "steps": [
+          "Discuss the roles of an MCA and write them in a list.",
+          "Sort them into 'in the assembly' and 'in the ward'.",
+          "Role-play a respectful question from a ward resident about a stalled project.",
+          "Say how the MCA should answer if the project depends on the whole assembly and the budget, not on one person."
+        ]
+      },
+      "practice": [
+        { "question": "State four roles of an MCA.", "answer": "Any four: represent the ward, make county laws, approve the budget and plans, approve executive appointments, oversee the executive, present the ward’s needs and explain decisions to the public.", "check": null },
+        { "question": "What is a budget?", "answer": "A plan of how money will be raised and spent.", "check": null },
+        { "question": "Why are nominated seats part of the assembly?", "answer": "To include women, youth, persons with disabilities and marginalised groups, as the Constitution requires.", "check": null }
+      ],
+      "summary": [
+        "An MCA represents people, makes laws, approves the budget and oversees the executive.",
+        "The office is not the same as the governor’s.",
+        "Respect includes truthful talk and fair inclusion."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Ward and village administrators",
+      "outcomes": ["a", "d"],
+      "objectives": [
+        "Describe the administrative units below the county.",
+        "Explain the duties of the ward administrator and the village administrator."
+      ],
+      "intro": "A law passed in the assembly still has to reach a village. Administrators are the people who help county work move from the county headquarters down to the ward and the village.",
+      "notes": "Below the county, administration is organised in smaller units. The usual order is:\n\n- The county\n- Sub-counties, each with a sub-county administrator\n- Wards, each with a ward administrator\n- Villages, each with a village administrator\n\nThese administrators are officers of the county government. They are not the same as the MCA. The MCA is an elected member of the assembly. The ward administrator is an employee who coordinates administration in the ward. They should work together, but their jobs differ.\n\n### Duties of the ward administrator\n- Coordinate and manage general administration in the ward\n- Help to carry out county policies, plans and services in the ward\n- Supervise development activities in the ward\n- Link the ward with the sub-county administrator\n- Work with the village administrators in that ward\n\n### Duties of the village administrator\n- Coordinate administration in the village\n- Help people in the village take part in county programmes\n- Support development activities and service delivery in the village\n- Report village matters to the ward administrator\n\nNeither officer replaces the governor or the assembly. They do not make county laws. They help to carry out what has already been decided, and they pass information up and down.\n\nA visit to a county office, or a video the teacher shows, can make this structure easier to see. On a visit, stay with the teacher, be polite, and prepare questions such as: Who is the ward administrator? Which services are handled at this office?\n\nAppreciating county government includes using services carefully, reporting damage to public property, and learning the structure so that you ask the right office for help. Insulting leaders, or damaging a county project, does not improve services.",
+      "keyWords": [
+        { "word": "ward administrator", "meaning": "the county officer who coordinates administration in a ward" },
+        { "word": "village administrator", "meaning": "the county officer who coordinates administration in a village" },
+        { "word": "sub-county", "meaning": "an administrative area of a county, made up of wards" }
+      ],
+      "examples": [
+        {
+          "problem": "Who is elected by the ward to sit in the county assembly, and who is employed to coordinate administration in the ward?",
+          "steps": ["Voters elect the MCA.", "The ward administrator is an administrative officer."],
+          "answer": "The MCA is elected. The ward administrator is the administrative officer.",
+          "check": null
+        },
+        {
+          "problem": "A village administrator wants a county law changed. What is the right path?",
+          "steps": ["Administrators do not pass laws.", "Law-making belongs to the county assembly."],
+          "answer": "The concern can be reported upwards, but the county assembly is the arm that makes county laws.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "From county to village",
+        "materials": ["Manila paper", "Information from a county visit, a video or a resource person"],
+        "steps": [
+          "Draw four levels: county, sub-county, ward and village.",
+          "Write the administrator at each level below the county.",
+          "Add the governor beside the county level and the MCA beside the ward, and label them as elected leaders, not as administrators.",
+          "List two duties of the ward administrator and two duties of the village administrator.",
+          "If you visit an office or watch a clip, write one new fact you can prove from what you saw or were told."
+        ]
+      },
+      "practice": [
+        { "question": "List the administrative levels from the county down to the village.", "answer": "County, sub-county, ward and village.", "check": null },
+        { "question": "State two duties of a ward administrator.", "answer": "Any two: coordinate administration in the ward, help carry out county plans and services, supervise development activities, and work with village administrators.", "check": null },
+        { "question": "How is a village administrator different from an MCA?", "answer": "The village administrator is a county officer who coordinates village administration. The MCA is a member of the county assembly who represents people and takes part in making laws.", "check": null }
+      ],
+      "summary": [
+        "Administration runs from the county to sub-counties, wards and villages.",
+        "The ward administrator and the village administrator carry out and coordinate county work.",
+        "They are not the governor and they are not MCAs."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "How many counties does Kenya have?", "options": ["8", "47", "290", "12"], "answer": "B", "explanation": "Kenya is divided into 47 counties.", "outcome": "a" },
+    { "question": "The two arms of the county government are:", "options": ["The county executive and the county assembly", "The chief and the village elder", "The school and the market", "The president and the class prefect"], "answer": "A", "explanation": "The executive carries out services. The assembly makes county laws and oversees the executive.", "outcome": "a" },
+    { "question": "The governor leads:", "options": ["The county executive", "The national parliament only", "Every church in the county", "The children’s government at school"], "answer": "A", "explanation": "The governor is the elected head of the county executive.", "outcome": "a" },
+    { "question": "MCAs belong to:", "options": ["The county assembly", "The county executive committee as its employees", "The national police only", "A private company"], "answer": "A", "explanation": "MCAs are members of the county assembly. They are not the governor’s staff.", "outcome": "a" },
+    { "question": "A duty of the governor is to:", "options": ["Sign bills passed by the county assembly", "Replace every chief", "Cancel the Constitution", "Elect themselves without voters"], "answer": "A", "explanation": "The governor gives assent to county bills and leads the executive.", "outcome": "b" },
+    { "question": "County executive committee members are:", "options": ["Appointed by the governor and approved by the county assembly", "Chosen by a class vote", "The same people as village elders", "Appointed with no approval"], "answer": "A", "explanation": "The governor appoints them, and the assembly must approve.", "outcome": "b" },
+    { "question": "A role of an MCA is to:", "options": ["Represent the ward and take part in making county laws", "Command the national army", "Run every school personally", "Replace the speaker and the governor"], "answer": "A", "explanation": "Representation and law-making are central roles of an MCA.", "outcome": "c" },
+    { "question": "Approving the county budget is mainly the work of:", "options": ["The county assembly", "A maize mill", "Tourists", "The peace corner"], "answer": "A", "explanation": "MCAs approve the plan of how the county will raise and spend money.", "outcome": "c" },
+    { "question": "The ward administrator:", "options": ["Coordinates administration and services in the ward", "Is the same person as the elected MCA", "Signs county bills", "Is elected as governor"], "answer": "A", "explanation": "The ward administrator is a county officer. The MCA is the elected member of the assembly.", "outcome": "a" },
+    { "question": "The village administrator reports to:", "options": ["The ward administrator", "The speaker of the national parliament", "The class president", "A tourist"], "answer": "A", "explanation": "Village administration links upward to the ward administrator.", "outcome": "a" },
+    { "question": "Why is a county government important?", "answer": "It brings services and decisions closer to the people of the county, and it lets them choose county leaders.", "explanation": "This is the purpose of devolution.", "outcome": "d" },
+    { "question": "Why should learners not insult county leaders or damage county projects?", "answer": "Respect and care for public property help services to work. Disagreement can be raised truthfully through proper offices.", "explanation": "Appreciation of county government includes truthful, respectful citizenship.", "outcome": "d" }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 5.0 Citizenship and Governance in Kenya, Sub-strand 5.7 The County Governments in Kenya",
+    "Constitution of Kenya (2010), Chapter Eleven; County Governments Act — structure of the county executive, county assembly, wards, and ward and village administrators"
+  ]
+}

@@ -99,7 +99,10 @@ export interface VideoScriptSection {
 export interface CurriculumGrade {
   grade: string;
   label: string;
-  subjects: Record<string, { subject: string; topics: Array<{ topicNumber: string; topicName: string; slug: string; topicOrder: number }> }>;
+  subjects: Record<
+    string,
+    { subject: string; topics: Array<{ topicNumber: string; topicName: string; slug: string; topicOrder: number; strand?: string }> }
+  >;
 }
 
 export interface MembershipPlan {
