@@ -58,6 +58,12 @@ const LABELS = {
     quizTitle: 'REVISION QUIZ',
     quizLead: 'Answer all the questions, then mark yourself on the Answers tab.',
     answersTitle: 'ANSWERS',
+    pageOverview: 'Overview',
+    pageOutcomes: 'Learning outcomes',
+    pagePlan: 'How we will learn',
+    experiences: 'Learning experiences',
+    pageQuiz: 'Revision quiz',
+    pageQuizAnswers: 'Quiz answers',
   },
   sw: {
     overview: 'UTANGULIZI WA MADA',
@@ -91,6 +97,12 @@ const LABELS = {
     quizTitle: 'MASWALI YA MARUDIO',
     quizLead: 'Jibu maswali yote, kisha jisahihishe ukitumia kichupo cha Majibu.',
     answersTitle: 'MAJIBU',
+    pageOverview: 'Utangulizi',
+    pageOutcomes: 'Matokeo ya kujifunza',
+    pagePlan: 'Jinsi ya kujifunza',
+    experiences: 'Shughuli za kujifunza',
+    pageQuiz: 'Maswali ya marudio',
+    pageQuizAnswers: 'Majibu ya maswali',
   },
 };
 
@@ -100,64 +112,6 @@ function bullets(items) {
 
 function divider(title) {
   return `${title.toUpperCase()}\n${'='.repeat(Math.min(60, Math.max(4, title.length)))}`;
-}
-
-function overviewPage(pack, strand, sub, meta, L) {
-  const parts = [
-    divider(L.overview),
-    pack.overview,
-    `## ${L.strand} ${strand.number}: ${strand.name}\n${L.subStrand} ${sub.number}: ${sub.name}\n${L.suggested}: ${sub.lessons}`,
-    `## ${L.outcomes}\n${L.outcomesLead}\n${sub.outcomes.map((o) => `${o.id}) ${o.text}`).join('\n')}`,
-  ];
-  if (sub.content?.length) parts.push(`## ${L.content}\n${bullets(sub.content)}`);
-  if (sub.keyInquiryQuestions?.length) {
-    parts.push(`## ${L.kiq}\n${sub.keyInquiryQuestions.map((q, i) => `${i + 1}. ${q}`).join('\n')}`);
-  }
-  if (sub.coreCompetencies?.length) parts.push(`## ${L.competencies}\n${bullets(sub.coreCompetencies)}`);
-  if (sub.values?.length) parts.push(`## ${L.values}\n${bullets(sub.values)}`);
-  if (sub.pcis?.length) parts.push(`## ${L.pcis}\n${bullets(sub.pcis)}`);
-  if (sub.links?.length) parts.push(`## ${L.links}\n${bullets(sub.links)}`);
-  parts.push(`## ${L.source}\n${bullets(pack.sources)}`);
-  return parts.join('\n\n');
-}
-
-function lessonPage(lesson, sub, L) {
-  const outcomeText = lesson.outcomes
-    .map((id) => sub.outcomes.find((o) => o.id === id))
-    .filter(Boolean)
-    .map((o) => `${o.id}) ${o.text}`);
-  const parts = [
-    divider(`${L.lesson} ${lesson.number}: ${lesson.title}`),
-    `## ${L.learn}\n${bullets(lesson.objectives)}\n\n${L.curriculum}: ${outcomeText.join('; ')}`,
-    `## ${L.intro}\n${lesson.intro}`,
-    `## ${L.notes}\n${lesson.notes}`,
-  ];
-  if (lesson.diagram?.svg) {
-    const caption = lesson.diagram.caption || '';
-    parts.push(
-      `[DIAGRAM]\nTYPE: svg\nALT: ${caption || lesson.title}\nPAYLOAD:\n${lesson.diagram.svg.replace(/\n/g, ' ')}\nCAPTION: ${caption}\n[/DIAGRAM]`,
-    );
-  }
-  if (lesson.keyWords?.length) {
-    parts.push(`## ${L.keyWords}\n${bullets(lesson.keyWords.map((k) => `${k.word} — ${k.meaning}`))}`);
-  }
-  if (lesson.examples?.length) {
-    const ex = lesson.examples.map((e, i) => {
-      const steps = (e.steps || []).map((s, j) => `${j + 1}. ${s}`).join('\n');
-      return `### ${L.example} ${i + 1}\n${e.problem}${steps ? `\n\n${L.working}:\n${steps}` : ''}\n\n${L.answer}: ${e.answer}`;
-    });
-    parts.push(`## ${L.examples}\n\n${ex.join('\n\n')}`);
-  }
-  const act = lesson.activity;
-  parts.push(
-    `## ${L.activity}: ${act.title}${act.materials?.length ? `\n${L.materials}: ${act.materials.join(', ')}` : ''}\n${act.steps
-      .map((s, i) => `${i + 1}. ${s}`)
-      .join('\n')}`,
-  );
-  parts.push(`## ${L.practice}\n${lesson.practice.map((p, i) => `${i + 1}. ${p.question}`).join('\n')}`);
-  parts.push(`## ${L.summary}\n${bullets(lesson.summary || [])}`);
-  parts.push(`### ${L.practiceAnswers}\n${lesson.practice.map((p, i) => `${i + 1}. ${p.answer}`).join('\n')}`);
-  return parts.join('\n\n');
 }
 
 function quizText(pack, sub, L) {
@@ -180,17 +134,249 @@ function answersText(pack, sub, L) {
   return `${L.answersTitle} — ${sub.number} ${sub.name.toUpperCase()}\n${'='.repeat(40)}\n\n${as.join('\n\n')}`;
 }
 
+function wc(s) {
+  return String(s || '').split(/\s+/).filter(Boolean).length;
+}
+
+function makeAtom(title, blocks) {
+  const kept = blocks.filter((b) => String(b || '').trim());
+  const body = kept.join('\n\n');
+  return { title, blocks: kept, body, words: wc(body) };
+}
+
+function diagramBlock(lesson) {
+  if (!lesson.diagram?.svg) return '';
+  const caption = lesson.diagram.caption || '';
+  return `[DIAGRAM]\nTYPE: svg\nALT: ${caption || lesson.title}\nPAYLOAD:\n${lesson.diagram.svg.replace(/\n/g, ' ')}\nCAPTION: ${caption}\n[/DIAGRAM]`;
+}
+
+function exampleBlock(example, index, L) {
+  const steps = (example.steps || []).map((s, j) => `${j + 1}. ${s}`).join('\n');
+  return `### ${L.example} ${index + 1}\n${example.problem}${steps ? `\n\n${L.working}:\n${steps}` : ''}\n\n${L.answer}: ${example.answer}`;
+}
+
+/** Break notes on headings, then on paragraphs, so a long lesson can fill more than one page. */
+function noteChunks(notes) {
+  const raw = String(notes || '').trim();
+  if (!raw) return [];
+  const sections = raw.split(/\n(?=### )/).map((s) => s.trim()).filter(Boolean);
+  const chunks = [];
+  for (const section of sections) {
+    if (wc(section) <= 150) {
+      chunks.push(section);
+      continue;
+    }
+    const paras = section.split(/\n\n+/);
+    let cur = [];
+    let n = 0;
+    for (const p of paras) {
+      const w = wc(p);
+      if (cur.length && n + w > 120) {
+        chunks.push(cur.join('\n\n'));
+        cur = [];
+        n = 0;
+      }
+      cur.push(p);
+      n += w;
+    }
+    if (cur.length) chunks.push(cur.join('\n\n'));
+  }
+  return chunks;
+}
+
+function lessonLabel(lesson, L) {
+  const word = `${L.lesson.charAt(0)}${L.lesson.slice(1).toLowerCase()}`;
+  return `${word} ${lesson.number}: ${lesson.title}`;
+}
+
+/**
+ * Study pages are slices of the lesson pack and the official syllabus text.
+ * Nothing new is written here: short packs are split more finely, long packs
+ * are joined back together, until each topic is about 20 pages.
+ */
+function studyAtoms(pack, strand, sub, L) {
+  const atoms = [];
+  atoms.push(makeAtom(L.pageOverview, [
+    divider(L.overview),
+    pack.overview,
+    `## ${L.strand} ${strand.number}: ${strand.name}\n${L.subStrand} ${sub.number}: ${sub.name}\n${L.suggested}: ${sub.lessons}`,
+    sub.content?.length ? `## ${L.content}\n${bullets(sub.content)}` : '',
+    `## ${L.source}\n${bullets(pack.sources || [])}`,
+  ]));
+  atoms.push(makeAtom(L.pageOutcomes, [
+    `## ${L.outcomes}\n${L.outcomesLead}\n${sub.outcomes.map((o) => `${o.id}) ${o.text}`).join('\n')}`,
+    sub.keyInquiryQuestions?.length
+      ? `## ${L.kiq}\n${sub.keyInquiryQuestions.map((q, i) => `${i + 1}. ${q}`).join('\n')}`
+      : '',
+  ]));
+  atoms.push(makeAtom(L.pagePlan, [
+    sub.learningExperiences?.length ? `## ${L.experiences}\n${bullets(sub.learningExperiences)}` : '',
+    sub.coreCompetencies?.length ? `## ${L.competencies}\n${bullets(sub.coreCompetencies)}` : '',
+    sub.values?.length ? `## ${L.values}\n${bullets(sub.values)}` : '',
+    sub.pcis?.length ? `## ${L.pcis}\n${bullets(sub.pcis)}` : '',
+    sub.links?.length ? `## ${L.links}\n${bullets(sub.links)}` : '',
+  ]));
+
+  for (const lesson of pack.lessons || []) {
+    const title = lessonLabel(lesson, L);
+    const outcomeText = (lesson.outcomes || [])
+      .map((id) => sub.outcomes.find((o) => o.id === id))
+      .filter(Boolean)
+      .map((o) => `${o.id}) ${o.text}`);
+    atoms.push(makeAtom(title, [
+      divider(title),
+      `## ${L.learn}\n${bullets(lesson.objectives || [])}\n\n${L.curriculum}: ${outcomeText.join('; ')}`,
+      `## ${L.intro}\n${lesson.intro}`,
+    ]));
+
+    const chunks = noteChunks(lesson.notes);
+    chunks.forEach((chunk, i) => {
+      const heading = (chunk.match(/^###\s+(.+)/) || [])[1];
+      const pageTitle = heading
+        ? `${title} — ${heading.replace(/\*\*/g, '').trim()}`
+        : `${title} — ${L.notes}${chunks.length > 1 ? ` ${i + 1}` : ''}`;
+      const blocks = (i === 0 ? [`## ${L.notes}`, chunk] : [chunk]).flatMap((b) => String(b).split(/\n\n+/));
+      if (i === chunks.length - 1) {
+        const diagram = diagramBlock(lesson);
+        if (diagram) blocks.push(diagram);
+      }
+      atoms.push(makeAtom(pageTitle, blocks));
+    });
+
+    if (lesson.keyWords?.length) {
+      atoms.push(makeAtom(`${title} — ${L.keyWords}`, [
+        `## ${L.keyWords}\n${bullets(lesson.keyWords.map((k) => `${k.word} — ${k.meaning}`))}`,
+      ]));
+    }
+    (lesson.examples || []).forEach((example, i) => {
+      atoms.push(makeAtom(`${title} — ${L.example} ${i + 1}`, [
+        `## ${L.examples}`,
+        exampleBlock(example, i, L),
+      ]));
+    });
+    if (lesson.activity?.steps?.length) {
+      const act = lesson.activity;
+      atoms.push(makeAtom(`${title} — ${act.title}`, [
+        `## ${L.activity}: ${act.title}${act.materials?.length ? `\n${L.materials}: ${act.materials.join(', ')}` : ''}`,
+        ...act.steps.map((s, i) => `${i + 1}. ${s}`),
+      ]));
+    }
+    if (lesson.practice?.length) {
+      atoms.push(makeAtom(`${title} — ${L.practice}`, [
+        `## ${L.practice}`,
+        ...lesson.practice.map((p, i) => `${i + 1}. ${p.question}`),
+      ]));
+      atoms.push(makeAtom(`${title} — ${L.practiceAnswers}`, [
+        `## ${L.practiceAnswers}`,
+        ...lesson.practice.map((p, i) => `${i + 1}. ${p.answer}`),
+      ]));
+    }
+    if (lesson.summary?.length) {
+      atoms.push(makeAtom(`${title} — ${L.summary}`, [
+        `## ${L.summary}\n${bullets(lesson.summary)}`,
+      ]));
+    }
+  }
+
+  if (pack.quiz?.length) {
+    atoms.push(makeAtom(L.pageQuiz, [
+      divider(L.quizTitle),
+      L.quizLead,
+      ...pack.quiz.map((q, i) => {
+        const opts = q.options ? `\n${q.options.map((o, j) => `   ${String.fromCharCode(65 + j)}. ${o}`).join('\n')}` : '';
+        return `${i + 1}. ${q.question}${opts}`;
+      }),
+    ]));
+    atoms.push(makeAtom(L.pageQuizAnswers, [
+      divider(L.answersTitle),
+      ...pack.quiz.map((q, i) => {
+        let ans = String(q.answer);
+        if (q.options && /^[A-Z]$/i.test(ans.trim())) {
+          const idx = ans.trim().toUpperCase().charCodeAt(0) - 65;
+          ans = `${ans.trim().toUpperCase()}. ${q.options[idx] || ''}`.trim();
+        }
+        return `${i + 1}. ${ans}${q.explanation ? `\n   ${q.explanation}` : ''}`;
+      }),
+    ]));
+  }
+  return atoms.filter((a) => a.words > 0);
+}
+
+function mergeAt(atoms, index) {
+  const a = atoms[index];
+  const b = atoms[index + 1];
+  const merged = makeAtom(a.words >= b.words ? a.title : b.title, [...a.blocks, ...b.blocks]);
+  return atoms.slice(0, index).concat([merged], atoms.slice(index + 2));
+}
+
+function mergeSmallestPair(atoms) {
+  let best = 0;
+  let bestW = Infinity;
+  for (let i = 0; i < atoms.length - 1; i += 1) {
+    const w = atoms[i].words + atoms[i + 1].words;
+    if (w < bestW) {
+      bestW = w;
+      best = i;
+    }
+  }
+  return mergeAt(atoms, best);
+}
+
+function splitLargest(atoms) {
+  let best = -1;
+  for (let i = 0; i < atoms.length; i += 1) {
+    if (atoms[i].blocks.length < 2) continue;
+    if (best < 0 || atoms[i].words > atoms[best].words) best = i;
+  }
+  if (best < 0) return null;
+  const a = atoms[best];
+  let cut = -1;
+  let bestDiff = Infinity;
+  let left = 0;
+  for (let i = 0; i < a.blocks.length - 1; i += 1) {
+    left += wc(a.blocks[i]);
+    const right = a.words - left;
+    if (left < 25 || right < 25) continue;
+    const diff = Math.abs(left - right);
+    if (diff < bestDiff) {
+      bestDiff = diff;
+      cut = i + 1;
+    }
+  }
+  if (cut < 0) return null;
+  const leftAtom = makeAtom(a.title, a.blocks.slice(0, cut));
+  const rightAtom = makeAtom(a.title, a.blocks.slice(cut));
+  return atoms.slice(0, best).concat([leftAtom, rightAtom], atoms.slice(best + 1));
+}
+
+function paginateStudy(pack, strand, sub, L) {
+  let pages = studyAtoms(pack, strand, sub, L);
+  while (pages.length > 22) pages = mergeSmallestPair(pages);
+  while (pages.length < 18) {
+    const next = splitLargest(pages);
+    if (!next) break;
+    pages = next;
+  }
+  while (pages.length > 22) pages = mergeSmallestPair(pages);
+  // A page under 40 words is a stub. Fold it into the shorter neighbour.
+  for (let guard = 0; pages.length > 16 && guard < 40; guard += 1) {
+    const i = pages.findIndex((p) => p.words < 40);
+    if (i < 0) break;
+    const prev = i > 0 ? pages[i - 1].words : Infinity;
+    const next = i < pages.length - 1 ? pages[i + 1].words : Infinity;
+    pages = mergeAt(pages, prev <= next ? i - 1 : i);
+  }
+  return pages.map((p, i) => ({
+    pageNumber: i + 1,
+    title: p.title,
+    body: p.body,
+    free: true,
+  }));
+}
+
 function buildRecord(meta, syllabus, strand, sub, order, pack) {
   const L = meta.slug === 'kiswahili' ? LABELS.sw : LABELS.en;
-  const studyPages = [
-    { pageNumber: 1, title: L.overview.charAt(0) + L.overview.slice(1).toLowerCase(), body: overviewPage(pack, strand, sub, meta, L), free: true },
-    ...pack.lessons.map((lesson, i) => ({
-      pageNumber: i + 2,
-      title: `${L.lesson.charAt(0)}${L.lesson.slice(1).toLowerCase()} ${lesson.number}: ${lesson.title}`,
-      body: lessonPage(lesson, sub, L),
-      free: true,
-    })),
-  ];
+  const studyPages = paginateStudy(pack, strand, sub, L);
   const lessonText = studyPages.map((p) => `PAGE ${p.pageNumber}: ${p.title}\n\n${p.body}`).join('\n\n');
   const words = lessonText.split(/\s+/).filter(Boolean).length;
   return {
@@ -328,6 +514,31 @@ for (const name of readdirSync(CONTENT_DIR)) {
   } catch {
     /* ignore unreadable files */
   }
+}
+
+if (process.env.PAGE_SAMPLE) {
+  const sample = records.find((r) => r.id === process.env.PAGE_SAMPLE) || records[0];
+  console.log(`\nSample ${sample.id}`);
+  console.log(sample.pages.studyPages[0].body.slice(0, 280).replace(/\n/g, ' | '));
+  for (const p of sample.pages.studyPages) console.log(`${String(p.pageNumber).padStart(2)}  ${String(wc(p.body)).padStart(4)}w  ${p.title}`);
+  const allWords = records.flatMap((r) => r.pages.studyPages.map((p) => wc(p.body))).sort((a, b) => a - b);
+  console.log(
+    `Words per page: min ${allWords[0]}, p10 ${allWords[Math.floor(allWords.length * 0.1)]}, median ${allWords[Math.floor(allWords.length / 2)]}, max ${allWords[allWords.length - 1]}`,
+  );
+}
+
+const pageCounts = records.map((r) => r.pages.studyPages.length).sort((a, b) => a - b);
+const pageHist = {};
+for (const n of pageCounts) pageHist[n] = (pageHist[n] || 0) + 1;
+const thinPages = records.filter((r) => r.pages.studyPages.length < 18);
+console.log(
+  `Study pages per topic: min ${pageCounts[0]}, median ${pageCounts[Math.floor(pageCounts.length / 2)]}, max ${pageCounts[pageCounts.length - 1]}`,
+);
+console.log(`Page-count spread: ${JSON.stringify(pageHist)}`);
+if (thinPages.length) {
+  console.log(
+    `${thinPages.length} topic(s) under 18 pages: ${thinPages.slice(0, 8).map((r) => `${r.id}=${r.pages.studyPages.length}`).join(', ')}`,
+  );
 }
 
 console.log(
