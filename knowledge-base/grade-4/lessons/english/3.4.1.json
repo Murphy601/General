@@ -1,0 +1,385 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "3.4.1",
+  "title": "Writing: Mechanics of Writing (Handwriting)",
+  "overview": "Handwriting is clear when another person can read it at once. In this sub-strand you will print lower-case and capital letters neatly, watch the difference between b and d, copy polite phrases, and spell words with silent letters, blends and double consonants.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Legible and neat print",
+      "outcomes": [
+        "a"
+      ],
+      "objectives": [
+        "Print small, tall and tail letters at a consistent size.",
+        "Form b and d so they face the right way.",
+        "Copy a short polite sentence neatly in pencil."
+      ],
+      "intro": "A kind message fails if the reader cannot tell your letters apart. Neat print is part of courtesy. The person who reads your note should not have to guess whether you wrote b or d.",
+      "notes": "### Print script\nPrint script means each letter stands on its own. The letters are not joined. Start with a pencil so you can form the letters lightly. When the shapes are steady, you may copy the same line with a pen.\n\nSit up, put the paper straight in front of you, and leave a margin. Hold the pencil so you can see the point. Leave a space about the width of the letter o between words.\n\n### Three heights\nThink of a line the letters sit on.\n\n- Small letters stay in the middle height: a, c, e, i, m, n, o, r, s, u, v, w, x, z. The dot of i sits above the letter.\n- Tall letters rise above that height: b, d, h, k, l and t.\n- Tail letters drop below the line: g, j, p, q and y.\n\nCapital letters are tall. They sit on the line and do not grow tails. A, B, C and the rest of the capitals should match one another in height. Do not let one capital tower over the next.\n\nKeep the same size across a line. A small a should not suddenly become as tall as an l.\n\n### Strokes that must be there\n- Dots on i and j. A missing dot can make i look like l.\n- The crossbar on t and on f. Without it, t can look like l.\n- Tails on g, j and y, long enough to see but not so long that they crash into the line below.\n- Curves on c, o, a, e and s, closed where they should be closed. An open o can look like a u.\n\n### b and d\nThese two letters cause the most mix-ups.\n\n- b has the stick on the left and the round part on the right.\n- d has the round part on the left and the stick on the right.\n\nA memory that helps: in the word bed, b and d face each other, like the two ends of a bed. Write bed slowly and check the direction.\n\np and q need the same care. p has the tail on the left and the round part on the right. q has the round part first and the tail on the right.\n\n### A sentence to copy\nCopy this in pencil, then check every tall letter and every tail:\n\nPlease listen. May I borrow your pen?\n\nIf a letter is wrong, do not scribble it out. Draw one light line through it and write the letter again above or beside it, as your teacher prefers. The page should still look calm.",
+      "keyWords": [
+        {
+          "word": "print script",
+          "meaning": "writing in which each letter stands separately"
+        },
+        {
+          "word": "legible",
+          "meaning": "clear enough for someone else to read"
+        },
+        {
+          "word": "crossbar",
+          "meaning": "the horizontal stroke on t or f"
+        },
+        {
+          "word": "tail",
+          "meaning": "the part of a letter that goes below the line"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "A learner's i looks like l. What stroke is missing?",
+          "steps": [
+            "The letter i is a small letter plus a dot.",
+            "Without the dot it resembles a tall or small stick."
+          ],
+          "answer": "The dot"
+        },
+        {
+          "problem": "How can you check that b and d in the word bed are facing the right way?",
+          "steps": [
+            "b has its stick on the left.",
+            "d has its stick on the right.",
+            "In bed the two round parts face the e in the middle."
+          ],
+          "answer": "The sticks are on the outside and the round parts face the e, like the ends of a bed."
+        }
+      ],
+      "activity": {
+        "title": "Pencil copy on the line",
+        "materials": [
+          "A pencil",
+          "Lined paper",
+          "The sentence Please listen. May I borrow your pen?"
+        ],
+        "steps": [
+          "Print a line of small letters, a line of tall letters and a line of tail letters. Keep each group the same height.",
+          "Print the capitals A to H at one height.",
+          "Write the word bed three times and check b and d.",
+          "Copy the polite sentence in pencil. Leave spaces between words and a margin.",
+          "A partner reads your sentence aloud. If they hesitate, reshape the unclear letter."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 150\" font-family=\"sans-serif\"><rect width=\"440\" height=\"150\" fill=\"#ffffff\"/><line x1=\"20\" y1=\"40\" x2=\"200\" y2=\"40\" stroke=\"#cbd5e1\"/><line x1=\"20\" y1=\"70\" x2=\"200\" y2=\"70\" stroke=\"#94a3b8\"/><line x1=\"20\" y1=\"110\" x2=\"200\" y2=\"110\" stroke=\"#cbd5e1\"/><text x=\"40\" y=\"68\" font-size=\"42\" fill=\"#1d4ed8\">b</text><text x=\"100\" y=\"68\" font-size=\"42\" fill=\"#1d4ed8\">e</text><text x=\"145\" y=\"68\" font-size=\"42\" fill=\"#1d4ed8\">d</text><text x=\"230\" y=\"50\" font-size=\"14\" fill=\"#111827\">b: stick, then belly</text><text x=\"230\" y=\"74\" font-size=\"14\" fill=\"#111827\">d: belly, then stick</text><text x=\"230\" y=\"104\" font-size=\"13\" fill=\"#374151\">In bed they face each other.</text></svg>",
+        "caption": "The letters b and d in the word bed"
+      },
+      "practice": [
+        {
+          "question": "Name three tail letters.",
+          "answer": "Any three of g, j, p, q and y."
+        },
+        {
+          "question": "What is missing if t looks like l?",
+          "answer": "The crossbar."
+        },
+        {
+          "question": "Describe how b is different from d.",
+          "answer": "b has the stick on the left and the round part on the right. d has the round part on the left and the stick on the right."
+        },
+        {
+          "question": "Why do we start a neat copy in pencil?",
+          "answer": "So we can form the letters lightly and correct the shape before we use a pen."
+        }
+      ],
+      "summary": [
+        "Small, tall and tail letters each have their own height.",
+        "Dots, crossbars, tails and curves must be visible.",
+        "In the word bed, b and d face each other."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Copying polite phrases and silent letters",
+      "outcomes": [
+        "a",
+        "b"
+      ],
+      "objectives": [
+        "Copy polite phrases legibly in print.",
+        "Spell words that contain a silent letter or a tricky spelling.",
+        "Keep letter size steady when you write a whole line."
+      ],
+      "intro": "Please listen. I beg your pardon. May I borrow your watch? These polite phrases are short, but a missing letter or a wandering tall letter makes them hard to trust. Copying them trains both your hand and your spelling.",
+      "notes": "### Copy with your eyes and your ear\nRead the phrase aloud, then write it, then read what you wrote. The three steps catch different mistakes. The ear may notice a missing word. The eye may notice a letter facing the wrong way.\n\nPhrases to copy:\n\n- Please listen.\n- I beg your pardon.\n- May I borrow your watch?\n\nWrite them first in pencil. When the line is even, write them again in pen. Do not press so hard that the pen tears the page. Keep capitals for Please, I and May, because each of those words starts a sentence. Watch begins with a small w here because it is not starting the sentence.\n\n### Letters you must not drop\nSome words hide a letter when we speak.\n\n- listen: the t is silent. We say the word without a clear t, but we still write l-i-s-t-e-n. A common mistake is to write lisen.\n- please: the letters e and a together make the vowel. Write p-l-e-a-s-e. Leaving out the a gives plese, which is not the word.\n- pardon: say every letter as you learn the spelling, p-a-r-d-o-n. Do not write parden.\n- borrow: there are two r letters in the middle, b-o-r-r-o-w. One r is not enough.\n- watch: the ending tch is the spelling of the last sound. Write w-a-t-c-h. Do not stop at wash or wach.\n\nThe t in listen is a true silent letter. In watch, t is part of the spelling tch even though you do not hear a separate t. Either way, the letter has to be on the page.\n\n### A dictation line\nAsk a partner to read this once while you listen, then once more while you write:\n\nPlease listen. I beg your pardon. May I borrow your watch?\n\nCheck silent t, the a in please, the double r in borrow, and the question mark at the end. May I is a question, so the last phrase needs a question mark.\n\n### Looking up a spelling\nIf you are unsure, look the word up with a partner on a dictionary your teacher has approved, in a book or on a device. Type or find the word, read the spelling, then cover it and write it from memory. Check once more. Using a device for spelling is useful. Wandering onto other pages is not the task. Stay with the dictionary until the word is copied correctly into your book.\n\nNeatness and spelling work together. A perfectly spelled word that cannot be read still fails. A beautiful letter that is the wrong letter fails too.",
+      "keyWords": [
+        {
+          "word": "silent letter",
+          "meaning": "a letter that is written but not sounded, such as t in listen"
+        },
+        {
+          "word": "dictation",
+          "meaning": "writing words that someone else reads aloud"
+        },
+        {
+          "word": "question mark",
+          "meaning": "the sign ? used at the end of a question"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "A learner writes \"Please lisen.\" What is missing, and why is it easy to miss?",
+          "steps": [
+            "The correct spelling is listen.",
+            "The t is not clearly heard, so writers leave it out."
+          ],
+          "answer": "The silent t is missing. Listen is spelled l-i-s-t-e-n."
+        },
+        {
+          "problem": "Which ending punctuation does \"May I borrow your watch\" need?",
+          "steps": [
+            "May I asks for permission.",
+            "A question ends with a question mark."
+          ],
+          "answer": "A question mark."
+        }
+      ],
+      "activity": {
+        "title": "Copy, then check the hidden letters",
+        "materials": [
+          "Pencil and pen",
+          "Lined paper",
+          "A dictionary, print or digital, with the teacher's guidance"
+        ],
+        "steps": [
+          "Copy the three phrases in pencil, keeping tall letters even.",
+          "Underline the silent t in listen, the a in please, the double r in borrow and the tch in watch.",
+          "Write the same phrases in pen.",
+          "With a partner, dictate the phrases and mark any missing letter.",
+          "Look up one word you are unsure of and write it again from memory."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Spell the word in which t is silent: the word that means to pay attention with your ears.",
+          "answer": "listen"
+        },
+        {
+          "question": "Write the phrase that asks permission to use someone's watch.",
+          "answer": "May I borrow your watch?"
+        },
+        {
+          "question": "What two letters sit together in the middle of borrow?",
+          "answer": "rr (a double r)"
+        },
+        {
+          "question": "Why do you read a phrase aloud before you copy it?",
+          "answer": "So you hear every word and are less likely to leave one out."
+        }
+      ],
+      "summary": [
+        "Copy polite phrases in even print, in pencil and then in pen.",
+        "Write the silent t in listen and the full spellings of please, borrow and watch.",
+        "A question that begins with May I ends with a question mark."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Blends, double consonants and steady spelling",
+      "outcomes": [
+        "b",
+        "c"
+      ],
+      "objectives": [
+        "Spell words that begin or end with consonant blends.",
+        "Spell words with double consonants correctly.",
+        "Use the same correct spelling each time you write the word."
+      ],
+      "intro": "Please starts with two consonant sounds said together. Sorry keeps a double r every time you write it, not only on the first try. Steady spelling is what makes your print fluent instead of full of repairs.",
+      "notes": "### Blends\nA blend is two or three consonant sounds said together, each one still heard. It is not the same as a silent letter. In a blend, you hear the consonants.\n\n- pl in please\n- br in borrow\n- fr in friend\n- gr in greet\n- sp in speak\n- st at the end of guest\n- sm in smile\n\nWhen you print a blend, write both letters close in the word but still clear. Please needs p and l at the start. Guest needs s and t at the end. Dropping one letter of a blend makes a different word or a non-word: please without l looks like pease, and guest without s is not the word we want.\n\nSay the blend as you write it, quietly: pl, br, fr. The mouth reminds the hand.\n\n### Double consonants\nA double consonant is the same consonant written twice. You usually hear it once, so the second letter is easy to forget.\n\n- sorry: s-o-r-r-y\n- manners: m-a-n-n-e-r-s\n- little: l-i-t-t-l-e\n- happy: h-a-p-p-y\n- letter: l-e-t-t-e-r\n- borrow: b-o-r-r-o-w\n- better: b-e-t-t-e-r\n\nWelcome has one l and one m. It is not wellcome. Learn that exception on purpose.\n\nA pattern that often helps: after a short vowel, the consonant is doubled before an ending such as -y or -er in words like happy, letter and better. It is a pattern, not a promise about every word. When you are unsure, check a dictionary and then use that spelling every time.\n\n### Consistent means every time\nIf you spell sorry correctly in the title and sory in the next line, the reader hesitates. Choose the right spelling and stay with it through the whole piece.\n\nA short courtesy note to copy and keep consistent:\n\nDear friend,\nPlease smile and greet our guest.\nI am sorry I forgot my manners.\nMay I borrow a little time to write a better letter?\nThank you.\n\nCheck pl, gr, st, the double letters in sorry, manners, little, better and letter, and the single l in a word like welcome if you add it.\n\n### Keep the habit\nAccurate spelling in print is a habit you adopt, not a trick you use once. Each time you write please, listen, borrow, sorry and friend, write them the same correct way. Your hand learns the movement, and your reader gets a clear message. That is writing fluency: the words come out neatly and correctly because you have practised them.",
+      "keyWords": [
+        {
+          "word": "blend",
+          "meaning": "two or three consonants said together, each one heard, such as pl in please"
+        },
+        {
+          "word": "double consonant",
+          "meaning": "the same consonant written twice, as rr in sorry"
+        },
+        {
+          "word": "consistent",
+          "meaning": "the same correct form every time"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "Which letters make the blend at the start of please and at the start of borrow?",
+          "steps": [
+            "Please begins with p and l, both heard.",
+            "Borrow begins with b and r, both heard."
+          ],
+          "answer": "pl in please and br in borrow"
+        },
+        {
+          "problem": "Correct the spellings in this line: I am sory. Please grete our gest.",
+          "steps": [
+            "Sorry has a double r.",
+            "Greet has ee and ends with t. The blend gr stays.",
+            "Guest ends with the blend st and has u."
+          ],
+          "answer": "I am sorry. Please greet our guest."
+        }
+      ],
+      "activity": {
+        "title": "Spell, check and copy the note",
+        "materials": [
+          "Pencil and pen",
+          "Lined paper",
+          "A dictionary approved by the teacher"
+        ],
+        "steps": [
+          "List the blends in please, borrow, friend, greet, speak, guest and smile. Say each blend aloud.",
+          "Write sorry, manners, little, happy, letter, borrow and better. Underline the double consonants.",
+          "Look up any word you doubt, with a partner, and correct it before the final copy.",
+          "Copy the short courtesy note in neat print. Use the same spelling every time a word repeats.",
+          "Exchange books. Read the note aloud. If you stumble, the writer fixes the letter or the spelling."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Write please, greet and guest, and name the blend in each.",
+          "answer": "please (pl), greet (gr), guest (st)"
+        },
+        {
+          "question": "Correct: sory, happy is already correct, litle, wellcome.",
+          "answer": "sorry, happy, little, welcome"
+        },
+        {
+          "question": "Why is welcome not spelled with a double l?",
+          "answer": "Welcome has one l. Doubling it is a common mistake, so we learn this spelling on purpose."
+        },
+        {
+          "question": "What does consistent spelling mean?",
+          "answer": "Using the correct spelling of a word every time you write it."
+        }
+      ],
+      "summary": [
+        "A blend keeps every consonant you hear, such as pl, br and st.",
+        "Double the consonant in sorry, manners, little, happy, letter and better.",
+        "Use the correct spelling every time so your print is fluent and clear."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which letters drop below the line?",
+      "options": [
+        "a, c, o",
+        "b, d, h",
+        "g, j, y",
+        "A, B, C"
+      ],
+      "answer": "C",
+      "explanation": "g, j and y are tail letters. They go below the line.",
+      "outcome": "a"
+    },
+    {
+      "question": "In the word bed, where is the stick of the letter b?",
+      "options": [
+        "On the right",
+        "On the left",
+        "Below the line",
+        "Above a tail"
+      ],
+      "answer": "B",
+      "explanation": "b has the stick on the left and the round part on the right.",
+      "outcome": "a"
+    },
+    {
+      "question": "What is missing when t looks like l?",
+      "options": [
+        "A dot",
+        "A crossbar",
+        "A tail",
+        "A second t"
+      ],
+      "answer": "B",
+      "explanation": "The crossbar is the stroke that makes t different from l.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which spelling shows the silent letter correctly?",
+      "options": [
+        "lisen",
+        "listen",
+        "lissen",
+        "listn"
+      ],
+      "answer": "B",
+      "explanation": "The t in listen is silent, but it must still be written.",
+      "outcome": "b"
+    },
+    {
+      "question": "Which phrase is written correctly?",
+      "options": [
+        "may i borrow your watch",
+        "May I borrow your watch?",
+        "May I borow your wach",
+        "May I borrow your watch"
+      ],
+      "answer": "B",
+      "explanation": "It is a question, so it needs a capital M and a question mark, and borrow and watch are spelled fully.",
+      "outcome": "b"
+    },
+    {
+      "question": "How many r letters are in the middle of borrow?",
+      "options": [
+        "One",
+        "Two",
+        "Three",
+        "None"
+      ],
+      "answer": "B",
+      "explanation": "Borrow is spelled with a double r.",
+      "outcome": "b"
+    },
+    {
+      "question": "Which word begins with the blend pl?",
+      "options": [
+        "borrow",
+        "please",
+        "guest",
+        "smile"
+      ],
+      "answer": "B",
+      "explanation": "Please begins with the consonant blend pl.",
+      "outcome": "b"
+    },
+    {
+      "question": "Which spelling is correct?",
+      "options": [
+        "wellcome",
+        "welcome",
+        "welcom",
+        "wecome"
+      ],
+      "answer": "B",
+      "explanation": "Welcome has one l, not a double l.",
+      "outcome": "b"
+    },
+    {
+      "question": "Correct this line: I am sory I forgot my maners.",
+      "answer": "I am sorry I forgot my manners.",
+      "explanation": "Sorry has rr and manners has nn.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why should spelling stay the same each time you write a word?",
+      "answer": "So the reader trusts the word and your writing stays fluent and clear.",
+      "explanation": "Consistent spelling is part of writing that communicates.",
+      "outcome": "c"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 English Language Curriculum Design (Revised 2024) — Theme 3.0 Etiquette, Sub-strand 3.4.1 Mechanics of Writing: Handwriting"
+  ]
+}

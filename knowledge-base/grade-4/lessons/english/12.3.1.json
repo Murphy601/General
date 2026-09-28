@@ -1,0 +1,173 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "12.3.1",
+  "title": "Grammar in Use: Word Classes (Verb Aspect)",
+  "overview": "Verb aspect shows whether an action is complete. In this sub-strand you will recognise and use the present perfect, made with have or has, and the past perfect, made with had. The examples come from cleaning the compound, planting trees and clearing drains, so you can hear how the two forms place an action in time.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "The present perfect",
+      "outcomes": ["a"],
+      "objectives": [
+        "Form the present perfect with have or has and the past participle.",
+        "Find it in sentences about a finished action that matters now.",
+        "Choose have or has to match the subject."
+      ],
+      "intro": "The broom is back in the corner and the path is clean. You do not need to say only 'I sweep' or only 'I swept'. You can say 'I have swept the path' to show that the job is finished and the result is here now.",
+      "notes": "### How it is built\nThe present perfect is have or has plus the past participle.\n\n- I have swept the compound.\n- She has planted a tree.\n- They have cleared the drain.\n\nUse have with I, you, we and they. Use has with he, she and it.\n\nThe past participle of a regular verb looks like the past form: clean becomes cleaned, plant becomes planted, clear becomes cleared. Some verbs are irregular. You need to learn their participles.\n\n- sweep, swept, swept\n- dig, dug, dug\n- cut, cut, cut\n- grow, grew, grown\n- take, took, taken\n- leave, left, left\n- make, made, made\n\nSo we say 'She has swept', not 'She has sweeped', and 'We have taken the rubbish', not 'We have took'.\n\n### What it means\nUse the present perfect when the action is complete and you are thinking about now. The time is not a finished clock time such as yesterday at four. You may add just, already or yet.\n\n- I have just swept the path. (finished a moment ago)\n- She has already watered the trees. (finished before now)\n- They have not cleared the pit yet. (not finished up to now)\n\nQuestions put have or has before the subject: Have you swept the compound? Has he emptied the bin?\n\n### Find it\nRead this report. 'We have swept the paths. Asha has collected the paper. The keeper has not locked the gate yet. I have cut the long grass.'\n\nEach of those sentences uses have or has with a participle. The cleaning is done, or not done yet, as we speak. That is the present perfect.",
+      "keyWords": [
+        { "word": "present perfect", "meaning": "the form have or has plus a past participle, for an action complete by now" },
+        { "word": "past participle", "meaning": "the verb form used after have, has or had, such as swept or planted" },
+        { "word": "irregular verb", "meaning": "a verb whose past participle does not simply add -ed" }
+      ],
+      "examples": [
+        {
+          "problem": "Complete: She ______ (empty) the bin.",
+          "steps": ["She takes has.", "Empty is regular: emptied."],
+          "answer": "She has emptied the bin."
+        },
+        {
+          "problem": "Which word is wrong? They have sweeped the compound.",
+          "steps": ["Sweep is irregular.", "The participle is swept."],
+          "answer": "Sweeped is wrong. Say: They have swept the compound."
+        }
+      ],
+      "activity": {
+        "title": "Jobs we have just finished",
+        "materials": ["Verb cards: sweep, plant, clear, empty, cut, water", "Exercise books"],
+        "steps": [
+          "In pairs, mime a job such as sweeping or planting.",
+          "When you finish the mime, your partner asks, 'What have you just done?'",
+          "Answer with the present perfect: 'I have just swept the path.'",
+          "Write six true sentences about jobs your group has finished, using have or has correctly."
+        ]
+      },
+      "practice": [
+        { "question": "Choose have or has: The learners ______ cleared the drain. Juma ______ planted a tree.", "answer": "The learners have cleared the drain. Juma has planted a tree." },
+        { "question": "Write the past participle of sweep, dig and take.", "answer": "swept, dug, taken" },
+        { "question": "Rewrite using the present perfect: I water the trees. (just)", "answer": "I have just watered the trees." },
+        { "question": "Make a question: they / empty / the bin.", "answer": "Have they emptied the bin?" }
+      ],
+      "summary": [
+        "Present perfect = have or has + past participle.",
+        "Has goes with he, she and it. Have goes with I, you, we and they.",
+        "Use it for a completed action that still matters now."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The past perfect",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Form the past perfect with had and the past participle.",
+        "Show which of two past actions happened first.",
+        "Tell the present perfect and the past perfect apart."
+      ],
+      "intro": "Two things happened yesterday. First you swept the compound. Later the rain started. If you only say 'I swept' and 'it rained', the order can be unclear. 'I had swept the compound before the rain started' puts the sweeping first.",
+      "notes": "### How it is built\nThe past perfect is had plus the past participle. Had is the same for every subject.\n\n- I had swept the path.\n- She had planted the tree.\n- They had cleared the drain.\n\nThe participle is the same one you used after have and has: swept, planted, cleared, taken, cut, grown.\n\n### Which action came first\nUse the past perfect for the earlier action when you talk about two actions in the past. The later action is often in the simple past.\n\n- I had swept the compound before the visitors arrived.\n- After we had cleared the drain, the water flowed away.\n- She was glad because she had already watered the trees.\n\nWords that often signal the order are before, after, by the time and already.\n\nBy the time the bell rang, we had collected every piece of paper.\n\n### Do not mix the two forms\nPresent perfect looks back from now: I have swept the path. (It is clean now.)\n\nPast perfect looks back from a past moment: I had swept the path before the rain started. (Both the sweeping and the rain are in the past, and the sweeping was first.)\n\nA quick test: if the sentence has a later past event such as 'before the rain' or 'when the teacher arrived', the earlier event usually needs had.\n\n### In a short story\n'By noon we had cleared the rubbish pit. Then we planted two trees. The keeper said the class had done a good job.'\n\nHad cleared and had done are past perfect. Planted, standing alone as the next event, is simple past.",
+      "keyWords": [
+        { "word": "past perfect", "meaning": "the form had plus a past participle, for an action completed before another past time" },
+        { "word": "earlier", "meaning": "happening before something else" },
+        { "word": "simple past", "meaning": "the usual past form, such as arrived or planted, without had" }
+      ],
+      "examples": [
+        {
+          "problem": "Join the ideas so that the sweeping comes first: The rain started. I swept the compound.",
+          "steps": ["The earlier action takes had.", "Use before for the later action."],
+          "answer": "I had swept the compound before the rain started."
+        },
+        {
+          "problem": "Is this present perfect or past perfect? They had left the brooms in the store before we arrived.",
+          "steps": ["Look at the helping verb.", "Had marks the past perfect. A second past action follows."],
+          "answer": "Past perfect. Leaving the brooms happened before we arrived."
+        }
+      ],
+      "activity": {
+        "title": "Which job came first?",
+        "materials": ["Strips of paper with two past events", "Exercise books"],
+        "steps": [
+          "In groups, write pairs of events, for example: we cleared the drain / the rain started.",
+          "Decide which event happened first.",
+          "Make a sentence with had for the first event.",
+          "Read the sentences aloud and let another group say which action was earlier."
+        ]
+      },
+      "practice": [
+        { "question": "Complete: By the time the teacher arrived, we ______ (sweep) the path.", "answer": "By the time the teacher arrived, we had swept the path." },
+        { "question": "Which action happened first? She had planted the tree before the visitors came.", "answer": "She planted the tree first. The visitors came later." },
+        { "question": "Choose have or had: I ______ cleared the bin already, so it is empty now.", "answer": "have" },
+        { "question": "Rewrite with the past perfect: We collected the paper. Then the bell rang.", "answer": "We had collected the paper before the bell rang. or We had collected the paper when the bell rang." }
+      ],
+      "summary": [
+        "Past perfect = had + past participle for every subject.",
+        "It marks the earlier of two past actions.",
+        "Have or has links an action to now. Had links it to a past moment."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Using both forms clearly",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Choose the present perfect or the past perfect to match the time.",
+        "Write correct sentences from given verbs.",
+        "Explain why the right aspect makes a message clear."
+      ],
+      "intro": "A listener plans their next action from your verb. 'I have cleared the drain' means they can walk that way now. 'I had cleared the drain before the soil fell in' means they still need to ask what the drain is like now.",
+      "notes": "### A choice, not a decoration\nBefore you choose, ask two questions. Is the result about now? Use the present perfect. Are you comparing two times that are both in the past? Use the past perfect for the earlier one.\n\nNow: The bin is empty because we have emptied it.\nPast order: The bin was empty because we had emptied it before the visitors arrived.\n\n### Practice with the same verb\nSweep:\n- Present perfect: I have swept the kitchen path.\n- Past perfect: I had swept the kitchen path before Mother called me.\n\nPlant:\n- She has planted three trees this morning. (morning is still the present period, and the trees are in the ground now)\n- She had planted three trees before the rains came.\n\nTake:\n- They have taken the sacks to the gate.\n- They had taken the sacks to the gate before the lorry left.\n\n### A paragraph that uses both\nThis morning we have cleared the compound, and the grass looks tidy. Yesterday was different. By the time the rain started, we had not cleared the drain, so water spread across the path. Today we have already finished that job.\n\nHave cleared and have finished talk about today. Had not cleared talks about the time before yesterday's rain.\n\n### Why the difference matters\nThe right aspect stops misunderstandings. If you tell the keeper 'We had locked the gate' when you mean it is locked now, the keeper may think you are only describing an earlier moment. 'We have locked the gate' tells him the present fact. Clear aspect is part of clear communication at school, at home and whenever you report that a job is done.",
+      "keyWords": [
+        { "word": "aspect", "meaning": "the form of a verb that shows how an action sits in time, such as complete by now or complete before another past action" },
+        { "word": "result", "meaning": "what is true because the action has been done" },
+        { "word": "report", "meaning": "to tell someone clearly what has happened" }
+      ],
+      "examples": [
+        {
+          "problem": "Choose the better sentence for a gate that is locked at this moment: 'We have locked the gate' or 'We had locked the gate before lunch, but it may be open now.' Which one reports the present fact?",
+          "steps": ["A present fact about now uses have or has.", "Had sends the listener to an earlier time."],
+          "answer": "We have locked the gate."
+        },
+        {
+          "problem": "Write one present perfect sentence and one past perfect sentence with the verb clear.",
+          "steps": ["Have or has + cleared for now.", "Had + cleared before another past event."],
+          "answer": "Example: We have cleared the drain. We had cleared the drain before the rain started."
+        }
+      ],
+      "activity": {
+        "title": "Sentence list on a device",
+        "materials": ["Exercise books", "A computer or tablet if one can be shared", "Verb cards"],
+        "steps": [
+          "Each group picks five verbs: sweep, plant, clear, empty, take.",
+          "Write one present perfect sentence and one past perfect sentence for each verb, about the environment.",
+          "Read them to another group. They say which sentence links to now and which one is earlier in the past.",
+          "If a device is free, type the ten best sentences and save the list to reread."
+        ]
+      },
+      "practice": [
+        { "question": "Fill the gap: The path is clean because we ______ (sweep) it.", "answer": "The path is clean because we have swept it." },
+        { "question": "Fill the gap: The path was clean because we ______ (sweep) it before the guests came.", "answer": "The path was clean because we had swept it before the guests came." },
+        { "question": "Correct the sentence: She has took the broom already.", "answer": "She has taken the broom already." },
+        { "question": "Why does the correct aspect matter when you report a job?", "answer": "It tells the listener whether the result is true now or whether you are only describing an earlier time." }
+      ],
+      "summary": [
+        "Ask whether you mean now, or an earlier past before another past event.",
+        "Have and has serve now. Had serves the earlier past.",
+        "The right aspect makes a report clear."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "The present perfect is made of", "options": ["had + past participle", "have or has + past participle", "am + going", "to + verb"], "answer": "B", "explanation": "Have or has plus the past participle makes the present perfect.", "outcome": "a" },
+    { "question": "She ______ planted a tree. Choose the present perfect.", "options": ["have", "has", "had have", "having"], "answer": "B", "explanation": "Has is used with she.", "outcome": "a" },
+    { "question": "Which sentence is correct?", "options": ["They have sweeped the path.", "They have swept the path.", "They has swept the path.", "They have sweep the path."], "answer": "B", "explanation": "They takes have, and the participle of sweep is swept.", "outcome": "a" },
+    { "question": "The past perfect uses", "options": ["had + past participle", "have + yesterday", "will + had", "do + swept"], "answer": "A", "explanation": "Had plus the past participle makes the past perfect.", "outcome": "a" },
+    { "question": "Which action happened first? 'I had cleared the drain before the rain started.'", "options": ["the rain", "clearing the drain", "both at the same second", "neither"], "answer": "B", "explanation": "Had cleared marks the earlier action.", "outcome": "b" },
+    { "question": "Choose the sentence that matches a clean path now.", "options": ["We have swept the path.", "We had swept the path before the storm undid the work.", "We sweep yesterday.", "We had sweep the path."], "answer": "A", "explanation": "Have swept reports a completed action with a present result.", "outcome": "b" },
+    { "question": "By the time the bell rang, the class ______ the paper.", "options": ["have collect", "had collected", "has collect", "having collect"], "answer": "B", "explanation": "The collecting happened before the bell, so use had collected.", "outcome": "b" },
+    { "question": "Correct the participle: She has took the sacks to the gate.", "options": ["She has taken the sacks to the gate.", "She have took the sacks to the gate.", "She has taking the sacks to the gate.", "She had take the sacks to the gate."], "answer": "A", "explanation": "The participle of take is taken.", "outcome": "b" },
+    { "question": "When do you choose the past perfect instead of the present perfect?", "answer": "When you show that one past action happened before another past time or action.", "explanation": "Had places the earlier action before a later past moment.", "outcome": "c" },
+    { "question": "Why should a report such as 'We have locked the gate' use the present perfect if the gate is locked now?", "answer": "Because have or has tells the listener that the result is true now.", "explanation": "The right aspect prevents a misunderstanding about time.", "outcome": "c" }
+  ],
+  "sources": [
+    "KICD Grade 4 English Curriculum Design (Revised 2024) — Theme 12.0 Clean Environment, Sub-strand 12.3.1 Word Classes: Verb Aspect"
+  ]
+}

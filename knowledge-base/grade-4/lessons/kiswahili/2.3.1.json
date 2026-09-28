@@ -1,0 +1,195 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "2.3.1",
+  "title": "Kuandika: Insha ya Masimulizi",
+  "overview": "Insha ya masimulizi husimulia kisa: nini kilitokea, kwa nani, na kilivyomalizika. Utajifunza muundo wake, kisha utaandika kisa kuhusu nidhamu mezani. Utafuata anwani, mpangilio wa matukio, tahajia, sarufi na uakifishaji, kwa lugha ya kiubunifu.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Muundo wa insha ya masimulizi",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kueleza insha ya masimulizi inahusu nini.",
+        "Kutambua mwanzo, kiini na mwisho wa kisa.",
+        "Kutofautisha masimulizi na wasifu."
+      ],
+      "intro": "Ukiwaambia wenzako ulichotokea jioni ya chakula, unataja ulichoanza, kilichofuata, na kilichomaliza. Huo ndio msingi wa insha ya masimulizi. Si orodha ya sifa za mtu. Ni kisa chenye matukio.",
+      "notes": "### Insha ya masimulizi ni nini?\nInsha ya masimulizi husimulia kisa. Ina watu, mahali, wakati na matukio yanayofuatana. Msomaji anapaswa kuona tukio likienda mbele, si sifa zilizosimama.\n\nWasifu hueleza mtu ni nani na ana tabia gani. Masimulizi hueleza nini kilitokea. Sentensi Mama yangu ni mkarimu ni wasifu. Sentensi Jana jioni dadangu alichukua nyama kabla ya babu, naye baba akamkumbusha, ni mwanzo wa masimulizi.\n\n### Muundo\n- **Anwani** ni kichwa kwa herufi kubwa, kwa mfano JIONI YA CHAKULA.\n- **Mwanzo** hutuambia lini, wapi na nani.\n- **Kiini** husimulia matukio kwa mpango: kwanza, kisha, baadaye.\n- **Mwisho** huhitimisha kisa na huonyesha funzo, bila kuongeza tukio jipya.\n\nVidokezo hukusaidia usisahau mpango. Andika maneno mafupi tu: osha mikono, kaa, subiri, kula, shukuru.\n\n### Nidhamu mezani katika kisa\nKisa cha mada hii kihusu adabu za mezani. Adabu hizo ni za kawaida katika familia nyingi: kunawa mikono, kukaa vizuri, kusubiri wazee, kutumia mkono wa kulia unapokula kwa mkono, kutozungumza mdomo umejaa, na kumshukuru aliyepika.\n\nUnapotambua insha ya mfano, angalia kama matukio yana mfuatano. Kama aya zinazungumzia sifa tu bila tukio, hiyo si masimulizi kamili.\n\nVielelezo vilivyo kwenye kitabu au tarakilishi vinakuonyesha mpangilio. Visome kabla hujaandika chako.",
+      "keyWords": [
+        { "word": "masimulizi", "meaning": "insha inayosimulia kisa chenye matukio" },
+        { "word": "mfuatano", "meaning": "mpango wa matukio kutoka mwanzo hadi mwisho" },
+        { "word": "nidhamu mezani", "meaning": "adabu zinazofuatwa wakati wa kula" }
+      ],
+      "examples": [
+        {
+          "problem": "Mtungo huu ni wasifu au masimulizi? Jana tulikaa mezani, tukanyawa mikono, kisha tukala.",
+          "steps": ["Kuna wakati: jana.", "Kuna matukio yanayofuatana."],
+          "answer": "Ni masimulizi, kwa sababu kunasimuliwa tukio.",
+          "check": null
+        },
+        {
+          "problem": "Andika anwani ya kisa kuhusu chakula cha jioni.",
+          "steps": ["Anwani ni kichwa.", "Huandikwa kwa herufi kubwa."],
+          "answer": "JIONI YA CHAKULA",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Gundua mwanzo, kiini na mwisho",
+        "materials": ["Insha ya mfano kwenye kitabu au tarakilishi", "Penseli za rangi"],
+        "steps": [
+          "Someni kisa kifupi cha nidhamu mezani kwa zamu.",
+          "Pigieni rangi aya ya mwanzo, aya za matukio na aya ya mwisho.",
+          "Jadilini: je, matukio yamefuatana? Je, kuna funzo mwishoni?",
+          "Tofautisheni kisa hicho na sentensi inayoeleza sifa tu, kama Mama yangu ni mkarimu.",
+          "Andikeni vidokezo vitano vya kisa chenu wenyewe."
+        ]
+      },
+      "practice": [
+        { "question": "Insha ya masimulizi inahusu nini?", "answer": "Husimulia kisa chenye watu, mahali, wakati na matukio.", "check": null },
+        { "question": "Taja sehemu tatu za muundo wake.", "answer": "Mwanzo, kiini cha matukio, na mwisho.", "check": null },
+        { "question": "Kwa nini sentensi Mama yangu ni mkarimu si masimulizi kamili?", "answer": "Inaeleza sifa, haisimuli tukio lililotokea.", "check": null }
+      ],
+      "summary": [
+        "Masimulizi husimulia kisa; wasifu hueleza sifa.",
+        "Muundo ni anwani, mwanzo, matukio na mwisho.",
+        "Kisa cha mada hii kihusu nidhamu mezani."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kuandika kisa cha nidhamu mezani",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kuandaa vidokezo vya kisa.",
+        "Kuandika insha yenye mfuatano, tahajia na uakifishaji.",
+        "Kusomea wenzako na kupokea maoni."
+      ],
+      "intro": "Vidokezo vyako vinaonyesha utaratibu wa tukio. Sasa unaviunganisha kwa maneno kama kwanza, kisha na mwishoni. Kisa kiwe chako, na kiwe na adabu unayoweza kuifundisha mwenzako.",
+      "notes": "### Kutoka vidokezo hadi sentensi\nChukua vidokezo na uvipe wakati.\n\nVidokezo: jioni, familia mezani, mikono, babu anaomba, mdogo anachukua nyama, kukumbushwa, kushukuru.\n\nJIONI MEZANI\n\nJana jioni familia yetu ilikaa mezani. Kwanza tuliosha mikono. Tulikaa vizuri na kusubiri babu aombe. Kisha mdogo wangu alinyoosha mkono kuchukua nyama kabla ya wengine. Baba alimkumbusha kwa upole tumngoje mzee. Tulikula kwa mkono wa kulia, wala hatukuzungumza vinywa vikiwa vimejaa. Mwishoni tulimshukuru mama kwa chakula na kuaga kwa heshima.\n\nAngalia mfuatano. Hakuna aya inayoruka mbele ya tukio lililotangulia.\n\n### Mambo ya kuzingatia\n- **Mada:** kisa kihusu nidhamu mezani, si mchezo usiohusiana.\n- **Ujumbe:** msomaji aone adabu iliyofuatwa au iliyosahihishwa.\n- **Mtindo:** tumia lugha ya kiubunifu lakini rahisi. Maneno ya wakati husukuma kisa.\n- **Muundo:** anwani, hati safi, tahajia, kanuni za kisarufi na uakifishaji.\n\nHerufi kubwa huanzisha sentensi na majina ya watu. Kikomo huishia sentensi. Koma inaweza kutenganisha kwanza na kisha ikiwa vipo katika sentensi ndefu, lakini sentensi fupi ni bora zaidi.\n\n### Kusomea wenzako\nSoma kwa sauti inayosikika. Wenzako wasikilize kama matukio yanafuatana na kama adabu imeonekana. Wakupe shauri moja. Pokea kwa heshima, kisha sahihisha. Changamkia utunzi huu. Kila kisa unachokiandika kinakuza ubunifu wako na kukumbusha nidhamu unayoiona mezani.",
+      "keyWords": [
+        { "word": "kwanza", "meaning": "neno linaloonyesha tukio la kuanzia" },
+        { "word": "kisha", "meaning": "neno linaloonyesha tukio linalofuata" },
+        { "word": "funzo", "meaning": "elimu inayopatikana mwishoni mwa kisa" }
+      ],
+      "examples": [
+        {
+          "problem": "Panga matukio: alishukuru, aliosha mikono, alikula.",
+          "steps": ["Mikono huoshwa kwanza.", "Kula hufuata. Shukrani huja mwishoni."],
+          "answer": "aliosha mikono, alikula, alishukuru",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: jana tulikula tukimshukuru mama",
+          "steps": ["Sentensi inaanza kwa herufi kubwa.", "Inamalizika kwa kikomo."],
+          "answer": "Jana tulikula tukimshukuru mama.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika kisa na kisome",
+        "materials": ["Daftari na kalamu", "Rubani ya vidokezo ubaoni"],
+        "steps": [
+          "Andika vidokezo vitano vya kisa cha nidhamu mezani.",
+          "Andika insha yenye anwani, mwanzo, matukio na mwisho.",
+          "Hakiki tahajia, herufi kubwa na vikomo.",
+          "Msomee wenzako insha kwa sauti inayosikika.",
+          "Pokea maoni mawili na usahihishe sentensi moja."
+        ]
+      },
+      "practice": [
+        { "question": "Andika vidokezo vitano vya kisa cha chakula cha jioni.", "answer": "Mfano: kunawa mikono; kukaa; kusubiri mzee; kula kwa adabu; kushukuru.", "check": null },
+        { "question": "Andika sentensi ya mwanzo ikitaja wakati na mahali.", "answer": "Mfano: Jana jioni tulikaa mezani kula pamoja.", "check": null },
+        { "question": "Kwa nini matukio yafuatane?", "answer": "Ili msomaji aelewe kilichoanza na kilichomaliza bila kuchanganyikiwa.", "check": null },
+        { "question": "Taja mambo matatu ya kuzingatia unapoandika insha hii.", "answer": "Anwani, mpangilio wa mawazo, hati safi, tahajia, sarufi na uakifishaji.", "check": null }
+      ],
+      "summary": [
+        "Geuza vidokezo kuwa matukio yanayofuatana.",
+        "Tumia kwanza, kisha na mwishoni kuongoza msomaji.",
+        "Soma kisa kwa wenzako na usahihishe kwa heshima."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Insha ya masimulizi hufanya nini?",
+      "options": ["Husimulia kisa", "Hutoa maana za kamusi tu", "Hueleza silabi", "Hutoa orodha ya bei"],
+      "answer": "A",
+      "explanation": "Masimulizi husimulia matukio ya kisa.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Lipi ni wasifu, si masimulizi?",
+      "options": ["Jana tuliosha mikono tukala.", "Mama yangu ni mkarimu.", "Kisha babu akaomba.", "Mwishoni tulishukuru."],
+      "answer": "B",
+      "explanation": "Inaeleza sifa bila kusimulia tukio.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Anwani ya insha huandikwaje?",
+      "options": ["kwa herufi kubwa kama kichwa", "chini ya ukurasa kwa herufi ndogo", "ndani ya kiulizi", "katikati ya aya ya mwisho"],
+      "answer": "A",
+      "explanation": "Anwani ni kichwa cha insha.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Mpangilio sahihi wa matukio ni upi?",
+      "options": ["kula, shukuru, nawa mikono", "nawa mikono, kula, shukuru", "shukuru, nawa, kaa", "kula, nawa, kaa"],
+      "answer": "B",
+      "explanation": "Mikono hunawwa kwanza, kula hufuata, shukrani huishia.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Neno lipi linaonyesha tukio linalofuata?",
+      "options": ["kwanza", "kisha", "anwani", "nomino"],
+      "answer": "B",
+      "explanation": "Kisha huunganisha tukio linalofuata. Kwanza huanzisha.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kisa cha mada hii kihusu nini?",
+      "options": ["silabi za p na b", "nidhamu mezani", "sehemu za tarakilishi", "maana ya kamusi tu"],
+      "answer": "B",
+      "explanation": "Insha ya masimulizi katika mada hii inasimulia kisa cha nidhamu mezani.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi inafaa kuwa mwanzo?",
+      "options": ["Jana jioni tulikaa mezani.", "Mwishoni tulishukuru bila mwanzo.", "Pa pe pi po pu.", "Kamusi ina maana."],
+      "answer": "A",
+      "explanation": "Inataja wakati na mahali, hivyo inafungua kisa.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sahihisha: jana tuliosha mikono",
+      "answer": "Jana tuliosha mikono.",
+      "explanation": "Sentensi huanza kwa herufi kubwa na inaishia kwa kikomo.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Andika sentensi moja ya mwisho yenye funzo la mezani.",
+      "answer": "Mfano: Tangu siku hiyo ninasubiri wazee kuanza kula.",
+      "explanation": "Mwisho unaonyesha funzo bila kuanzisha tukio jipya lisilohusiana.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tuchangamkie kuandika masimulizi?",
+      "answer": "Kwa sababu kunakuza ubunifu na kutufundisha kupanga matukio kwa uwazi.",
+      "explanation": "Utunzi wa mara kwa mara huboresha lugha na mpangilio wa mawazo.",
+      "outcome": "c",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 2.0 Nidhamu Mezani, Mada Ndogo 2.3.1 Kuandika: Insha ya Masimulizi"
+  ]
+}

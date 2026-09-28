@@ -1,0 +1,374 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "1.3.1",
+  "title": "Grammar in Use: Word Classes (Determiners)",
+  "overview": "Articles are the small words a, an and the that come before nouns. In this sub-strand you will tell indefinite articles from the definite article, match each article with the right noun, and use articles in sentences about the family.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "The articles a, an and the",
+      "outcomes": [
+        "a",
+        "c"
+      ],
+      "objectives": [
+        "Name the articles a, an and the.",
+        "Tell a definite article from an indefinite article.",
+        "Find articles in a written paragraph about a family."
+      ],
+      "intro": "When you say a sister, you mean one sister, but not a particular one your listener already knows. When you say the sister, you mean one sister that both of you can point to. Those small words are articles.",
+      "notes": "### What is an article?\nAn article is a determiner that comes before a noun. English has three articles: a, an and the. They tell the listener whether we mean any one of a group, or one particular person or thing.\n\n### Indefinite articles: a and an\nA and an are indefinite articles. Use them when you mention one person or thing for the first time, or when you mean any one of that kind.\n\n- Use a before a consonant sound: a mother, a father, a brother, a home, a visitor, a house.\n- Use an before a vowel sound: an aunt, an uncle, an elder, an egg, an orange, an invitation.\n\nListen to the sound, not only the first letter. Hour begins with the letter h, but the h is silent, so the first sound is a vowel and we say an hour. House begins with a sounded h, so we say a house. Uniform begins with a \"yoo\" sound, which is a consonant sound, so we say a uniform, not an uniform.\n\n### The definite article: the\nThe is the definite article. Use it when the speaker and the listener both know which one is meant.\n\n- There is only one of its kind in that place: the sun, the head teacher of our school.\n- It has already been mentioned: I saw a visitor. The visitor was my uncle.\n- The situation makes it clear: Please close the door. Everyone knows you mean the door of this room.\n\n### Articles in a family paragraph\nRead this paragraph and listen for the articles.\n\nA family lives in a house near a river. The family has a mother, a father and an uncle. The mother keeps a garden, and the father mends the roof. An aunt visits every Sunday. The children run to the gate when they hear her voice.\n\nThe indefinite articles are a (family, house, river, mother, father, garden) and an (uncle, aunt). The definite article the appears in the family, the mother, the father, the roof, the children and the gate. Family is introduced with a, then called the family, because we now know which family is meant.\n\n### Why we notice articles\nArticles change the message. \"I met a teacher\" is not the same as \"I met the teacher.\" When you speak and write about your family, the right article helps people understand exactly who you mean. Notice articles when relatives talk at home, and respect the way each person is learning to use them.",
+      "keyWords": [
+        {
+          "word": "article",
+          "meaning": "the word a, an or the used before a noun"
+        },
+        {
+          "word": "indefinite article",
+          "meaning": "a or an, used when we do not mean one particular thing"
+        },
+        {
+          "word": "definite article",
+          "meaning": "the word the, used when we mean a particular thing"
+        },
+        {
+          "word": "noun",
+          "meaning": "a word that names a person, place, thing or idea"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "Is the article in the phrase \"an elder\" definite or indefinite?",
+          "steps": [
+            "The articles are a, an and the.",
+            "A and an are indefinite. The is definite.",
+            "The phrase uses an."
+          ],
+          "answer": "Indefinite"
+        },
+        {
+          "problem": "Why do we say an hour but a house?",
+          "steps": [
+            "Hour: the h is silent, so the first sound is a vowel sound.",
+            "House: the h is sounded, so the first sound is a consonant.",
+            "An goes with a vowel sound. A goes with a consonant sound."
+          ],
+          "answer": "Hour begins with a vowel sound, but house begins with a consonant sound."
+        }
+      ],
+      "activity": {
+        "title": "Read the articles aloud",
+        "materials": [
+          "The family paragraph in this lesson",
+          "Exercise book",
+          "A pencil"
+        ],
+        "steps": [
+          "With a partner, read the articles a, an and the aloud three times, clearly.",
+          "Read the family paragraph together. Tap the desk gently each time you hear an article.",
+          "Write two lists: indefinite articles (a, an) with their nouns, and the definite article the with its nouns.",
+          "Tell your partner one reason it helps a listener when we choose the right article."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 150\" font-family=\"sans-serif\"><rect width=\"520\" height=\"150\" fill=\"#ffffff\"/><rect x=\"10\" y=\"12\" width=\"240\" height=\"126\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\"/><rect x=\"270\" y=\"12\" width=\"240\" height=\"126\" rx=\"8\" fill=\"#f0fdf4\" stroke=\"#166534\"/><text x=\"130\" y=\"36\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#1d4ed8\">Indefinite: a, an</text><text x=\"130\" y=\"62\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">a house, a mother</text><text x=\"130\" y=\"84\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">an aunt, an hour</text><text x=\"130\" y=\"112\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">any one, first mention</text><text x=\"390\" y=\"36\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#166534\">Definite: the</text><text x=\"390\" y=\"62\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">the family, the roof</text><text x=\"390\" y=\"84\" text-anchor=\"middle\" font-size=\"13\" fill=\"#111827\">the head teacher</text><text x=\"390\" y=\"112\" text-anchor=\"middle\" font-size=\"12\" fill=\"#374151\">a particular one</text></svg>",
+        "caption": "Indefinite articles a and an, and the definite article the"
+      },
+      "practice": [
+        {
+          "question": "Which articles are indefinite?",
+          "answer": "a and an"
+        },
+        {
+          "question": "Choose a or an: ___ uncle, ___ baby, ___ hour, ___ home.",
+          "answer": "an uncle, a baby, an hour, a home"
+        },
+        {
+          "question": "In \"I have a sister. The sister is in Grade 2.\", why does the second sentence use the?",
+          "answer": "The sister has already been mentioned, so both people know which sister is meant."
+        }
+      ],
+      "summary": [
+        "A and an are indefinite articles. The is the definite article.",
+        "Choose a or an by the first sound of the next word.",
+        "Use the when a particular person or thing is meant."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Matching articles with nouns",
+      "outcomes": [
+        "a",
+        "b"
+      ],
+      "objectives": [
+        "Match a or an with a noun by its first sound.",
+        "Match the with a noun when a particular one is meant.",
+        "Complete blanks in sentences with the correct article."
+      ],
+      "intro": "A list of family nouns is waiting for articles: brother, aunt, elder, cake, orange, visitor. Before any of those nouns can sit in a clear sentence, it needs the right article in front of it.",
+      "notes": "### Matching a or an\nSay the noun quietly and listen to its first sound. Do not look only at the first letter.\n\nNouns that take a, because they begin with a consonant sound: brother, sister, cousin, cake, visitor, home, garden, uniform, house, year.\n\nNouns that take an, because they begin with a vowel sound: aunt, uncle, elder, infant, orange, egg, hour, invitation, ancestor.\n\nA quick test helps. If the first sound is the same kind of sound you hear at the start of apple, egg, ink, orange or umbrella, use an. If the first sound is not a vowel sound, use a.\n\n### Matching the\nUse the when the noun points to a particular person or thing.\n\n- the class teacher (the teacher of your own class)\n- the baby (the baby in this family, not any baby)\n- the kitchen (the kitchen of this house)\n- the children who live here\n\nThe can come before a singular noun or a plural noun. A and an come before singular nouns only. We do not say a children or an elders.\n\n### Completing blanks\nRead the whole sentence before you choose. The words around the blank show whether the noun is new or already known.\n\n1. We have ___ new baby. The noun is singular, new, and baby begins with a consonant sound, so the article is a: a new baby.\n2. ___ baby sleeps in the afternoon. The baby was just mentioned, so we use The.\n3. Mother bought ___ orange and ___ mango. Orange begins with a vowel sound, mango with a consonant sound: an orange and a mango.\n4. Please call ___ uncle who lives nearest. If you mean one particular uncle that everyone knows, use the. If you are introducing any one uncle, use an.\n\nThe choice changes the meaning. \"Please call an uncle\" can mean any one of the uncles. \"Please call the uncle\" means one particular uncle.\n\n### A full sentence\nAn article does not stand alone. It joins a noun, and the noun joins a verb.\n\n- An aunt lives near our home.\n- The children help with the chores.\n- A visitor brought a gift for the baby.\n\nWhen you finish a sentence, read it aloud. If a or an fights with the first sound, change it.",
+      "keyWords": [
+        {
+          "word": "consonant sound",
+          "meaning": "a speech sound that is not a vowel sound, such as the first sound in house or baby"
+        },
+        {
+          "word": "vowel sound",
+          "meaning": "a speech sound like the first sound in aunt, egg or hour"
+        },
+        {
+          "word": "blank",
+          "meaning": "an empty space in a sentence that you fill with the correct word"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "Match a or an with these nouns: elder, house, hour, uniform.",
+          "steps": [
+            "Elder and hour begin with vowel sounds.",
+            "House begins with a sounded h. Uniform begins with a \"yoo\" sound."
+          ],
+          "answer": "an elder, a house, an hour, a uniform"
+        },
+        {
+          "problem": "Fill the blank: I saw a man at the gate. ___ man waved at me.",
+          "steps": [
+            "The man has already been mentioned.",
+            "Both people know which man is meant.",
+            "Use the definite article."
+          ],
+          "answer": "The"
+        }
+      ],
+      "activity": {
+        "title": "Match the article to the noun",
+        "materials": [
+          "Cards with the nouns brother, aunt, elder, cake, orange, visitor, hour, house, uniform, invitation",
+          "Cards labelled a, an and the",
+          "Exercise book"
+        ],
+        "steps": [
+          "In a group, match each noun card with a or an by listening to the first sound.",
+          "Then match the with three nouns that mean a particular person or thing in your classroom, such as the teacher, the door and the board.",
+          "Complete these blanks and compare answers: My family has ___ dog. ___ dog is called Simba. We also have ___ uncle who visits for ___ hour.",
+          "With a partner, construct two new sentences, one using an and one using the."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Fill the blanks: She ate ___ apple and ___ banana.",
+          "answer": "an apple, a banana"
+        },
+        {
+          "question": "Which article completes both blanks correctly? ___ children swept ___ compound.",
+          "answer": "The children swept the compound."
+        },
+        {
+          "question": "Write a sentence that uses an aunt.",
+          "answer": "Any correct sentence, for example: An aunt came to our house on Sunday."
+        },
+        {
+          "question": "Why is \"a children\" incorrect?",
+          "answer": "A is used with singular nouns. Children is plural, so we say the children."
+        }
+      ],
+      "summary": [
+        "Match a or an to the first sound of the noun.",
+        "Use the for a particular person or thing, singular or plural.",
+        "Read the whole sentence before you fill a blank."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Using articles when we speak and write",
+      "outcomes": [
+        "b",
+        "c"
+      ],
+      "objectives": [
+        "Construct sentences that use a, an and the correctly.",
+        "Use articles in speech about people in a family.",
+        "Share written sentences safely and explain why articles matter."
+      ],
+      "intro": "You can now spot a, an and the in a paragraph. The useful next step is to choose them yourself when you talk about your family and when you write sentences to share.",
+      "notes": "### Speaking with articles\nWhen you introduce someone, the article does real work.\n\n- This is a friend from my class. The listener has not met the friend yet, so we use a.\n- This is the friend I told you about. The listener has already heard about this friend, so we use the.\n\nPractise these aloud, stressing the article slightly so you hear it:\n\n- We have an elder in our home. The elder tells us stories.\n- A cousin is visiting. The cousin will stay for a week.\n- Please pass the salt. The salt means the salt on this table.\n\nIf you drop the article, the sentence sounds unfinished: \"Please pass salt\" is not the usual way to ask. Putting the in its place makes the request clear and polite.\n\n### Writing with articles\nUse the same rules when you write.\n\n1. Decide whether the noun is one of many (a or an) or a particular one (the).\n2. If you choose a or an, check the first sound.\n3. Read the sentence aloud. A wrong article often sounds wrong too.\n\nModel sentences:\n\n- An orphan in our village lives with a care-giver.\n- The care-giver is a kind grandmother.\n- The family eats together in the evening.\n\n### Sharing sentences safely\nYou may type your sentences on a phone, tablet or computer and share them with a parent, a sibling or your teacher by a message, an email or a printout. Before you send anything:\n\n- Show an adult what you have written.\n- Do not send your home address, your date of birth or a photograph to a stranger.\n- Stay on the app or page a parent or teacher has allowed.\n- If you are unsure, ask before you tap send.\n\nYou can also hunt for articles in a newspaper, a magazine or a page your teacher chooses from the internet. Underline a, an and the, then read the sentences to your group. Listen when a partner chooses a different sentence. People notice different examples, and that is useful.\n\n### Keep using them\nArticles appear in almost every English sentence about people and things. Families, friends and teachers understand you more easily when the article matches your meaning. Watch for them in speech at home, and use them on purpose when you speak and write.",
+      "keyWords": [
+        {
+          "word": "introduce",
+          "meaning": "to tell someone a person's name for the first time"
+        },
+        {
+          "word": "model sentence",
+          "meaning": "a correct sentence you can copy the pattern of"
+        },
+        {
+          "word": "share",
+          "meaning": "to give your work to another person to read"
+        }
+      ],
+      "examples": [
+        {
+          "problem": "Correct the articles: I saw an house and a uncle.",
+          "steps": [
+            "House begins with a consonant sound, so it needs a.",
+            "Uncle begins with a vowel sound, so it needs an."
+          ],
+          "answer": "I saw a house and an uncle."
+        },
+        {
+          "problem": "Which article fits? ___ grandmother who lives with us tells ___ best stories.",
+          "steps": [
+            "A particular grandmother is meant, and a particular set of stories.",
+            "Both nouns are definite for the listener."
+          ],
+          "answer": "The grandmother who lives with us tells the best stories."
+        }
+      ],
+      "activity": {
+        "title": "Build sentences and share them",
+        "materials": [
+          "Exercise book",
+          "A digital device if the teacher allows",
+          "A newspaper, magazine or printed page chosen by the teacher"
+        ],
+        "steps": [
+          "With a partner, construct four sentences about a family. Use a, an and the at least once each.",
+          "Read the sentences aloud and correct any article that does not match the sound or the meaning.",
+          "If a digital device is available, type the sentences with your teacher watching, and share them only with a family member or your teacher.",
+          "In a group, find three sentences that contain articles in a newspaper, magazine or page the teacher selects. Read them aloud and name each article."
+        ]
+      },
+      "practice": [
+        {
+          "question": "Correct the sentence: She is an honest girl and a hour early.",
+          "answer": "She is an honest girl and an hour early."
+        },
+        {
+          "question": "Use the in a sentence about one particular person in a family.",
+          "answer": "Any correct sentence, for example: The grandmother tells stories after supper."
+        },
+        {
+          "question": "Why should you ask an adult before you send school work from a phone?",
+          "answer": "So that you share only with people you trust and do not give private information to strangers."
+        },
+        {
+          "question": "Change the meaning by replacing a with the: A baby is crying.",
+          "answer": "The baby is crying. A means any baby or a baby just introduced. The means a particular baby."
+        }
+      ],
+      "summary": [
+        "Use a or an for a new or non-particular singular noun, and the when the noun is particular.",
+        "Read every sentence aloud before you share it.",
+        "Share typed work only with people you know, and ask an adult first."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which word is the definite article?",
+      "options": [
+        "a",
+        "an",
+        "the",
+        "and"
+      ],
+      "answer": "C",
+      "explanation": "The is the definite article. A and an are indefinite. And is not an article.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which phrase uses an indefinite article correctly?",
+      "options": [
+        "an house",
+        "a aunt",
+        "an uncle",
+        "a hour"
+      ],
+      "answer": "C",
+      "explanation": "Uncle begins with a vowel sound, so it takes an.",
+      "outcome": "a"
+    },
+    {
+      "question": "Choose the correct pair: ___ egg and ___ mango.",
+      "options": [
+        "a, a",
+        "an, a",
+        "a, an",
+        "an, an"
+      ],
+      "answer": "B",
+      "explanation": "Egg begins with a vowel sound and mango with a consonant sound.",
+      "outcome": "b"
+    },
+    {
+      "question": "I met a visitor. ___ visitor was my cousin. Which word fills the blank?",
+      "options": [
+        "A",
+        "An",
+        "The",
+        "Some"
+      ],
+      "answer": "C",
+      "explanation": "The visitor has already been mentioned, so we use the.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why do we say a uniform and not an uniform?",
+      "answer": "Uniform begins with a \"yoo\" consonant sound, so it takes a.",
+      "explanation": "We choose a or an by the first sound, not only by the first letter.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which sentence is correct?",
+      "options": [
+        "Please pass salt to the baby.",
+        "Please pass the salt to a baby we were just talking about.",
+        "Please pass the salt to the baby.",
+        "Please pass an salt to the baby."
+      ],
+      "answer": "C",
+      "explanation": "The salt and the baby are particular things in this situation. Salt does not take an.",
+      "outcome": "b"
+    },
+    {
+      "question": "In the family paragraph, why is family first called \"a family\" and later \"the family\"?",
+      "answer": "It is introduced as new with a, then called the family because the reader now knows which family is meant.",
+      "explanation": "The first mention is indefinite. The next mention is definite.",
+      "outcome": "a"
+    },
+    {
+      "question": "What should you do before sending sentences from a phone?",
+      "options": [
+        "Send them to any stranger who asks",
+        "Show an adult and share only with someone you know",
+        "Add your home address so the reader can visit",
+        "Hide the articles to make the message shorter"
+      ],
+      "answer": "B",
+      "explanation": "Private details stay private, and an adult should see school work before it is sent.",
+      "outcome": "c"
+    },
+    {
+      "question": "Why do articles matter in speech and writing?",
+      "answer": "They show whether we mean any one person or thing, or a particular one, so the listener understands the message.",
+      "explanation": "A sister and the sister do not mean the same thing.",
+      "outcome": "c"
+    },
+    {
+      "question": "Which list shows only articles?",
+      "options": [
+        "a, the, of",
+        "an, the, a",
+        "the, and, an",
+        "a, on, the"
+      ],
+      "answer": "B",
+      "explanation": "The three English articles are a, an and the.",
+      "outcome": "a"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 English Language Curriculum Design (Revised 2024) — Theme 1.0 The Family, Sub-strand 1.3.1 Word Classes: Determiners"
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "5.3.1",
+  "title": "Kuandika: Insha ya Maelezo",
+  "overview": "Insha ya maelezo hueleza jambo ili msomaji apate picha dhahiri. Katika mada hii ndogo utatambua vifungu vya maelezo, utajifunza muundo wa insha, na utaandika insha kuhusu ushauri na nasaha ukitumia vivumishi na vielezi. Utahakikisha tahajia, sarufi na uakifishaji.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Vifungu vya maelezo na muundo wa insha",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutambua kifungu cha maelezo katika matini.",
+        "Kutofautisha maelezo na orodha isiyo na maelezo.",
+        "Kutaja sehemu za insha ya maelezo."
+      ],
+      "intro": "Ukiambiwa tu heshima, hujui nini cha kufanya. Ukielezwa kuwa heshima ni kuwaamkua wakubwa kwa sauti ya upole na kusikiliza hadi mwisho, unapata picha. Maelezo hufanya wazo lionekane.",
+      "notes": "### Kifungu cha maelezo\nKifungu cha maelezo hueleza jambo, mahali, mtu au desturi ili msomaji aelewe bila kuwepo hapo. Hutumia vivumishi kueleza sifa, na vielezi kueleza jinsi, wakati au mahali.\n\nSoma kifungu hiki:\n\nKila jioni, mdogo wangu hunisikiliza kwa makini ninapomwonyesha herufi. Anashikilia kalamu vizuri. Anasoma polepole. Ninapompongeza kwa upole, anatabasamu na kujaribu tena.\n\nHiki ni kifungu cha maelezo. Kinatuonyesha jinsi somo linavyofanyika. Vivumishi na vielezi vinatoa picha: kwa makini, vizuri, polepole, kwa upole.\n\nHiki si maelezo kamili: Vitabu. Kalamu. Daftari. Hii ni orodha. Haisemi nani anayefanya nini, wala jinsi gani.\n\n### Vipengele vya kuangalia\nUnaposoma matini kwenye kitabu au tarakilishi, tafuta:\n\n- Jambo linaloelezwa ni lipi?\n- Kuna sifa zinazoonekana au kusikika?\n- Kuna maneno ya jinsi, kama polepole, kwa heshima, kila siku?\n- Msomaji anaweza kufikiria tukio?\n\nKama ndiyo, umepata kifungu cha maelezo.\n\n### Muundo wa insha ya maelezo\nInsha ya maelezo hufuata mpangilio:\n\n1. **Anwani** ni kichwa cha insha, kwa mfano Heshima Nyumbani.\n2. **Utangulizi** hueleza jambo kwa ufupi.\n3. **Kiini** kina aya. Kila aya inabeba hoja moja na inaitoa kwa mifano.\n4. **Hitimisho** hufupisha funzo bila kurudia kila sentensi.\n\nSuala lengwa ni ushauri-nasaha. Mada zinazofaa ni: ushauri ninapokea nyumbani, jinsi ya kuonyesha heshima, faida za kusikiliza wazazi. Usiandike uvumi wala siri za majirani.",
+      "keyWords": [
+        { "word": "insha ya maelezo", "meaning": "utungo unaoeleza jambo ili msomaji apate picha dhahiri" },
+        { "word": "kivumishi", "meaning": "neno linaloeleza sifa, kama mdogo au mpole" },
+        { "word": "kielezi", "meaning": "neno linaloeleza jinsi, wakati au mahali, kama polepole" },
+        { "word": "picha dhahiri", "meaning": "maelezo yanayomfanya msomaji aone jambo akilini" }
+      ],
+      "examples": [
+        {
+          "problem": "Je, maneno haya ni kifungu cha maelezo? Kalamu. Kitabu. Daftari.",
+          "steps": ["Haya ni majina yaliyotengwa.", "Hayasemi nani anafanya nini wala jinsi gani."],
+          "answer": "Hapana. Ni orodha, si maelezo.",
+          "check": null
+        },
+        {
+          "problem": "Tambua vielezi katika sentensi: Anasoma polepole na kwa makini.",
+          "steps": ["Polepole kinaeleza jinsi.", "Kwa makini kinaeleza jinsi pia."],
+          "answer": "polepole na kwa makini",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tafuta maelezo katika matini",
+        "materials": ["Vifungu kwenye kitabu, chati au tarakilishi", "Penseli"],
+        "steps": [
+          "Soma vifungu viwili: kimoja cha maelezo na kimoja cha orodha.",
+          "Sema kipi kinatoa picha, na kwa nini.",
+          "Pigia mstari kivumishi kimoja na kielezi kimoja.",
+          "Jadiliana na mwenzako muundo: anwani, utangulizi, kiini, hitimisho.",
+          "Chagueni mada moja ya ushauri-nasaha mngaliandika kesho."
+        ]
+      },
+      "practice": [
+        { "question": "Insha ya maelezo inafanya nini?", "answer": "Inaeleza jambo ili msomaji apate picha dhahiri.", "check": null },
+        { "question": "Tofautisha orodha na kifungu cha maelezo kwa mfano mmoja.", "answer": "Orodha: Kalamu. Kitabu. Maelezo: Anasoma polepole na kwa makini.", "check": null },
+        { "question": "Taja sehemu nne za insha ya maelezo kwa mpangilio.", "answer": "Anwani, utangulizi, kiini na hitimisho.", "check": null },
+        { "question": "Kielezi katika sentensi Anasoma polepole ni kipi?", "answer": "polepole", "check": null }
+      ],
+      "summary": [
+        "Maelezo hutumia sifa na jinsi ili kutoa picha.",
+        "Orodha ya majina peke yake si insha ya maelezo.",
+        "Muundo ni anwani, utangulizi, kiini na hitimisho."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kuandika insha ya maelezo",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kuandaa vidokezo vya insha ya maelezo kuhusu ushauri.",
+        "Kuandika insha ukizingatia kanuni za uandishi.",
+        "Kuisoma insha ili wenzake waitathmini."
+      ],
+      "intro": "Vidokezo ni mifupa ya insha. Ukiyaandika kwanza, kila aya inapata kazi yake. Leo tutaweka nyama ya maelezo juu ya mifupa hiyo: sifa, jinsi na mfano.",
+      "notes": "### Vidokezo\nChagua mada moja. Mfano: Ushauri ninapata nyumbani.\n\n- Utangulizi: wazazi hunipa nasaha kila siku.\n- Hoja ya kwanza: jinsi ya kuwaamkua watu.\n- Hoja ya pili: jinsi ya kusoma kwa bidii.\n- Hoja ya tatu: jinsi ya kuomba radhi.\n- Hitimisho: nasaha hii inanisaidia kuishi na wenzangu.\n\n### Kanuni\nZingatia anwani, mpangilio wa mawazo, hati safi, tahajia, kanuni za kisarufi na uakifishaji. Tumia lugha ya kiubunifu bila kubuni uwongo kuhusu mtu halisi. Eleza unachokijua nyumbani kwako.\n\nVivumishi: mpole, mdogo, mwenye adabu. Vielezi: kila siku, polepole, kwa heshima, mapema.\n\n### Kielelezo kifupi\n**Ushauri Ninapata Nyumbani**\n\nNyumbani mwetu, nasaha huja kila siku. Mama na baba hunieleza jinsi ya kuishi na watu.\n\nKwanza, ninaamkua wakubwa kwa sauti ya upole. Nasema shikamoo na ninasikiliza jibu. Siamki kwa kelele.\n\nPili, ninasoma polepole ninapokutana na neno gumu. Ninawauliza walezi badala ya kukata tamaa. Bidii hii hunisaidia darasani.\n\nTatu, ninapokosea ninaomba radhi mapema. Sifichi kosa. Kuomba radhi hunirudisha amani na wenzangu.\n\nNasaha hizi zinanifanya niwe mwanafunzi mwenye adabu. Nitazifuata kila siku.\n\n### Tathmini\nMsomee mwenzako. Yeye aulize: Je, nimeona picha? Je, kila aya ina hoja moja? Je, kuna kikomo na herufi kubwa? Sema lililo wazi kwanza, kisha pendekezo moja. Ukisambaza insha kwenye kifaa, tumia kifaa kwa ruhusa na usitume kwa mtu usiyemjua.",
+      "keyWords": [
+        { "word": "vidokezo", "meaning": "hoja fupi zinazoongoza uandishi" },
+        { "word": "utangulizi", "meaning": "aya ya kwanza inayoanzisha mada" },
+        { "word": "hitimisho", "meaning": "aya ya mwisho inayofupisha funzo" }
+      ],
+      "examples": [
+        {
+          "problem": "Geuza orodha iwe sentensi ya maelezo: kuamkua, upole, shikamoo.",
+          "steps": ["Weka mtu anayefanya tendo.", "Ongeza jinsi: kwa upole."],
+          "answer": "Ninaamkua wakubwa kwa upole ninaposema shikamoo.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini kila aya ibebe hoja moja?",
+          "steps": ["Msomaji hufuata wazo kwa urahisi.", "Hoja zikichanganyika, picha inachanganyikiwa."],
+          "answer": "Ili kila wazo lieleweke peke yake na mpangilio ubaki wazi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika na usome insha",
+        "materials": ["Daftari na kalamu", "Kifaa cha kidijitali panapowezekana"],
+        "steps": [
+          "Jadiliana na mwenzako mada ya ushauri-nasaha na muundo wa insha.",
+          "Andika vidokezo: utangulizi, hoja tatu, hitimisho.",
+          "Andika insha ukitumia angalau vivumishi viwili na vielezi viwili.",
+          "Isome kwa wenzako au uisambaze kwa mwalimu kwa njia aliyoidhinisha.",
+          "Rekebisha kosa moja la tahajia au uakifishaji baada ya tathmini."
+        ]
+      },
+      "practice": [
+        { "question": "Andika vidokezo vitatu vya insha: Jinsi ya kuonyesha heshima.", "answer": "Mfano: kuamkua wakubwa; kusikiliza hadi mwisho; kuomba radhi ninapokosea.", "check": null },
+        { "question": "Andika sentensi moja ya maelezo ukitumia kielezi kwa heshima.", "answer": "Mfano: Ninawasalimu walimu kwa heshima kila asubuhi.", "check": null },
+        { "question": "Hitimisho la insha hufanya kazi gani?", "answer": "Hufupisha funzo bila kurudia kila sentensi ya kiini.", "check": null },
+        { "question": "Taja kanuni mbili za uandishi wa insha.", "answer": "Mfano: mpangilio wa mawazo na uakifishaji mwafaka. Pia tahajia, hati safi na sarufi.", "check": null }
+      ],
+      "summary": [
+        "Anza na vidokezo, kisha andika aya zenye hoja moja moja.",
+        "Tumia vivumishi na vielezi ili picha iwe wazi.",
+        "Soma insha kwa wenzako na ukubali pendekezo la kurekebisha."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Insha ya maelezo inahusu nini?", "options": ["Kuficha maana", "Kueleza jambo ili picha iwe dhahiri", "Kuandika orodha tu", "Kuimba shairi"], "answer": "B", "explanation": "Insha ya maelezo hutoa picha wazi ya jambo.", "outcome": "a", "check": null },
+    { "question": "Ni lipi kifungu cha maelezo?", "options": ["Kalamu. Kitabu. Daftari.", "Anasoma polepole na kwa makini.", "1, 2, 3", "Jina la faili"], "answer": "B", "explanation": "Sentensi hiyo inaeleza jinsi, si kuorodhesha majina tu.", "outcome": "a", "check": null },
+    { "question": "Kielezi katika Anasoma polepole ni kipi?", "options": ["Anasoma", "polepole", "katika", "darasa"], "answer": "B", "explanation": "Polepole kinaeleza jinsi anavyosoma.", "outcome": "a", "check": null },
+    { "question": "Sehemu ya kwanza ya insha ya maelezo ni ipi?", "options": ["Hitimisho", "Anwani au kichwa", "Orodha ya majina", "Sahihi ya ofisi"], "answer": "B", "explanation": "Insha huanza na anwani inayoonyesha mada.", "outcome": "a", "check": null },
+    { "question": "Kiini cha insha kinafanyaje?", "options": ["Kila aya hoja moja", "Hoja zote katika neno moja", "Hakuna mifano", "Kunakili orodha"], "answer": "A", "explanation": "Kila aya hubeba hoja moja na kuieleza.", "outcome": "b", "check": null },
+    { "question": "Suala lipi linafaa katika insha hii?", "options": ["Siri za jirani", "Ushauri ninapata nyumbani", "Uvumi usio na hakika", "Maneno ya kumdhalilisha"], "answer": "B", "explanation": "Mada inafaa kuhusu ushauri-nasaha.", "outcome": "b", "check": null },
+    { "question": "Vidokezo vinakuongoza vipi?", "answer": "Vinapanga utangulizi, hoja na hitimisho kabla ya kuandika sentensi.", "explanation": "Vidokezo huzuia kuruka hoja au kuchanganya mawazo.", "outcome": "b", "check": null },
+    { "question": "Andika sentensi ya maelezo ukitumia neno kwa upole.", "answer": "Mfano: Mama hunishauri kwa upole ninapokosea.", "explanation": "Kielezi kwa upole kinaonyesha jinsi ushauri unavyotolewa.", "outcome": "b", "check": null },
+    { "question": "Ni kanuni gani ya uandishi?", "options": ["Kuacha uakifishaji", "Kuzingatia tahajia na mpangilio", "Kuandika bila aya", "Kuficha anwani"], "answer": "B", "explanation": "Tahajia na mpangilio ni kanuni za insha nzuri.", "outcome": "b", "check": null },
+    { "question": "Unachangamkiaje utunzi wa insha ya maelezo?", "answer": "Kwa kuandika kwa ubunifu, kuisoma kwa wenzangu, na kurekebisha ili picha iwe wazi.", "explanation": "Kuchangamkia ni kupenda kuandika na kuboresha kazi.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 5.0 Ushauri-Nasaha, Mada Ndogo 5.3.1 Kuandika: Insha ya Maelezo"
+  ]
+}

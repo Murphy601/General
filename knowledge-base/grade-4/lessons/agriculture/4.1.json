@@ -1,0 +1,457 @@
+{
+  "subject": "AGRICULTURE",
+  "subStrand": "4.1",
+  "title": "Making Tacking Stitches",
+  "overview": "Tacking stitches are temporary stitches that hold cloth in place. In this sub-strand you will identify even tacking and long and short tacking, sew them neatly and safely, and use them to make a small item such as a handkerchief or clothing for a scarecrow.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Tools for tacking and why we tack",
+      "outcomes": ["a", "c"],
+      "objectives": [
+        "Name the tools used for tacking stitches.",
+        "Explain why tacking is done before permanent sewing."
+      ],
+      "intro": "Two pieces of cloth will slide apart unless something holds them. Pins can do that for a moment. Tacking stitches hold them in a line until the real seam is sewn, and then the tacking can be pulled out.",
+      "notes": "Tacking is a temporary stitch. It is also called basting. You sew it by hand to hold layers of cloth together, to hold a hem in place, or to mark a line before you put in a stronger stitch. Because it will be removed, it is sewn so that it is firm enough to hold but not so tight that it is hard to pull out.\n\nYou will learn two types. Even tacking has stitches of the same length. Long and short tacking has a long stitch and then a short stitch. Both are tacking. They are not the final seam on a school uniform, but they are the stitches that make that later seam straight.\n\nThe tools are simple. A sewing needle with an eye you can thread. Cotton thread, often in a colour that is easy to see against the cloth so that you can remove it later. A pair of scissors used only for cloth and thread, not for paper, because paper blunts them. Pins and a pin cushion or a small box. A tape measure or a ruler. Tailor's chalk or a pencil to draw the stitch line. A thimble protects the finger that pushes the needle, if you have one. The cloth for practice can be cotton offcuts or an old clean sheet.\n\nSet the tools on a tray before you start. A needle left in the chair is a sharp surprise for the next person. Count the needles at the end of the lesson. Pass scissors by the handles. Do not put pins in your mouth. Sit in a good light so that you can see the stitches.\n\nTacking matters because it lets you check the size and the shape before you commit to a permanent stitch. A handkerchief hem, a scarecrow's shirt or two pieces of a simple bag all sit better if they are tacked first. The stitch is a skill of production: you are making an item, not only mending a tear.",
+      "keyWords": [
+        { "word": "tacking", "meaning": "temporary stitches that hold cloth in place and can be removed" },
+        { "word": "basting", "meaning": "another name for tacking" },
+        { "word": "needle", "meaning": "a thin pointed tool with an eye, used to carry thread through cloth" }
+      ],
+      "examples": [
+        {
+          "problem": "Why is tacking thread often a different colour from the cloth?",
+          "steps": [
+            "Tacking is temporary.",
+            "A colour you can see is easier to unpick without cutting the cloth."
+          ],
+          "answer": "So that the temporary stitches are easy to see and remove.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Handle the sewing tools safely",
+        "materials": ["Needles", "Thread", "Scissors", "Pins", "Ruler or tape measure", "Cotton cloth", "Tray"],
+        "steps": [
+          "Name each tool and say what it is used for.",
+          "Practise passing scissors handles first and parking needles in a pin cushion.",
+          "Measure a square of cloth with the ruler and write down the length of each side.",
+          "Count every needle back onto the tray at the end."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 160\" font-family=\"sans-serif\"><rect width=\"440\" height=\"160\" fill=\"#ffffff\"/><g stroke=\"#111827\" fill=\"none\" stroke-width=\"2\"><rect x=\"20\" y=\"40\" width=\"70\" height=\"50\" rx=\"4\"/><rect x=\"110\" y=\"40\" width=\"70\" height=\"50\" rx=\"4\"/><rect x=\"200\" y=\"40\" width=\"70\" height=\"50\" rx=\"4\"/><rect x=\"290\" y=\"40\" width=\"70\" height=\"50\" rx=\"4\"/></g><text x=\"55\" y=\"70\" text-anchor=\"middle\" font-size=\"12\" fill=\"#111827\">Needle</text><text x=\"145\" y=\"70\" text-anchor=\"middle\" font-size=\"12\" fill=\"#111827\">Thread</text><text x=\"235\" y=\"70\" text-anchor=\"middle\" font-size=\"12\" fill=\"#111827\">Scissors</text><text x=\"325\" y=\"70\" text-anchor=\"middle\" font-size=\"12\" fill=\"#111827\">Pins</text><text x=\"20\" y=\"120\" font-size=\"12\" fill=\"#374151\">Also use a ruler or tape measure, chalk and cotton cloth.</text><text x=\"20\" y=\"140\" font-size=\"12\" fill=\"#374151\">Keep needles in a cushion. Pass scissors by the handles.</text></svg>",
+        "caption": "Basic tools for tacking: needle, thread, scissors and pins"
+      },
+      "practice": [
+        { "question": "What is tacking?", "answer": "Temporary stitches that hold cloth in place and can be removed later.", "check": null },
+        { "question": "Name four tools used for tacking.", "answer": "Any four: needle, thread, scissors, pins, ruler or tape measure, chalk, thimble, cloth.", "check": null },
+        { "question": "Give one safety rule for needles and one for scissors.", "answer": "Do not leave needles on chairs or put them in your mouth. Pass scissors by the handles and do not point them at people.", "check": null }
+      ],
+      "summary": [
+        "Tacking is a temporary stitch used to hold cloth.",
+        "You need a needle, thread, scissors, pins, a measure and cloth.",
+        "Count needles and pass scissors safely."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Even tacking stitches",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Describe how even tacking looks.",
+        "Make a line of even tacking on two layers of cloth."
+      ],
+      "intro": "Even tacking looks like a neat row of dashes, the same length on the top of the cloth as on the underside. If you can already sew a running stitch, even tacking will feel familiar.",
+      "notes": "Even tacking is a line of stitches of equal length, with equal spaces between them. On the right side you see a dash, a gap, a dash, a gap. Turn the cloth over and the stitches look the same size. That evenness is what gives the stitch its name.\n\nIt is used when two pieces must be held firmly, for example along a seam before a stronger stitch is sewn, or when you join cloth for a small item. The stitches are longer than tiny permanent stitches, so they are quicker to put in and quicker to remove. A useful length for a learner is about one centimetre for the stitch and about one centimetre for the space. You can check with a ruler at first. Later your eye will judge the length.\n\nTo sew it, cut a piece of thread about the length of your arm. A longer thread knots and frays. Thread the needle and tie a knot at the other end. Pin two pieces of cotton together along the line you will sew. Start from the right if you are right-handed, or from the end that lets you see the line clearly. Bring the needle up from the underside. Take a stitch of about one centimetre forward, then leave a space of about one centimetre, and repeat. Keep the stitches on the chalk line. Do not pull the thread so tight that the cloth bunches into little hills. The layers should lie flat.\n\nFinish with two small stitches on top of each other so the line does not open, or leave a short tail if your teacher wants the tacking easy to remove. Look at both sides. If one side shows tiny stitches and the other shows long ones, you have not made even tacking.\n\nPractise on scrap cloth before you use cloth you care about. The first line teaches your hand. The second line should be straighter.",
+      "keyWords": [
+        { "word": "even tacking", "meaning": "temporary stitches of equal length on both sides of the cloth" },
+        { "word": "seam", "meaning": "the line where two pieces of cloth are joined" }
+      ],
+      "examples": [
+        {
+          "problem": "A learner's stitches are 1 cm long on top but only a speck on the underside. Is this even tacking?",
+          "steps": [
+            "Even tacking has the same length on both sides.",
+            "A speck on one side means the stitches are not even."
+          ],
+          "answer": "No. The stitches must be about the same length on both sides.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sew a practice line of even tacking",
+        "materials": ["Cotton cloth", "Needle", "Contrasting thread", "Pins", "Scissors", "Ruler", "Chalk"],
+        "steps": [
+          "Draw a straight chalk line and pin two layers of cloth along it.",
+          "Thread the needle, knot the end, and sew even stitches of about one centimetre with equal spaces.",
+          "Check both sides of the cloth with a ruler.",
+          "Fasten the end, count the needles, and show the line to a partner."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 140\" font-family=\"sans-serif\"><rect width=\"460\" height=\"140\" fill=\"#ffffff\"/><text x=\"16\" y=\"28\" font-size=\"14\" fill=\"#111827\">Even tacking: equal stitches and equal spaces</text><line x1=\"20\" y1=\"70\" x2=\"420\" y2=\"70\" stroke=\"#d1d5db\" stroke-width=\"2\"/><g stroke=\"#1d4ed8\" stroke-width=\"4\" stroke-linecap=\"butt\"><line x1=\"30\" y1=\"70\" x2=\"70\" y2=\"70\"/><line x1=\"110\" y1=\"70\" x2=\"150\" y2=\"70\"/><line x1=\"190\" y1=\"70\" x2=\"230\" y2=\"70\"/><line x1=\"270\" y1=\"70\" x2=\"310\" y2=\"70\"/><line x1=\"350\" y1=\"70\" x2=\"390\" y2=\"70\"/></g><text x=\"16\" y=\"110\" font-size=\"12\" fill=\"#374151\">About 1 cm stitch, about 1 cm space, the same on the other side.</text></svg>",
+        "caption": "Even tacking is a row of equal stitches with equal gaps"
+      },
+      "practice": [
+        { "question": "How do you recognise even tacking?", "answer": "The stitches and the spaces are equal, and both sides of the cloth look the same.", "check": null },
+        { "question": "About how long should a learner make each even tacking stitch?", "answer": "About one centimetre, with a space of about one centimetre.", "check": null },
+        { "question": "What happens if you pull the tacking thread too tight?", "answer": "The cloth bunches up and does not lie flat.", "check": null }
+      ],
+      "summary": [
+        "Even tacking has equal stitches and equal spaces on both sides.",
+        "Sew along a pinned line without pulling the cloth tight.",
+        "About one centimetre is a good stitch length while you learn."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Long and short tacking stitches",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Describe how long and short tacking looks.",
+        "Make a line of long and short tacking."
+      ],
+      "intro": "Sometimes you only need to hold a fold for a short time, and you want to finish quickly. Long and short tacking uses less stitching on the underside, so the line grows faster than even tacking.",
+      "notes": "Long and short tacking is a temporary stitch with a long stitch on the top of the cloth and a short stitch underneath. On the side you see, the dashes are long. When you turn the cloth, you see only small stitches picking up a few threads. The pattern repeats: long, short, long, short.\n\nIt is used to hold a hem, to keep a pocket or a patch in place while you check it, or to hold cloth that does not need a very firm grip. It is faster than even tacking because most of the thread lies on top in long stitches. It is not as firm as even tacking, so it is a weaker hold. Choose it when speed matters more than strength. Choose even tacking when the seam will be pulled or fitted.\n\nSew it like this. Pin the fold or the two layers. Bring the needle up from underneath. Slide the needle forward about two centimetres on the top, then pick up only two or three threads of cloth before you come up again. Those two or three threads are the short stitch. Repeat. The long stitches should be similar to each other, and the short stitches should stay small. Keep the line straight.\n\nDo not make the long stitch so huge that the cloth gaps open in the middle. About two centimetres on top is enough for practice. If the short stitch takes a big bite of cloth, you have slipped back towards even tacking.\n\nFinish the line so it will not unravel while you handle the item. If the tacking will be removed the same day, a small back stitch at the end is enough, and you can leave the knot easy to find.\n\nCompare a sample of even tacking with a sample of long and short tacking side by side. Name each one from the way the stitches look, not from memory of which cloth you picked up.",
+      "keyWords": [
+        { "word": "long and short tacking", "meaning": "temporary stitches with a long stitch on top and a short stitch underneath" },
+        { "word": "hem", "meaning": "the edge of cloth folded over and held down" }
+      ],
+      "examples": [
+        {
+          "problem": "You can see long dashes on the top of a hem and only tiny stitches on the back. Which tacking stitch is this?",
+          "steps": [
+            "Even tacking would look the same on both sides.",
+            "Long on top and short underneath is long and short tacking."
+          ],
+          "answer": "Long and short tacking.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sew long and short tacking on a hem",
+        "materials": ["Cotton cloth", "Needle", "Thread", "Pins", "Ruler", "Scissors"],
+        "steps": [
+          "Fold a hem of about two centimetres and pin it.",
+          "Tack with a long stitch of about two centimetres on top and a very short stitch underneath.",
+          "Turn the cloth over to check that the underside stitches are short.",
+          "Label the sample 'long and short tacking' and compare it with your even tacking sample."
+        ]
+      },
+      "practice": [
+        { "question": "How is long and short tacking different from even tacking?", "answer": "Long and short tacking has long stitches on top and short stitches underneath. Even tacking has equal stitches on both sides.", "check": null },
+        { "question": "When is long and short tacking a good choice?", "answer": "When you need a quick temporary hold, such as a hem, and the seam will not be pulled hard.", "check": null },
+        { "question": "What does the short stitch pick up?", "answer": "Only a few threads of the cloth.", "check": null }
+      ],
+      "summary": [
+        "Long and short tacking shows long stitches on top and short stitches underneath.",
+        "It is quicker but less firm than even tacking.",
+        "Use it for hems and for holding cloth briefly."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Choosing and comparing the two stitches",
+      "outcomes": ["a"],
+      "objectives": [
+        "Choose even tacking or long and short tacking for a given job.",
+        "Point out neat and untidy tacking on a sample."
+      ],
+      "intro": "Both stitches are tacking, but they are not twins. Picking the right one is part of the skill, just as picking the right tool is part of farm work.",
+      "notes": "Look at a sample before you name it. If the stitches match on both sides, it is even tacking. If the top stitches are long and the underside stitches are short, it is long and short tacking. Colour of thread does not tell you the type. Only the stitch pattern does.\n\nChoose even tacking when the pieces must not shift. Joining two sides of a scarecrow's shirt, sewing a seam that will be handled a lot, or holding a curved edge are jobs for even tacking. The equal stitches grip both layers in the same way all along the line.\n\nChoose long and short tacking when you are folding a hem on a handkerchief, holding a label in place, or keeping layers still for a short fitting. You will sew it faster, and you will remove it faster, because there is less thread buried in the cloth.\n\nQuality is separate from type. A neat line is straight, the stitches of one kind match each other, the cloth lies flat, and the knot is not a lump on the right side. An untidy line wanders off the chalk mark, has some tiny stitches and some very long ones mixed with no plan, or pulls the cloth into puckers. Hold a sample at arm's length. A straight tacking line looks calm. A poor one looks bumpy.\n\nYou can improve a weak line by looking at one fault at a time. If spaces are uneven, slow down and measure the next five stitches. If the cloth puckers, loosen the thread. If the line bends, follow a chalk mark instead of guessing.\n\nIn a group, swap samples without saying which stitch you tried to sew. Let the others name it. This trains your eye, which is what the outcome asks: identify the types of tacking stitches.",
+      "keyWords": [
+        { "word": "pucker", "meaning": "a small bunch in the cloth caused by stitches pulled too tight" },
+        { "word": "sample", "meaning": "a small piece of work used for practice or to show a stitch" }
+      ],
+      "examples": [
+        {
+          "problem": "You are joining two pieces of cloth for a scarecrow's shirt that children will pull onto a frame. Which tacking stitch is better, and why?",
+          "steps": [
+            "The join will be handled and pulled.",
+            "Even tacking holds more firmly than long and short tacking."
+          ],
+          "answer": "Even tacking, because the seam needs a firm hold.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sort stitch samples",
+        "materials": ["Samples of even tacking and long and short tacking", "Labels", "Chalk"],
+        "steps": [
+          "Spread the samples face up, then turn them over.",
+          "Label each one with the stitch name and one reason you know.",
+          "Choose which stitch you would use for a hem and which for a strong join, and say why.",
+          "Point out one neat feature and one fault on a sample, without unkind comments."
+        ]
+      },
+      "practice": [
+        { "question": "How can you tell even tacking from long and short tacking just by looking?", "answer": "Even tacking looks the same on both sides. Long and short tacking is long on top and short underneath.", "check": null },
+        { "question": "Which stitch would you use to hold a handkerchief hem quickly?", "answer": "Long and short tacking.", "check": null },
+        { "question": "Name two signs of untidy tacking.", "answer": "Any two: the line is not straight, stitches of the same type are uneven, the cloth puckers, the knot sits in a lump on the right side.", "check": null }
+      ],
+      "summary": [
+        "Name the stitch by the pattern on both sides of the cloth.",
+        "Use even tacking for a firm hold and long and short tacking for a quick hold.",
+        "Neat tacking is straight, even for its type, and flat."
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Starting, fastening and removing tacking",
+      "outcomes": ["b"],
+      "objectives": [
+        "Start and fasten a tacking line securely.",
+        "Remove tacking without damaging the cloth."
+      ],
+      "intro": "A tacking line that opens at the first end is wasted work. A line you cannot remove without ripping the cloth is no longer temporary. Starting and finishing are part of the stitch.",
+      "notes": "Start with a knot that sits on the underside, or with two tiny stitches on top of each other at the beginning of the line. The knot should be small. A huge knot makes a bump and can pull through thin cotton. Hide it between two layers if you are joining pieces, so that it does not show on the outside of the item.\n\nThread the needle with a length you can control, about from your shoulder to your fingertips. Too much thread tangles. If the thread frays, cut the fuzzy end before you try the eye of the needle. Wetting the end slightly can help it pass through the eye. Tie the knot tight enough that it does not slip open.\n\nAt the end of the line, make two small stitches in the same place, or one small back stitch, and cut the thread leaving a short tail. Do not leave a long tail that will catch on buttons and tools. Do not cut so close that the last stitch opens.\n\nRemoving tacking is done after the permanent stitch is in place, or when a practice piece is finished. Snip the knot. Pull the thread gently from the other end. If it snaps, snip again and pull the next piece. Do not yank so hard that you tear the cotton. Use the eye of the needle or a pin to lift a stubborn stitch, not the point stabbed towards your hand. Collect the waste thread in a small tin. Loose thread on the floor is a mess, and a needle left in the scrap is dangerous.\n\nIf you are making a sample item that uses tacking as its stitch, you may leave the tacking in. In that case the fastening must be firm, because nothing stronger will be sewn over it. Your teacher will say whether today's line stays or comes out.\n\nMeasure the line you have sewn. A straight line of a known length, such as 10 centimetres, is good practice in the careful measuring you also use in Mathematics.",
+      "keyWords": [
+        { "word": "fasten off", "meaning": "to finish a line of stitching so it does not come undone" },
+        { "word": "unpick", "meaning": "to remove stitches from cloth" }
+      ],
+      "examples": [
+        {
+          "problem": "The tacking must stay in a scarecrow's shirt because no other stitch will be added. How should the ends be finished?",
+          "steps": [
+            "A temporary tail is not enough if the stitch is the final hold.",
+            "The start needs a secure knot and the end needs firm small stitches."
+          ],
+          "answer": "Knot the start securely and finish with two small stitches so the line cannot open.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Fasten a line and then remove one sample",
+        "materials": ["Needle", "Thread", "Cloth", "Scissors", "Ruler", "Tin for waste thread"],
+        "steps": [
+          "Sew 10 centimetres of even tacking, with a small knot at the start and two fastening stitches at the end.",
+          "Measure the line to check the length.",
+          "On a second scrap, remove tacking gently and show that the cloth is not torn.",
+          "Put all needles back and throw the waste thread in the tin."
+        ]
+      },
+      "practice": [
+        { "question": "Where should the starting knot sit if you do not want it seen?", "answer": "On the underside or hidden between the two layers of cloth.", "check": null },
+        { "question": "How do you fasten the end of a tacking line?", "answer": "With two small stitches in the same place, then cut the thread leaving a short tail.", "check": null },
+        { "question": "How should tacking be removed?", "answer": "Snip the knot and pull the thread gently so the cloth does not tear.", "check": null }
+      ],
+      "summary": [
+        "Start with a small secure knot and finish with fastening stitches.",
+        "Remove tacking gently after it has done its job.",
+        "If tacking is the only stitch, the ends must be firm."
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Making a handkerchief with tacking stitches",
+      "outcomes": ["b"],
+      "objectives": [
+        "Measure and cut a square for a handkerchief.",
+        "Hold the hem with tacking stitches."
+      ],
+      "intro": "A handkerchief is a small square with the raw edges folded so they do not fray. Tacking holds that fold. It is a complete little item you can finish in class and actually use.",
+      "notes": "Choose plain cotton that is clean and easy to sew. Measure a square. A side of about 20 centimetres is large enough to practise and small enough to finish. Check that all four sides are equal. Use the ruler and mark the square with chalk before anyone cuts. Cut on the line. Crooked cutting makes a crooked hem.\n\nA raw edge frays, so fold a small hem on each side. A fold of about one centimetre is enough. Fold once to hide the raw edge, or fold twice if the cloth frays badly. Press the fold with your fingers or ask an adult to press it. Pin the four hems. The corners are the tricky part: fold one side, then the next, so that the corner lies flat instead of making a lump.\n\nTack the hem with long and short tacking if you want a quick hold, or with even tacking if you want the hem to stay very secure. Work on the wrong side so that most of the stitching is less obvious on the side you will use to wipe a clean face. Keep the stitches the same size all the way around. At each corner, stop and rearrange the fold before you continue.\n\nFasten the thread well if this tacking will stay in the handkerchief. If your teacher will later replace it with a permanent stitch, tack neatly and leave the tacking easy to remove. Either way, the hem should not gape.\n\nTrim loose threads. Write your name on a tape pinned to the handkerchief, not in pen on the cloth. Count the needles. The item is small, but the measuring, the even folds and the straight stitches are the real standard of the work.",
+      "keyWords": [
+        { "word": "raw edge", "meaning": "a cut edge of cloth that has not been finished and may fray" },
+        { "word": "fray", "meaning": "to unravel into loose threads at the edge" }
+      ],
+      "examples": [
+        {
+          "problem": "A square is marked 20 cm on three sides and 16 cm on the fourth. What will go wrong if you cut it like that?",
+          "steps": [
+            "A handkerchief should be a square.",
+            "Unequal sides make uneven hems and a shape that is not square."
+          ],
+          "answer": "The cloth will not be square, and the hem will be uneven. Measure the fourth side again before cutting.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tack a handkerchief hem",
+        "materials": ["Cotton cloth", "Ruler", "Chalk", "Scissors", "Pins", "Needle", "Thread"],
+        "steps": [
+          "Measure and cut a square with equal sides, about 20 centimetres.",
+          "Fold and pin a hem of about one centimetre on all four sides, keeping the corners flat.",
+          "Tack the hem with even tacking or long and short tacking, as your teacher directs.",
+          "Fasten the ends, trim threads, and check that the stitches are even and the cloth lies flat."
+        ]
+      },
+      "practice": [
+        { "question": "Why do you measure all four sides before cutting the handkerchief?", "answer": "So that the cloth is a true square and the hems match.", "check": null },
+        { "question": "Why is a hem folded on a handkerchief?", "answer": "To hide the raw edge so the cloth does not fray.", "check": null },
+        { "question": "Which tacking stitch is suitable for holding a hem quickly?", "answer": "Long and short tacking.", "check": null }
+      ],
+      "summary": [
+        "Measure a square, then cut.",
+        "Fold a narrow hem and pin the corners flat.",
+        "Tack the hem and fasten the thread."
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Making scarecrow clothing with tacking stitches",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Join cloth with even tacking to make simple scarecrow clothing.",
+        "Keep stitches firm enough for the item to be used."
+      ],
+      "intro": "A scarecrow needs clothes that stay on in the wind. Two rectangles of old cloth, joined at the shoulders and sides with firm tacking, become a simple shirt that a frame can wear in the garden.",
+      "notes": "Clothing for a scarecrow is a sample item, not a uniform. Old cotton sacks, worn shirts or offcuts are ideal. You are practising production with tacking, and the garden gets a use from the result.\n\nA simple shirt needs two rectangles, a front and a back. Measure them the same size. A piece about 30 centimetres wide and 35 centimetres long is enough for a small scarecrow. Lay the two pieces with the right sides together if the cloth has a better side. Pin the shoulder seams, leaving a gap in the middle for the neck. Pin the side seams, leaving gaps at the top for the arms.\n\nUse even tacking on these seams because the shirt will be pulled onto a stick or stuffed with dry grass. Long and short tacking would come loose too easily in the wind. Sew about one centimetre in from the edge so that the cloth does not tear out. Keep the stitches even and fasten both ends well. This tacking stays in the garment, so it must be secure.\n\nTurn the shirt right side out. The seams should be inside. Check that your head gap and arm gaps are big enough for the frame you will use. If a gap is too small, unpick that part carefully and tack it again. Do not cut a huge hole without measuring.\n\nYou can add a strip of cloth as a belt, tacked at the front, so the shirt can be tied to the frame. Frayed edges can be left on a scarecrow, or you can turn a rough hem and hold it with long and short tacking.\n\nWork with a partner if you wish, and share scissors and the tape measure. Take turns so that both of you sew. Needles are sharp. Keep them in the cushion when you stand up to fit the shirt on the frame. The finished shirt is a real use of tacking in agriculture: it helps protect a crop plot from birds.",
+      "keyWords": [
+        { "word": "scarecrow", "meaning": "a figure dressed in old clothes and set in a garden to keep birds away" },
+        { "word": "right side", "meaning": "the better-looking face of the cloth, which shows on the outside of a finished item" }
+      ],
+      "examples": [
+        {
+          "problem": "Why is even tacking used on the scarecrow's side seams instead of long and short tacking?",
+          "steps": [
+            "The seams will be pulled when the shirt is stuffed or tied to a frame.",
+            "Even tacking holds more firmly."
+          ],
+          "answer": "The seams need a firm hold, so even tacking is the better choice.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tack a simple scarecrow shirt",
+        "materials": ["Two equal rectangles of old cloth", "Pins", "Needle", "Thread", "Scissors", "Tape measure", "Dry grass or a stick frame if available"],
+        "steps": [
+          "Measure two equal pieces and pin the shoulders and sides, leaving gaps for the neck and arms.",
+          "Join those seams with even tacking about one centimetre from the edge, and fasten the ends.",
+          "Turn the shirt right side out and test it on a stick or a stuffed bag.",
+          "Share tools, count the needles, and explain why tacking was the right stitch for this item."
+        ]
+      },
+      "practice": [
+        { "question": "Why must the front and back pieces be the same size?", "answer": "So that the seams match and the shirt is not twisted.", "check": null },
+        { "question": "Which openings must you leave when you tack the shirt?", "answer": "A neck opening and arm openings.", "check": null },
+        { "question": "Why must the tacking on this shirt be fastened firmly?", "answer": "It stays in the garment and must hold when the shirt is pulled onto the scarecrow.", "check": null },
+        { "question": "How does this item link sewing to the garden?", "answer": "The shirt dresses a scarecrow that helps keep birds off a crop plot.", "check": null }
+      ],
+      "summary": [
+        "Cut two equal pieces and pin the seams, leaving neck and arm gaps.",
+        "Join them with firm even tacking.",
+        "Turn the shirt out and fit it on the scarecrow frame."
+      ]
+    },
+    {
+      "number": 8,
+      "title": "Showing why tacking stitches matter",
+      "outcomes": ["c"],
+      "objectives": [
+        "Present a finished sample and name the stitch used.",
+        "Explain the importance of tacking in making items."
+      ],
+      "intro": "A row of stitches on a handkerchief or a scarecrow shirt is easier to appreciate when you can hold it. The display is your chance to show what tacking does that pins alone cannot do.",
+      "notes": "Tacking matters for several reasons. It holds cloth so that the pieces do not slip while you work. It lets you check length and shape before you cut again or sew a permanent seam. It is easy to remove if you change your mind. It trains your hand in straight, even stitches, which you will need for every later sewing skill. On a sample item it can even be the stitch that finishes the work, as on the scarecrow shirt.\n\nPrepare a display of the class items. Put handkerchiefs in one row and scarecrow clothes in another. Each item needs a card: your name, the stitch you used, and one reason you chose it. For example: 'Even tacking, because the seam needed a firm hold.' Lay a ruler beside one item so visitors can see that the stitches were measured, not guessed.\n\nIn your presentation, say three things. First, name the type of tacking and show both sides of the cloth if you can. Second, explain one step you found hard, such as the corner of a hem or keeping the space even, and how you fixed it. Third, say why tacking is useful beyond this lesson: mending a hem at home, holding a patch, or making another simple farm item.\n\nListen to other groups. Unity in this work means sharing needles fairly, passing scissors safely, and giving comments that help. 'Your spaces are equal' is a useful comment. Laughing at a crooked first try is not.\n\nSafety still matters at the display. No loose needles in the handkerchiefs. Scissors closed. Pins in a cushion. When the display comes down, store the items dry and clean, and return every needle to the tin. Count them.\n\nAppreciating the stitch means you will use it again when cloth needs holding, not only when a teacher is watching. That is the production skill this sub-strand is building.",
+      "keyWords": [
+        { "word": "presentation", "meaning": "a short talk that shows your work and explains it" },
+        { "word": "permanent stitch", "meaning": "a stitch meant to stay in the cloth, unlike tacking" }
+      ],
+      "examples": [
+        {
+          "problem": "Give two reasons tacking is used before a permanent seam.",
+          "steps": [
+            "It stops the layers sliding.",
+            "You can check the fit and remove the tacking if something is wrong."
+          ],
+          "answer": "It holds the layers still, and it lets you check the work before the final stitch goes in.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Display and present the sample items",
+        "materials": ["Finished handkerchiefs or scarecrow clothes", "Label cards", "Pins in a cushion", "Ruler"],
+        "steps": [
+          "Label each item with the stitch name and the reason it was chosen.",
+          "Display the items so both neat stitches and safe tool storage can be seen.",
+          "Present in groups: name the stitch, show one difficulty you solved, and state why tacking is useful.",
+          "Count needles and scissors back into their containers."
+        ]
+      },
+      "practice": [
+        { "question": "Give three reasons tacking stitches are important.", "answer": "Any three: they hold cloth, they let you check size and shape, they can be removed, they train even stitching, they can finish a simple item.", "check": null },
+        { "question": "What should a label on your sample say?", "answer": "Your name, the type of tacking used, and why you chose it.", "check": null },
+        { "question": "What safety check is needed before a handkerchief is taken home?", "answer": "There must be no needle or pin left in it.", "check": null }
+      ],
+      "summary": [
+        "Tacking holds cloth, lets you check the work, and trains neat stitches.",
+        "A display should name the stitch and the reason it was chosen.",
+        "Share tools safely and leave no needles in the finished items."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is tacking?",
+      "options": ["A permanent machine stitch", "A temporary stitch that holds cloth and can be removed", "A way of washing cloth", "A knot used only on ropes"],
+      "answer": "B",
+      "explanation": "Tacking, or basting, holds cloth for a time and is often removed later.",
+      "outcome": "a"
+    },
+    {
+      "question": "How do you recognise even tacking?",
+      "options": ["Long stitches on top and tiny stitches underneath", "Stitches of equal length on both sides of the cloth", "One knot and no stitches", "A zigzag that cannot be removed"],
+      "answer": "B",
+      "explanation": "Even tacking has equal stitches and equal spaces, looking alike on both sides.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which description matches long and short tacking?",
+      "options": ["Equal stitches on both sides", "Long stitches on top and short stitches underneath", "Only glue, no thread", "Stitches hidden with no thread on top"],
+      "answer": "B",
+      "explanation": "The top stitch is long and the underside stitch picks up only a few threads.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which job needs the firmer stitch, even tacking?",
+      "answer": "Joining seams on a scarecrow shirt that will be pulled onto a frame.",
+      "explanation": "Even tacking grips both layers evenly. Long and short tacking is a weaker hold.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which stitch is a good choice for holding a handkerchief hem quickly?",
+      "options": ["Long and short tacking", "No stitch, leave the edge raw", "Wire twisted through the cloth", "A nail"],
+      "answer": "A",
+      "explanation": "Long and short tacking is quick and suitable for holding a hem.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why measure the cloth before cutting a handkerchief?",
+      "answer": "So that the sides are equal and the finished square is even.",
+      "explanation": "Measuring links the sewing to careful length, and it keeps the hems matching.",
+      "outcome": "b"
+    },
+    {
+      "question": "How should you pass scissors?",
+      "options": ["Points first, quickly", "Handles first", "Thrown to the partner", "Held open towards them"],
+      "answer": "B",
+      "explanation": "Handles first keep the points away from the other person.",
+      "outcome": "b"
+    },
+    {
+      "question": "Why should tacking thread often be a different colour from the cloth?",
+      "answer": "So that the temporary stitches are easy to see and remove.",
+      "explanation": "A matching thread is harder to unpick without cutting the cloth.",
+      "outcome": "c"
+    },
+    {
+      "question": "Why is tacking useful before a permanent seam?",
+      "answer": "It holds the layers still and lets you check the size and shape first.",
+      "explanation": "You can still remove tacking if the pieces do not fit.",
+      "outcome": "c"
+    },
+    {
+      "question": "What must you check before taking a sample handkerchief home?",
+      "options": ["That a needle is left in the hem for later", "That no needle or pin remains in the cloth", "That the cloth is still wet", "That the scissors are wrapped inside it"],
+      "answer": "B",
+      "explanation": "A hidden needle can injure someone. Count tools back into their tin.",
+      "outcome": "b"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Agriculture Curriculum Design (Revised 2024) — Strand 4.0 Production Techniques, Sub-strand 4.1 Making Tacking Stitches"
+  ]
+}

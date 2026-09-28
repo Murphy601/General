@@ -1,0 +1,130 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "5.2.1",
+  "title": "Kusoma: Kusoma kwa Ufahamu (Shairi)",
+  "overview": "Shairi ni utungo wa mishororo mifupi inayopangwa katika beti. Katika mada hii ndogo utaeleza maana ya shairi, ubeti na mshororo, utalitambua kwa umbo lake, na utalisoma kwa ufasaha ukizingatia ujumbe. Shairi litakalotumika linahusu ushauri na nasaha.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Shairi, ubeti na mshororo",
+      "outcomes": ["a", "c", "d"],
+      "objectives": [
+        "Kueleza maana ya shairi, ubeti na mshororo.",
+        "Kutambua beti na mishororo katika shairi.",
+        "Kutofautisha shairi na aya kwa umbo lake."
+      ],
+      "intro": "Ukurasa mmoja una aya ndefu. Ukurasa mwingine una mistari mifupi iliyopangwa kwa makundi. Umbo la pili mara nyingi ni shairi. Leo tutapanga majina ya sehemu zake.",
+      "notes": "### Msamiati wa ushairi\n**Shairi** ni utungo unaotumia mishororo mifupi kupanga mawazo na hisia. Si aya ya kawaida. Hujulikana kwa umbo lake: mistari mifupi, nafasi kati ya makundi, na sauti inayorudiwa inaposomwa.\n\n**Mshororo** ni mstari mmoja wa shairi. Mishororo ni wingi. Kila mstari unahesabiwa, hata kama ni mfupi.\n\n**Ubeti** ni kundi la mishororo inayosimama pamoja. Beti ni wingi. Ubeti mmoja huwa na wazo moja. Shairi linaweza kuwa na ubeti mmoja au zaidi. Katika madarasa ya awali, ubeti wa mishororo minne hutumiwa sana.\n\n### Shairi: Nasaha\nUbeti wa kwanza\nMamangu hunipa nasaha,\nNisikilize kwa makini,\nNiheshimu wakubwa,\nNiseme na wenzangu vizuri.\n\nUbeti wa pili\nNikienda darasani,\nNasoma kwa bidii,\nNikiwa uwanjani,\nNacheza kwa amani.\n\nUbeti wa tatu\nUshauri ni taa,\nHuuongoza njiani,\nNikiusikiliza,\nNitaishi kwa heshima.\n\n### Kuhesabu\nShairi hili lina beti tatu. Kila ubeti una mishororo minne. Jumla ya mishororo ni kumi na mbili. Mshororo wa kwanza wa ubeti wa kwanza ni: Mamangu hunipa nasaha.\n\n### Umbo\nShairi hutambulika kwa umbo kabla hata ya kusoma maana. Mistari yake ni mifupi. Haianzi ukingo mmoja na kuendelea kama aya. Kuna nafasi kati ya ubeti na ubeti. Aya ya hadithi ni sentensi ndefu zinazofuata moja baada ya nyingine. Ukiyaona makundi ya mistari mifupi, uliza: Je, hili ni shairi?\n\nUnaposoma kwenye kitabu, chati au tarakilishi, weka kidole chini ya kila mshororo na uhesabu. Kisha hesabu beti. Hii hukusaidia kuvibainisha.",
+      "keyWords": [
+        { "word": "shairi", "meaning": "utungo wa mishororo mifupi unaopanga mawazo na hisia" },
+        { "word": "mshororo", "meaning": "mstari mmoja katika shairi" },
+        { "word": "ubeti", "meaning": "kundi la mishororo linalosimama pamoja" },
+        { "word": "umbo", "meaning": "jinsi maandishi yanavyoonekana ukurasa, kama mistari mifupi au aya" }
+      ],
+      "examples": [
+        {
+          "problem": "Shairi la Nasaha lina beti ngapi, na kila ubeti una mishororo mingapi?",
+          "steps": ["Hesabu makundi yaliyotenganishwa.", "Kuna matatu.", "Kila kundi lina mistari minne."],
+          "answer": "Beti tatu, kila moja ina mishororo minne.",
+          "check": null
+        },
+        {
+          "problem": "Je, sentensi hii ni mshororo wa shairi au aya: Jana nilikwenda shuleni na mama yangu, tukaona walimu wakipanga vitabu vya darasa la nne?",
+          "steps": ["Ni sentensi ndefu inayoendelea.", "Haina umbo la mstari mfupi wa shairi."],
+          "answer": "Ni aya, si mshororo wa shairi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tambua beti na mishororo",
+        "materials": ["Shairi kwenye chati, kitabu au tarakilishi", "Penseli"],
+        "steps": [
+          "Angalieni umbo la maandishi kabla ya kusoma maana.",
+          "Wekeni namba kando ya kila mshororo.",
+          "Chora mstari mwepesi kati ya ubeti na ubeti.",
+          "Jadilini: shairi, ubeti na mshororo vina maana gani?",
+          "Onyesheni aya fupi ya kawaida na mlinganishe umbo lake na shairi."
+        ]
+      },
+      "practice": [
+        { "question": "Mshororo ni nini?", "answer": "Ni mstari mmoja wa shairi.", "check": null },
+        { "question": "Ubeti ni nini?", "answer": "Ni kundi la mishororo inayosimama pamoja.", "check": null },
+        { "question": "Andika mshororo wa kwanza wa shairi la Nasaha.", "answer": "Mamangu hunipa nasaha,", "check": null },
+        { "question": "Unalitambuaje shairi kwa umbo lake?", "answer": "Kwa mistari mifupi iliyopangwa katika makundi, na nafasi kati ya beti, si aya ndefu.", "check": null }
+      ],
+      "summary": [
+        "Shairi lina mishororo, na mishororo hukaa katika beti.",
+        "Umbo la shairi ni mistari mifupi, si aya inayoendelea.",
+        "Kuhesabu beti na mishororo husaidia kulitambua."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kusoma shairi kwa ufasaha na ujumbe",
+      "outcomes": ["b", "e"],
+      "objectives": [
+        "Kusoma shairi kwa sauti ukizingatia mahadhi na ujumbe.",
+        "Kueleza ujumbe wa shairi la nasaha.",
+        "Kutumia lugha ya ushairi unapozungumzia shairi."
+      ],
+      "intro": "Shairi likisomwa kwa haraka kama orodha ya manunuzi, ujumbe wake hupotea. Likisomwa polepole, kwa sauti iliyo wazi, msikilizaji husikia nasaha. Leo tutalisoma ili kulifahamu.",
+      "notes": "### Kusoma kwa ufasaha\nUfasaha ni kusoma kwa sauti inayoeleweka, bila kula maneno, na kwa kasi inayofaa. Katika shairi:\n\n- Simama wima na uishikilie chati vizuri.\n- Soma kila mshororo hadi mwisho, kisha pumzika pumzi fupi.\n- Mwisho wa ubeti, pumzika kidogo zaidi ili msikilizaji ahisi wazo limekamilika.\n- Tamka maneno kama nasaha, heshima na ushauri kwa uwazi.\n- Usipige kelele. Sauti iwafikie wenzako walio mbele.\n\nMahadhi ni mdundo wa sauti unaposoma au unapokariri. Unaweza kusoma polepole, au kwa mdundo mwepesi kama wimbo, mradi maneno yasipotee. Badilisha mahadhi mara moja na usikilize tofauti. Ujumbe ubaki uleule.\n\n### Ujumbe wa shairi la Nasaha\nUbeti wa kwanza unaeleza kuwa mama hutoa ushauri: sikiliza, waheshimu wakubwa, na sema na wenzako vizuri.\n\nUbeti wa pili unaeleza bidii darasani na amani uwanjani.\n\nUbeti wa tatu unasema ushauri ni kama taa. Taa huongoza gizani. Ushauri huongoza maishani. Anayesikiliza ataishi kwa heshima.\n\nUjumbe mzima: sikiliza nasaha ya mlezi, soma kwa bidii, cheza kwa amani, na uishi kwa heshima.\n\n### Lugha ya ushairi\nUnapozungumzia shairi, tumia maneno yake: ubeti, mshororo, ujumbe, mahadhi. Mfano: Katika ubeti wa tatu, mshororo wa kwanza unasema ushauri ni taa. Hii ni lugha ya ushairi, si kusema tu mistari.\n\nShairi hufurahisha linaporuhusu kusema funzo kwa uzuri. Lisiwe njia ya kumdhalilisha mwenzako. Wavulana na wasichana wote wanaweza kulisoma na kukariri.",
+      "keyWords": [
+        { "word": "ufasaha", "meaning": "kusoma kwa sauti wazi, kasi inayofaa na matamshi sahihi" },
+        { "word": "mahadhi", "meaning": "mdundo wa sauti unaposoma au kukariri shairi" },
+        { "word": "ujumbe", "meaning": "funzo au maana mwandishi anataka msomaji aipate" }
+      ],
+      "examples": [
+        {
+          "problem": "Ujumbe wa ubeti wa pili wa shairi la Nasaha ni upi?",
+          "steps": ["Soma mishororo minne ya ubeti wa pili.", "Inataja darasa, bidii, uwanja na amani."],
+          "answer": "Soma kwa bidii darasani na cheza kwa amani uwanjani.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini ushauri umelinganishwa na taa?",
+          "steps": ["Taa huonyesha njia gizani.", "Ushauri huonyesha jinsi ya kuishi."],
+          "answer": "Kwa sababu ushauri huongoza mtu jinsi taa inavyoongoza njia.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Soma na jadili ujumbe",
+        "materials": ["Shairi la Nasaha", "Kifaa cha kidijitali panapowezekana ili kusikiliza shairi likikaririwa"],
+        "steps": [
+          "Sikilizeni shairi likisomwa na mwalimu au kwenye kifaa, panapowezekana.",
+          "Kwa zamu, kila mwanafunzi asome ubeti mmoja kwa mahadhi anayochagua.",
+          "Kikundi kieleze ujumbe wa ubeti wake bila kusoma maneno yote tena.",
+          "Jadilini: mashairi yanaweza kutoa ushauri gani?",
+          "Tumieni maneno ubeti na mshororo mnapotoa maelezo."
+        ]
+      },
+      "practice": [
+        { "question": "Unaposoma shairi, unapumzikia wapi?", "answer": "Ninapumzika pumzi fupi mwisho wa kila mshororo, na pumzi ndefu kidogo mwisho wa ubeti.", "check": null },
+        { "question": "Ujumbe mzima wa shairi la Nasaha ni upi?", "answer": "Sikiliza ushauri, waheshimu wakubwa, soma kwa bidii, cheza kwa amani, na uishi kwa heshima.", "check": null },
+        { "question": "Mahadhi ni nini?", "answer": "Ni mdundo wa sauti unaposoma au kukariri shairi.", "check": null },
+        { "question": "Andika sentensi ukitumia maneno ubeti na ujumbe.", "answer": "Mfano: Ubeti wa tatu una ujumbe kwamba ushauri huongoza kama taa.", "check": null }
+      ],
+      "summary": [
+        "Soma kila mshororo kwa sauti wazi na upumzike mwisho wa ubeti.",
+        "Ujumbe wa Nasaha ni kusikiliza ushauri na kuishi kwa heshima.",
+        "Zungumzia shairi kwa maneno ubeti, mshororo na ujumbe."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Shairi ni nini?", "options": ["Orodha ya manunuzi", "Utungo wa mishororo mifupi", "Barua ya ofisi", "Jedwali la ngeli"], "answer": "B", "explanation": "Shairi ni utungo unaotumia mishororo mifupi.", "outcome": "a", "check": null },
+    { "question": "Mshororo ni upi?", "options": ["Shairi zima", "Mstari mmoja wa shairi", "Jina la mwandishi", "Ukurasa wa kitabu"], "answer": "B", "explanation": "Mshororo ni mstari mmoja.", "outcome": "a", "check": null },
+    { "question": "Ubeti ni nini?", "options": ["Kundi la mishororo", "Koma mwisho wa sentensi", "Jina la ngeli", "Anwani ya barua"], "answer": "A", "explanation": "Ubeti ni kundi la mishororo linalosimama pamoja.", "outcome": "a", "check": null },
+    { "question": "Shairi la Nasaha lina beti ngapi?", "options": ["Moja", "Mbili", "Tatu", "Kumi"], "answer": "C", "explanation": "Shairi lina beti tatu, kila moja mishororo minne.", "outcome": "c", "check": null },
+    { "question": "Unalitambuaje shairi kwa umbo?", "options": ["Kwa aya ndefu tu", "Kwa mistari mifupi iliyopangwa katika makundi", "Kwa picha ya mnyama", "Kwa namba za hesabu tu"], "answer": "B", "explanation": "Umbo la shairi ni mistari mifupi na nafasi kati ya beti.", "outcome": "d", "check": null },
+    { "question": "Mshororo wa kwanza wa shairi la Nasaha ni upi?", "options": ["Ushauri ni taa,", "Nasoma kwa bidii,", "Mamangu hunipa nasaha,", "Nitaishi kwa heshima."], "answer": "C", "explanation": "Ubeti wa kwanza huanza na Mamangu hunipa nasaha.", "outcome": "c", "check": null },
+    { "question": "Kusoma kwa ufasaha kunamaanisha nini?", "options": ["Kusoma kwa kelele bila kupumzika", "Kusoma kwa sauti wazi na kasi inayofaa", "Kuruka mishororo", "Kusoma kimya bila kuelewa"], "answer": "B", "explanation": "Ufasaha ni sauti wazi, matamshi sahihi na kasi inayofaa.", "outcome": "b", "check": null },
+    { "question": "Ushauri umelinganishwa na nini katika ubeti wa tatu?", "options": ["Na jiwe", "Na taa", "Na mto", "Na kiti"], "answer": "B", "explanation": "Mshororo unasema ushauri ni taa inayoongoza.", "outcome": "b", "check": null },
+    { "question": "Ujumbe wa shairi la Nasaha ni upi?", "answer": "Sikiliza ushauri wa mlezi, soma kwa bidii, cheza kwa amani na uishi kwa heshima.", "explanation": "Beti tatu zinajenga ujumbe huo.", "outcome": "b", "check": null },
+    { "question": "Andika sentensi ukitumia maneno mshororo na mahadhi.", "answer": "Mfano: Nilisoma kila mshororo kwa mahadhi polepole ili ujumbe usikike.", "explanation": "Lugha ya ushairi hutumia majina ya sehemu za shairi.", "outcome": "e", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 5.0 Ushauri-Nasaha, Mada Ndogo 5.2.1 Kusoma: Kusoma kwa Ufahamu (Shairi)"
+  ]
+}

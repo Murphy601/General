@@ -1,0 +1,236 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "5.4.1",
+  "title": "Sarufi: Ngeli ya U-I",
+  "overview": "Ngeli ya U-I ina nomino nyingi za mimea na vitu vya kimaumbile, kama mti, mto na mlima. Katika mada hii ndogo utazitambua, utazifautisha na ngeli nyingine, na utajifunza viambishi vya upatanisho katika umoja na wingi. Kisha utatunga sentensi sahihi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Nomino za mimea na vitu vya kimaumbile",
+      "outcomes": ["b"],
+      "objectives": [
+        "Kutaja nomino za mimea na vitu vya kimaumbile za ngeli ya U-I.",
+        "Kuandika umoja na wingi wake.",
+        "Kuzitofautisha na nomino za A-WA na LI-YA."
+      ],
+      "intro": "Mti unakua, miti inakua. Mto unatiririka, mito inatiririka. Maneno haya hayataji watu. Yanataja mimea na vitu vya kimaumbile, na viambishi vyake vinafanana.",
+      "notes": "### Ngeli ya U-I\nNgeli ya U-I huitwa hivyo kwa sababu kitenzi cha umoja huanza na u-, na kitenzi cha wingi huanza na i-. Mifano: unakua, inakua. Nomino nyingi za kundi hili huanza na m- katika umoja na mi- katika wingi.\n\n### Mimea\n- mti/miti\n- mmea/mimea\n- mche/miche (mmea mchanga)\n- mzizi/mizizi\n- msitu/misitu\n\n### Vitu vya kimaumbile\n- mto/mito\n- mlima/milima\n- mwamba/miamba\n\nHivi ni vitu vya asili: maji yanayotiririka, ardhi iliyoinuka, na jiwe kubwa la asili.\n\n### Si kila sehemu ya mmea ni U-I\nBaadhi ya maneno ya mimea yako katika ngeli ya LI-YA kwa sababu wingi wao huchukua ma- na kitenzi li- au ya-:\n\n- tunda/matunda: tunda limeiva, matunda yameiva\n- ua/maua\n- jani/majani\n- tawi/matawi\n\nKwa hivyo swali linapouliza nomino za mimea na vitu vya kimaumbile, jibu la kwanza ni ngeli ya U-I: mti, mmea, mto, mlima. Kisha angalia upatanisho ili usichanganye na LI-YA.\n\n### Tofauti na A-WA\nMwalimu na mti wote wanaanza na m-, lakini si ngeli moja. Mwalimu anafundisha, walimu wanafundisha. Hiyo ni A-WA, kwa sababu ni mtu. Mti unakua, miti inakua. Hiyo ni U-I.\n\nViungo vya mwili kama mkono/mikono na mguu/miguu pia hupata upatanisho wa U-I, ingawa si mimea. Tunavitaja ili tusivichukulie kuwa A-WA. Mtihani wa ngeli ni upatanisho, si kufanana kwa herufi ya kwanza peke yake.",
+      "keyWords": [
+        { "word": "ngeli ya U-I", "meaning": "kundi la nomino linalotumia u- katika umoja na i- katika wingi" },
+        { "word": "mmea", "meaning": "kitu kinachoota, kama mti au mche" },
+        { "word": "kimaumbile", "meaning": "cha asili, kama mto, mlima au mwamba" }
+      ],
+      "examples": [
+        {
+          "problem": "Chagua nomino za U-I: mti, mtoto, mto, tunda, mlima, mwalimu.",
+          "steps": ["Mti, mto na mlima hupata u- na i-.", "Mtoto na mwalimu ni watu, A-WA.", "Tunda hupata li- na ya-, LI-YA."],
+          "answer": "mti, mto, mlima",
+          "check": null
+        },
+        {
+          "problem": "Andika wingi wa: mmea, msitu, mwamba.",
+          "steps": ["m- au mw- ya umoja hubadilika kuwa mi-."],
+          "answer": "mimea, misitu, miamba",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kapu la mimea na mito",
+        "materials": ["Kadi za nomino", "Kapu au boksi", "Mti maneno kwenye ubao"],
+        "steps": [
+          "Chopoeni kadi kutoka kapuni na msome nomino.",
+          "Semeni kama ni mmea, kitu cha kimaumbile, mtu, au tunda.",
+          "Andikeni umoja na wingi kwenye mti maneno wa U-I.",
+          "Wekeni tunda, ua na jani kwenye orodha nyingine ili muone kuwa si U-I.",
+          "Msomee darasa orodha yenu."
+        ]
+      },
+      "practice": [
+        { "question": "Andika wingi wa mti, mto na mlima.", "answer": "miti, mito, milima", "check": null },
+        { "question": "Kwa nini mwalimu si ngeli ya U-I?", "answer": "Kwa sababu ni mtu. Upatanisho wake ni anafundisha na wanafundisha, si unakua na inakua.", "check": null },
+        { "question": "Tunda limeiva. Ni ngeli gani, na kwa nini si U-I?", "answer": "Ni LI-YA. Kitenzi ni li-, na wingi ni matunda yameiva, si mitunda inakua.", "check": null },
+        { "question": "Taja nomino mbili za vitu vya kimaumbile katika U-I.", "answer": "Mfano: mto na mlima. Pia mwamba.", "check": null }
+      ],
+      "summary": [
+        "Mti, mmea, mto na mlima viko katika ngeli ya U-I.",
+        "Wingi wao mara nyingi huchukua mi-.",
+        "Tunda, ua na jani si U-I; viko katika LI-YA."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Viambishi vya upatanisho wa U-I",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutambua viambishi vya kitenzi, kivumishi na kiamilishi vya U-I.",
+        "Kujaza nafasi kwa kiambishi kinachofaa.",
+        "Kutofautisha viambishi vya U-I na vya A-WA."
+      ],
+      "intro": "Mti mzuri unakua. Miti mizuri inakua. Maneno mzuri na mizuri yanafanana lakini kiambishi kinabadilika. Tukiyajua, sentensi haichanganyiki.",
+      "notes": "### Jedwali la U-I\n- **Kitenzi:** umoja u-, wingi i-. Mti unakua. Miti inakua. Mto unatiririka. Mito inatiririka.\n- **Kivumishi:** umoja m- au mw-, wingi mi-. Mti mzuri. Miti mizuri. Mti mwema. Miti miema. Mlima mkubwa. Milima mikubwa. Mto mrefu. Mito mirefu.\n- **Kiamilishi:** umoja w-, wingi y-. Mti wangu. Miti yangu. Mto wetu. Mito yetu.\n- **Kuonyesha:** umoja huu, huo, ule. Wingi hii, hiyo, ile. Mlima huu. Milima hii.\n- **Kihusishi -a:** umoja wa, wingi ya. Mti wa embe. Miti ya embe.\n\n### Mfano kamili\nUmoja: Mti mzuri wangu unakua.\nWingi: Miti mizuri yangu inakua.\n\nLinganisha na A-WA. Mtoto mzuri wangu anasoma. Watoto wazuri wangu wanasoma. Katika A-WA kiamilishi kinabaki wangu hata katika wingi. Katika U-I kinabadilika: wangu katika umoja, yangu katika wingi.\n\n### Makosa ya kuepuka\n- Usiandike miti unakua. Wingi unataka i-: inakua.\n- Usiandike mti mizuri. Umoja unataka m-: mzuri.\n- Usiandike miti wangu. Wingi wa U-I unataka yangu.\n- Usiandike mti anazaa. Mti si mtu. Andika mti unazaa.\n\nUnaposoma sentensi, tafuta u- au i- kwenye kitenzi kwanza. Hicho ndicho kiashiria cha ngeli hii.",
+      "keyWords": [
+        { "word": "kiambishi", "meaning": "kipande cha neno kinachoonyesha umoja au wingi" },
+        { "word": "upatanisho", "meaning": "kufuatana kwa nomino na maneno yanayoieleza" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza: Miti ______ inakua. (mzuri)",
+          "steps": ["Miti ni wingi wa U-I.", "Kivumishi cha wingi ni mi-.", "mzuri inakuwa mizuri."],
+          "answer": "mizuri",
+          "check": null
+        },
+        {
+          "problem": "Chagua kiamilishi: Mito ______ inatiririka. (wetu)",
+          "steps": ["Mito ni wingi wa U-I.", "Kiamilishi cha wingi ni y-.", "wetu inakuwa yetu."],
+          "answer": "yetu",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Jaza nafasi za U-I",
+        "materials": ["Kadi za sentensi zenye nafasi", "Chati ya viambishi"],
+        "steps": [
+          "Soma sentensi: Mti mzuri unakua. Miti mizuri inakua.",
+          "Piga mstari viambishi u-, i-, m- na mi-.",
+          "Jaza nafasi tatu kwenye kadi ukitumia mrefu na mto.",
+          "Linganisha na sentensi ya A-WA: Mtoto mzuri anasoma.",
+          "Msomee mwenzako na mrekebe kosa moja pamoja."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 180\" font-family=\"sans-serif\"><rect width=\"520\" height=\"180\" fill=\"#ffffff\"/><g stroke=\"#166534\" stroke-width=\"1.5\" fill=\"none\"><rect x=\"10\" y=\"10\" width=\"500\" height=\"160\"/><line x1=\"10\" y1=\"50\" x2=\"510\" y2=\"50\"/><line x1=\"170\" y1=\"10\" x2=\"170\" y2=\"170\"/><line x1=\"340\" y1=\"10\" x2=\"340\" y2=\"170\"/></g><g font-size=\"14\" fill=\"#111827\"><text x=\"90\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Kipengele</text><text x=\"255\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Umoja</text><text x=\"425\" y=\"36\" text-anchor=\"middle\" font-weight=\"bold\">Wingi</text><text x=\"20\" y=\"78\">Kitenzi</text><text x=\"180\" y=\"78\">u- unakua</text><text x=\"350\" y=\"78\">i- inakua</text><text x=\"20\" y=\"112\">Kivumishi</text><text x=\"180\" y=\"112\">m- mzuri</text><text x=\"350\" y=\"112\">mi- mizuri</text><text x=\"20\" y=\"146\">Kiamilishi</text><text x=\"180\" y=\"146\">w- wangu</text><text x=\"350\" y=\"146\">y- yangu</text></g></svg>",
+        "caption": "Viambishi vya upatanisho vya ngeli ya U-I"
+      },
+      "practice": [
+        { "question": "Jaza: Mlima ______ ni mrefu. (huu)", "answer": "huu", "check": null },
+        { "question": "Jaza: Milima ______ ni mirefu. (huu)", "answer": "hii", "check": null },
+        { "question": "Andika wingi: Mti wangu unazaa.", "answer": "Miti yangu inazaa.", "check": null },
+        { "question": "Kiambishi cha kitenzi cha umoja katika U-I ni kipi?", "answer": "u-", "check": null }
+      ],
+      "summary": [
+        "Kitenzi cha U-I ni u- katika umoja na i- katika wingi.",
+        "Kivumishi cha wingi huchukua mi-, kama mizuri.",
+        "Kiamilishi kinabadilika: wangu katika umoja, yangu katika wingi."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Sentensi za umoja na wingi",
+      "outcomes": ["c"],
+      "objectives": [
+        "Kusoma sentensi za U-I kwa umoja na wingi.",
+        "Kutunga sentensi sahihi akizingatia upatanisho.",
+        "Kugeuza sentensi ya umoja iwe wingi."
+      ],
+      "intro": "Shamba lina mti mmoja wa embe na miti mingine mingi. Ukitaka kusema hayo kwa Kiswahili safi, kila nomino ichukue kitenzi chake. Leo tutaziunganisha sentensi.",
+      "notes": "### Kutoka umoja hadi wingi\nBadilisha nomino, kivumishi, kiamilishi na kitenzi. Usibadilishe neno lisilo na upatanisho wa nomino hiyo.\n\nUmoja: Mti mzuri unakua kandokando ya mto.\nWingi: Miti mizuri inakua kandokando ya mto.\n\nMto umebaki umoja kwa sababu katika sentensi hii mto ni mmoja. Kama mito ni mingi, ungeandika: Miti mizuri inakua kandokando ya mito.\n\nMifano:\n\n- Mlima mrefu umeonekana. Milima mirefu imeonekana.\n- Mche wangu umeota. Miche yangu imeota.\n- Mto wetu unatiririka. Mito yetu inatiririka.\n- Mwamba mkubwa umeanguka. Miamba mikubwa imeanguka.\n\n### Kutunga\n1. Chagua nomino: msitu\n2. Weka kivumishi: mkubwa\n3. Weka kitenzi: umejaa\n4. Unganisha: Msitu mkubwa umejaa miti.\n\nWingi: Misitu mikubwa imejaa miti.\n\nUnaweza kuongeza funzo la nasaha bila kuharibu ngeli: Mti mzuri unatupa kivuli, kwa hivyo tuutunze. Miti mizuri inatupa kivuli, kwa hivyo tuitunze.\n\n### Kusoma kadi\nSoma sentensi kwa sauti. Miti unakua hayasikiki. Miti inakua yanasikika. Ukigundua kosa, rekebisha kiambishi pekee, usifute sentensi nzima ikiwa nomino ilikuwa sahihi.",
+      "keyWords": [
+        { "word": "kugeuza", "meaning": "kubadilisha sentensi ya umoja iwe ya wingi" },
+        { "word": "sentensi", "meaning": "maneno yaliyopangwa kutoa maana kamili" }
+      ],
+      "examples": [
+        {
+          "problem": "Geuza iwe wingi: Mto mrefu unatiririka.",
+          "steps": ["mto inakuwa mito.", "mrefu inakuwa mirefu.", "unatiririka inakuwa inatiririka."],
+          "answer": "Mito mirefu inatiririka.",
+          "check": null
+        },
+        {
+          "problem": "Tunga sentensi ya umoja ukitumia: mmea, mdogo, umeota.",
+          "steps": ["Mmea ni umoja wa U-I.", "Kivumishi mdogo na kitenzi umeota vinafaa umoja."],
+          "answer": "Mmea mdogo umeota.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chopoa kadi ya sentensi",
+        "materials": ["Kadi za sentensi za U-I", "Kapu au boksi", "Daftari au kifaa cha kidijitali"],
+        "steps": [
+          "Chopoeni kadi kutoka kapuni na msome sentensi kwa sauti.",
+          "Semeni kama ni umoja au wingi, na mtaje kiambishi cha kitenzi.",
+          "Igeuzeni iwe upande mwingine: umoja uwe wingi au wingi uwe umoja.",
+          "Andikeni sentensi mpya mkizingatia upatanisho.",
+          "Msomeeni wenzako na mwalimu ili waitathmini."
+        ]
+      },
+      "practice": [
+        { "question": "Geuza iwe wingi: Msitu mkubwa umejaa miti.", "answer": "Misitu mikubwa imejaa miti.", "check": null },
+        { "question": "Geuza iwe umoja: Miche yangu imeota.", "answer": "Mche wangu umeota.", "check": null },
+        { "question": "Rekebisha: Miti mzuri unakua.", "answer": "Miti mizuri inakua.", "check": null },
+        { "question": "Tunga sentensi ya wingi ukitumia milima.", "answer": "Mfano: Milima mirefu imeonekana kwa mbali.", "check": null }
+      ],
+      "summary": [
+        "Badilisha nomino, kivumishi, kiamilishi na kitenzi pamoja.",
+        "Mti unakua huwa miti inakua.",
+        "Soma kwa sauti ili upate kiambishi kisicho faa."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Kutumia ngeli ya U-I katika mawasiliano",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kutumia nomino za U-I katika maelezo ya mazingira.",
+        "Kutathmini sentensi za wenzake.",
+        "Kuchangamkia kuongea kwa upatanisho sahihi."
+      ],
+      "intro": "Unapomweleza mzazi kuwa mto wetu umejaa maji, unatumia ngeli ya U-I nje ya daftari. Sentensi inayopatana hufanya habari ieleweke mara ya kwanza.",
+      "notes": "### Maelezo ya mazingira\nTumia U-I unapoeleza mimea na vitu vya kimaumbile unavyoviona.\n\n- Mti wetu unatoa kivuli kizuri.\n- Miti yetu inatoa kivuli kizuri. Kumbuka: miti ni wingi, kwa hivyo yetu na inatoa.\n- Mto huu unatiririka polepole.\n- Milima ile ni mirefu.\n\nUsichanganye na watu. Mwalimu anapanda mti. Hapa mwalimu anatumia a- kwa sababu ni mtu, na mti unabaki nomino inayopandwa. Sentensi inayopotosha ni: Mwalimu unapanda mti. Mwalimu si mti.\n\n### Habari fupi\nAndika habari ya sentensi tatu kuhusu kutunza mimea. Hii inaunganisha sarufi na nasaha.\n\nMche wangu umeota baada ya mvua. Miche mingine inaota kandokando ya mto. Tutaitunza ili miti mizuri ikue.\n\nAngalia umeota, inaota na ikue. Kila kitenzi kimefuata idadi ya nomino yake.\n\n### Tathmini\nMwenzako akisema miti unakua, mwelekeze kwa upole: Miti ni wingi, jaribu inakua. Kisha msifu nomino aliyoichagua vizuri. Heshima ni sehemu ya ushauri.\n\nUkiandika kwenye kifaa, tumia kifaa kilichoruhusiwa, funga faili ukimaliza, na usifuate viungo usivyovijua. Usalama mtandaoni unaendelea hata katika somo la sarufi.\n\nKuzungumza kwa upatanisho kunafanya maelezo ya mazingira yawe safi. Hicho ndicho kuchangamkia ngeli ya U-I.",
+      "keyWords": [
+        { "word": "mazingira", "meaning": "mahali panapotuzunguka, kama miti, mito na milima" },
+        { "word": "kutunza", "meaning": "kulinda na kuhifadhi ili kisichoke" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika sentensi mbili: moja kuhusu mti, na moja kuhusu miti.",
+          "steps": ["Umoja: u- na wangu.", "Wingi: i- na yangu."],
+          "answer": "Mti wangu unakua shambani. Miti yangu inakua shambani.",
+          "check": null
+        },
+        {
+          "problem": "Rekebisha maelezo: Mto yetu inatiririka karibu na miti mzuri.",
+          "steps": ["Mto ni umoja: wetu na unatiririka.", "Miti ni wingi: mizuri."],
+          "answer": "Mto wetu unatiririka karibu na miti mizuri.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Eleza mazingira kwa sentensi",
+        "materials": ["Daftari", "Picha ya mti, mto au mlima kwenye chati au kifaa"],
+        "steps": [
+          "Angalia picha iliyoidhinishwa ya mmea au kitu cha kimaumbile.",
+          "Andika sentensi mbili za umoja na mbili za wingi.",
+          "Tumia angalau kivumishi kimoja na kiamilishi kimoja.",
+          "Msomee kikundi. Wao watathmini viambishi.",
+          "Ongeza sentensi moja ya nasaha kuhusu kutunza mti au mto."
+        ]
+      },
+      "practice": [
+        { "question": "Andika sentensi ukimweleza mzazi kuwa mto umejaa maji.", "answer": "Mfano: Mama, mto wetu umejaa maji.", "check": null },
+        { "question": "Chagua sahihi: Miti yetu inakua, au Miti wetu unakua?", "answer": "Miti yetu inakua.", "check": null },
+        { "question": "Tunga sentensi ya wingi kuhusu milima.", "answer": "Mfano: Milima yetu ni mirefu.", "check": null },
+        { "question": "Unamrekebishaje mwenzako aliyeandika mti anazaa, kwa heshima?", "answer": "Mfano: Mti si mtu, kwa hivyo jaribu unazaa. Neno mti umelichagua vizuri.", "check": null }
+      ],
+      "summary": [
+        "Tumia u- na i- unapoeleza miti, mito na milima.",
+        "Usitumie a- kwa mti; a- ni kwa mtu.",
+        "Tathmini ya mwenzako iwe nasaha, si dhihaka."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Ni ipi nomino ya ngeli ya U-I?", "options": ["mtoto", "mti", "tunda", "kiti"], "answer": "B", "explanation": "Mti unakua na miti inakua. Huo ni upatanisho wa U-I.", "outcome": "b", "check": null },
+    { "question": "Wingi wa mto ni upi?", "options": ["wato", "mito", "mato", "nyoto"], "answer": "B", "explanation": "Mto huwa mito.", "outcome": "b", "check": null },
+    { "question": "Kwa nini tunda si U-I?", "options": ["Kwa sababu ni mto", "Kwa sababu limeiva na matunda yameiva", "Kwa sababu ni mtu", "Kwa sababu halina maana"], "answer": "B", "explanation": "Tunda linatumia li- na ya-, ngeli ya LI-YA.", "outcome": "b", "check": null },
+    { "question": "Kiambishi cha kitenzi cha wingi katika U-I ni kipi?", "options": ["a-", "wa-", "i-", "li-"], "answer": "C", "explanation": "Wingi unatumia i-, kama inakua.", "outcome": "a", "check": null },
+    { "question": "Jaza: Miti ______ inakua.", "options": ["mzuri", "wazuri", "mizuri", "zuri"], "answer": "C", "explanation": "Wingi wa U-I unatumia mi-: mizuri.", "outcome": "a", "check": null },
+    { "question": "Kiamilishi sahihi ni kipi: miti ______?", "options": ["wangu", "yangu", "langu", "changu"], "answer": "B", "explanation": "Wingi wa U-I unatumia y-: miti yangu.", "outcome": "a", "check": null },
+    { "question": "Sentensi ipi ni sahihi?", "options": ["Mlima huu ni mrefu.", "Mlima hii ni mirefu.", "Mlima hawa ni wazuri.", "Mlima limefika."], "answer": "A", "explanation": "Umoja unatumia huu na mrefu.", "outcome": "c", "check": null },
+    { "question": "Geuza iwe wingi: Mche wangu umeota.", "answer": "Miche yangu imeota.", "explanation": "Mche, wangu na umeota vinabadilika kuwa wingi wa U-I.", "outcome": "c", "check": null },
+    { "question": "Tunga sentensi ya umoja ukitumia mto.", "answer": "Mfano: Mto wetu unatiririka polepole.", "explanation": "Mto mmoja unapatana na u-.", "outcome": "c", "check": null },
+    { "question": "Kwa nini tuwe makini kutumia ngeli ya U-I tunapozungumza?", "answer": "Ili maelezo ya mimea na vitu vya kimaumbile yaeleweke, na tuonyeshe heshima kwa lugha.", "explanation": "Upatanisho sahihi hufanya mawasiliano kuwa wazi.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 5.0 Ushauri-Nasaha, Mada Ndogo 5.4.1 Sarufi: Ngeli ya U-I"
+  ]
+}
