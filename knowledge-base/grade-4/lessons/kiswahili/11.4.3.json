@@ -1,0 +1,215 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "11.4.3",
+  "title": "Sarufi: Udogo wa Nomino",
+  "overview": "Udogo wa nomino ni umbo linaloonyesha kuwa kitu ni kidogo kuliko kawaida. Katika mada hii ndogo utatambua tena nomino kama mti, mto na mji, kisha uzibadilishe kuwa kijiti, kijito na kijiji. Utatumia nomino hizo katika sentensi zenye ukubaliano sahihi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kutambua nomino katika hali ya udogo",
+      "outcomes": ["a", "b", "c"],
+      "objectives": [
+        "Kueleza maana ya udogo wa nomino.",
+        "Kutambua nomino zinazoanza kwa m- na zenye mzizi wa silabi moja.",
+        "Kutambua kijiti, kijito na kijiji kama udogo."
+      ],
+      "intro": "Kijiti si mti mdogo uliotajwa kwa kivumishi tu. Neno lenyewe limebadilika. Vivyo hivyo, kijito ni mdogo wa mto, na kijiji ni mdogo wa mji. Leo utajifunza kuvitambua kabla ya kuvitumia katika sentensi.",
+      "notes": "### Udogo wa nomino ni nini?\nUdogo wa nomino ni umbo linaloonyesha kitu kidogo kuliko hali ya wastani. Huwezi kusema umeonyesha udogo kwa kuongeza tu neno dogo au mdogo. \"Mti mdogo\" bado ni nomino ya wastani pamoja na kivumishi. \"Kijiti\" ndilo udogo wa mti.\n\n### Nomino zinazofaa\nKanuni hii inatumika kwa nomino zinazoanza kwa m- na zenye mzizi wa silabi moja:\n\n- mti, mzizi -ti\n- mto, mzizi -to\n- mji, mzizi -ji\n\nMkoba na mkono hazianzi kwa kanuni hii, kwa sababu mizizi yake ina silabi zaidi ya moja. Ukitaka udogo wa vitu hivyo, hutumii kijiti wala kijiji.\n\n### Jinsi udogo unavyoundwa\nWeka ki- mbele, na ubadilishe m- kuwa ji-.\n\n- mti → kijiti (fimbo ndogo au tawi dogo)\n- mto → kijito (mto mdogo)\n- mji → kijiji (mji mdogo)\n\nUnaweza kukumbuka hivi: kwanza pata ukubwa (jiti, jito, jiji), kisha weka ki- mbele (kijiti, kijito, kijiji). Usiandike kimti. Herufi m- haibaki.\n\nKatika maisha ya kila siku, kijiji ni neno la kawaida la mahali padogo penye nyumba na shamba. Kisarufi, kijiji ni udogo wa mji. Kijiti ni neno la kawaida la kipande kidogo cha mti.\n\n### Umoja na wingi\nUdogo uko katika ngeli ya KI-VI.\n\n- kijiti (mmoja) / vijiti (mingi)\n- kijito / vijito\n- kijiji / vijiji\n\nUsichanganye na wingi wa wastani: miti, mito, miji. Wala usichanganye na ukubwa: jiti, jito, jiji.\n\n### Kutambua katika sentensi\n- Kijiti hiki kimevunjika.\n- Vijiti hivi vimevunjika.\n- Kijito hiki kimekauka.\n- Kijiji hiki kina soko dogo.\n\nKijiti kinakubaliana na hiki na kime-. Vijiti vinakubaliana na hivi na vime-.",
+      "keyWords": [
+        { "word": "udogo wa nomino", "meaning": "umbo la nomino linaloonyesha kitu kidogo kuliko kawaida" },
+        { "word": "kijiti", "meaning": "udogo wa mti; kipande kidogo cha mti au tawi" },
+        { "word": "kijito", "meaning": "udogo wa mto; mto mdogo" },
+        { "word": "kijiji", "meaning": "udogo wa mji; mahali padogo penye nyumba za watu" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua nomino iliyo katika hali ya udogo: mji, jiji, kijiji.",
+          "steps": [
+            "mji ni wastani.",
+            "jiji ni ukubwa.",
+            "kijiji kinaanza kwa ki- na kinatokana na mji."
+          ],
+          "answer": "kijiji",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini \"mti mdogo\" si sawa na \"kijiti\"?",
+          "steps": [
+            "Mti mdogo bado linatumia nomino ya wastani.",
+            "Kijiti ni umbo lingine la nomino."
+          ],
+          "answer": "Mti mdogo ni kivumishi kilichoongezwa kwenye wastani. Kijiti ndilo udogo wa nomino.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Oanisha wastani na udogo",
+        "materials": ["Chati, mti wa maneno au kapu la maneno", "Kadi za mti, mto, mji, kijiti, kijito, kijiji", "Kifaa cha kidijitali panapowezekana"],
+        "steps": [
+          "Tafuteni kwenye chati au kifaa nomino zinazoanza kwa m- na zenye mzizi wa silabi moja.",
+          "Ziandikeni: mti, mto, mji. Pembeni yake andikeni udogo: kijiti, kijito, kijiji.",
+          "Ongezeni wingi: vijiti, vijito, vijiji.",
+          "Kwa kikundi, mmoja asome sentensi. Wengine waseme kama nomino iliyotumiwa ni wastani, ukubwa au udogo."
+        ]
+      },
+      "practice": [
+        { "question": "Udogo wa nomino ni nini?", "answer": "Ni umbo la nomino linaloonyesha kitu kidogo kuliko hali ya wastani, kama kijiti.", "check": null },
+        { "question": "Udogo wa mto ni neno gani?", "answer": "kijito", "check": null },
+        { "question": "Wingi wa kijiji ni upi?", "answer": "vijiji", "check": null },
+        { "question": "Je, mkoba una udogo kijiti? Eleza.", "answer": "Hapana. Mkoba hauna mzizi wa silabi moja, kwa hivyo haubadiliki kuwa kijiti.", "check": null }
+      ],
+      "summary": [
+        "Udogo hubadilisha nomino, si kuongeza neno mdogo tu.",
+        "mti → kijiti, mto → kijito, mji → kijiji.",
+        "Wingi ni vijiti, vijito na vijiji."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kubadilisha na kutumia nomino za udogo",
+      "outcomes": ["d", "e", "f"],
+      "objectives": [
+        "Kubadilisha nomino kutoka hali ya wastani hadi hali ya udogo.",
+        "Kutumia nomino za udogo katika sentensi sahihi.",
+        "Kufurahia kutumia udogo ili kueleza wazi."
+      ],
+      "intro": "Kijito kinachopita kando ya bustani si mto mkubwa, lakini kinatosha kumwagilia mboga chache. Neno sahihi humsaidia msikilizaji kuona ukubwa halisi. Leo utabadilisha nomino na kuzitungia sentensi.",
+      "notes": "### Hatua za kubadilisha\n1. Thibitisha kuwa nomino inaanza kwa m- na mzizi ni silabi moja.\n2. Ondoa m- na uweke ji-, kama ulivyofanya katika ukubwa: mti → jiti.\n3. Weka ki- mbele ili kupata udogo: jiti → kijiti.\n4. Wingi hubadilisha ki- kuwa vi-: kijiti → vijiti, kijito → vijito, kijiji → vijiji.\n\nJedwali fupi:\n\n- mti → kijiti → vijiti\n- mto → kijito → vijito\n- mji → kijiji → vijiji\n\n### Ukubaliano\nUmoja wa KI- unatumia ki-:\n\n- Kijiti hiki kimevunjika.\n- Kijito hiki kinamwagilia mboga.\n- Kijiji chetu kina soko.\n\nWingi wa VI- unatumia vi-:\n\n- Vijiti hivi vimevunjika.\n- Vijito hivi vinamwagilia mashamba madogo.\n- Vijiji hivi vina masoko.\n\nUsiseme \"kijiti umevunjika\" wala \"kijiji lina soko\". Sahihi ni kimevunjika na kina. Kijiji chetu: ki- + etu inakuwa chetu, si yetu.\n\n### Sentensi za mada ya mapato\nUdogo unafaa unapoeleza kazi ndogo inayoleta riziki.\n\n- Katika kijiji chetu, watu huuza mboga sokoni na kupata mapato.\n- Kijito kinamwagilia bustani ndogo. Bustani hiyo inatoa mboga za kuuza.\n- Mama hupanga machungwa kwenye vijiti ili yasigusane.\n\nSentensi ya mwisho inatumia vijiti kwa maana ya vijiti vya mbao. Maana hiyo inakubaliana na udogo wa mti.\n\n### Kwa nini udogo una maana\nNeno sahihi linaokoa muda. Ukisema kijito, msikilizaji hajui mto mkubwa. Ukisema kijiji, hajui jiji. Kutumia udogo kwa usahihi kunafanya mawasiliano yawe wazi. Jizoeze na wenzako: mmoja aseme wastani, mwingine aseme udogo, kisha mtunge sentensi. Furahia kugundua kuwa mji, jiji na kijiji ni familia moja ya maneno.",
+      "keyWords": [
+        { "word": "vijiji", "meaning": "wingi wa kijiji" },
+        { "word": "chetu", "meaning": "kiambishi cha kumiliki cha ngeli ya KI-, kama katika kijiji chetu" },
+        { "word": "ngeli ya KI-VI", "meaning": "kundi la nomino kama kijiti/vijiti na kijiji/vijiji" }
+      ],
+      "examples": [
+        {
+          "problem": "Badilisha neno lililopigiwa mstari liwe udogo: Mto umekauka.",
+          "steps": [
+            "mto → kijito.",
+            "Kijito kinatumia ki-: umekauka inakuwa kimekauka."
+          ],
+          "answer": "Kijito kimekauka.",
+          "check": null
+        },
+        {
+          "problem": "Jaza nafasi: Vijito hivi ______ (mwagilia) mboga.",
+          "steps": [
+            "Vijito ni wingi wa KI-VI, kiambishi ni vi-.",
+            "Wakati uliopo ni -na-.",
+            "vi- + -na- + mwagilia."
+          ],
+          "answer": "vinamwagilia",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Mchezo wa wastani na udogo",
+        "materials": ["Kadi za nomino", "Daftari", "Tarakilishi panapowezekana"],
+        "steps": [
+          "Kikundi kimoja kitaje nomino katika hali ya wastani, kwa mfano mto.",
+          "Kikundi kingine kitaje udogo wake, kijito, na wingi vijito.",
+          "Tungeni sentensi: Kijito hiki kinamwagilia mboga.",
+          "Rudieni mchezo kwa mti na mji.",
+          "Panapowezekana, buruteni kadi za udogo mkabala na kadi za wastani kwenye tarakilishi.",
+          "Kila mmoja aandike sentensi mbili kuhusu kijiji au kijito na mapato, kisha wenzako wazisome."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 150\" font-family=\"sans-serif\"><rect width=\"520\" height=\"150\" fill=\"#ffffff\"/><rect x=\"16\" y=\"28\" width=\"140\" height=\"90\" rx=\"8\" fill=\"#ecfdf5\" stroke=\"#166534\" stroke-width=\"2\"/><rect x=\"190\" y=\"28\" width=\"140\" height=\"90\" rx=\"8\" fill=\"#f5f3ff\" stroke=\"#6d28d9\" stroke-width=\"2\"/><rect x=\"364\" y=\"28\" width=\"140\" height=\"90\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><g text-anchor=\"middle\" font-size=\"20\" font-weight=\"bold\"><text x=\"86\" y=\"80\" fill=\"#166534\">mji</text><text x=\"260\" y=\"80\" fill=\"#6d28d9\">kijiji</text><text x=\"434\" y=\"80\" fill=\"#1d4ed8\">vijiji</text></g><g font-size=\"13\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"86\" y=\"140\">wastani</text><text x=\"260\" y=\"140\">udogo</text><text x=\"434\" y=\"140\">wingi wa udogo</text></g><g font-size=\"22\" fill=\"#111827\"><text x=\"162\" y=\"80\">→</text><text x=\"336\" y=\"80\">→</text></g></svg>",
+        "caption": "Mji hubadilika kuwa kijiji, na wingi wake ni vijiji"
+      },
+      "practice": [
+        { "question": "Andika udogo wa umoja na wingi wa neno mti.", "answer": "Umoja: kijiti. Wingi: vijiti.", "check": null },
+        { "question": "Badilisha sentensi: Mji una soko.", "answer": "Kijiji kina soko.", "check": null },
+        { "question": "Jaza: Kijiti hiki ______ (vunjika).", "answer": "kimevunjika", "check": null },
+        { "question": "Kwa nini neno kijiji linafaa zaidi kuliko mji mdogo unapoeleza mahali padogo?", "answer": "Kwa sababu kijiji ni udogo wa nomino, na msikilizaji anaelewa mara moja kuwa si mji wa kawaida wala jiji.", "check": null }
+      ],
+      "summary": [
+        "Weka ki- mbele ya umbo la ji-: mti → kijiti, mto → kijito, mji → kijiji.",
+        "Wingi hubadilisha ki- kuwa vi-.",
+        "Kijiji kina soko; vijiji vina masoko."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Udogo wa nomino ni nini?",
+      "options": ["Umbo linaloonyesha kitu kikubwa", "Umbo linaloonyesha kitu kidogo kuliko kawaida", "Wingi wa kila nomino", "Kivumishi mkubwa"],
+      "answer": "B",
+      "explanation": "Kijiti, kijito na kijiji huonyesha udogo wa mti, mto na mji.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Ni nomino ipi yenye mzizi wa silabi moja?",
+      "options": ["mkoba", "mto", "mshahara", "kitabu"],
+      "answer": "B",
+      "explanation": "mto ina mzizi -to. Mkoba na mshahara vina mizizi mirefu, na kitabu haianzi kwa m- ya ngeli hii.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Udogo wa mji ni upi?",
+      "options": ["miji", "jiji", "kijiji", "majiji"],
+      "answer": "C",
+      "explanation": "mji → kijiji. jiji ni ukubwa, na miji ni wingi wa wastani.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Ni neno lipi lililo katika hali ya udogo?",
+      "options": ["mti", "miti", "jiti", "kijiti"],
+      "answer": "D",
+      "explanation": "kijiti ndilo udogo. miti ni wingi wa wastani, na jiti ni ukubwa.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Wingi wa kijito ni upi?",
+      "answer": "vijito",
+      "explanation": "ki- hubadilika kuwa vi- katika wingi: vijito.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Badilisha mto kuwa udogo wa umoja.",
+      "options": ["mito", "jito", "kijito", "majito"],
+      "answer": "C",
+      "explanation": "m- inabadilika na ki- huongezwa: kijito.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Badilisha sentensi: Mti umeanguka. Iwe katika udogo.",
+      "answer": "Kijiti kimeanguka.",
+      "explanation": "mti unakuwa kijiti, na umeanguka unakuwa kimeanguka.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Chagua sentensi sahihi.",
+      "options": ["Kijiji lina soko.", "Kijiji kina soko.", "Kijiji una soko.", "Kijiji yana soko."],
+      "answer": "B",
+      "explanation": "Kijiji kinatumia ki-: kina.",
+      "outcome": "e",
+      "check": null
+    },
+    {
+      "question": "Jaza: Vijiji hivi ______ masoko.",
+      "options": ["kina", "lina", "vina", "una"],
+      "answer": "C",
+      "explanation": "Vijiji ni wingi, kwa hivyo vi- + na = vina.",
+      "outcome": "e",
+      "check": null
+    },
+    {
+      "question": "Kwa nini kutumia udogo kunaimarisha mawasiliano?",
+      "answer": "Msikilizaji anajua mara moja kuwa kitu ni kidogo, kwa mfano kijito si mto mkubwa.",
+      "explanation": "Neno sahihi la udogo hufanya maelezo yawe wazi.",
+      "outcome": "f",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 11.0 Mapato, Mada Ndogo 11.4.3 Udogo wa Nomino"
+  ]
+}
