@@ -264,22 +264,28 @@ function indexEntry(record) {
 
 // 1. Validate everything first.
 let failed = 0;
+let syllabusFailed = 0;
 const packsBySubject = new Map();
+const skipFiles = new Set();
 for (const meta of GRADE4_SUBJECTS) {
   const syllabus = loadSyllabus(meta.slug);
   if (!syllabus) continue;
-  for (const r of validateSubject(meta.slug)) {
-    if (r.errors.length) {
-      failed += r.errors.length;
-      console.error(`FAIL ${r.label}`);
-      r.errors.slice(0, 10).forEach((e) => console.error(`   ✗ ${e}`));
-    }
-  }
   packsBySubject.set(meta.slug, syllabus);
+  for (const r of validateSubject(meta.slug)) {
+    if (!r.errors.length) continue;
+    failed += r.errors.length;
+    console.error(`FAIL ${r.label}`);
+    r.errors.slice(0, 8).forEach((e) => console.error(`   ✗ ${e}`));
+    if (r.label === `${meta.slug}/syllabus`) syllabusFailed += r.errors.length;
+    else skipFiles.add(`${meta.slug}/${r.label.split('/')[1]}`);
+  }
 }
-if (failed) {
-  console.error(`\n${failed} validation error(s). Nothing was published.`);
+if (syllabusFailed) {
+  console.error(`\n${syllabusFailed} syllabus error(s). Nothing was published.`);
   process.exit(1);
+}
+if ([...skipFiles].length) {
+  console.error(`\nSkipping ${skipFiles.size} lesson file(s) that failed validation.`);
 }
 
 // 2. Build records.
@@ -291,6 +297,7 @@ for (const meta of GRADE4_SUBJECTS) {
   listSubStrands(syllabus).forEach(({ strand, sub }, i) => {
     const file = join(G4_DIR, 'lessons', meta.slug, `${sub.number}.json`);
     if (!existsSync(file)) return;
+    if (skipFiles.has(`${meta.slug}/${sub.number}`)) return;
     const pack = JSON.parse(readFileSync(file, 'utf8'));
     records.push(buildRecord(meta, syllabus, strand, sub, i + 1, pack));
     built += 1;

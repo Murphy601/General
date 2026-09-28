@@ -127,6 +127,14 @@ function evalCheck(expr) {
   }
 }
 
+/** How many study lessons a pack must contain. Small sub-strands keep the design count; longer ones still need several pages. */
+export function pageTarget(suggested) {
+  const n = Number(suggested) || 1;
+  if (n <= 5) return n;
+  if (n <= 8) return 6;
+  return 8;
+}
+
 function wordCount(s) {
   return String(s || '').split(/\s+/).filter(Boolean).length;
 }
@@ -210,8 +218,8 @@ function validateLesson(slug, syllabus, pack, report) {
   if (wordCount(pack.overview) < 15) report.error('overview is too short');
 
   const lessons = pack.lessons || [];
-  const minLessons = Math.min(sub.lessons, Math.max(2, Math.ceil(sub.outcomes.length / 3)));
-  if (lessons.length < minLessons) report.error(`needs at least ${minLessons} lessons (has ${lessons.length})`);
+  const minLessons = pageTarget(sub.lessons);
+  if (lessons.length < minLessons) report.error(`needs at least ${minLessons} lessons (has ${lessons.length}; design suggests ${sub.lessons})`);
 
   const outcomeIds = new Set(sub.outcomes.map((o) => o.id));
   const covered = new Set();
