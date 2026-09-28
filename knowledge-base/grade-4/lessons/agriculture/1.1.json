@@ -1,0 +1,205 @@
+{
+  "subject": "AGRICULTURE",
+  "subStrand": "1.1",
+  "title": "Soil Conservation",
+  "overview": "Soil feeds our crops, so we must look after it. In this sub-strand you will learn which materials are good for making compost manure, how to make compost using the heap method, how to look after a compost heap until it is ready, and how compost makes soil better for growing food.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Suitable materials for making compost manure",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain what compost manure is.",
+        "Name materials that are suitable and unsuitable for making compost."
+      ],
+      "intro": "After lunch at home there are banana peels, sukuma wiki stalks and potato peelings left over. In the garden there is slashed grass and weeds. Instead of throwing these away, a farmer can turn them into food for the soil.",
+      "notes": "Compost manure is manure made when plant and animal wastes rot (decompose) and change into a dark, crumbly material. Tiny living things in the soil, such as bacteria, fungi and earthworms, feed on the wastes and break them down. When compost is added to soil, it gives the soil plant food and makes it better for growing crops.\n\n### Suitable materials\nAny material that came from a plant or an animal and can rot is called organic material. Good materials for compost include:\n\n- Slashed grass, weeds that have not yet made seeds, and leaves\n- Kitchen wastes such as fruit and vegetable peels, left-over vegetables and tea leaves\n- Maize stalks, bean haulms and other crop remains after harvest\n- Animal dung from cattle, goats, sheep, rabbits and chicken droppings\n- Wood ash from the kitchen, in small amounts\n- A little topsoil, which already has many of the tiny living things that cause rotting\n\n### Unsuitable materials\nSome things do not rot or can harm the soil and the crops. Keep these out of the compost:\n\n- Plastics, polythene bags, glass, tins, metal and stones, because they do not rot\n- Diseased plants, because the disease can spread to new crops\n- Meat, bones and oily food, because they smell and attract rats and dogs\n- Materials sprayed with chemicals\n\n### Using what is around you\nThe materials you use depend on your local environment. A home near a maize farm has plenty of maize stalks. A home that keeps cows has dung. A school has grass from the compound and waste from the kitchen. Look around your home and school and list what you can collect.",
+      "keyWords": [
+        { "word": "compost manure", "meaning": "manure made from rotted plant and animal wastes" },
+        { "word": "decompose", "meaning": "to rot and break down into small pieces" },
+        { "word": "organic material", "meaning": "material that comes from plants or animals and can rot" }
+      ],
+      "examples": [
+        {
+          "problem": "Grace collected banana peels, a polythene bag, dry grass and a broken bottle. Which of these can go into a compost heap?",
+          "steps": ["Banana peels and dry grass come from plants and can rot.", "A polythene bag and a broken bottle do not rot."],
+          "answer": "Banana peels and dry grass",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compost materials survey",
+        "materials": ["Exercise book", "Pencil", "Gloves"],
+        "steps": [
+          "In groups, walk around the school compound with your teacher.",
+          "List all the organic wastes you see, such as grass, leaves and kitchen wastes.",
+          "Also list wastes that should not go into compost, such as plastics and tins.",
+          "Back in class, share your lists and agree on which materials your group will collect for making compost."
+        ]
+      },
+      "practice": [
+        { "question": "What is compost manure?", "answer": "Manure made from plant and animal wastes that have rotted.", "check": null },
+        { "question": "Name three materials from the kitchen that can be used to make compost.", "answer": "Any three, for example fruit peels, vegetable peels, left-over vegetables, tea leaves, wood ash.", "check": null },
+        { "question": "Why should plastics not be put in a compost heap?", "answer": "Plastics do not rot.", "check": null },
+        { "question": "Why should diseased plants be kept out of compost?", "answer": "The disease can spread to the crops where the compost is used.", "check": null }
+      ],
+      "summary": [
+        "Compost is made from organic materials that rot.",
+        "Use grass, leaves, kitchen wastes, crop remains, dung, ash and topsoil.",
+        "Keep out plastics, glass, metal, diseased plants and meat."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Making compost manure using the heap method",
+      "outcomes": ["b"],
+      "objectives": [
+        "Choose a good site for a compost heap.",
+        "Build a compost heap in layers."
+      ],
+      "intro": "A compost heap is like a layered cake. Each layer has a job, and together the layers help the wastes rot quickly into good manure.",
+      "notes": "In the heap method, compost materials are piled in layers on top of the ground.\n\n### Choosing a site\nA good site for a compost heap is:\n\n- Near the garden where the compost will be used, to save labour\n- Under a shade, so the heap does not dry out quickly\n- Sheltered from strong wind\n- On ground where water does not collect\n- Away from the house, so any smell does not disturb people\n\n### Building the heap\n1. Clear the site and mark out an area, for example about one and a half metres long and one and a half metres wide.\n2. Loosen the soil a little with a jembe.\n3. Lay a bottom layer of coarse materials such as maize stalks or small twigs. This lets air in and lets extra water drain out.\n4. Add a layer of dry vegetation such as dry grass or leaves.\n5. Add a layer of green materials such as fresh grass, weeds and kitchen wastes.\n6. Add a thin layer of animal dung.\n7. Sprinkle a little wood ash.\n8. Add a thin layer of topsoil.\n9. Sprinkle water to make the layers damp but not soaking wet.\n10. Repeat the layers until the heap is about one metre high.\n\nPush a long stick into the middle of the heap. You will use it later to check whether the heap is warm inside. Finally, cover the heap with dry grass or banana leaves to keep in moisture and heat.\n\n### Safety\nWear gloves when handling dung and wastes. Carry tools with the sharp edge facing down, and wash your hands with soap after the work.",
+      "keyWords": [
+        { "word": "heap method", "meaning": "making compost by piling materials in layers above the ground" },
+        { "word": "site", "meaning": "the place chosen for doing something" },
+        { "word": "layer", "meaning": "one level of material spread over another" }
+      ],
+      "examples": [
+        {
+          "problem": "Why is the first layer of a compost heap made of maize stalks or twigs?",
+          "steps": ["Coarse materials leave spaces between them.", "The spaces let air into the heap and let extra water drain away."],
+          "answer": "To allow air in and extra water out of the heap",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Build a school compost heap",
+        "materials": ["Jembe", "Panga", "Maize stalks or twigs", "Dry and green vegetation", "Kitchen wastes", "Animal dung", "Wood ash", "Topsoil", "Watering can", "Long stick", "Gloves"],
+        "steps": [
+          "With your teacher, choose a shaded, sheltered site near the school garden.",
+          "Mark the area and loosen the soil.",
+          "Share the work in your group: some collect materials, some build and some water.",
+          "Build the layers in the right order and water each round of layers lightly.",
+          "Put the stick in the middle and cover the heap.",
+          "Write the date on a label so you know when the heap was made."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 250\" font-family=\"sans-serif\"><rect width=\"420\" height=\"250\" fill=\"#ffffff\"/><rect x=\"40\" y=\"200\" width=\"200\" height=\"20\" fill=\"#a16207\"/><rect x=\"40\" y=\"175\" width=\"200\" height=\"25\" fill=\"#fde68a\"/><rect x=\"40\" y=\"150\" width=\"200\" height=\"25\" fill=\"#4ade80\"/><rect x=\"40\" y=\"135\" width=\"200\" height=\"15\" fill=\"#78350f\"/><rect x=\"40\" y=\"127\" width=\"200\" height=\"8\" fill=\"#9ca3af\"/><rect x=\"40\" y=\"112\" width=\"200\" height=\"15\" fill=\"#57534e\"/><rect x=\"40\" y=\"95\" width=\"200\" height=\"17\" fill=\"#d9f99d\"/><line x1=\"140\" y1=\"40\" x2=\"140\" y2=\"220\" stroke=\"#7c2d12\" stroke-width=\"5\"/><line x1=\"20\" y1=\"220\" x2=\"260\" y2=\"220\" stroke=\"#111827\" stroke-width=\"2\"/><g font-size=\"12\" fill=\"#111827\"><text x=\"250\" y=\"214\">coarse stalks / twigs</text><text x=\"250\" y=\"192\">dry vegetation</text><text x=\"250\" y=\"167\">green materials</text><text x=\"250\" y=\"145\">animal dung</text><text x=\"250\" y=\"131\">wood ash</text><text x=\"250\" y=\"118\">topsoil</text><text x=\"250\" y=\"104\">cover of dry grass</text><text x=\"150\" y=\"50\">stick</text></g></svg>",
+        "caption": "Layers in a compost heap (the layers are repeated until the heap is about one metre high)"
+      },
+      "practice": [
+        { "question": "Give two things that make a good site for a compost heap.", "answer": "Any two: near the garden, under shade, sheltered from wind, where water does not collect, away from the house.", "check": null },
+        { "question": "Why is topsoil added to a compost heap?", "answer": "Topsoil has tiny living things that help the materials to rot.", "check": null },
+        { "question": "Why do we cover the heap with dry grass or banana leaves?", "answer": "To keep in moisture and heat.", "check": null }
+      ],
+      "summary": [
+        "Build the heap in a shaded, sheltered place near the garden.",
+        "Start with coarse stalks, then dry vegetation, green materials, dung, ash and topsoil.",
+        "Water the layers lightly and repeat them until the heap is about one metre high."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Caring for a compost heap",
+      "outcomes": ["b"],
+      "objectives": [
+        "Explain how to look after a compost heap.",
+        "Tell when compost manure is ready for use."
+      ],
+      "intro": "A compost heap is not finished on the day it is built. For the next few weeks the tiny living things inside it are hard at work, and they need air, water and warmth to do their job.",
+      "notes": "### Checking the heap\nPull out the stick from the middle of the heap after a few days and touch the end that was inside.\n\n- If the stick feels warm, the materials are rotting well.\n- If the stick is cold, the heap may be too dry or too wet. Add water if it is dry. If it is soaking wet, open it up and add some dry grass.\n- If the stick smells bad, the heap is too wet and has too little air. Turn it and add dry materials.\n\n### Watering\nThe heap should feel damp, like a squeezed cloth. Sprinkle water when it looks dry, especially in the dry season. Too much water pushes out air and slows rotting.\n\n### Turning the heap\nAfter about three weeks, turn the heap. Move the materials from the outside to the inside and the top to the bottom. This lets in fresh air and mixes the materials so that all of them rot evenly. Turn the heap again after another few weeks.\n\n### When is compost ready?\nCompost made by the heap method is usually ready after about two to three months. Ready compost:\n\n- Is dark brown or black in colour\n- Is crumbly and soft\n- Has a pleasant smell like fresh soil\n- No longer shows the original grass, peels or leaves\n- Is no longer warm inside\n\nWhile the compost is rotting, keep the heap covered and keep animals away from it.",
+      "keyWords": [
+        { "word": "turning", "meaning": "mixing the compost materials so that air gets in and they rot evenly" },
+        { "word": "moisture", "meaning": "a small amount of water that makes something damp" }
+      ],
+      "examples": [
+        {
+          "problem": "Juma pulled out the stick from his compost heap and it was cold and dry. What should he do?",
+          "steps": ["A cold, dry stick shows that the heap is too dry for rotting.", "He should sprinkle water on the heap and cover it again."],
+          "answer": "Water the heap lightly and keep it covered.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compost heap care record",
+        "materials": ["The school compost heap", "Watering can", "Jembe or fork jembe", "Record book"],
+        "steps": [
+          "Each week, one group pulls out the stick and feels whether it is warm, cold, dry or wet.",
+          "Record what you find and what you did, for example 'watered' or 'turned'.",
+          "After about three weeks, turn the heap together.",
+          "Keep recording until the compost is dark, crumbly and smells like soil."
+        ]
+      },
+      "practice": [
+        { "question": "What does a warm stick in the middle of a compost heap show?", "answer": "The materials are rotting well.", "check": null },
+        { "question": "Why is a compost heap turned?", "answer": "To let in air and mix the materials so they rot evenly.", "check": null },
+        { "question": "Give three signs that compost manure is ready.", "answer": "Any three: dark brown or black, crumbly, smells like soil, original materials cannot be seen, no longer warm.", "check": null }
+      ],
+      "summary": [
+        "Use the stick to check warmth and moisture.",
+        "Keep the heap damp, not soaking wet.",
+        "Turn the heap after about three weeks; compost is ready in about two to three months."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Using compost manure and its importance",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Apply compost manure in a crop garden.",
+        "Explain the importance of compost manure in farming and in caring for the environment."
+      ],
+      "intro": "Your compost is now dark and crumbly. It is time to take it to the garden and see what it can do for the crops.",
+      "notes": "### How to use compost\n- When preparing a seedbed, spread compost over the soil and mix it in well with a jembe or rake.\n- When planting seedlings or fruit trees, mix compost with the topsoil that goes back into the planting hole.\n- For crops already growing, spread compost around the plants without touching the stems, then cover it lightly with soil.\n\n### Importance of compost manure\n- It adds plant nutrients to the soil, so crops grow well and give more food.\n- It makes the soil crumbly, so plant roots grow easily and air can get in.\n- It helps sandy soil hold water for longer.\n- It helps clay soil drain better.\n- It feeds earthworms and other useful soil organisms.\n- Soil with good structure is not washed away easily by rain, so compost helps to conserve soil.\n- It is cheap, because it is made from wastes found at home and school.\n\n### Composting and the environment\nWhen kitchen and garden wastes are made into compost, they are not thrown around the compound or burnt. This keeps the home and school clean, reduces bad smells and flies, and avoids smoke from burning. Wastes that could have polluted the environment become useful. This is why composting is a way of caring for the environment.",
+      "keyWords": [
+        { "word": "nutrients", "meaning": "food substances that plants take from the soil to grow" },
+        { "word": "soil structure", "meaning": "the way soil particles are held together" }
+      ],
+      "examples": [
+        {
+          "problem": "Two garden beds were planted with sukuma wiki. One had compost added and the other did not. Which bed is likely to have healthier plants, and why?",
+          "steps": ["Compost adds nutrients and helps the soil hold water.", "Plants in soil with more food and water grow better."],
+          "answer": "The bed with compost, because the soil has more nutrients and holds water better.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Compost trial in the school garden",
+        "materials": ["Ready compost", "Jembe", "Rake", "Seeds or seedlings", "Watering can", "Labels"],
+        "steps": [
+          "Prepare two small beds of the same size next to each other.",
+          "Mix compost into one bed only. Label the beds 'with compost' and 'without compost'.",
+          "Plant the same crop in both beds and water them equally.",
+          "Every week, observe and record the height and colour of the plants.",
+          "After some weeks, present your findings to the class on the importance of compost."
+        ]
+      },
+      "practice": [
+        { "question": "Give three ways compost manure helps the soil.", "answer": "Any three: adds nutrients, makes soil crumbly, helps soil hold water, helps clay soil drain, feeds soil organisms, reduces soil erosion.", "check": null },
+        { "question": "How does making compost keep the environment clean?", "answer": "Wastes are used instead of being thrown around or burnt, so there is less litter, smell, flies and smoke.", "check": null },
+        { "question": "How should compost be applied to crops that are already growing?", "answer": "Spread it around the plants without touching the stems and cover it lightly with soil.", "check": null }
+      ],
+      "summary": [
+        "Mix compost into seedbeds and planting holes, or spread it around growing crops.",
+        "Compost adds nutrients, improves soil structure and helps soil hold water.",
+        "Composting turns wastes into a resource and keeps the environment clean."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Which of these materials is suitable for making compost manure?", "options": ["Polythene bags", "Broken glass", "Vegetable peels", "Old tins"], "answer": "C", "explanation": "Vegetable peels come from plants and can rot. The others do not rot.", "outcome": "a" },
+    { "question": "Why are meat and bones kept out of a home compost heap?", "options": ["They make the heap too cold", "They smell and attract rats and dogs", "They are too light", "They make compost green"], "answer": "B", "explanation": "Meat and bones produce bad smells and attract animals.", "outcome": "a" },
+    { "question": "Name two animal wastes that can be used to make compost.", "answer": "Any two: cattle dung, goat droppings, sheep droppings, rabbit droppings, chicken droppings.", "explanation": "Animal dung adds nutrients and helps the heap rot.", "outcome": "a" },
+    { "question": "Which material is put at the bottom of a compost heap?", "options": ["Topsoil", "Wood ash", "Maize stalks or twigs", "Kitchen wastes"], "answer": "C", "explanation": "Coarse materials at the bottom let air in and let extra water drain out.", "outcome": "b" },
+    { "question": "Where is the best place to make a compost heap?", "options": ["In the open sun on a windy hill", "In a shaded, sheltered place near the garden", "Inside the classroom", "Where rainwater collects"], "answer": "B", "explanation": "Shade and shelter keep the heap from drying, and being near the garden saves labour.", "outcome": "b" },
+    { "question": "What is the stick in the middle of a compost heap used for?", "answer": "To check whether the heap is warm and has the right moisture inside.", "explanation": "A warm stick shows the materials are rotting well.", "outcome": "b" },
+    { "question": "Why is a compost heap turned after about three weeks?", "options": ["To let in air and mix the materials", "To remove all the water", "To kill earthworms", "To make it taller"], "answer": "A", "explanation": "Turning lets in fresh air and helps all materials rot evenly.", "outcome": "b" },
+    { "question": "Which of these shows that compost is ready?", "options": ["It is green and wet", "It smells bad", "It is dark, crumbly and smells like soil", "You can still see the banana peels"], "answer": "C", "explanation": "Ready compost is dark, crumbly and has an earthy smell.", "outcome": "b" },
+    { "question": "How does compost manure help sandy soil?", "answer": "It helps sandy soil hold water for longer.", "explanation": "Compost soaks up water like a sponge.", "outcome": "c" },
+    { "question": "Give one way composting helps to conserve the environment.", "answer": "Any one: wastes are not thrown around, wastes are not burnt, less smell and flies, soil is not easily washed away.", "explanation": "Composting turns wastes into a useful resource.", "outcome": "c" }
+  ],
+  "sources": [
+    "KICD Grade 4 Agriculture Curriculum Design (Revised 2024) — Strand 1.0 Conservation of Resources, Sub-strand 1.1 Soil Conservation"
+  ]
+}

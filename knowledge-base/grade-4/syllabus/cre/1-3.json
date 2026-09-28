@@ -1,0 +1,787 @@
+{
+  "subject": "CHRISTIAN RELIGIOUS EDUCATION",
+  "slug": "cre",
+  "strands": [
+    {
+      "number": "1.0",
+      "name": "Creation",
+      "subStrands": [
+        {
+          "number": "1.1",
+          "name": "Self-awareness",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "mention his or her name for identification and self- awareness" },
+            { "id": "b", "text": "recognise his or her uniqueness as a creation of God" },
+            { "id": "c", "text": "acknowledge God as the creator" },
+            { "id": "d", "text": "appreciate his or her uniqueness as God’s special creation" }
+          ],
+          "learningExperiences": [
+            "say their names",
+            "state what is unique about them",
+            "recite and meditate on Psalms 139:13 about being fearfully and wonderfully made",
+            "read Genesis 1:27 about being, ‘created in the image and likeness of God’",
+            "sing a song related to their uniqueness"
+          ],
+          "keyInquiryQuestions": ["Why are you a special creation?"],
+          "coreCompetencies": [
+            "Self-efficacy: the skill of knowing self is exhibited as learners say their names for identification."
+          ],
+          "values": [
+            "Respect: learners portray positive regard for self and others."
+          ],
+          "pcis": [],
+          "links": [
+            "Creative Arts: creative skills are applied as learners sing, dance, draw and colour pictures of faces depicting various emotions.",
+            "English: speaking skills are applied as learners recite Bible verses."
+          ]
+        },
+        {
+          "number": "1.2",
+          "name": "Thoughts and feelings",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify good thoughts and feelings" },
+            { "id": "b", "text": "explain the importance of being joyful" },
+            { "id": "c", "text": "list lessons learnt from Ephesians 4:26" },
+            { "id": "d", "text": "apply the lessons learnt to cope with emotions in day-to-day life" }
+          ],
+          "learningExperiences": [
+            "sing a song related to good thoughts and feelings",
+            "list good thoughts such as sharing with others, helping parents, being happy, being thankful, respecting others",
+            "say why it is good to be joyful",
+            "share experiences on how they cope with emotions such as anger or sadness",
+            "use digital devices to draw and colour pictures of faces depicting various emotions",
+            "role-play forgiving others when wronged",
+            "read Ephesians 4:26 and write down lessons learnt",
+            "write Philippians 4:4 on flash cards and recite it",
+            "sing songs related to rejoicing in the Lord always (Philippians 4:4)"
+          ],
+          "keyInquiryQuestions": [
+            "How do you control your thoughts and feelings?",
+            "How do you cope with anger or sadness?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: the skill of sharing experiences is nurtured as learners tell each other how they cope with emotions such as anger or sadness."
+          ],
+          "values": [
+            "Love: is nurtured as learners role-play forgiving others when wronged."
+          ],
+          "pcis": [
+            "Social cohesion is nurtured as learners list good thoughts such as sharing with others, helping parents, being happy, being thankful and respecting others."
+          ],
+          "links": [
+            "Creative Arts: creative skills are applied as learners sing, dance, draw and colour pictures of faces depicting various emotions.",
+            "English: speaking skills are applied as learners recite Bible verses."
+          ]
+        },
+        {
+          "number": "1.3",
+          "name": "Making choices",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "list choices they make in day-to-day life" },
+            { "id": "b", "text": "discuss results of choices they make in daily life" },
+            { "id": "c", "text": "make right choices guided by the word of God" },
+            { "id": "d", "text": "portray responsibility by making right choices" }
+          ],
+          "learningExperiences": [
+            "in pairs, list choices they make in day-to-day life",
+            "list results of choices that they make",
+            "sing a song about good choices",
+            "Role-play ‘making right choices that are acceptable to God.’"
+          ],
+          "keyInquiryQuestions": ["What are the effects of the choices you make?"],
+          "coreCompetencies": [],
+          "values": [
+            "Respect: learners portray positive regard for self and others."
+          ],
+          "pcis": [],
+          "links": [
+            "Creative Arts: creative skills are applied as learners sing, dance, draw and colour pictures of faces depicting various emotions."
+          ]
+        },
+        {
+          "number": "1.4",
+          "name": "My Family",
+          "lessons": 3,
+          "content": ["Family members"],
+          "outcomes": [
+            { "id": "a", "text": "name family members in the nuclear and extended family" },
+            { "id": "b", "text": "draw a family tree to understand relationships within the family" },
+            { "id": "c", "text": "explain why it is important to honour parents" },
+            { "id": "d", "text": "respect family members for harmonious co- existence" }
+          ],
+          "learningExperiences": [
+            "sing a song related to family relationships",
+            "name family members in the nuclear family",
+            "name family members in the extended family (cousins, aunts, uncles, grandparents)",
+            "draw a family tree and write names of family members on it",
+            "list ways of respecting family members",
+            "type a poem using a digital device about respect for family members",
+            "watch a video clip of family members eating or praying together",
+            "recite Ephesians 6:1-3 on respecting parents"
+          ],
+          "keyInquiryQuestions": ["Why is it important to know members of your family?"],
+          "coreCompetencies": [
+            "Collaboration: the skill of team work is portrayed as learners carry out activities in groups.",
+            "Digital literacy: the skill of digital citizenship is enhanced as learners act safely and responsibly while watching video clips."
+          ],
+          "values": [],
+          "pcis": [],
+          "links": [
+            "Creative Arts: creative skills are applied as learners sing songs and write poems.",
+            "English: the skill of writing is applied as learners write names of family members."
+          ]
+        },
+        {
+          "number": "1.5",
+          "name": "Relationships within the Family",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "take care when alone with people of the opposite sex" },
+            { "id": "b", "text": "mention ways of protecting oneself from sexual abuse" },
+            { "id": "c", "text": "identify whom to report to if touched inappropriately or sexually abused" },
+            { "id": "d", "text": "appreciate the body as a temple of the Holy Spirit and live a holy life" }
+          ],
+          "learningExperiences": [
+            "sing a song related to respecting their bodies as the temple of the Holy Spirit",
+            "in turns, read 2 Samuel 13:4-14",
+            "say whom to report to if they are touched inappropriately or sexually abused",
+            "in groups, tell how they should protect themselves from sexual abuse",
+            "role-play ways of protecting themselves from sexual abuse",
+            "write 1 Corinthians 6:19 on flash cards and meditate on it",
+            "watch a video clip of children being tempted with gifts, but they say NO! to the strangers"
+          ],
+          "keyInquiryQuestions": ["Why are healthy family relationships important?"],
+          "coreCompetencies": [
+            "Collaboration: the skill of team work is portrayed as learners carry out activities in groups.",
+            "Digital literacy: the skill of digital citizenship is enhanced as learners act safely and responsibly while watching video clips.",
+            "Self-Efficacy: the skill of expressing their needs clearly for help is nurtured as they say whom to report to if they are touched inappropriately or sexually abused."
+          ],
+          "values": [
+            "Unity: learners collaborate with each other as they read the Bible in turns."
+          ],
+          "pcis": [
+            "Gender awareness: is nurtured as they learn how to protect themselves from sexual abuse.",
+            "Human Sexuality-Abstinence: learners acquire the virtue of holiness as they say no to inappropriate touching or report cases of sexual abuse"
+          ],
+          "links": [
+            "Creative Arts: creative skills are applied as learners sing songs and write poems."
+          ]
+        },
+        {
+          "number": "1.6",
+          "name": "Attributes of God",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "read scriptures on the attributes of God" },
+            { "id": "b", "text": "list three attributes of God and revere Him" },
+            { "id": "c", "text": "recognise God as a loving Father who knows them by their names" }
+          ],
+          "learningExperiences": [
+            "in groups, picture-read 1 John 4:7-8, Genesis 1:1-25 and 1Samuel 2:2 in turns",
+            "sort and match letters on attributes of God (Sole Creator, Loving Father, Holy Father)",
+            "join words about the attributes of God from a puzzle (sole creator, loving, holy)",
+            "compose a poem on, ‘God our loving Father,’",
+            "sing a song about the love of God"
+          ],
+          "keyInquiryQuestions": ["Why should you know the attributes of God?"],
+          "coreCompetencies": [
+            "Collaboration: the skill of teamwork is portrayed as they sort and match letters.",
+            "Creativity and Imagination: the skill of exploration is exhibited as learners compose a poem on, ‘God our loving Father.’"
+          ],
+          "values": [
+            "Unity is nurtured as they work in groups and sing a song about the love of God."
+          ],
+          "pcis": [
+            "Social cohesion: is portrayed as learners interact with each other while working in groups to picture-read the Bible texts."
+          ],
+          "links": [
+            "English: writing skills are applied as learners write a poem.",
+            "Creative Arts: creative skills are reinforced as learners sing a song about the love of God."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "2.0",
+      "name": "The Holy Bible",
+      "subStrands": [
+        {
+          "number": "2.1",
+          "name": "The Inspired Word of God",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "handle the Holy Bible with respect as the inspired word of God" },
+            { "id": "b", "text": "identify the books in the Old and New Testament" },
+            { "id": "c", "text": "role play naming some books in the Bible" },
+            { "id": "d", "text": "recite Isaiah 49:16 and desire to read the Holy Bible always" }
+          ],
+          "learningExperiences": [
+            "sing a song related to respecting the Holy Bible",
+            "role-play ways of handling the Holy Bible with respect",
+            "in pairs, observe and read charts containing books in the Old and New Testament",
+            "play games on naming some books in the Old and the New Testament",
+            "recite and meditate on Isaiah 49:16",
+            "sing a song about the books in the Holy Bible"
+          ],
+          "keyInquiryQuestions": [
+            "Why should you respect the Holy Bible?",
+            "Why is it important to know the books in the Holy Bible?"
+          ],
+          "coreCompetencies": [
+            "Collaboration: the skill of teamwork is enhanced as learners contribute to group discussions and take up different roles while singing and role playing.",
+            "Creativity and imagination: the skill of originality is developed as learners come up with new ideas while playing games on naming some books in the Old and the New Testament."
+          ],
+          "values": [
+            "Responsibility: is enhanced as they learn how to care for the Holy Bible."
+          ],
+          "pcis": [
+            "Spiritual Awareness: is enhanced as learners recite Isaiah 49:16"
+          ],
+          "links": [
+            "Mathematics: counting skills are applied as learners count the number of books in the Holy Bible",
+            "Creative Arts: creative skills are applied as learners play games on naming some Books in the Old and the New Testament",
+            "English: reading skills are applied as learners read the Holy Bible"
+          ]
+        },
+        {
+          "number": "2.2",
+          "name": "Zacchaeus the Tax Collector",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the story of Zacchaeus" },
+            { "id": "b", "text": "recount how Zacchaeus changed his behaviour positively" },
+            { "id": "c", "text": "demonstrate integrity when using money" },
+            { "id": "d", "text": "discuss why it is important to repent sins in order to be like Christ" }
+          ],
+          "learningExperiences": [
+            "read Luke19:2-10 in turns",
+            "draw and colour Zacchaeus on a tree and share the drawings with peers",
+            "retell the story of Zacchaeus",
+            "tell a friend how to turn away from bad behaviour//sin",
+            "state three lessons learnt from the story of Zacchaeus",
+            "list ways of using money wisely",
+            "sing a song related to Jesus Christ as the saviour"
+          ],
+          "keyInquiryQuestions": ["How did Zacchaeus’ encounter with Jesus Christ change his behaviour?"],
+          "coreCompetencies": [
+            "Self-efficacy: the skill of expressing their emotions is exhibited as learners tell their friends how to turn away from bad behaviour/sin."
+          ],
+          "values": [
+            "Patriotism: they learn how Zacchaeus dedicated his life to serving his government regardless of the challenges his work posed to him and his family. He also pledged to give half his belongings to the poor and for anyone he had cheated he would pay back four times."
+          ],
+          "pcis": [
+            "Social Cohesion: learners carry out activities in groups such as singing."
+          ],
+          "links": [
+            "English: reading skills are applied as learners read the story of Zacchaeus.",
+            "Creative Arts: creative skills are applied as learners draw, colour, role play and sing."
+          ]
+        },
+        {
+          "number": "2.3",
+          "name": "Balaam’s Donkey",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the story of Balaam and his donkey" },
+            { "id": "b", "text": "apply the story in their lives by obeying God’s instructions" },
+            { "id": "c", "text": "acquire the value of love by speaking good things about others" },
+            { "id": "d", "text": "acknowledge God’s greatness by revering Him" }
+          ],
+          "learningExperiences": [
+            "in groups, read Numbers 22:1-6, 20-34",
+            "in pairs, list the importance of obeying God and their seniors",
+            "role-play the story of Balaam’s Donkey",
+            "discuss why they should bless and not curse or speak ill about others according to Numbers 22:1-6, 20-34",
+            "use a digital device or a pencil to draw the scenarios in this story",
+            "sing a song related to obedience"
+          ],
+          "keyInquiryQuestions": ["Why did the donkey talk?"],
+          "coreCompetencies": [
+            "Learning to Learn: the skill of self-discipline is nurtured as learners work collaboratively in groups.",
+            "Digital Literacy: the skill of digital citizenship is enhanced as learners use a digital device and draw the scenarios based on the story."
+          ],
+          "values": [
+            "Social Justice: learners advocate for harmonious relationships in society as they discuss why they should bless and not curse or speak ill about others."
+          ],
+          "pcis": [
+            "Social Cohesion: learners discuss why they should bless and not curse or speak ill about others; Numbers 22:1-6, 20-34.",
+            "Animal Welfare Education: learners learn how to treat animals."
+          ],
+          "links": [
+            "English: the skill of reading is applied as learners read the Bible texts provided.",
+            "Creative Arts: creative skills are applied as learners draw and role play."
+          ]
+        },
+        {
+          "number": "2.4",
+          "name": "Samson kills a Lion",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the story of Samson; Judges 14: 5- 9" },
+            { "id": "b", "text": "acknowledge God’s power in his or her life" },
+            { "id": "c", "text": "trust in God to cope with the challenges of life" }
+          ],
+          "learningExperiences": [
+            "in turns, read Judges 14:5-9",
+            "model or draw a lion",
+            "compose a poem on ‘Samson kills a lion’",
+            "watch a video clip about Samson",
+            "sing a song on God’s power",
+            "draw pictures of Samson killing a lion"
+          ],
+          "keyInquiryQuestions": ["How does the story of Samson portray God’s power?"],
+          "coreCompetencies": [
+            "Imagination and Creativity: the skill of originality is nurtured as learners model a lion and compose a poem.",
+            "Communication: the skill of speaking clearly and effectively is exhibited as they read in turns."
+          ],
+          "values": [
+            "Respect: learners take turns to read the Bible and listen to each other’s ideas."
+          ],
+          "pcis": [
+            "Social Cohesion: learners portray teamwork as they role-play the story of, ‘Samson kills a Lion.’"
+          ],
+          "links": [
+            "English: reading and writing skills are applied as learners read and compose a poem.",
+            "Creative Arts: learners draw, colour and model a lion."
+          ]
+        },
+        {
+          "number": "2.5",
+          "name": "Joseph interprets a Dream",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the story of Joseph interpreting a dream" },
+            { "id": "b", "text": "apply lessons learnt by depending on God’s wisdom" },
+            { "id": "c", "text": "recognise that, ‘the fear of God is the beginning of wisdom.’" }
+          ],
+          "learningExperiences": [
+            "read Genesis 41:14-24, 28-30 in turns",
+            "share dreams they have dreamt about and try to interpret them",
+            "dramatise Joseph interpreting the dream",
+            "draw a picture of Joseph before Pharaoh and colour it",
+            "mention three lessons learnt from the story",
+            "sing a song related to this story",
+            "recite Proverbs 1:7"
+          ],
+          "keyInquiryQuestions": ["How was Joseph able to interpret dreams?"],
+          "coreCompetencies": [
+            "Learning to learn: the skill of sharing experiences is nurtured as learners share dreams they have dreamt about."
+          ],
+          "values": [
+            "Love: is inculcated as they learn how Joseph loved God and his adopted country Egypt by ensuring they had food security."
+          ],
+          "pcis": [
+            "Leadership: is nurtured as they learn how Joseph exhibited good governance."
+          ],
+          "links": [
+            "English: speaking skills are applied as learners share different experiences.",
+            "Creative Arts: creative skills are enhanced as learners draw, dramatise and sing songs."
+          ]
+        },
+        {
+          "number": "2.6",
+          "name": "Bible Patriarchs: Abraham",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "recount the call of Abraham" },
+            { "id": "b", "text": "obey God’s instructions in his or her day-to-day life" },
+            { "id": "c", "text": "mention his or her name for self-identity" },
+            { "id": "d", "text": "discuss Abram’s change of name to Abraham" },
+            { "id": "e", "text": "appreciate God’s blessings in his or her life" }
+          ],
+          "learningExperiences": [
+            "sing the song about Abraham the father of faith",
+            "read Genesis 12:1-5 and retell the call of Abraham",
+            "role-play the call of Abraham",
+            "tell what they like about their names",
+            "read Genesis 17:1-5 on the change of Abraham’s name",
+            "recite Genesis 12:3 and appreciate God’s blessings in their lives"
+          ],
+          "keyInquiryQuestions": [
+            "Why was the name Abram changed?",
+            "How did Abraham show obedience to God?"
+          ],
+          "coreCompetencies": [
+            "Collaboration: the skill of teamwork is nurtured as learners role-play the call of Abraham.",
+            "Communication: the skill of speaking clearly and effectively is enhanced as they retell the call of Abraham."
+          ],
+          "values": [
+            "Respect: learners listen to and appreciate diverse opinions from peers."
+          ],
+          "pcis": [
+            "Patriotism: is nurtured as they learn about obedience to the law just like Abraham obeyed God’s command to leave his country to a land unknown to him."
+          ],
+          "links": [
+            "Creative Arts: creative skills are applied as learners role play, sing and draw.",
+            "English: speaking skills are applied as learners read and recite verses from the Holy Bible."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3.0",
+      "name": "The Life of Jesus Christ",
+      "subStrands": [
+        {
+          "number": "3.1",
+          "name": "The Annunciation",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "narrate the annunciation of the Birth of Jesus Christ" },
+            { "id": "b", "text": "acknowledge the uniqueness of the birth of Jesus Christ" },
+            { "id": "c", "text": "recite Luke 1:37 and trust in God’s power" },
+            { "id": "d", "text": "emulate Mary the mother of Jesus and lead a holy life" }
+          ],
+          "learningExperiences": [
+            "in turns, read Luke 1:26-37",
+            "role-play the annunciation of the birth of Jesus Christ",
+            "watch a video clip on the annunciation of the birth of Jesus Christ",
+            "in groups, sing a song about the annunciation of the birth of Jesus Christ",
+            "say why sexual purity is important",
+            "recite and meditate on Luke 1:37"
+          ],
+          "keyInquiryQuestions": ["Why is the birth of Jesus Christ unique?"],
+          "coreCompetencies": [
+            "Imagination and Creativity: the skill of coming up with new ideas is exhibited as learners role-play the annunciation of the birth of Jesus Christ."
+          ],
+          "values": [
+            "Unity: learners work in pairs and groups to perform different tasks."
+          ],
+          "pcis": [
+            "Human Sexuality- Abstinence: learners emulate Mary the mother of Jesus Christ by leading holy lives and abstaining from sex before marriage."
+          ],
+          "links": [
+            "Creative Arts: creative skills are reinforced as learners sing and role play.",
+            "English: reading skills are applied as learners read the Holy Bible."
+          ]
+        },
+        {
+          "number": "3.2",
+          "name": "Birth of John the Baptist",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the Birth of John the Baptist" },
+            { "id": "b", "text": "discuss how John the Baptist prepared the way for the Messiah" },
+            { "id": "c", "text": "appreciate the need to live a righteous life by turning away from sins" }
+          ],
+          "learningExperiences": [
+            "in pairs, read Luke 1:5-13, 57",
+            "role-play the angel’s appearance to Zechariah in the temple",
+            "watch a video clip on the birth of John the Baptist",
+            "read Luke 1:76-79 and tell how John the Baptist prepared the way for the Messiah",
+            "sing a song about John the Baptist"
+          ],
+          "keyInquiryQuestions": ["How is John the Baptist a precursor of Jesus Christ?"],
+          "coreCompetencies": [
+            "Digital Literacy: the skill of connecting using technology is portrayed as learners watch a video clip on the birth of John the Baptist."
+          ],
+          "values": [
+            "Unity: learners work in pairs and groups to perform different tasks."
+          ],
+          "pcis": [],
+          "links": [
+            "Creative Arts: creative skills are reinforced as learners sing and role play.",
+            "English: reading skills are applied as learners read the Holy Bible."
+          ]
+        },
+        {
+          "number": "3.3",
+          "name": "Healing of Blind Bartimaeus",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the healing of blind Bartimaeus" },
+            { "id": "b", "text": "recognise the healing power of Jesus Christ in their lives" },
+            { "id": "c", "text": "appreciate Jesus’ power over sickness and disease" }
+          ],
+          "learningExperiences": [
+            "sing a song about the healing power of God",
+            "read Mark 10:46-52 and retell the healing of blind Bartimaeus",
+            "role-play the healing of blind Bartimaeus",
+            "record the role play using a digital device",
+            "share an incident when they prayed to God for healing"
+          ],
+          "keyInquiryQuestions": ["How did Bartimaeus show faith in Jesus Christ?"],
+          "coreCompetencies": [
+            "Learning to Learn: the skill of sharing experiences is enhanced as learners share an incident when they prayed to God for healing.",
+            "Communication: the skill of speaking clearly and effectively is portrayed as learners retell the healing of blind Bartimaeus."
+          ],
+          "values": [
+            "Responsibility: learners engage in assigned roles and duties as they role-play the healing of blind Bartimaeus."
+          ],
+          "pcis": [
+            "Health Issues: non-communicable diseases- blindness: Bartimaeus was blind but he was healed."
+          ],
+          "links": [
+            "English: reading skills are applied as they read and learn new vocabulary.",
+            "Creative Arts: creative skills are applied as learners sing and role play."
+          ]
+        },
+        {
+          "number": "3.4",
+          "name": "Healing the 10 Lepers",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "narrate the story of the 10 lepers" },
+            { "id": "b", "text": "outline ways of showing gratitude to God in day-to-day life" },
+            { "id": "c", "text": "express gratitude to those who show them kindness" },
+            { "id": "d", "text": "appreciate the miracle by having faith in God" }
+          ],
+          "learningExperiences": [
+            "in turns, read Luke 17:11-19",
+            "role-play the healing of the ten lepers",
+            "draw the ten lepers using a digital device or a pencil",
+            "tell how the 10 lepers showed faith in God",
+            "mention how they exercise faith in God",
+            "share instances when they prayed to God for healing",
+            "in groups, list ways they express gratitude to God",
+            "write a ‘Thank you note’ to God for the gift of life",
+            "list ways they express gratitude to others",
+            "sing a song related to showing gratitude to God"
+          ],
+          "keyInquiryQuestions": ["How did the 10 lepers portray gratitude?"],
+          "coreCompetencies": [
+            "Imagination and creativity: the skill of coming up with new ideas is portrayed as learners draw the 10 lepers using a digital device or pencil.",
+            "Digital Literacy: the skill of connecting using technology is portrayed as learners use a digital device to draw the 10 lepers."
+          ],
+          "values": [
+            "Love: is nurtured as learners write a ‘Thank you note’ to God for the gift of life."
+          ],
+          "pcis": [
+            "Health Issues: Communicable diseases; they learn ways of managing contagious diseases like leprosy."
+          ],
+          "links": [
+            "English: the skills of speaking and reading are applied as learners speak, read and learn new vocabulary.",
+            "Creative Arts: creative skills are applied as they role play and sing different songs."
+          ]
+        },
+        {
+          "number": "3.5",
+          "name": "Jesus raises a Widow’s Son",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the story of raising the widow’s son" },
+            { "id": "b", "text": "recognise God’s power over life and death" },
+            { "id": "c", "text": "apply lessons learnt by showing compassion to others" },
+            { "id": "d", "text": "pray to God when faced with challenges" }
+          ],
+          "learningExperiences": [
+            "read Luke 7:11-16 and retell the story",
+            "list challenges they face in their lives and how they involve God",
+            "tell how they show kindness to others",
+            "say how Jesus showed compassion to the widow",
+            "watch a video clip on raising the widow’s son",
+            "write John 11:25 on flash cards and recite it",
+            "sing a song about God’s power over life and death"
+          ],
+          "keyInquiryQuestions": ["What do you learn from the miracle of raising the widow’s son?"],
+          "coreCompetencies": [
+            "Digital literacy: the skill of connecting parts of a digital device is exhibited as learners watch a video clip on raising the widow’s son.",
+            "Self-efficacy: the skill of expressing their needs clearly for help is portrayed as they list challenges they face in their lives and how they depend on God to get solutions."
+          ],
+          "values": [
+            "Love: is nurtured as learners say how Jesus showed compassion to the widow."
+          ],
+          "pcis": [
+            "Social Justice: learners tell how they show kindness to others."
+          ],
+          "links": [
+            "English: reading skills are applied as learners read and learn new vocabulary.",
+            "Creative Arts: creative skills are applied as learners sing a song about God’s power."
+          ]
+        },
+        {
+          "number": "3.6",
+          "name": "Forgiveness",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "outline the importance of forgiving others" },
+            { "id": "b", "text": "resist vengeance as outlined in Mathew 5:39" },
+            { "id": "c", "text": "appreciate forgiveness by not repaying evil for evil" }
+          ],
+          "learningExperiences": [
+            "read Matthew 5:39 and say why it is important to forgive others",
+            "role-play acts of forgiveness",
+            "say why they should not revenge when wronged",
+            "sing a song about loving others",
+            "write Mathew 5:39, display it in class and recite it"
+          ],
+          "keyInquiryQuestions": ["Why should you not pay evil for evil?"],
+          "coreCompetencies": [],
+          "values": [
+            "Love: is portrayed as learners sing a song about loving others.",
+            "Peace: is nurtured as learners say why they should not revenge when wronged."
+          ],
+          "pcis": [
+            "Social Cohesion: learners sing a song about loving others.",
+            "Peace Education: learners practise reconciliation by forgiving others when wronged."
+          ],
+          "links": [
+            "English: speaking skills are enhanced as learners read and learn new words.",
+            "Creative Arts: creative skills are applied as learners role play and sing."
+          ]
+        },
+        {
+          "number": "3.7",
+          "name": "Helping the Needy",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "state the importance of helping the needy" },
+            { "id": "b", "text": "demonstrate kindness by sharing with those in need" },
+            { "id": "c", "text": "recite Mathew 5:42 and help those in need promptly" }
+          ],
+          "learningExperiences": [
+            "read Matthew 5:42 and tell what they have learnt",
+            "mention instances they helped someone at school, home or in church e.g. they gave a pencil, rubber or shared lunch with another pupil",
+            "role-play sharing items with those who do not have",
+            "write Matthew 5:42 on flash cards and recite it"
+          ],
+          "keyInquiryQuestions": ["How do you help those in need?"],
+          "coreCompetencies": [
+            "Citizenship: the skill of developing and showing compassion and empathy is portrayed as learners mention instances they helped someone at school, home or in church e.g. they gave a pencil, rubber or shared lunch with another pupil.",
+            "Communication: the skill of writing clearly and correctly is exhibited as learners write Matthew 5:42 on flash cards and recite it."
+          ],
+          "values": [
+            "Patriotism: is portrayed as learners demonstrate kindness by sharing with those in need and as they mention instances they helped someone in need."
+          ],
+          "pcis": [],
+          "links": [
+            "English: speaking skills are enhanced as learners read and learn new words.",
+            "Creative Arts: creative skills are applied as learners role play and sing."
+          ]
+        },
+        {
+          "number": "3.8.1",
+          "name": "Parable of the lost coin",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the parable of the lost coin" },
+            { "id": "b", "text": "list lessons learnt from the parable of the lost coin" },
+            { "id": "c", "text": "recognise God’s love for the sinner and the need to live a righteous life" },
+            { "id": "d", "text": "appreciate God’s love and lead upright lives" }
+          ],
+          "learningExperiences": [
+            "read Luke 15:8-10 and retell the parable of the lost coin",
+            "role-play the parable of the lost coin",
+            "share lessons learnt from the parable of the lost coin with a friend",
+            "say how God loves them and how to lead a righteous life",
+            "tell why it is important to live a holy life as a Christian",
+            "sing a song about God’s willingness to save the lost"
+          ],
+          "keyInquiryQuestions": ["How does God show love for the sinner?"],
+          "coreCompetencies": [
+            "Learning to learn: the skill of sharing what they have learnt is exhibited as they share lessons learnt from the parable of the lost coin.",
+            "Imagination and creativity: the skill of coming up with new ideas is exhibited as learners role-play the parable of the lost coin."
+          ],
+          "values": [
+            "Love: is nurtured as learners say how God loves them and how to lead a righteous life."
+          ],
+          "pcis": [
+            "Financial literacy: learners appreciate the value of currency or money as depicted by the woman’s persistence in search for her lost coin.",
+            "Citizenship: desire to help and work for the salvation of the lost persons (sinners) in their society as an extension of good neighbourliness and care for one another in society."
+          ],
+          "links": [
+            "English: speaking skills are enhanced as learners read and learn new words.",
+            "Creative Arts: creative skills are applied as learners sing and role play."
+          ]
+        },
+        {
+          "number": "3.8.2",
+          "name": "Parable of the mustard seed",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the parable of the mustard seed as guided by the Bible text" },
+            { "id": "b", "text": "describe how the kingdom of God grows from a small beginning" },
+            { "id": "c", "text": "explain how they contribute to the growth of the kingdom of God" },
+            { "id": "d", "text": "appreciate the growth of God’s kingdom by evangelising to others" }
+          ],
+          "learningExperiences": [
+            "read Luke 13:18-19 and narrate the parable",
+            "in groups, collect small seeds from the school compound",
+            "plant the seeds, water them and observe as the seeds sprout and grow to a big tree",
+            "draw a big tree with birds resting on its branches and compare it to the growth of God’s kingdom",
+            "Role-play the activities they do in Church",
+            "watch a video clip on a mustard seed",
+            "say how they respond to salvation",
+            "sing a song about the kingdom of God"
+          ],
+          "keyInquiryQuestions": ["How does the parable of the mustard seed relate to the kingdom of God?"],
+          "coreCompetencies": [
+            "Creativity and Imagination: the skill of communicating new ideas is enhanced as learners draw a big tree and compare it to the growth of God’s kingdom.",
+            "Digital Literacy: the skill of digital citizenship is portrayed as learners watch a video clip on a mustard seed."
+          ],
+          "values": [
+            "Unity: is enhanced as learners work in groups to collect small seeds from the school compound.",
+            "Responsibility: is enhanced as learners plant the seeds, water them and observe as the seeds sprout and grow to a big tree."
+          ],
+          "pcis": [
+            "Socio Economic Issues: environmental education is nurtured as learners plant the seeds, water them and observe as the seeds sprout and grow to a big tree."
+          ],
+          "links": [
+            "Agriculture: is enhanced as learners collect seeds and plant them.",
+            "Creative Arts: creative skills are applied as learners draw, sing and role play.",
+            "English: reading skills are enhanced as learners read the Bible."
+          ]
+        },
+        {
+          "number": "3.9",
+          "name": "Nicodemus’ encounter with Jesus Christ",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "retell the story of Nicodemus’ encounter with Jesus Christ" },
+            { "id": "b", "text": "acknowledge that repentance of sins draws us close to Christ" },
+            { "id": "c", "text": "discuss the importance of baptism to Christians today" },
+            { "id": "d", "text": "recite John 3:16 and believe in Jesus Christ to inherit eternal life" }
+          ],
+          "learningExperiences": [
+            "read John 3:1-5 and say how they respond to Christ’s saving grace",
+            "role-play the story of Nicodemus’ encounter with Jesus Christ",
+            "discuss how repentance of sins can draw them to Christ",
+            "watch a video on Nicodemus’ conversion",
+            "say why baptism is important to Christians today",
+            "sing a song on Nicodemus’ conversion",
+            "tell how they respond to John 3:16"
+          ],
+          "keyInquiryQuestions": ["How did Nicodemus’ encounter with Jesus Christ change his life?"],
+          "coreCompetencies": [
+            "Communication: speaking skills are portrayed as learners read the Bible and tell how they respond to Christ’s saving grace.",
+            "Learning to learn: the skill of working collaboratively is enhanced as learners discuss how repentance of sins can draw them to Christ."
+          ],
+          "values": [
+            "Respect: learners display humility as they role-play the story of Nicodemus."
+          ],
+          "pcis": [
+            "Social Cohesion: learners demonstrate teamwork while carrying out various activities."
+          ],
+          "links": [
+            "English: speaking skills are enhanced as learners speak fluently and confidently.",
+            "Creative Arts: creative skills are applied as learners role-play and sing a song on Nicodemus’ conversion."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "subject": "HINDU RELIGIOUS EDUCATION",
+  "slug": "hre",
+  "strands": [
+    {
+      "number": "1.0",
+      "name": "Creation",
+      "subStrands": [
+        {
+          "number": "1.1",
+          "name": "Panch-mahabhoot",
+          "lessons": 10,
+          "content": [
+            "Jal(water)",
+            "Sacred Rivers",
+            "River Ganga, Beas, Rujubalika",
+            "Sacred Trees. Tulsi, Beri & Boddhi tree"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "state water bodies that are considered sacred as mentioned in the Scriptures to strengthen faith" },
+            { "id": "b", "text": "identify the role of water in our daily lives" },
+            { "id": "c", "text": "appreciate the importance of jal (water) used for religious activities in different faiths for its sacredness" },
+            { "id": "d", "text": "name plants that are considered sacred for familiarisation" },
+            { "id": "e", "text": "specify the roles of plants that are considered sacred in each faith for religious activities" },
+            { "id": "f", "text": "nurture plants for conservation of environment" }
+          ],
+          "learningExperiences": [
+            "explain the uses of jal (water) in different religious activities",
+            "demonstrate the importance of water by planting seeds/plants, one in dry condition and another in wet conditions",
+            "list the ways to conserve water within the community and create awareness through digital devices for water conservation",
+            "share information by locating selected rivers using digital devices",
+            "participate in a religious activity along with a resource person using water as sacred according to four faiths",
+            "collect pictures of trees that are of religious importance and create a photo montage using digital devices",
+            "watch a lesson showing the different stages of growth of plants using digital material, like KICD education TV",
+            "use digital materials to learn the interdependence between plants and human beings",
+            "assist peers with special needs as per their abilities to participate in tree planting activity carried out in the school compound/community centre",
+            "collect the leaves of plants considered sacred with the guidance of parents to create a card for the annual Environment Day"
+          ],
+          "keyInquiryQuestions": [
+            "Why is water important in our life?",
+            "Why are some of the rivers considered sacred in the Scriptures?",
+            "What makes the sacred plants important in our life?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: Learner acquires self-discipline when watching a lesson showing the different stages of growth of plant using digital material like KICD education TV.",
+            "Digital Literacy: Learner interacts with digital technology when listing the ways to conserve water within the community and creates awareness through digital devices for water conservation."
+          ],
+          "values": [
+            "Responsibility: Learner develops self-drive when collecting the leaves of plants considered sacred with the guidance of parents to create a card for the annual Environment Day.",
+            "Respect: Learner cultivates religious acceptance when participating in a religious activity along with a resource person using water as sacred according to four faiths."
+          ],
+          "pcis": [
+            "Education for Sustainable Development (ESD): Learner lists the ways to conserve water within the community and creates awareness through digital devices for water conservation, uses digital materials to learn the inter-dependency between plants and human beings."
+          ],
+          "links": [
+            "The learner is able to link the skills of planting trees learnt during the tree planting activity to the skills of planting crops in Agriculture.",
+            "The learner is able to link the skills of creating a card for the annual Environment Day and collecting the leaves of plants considered sacred with the guidance of parents to the creative skills learnt in Creative Arts."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "2.0",
+      "name": "Manifestations of Paramatma",
+      "subStrands": [
+        {
+          "number": "2.1",
+          "name": "Enlightened Beings",
+          "lessons": 10,
+          "content": [
+            "Narsimha Avtar",
+            "Parshavnath",
+            "Lord Buddha- His childhood",
+            "Sri Guru Ram Das ji"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify the contributions of Enlightened Beings for inspiration" },
+            { "id": "b", "text": "implement teachings of Enlightened Beings for righteous living" },
+            { "id": "c", "text": "appreciate the teachings of Enlightened Beings for spiritual and moral growth" }
+          ],
+          "learningExperiences": [
+            "read the short stories about the lives of Enlightened Beings",
+            "listen to stories of Enlightened Beings from a resource person/parent or using an audio device",
+            "perform skits based on the reforms done by Enlightened Beings",
+            "participate in quiz competitions based on questions related to reforms done by Enlightened Beings",
+            "Participate in short essay writing competition on Enlightened Beings",
+            "Assist learners with special needs as per their abilities to match the Enlightened Beings with the reforms done by each",
+            "watch animated films on Enlightened Beings using digital devices",
+            "Discuss the stories and watch relevant videos using digital devices"
+          ],
+          "keyInquiryQuestions": [
+            "Why are Enlightened Beings considered Divine?",
+            "What do we learn from the life of Prince Siddhartha?",
+            "How are the teachings of Sri Guru Ram Das Ji applicable in modern society?"
+          ],
+          "coreCompetencies": [
+            "Digital Literacy: Learner interacts with digital literacy when matching the Enlightened Beings with the reforms done by each (through dragging and dropping on digital device).",
+            "Learning to learn: Learner learns independently when participating in short essay writing competition on Enlightened Beings."
+          ],
+          "values": [
+            "Respect: Learner enhances open-mindedness when performing skits based on the reforms done by Enlightened Beings."
+          ],
+          "pcis": [
+            "Citizenship: Learner is sensitised on human rights and responsibilities while matching the Enlightened Beings with the reforms done by each."
+          ],
+          "links": [
+            "Learner is able to link the skills of performing skits based on the reforms done by Enlightened Beings to the creative skills learnt in Creative Arts."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3.0",
+      "name": "Scriptures",
+      "subStrands": [
+        {
+          "number": "3.1",
+          "name": "Essence of Scriptures",
+          "lessons": 10,
+          "content": [
+            "Ramayan. (Early chapters of all Scriptures) Bal kaand, Ayodhya kaand, in Ramayan)",
+            "Kalpasutra, Uttradhyana",
+            "Dhammapada, Sigalovaada sutra",
+            "Sri Guru Granth Sahib ji"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "explain the lessons learnt from the Scriptures for inspiration" },
+            { "id": "b", "text": "apply the teachings of the Scriptures for righteous living" },
+            { "id": "c", "text": "appreciate the Scriptures for spiritual growth" }
+          ],
+          "learningExperiences": [
+            "read the lessons drawn from the Scriptures",
+            "listen to stories from a resource person/an audio device to learn more about the essence of the Scriptures",
+            "discuss with peers the essence of the Scriptures",
+            "visit a temple/community centre/library to learn more about the essence of Scriptures",
+            "watch a documentary video on the compilation of the listed Scriptures",
+            "use search engines for more information on the essence of Scriptures",
+            "assist learners with special needs as per their abilities through peer teaching to make them understand the basic concepts of Scriptures in their class"
+          ],
+          "keyInquiryQuestions": [
+            "Why is the message learnt from the Scriptures important in our life?"
+          ],
+          "coreCompetencies": [
+            "Citizenship: Learner develops social and civic skills when listening to stories from a resource person/an audio device to learn more about the essence of the Scriptures.",
+            "Digital Literacy: Learner interacts with technology by using search engines for more information on the essence of Scriptures."
+          ],
+          "values": [
+            "Love: Learner inculcates compassion when reading the lessons drawn from the Scriptures.",
+            "Unity: Learner embraces equality when reading the lessons drawn from the Scriptures."
+          ],
+          "pcis": [
+            "Life skills, Values: Learner acquires values when listening to stories from a resource person/and audio device to learn more about the essence of the Scriptures."
+          ],
+          "links": [
+            "Learner is able to link the skills of speaking and listening while discussing with peers the essence of the Scriptures to the speaking and listening skills learnt in English."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4.0",
+      "name": "Worship",
+      "subStrands": [
+        {
+          "number": "4.1",
+          "name": "Dainik Prarthana (Daily prayers)",
+          "lessons": 10,
+          "content": [
+            "Gayatri Mantra",
+            "Twamev Mata cha Pita Twamey",
+            "Saraswati Vandana"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify the three selected prayers performed for different occasions for familiarisation" },
+            { "id": "b", "text": "recite the three selected prayers for understanding the meanings to deepen the faith" },
+            { "id": "c", "text": "appreciate the importance of prayers in daily life for spiritual development" },
+            { "id": "d", "text": "identify the Hindu places of worship in their locality for familiarisation" },
+            { "id": "e", "text": "map the Hindu Mandir (temples) in Kenya for exact location" },
+            { "id": "f", "text": "observe rites and rituals while visiting Sanatan/Hindu Mandirs in Kenya (temple)" },
+            { "id": "g", "text": "appreciate the architecture of the place of worship for developing a sense of aesthetics" }
+          ],
+          "learningExperiences": [
+            "learn from a resource person prayer for different occasions",
+            "practise reciting prayers with peers",
+            "recite prayers during school assembly",
+            "listen to the audio of prayers for correct intonation",
+            "make a collage of pictures of temples in their locality",
+            "use digital devices to map the Sanatan/Hindu Mandir (temple) in Kenya",
+            "draw and colour the Sanatan/Hindu Mandir (temple)",
+            "visit Sanatan/Hindu Mandir (temple) to witness the rites and rituals, architecture and important features of the Sanatan/Hindu Mandir (temple)",
+            "use search engines for enhancing information about Sanatan/Hindu Mandir",
+            "engage and encourage peers with special needs to recite simple morning prayers"
+          ],
+          "keyInquiryQuestions": [
+            "Why are prayers important in our daily life?",
+            "What is the significance of reciting prayers at different times?",
+            "Why are rites and rituals observed in a Sanatan/Hindu Mandir?"
+          ],
+          "coreCompetencies": [
+            "Communication: Learner develops speaking skills during practice of reciting prayers with peers.",
+            "Digital Literacy: Learner interacts with technology by using search engines for enhancing information about Sanatan/Hindu Mandir."
+          ],
+          "values": [
+            "Respect: Learner inculcates humility during practice of reciting prayers with peers."
+          ],
+          "pcis": [
+            "Citizenship: Learner enhances social cohesion when visiting Sanatan/Hindu Mandir (temple) to witness the rites and rituals, architecture and important features of the Sanatan/Hindu Mandir (temple)."
+          ],
+          "links": [
+            "Learner is able to link the skill of applying geographical knowledge and using digital devices to map the Sanatan/Hindu Mandir (temple) in Kenya to skills learnt in Social Studies.",
+            "Learner is able to link skills of making collage of pictures of temples in their locality a draw and colour the Sanatan/Hindu Mandir (temple) to the creative skills learnt in Creative Arts."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5.0",
+      "name": "Sadachaar",
+      "subStrands": [
+        {
+          "number": "5.1",
+          "name": "Aspects of integrity",
+          "lessons": 10,
+          "content": [
+            "Parables from the four faiths. (Moral stories from the four faiths)",
+            "Practices of a passenger"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "state the importance of integrity in their daily life for righteous living" },
+            { "id": "b", "text": "identify elements of integrity among peers and society for inspiration" },
+            { "id": "c", "text": "model elements of integrity for self- efficacy" },
+            { "id": "d", "text": "State ideal practices of a passenger during boarding and alighting for safety" },
+            { "id": "e", "text": "appreciate the value of integrity by living an exemplary life in class, school and community for harmony" }
+          ],
+          "learningExperiences": [
+            "perform skits from the parables depicting the value of integrity",
+            "share their personal experiences on integrity",
+            "discuss the value of integrity in handling money",
+            "write/type essays on integrity",
+            "practise integrity through games/physical and health activities",
+            "demonstrate the value of integrity in using technology responsibly",
+            "create a lost and found corner for recovered items",
+            "prepare a list of ideal practices of a passenger observing all safety measures in a vehicle",
+            "assist learners with special needs as per their abilities through peer teaching to make them understand the lessons drawn from the parables"
+          ],
+          "keyInquiryQuestions": [
+            "Why should you practise integrity in life?",
+            "Which actions do you associate with integrity?",
+            "How can you use the internet responsibly?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: learner enhances effective communication skills when sharing, in groups, their personal experiences on integrity and performing skits from the parables depicting the value of integrity.",
+            "Digital Literacy: Learner develops digital citizenship skills when demonstrating the value of integrity in using technology responsibly."
+          ],
+          "values": [
+            "Integrity: Learner inculcates honesty when demonstrating the value of integrity in using technology responsibly."
+          ],
+          "pcis": [
+            "Life skills, Values: Learner develops values while creating a lost and found corner for recovered items.",
+            "Education for sustainable development (ESD): Learner enhances financial literacy while discussing the value of integrity in handling money."
+          ],
+          "links": [
+            "Learner is able to link the value of integrity in handling money to the skills learnt in Mathematics."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6.0",
+      "name": "Yoga",
+      "subStrands": [
+        {
+          "number": "6.1",
+          "name": "Pranayam (Breathing exercises)",
+          "lessons": 10,
+          "content": [
+            "Bhastrika",
+            "Kapaal Bhaati",
+            "Asanas",
+            "Vajra sana (ankle pose)",
+            "Sasankasana (crescent moon posture)"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "name the types of Pranayam for familiarisation" },
+            { "id": "b", "text": "practise Pranayam for physical wellbeing" },
+            { "id": "c", "text": "Show Pranayam to bring yoga awareness in society" },
+            { "id": "d", "text": "appreciate the practice of Pranayam for a healthy body" },
+            { "id": "e", "text": "list different postures for familiarisation" },
+            { "id": "f", "text": "adopt simple physical postures for discipline in daily life" },
+            { "id": "g", "text": "display simple body postures for physical fitness" },
+            { "id": "h", "text": "appreciate the importance of asanas for healthy living" }
+          ],
+          "learningExperiences": [
+            "identify Pranayam using digital device",
+            "perform under the supervision of an able resource person",
+            "participate in the celebration of International Yoga Day and take photos/videos",
+            "collect pictures from magazines/newspapers/digital devices to create a chart",
+            "practise asanas, in pairs or groups, to encourage each other",
+            "create a Yoga guidance video using digital devices",
+            "Assist learners with special needs as per their abilities through peer teaching to make them understand basic Pranayam and asanas in Yoga"
+          ],
+          "keyInquiryQuestions": [
+            "How does performing Pranayam help in correct breathing?",
+            "Why is it important to perform asanas in the presence of an expert?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: Learner develops effective communication skills when practising asanas, in pairs or groups, to encourage each other.",
+            "Digital Literacy: Learner interacts with technology when participating in the celebration of International Yoga Day and takes photos/videos."
+          ],
+          "values": [
+            "Responsibility: Learner practises diligence when collecting pictures from magazines/newspapers/digital devices to create a chart."
+          ],
+          "pcis": [
+            "Life skills: Learner develops self-management skills when creating a Yoga guidance video using digital devices."
+          ],
+          "links": [
+            "Learner is able to link to the skills of creating a chart and Yoga guidance video using digital devices and collecting pictures from magazines/newspapers/digital devices to the creative skills learnt in Creative Arts."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7.0",
+      "name": "Principles of Dharma",
+      "subStrands": [
+        {
+          "number": "7.1",
+          "name": "Virtues for righteousness",
+          "lessons": 10,
+          "content": [
+            "Sanatan/Vedic based on moral stories",
+            "Paramatma",
+            "Purushartha",
+            "Pranidaya",
+            "Punarjanam",
+            "Prarthana"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify five selected Principles of Dharma according to Sanatan/Vedic for familiarisation" },
+            { "id": "b", "text": "apply the five selected Principles of Dharma in daily life for harmonious living" },
+            { "id": "c", "text": "appreciate the Principles of Dharma in building up one’s character" }
+          ],
+          "learningExperiences": [
+            "narrate stories on Principles of Dharma according to Sanatan/Vedic",
+            "perform skits depicting Principles of Dharma",
+            "download and read the Principles of Dharma using digital devices",
+            "visit Sanatan/Hindu temple to learn more about Principles of Dharma and share their knowledge in class",
+            "observe and practise the Principles of Dharma depicted in stories from Scriptures",
+            "assist learners with special needs as per their abilities through peer teaching to make them understand the lessons drawn from the short stories"
+          ],
+          "keyInquiryQuestions": [
+            "How do the Principles of Dharma relate to your daily life?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: Learner develops independent learning when visiting Sanatan/Hindu temple to learn more about the Principles of Dharma and sharing their knowledge in class.",
+            "Digital Literacy: Learner enhances interacting with digital technology when downloading and reading the Principles of Dharma using digital devices."
+          ],
+          "values": [
+            "Peace: Learner inculcates compassion and responsibility when narrating stories on the Principles of Dharma according to Sanatan/Vedic."
+          ],
+          "pcis": [
+            "Learner Support Programmes (LSPs): Learner develops positive discipline when observing and practising the Principles of Dharma depicted in stories from Scriptures."
+          ],
+          "links": [
+            "Learner is able to link the skills of performing skits depicting Principles of Dharma to the creative skills learnt in Creative Arts."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8.0",
+      "name": "Utsav (Festivals)",
+      "subStrands": [
+        {
+          "number": "8.1",
+          "name": "Social and National Festivals",
+          "lessons": 10,
+          "content": [
+            "Maha Shivratri (Hinduism)",
+            "Paryushan Parva (Jainism)",
+            "Madaraka Day"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "explain the significance of celebrating the three selected festivals for social cohesion" },
+            { "id": "b", "text": "identify the rites and rituals during the celebration of different festivals" },
+            { "id": "c", "text": "appreciate the significance of celebrating social and national festivals for patriotism" }
+          ],
+          "learningExperiences": [
+            "listen to stories/narrate stories about the significance of celebrating festivals",
+            "watch videos on how festivals are celebrated",
+            "actively participate in the celebration of festivals",
+            "write/type simple compositions on the festivals",
+            "visit temples/community hall/ national stadium/National Museum/archives and take photos",
+            "sing the National Anthem and respect the National flag",
+            "do charity works for inclusive celebrations",
+            "sing and dance during celebration of festivals",
+            "sensitise their peers with special needs about the safety measures to be observed during celebration of festivals"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we celebrate festivals?",
+            "How are rites and rituals an important component during celebration of festivals?"
+          ],
+          "coreCompetencies": [
+            "Citizenship: Learner develops social and civic skills when actively participating in the celebration of festivals.",
+            "Creativity and Imagination: Learner develops communication and self-expression skills when writing/typing simple compositions on the festivals."
+          ],
+          "values": [
+            "Unity: Learner enhances non-discrimination while doing charity work for inclusive celebrations.",
+            "Patriotism: Learner practises loyalty as they sing the National Anthem and respect the National flag."
+          ],
+          "pcis": [
+            "Service learning: Learner embraces community service learning while doing charity work for inclusive celebrations."
+          ],
+          "links": [
+            "Learner is able to link to the skills of writing when writing/typing a simple composition on the festivals to the writing skills learnt in English Language."
+          ]
+        },
+        {
+          "number": "8.2",
+          "name": "Indian Traditional Calendar",
+          "lessons": 10,
+          "content": [
+            "Days of the week in relation to planets"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "name the days of the week according to Indian traditional calendar" },
+            { "id": "b", "text": "relate the days of the week with the corresponding planets for preservation of tradition" },
+            { "id": "c", "text": "appreciate Indian traditional calendar for its uniqueness" }
+          ],
+          "learningExperiences": [
+            "download the Indian traditional calendar and form a weekly plan",
+            "create and decorate the calendar using digital devices wherever possible",
+            "match the days with the corresponding planets",
+            "make greeting cards as per the Indian traditional calendar to share among peers and family",
+            "compose a song in praise of the Indian traditional calendar"
+          ],
+          "keyInquiryQuestions": [
+            "How are the days of the week related to the solar system?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: Learner develops independent learning while making greeting cards as per the Indian traditional calendar to share among peers and family."
+          ],
+          "values": [
+            "Responsibility: Learner enhances self-drive when creating and decorating the calendar using digital devices wherever possible."
+          ],
+          "pcis": [
+            "Life skills: Learner develops analytical thinking skills when creating and decorating the calendar using digital devices wherever possible."
+          ],
+          "links": [
+            "Learner is able to relate to the skills of making greeting cards as per the Indian traditional calendar to share among peers and family to the creative skills learnt in Creative Arts."
+          ]
+        }
+      ]
+    }
+  ]
+}

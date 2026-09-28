@@ -1,0 +1,191 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "subStrand": "1.2",
+  "title": "Location and size of the County",
+  "overview": "Kenya is divided into 47 counties, and your school is in one of them. In this sub-strand you will find out the sub-counties that make up your county, describe where your county is in relation to the counties around it, and compare its size with the size of its neighbours using a map.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Our county and its sub-counties",
+      "outcomes": ["a"],
+      "objectives": [
+        "State that Kenya has 47 counties and name the county where your school is.",
+        "List the sub-counties in your county."
+      ],
+      "intro": "When you write your full home address you might write your village, your sub-county, your county and finally Kenya. Each name is a bigger area that contains the one before it.",
+      "notes": "### Counties in Kenya\nKenya is divided into 47 counties. The counties were set up by the Constitution of Kenya, 2010. Each county has its own name, its own boundaries and its own county government. The town where the county government has its main offices is called the county headquarters.\n\n### Sub-counties\nA county is a big area, so it is divided into smaller parts called sub-counties. Dividing a county into sub-counties makes it easier to serve people. Many government services are offered at sub-county offices so that people do not have to travel all the way to the county headquarters.\n\nDifferent counties have different numbers of sub-counties. Some counties have only a few; others have many. Each sub-county is made up of even smaller areas such as locations, sub-locations and villages.\n\n### Finding the sub-counties in your county\nYou can find out the sub-counties in your county by:\n\n- asking your teacher, parents or guardians,\n- looking at a map of your county in an approved textbook or atlas,\n- visiting the county government website on a digital device with the help of an adult,\n- asking the chief or assistant chief, or an officer at a sub-county office.\n\nWrite the name of your county and the names of all its sub-counties in your book. Underline the sub-county in which your school is found. Knowing the sub-counties helps you understand your home area, find government services and read maps of your county.",
+      "keyWords": [
+        { "word": "county", "meaning": "one of the 47 areas into which Kenya is divided, each with its own county government" },
+        { "word": "sub-county", "meaning": "a smaller part of a county" },
+        { "word": "county headquarters", "meaning": "the town where the main offices of the county government are" }
+      ],
+      "examples": [
+        { "problem": "Put these areas in order from the smallest to the largest: county, village, Kenya, sub-county.", "steps": ["A village is inside a sub-county.", "A sub-county is inside a county.", "A county is inside Kenya."], "answer": "Village, sub-county, county, Kenya", "check": null }
+      ],
+      "activity": {
+        "title": "List the sub-counties in our county",
+        "materials": ["Map of your county from an approved textbook, atlas or digital device", "Manila paper and marker pens"],
+        "steps": [
+          "In groups, brainstorm the sub-counties you already know in your county.",
+          "Check your list against a map of the county or ask your teacher to confirm it.",
+          "Write the full list on manila paper with the heading \"Sub-counties in our county\".",
+          "Put a star next to the sub-county where your school is.",
+          "Present your list to the class and compare it with other groups."
+        ]
+      },
+      "practice": [
+        { "question": "How many counties are there in Kenya?", "answer": "47", "check": "47 === 47" },
+        { "question": "What is a sub-county?", "answer": "A smaller part of a county", "check": null },
+        { "question": "Give two ways you can find out the names of the sub-counties in your county.", "answer": "Any two: ask the teacher, parents or guardians; look at a county map; use the county government website; ask the chief or a sub-county officer.", "check": null },
+        { "question": "Write the name of your county and the sub-county where your school is.", "answer": "The learner writes the correct names for their school, confirmed by the teacher.", "check": null }
+      ],
+      "summary": [
+        "Kenya has 47 counties.",
+        "Each county is divided into smaller parts called sub-counties.",
+        "Maps, textbooks, adults and county offices can tell us the sub-counties in our county."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Where our county is: neighbouring counties",
+      "outcomes": ["b"],
+      "objectives": [
+        "Identify the counties that share a boundary with your county.",
+        "Use the cardinal points to describe the location of your county in relation to its neighbours."
+      ],
+      "intro": "Your home has neighbours whose land touches yours. In the same way, your county has neighbouring counties that share a boundary with it.",
+      "notes": "### What is location?\nLocation means the place where something is found. We can describe the location of a county by saying which counties are around it and in which direction they are. This is called describing its location in relation to neighbouring counties.\n\n### Neighbouring counties\nNeighbouring counties are counties that share a boundary with your county. A boundary is a line that separates one area from another. On a map, county boundaries are usually shown with a dotted or dashed line. Some counties also have a natural boundary such as a river, a lake, a mountain range or the Indian Ocean, and some counties at the edge of Kenya share a boundary with another country.\n\n### How to locate your county on a map\n1. Get a map of Kenya that shows the counties, from a textbook, atlas or digital device.\n2. Find the North sign.\n3. Find your county and put your finger on it.\n4. Look at each county that touches your county's boundary. These are your neighbours.\n5. Use the cardinal points to say where each neighbour is. For example: \"County X is to the North of our county.\" If a neighbour touches two sides, you can say which side most of it lies on.\n\nLook at the practice map in the diagram. It uses letters instead of real names. County A is in the middle. County B is to the North of County A, County C is to the East, County D is to the South and County E is to the West.\n\nNow use a real map to write the same kind of sentences about your own county. Your teacher will check that the neighbours and directions you give are correct.",
+      "keyWords": [
+        { "word": "location", "meaning": "the place where something is found" },
+        { "word": "boundary", "meaning": "a line that separates one area from another" },
+        { "word": "neighbouring county", "meaning": "a county that shares a boundary with another county" }
+      ],
+      "examples": [
+        { "problem": "On the practice map, which county is to the West of County A?", "steps": ["West is on the left of the map.", "The county on the left of A is E."], "answer": "County E", "check": null },
+        { "problem": "On the practice map, in which direction is County A from County B?", "steps": ["County B is North of County A.", "Swap the places: the opposite of North is South."], "answer": "South", "check": null }
+      ],
+      "activity": {
+        "title": "Locate our county",
+        "materials": ["Map of Kenya showing counties (print or digital)", "Tracing paper", "Pencil and crayons"],
+        "steps": [
+          "In groups, find your county on the map of Kenya.",
+          "Trace your county and the counties that share a boundary with it. Draw the North sign.",
+          "Colour your county in one colour and each neighbour in a different colour. Write their names.",
+          "Write a sentence for each neighbour using the cardinal points, for example \"___ County is to the East of our county.\"",
+          "Play a guessing game: one learner says \"I am the neighbour to the South. Who am I?\" and the others answer."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\" font-family=\"sans-serif\"><rect width=\"300\" height=\"300\" fill=\"#ffffff\"/><g stroke=\"#374151\" stroke-width=\"2\" stroke-dasharray=\"6 4\"><polygon points=\"90,90 210,90 210,210 90,210\" fill=\"#fde68a\"/><polygon points=\"60,20 240,20 210,90 90,90\" fill=\"#bbf7d0\"/><polygon points=\"210,90 280,60 280,240 210,210\" fill=\"#bfdbfe\"/><polygon points=\"90,210 210,210 240,280 60,280\" fill=\"#fecaca\"/><polygon points=\"20,60 90,90 90,210 20,240\" fill=\"#e9d5ff\"/></g><g font-size=\"20\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#111827\"><text x=\"150\" y=\"157\">A</text><text x=\"150\" y=\"62\">B</text><text x=\"248\" y=\"157\">C</text><text x=\"150\" y=\"252\">D</text><text x=\"52\" y=\"157\">E</text></g><g transform=\"translate(270,30)\"><polygon points=\"0,-14 -6,6 6,6\" fill=\"#111827\"/><text x=\"0\" y=\"22\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\">N</text></g></svg>",
+        "caption": "Practice map (not a real place): County A with its neighbours B to the North, C to the East, D to the South and E to the West"
+      },
+      "practice": [
+        { "question": "What is a neighbouring county?", "answer": "A county that shares a boundary with another county", "check": null },
+        { "question": "On the practice map, which county is to the South of County A?", "answer": "County D", "check": null },
+        { "question": "How are county boundaries usually shown on a map?", "answer": "With a dotted or dashed line (some boundaries follow natural features such as rivers or lakes)", "check": null },
+        { "question": "Name one county that neighbours your county and say in which direction it is.", "answer": "The learner names a real neighbouring county and its correct direction, checked on a map.", "check": null }
+      ],
+      "summary": [
+        "Location is where a place is found.",
+        "Neighbouring counties share a boundary with our county.",
+        "We use a map and the cardinal points to describe where our county is."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Estimating the size of our county",
+      "outcomes": ["c"],
+      "objectives": [
+        "Estimate whether your county is bigger or smaller than each neighbouring county.",
+        "Use squares on tracing paper to compare the sizes of counties on a map."
+      ],
+      "intro": "Two shambas can look almost the same from the road, but when you walk around them you find that one is much bigger. On a map we can compare the size of counties in a similar way.",
+      "notes": "Size means how big or small an area is. Counties in Kenya are not all the same size. Some are very large and others are much smaller. The size of a county is the amount of land inside its boundary.\n\nThe real size of land is measured in square kilometres. At Grade 4 we do not measure, we estimate. To estimate means to make a careful guess using what we can see.\n\n### Estimating by looking\nLook at your county on a map and compare it with each neighbour. Ask:\n\n- Is our county bigger than this neighbour?\n- Is it smaller?\n- Are they about the same size?\n\n### Estimating by counting squares\nLooking alone can trick your eyes, especially when shapes are very different. Counting squares gives a better estimate:\n\n1. Draw small equal squares on a sheet of tracing paper (for example 1 cm by 1 cm).\n2. Place the tracing paper over the map.\n3. Count the squares that are fully inside your county. Count a square that is half or more inside as one; leave out a square that is less than half inside.\n4. Do the same for each neighbouring county.\n5. The county with more squares is the bigger one.\n\nFor example, on a practice map, County A covers 18 squares and County B covers 11 squares. County A is bigger than County B. If County C covers 17 squares, then A and C are about the same size.\n\nYou can also lay a string along the boundary of each county to compare how long the boundaries are, but remember that a long boundary does not always mean a bigger area. Counting squares is better for comparing size.\n\nUse your county map to decide which neighbours are bigger and which are smaller than your county. The size of a county can affect how far people travel to reach services.",
+      "keyWords": [
+        { "word": "size", "meaning": "how big or small an area is" },
+        { "word": "estimate", "meaning": "to make a careful guess of an amount" },
+        { "word": "tracing paper", "meaning": "thin paper you can see through, used to copy or measure shapes on a map" }
+      ],
+      "examples": [
+        { "problem": "On a map, County P covers 14 squares and County Q covers 9 squares. Which county is bigger, and by how many squares?", "steps": ["14 is more than 9, so County P is bigger.", "14 − 9 = 5"], "answer": "County P is bigger by about 5 squares.", "check": "14 - 9 === 5" },
+        { "problem": "County R covers 12 squares and County S covers 12 squares. Compare their sizes.", "steps": ["Both cover the same number of squares."], "answer": "They are about the same size.", "check": "12 === 12" }
+      ],
+      "activity": {
+        "title": "Compare sizes with a square grid",
+        "materials": ["Map of your county and its neighbours", "Tracing paper with squares drawn on it", "Pencil", "String"],
+        "steps": [
+          "In groups, place the squared tracing paper over the map.",
+          "Count the squares covering your county and write the number down.",
+          "Count the squares covering each neighbouring county.",
+          "Arrange the counties from the biggest to the smallest.",
+          "Discuss in your group whether your county is bigger or smaller than most of its neighbours, and share with the class."
+        ]
+      },
+      "practice": [
+        { "question": "What does it mean to estimate the size of a county?", "answer": "To make a careful guess of how big it is, for example by counting squares on a map.", "check": null },
+        { "question": "County X covers 20 squares and County Y covers 15 squares. Which county is bigger?", "answer": "County X", "check": "20 > 15" },
+        { "question": "When counting squares, what do you do with a square that is less than half inside the county?", "answer": "Leave it out.", "check": null },
+        { "question": "Why is counting squares better than just looking at the map?", "answer": "Because counties have different shapes, and our eyes can be tricked; counting squares gives a fairer comparison.", "check": null }
+      ],
+      "summary": [
+        "Counties in Kenya are of different sizes.",
+        "We estimate size by comparing shapes on a map or by counting squares.",
+        "The county that covers more squares is bigger."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Sketching our county map and why location and size matter",
+      "outcomes": ["d", "b", "c"],
+      "objectives": [
+        "Sketch, colour and label a map of your county.",
+        "Explain why it is important to know the location and size of your county."
+      ],
+      "intro": "Imagine a new learner joins your class from another part of Kenya. How would you explain where your county is and how big it is? A simple map you have drawn yourself can help.",
+      "notes": "### Sketching a map of your county\nA sketch map is a simple map drawn by hand. It does not need to be perfect, but it should show the main things clearly. A good sketch map of your county has:\n\n- a title, for example \"Map of ___ County\",\n- the boundary of the county,\n- the sub-counties, each with its name,\n- the names of the neighbouring counties written around the edge in their correct directions,\n- a North sign,\n- a key that explains any colours or symbols you have used.\n\nUse tracing paper to copy the outline from a textbook or atlas, then colour each sub-county differently. Display the finished maps in class.\n\n### Why the location and size of a county are important\nKnowing where your county is and how big it is helps in many ways:\n\n- It helps you give directions to visitors and describe where you live.\n- It helps people plan journeys to neighbouring counties, for example to trade, visit relatives or go to school.\n- It helps us understand why the weather, crops and animals in our county may be similar to or different from those in counties far away.\n- It helps us understand that services such as hospitals, schools and roads need to reach people across the whole county. A big county may need more roads and offices so that people do not travel too far.\n- It makes us proud of our home area and helps us work well with our neighbours.\n\nEvery county, big or small, is an important part of Kenya. Neighbouring counties share roads, markets, rivers and people, so we should live in peace and cooperate with them.",
+      "keyWords": [
+        { "word": "sketch map", "meaning": "a simple map drawn by hand" },
+        { "word": "key", "meaning": "a box on a map that explains what the colours and symbols mean" }
+      ],
+      "examples": [
+        { "problem": "A learner has drawn a map of her county with the boundary and sub-counties. What else should she add?", "steps": ["Check the list: title, boundary, sub-counties, neighbours, North sign, key."], "answer": "A title, the names of the neighbouring counties, a North sign and a key.", "check": null }
+      ],
+      "activity": {
+        "title": "Our county map display",
+        "materials": ["Tracing paper", "Map of the county from an approved textbook or atlas", "Crayons or coloured pencils", "Manila paper"],
+        "steps": [
+          "Trace the outline of your county and its sub-counties.",
+          "Colour each sub-county and write its name.",
+          "Write the names of neighbouring counties in their correct directions around the map.",
+          "Add a title, a North sign and a key.",
+          "Display your map in class. In groups, discuss why it is important to know the size and location of your county."
+        ]
+      },
+      "practice": [
+        { "question": "Name three things a good sketch map of your county should have.", "answer": "Any three: title, boundary, sub-counties, neighbouring counties, North sign, key.", "check": null },
+        { "question": "Give two reasons why it is important to know the location of your county.", "answer": "Any two: to give directions, to plan journeys, to understand our weather and activities, to cooperate with neighbours.", "check": null },
+        { "question": "Why might a very large county need more roads and offices?", "answer": "So that services can reach people in all parts of the county without them travelling too far.", "check": null }
+      ],
+      "summary": [
+        "A sketch map shows the boundary, sub-counties, neighbours, North sign and a key.",
+        "Knowing location and size helps with directions, planning and services.",
+        "Every county is an important part of Kenya."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "How many counties does Kenya have?", "options": ["8", "40", "47", "50"], "answer": "C", "explanation": "Kenya is divided into 47 counties.", "outcome": "a", "check": "47 === 47" },
+    { "question": "A county is divided into smaller parts called ___.", "options": ["countries", "sub-counties", "continents", "provinces"], "answer": "B", "explanation": "Each county is made up of sub-counties.", "outcome": "a", "check": null },
+    { "question": "Give one way of finding out the sub-counties in your county.", "answer": "Any one: ask the teacher, parents or guardians; read a county map; use the county government website; ask the chief.", "explanation": "These are reliable sources of information about the county.", "outcome": "a", "check": null },
+    { "question": "Counties that share a boundary with your county are called ___ counties.", "answer": "Neighbouring", "explanation": "Neighbouring counties touch our county's boundary.", "outcome": "b", "check": null },
+    { "question": "On a map, a county is on the right-hand side of your county. In which direction is it?", "options": ["North", "South", "East", "West"], "answer": "C", "explanation": "On a map with North at the top, East is on the right.", "outcome": "b", "check": null },
+    { "question": "What is a boundary?", "options": ["A road inside a town", "A line that separates one area from another", "The biggest town in a county", "A type of map"], "answer": "B", "explanation": "Boundaries separate counties, sub-counties and countries.", "outcome": "b", "check": null },
+    { "question": "County M covers 16 squares on a map and County N covers 10 squares. Which is bigger?", "options": ["County M", "County N", "They are the same"], "answer": "A", "explanation": "16 squares is more than 10 squares.", "outcome": "c", "check": "16 > 10" },
+    { "question": "Which is the best way to estimate and compare the size of two counties on a map?", "options": ["Measure the length of their names", "Count squares on tracing paper placed over the map", "Count the towns", "Look at the colours"], "answer": "B", "explanation": "Counting squares compares the amount of land inside each boundary.", "outcome": "c", "check": null },
+    { "question": "Give one reason why it is important to know the location and size of your county.", "answer": "Any one: to give directions, to plan journeys, to understand services people need, to cooperate with neighbouring counties.", "explanation": "Location and size help us understand and serve our home area.", "outcome": "d", "check": null },
+    { "question": "Which of these should a sketch map of your county always have?", "options": ["A North sign", "A photograph", "A price list", "A poem"], "answer": "A", "explanation": "The North sign shows direction on the map.", "outcome": "d", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 Social Studies Curriculum Design (Revised 2024) — Strand 1.0 Natural and Built Environments, Sub-strand 1.2 Location and size of the County"
+  ]
+}

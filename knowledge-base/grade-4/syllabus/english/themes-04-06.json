@@ -1,0 +1,477 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "slug": "english",
+  "strands": [
+    {
+      "number": "4.0",
+      "name": "Accidents - First Aid",
+      "subStrands": [
+        {
+          "number": "4.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Word Stress", "Vocabulary building"],
+          "outcomes": [
+            { "id": "b", "text": "pronounce words related to the theme using the correct stress for effective communication" },
+            { "id": "c", "text": "use vocabulary related to the theme in a variety of contexts for speech clarity" },
+            { "id": "d", "text": "promote appropriate use of stress in a variety of contexts for effective communication" }
+          ],
+          "learningExperiences": [
+            "listen to and recite short rhythmic poems featuring the vocabulary words e.g. bandage, treatment, hospital, injury, cycling lane",
+            "say tongue twisters to practise the sounds /ɒ/ eɪ/ /aɪ/ and the consonant clusters ‘sn’ ‘tr’ ‘st’ collaboratively",
+            "identify words containing the sounds /ɒ/ /eɪ//aɪ/ and the consonant clusters ‘sn’ ‘tr’ ‘st’",
+            "say words related to the theme using the correct stress with peers, (’object, ob’ject)",
+            "construct sentences with words whose meaning may be distinguished through word stress",
+            "construct sentences using vocabulary related to the theme collaboratively",
+            "record themselves practising word stress and present the recording to the whole class"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we learn new words?",
+            "How can we say sounds and words correctly?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is developed as the learner is able to say sentences containing words whose meaning is contrasted by stress.",
+            "Learning to learn: This is enhanced as the learner is able to learn applying correct stress in words from digital devices and platforms."
+          ],
+          "values": [
+            "Love: It is enhanced as the learner is able to assist peers to pronounce words accurately and record themselves.",
+            "Responsibility: It is promoted as the learner takes up specific role as they participate in recording activities."
+          ],
+          "pcis": [
+            "Safety and Security Education: This is promoted as the learner is exposed to texts on potential causes of accidents and handling first aid."
+          ],
+          "links": [
+            "The learner is able to connect the concept of pronunciation and stress to their learning of Kiswahili."
+          ]
+        },
+        {
+          "number": "4.2.1",
+          "name": "Reading: Intensive Reading (Visuals)",
+          "lessons": 3,
+          "content": ["Interpreting visuals"],
+          "outcomes": [
+            { "id": "a", "text": "read visuals in print and digital formats for information" },
+            { "id": "b", "text": "interpret visual media appropriately for comprehension" },
+            { "id": "c", "text": "acknowledge the importance of visual media for lifelong learning" }
+          ],
+          "learningExperiences": [
+            "read age-appropriate digital texts in different formats such as audio, video and animated stories",
+            "view cartoons, mimes, pictures, photographs, comics showing an underpass, foot bridge, luggage rack, roundabout, railway crossing",
+            "work together to interpret and discuss visuals",
+            "predict happenings in cartoons or comics and write down their thoughts",
+            "conduct virtual tours on google maps and find the direction of various places on the map",
+            "use google maps, digital maps and printed maps to give directions",
+            "locate information from a simple map and make short sentences using terms like north, south, east and west. For example, ‘The sun rises in the east.’"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to interpret visuals correctly?",
+            "How do visuals like photos and videos enhance our understanding of a text?"
+          ],
+          "coreCompetencies": [
+            "Digital Literacy: This is enhanced as the learner uses technology to conduct virtual tours on google maps and find the direction of various places on the map.",
+            "Learning to Learn: The is developed as the learner builds on their learning experience by locating information from a simple map and make short sentences."
+          ],
+          "values": [
+            "Unity: It is developed as the learner works together with peers as they discuss and interpret visuals.",
+            "Love: This is enhanced as the learner appreciates views from peers when viewing and interpreting visuals."
+          ],
+          "pcis": [
+            "Self-esteem: This is developed as the learner is able to interpret visuals independently for information and directions in their daily experiences."
+          ],
+          "links": [
+            "The learner relates the concept of interpreting visuals with their learning of concepts such as map reading in Social Studies."
+          ]
+        },
+        {
+          "number": "4.3.1",
+          "name": "Grammar in Use: Word Classes (Pronouns)",
+          "lessons": 3,
+          "content": ["Personal pronouns", "Possessive pronouns"],
+          "outcomes": [
+            { "id": "a", "text": "identify personal and possessive pronouns used as subjects and objects for communication" },
+            { "id": "b", "text": "use personal and possessive pronouns as subject and object correctly for self- expression" },
+            { "id": "c", "text": "adopt the use of personal and possessive pronouns in communication" }
+          ],
+          "learningExperiences": [
+            "identify personal and possessive pronouns used as subjects and objects in sentences",
+            "discuss pictures on the theme using personal and possessive pronouns collaboratively",
+            "look at pictures and/or flash cards of a car near a bridge showing parts such as, wiper, bridge, head lights, signal lights, fog lights, and interpret the visuals",
+            "make sentences using the vocabulary words such as wiper, bridge, head lights, signal, fog lights, and use personal and possessive pronouns",
+            "construct sentences about the theme using personal and possessive pronouns as subjects and objects",
+            "work jointly to read a newspaper, magazine or poem among others, to identify personal and possessive pronouns",
+            "type personal and possessive pronouns on a word processor, mobile device or tablet"
+          ],
+          "keyInquiryQuestions": [
+            "Which words replace names of people or things in sentences?",
+            "Which words do we use to show that something belongs to us?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is promoted as the learner is able to construct sentences orally with peers.",
+            "Self-efficacy: It is developed as the learner gains confidence and high self-esteem when working individually to type personal and possessive pronouns on a word processor, mobile device or tablet"
+          ],
+          "values": [
+            "Responsibility: It is developed as the learner takes up assigned tasks when discuss pictures on the theme using personal and possessive pronouns collaboratively.",
+            "Unity: It is promoted as learners work jointly to read a newspaper, magazine or poem among others, to identify personal and possessive pronouns"
+          ],
+          "pcis": [
+            "ICT: This is promoted as the learner is able to use digital devices to access information online during research on personal and possessive pronouns."
+          ],
+          "links": [
+            "The learner is able to connect the concept of personal safety and first aid to their learning of similar concepts in Science and Technology."
+          ]
+        },
+        {
+          "number": "4.4.1",
+          "name": "Writing: Functional Writing",
+          "lessons": 3,
+          "content": ["Friendly Letter", "SMS"],
+          "outcomes": [
+            { "id": "a", "text": "identify the key parts of a friendly letter in preparation for writing" },
+            { "id": "b", "text": "write a friendly letter using the correct format for effective communication" },
+            { "id": "c", "text": "send an SMS correctly for effective communication" },
+            { "id": "d", "text": "promote the use of friendly letters and SMS in a variety of communication contexts" }
+          ],
+          "learningExperiences": [
+            "discuss the correct format of a friendly letter with peers (such as address, date, salutation, body, ending)",
+            "write friendly letters using the correct format - such as letters to siblings, parents and friends",
+            "brainstorm with peers on the components of an SMS (such as telephone numbers, message, sender, receiver)",
+            "practise writing SMS with peers",
+            "write a letter to a friend in another school telling them about the new words on road safety they have learnt, for example, u turn, cycling lane, roundabout, railway crossing, number plates among others",
+            "use mobile phones to write an SMS to one another on the theme"
+          ],
+          "keyInquiryQuestions": [
+            "Why do you pass information to others?",
+            "How do you pass information to your friends?",
+            "What kind of information do you share with your friends?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration. These are developed as the learner discusses with peers how to write an SMS using the correct format.",
+            "Self-efficacy: This is enhanced as the learner gains confidence in learning to express themselves through writing letters and SMS."
+          ],
+          "values": [
+            "Unity: This is developed as the learner cooperates when brainstorming with peers on the components of an SMS.",
+            "Integrity: This is developed as the learner displays honesty as they use a mobile phone to write an SMS."
+          ],
+          "pcis": [
+            "Safety and Security: This is promoted as the learner interacts with texts related to the theme on Accidents."
+          ],
+          "links": [
+            "The learner is able to relate the skill of letter writing to similar skills in learning Kiswahili."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5.0",
+      "name": "Nutrition - Balanced Diet",
+      "subStrands": [
+        {
+          "number": "5.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Listening Comprehension", "Language Pattern (noun phrase + would like to be ...)"],
+          "outcomes": [
+            { "id": "a", "text": "listen actively to a variety of texts to gain information" },
+            { "id": "b", "text": "apply vocabulary related to the theme in a variety of contexts for effective communication" },
+            { "id": "c", "text": "use the language pattern correctly for effective oral communication" },
+            { "id": "d", "text": "promote listening to a variety of texts for information and enjoyment" }
+          ],
+          "learningExperiences": [
+            "listen to audio-visual recordings of songs, stories and passages featuring the sounds /ʊ/ /uː/ /æ/ /f/ /v/",
+            "respond to questions from the listening text",
+            "construct sentences related to a story or listening comprehension using the language pattern, (noun phrase + would like to be ...)",
+            "retell a story he or she has listened to accurately",
+            "respond correctly to questions based on the text",
+            "dramatise sections of a story in groups for comprehension",
+            "discuss with peers the lesson learnt from a story"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we listen carefully?",
+            "How can we improve our pronunciation?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced as the learner participates in sharing their thoughts as they discuss collaboratively.",
+            "Critical Thinking and Problem Solving: This is cultivated as the learner is able to draw conclusions from the listening text."
+          ],
+          "values": [
+            "Love: This is cultivated as the learner is able to portray a caring attitude to special groups of people that require meals with diverse nutritional value."
+          ],
+          "pcis": [
+            "Prevention of lifestyle or non-communicable diseases: This is promoted as the learner is informed on a balanced diet for varied nutritional needs."
+          ],
+          "links": [
+            "The learner is able to relate the theme of nutrition to their learning in Agriculture."
+          ]
+        },
+        {
+          "number": "5.2.1",
+          "name": "Reading: Extensive Reading",
+          "lessons": 3,
+          "content": ["Independent Reading"],
+          "outcomes": [
+            { "id": "a", "text": "select appropriate reading materials for lifelong learning" },
+            { "id": "b", "text": "read a variety of familiar materials independently to build reading speed and fluency" },
+            { "id": "c", "text": "apply appropriate strategies to read independently for information and enjoyment" },
+            { "id": "d", "text": "realise the importance of independent reading in lifelong learning" }
+          ],
+          "learningExperiences": [
+            "select age-appropriate and high- interest reading materials such as narratives, poems, newspapers and magazines in print or electronic format",
+            "set up an after-school club where they meet on a regular basis and read varied texts",
+            "retell the stories they have read collaboratively",
+            "share opinions and reflections on the texts they have read",
+            "use materials in the classroom to read extensively",
+            "read texts quietly or silently for pleasure"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we read widely?",
+            "What materials do you enjoy reading?"
+          ],
+          "coreCompetencies": [
+            "Digital Literacy: This is developed as the learner uses selected reading materials from electronic sources.",
+            "Learning to Learn: It is enhanced as the learner develops extensive reading strategies in their language clubs."
+          ],
+          "values": [
+            "Responsibility: This is cultivated as the learner engages diligently in assigned tasks on independent.",
+            "Love: This is enhanced as the learner respects other learners' opinions when reading."
+          ],
+          "pcis": [
+            "Life skills : Effective communication is demonstrated as the learner reads a variety of materials to build speed and fluency."
+          ],
+          "links": [
+            "The learner is able to link the concept of independent reading to Kiswahili."
+          ]
+        },
+        {
+          "number": "5.3.1",
+          "name": "Grammar in Use: Word Classes (Adjectives)",
+          "lessons": 3,
+          "content": ["Regular adjectives", "Irregular Adjectives"],
+          "outcomes": [
+            { "id": "a", "text": "By the end of the Sub Strand, the learner should be able to: communication" },
+            { "id": "b", "text": "use adjectives of size and shape in the right order for clarity of communication" },
+            { "id": "c", "text": "adopt the use of adjectives for effective communication" }
+          ],
+          "learningExperiences": [
+            "identify adjectives from an audio or written text",
+            "collaboratively talk about various items in the classroom using adjectives",
+            "describe items using the comparative forms of regular and irregular adjectives with peers",
+            "use adjectives in the correct order in sentences collaboratively",
+            "write correct sentences using comparative forms of adjectives in the right order",
+            "write sentences on tablets, computers and other digital resources using adjectives",
+            "use adjectives to talk about scenes, pictures or comics based on the themes with peers"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we say the correct shape and size of things?",
+            "Which are some of the words you use to talk about how someone feels or looks?",
+            "How do we describe things?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is developed as the learner uses adjectives correctly in sentences as they interact with peers.",
+            "Self-efficacy is developed as the learner is able to gain confidence as they use adjectives accurately in their day-to-day communication."
+          ],
+          "values": [
+            "Unity: It is promoted as learners cohesively relate with each other to perform activities such as identifying and discussing adjectives.",
+            "Responsibility: This is cultivated as the learner takes personal initiative to complete assigned roles."
+          ],
+          "pcis": [
+            "Health Education: This is promoted as the learner gets information on lifestyle diseases through the theme of balanced diet"
+          ],
+          "links": [
+            "The learner is able to connect the concept of comparative adjectives to the learning of adjectives in English and Kiswahili."
+          ]
+        },
+        {
+          "number": "5.4.1",
+          "name": "Writing: Creative Writing (Narrative Compositions)",
+          "lessons": 3,
+          "content": ["Narrative Compositions"],
+          "outcomes": [
+            { "id": "a", "text": "describe the parts of a narrative composition in preparation for writing" },
+            { "id": "b", "text": "organise thoughts fluently, clearly and precisely in a coherent paragraph for self- expression" },
+            { "id": "c", "text": "create a narrative composition of about 60-80 words for self-expression" },
+            { "id": "d", "text": "realise the role of creativity in writing for different purposes" }
+          ],
+          "learningExperiences": [
+            "plan a composition with peers, then write a draft and present it to the whole class",
+            "use similes to make their compositions interesting",
+            "create their own similes and use them in their composition",
+            "write a narrative composition of about 60-80 words and incorporate similes",
+            "rearrange jumbled up sentences from an oral narrative into coherent paragraphs",
+            "listen to a narrative on radio or television and rewrite it in their own words",
+            "watch and dramatise a story related to the theme (could be from a digital device)",
+            "visit a supermarket, food store or grocery store in the school neighbourhood and write a narrative composition based on that experience"
+          ],
+          "keyInquiryQuestions": [
+            "Why do you enjoy listening to stories?",
+            "Why is it important to plan our composition?",
+            "How can you write an interesting composition?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is developed as the learner works with peers in writing a composition and presenting it in class.",
+            "Digital Literacy: It is developed as the learner is able to use digital devices to access and share information online."
+          ],
+          "values": [
+            "Love: This is enhanced as the learner interacts when working collaboratively.",
+            "Responsibility: This is developed as the learners takes a positive initiative in writing a composition."
+          ],
+          "pcis": [
+            "Lifestyle and Communicable Diseases: Sensitisation on this issue is achieved as the learner writes compositions based on the theme Balance Diet."
+          ],
+          "links": [
+            "The learner is able to relate the concept of writing a narrative to their learning in Kiswahili and French."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6.0",
+      "name": "Internet - Email",
+      "subStrands": [
+        {
+          "number": "6.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Stress and Intonation"],
+          "outcomes": [
+            { "id": "a", "text": "identify correct stress and intonation in ‘WH’ questions, other questions and statements for clarity in speech" },
+            { "id": "b", "text": "use correct stress and intonation in questions and statements to communicate clearly" },
+            { "id": "c", "text": "use vocabulary related to the theme in a variety of contexts for effective oral communication" },
+            { "id": "d", "text": "adopt the use of varying intonation for effective communication" }
+          ],
+          "learningExperiences": [
+            "listen to an audio-visual recording of words featuring the sounds /ʊ/ /uː/ /f/ /v/",
+            "listen to correct stress in words such as address, increase among others (whether noun or verb)",
+            "listen to correct intonation in questions and statements to identify a speaker’s feelings",
+            "recite a poem featuring ‘WH’ questions and declaratives collaboratively",
+            "vary intonation when uttering questions and statements",
+            "construct sentences orally with peers using vocabulary related to the theme"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we vary our voice when asking questions?",
+            "How does good pronunciation of words and sounds help us?",
+            "How do we find out what we do not know?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced as the learner is able to recite poems collaboratively.",
+            "Self-efficacy: This is developed as the learner achieves correct stress and intonation in speech."
+          ],
+          "values": [
+            "Responsibility: This is enhanced as the learner is able to take initiative of creating sentences using vocabulary individually.",
+            "Love: It is promoted as the learner is able to show care as they assist peers to use correct stress and intonation in sentences."
+          ],
+          "pcis": [
+            "Digital Literacy: This is promoted as the learner is able to use and manipulate digital devices to learn correct stress and intonation."
+          ],
+          "links": [
+            "The learner is able to connect the concept of articulation with the learning in Kiswahili and Music."
+          ]
+        },
+        {
+          "number": "6.2.1",
+          "name": "Reading: Intensive Reading (Dialogue)",
+          "lessons": 3,
+          "content": ["Dialogue"],
+          "outcomes": [
+            { "id": "a", "text": "read a variety of dialogues related to email and the internet for comprehension" },
+            { "id": "b", "text": "apply appropriate intensive reading skills to obtain specific factual and inferential information for lifelong learning" },
+            { "id": "c", "text": "adopt reading for purposes of comprehension and information" }
+          ],
+          "learningExperiences": [
+            "locate new words and sentence structures in a dialogue",
+            "read a variety of dialogues related to the theme in print and non-print formats",
+            "answer factual and inferential questions individually and collaboratively",
+            "identify events in a dialogue for logical flow"
+          ],
+          "keyInquiryQuestions": [
+            "How can we obtain information from texts?",
+            "What stories or books have you read?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: This is developed as the learner uses appropriate intensive reading skills to obtain factual and inferential information.",
+            "Learning to Learn: This is enhanced as the learner locates new words and sentences individually from a dialogue."
+          ],
+          "values": [
+            "Responsibility: It is enhanced as the learner takes up specific roles assigned such as identifying events in a dialogue for logical flow."
+          ],
+          "pcis": [
+            "Safety and Security: This is inculcated as the learner is guided on how to take precautions when using the internet."
+          ],
+          "links": [
+            "The learner is able to relate the concept on internet to their learning in Science and Technology."
+          ]
+        },
+        {
+          "number": "6.3.1",
+          "name": "Grammar in Use: Word Classes (Quantifiers)",
+          "lessons": 3,
+          "content": ["Quantifiers"],
+          "outcomes": [
+            { "id": "a", "text": "identify quantifiers and nouns used with them appropriately for effective communication" },
+            { "id": "b", "text": "use quantifiers in sentences correctly for communication clarity" },
+            { "id": "c", "text": "adopt the correct use of quantifiers in everyday communication" }
+          ],
+          "learningExperiences": [
+            "select countable and uncountable nouns from a list provided by the teacher",
+            "use the quantifiers (much, many, some and any) correctly with nouns and construct sentences with peers",
+            "recite poems and rhymes containing the quantifiers (much, many, some and any) in small groups",
+            "fill in blank spaces using correct quantifiers",
+            "use digital devices to compose a short poem or a paragraph featuring the quantifiers (much, many, some and any)",
+            "use the quantifiers (much, many, some and any) in a role-play or a dialogue with peers"
+          ],
+          "keyInquiryQuestions": [
+            "How can we quantify nouns we cannot count?"
+          ],
+          "coreCompetencies": [
+            "Critical Thinking and Problem Solving: This is enhanced as the learner composes poems and paragraphs using own ideas.",
+            "Digital Literacy is manifested as the learners manipulates digital devices while downloading and composing poems."
+          ],
+          "values": [
+            "Unity: This is promoted as the learner is able to cooperate with peers as they recite poems and role-play dialogues.",
+            "Love: This is developed as the learner demonstrates care to peers when assisting them to recite a poem."
+          ],
+          "pcis": [
+            "Citizenship: Social cohesion is enhanced as the learner harmoniously interacts and use quantifiers in sentences during group tasks."
+          ],
+          "links": [
+            "The learner is able to relate the concept of quantifiers to their learning in Mathematics."
+          ]
+        },
+        {
+          "number": "6.4.1",
+          "name": "Writing: Creative Writing (Pictorial Compositions)",
+          "lessons": 3,
+          "content": ["Pictorial Compositions"],
+          "outcomes": [
+            { "id": "a", "text": "organise pictures in a logical sequence to write pictorial compositions of about 60-80 words on the theme" },
+            { "id": "b", "text": "write a pictorial composition of about 60 - 80 words on the theme for effective communication" },
+            { "id": "c", "text": "adopt the use of a wide range of pictures to write pictorial compositions on different topics for communication" }
+          ],
+          "learningExperiences": [
+            "identify pictures from online and offline sources collaboratively",
+            "use pictures from online and offline sources to write a pictorial composition of 60 - 80 words based on the theme",
+            "discuss pictures collaboratively and write pictorial compositions of about 60 - 80 words",
+            "watch a variety of videos related to the theme and write pictorial compositions collaboratively",
+            "generate a wide range of pictures from the internet and write pictorial composition"
+          ],
+          "keyInquiryQuestions": [
+            "How do pictures make you feel?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is developed as the learner collaboratively discusses and uses pictures to write composition.",
+            "Digital Literacy: This is enhanced as the learner uses digital devices to view pictures online and write compositions."
+          ],
+          "values": [
+            "Unity: This is promoted as the learner collaborates harmoniously with peers in groups to discuss pictures and watch videos related to the theme.",
+            "Respect: This is cultivated as the learner engages with peers mutually and accommodates others opinion on varied issues."
+          ],
+          "pcis": [
+            "Cyber Safety: It is promoted as the learners use internet responsibly to access pictures and visuals for composition writing."
+          ],
+          "links": [
+            "The learner is able to relate the concept of pictorial compositions to their learning in Kiswahili."
+          ]
+        }
+      ]
+    }
+  ]
+}

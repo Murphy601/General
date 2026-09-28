@@ -1,0 +1,261 @@
+{
+  "subject": "MATHEMATICS",
+  "subStrand": "3.1",
+  "title": "Position and Direction",
+  "overview": "When you turn, you change the direction you are facing. In this sub-strand you will learn the difference between a clockwise and an anti-clockwise turn, and you will make quarter turns, half turns and full turns safely with your classmates. You will also see how turns help us give and follow directions in daily life.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Clockwise and anti-clockwise turns",
+      "outcomes": ["a"],
+      "objectives": [
+        "Explain what a clockwise turn is.",
+        "Explain what an anti-clockwise turn is.",
+        "Identify clockwise and anti-clockwise turns in the environment."
+      ],
+      "intro": "Look at the clock on your classroom wall. The hands always move the same way round: from 12 to 1, then to 2, then to 3. Anything that turns the same way as the hands of a clock is making a clockwise turn.",
+      "notes": "Things around us turn all the time: the hands of a clock, the wheels of a bicycle, a door on its hinges, a bottle top, a water tap and even you when you turn to face a friend. A turn can go in one of two directions.\n\n### Clockwise\nA clockwise turn goes the same way as the hands of a clock. Picture the hand at 12. It moves to the right, down to 3, down to 6, up past 9 and back to 12.\n\n### Anti-clockwise\nAn anti-clockwise turn goes the opposite way to the hands of a clock. From 12 it moves to the left, down to 9, down to 6, up past 3 and back to 12. Anti-clockwise is also written anticlockwise.\n\n### How to tell the direction\nImagine a clock lying under the thing that is turning, with 12 at the top.\n\n- If the turning part moves from 12 towards 1, 2, 3 it is turning clockwise.\n- If it moves from 12 towards 11, 10, 9 it is turning anti-clockwise.\n\nWhen you turn your own body, imagine you are standing in the middle of a big clock drawn on the ground and facing 12. Turning towards your right hand is clockwise. Turning towards your left hand is anti-clockwise.\n\n### Turns in the environment\n- Clock hands always turn clockwise.\n- In Kenya vehicles keep to the left, so they drive round a roundabout in a clockwise direction.\n- On a running track, athletes run round in an anti-clockwise direction.\n- Most bottle tops and taps close when you turn them clockwise and open when you turn them anti-clockwise.\n\nThe direction depends on which side you look from. A wheel that turns clockwise when you look from one side turns anti-clockwise when you look from the other side, so always say where you are looking from.",
+      "keyWords": [
+        { "word": "turn", "meaning": "a movement round a fixed point that changes the direction something faces" },
+        { "word": "clockwise", "meaning": "turning in the same direction as the hands of a clock" },
+        { "word": "anti-clockwise", "meaning": "turning in the opposite direction to the hands of a clock" }
+      ],
+      "examples": [
+        {
+          "problem": "The minute hand of a clock moves from 12 to 4. Is this a clockwise or an anti-clockwise turn?",
+          "steps": ["The hand moved from 12 through 1, 2 and 3 to 4.", "This is the same way that clock hands always move."],
+          "answer": "Clockwise",
+          "check": null
+        },
+        {
+          "problem": "Wanjiru opens a bottle of water by turning the top to her left. Which way is she turning the top?",
+          "steps": ["Looking down on the top, a turn to the left goes from 12 towards 11, 10, 9.", "That is opposite to the hands of a clock."],
+          "answer": "Anti-clockwise",
+          "check": null
+        },
+        {
+          "problem": "A hand points at 12 and turns clockwise past 5 numbers. Which number does it point to?",
+          "steps": ["Clockwise from 12 the numbers go 1, 2, 3, 4, 5.", "Counting 5 numbers from 12 lands on 5."],
+          "answer": "5",
+          "check": "(12 + 5) % 12 === 5"
+        }
+      ],
+      "activity": {
+        "title": "Spot the turns",
+        "materials": ["Classroom clock or a paper clock with a movable hand", "Exercise book"],
+        "steps": [
+          "In your group, move the hand of the paper clock the way a real clock moves. Say 'clockwise' as you move it.",
+          "Move the hand the opposite way and say 'anti-clockwise'.",
+          "Walk around the classroom and school compound with your teacher and look for things that turn: taps, door handles, bottle tops, wheels.",
+          "Draw a table with two columns, Clockwise and Anti-clockwise, and write each turn you see in the correct column."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 200\" font-family=\"sans-serif\"><rect width=\"420\" height=\"200\" fill=\"#ffffff\"/><defs><marker id=\"ah\" markerWidth=\"10\" markerHeight=\"10\" refX=\"5\" refY=\"5\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#166534\"/></marker><marker id=\"ah2\" markerWidth=\"10\" markerHeight=\"10\" refX=\"5\" refY=\"5\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 z\" fill=\"#b91c1c\"/></marker></defs><circle cx=\"105\" cy=\"95\" r=\"60\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2\"/><text x=\"105\" y=\"52\" font-size=\"14\" text-anchor=\"middle\">12</text><text x=\"150\" y=\"100\" font-size=\"14\" text-anchor=\"middle\">3</text><text x=\"105\" y=\"146\" font-size=\"14\" text-anchor=\"middle\">6</text><text x=\"60\" y=\"100\" font-size=\"14\" text-anchor=\"middle\">9</text><path d=\"M105,25 A70,70 0 0 1 175,95\" fill=\"none\" stroke=\"#166534\" stroke-width=\"4\" marker-end=\"url(#ah)\"/><text x=\"105\" y=\"188\" font-size=\"15\" text-anchor=\"middle\" fill=\"#166534\">Clockwise</text><circle cx=\"315\" cy=\"95\" r=\"60\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2\"/><text x=\"315\" y=\"52\" font-size=\"14\" text-anchor=\"middle\">12</text><text x=\"360\" y=\"100\" font-size=\"14\" text-anchor=\"middle\">3</text><text x=\"315\" y=\"146\" font-size=\"14\" text-anchor=\"middle\">6</text><text x=\"270\" y=\"100\" font-size=\"14\" text-anchor=\"middle\">9</text><path d=\"M315,25 A70,70 0 0 0 245,95\" fill=\"none\" stroke=\"#b91c1c\" stroke-width=\"4\" marker-end=\"url(#ah2)\"/><text x=\"315\" y=\"188\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b91c1c\">Anti-clockwise</text></svg>",
+        "caption": "A clockwise turn goes from 12 towards 3; an anti-clockwise turn goes from 12 towards 9."
+      },
+      "practice": [
+        { "question": "Which way do the hands of a clock turn?", "answer": "Clockwise", "check": null },
+        { "question": "A hand turns anti-clockwise from 12 past 3 numbers. Which number does it point to?", "answer": "9", "check": "12 - 3 === 9" },
+        { "question": "A hand turns clockwise from 2 past 4 numbers. Which number does it point to?", "answer": "6", "check": "2 + 4 === 6" },
+        { "question": "Name one thing at home that you turn clockwise to close.", "answer": "For example a water tap or the top of a bottle.", "check": null }
+      ],
+      "summary": [
+        "Clockwise means the same way as the hands of a clock.",
+        "Anti-clockwise means the opposite way.",
+        "Say where you are looking from when you describe a turn."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Making clockwise and anti-clockwise turns",
+      "outcomes": ["b"],
+      "objectives": [
+        "Demonstrate a clockwise turn with your body and with objects.",
+        "Demonstrate an anti-clockwise turn with your body and with objects."
+      ],
+      "intro": "In many singing games you turn round on the spot while you sing. If everyone turns in the same direction at the same time, the game looks neat. To do that, everyone must know which way is clockwise and which way is anti-clockwise.",
+      "notes": "In the last lesson you learnt to identify clockwise and anti-clockwise turns. Now you will make them yourself.\n\n### Turning your body\nStand still with your feet together and face the front of the classroom. Keep one spot, such as a chalk mark under your feet, as your turning point.\n\n- To turn clockwise, turn towards your right hand side. Your right shoulder moves back.\n- To turn anti-clockwise, turn towards your left hand side. Your left shoulder moves back.\n\nA simple way to remember: when you stand and turn on the spot, clockwise is to your right and anti-clockwise is to your left.\n\n### Turning an object\nYou can also turn objects. Hold a pencil flat on your desk with its point at the top of the desk (like 12 on a clock).\n\n- Turn the point to the right, towards the side where 3 would be. That is clockwise.\n- Turn the point to the left, towards the side where 9 would be. That is anti-clockwise.\n\nKeep the middle of the pencil in the same place. The point where something stays still while the rest turns is called the centre of the turn.\n\n### Walking round a point\nYou can also make a turn by walking round a point. If a group walks in a circle round a tree and the tree is on their right hand side, they are walking clockwise when seen from above. If the tree is on their left hand side, they are walking anti-clockwise.\n\n### Safety\nWhen turning in a group, stand an arm's length away from each other, clear the space of bags and stones, and turn slowly so that nobody falls or bumps into another learner.",
+      "keyWords": [
+        { "word": "centre of a turn", "meaning": "the point that stays still while something turns round it" },
+        { "word": "on the spot", "meaning": "turning without moving away from the place where you stand" }
+      ],
+      "examples": [
+        {
+          "problem": "Otieno faces the classroom door. He turns clockwise on the spot. Towards which hand does he turn?",
+          "steps": ["When you turn on the spot, clockwise is towards your right hand."],
+          "answer": "Towards his right hand",
+          "check": null
+        },
+        {
+          "problem": "A pencil points to 12 on a paper clock. Amina turns it anti-clockwise until it points to 9. How many numbers did it pass over?",
+          "steps": ["Anti-clockwise from 12 the numbers go 11, 10, 9.", "That is 3 numbers."],
+          "answer": "3",
+          "check": "12 - 9 === 3"
+        },
+        {
+          "problem": "Learners walk round a tree with the tree always on their left side. Are they walking clockwise or anti-clockwise?",
+          "steps": ["Tree on the left side means they are turning towards the left all the time.", "Turning to the left is anti-clockwise."],
+          "answer": "Anti-clockwise",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Clockwise and anti-clockwise circle game",
+        "materials": ["Open space in the school field", "Chalk or a stick to mark a point"],
+        "steps": [
+          "Mark a point on the ground. One learner stands on it and faces the classroom block.",
+          "The teacher or a group leader calls 'clockwise'. The learner turns slowly towards the right while the group watches and checks.",
+          "The leader calls 'anti-clockwise'. The learner turns towards the left.",
+          "Form a circle holding hands. Walk round the circle clockwise while singing, then stop and walk anti-clockwise.",
+          "Take turns so that every member of the group demonstrates both turns."
+        ]
+      },
+      "practice": [
+        { "question": "When you turn on the spot towards your left hand, which direction are you turning?", "answer": "Anti-clockwise", "check": null },
+        { "question": "A pencil points at 3. You turn it clockwise past 3 numbers. Where does it point now?", "answer": "6", "check": "3 + 3 === 6" },
+        { "question": "A pencil points at 6. You turn it anti-clockwise past 2 numbers. Where does it point now?", "answer": "4", "check": "6 - 2 === 4" },
+        { "question": "Give one safety rule to follow when turning in a group.", "answer": "For example: keep an arm's length apart, turn slowly, or clear stones and bags from the space.", "check": null }
+      ],
+      "summary": [
+        "Turning on the spot to your right is clockwise.",
+        "Turning on the spot to your left is anti-clockwise.",
+        "Turn slowly and keep space between you and others."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Quarter, half and full turns",
+      "outcomes": ["c"],
+      "objectives": [
+        "Identify a quarter turn, a half turn and a full turn.",
+        "Tell how many quarter turns make a half turn and a full turn."
+      ],
+      "intro": "When the minute hand of a clock moves from 12 to 3, fifteen minutes have passed. The hand has turned a quarter of the way round. Turns can be measured by how much of the way round they go.",
+      "notes": "A turn can be small or big. We describe the size of a turn by how much of a complete circle it goes round.\n\n### Full turn\nA full turn goes all the way round and ends facing the same direction it started. On a clock, the minute hand makes a full turn when it goes from 12 all the way round back to 12. That takes 60 minutes.\n\n### Half turn\nA half turn goes half of the way round. You end up facing the opposite direction. If you face the chalkboard and make a half turn, you face the back of the classroom. On a clock, the minute hand moves from 12 to 6 in a half turn. That takes 30 minutes.\n\n### Quarter turn\nA quarter turn goes one quarter of the way round. If you face the chalkboard and make a quarter turn, you face one of the side walls. On a clock, the minute hand moves from 12 to 3 (clockwise) in a quarter turn. That takes 15 minutes.\n\n### How turns fit together\n- 2 quarter turns make a half turn.\n- 2 half turns make a full turn.\n- 4 quarter turns make a full turn.\n\n### Turns and the four directions\nThe four main directions are North, East, South and West. They are a quarter turn apart.\n\n- Facing North, a quarter turn clockwise makes you face East.\n- Facing North, a half turn makes you face South.\n- Facing North, a full turn brings you back to North.\n\nA half turn ends in the same place whether you turn clockwise or anti-clockwise. A quarter turn does not: from North, a quarter turn clockwise ends at East, but a quarter turn anti-clockwise ends at West. So for a quarter turn you must always say the direction.",
+      "keyWords": [
+        { "word": "full turn", "meaning": "a complete turn that ends facing the starting direction" },
+        { "word": "half turn", "meaning": "half of a full turn; you end facing the opposite way" },
+        { "word": "quarter turn", "meaning": "one quarter of a full turn" }
+      ],
+      "examples": [
+        {
+          "problem": "How many quarter turns make a full turn?",
+          "steps": ["A quarter turn is one of four equal parts of a full turn."],
+          "answer": "4",
+          "check": "1/4 + 1/4 + 1/4 + 1/4 === 1"
+        },
+        {
+          "problem": "The minute hand turns from 12 to 6. What kind of turn is this and how many minutes pass?",
+          "steps": ["12 to 6 is half way round the clock.", "Half of 60 minutes is 30 minutes."],
+          "answer": "A half turn; 30 minutes",
+          "check": "60 / 2 === 30"
+        },
+        {
+          "problem": "Kamau faces North. He makes a quarter turn clockwise. Which direction does he face now?",
+          "steps": ["Clockwise from North the directions go East, South, West.", "One quarter turn moves one step: North to East."],
+          "answer": "East",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Turns on the clock and compass",
+        "materials": ["Paper clock with a movable hand", "Compass drawn on the ground with chalk"],
+        "steps": [
+          "Move the minute hand from 12 to 3. Name the turn and say how many minutes it shows.",
+          "Move it from 12 to 6, then from 12 all the way round to 12. Name each turn.",
+          "Stand in the middle of the compass drawn on the ground facing North.",
+          "Your partner calls a turn, for example 'half turn' or 'quarter turn clockwise'. Say which direction you will face before you turn, then turn and check."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 240\" font-family=\"sans-serif\"><rect width=\"240\" height=\"240\" fill=\"#ffffff\"/><circle cx=\"120\" cy=\"120\" r=\"80\" fill=\"none\" stroke=\"#9ca3af\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"200\" stroke=\"#111827\" stroke-width=\"2\"/><line x1=\"40\" y1=\"120\" x2=\"200\" y2=\"120\" stroke=\"#111827\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"120\" r=\"5\" fill=\"#166534\"/><g font-size=\"18\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#166534\"><text x=\"120\" y=\"30\">N</text><text x=\"215\" y=\"126\">E</text><text x=\"120\" y=\"225\">S</text><text x=\"25\" y=\"126\">W</text></g></svg>",
+        "caption": "The four main directions are a quarter turn apart."
+      },
+      "practice": [
+        { "question": "How many half turns make a full turn?", "answer": "2", "check": "1/2 + 1/2 === 1" },
+        { "question": "The minute hand makes a quarter turn. How many minutes pass?", "answer": "15 minutes", "check": "60 / 4 === 15" },
+        { "question": "You face East and make a half turn. Which direction do you face?", "answer": "West", "check": null },
+        { "question": "How many quarter turns make a half turn?", "answer": "2", "check": "1/4 + 1/4 === 1/2" }
+      ],
+      "summary": [
+        "A full turn brings you back to where you started facing.",
+        "A half turn makes you face the opposite way.",
+        "4 quarter turns = 2 half turns = 1 full turn."
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Demonstrating turns and using them in daily life",
+      "outcomes": ["d", "e"],
+      "objectives": [
+        "Demonstrate quarter, half and full turns in both directions from a point.",
+        "Use turns to give and follow directions."
+      ],
+      "intro": "A visitor at the school gate asks you the way to the head teacher's office. You say, 'Walk straight, then make a quarter turn to your right at the flag post.' Knowing turns helps you give clear directions.",
+      "notes": "Now you will make turns yourself and use them to move from place to place.\n\n### Quarter turn in both directions\nStand on a point and face the front.\n\n- A quarter turn clockwise: turn to your right until you face the wall on your right.\n- A quarter turn anti-clockwise: turn to your left until you face the wall on your left.\n\nThese two quarter turns end in opposite directions, so always say clockwise or anti-clockwise.\n\n### Half turn from a point\nFrom the same point, keep turning until you face the back of the room. You have made a half turn. It is the same as two quarter turns in the same direction.\n\n### Full turn from a point\nKeep turning in the same direction until you face the front again. That is a full turn, the same as four quarter turns.\n\n### Three quarter turns\nIf you make three quarter turns clockwise, you end facing the same way as one quarter turn anti-clockwise. From North, three quarter turns clockwise go East, South, then West.\n\n### Using turns in real life\n- Giving directions: 'Walk to the tap, make a quarter turn to the left and walk to the library.'\n- Games and dances: singers and dancers make half and full turns together.\n- Driving: a driver turns the steering wheel to make a vehicle turn into a new road.\n- Reading a map: in Social Studies you use North, East, South and West to describe where places are, and these directions are a quarter turn apart.\n\nWhen following directions, stop at each turning point, make the turn, then move straight in the new direction.",
+      "keyWords": [
+        { "word": "direction", "meaning": "the way something is facing or moving" },
+        { "word": "position", "meaning": "the place where something or someone is" }
+      ],
+      "examples": [
+        {
+          "problem": "Achieng faces West. She makes a quarter turn anti-clockwise. Which direction does she face?",
+          "steps": ["Anti-clockwise from West the directions go South, East, North.", "One quarter turn moves one step: West to South."],
+          "answer": "South",
+          "check": null
+        },
+        {
+          "problem": "The minute hand is at 12. It makes three quarter turns clockwise. Which number does it point to, and how many minutes pass?",
+          "steps": ["One quarter turn = 3 numbers on the clock.", "3 quarter turns = 3 × 3 = 9 numbers, so it points to 9.", "Minutes: 3 × 15 = 45"],
+          "answer": "It points to 9; 45 minutes pass",
+          "check": "3*3 === 9 && 3*15 === 45"
+        },
+        {
+          "problem": "Mutua makes 2 half turns. Which way does he face at the end?",
+          "steps": ["2 half turns make a full turn.", "A full turn ends facing the starting direction."],
+          "answer": "The same way he started",
+          "check": "1/2 + 1/2 === 1"
+        }
+      ],
+      "activity": {
+        "title": "Follow the turning directions",
+        "materials": ["Open space", "Chalk", "Cards with turn instructions"],
+        "steps": [
+          "Draw a cross on the ground and write N, E, S and W at its ends.",
+          "Each learner stands in the middle facing North.",
+          "A group leader reads a card, for example 'quarter turn anti-clockwise' or 'half turn'. Everyone turns slowly and says the direction they now face.",
+          "Demonstrate a quarter turn in both directions, a half turn and a full turn from the point.",
+          "In pairs, write directions using turns to walk from your classroom to the school gate. Swap and follow your partner's directions carefully and safely."
+        ]
+      },
+      "practice": [
+        { "question": "You face South and make a quarter turn clockwise. Which direction do you face?", "answer": "West", "check": null },
+        { "question": "How many minutes pass when the minute hand makes 2 quarter turns?", "answer": "30 minutes", "check": "2 * 15 === 30" },
+        { "question": "You make 4 quarter turns anti-clockwise. How much of a turn is this?", "answer": "A full turn", "check": "4 * (1/4) === 1" },
+        { "question": "Give one example of where people use turns in daily life.", "answer": "For example giving directions, dancing, driving or reading a map.", "check": null }
+      ],
+      "summary": [
+        "Quarter turns clockwise and anti-clockwise end in opposite directions.",
+        "Two quarter turns make a half turn; four make a full turn.",
+        "Turns help us give and follow directions."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Which way do the hands of a clock move?", "options": ["Anti-clockwise", "Clockwise", "Both ways", "They do not turn"], "answer": "B", "explanation": "Clockwise means the direction in which clock hands move.", "outcome": "a", "check": null },
+    { "question": "A hand turns from 12 to 10. Is this clockwise or anti-clockwise?", "options": ["Clockwise", "Anti-clockwise", "A full turn"], "answer": "B", "explanation": "From 12 to 11 to 10 is the opposite way to the hands of a clock.", "outcome": "a", "check": "12 - 2 === 10" },
+    { "question": "You stand on the spot and turn towards your right hand. Which turn is this?", "options": ["Clockwise", "Anti-clockwise", "Half turn", "No turn"], "answer": "A", "explanation": "Turning on the spot to your right is clockwise.", "outcome": "b", "check": null },
+    { "question": "A pencil points at 9 on a paper clock. It is turned clockwise past 3 numbers. Where does it point?", "options": ["6", "12", "3", "10"], "answer": "B", "explanation": "Clockwise from 9: 10, 11, 12.", "outcome": "b", "check": "(9 + 3) % 12 === 0" },
+    { "question": "How many quarter turns make a full turn?", "options": ["2", "3", "4", "8"], "answer": "C", "explanation": "A full turn has four equal quarter turns.", "outcome": "c", "check": "4 * (1/4) === 1" },
+    { "question": "The minute hand moves from 12 to 6. What turn is this?", "options": ["Quarter turn", "Half turn", "Full turn", "Three quarter turn"], "answer": "B", "explanation": "12 to 6 is half way round the clock.", "outcome": "c", "check": "60 / 2 === 30" },
+    { "question": "How many minutes pass when the minute hand makes a full turn?", "answer": "60 minutes", "explanation": "A full turn of the minute hand is one hour.", "outcome": "c", "check": "4 * 15 === 60" },
+    { "question": "Facing North, you make a quarter turn clockwise. Which direction do you face?", "options": ["South", "West", "East", "North"], "answer": "C", "explanation": "Clockwise from North the next direction is East.", "outcome": "d", "check": null },
+    { "question": "Facing East, you make a half turn. Which direction do you face?", "options": ["West", "North", "South", "East"], "answer": "A", "explanation": "A half turn faces the opposite way; the opposite of East is West.", "outcome": "d", "check": null },
+    { "question": "The minute hand makes three quarter turns. How many minutes pass?", "answer": "45 minutes", "explanation": "Each quarter turn is 15 minutes: 3 × 15 = 45.", "outcome": "d", "check": "3 * 15 === 45" },
+    { "question": "Why is it useful to know turns when giving directions?", "answer": "Turns tell a person exactly which way to face and move, for example 'make a quarter turn to the left at the tap'.", "explanation": "Clear turns help others reach a place without getting lost.", "outcome": "e", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 Mathematics Curriculum Design (Revised 2024) — Strand 3.0 Geometry, Sub-strand 3.1 Position and Direction"
+  ]
+}

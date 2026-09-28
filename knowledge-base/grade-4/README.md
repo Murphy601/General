@@ -57,8 +57,10 @@ Rules:
 - **Copy text exactly as printed** (keep KICD spelling). Drop only bullet symbols, the leading `a)` letter and the trailing `,` / `.` / `;`.
   The validator compares letters and digits only, so spacing and line breaks from the PDF do not matter, but changed or invented words fail.
 - A sentence cut by a page break or by the neighbouring table column is still copied as one string; the validator accepts up to 3 fragments in order.
-- In English and Kiswahili the "strand" is the theme (1.0 The Family) and the sub-strands are 1.1 Listening and Speaking, 1.2 Reading, etc.
-  Put the skill focus in the name, e.g. `"Listening and Speaking: Pronunciation and Vocabulary"`.
+- Use the design's deepest number as the sub-strand `number`. In English and Kiswahili the "strand" is the theme
+  (1.0 The Family / 1.0 Nyumbani) and each sub-strand is numbered like `1.1.1` or `1.4.2`, with the skill in the name,
+  e.g. `"Listening and Speaking: Pronunciation and Vocabulary"` or `"Sarufi: Nomino"`.
+- `lessons` is the suggested number of lessons printed for the sub-strand.
 
 ## lessons/<slug>/<n.n>.json
 

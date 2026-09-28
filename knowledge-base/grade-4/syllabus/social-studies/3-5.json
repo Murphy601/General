@@ -1,0 +1,478 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "slug": "social-studies",
+  "strands": [
+    {
+      "number": "3.0",
+      "name": "Social Organisations",
+      "subStrands": [
+        {
+          "number": "3.1",
+          "name": "Aspects of Traditional Culture in the County",
+          "lessons": 4,
+          "content": [
+            "dressing",
+            "food",
+            "housing",
+            "artefacts",
+            "sports and games",
+            "festivals and ceremonies"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify aspects of traditional culture in the county" },
+            { "id": "b", "text": "illustrate aspects of traditional culture practised in the county" },
+            { "id": "c", "text": "appreciate the importance of traditional culture in the county" }
+          ],
+          "learningExperiences": [
+            "brainstorm aspects of traditional culture in the county",
+            "describe aspects of traditional culture in the county",
+            "discuss the importance of traditional culture in the county",
+            "collect and record aspects of traditional culture practised in the community (pictures, songs, artefacts, dress, food, paintings, tools)",
+            "showcase different aspects of traditional culture practised in the community"
+          ],
+          "keyInquiryQuestions": [
+            "Why is culture important?"
+          ],
+          "coreCompetencies": [
+            "Creativity and imagination: Learners showcase different aspects of traditional culture practised in the community.",
+            "Citizenship: Learners collect and record aspects of traditional culture practised in the community."
+          ],
+          "values": [
+            "Respect: Learners recognise different aspects of traditional culture in their county."
+          ],
+          "pcis": [
+            "Self-Awareness: Learners appreciate individual uniqueness as they describe aspects of traditional culture in their county."
+          ],
+          "links": [
+            "Creative Arts: Learners will apply skills drawn from showcasing different aspects of traditional culture practised in the community in Creative Arts."
+          ]
+        },
+        {
+          "number": "3.2",
+          "name": "The School",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "narrate the history of the school" },
+            { "id": "b", "text": "explain the values of the school" },
+            { "id": "c", "text": "recite the school motto" },
+            { "id": "d", "text": "desire to obey the school rules" }
+          ],
+          "learningExperiences": [
+            "gather information on the history of the school from relevant personnel and share in class",
+            "discuss the history of the school with others in class",
+            "use digital or print resources to find out the school values",
+            "develop a poster on the school values",
+            "develop a poster on the school motto and display it in class",
+            "make a gallery walk and peer assess"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to maintain discipline in school?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: Learners recite the school motto",
+            "Citizenship: Learners gather information on the history of the school from the school administration and share in class"
+          ],
+          "values": [
+            "Integrity: Learners exhibit discipline as they display, make a gallery walk and peer assess."
+          ],
+          "pcis": [
+            "Social cohesion: Learners develop charts to explain the school values"
+          ],
+          "links": [
+            "Creative arts: Learners apply graphic designing in Creative Arts in the designing of school motto and rules"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4.0",
+      "name": "Resources and Economic Activities",
+      "subStrands": [
+        {
+          "number": "4.1",
+          "name": "Economic activities in the County",
+          "lessons": 4,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "Explore the main resources found in the county" },
+            { "id": "b", "text": "identify the main economic activities carried out in the county" },
+            { "id": "c", "text": "explain the importance of economic activities carried out in the county" },
+            { "id": "d", "text": "participate in economic activities in the locality" },
+            { "id": "e", "text": "appreciate the economic activities in the county" }
+          ],
+          "learningExperiences": [
+            "brainstorm on the economic activities in the county",
+            "make posters on the economic activities carried out in the county",
+            "discuss the importance of economic activities in the county",
+            "participate in appropriate economic activities in the locality",
+            "create and recite poems or songs on the economic activities in their county"
+          ],
+          "keyInquiryQuestions": [
+            "How can we conserve the resources found in the county?"
+          ],
+          "coreCompetencies": [
+            "Collaboration: Learners participate in appropriate economic activities in the locality.",
+            "Learning to Learn: Learners shares ideas and make posters on the economic activities carried out in the county"
+          ],
+          "values": [
+            "Patriotism: Learners participate in the economic activities in the locality"
+          ],
+          "pcis": [
+            "Creative and critical thinking: Learners create and recite poems or songs on the economic activities in their county"
+          ],
+          "links": [
+            "Agriculture: learners participate in economic activities",
+            "Pre-technical Studies: Learners identify the importance of economic activities"
+          ]
+        },
+        {
+          "number": "4.2",
+          "name": "Industries in the County",
+          "lessons": 6,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify industries in the county" },
+            { "id": "b", "text": "explain the benefits of industries in the county" },
+            { "id": "c", "text": "locate industries in the county" },
+            { "id": "d", "text": "recognise the role of industries in the county" }
+          ],
+          "learningExperiences": [
+            "share the industries in the county",
+            "discuss the benefits of industries in the county",
+            "locate industries in the county",
+            "visit an industry to learn its benefits in the county",
+            "create a poster of the industry visited and display in class",
+            "Compose poems on the benefits of industries in the county"
+          ],
+          "keyInquiryQuestions": [
+            "How can a county benefit from its industries?"
+          ],
+          "coreCompetencies": [
+            "Creativity: Learners create a poster of the industry visited and display in class"
+          ],
+          "values": [
+            "Patriotism: Learners portray citizenship as they visit an industry to learn about its benefits in the county.",
+            "Integrity: Learners develop honesty as they utilise resources prudently while creating a poster of the industry visited and displaying in class"
+          ],
+          "pcis": [
+            "Safety: Learners exercise caution as they visit an industry to learn its benefits in the county."
+          ],
+          "links": [
+            "Science and Technology: Learners explain benefits of industries in the county"
+          ]
+        },
+        {
+          "number": "4.3",
+          "name": "Enterprise Project at School",
+          "lessons": 7,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify the projects that can be initiated at school" },
+            { "id": "b", "text": "participate in initiating an enterprise project at school" },
+            { "id": "c", "text": "uphold ethics and collective efforts in managing enterprise projects at school" }
+          ],
+          "learningExperiences": [
+            "brainstorm enterprise projects that can be undertaken at school",
+            "plan and undertake a viable enterprise project at school",
+            "design personal protective equipment for safety on the roads using locally available materials",
+            "participate in the initiation and management of the enterprise project in the school",
+            "share responsibilities on the planned enterprise project",
+            "discuss ethical practices to be observed in managing the enterprise project",
+            "showcase the school project"
+          ],
+          "keyInquiryQuestions": [
+            "How are enterprise projects managed in school?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: Learners share responsibilities on the planned enterprise",
+            "Creativity and imagination: Learners identify a viable project enterprise at school"
+          ],
+          "values": [
+            "Responsibility: Learners engage in the assigned roles and duties as they undertake the enterprise project at school and evaluate its success",
+            "Integrity: Learners develop accountability as they participate in the initiation and management of the enterprise project in the school"
+          ],
+          "pcis": [
+            "Creative and critical thinking: Learners undertake the enterprise project at school and showcase the outcomes."
+          ],
+          "links": [
+            "Mathematics: Learners plan and undertake a viable enterprise project at school."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "5.0",
+      "name": "Citizenship and Governance in Kenya",
+      "subStrands": [
+        {
+          "number": "5.1",
+          "name": "Good Citizenship in School",
+          "lessons": 4,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify qualities of a good citizen in school" },
+            { "id": "b", "text": "develop qualities of good citizenship in school" },
+            { "id": "c", "text": "appreciate qualities of good citizenship in school" }
+          ],
+          "learningExperiences": [
+            "brainstorm qualities of a good citizen in school",
+            "use digital or print resources to identify qualities of a good citizen in school",
+            "role-play qualities of a good citizen in a school",
+            "engage a role model in the community and discuss good citizenship",
+            "design a poster with qualities of a good citizen in school",
+            "write an essay on qualities of a good citizen and share in class"
+          ],
+          "keyInquiryQuestions": [
+            "How can we demonstrate good citizenship in school?"
+          ],
+          "coreCompetencies": [
+            "Citizenship: Learners role-play qualities of a good citizen in school"
+          ],
+          "values": [
+            "Unity: Learners design a poster with qualities of a good citizen in school"
+          ],
+          "pcis": [
+            "Social cohesion: Learners develop harmonious coexistence as they discuss how to become a good citizen in school"
+          ],
+          "links": [
+            "English: Learners apply writing skills as they write an essay on a good digital citizen (using technology in a positive way) and share the essays in class."
+          ]
+        },
+        {
+          "number": "5.2",
+          "name": "Peace",
+          "lessons": 4,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify factors that promote peace in school" },
+            { "id": "b", "text": "develop strategies of living in peace with others in school" },
+            { "id": "c", "text": "desire to uphold peace in school" }
+          ],
+          "learningExperiences": [
+            "discuss factors that promote peace in school",
+            "create messages on strategies of living in peace with others in school",
+            "use digital or print resources to find out examples of peace activities undertaken in schools (peace gardens/nature trails, peace corners, peace competition essays)",
+            "design posters with peace- building messages",
+            "participate in peacebuilding activities",
+            "find out from parents and guardians how they can uphold peace"
+          ],
+          "keyInquiryQuestions": [
+            "How can we live in peace with others in school?",
+            "Why is it important to plan for a peacebuilding activity in school?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking: Learners create messages on strategies of living in peace with others in school.",
+            "Problem solving: Learners participate in peace building activities in school."
+          ],
+          "values": [
+            "Patriotism: Learners design posters with peacebuilding messages",
+            "Peace: Learners show respect as they participate in peacebuilding activities"
+          ],
+          "pcis": [
+            "Coping with emotions: Learners identify factors that promote peace in school"
+          ],
+          "links": [
+            "Religious Education: Learners apply religious concept of peace as they discuss ways of promoting peace in school"
+          ]
+        },
+        {
+          "number": "5.3",
+          "name": "Child Rights",
+          "lessons": 4,
+          "content": [
+            "Early and forced marriages",
+            "Female genital mutilation",
+            "Slavery",
+            "Child trafficking",
+            "Child/forced labour",
+            "Sexual abuse",
+            "Abuse of children with special needs",
+            "Unauthorised school transport"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "outline forms of child abuse in the community" },
+            { "id": "b", "text": "explain the causes of child abuse in the community" },
+            { "id": "c", "text": "explain effects of child abuse in the community" },
+            { "id": "d", "text": "desire to promote child rights and responsibilities in the school" }
+          ],
+          "learningExperiences": [
+            "brainstorm forms of child abuse in the community",
+            "use digital or print resources to find out the causes of child abuse in the community",
+            "discuss effects of child abuse in the community",
+            "design posters on the effects of child abuse in the community",
+            "sing songs and recite poems on the protection of self and others from child abuse in the community",
+            "create awareness on use of authorised school transport practices to peers",
+            "participate in activities that promote child rights in the school"
+          ],
+          "keyInquiryQuestions": [
+            "How can harmful cultural practices violate child rights in the community?",
+            "How can we protect ourselves from child abuse?"
+          ],
+          "coreCompetencies": [
+            "Self-Efficacy: Learners participate in activities that promote child rights in the school"
+          ],
+          "values": [
+            "Responsibility: Learners design posters on the effects of child abuse in the community"
+          ],
+          "pcis": [
+            "Gender Issues: Learners identify the causes of child abuse in the community."
+          ],
+          "links": [
+            "Religious Education: Learners participate in activities that promote child rights in the school."
+          ]
+        },
+        {
+          "number": "5.4",
+          "name": "Democracy in school",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify democratic processes in the school" },
+            { "id": "b", "text": "explain the benefits of democracy in school" },
+            { "id": "c", "text": "practise democratic elements in school" },
+            { "id": "d", "text": "appreciate democratic practices in school" }
+          ],
+          "learningExperiences": [
+            "brainstorm democratic processes in school",
+            "prepare a chart showing the democratic processes in the school",
+            "discuss benefits of democracy in school",
+            "prepare posters with benefits of democracy in school",
+            "carry out a mock election of leaders in class",
+            "engage a resource person to learn the elements of democratic practices in school"
+          ],
+          "keyInquiryQuestions": [
+            "How can we practise democracy in school?",
+            "Why is democracy important in a school?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: Learners prepare a chart showing the democratic processes in the school"
+          ],
+          "values": [
+            "Unity: Learners develop inclusivity and respect others’ opinions as they discuss benefits of democracy in school."
+          ],
+          "pcis": [
+            "Social cohesion: Learners develop harmonious coexistence as they carry out a mock election of leaders in class"
+          ],
+          "links": [
+            "Creative Arts: Learners prepare posters with the benefits of democracy in school"
+          ]
+        },
+        {
+          "number": "5.5",
+          "name": "Children’s Government in school",
+          "lessons": 4,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "explain the composition of Children’s Government in school" },
+            { "id": "b", "text": "describe the functions of the Children’s Government in school" },
+            { "id": "c", "text": "participate in Children’s Government in school" },
+            { "id": "d", "text": "respect Children’s Government in school" }
+          ],
+          "learningExperiences": [
+            "brainstorm the composition of Children’s Government in school",
+            "write the structure of the Children’s Government",
+            "share experiences in groups on functions of Children’s Government in school",
+            "role-play the functions of Children’s Government",
+            "write a composition on ways of participating in Children’s Government in school",
+            "simulate the Children’s Government in session in school",
+            "share on how to respect Children’s Government"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to have a Children's Government in school?",
+            "How can we support Children’s Government in school?"
+          ],
+          "coreCompetencies": [
+            "Citizenship: citizenship is developed as learners simulate the Children’s Government in session in school",
+            "Collaboration: Learners share experiences on functions of Children’s Government in school."
+          ],
+          "values": [
+            "Integrity: Learners simulate the Children’s Government in session in school",
+            "Social Justice: Learners accord privileges without favour as they role-play the functions of Children’s Government"
+          ],
+          "pcis": [
+            "Governance: Learners describe the functions of Children’s Government in school"
+          ],
+          "links": [
+            "Learners apply writing skills as they write a composition on ways of supporting Children’s Government in school."
+          ]
+        },
+        {
+          "number": "5.6",
+          "name": "Community Leadership",
+          "lessons": 5,
+          "content": [
+            "Religious leaders",
+            "Clan leaders",
+            "village leaders"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify leaders in the community" },
+            { "id": "b", "text": "explain the duties of leaders in the community" },
+            { "id": "c", "text": "demonstrate qualities of good leadership in the community" },
+            { "id": "d", "text": "appreciate good leadership in the community" }
+          ],
+          "learningExperiences": [
+            "name leaders in the community",
+            "discuss duties of community leaders and make class presentation",
+            "engage a resource person to discuss the qualities of a good community leader and report",
+            "role-play qualities of good leadership in the community",
+            "design and display a poster with qualities of good leadership in the community",
+            "Compose songs on good leadership in the community"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important for leaders to have good qualities?"
+          ],
+          "coreCompetencies": [
+            "Creativity: Learners design and display a poster with qualities of good leadership in the community",
+            "Learning to learn: Learners engage a resource person to discuss the qualities of a good community leader and report."
+          ],
+          "values": [
+            "Integrity: Learners role-play qualities of good leadership in the community."
+          ],
+          "pcis": [
+            "Leadership: Learners engage a resource person to discuss the qualities of a good community leader and report."
+          ],
+          "links": [
+            "Creative Arts as they design and display a poster with qualities of good leadership in the community"
+          ]
+        },
+        {
+          "number": "5.7",
+          "name": "The County Governments in Kenya",
+          "lessons": 6,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify the structure of county government" },
+            { "id": "b", "text": "explain the duties of County Governor in Kenya" },
+            { "id": "c", "text": "explain the roles of a member of county assembly" },
+            { "id": "d", "text": "appreciate the County Government in Kenya" }
+          ],
+          "learningExperiences": [
+            "brainstorm the leaders of county government in Kenya",
+            "outline the structure of the county government",
+            "draw the structure of the county assembly in Kenya",
+            "discuss the duties of the governor and a member of the county assembly",
+            "watch video clips or visit county government offices to learn administrative structure"
+          ],
+          "keyInquiryQuestions": [
+            "Why is a county government important in Kenya?",
+            "What are the duties of ward and village administrators?"
+          ],
+          "coreCompetencies": [
+            "Learning to Learn: Learners engage a resource person to discuss duties of the governor and the roles of a member of county assembly"
+          ],
+          "values": [
+            "Respect: Learners understand and appreciate leaders as they discuss in groups the roles of members of the county assembly (MCAs)"
+          ],
+          "pcis": [
+            "Governance: Learners learn the structure of county government and discuss the duties of the governor and members of the county assembly"
+          ],
+          "links": [
+            "Creative Arts: as learners draw the structure of the county government"
+          ]
+        }
+      ]
+    }
+  ]
+}

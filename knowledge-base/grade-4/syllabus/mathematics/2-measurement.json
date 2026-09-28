@@ -1,0 +1,305 @@
+{
+  "subject": "MATHEMATICS",
+  "slug": "mathematics",
+  "strands": [
+    {
+      "number": "2.0",
+      "name": "Measurement",
+      "subStrands": [
+        {
+          "number": "2.1",
+          "name": "Length",
+          "lessons": 10,
+          "content": [
+            "Centimetres as unit of length",
+            "Measure length in cm",
+            "Converting length",
+            "Perimeter of plane figures",
+            "Operations in length"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify the centimetre as a unit of measuring length in real-life situations" },
+            { "id": "b", "text": "measure length in centimetres in real life- situations" },
+            { "id": "c", "text": "establish the relationship between metres and centimetres practically" },
+            { "id": "d", "text": "convert metres to centimetres and centimetres to metres in real-life situations" },
+            { "id": "e", "text": "work out perimeter of plane figures in different contexts" },
+            { "id": "f", "text": "work out addition involving length in metres and centimetres in real-life situations" },
+            { "id": "g", "text": "work out subtraction involving length in metres and centimetres in real-life situations" },
+            { "id": "h", "text": "carry out multiplication involving metres and centimetres in real life- situations" },
+            { "id": "i", "text": "carry out division involving metres and centimetres in real-life situations" },
+            { "id": "j", "text": "appreciate use of metres and centimetres in measuring distance in real life" }
+          ],
+          "learningExperiences": [
+            "team up with peers to identify the centimetre and mark out lengths of one centimetre using a ruler",
+            "work with peers to measure the length of a given object in centimetres using a metre ruler or a tape measure",
+            "jointly work with peers to estimate the length of a given object in centimetres",
+            "measure the actual length of the estimated length in centimetres",
+            "share tasks while measuring the length of objects in classrooms in metres and centimetres and establish the relationship between the units",
+            "work with peers to use the relationship between centimetres and metres",
+            "convert metres into centimetres and centimetres into metres using whole numbers, decimals or fractions",
+            "team up with peers to calculate the perimeter of plane figures",
+            "perform addition and subtraction involving metres and centimetres",
+            "work out multiplication involving metres and centimetres",
+            "team up with peers to work out division involving metres and centimetres",
+            "share tasks with peers while playing digital games involving length"
+          ],
+          "keyInquiryQuestions": [
+            "How can you measure distance?",
+            "Why should we measure distance in real life?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: learner measures length of objects in classrooms in metres and centimetres and establishes the relationship between the units.",
+            "Critical thinking and problem solving: learner demonstrates autonomy in measuring the length of a given object in centimetres using a metre ruler or a tape measure."
+          ],
+          "values": [
+            "Responsibility: learner takes care of a metre ruler and a tape measure while measuring lengths of objects."
+          ],
+          "pcis": [
+            "Self-awareness: learner estimates and measures the length of a given object in centimetres using a metre ruler or a tape measure."
+          ],
+          "links": [
+            "The learner is able to relate the measurement of the length of objects to preparing planting sites and planting in Agriculture."
+          ]
+        },
+        {
+          "number": "2.2",
+          "name": "Area",
+          "lessons": 8,
+          "content": [
+            "Area of squares and triangles"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "compare the area of given surfaces by direct manipulation" },
+            { "id": "b", "text": "calculate the area of squares and rectangles by counting unit squares" },
+            { "id": "c", "text": "calculate the area of squares and rectangles as a product of number of rows and columns" },
+            { "id": "d", "text": "appreciate the use of rows and columns in calculating the area of squares and rectangles in real-life situations" }
+          ],
+          "learningExperiences": [
+            "collaboratively compare the area of two surfaces directly by placing one surface on the other",
+            "team up with peers while using different unit square cut- outs to cover a given surface",
+            "share tasks with peers while counting the number of unit square cut-outs prepared from locally available materials to cover the surface",
+            "jointly work with peers to establish that the area of a rectangle or a square is the same as the number of rows multiplied by the number of columns",
+            "work out the area of squares and rectangles by multiplying the number of rows by the number of columns, such as on tiled or paved floors",
+            "team up with peers to play games involving areas of rectangles and squares using digital devices and other resources"
+          ],
+          "keyInquiryQuestions": [
+            "How can you work out area of different surfaces?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking and problem solving: learner works independently to calculate the area of squares and rectangles by multiplying number of rows by the number of columns.",
+            "Digital literacy: learner teams up with others to play games involving the areas of rectangles and squares using digital resources."
+          ],
+          "values": [
+            "Unity: learner works with peers harmoniously to establish that the area of a rectangle or a square is the same as the number of rows multiplied by the number of columns.",
+            "Integrity: learner gives honest answers while counting the number of unit square cut-outs used to cover the surface."
+          ],
+          "pcis": [
+            "Environmental Education: learner counts the number of unit square cut-outs prepared from locally available materials to cover the surface."
+          ],
+          "links": [
+            "The learner is able to relate counting of the number of unit square cut-outs prepared from locally available resources to properties of matter in Science and Technology."
+          ]
+        },
+        {
+          "number": "2.3",
+          "name": "Volume",
+          "lessons": 8,
+          "content": [
+            "Volume of cubes and cuboids"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "pile objects into stacks of cubes and cuboids in real-life situations" },
+            { "id": "b", "text": "work out volume of cuboids by piling blocks to form a cuboid" },
+            { "id": "c", "text": "calculate the volume of cubes by piling blocks to form a cube" },
+            { "id": "d", "text": "appreciate use of piling method in working out volume in real life" }
+          ],
+          "learningExperiences": [
+            "discuss and carefully arrange blocks or objects on top of each other into cuboid and cube shapes",
+            "practise stacking objects or blocks to form cubes and cuboids of different sizes",
+            "share tasks while counting the number of objects in the pile that makes a cuboid to determine the volume",
+            "team up with peers to count the number of objects in the pile that makes a cube to determine the volume",
+            "use digital devices or other resources to safely play games involving stacking blocks to form cubes and cuboids"
+          ],
+          "keyInquiryQuestions": [
+            "Where can we apply the volume of cubes and cuboids in real- life situations?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: learner practises stacking objects or blocks to form cubes and cuboids of different sizes.",
+            "Critical thinking and problem solving: learner explores new ways of counting the number of objects in the pile that makes a cube to determine the volume."
+          ],
+          "values": [
+            "Self-awareness: learner discusses and carefully arranges blocks or objects on top of each other into cuboid and cube shape."
+          ],
+          "pcis": [
+            "Safety: learner observes safety precautions while stacking blocks to form cubes and cuboids."
+          ],
+          "links": [
+            "The learner is able to relate arranging blocks or objects on top of each other into cuboid and cube shapes to the construction of food preservation equipment in Agriculture."
+          ]
+        },
+        {
+          "number": "2.4",
+          "name": "Capacity",
+          "lessons": 8,
+          "content": [
+            "Capacity in litres",
+            "Addition and subtraction of capacity"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "measure capacity in litres in real-life situations" },
+            { "id": "b", "text": "measure capacity in litres and litres in real- life situations" },
+            { "id": "c", "text": "work out addition and subtraction of capacity in litres in real-life situations" },
+            { "id": "d", "text": "appreciate use of the litre as a unit of measuring capacity in real-life situations" }
+          ],
+          "learningExperiences": [
+            "measure capacity of containers using a one-litre container",
+            "work with peers in making litre containers from locally available materials through filling and emptying the container with substances such as water or sand using a 1 litre container",
+            "make litre containers through filling and emptying using a 1 litre container",
+            "team up with peers to use litre and litre containers to measure capacity of other containers",
+            "add capacity involving litres",
+            "subtract capacity involving litres",
+            "play games involving capacity using containers of different capacities or use digital devices for digital games"
+          ],
+          "keyInquiryQuestions": [
+            "How can you measure capacity using arbitrary units?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: learner makes 1⁄2 litre containers from locally available materials through filling and emptying the container with substances such as water or sand using a one-litre container.",
+            "Self-efficacy: learner shows confidence in measuring capacity of 1⁄2 litre and 1⁄4 litre."
+          ],
+          "values": [
+            "Responsibility: learner makes 1⁄4 litre containers from locally available materials through filling and emptying the container with substances such as water or sand using a one-litre container."
+          ],
+          "pcis": [
+            "Safety: learner observes precautionary measures while determining 1⁄2 litre and 1⁄4 litre containers.",
+            "Environmental Education: learner uses 1⁄2 litre containers made from locally available materials."
+          ],
+          "links": [
+            "The learner is able to relate practical activities involving measurement of liquids to properties of matter in Science and Technology."
+          ]
+        },
+        {
+          "number": "2.5",
+          "name": "Mass",
+          "lessons": 8,
+          "content": [
+            "Mas in kilogrammes",
+            "Addition and subtraction of mass"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "use a kilogramme mass to measure masses of different objects practically" },
+            { "id": "b", "text": "use 1⁄2 kg and 1⁄4 kg masses to measure masses of different objects practically" },
+            { "id": "c", "text": "add mass involving kilogrammes in real- life situations" },
+            { "id": "d", "text": "subtract mass involving kilogrammes in real- life situations" },
+            { "id": "e", "text": "appreciate kilogramme as a unit of measuring mass" }
+          ],
+          "learningExperiences": [
+            "use one kilogramme (kg) masses to measure masses of given objects using a beam balance",
+            "work with peers in making a 1⁄2 kg mass and use it to measure mass of given objects using a beam balance",
+            "share tasks while making a 1⁄4 kg mass and use it to measure mass of given objects using a beam balance and an electronic balance",
+            "add mass involving kilogrammes in real-life situations",
+            "carry out subtraction of mass involving kilogrammes",
+            "play digital games involving mass"
+          ],
+          "keyInquiryQuestions": [
+            "How can we measure mass in kilogrammes?"
+          ],
+          "coreCompetencies": [
+            "Digital literacy: learner makes a 1⁄4 kg mass and uses it to measure mass of given objects using a beam balance and an electronic balance. Learner plays digital games involving mass."
+          ],
+          "values": [
+            "Integrity: learner displays humility in teams while making a 1⁄2 kg mass and accurately uses it to measure the mass of given objects using a beam balance."
+          ],
+          "pcis": [
+            "Social Justice: learner shares resources equitably as they use beam balance."
+          ],
+          "links": [
+            "The learner is able to relate the measurement of the mass of given objects using a beam balance to properties of matter in Science and Technology."
+          ]
+        },
+        {
+          "number": "2.6",
+          "name": "Time",
+          "lessons": 10,
+          "content": [
+            "Reading time",
+            "Conversions in time",
+            "Recording time"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "read and tell time in a.m. and p.m. in real-life situations" },
+            { "id": "b", "text": "estimate time using a.m. and p.m. in real-life situations" },
+            { "id": "c", "text": "convert units of time in real-life situations" },
+            { "id": "d", "text": "record time durations in hours and minutes in real- life situations" },
+            { "id": "e", "text": "work out time duration in real-life situations" },
+            { "id": "f", "text": "appreciate time in day-to- day activities" }
+          ],
+          "learningExperiences": [
+            "work with peers in reading and telling time in a.m. and p.m. using digital and analogue clocks",
+            "estimate time of the day using the shadow of a building or a tree that is in a convenient location",
+            "change hours to minutes and minutes to hours",
+            "change hours to days and days to hours",
+            "convert days to weeks and weeks to days",
+            "measure and record duration of events in hours and minutes using digital and analogue clocks",
+            "work out addition involving units of time",
+            "team up with peers to work out subtraction involving units of time, discuss, tell and record time using electronic clock"
+          ],
+          "keyInquiryQuestions": [
+            "How can we estimate time?"
+          ],
+          "coreCompetencies": [
+            "Imagination and creativity: learner explores new ways of estimating time using shadows of objects within the environment.",
+            "Digital literacy: learner discusses with others and records time using digital devices."
+          ],
+          "values": [
+            "Integrity: learner consistently measures and records accurately the duration of events in hours and minutes using digital or analogue clocks."
+          ],
+          "pcis": [
+            "Safety and security: learner adheres to simple safety rules when telling and recording time using electronic clock."
+          ],
+          "links": [
+            "The learner is able to relate estimation of time of the day to weather and climate in Social Studies."
+          ]
+        },
+        {
+          "number": "2.7",
+          "name": "Money",
+          "lessons": 8,
+          "content": [
+            "Conversions in money",
+            "Shopping list"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "convert shillings into cents and cents into shillings in different contexts" },
+            { "id": "b", "text": "prepare a shopping list of three items in real- life situation" },
+            { "id": "c", "text": "work out total cost of items in the shopping list for value not more ten thousand shillings" },
+            { "id": "d", "text": "appreciate the use of money in real-life situation" }
+          ],
+          "learningExperiences": [
+            "discuss and convert shillings into cents and cents into shillings using real/ imitation money",
+            "team up with peers to come up with a shopping list of some food items",
+            "calculate the total cost of items in the shopping list",
+            "work with peers to come up with a class or school model shop and role-play shopping activities as buyers and shopkeepers",
+            "take video clips of their peers as they role-play shopping activities"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we prepare shopping list?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: learner discusses with others and converts shillings into cents and cents into shillings using actual currency.",
+            "Self-efficacy: learner exhibits responsibility while calculating the total cost of items in the shopping list."
+          ],
+          "values": [
+            "Integrity: Learner shows accountability while calculating the total cost of items in the shopping list."
+          ],
+          "pcis": [
+            "Financial Literacy: learner exhibits financial knowledge and skills while calculating the total cost of items in the shopping list."
+          ],
+          "links": [
+            "The learner is able to relate shopping list for food items to the concept of resources and economic activities in Social Studies."
+          ]
+        }
+      ]
+    }
+  ]
+}

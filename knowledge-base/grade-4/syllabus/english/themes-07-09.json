@@ -1,0 +1,478 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "slug": "english",
+  "strands": [
+    {
+      "number": "7.0",
+      "name": "Technology - Cyber Safety",
+      "subStrands": [
+        {
+          "number": "7.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Interactive", "Listening", "Turn taking", "Vocabulary building"],
+          "outcomes": [
+            { "id": "a", "text": "participate actively in a two-way conversation (turn-taking) in various settings for self- expression" },
+            { "id": "b", "text": "apply vocabulary related to the theme in different settings for clarity of speech" },
+            { "id": "c", "text": "use the present and past tense correctly in a two- way dialogue for communication" },
+            { "id": "d", "text": "realise the importance of turn taking in oral communication" }
+          ],
+          "learningExperiences": [
+            "listen for the sounds /ɛə/ /j/ /ʤ//ʒ/ from an audio text and then say them aloud",
+            "act out a dialogue featuring vocabulary with the sounds /ɛə/ /j/ /ʤ//ʒ/ collaboratively",
+            "apply facial expressions and gestures appropriately while reciting choral verses with peers",
+            "record one another when performing a choral verse or short dialogues",
+            "watch audio-visual recordings of short interviews and then conduct a role play with others",
+            "take turns during an oral interview, discussion or debate",
+            "participate in a debate, interview or discussion on social media"
+          ],
+          "keyInquiryQuestions": [
+            "Why should you listen to others when they are speaking?",
+            "Why should we wait for our turn to speak?",
+            "How do we show when an action took place?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: These are enhanced as the learner is able to participate effectively in a two-way conversation with peers.",
+            "Digital Literacy: This is developed as the learner uses social media to share views on debates and watch interviews."
+          ],
+          "values": [
+            "Unity: This is enhanced as the learner is able to collaborate with peers to perform task such as debates, interviews and role playing a dialogue.",
+            "Respect: This is promoted as the learner is able to accommodate the views of others during debates or interviews."
+          ],
+          "pcis": [
+            "Cyber Safety: It is promoted as the learner uses the internet responsibly and with integrity to watch an interview."
+          ],
+          "links": [
+            "The learner is able to relate the theme of technology to their learning in Science and Technology."
+          ]
+        },
+        {
+          "number": "7.2.1",
+          "name": "Reading: Extensive Reading (Independent Reading)",
+          "lessons": 3,
+          "content": ["Narratives/Poems"],
+          "outcomes": [
+            { "id": "a", "text": "read a variety of materials (narratives, poems, graded readers) for lifelong learning" },
+            { "id": "b", "text": "demonstrate independent reading of a variety of materials (narratives, poems, graded readers) for information" },
+            { "id": "c", "text": "realise the importance of independent reading in a variety of contexts for enjoyment" }
+          ],
+          "learningExperiences": [
+            "select appropriate and high- interest reading print and electronic materials related to the theme such as narratives, poems and graded readers",
+            "set up an after school club where they meet on a regular basis to read extensively",
+            "retell the stories they have read in pairs or groups",
+            "share opinions and reflections on the texts they have read",
+            "identify and discuss proverbs used in graded readers"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we read different types of materials?",
+            "What kind of materials do you enjoy reading?",
+            "What can you do to remember what you read?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is developed as the learner exchanges ideas during school reading clubs.",
+            "Learning to Learn: This is enhanced as the learner sources for information on their own."
+          ],
+          "values": [
+            "Respect: It is developed as the learner appreciates opinions of others when sharing reflections on the text",
+            "Integrity: It is portrayed as the learner displays honesty when selecting appropriate reading material."
+          ],
+          "pcis": [
+            "Safety and Security education: It is inculcated through the theme of cyber safety",
+            "Self-awareness: This is developed when learners acquire ability to describe themselves through interactive language tasks"
+          ],
+          "links": [
+            "The learner is able to relate the theme of cyber safety to their learning in Science and Technology."
+          ]
+        },
+        {
+          "number": "7.3.1",
+          "name": "Grammar in Use: Word Classes (Verb Aspect)",
+          "lessons": 3,
+          "content": ["Present Progressive Aspect", "Past Progressive Aspect"],
+          "outcomes": [
+            { "id": "a", "text": "identify the present and past progressive forms of the verb in oral and written texts for communication" },
+            { "id": "b", "text": "use the present and past progressive aspect correctly in oral and written contexts for self- expression" },
+            { "id": "c", "text": "adopt the use of the present and past progressive aspect in communication" }
+          ],
+          "learningExperiences": [
+            "listen to a radio or TV programme and identify the present and past progressive forms",
+            "give examples of actions in the present and past progressive aspect",
+            "use a given list of verbs to form sentences in the present and past progressive aspect collaboratively",
+            "watch a video and write examples of the present and past progressive aspect in a notebook",
+            "role-play or simulate an event in which they use the present and past progressive forms forms",
+            "complete a sentences using words in their present and past progressive aspect correctly"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to show when something happened?",
+            "How do we tell an action is or was happening?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: This is promoted as the learner confidently uses present and past continuous forms in sentences correctly.",
+            "Learning to Learn: It is developed as the learner identifies present and past continuous forms from newspaper and magazine articles."
+          ],
+          "values": [
+            "Responsibility is cultivated as the learner takes up roles during role play and simulation activities with peers.",
+            "Integrity: It is enhanced as the learner observes honesty when searching for information in newspaper or magazines articles."
+          ],
+          "pcis": [
+            "Digital Literacy: It is enhanced as the learner uses and manipulates digital devices to watch a video or listen to programmes featuring aspect."
+          ],
+          "links": [
+            "The learner can connect the concept of past and present progressive aspect to their learning in Kiswahili."
+          ]
+        },
+        {
+          "number": "7.4.1",
+          "name": "Writing: Mechanics of Writing (Punctuation)",
+          "lessons": 3,
+          "content": ["Full stop", "Capital letters"],
+          "outcomes": [
+            { "id": "a", "text": "identify commonly used punctuation marks in written texts for effective communication" },
+            { "id": "b", "text": "use full stops and capital letters correctly in written texts for communication clarity" },
+            { "id": "c", "text": "promote the use of punctuation marks in various contexts for writing fluency" }
+          ],
+          "learningExperiences": [
+            "identify proper nouns such as names of people, places and features like mountains and rivers",
+            "form sentences with peers using proper nouns",
+            "write abbreviations of their school, names among others with peers and punctuate them correctly",
+            "use punctuation cards to arrange or make coherent sentences and paragraphs collaboratively",
+            "write well-punctuated sentences dictated by a teacher, peer or digital device",
+            "make stickers with sentences punctuated with full stops and capital letters and stick them to a central place for everyone to see",
+            "use digital resources to play games such as punctuation ladder and punctuation posters",
+            "type sentences on a digital device, with the help of parents, siblings and guardians and share with teacher and friends"
+          ],
+          "keyInquiryQuestions": [
+            "Why do you use punctuation marks?",
+            "Which punctuation marks do you use when writing?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced as learners work together in groups forming sentences using proper nouns.",
+            "Digital Literacy: This is developed as the learner uses digital devices to type sentences and text."
+          ],
+          "values": [
+            "Unity: It is developed as the learner work together and make coherent sentences.",
+            "Responsibility: It is promoted as the learner makes a list of abbreviations and punctuates them."
+          ],
+          "pcis": [
+            "Social Cohesion: This is enhanced as the learner work in group activities and make stickers with punctuated sentences."
+          ],
+          "links": [
+            "The learner is able to relate the concept of punctuation with their learning in Kiswahili."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "8.0",
+      "name": "The Farm",
+      "subStrands": [
+        {
+          "number": "8.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 3,
+          "content": ["Sounds", "Tongue Twisters"],
+          "outcomes": [
+            { "id": "a", "text": "articulate sounds accurately for clarity of speech" },
+            { "id": "b", "text": "select sounds correctly from a language sample to improve listening comprehension" },
+            { "id": "c", "text": "use vocabulary items related to the theme in a variety of contexts for effective communication" },
+            { "id": "d", "text": "realise the role of correct pronunciation in speech for communication clarity" }
+          ],
+          "learningExperiences": [
+            "recognise the (sounds /ʊə/ /v/ /w/ /s//ʧ/) from audio materials",
+            "articulate vowels and consonants as the teacher models",
+            "create a tongue twister using words with the target sounds in small groups",
+            "say tongue twisters with the (words containing the sounds /ʊə/ /v/ /w/ /s//ʧ/) individually and collaboratively",
+            "select words containing vowels and diphthongs and consonants from a tongue twister, passage, a poem, a song or a story",
+            "practise clear pronunciation by listening to a video, online dictionaries and recordings",
+            "say vocabulary items correctly and match them with their meanings"
+          ],
+          "keyInquiryQuestions": [
+            "Why should you say words clearly?",
+            "What should you do to say words correctly?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is achieved as the learner says the tongue twisters with peers.",
+            "Self-efficacy: This is realised as the learner develops know-how on proper enunciation of the targeted sounds."
+          ],
+          "values": [
+            "Peace: This is enhanced as the learner shows respect for diversity in enunciation of sounds among peers."
+          ],
+          "pcis": [
+            "Integration: Ethnic, race and social integration is fostered through group work and video conferencing.",
+            "Health Education: Sensitisation on lifestyle and non-communicable diseases is achieved as the learner learns how to eat nutritious and healthy meals and how they are grown through the theme of the farm."
+          ],
+          "links": [
+            "A learner can relate the proper articulation of sounds to pronunciation concepts when learning Kiswahili."
+          ]
+        },
+        {
+          "number": "8.2.1",
+          "name": "Reading: Reading Fluency",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "read a text of about 300 words accurately, at the right speed and with expression for effective communication" },
+            { "id": "b", "text": "use fluency strategies to read a text of about 300 words related to the theme to enhance comprehension" },
+            { "id": "c", "text": "realise the importance of fluency in reading for comprehension" }
+          ],
+          "learningExperiences": [
+            "perform a reader’s theatre by taking turns reading their parts from a script and bring the text alive through their voices (a reader’s theatre does not need any set or costumes and it is excellent for building fluency)",
+            "read digital or non-digital texts of about 300 words related to the theme in small groups",
+            "respond to oral questions that require inferences in pairs and small groups from a text of about 300 words",
+            "write correct answers to direct and indirect questions that require inferences",
+            "listen to audio-visual recordings of songs and poems, and repeat them",
+            "read and sing lyrics of relevant English songs",
+            "read poems and rhymes while paying attention to rhythm"
+          ],
+          "keyInquiryQuestions": [
+            "Why is it important to read at a reasonable speed?",
+            "How can you read a text fast?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: This is enhanced as the learner acquires fluency in reading when they read fast and with appropriate expressions.",
+            "Digital Literacy: It is developed as the learner manipulates the digital device as they read from it or listen to an audio recording."
+          ],
+          "values": [
+            "Responsibility: This is enhanced as the learner reads from a digital text while observing online safety precautions."
+          ],
+          "pcis": [
+            "Assertiveness: This is nurtured as the learner develops fluency in reading and expressing themselves without fear."
+          ],
+          "links": [
+            "The learner applies the knowledge gained in reading fluently to reading which is an aspect in all other learning areas."
+          ]
+        },
+        {
+          "number": "8.3.1",
+          "name": "Grammar in Use: Word Classes (Contracted Verb Forms)",
+          "lessons": 3,
+          "content": ["Contracted Verb Forms", "Positive and Negative Statements"],
+          "outcomes": [
+            { "id": "a", "text": "form appropriate contracted forms of verbs in varied texts" },
+            { "id": "b", "text": "use positive and negative statements in sentences" },
+            { "id": "c", "text": "realise the importance of correct sentence structures in communication" }
+          ],
+          "learningExperiences": [
+            "identify contracted forms from an audio or written text",
+            "categorise sample sentences into negative or positive statements in small groups then display the work on a chart",
+            "write contracted forms of verbs and use them in sentences correctly",
+            "change positive statements to negative statements and vice versa",
+            "ask each other questions that elicit both positive and negative answers",
+            "make and display charts containing contracted forms of verbs",
+            "use digital devices to search for online resources on contracted verbs"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we shorten words like cannot to can’t?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced when the learner asks peers questions that elicit both positive and negative answer.",
+            "Digital Literacy: It is developed when the learner uses digital devices to search for online resources on contracted verbs."
+          ],
+          "values": [
+            "Unity: This is achieved as the learner interact collaboratively while asking each other questions.",
+            "Responsibility: It is nurtured as the learner carries out duties allocated to them such as categorising sentences and displaying them on a chart."
+          ],
+          "pcis": [
+            "Effective Communication: These skills are developed as the learner ably constructs either positive or negative sentences effectively on their daily interactions.",
+            "Environmental Conservation and knowledge on lifestyle diseases: These are fostered through learning about the theme of ‘the farm’."
+          ],
+          "links": [
+            "The learner is able to relate their learning of positive and negative statements to their learning of sentence construction in Kiswahili."
+          ]
+        },
+        {
+          "number": "8.4.1",
+          "name": "Writing: Creative Writing (Narrative Compositions)",
+          "lessons": 3,
+          "content": ["Narrative compositions"],
+          "outcomes": [
+            { "id": "a", "text": "describe the parts of a narrative composition in preparation for writing" },
+            { "id": "b", "text": "organise thoughts fluently, clearly and precisely in a coherent paragraph for self- expression" },
+            { "id": "c", "text": "create a narrative composition of about 60- 80 words for self- expression" },
+            { "id": "d", "text": "promote the role of creativity in writing for different purposes" }
+          ],
+          "learningExperiences": [
+            "re-arrange jumbled up sentences from an oral narrative into a coherent paragraph",
+            "listen to a narrative on radio and rewrite it in their own words",
+            "plan a narrative composition collaboratively",
+            "use similes to make the narrative interesting",
+            "write a narrative composition for self-expression",
+            "watch and dramatise a story from a digital device",
+            "visit a farm and write a narrative composition about their experience"
+          ],
+          "keyInquiryQuestions": [
+            "Why do you enjoy listening to and reading stories?",
+            "How do you make a story interesting?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration. This is enhanced as the learner plans a narrative composition with peers.",
+            "Self-efficacy: This is developed as the learner creates, watches and dramatises a narrative composition."
+          ],
+          "values": [
+            "Responsibility: It is nurtured as the learner observes safety precautions as they visit a farm and write a narrative composition about their experience."
+          ],
+          "pcis": [
+            "Environmental Education: This is enhanced as the learner learns about crops and animals found in the farm as well as their welfare.",
+            "Social Cohesion: This inculcated as the learner interacts with peers while performing activities like visiting the farm with peers."
+          ],
+          "links": [
+            "The learner can relate the concept of writing a narrative composition for self-expression to composition writing in Kiswahili."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "9.0",
+      "name": "HIV and AIDS",
+      "subStrands": [
+        {
+          "number": "9.1.1",
+          "name": "Listening and Speaking: Pronunciation and Vocabulary",
+          "lessons": 2,
+          "content": ["Speaking Fluency"],
+          "outcomes": [
+            { "id": "a", "text": "speak fluently and confidently on a given topic to enhance oral skills" },
+            { "id": "b", "text": "articulate sounds accurately for effective communication" },
+            { "id": "c", "text": "promote the importance of speaking at a reasonable speed and without hesitation in daily life" }
+          ],
+          "learningExperiences": [
+            "listen to oral presentations such as poems and topical issues from audio recordings with words containing the sounds /s/ /z/ /h/ /f/ and digraph ‘gh’ and pick out the words with sounds /s/ /z/ /h/ /f/ in ‘gh’ from the text",
+            "repeat words with target sounds /s/ /z/ /h/ /f/ and digraph ‘gh’ from the teacher or an audio recording accurately",
+            "speak expressively on a familiar text within a specified time",
+            "recite poems related to the theme at an appropriate pace",
+            "fill gaps in sentences using the vocabulary learnt",
+            "repeat oral texts without hesitation and at a reasonable speed",
+            "use nonverbal cues when speaking"
+          ],
+          "keyInquiryQuestions": [
+            "Why should you speak accurately?",
+            "How can you speak without unnecessary pauses?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced when the learner recites poems related to the theme at an appropriate pace.",
+            "Self-efficacy: It is developed as the learner develops confidence in speaking when they repeat oral texts without hesitation and at a reasonable speed."
+          ],
+          "values": [
+            "Peace: It is enhanced as the learner respects self and others when they repeat words with target sounds inaccurately."
+          ],
+          "pcis": [
+            "HIV and AIDs Education: This is promoted through the learner’s engagement in oral language tasks like listening comprehension, poems and songs related to HIV and AIDs.",
+            "Clubs and societies: Engaging in activities of clubs and societies is encouraged as the learner makes speeches featuring moral values."
+          ],
+          "links": [
+            "The learner can apply the skill of speaking fluency when making presentation in all learning areas including Religious Education."
+          ]
+        },
+        {
+          "number": "9.2.1",
+          "name": "Reading: Intensive Reading (Narratives)",
+          "lessons": 3,
+          "content": ["Narratives"],
+          "outcomes": [
+            { "id": "a", "text": "read a short narrative of about 320 words for comprehension" },
+            { "id": "b", "text": "apply appropriate reading strategies to read a narrative of about 320 words for information" },
+            { "id": "c", "text": "appreciate reading for purposes of comprehension and information" }
+          ],
+          "learningExperiences": [
+            "read a passage in print or non-print format and answer questions",
+            "discuss vocabulary from the passage and use them to construct simple sentences",
+            "answer factual and inferential questions from a passage collaboratively",
+            "give the sequence of events in a given story or passage",
+            "read a digital text online or offline and collaborate in answering questions with peers"
+          ],
+          "keyInquiryQuestions": [
+            "Why do we read narratives?",
+            "What makes you enjoy reading a narrative?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is enhanced as the learner answers factual and inferential questions in groups.",
+            "Self-efficacy: This is achieved when the learner answers inferential and factual questions correctly."
+          ],
+          "values": [
+            "Love: It is nurtured when the learner respects others as they read texts online or offline and answer questions."
+          ],
+          "pcis": [
+            "Clubs and Societies: Reading clubs, writing clubs, journalism clubs among others build the learner’s self-esteem to become more confident readers as they manoeuvre to give the sequence of events in a story."
+          ],
+          "links": [
+            "The learner can link the content obtained from the theme of HIV and AIDS to concepts taught in Agriculture and,Science and Technology."
+          ]
+        },
+        {
+          "number": "9.3.1",
+          "name": "Grammar in Use: Word Classes (Adverbs)",
+          "lessons": 3,
+          "content": ["Adverbs of time", "Adverbs of place", "Adverbs of manner"],
+          "outcomes": [
+            { "id": "a", "text": "distinguish adverbs of manner, time and place for effective communication" },
+            { "id": "b", "text": "use adverbs of manner, time and place correctly in both oral and written sentences" },
+            { "id": "c", "text": "realise the importance of adverbs in oral and written communication" }
+          ],
+          "learningExperiences": [
+            "play games that involve grouping adverbs of manner, time and place",
+            "recite poems containing adverbs of manner, time and place",
+            "construct sentences using adverbs",
+            "listen to a story or poem read by the teacher or from audio recordings and respond to questions",
+            "create word lists of adverbs and use them to construct sentences on a word processor or a web page"
+          ],
+          "keyInquiryQuestions": [
+            "Where do you live?",
+            "How do you do your work?",
+            "When do we come to school?"
+          ],
+          "coreCompetencies": [
+            "Communication and Collaboration: This is manifested when the learner play games involving categorising different types of adverbs collaboratively.",
+            "Self-efficacy: This is gained when learner constructs sentences using adverbs for daily communication."
+          ],
+          "values": [
+            "Integrity: This is nurtured when the learner displays honesty as they create a list of adverbs and construct sentences individually."
+          ],
+          "pcis": [
+            "HIV and AIDS Education, Communicable and Non-communicable Diseases: These issues are enhanced as the learner interacts with the theme in various activities and makes sentences with adverbs that are derived from the theme of HIV and AIDS."
+          ],
+          "links": [
+            "The learner applies the knowledge gained from studying adverbs to their learning of word classes in Kiswahili."
+          ]
+        },
+        {
+          "number": "9.4.1",
+          "name": "Writing: Punctuation (Comma and Question Mark)",
+          "lessons": 3,
+          "content": ["Comma", "Question Mark"],
+          "outcomes": [
+            { "id": "a", "text": "identify commonly used punctuation marks in written texts for effective communication" },
+            { "id": "b", "text": "use commas and question marks correctly in written texts for clarity of writing" },
+            { "id": "c", "text": "adopt the use of punctuation marks for clarity in writing" }
+          ],
+          "learningExperiences": [
+            "use commas and question marks correctly to write well punctuated sentences",
+            "draw the comma and question marks on cards and display them in the classroom",
+            "use punctuation cards to arrange or make coherent sentences and paragraphs featuring the comma and question marks in pairs",
+            "make stickers with correctly punctuated sentences and display them at a central place for everyone to see",
+            "type sentences on a word processor, tablet or mobile phone and send the work to the teacher or friends",
+            "play games such as punctuation ladder and punctuation posters"
+          ],
+          "keyInquiryQuestions": [
+            "Why should we punctuate written work?",
+            "How do we use these punctuation marks: comma and full stop?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: This is developed as the learner plays punctuation games and punctuates sentences.",
+            "Digital Literacy: It is enhanced as the learner uses digital devices to type sentences and text, as well as access and play online and offline games."
+          ],
+          "values": [
+            "Responsibility: This is encouraged as the learner engages in assigned roles of typing sentences, making stickers and drawing commas and question marks to display in the classroom.",
+            "Love: It is nurtured as the learner displays trustworthiness by portraying a caring attitude when appreciating peers’ work displayed in the classroom."
+          ],
+          "pcis": [
+            "Personal Safety and Security Education: These aspects are learnt as the learner is taught HIV prevention and the need for balanced meals for those suffering from AIDs.",
+            "Assertiveness: This is enhanced as the learner understands mechanics of proper punctuation in writing which boosts their self-esteem for self-expression."
+          ],
+          "links": [
+            "The learner applies the skill of proper punctuation and in particular the use of the comma and question mark to all other learning areas as they write essays and other written assignments."
+          ]
+        }
+      ]
+    }
+  ]
+}

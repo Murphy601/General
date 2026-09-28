@@ -1,0 +1,428 @@
+{
+  "subject": "ISLAMIC RELIGIOUS EDUCATION",
+  "slug": "ire",
+  "strands": [
+    {
+      "number": "5.0",
+      "name": "Akhlaq (Moral Teachings)",
+      "subStrands": [
+        {
+          "number": "5.1.1",
+          "name": "Virtues: Kindness to Allah’s Creatures",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "assess the significance of showing kindness to Allah’s creatures in the environment" },
+            { "id": "b", "text": "demonstrate ways of showing kindness to Allah’s creatures as an act of ibadah" },
+            { "id": "c", "text": "appreciate Allah’s creatures by being kind to them" }
+          ],
+          "learningExperiences": [
+            "mention creatures of Allah (S.W.T.) in their environment",
+            "identify domestic animals used for transportation",
+            "discuss how the domestic animals can be used safely as a means of transport",
+            "discuss the significance of being kind to Allah’s creatures and write the points in their notebook",
+            "watch on digital devices/charts/photos appropriate ways of caring for Allah’s creatures (animals/insects/plants/fish)",
+            "dramatise ways of showing kindness to Allah’s creatures"
+          ],
+          "keyInquiryQuestions": [
+            "What are some of Allah’s creatures in your environment?",
+            "Why should you be kind to Allah’s creatures?",
+            "How can you be kind to Allah’s creatures?"
+          ],
+          "coreCompetencies": [
+            "Learning to Learn: the skill of working collaboratively is enhanced as learners discuss the significance of being kind to Allah’s creatures.",
+            "Communication and collaboration: the skill of speaking and writing is enhanced as learners discuss the significance of being kind to Allah’s creatures, in pairs/groups, write the points in their notebook.",
+            "Creativity and imagination: the skill of networking is enhanced as learners dramatise ways of showing kindness to Allah’s creatures."
+          ],
+          "values": [
+            "Social justice: responsibility enhanced as learners dramatise ways of showing kindness to Allah’s creatures.",
+            "Responsibility: accountability enhanced as learners watch on digital devices/charts/photos appropriate ways of caring for Allah’s creatures",
+            "Respect: enhanced as learners respect each other’s view when discussing the significance of being kind to Allah’s creatures, in pairs/groups"
+          ],
+          "pcis": [
+            "Socio-economic issues: Animal welfare education as learners dramatise ways of showing kindness to Allah’s creatures."
+          ],
+          "links": [
+            "Agriculture as learners care for animals."
+          ]
+        },
+        {
+          "number": "5.1.2",
+          "name": "Islamic Manners of Dressing",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "describe appropriate Islamic code of dressing as per the teachings of Islam" },
+            { "id": "b", "text": "assess the significance of Islamic code of dressing to enhance character formation" },
+            { "id": "c", "text": "observe Islamic manners of dressing as an act of ibadah" },
+            { "id": "d", "text": "appreciate Islamic code of dressing as a means of earning rewards from Allah" }
+          ],
+          "learningExperiences": [
+            "identify features of the Islamic code of dressing",
+            "watch video clip on a digital device/observe charts/photos of different Islamic attires",
+            "discuss the significance of the Islamic code of dressing and presents in class",
+            "model an ideal Islamic dress in class"
+          ],
+          "keyInquiryQuestions": [
+            "How should a Muslim dress?",
+            "What is the importance of the Islamic code of dress?",
+            "What are some of the dressing trends that should be avoided by a Muslim?"
+          ],
+          "coreCompetencies": [
+            "Digital literacy: the skill of interacting with digital technology is enhanced as learners watch video clip on a digital device on different Islamic attires.",
+            "Communication and collaboration: the skill of listening and speaking is enhanced as learners discuss the significance of the Islamic code of dressing and presents in class.",
+            "Creativity and imagination: the skill of making observations is enhanced as learners model Islamic dress in class."
+          ],
+          "values": [
+            "Respect is enhanced as learners respect each other’s opinions during group discussion.",
+            "Responsibility is enhanced as learners model an ideal Islamic dress in class."
+          ],
+          "pcis": [
+            "Life skills: Assertiveness by dressing as per the Islamic code."
+          ],
+          "links": [
+            "Agriculture as learners observe ideal dressing."
+          ]
+        },
+        {
+          "number": "5.1.3",
+          "name": "Positive Usage of Media",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify types of media that can be used to reinforce learning" },
+            { "id": "b", "text": "explain the positive use of media for Islamic character formation" },
+            { "id": "c", "text": "observe Islamic ethics while using media in day-to-day life" },
+            { "id": "d", "text": "appreciate media as a gift from Allah (S.W.T.) by using them appropriately" }
+          ],
+          "learningExperiences": [
+            "identify different types of media, including print media, Internet media (such as laptops/desktops, videogames, PlayStation), broadcast media (TV, radio and movies), mobile phones",
+            "watch video clips on positive use of media",
+            "listen to a resource person discussing the Islamic teachings governing the use of media",
+            "discuss the positive and negative uses of media and present in class"
+          ],
+          "keyInquiryQuestions": [
+            "What types of media do you use at home?",
+            "How can you use media positively?",
+            "How can you use media while observing Islamic teachings?"
+          ],
+          "coreCompetencies": [
+            "Digital literacy: the skill of interacting with digital technology enhanced as learners watch video clips on positive use of media.",
+            "Communication: the skill of listening is enhanced as learners listen to a resource person discussing the Islamic teachings governing the use of media.",
+            "Creativity and imagination: the skill of networking is enhanced as learners take turns to discuss the positive and negative uses of media."
+          ],
+          "values": [
+            "Responsibility is enhanced as learners discuss the positive and negative uses of media, in pairs/ groups, and present in class.",
+            "Integrity is enhanced as learners listen to a resource person discussing the Islamic teachings governing the use of media."
+          ],
+          "pcis": [
+            "Assertiveness in the proper use of the media."
+          ],
+          "links": [
+            "Science and Technology: as learners search, download and store information from the internet."
+          ]
+        },
+        {
+          "number": "5.2.1",
+          "name": "Prohibitions in Islam: Evils of Begging",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify categories of people who deserve assistance in society" },
+            { "id": "b", "text": "describe the evils of begging as a means of fostering hard work" },
+            { "id": "c", "text": "appreciate work as a means of eradicating poverty" }
+          ],
+          "learningExperiences": [
+            "identify categories of people deserving support (debtors, those who lose property through disaster and destitute)",
+            "discuss evils of begging according to the teachings of Islam and present in class",
+            "discuss ways of earning income/ generating income and present in class"
+          ],
+          "keyInquiryQuestions": [
+            "Why do people beg?",
+            "Why is begging discouraged?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of listening and speaking as learners discuss evils of begging according to the teachings of Islam and present in class.",
+            "Critical thinking and problem solving: the skill of researching as learners discuss ways of earning income/ generating income and present in class"
+          ],
+          "values": [
+            "Responsibility enhanced as learners take turns to discuss evils of begging according to the teachings of Islam and present in class.",
+            "Integrity is enhanced as learners discuss ways of earning income/ generating income and present in class"
+          ],
+          "pcis": [
+            "Life skills: Self-awareness to avoid begging without justification"
+          ],
+          "links": [
+            "Social Studies as learners are encouraged to work and contribute to nation building."
+          ]
+        },
+        {
+          "number": "5.3.1",
+          "name": "Dua (Supplication): Dua for Leaving and Entering the House",
+          "lessons": 2,
+          "content": [
+            "Dua for Leaving and Entering the House"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "recite the dua for leaving and entering the house to seek Allah’s protection" },
+            { "id": "b", "text": "use the dua in his/her day-to-day life" },
+            { "id": "c", "text": "acknowledge the importance of using dua to get protection from Allah (S.W.T.)" }
+          ],
+          "learningExperiences": [
+            "recite from a digital device/chart/reference material the dua for leaving the house “in the name of Allah I have placed my trust in Allah; there is no might and no power except by Allah” dua for entering the house “In the name of Allah we enter, in the name of Allah we leave, and upon our lord we depend”",
+            "practise reciting the dua, in pairs/groups",
+            "role-play/dramatise reading the dua on leaving and entering the house"
+          ],
+          "keyInquiryQuestions": [
+            "What do you recite when you leave home for school?",
+            "Why do you recite the dua when leaving and entering the house?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of speaking and teamwork as learners practise reciting the dua, in pairs/groups",
+            "Creativity and imagination: the skill of making observations as learners role-play the dua on leaving and entering the house."
+          ],
+          "values": [
+            "Responsibility enhanced as learners role-play the dua on leaving and entering the house."
+          ],
+          "pcis": [
+            "Self-esteem as learners recite the dua"
+          ],
+          "links": [
+            "English as learners acquire new vocabularies in making supplication"
+          ]
+        }
+      ]
+    },
+    {
+      "number": "6.0",
+      "name": "Muamalaat (Social Relations)",
+      "subStrands": [
+        {
+          "number": "6.1",
+          "name": "Obligations of Parents to Children",
+          "lessons": 2,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "state the obligations of parents to their children" },
+            { "id": "b", "text": "assess the importance of parents fulfilling their obligations towards their children" },
+            { "id": "c", "text": "demonstrate ways in which parents can fulfil their obligations to their children" },
+            { "id": "d", "text": "cherish love and care given to them by their parents" }
+          ],
+          "learningExperiences": [
+            "brainstorm parents’ obligations towards their children, in pairs/ small groups, and write the points in their notebook",
+            "discuss the importance of parents fulfilling their obligations towards their children and present in class",
+            "role-play the obligations of parents to their children",
+            "watch/listen anashid from digital devices on the roles of parents to their children"
+          ],
+          "keyInquiryQuestions": [
+            "What are some of the things parents do for their children?",
+            "Why is it important for parents to fulfil their obligation towards their children?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of writing and teamwork as learners discuss parents’ obligations towards their children, in pairs/ small groups, and write the points in their notebook.",
+            "Digital literacy: the skill of interacting with technology as learners watch/listen anashid from digital devices on the roles of parents to their children.",
+            "Critical thinking and problem solving is enhanced as learners discuss the importance of parents fulfilling their obligations towards their children and present in class.",
+            "Self-efficacy: the skill of personal skill is enhanced as learners role-play obligations of parents towards their children."
+          ],
+          "values": [
+            "Social justice enhanced as learners discuss the importance of parents fulfilling their obligations towards their children in and present in class",
+            "Responsibility enhanced as learners role-play the obligations of parents to their children"
+          ],
+          "pcis": [
+            "Citizenship: Child’s right to get education, shelter, and medical care.",
+            "Socio-economic issues: Care and protection from parents to enhance safety and security of the children."
+          ],
+          "links": [
+            "Social Studies: as learners discuss the rights and responsibilities of citizens."
+          ]
+        },
+        {
+          "number": "6.2",
+          "name": "Obligations of Children to Parents",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "outline obligations of children to their parents" },
+            { "id": "b", "text": "assess the importance of obeying and respecting parents as a religious obligation" },
+            { "id": "c", "text": "demonstrate ways to obey and respect parents" },
+            { "id": "d", "text": "appreciate their parents by respecting and obeying them" }
+          ],
+          "learningExperiences": [
+            "discuss the duties of children to their parents and present in class",
+            "discuss the importance of obeying and respecting their parents (Q 17:23-24) and write the points in their notebook",
+            "dramatise children’s obligations to their parents",
+            "listen to qasidas/anashid (such as Ummy) on the importance of respecting and obeying parents from a digital device"
+          ],
+          "keyInquiryQuestions": [
+            "How do you show obedience and respect to your parents?",
+            "Why should children be dutiful towards their parent?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: the skill of working collaboratively is enhanced as learners describe the duties of children to their parents, in groups, and present in class.",
+            "Citizenship: the skill of social and cultural sensitivity and awareness is enhanced as learners dramatise children’s obligations to their parents.",
+            "Creativity and imagination: the skill of networking is enhanced as learners dramatise children’s obligations to their parents."
+          ],
+          "values": [
+            "Respect enhanced as learners respect each other’s opinion while discussing the importance of obeying and respecting their parents.",
+            "Responsibility enhanced as learners dramatise children’s obligations to their parents.",
+            "Love enhanced as learners listen to qasidas/anashid (e.g. Ummy) on the importance of respecting and obeying parents from a digital device."
+          ],
+          "pcis": [
+            "Responsibility by relating well with parents and other members of the society."
+          ],
+          "links": [
+            "Social Studies: as learners fulfil their duties and responsibility towards parents and other members of the society."
+          ]
+        },
+        {
+          "number": "6.3",
+          "name": "Children’s Obligations to Other Family Members",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "outline obligations of children to other family members as an act of ibadah" },
+            { "id": "b", "text": "assess the significance of fulfilling obligations to other family members" },
+            { "id": "c", "text": "appreciate maintaining bond with other family members" }
+          ],
+          "learningExperiences": [
+            "prepare chart with names of extended family members and hang strategically",
+            "discuss children’s obligations to other family members (such as respect, visiting, attending ceremonies, helping and caring for them), in pairs/groups, and write the point in their notebook",
+            "brainstorm the significance of fulfilling obligations to other family members",
+            "dramatise their obligations to other family members"
+          ],
+          "keyInquiryQuestions": [
+            "Who are the other family members?",
+            "How do you develop good relationship with other family members?",
+            "What is the significance of strengthening your relationship with other family members?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of listening, speaking and writing enhanced as learners discuss children’s obligations to other family members (e.g. respect, visiting, attending ceremonies, helping and caring for them), in pairs/groups, and write the points in their notebook",
+            "Critical thinking and problem solving: the skill of evaluation and decision making is enhanced as learners discuss the significance of fulfilling obligations to other family members, in pairs/groups.",
+            "Creativity and imagination: the skill of networking enhanced as learners dramatise their obligations to other family members.",
+            "Learn to learn: the skill of sharing learnt knowledge enhanced as learners prepare chart with names of extended family members and hang strategically."
+          ],
+          "values": [
+            "Respect: acceptance enhanced as learners respect each other’s opinions while discussing, in groups.",
+            "Responsibility: accountability as learners prepare chart with names of extended family members and hang strategically."
+          ],
+          "pcis": [
+            "Social cohesion as learners relate well with family and other members of the society."
+          ],
+          "links": [
+            "Social Studies as learners fulfil their duties towards family and other members of the society."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "7.0",
+      "name": "History of Islam",
+      "subStrands": [
+        {
+          "number": "7.1",
+          "name": "Call to Prophethood",
+          "lessons": 4,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "describe the Prophet’s incidence at cave Hira with Angel Jibril (A.S.)" },
+            { "id": "b", "text": "assess the significance of the first five verses revealed to Prophet (S.A.W) in relation to seeking knowledge" },
+            { "id": "c", "text": "acknowledge the role of Prophet (S.A.W) as a messenger of Allah by emulating his Sunnah" }
+          ],
+          "learningExperiences": [
+            "watch audio-visual clip/listen to a story from a digital device/resource person on Prophet’s experience at cave Hira",
+            "read from reference material story on call to prophethood and narrates to others in class",
+            "recite the first five verses of Suratul- Alaq, individually/in groups",
+            "discuss the significance of the first five verses of Suratul-Alaq and write the points in their notebook"
+          ],
+          "keyInquiryQuestions": [
+            "What are the teachings of the first five verses revealed to Prophet (S.A.W)?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of writing and teamwork is enhanced as learners discuss the teachings from the first five verses of Suratul-Alaq, in pairs/groups, and write the points in their notebook.",
+            "Learning to learn: the skill of sharing learnt knowledge is enhanced as learners read from reference material story on call to prophethood and narrates to others in class.",
+            "Digital literacy: the skill of interacting with digital technology is enhanced as learners watch audio-visual clip/listen to a story from a digital device/resource person on Prophet’s experience at cave Hira."
+          ],
+          "values": [
+            "Respect: open mindedness enhanced as learners respect each other’s opinions while discussing the teachings from the first five verses of Suratul-Alaq.",
+            "Responsibility: accountability enhanced as learners recite the first five verses of Suratul-Alaq, individually/in groups."
+          ],
+          "pcis": [
+            "Empathy as learners learn how the Prophet (S.A.W) received divine guidance."
+          ],
+          "links": [
+            "The concept of reading first five verses of Surah-Alaq can be related to skills in English."
+          ]
+        },
+        {
+          "number": "7.2",
+          "name": "Earliest Converts in Islam",
+          "lessons": 3,
+          "content": [
+            "Khadija (R.A.)",
+            "Ali (R.A.)",
+            "Abubakar (R.A.)"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "identify the earliest converts to Islam" },
+            { "id": "b", "text": "explain the role played by the earliest converts to Islam" },
+            { "id": "c", "text": "appreciate the role played by earliest converts to the development of Islam" }
+          ],
+          "learningExperiences": [
+            "mention the earliest converts in Islam (Khadija (R.a.) Ali (R.A.) and Abubakar (R.A.), in pairs/groups, and write them in their notebook",
+            "read from reference material/course books on the story of (Khadija (R.a.) Ali (R.A.) and Abubakar (R.A.) and write the role they played in the Prophet’s mission",
+            "listen to a resource person discussing the role played by earliest converts. (e.g. First person to accept Islam, moral and material support, and lives)",
+            "listen to a story on Khadija (R.A), Ali (R.A.) and Abubakar (R.A.) from a resource person/digital device"
+          ],
+          "keyInquiryQuestions": [
+            "What role did the earliest converts play in the Prophet’s mission?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: the skill of listening, speaking and writing as learners identify the qualities that led Khadija (R.A) to propose to marry the Prophet (e.g. trustworthy, honesty, hardworking), in pairs/groups, and write the points in their notebook",
+            "Learning to learn: the skill of sharing learnt knowledge as learners listen to a resource person discussing the role of Khadija in the life of Prophet Muhammad (S.A.W). (e.g. First person to accept Islam, moral support, all his children were born by Khadija apart from Ibrahim, her wealth support)."
+          ],
+          "values": [
+            "Respect: etiquette enhanced as learners listen attentively to a resource person discussing the role of Khadija in the life of Prophet Muhammad (S.A.W)."
+          ],
+          "pcis": [
+            "Citizenship: Nationalism by volunteering in Islamic activities in the community."
+          ],
+          "links": [
+            "Social Studies as learners learn on personalities and their role in the country or different community development."
+          ]
+        },
+        {
+          "number": "7.3",
+          "name": "Prophet (S.A.W.)’s Journey to Taif",
+          "lessons": 3,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "narrate the story of the Prophet (S.A.W)’s journey to Taif" },
+            { "id": "b", "text": "demonstrate the virtues exhibited by the Prophet (S.A.W) in his journey to Taif" },
+            { "id": "c", "text": "appreciate the virtues demonstrated by the Prophet (S.A.W) while in Taif" }
+          ],
+          "learningExperiences": [
+            "listen/watch a story on the Prophet (S.A.W)’s journey to Taif from a digital device/ resource person and retell, individually, in class",
+            "identify the virtues learnt from the Prophet (S.A.W)’s journey to Taif and display them on a chart",
+            "brainstorm on the situations that require exhibition of the following virtues: (patience, tolerance and perseverance) and present in class"
+          ],
+          "keyInquiryQuestions": [
+            "What lessons can Muslims learn from the Prophet (S.A.W)’s journey toTaif?",
+            "How did the Prophet (S.A.W) treat the people of Taif?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: as they brainstorm on the situations that require exhibition of the following virtues (patience, tolerance and perseverance)."
+          ],
+          "values": [
+            "Responsibility: hard work as learners brainstorm on the situations that require exhibition of the following virtues: (patience, tolerance and perseverance)"
+          ],
+          "pcis": [
+            "Life skills: tolerance as learners brainstorm and understand the hardship encounter by the prophet during the journey to Taif"
+          ],
+          "links": [
+            "English as learners retell on the story of the Prophet’s journey to Taif in class."
+          ]
+        }
+      ]
+    }
+  ]
+}

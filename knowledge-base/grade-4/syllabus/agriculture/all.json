@@ -1,0 +1,438 @@
+{
+  "subject": "AGRICULTURE",
+  "slug": "agriculture",
+  "totalLessons": 120,
+  "strands": [
+    {
+      "number": "1.0",
+      "name": "Conservation of Resources",
+      "subStrands": [
+        {
+          "number": "1.1",
+          "name": "Soil Conservation",
+          "lessons": 7,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify suitable materials for making compost manure" },
+            { "id": "b", "text": "prepare compost manure for farming" },
+            { "id": "c", "text": "appreciate importance of compost manure in farming" }
+          ],
+          "learningExperiences": [
+            "discuss suitable materials for compost manure based on their local environment",
+            "collect and compost suitable materials and make compost manure using heap method",
+            "practise the learnt skills in making compost manure using slashed vegetation, kitchen wastes and any other available organic wastes and using it in their gardening activities",
+            "make use of the prepared compost in a crop garden to appreciate its importance"
+          ],
+          "keyInquiryQuestions": [
+            "How can composting conserve the environment?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: speaking and listening skills as the learners discuss the process of preparing compost manure."
+          ],
+          "values": [
+            "Unity: working together striving to achieve common goal in the preparation of compost manure."
+          ],
+          "pcis": [
+            "Care for the environment as learner utilize waste organic materials in the preparation of compost manure."
+          ],
+          "links": [
+            "Learners relate the environmental resource conservation skills to the waste disposal methods learnt in Science and Technology."
+          ]
+        },
+        {
+          "number": "1.2",
+          "name": "Water Conservation",
+          "lessons": 7,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "describe drip irrigation as a way of conserving water" },
+            { "id": "b", "text": "carry out drip irrigation to conserve water" },
+            { "id": "c", "text": "appreciate use of drip irrigation to conserve water in farming" }
+          ],
+          "learningExperiences": [
+            "watch video clips or use print media or observe drip irrigation in neighbouring households to guide them discuss drip irrigation concept",
+            "innovate drip irrigation equipment using water pipes and available containers and use the drip irrigation in gardening activities",
+            "make use of the innovative drip irrigation equipment in watering crops to appreciate its role in water conservation"
+          ],
+          "keyInquiryQuestions": [
+            "How do we use drip irrigation to conserve water?"
+          ],
+          "coreCompetencies": [
+            "Creativity and imagination: creativity skills in experimenting new ideas while innovating drip irrigation equipment."
+          ],
+          "values": [
+            "Responsibility: undertaking tasks allocated in the innovative drip irrigation project."
+          ],
+          "pcis": [
+            "Safety of self and others as the learners handle and work with tools and equipment in innovating drip irrigation."
+          ],
+          "links": [
+            "Learners relate construction skills in the construction of drip irrigation to skill in use of tools in Science and Technology."
+          ]
+        },
+        {
+          "number": "1.3",
+          "name": "Fuel Conservation",
+          "lessons": 7,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify types of fuels used at home" },
+            { "id": "b", "text": "conserve fuels during cooking" },
+            { "id": "c", "text": "appreciate the importance of conserving fuel to minimise wastage of resources" }
+          ],
+          "learningExperiences": [
+            "discuss to enumerate the types of fuels such as charcoal, firewood, gas and kerosene used at home",
+            "practise ways of conserving fuels such as putting off fire when done and using fuel efficient equipment when cooking",
+            "discuss and make presentations on importance of conserving fuels to minimise wastage"
+          ],
+          "keyInquiryQuestions": [
+            "How does reducing fuel wastage conserve our resources?"
+          ],
+          "coreCompetencies": [
+            "Critical thinking and problem solving: evaluation and decision making skills as learners explore ways of reducing wastage in use of fuels."
+          ],
+          "values": [
+            "Responsibility: solving problems proactively as learners use fuels conservatively."
+          ],
+          "pcis": [
+            "Safety of self and others as learners use fuels and related fires."
+          ],
+          "links": [
+            "Learners relate the skills in conservation of fuels to types and sources of energy learnt in Science and Technology."
+          ]
+        },
+        {
+          "number": "1.4",
+          "name": "Conserving Wild Animals",
+          "lessons": 8,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify small wild animals that destroy crops" },
+            { "id": "b", "text": "construct and use a scarecrow to scare off small wild animals from crops" },
+            { "id": "c", "text": "appreciate the importance of living better with small wild animals" }
+          ],
+          "learningExperiences": [
+            "brainstorm and share experiences on small wild animals such as birds, hares, squirrels and monkeys that destroy crops",
+            "discuss, construct a scarecrow using locally available materials and place the scarecrows in the immediate environment to scare off small wild animals",
+            "discuss and make presentations on importance of coexisting with small world animals in the environment"
+          ],
+          "keyInquiryQuestions": [
+            "How can we scare off small wild animals from crop enterprises?"
+          ],
+          "coreCompetencies": [
+            "Creativity and imagination: observation and experimentation skills as learners construct scarecrow to scare off wild animals."
+          ],
+          "values": [
+            "Responsibility: engaging in assigned roles and duties as learners construct the scarecrow to scare off wild animals."
+          ],
+          "pcis": [
+            "Conservation of biodiversity as learners construct scarecrow to scare off wild animals without killing them."
+          ],
+          "links": [
+            "Learners relate conservation of wild animals as part of natural resources learnt in Social Studies."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "2.0",
+      "name": "Food Production Processes",
+      "subStrands": [
+        {
+          "number": "2.1",
+          "name": "Direct Sowing of Tiny Seeds",
+          "lessons": 8,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify crops established through direct sowing of tiny seeds" },
+            { "id": "b", "text": "sow tiny seeds in a finely prepared seedbed" },
+            { "id": "c", "text": "adopt direct sowing in establishment of food crops" }
+          ],
+          "learningExperiences": [
+            "discuss to enumerate food crops such as carrots and millet that are established through direct sowing of tiny seeds (crops that do not require transplanting)",
+            "sow the tiny seeds in a finely prepared ground or container seedbed",
+            "take care of the tiny seeded crops in a seedbed to adopt the use of direct sowing in food production"
+          ],
+          "keyInquiryQuestions": [
+            "How does direct sowing of tiny seeds enhance food production process?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: own reflection as learners establish tiny seeds in a prepared seedbed."
+          ],
+          "values": [
+            "Respect: accommodation of diverse opinions while the learners undertake seed bed preparation tasks."
+          ],
+          "pcis": [
+            "Food and nutritional security as learners grow crops on prepared seedbeds to contribute to food availability at household level."
+          ],
+          "links": [
+            "Learners relate the use of tools and equipment in preparation of seedbed and sowing tiny seeds to concepts of tools in making work easier learnt in Science and Technology."
+          ]
+        },
+        {
+          "number": "2.2",
+          "name": "Growing Fruits",
+          "lessons": 16,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify fruits that can grow the locality" },
+            { "id": "b", "text": "grow a fruit crop suited in the locality" },
+            { "id": "c", "text": "appreciate the importance of consuming fruits for nutrition" }
+          ],
+          "learningExperiences": [
+            "brainstorm and share information on different types of fruits that can grow in their locality",
+            "establish and take care of a fruit crop that can suitably grow in the locality such as woody fruit tree (for example, tree tomato and guava) and climbing fruit crops (such as passion fruit, kiwi, grapes, blackberries, raspberries)",
+            "harvest ripe fruits for consumption to appreciate their importance in the body"
+          ],
+          "keyInquiryQuestions": [
+            "How do we grow fruits?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: self- confidence as learners realise the benefit of growing own fruit crops for consumption."
+          ],
+          "values": [
+            "Responsibility: as learners take care of growing fruit crops."
+          ],
+          "pcis": [
+            "Health promotion awareness as learners appreciate the importance of consuming fruits."
+          ],
+          "links": [
+            "Learners relate growing of fruit crop as an economic activity learnt in Social Studies."
+          ]
+        },
+        {
+          "number": "2.3",
+          "name": "Uses of Domestic Animals",
+          "lessons": 8,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify types of domestic animals in the community" },
+            { "id": "b", "text": "relate various domestic animals to their uses" },
+            { "id": "c", "text": "appreciate the importance of domestic animals for food production" }
+          ],
+          "learningExperiences": [
+            "share experiences on the types of domestic animals (cattle, sheep, goats, poultry) found in their community and their uses",
+            "match the domestic animals to their uses (cattle, sheep, goat and poultry)",
+            "make class presentations using photos or other visuals on importance of domestic animals in food production"
+          ],
+          "keyInquiryQuestions": [
+            "How do domestic animals contribute to food production?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: self-confidence as learners make presentations on uses of domestic animals."
+          ],
+          "values": [
+            "Respect: open mindedness as learners listen and accommodate others opinions during presentations on importance of domestic animals."
+          ],
+          "pcis": [
+            "Animal welfare as the learners appreciate importance of domestic animals to humans."
+          ],
+          "links": [
+            "Learners relate animals reared in their community to knowledge learnt in Social Studies on social economic activities."
+          ]
+        },
+        {
+          "number": "2.4",
+          "name": "Balanced Meal",
+          "lessons": 9,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "explain importance of eating a balanced meal" },
+            { "id": "b", "text": "select food from different food groups to make a balanced meal" },
+            { "id": "c", "text": "appreciate the importance of eating a balanced meal" }
+          ],
+          "learningExperiences": [
+            "discuss or use digital devices to search for importance of eating a balanced meal (variety and proportion)",
+            "select foods from locally available foods to comprise a balanced meal (energy giving, body building and protective foods)",
+            "keep a journal for one week on meals they take to appreciate the importance of a balanced meal"
+          ],
+          "keyInquiryQuestions": [
+            "How does a balanced meal impact on health?"
+          ],
+          "coreCompetencies": [
+            "Communication and collaboration: team work as learners contribute in the discussion on importance of a balanced meal."
+          ],
+          "values": [
+            "Unity: collaboration with others as learners select foods to comprise balanced meal."
+          ],
+          "pcis": [
+            "Health awareness promotion as learners discuss the importance of eating a balanced meal."
+          ],
+          "links": [
+            "Learners relate the importance of eating balanced meal to knowledge learnt in Science and Technology on healthy eating habits."
+          ]
+        },
+        {
+          "number": "2.5",
+          "name": "Cooking Food",
+          "lessons": 11,
+          "content": [
+            "Boiling food",
+            "Shallow frying food"
+          ],
+          "outcomes": [
+            { "id": "a", "text": "describe methods of cooking food" },
+            { "id": "b", "text": "cook food using different methods" },
+            { "id": "c", "text": "embrace boiling and shallow frying in food production" }
+          ],
+          "learningExperiences": [
+            "watch video clip or demonstration on boiling and shallow frying methods of cooking",
+            "cook food using boiling and shallow frying methods",
+            "serve the boiled and shallow fried food to embrace the various methods of food production"
+          ],
+          "keyInquiryQuestions": [
+            "How can we cook food using boiling and shallow frying methods?"
+          ],
+          "coreCompetencies": [
+            "Learning to learn: organizing own learning as learners apply laid down procedure in boiling and shallow frying food."
+          ],
+          "values": [
+            "Responsibility: observes care and safety when boiling and shallow frying food."
+          ],
+          "pcis": [
+            "Safety of self and others to avoid accidents as they boil and fry food."
+          ],
+          "links": [
+            "Learners relate handling of accidents to first aid skills learnt in Science and Technology."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "3.0",
+      "name": "Hygiene Practices",
+      "subStrands": [
+        {
+          "number": "3.1",
+          "name": "Personal Hygiene",
+          "lessons": 10,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify healthy practices that promote personal hygiene" },
+            { "id": "b", "text": "apply healthy practices that promote personal hygiene" },
+            { "id": "c", "text": "embrace healthy practices to promote personal hygiene in daily life" }
+          ],
+          "learningExperiences": [
+            "brainstorm and enumerate practices that promote personal hygiene such as hand washing, use of personal protective equipment and use of clean water",
+            "demonstrate appropriate practices that promote personal hygiene such as hand washing, use of personal protective equipment and use of clean water",
+            "keep a day-to-day activity log of various hygiene practices for a specified period of time to embrace personal health promotion"
+          ],
+          "keyInquiryQuestions": [
+            "How does personal hygiene promote good health?"
+          ],
+          "coreCompetencies": [
+            "Self-efficacy: skills in enhancement of self-outlook for self and others through personal hygiene practices."
+          ],
+          "values": [
+            "Responsibility: taking charge of own body as they practise personal hygiene and use personal protective equipment."
+          ],
+          "pcis": [
+            "Prevention of communicable diseases as learners practise personal hygiene."
+          ],
+          "links": [
+            "Learners relate personal hygiene practices to prevention of communicable diseases learnt in Science and Technology."
+          ]
+        },
+        {
+          "number": "3.2",
+          "name": "Domestic Hygiene",
+          "lessons": 9,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "describe the various methods used for cleaning home environment" },
+            { "id": "b", "text": "use appropriate methods to clean home environment" },
+            { "id": "c", "text": "appreciate a clean environment in promoting domestic hygiene" }
+          ],
+          "learningExperiences": [
+            "discuss the methods of cleaning home environment such as mopping, dusting, sweeping and disposal of refuse",
+            "apply the methods such as mopping, dusting, sweeping and disposal of refuse to maintain hygiene in the environment",
+            "maintain clean living environment using applicable methods in their classroom contexts while using improvised and locally available resources"
+          ],
+          "keyInquiryQuestions": [
+            "How can we maintain hygiene in the home environment?"
+          ],
+          "coreCompetencies": [
+            "Creativity and imagination: thoughtful choices as learners use improvised and locally available cleaning resources."
+          ],
+          "values": [
+            "Responsibility: accountability as learners engage in activities of cleaning home environment."
+          ],
+          "pcis": [
+            "Environmental awareness as learners maintain clean healthy environment."
+          ],
+          "links": [
+            "Learners relate clean environment to control of communicable diseases learnt in Science and Technology."
+          ]
+        },
+        {
+          "number": "3.3",
+          "name": "Cleaning Personal Protective Equipment",
+          "lessons": 9,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify personal protective equipment in day to day life" },
+            { "id": "b", "text": "clean personal protective equipment for hygiene purposes" },
+            { "id": "c", "text": "appreciate clean personal protective equipment in promoting hygiene" }
+          ],
+          "learningExperiences": [
+            "search for information or observe a demonstration to identify common personal protective equipment such as gloves, dust masks, gumboots, headgear, overall and canvas shoes",
+            "apply appropriate methods to clean personal protective equipment such as gumboots or canvas shoes",
+            "make display of cleaned personal protective equipment to appreciate and promote hygiene"
+          ],
+          "keyInquiryQuestions": [
+            "How does cleaning of personal protective equipment promote hygiene?"
+          ],
+          "coreCompetencies": [
+            "Digital literacy: use of digital technology as learners search for information on personal protective equipment."
+          ],
+          "values": [
+            "Responsibility: safety and care of self as learners clean personal protective equipment."
+          ],
+          "pcis": [
+            "Personal safety as learners exercise caution while undertaking cleaning activity."
+          ],
+          "links": [
+            "Learners relate use of personal protective equipment to personal safety skills learnt in Science and Technology."
+          ]
+        }
+      ]
+    },
+    {
+      "number": "4.0",
+      "name": "Production Techniques",
+      "subStrands": [
+        {
+          "number": "4.1",
+          "name": "Making Tacking Stitches",
+          "lessons": 11,
+          "content": [],
+          "outcomes": [
+            { "id": "a", "text": "identify the types of tacking stitches in sewing" },
+            { "id": "b", "text": "make an item using tacking stitches" },
+            { "id": "c", "text": "appreciate the importance of tacking stitches" }
+          ],
+          "learningExperiences": [
+            "observe samples of tacking stitches (even tacking; long and short tacking) used in sewing",
+            "make sample item such as a handkerchief or clothing for a scarecrow using tacking (even tacking or long and short taking) stitches",
+            "make presentations using a display of sample items to appreciate the importance of tacking stitches"
+          ],
+          "keyInquiryQuestions": [
+            "How can we use tacking stitches in making items?"
+          ],
+          "coreCompetencies": [
+            "Creativity and imagination: experimentation skills as learners observe, innovate and try out on tacking stitches."
+          ],
+          "values": [
+            "Unity: display of team spirit as learners share resources in the making of tacking stitches."
+          ],
+          "pcis": [
+            "Safety of self and others as learners use needles and other sharp tools in sewing task."
+          ],
+          "links": [
+            "Leaners relate skills in measuring materials and precision in tacking stitches to measurements in Mathematics."
+          ]
+        }
+      ]
+    }
+  ]
+}
