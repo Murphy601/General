@@ -7,7 +7,10 @@
     {
       "number": 1,
       "title": "Why we help people in need",
-      "outcomes": ["a", "b"],
+      "outcomes": [
+        "a",
+        "b"
+      ],
       "objectives": [
         "State the importance of helping the needy.",
         "Demonstrate kindness by sharing with those in need."
@@ -15,13 +18,25 @@
       "intro": "A classmate's pencil breaks in the middle of a writing lesson. You have a spare one. That small moment is a chance to help someone in need.",
       "notes": "The needy are people who lack something they need. A learner may need a pencil, a rubber, lunch, or a friend to walk with. A neighbour may need food or help carrying a load. Helping them is kindness.\n\n### Why help is important\n- Jesus tells His followers to give. Helping obeys Him.\n- The person can continue with school or with the day's work.\n- Sharing builds friendship and peace.\n- You show compassion, which means you feel for the other person and act.\n- A class that shares is a kinder community.\n- God sees secret kindness as well as public kindness.\n\n### Demonstrating kindness\nDemonstrate means to show by doing. Examples from ordinary days:\n\n- Give a pencil or a rubber to a pupil who has none.\n- Share lunch with a classmate who has not brought any.\n- Help someone who has fallen to stand up, and call a teacher if they are hurt.\n- Help at home when a parent is tired.\n- Give in church or at school when there is a proper collection for people in need, with your parent's guidance.\n\nDo not boast. Do not give something that is not yours to give, such as a sibling's book or school fees. Ask a parent before you give away a large item. Small, honest sharing is already real kindness.\n\nRole-play two pupils. One has no rubber. The other shares and says, \"You can use mine.\" Then swap roles so everyone practises both asking politely and giving gladly. Mention a real time you helped someone at school, at home or in church. Patriotism here includes caring for the people of your own community.",
       "keyWords": [
-        { "word": "needy", "meaning": "a person who lacks something necessary" },
-        { "word": "kindness", "meaning": "a helpful action done for someone else" },
-        { "word": "share", "meaning": "to give part of what you have so that another person can use it" }
+        {
+          "word": "needy",
+          "meaning": "a person who lacks something necessary"
+        },
+        {
+          "word": "kindness",
+          "meaning": "a helpful action done for someone else"
+        },
+        {
+          "word": "share",
+          "meaning": "to give part of what you have so that another person can use it"
+        }
       ],
       "activity": {
         "title": "Stories of help and a role-play",
-        "materials": ["A pencil and a rubber for the role-play", "Exercise book"],
+        "materials": [
+          "A pencil and a rubber for the role-play",
+          "Exercise book"
+        ],
         "steps": [
           "Mention an instance when you helped someone at school, at home or in church, for example by giving a pencil or a rubber or by sharing lunch.",
           "Role-play sharing items with those who do not have them.",
@@ -30,9 +45,21 @@
         ]
       },
       "practice": [
-        { "question": "Who are the needy?", "answer": "People who lack something they need.", "check": null },
-        { "question": "Give two reasons why it is important to help them.", "answer": "Any two: Jesus commands it; it meets a real need; it builds friendship; it shows compassion; God sees kindness.", "check": null },
-        { "question": "Give two ways a Grade 4 learner can share.", "answer": "Any two: give a pencil, give a rubber, share lunch, help someone who has fallen, help at home.", "check": null }
+        {
+          "question": "Who are the needy?",
+          "answer": "People who lack something they need.",
+          "check": null
+        },
+        {
+          "question": "Give two reasons why it is important to help them.",
+          "answer": "Any two: Jesus commands it; it meets a real need; it builds friendship; it shows compassion; God sees kindness.",
+          "check": null
+        },
+        {
+          "question": "Give two ways a Grade 4 learner can share.",
+          "answer": "Any two: give a pencil, give a rubber, share lunch, help someone who has fallen, help at home.",
+          "check": null
+        }
       ],
       "summary": [
         "The needy lack something necessary.",
@@ -43,7 +70,9 @@
     {
       "number": 2,
       "title": "Matthew 5:42: give promptly",
-      "outcomes": ["c"],
+      "outcomes": [
+        "c"
+      ],
       "objectives": [
         "Recite Matthew 5:42.",
         "Help those in need promptly."
@@ -51,12 +80,22 @@
       "intro": "Some help arrives too late to be useful. A pencil given after the lesson has ended does not help the writing. Matthew 5:42 calls Christians to give, and the lesson asks us to help promptly.",
       "notes": "Matthew 5:42 says, \"Give to the one who asks you, and do not turn away from the one who wants to borrow from you.\"\n\n### The two parts\nFirst, if someone asks for a needed thing that you can rightly give, give it. Second, if someone wants to borrow, do not turn your back. Borrowing means they will use it and it remains yours, such as a rubber for one lesson. Giving can mean they keep it, such as part of your lunch.\n\nWrite the verse on a flash card. Recite it until you can say it without looking. Put the card where you will see it before school.\n\n### Promptly\nPromptly means without unnecessary delay. When you see the need and you can help safely, do it then. Do not wait to be begged three times. Do not laugh first. The widow's son and the lepers met Jesus and He acted. In your small way, act too.\n\n### Wise giving\n- Give what is yours or what a parent has allowed you to share.\n- Share school items that do not stop you from doing your own work, or take turns.\n- Do not go with a stranger who promises help or gifts.\n- Do not give medicine or money you were told to keep.\n- If the need is bigger than you, tell a parent, a teacher or a church leader so they can help.\n- A polite \"I cannot give that, but I will tell a teacher\" is better than a lie.\n\nHelping promptly is citizenship in practice: you notice a neighbour's need and you move. Recite Matthew 5:42, then look around the class for one person you can help today.",
       "keyWords": [
-        { "word": "promptly", "meaning": "without unnecessary delay" },
-        { "word": "borrow", "meaning": "to use something that still belongs to the owner and will be returned" }
+        {
+          "word": "promptly",
+          "meaning": "without unnecessary delay"
+        },
+        {
+          "word": "borrow",
+          "meaning": "to use something that still belongs to the owner and will be returned"
+        }
       ],
       "activity": {
         "title": "Flash cards for Matthew 5:42",
-        "materials": ["Flash cards", "Bible", "Pens"],
+        "materials": [
+          "Flash cards",
+          "Bible",
+          "Pens"
+        ],
         "steps": [
           "Read Matthew 5:42 and tell what you have learnt.",
           "Write the verse on a flash card and recite it.",
@@ -65,9 +104,21 @@
         ]
       },
       "practice": [
-        { "question": "Recite Matthew 5:42.", "answer": "Give to the one who asks you, and do not turn away from the one who wants to borrow from you.", "check": null },
-        { "question": "What does promptly mean?", "answer": "Without unnecessary delay.", "check": null },
-        { "question": "A need is bigger than you can meet. What should you do?", "answer": "Tell a parent, a teacher or a church leader so they can help.", "check": null }
+        {
+          "question": "Recite Matthew 5:42.",
+          "answer": "Give to the one who asks you, and do not turn away from the one who wants to borrow from you.",
+          "check": null
+        },
+        {
+          "question": "What does promptly mean?",
+          "answer": "Without unnecessary delay.",
+          "check": null
+        },
+        {
+          "question": "A need is bigger than you can meet. What should you do?",
+          "answer": "Tell a parent, a teacher or a church leader so they can help.",
+          "check": null
+        }
       ],
       "summary": [
         "Matthew 5:42: give to the one who asks, and do not turn away from the one who wants to borrow.",
@@ -77,16 +128,118 @@
     }
   ],
   "quiz": [
-    { "question": "The needy are people who...", "options": ["lack something necessary", "always have more than enough", "never ask for help", "only live in stories"], "answer": "A", "explanation": "A needy person lacks something needed, such as food or a school item.", "outcome": "a", "check": null },
-    { "question": "Why is it important to help them?", "answer": "Any one: Jesus tells us to give; it meets a real need; it shows compassion; it builds friendship.", "explanation": "Helping the needy is both obedience and kindness.", "outcome": "a", "check": null },
-    { "question": "Which action demonstrates kindness?", "options": ["Hiding your extra pencil", "Sharing lunch with a classmate who has none", "Laughing at a torn book", "Taking a friend's rubber by force"], "answer": "B", "explanation": "Sharing lunch is one of the examples in this sub-strand.", "outcome": "b", "check": null },
-    { "question": "A learner may share...", "options": ["a pencil, a rubber or lunch", "another child's school fees without asking", "medicine meant for someone else", "a secret that hides harm"], "answer": "A", "explanation": "Small honest sharing is the kindness Grade 4 learners practise.", "outcome": "b", "check": null },
-    { "question": "Matthew 5:42 says...", "options": ["turn away from anyone who asks", "give to the one who asks you, and do not turn away from the one who wants to borrow", "lend only to rich people", "never share at school"], "answer": "B", "explanation": "That is the verse learners recite.", "outcome": "c", "check": null },
-    { "question": "To help promptly means...", "options": ["to wait until next term", "to help without unnecessary delay", "to help only when a crowd is watching", "to refuse and explain later"], "answer": "B", "explanation": "Promptly means at the right time, without needless delay.", "outcome": "c", "check": null },
-    { "question": "Borrowing means...", "answer": "Using something that still belongs to the owner and will be returned.", "explanation": "Matthew 5:42 speaks about both giving and borrowing.", "outcome": "c", "check": null },
-    { "question": "The need is too big for a child. The right action is...", "options": ["ignore it", "tell a parent, teacher or church leader", "go with a stranger who offers money", "take someone else's property"], "answer": "B", "explanation": "Big needs are reported to responsible adults.", "outcome": "c", "check": null },
-    { "question": "Boasting after you share...", "options": ["is the main point of kindness", "is not the spirit of quiet help", "is required by Matthew 5:42", "replaces the gift"], "answer": "B", "explanation": "Kindness does not need boasting.", "outcome": "b", "check": null },
-    { "question": "You have a spare rubber and a classmate asks during the lesson. What should you do?", "answer": "Lend it promptly, because Matthew 5:42 says not to turn away from the one who wants to borrow.", "explanation": "A small school need can be met at once.", "outcome": "c", "check": null }
+    {
+      "question": "The needy are people who...",
+      "options": [
+        "lack something necessary",
+        "always have more than enough",
+        "never ask for help",
+        "only live in stories"
+      ],
+      "answer": "A",
+      "explanation": "A needy person lacks something needed, such as food or a school item.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Why is it important to help them?",
+      "answer": "Any one: Jesus tells us to give; it meets a real need; it shows compassion; it builds friendship.",
+      "explanation": "Helping the needy is both obedience and kindness.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Which action demonstrates kindness?",
+      "options": [
+        "Hiding your extra pencil",
+        "Sharing lunch with a classmate who has none",
+        "Laughing at a torn book",
+        "Taking a friend's rubber by force"
+      ],
+      "answer": "B",
+      "explanation": "Sharing lunch is one of the examples in this sub-strand.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "A learner may share...",
+      "options": [
+        "a pencil, a rubber or lunch",
+        "another child's school fees without asking",
+        "medicine meant for someone else",
+        "a secret that hides harm"
+      ],
+      "answer": "A",
+      "explanation": "Small honest sharing is the kindness Grade 4 learners practise.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Matthew 5:42 says...",
+      "options": [
+        "turn away from anyone who asks",
+        "give to the one who asks you, and do not turn away from the one who wants to borrow",
+        "lend only to rich people",
+        "never share at school"
+      ],
+      "answer": "B",
+      "explanation": "That is the verse learners recite.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "To help promptly means...",
+      "options": [
+        "to wait until next term",
+        "to help without unnecessary delay",
+        "to help only when a crowd is watching",
+        "to refuse and explain later"
+      ],
+      "answer": "B",
+      "explanation": "Promptly means at the right time, without needless delay.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Borrowing means...",
+      "answer": "Using something that still belongs to the owner and will be returned.",
+      "explanation": "Matthew 5:42 speaks about both giving and borrowing.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "The need is too big for a child. The right action is:",
+      "options": [
+        "ignore it",
+        "tell a parent, teacher or church leader",
+        "go with a stranger who offers money",
+        "take someone else's property"
+      ],
+      "answer": "B",
+      "explanation": "Big needs are reported to responsible adults.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Boasting after you share...",
+      "options": [
+        "is the main point of kindness",
+        "is not the spirit of quiet help",
+        "is required by Matthew 5:42",
+        "replaces the gift"
+      ],
+      "answer": "B",
+      "explanation": "Kindness does not need boasting.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "You have a spare rubber and a classmate asks during the lesson. What should you do?",
+      "answer": "Lend it promptly, because Matthew 5:42 says not to turn away from the one who wants to borrow.",
+      "explanation": "A small school need can be met at once.",
+      "outcome": "c",
+      "check": null
+    }
   ],
   "sources": [
     "KICD Grade 4 Christian Religious Education Curriculum Design (Revised 2024) — Strand 3.0 The Life of Jesus Christ, Sub-strand 3.7 Helping the Needy",

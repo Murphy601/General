@@ -1,0 +1,204 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "3.3.1",
+  "title": "Kuandika: Kuandika kwa Tarakilishi",
+  "overview": "Tarakilishi inakusaidia kuandika, kuhariri na kuhifadhi kazi. Utajifunza sehemu zake za msingi, jinsi ya kuifungua na kuifunga, na jinsi ya kuandika aya kuhusu mavazi. Pia utahariri uakifishaji, kuhifadhi faili, na kutumia mtandao kwa uangalifu.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Sehemu za tarakilishi na kuifungua",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kutaja kiibodi, kipanya, kiwambo, kitufe na faili.",
+        "Kueleza kazi ya kila sehemu.",
+        "Kufuata hatua za kufungua na kufunga tarakilishi."
+      ],
+      "intro": "Kabla hujaandika neno kuhusu shati au sketi kwenye tarakilishi, unahitaji kujua unachobonyeza. Kiwambo kinaonyesha kazi. Kiibodi inaandika. Kipanya kinachagua. Ukizijua sehemu hizi, mashine inakuwa chombo, si kitendawili.",
+      "notes": "### Sehemu za msingi\n- **Kiwambo** ni sehemu unayoiona maandishi na picha. Neno linaloandikwa linaonekana hapo.\n- **Kiibodi** ina vitufe vya herufi, nambari na nafasi. Unabonyeza kitufe ili herufi ionekane kwenye kiwambo.\n- **Kipanya** kinasogeza kishale. Unabofya ili uchague neno, menyu au kitufe kilicho kwenye kiwambo.\n- **Kitufe** ni kinachobonyezwa. Kuna kitufe cha kuwasha mashine, na vitufe vya kuandika.\n- **Faili** ni mahali kazi iliyohifadhiwa inapowekwa. Faili hupewa jina ili uipate tena, kwa mfano Mavazi yangu.\n\nSehemu hizi hufanya kazi pamoja. Bila kiwambo huoni ulichoandika. Bila kiibodi huandiki herufi. Bila kuhifadhi kwenye faili, kazi inapotea ukizima mashine.\n\n### Kufungua\n1. Hakikisha tarakilishi imeunganishwa na umeme, au betri yake ina nguvu.\n2. Bonyeza kitufe cha kuwasha.\n3. Subiri kiwambo kionyeshe picha ya kuanzia. Usibonyeze vitufe vingi wakati inaanza.\n4. Tumia kipanya kufungua programu ya kuandika.\n5. Bofya ndani ya ukurasa, kisha andika kwa kiibodi.\n\n### Kufunga\nUkimaliza, hifadhi kazi kwenye faili kwanza. Kisha funga programu. Mwishoni zima tarakilishi kwa amri ya kuzima inayoonekana kwenye kiwambo. Usiondoe waya wa umeme ghafla, kwa sababu faili inaweza kuharibika. Tunasubiri mashine ijizime, kisha tunaondoka.\n\nKazi hii hufanywa kwa zamu. Mshike kipanya kwa upole na usiweke chakula karibu na kiibodi.",
+      "keyWords": [
+        { "word": "kiwambo", "meaning": "sehemu ya tarakilishi inayoonyesha maandishi na picha" },
+        { "word": "kiibodi", "meaning": "sehemu yenye vitufe vya kuandika herufi" },
+        { "word": "kipanya", "meaning": "kifaa kinachosogeza kishale kwenye kiwambo" },
+        { "word": "faili", "meaning": "mahali kazi iliyohifadhiwa inapowekwa, ikiwa na jina" }
+      ],
+      "examples": [
+        {
+          "problem": "Unataka herufi ionekane kwenye ukurasa. Unatumia sehemu gani?",
+          "steps": ["Kishale kinahitaji kipanya.", "Herufi zinahitaji kiibodi."],
+          "answer": "Kiibodi.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini usiondoe waya wa umeme ghafla?",
+          "steps": ["Mashine bado inafanya kazi.", "Faili inaweza kuharibika."],
+          "answer": "Kwa sababu kazi iliyohifadhiwa inaweza kuharibika. Zima kwa amri ya kuzima kwanza.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tambua sehemu na uwashe mashine",
+        "materials": ["Tarakilishi", "Mchoro wa sehemu zake"],
+        "steps": [
+          "Kwa vikundi, onyesheni kiibodi, kipanya, kiwambo na kitufe cha kuwasha.",
+          "Mwelezeni mwenzako kazi ya kila sehemu kwa maneno yenu.",
+          "Kwa zamu, fungueni tarakilishi kwa kufuata hatua, mwalimu akiwa karibu.",
+          "Fungueni programu ya kuandika na mwandike jina lenu.",
+          "Hifadhini faili, fungeni programu, kisha zimeni tarakilishi kwa amri sahihi."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 200\" font-family=\"sans-serif\"><rect width=\"520\" height=\"200\" fill=\"#ffffff\"/><rect x=\"150\" y=\"16\" width=\"220\" height=\"120\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"3\"/><text x=\"260\" y=\"82\" text-anchor=\"middle\" font-size=\"16\" fill=\"#1d4ed8\">kiwambo</text><rect x=\"170\" y=\"150\" width=\"180\" height=\"36\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#334155\"/><text x=\"260\" y=\"173\" text-anchor=\"middle\" font-size=\"14\" fill=\"#111827\">kiibodi</text><ellipse cx=\"400\" cy=\"168\" rx=\"28\" ry=\"18\" fill=\"#ecfdf5\" stroke=\"#166534\" stroke-width=\"2\"/><text x=\"400\" y=\"172\" text-anchor=\"middle\" font-size=\"12\" fill=\"#166534\">kipanya</text><circle cx=\"120\" cy=\"40\" r=\"14\" fill=\"#fef3c7\" stroke=\"#b45309\"/><text x=\"120\" y=\"68\" text-anchor=\"middle\" font-size=\"12\" fill=\"#b45309\">kitufe</text></svg>",
+        "caption": "Sehemu za msingi za tarakilishi: kiwambo, kiibodi, kipanya na kitufe"
+      },
+      "practice": [
+        { "question": "Kiwambo ni nini?", "answer": "Ni sehemu inayoonyesha maandishi na picha.", "check": null },
+        { "question": "Tofautisha kiibodi na kipanya.", "answer": "Kiibodi inaandika herufi. Kipanya kinasogeza kishale na kuchagua.", "check": null },
+        { "question": "Faili ni nini?", "answer": "Ni mahali kazi iliyohifadhiwa inapowekwa, nalo hupewa jina.", "check": null },
+        { "question": "Taja hatua ya mwisho ya kufunga tarakilishi.", "answer": "Kuizima kwa amri ya kuzima, si kuondoa waya ghafla.", "check": null }
+      ],
+      "summary": [
+        "Kiwambo huonyesha, kiibodi huandika, kipanya huchagua, faili huhifadhi.",
+        "Washa mashine, subiri, kisha fungua programu ya kuandika.",
+        "Hifadhi kazi kabla ya kuzima kwa amri sahihi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kuandika, kuhariri na kuhifadhi",
+      "outcomes": ["c", "d", "e", "f"],
+      "objectives": [
+        "Kuandika aya kuhusu mavazi kwa chapa koza, italiki na mistari.",
+        "Kuhariri uakifishaji.",
+        "Kuhifadhi faili na kushiriki kwa usalama."
+      ],
+      "intro": "Ukurasa uko wazi. Sasa unaandika aya kuhusu nguo unazovaa shuleni. Baada ya kuandika, unasoma tena ili kikomo, koma na kiulizi viwe mahali pake. Kisha unahifadhi faili kwa jina utakalokumbuka kesho.",
+      "notes": "### Kuandika aya\nChagua programu ya kuandika. Andika sentensi kamili kuhusu mavazi. Mfano:\n\nSare yangu ina shati jeupe na sketi ya rangi ya samawati. Ninaivaa kila siku ya shule. Nguo safi hunifanya nihisi tayari kusoma.\n\nUnaweza kutumia mitindo mitatu panapofaa, si kila neno.\n- **Chapa koza** hufanya herufi kuwa nzito. Inafaa kichwa, kama MAVAZI YANGU.\n- **Italiki** huinamisha herufi. Inafaa neno unalotaka kulisisitiza, kama neno moja tu.\n- **Kupigia mistari** huweka mstari chini ya neno muhimu.\n\nUsiweke kila sentensi kwa koza. Kichwa peke yake kinatosha.\n\n### Kuhariri uakifishaji\nSoma aya kwa sauti ndogo.\n- Kikomo (.) huishia sentensi elezi.\n- Koma (,) hutenganisha vitu katika orodha: shati, sketi na sweta.\n- Kiulizi (?) huambatana na swali.\n- Alama ya mshangao (!) huambatana na hisia kali, si kila sentensi.\n\nSahihisha herufi kubwa mwanzoni mwa sentensi na kwenye majina ya watu. Ukimwona neno limeandikwa vibaya, libadilishe kabla ya kuhifadhi.\n\n### Kuhifadhi na kushiriki\nBofya amri ya kuhifadhi. Ipe faili jina fupi, kama Mavazi yangu. Hakikisha imehifadhiwa kabla ya kufunga. Ukipata ruhusa, unaweza kuituma kwa mwalimu na wenzako ili waitathmini. Usitumie mtandao usiojulikana, usiandike nenosiri lako, wala usishiriki picha ya kibinafsi. Uliza mtu mzima kama hukuthibitishi ukurasa.\n\nKujenga mazoea: andika aya fupi kwa tarakilishi kila unapopata nafasi, kisha hifadhi. Mazoea haya yatakufanya uandike upesi na kwa usafi.",
+      "keyWords": [
+        { "word": "chapa koza", "meaning": "herufi nzito zinazotumiwa kusisitiza, hasa kichwani" },
+        { "word": "italiki", "meaning": "herufi zinazoinama" },
+        { "word": "kuhariri", "meaning": "kusoma tena na kusahihisha makosa" },
+        { "word": "kuhifadhi", "meaning": "kuweka kazi kwenye faili ili isipotee" }
+      ],
+      "examples": [
+        {
+          "problem": "Unataka kichwa MAVAZI YANGU kionekane zaidi. Unatumia mtindo gani?",
+          "steps": ["Kichwa linahitaji herufi nzito.", "Hicho ni chapa koza, si italiki kwa kila neno."],
+          "answer": "Chapa koza.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha uakifishaji: nina shati sketi na sweta",
+          "steps": ["Anza kwa herufi kubwa.", "Weka koma kati ya vitu.", "Maliza kwa kikomo."],
+          "answer": "Nina shati, sketi na sweta.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika aya ya mavazi na uihifadhi",
+        "materials": ["Tarakilishi", "Programu ya kuandika"],
+        "steps": [
+          "Fungua programu ya kuandika kwa hatua ulizojifunza.",
+          "Andika kichwa kwa chapa koza: MAVAZI YANGU.",
+          "Andika aya ya sentensi tatu kuhusu sare au nguo za nyumbani.",
+          "Hariri vikomo, koma na herufi kubwa.",
+          "Hifadhi faili kwa jina linaloeleweka. Ukipewa ruhusa, itume kwa mwalimu bila kufungua tovuti zisizojulikana."
+        ]
+      },
+      "practice": [
+        { "question": "Chapa koza, italiki na kupigia mistari vinatofautianaje kwa ufupi?", "answer": "Koza hufanya herufi nzito; italiki huinamisha; mistari huwekwa chini ya neno.", "check": null },
+        { "question": "Sahihisha: je unavaa sare", "answer": "Je, unavaa sare?", "check": null },
+        { "question": "Kwa nini faili ipewe jina?", "answer": "Ili uipate tena kesho bila kuichanganya na kazi nyingine.", "check": null },
+        { "question": "Taja jambo moja la usalama unapotuma kazi mtandaoni.", "answer": "Kutotuma kupitia tovuti isiyojulikana, na kutoandika nenosiri.", "check": null }
+      ],
+      "summary": [
+        "Andika aya kuhusu mavazi, kichwa kikiwa kwa chapa koza.",
+        "Hariri kikomo, koma, kiulizi na herufi kubwa.",
+        "Hifadhi faili kwa jina, kisha shiriki kwa usalama tu."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kiwambo hufanya kazi gani?",
+      "options": ["Huonyesha maandishi na picha", "Huandika bila kuonyesha", "Huhifadhi chakula", "Hupiga deki"],
+      "answer": "A",
+      "explanation": "Kiwambo ni sehemu unayoona unachokiandika.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Herufi huandikwa kwa kutumia nini?",
+      "options": ["kipanya peke yake", "kiibodi", "faili iliyofungwa", "waya wa umeme"],
+      "answer": "B",
+      "explanation": "Kiibodi ina vitufe vya herufi.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Kipanya kinatumika kufanya nini?",
+      "options": ["Kupika", "Kusogeza kishale na kuchagua", "Kupima nguo", "Kuimba"],
+      "answer": "B",
+      "explanation": "Kipanya kinachagua vitu vilivyo kwenye kiwambo.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Hatua sahihi ya kufunga ni ipi?",
+      "options": ["Ondoa waya ghafla", "Hifadhi, funga programu, kisha zima kwa amri", "Bonyeza herufi zote", "Ficha kipanya"],
+      "answer": "B",
+      "explanation": "Kuhifadhi kwanza hulinda kazi, na kuzima kwa amri hulinda faili.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Chapa koza ni nini?",
+      "options": ["herufi nzito", "herufi zilizofutwa", "picha ya kipanya", "koma"],
+      "answer": "A",
+      "explanation": "Chapa koza hufanya herufi kuwa nzito, hasa kwenye kichwa.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Italiki inaonekana vipi?",
+      "options": ["herufi zinazoinama", "herufi zilizopigwa kwa rangi ya chakula", "nambari tu", "kiwambo kilichozimika"],
+      "answer": "A",
+      "explanation": "Italiki ni herufi zinazoinama.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi imeakifishwa vizuri?",
+      "options": ["nina shati sketi na sweta", "Nina shati, sketi na sweta.", "nina shati sketi na sweta?", "Nina shati sketi na sweta"],
+      "answer": "B",
+      "explanation": "Inaanza kwa herufi kubwa, ina koma, na inaishia kwa kikomo.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Faili huhifadhiwa ili nini?",
+      "options": ["ili kazi ipotee", "ili uipate tena kwa jina lake", "ili kuzima kiibodi", "ili kuficha kiwambo"],
+      "answer": "B",
+      "explanation": "Jina la faili hukusaidia kuipata kesho.",
+      "outcome": "e",
+      "check": null
+    },
+    {
+      "question": "Ni lipi si salama unapotuma kazi mtandaoni?",
+      "options": ["Kuuliza mwalimu", "Kuandika nenosiri kwenye ukurasa usiojulikana", "Kuhifadhi faili kwanza", "Kutuma kwa mwalimu uliyeruhusiwa"],
+      "answer": "B",
+      "explanation": "Hujiandiki nenosiri kwenye ukurasa usiojulikana.",
+      "outcome": "f",
+      "check": null
+    },
+    {
+      "question": "Andika jina la faili linalofaa aya kuhusu nguo zako.",
+      "answer": "Mfano: Mavazi yangu",
+      "explanation": "Jina fupi na linaloeleweka hukusaidia kuipata faili.",
+      "outcome": "e",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 3.0 Mavazi, Mada Ndogo 3.3.1 Kuandika: Kuandika kwa Tarakilishi"
+  ]
+}

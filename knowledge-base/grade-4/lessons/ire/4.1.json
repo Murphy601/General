@@ -1,0 +1,232 @@
+{
+  "subject": "ISLAMIC RELIGIOUS EDUCATION",
+  "subStrand": "4.1",
+  "title": "Twahara (Ritual Purity)",
+  "overview": "Swalah is not valid if najasa, impurity, remains on the body, the clothes or the place of prayer. In this sub-strand you will name the three types of najasaat, learn what is used to remove them, and practise the right way to purify each type.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Three types of najasaat",
+      "outcomes": ["a"],
+      "objectives": [
+        "Name the three types of najasaat.",
+        "Give an example of each type.",
+        "Explain why a Muslim learns these types."
+      ],
+      "intro": "A clean shirt in the ordinary sense may still be unfit for swalah if najasa is on the sleeve. Islam sorts impurities into three types so that each one is removed in the right way.",
+      "notes": "### Twahara and najasa\nTwahara means ritual purity. Najasa (the plural is najasaat) means an impurity that must be removed before ibadah such as swalah. Ordinary dust on the feet is not the same as urine on a garment. The three types you must outline are mukhaffafah, mutawassitah and mughalladha.\n\n### Najasa mukhaffafah, the light impurity\nThis is the urine of a baby boy who is still fed only on milk and has not started to eat other food. It is called light because the way of cleaning it is lighter than a full wash. The urine of a baby girl, and the urine of a boy who has begun to eat food, is not in this light group.\n\n### Najasa mutawassitah, the medium impurity\nThis is the common group. It includes urine, stool, blood, pus, vomit and intoxicating drinks, and other impurities that are neither the light type nor the heavy type. Most najasa a learner meets at home is medium.\n\n### Najasa mughalladha, the heavy impurity\nThis is the impurity of a dog or a pig, including their saliva and what comes from their bodies. It is called heavy because it needs a stronger wash than ordinary najasa.\n\nLearn the three Arabic names with their English labels: mukhaffafah or light, mutawassitah or medium, and mughalladha or heavy. Knowing the type is the first step. The next lesson shows how each type is purified, because the wrong method does not complete twahara.",
+      "keyWords": [
+        { "word": "twahara", "meaning": "ritual purity" },
+        { "word": "najasa", "meaning": "impurity that must be removed for worship" },
+        { "word": "mukhaffafah, mutawassitah, mughalladha", "meaning": "light, medium and heavy types of najasa" }
+      ],
+      "examples": [
+        {
+          "problem": "Sort these into light, medium or heavy: urine of a breastfed baby boy who eats no other food; blood from a cut; saliva of a dog.",
+          "steps": [
+            "The baby boy’s urine, while he takes only milk, is mukhaffafah.",
+            "Blood is mutawassitah.",
+            "Dog saliva is mughalladha."
+          ],
+          "answer": "Light: the baby boy’s urine. Medium: the blood. Heavy: the dog’s saliva.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Name and sort the najasaat",
+        "materials": ["Three labelled cards: Light, Medium, Heavy", "Example cards", "Notebook"],
+        "steps": [
+          "Say the three names together: mukhaffafah, mutawassitah and mughalladha.",
+          "Sort the example cards under the three headings.",
+          "Explain to a partner why the urine of a baby girl is not placed in the light group.",
+          "Write the three types and one example of each in your notebook."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 140\" font-family=\"sans-serif\"><rect width=\"440\" height=\"140\" fill=\"#ffffff\"/><text x=\"220\" y=\"22\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"bold\" fill=\"#14532d\">Types of najasaat</text><g font-size=\"12\" fill=\"#111827\"><rect x=\"12\" y=\"40\" width=\"130\" height=\"80\" rx=\"6\" fill=\"#f0fdf4\" stroke=\"#166534\"/><text x=\"77\" y=\"62\" text-anchor=\"middle\">Mukhaffafah</text><text x=\"77\" y=\"82\" text-anchor=\"middle\">Light</text><text x=\"77\" y=\"102\" text-anchor=\"middle\">Sprinkle water</text><rect x=\"155\" y=\"40\" width=\"130\" height=\"80\" rx=\"6\" fill=\"#ecfdf5\" stroke=\"#166534\"/><text x=\"220\" y=\"62\" text-anchor=\"middle\">Mutawassitah</text><text x=\"220\" y=\"82\" text-anchor=\"middle\">Medium</text><text x=\"220\" y=\"102\" text-anchor=\"middle\">Wash with water</text><rect x=\"298\" y=\"40\" width=\"130\" height=\"80\" rx=\"6\" fill=\"#dcfce7\" stroke=\"#166534\"/><text x=\"363\" y=\"62\" text-anchor=\"middle\">Mughalladha</text><text x=\"363\" y=\"82\" text-anchor=\"middle\">Heavy</text><text x=\"363\" y=\"102\" text-anchor=\"middle\">Seven washes</text></g></svg>",
+        "caption": "The three types of najasa and the cleaning each one needs"
+      },
+      "practice": [
+        { "question": "Name the three types of najasaat in Arabic and in English.", "answer": "Mukhaffafah (light), mutawassitah (medium) and mughalladha (heavy).", "check": null },
+        { "question": "Give one example of najasa mukhaffafah.", "answer": "The urine of a baby boy who is fed only on milk and has not started other food.", "check": null },
+        { "question": "Give one example of najasa mughalladha.", "answer": "The saliva or body impurity of a dog or a pig.", "check": null }
+      ],
+      "summary": [
+        "Najasa is impurity that prevents ritual purity.",
+        "The three types are light, medium and heavy.",
+        "The light type in this lesson is the urine of a milk-fed baby boy."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "How to purify each najasa",
+      "outcomes": ["b"],
+      "objectives": [
+        "Name the items used to remove najasa.",
+        "Demonstrate the method for light, medium and heavy najasa.",
+        "State when a place or a cloth is clean enough for swalah."
+      ],
+      "intro": "Water is the main purifier in Islam. Soil is added for the heavy type. This lesson uses those items in the right number of washes so that the impurity really goes.",
+      "notes": "### Items used\nThe items you should be able to present are:\n\n- Clean water, which is the main means of purification\n- Clean soil, used in one of the washes for heavy najasa\n- Gloves, a brush or soap to help lift the substance before the ritual wash, especially for medium najasa\n\nSoap helps to remove smell and colour. It does not replace water. A dry wipe that leaves urine on the cloth has not purified it.\n\n### Light najasa\nFor the urine of a milk-fed baby boy, sprinkle clean water over the affected part of the cloth or body. You do not have to wring and scrub it as you do for medium najasa. If the child is a girl, or the boy has started to eat other food, treat the urine as medium najasa and wash it.\n\n### Medium najasa\nRemove the impurity itself. Then wash with clean water until the colour, the smell and the taste of the najasa have gone. Once is enough if that wash removes them. If the smell remains, wash again. Blood on a sleeve, stool on a shoe, or vomit on a cloth are cleaned in this way. The place of prayer is washed in the same manner if najasa fell on it.\n\n### Heavy najasa\nWash the affected place seven times with clean water. One of those seven washes is done with soil mixed into the water, so that the heavy impurity of a dog or a pig is removed. Count the washes carefully. After the seven, the place should have no remaining impurity.\n\nDemonstrate with a clean cloth and plain water in class so that the actions are learned without handling real najasa. At home, a parent guides the real cleaning.",
+      "keyWords": [
+        { "word": "purify", "meaning": "to remove najasa so that the thing becomes fit for ibadah" },
+        { "word": "clean water", "meaning": "water that is itself free from najasa and can be used for washing" }
+      ],
+      "examples": [
+        {
+          "problem": "A dog’s saliva falls on a prayer cloth. A drop of urine from a milk-fed baby boy falls on another cloth. How is each cloth purified?",
+          "steps": [
+            "Dog saliva is heavy: wash seven times, one of them with soil.",
+            "The baby boy’s urine is light: sprinkle water over the spot.",
+            "Water is used in both, but the method is not the same."
+          ],
+          "answer": "The dog’s saliva needs seven washes, one with soil. The baby boy’s urine is purified by sprinkling water.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Present the items and demonstrate the washes",
+        "materials": ["A bottle of clean water", "A little clean soil in a container", "Two clean cloths", "Soap"],
+        "steps": [
+          "In groups, list the items used to purify najasa and present them to the class.",
+          "Demonstrate sprinkling for light najasa on one cloth.",
+          "Demonstrate washing until you would have removed colour and smell for medium najasa, using water on a clean cloth.",
+          "Demonstrate counting seven washes for heavy najasa, and show where the soil wash fits. Do not use a real dog or pig."
+        ]
+      },
+      "practice": [
+        { "question": "What is the main item used to purify najasa?", "answer": "Clean water.", "check": null },
+        { "question": "How is najasa mukhaffafah removed?", "answer": "By sprinkling clean water over the affected place.", "check": null },
+        { "question": "How is najasa mughalladha removed?", "answer": "By washing seven times with clean water, one of the washes being with soil.", "check": null },
+        { "question": "When is medium najasa considered removed?", "answer": "When the impurity has been washed away so that its colour, smell and taste are gone.", "check": null }
+      ],
+      "summary": [
+        "Clean water purifies najasa. Soil is used in one wash of the heavy type.",
+        "Light najasa is sprinkled. Medium najasa is washed until it is gone. Heavy najasa is washed seven times.",
+        "Soap can help, but it does not replace water."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Purity as a condition for ibadah",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Explain why swalah needs a body, clothes and place free from najasa.",
+        "Choose the right cleaning method for a new example.",
+        "Show that ritual cleanliness is valued, not optional."
+      ],
+      "intro": "You can be kind, and you can know every surah, and the swalah is still not ready if najasa is on the shirt. Ritual cleanliness is a condition of worship, which is why a Muslim removes it before saying Allahu Akbar.",
+      "notes": "### Where najasa must not remain\nFor swalah, three places are checked:\n\n- The body, including the face, arms and feet that will touch the ground\n- The clothes worn in the prayer\n- The place where the forehead, hands, knees and feet will rest\n\nIf najasa is on any of these, it is removed by the method of its type before the prayer. A person who cannot remove it in time, and who has no clean cloth, asks a teacher or a parent what to do. We do not pretend it is clean.\n\n### Why this is part of ibadah\nAllah loves those who repent and those who purify themselves. Twahara is not a fussy extra. It is respect for the prayer in which you recite Al-Fatiha and speak to Al-Malik. Standing before Allah in clothes you know are soiled, when you were able to wash them, does not match that respect. Personal hygiene and ritual purity meet here: a Muslim also uses the toilet cleanly, washes after it, and keeps the prayer place swept.\n\n### Acknowledging the condition\nValue cleanliness by acting before the adhan, not after you have already started. Check the dress, check the mat, and remember the three types so that you do not sprinkle what should be washed seven times, or scrub a light impurity as if the method did not matter. When you do this, you are acknowledging that ritual cleanliness is a condition for ibadah.",
+      "keyWords": [
+        { "word": "condition", "meaning": "something that must be in place for the worship to be valid" },
+        { "word": "ibadah", "meaning": "worship" }
+      ],
+      "examples": [
+        {
+          "problem": "Just before Maghrib, Ali sees blood from a small cut on his shirt sleeve, and the prayer mat is clean. What does he do, and why?",
+          "steps": [
+            "Blood is medium najasa.",
+            "He washes the sleeve with clean water until the blood is gone, or he changes the shirt.",
+            "He does this before swalah because purity of clothes is required."
+          ],
+          "answer": "He washes off the blood or changes the shirt before praying, because clothes must be free from najasa.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Purify, then prepare for swalah",
+        "materials": ["Water", "A clean cloth", "A prayer mat", "Three case cards"],
+        "steps": [
+          "In pairs, read a case card: light, medium or heavy najasa on a cloth.",
+          "Demonstrate the correct purification without using real najasa.",
+          "Show a body, a shirt and a mat being checked before swalah.",
+          "Explain to the class why you would not begin Allahu Akbar until the najasa is removed."
+        ]
+      },
+      "practice": [
+        { "question": "Name the three things that must be free from najasa for swalah.", "answer": "The body, the clothes and the place of prayer.", "check": null },
+        { "question": "Blood falls on a kanzu. Which type is it, and how is it cleaned?", "answer": "It is medium najasa. Wash it with clean water until the colour, smell and taste are gone.", "check": null },
+        { "question": "Why is ritual cleanliness called a condition for ibadah?", "answer": "Swalah is not properly ready while najasa remains on the body, clothes or place, if the person is able to remove it.", "check": null }
+      ],
+      "summary": [
+        "Body, clothes and place of prayer must be free from najasa.",
+        "Each type of najasa is removed by its own method.",
+        "Cleaning before swalah shows that purity is a condition of worship."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "The three types of najasaat are…",
+      "options": ["Fajr, Dhuhr and Asr", "Mukhaffafah, mutawassitah and mughalladha", "Niyyah, rukuu and sujud", "Jibril, Mikail and Israfil"],
+      "answer": "B",
+      "explanation": "They are the light, medium and heavy impurities.",
+      "outcome": "a"
+    },
+    {
+      "question": "Najasa mukhaffafah in this lesson is…",
+      "options": ["The saliva of a dog", "The urine of a milk-fed baby boy who has not started other food", "Any dust", "Ink on a book"],
+      "answer": "B",
+      "explanation": "That urine is the light impurity and is cleaned by sprinkling.",
+      "outcome": "a"
+    },
+    {
+      "question": "Which impurity is mughalladha?",
+      "options": ["Clean rainwater", "Dog saliva", "Sweat from playing", "A dry leaf"],
+      "answer": "B",
+      "explanation": "Dog and pig impurities are the heavy type.",
+      "outcome": "a"
+    },
+    {
+      "question": "Blood on a sleeve is cleaned as which type?",
+      "options": ["Light, by ignoring it", "Medium, by washing with water", "Heavy, always with seven soil washes", "It is not najasa"],
+      "answer": "B",
+      "explanation": "Blood is medium najasa and is washed until it is gone.",
+      "outcome": "b"
+    },
+    {
+      "question": "How is heavy najasa purified?",
+      "options": ["By sprinkling once", "By washing seven times, one of them with soil", "By leaving it in the sun only", "By covering it with a scarf"],
+      "answer": "B",
+      "explanation": "The seven washes include one wash with soil.",
+      "outcome": "b"
+    },
+    {
+      "question": "What is the main item used to remove najasa?",
+      "answer": "Clean water.",
+      "explanation": "Soil is added for one wash of heavy najasa. Soap can help but does not replace water.",
+      "outcome": "b"
+    },
+    {
+      "question": "The urine of a baby girl is purified by…",
+      "options": ["Sprinkling, like the milk-fed baby boy", "Washing, because it is not the light type taught for that baby boy", "Ignoring it", "Seven washes with soil in every case"],
+      "answer": "B",
+      "explanation": "The light category in this lesson is the urine of a milk-fed baby boy, not a baby girl.",
+      "outcome": "b"
+    },
+    {
+      "question": "Which three must be free from najasa for swalah?",
+      "options": ["Hat, socks and belt only", "Body, clothes and place of prayer", "Notebook, pen and desk", "Only the prayer mat, not the shirt"],
+      "answer": "B",
+      "explanation": "Najasa on the body, the clothes or the place affects the prayer.",
+      "outcome": "c"
+    },
+    {
+      "question": "Why is twahara a condition for ibadah?",
+      "answer": "Because swalah requires ritual purity, including freedom from najasa on the body, clothes and place.",
+      "explanation": "A Muslim removes najasa before beginning the prayer when able to do so.",
+      "outcome": "c"
+    },
+    {
+      "question": "Soap on a cloth that still has urine on it…",
+      "options": ["Has completed the purification by itself", "Has not replaced the wash with clean water", "Is the method for light najasa only", "Counts as the seven washes"],
+      "answer": "B",
+      "explanation": "Soap may help remove the substance, but clean water is required for the purification.",
+      "outcome": "b"
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Islamic Religious Education Curriculum Design (Revised 2024) — Strand 4.0 Devotional Acts, Sub-strand 4.1 Twahara (Ritual Purity)",
+    "Islamic fiqh as taught for this sub-strand: najasa mukhaffafah, mutawassitah and mughalladha, and their methods of purification"
+  ]
+}

@@ -7,7 +7,10 @@
     {
       "number": 1,
       "title": "Why we forgive",
-      "outcomes": ["a", "b"],
+      "outcomes": [
+        "a",
+        "b"
+      ],
       "objectives": [
         "Outline the importance of forgiving others.",
         "Explain Matthew 5:39 and resist vengeance."
@@ -15,13 +18,26 @@
       "intro": "A slap hurts. The first wish is often to slap back. Jesus gives a different command in Matthew 5:39. Forgiveness refuses to take revenge.",
       "notes": "Matthew 5:39 says: do not resist an evil person. If anyone slaps you on the right cheek, turn to them the other cheek also. The design spells the Gospel \"Mathew\" in one place and \"Matthew\" in another. The verse is the same. Read it, write it, and recite it.\n\n### What the verse means\nA slap on the cheek is an insult as well as a pain. Turning the other cheek means you do not pay the insult back with another insult or another blow. Vengeance is paying back harm for harm. Jesus tells His followers to resist that wish.\n\nThe verse does not tell you to stay in a dangerous secret. If someone is beating you, abusing you, or threatening you, you still tell a parent, a teacher or the police. Refusing revenge is not the same as hiding harm. You can report the harm and still refuse to strike back.\n\n### Why forgiveness is important\n- Jesus commands it.\n- Revenge multiplies fights. Forgiveness stops the chain.\n- Forgiveness keeps peace in the class and at home.\n- It frees your own heart from staying angry, which Ephesians 4:26 also warns against.\n- It shows love for the person who wronged you.\n- God forgives people who repent. We are to forgive others.\n\n### Resisting vengeance\nWhen you are wronged, pause. Do not lift your hand. Do not plan a later attack. Say, \"I will not pay back evil.\" Pray. If you need justice, tell a responsible adult and let that adult handle the matter. Role-play a push in the corridor: one learner is pushed, and instead of pushing back says, \"Stop. I forgive you,\" and walks away to tell the teacher if the pushing continues.\n\nWrite Matthew 5:39, display it in class, and recite it until it comes to mind before your fist does.",
       "keyWords": [
-        { "word": "forgiveness", "meaning": "letting go of the wish to punish someone who wronged you" },
-        { "word": "vengeance", "meaning": "paying back harm with harm" },
-        { "word": "resist", "meaning": "to refuse to give in" }
+        {
+          "word": "forgiveness",
+          "meaning": "letting go of the wish to punish someone who wronged you"
+        },
+        {
+          "word": "vengeance",
+          "meaning": "paying back harm with harm"
+        },
+        {
+          "word": "resist",
+          "meaning": "to refuse to give in"
+        }
       ],
       "activity": {
         "title": "Read Matthew 5:39 and role-play",
-        "materials": ["Bible", "Manila paper", "Marker"],
+        "materials": [
+          "Bible",
+          "Manila paper",
+          "Marker"
+        ],
         "steps": [
           "Read Matthew 5:39 and say why it is important to forgive others.",
           "Write the verse on manila paper, display it in class, and recite it.",
@@ -30,10 +46,26 @@
         ]
       },
       "practice": [
-        { "question": "What does Matthew 5:39 say about a slap on the right cheek?", "answer": "Do not strike back. Turn the other cheek also.", "check": null },
-        { "question": "What is vengeance?", "answer": "Paying back harm with harm.", "check": null },
-        { "question": "Give two reasons why forgiveness is important.", "answer": "Any two: Jesus commands it; it stops fights; it brings peace; it frees the heart; it shows love; God forgives, so we forgive.", "check": null },
-        { "question": "If someone is abusing you, does forgiveness mean you keep it secret?", "answer": "No. Tell a trusted adult. Forgiveness refuses revenge. It does not hide harm.", "check": null }
+        {
+          "question": "What does Matthew 5:39 say about a slap on the right cheek?",
+          "answer": "Do not strike back. Turn the other cheek also.",
+          "check": null
+        },
+        {
+          "question": "What is vengeance?",
+          "answer": "Paying back harm with harm.",
+          "check": null
+        },
+        {
+          "question": "Give two reasons why forgiveness is important.",
+          "answer": "Any two: Jesus commands it; it stops fights; it brings peace; it frees the heart; it shows love; God forgives, so we forgive.",
+          "check": null
+        },
+        {
+          "question": "If someone is abusing you, does forgiveness mean you keep it secret?",
+          "answer": "No. Tell a trusted adult. Forgiveness refuses revenge. It does not hide harm.",
+          "check": null
+        }
       ],
       "summary": [
         "Matthew 5:39 teaches us not to strike back.",
@@ -44,7 +76,9 @@
     {
       "number": 2,
       "title": "Do not repay evil for evil",
-      "outcomes": ["c"],
+      "outcomes": [
+        "c"
+      ],
       "objectives": [
         "Explain what it means not to repay evil for evil.",
         "Choose a peaceful response when wronged."
@@ -52,13 +86,24 @@
       "intro": "Evil repaid with evil makes two wrongs. Jesus' followers appreciate forgiveness by choosing a different path. They do not answer an unkind act with another unkind act.",
       "notes": "To repay evil for evil means to answer a wrong with a matching wrong. Someone insults you, so you insult them. Someone hides your book, so you hide theirs. Someone gossips, so you spread a worse story. Matthew 5:39 rules this out. Appreciating forgiveness means you value it enough to practise it.\n\n### Peaceful responses\n- Speak calmly: \"Please stop.\"\n- Move away from the quarrel.\n- Forgive in your heart and, when it is safe, say so.\n- Pray for the person.\n- Tell a teacher if the wrong continues or if you are hurt.\n- Sing about loving others so that love, not revenge, stays in your mouth.\n\nPeace grows where learners practise reconciliation. Reconciliation means becoming friends again after a wrong. It needs an apology and forgiveness. If the other person is not ready, you can still refuse to repay evil. You do not have to wait for a perfect apology before you drop the plan for revenge.\n\n### What forgiveness is not\nIt is not saying that wrong is right. The slap was still wrong. It is not letting a bully rule the class. Tell the teacher. It is not a feeling that arrives before you decide. You may still feel hurt and choose not to strike back.\n\nLove is the value underneath this lesson. A song about loving others helps the class remember that the person who wronged you is still a person God made. Treat that person with peace, and let God and the rightful adults deal with justice.",
       "keyWords": [
-        { "word": "repay", "meaning": "to give back something in return" },
-        { "word": "reconciliation", "meaning": "becoming friends again after a wrong" },
-        { "word": "peace", "meaning": "living without fighting or revenge" }
+        {
+          "word": "repay",
+          "meaning": "to give back something in return"
+        },
+        {
+          "word": "reconciliation",
+          "meaning": "becoming friends again after a wrong"
+        },
+        {
+          "word": "peace",
+          "meaning": "living without fighting or revenge"
+        }
       ],
       "activity": {
         "title": "A song and a peaceful reply",
-        "materials": ["The displayed copy of Matthew 5:39"],
+        "materials": [
+          "The displayed copy of Matthew 5:39"
+        ],
         "steps": [
           "Recite Matthew 5:39 from the display in class.",
           "In pairs, practise a peaceful reply to an insult, without paying it back.",
@@ -67,9 +112,21 @@
         ]
       },
       "practice": [
-        { "question": "What does it mean to repay evil for evil?", "answer": "To answer a wrong action with another wrong action.", "check": null },
-        { "question": "Give one peaceful response when a classmate insults you.", "answer": "Any one: speak calmly, move away, forgive, pray, or tell a teacher if it continues.", "check": null },
-        { "question": "Does forgiving mean the wrong action was acceptable?", "answer": "No. The wrong is still wrong. Forgiveness refuses to pay it back with another wrong.", "check": null }
+        {
+          "question": "What does it mean to repay evil for evil?",
+          "answer": "To answer a wrong action with another wrong action.",
+          "check": null
+        },
+        {
+          "question": "Give one peaceful response when a classmate insults you.",
+          "answer": "Any one: speak calmly, move away, forgive, pray, or tell a teacher if it continues.",
+          "check": null
+        },
+        {
+          "question": "Does forgiving mean the wrong action was acceptable?",
+          "answer": "No. The wrong is still wrong. Forgiveness refuses to pay it back with another wrong.",
+          "check": null
+        }
       ],
       "summary": [
         "Do not answer a wrong with another wrong.",
@@ -79,16 +136,124 @@
     }
   ],
   "quiz": [
-    { "question": "Matthew 5:39 teaches that if someone slaps your right cheek you should...", "options": ["slap them harder", "turn the other cheek and not strike back", "plan revenge for later", "hide the verse"], "answer": "B", "explanation": "The verse says not to resist an evil person by striking back.", "outcome": "b", "check": null },
-    { "question": "Vengeance means...", "options": ["paying back harm with harm", "forgiving at once", "praying for an enemy", "telling the truth"], "answer": "A", "explanation": "Vengeance is revenge.", "outcome": "b", "check": null },
-    { "question": "Why is forgiveness important?", "answer": "Any one: Jesus commands it; it stops fights from growing; it brings peace; it shows love.", "explanation": "Forgiveness protects peace and obeys Jesus.", "outcome": "a", "check": null },
-    { "question": "Resisting vengeance means...", "options": ["giving in to the wish to hit back", "refusing to take revenge", "insulting louder", "hiding every wrong forever, including abuse"], "answer": "B", "explanation": "To resist vengeance is to refuse revenge. Serious harm is still reported.", "outcome": "b", "check": null },
-    { "question": "If a person is abusing you, forgiveness means you...", "options": ["keep it a secret", "strike back first", "tell a trusted adult and still refuse revenge", "repay them in secret"], "answer": "C", "explanation": "Reporting harm and refusing revenge belong together.", "outcome": "b", "check": null },
-    { "question": "Repaying evil for evil means...", "options": ["answering a wrong with another wrong", "forgiving", "sharing lunch", "reciting a verse"], "answer": "A", "explanation": "That pattern is what Jesus' teaching rules out.", "outcome": "c", "check": null },
-    { "question": "A classmate hides your book. A peaceful response is...", "options": ["hiding their book", "telling them calmly to return it, and telling the teacher if needed", "spreading a lie about them", "slapping them"], "answer": "B", "explanation": "You do not repay the wrong. You seek a peaceful and truthful solution.", "outcome": "c", "check": null },
-    { "question": "Forgiveness does not mean...", "options": ["the wrong was acceptable", "you stop wanting revenge", "you can pray for the person", "peace is better than a fight"], "answer": "A", "explanation": "The wrong remains wrong. Forgiveness refuses to repeat it.", "outcome": "c", "check": null },
-    { "question": "Which value grows when you sing about loving others and refuse revenge?", "options": ["Love and peace", "Pride and revenge", "Fear and gossip", "Greed"], "answer": "A", "explanation": "Love and peace are the values practised in this sub-strand.", "outcome": "a", "check": null },
-    { "question": "Reconciliation means...", "answer": "Becoming friends again after a wrong, through apology and forgiveness.", "explanation": "Peace education in this lesson includes reconciliation.", "outcome": "a", "check": null }
+    {
+      "question": "Matthew 5:39 teaches that if someone slaps your right cheek you should:",
+      "options": [
+        "slap them harder",
+        "turn the other cheek and not strike back",
+        "plan revenge for later",
+        "hide the verse"
+      ],
+      "answer": "B",
+      "explanation": "The verse says not to resist an evil person by striking back.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Vengeance means...",
+      "options": [
+        "paying back harm with harm",
+        "forgiving at once",
+        "praying for an enemy",
+        "telling the truth"
+      ],
+      "answer": "A",
+      "explanation": "Vengeance is revenge.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Why is forgiveness important?",
+      "answer": "Any one: Jesus commands it; it stops fights from growing; it brings peace; it shows love.",
+      "explanation": "Forgiveness protects peace and obeys Jesus.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Resisting vengeance means...",
+      "options": [
+        "giving in to the wish to hit back",
+        "refusing to take revenge",
+        "insulting louder",
+        "hiding every wrong forever, including abuse"
+      ],
+      "answer": "B",
+      "explanation": "To resist vengeance is to refuse revenge. Serious harm is still reported.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "If a person is abusing you, forgiveness means you:",
+      "options": [
+        "keep it a secret",
+        "strike back first",
+        "tell a trusted adult and still refuse revenge",
+        "repay them in secret"
+      ],
+      "answer": "C",
+      "explanation": "Reporting harm and refusing revenge belong together.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Repaying evil for evil means...",
+      "options": [
+        "answering a wrong with another wrong",
+        "forgiving",
+        "sharing lunch",
+        "reciting a verse"
+      ],
+      "answer": "A",
+      "explanation": "That pattern is what Jesus' teaching rules out.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "A classmate hides your book. A peaceful response is:",
+      "options": [
+        "hiding their book",
+        "telling them calmly to return it, and telling the teacher if needed",
+        "spreading a lie about them",
+        "slapping them"
+      ],
+      "answer": "B",
+      "explanation": "You do not repay the wrong. You seek a peaceful and truthful solution.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Forgiveness does not mean...",
+      "options": [
+        "the wrong was acceptable",
+        "you stop wanting revenge",
+        "you can pray for the person",
+        "peace is better than a fight"
+      ],
+      "answer": "A",
+      "explanation": "The wrong remains wrong. Forgiveness refuses to repeat it.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Which value grows when you sing about loving others and refuse revenge?",
+      "options": [
+        "Love and peace",
+        "Pride and revenge",
+        "Fear and gossip",
+        "Greed"
+      ],
+      "answer": "A",
+      "explanation": "Love and peace are the values practised in this sub-strand.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Reconciliation means...",
+      "answer": "Becoming friends again after a wrong, through apology and forgiveness.",
+      "explanation": "Peace education in this lesson includes reconciliation.",
+      "outcome": "a",
+      "check": null
+    }
   ],
   "sources": [
     "KICD Grade 4 Christian Religious Education Curriculum Design (Revised 2024) — Strand 3.0 The Life of Jesus Christ, Sub-strand 3.6 Forgiveness",

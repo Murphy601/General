@@ -7,7 +7,9 @@
     {
       "number": 1,
       "title": "Good thoughts and good feelings",
-      "outcomes": ["a"],
+      "outcomes": [
+        "a"
+      ],
       "objectives": [
         "Identify good thoughts and good feelings.",
         "Give examples of good thoughts such as sharing, helping, thankfulness and respect."
@@ -15,13 +17,26 @@
       "intro": "Before you speak or act, a thought passes through your mind. A kind thought can lead to a kind action. A bitter thought can lead to a hurtful one. God cares about what we think and what we feel.",
       "notes": "A thought is an idea in your mind. A feeling is what you experience inside, such as joy, sadness, fear or anger. You cannot see a thought, but you can see what it leads you to do.\n\n### Good thoughts\nGood thoughts please God and help people live together in peace. Examples from daily life are:\n\n- Sharing with others, such as sharing a pencil or lunch\n- Helping parents with work at home\n- Being happy for a classmate who does well\n- Being thankful for food, family and school\n- Respecting others by using polite words\n\nA good thought asks, \"Will this help someone? Is this true? Is this kind?\" If the answer is yes, the thought is worth keeping.\n\n### Good feelings\nGood feelings include joy, peace, love, thankfulness and hope. They do not mean you never feel sad. They mean your heart is learning to choose what is right. When you think about helping your mother, you may feel glad. When you forgive a friend, you may feel peace.\n\n### Controlling thoughts\nYou control thoughts by noticing them. If a thought says, \"Take her rubber and hide it,\" you can stop and replace it with, \"I will ask to borrow it.\" Singing a song about good thoughts, praying, and talking to a parent or teacher helps. Drawing a smiling face and a kind face reminds you that feelings can be seen on the outside.\n\nSocial cohesion grows when a class lists good thoughts together. Sharing, helping, thankfulness and respect keep people close.",
       "keyWords": [
-        { "word": "thought", "meaning": "an idea in the mind" },
-        { "word": "feeling", "meaning": "what a person experiences inside, such as joy or sadness" },
-        { "word": "thankful", "meaning": "glad for what you have received" }
+        {
+          "word": "thought",
+          "meaning": "an idea in the mind"
+        },
+        {
+          "word": "feeling",
+          "meaning": "what a person experiences inside, such as joy or sadness"
+        },
+        {
+          "word": "thankful",
+          "meaning": "glad for what you have received"
+        }
       ],
       "activity": {
         "title": "List good thoughts and sing",
-        "materials": ["Manila paper", "Pencils", "Digital device if the teacher provides one"],
+        "materials": [
+          "Manila paper",
+          "Pencils",
+          "Digital device if the teacher provides one"
+        ],
         "steps": [
           "Sing a song related to good thoughts and feelings.",
           "In groups, list good thoughts such as sharing, helping parents, being happy, being thankful and respecting others.",
@@ -30,9 +45,21 @@
         ]
       },
       "practice": [
-        { "question": "Name three good thoughts.", "answer": "Any three: sharing with others, helping parents, being happy, being thankful, respecting others.", "check": null },
-        { "question": "What is the difference between a thought and a feeling?", "answer": "A thought is an idea in the mind. A feeling is what you experience inside, such as joy or sadness.", "check": null },
-        { "question": "What question can you ask to check a thought?", "answer": "Will this help someone? Is this true? Is this kind?", "check": null }
+        {
+          "question": "Name three good thoughts.",
+          "answer": "Any three: sharing with others, helping parents, being happy, being thankful, respecting others.",
+          "check": null
+        },
+        {
+          "question": "What is the difference between a thought and a feeling?",
+          "answer": "A thought is an idea in the mind. A feeling is what you experience inside, such as joy or sadness.",
+          "check": null
+        },
+        {
+          "question": "What question can you ask to check a thought?",
+          "answer": "Will this help someone? Is this true? Is this kind?",
+          "check": null
+        }
       ],
       "summary": [
         "Good thoughts include sharing, helping, happiness, thankfulness and respect.",
@@ -43,7 +70,9 @@
     {
       "number": 2,
       "title": "Why it is good to be joyful",
-      "outcomes": ["b"],
+      "outcomes": [
+        "b"
+      ],
       "objectives": [
         "Explain the importance of being joyful.",
         "Recite Philippians 4:4."
@@ -51,8 +80,14 @@
       "intro": "A joyful learner is not a learner who never has problems. Joy is a glad heart that still trusts God. Philippians 4:4 tells Christians to rejoice in the Lord always.",
       "notes": "Joy is a deep gladness. It is stronger than a short laugh. You can be joyful when you are thankful, even on a hard day, because joy rests on God and not only on what is happening.\n\n### Philippians 4:4\nPhilippians 4:4 says, \"Rejoice in the Lord always. I will say it again: Rejoice!\" Paul repeats the command so that readers will not forget it. Rejoice means to be glad. In the Lord means the gladness comes from knowing God, not only from getting what you want.\n\nWrite the verse on a flash card. Read it in the morning. Recite it until you can say it without looking.\n\n### Why joy is important\n- Joy shows that you trust God.\n- A joyful person is kinder to family and classmates.\n- Joy helps you keep going when work is hard.\n- Thankfulness and joy belong together. When you count gifts from God, joy grows.\n- Joy can spread. A song of rejoicing can lift a whole class.\n\nBeing joyful does not mean pretending. If you are hurt, you may tell a trusted adult. Joy and honesty can live in the same heart. You tell the truth about the hurt, and you still rejoice that God is with you.\n\nSongs about rejoicing in the Lord always help the verse stay in your memory. Sing them at home and in church.",
       "keyWords": [
-        { "word": "joy", "meaning": "a deep gladness that trusts God" },
-        { "word": "rejoice", "meaning": "to be glad, especially in the Lord" }
+        {
+          "word": "joy",
+          "meaning": "a deep gladness that trusts God"
+        },
+        {
+          "word": "rejoice",
+          "meaning": "to be glad, especially in the Lord"
+        }
       ],
       "examples": [
         {
@@ -68,7 +103,11 @@
       ],
       "activity": {
         "title": "Flash cards for Philippians 4:4",
-        "materials": ["Flash cards or pieces of manila paper", "Pens", "Bible"],
+        "materials": [
+          "Flash cards or pieces of manila paper",
+          "Pens",
+          "Bible"
+        ],
         "steps": [
           "Read Philippians 4:4 together.",
           "Each learner writes the verse on a flash card.",
@@ -78,9 +117,21 @@
         ]
       },
       "practice": [
-        { "question": "Recite Philippians 4:4.", "answer": "Rejoice in the Lord always. I will say it again: Rejoice!", "check": null },
-        { "question": "What does rejoice mean?", "answer": "To be glad.", "check": null },
-        { "question": "Give two reasons why it is good to be joyful.", "answer": "Any two: joy shows trust in God; a joyful person is kinder; joy helps you keep going; thankfulness grows joy; joy can spread to others.", "check": null }
+        {
+          "question": "Recite Philippians 4:4.",
+          "answer": "Rejoice in the Lord always. I will say it again: Rejoice!",
+          "check": null
+        },
+        {
+          "question": "What does rejoice mean?",
+          "answer": "To be glad.",
+          "check": null
+        },
+        {
+          "question": "Give two reasons why it is good to be joyful.",
+          "answer": "Any two: joy shows trust in God; a joyful person is kinder; joy helps you keep going; thankfulness grows joy; joy can spread to others.",
+          "check": null
+        }
       ],
       "summary": [
         "Joy is deep gladness that rests on God.",
@@ -91,7 +142,10 @@
     {
       "number": 3,
       "title": "Coping with anger and sadness",
-      "outcomes": ["c", "d"],
+      "outcomes": [
+        "c",
+        "d"
+      ],
       "objectives": [
         "List lessons learnt from Ephesians 4:26.",
         "Apply those lessons when coping with anger or sadness."
@@ -99,9 +153,18 @@
       "intro": "Everyone feels angry or sad sometimes. A friend may take your seat. You may miss someone at home. The question is not whether the feeling comes. The question is what you do with it.",
       "notes": "Ephesians 4:26 teaches two lessons. First, if you become angry, do not let the anger lead you into sin. Second, do not stay angry all day. Do not let the sun go down while you are still angry. Anger itself is a feeling. Hitting, insulting, refusing to forgive, or planning revenge turns the feeling into sin.\n\n### Lessons from Ephesians 4:26\n- You may feel angry, but you must not sin because of it.\n- Settle the matter before the day ends.\n- Speak the truth calmly instead of shouting.\n- Forgive the person who wronged you.\n- Ask God to quiet your heart.\n\n### Coping with anger\nStop. Breathe slowly. Do not raise your hand. Tell the person, \"That hurt me,\" if it is safe to speak. If you cannot settle it alone, tell a parent or teacher. Role-play forgiving: one learner admits a wrong, the other says, \"I forgive you.\" Love grows when we forgive.\n\n### Coping with sadness\nSadness is not a sin. You may cry, sit with a friend, or tell your parent what happened. Pray. Remember Philippians 4:4 and thank God for one good thing. Helping someone else can lift a heavy heart. Do not hide sadness until it becomes bitterness.\n\n### Using the lessons every day\nAt school, if a classmate bumps you, you can choose words instead of a fight. At home, if you are corrected, you can obey without shouting back. Before you sleep, ask, \"Am I still angry with anyone?\" If yes, forgive before the day ends. That is Ephesians 4:26 in ordinary life.",
       "keyWords": [
-        { "word": "cope", "meaning": "to handle a hard feeling in a safe way" },
-        { "word": "forgive", "meaning": "to let go of the wish to punish someone who wronged you" },
-        { "word": "wrath", "meaning": "strong anger" }
+        {
+          "word": "cope",
+          "meaning": "to handle a hard feeling in a safe way"
+        },
+        {
+          "word": "forgive",
+          "meaning": "to let go of the wish to punish someone who wronged you"
+        },
+        {
+          "word": "wrath",
+          "meaning": "strong anger"
+        }
       ],
       "examples": [
         {
@@ -117,7 +180,10 @@
       ],
       "activity": {
         "title": "Read Ephesians 4:26 and role-play forgiveness",
-        "materials": ["Bible", "Exercise book"],
+        "materials": [
+          "Bible",
+          "Exercise book"
+        ],
         "steps": [
           "Read Ephesians 4:26 and write down the lessons learnt.",
           "Share with a partner how you cope with anger or sadness.",
@@ -127,10 +193,26 @@
         ]
       },
       "practice": [
-        { "question": "State two lessons from Ephesians 4:26.", "answer": "Do not let anger lead you into sin. Do not stay angry all day; settle it before the day ends.", "check": null },
-        { "question": "Is feeling angry always a sin? Explain.", "answer": "No. The feeling of anger is not the sin. Letting anger lead you to hurt others, insult them or refuse to forgive is the sin.", "check": null },
-        { "question": "Give one safe way to cope with sadness.", "answer": "Any one: tell a parent or friend, pray, thank God for one good thing, cry honestly, help someone else.", "check": null },
-        { "question": "Why should you forgive before you sleep?", "answer": "Ephesians 4:26 says not to let the sun go down while you are still angry.", "check": null }
+        {
+          "question": "State two lessons from Ephesians 4:26.",
+          "answer": "Do not let anger lead you into sin. Do not stay angry all day; settle it before the day ends.",
+          "check": null
+        },
+        {
+          "question": "Is feeling angry always a sin? Explain.",
+          "answer": "No. The feeling of anger is not the sin. Letting anger lead you to hurt others, insult them or refuse to forgive is the sin.",
+          "check": null
+        },
+        {
+          "question": "Give one safe way to cope with sadness.",
+          "answer": "Any one: tell a parent or friend, pray, thank God for one good thing, cry honestly, help someone else.",
+          "check": null
+        },
+        {
+          "question": "Why should you forgive before you sleep?",
+          "answer": "Ephesians 4:26 says not to let the sun go down while you are still angry.",
+          "check": null
+        }
       ],
       "summary": [
         "Ephesians 4:26: do not sin in your anger, and do not stay angry all day.",
@@ -140,16 +222,124 @@
     }
   ],
   "quiz": [
-    { "question": "Which of these is a good thought?", "options": ["Planning to hide a friend's pencil", "Helping parents at home", "Laughing at someone's mistake", "Wishing harm on a classmate"], "answer": "B", "explanation": "Helping parents is one of the good thoughts named in this sub-strand.", "outcome": "a", "check": null },
-    { "question": "Being thankful and respecting others are examples of...", "options": ["bad feelings", "good thoughts", "revenge", "sadness"], "answer": "B", "explanation": "Thankfulness and respect are good thoughts that build peace.", "outcome": "a", "check": null },
-    { "question": "What does rejoice mean?", "options": ["To stay angry", "To be glad", "To hide your feelings", "To copy someone"], "answer": "B", "explanation": "Philippians 4:4 tells Christians to rejoice, which means to be glad in the Lord.", "outcome": "b", "check": null },
-    { "question": "Complete the verse: \"Rejoice in the Lord ______.\"", "options": ["sometimes", "always", "never", "only on Sunday"], "answer": "B", "explanation": "Philippians 4:4 says, \"Rejoice in the Lord always.\"", "outcome": "b", "check": null },
-    { "question": "Why is it good to be joyful?", "answer": "Any one: joy shows trust in God; it makes you kinder; it helps you keep going; it spreads to other people.", "explanation": "Joy rests on God and helps people live well together.", "outcome": "b", "check": null },
-    { "question": "Ephesians 4:26 teaches that when you are angry you should...", "options": ["let the anger lead you into sin", "stay angry until the next week", "not sin, and not stay angry all day", "hit the person who wronged you"], "answer": "C", "explanation": "The verse warns against sinning in anger and against letting the sun go down on your anger.", "outcome": "c", "check": null },
-    { "question": "Which lesson comes from Ephesians 4:26?", "answer": "Do not let anger lead you into sin, and settle the anger before the day ends.", "explanation": "Those are the two lessons of the verse.", "outcome": "c", "check": null },
-    { "question": "A classmate bumps you and you want to hit back. What should you do?", "options": ["Hit back at once", "Stop, speak calmly and forgive", "Stay angry all night", "Tear the classmate's book"], "answer": "B", "explanation": "Coping with anger means refusing to sin and choosing forgiveness.", "outcome": "d", "check": null },
-    { "question": "Which is a safe way to cope with sadness?", "options": ["Hide it until you become bitter", "Tell a trusted person and pray", "Insult everyone around you", "Refuse to eat for many days without telling anyone"], "answer": "B", "explanation": "Telling a trusted person and praying are safe ways to cope.", "outcome": "d", "check": null },
-    { "question": "Role-playing forgiveness shows which value?", "options": ["Love", "Pride", "Revenge", "Fear"], "answer": "A", "explanation": "Forgiving someone who wronged you is an act of love.", "outcome": "d", "check": null }
+    {
+      "question": "Which of these is a good thought?",
+      "options": [
+        "Planning to hide a friend's pencil",
+        "Helping parents at home",
+        "Laughing at someone's mistake",
+        "Wishing harm on a classmate"
+      ],
+      "answer": "B",
+      "explanation": "Helping parents is one of the good thoughts named in this sub-strand.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Being thankful and respecting others are examples of:",
+      "options": [
+        "bad feelings",
+        "good thoughts",
+        "revenge",
+        "sadness"
+      ],
+      "answer": "B",
+      "explanation": "Thankfulness and respect are good thoughts that build peace.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "What does rejoice mean?",
+      "options": [
+        "To stay angry",
+        "To be glad",
+        "To hide your feelings",
+        "To copy someone"
+      ],
+      "answer": "B",
+      "explanation": "Philippians 4:4 tells Christians to rejoice, which means to be glad in the Lord.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Complete the verse: \"Rejoice in the Lord ______.\"",
+      "options": [
+        "sometimes",
+        "always",
+        "never",
+        "only on Sunday"
+      ],
+      "answer": "B",
+      "explanation": "Philippians 4:4 says, \"Rejoice in the Lord always.\"",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Why is it good to be joyful?",
+      "answer": "Any one: joy shows trust in God; it makes you kinder; it helps you keep going; it spreads to other people.",
+      "explanation": "Joy rests on God and helps people live well together.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Ephesians 4:26 teaches that when you are angry you should:",
+      "options": [
+        "let the anger lead you into sin",
+        "stay angry until the next week",
+        "not sin, and not stay angry all day",
+        "hit the person who wronged you"
+      ],
+      "answer": "C",
+      "explanation": "The verse warns against sinning in anger and against letting the sun go down on your anger.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Which lesson comes from Ephesians 4:26?",
+      "answer": "Do not let anger lead you into sin, and settle the anger before the day ends.",
+      "explanation": "Those are the two lessons of the verse.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "A classmate bumps you and you want to hit back. What should you do?",
+      "options": [
+        "Hit back at once",
+        "Stop, speak calmly and forgive",
+        "Stay angry all night",
+        "Tear the classmate's book"
+      ],
+      "answer": "B",
+      "explanation": "Coping with anger means refusing to sin and choosing forgiveness.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Which is a safe way to cope with sadness?",
+      "options": [
+        "Hide it until you become bitter",
+        "Tell a trusted person and pray",
+        "Insult everyone around you",
+        "Refuse to eat for many days without telling anyone"
+      ],
+      "answer": "B",
+      "explanation": "Telling a trusted person and praying are safe ways to cope.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Role-playing forgiveness shows which value?",
+      "options": [
+        "Love",
+        "Pride",
+        "Revenge",
+        "Fear"
+      ],
+      "answer": "A",
+      "explanation": "Forgiving someone who wronged you is an act of love.",
+      "outcome": "d",
+      "check": null
+    }
   ],
   "sources": [
     "KICD Grade 4 Christian Religious Education Curriculum Design (Revised 2024) — Strand 1.0 Creation, Sub-strand 1.2 Thoughts and feelings",

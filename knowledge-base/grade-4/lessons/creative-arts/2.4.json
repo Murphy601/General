@@ -152,7 +152,7 @@
           "Stand away from the window and look at the screen. Notice how dark the picture is.",
           "Move so that daylight falls on the subject and look at the screen again.",
           "Do not take a photograph of anyone who has not agreed.",
-          "Write one sentence: light is important because…"
+          "Write one sentence explaining why light is important in a photograph."
         ]
       },
       "practice": [
@@ -706,7 +706,7 @@
       "check": null
     },
     {
-      "question": "The sun is behind the person and the face looks black. This light is…",
+      "question": "The sun is behind the person and the face looks black. What kind of light is this?",
       "options": [
         "front light",
         "side light",
@@ -732,7 +732,7 @@
       "check": null
     },
     {
-      "question": "Before photographing a classmate you should…",
+      "question": "Before photographing a classmate, what should you do?",
       "options": [
         "hide and surprise them",
         "ask permission and wait for a yes",
@@ -745,7 +745,7 @@
       "check": null
     },
     {
-      "question": "A gentle press of the shutter helps because…",
+      "question": "Why does a gentle press of the shutter help?",
       "options": [
         "it shakes the device",
         "it keeps the device steadier so the picture is less blurred",

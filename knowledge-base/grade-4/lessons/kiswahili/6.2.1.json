@@ -1,0 +1,131 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "6.2.1",
+  "title": "Kusoma: Kusoma kwa Kina",
+  "overview": "Kusoma kwa kina ni kusoma makala polepole ili kuelewa vipengele vinavyoijenga na ujumbe wake. Katika mada hii ndogo utasoma hadithi fupi, mchezo mfupi na shairi fupi kuhusu bendera na uraia. Utaangalia tahajia, sarufi, wahusika na ujumbe, na utatumia kamusi kwa maneno magumu.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Vipengele vinavyojenga makala",
+      "outcomes": ["a"],
+      "objectives": [
+        "Kutaja aina za makala kama hadithi fupi, mchezo mfupi na shairi fupi.",
+        "Kusoma hadithi akizingatia tahajia, sarufi, wahusika na ujumbe.",
+        "Kutambua kosa dogo la tahajia au sarufi katika sentensi."
+      ],
+      "intro": "Kusoma kwa haraka kunaweza kukupa habari chache. Kusoma kwa kina kunakuuliza: Nani yuko hapa? Anaendelea vipi? Mwandishi anataka nijifunze nini? Leo tutafanya hivyo kwa hadithi fupi.",
+      "notes": "### Makala ni nini?\nMakala ni maandishi yanayosomwa ili kupata habari au funzo. Katika darasa hili tunasoma aina hizi:\n\n- **Hadithi fupi** ina wahusika, tukio na ujumbe.\n- **Mchezo mfupi** una majibizano ya wahusika, kama mazungumzo ya kuigiza.\n- **Shairi fupi** lina mishororo na beti.\n\nYanapatikana kwenye kitabu, gazeti au blogi iliyoidhinishwa na mwalimu. Ukisoma blogi, usibonyeze matangazo, usitoe jina wala picha, na ukiona yasiyofaa funga ukurasa ukamwambie mzazi.\n\n### Vipengele vya kuangalia\n- **Tahajia:** maneno yameandikwa kwa herufi sahihi? Bendera si bandera. Uhuru si uhuruu.\n- **Sarufi:** nomino na kitenzi vinapatana? Wanafunzi wanasimama, si wanafunzi anasimama.\n- **Wahusika:** nani anafanya kitendo, na anafanya nini?\n- **Ujumbe:** funzo la mwisho ni lipi?\n\n### Hadithi: Asubuhi ya Gwaride\nAsubuhi, wanafunzi wa darasa la nne walisimama uwanjani. Zawadi alishika kamba ya mlingoti. Baraka alisimama karibu naye. Mwalimu alisema, Simameni tulivu.\n\nBendera ilikuwa nyeusi juu, kisha mstari mweupe mwembamba, nyekundu katikati, mstari mweupe mwembamba, na kijani chini. Katikati kulikuwa na ngao na mikuki miwili. Zawadi aliipandisha polepole. Baraka aliikagua isiguse ardhi.\n\nWalimu waliwaambia: Nyeusi ni wananchi. Nyekundu ni damu iliyomwagika katika mapambano ya uhuru. Kijani ni kilimo na mali asili. Nyeupe ni amani na umoja. Ngao na mikuki ni ulinzi wa uhuru.\n\nWanafunzi waliimba wimbo wa taifa wakisimama kimya. Hakuna aliyeigusa bendera kwa miguu. Baada ya gwaride, Baraka alisema, Bendera ni yetu sote.\n\n### Uchambuzi\nWahusika wakuu ni Zawadi, Baraka na mwalimu. Tahajia ya maneno bendera, uhuru na mlingoti imezingatiwa. Sarufi: wanafunzi walisimama, si wanafunzi alisema. Ujumbe: heshimu bendera, usiache iguse ardhi, na kumbuka maana za rangi.\n\nUkisoma neno **mlingoti** na hukulijua, liandike. Katika somo lijalo utalifuatilia kamusini. Maana yake hapa ni nguzo inayoshikilia bendera.",
+      "keyWords": [
+        { "word": "makala", "meaning": "maandishi yanayosomwa ili kupata habari au funzo" },
+        { "word": "wahusika", "meaning": "watu au viumbe wanaoshiriki katika hadithi au mchezo" },
+        { "word": "tahajia", "meaning": "kuandika maneno kwa herufi sahihi" },
+        { "word": "kusoma kwa kina", "meaning": "kusoma polepole ili kuelewa vipengele na ujumbe" }
+      ],
+      "examples": [
+        {
+          "problem": "Wahusika wakuu wa hadithi Asubuhi ya Gwaride ni akina nani?",
+          "steps": ["Tafuta majina yanayofanya vitendo.", "Zawadi anapandisha, Baraka anaangalia, mwalimu anaongoza."],
+          "answer": "Zawadi, Baraka na mwalimu.",
+          "check": null
+        },
+        {
+          "problem": "Rekebisha tahajia na sarufi: Wanafunzi anasimama chini ya bandera.",
+          "steps": ["Wanafunzi ni wingi: wanasimama.", "Neno sahihi ni bendera, si bandera."],
+          "answer": "Wanafunzi wanasimama chini ya bendera.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Soma hadithi ukiweka alama",
+        "materials": ["Hadithi Asubuhi ya Gwaride kwenye kitabu, chati au blogi iliyoidhinishwa", "Penseli", "Kamusi"],
+        "steps": [
+          "Soma hadithi polepole, mmoja kwa sauti na wengine wanafuatilia.",
+          "Zungushia majina ya wahusika.",
+          "Andika neno moja gumu na ulitafute kamusini ikiwa maana haiko wazi.",
+          "Sema kama tahajia ya bendera na uhuru imezingatiwa.",
+          "Andika ujumbe kwa sentensi moja."
+        ]
+      },
+      "practice": [
+        { "question": "Taja aina tatu za makala unazosoma katika mada hii.", "answer": "Hadithi fupi, mchezo mfupi na shairi fupi.", "check": null },
+        { "question": "Zawadi alifanya nini katika hadithi?", "answer": "Aliipandisha bendera polepole.", "check": null },
+        { "question": "Kwa nini Baraka aliikagua bendera?", "answer": "Ili isiguse ardhi.", "check": null },
+        { "question": "Andika upya kwa sarufi sahihi: Wanafunzi alisema bendera ni yetu.", "answer": "Wanafunzi walisema bendera ni yetu.", "check": null }
+      ],
+      "summary": [
+        "Makala hujengwa na tahajia, sarufi, wahusika na ujumbe.",
+        "Hadithi ya gwaride inafundisha heshima kwa bendera.",
+        "Neno gumu huandikwa ili kutafutwa kamusini."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Ujumbe wa makala na matumizi ya kamusi",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kueleza umuhimu wa ujumbe wa makala aliyoisoma.",
+        "Kutumia kamusi kupata maana ya msamiati.",
+        "Kulinganisha hadithi, mchezo na shairi kwa ujumbe unaofanana."
+      ],
+      "intro": "Hadithi, mchezo na shairi vinaweza kufundisha heshima ileile kwa maneno tofauti. Ukimaliza kusoma, uliza: Nimejifunza tendo gani la kufanya kesho asubuhi?",
+      "notes": "### Ujumbe na umuhimu\nUjumbe wa hadithi ya gwaride ni kuheshimu bendera: kuipandisha kwa uangalifu, kutoiacha iguse ardhi, na kukumbuka maana za rangi. Umuhimu wake ni uraia mwema. Uraia mwema ni kuishi kwa amani na wenzako na kulinda alama za taifa.\n\nKusoma hadithi kunafaa kwa sababu funzo linaingia kwa tukio, si kwa amri pekee. Unamuona Zawadi akipandisha, na unajiona unaweza kufanya hivyo kwa heshima.\n\n### Mchezo mfupi\nZawadi: Baraka, kwa nini tunasimama tulivu bendera inapopandishwa?\n\nBaraka: Kwa sababu ni alama ya taifa letu. Tunaonyesha heshima.\n\nZawadi: Rangi nyeusi ina maana gani?\n\nBaraka: Inaonyesha wananchi wa Kenya.\n\nZawadi: Basi tusiruhusu iguse ardhi.\n\nWahusika ni Zawadi na Baraka. Hakuna aya ndefu; kuna mazungumzo. Ujumbe unafanana na hadithi: heshima na maana ya rangi nyeusi.\n\n### Shairi fupi\nAsubuhi tuipandishe,\nJioni tuishukishe,\nIsiguse ardhi kamwe,\nTuiheshimu sote.\n\nHili ni shairi kwa sababu lina mishororo mifupi. Ujumbe bado ni heshima. Aina ya makala inabadilika, funzo linaweza kubaki.\n\n### Kamusi\nNeno **rutuba** lilitokea katika maelezo ya rangi kijani. Hatua:\n\n1. Andika neno.\n2. Fungua kamusi kwenye herufi R.\n3. Soma maana. Rutuba ni uwezo wa ardhi kuotesha mimea vizuri.\n4. Chagua maana inayofaa kwenye sentensi, kama neno lina maana zaidi ya moja.\n5. Andika maana kwa maneno yako.\n\n**Gwaride** ni kusimama kwa mpangilio wakati wa sherehe au asubuhi ya shule. **Mlingoti** ni nguzo inayoshikilia bendera.\n\nKufurahia kusoma ni kuchagua makala mpya baada ya hii: gazeti la shule, hadithi nyingine, au blogi ambayo mwalimu amekubali. Kila makala ikupe neno moja jipya na funzo moja.",
+      "keyWords": [
+        { "word": "ujumbe", "meaning": "funzo mwandishi anataka msomaji alipate" },
+        { "word": "kamusi", "meaning": "kitabu au ukurasa unaoeleza maana za maneno" },
+        { "word": "rutuba", "meaning": "uwezo wa ardhi kuotesha mimea vizuri" },
+        { "word": "gwaride", "meaning": "kusimama kwa mpangilio wakati wa sherehe au asubuhi ya shule" }
+      ],
+      "examples": [
+        {
+          "problem": "Ujumbe unaofanana katika hadithi, mchezo na shairi ni upi?",
+          "steps": ["Hadithi: bendera isiguse ardhi.", "Mchezo: tusiruhusu iguse ardhi.", "Shairi: isiguse ardhi kamwe."],
+          "answer": "Kuheshimu bendera na kutoiacha iguse ardhi.",
+          "check": null
+        },
+        {
+          "problem": "Unatafutaje neno rutuba kamusini?",
+          "steps": ["Herufi ya kwanza ni R.", "Fungua sehemu ya R.", "Soma maana inayofaa kuhusu ardhi."],
+          "answer": "Nafungua kamusi kwenye herufi R na kusoma maana: uwezo wa ardhi kuotesha mimea vizuri.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Linganisha makala tatu",
+        "materials": ["Hadithi, mchezo mfupi na shairi fupi", "Kamusi", "Daftari"],
+        "steps": [
+          "Kundi moja lisome hadithi, lingine mchezo, na lingine shairi.",
+          "Kila kundi liandike wahusika au umbo, na ujumbe.",
+          "Tafuteni kamusini maana ya neno moja gumu, kama rutuba au mlingoti.",
+          "Jadilini umuhimu wa ujumbe: tunaweza kufanya nini kesho asubuhi?",
+          "Mkumbuke hatua za kiusalama kama makala imetoka kwenye blogi."
+        ]
+      },
+      "practice": [
+        { "question": "Umuhimu wa ujumbe wa hadithi ya gwaride ni upi?", "answer": "Kufundisha uraia mwema: kuheshimu bendera na kuishi kwa amani na wenzako.", "check": null },
+        { "question": "Mchezo mfupi unatofautianaje na hadithi?", "answer": "Mchezo una mazungumzo ya wahusika yanayoigizwa, si aya ndefu ya masimulizi.", "check": null },
+        { "question": "Maana ya rutuba ni ipi?", "answer": "Uwezo wa ardhi kuotesha mimea vizuri.", "check": null },
+        { "question": "Kwa nini usome blogi iliyoidhinishwa tu?", "answer": "Ili nisome matini inayofaa umri wangu na nijepe taarifa zangu binafsi.", "check": null }
+      ],
+      "summary": [
+        "Ujumbe wa makala hizi ni kuheshimu bendera.",
+        "Kamusi hufunguliwa kwa herufi ya kwanza ya neno.",
+        "Hadithi, mchezo na shairi vinaweza kufundisha funzo moja."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Kusoma kwa kina ni nini?", "options": ["Kuruka kurasa", "Kusoma polepole ili kuelewa vipengele na ujumbe", "Kuangalia picha tu", "Kufunga kitabu"], "answer": "B", "explanation": "Kusoma kwa kina ni kuelewa jinsi makala ilivyojengwa na funzo lake.", "outcome": "a", "check": null },
+    { "question": "Ni ipi si aina ya makala iliyotajwa?", "options": ["Hadithi fupi", "Mchezo mfupi", "Shairi fupi", "Orodha ya bei"], "answer": "D", "explanation": "Aina zilizofunzwa ni hadithi, mchezo na shairi.", "outcome": "a", "check": null },
+    { "question": "Katika hadithi, nani aliipandisha bendera?", "options": ["Baraka", "Zawadi", "Mlinzi wa barabara", "Mgeni"], "answer": "B", "explanation": "Zawadi aliipandisha polepole.", "outcome": "a", "check": null },
+    { "question": "Sentensi ipi ina sarufi sahihi?", "options": ["Wanafunzi anasimama.", "Wanafunzi wanasimama.", "Wanafunzi linasimama.", "Wanafunzi umesimama."], "answer": "B", "explanation": "Wanafunzi ni wingi, kwa hivyo wanasimama.", "outcome": "a", "check": null },
+    { "question": "Tahajia sahihi ni ipi?", "options": ["bandera", "bendera", "bendela", "bendeera"], "answer": "B", "explanation": "Neno sahihi ni bendera.", "outcome": "a", "check": null },
+    { "question": "Ujumbe mkuu wa hadithi ya gwaride ni upi?", "options": ["Kuchelewa shule", "Kuheshimu bendera na kutoiacha iguse ardhi", "Kuchora meza", "Kuficha rangi"], "answer": "B", "explanation": "Hadithi inafundisha heshima kwa bendera.", "outcome": "b", "check": null },
+    { "question": "Rangi nyeusi, kama Baraka alivyosema, inaonyesha nini?", "options": ["Wananchi wa Kenya", "Mito", "Maduka", "Magari"], "answer": "A", "explanation": "Nyeusi inaonyesha wananchi wa Kenya.", "outcome": "b", "check": null },
+    { "question": "Unatafuta neno kamusini kwa kuanza wapi?", "options": ["Ukurasa wowote", "Herufi yake ya kwanza", "Ukurasa wa mwisho daima", "Picha ya jalada"], "answer": "B", "explanation": "Kamusi hupangwa kwa herufi. Unaanza na herufi ya kwanza ya neno.", "outcome": "c", "check": null },
+    { "question": "Maana ya mlingoti ni ipi?", "answer": "Nguzo inayoshikilia bendera.", "explanation": "Mlingoti hutumiwa kupandisha na kushusha bendera.", "outcome": "a", "check": null },
+    { "question": "Kwa nini kusoma hadithi kuna umuhimu?", "answer": "Funzo linaingia kwa tukio, na msomaji anajifunza tendo la kufanya, kama kuheshimu bendera.", "explanation": "Hadithi hufundisha kwa wahusika na matukio.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 6.0 Bendera ya Taifa, Mada Ndogo 6.2.1 Kusoma: Kusoma kwa Kina"
+  ]
+}

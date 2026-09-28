@@ -74,7 +74,7 @@
         {
           "problem": "Make a question whose answer is 'Behind the stadium'.",
           "steps": ["The answer is a place.", "Begin with where, then the helping verb."],
-          "answer": "Where is the team? or Where are the players? (any correct where question that fits)"
+          "answer": "Where is the team?"
         },
         {
           "problem": "Correct this question: Whose is bottle this?",

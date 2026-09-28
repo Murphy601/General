@@ -7,7 +7,10 @@
     {
       "number": 1,
       "title": "The woman and the coin",
-      "outcomes": ["a", "b"],
+      "outcomes": [
+        "a",
+        "b"
+      ],
       "objectives": [
         "Retell the parable of the lost coin from Luke 15:8-10.",
         "List the lessons learnt from the parable."
@@ -15,13 +18,26 @@
       "intro": "If you lose one coin from the little money you were keeping carefully, you do not shrug and walk away. You look until you find it. Jesus used that kind of search to teach about God.",
       "notes": "Read Luke 15:8-10 and retell it in three short movements.\n\nJesus said, \"Suppose a woman has ten silver coins and loses one. Doesn't she light a lamp, sweep the house and search carefully until she finds it? And when she finds it, she calls her friends and neighbours together and says, 'Rejoice with me; I have found my lost coin.' In the same way, I tell you, there is rejoicing in the presence of the angels of God over one sinner who repents.\"\n\n### The picture\nShe had ten coins. She lost one. She did not say the nine were enough. She lit a lamp so she could see, swept the house so the coin could not hide in the dust, and searched carefully until she found it. Then her joy was too big to keep alone. She called friends and neighbours to rejoice with her.\n\n### Lessons learnt\n- One coin mattered. One person matters to God.\n- God searches for the sinner the way the woman searched for the coin.\n- Repentance is the finding: a sinner turns back to God.\n- Heaven rejoices when one sinner repents. The joy is shared, as the woman shared hers.\n- We should not despise a person who has done wrong and then turns back.\n- What is valuable is worth a careful search. The coin was worth the lamp, the sweeping and the time.\n\nShare these lessons with a friend in your own words. Role-play the lighting of the lamp, the sweeping, the finding, and the call to rejoice. Do not add a second story. This parable stops at the joy of heaven over one sinner who repents.",
       "keyWords": [
-        { "word": "parable", "meaning": "a story Jesus told to teach a truth about God" },
-        { "word": "sinner", "meaning": "a person who has done wrong against God" },
-        { "word": "repent", "meaning": "to turn away from sin and turn back to God" }
+        {
+          "word": "parable",
+          "meaning": "a story Jesus told to teach a truth about God"
+        },
+        {
+          "word": "sinner",
+          "meaning": "a person who has done wrong against God"
+        },
+        {
+          "word": "repent",
+          "meaning": "to turn away from sin and turn back to God"
+        }
       ],
       "activity": {
         "title": "Retell and role-play the search",
-        "materials": ["Bible", "A coin or bottle top", "A small brush or cloth"],
+        "materials": [
+          "Bible",
+          "A coin or bottle top",
+          "A small brush or cloth"
+        ],
         "steps": [
           "Read Luke 15:8-10 and retell the parable of the lost coin.",
           "Role-play the woman lighting a lamp, sweeping, finding the coin, and calling friends to rejoice.",
@@ -30,9 +46,21 @@
         ]
       },
       "practice": [
-        { "question": "How many silver coins did the woman have, and what did she lose?", "answer": "She had ten silver coins and lost one.", "check": null },
-        { "question": "What three things did she do to find it?", "answer": "She lit a lamp, swept the house and searched carefully until she found it.", "check": null },
-        { "question": "What happens in heaven when one sinner repents?", "answer": "There is rejoicing in the presence of the angels of God.", "check": null }
+        {
+          "question": "How many silver coins did the woman have, and what did she lose?",
+          "answer": "She had ten silver coins and lost one.",
+          "check": null
+        },
+        {
+          "question": "What three things did she do to find it?",
+          "answer": "She lit a lamp, swept the house and searched carefully until she found it.",
+          "check": null
+        },
+        {
+          "question": "What happens in heaven when one sinner repents?",
+          "answer": "There is rejoicing in the presence of the angels of God.",
+          "check": null
+        }
       ],
       "summary": [
         "The woman searched carefully until she found her one lost coin.",
@@ -43,7 +71,10 @@
     {
       "number": 2,
       "title": "God's love and a righteous life",
-      "outcomes": ["c", "d"],
+      "outcomes": [
+        "c",
+        "d"
+      ],
       "objectives": [
         "Explain how the parable shows God's love for the sinner.",
         "Choose to live a righteous and upright life."
@@ -51,9 +82,18 @@
       "intro": "The woman did not search because the coin searched for her. She went after what was lost. Jesus says God rejoices when a sinner repents. That joy shows love.",
       "notes": "The key question is: How does God show love for the sinner? In this parable He is like the woman who will not rest until the lost coin is found. The rejoicing of the angels shows that heaven wants the sinner home. Love here is not a soft word that leaves people in sin. Love searches, and love rejoices when there is repentance.\n\n### A righteous life\nRighteous and upright mean living in a way that is right before God. The parable does not say the lost coin stays lost and everyone is happy. Joy comes when it is found. In the same way, joy comes when a sinner repents. A Christian who has been found should not choose to be lost again.\n\nWays to lead a righteous life:\n\n- Admit wrong actions and turn from them.\n- Tell the truth.\n- Obey parents and teachers.\n- Forgive instead of taking revenge.\n- Keep your body pure.\n- Pray and read God's word.\n- Help someone else turn back to God by a kind word, not by mockery.\n\n### Why holiness matters\nA holy life is a life set apart for God. It matters because God loves you and has searched for you. Living carelessly after being found is like dropping the coin into the dust again. Appreciate God's love by thanking Him and by walking uprightly.\n\nYou can also care about people who are far from God. Citizenship in this lesson includes a desire to see lost people saved, as neighbours we care for. Pray for them. Invite them to church with a parent's knowledge. Do not insult them. The angels rejoice over one. You can rejoice too, and you can live in a way that shows the love that found you.",
       "keyWords": [
-        { "word": "righteous", "meaning": "living in a way that is right before God" },
-        { "word": "upright", "meaning": "honest and straight in character" },
-        { "word": "rejoice", "meaning": "to be full of joy, as heaven is over one sinner who repents" }
+        {
+          "word": "righteous",
+          "meaning": "living in a way that is right before God"
+        },
+        {
+          "word": "upright",
+          "meaning": "honest and straight in character"
+        },
+        {
+          "word": "rejoice",
+          "meaning": "to be full of joy, as heaven is over one sinner who repents"
+        }
       ],
       "examples": [
         {
@@ -69,7 +109,10 @@
       ],
       "activity": {
         "title": "How God loves and how we live",
-        "materials": ["Bible", "Exercise book"],
+        "materials": [
+          "Bible",
+          "Exercise book"
+        ],
         "steps": [
           "Say how God loves you, using the parable of the lost coin.",
           "Say how a learner can lead a righteous life.",
@@ -78,9 +121,21 @@
         ]
       },
       "practice": [
-        { "question": "How does God show love for the sinner in this parable?", "answer": "He searches for the lost, like the woman with the coin, and heaven rejoices when one sinner repents.", "check": null },
-        { "question": "What must the sinner do for that joy to fit the story?", "answer": "Repent, which means turn away from sin and turn back to God.", "check": null },
-        { "question": "Give two ways to live an upright life.", "answer": "Any two: admit wrong and turn from it, tell the truth, obey, forgive, keep pure, pray, help others kindly.", "check": null }
+        {
+          "question": "How does God show love for the sinner in this parable?",
+          "answer": "He searches for the lost, like the woman with the coin, and heaven rejoices when one sinner repents.",
+          "check": null
+        },
+        {
+          "question": "What must the sinner do for that joy to fit the story?",
+          "answer": "Repent, which means turn away from sin and turn back to God.",
+          "check": null
+        },
+        {
+          "question": "Give two ways to live an upright life.",
+          "answer": "Any two: admit wrong and turn from it, tell the truth, obey, forgive, keep pure, pray, help others kindly.",
+          "check": null
+        }
       ],
       "summary": [
         "God's love searches for the sinner and rejoices over repentance.",
@@ -90,16 +145,124 @@
     }
   ],
   "quiz": [
-    { "question": "The parable of the lost coin is in...", "options": ["Luke 15:8-10", "Luke 13:18-19", "John 3:1-5", "Matthew 5:42"], "answer": "A", "explanation": "The class reads Luke 15:8-10.", "outcome": "a", "check": null },
-    { "question": "The woman had...", "options": ["ten silver coins and lost one", "one coin and lost ten", "no lamp", "a mustard seed only"], "answer": "A", "explanation": "Luke 15:8 says she had ten silver coins and lost one.", "outcome": "a", "check": null },
-    { "question": "To find the coin she...", "options": ["lit a lamp, swept the house and searched carefully", "went to sleep", "asked a king to curse someone", "threw the other coins away"], "answer": "A", "explanation": "Luke 15:8 lists the lamp, the sweeping and the careful search.", "outcome": "a", "check": null },
-    { "question": "When she found it she...", "options": ["hid it and stayed silent", "called her friends and neighbours to rejoice", "lost it again on purpose", "sold her lamp"], "answer": "B", "explanation": "Luke 15:9 says she called them to rejoice with her.", "outcome": "a", "check": null },
-    { "question": "Jesus said there is rejoicing in the presence of the angels over...", "answer": "One sinner who repents.", "explanation": "Luke 15:10 gives this meaning.", "outcome": "a", "check": null },
-    { "question": "One lesson from the parable is...", "options": ["one person does not matter", "one sinner who repents brings joy in heaven", "searching is a waste of time", "friends should not be told good news"], "answer": "B", "explanation": "The woman's joy and heaven's joy both turn on one who was lost and is found.", "outcome": "b", "check": null },
-    { "question": "The coin was worth a careful search. This teaches that...", "options": ["people are valuable to God", "only rich people matter", "lost things should be ignored", "angels do not care"], "answer": "A", "explanation": "The search shows the value of the one who is lost.", "outcome": "b", "check": null },
-    { "question": "God shows love for the sinner by...", "options": ["refusing to look for them", "seeking them and rejoicing when they repent", "celebrating sin", "hiding the lamp"], "answer": "B", "explanation": "The woman is the picture of that seeking love.", "outcome": "c", "check": null },
-    { "question": "A righteous life after being found means...", "options": ["returning to the same sins on purpose", "turning from sin and obeying God", "mocking people who repent", "refusing to pray"], "answer": "B", "explanation": "Repentance leads to an upright life.", "outcome": "d", "check": null },
-    { "question": "Why should a Christian live a holy life?", "answer": "Because God loves them, heaven rejoices when a sinner repents, and a holy life stays close to that love.", "explanation": "The parable's joy is over repentance, so the right response is an upright life.", "outcome": "d", "check": null }
+    {
+      "question": "The parable of the lost coin is in...",
+      "options": [
+        "Luke 15:8-10",
+        "Luke 13:18-19",
+        "John 3:1-5",
+        "Matthew 5:42"
+      ],
+      "answer": "A",
+      "explanation": "The class reads Luke 15:8-10.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "The woman had...",
+      "options": [
+        "ten silver coins and lost one",
+        "one coin and lost ten",
+        "no lamp",
+        "a mustard seed only"
+      ],
+      "answer": "A",
+      "explanation": "Luke 15:8 says she had ten silver coins and lost one.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "To find the coin she...",
+      "options": [
+        "lit a lamp, swept the house and searched carefully",
+        "went to sleep",
+        "asked a king to curse someone",
+        "threw the other coins away"
+      ],
+      "answer": "A",
+      "explanation": "Luke 15:8 lists the lamp, the sweeping and the careful search.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "When she found it she...",
+      "options": [
+        "hid it and stayed silent",
+        "called her friends and neighbours to rejoice",
+        "lost it again on purpose",
+        "sold her lamp"
+      ],
+      "answer": "B",
+      "explanation": "Luke 15:9 says she called them to rejoice with her.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Jesus said there is rejoicing in the presence of the angels over:",
+      "answer": "One sinner who repents.",
+      "explanation": "Luke 15:10 gives this meaning.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "One lesson from the parable is...",
+      "options": [
+        "one person does not matter",
+        "one sinner who repents brings joy in heaven",
+        "searching is a waste of time",
+        "friends should not be told good news"
+      ],
+      "answer": "B",
+      "explanation": "The woman's joy and heaven's joy both turn on one who was lost and is found.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "The coin was worth a careful search. This teaches that:",
+      "options": [
+        "people are valuable to God",
+        "only rich people matter",
+        "lost things should be ignored",
+        "angels do not care"
+      ],
+      "answer": "A",
+      "explanation": "The search shows the value of the one who is lost.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "God shows love for the sinner by...",
+      "options": [
+        "refusing to look for them",
+        "seeking them and rejoicing when they repent",
+        "celebrating sin",
+        "hiding the lamp"
+      ],
+      "answer": "B",
+      "explanation": "The woman is the picture of that seeking love.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "A righteous life after being found means:",
+      "options": [
+        "returning to the same sins on purpose",
+        "turning from sin and obeying God",
+        "mocking people who repent",
+        "refusing to pray"
+      ],
+      "answer": "B",
+      "explanation": "Repentance leads to an upright life.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Why should a Christian live a holy life?",
+      "answer": "Because God loves them, heaven rejoices when a sinner repents, and a holy life stays close to that love.",
+      "explanation": "The parable's joy is over repentance, so the right response is an upright life.",
+      "outcome": "d",
+      "check": null
+    }
   ],
   "sources": [
     "KICD Grade 4 Christian Religious Education Curriculum Design (Revised 2024) — Strand 3.0 The Life of Jesus Christ, Sub-strand 3.8.1 Parable of the lost coin",
