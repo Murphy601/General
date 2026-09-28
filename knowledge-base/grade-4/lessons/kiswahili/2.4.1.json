@@ -1,0 +1,196 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "2.4.1",
+  "title": "Sarufi: Viwakilishi",
+  "overview": "Kiwakilishi ni neno linalotumika badala ya nomino ili tusirudie jina lile lile. Utajifunza viwakilishi vya nafsi kama mimi na yeye, pamoja na viwakilishi vya kuonyesha kama huyu, hawa, huyo na hao. Kisha utavitumia katika sentensi za mezani na nyumbani.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya kiwakilishi na jinsi ya kukitambua",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya kiwakilishi.",
+        "Kutambua viwakilishi vya nafsi na vya kuonyesha.",
+        "Kuvitofautisha na nomino."
+      ],
+      "intro": "Badala ya kusema Amina aliosha mikono kisha Amina alikaa, unasema Amina aliosha mikono kisha yeye alikaa. Neno yeye linasimama mahali pa Amina. Neno la aina hiyo linaitwa kiwakilishi.",
+      "notes": "### Kiwakilishi ni nini?\nKiwakilishi ni neno linalotumika badala ya nomino. Huzuia kurudia jina kila sentensi. Wingi ni viwakilishi. Swali dadisi ni: ni maneno gani yanayoweza kutumika badala ya nomino? Jawabu ni viwakilishi.\n\nNomino hutaja jina kamili. Kiwakilishi hukumbusha jina ambalo tayari limejulikana, au hukionyesha.\n\n### Viwakilishi vya nafsi\n- mimi: anayesema\n- wewe: anayesemezwa, mmoja\n- yeye: mtu mwingine, mmoja\n- sisi: wanaosema, wengi\n- ninyi: wanaosemezwa, wengi\n- wao: watu wengine, wengi\n\nAmina alisoma. Yeye ni mwanafunzi. Hapa yeye ni Amina.\nSisi tulikaa mezani. Sisi ni watu wanaosema.\n\n### Viwakilishi vya kuonyesha\nHivi huonyesha mtu yuko karibu na nani.\n\n- **huyu**: mtu mmoja aliye karibu na msemaji. Huyu mtoto ameosha mikono.\n- **hawa**: watu wengi walio karibu na msemaji. Hawa watoto wamekaa vizuri.\n- **huyo**: mtu mmoja aliye karibu na msikilizaji, au aliyetajwa. Huyo mzee aombe kwanza.\n- **hao**: watu wengi walio karibu na msikilizaji, au waliotajwa. Hao wageni wasubiri sahani.\n\nKatika orodha: meza, huyu, kula, hao, polepole, yeye. Viwakilishi ni huyu, hao na yeye. Meza ni nomino. Kula ni kitenzi. Polepole ni kielezi.\n\nUkitaka kujua kama neno ni kiwakilishi, uliza: je, linawakilisha jina, au ndilo jina lenyewe? Meza ni jina. Huyu linamwonyesha mtu bila kulitaja jina lake tena.",
+      "keyWords": [
+        { "word": "kiwakilishi", "meaning": "neno linalotumika badala ya nomino" },
+        { "word": "nafsi", "meaning": "aliyesema, anayesemezwa, au anayezungumziwa" },
+        { "word": "kuonyesha", "meaning": "kuelekeza mtu au kitu kwa maneno kama huyu na hao" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua viwakilishi: sisi, sufuria, huyo, pika, wao.",
+          "steps": ["Ondoa nomino sufuria na kitenzi pika.", "Sisi, huyo na wao vinawakilisha watu."],
+          "answer": "sisi, huyo, wao",
+          "check": null
+        },
+        {
+          "problem": "Badili nomino ya pili kwa kiwakilishi: Juma alikaa. Juma alikula.",
+          "steps": ["Juma ni mtu mmoja wa tatu.", "Kiwakilishi ni yeye."],
+          "answer": "Juma alikaa. Yeye alikula.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kapu la viwakilishi",
+        "materials": ["Kadi za maneno", "Kapu", "Tarakilishi panapopatikana"],
+        "steps": [
+          "Elezeni maana ya kiwakilishi kwa wenzako.",
+          "Chagueni viwakilishi kutoka kwenye orodha na mviweke kapuni: huyu, hao, huyo, hawa, meza, kula, yeye, sana.",
+          "Kwenye tarakilishi, buruteni neno sahihi na kuliweka kwenye kapu la picha.",
+          "Kila neno lililobaki nje, semeni ni nomino, kitenzi au kielezi.",
+          "Tungeni sentensi moja mkitumia huyu na sentensi nyingine mkitumia hao."
+        ]
+      },
+      "practice": [
+        { "question": "Kiwakilishi ni nini?", "answer": "Ni neno linalotumika badala ya nomino.", "check": null },
+        { "question": "Andika viwakilishi vya nafsi vya wingi.", "answer": "sisi, ninyi, wao", "check": null },
+        { "question": "Huyu na hawa vinatofautianaje?", "answer": "Huyu ni mtu mmoja aliye karibu na msemaji. Hawa ni watu wengi walio karibu na msemaji.", "check": null },
+        { "question": "Tambua kiwakilishi katika sentensi: Hao wageni wamekaa mezani.", "answer": "Hao", "check": null }
+      ],
+      "summary": [
+        "Kiwakilishi husimama badala ya nomino.",
+        "Vya nafsi ni mimi, wewe, yeye, sisi, ninyi na wao.",
+        "Vya kuonyesha ni huyu, hawa, huyo na hao."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia viwakilishi katika sentensi",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa kiwakilishi kinachofaa.",
+        "Kutunga sentensi kuhusu nidhamu mezani.",
+        "Kuthamini viwakilishi katika mawasiliano."
+      ],
+      "intro": "Kujua neno huyu hakutoshi. Unahitaji kujua kama mtu yuko karibu nawe au karibu na msikilizaji, na kama ni mmoja au wengi. Leo utajaza nafasi na kutunga sentensi zinazosomeka.",
+      "notes": "### Kujaza nafasi\nAngalia idadi na umbali.\n\n- ____ mtoto ameosha mikono. Mtoto yuko karibu nawe na ni mmoja: **Huyu** mtoto ameosha mikono.\n- ____ mzee aombe kwanza. Mzee yuko karibu na msikilizaji, au mmeshamtaja: **Huyo** mzee aombe kwanza.\n- ____ watoto wanakula vizuri. Wako karibu nawe: **Hawa** watoto wanakula vizuri. Wako mbali kidogo au mmeshawataja: **Hao** watoto wanakula vizuri.\n- Amina alisubiri. ____ hakuchukua chakula mapema. **Yeye** hakuchukua chakula mapema.\n\nMakosa ya kawaida: kusema hao mtoto. Hao ni wingi. Mtoto mmoja ni huyu au huyo. Kusema hawa mzee pia ni kosa. Mzee mmoja si hawa.\n\n### Sentensi za mezani\n- Mimi nimenawa mikono.\n- Wewe umekaa vizuri.\n- Yeye amesubiri babu.\n- Sisi tunatumia mkono wa kulia.\n- Ninyi mmeshukuru mama.\n- Wao wanaaga mezani.\n\nViwakilishi hufupisha mazungumzo bila kupoteza maana. Mzazi akisema ninyi mmeshukuru, anawamaanisha watoto aliowasemeza.\n\n### Fahari ya kuvitumia\nUkimtumia kiwakilishi sahihi, mawasiliano yanakuwa safi na ya heshima. Huyu na huyo vinamwonyesha mtu bila kumnasa kwa jina kila mara. Soma sentensi zako kwa mwenzako. Akionyesha kosa la umoja na wingi, rekebisha. Kazi hii inafaa mawasiliano ya kila siku, mezani na darasani.",
+      "keyWords": [
+        { "word": "umoja", "meaning": "mmoja, kama huyu na yeye" },
+        { "word": "wingi", "meaning": "wengi, kama hawa, hao na wao" },
+        { "word": "nafasi", "meaning": "pengo katika sentensi linalohitaji neno linalofaa" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza: ____ wageni wako karibu na mwalimu. Wataka kuwaonyesha.",
+          "steps": ["Wageni ni wingi.", "Wako karibu na msikilizaji, si karibu nawe tu."],
+          "answer": "Hao wageni wako karibu na mwalimu.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: Hao mtoto amekula.",
+          "steps": ["Mtoto ni mmoja.", "Hao ni wingi, hivyo hakifai."],
+          "answer": "Huyu mtoto amekula. (au Huyo mtoto amekula, kama yuko karibu na msikilizaji.)",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Jaza na msomeane",
+        "materials": ["Sentensi zenye nafasi", "Daftari", "Kifaa cha kidijitali panapopatikana"],
+        "steps": [
+          "Jazeni nafasi kwa huyu, hawa, huyo au hao kulingana na maelekezo ya mwalimu.",
+          "Tungeni sentensi tatu kuhusu mezani mkizitumia viwakilishi vya nafsi.",
+          "Andikeni daftarini au mtandaoni kwa ruhusa.",
+          "Msomee mwenzako na atathmini kama umoja na wingi vimepatana.",
+          "Sahihisha sentensi moja na uisome tena."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza nafasi: ____ mtoto aliye karibu nami ameosha mikono.", "answer": "Huyu", "check": null },
+        { "question": "Sahihisha: Hawa mzee amesimama.", "answer": "Huyu mzee amesimama. (au Huyo mzee amesimama.)", "check": null },
+        { "question": "Tunga sentensi ukitumia kiwakilishi sisi kuhusu kula.", "answer": "Mfano: Sisi tunakula kwa mkono wa kulia.", "check": null },
+        { "question": "Kwa nini viwakilishi ni muhimu?", "answer": "Huzuia kurudia nomino kila sentensi na kufanya mazungumzo yawe mafupi na wazi.", "check": null }
+      ],
+      "summary": [
+        "Huyu na hawa viko karibu na msemaji. Huyo na hao viko karibu na msikilizaji au vimetajwa.",
+        "Umoja na wingi lazima vipatane na nomino.",
+        "Viwakilishi sahihi hufanya mawasiliano ya mezani kuwa safi."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kiwakilishi ni neno gani?",
+      "options": ["neno linalotumika badala ya nomino", "neno la kutaja tendo", "kichwa cha insha", "sifa ya rangi"],
+      "answer": "A",
+      "explanation": "Kiwakilishi husimama mahali pa nomino.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Lipi ni kiwakilishi cha nafsi?",
+      "options": ["meza", "yeye", "polepole", "kula"],
+      "answer": "B",
+      "explanation": "Yeye humwakilisha mtu mmoja anayezungumziwa.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Hawa hutumika kwa nani?",
+      "options": ["mtu mmoja aliye mbali", "watu wengi walio karibu na msemaji", "kitu kimoja", "tendo la kula"],
+      "answer": "B",
+      "explanation": "Hawa ni wingi wa huyu, kwa watu walio karibu na anayesema.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Katika sentensi Hao wageni wamekaa, kiwakilishi ni kipi?",
+      "options": ["wageni", "Hao", "wamekaa", "sentensi"],
+      "answer": "B",
+      "explanation": "Hao kinaonyesha wageni. Wageni ni nomino.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Badili jina la pili: Amina alisubiri. Amina hakula mapema.",
+      "options": ["Amina alisubiri. Wao hakula mapema.", "Amina alisubiri. Yeye hakula mapema.", "Amina alisubiri. Hawa hakula mapema.", "Amina alisubiri. Sisi hakula mapema."],
+      "answer": "B",
+      "explanation": "Amina ni mmoja, hivyo kiwakilishi ni yeye.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi iko sahihi?",
+      "options": ["Hao mtoto amekula.", "Hawa mzee amesimama.", "Huyu mtoto ameosha mikono.", "Huyu watoto wamekaa."],
+      "answer": "C",
+      "explanation": "Huyu huenda na mtoto mmoja. Hao na hawa ni wingi. Huyu haikai na watoto.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Jaza: ____ tunakula kwa mkono wa kulia. (wanaosema)",
+      "options": ["Yeye", "Sisi", "Hao", "Wewe"],
+      "answer": "B",
+      "explanation": "Wanaosema wenyewe hutumia sisi, na kitenzi ni tunakula.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Sahihisha: Hao mtoto amesubiri.",
+      "answer": "Huyu mtoto amesubiri.",
+      "explanation": "Mtoto ni mmoja. Hao ni wingi, hivyo huyu au huyo linafaa.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Tunga sentensi ukitumia huyo kuhusu mzee mezani.",
+      "answer": "Mfano: Huyo mzee aombe kwanza.",
+      "explanation": "Huyo humwonyesha mtu mmoja aliye karibu na msikilizaji au aliyetajwa.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tujivunie kutumia viwakilishi sahihi?",
+      "answer": "Kwa sababu hufanya mazungumzo yawe mafupi, wazi na ya heshima bila kurudia majina bila sababu.",
+      "explanation": "Matumizi sahihi huboresha mawasiliano ya kila siku.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 2.0 Nidhamu Mezani, Mada Ndogo 2.4.1 Sarufi: Viwakilishi"
+  ]
+}

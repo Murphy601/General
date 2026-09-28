@@ -1,0 +1,269 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "11.4.1",
+  "title": "Sarufi: Ukanushaji",
+  "overview": "Ukanushaji ni kusema kwamba kitendo hakifanyiki, hakikufanyika, au hakitafanyika. Katika mada hii ndogo utatambua maneno yaliyokanushwa katika wakati uliopita, uliopo na ujao. Utajifunza viambishi vya nafsi na wakati, kisha ukanushe sentensi kwa usahihi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya ukanushaji na wakati uliopo",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya ukanushaji.",
+        "Kutambua vitenzi vilivyokanushwa katika wakati uliopo.",
+        "Kukanusha kitenzi cha wakati uliopo kwa nafsi sita."
+      ],
+      "intro": "Mwenzako anasema, \"Ninalipa karo.\" Mwingine anasema, \"Silipi karo leo.\" Sentensi ya pili haiongezi habari tu; inakataa kitendo. Huo ndio ukanushaji, na umbo la kitenzi hubadilika.",
+      "notes": "### Ukanushaji ni nini?\nUkanushaji ni kusema hapana: kitendo hakifanyiki, hakikufanyika, au hakitafanyika. Kinyume chake ni kuthibitisha, yaani kusema kitendo kinafanyika. \"Ninapata pesa\" inathibitisha. \"Sipati pesa\" inakanusha.\n\nUnapokanusha, huachi neno \"hapana\" peke yake. Unabadilisha viambishi vya kitenzi. Katika wakati uliopo, -na- huondoka, na tamati -a hubadilika kuwa -i.\n\n### Wakati uliopo\nKitenzi pata:\n\n- Mimi ninapata → sipati\n- Wewe unapata → hupati\n- Yeye anapata → hapati\n- Sisi tunapata → hatupati\n- Ninyi mnapata → hampati\n- Wao wanapata → hawapati\n\nAngalia sipati: si- ni ukanushaji wa mimi, na -na- haipo. Tamati imekuwa -i. Si sahihi kusema sinapati wala sinapata.\n\nMifano mingine:\n\n- ninaweka akiba → siweki akiba\n- anafanya kazi → hafanyi kazi\n- wanalipa → hawalipi\n\n### Jinsi ya kutambua\nKwenye chati au kifungu, tafuta kitenzi kisicho na -na-, -li- wala -ta-, na chenye tamati -i, pamoja na kiambishi si-, hu-, ha-, hatu-, ham- au hawa-. Neno kama hapati limekanushwa. Neno anapata halijakanushwa.\n\nSoma: Leo sipati kazi ya ziada. Juma hafanyi kazi sokoni. Sisi hatuweki akiba leo. Wao hawalipi deni.\n\nManeno yaliyokanushwa ni sipati, hafanyi, hatuweki na hawalipi. Yote ni wakati uliopo.\n\nUkanushaji unakusaidia kukataa kwa upole na kwa ujasiri. Kwa mfano: Sitakwenda na mgeni. Hiyo ni wakati ujao, utakaofunzwa baadaye; kwa sasa kumbuka kuwa \"hapana\" inaweza kukaa ndani ya kitenzi.",
+      "keyWords": [
+        { "word": "ukanushaji", "meaning": "kusema kitendo hakifanyiki, hakikufanyika au hakitafanyika" },
+        { "word": "kuthibitisha", "meaning": "kusema kitendo kinafanyika au kimefanyika" },
+        { "word": "tamati", "meaning": "sauti ya mwisho ya kitenzi, kama -a au -i" }
+      ],
+      "examples": [
+        {
+          "problem": "Je, neno hapati limekanushwa? Eleza.",
+          "steps": [
+            "Hakuna -na-.",
+            "Kinaanza kwa ha-, ukanushaji wa yeye.",
+            "Tamati ni -i, si -a."
+          ],
+          "answer": "Ndiyo. hapati ni ukanushaji wa anapata katika wakati uliopo.",
+          "check": null
+        },
+        {
+          "problem": "Kanusha: Sisi tunaweka akiba.",
+          "steps": [
+            "Nafsi ni sisi, ukanushaji ni hatu-.",
+            "Ondoa -na-.",
+            "Badilisha -a ya weka kuwa -i."
+          ],
+          "answer": "Sisi hatuweki akiba.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kapu la maneno yaliyokanushwa",
+        "materials": ["Kadi za vitenzi zilizothibitishwa na zilizokanushwa", "Kapu au chati", "Daftari"],
+        "steps": [
+          "Kwa kikundi, elezeni maana ya ukanushaji kwa maneno yenu.",
+          "Chagua kadi. Mpigie mstari kila neno lililokanushwa, kama sipati, hawalipi, hafanyi.",
+          "Andikeni kando neno lililothibitishwa, kwa mfano hapati kinatokana na anapata.",
+          "Tungeni sentensi moja ya wakati uliopo inayokanusha kutumia pesa ovyo."
+        ]
+      },
+      "practice": [
+        { "question": "Ukanushaji ni nini?", "answer": "Ni kusema kitendo hakifanyiki, hakikufanyika, au hakitafanyika.", "check": null },
+        { "question": "Kanusha: Mimi ninapata pesa.", "answer": "Mimi sipati pesa.", "check": null },
+        { "question": "Ni neno lipi limekanushwa: anafanya, hafanyi, atafanya?", "answer": "hafanyi", "check": null },
+        { "question": "Kwa nini \"sinapati\" si sahihi?", "answer": "Kwa sababu wakati uliopo ukikanushwa, -na- huondoka. Sahihi ni sipati.", "check": null }
+      ],
+      "summary": [
+        "Ukanushaji hukataa kitendo kwa kubadilisha kitenzi.",
+        "Wakati uliopo: ondoa -na-, na badilisha tamati -a kuwa -i.",
+        "sipati, hupati, hapati, hatupati, hampati, hawapati."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Viambishi vya nafsi na wakati uliopita",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Kutambua viambishi vya nafsi katika ukanushaji.",
+        "Kukanusha na kutambua vitenzi vya wakati uliopita."
+      ],
+      "intro": "Jana ulitaka kusema hukupata malipo, si kwamba unapata sasa. Ukanushaji wa jana hautumii -li-. Unatumia kiambishi kingine, -ku-, na kiambishi cha nafsi hubadilika.",
+      "notes": "### Viambishi vya nafsi\nKila nafsi ina kiambishi cha kuthibitisha na kingine cha kukanusha.\n\n- Mimi: ni- unapothibitisha, si- unapokanusha. Mfano: nilipata, sikupata.\n- Wewe: u- na hu-. ulipata, hukupata.\n- Yeye: a- na ha-. alipata, hakupata.\n- Sisi: tu- na hatu-. tulipata, hatukupata.\n- Ninyi: m- na ham-. mlipata, hamkupata.\n- Wao: wa- na hawa-. walipata, hawakupata.\n\nKatika neno hakupata, ha- ni nafsi ya yeye katika ukanushaji, -ku- ni alama ya wakati uliopita, na pata ni kitenzi.\n\n### Wakati uliopita\nUkanushaji wa wakati uliopita hutumia -ku-, si -li-. Tamati -a hubaki.\n\n- sikupata, hukupata, hakupata, hatukupata, hamkupata, hawakupata\n- sikuweka, hukuweka, hakuweka, hatukuweka, hamkuweka, hawakuweka\n\nSi sahihi kusema silipata wala hakulipata ukimaanisha yeye. Yeye ni hakupata.\n\n### Katika matini\nJana sikufika sokoni. Mama hakupata wateja wengi. Hatukuweka akiba. Wao hawakuuza matunda.\n\nManeno yaliyokanushwa katika wakati uliopita ni sikufika, hakupata, hatukuweka na hawakuuza. Yote yana -ku- na hayana -li-.\n\nLinganisha na neno lililothibitishwa: Jana nilipata wateja. Hapa kuna ni- na -li-, hakuna ukanushaji.\n\nUnapotenganisha neno, anza na nafsi, kisha wakati, kisha mzizi. hatukulipa = hatu- + -ku- + lipa. hatu- ni sisi katika ukanushaji, si ha- peke yake.",
+      "keyWords": [
+        { "word": "kiambishi cha nafsi", "meaning": "kipande kinachoonyesha mtendaji, kama ni-, a-, si- au ha-" },
+        { "word": "-ku-", "meaning": "kiambishi cha wakati uliopita kinapotumiwa katika ukanushaji" }
+      ],
+      "examples": [
+        {
+          "problem": "Tenganisha viambishi katika neno hakupata.",
+          "steps": [
+            "ha- ni ukanushaji wa yeye.",
+            "-ku- ni wakati uliopita.",
+            "pata ni kitenzi."
+          ],
+          "answer": "ha- + -ku- + pata",
+          "check": null
+        },
+        {
+          "problem": "Kanusha: Jana sisi tuliweka akiba.",
+          "steps": [
+            "Nafsi sisi inakuwa hatu-.",
+            "Badilisha -li- kuwa -ku-.",
+            "Tamati -a ibaki. Badilisha Jana isibadilike kwa sababu bado ni jana."
+          ],
+          "answer": "Jana sisi hatukuweka akiba.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tenganisha nafsi na wakati",
+        "materials": ["Chati ya viambishi", "Ubao", "Daftari au tarakilishi"],
+        "steps": [
+          "Kwa jozi, nakili jedwali la viambishi: ni-/si-, u-/hu-, a-/ha-, tu-/hatu-, m-/ham-, wa-/hawa-.",
+          "Mwalimu aandike maneno: sikupata, hukuuza, hakulipa, hatukuweka, hamkufanya, hawakupata.",
+          "Tenganisheni kila neno: kiambishi cha nafsi, -ku-, na kitenzi.",
+          "Kanusheni sentensi moja ya jana kuhusu kuuza sokoni, kisha mwasilishe darasani."
+        ]
+      },
+      "practice": [
+        { "question": "Kiambishi cha ukanushaji cha nafsi ya mimi ni kipi?", "answer": "si-", "check": null },
+        { "question": "Kanusha: Jana yeye alipata pesa.", "answer": "Jana yeye hakupata pesa.", "check": null },
+        { "question": "Ni wakati gani katika neno hatukuuza?", "answer": "Wakati uliopita, kwa sababu kuna -ku- na neno limekanushwa.", "check": null },
+        { "question": "Kwa nini \"silipata\" si sahihi?", "answer": "Kwa sababu ukanushaji wa wakati uliopita hutumia -ku-, si -li-. Sahihi ni sikupata.", "check": null }
+      ],
+      "summary": [
+        "Ukanushaji hubadilisha kiambishi cha nafsi: si-, hu-, ha-, hatu-, ham-, hawa-.",
+        "Wakati uliopita ukikanushwa hutumia -ku-, si -li-.",
+        "hakupata = ha- + -ku- + pata."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Wakati ujao na kukanusha sentensi",
+      "outcomes": ["d", "e"],
+      "objectives": [
+        "Kukanusha sentensi za wakati ujao.",
+        "Kuchagua ukanushaji unaofaa kulingana na nafsi na wakati.",
+        "Kutumia ukanushaji kukataa matumizi mabaya ya pesa na mwaliko usio salama."
+      ],
+      "intro": "Kesho unakusudia kuweka akiba, kisha ukabadilika. Utasema, \"Kesho sitaweka akiba,\" si \"Kesho ninaweka.\" Wakati ujao ukikanushwa unabaki na -ta-, na kiambishi cha nafsi ndicho kinachobeba hapana.",
+      "notes": "### Wakati ujao\nUkanushaji wa wakati ujao hubaki na -ta- na tamati -a. Kinachobadilika ni kiambishi cha nafsi.\n\n- nitapata → sitapata\n- utapata → hutapata\n- atapata → hatapata\n- tutapata → hatutapata\n- mtapata → hamtapata\n- watapata → hawatapata\n\nVivyo hivyo: nitaweka → sitaweka; watalipa → hawatalipa; atafanya → hatafanya.\n\nUsibadilishe tamati kuwa -i katika wakati ujao. \"Sitaweki\" si sahihi. Sahihi ni sitaweka.\n\n### Hatua za kukanusha sentensi\n1. Tambua nafsi: mimi, wewe, yeye, sisi, ninyi au wao.\n2. Tambua wakati: -li- ni uliopita, -na- ni uliopo, -ta- ni ujao.\n3. Chagua umbo:\n   - Uliopo: si-/hu-/ha-/hatu-/ham-/hawa- + kitenzi chenye -i, bila -na-.\n   - Uliopita: viambishi hivyo hivyo + -ku- + kitenzi chenye -a.\n   - Ujao: viambishi hivyo hivyo + -ta- + kitenzi chenye -a.\n4. Neno la muda libaki ikiwa bado linaeleza kipindi kile kile: kesho hubaki kesho.\n\nMifano:\n\n- Amina analipa karo. → Amina halipi karo.\n- Jana tulipata pesa. → Jana hatukupata pesa.\n- Kesho nitaweka akiba. → Kesho sitaweka akiba.\n\n### Kutumia ukanushaji\nUkanushaji unakusaidia kusema wazi unachokataa.\n\n- Sitapoteza pesa kwa vitu visivyohitajika.\n- Hatutaacha kuweka akiba.\n- Sitakwenda na mgeni.\n\nSentensi kama hizo zinaheshimu uamuzi wako. Unapozisoma darasani, wenzako wazithamini na kuzisahihisha kama kiambishi kimekosewa. Kushirikiana hivi kunafanya ukanushaji uwe sehemu ya mazungumzo, si kanuni za kukariri tu.\n\nKumbuka tofauti tatu: uliopo unaishia kwa -i na hauna -na-; uliopita una -ku-; ujao una -ta-.",
+      "keyWords": [
+        { "word": "-ta-", "meaning": "kiambishi cha wakati ujao, kinachobaki hata katika ukanushaji" },
+        { "word": "kukanusha sentensi", "meaning": "kuandika upya sentensi ili kuonyesha kuwa kitendo hakifanyiki" }
+      ],
+      "examples": [
+        {
+          "problem": "Kanusha: Kesho wao watauza matunda.",
+          "steps": [
+            "Nafsi ni wao, ukanushaji ni hawa-.",
+            "Wakati ni ujao, -ta- inabaki.",
+            "Tamati -a inabaki."
+          ],
+          "answer": "Kesho wao hawatauza matunda.",
+          "check": null
+        },
+        {
+          "problem": "Chagua umbo sahihi la kukanusha \"Ninalipa ada\": silipi, sikulipa, au sitalipa? Eleza.",
+          "steps": [
+            "Ninalipa ni wakati uliopo kwa sababu ya -na-.",
+            "Uliopo huondoa -na- na kubadilisha -a kuwa -i."
+          ],
+          "answer": "silipi, kwa sababu sentensi ilikuwa wakati uliopo.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kanusha na wasilishe",
+        "materials": ["Sentensi kwenye ubao au tarakilishi", "Daftari"],
+        "steps": [
+          "Kila mwanafunzi aandike sentensi tatu zinazothibitisha: moja ya jana, moja ya sasa na moja ya kesho, kuhusu pesa au kazi.",
+          "Mbadilishiane daftari. Kanusha kila sentensi ukizingatia nafsi na wakati.",
+          "Wasomeleni darasa sentensi zilizokanushwa. Wenzako waseme kama -i, -ku- au -ta- vimekaa sawasawa.",
+          "Andikeni sentensi moja ya kukataa kwenda na mgeni, na nyingine ya kukataa kupoteza akiba."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 540 150\" font-family=\"sans-serif\"><rect width=\"540\" height=\"150\" fill=\"#ffffff\"/><rect x=\"8\" y=\"12\" width=\"168\" height=\"126\" rx=\"8\" fill=\"#eff6ff\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><rect x=\"186\" y=\"12\" width=\"168\" height=\"126\" rx=\"8\" fill=\"#ecfdf5\" stroke=\"#166534\" stroke-width=\"2\"/><rect x=\"364\" y=\"12\" width=\"168\" height=\"126\" rx=\"8\" fill=\"#fff7ed\" stroke=\"#c2410c\" stroke-width=\"2\"/><g text-anchor=\"middle\" fill=\"#111827\" font-size=\"13\"><text x=\"92\" y=\"38\" font-weight=\"bold\">Uliopo</text><text x=\"92\" y=\"62\">ondoa -na-, -i</text><text x=\"92\" y=\"96\" font-size=\"16\" font-weight=\"bold\" fill=\"#1d4ed8\">silipi</text><text x=\"270\" y=\"38\" font-weight=\"bold\">Uliopita</text><text x=\"270\" y=\"62\">tumia -ku-</text><text x=\"270\" y=\"96\" font-size=\"16\" font-weight=\"bold\" fill=\"#166534\">sikulipa</text><text x=\"448\" y=\"38\" font-weight=\"bold\">Ujao</text><text x=\"448\" y=\"62\">baki na -ta-</text><text x=\"448\" y=\"96\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">sitalipa</text></g></svg>",
+        "caption": "Ukanushaji wa nafsi ya mimi katika nyakati tatu za kitenzi lipa"
+      },
+      "practice": [
+        { "question": "Kanusha: Kesho mimi nitaweka akiba.", "answer": "Kesho mimi sitaweka akiba.", "check": null },
+        { "question": "Kanusha: Yeye anafanya kazi.", "answer": "Yeye hafanyi kazi.", "check": null },
+        { "question": "Kanusha: Jana ninyi mlipata pesa.", "answer": "Jana ninyi hamkupata pesa.", "check": null },
+        { "question": "Andika sentensi ya kukataa kwenda na mgeni.", "answer": "Sitakwenda na mgeni.", "check": null }
+      ],
+      "summary": [
+        "Ujao ukikanushwa hubaki na -ta- na tamati -a: sitaweka.",
+        "Angalia nafsi kwanza, kisha wakati, ndipo uchague umbo.",
+        "Ukanushaji hukusaidia kukataa matumizi mabaya na mwaliko usio salama."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Ukanushaji ni nini?",
+      "options": ["Kusema kitendo hakifanyiki au hakikufanyika", "Kuongeza -na- kwenye kitenzi", "Kuandika anwani ya barua", "Kusoma maneno 65"],
+      "answer": "A",
+      "explanation": "Ukanushaji hukataa kitendo kwa kubadilisha umbo la kitenzi.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Ni neno lipi limekanushwa katika wakati uliopo?",
+      "options": ["anapata", "atapata", "hapati", "alipata"],
+      "answer": "C",
+      "explanation": "hapati halina -na-, lina ha- na tamati -i.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Ni neno lipi limekanushwa katika wakati uliopita?",
+      "options": ["nilipata", "ninapata", "nitapata", "sikupata"],
+      "answer": "D",
+      "explanation": "sikupata lina si- na -ku-, alama ya ukanushaji wa wakati uliopita.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Ni neno lipi limekanushwa katika wakati ujao?",
+      "options": ["nitaweka", "ninaweka", "sitaweka", "niliweka"],
+      "answer": "C",
+      "explanation": "sitaweka = si- + -ta- + weka.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Katika neno hakupata, ha- linaonyesha nini?",
+      "options": ["Wakati ujao", "Ukanushaji wa nafsi ya yeye", "Ukanushaji wa nafsi ya mimi", "Tamati -i"],
+      "answer": "B",
+      "explanation": "ha- ni kiambishi cha yeye anapokanusha. -ku- ndicho wakati uliopita.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kiambishi cha ukanushaji cha nafsi ya sisi ni kipi?",
+      "answer": "hatu-",
+      "explanation": "tulipata inakuwa hatukupata; tu- inabadilika kuwa hatu-.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kanusha: Mimi ninapata pesa.",
+      "options": ["Mimi sinapata pesa.", "Mimi sipati pesa.", "Mimi sikupati pesa.", "Mimi sita pati pesa."],
+      "answer": "B",
+      "explanation": "Wakati uliopo huondoa -na- na kubadilisha tamati kuwa -i: sipati.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Kanusha: Jana yeye aliweka akiba.",
+      "answer": "Jana yeye hakuweka akiba.",
+      "explanation": "a- + -li- inakuwa ha- + -ku-. Tamati -a inabaki.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Kanusha: Kesho sisi tutalipa karo.",
+      "answer": "Kesho sisi hatutalipa karo.",
+      "explanation": "tu- + -ta- inakuwa hatu- + -ta-. Tamati -a inabaki.",
+      "outcome": "d",
+      "check": null
+    },
+    {
+      "question": "Andika sentensi inayokanusha kwenda na mgeni.",
+      "answer": "Sitakwenda na mgeni.",
+      "explanation": "Ukanushaji wa wakati ujao unamsaidia mwanafunzi kukataa mwaliko usio salama.",
+      "outcome": "e",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 11.0 Mapato, Mada Ndogo 11.4.1 Ukanushaji"
+  ]
+}

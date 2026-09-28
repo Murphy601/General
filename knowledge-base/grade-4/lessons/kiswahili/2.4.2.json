@@ -1,0 +1,196 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "2.4.2",
+  "title": "Sarufi: Vielezi",
+  "overview": "Kielezi ni neno linaloeleza jinsi, lini, wapi au kwa kiasi gani tendo linafanyika. Utajifunza maneno kama polepole, haraka, sana, vizuri, kisheria, jana, shuleni na uwanjani. Utavitambua na kuvitumia katika sentensi za kazi za kila siku na za mezani.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya kielezi na jinsi ya kukitambua",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya kielezi.",
+        "Kutaja vielezi vya namna, wakati, mahali na kiwango.",
+        "Kuvitofautisha na nomino, vitenzi na vivumishi."
+      ],
+      "intro": "Kusema tulikula hakutoshi. Mwalimu anaweza kuuliza: mlilaje, na lini? Ukisema tulikula polepole jana, umeongeza jinsi na wakati. Maneno hayo ya ziada ndiyo vielezi.",
+      "notes": "### Kielezi ni nini?\nKielezi ni neno linaloeleza kitenzi. Huuliza: namna gani, lini, wapi, au kiasi gani? Wingi ni vielezi. Hakibadiliki kulingana na nomino kama kivumishi. Polepole hubaki polepole, iwe mtoto anakula au watoto wanakula.\n\n### Makundi\n- **Namna:** polepole, haraka, vizuri, vibaya. Anakula polepole. Aliandika vizuri.\n- **Kiwango:** sana. Ameshukuru sana.\n- **Wakati:** jana, leo, kesho, sasa. Jana tulikaa mezani.\n- **Mahali:** shuleni, uwanjani, nyumbani, mezani. Wanacheza uwanjani.\n\nNeno **kisheria** nalo ni kielezi cha namna. Linamaanisha kwa kufuata sheria au kanuni. Mchezo ulichezwa kisheria. Hapa mchezo haukuvunja kanuni.\n\n### Kutambua katika orodha\nOrodha: polepole, meza, haraka, kula, jana, shuleni, -zuri, sana.\n\nVielezi ni polepole, haraka, jana, shuleni na sana. Meza ni nomino. Kula ni kitenzi. -zuri ni mzizi wa kivumishi.\n\nKatika sentensi Watoto walikula vizuri jana mezani, vielezi ni vizuri, jana na mezani. Walikula ni kitenzi. Watoto ni nomino.\n\nUliza swali. Kama neno linajibu namna gani, lini au wapi, liandike kama kielezi. Usilichanganye na sifa ya nomino. Mtoto mrefu: mrefu ni kivumishi. Mtoto anakula polepole: polepole ni kielezi.",
+      "keyWords": [
+        { "word": "kielezi", "meaning": "neno linaloeleza jinsi, lini, wapi au kwa kiasi gani tendo linafanyika" },
+        { "word": "namna", "meaning": "jinsi tendo linalofanyika, kama polepole au haraka" },
+        { "word": "kisheria", "meaning": "kwa kufuata sheria au kanuni" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua vielezi: haraka, kiti, jana, soma, uwanjani.",
+          "steps": ["Ondoa nomino kiti na kitenzi soma.", "Haraka, jana na uwanjani vinaeleza tendo."],
+          "answer": "haraka, jana, uwanjani",
+          "check": null
+        },
+        {
+          "problem": "Katika sentensi Amina anasoma vizuri, kielezi ni kipi?",
+          "steps": ["Anasoma ni kitenzi.", "Vizuri huonyesha namna ya kusoma."],
+          "answer": "vizuri",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chagua vielezi na uyaigize",
+        "materials": ["Kadi za maneno", "Chati", "Kapu au tarakilishi"],
+        "steps": [
+          "Elezeni maana ya kielezi na mtoe mifano: polepole, haraka, sana, vizuri, jana, shuleni, uwanjani.",
+          "Chagueni vielezi kutoka kwenye orodha na mviweke kapuni. Mengine yabaki nje.",
+          "Kwenye tarakilishi, buruteni neno la kielezi na kuliweka kwenye kapu.",
+          "Igizeni kielezi kimoja, kwa mfano tembea polepole au andika haraka, na wenzako wakitegue.",
+          "Andikeni kielezi kilichotajwa na mkiseme kinaeleza namna, wakati au mahali."
+        ]
+      },
+      "practice": [
+        { "question": "Kielezi ni nini?", "answer": "Ni neno linaloeleza jinsi, lini, wapi au kwa kiasi gani tendo linafanyika.", "check": null },
+        { "question": "Tambua vielezi: sana, meza, polepole, lala, jana.", "answer": "sana, polepole, jana", "check": null },
+        { "question": "Kielezi cha mahali katika sentensi Wanacheza uwanjani ni kipi?", "answer": "uwanjani", "check": null },
+        { "question": "Kwa nini polepole si kivumishi?", "answer": "Kinaeleza namna ya kufanya tendo, wala hakibadiliki kulingana na nomino kama mzuri au kizuri.", "check": null }
+      ],
+      "summary": [
+        "Kielezi hueleza kitenzi: namna, wakati, mahali au kiwango.",
+        "Mifano ni polepole, haraka, vizuri, sana, jana, shuleni na uwanjani.",
+        "Hakibadiliki kama kivumishi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia vielezi katika sentensi",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa kielezi kinachofaa.",
+        "Kutunga sentensi kuhusu mezani na kazi za kila siku.",
+        "Kuthamini vielezi vinavyofanya maelezo kuwa wazi."
+      ],
+      "intro": "Sentensi Tulikula inakwisha haraka mno. Ukiiongezea jana na polepole, msomaji anaona tukio. Leo utachagua kielezi kinachofaa swali, si neno lolote linalosikika vizuri.",
+      "notes": "### Kujaza nafasi\nSoma swali lililofichwa na nafasi.\n\n- Anakula ____ ili asimwage chakula. Swali ni namna gani? **polepole**.\n- ____ tulimshukuru mama. Swali ni lini? **Jana**.\n- Watoto wanacheza ____. Swali ni wapi? **uwanjani** au **shuleni**.\n- Ameandika ____. Swali ni namna gani? **vizuri**.\n- Wameshikamana ____. Ikiwa unamaanisha kwa nguvu kubwa: **sana**.\n\nUsitia kivumishi mahali pa kielezi. Anakula mzuri si sahihi. Sahihi ni anakula vizuri. Mzuri humweleza mtu, vizuri hueleza tendo.\n\n### Sentensi za kila siku\n- Jana tulikula polepole mezani.\n- Leo ninaandika vizuri shuleni.\n- Wanacheza sana uwanjani.\n- Tuzingatie kanuni kisheria tunapocheza, yaani tufuate sheria za mchezo.\n- Mdogo wangu amekula haraka, naye ameombwa arudie polepole.\n\nVielezi vinaweza kuwa zaidi ya kimoja katika sentensi moja, mradi kila kimoja kina kazi yake. Jana ni wakati. Polepole ni namna. Mezani ni mahali.\n\n### Fahari ya kuvitumia\nKielezi sahihi hufanya hadithi na maelezo yawe wazi. Mzazi anaelewa ulikula lini na ulikula vipi. Soma sentensi zako kwa mwenzako au mwalimu. Wakuonyeshe kama umechanganya vizuri na mzuri. Rekebisha bila kujisikia vibaya. Matumizi haya yanakuza mawasiliano yako kila siku.",
+      "keyWords": [
+        { "word": "vizuri", "meaning": "kielezi cha namna kinachoonyesha tendo limefanyika kwa makini" },
+        { "word": "mezani", "meaning": "mahali pa meza, kielezi cha mahali" },
+        { "word": "sana", "meaning": "kielezi cha kiwango kinachoonyesha jambo limefanyika kwa nguvu" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza nafasi ya namna: Mtoto anakula ____ ili asimwage chakula.",
+          "steps": ["Swali ni namna gani, si wapi.", "Polepole linafaa kuliko haraka."],
+          "answer": "Mtoto anakula polepole ili asimwage chakula.",
+          "check": null
+        },
+        {
+          "problem": "Sahihisha: Amina anasoma mzuri.",
+          "steps": ["Mzuri ni kivumishi cha mtu.", "Tendo la kusoma huelezwa na vizuri."],
+          "answer": "Amina anasoma vizuri.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Tunga sentensi za vielezi",
+        "materials": ["Daftari", "Kadi za vielezi", "Kifaa cha kidijitali panapopatikana"],
+        "steps": [
+          "Jazeni nafasi ubaoni kwa polepole, haraka, sana, vizuri, jana, shuleni au uwanjani.",
+          "Kila mwanafunzi atunge sentensi tatu: moja ya namna, moja ya wakati na moja ya mahali.",
+          "Zingatia suala la nidhamu mezani katika sentensi moja.",
+          "Andikeni daftarini au kwenye kifaa kwa ruhusa.",
+          "Msomee mwenzako na mwalimu ili watoe maoni, kisha sahihisha moja."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza: ____ watoto walicheza uwanjani. (wakati uliopita)", "answer": "Jana", "check": null },
+        { "question": "Sahihisha: Tunakula mzuri mezani.", "answer": "Tunakula vizuri mezani.", "check": null },
+        { "question": "Tunga sentensi ukitumia kielezi kisheria.", "answer": "Mfano: Mchezo ulichezwa kisheria.", "check": null },
+        { "question": "Kwa nini vielezi ni muhimu mezani?", "answer": "Hueleza jinsi chakula kilivyoliwa, lini na wapi, hivyo adabu inaonekana wazi.", "check": null }
+      ],
+      "summary": [
+        "Chagua kielezi kulingana na swali: namna, lini, wapi au kiasi gani.",
+        "Sema anakula vizuri, si anakula mzuri.",
+        "Vielezi hufanya sentensi za kila siku kuwa wazi."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kielezi hueleza nini?",
+      "options": ["jina la mtu", "jinsi tendo linalofanyika", "rangi ya nomino tu", "kichwa cha insha"],
+      "answer": "B",
+      "explanation": "Kielezi hueleza namna, wakati, mahali au kiwango cha tendo.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Lipi ni kielezi?",
+      "options": ["meza", "polepole", "kiti", "-zuri"],
+      "answer": "B",
+      "explanation": "Polepole hueleza namna. Mengine ni nomino au mzizi wa kivumishi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Uwanjani ni kielezi cha aina gani?",
+      "options": ["cha mahali", "cha rangi", "cha umoja", "cha kiulizi"],
+      "answer": "A",
+      "explanation": "Uwanjani huonyesha mahali tendo linapofanyika.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Katika sentensi Jana tulikula vizuri, vielezi ni vipi?",
+      "options": ["tulikula tu", "Jana na vizuri", "tuli na kula", "hakuna kielezi"],
+      "answer": "B",
+      "explanation": "Jana ni wakati na vizuri ni namna.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi iko sahihi?",
+      "options": ["Amina anasoma mzuri.", "Amina anasoma vizuri.", "Vizuri mtoto mrefu tu bila tendo.", "Anasoma meza polepole kiti."],
+      "answer": "B",
+      "explanation": "Vizuri hueleza tendo la kusoma. Mzuri hungemweleza Amina kama kivumishi: Amina mzuri.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Jaza nafasi ya wakati: ____ nilikula polepole.",
+      "options": ["Jana", "Meza", "Mzuri", "Kiti"],
+      "answer": "A",
+      "explanation": "Jana huonyesha wakati. Meza na kiti ni nomino.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kisheria linamaanisha nini katika Mchezo ulichezwa kisheria?",
+      "options": ["kwa kufuata kanuni", "kwa haraka mno", "jukwaani", "jana tu"],
+      "answer": "A",
+      "explanation": "Kisheria ni kielezi cha namna kinachoonyesha sheria zilifuatwa.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sahihisha: Watoto wanakula mzuri.",
+      "answer": "Watoto wanakula vizuri.",
+      "explanation": "Tendo huelezwa na kielezi vizuri, si kivumishi mzuri.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Tunga sentensi ukitumia shuleni na vizuri.",
+      "answer": "Mfano: Leo ninaandika vizuri shuleni.",
+      "explanation": "Vizuri ni namna na shuleni ni mahali.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini tujivunie kutumia vielezi?",
+      "answer": "Kwa sababu hufanya mawasiliano kuwa wazi: mtu anajua jinsi, lini na wapi tendo lilifanyika.",
+      "explanation": "Vielezi sahihi huongeza maana ya kitenzi.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 2.0 Nidhamu Mezani, Mada Ndogo 2.4.2 Sarufi: Vielezi"
+  ]
+}

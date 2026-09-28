@@ -1,0 +1,182 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "subStrand": "9.4.1",
+  "title": "Writing: Punctuation (Comma and Question Mark)",
+  "overview": "A question mark shows that a sentence is asking something. A comma separates items in a list, marks yes or no at the start of a sentence, and sets off the name of the person you are speaking to. In this sub-strand you will find these marks in writing about health and use them so that your questions and lists are clear.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "The question mark",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Recognise a question and the question mark.",
+        "Write questions with a capital letter and a question mark.",
+        "Keep a full stop for sentences that tell rather than ask."
+      ],
+      "intro": "Did you wash your hands? is looking for an answer. I washed my hands. is giving one. They can use the same words in a different order, but they do not end with the same mark.",
+      "notes": "### What a question does\nA **question** is a sentence that asks for a reply. In writing, it ends with a **question mark** (?). The first word still begins with a capital letter.\n\n- Is HIV spread by sharing a cup?\n- Who can we tell if someone is bleeding?\n- Where should a used razor blade go?\n- Why does the nurse ask us not to tease?\n\nThe accurate answer to the first question is no. HIV is not spread by sharing a cup. The question mark does not make a false idea true. It only shows that you are asking.\n\n### Words that often open questions\nMany questions begin with who, what, where, when, why or how. Others begin with a helper such as is, are, do, does, did, can or will.\n\n- What is a virus?\n- Do we share needles?\n- Can medicine help a person living with HIV?\n\nCan medicine help is a fair question. The answer is yes: medicine can control HIV, though it is not a cure. There is no need to be afraid of asking a health question in class. Ask it clearly, and listen to the answer.\n\n### Statements are not questions\nA **statement** tells us something. It ends with a full stop.\n\n- HIV is a virus.\n- We do not share sharp objects.\n\nIf you only turn your voice up at the end, you have not yet written a question. The mark on the page must be a question mark. If the sentence tells us that someone asked, but does not ask the reader, it is still a statement: She asked if we had washed our hands.\n\n### A short dialogue\nNurse: Have you covered that cut?\nLearner: Yes, I have covered it.\nNurse: Did you touch anyone else's blood?\nLearner: No, I called the teacher.\n\nThe nurse's lines end with question marks. The learner's lines are answers, so they end with full stops. When you write a dialogue, give each speaker the mark that matches the job of the sentence.",
+      "keyWords": [
+        { "word": "question", "meaning": "a sentence that asks for a reply" },
+        { "word": "question mark", "meaning": "the mark ? used at the end of a question" },
+        { "word": "statement", "meaning": "a sentence that tells us something and ends with a full stop" }
+      ],
+      "examples": [
+        {
+          "problem": "Punctuate: is it safe to share a razor blade",
+          "steps": ["The sentence asks for an answer, so it is a question.", "Start with a capital and end with a question mark."],
+          "answer": "Is it safe to share a razor blade?",
+          "check": null
+        },
+        {
+          "problem": "Should this sentence end with a question mark or a full stop? She asked where the clinic was.",
+          "steps": ["The sentence tells us about a question she asked.", "It does not ask the reader anything."],
+          "answer": "A full stop",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Question cards",
+        "materials": ["Blank cards", "A pencil"],
+        "steps": [
+          "Each pair writes four real questions about health, using who, what, where, why, do or can.",
+          "Put a capital letter at the start and a question mark at the end.",
+          "Swap cards. Read the question aloud and answer it with a statement that ends in a full stop.",
+          "Sort a mixed pile of sentences into questions and statements by looking at the final mark."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 460 100' font-family='sans-serif'><rect width='460' height='100' fill='#ffffff'/><text x='16' y='42' font-size='18' fill='#111827'>Did you wash your hands?</text><text x='16' y='78' font-size='18' fill='#111827'>I washed my hands.</text><circle cx='268' cy='36' r='12' fill='none' stroke='#1d4ed8' stroke-width='2'/><circle cx='196' cy='74' r='8' fill='none' stroke='#166534' stroke-width='2'/><text x='290' y='42' font-size='13' fill='#1d4ed8'>Question mark</text><text x='214' y='80' font-size='13' fill='#166534'>Full stop</text></svg>",
+        "caption": "A question ends with a question mark. A statement ends with a full stop"
+      },
+      "practice": [
+        { "question": "Which mark ends a question?", "answer": "A question mark (?)", "check": null },
+        { "question": "Rewrite: why should we avoid sharing needles", "answer": "Why should we avoid sharing needles?", "check": null },
+        { "question": "End this sentence correctly: Medicine can control HIV, but it is not a cure", "answer": "Medicine can control HIV, but it is not a cure.", "check": null },
+        { "question": "Is Did you tell an adult? a question or a statement?", "answer": "A question", "check": null }
+      ],
+      "summary": [
+        "A question asks for a reply and ends with a question mark.",
+        "The first word of a question begins with a capital letter.",
+        "A statement ends with a full stop, even when it reports that someone asked something."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "The comma in lists and in address",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Use commas between items in a list.",
+        "Use a comma after yes or no at the start of a sentence.",
+        "Use a comma when you speak to someone by name."
+      ],
+      "intro": "Read this aloud in one breath: We need grains vegetables fruit beans and clean water. The foods crash together. Commas give the reader a small pause between items so the list can be counted.",
+      "notes": "### Commas in a list\nA **comma** (,) separates items in a list of three or more. Put a comma after each item except the last. In the lists we write in class, you do not need a comma immediately before and.\n\n- A balanced meal can include grains, vegetables, fruit and beans.\n- Do not share razor blades, needles or tweezers.\n- The class promised to sit together, to tell an adult about blood and to skip unkind jokes.\n\nA balanced meal helps the body stay strong. It is useful for everyone, including people living with HIV. It does not cure HIV, and it does not replace medicine.\n\nTwo items do not need a list comma: fruit and water. The comma appears when a third item joins them: fruit, vegetables and water.\n\n### Yes and no\nWhen yes or no opens a sentence, put a comma after it.\n\n- Yes, we can share a meal.\n- No, we cannot share a needle.\n\nThe comma stops yes or no from sticking to the next word. The rest of the sentence still begins with its normal word, not with an extra capital.\n\n### Speaking to someone by name\nWhen you address a person, set the name off with a comma.\n\n- Amina, come and sit with us.\n- Thank you, Sister Wairimu, for the chart.\n- Hassan, did you cover the cut?\n\nIf the name is at the end, one comma is enough: Please listen, Amina. If the name is in the middle, use a comma on each side. The commas do not replace the final mark. A question still ends with a question mark: Amina, have you washed your hands?\n\n### A comma is not a full stop\nDo not join two whole sentences with only a comma. The nurse spoke, we listened is a run-on. Write The nurse spoke. We listened. You may also join them properly with and: The nurse spoke, and we listened. In that sentence the comma is followed by and, and there is still only one full stop, at the end.",
+      "keyWords": [
+        { "word": "comma", "meaning": "the mark , used to separate items in a list or to set off a name or yes and no" },
+        { "word": "list", "meaning": "three or more items written one after another" },
+        { "word": "address", "meaning": "to speak or write directly to someone by name" }
+      ],
+      "examples": [
+        {
+          "problem": "Add commas: Please bring cotton soap and a clean cloth.",
+          "steps": ["There are three items: cotton, soap and a clean cloth.", "Put a comma after cotton. No comma is required before and."],
+          "answer": "Please bring cotton, soap and a clean cloth.",
+          "check": null
+        },
+        {
+          "problem": "Punctuate: No we do not share tweezers Amina",
+          "steps": ["No opens the sentence, so it needs a comma.", "Amina is the person being spoken to, so she needs a comma before the name.", "The sentence tells us something, so it ends with a full stop."],
+          "answer": "No, we do not share tweezers, Amina.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Build a sentence from cards",
+        "materials": ["Word cards", "Comma cards", "A question-mark card and a full-stop card"],
+        "steps": [
+          "In pairs, lay out cards to build a list of foods in a balanced meal and put comma cards in the right gaps.",
+          "Build a second sentence that begins with Yes or No and speaks to a classmate by name.",
+          "Choose a full stop or a question mark for the end.",
+          "Copy the two sentences onto paper and read them, pausing slightly at each comma."
+        ]
+      },
+      "practice": [
+        { "question": "Add commas: We need ugali vegetables and beans.", "answer": "We need ugali, vegetables and beans.", "check": null },
+        { "question": "Punctuate: Yes I will tell an adult.", "answer": "Yes, I will tell an adult.", "check": null },
+        { "question": "Punctuate: Hassan please sit with us.", "answer": "Hassan, please sit with us.", "check": null },
+        { "question": "Why is this sentence weak? The nurse spoke, we listened.", "answer": "Two sentences have been joined with only a comma. They need a full stop or a joining word.", "check": null }
+      ],
+      "summary": [
+        "Use commas between items in a list of three or more.",
+        "Put a comma after yes or no, and around a name you are speaking to.",
+        "A comma does not replace a full stop between two sentences."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Using commas and question marks together",
+      "outcomes": ["b", "c"],
+      "objectives": [
+        "Write sentences that need both a comma and a question mark.",
+        "Correct a short paragraph that is missing punctuation.",
+        "Share one clear sentence for other learners to read."
+      ],
+      "intro": "Amina, did you wash the fruit? needs two marks, and they do different jobs. The comma shows that you are speaking to Amina. The question mark shows that you are asking her something. Leave either mark out and the line is harder to read.",
+      "notes": "### Both marks in one sentence\nUse each mark for its own job.\n\n- Amina, are you coming to the game?\n- Do we need grains, vegetables, fruit and clean water?\n- Yes, I asked the nurse.\n- No, a cough does not tell us that a person has HIV.\n\nIn the food question, the commas separate the list and the question mark closes the question. In the answers, the comma follows yes or no and the full stop closes a statement. Do not put a question mark on an answer unless the answer itself asks something.\n\n### A paragraph to repair\nRead the weak version, then the clear one.\n\nWeak: amina did you cover the cut we need cotton soap and a plaster no you should not touch another person's blood\n\nClear: Amina, did you cover the cut? We need cotton, soap and a plaster. No, you should not touch another person's blood.\n\nThree sentences appear once the marks are in place. The first speaks to Amina and asks a question. The second is a list. The third is a firm answer. A reader can now follow the first aid without guessing.\n\n### Make the marks a habit\nDraw a large comma and a large question mark on cards and pin them where writers can see them. On a sticker, write one correct sentence, for example: Friends, will you keep our promise? Stick it in an agreed place and read other people's stickers with respect. You are looking for clear marks, not for a chance to mock the writer.\n\nYou can also type two sentences on a word processor, tablet or phone and send them to your teacher, with a parent or guardian if the device is theirs. Games such as a punctuation ladder work in the same way: each correct comma or question mark moves you one step up. Whether the game is on paper or on a screen, the skill is the same.\n\nPunctuation is part of self-expression. A careful question can be brave: May I sit with you? A careful list can be useful: Bring water, soap and a cloth. The marks let the kindness and the information arrive intact.",
+      "keyWords": [
+        { "word": "paragraph", "meaning": "a group of sentences about one idea" },
+        { "word": "dialogue", "meaning": "words spoken by people, written so we can see who asks and who answers" }
+      ],
+      "examples": [
+        {
+          "problem": "Punctuate: friends will you help me wash the cups",
+          "steps": ["Friends is the name of the people being spoken to, so add a comma.", "The sentence asks something, so end with a question mark.", "Capitalise the first word."],
+          "answer": "Friends, will you help me wash the cups?",
+          "check": null
+        },
+        {
+          "problem": "Which two jobs do the marks do in: Do we share blades, needles or tweezers?",
+          "steps": ["The comma separates items in a list.", "The question mark shows that the sentence asks a question."],
+          "answer": "The comma separates the list. The question mark ends the question.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Stickers and a ladder",
+        "materials": ["Cards", "Stickers or small paper", "A drawn ladder with six rungs"],
+        "steps": [
+          "Draw a comma and a question mark on large cards and label what each mark does.",
+          "In pairs, repair the weak paragraph about the cut, using commas, a question mark and full stops.",
+          "Write one correct sentence on a sticker and display it. Read two stickers by other learners and say what the marks do.",
+          "Play a punctuation ladder. A correct sentence moves your counter up one rung. If you type, do it with a teacher or a parent."
+        ]
+      },
+      "practice": [
+        { "question": "Punctuate: Amina did you tell the teacher", "answer": "Amina, did you tell the teacher?", "check": null },
+        { "question": "Punctuate: do we eat grains vegetables and fruit", "answer": "Do we eat grains, vegetables and fruit?", "check": null },
+        { "question": "Punctuate: No a shared cup does not spread HIV", "answer": "No, a shared cup does not spread HIV.", "check": null },
+        { "question": "Why should written work be punctuated?", "answer": "Punctuation shows questions, lists and sentence endings so the reader understands the message clearly.", "check": null }
+      ],
+      "summary": [
+        "A comma and a question mark can appear in the same sentence, each with its own job.",
+        "Repair writing by marking lists, names, questions and statements.",
+        "Sharing clear sentences helps the whole class write more fluently."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Which mark ends a direct question?", "options": ["A comma", "A full stop", "A question mark", "A capital letter"], "answer": "C", "explanation": "A question mark ends a sentence that asks for a reply.", "outcome": "a", "check": null },
+    { "question": "Choose the correctly written question.", "options": ["is hiv spread by a hug", "Is HIV spread by a hug", "Is HIV spread by a hug?", "Is HIV spread by a hug."], "answer": "C", "explanation": "The question needs a capital letter and a question mark. HIV is not spread by a hug.", "outcome": "b", "check": null },
+    { "question": "Which sentence should end with a full stop?", "options": ["Did you wash your hands", "She asked if we had washed our hands", "Where is the soap", "Can we play together"], "answer": "B", "explanation": "It reports a question but does not ask one, so it is a statement.", "outcome": "a", "check": null },
+    { "question": "Where do the commas belong? We need rice beans and fruit.", "options": ["We need, rice beans and fruit.", "We need rice, beans and fruit.", "We need rice beans, and fruit.", "We, need rice beans and fruit."], "answer": "B", "explanation": "Commas separate the items in the list. A comma is not required before and.", "outcome": "b", "check": null },
+    { "question": "Choose the correct opening.", "options": ["Yes we can share a meal.", "Yes, we can share a meal.", "Yes; we can share a meal.", "Yes we, can share a meal."], "answer": "B", "explanation": "A comma follows Yes when it opens the sentence.", "outcome": "b", "check": null },
+    { "question": "Which sentence addresses Amina correctly?", "options": ["Amina come and play.", "Amina, come and play.", "Amina. come and play.", "Amina come, and play."], "answer": "B", "explanation": "A comma sets off the name of the person you are speaking to.", "outcome": "b", "check": null },
+    { "question": "What is wrong with The nurse spoke, we listened?", "options": ["It needs a question mark", "Two sentences are joined by only a comma", "The comma should be before nurse", "It has too many capitals"], "answer": "B", "explanation": "A comma cannot do the job of a full stop between two statements.", "outcome": "a", "check": null },
+    { "question": "Punctuate: Hassan have you covered the cut", "answer": "Hassan, have you covered the cut?", "explanation": "The comma follows the name, and the question mark ends the question.", "outcome": "b", "check": null },
+    { "question": "Punctuate: No we do not share needles", "answer": "No, we do not share needles.", "explanation": "No is followed by a comma, and the statement ends with a full stop.", "outcome": "b", "check": null },
+    { "question": "Why do writers use commas and question marks?", "answer": "They show lists, names and questions so a reader can understand the writing quickly and clearly.", "explanation": "Clear punctuation makes the meaning easy to follow.", "outcome": "c", "check": null }
+  ],
+  "sources": [
+    "KICD Grade 4 English Curriculum Design (Revised 2024) — Theme 9.0 HIV and AIDS, Sub-strand 9.4.1 Punctuation: Comma and Question Mark"
+  ]
+}

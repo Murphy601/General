@@ -1,0 +1,135 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "6.1.1",
+  "title": "Kusikiliza na Kuzungumza: Shairi",
+  "overview": "Katika mada hii ndogo utasikiliza, kukariri na kuimba shairi kuhusu bendera ya taifa. Utatamka maneno kwa uwazi, utaeleza msamiati wa uhuru, rangi na kupandisha bendera, na utaeleza ujumbe wa shairi. Bendera itaelezwa kwa ukweli unaojulikana kuhusu alama ya Kenya.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Kukariri shairi na kueleza msamiati",
+      "outcomes": ["a", "b", "c"],
+      "objectives": [
+        "Kukariri shairi la bendera kwa matamshi na mahadhi.",
+        "Kueleza maana ya msamiati uliotumiwa katika shairi.",
+        "Kutumia msamiati huo katika sentensi."
+      ],
+      "intro": "Asubuhi ya gwaride, bendera hupandishwa na wanafunzi husimama tulivu. Shairi linaweza kutukumbusha rangi zake na heshima inayostahili. Leo tutalisikiliza na kisha tukariri.",
+      "notes": "### Shairi: Bendera Yetu\nUbeti wa kwanza\nBendera yetu ya Kenya,\nInatambulisha nchi,\nNyeusi, nyekundu, kijani,\nNyeupe inaonyesha amani.\n\nUbeti wa pili\nNyeusi ni wananchi,\nNyekundu ni damu ya uhuru,\nKijani ni ardhi yenye rutuba,\nNgao na mikuki ni ulinzi.\n\nUbeti wa tatu\nAsubuhi tuipandishe,\nJioni tuishukishe,\nIsiguse ardhi kamwe,\nTuiheshimu sote.\n\n### Jinsi ya kukariri\nSikiliza kwanza mwalimu, mghani mwalikwa, au rekodi kwenye kifaa kilichoidhinishwa. Kisha soma ubeti mmoja kwa sauti. Fumba macho na urudie bila kuangalia. Mwenzako akusikilize. Mahadhi ni mdundo: pumzika mwisho wa kila mshororo, na pumzika zaidi mwisho wa ubeti. Matamshi yawe wazi, hasa maneno uhuru, bendera na kushukisha.\n\nUnaweza kuimba kwa mdundo mwepesi au kusoma kama mazungumzo. Maneno yasibadilike. Wavulana na wasichana wote wanakariri.\n\n### Msamiati na ukweli wa bendera\nBendera ya Kenya ina umbo la mstatili. Uwiano wa upana wake, kutoka juu hadi chini, na urefu wake, kutoka kushoto hadi kulia, ni 2 kwa 3.\n\nMistari mikubwa mitatu imepangwa hivyo, kutoka juu:\n\n- **Nyeusi** pana: wananchi wa Kenya.\n- **Nyeupe** nyembamba.\n- **Nyekundu** pana: damu iliyomwagika katika mapambano ya uhuru.\n- **Nyeupe** nyembamba.\n- **Kijani** pana: kilimo na mali asili ya ardhi.\n\nRangi nyeupe inaonyesha amani na umoja. Katikati kuna ngao ya Kimasai yenye rangi nyekundu, nyeusi na nyeupe, na mikuki miwili myeupe iliyopishana nyuma yake. Ngao na mikuki vinaashiria ulinzi wa uhuru.\n\n**Uhuru** ni hali ya nchi kujitawala. Bendera ya Kenya ilipandishwa kwa mara ya kwanza tarehe 12 Desemba 1963, siku ya uhuru.\n\n**Kupandisha** ni kuinua bendera juu ya mlingoti. **Kushukisha** ni kuishusha chini kwa heshima. Shuleni hupandishwa asubuhi na kushushwa jioni. Haifai kugusa ardhi.\n\n### Kutumia msamiati\n- Tulipandisha bendera asubuhi ya gwaride.\n- Rangi nyeusi inaonyesha wananchi wa Kenya.\n- Jioni tutaishukisha bendera kabla isigushe ardhi.\n\nUsibadilishe mpangilio wa rangi. Kijani si juu, na nyeusi si chini.",
+      "keyWords": [
+        { "word": "bendera", "meaning": "alama ya taifa yenye rangi rasmi, inayopandishwa kwenye mlingoti" },
+        { "word": "uhuru", "meaning": "hali ya nchi kujitawala; Kenya iliupata tarehe 12 Desemba 1963" },
+        { "word": "kupandisha", "meaning": "kuinua bendera juu ya mlingoti" },
+        { "word": "kushukisha", "meaning": "kuishusha bendera chini kwa heshima" },
+        { "word": "wananchi", "meaning": "watu wa nchi" }
+      ],
+      "examples": [
+        {
+          "problem": "Orodhesha rangi za bendera ya Kenya kutoka juu hadi chini.",
+          "steps": ["Mstari mpana wa juu ni nyeusi.", "Kisha nyeupe nyembamba, nyekundu pana, nyeupe nyembamba.", "Chini ni kijani pana."],
+          "answer": "Nyeusi, nyeupe, nyekundu, nyeupe, kijani.",
+          "check": null
+        },
+        {
+          "problem": "Eleza maana ya mikuki na ngao katika shairi.",
+          "steps": ["Viko katikati ya bendera.", "Shairi linasema ni ulinzi.", "Maana yake ni ulinzi wa uhuru."],
+          "answer": "Ngao ya Kimasai na mikuki miwili myeupe vinaashiria ulinzi wa uhuru.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Sikiliza, kariri, eleza",
+        "materials": ["Shairi la Bendera Yetu", "Kifaa cha kidijitali panapowezekana", "Chati ya bendera"],
+        "steps": [
+          "Sikilizeni shairi likisomwa na mwalimu au kwenye kifaa kilichoidhinishwa.",
+          "Karirini ubeti mmoja kwa zamu, mkizingatia matamshi na mahadhi.",
+          "Kwa kikundi, elezeni maana ya maneno: uhuru, bendera, kupandisha, kushukisha na rangi.",
+          "Tungeni sentensi moja kwa kila neno.",
+          "Onyesheni kwenye chati rangi kutoka juu: nyeusi, nyeupe, nyekundu, nyeupe, kijani."
+        ]
+      },
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 450 300\"><rect width=\"450\" height=\"300\" fill=\"#ffffff\"/><rect y=\"0\" width=\"450\" height=\"92\" fill=\"#000000\"/><rect y=\"92\" width=\"450\" height=\"12\" fill=\"#ffffff\"/><rect y=\"104\" width=\"450\" height=\"92\" fill=\"#bb0000\"/><rect y=\"196\" width=\"450\" height=\"12\" fill=\"#ffffff\"/><rect y=\"208\" width=\"450\" height=\"92\" fill=\"#006600\"/><g stroke=\"#ffffff\" stroke-width=\"7\" stroke-linecap=\"round\"><line x1=\"168\" y1=\"78\" x2=\"282\" y2=\"228\"/><line x1=\"282\" y1=\"78\" x2=\"168\" y2=\"228\"/></g><path d=\"M225 88 C268 92 278 130 262 168 L225 214 L188 168 C172 130 182 92 225 88 Z\" fill=\"#bb0000\" stroke=\"#ffffff\" stroke-width=\"6\"/><path d=\"M225 100 C248 104 252 132 244 162 L225 198 L206 162 C198 132 202 104 225 100 Z\" fill=\"#000000\"/><path d=\"M225 112 L236 150 L225 186 L214 150 Z\" fill=\"#ffffff\"/></svg>",
+        "caption": "Mchoro rahisi wa bendera ya Kenya: nyeusi, nyeupe, nyekundu, nyeupe na kijani, na ngao na mikuki katikati"
+      },
+      "practice": [
+        { "question": "Rangi nyeusi ya bendera ina maana gani?", "answer": "Wananchi wa Kenya.", "check": null },
+        { "question": "Rangi nyekundu ina maana gani?", "answer": "Damu iliyomwagika katika mapambano ya uhuru.", "check": null },
+        { "question": "Kushukisha bendera ni nini?", "answer": "Kuishusha bendera chini kwa heshima.", "check": null },
+        { "question": "Tunga sentensi ukitumia neno kupandisha.", "answer": "Mfano: Tulipandisha bendera asubuhi ya gwaride.", "check": null }
+      ],
+      "summary": [
+        "Kariri shairi kwa matamshi wazi na mahadhi.",
+        "Kutoka juu, rangi ni nyeusi, nyeupe, nyekundu, nyeupe na kijani.",
+        "Ngao na mikuki miwili vinaashiria ulinzi wa uhuru."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Ujumbe wa shairi la bendera",
+      "outcomes": ["d", "e"],
+      "objectives": [
+        "Kueleza ujumbe wa kila ubeti.",
+        "Kujibu maswali yanayotokana na shairi.",
+        "Kuonyesha faida ya ushairi katika jamii."
+      ],
+      "intro": "Shairi halijaisha mstari wa mwisho unaposomwa. Linakumbusha jinsi ya kutendea bendera heshima na jinsi ya kuishi pamoja kama wananchi. Leo tutaondoa ujumbe katika kila ubeti.",
+      "notes": "### Ujumbe wa kila ubeti\nUbeti wa kwanza unasema bendera inatambulisha Kenya. Rangi kuu ni nyeusi, nyekundu na kijani, na nyeupe inaonyesha amani. Bila bendera, ishara ya taifa haionekani kwa mbali.\n\nUbeti wa pili unaeleza maana. Nyeusi ni wananchi. Nyekundu ni damu ya mapambano ya uhuru. Kijani ni ardhi yenye rutuba, yaani kilimo na mali asili. Ngao na mikuki ni ulinzi wa uhuru. Maana hizi hazibadilishwi ovyo.\n\nUbeti wa tatu unafundisha matendo. Asubuhi bendera hupandishwa. Jioni hushukishwa. Haifai kugusa ardhi. Wote tuna wajibu wa kuiheshimu: wavulana, wasichana, walimu na wageni.\n\nUjumbe mzima: bendera ni alama ya taifa inayounganisha wananchi. Tuiheshimu kwa rangi zake, kwa namna inavyopandishwa, na kwa amani inayoonyesha.\n\n### Maswali ya kujiuliza\n- Shairi linazungumzia alama gani?\n- Rangi nyeupe imeelezwa kufanya nini?\n- Ni tendo gani linafanywa asubuhi, na lipi jioni?\n- Kuna agizo gani kuhusu ardhi?\n\nMajibu yapate maneno ya shairi, si kubuni tarehe wala idadi isiyotajwa. Tarehe 12 Desemba 1963 ni ukweli wa historia ya bendera, si mstari wa shairi hili. Usichanganye funzo la shairi na ukweli uliofunzwa kando.\n\n### Ushairi katika jamii\nMashairi huhifadhi mafunzo kwa urahisi kwa sababu yanakaririwa. Shairi la bendera hujenga mshikamano: watu wa jamii mbalimbali husimama chini ya alama moja. Pia hufundisha wajibu bila kupiga kelele. Kuchangamkia ushairi ni kukariri kwa ufasaha na kutumia ujumbe katika maisha, kwa mfano kusimama tulivu bendera inapopandishwa.\n\nWakati wa maombolezo ya kitaifa, bendera hupandishwa nusu mlingoti. Hilo ni heshima, si kosa la kuishusha ovyo.",
+      "keyWords": [
+        { "word": "ujumbe", "meaning": "funzo ambalo shairi linataka tusikie" },
+        { "word": "mlingoti", "meaning": "nguzo inayoshikilia bendera" },
+        { "word": "heshima", "meaning": "adabu tunayoionesha alama ya taifa" }
+      ],
+      "examples": [
+        {
+          "problem": "Ujumbe wa ubeti wa tatu ni upi?",
+          "steps": ["Soma mishororo ya ubeti wa tatu.", "Inataja asubuhi, jioni, ardhi na heshima."],
+          "answer": "Pandisha bendera asubuhi, ishukishe jioni, isiguse ardhi, na uiheshimu.",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini shairi linasema bendera inatambulisha nchi?",
+          "steps": ["Bendera ni alama ya taifa.", "Rangi na ngao zake zinaonyesha Kenya."],
+          "answer": "Kwa sababu rangi na ngao zake ni alama inayoonyesha kuwa ni Kenya.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Jadili ujumbe kwa vikundi",
+        "materials": ["Shairi la Bendera Yetu", "Daftari"],
+        "steps": [
+          "Kila kikundi kiwe na ubeti mmoja.",
+          "Karirini ubeti kwa mahadhi, kisha mwandike ujumbe wake kwa sentensi mbili.",
+          "Jibuni swali: shairi linatuagiza tufanye nini bendera inapopandishwa?",
+          "Unganisheni ujumbe wa beti tatu kuwa funzo moja.",
+          "Semeni faida moja ya mashairi katika jamii, kwa mfano kufundisha heshima au kuunganisha watu."
+        ]
+      },
+      "practice": [
+        { "question": "Ujumbe wa ubeti wa pili ni upi?", "answer": "Unaeleza maana za rangi, ngao na mikuki: wananchi, damu ya uhuru, ardhi yenye rutuba, na ulinzi.", "check": null },
+        { "question": "Shairi linasema tufanye nini ili bendera isiguse ardhi?", "answer": "Tuipandishe asubuhi na tuishukishe jioni kwa heshima.", "check": null },
+        { "question": "Taja faida moja ya mashairi katika jamii.", "answer": "Mfano: huhifadhi mafunzo kwa urahisi na kuunganisha watu chini ya ujumbe mmoja.", "check": null },
+        { "question": "Nusu mlingoti ina maana gani?", "answer": "Ni kupandisha bendera katikati ya mlingoti wakati wa maombolezo ya kitaifa, kama ishara ya heshima.", "check": null }
+      ],
+      "summary": [
+        "Kila ubeti una funzo: alama, maana, na matendo ya heshima.",
+        "Bendera haifai kugusa ardhi.",
+        "Ushairi husaidia jamii kukariri mafunzo ya umoja."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Rangi zipi zinapita juu ya bendera ya Kenya, kwa mpangilio?", "options": ["Kijani, nyeupe, nyeusi, nyeupe, nyekundu", "Nyeusi, nyeupe, nyekundu, nyeupe, kijani", "Nyekundu, nyeusi, kijani", "Nyeupe, kijani, nyeusi"], "answer": "B", "explanation": "Kutoka juu: nyeusi pana, nyeupe nyembamba, nyekundu pana, nyeupe nyembamba, kijani pana.", "outcome": "b", "check": null },
+    { "question": "Rangi kijani ina maana gani?", "options": ["Wananchi", "Damu ya uhuru", "Kilimo na mali asili ya ardhi", "Ulinzi pekee"], "answer": "C", "explanation": "Kijani kinaonyesha kilimo na mali asili ya ardhi.", "outcome": "b", "check": null },
+    { "question": "Nyeupe inaonyesha nini?", "options": ["Amani na umoja", "Mito pekee", "Milima", "Mavuno ya mahindi tu"], "answer": "A", "explanation": "Mistari myeupe inaonyesha amani na umoja.", "outcome": "b", "check": null },
+    { "question": "Katikati ya bendera kuna nini?", "options": ["Nyota moja tu", "Ngao ya Kimasai na mikuki miwili myeupe iliyopishana", "Picha ya mti", "Neno la shule"], "answer": "B", "explanation": "Ngao na mikuki vinaashiria ulinzi wa uhuru.", "outcome": "b", "check": null },
+    { "question": "Kupandisha bendera ni nini?", "options": ["Kuiweka chini", "Kuinua bendera juu ya mlingoti", "Kuipea mgeni", "Kuichora mezani"], "answer": "B", "explanation": "Kupandisha ni kuinua bendera juu.", "outcome": "c", "check": null },
+    { "question": "Bendera ya Kenya ilipandishwa kwa mara ya kwanza lini?", "options": ["Tarehe 12 Desemba 1963", "Tarehe 1 Januari 2000", "Tarehe 12 Juni 1890", "Tarehe 4 Aprili 2010"], "answer": "A", "explanation": "Ilipandishwa tarehe 12 Desemba 1963, siku ya uhuru.", "outcome": "b", "check": null },
+    { "question": "Ujumbe wa ubeti unaosema isiguse ardhi ni upi?", "options": ["Bendera itupwe chini", "Bendera iheshimiwe wala isiguse ardhi", "Rangi zibadilishwe", "Gwaride liachwe"], "answer": "B", "explanation": "Shairi linafundisha heshima: bendera isiguse ardhi.", "outcome": "d", "check": null },
+    { "question": "Kushukisha hufanywa lini shuleni?", "options": ["Asubuhi tu", "Jioni", "Usiku wa manane bila mtu", "Wakati wa kula tu"], "answer": "B", "explanation": "Bendera hupandishwa asubuhi na kushushwa jioni.", "outcome": "a", "check": null },
+    { "question": "Tunga sentensi ukitumia neno uhuru.", "answer": "Mfano: Rangi nyekundu inakumbusha damu iliyomwagika katika mapambano ya uhuru.", "explanation": "Neno la shairi limetumiwa katika sentensi kamili.", "outcome": "c", "check": null },
+    { "question": "Mashairi yana faida gani katika jamii?", "answer": "Huhifadhi mafunzo, huunganisha watu, na kufundisha heshima kwa urahisi wa kukariri.", "explanation": "Ushairi ni njia ya kujieleza na kufundisha.", "outcome": "e", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa KICD wa Kiswahili Gredi ya 4 (Uliorekebishwa 2024) — Mada 6.0 Bendera ya Taifa, Mada Ndogo 6.1.1 Kusikiliza na Kuzungumza: Shairi"
+  ]
+}
