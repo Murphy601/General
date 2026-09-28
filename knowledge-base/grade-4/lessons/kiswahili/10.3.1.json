@@ -183,7 +183,7 @@
     },
     {
       "question": "Sentensi ipi imeakifishwa vizuri?",
-      "options": ["aMina alipata kalamu", "Amina alipata kalamu", "amina alipata kalamu", "Amina alipata kalamu"],
+      "options": ["aMina alipata kalamu.", "Amina alipata kalamu.", "amina alipata kalamu", "Amina alipata kalamu"],
       "answer": "B",
       "explanation": "Sentensi huanza kwa herufi kubwa na inaisha kwa nukta. Chaguo la mwisho lina herufi kubwa lakini halina nukta; chaguo B lina zote mbili.",
       "outcome": "b",

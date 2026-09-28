@@ -1,0 +1,183 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "8.4.1",
+  "title": "Sarufi: Mnyambuliko wa Vitenzi",
+  "overview": "Mnyambuliko wa vitenzi ni kubadilisha mwisho wa kitenzi ili kupata maana mpya. Utajifunza kauli tatu: kutenda, kutendea na kutendwa. Utaweza kuzitambua katika matini, kuzitumia katika sentensi kuhusu wanyama wa porini na baiskeli, na kueleza tofauti zake.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Mnyambuliko na kauli ya kutenda",
+      "outcomes": ["a", "b", "c"],
+      "objectives": [
+        "Kueleza maana ya mnyambuliko wa vitenzi.",
+        "Kutofautisha kauli ya kutenda, kutendea na kutendwa kwa ufupi.",
+        "Kutambua vitenzi vya kauli ya kutenda katika sentensi."
+      ],
+      "intro": "Neno linda, lindia na lindwa yana mzizi mmoja, lakini maana inabadilika mwishoni. Linda ni kufanya kitendo. Lindia ni kufanya kwa ajili ya mtu. Lindwa ni kutendewa. Mabadiliko haya ndiyo mnyambuliko.",
+      "notes": "### Mnyambuliko ni nini?\nMnyambuliko wa vitenzi ni kubadilisha umbo la kitenzi, hasa mwisho wake, ili kupata maana nyingine. Kitenzi hakibadiliki ovyo. Kuna kauli zinazojulikana. Katika darasa hili tunajifunza tatu:\n\n- **Kauli ya kutenda:** mtendaji anafanya kitendo mwenyewe. Kitenzi ni cha msingi, kama linda, panda, soma, andika, endesha na piga.\n- **Kauli ya kutendea:** kitendo kinafanywa kwa ajili ya mtu mwingine, au kuelekea mahali. Mwisho huwa **-ia** au **-ea**, kama lindia, pandia, somea na andikia.\n- **Kauli ya kutendwa:** mtendwa anakuwa mada ya sentensi. Mwisho huwa **-wa**, kama lindwa, pandwa, somwa na andikwa.\n\nTofauti kwa mfano mmoja:\n- Mlinzi **analinda** wanyama. (kutenda)\n- Mlinzi **anatulindia** wanyama. (kutendea: anatufanyia kazi hiyo)\n- Wanyama **wanalindwa** na mlinzi. (kutendwa)\n\n### Kauli ya kutenda kwa undani\nKatika kauli hii, anayetajwa kwanza ndiye anayefanya kazi. Kitenzi huishia na **-a** ya msingi, bila -ia, -ea wala -wa.\n\n- Amina **anapanda** mti.\n- Juma **anaandika** waraka.\n- Neema **anasoma** kitabu cha wanyama.\n- Dereva **anaendesha** gari polepole.\n- Mtoto **anapiga** mpira.\n- Wanafunzi **wanalinda** miche.\n\n### Jinsi ya kutambua\nUliza: je, mtu anafanya kitendo mwenyewe, bila kufanyia mtu mwingine wala kutendwa? Kama ndiyo, ni kutenda. \"Anapanda\" ni kutenda. \"Anampandia\" tayari ina -ia, kwa hiyo si kutenda. \"Mti unapandwa\" ina -wa, kwa hiyo si kutenda.\n\nSoma sentensi hii: \"Amina anaendesha baiskeli, Juma anapanda mti, na Neema anasoma.\" Vitenzi vitatu vyote ni vya kutenda: anaendesha, anapanda, anasoma.",
+      "keyWords": [
+        { "word": "mnyambuliko", "meaning": "kubadilisha umbo la kitenzi ili kupata maana mpya" },
+        { "word": "kauli ya kutenda", "meaning": "umbo la kitenzi mtendaji anapofanya kitendo mwenyewe" },
+        { "word": "kauli ya kutendea", "meaning": "umbo linaloonyesha kitendo kinachofanywa kwa ajili ya mtu mwingine" },
+        { "word": "kauli ya kutendwa", "meaning": "umbo linaloonyesha kuwa mtu au kitu kimetendewa" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua kitenzi cha kutenda: Wanyama wanalindwa. Mlinzi analinda wanyama. Mlinzi anatulindia wanyama.",
+          "steps": ["Kutenda haina -ia, -ea wala -wa ya kutendwa.", "Analinda ndicho umbo la msingi."],
+          "answer": "analinda",
+          "check": null
+        },
+        {
+          "problem": "Eleza tofauti fupi kati ya panda, pandia na pandwa.",
+          "steps": ["Panda ni kufanya.", "Pandia ni kufanyia mtu.", "Pandwa ni kutendwa."],
+          "answer": "Panda ni kauli ya kutenda, pandia ni kutendea, na pandwa ni kutendwa.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Chora jedwali la kauli",
+        "materials": ["Chati au jedwali", "Kapu la vitenzi", "Daftari"],
+        "steps": [
+          "Jadilieni maana ya mnyambuliko, kutenda, kutendea na kutendwa.",
+          "Choreni jedwali la safu tatu: kutenda, kutendea, kutendwa.",
+          "Choponi kadi zenye linda, lindia, lindwa, panda, pandia, pandwa, soma, somea, somwa.",
+          "Mwekeni kila kitenzi katika safu sahihi na mtunge sentensi moja ya kutenda kuhusu mlinzi au baiskeli.",
+          "Someni sentensi zenu na wenzako waseme kama mmetumia kauli ya kutenda."
+        ]
+      },
+      "practice": [
+        { "question": "Mnyambuliko wa vitenzi ni nini?", "answer": "Ni kubadilisha umbo la kitenzi, hasa mwisho wake, ili kupata maana mpya.", "check": null },
+        { "question": "Kauli ya kutenda inaonyesha nini?", "answer": "Inaonyesha kuwa mtendaji anafanya kitendo mwenyewe.", "check": null },
+        { "question": "Chagua vitenzi vya kutenda: anasoma, anasomea, anasomwa, anaandika.", "answer": "anasoma na anaandika", "check": null },
+        { "question": "Andika kitenzi cha kutenda katika sentensi kuhusu baiskeli.", "answer": "Mfano: Amina anaendesha baiskeli polepole.", "check": null }
+      ],
+      "summary": [
+        "Mnyambuliko hubadilisha mwisho wa kitenzi na maana yake.",
+        "Kutenda ni umbo la msingi: linda, panda, soma, endesha.",
+        "Kutendea huishia kwa -ia au -ea, na kutendwa kwa -wa."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kauli ya kutendea",
+      "outcomes": ["b", "c", "d"],
+      "objectives": [
+        "Kutengeneza kauli ya kutendea kutoka kitenzi cha kutenda.",
+        "Kutambua -ia na -ea katika matini.",
+        "Kutumia kauli ya kutendea katika sentensi sahihi."
+      ],
+      "intro": "Dada hasomi peke yake tu. Anamsomea mdogo hadithi ya ndovu. Neno somea linaonyesha kuwa kusoma kunamfaa mtu mwingine. Hiyo ndiyo kauli ya kutendea.",
+      "notes": "### Maana\nKauli ya kutendea inaonyesha kuwa kitendo kinafanywa **kwa ajili ya** mtu, au **kwa faida** ya mtu. Mtu anayefaidika mara nyingi huingizwa kwa kiambishi cha nafsi kama m-, wa- au tu-.\n\n### Jinsi ya kunyambua\nAngalia irabu iliyo kabla ya -a ya mwisho.\n- Ikiwa irabu hiyo ni **a, i** au **u**, tumia **-ia**.\n- Ikiwa irabu hiyo ni **e** au **o**, tumia **-ea**.\n\nMifano:\n- piga → **pigia** (irabu i)\n- andika → **andikia** (irabu i)\n- panda → **pandia** (irabu a)\n- linda → **lindia** (irabu i)\n- funga → **fungia** (irabu u)\n- soma → **somea** (irabu o)\n- endesha → **endeshea** (irabu e)\n- chora → **chorea** (irabu o)\n\n### Sentensi\n- Neema **anamwandikia** mlinzi barua. (anaandika kwa ajili yake)\n- Juma **anampandia** Amina mche. (anapanda kwa ajili yake)\n- Mlinzi **anatulindia** wanyama. (analinda kwa faida yetu)\n- Dada **anamsomea** mdogo hadithi ya ndovu.\n- Mama **anamwendeshea** mtoto baiskeli polepole. (anaendesha kwa ajili yake)\n\nAngalia upatanisho. \"Anamwandikia\" ina m- kwa sababu mlinzi ni mtu mmoja. \"Anatulindia\" ina tu- kwa sababu anayefaidika ni sisi. Wanafunzi wengi hutumia wa-: Mwalimu anawasomea wanafunzi hadithi.\n\n### Kutambua katika matini\nTafuta -ia au -ea mwishoni, kisha uliza: je, kuna mtu anayefanyiwa? Katika \"Mwalimu anawaandikia wanafunzi ubaoni,\" kitenzi ni anawaandikia, kauli ya kutendea. Katika \"Mwalimu anaandika,\" hakuna -ia, kwa hiyo ni kutenda.\n\nUsichanganye na kutendwa. Andikia si andikwa. Somea si somwa.",
+      "keyWords": [
+        { "word": "-ia", "meaning": "mwisho wa kauli ya kutendea vitenzi vyenye irabu a, i au u" },
+        { "word": "-ea", "meaning": "mwisho wa kauli ya kutendea vitenzi vyenye irabu e au o" },
+        { "word": "kufanyia", "meaning": "kufanya kitendo kwa ajili ya mtu mwingine" }
+      ],
+      "examples": [
+        {
+          "problem": "Nyambua: soma, panda, endesha kuwa kauli ya kutendea.",
+          "steps": ["Soma ina o, kwa hiyo -ea.", "Panda ina a, kwa hiyo -ia.", "Endesha ina e, kwa hiyo -ea."],
+          "answer": "somea, pandia, endeshea",
+          "check": null
+        },
+        {
+          "problem": "Tunga sentensi: Juma anampandia Amina mti.",
+          "steps": ["Onyesha Juma anapanda kwa ajili ya Amina.", "Tumia kiambishi m-."],
+          "answer": "Juma anampandia Amina mti karibu na uzio.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Nyambua na tunga",
+        "materials": ["Jedwali la vitenzi", "Daftari au tarakilishi"],
+        "steps": [
+          "Kamilisheni jedwali: piga, soma, andika, linda, panda, endesha. Andikeni kauli ya kutendea.",
+          "Kwa vikundi, tungeni sentensi tatu kuhusu mlinzi, mche na baiskeli.",
+          "Tumieni kiambishi cha nafsi: m-, wa- au tu-.",
+          "Choponi sentensi kutoka kapuni na semeni kama -ia au -ea ndiyo iliyotumika.",
+          "Wasomeeni wenzako na mkasahihishe kama mtu ametumia -wa badala ya -ia."
+        ]
+      },
+      "practice": [
+        { "question": "Andika kauli ya kutendea ya: linda, chora, funga.", "answer": "lindia, chorea, fungia", "check": null },
+        { "question": "Kwa nini somea si somwa?", "answer": "Somea ni kutendea, yaani kusoma kwa ajili ya mtu. Somwa ni kutendwa, yaani kusomwa na mtu.", "check": null },
+        { "question": "Jaza: Dada ana___ mdogo hadithi. (somea)", "answer": "Dada anamsomea mdogo hadithi.", "check": null },
+        { "question": "Tambua kauli: Mlinzi anatulindia hifadhi.", "answer": "Kauli ya kutendea, kwa sababu analinda kwa faida yetu.", "check": null }
+      ],
+      "summary": [
+        "Kutendea huishia kwa -ia au -ea.",
+        "Irabu a, i, u huleta -ia. Irabu e na o huleta -ea.",
+        "Mtu anayefaidika huonyeshwa kwa m-, wa- au tu-."
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Kauli ya kutendwa na matumizi",
+      "outcomes": ["c", "d", "e"],
+      "objectives": [
+        "Kutengeneza kauli ya kutendwa kwa kuongeza -wa.",
+        "Kuandika sentensi upya kutoka kutenda hadi kutendwa.",
+        "Kutumia kauli tatu katika mawasiliano kuhusu wanyama na usafiri."
+      ],
+      "intro": "Ukisema \"Amina anaendesha baiskeli,\" Amina ndiye mtendaji. Ukisema \"Baiskeli inaendeshwa na Amina,\" baiskeli inakuwa mada, na Amina anatajwa baadaye kwa neno na. Hii ni kauli ya kutendwa.",
+      "notes": "### Maana na umbo\nKatika kauli ya kutendwa, kitu au mtu aliyetendewa hutajwa kwanza. Kitenzi huishia kwa **-wa**. Mtendaji wa awali huwekwa baada ya **na**, au anaweza kuachwa.\n\n- piga → **pigwa**\n- soma → **somwa**\n- andika → **andikwa**\n- linda → **lindwa**\n- panda → **pandwa**\n- endesha → **endeshwa**\n- pika → **pikwa**\n- chora → **chorwa**\n\n### Kubadilisha sentensi\nUpatanisho hufuata neno jipya linaloanza sentensi.\n\n- Mlinzi analinda wanyama. → Wanyama **wanalindwa** na mlinzi.\n- Wanafunzi wanapanda miti. → Miti **inapandwa** na wanafunzi.\n- Amina anaendesha baiskeli. → Baiskeli **inaendeshwa** na Amina.\n- Neema anasoma kitabu. → Kitabu **kinasomwa** na Neema.\n- Juma anaandika barua. → Barua **inaandikwa** na Juma.\n\nWanyama wanatumia wa-. Miti inatumia i- ya ngeli ya M-MI. Baiskeli na barua, zikiwa umoja, kila moja inatumia i-. Kitabu kinatumia ki-.\n\n### Katika matini\n\"Wanyama wanalindwa porini. Miti inapandwa karibu na uzio. Baiskeli inaendeshwa polepole.\" Vitenzi vitatu ni vya kutendwa: wanalindwa, inapandwa, inaendeshwa.\n\nLinganisha na kutenda na kutendea:\n- Amina **anaendesha** baiskeli. (kutenda)\n- Mama **anamwendeshea** Amina baiskeli. (kutendea)\n- Baiskeli **inaendeshwa** na Amina. (kutendwa)\n\n### Kwa nini tuzitumie\nKauli hizi zinakupa uhuru wa kuanzisha sentensi kwa mtu, kwa mnyama, au kwa kitu. Unaposimulia kuhusu hifadhi, unaweza kusema wanyama wanalindwa badala ya kurudia mlinzi kila mara. Unapozungumzia usalama barabarani, \"Baiskeli inaendeshwa polepole\" inasisitiza baiskeli na mwendo, si jina la mtoto tu.\n\nChangamkia kuzitumia katika mazungumzo na insha. Ukikosea mwisho, rekebisha -a, -ia au -wa, kisha soma tena upatanisho wa neno la kwanza.",
+      "keyWords": [
+        { "word": "-wa", "meaning": "mwisho unaoonyesha kauli ya kutendwa" },
+        { "word": "na", "meaning": "neno linalomleta mtendaji katika sentensi ya kutendwa" },
+        { "word": "mtendwa", "meaning": "aliyefanyiwa kitendo" }
+      ],
+      "examples": [
+        {
+          "problem": "Andika upya: Wanafunzi wanalinda miche.",
+          "steps": ["Miche iwe neno la kwanza.", "Miche ni wingi wa M-MI, kwa hiyo ina-.", "Ongeza na wanafunzi."],
+          "answer": "Miche inalindwa na wanafunzi.",
+          "check": null
+        },
+        {
+          "problem": "Tambua kauli: Barua inaandikwa. Neema anamwandikia mlinzi barua. Neema anaandika barua.",
+          "steps": ["-wa ni kutendwa.", "-ia ni kutendea.", "Umbo la msingi ni kutenda."],
+          "answer": "inaandikwa = kutendwa; anamwandikia = kutendea; anaandika = kutenda",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika sentensi upya",
+        "materials": ["Jedwali la kauli tatu", "Daftari"],
+        "steps": [
+          "Jazeni safu ya kutendwa: linda, panda, endesha, soma, andika, piga.",
+          "Andikeni sentensi tano za kutenda kuhusu wanyama, miti na baiskeli.",
+          "Ziandikeni upya katika kauli ya kutendwa mkirekebisha upatanisho.",
+          "Chagueni sentensi mbili na zibadilisheni kuwa kutendea.",
+          "Wasomeeni wenzako. Wao waseme kauli iliyotumika na wakasahihishe kama -wa imekosekana."
+        ]
+      },
+      "practice": [
+        { "question": "Andika kauli ya kutendwa ya: piga, chora, endesha.", "answer": "pigwa, chorwa, endeshwa", "check": null },
+        { "question": "Andika upya: Mlinzi analinda wanyama.", "answer": "Wanyama wanalindwa na mlinzi.", "check": null },
+        { "question": "Andika upya: Amina anaendesha baiskeli.", "answer": "Baiskeli inaendeshwa na Amina.", "check": null },
+        { "question": "Kwa nini kauli ya kutendwa inafaa unapozungumzia usalama wa baiskeli?", "answer": "Inakuwezesha kuanza na baiskeli, kwa mfano 'Baiskeli inaendeshwa polepole', ili kusisitiza mwendo na hadhari.", "check": null }
+      ],
+      "summary": [
+        "Kutendwa huishia kwa -wa, na mtendaji huja baada ya na.",
+        "Neno la kwanza ndilo linalobadilisha kiambishi cha kitenzi.",
+        "Tumia kauli tatu ili kusimulia kuhusu wanyama na usafiri kwa uhuru."
+      ]
+    }
+  ],
+  "quiz": [
+    { "question": "Mnyambuliko wa vitenzi ni nini?", "options": ["kubadilisha mwisho wa kitenzi ili kupata maana mpya", "kuandika nomino kwa herufi kubwa", "kuhesabu silabi", "kubadilisha ngeli ya kila neno"], "answer": "A", "explanation": "Mwisho mpya huleta kauli mpya.", "outcome": "a", "check": null },
+    { "question": "Kauli ya kutenda inaonyesha nini?", "options": ["kitendo kinachofanywa na mtendaji mwenyewe", "kitendo kilichofanywa kwa ajili ya mtu", "kitu kilichotendwa", "wakati ujao tu"], "answer": "A", "explanation": "Ni umbo la msingi, kama analinda na anapanda.", "outcome": "b", "check": null },
+    { "question": "Lindia ni kauli gani?", "options": ["kutenda", "kutendea", "kutendwa", "kutendua"], "answer": "B", "explanation": "Mwisho -ia unaonyesha kufanyia mtu.", "outcome": "b", "check": null },
+    { "question": "Lindwa ni kauli gani?", "options": ["kutenda", "kutendea", "kutendwa", "kutendeana"], "answer": "C", "explanation": "Mwisho -wa unaonyesha kutendwa.", "outcome": "b", "check": null },
+    { "question": "Kitenzi kipi ni cha kutenda?", "options": ["anamsomea", "anasomwa", "anasoma", "anatulindia"], "answer": "C", "explanation": "Anasoma ndicho umbo la msingi.", "outcome": "c", "check": null },
+    { "question": "Kauli ya kutendea ya soma ni ipi?", "options": ["somwa", "somea", "soma", "somesha"], "answer": "B", "explanation": "Soma ina irabu o, kwa hiyo somea.", "outcome": "c", "check": null },
+    { "question": "Endesha inakuwa nini katika kutendea?", "options": ["endeshwa", "endeshea", "endesha", "endeshia"], "answer": "B", "explanation": "Irabu e huleta -ea: endeshea.", "outcome": "d", "check": null },
+    { "question": "Andika upya kwa kutendwa: Wanafunzi wanapanda miti.", "answer": "Miti inapandwa na wanafunzi.", "explanation": "Miti inakuwa mada, na kitenzi kinatumia i- ya ngeli ya M-MI.", "outcome": "d", "check": null },
+    { "question": "Andika upya: Amina anaendesha baiskeli.", "answer": "Baiskeli inaendeshwa na Amina.", "explanation": "Baiskeli inatumia i-, na endesha huwa endeshwa.", "outcome": "d", "check": null },
+    { "question": "Kwa nini inafaa kutumia kauli mbalimbali unaposimulia kuhusu wanyama?", "answer": "Ili uweze kuanza sentensi kwa mlinzi, kwa wanyama, au kwa kitu, bila kurudia muundo mmoja.", "explanation": "Kauli tatu zinapanua mawasiliano na kufanya maelezo kuwa wazi.", "outcome": "e", "check": null }
+  ],
+  "sources": [
+    "Muundo wa Mtaala wa Kiswahili wa Gredi ya 4 wa KICD (Uliorekebishwa 2024) — Mada 8.0 Wanyama wa Porini, Mada Ndogo 8.4.1 Sarufi: Mnyambuliko wa Vitenzi"
+  ]
+}

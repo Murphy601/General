@@ -1,0 +1,196 @@
+{
+  "subject": "KISWAHILI",
+  "subStrand": "3.4.3",
+  "title": "Sarufi: Vihisishi",
+  "overview": "Kihisishi ni neno linaloonyesha hisia za ghafla, kama mshangao, furaha au maumivu. Utajifunza Lo, Ala, Salalee, Mama ee, Oyee na Aha, pamoja na alama ya hisi. Kisha utavitumia katika sentensi na kifungu kifupi kuhusu mavazi.",
+  "lessons": [
+    {
+      "number": 1,
+      "title": "Maana ya kihisishi na alama ya hisi",
+      "outcomes": ["a", "b"],
+      "objectives": [
+        "Kueleza maana ya kihisishi.",
+        "Kutambua Lo, Ala, Salalee, Mama ee, Oyee na Aha.",
+        "Kutambua alama ya hisi inayoambatana navyo."
+      ],
+      "intro": "Shati linapoharibika ghafla, husemi tu Shati limechanika kwa sauti tambarare. Unaweza kusema Lo! Shati langu limechanika! Neno Lo linaonyesha mshangao kabla ya habari. Maneno ya aina hiyo ndiyo vihisishi.",
+      "notes": "### Kihisishi ni nini?\nKihisishi ni neno linaloonyesha hisia za ghafla. Si nomino, si kitenzi, wala si kiunganishi. Hutokea mwanzo wa sentensi au peke yake. Wingi ni vihisishi.\n\n### Mifano na hisia zake\n- **Lo!** mshangao. Lo! Shati langu limechanika!\n- **Ala!** mshangao au kutokubali kirahisi. Ala! Umevaa viatu visivyolingana!\n- **Salalee!** sauti ya kitu kuanguka au ya mchezo unaposhangaa. Salalee! Kofia imeanguka!\n- **Mama ee!** kilio cha kumwita mama, maumivu, au mshangao mkubwa. Mama ee! Sina sare ya shule!\n- **Oyee!** furaha na kushangilia. Oyee! Tumeshinda mchezo wa mavazi!\n- **Aha!** kugundua kitu. Aha! Nimepata kifungo kilichopotea!\n\nHisia hizi zinaeleweka kwa sauti pia. Oyee inasikika kwa furaha. Mama ee inaweza kusikika kwa huzuni au hofu. Usizichanganye.\n\n### Alama ya hisi\nAlama ya hisi ni **!** . Inaambatana na kihisishi na mara nyingi na sentensi inayofuata ikiwa hisia bado zipo. Huandikwa bila kuacha neno limekatika.\n\nSahihi: Lo! Koti limeanguka.\nSi sahihi: Lo koti limeanguka, bila alama.\n\nKatika orodha: Lo, shati, Oyee, vaa, Aha, na, Salalee. Vihisishi ni Lo, Oyee, Aha na Salalee. Shati ni nomino. Vaa ni kitenzi. Na ni kiunganishi.\n\nUnapotambua, uliza: je, neno hili linaonyesha hisia za ghafla, na je, linaweza kusimama na alama ya hisi? Kama ndiyo, ni kihisishi.",
+      "keyWords": [
+        { "word": "kihisishi", "meaning": "neno linaloonyesha hisia za ghafla kama mshangao au furaha" },
+        { "word": "alama ya hisi", "meaning": "alama ! inayoambatana na kihisishi" },
+        { "word": "mshangao", "meaning": "hisia ya kustaajabu ghafla" }
+      ],
+      "examples": [
+        {
+          "problem": "Tambua vihisishi: Aha, sketi, Lo, lakini, Oyee.",
+          "steps": ["Ondoa nomino sketi na kiunganishi lakini.", "Maneno ya hisia ndiyo vihisishi."],
+          "answer": "Aha, Lo, Oyee",
+          "check": null
+        },
+        {
+          "problem": "Ala inaonyesha hisia gani katika: Ala! Umevaa viatu visivyolingana!",
+          "steps": ["Msemaji ameshangaa au hakubaliani kirahisi.", "Si sauti ya kushangilia ushindi."],
+          "answer": "Mshangao, au kutokubali kirahisi.",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Kapu la vihisishi",
+        "materials": ["Kadi za maneno", "Kapu", "Chati ya alama ya hisi"],
+        "steps": [
+          "Elezeni maana ya kihisishi na mvitolee mifano: Lo, Ala, Salalee, Mama ee, Oyee na Aha.",
+          "Chagueni vihisishi kutoka kwenye orodha na mviweke kapuni.",
+          "Kila kihisishi, semeni hisia yake na mwongeze alama ya hisi mkiandika.",
+          "Igizeni sauti inayofaa bila kelele zinazovuruga darasa.",
+          "Andikeni sentensi moja yenye Lo na nyingine yenye Aha."
+        ]
+      },
+      "practice": [
+        { "question": "Kihisishi ni nini?", "answer": "Ni neno linaloonyesha hisia za ghafla.", "check": null },
+        { "question": "Alama gani inaambatana na kihisishi?", "answer": "Alama ya hisi, yaani !", "check": null },
+        { "question": "Oyee inaonyesha hisia gani?", "answer": "Furaha na kushangilia.", "check": null },
+        { "question": "Tambua kihisishi: Salalee! Kofia imeanguka!", "answer": "Salalee", "check": null }
+      ],
+      "summary": [
+        "Kihisishi huonyesha hisia za ghafla.",
+        "Mifano ni Lo, Ala, Salalee, Mama ee, Oyee na Aha.",
+        "Kila kihisishi huandikwa na alama ya hisi."
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Kutumia vihisishi katika sentensi na kifungu",
+      "outcomes": ["c", "d"],
+      "objectives": [
+        "Kujaza nafasi kwa kihisishi kinachofaa hisia.",
+        "Kutunga sentensi na kifungu kifupi kuhusu mavazi.",
+        "Kuthamini vihisishi katika miktadha mbalimbali."
+      ],
+      "intro": "Kila hisia ina neno lake. Hushangilii ushindi kwa Mama ee, wala hugundui kifungo kwa Oyee ikiwa unataka neno la kugundua. Leo utachagua kihisishi kinachofaa tukio, kisha utakiweka katika kifungu kifupi.",
+      "notes": "### Kujaza nafasi\nAngalia hisia, si neno lolote lenye alama.\n\n- ____ Shati langu limechanika! Mshangao: **Lo!**\n- ____ Umevaa viatu visivyolingana! Kutokubali: **Ala!**\n- ____ Kofia imeanguka! Kuanguka: **Salalee!**\n- ____ Sina sare ya shule! Kilio: **Mama ee!**\n- ____ Tumeshinda! Furaha: **Oyee!**\n- ____ Nimepata kifungo! Kugundua: **Aha!**\n\nUsitumie kihisishi kila sentensi. Kikiingia mara nyingi mno, hisia zinapotea. Kimoja katika aya kinatosha, isipokuwa kifungu kinaonyesha matukio mawili tofauti.\n\n### Kifungu kifupi\nAsubuhi Neema alitafuta kifungo cha shati. Aha! Nimekipata chini ya kiti! Alishona upesi. Alipotoka nje, kofia ilianguka. Salalee! Kofia imeanguka! Aliokota, akatabasamu, akaenda shuleni.\n\nKifungu hiki kinatumia vihisishi viwili kwa sababu kuna matukio mawili: kugundua na kuanguka. Kila kimoja kina alama ya hisi.\n\n### Miktadha mbalimbali\nNyumbani unaweza kusema Mama ee ukihitaji msaada. Uwanjani unasema Oyee timu ikishinda. Darasani unasema Aha ukipata jibu. Mezani au unapovaa, Lo linafaa ukishangaa. Usipige kelele darasani. Kihisishi si ruhusa ya kuvuruga. Ni neno la lugha linalowekwa mahali pake.\n\nJivunie kuyatumia sawasawa. Yanafanya Kiswahili kisikike hai, na yanamsaidia msomaji kuhisi tukio, si kulisoma kwa utulivu usio na rangi.",
+      "keyWords": [
+        { "word": "hisia", "meaning": "jambo unalohisi ghafla, kama furaha au mshangao" },
+        { "word": "muktadha", "meaning": "hali au mahali neno linapotumika" },
+        { "word": "kifungu", "meaning": "sentensi chache zinazohusu tukio moja" }
+      ],
+      "examples": [
+        {
+          "problem": "Jaza hisia ya kugundua: ____ Nimepata kifungo kilichopotea!",
+          "steps": ["Si furaha ya timu, si kilio.", "Aha huonyesha umegundua."],
+          "answer": "Aha! Nimepata kifungo kilichopotea!",
+          "check": null
+        },
+        {
+          "problem": "Kwa nini Oyee haifai katika: ____ Kofia imeanguka! ?",
+          "steps": ["Oyee ni kushangilia.", "Kuanguka kunafaa Salalee au Lo."],
+          "answer": "Kwa sababu Oyee ni furaha ya kushangilia, si sauti ya kitu kuanguka. Sahihi ni Salalee!",
+          "check": null
+        }
+      ],
+      "activity": {
+        "title": "Andika kifungu chenye vihisishi",
+        "materials": ["Daftari", "Kadi za vihisishi", "Kifaa cha kidijitali panapopatikana"],
+        "steps": [
+          "Jazeni nafasi kwa Lo, Ala, Salalee, Mama ee, Oyee na Aha kulingana na hisia.",
+          "Andikeni kifungu kifupi cha sentensi nne kuhusu mavazi, mkiweka vihisishi viwili.",
+          "Hakikisha kila kihisishi kina alama ya hisi.",
+          "Andikeni daftarini au mtandaoni kwa ruhusa ili wenzako wakisome.",
+          "Tathminini kama hisia inafaa tukio, kisha sahihisha moja."
+        ]
+      },
+      "practice": [
+        { "question": "Jaza: ____ Tumeshinda mchezo wa mavazi!", "answer": "Oyee!", "check": null },
+        { "question": "Andika sentensi ukitumia Mama ee kuhusu sare.", "answer": "Mfano: Mama ee! Sina sare ya shule!", "check": null },
+        { "question": "Kwa nini usitumie kihisishi kila sentensi?", "answer": "Hisia zinapotea zikirudiwa mno. Kimoja au viwili katika kifungu kinatosha.", "check": null },
+        { "question": "Andika kifungu kifupi chenye Aha na Salalee.", "answer": "Mfano: Aha! Nimepata kofia! Nilipoinua, ikateleza. Salalee! Imeanguka tena!", "check": null }
+      ],
+      "summary": [
+        "Chagua kihisishi kulingana na hisia ya tukio.",
+        "Andika alama ya hisi kila unapotumia kihisishi.",
+        "Vihisishi hufanya tukio la mavazi lisikike hai, bila kelele zisizofaa."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Kihisishi ni nini?",
+      "options": ["neno la hisia za ghafla", "neno la mahali", "neno la kuunganisha", "jina la nguo"],
+      "answer": "A",
+      "explanation": "Kihisishi huonyesha mshangao, furaha, kilio au kugundua.",
+      "outcome": "a",
+      "check": null
+    },
+    {
+      "question": "Alama inayoambatana na kihisishi ni ipi?",
+      "options": [".", "?", "!", ","],
+      "answer": "C",
+      "explanation": "Alama ya hisi ni !",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Lipi ni kihisishi?",
+      "options": ["shati", "Oyee", "na", "juu ya"],
+      "answer": "B",
+      "explanation": "Oyee huonyesha furaha. Mengine si vihisishi.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Aha hutumika lini?",
+      "options": ["Unapogundua kitu", "Unapolala", "Unapounganisha sentensi", "Unapoandika kamusi"],
+      "answer": "A",
+      "explanation": "Aha huonyesha umegundua, kama kupata kifungo.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Salalee inafaa tukio gani?",
+      "options": ["Kitu kuanguka", "Kuuliza habari", "Kuhifadhi faili", "Kupanga alfabeti"],
+      "answer": "A",
+      "explanation": "Salalee ni sauti ya kushangaa kitu kinapoanguka.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Sentensi ipi imetumia kihisishi ipasavyo?",
+      "options": ["Oyee tumekula wali polepole.", "Lo! Shati langu limechanika!", "Na! shati na sketi.", "Juu ya! kichwa."],
+      "answer": "B",
+      "explanation": "Lo linaonyesha mshangao na lina alama ya hisi.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Mama ee inaweza kuonyesha nini?",
+      "options": ["kilio au mshangao mkubwa", "mpangilio wa kamusi", "kasi ya kusoma", "mguu wa meza"],
+      "answer": "A",
+      "explanation": "Mama ee ni kilio cha kumwita au kuonyesha hisia kali.",
+      "outcome": "b",
+      "check": null
+    },
+    {
+      "question": "Jaza: ____ Nimepata kifungo kilichopotea!",
+      "answer": "Aha!",
+      "explanation": "Aha huonyesha kugundua.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Andika sentensi ukitumia Ala kuhusu viatu.",
+      "answer": "Mfano: Ala! Umevaa viatu visivyolingana!",
+      "explanation": "Ala huonyesha mshangao au kutokubali, na ina alama ya hisi.",
+      "outcome": "c",
+      "check": null
+    },
+    {
+      "question": "Kwa nini vihisishi viwe vichache katika kifungu?",
+      "answer": "Yakirudiwa mno, hisia zinapotea. Kimoja au viwili vinatosha kuonyesha tukio.",
+      "explanation": "Matumizi ya kiasi hufanya kihisishi kibaki na nguvu.",
+      "outcome": "d",
+      "check": null
+    }
+  ],
+  "sources": [
+    "KICD Grade 4 Kiswahili Curriculum Design (Revised 2024) — Mada 3.0 Mavazi, Mada Ndogo 3.4.3 Sarufi: Vihisishi"
+  ]
+}
