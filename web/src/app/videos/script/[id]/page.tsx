@@ -1,6 +1,10 @@
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getContent } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return [];
+}
 import Link from 'next/link';
 
 export default async function VideoScriptPage({ params }: { params: Promise<{ id: string }> }) {

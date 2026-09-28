@@ -27,7 +27,9 @@ function readJsonCached<T>(path: string): T {
 function readIndex(): GeneratedContent[] {
   ensureDir();
   if (!existsSync(INDEX_PATH)) return [];
-  return [...readJsonCached<GeneratedContent[]>(INDEX_PATH)];
+  const items = readJsonCached<GeneratedContent[]>(INDEX_PATH);
+  const only = process.env.DEPLOY_GRADE;
+  return only ? items.filter((item) => item.topic?.grade === only) : [...items];
 }
 
 export function listContent(filters?: {
@@ -141,6 +143,7 @@ export function getGrades(options?: { includeEmpty?: boolean; includeSne?: boole
       if (!options?.includeEmpty && g.topicCount === 0) return false;
       if (!options?.includeSne && g.grade.startsWith('sne/')) return false;
       if (g.grade === 'curriculum-designs') return false;
+      if (process.env.DEPLOY_GRADE && g.grade !== process.env.DEPLOY_GRADE) return false;
       return true;
     })
     .sort((a, b) => {

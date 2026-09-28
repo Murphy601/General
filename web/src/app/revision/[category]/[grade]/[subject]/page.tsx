@@ -7,7 +7,12 @@ import {
   listExams,
   slugifySubject,
 } from '@/lib/content-store';
+import { revisionSubjectParams } from '@/lib/static-params';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return revisionSubjectParams();
+}
 
 const CATEGORY_LABELS: Record<string, string> = {
   general: 'General Assessment',

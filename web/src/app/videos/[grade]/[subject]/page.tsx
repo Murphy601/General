@@ -1,7 +1,12 @@
 import Link from 'next/link';
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getTopics, findSubjectBySlug, getGrades, listVideoScripts, slugifySubject } from '@/lib/content-store';
+import { learnSubjectParams } from '@/lib/static-params';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return learnSubjectParams();
+}
 
 export default async function VideoSubjectPage({
   params,

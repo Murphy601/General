@@ -1,6 +1,10 @@
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getContent, slugifySubject } from '@/lib/content-store';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return [];
+}
 import Link from 'next/link';
 
 const TYPE_TO_CATEGORY: Record<string, string> = {

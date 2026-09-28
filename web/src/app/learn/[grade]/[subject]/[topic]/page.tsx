@@ -3,7 +3,12 @@ import { Suspense } from 'react';
 import { PlatformLayout } from '@/components/PlatformLayout';
 import { getContent, getTopics, findSubjectBySlug, getGrades } from '@/lib/content-store';
 import { TopicViewer } from '@/components/TopicViewer';
+import { learnTopicParams } from '@/lib/static-params';
 import { notFound } from 'next/navigation';
+
+export function generateStaticParams() {
+  return learnTopicParams();
+}
 
 export default async function TopicLessonPage({
   params,
