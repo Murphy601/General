@@ -4,3 +4,4 @@
 .wrangler/
 .r2-stage/
 .dev.vars
+tsconfig.tsbuildinfo
