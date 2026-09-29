@@ -1,0 +1,1281 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1",
+   "q": "Which statement about 486 is correct?",
+   "options": [
+    "It is odd because it ends in 6",
+    "It is odd because it has an even number of digits",
+    "It is neither even nor odd",
+    "It is even because it ends in 6"
+   ],
+   "answer": 3,
+   "explanation": "Look at the ones digit. 6 is even, so 486 is even."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which statement about 1,357 is correct?",
+   "options": [
+    "It is even because it ends in 7",
+    "It is even because it has an odd number of digits",
+    "It is odd because it ends in 7",
+    "It is neither even nor odd"
+   ],
+   "answer": 2,
+   "explanation": "Look at the ones digit. 7 is odd, so 1,357 is odd."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which statement about 2,908 is correct?",
+   "options": [
+    "It is even because it ends in 8",
+    "It is odd because it ends in 8",
+    "It is odd because it has an even number of digits",
+    "It is neither even nor odd"
+   ],
+   "answer": 0,
+   "explanation": "Look at the ones digit. 8 is even, so 2,908 is even."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which statement about 7,351 is correct?",
+   "options": [
+    "It is even because it ends in 1",
+    "It is odd because it ends in 1",
+    "It is even because it has an odd number of digits",
+    "It is neither even nor odd"
+   ],
+   "answer": 1,
+   "explanation": "Look at the ones digit. 1 is odd, so 7,351 is odd."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which statement about 90 is correct?",
+   "options": [
+    "It is odd because it ends in 0",
+    "It is even because it ends in 0",
+    "It is odd because it has an even number of digits",
+    "It is neither even nor odd"
+   ],
+   "answer": 1,
+   "explanation": "Look at the ones digit. 0 is even, so 90 is even."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which statement about 63 is correct?",
+   "options": [
+    "It is odd because it ends in 3",
+    "It is even because it ends in 3",
+    "It is even because it has an odd number of digits",
+    "It is neither even nor odd"
+   ],
+   "answer": 0,
+   "explanation": "Look at the ones digit. 3 is odd, so 63 is odd."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which Roman numeral stands for 4?",
+   "options": [
+    "VIIII",
+    "IIII",
+    "IV",
+    "VX"
+   ],
+   "answer": 2,
+   "explanation": "4 is written IV. I before V is 5 − 1."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which Roman numeral stands for 6?",
+   "options": [
+    "VIIII",
+    "IIII",
+    "VX",
+    "VI"
+   ],
+   "answer": 3,
+   "explanation": "6 is written VI. Letters after a bigger letter are added."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which Roman numeral stands for 7?",
+   "options": [
+    "VIIII",
+    "IIII",
+    "VII",
+    "VX"
+   ],
+   "answer": 2,
+   "explanation": "7 is written VII. Letters after a bigger letter are added."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which Roman numeral stands for 9?",
+   "options": [
+    "IX",
+    "VIIII",
+    "IIII",
+    "VX"
+   ],
+   "answer": 0,
+   "explanation": "9 is written IX. I before X is 10 − 1."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which Roman numeral stands for 8?",
+   "options": [
+    "VIIII",
+    "VIII",
+    "IIII",
+    "VX"
+   ],
+   "answer": 1,
+   "explanation": "8 is written VIII. Letters after a bigger letter are added."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which Roman numeral stands for 3?",
+   "options": [
+    "VIIII",
+    "IIII",
+    "VX",
+    "III"
+   ],
+   "answer": 3,
+   "explanation": "3 is written III. Letters after a bigger letter are added."
+  },
+  {
+   "topic": "1.1",
+   "q": "What number is the Roman numeral II?",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "II stands for 2."
+  },
+  {
+   "topic": "1.1",
+   "q": "What number is the Roman numeral V?",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "7"
+   ],
+   "answer": 2,
+   "explanation": "V stands for 5."
+  },
+  {
+   "topic": "1.1",
+   "q": "What number is the Roman numeral VIII?",
+   "options": [
+    "8",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 0,
+   "explanation": "VIII stands for 8."
+  },
+  {
+   "topic": "1.1",
+   "q": "What number is the Roman numeral X?",
+   "options": [
+    "1",
+    "10",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "X stands for 10."
+  },
+  {
+   "topic": "1.1",
+   "q": "What number is the Roman numeral IV?",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "IV stands for 4."
+  },
+  {
+   "topic": "1.1",
+   "q": "What number is the Roman numeral VII?",
+   "options": [
+    "1",
+    "2",
+    "7",
+    "3"
+   ],
+   "answer": 2,
+   "explanation": "VII stands for 7."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the next number in the pattern 3, 7, 11, 15, ...?",
+   "options": [
+    "19",
+    "20",
+    "18",
+    "23"
+   ],
+   "answer": 0,
+   "explanation": "The rule is add 4. 15 + 4 = 19."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the next number in the pattern 10, 15, 20, 25, ...?",
+   "options": [
+    "31",
+    "30",
+    "29",
+    "35"
+   ],
+   "answer": 1,
+   "explanation": "The rule is add 5. 25 + 5 = 30."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the next number in the pattern 2, 8, 14, 20, ...?",
+   "options": [
+    "27",
+    "26",
+    "25",
+    "32"
+   ],
+   "answer": 1,
+   "explanation": "The rule is add 6. 20 + 6 = 26."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the next number in the pattern 11, 14, 17, 20, ...?",
+   "options": [
+    "24",
+    "22",
+    "26",
+    "23"
+   ],
+   "answer": 3,
+   "explanation": "The rule is add 3. 20 + 3 = 23."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which sentence about factors and multiples is correct?",
+   "options": [
+    "Factors of 6 are 1, 2, 3 and 6; multiples of 6 are 6, 12, 18 and so on",
+    "Factors of 6 are 6, 12, 18 and so on; multiples are 1, 2, 3 and 6",
+    "Factors and multiples are the same thing",
+    "A number has more factors than multiples"
+   ],
+   "answer": 0,
+   "explanation": "Factors divide a number exactly and are few. Multiples are found by multiplying and go on and on."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the smallest 5-digit number?",
+   "options": [
+    "9,999",
+    "99,999",
+    "10,000",
+    "1,000"
+   ],
+   "answer": 2,
+   "explanation": "Adding 1 to 9,999 gives 10,000, the smallest number with five digits."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which digit holds a place in 6,092 even though it is worth nothing?",
+   "options": [
+    "6",
+    "9",
+    "2",
+    "0"
+   ],
+   "answer": 3,
+   "explanation": "The zero shows that there are no hundreds. Without it the number would be 692."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 2,345 + 1,432.",
+   "options": [
+    "3,777",
+    "3,787",
+    "3,677",
+    "4,777"
+   ],
+   "answer": 0,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 2,345 + 1,432 = 3,777."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 3,425 + 2,318.",
+   "options": [
+    "5,733",
+    "5,743",
+    "5,753",
+    "5,643"
+   ],
+   "answer": 1,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 3,425 + 2,318 = 5,743."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 3,568 + 2,276.",
+   "options": [
+    "5,734",
+    "5,854",
+    "5,844",
+    "5,744"
+   ],
+   "answer": 2,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 3,568 + 2,276 = 5,844."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 4,236 + 1,528.",
+   "options": [
+    "5,764",
+    "5,754",
+    "5,774",
+    "5,664"
+   ],
+   "answer": 0,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 4,236 + 1,528 = 5,764."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 5,684 + 3,749.",
+   "options": [
+    "8,323",
+    "9,443",
+    "9,333",
+    "9,433"
+   ],
+   "answer": 3,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 5,684 + 3,749 = 9,433."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 2,450 + 3,875.",
+   "options": [
+    "5,225",
+    "6,335",
+    "6,325",
+    "6,225"
+   ],
+   "answer": 2,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 2,450 + 3,875 = 6,325."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 4,750 + 3,895.",
+   "options": [
+    "7,545",
+    "8,645",
+    "8,655",
+    "8,545"
+   ],
+   "answer": 1,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 4,750 + 3,895 = 8,645."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 1,204 + 1,315.",
+   "options": [
+    "2,529",
+    "2,419",
+    "2,519",
+    "3,519"
+   ],
+   "answer": 2,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 1,204 + 1,315 = 2,519."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 6,478 + 2,355.",
+   "options": [
+    "8,723",
+    "8,843",
+    "8,733",
+    "8,833"
+   ],
+   "answer": 3,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 6,478 + 2,355 = 8,833."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 3,999 + 4,001.",
+   "options": [
+    "7,990",
+    "8,000",
+    "8,010",
+    "7,900"
+   ],
+   "answer": 1,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 3,999 + 4,001 = 8,000."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 5,127 + 2,864.",
+   "options": [
+    "7,991",
+    "7,981",
+    "8,001",
+    "7,891"
+   ],
+   "answer": 0,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 5,127 + 2,864 = 7,991."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 7,305 + 2,489.",
+   "options": [
+    "9,794",
+    "9,784",
+    "9,804",
+    "9,694"
+   ],
+   "answer": 0,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 7,305 + 2,489 = 9,794."
+  },
+  {
+   "topic": "1.2",
+   "q": "Work out 1,856 + 4,567.",
+   "options": [
+    "5,313",
+    "6,433",
+    "6,423",
+    "6,323"
+   ],
+   "answer": 2,
+   "explanation": "Add ones, tens, hundreds and thousands, regrouping when a column is 10 or more. 1,856 + 4,567 = 6,423."
+  },
+  {
+   "topic": "1.2",
+   "q": "A shop sold 3,275 kg of maize in May and 4,860 kg in June. How many kilograms did it sell altogether?",
+   "options": [
+    "7,035 kg",
+    "8,235 kg",
+    "8,125 kg",
+    "8,135 kg"
+   ],
+   "answer": 3,
+   "explanation": "Add 3,275 + 4,860 = 8,135 kg."
+  },
+  {
+   "topic": "1.2",
+   "q": "A school has 1,845 pupils in the lower classes and 2,367 pupils in the upper classes. How many pupils are in the school?",
+   "options": [
+    "3,102 pupils",
+    "4,212 pupils",
+    "4,312 pupils",
+    "4,202 pupils"
+   ],
+   "answer": 1,
+   "explanation": "Add 1,845 + 2,367 = 4,212 pupils."
+  },
+  {
+   "topic": "1.2",
+   "q": "A bus company carried 2,758 passengers on Friday and 3,946 passengers on Saturday. How many passengers is that in the two days?",
+   "options": [
+    "6,704 passengers",
+    "5,694 passengers",
+    "6,804 passengers",
+    "6,694 passengers"
+   ],
+   "answer": 0,
+   "explanation": "Add 2,758 + 3,946 = 6,704 passengers."
+  },
+  {
+   "topic": "1.2",
+   "q": "A farmer picked 1,275 mangoes on Monday and 3,548 mangoes on Tuesday. How many mangoes did he pick?",
+   "options": [
+    "4,713 mangoes",
+    "4,923 mangoes",
+    "4,823 mangoes",
+    "4,813 mangoes"
+   ],
+   "answer": 2,
+   "explanation": "Add 1,275 + 3,548 = 4,823 mangoes."
+  },
+  {
+   "topic": "1.2",
+   "q": "A trader saved Ksh 4,650 in the first term and Ksh 2,875 in the second term. How much did she save?",
+   "options": [
+    "Ksh 6,425",
+    "Ksh 7,525",
+    "Ksh 7,625",
+    "Ksh 7,515"
+   ],
+   "answer": 1,
+   "explanation": "Add 4,650 + 2,875 = 7,525 Ksh."
+  },
+  {
+   "topic": "1.2",
+   "q": "A library has 5,208 story books and 3,796 textbooks. How many books does it have?",
+   "options": [
+    "8,994 books",
+    "9,104 books",
+    "10,004 books",
+    "9,004 books"
+   ],
+   "answer": 3,
+   "explanation": "Add 5,208 + 3,796 = 9,004 books."
+  },
+  {
+   "topic": "1.2",
+   "q": "Estimate 4,368 + 2,547 by rounding each number to the nearest ten.",
+   "options": [
+    "6,930",
+    "6,920",
+    "6,910",
+    "7,015"
+   ],
+   "answer": 1,
+   "explanation": "4,368 rounds to 4,370 and 2,547 rounds to 2,550. 4,370 + 2,550 = 6,920."
+  },
+  {
+   "topic": "1.2",
+   "q": "Estimate 5,382 + 3,617 by rounding each number to the nearest ten.",
+   "options": [
+    "9,010",
+    "8,990",
+    "9,099",
+    "9,000"
+   ],
+   "answer": 3,
+   "explanation": "5,382 rounds to 5,380 and 3,617 rounds to 3,620. 5,380 + 3,620 = 9,000."
+  },
+  {
+   "topic": "1.2",
+   "q": "Estimate 2,694 + 3,158 by rounding each number to the nearest ten.",
+   "options": [
+    "5,860",
+    "5,840",
+    "5,850",
+    "5,952"
+   ],
+   "answer": 2,
+   "explanation": "2,694 rounds to 2,690 and 3,158 rounds to 3,160. 2,690 + 3,160 = 5,850."
+  },
+  {
+   "topic": "1.2",
+   "q": "Estimate 1,743 + 6,286 by rounding each number to the nearest ten.",
+   "options": [
+    "8,030",
+    "8,040",
+    "8,020",
+    "8,129"
+   ],
+   "answer": 0,
+   "explanation": "1,743 rounds to 1,740 and 6,286 rounds to 6,290. 1,740 + 6,290 = 8,030."
+  },
+  {
+   "topic": "1.2",
+   "q": "How many times do you need to regroup when you add 6,478 + 2,355?",
+   "options": [
+    "0",
+    "2",
+    "1",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "Check each column from the right for a total of 10 or more, remembering the carried digit. 6,478 + 2,355 needs 2 regroupings."
+  },
+  {
+   "topic": "1.2",
+   "q": "How many times do you need to regroup when you add 3,425 + 2,318?",
+   "options": [
+    "0",
+    "2",
+    "3",
+    "1"
+   ],
+   "answer": 3,
+   "explanation": "Check each column from the right for a total of 10 or more, remembering the carried digit. 3,425 + 2,318 needs 1 regrouping."
+  },
+  {
+   "topic": "1.2",
+   "q": "How many times do you need to regroup when you add 1,234 + 4,321?",
+   "options": [
+    "1",
+    "2",
+    "0",
+    "3"
+   ],
+   "answer": 2,
+   "explanation": "Check each column from the right for a total of 10 or more, remembering the carried digit. 1,234 + 4,321 needs 0 regroupings."
+  },
+  {
+   "topic": "1.2",
+   "q": "How many times do you need to regroup when you add 2,999 + 3,001?",
+   "options": [
+    "3",
+    "0",
+    "1",
+    "2"
+   ],
+   "answer": 0,
+   "explanation": "Check each column from the right for a total of 10 or more, remembering the carried digit. 2,999 + 3,001 needs 3 regroupings."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is the rule of the pattern 1,200, 1,500, 1,800, 2,100?",
+   "options": [
+    "add 300",
+    "add 600",
+    "subtract 300",
+    "add 1,200"
+   ],
+   "answer": 0,
+   "explanation": "Each number is 300 more than the one before it, so the rule is add 300."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is the rule of the pattern 125, 250, 375, 500?",
+   "options": [
+    "add 250",
+    "subtract 125",
+    "add 125",
+    "add 175"
+   ],
+   "answer": 2,
+   "explanation": "Each number is 125 more than the one before it, so the rule is add 125."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is the rule of the pattern 2,000, 2,500, 3,000, 3,500?",
+   "options": [
+    "add 1,000",
+    "add 500",
+    "subtract 500",
+    "add 2,000"
+   ],
+   "answer": 1,
+   "explanation": "Each number is 500 more than the one before it, so the rule is add 500."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is the rule of the pattern 750, 1,000, 1,250, 1,500?",
+   "options": [
+    "add 500",
+    "subtract 250",
+    "add 750",
+    "add 250"
+   ],
+   "answer": 3,
+   "explanation": "Each number is 250 more than the one before it, so the rule is add 250."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which number must be added to 3,425 to make 5,743?",
+   "options": [
+    "2,418",
+    "2,308",
+    "9,168",
+    "2,318"
+   ],
+   "answer": 3,
+   "explanation": "5,743 − 3,425 = 2,318. Check: 3,425 + 2,318 = 5,743."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which number must be added to 2,318 to make 5,743?",
+   "options": [
+    "3,425",
+    "3,525",
+    "3,415",
+    "8,061"
+   ],
+   "answer": 0,
+   "explanation": "5,743 − 2,318 = 3,425. Check: 2,318 + 3,425 = 5,743."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which number must be added to 1,500 to make 6,000?",
+   "options": [
+    "4,600",
+    "4,490",
+    "4,500",
+    "7,500"
+   ],
+   "answer": 2,
+   "explanation": "6,000 − 1,500 = 4,500. Check: 1,500 + 4,500 = 6,000."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is the sum when you add 1 to 9,999?",
+   "options": [
+    "9,000",
+    "10,000",
+    "99,999",
+    "10,001"
+   ],
+   "answer": 1,
+   "explanation": "9,999 + 1 = 10,000. Each 9 turns into 0 and a 1 is carried to a new place."
+  },
+  {
+   "topic": "1.2",
+   "q": "Why can we add 3,875 + 2,450 in either order?",
+   "options": [
+    "The sum changes when the order changes",
+    "Only the bigger number can go first",
+    "The sum stays the same when numbers are added in any order",
+    "The answer is always the bigger number"
+   ],
+   "answer": 2,
+   "explanation": "Addition can be done in any order: 3,875 + 2,450 = 2,450 + 3,875 = 6,325."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which word in a problem tells you to add?",
+   "options": [
+    "Remain",
+    "Altogether",
+    "Fewer",
+    "Difference"
+   ],
+   "answer": 1,
+   "explanation": "Altogether means put the amounts together, so we add."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 7,865 − 3,542.",
+   "options": [
+    "4,333",
+    "4,223",
+    "5,323",
+    "4,323"
+   ],
+   "answer": 3,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 7,865 − 3,542 = 4,323. Check: 4,323 + 3,542 = 7,865."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 5,432 − 2,718.",
+   "options": [
+    "2,714",
+    "3,326",
+    "2,724",
+    "2,614"
+   ],
+   "answer": 0,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 5,432 − 2,718 = 2,714. Check: 2,714 + 2,718 = 5,432."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 6,003 − 2,475.",
+   "options": [
+    "3,528",
+    "4,472",
+    "3,538",
+    "3,428"
+   ],
+   "answer": 0,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 6,003 − 2,475 = 3,528. Check: 3,528 + 2,475 = 6,003."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 4,250 − 1,875.",
+   "options": [
+    "3,625",
+    "2,385",
+    "2,275",
+    "2,375"
+   ],
+   "answer": 3,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 4,250 − 1,875 = 2,375. Check: 2,375 + 1,875 = 4,250."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 9,000 − 6,450.",
+   "options": [
+    "3,450",
+    "2,550",
+    "2,560",
+    "2,450"
+   ],
+   "answer": 1,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 9,000 − 6,450 = 2,550. Check: 2,550 + 6,450 = 9,000."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 8,500 − 3,275.",
+   "options": [
+    "5,375",
+    "5,235",
+    "5,225",
+    "5,125"
+   ],
+   "answer": 2,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 8,500 − 3,275 = 5,225. Check: 5,225 + 3,275 = 8,500."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 4,000 − 1,236.",
+   "options": [
+    "3,236",
+    "2,774",
+    "2,664",
+    "2,764"
+   ],
+   "answer": 3,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 4,000 − 1,236 = 2,764. Check: 2,764 + 1,236 = 4,000."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 7,300 − 4,562.",
+   "options": [
+    "2,738",
+    "3,262",
+    "2,748",
+    "2,638"
+   ],
+   "answer": 0,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 7,300 − 4,562 = 2,738. Check: 2,738 + 4,562 = 7,300."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 6,120 − 3,845.",
+   "options": [
+    "3,725",
+    "2,285",
+    "2,275",
+    "2,175"
+   ],
+   "answer": 2,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 6,120 − 3,845 = 2,275. Check: 2,275 + 3,845 = 6,120."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 5,008 − 2,999.",
+   "options": [
+    "3,991",
+    "2,009",
+    "2,019",
+    "1,909"
+   ],
+   "answer": 1,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 5,008 − 2,999 = 2,009. Check: 2,009 + 2,999 = 5,008."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 8,421 − 6,537.",
+   "options": [
+    "1,884",
+    "2,116",
+    "1,894",
+    "1,784"
+   ],
+   "answer": 0,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 8,421 − 6,537 = 1,884. Check: 1,884 + 6,537 = 8,421."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 7,000 − 3,456.",
+   "options": [
+    "4,456",
+    "3,554",
+    "3,544",
+    "3,444"
+   ],
+   "answer": 2,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 7,000 − 3,456 = 3,544. Check: 3,544 + 3,456 = 7,000."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 9,250 − 4,875.",
+   "options": [
+    "5,625",
+    "4,385",
+    "4,275",
+    "4,375"
+   ],
+   "answer": 3,
+   "explanation": "Subtract from the ones, regrouping when the top digit is smaller. 9,250 − 4,875 = 4,375. Check: 4,375 + 4,875 = 9,250."
+  },
+  {
+   "topic": "1.3",
+   "q": "A library had 4,250 books and 1,875 were borrowed. How many books remained?",
+   "options": [
+    "3,625 books",
+    "2,375 books",
+    "2,475 books",
+    "2,365 books"
+   ],
+   "answer": 1,
+   "explanation": "Subtract 4,250 − 1,875 = 2,375. Check by adding: 2,375 + 1,875 = 4,250."
+  },
+  {
+   "topic": "1.3",
+   "q": "A tank held 8,000 litres of water. The school used 3,450 litres. How many litres are left?",
+   "options": [
+    "5,450 litres",
+    "4,650 litres",
+    "4,550 litres",
+    "4,540 litres"
+   ],
+   "answer": 2,
+   "explanation": "Subtract 8,000 − 3,450 = 4,550. Check by adding: 4,550 + 3,450 = 8,000."
+  },
+  {
+   "topic": "1.3",
+   "q": "A farmer had 6,500 seedlings and planted 2,875 of them. How many seedlings are left?",
+   "options": [
+    "4,375 seedlings",
+    "3,625 seedlings",
+    "3,725 seedlings",
+    "3,615 seedlings"
+   ],
+   "answer": 1,
+   "explanation": "Subtract 6,500 − 2,875 = 3,625. Check by adding: 3,625 + 2,875 = 6,500."
+  },
+  {
+   "topic": "1.3",
+   "q": "Njeri had Ksh 5,000 and bought a bag for Ksh 1,850. How much money does she have left?",
+   "options": [
+    "Ksh 3,150",
+    "Ksh 4,850",
+    "Ksh 3,250",
+    "Ksh 3,140"
+   ],
+   "answer": 0,
+   "explanation": "Subtract 5,000 − 1,850 = 3,150. Check by adding: 3,150 + 1,850 = 5,000."
+  },
+  {
+   "topic": "1.3",
+   "q": "A stadium seats 9,000 people. If 6,450 seats are taken, how many seats are empty?",
+   "options": [
+    "3,450 seats",
+    "2,650 seats",
+    "2,540 seats",
+    "2,550 seats"
+   ],
+   "answer": 3,
+   "explanation": "Subtract 9,000 − 6,450 = 2,550. Check by adding: 2,550 + 6,450 = 9,000."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.4",
+   "q": "Complete the pattern 3, 6, 12, 24, ... with the next two numbers and state the rule.",
+   "marks": 3,
+   "answer": "Rule: multiply by 2. Next numbers: 48 and 96.",
+   "working": "1 mark for the rule, 1 mark for each correct number."
+  },
+  {
+   "topic": "1.4",
+   "q": "Fill in the 3 times table from 3 × 1 to 3 × 10. Describe one pattern you notice.",
+   "marks": 4,
+   "answer": "3, 6, 9, 12, 15, 18, 21, 24, 27, 30. Each product is 3 more than the one before it (or the products alternate odd and even).",
+   "working": "2 marks for the table (1 mark if one or two errors), 2 marks for a correct pattern with a reason."
+  },
+  {
+   "topic": "1.4",
+   "q": "Wangari buys 24 exercise books at Ksh 18 each. Estimate the total cost by rounding to the nearest ten, then work out the exact cost.",
+   "marks": 4,
+   "answer": "Estimate: 20 × 20 = 400. Exact: 24 × 18 = 432 shillings.",
+   "working": "1 mark for rounding both numbers, 1 mark for 400, 1 mark for the exact working (24 × 8 = 192 and 24 × 10 = 240), 1 mark for 432."
+  },
+  {
+   "topic": "1.4",
+   "q": "Work out 48 × 21 and check the answer by estimating first.",
+   "marks": 4,
+   "answer": "Estimate 50 × 20 = 1,000. Exact: 48 × 1 = 48 and 48 × 20 = 960, so 1,008.",
+   "working": "1 mark for the estimate, 1 mark for each partial product and 1 mark for the sum 1,008."
+  },
+  {
+   "topic": "1.4",
+   "q": "On a poultry farm each of 16 hens lays 21 eggs in one month. How many eggs are laid altogether?",
+   "marks": 3,
+   "answer": "336 eggs",
+   "working": "21 × 6 = 126 (1 mark); 21 × 10 = 210 (1 mark); 126 + 210 = 336 (1 mark)."
+  },
+  {
+   "topic": "1.4",
+   "q": "Explain why multiplying by 100 puts two zeros on the end of a whole number.",
+   "marks": 3,
+   "answer": "Each digit moves two places to the left, so it becomes 100 times bigger. The empty tens and ones places are filled with zeros.",
+   "working": "1 mark for digits moving two places, 1 mark for 100 times bigger, 1 mark for zeros filling places."
+  },
+  {
+   "topic": "1.5",
+   "q": "Divide 84 by 4 and check your answer.",
+   "marks": 3,
+   "answer": "21",
+   "working": "80 ÷ 4 = 20 (1 mark); 4 ÷ 4 = 1, so 21 (1 mark); check 21 × 4 = 84 (1 mark)."
+  },
+  {
+   "topic": "1.5",
+   "q": "Divide 58 by 4 and give the remainder.",
+   "marks": 3,
+   "answer": "14 remainder 2",
+   "working": "5 tens ÷ 4 = 1 remainder 1 (1 mark); 18 ÷ 4 = 4 remainder 2 (1 mark); answer 14 R 2 (1 mark)."
+  },
+  {
+   "topic": "1.5",
+   "q": "45 eggs are packed in trays that hold 6 eggs each. How many trays are needed to pack all the eggs? Explain.",
+   "marks": 3,
+   "answer": "8 trays",
+   "working": "45 ÷ 6 = 7 remainder 3 (1 mark). Seven trays are full (1 mark). The 3 left-over eggs need another tray, so 8 trays (1 mark)."
+  },
+  {
+   "topic": "1.5",
+   "q": "Write the four facts that belong to an array of 3 rows with 8 dots in each row.",
+   "marks": 4,
+   "answer": "3 × 8 = 24, 8 × 3 = 24, 24 ÷ 3 = 8, 24 ÷ 8 = 3",
+   "working": "1 mark for each correct fact."
+  },
+  {
+   "topic": "1.5",
+   "q": "A trader has 800 eggs. Each crate holds 100 eggs. How many crates are needed?",
+   "marks": 2,
+   "answer": "8 crates",
+   "working": "800 ÷ 100 = 8. 1 mark for the division and 1 mark for the unit."
+  },
+  {
+   "topic": "1.5",
+   "q": "Share 96 metres of rope equally into pieces of 8 metres. How many pieces are there?",
+   "marks": 2,
+   "answer": "12 pieces",
+   "working": "96 ÷ 8 = 12. 1 mark for the division and 1 mark for the answer."
+  },
+  {
+   "topic": "1.5",
+   "q": "Divide 47 by 5. Check your answer using multiplication and addition.",
+   "marks": 3,
+   "answer": "9 remainder 2. Check: 9 × 5 + 2 = 47.",
+   "working": "1 mark for 9, 1 mark for remainder 2, 1 mark for the check."
+  },
+  {
+   "topic": "1.5",
+   "q": "38 mangoes are shared equally among 5 children. How many does each child get and how many are left over?",
+   "marks": 3,
+   "answer": "Each child gets 7 mangoes and 3 mangoes are left over.",
+   "working": "38 ÷ 5 = 7 remainder 3. 1 mark for the division, 1 mark for 7, 1 mark for 3."
+  },
+  {
+   "topic": "1.5",
+   "q": "Divide 96 by 3 by dividing the tens first and then the ones.",
+   "marks": 3,
+   "answer": "32",
+   "working": "9 tens ÷ 3 = 3 tens (1 mark); 6 ones ÷ 3 = 2 ones (1 mark); answer 32 (1 mark)."
+  },
+  {
+   "topic": "1.5",
+   "q": "Explain how multiplication can be used to check that 72 ÷ 6 = 12.",
+   "marks": 3,
+   "answer": "Multiply the answer by the divisor: 12 × 6 = 72. This gives the starting number, so the division is correct.",
+   "working": "1 mark for multiplying the answer by the divisor, 1 mark for 12 × 6 = 72, 1 mark for the conclusion."
+  },
+  {
+   "topic": "1.5",
+   "q": "Divide 450 by 100 and give the remainder. Explain what the remainder means.",
+   "marks": 4,
+   "answer": "4 remainder 50. There are 4 whole hundreds in 450 and 50 is left over.",
+   "working": "1 mark for 4, 1 mark for remainder 50, 2 marks for the explanation."
+  },
+  {
+   "topic": "1.5",
+   "q": "A farmer packs 84 mangoes equally into 4 baskets. How many mangoes are in each basket? Then he picks 3 more mangoes. Can he share all 87 mangoes equally among the 4 baskets? Explain.",
+   "marks": 5,
+   "answer": "21 mangoes in each basket. 87 ÷ 4 = 21 remainder 3, so he cannot share all 87 equally; 3 will be left over.",
+   "working": "1 mark for 21, 2 marks for 87 ÷ 4 = 21 R 3 with working, 1 mark for answering no, 1 mark for the explanation."
+  },
+  {
+   "topic": "1.5",
+   "q": "Divide 91 by 7 and check by multiplication.",
+   "marks": 3,
+   "answer": "13. Check: 13 × 7 = 91.",
+   "working": "1 mark for 7 × 13, 1 mark for 13, 1 mark for the check."
+  },
+  {
+   "topic": "1.6",
+   "q": "A rectangle is cut into 12 equal parts and 5 parts are shaded. What fraction is shaded and what fraction is not shaded?",
+   "marks": 2,
+   "answer": "5/12 is shaded and 7/12 is not shaded.",
+   "working": "1 mark for 5/12 and 1 mark for 12 − 5 = 7, so 7/12."
+  },
+  {
+   "topic": "1.6",
+   "q": "Wafula has 20 goats. One fifth of them are brown. How many goats are brown? Show your working.",
+   "marks": 3,
+   "answer": "4 goats",
+   "working": "20 ÷ 5 = 4 (2 marks) and 1 × 4 = 4 goats (1 mark)."
+  },
+  {
+   "topic": "1.6",
+   "q": "Express 23/6 as a mixed fraction.",
+   "marks": 3,
+   "answer": "3 5/6",
+   "working": "23 ÷ 6 = 3 remainder 5 (2 marks). Write 3 5/6 with the same denominator (1 mark)."
+  },
+  {
+   "topic": "1.6",
+   "q": "Write 4 3/8 as an improper fraction.",
+   "marks": 3,
+   "answer": "35/8",
+   "working": "4 × 8 = 32 (1 mark); 32 + 3 = 35 (1 mark); denominator stays 8 (1 mark)."
+  },
+  {
+   "topic": "1.6",
+   "q": "A class has 30 pupils. Two fifths of them walk to school. How many pupils walk to school?",
+   "marks": 3,
+   "answer": "12 pupils",
+   "working": "30 ÷ 5 = 6 (1 mark); 6 × 2 = 12 (1 mark); answer with unit (1 mark)."
+  },
+  {
+   "topic": "1.6",
+   "q": "Sort these fractions into proper, improper and mixed: 3/8, 11/5, 2 1/2, 9/9, 7/10.",
+   "marks": 4,
+   "answer": "Proper: 3/8 and 7/10. Improper: 11/5 and 9/9. Mixed: 2 1/2.",
+   "working": "1 mark for each correct group and 1 mark for placing all five correctly."
+  },
+  {
+   "topic": "1.6",
+   "q": "Explain why the parts must be equal when we write a fraction such as 1/4.",
+   "marks": 2,
+   "answer": "A fraction shows equal parts of a whole. If the parts are different in size, one part is not one quarter of the whole.",
+   "working": "1 mark for saying parts must be equal in size and 1 mark for the reason."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 11/4 to a mixed fraction and then change your answer back to an improper fraction to check it.",
+   "marks": 4,
+   "answer": "11/4 = 2 3/4. Check: 2 × 4 = 8 and 8 + 3 = 11, so 11/4.",
+   "working": "2 marks for 2 3/4 with working, 2 marks for the correct check."
+  },
+  {
+   "topic": "1.6",
+   "q": "Njoki has 9 halves of oranges. How many whole oranges is that? Write your answer as a mixed fraction.",
+   "marks": 3,
+   "answer": "4 1/2 oranges",
+   "working": "9 ÷ 2 = 4 remainder 1 (2 marks); 4 1/2 (1 mark)."
+  },
+  {
+   "topic": "1.6",
+   "q": "Find 3/4 of 12 counters. Explain each step.",
+   "marks": 3,
+   "answer": "9 counters. 12 ÷ 4 = 3 counters in one quarter; 3 × 3 = 9.",
+   "working": "1 mark for dividing by the denominator, 1 mark for multiplying by the numerator, 1 mark for the answer."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 2 1/3 and 1 5/6 to improper fractions.",
+   "marks": 4,
+   "answer": "7/3 and 11/6",
+   "working": "2 marks for 2 × 3 + 1 = 7 so 7/3; 2 marks for 1 × 6 + 5 = 11 so 11/6."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 2 25/100 and 5 7/100 as decimals.",
+   "marks": 2,
+   "answer": "2.25 and 5.07",
+   "working": "1 mark for each correct decimal. 5 7/100 needs a 0 in the tenths place."
+  },
+  {
+   "topic": "1.7",
+   "q": "A hundred square has 60 of its small squares shaded. Write the shaded part as a fraction and as a decimal.",
+   "marks": 2,
+   "answer": "60/100 and 0.6 (or 0.60)",
+   "working": "1 mark for the fraction and 1 mark for the decimal."
+  },
+  {
+   "topic": "1.7",
+   "q": "Arrange these prices from the cheapest to the most expensive: Ksh 8.25, Ksh 8.05, Ksh 8.50, Ksh 7.99.",
+   "marks": 3,
+   "answer": "Ksh 7.99, Ksh 8.05, Ksh 8.25, Ksh 8.50",
+   "working": "1 mark for 7.99 first and 2 marks for the correct order of the rest."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 13.42 in expanded form and give the total value of the digit 4.",
+   "marks": 3,
+   "answer": "10 + 3 + 0.4 + 0.02. The total value of 4 is 0.4 (4 tenths).",
+   "working": "1 mark for 10 + 3, 1 mark for 0.4 + 0.02, 1 mark for the total value of 4."
+  },
+  {
+   "topic": "1.7",
+   "q": "Explain why 0.5 is greater than 0.45 even though 0.45 has more digits.",
+   "marks": 3,
+   "answer": "0.5 = 0.50. Comparing tenths, 5 tenths is more than 4 tenths, so 0.50 is greater than 0.45. The number of digits does not decide the size.",
+   "working": "1 mark for writing 0.5 as 0.50, 1 mark for comparing tenths, 1 mark for the conclusion."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 0.7, 0.07, 0.75 and 0.57 in order from the smallest to the largest.",
+   "marks": 3,
+   "answer": "0.07, 0.57, 0.7, 0.75",
+   "working": "Write with two decimal places: 0.70, 0.07, 0.75, 0.57. 1 mark for 0.07 first, 2 marks for the rest in order."
+  },
+  {
+   "topic": "1.7",
+   "q": "Change 45/100, 6/100 and 7/10 into decimals.",
+   "marks": 3,
+   "answer": "0.45, 0.06 and 0.7",
+   "working": "1 mark for each correct decimal."
+  },
+  {
+   "topic": "1.7",
+   "q": "A ribbon is 1 metre long. Write 27 centimetres as a fraction of a metre and as a decimal.",
+   "marks": 3,
+   "answer": "27/100 m = 0.27 m",
+   "working": "1 mark for saying 1 m = 100 cm, 1 mark for 27/100, 1 mark for 0.27."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write the decimal 5.68 in a place value chart and say the place value of the 6 and of the 8.",
+   "marks": 4,
+   "answer": "Ones 5, tenths 6, hundredths 8. The 6 is in the tenths place and the 8 is in the hundredths place.",
+   "working": "1 mark for a correct chart, 1 mark for each place value, 1 mark for using the decimal point correctly."
+  },
+  {
+   "topic": "1.7",
+   "q": "Two runners finish a race in 12.4 seconds and 12.35 seconds. Who is faster? Explain.",
+   "marks": 3,
+   "answer": "The runner with 12.35 seconds is faster. 12.4 = 12.40, and 12.35 is less than 12.40, so it took less time.",
+   "working": "1 mark for writing 12.4 as 12.40, 1 mark for comparing, 1 mark for the correct runner."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 0.8 and 0.37 as fractions.",
+   "marks": 2,
+   "answer": "8/10 and 37/100",
+   "working": "1 mark for each correct fraction."
+  },
+  {
+   "topic": "1.7",
+   "q": "Explain what the 0 in 4.05 shows and say how 4.05 is different from 4.5.",
+   "marks": 3,
+   "answer": "The 0 shows that there are no tenths. 4.05 is 4 ones and 5 hundredths; 4.5 is 4 ones and 5 tenths, which is bigger.",
+   "working": "1 mark for the meaning of zero, 1 mark for each correct reading."
+  },
+  {
+   "topic": "1.7",
+   "q": "Ksh 3.50 is given as 3 shillings and 50 cents. Write 75 cents and 5 cents as decimals of a shilling.",
+   "marks": 3,
+   "answer": "0.75 and 0.05 of a shilling (Ksh 0.75 and Ksh 0.05)",
+   "working": "1 mark for the idea that 100 cents = 1 shilling, 1 mark for each decimal."
+  },
+  {
+   "topic": "1.8",
+   "q": "Write 5x + 3y − 2x + y in its simplest form.",
+   "marks": 3,
+   "answer": "3x + 4y",
+   "working": "x terms: 5x − 2x = 3x (1 mark). y terms: 3y + y = 4y (1 mark). Answer 3x + 4y (1 mark)."
+  },
+  {
+   "topic": "1.8",
+   "q": "Otieno is a years old and his sister is 3 years older. Write an expression for his sister's age and find her age if Otieno is 9.",
+   "marks": 3,
+   "answer": "a + 3. When a = 9, her age is 12 years.",
+   "working": "1 mark for a + 3, 1 mark for replacing a by 9, 1 mark for 12 years."
+  }
+ ]
+}

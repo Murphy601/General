@@ -1,0 +1,965 @@
+{
+ "mcq": [
+  {
+   "topic": "1.5",
+   "q": "What is 300 ÷ 100?",
+   "options": [
+    "3",
+    "30",
+    "300",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "Dividing by 100 removes two zeros. 300 ÷ 100 = 3."
+  },
+  {
+   "topic": "1.5",
+   "q": "What is 700 ÷ 100?",
+   "options": [
+    "70",
+    "700",
+    "8",
+    "7"
+   ],
+   "answer": 3,
+   "explanation": "Dividing by 100 removes two zeros. 700 ÷ 100 = 7."
+  },
+  {
+   "topic": "1.5",
+   "q": "What is 900 ÷ 100?",
+   "options": [
+    "90",
+    "900",
+    "9",
+    "10"
+   ],
+   "answer": 2,
+   "explanation": "Dividing by 100 removes two zeros. 900 ÷ 100 = 9."
+  },
+  {
+   "topic": "1.5",
+   "q": "What is 200 ÷ 100?",
+   "options": [
+    "20",
+    "2",
+    "200",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "Dividing by 100 removes two zeros. 200 ÷ 100 = 2."
+  },
+  {
+   "topic": "1.5",
+   "q": "What is 500 ÷ 100?",
+   "options": [
+    "5",
+    "50",
+    "500",
+    "6"
+   ],
+   "answer": 0,
+   "explanation": "Dividing by 100 removes two zeros. 500 ÷ 100 = 5."
+  },
+  {
+   "topic": "1.5",
+   "q": "What is 800 ÷ 100?",
+   "options": [
+    "80",
+    "800",
+    "8",
+    "9"
+   ],
+   "answer": 2,
+   "explanation": "Dividing by 100 removes two zeros. 800 ÷ 100 = 8."
+  },
+  {
+   "topic": "1.5",
+   "q": "What is 450 ÷ 100?",
+   "options": [
+    "45",
+    "4 remainder 50",
+    "4 remainder 5",
+    "5 remainder 50"
+   ],
+   "answer": 1,
+   "explanation": "4 × 100 = 400 and 450 − 400 = 50. So 450 ÷ 100 = 4 remainder 50."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which division fact belongs to the same family as 6 × 7 = 42?",
+   "options": [
+    "42 ÷ 42 = 6",
+    "7 ÷ 6 = 42",
+    "42 ÷ 6 = 6",
+    "42 ÷ 6 = 7"
+   ],
+   "answer": 3,
+   "explanation": "Division undoes multiplication. Since 6 × 7 = 42, we know 42 ÷ 6 = 7 and 42 ÷ 7 = 6."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which division fact belongs to the same family as 4 × 6 = 24?",
+   "options": [
+    "24 ÷ 24 = 4",
+    "6 ÷ 4 = 24",
+    "24 ÷ 4 = 6",
+    "24 ÷ 4 = 4"
+   ],
+   "answer": 2,
+   "explanation": "Division undoes multiplication. Since 4 × 6 = 24, we know 24 ÷ 4 = 6 and 24 ÷ 6 = 4."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which division fact belongs to the same family as 8 × 3 = 24?",
+   "options": [
+    "24 ÷ 24 = 8",
+    "3 ÷ 8 = 24",
+    "24 ÷ 8 = 8",
+    "24 ÷ 8 = 3"
+   ],
+   "answer": 3,
+   "explanation": "Division undoes multiplication. Since 8 × 3 = 24, we know 24 ÷ 8 = 3 and 24 ÷ 3 = 8."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which division fact belongs to the same family as 9 × 5 = 45?",
+   "options": [
+    "45 ÷ 45 = 9",
+    "45 ÷ 9 = 5",
+    "5 ÷ 9 = 45",
+    "45 ÷ 9 = 9"
+   ],
+   "answer": 1,
+   "explanation": "Division undoes multiplication. Since 9 × 5 = 45, we know 45 ÷ 9 = 5 and 45 ÷ 5 = 9."
+  },
+  {
+   "topic": "1.5",
+   "q": "45 eggs are packed in trays that each hold 6 eggs. How many trays are needed to pack all the eggs?",
+   "options": [
+    "8",
+    "7",
+    "9",
+    "6"
+   ],
+   "answer": 0,
+   "explanation": "45 ÷ 6 = 7 remainder 3. The 3 left-over eggs need one more tray, so 8 trays are needed."
+  },
+  {
+   "topic": "1.5",
+   "q": "38 eggs are packed in trays that each hold 5 eggs. How many trays are needed to pack all the eggs?",
+   "options": [
+    "7",
+    "9",
+    "6",
+    "8"
+   ],
+   "answer": 3,
+   "explanation": "38 ÷ 5 = 7 remainder 3. The 3 left-over eggs need one more tray, so 8 trays are needed."
+  },
+  {
+   "topic": "1.5",
+   "q": "50 eggs are packed in trays that each hold 8 eggs. How many trays are needed to pack all the eggs?",
+   "options": [
+    "6",
+    "8",
+    "7",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "50 ÷ 8 = 6 remainder 2. The 2 left-over eggs need one more tray, so 7 trays are needed."
+  },
+  {
+   "topic": "1.5",
+   "q": "29 eggs are packed in trays that each hold 4 eggs. How many trays are needed to pack all the eggs?",
+   "options": [
+    "8",
+    "7",
+    "9",
+    "6"
+   ],
+   "answer": 0,
+   "explanation": "29 ÷ 4 = 7 remainder 1. The 1 left-over eggs need one more tray, so 8 trays are needed."
+  },
+  {
+   "topic": "1.5",
+   "q": "38 mangoes are shared equally among 5 children. How many mangoes are left over?",
+   "options": [
+    "4",
+    "3",
+    "7",
+    "2"
+   ],
+   "answer": 1,
+   "explanation": "38 ÷ 5 = 7 remainder 3. Each child gets 7 and 3 are left."
+  },
+  {
+   "topic": "1.5",
+   "q": "47 mangoes are shared equally among 6 children. How many mangoes are left over?",
+   "options": [
+    "6",
+    "5",
+    "7",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "47 ÷ 6 = 7 remainder 5. Each child gets 7 and 5 are left."
+  },
+  {
+   "topic": "1.5",
+   "q": "59 mangoes are shared equally among 8 children. How many mangoes are left over?",
+   "options": [
+    "4",
+    "7",
+    "3",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "59 ÷ 8 = 7 remainder 3. Each child gets 7 and 3 are left."
+  },
+  {
+   "topic": "1.5",
+   "q": "A remainder must always be",
+   "options": [
+    "bigger than the divisor",
+    "equal to the divisor",
+    "equal to the quotient",
+    "smaller than the divisor"
+   ],
+   "answer": 3,
+   "explanation": "If the remainder were as big as the divisor, another whole group could still be made."
+  },
+  {
+   "topic": "1.5",
+   "q": "To check 32 × 3 = 96 using division we work out",
+   "options": [
+    "96 ÷ 3",
+    "96 ÷ 32 × 3",
+    "96 − 32",
+    "32 ÷ 3"
+   ],
+   "answer": 0,
+   "explanation": "Division undoes multiplication: 96 ÷ 3 = 32."
+  },
+  {
+   "topic": "1.5",
+   "q": "If ? × 9 = 63, then ? is found by",
+   "options": [
+    "63 ÷ 9",
+    "63 × 9",
+    "63 − 9",
+    "9 ÷ 63"
+   ],
+   "answer": 0,
+   "explanation": "To find the missing factor we divide the product by the known factor: 63 ÷ 9 = 7."
+  },
+  {
+   "topic": "1.5",
+   "q": "In 56 ÷ 8 = 7, the number 8 is called the",
+   "options": [
+    "dividend",
+    "quotient",
+    "divisor",
+    "remainder"
+   ],
+   "answer": 2,
+   "explanation": "The number we divide by is the divisor. 56 is the dividend and 7 is the quotient."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 5/8, which number is the denominator?",
+   "options": [
+    "5",
+    "13",
+    "3",
+    "8"
+   ],
+   "answer": 3,
+   "explanation": "The denominator is the bottom number. It shows how many equal parts the whole is cut into."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 3/4, which number is the denominator?",
+   "options": [
+    "3",
+    "4",
+    "7",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "The denominator is the bottom number. It shows how many equal parts the whole is cut into."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 7/10, which number is the denominator?",
+   "options": [
+    "7",
+    "10",
+    "17",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "The denominator is the bottom number. It shows how many equal parts the whole is cut into."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 2/9, which number is the denominator?",
+   "options": [
+    "2",
+    "11",
+    "7",
+    "9"
+   ],
+   "answer": 3,
+   "explanation": "The denominator is the bottom number. It shows how many equal parts the whole is cut into."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 4/12, which number is the denominator?",
+   "options": [
+    "4",
+    "16",
+    "12",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "The denominator is the bottom number. It shows how many equal parts the whole is cut into."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 3/5, what does the numerator 3 tell us?",
+   "options": [
+    "How many of the equal parts are taken",
+    "How many equal parts the whole has",
+    "The size of each part in centimetres",
+    "The number of wholes"
+   ],
+   "answer": 0,
+   "explanation": "The numerator is the top number. In 3/5 it says that 3 parts are taken."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 7/8, what does the numerator 7 tell us?",
+   "options": [
+    "How many of the equal parts are taken",
+    "How many equal parts the whole has",
+    "The size of each part in centimetres",
+    "The number of wholes"
+   ],
+   "answer": 0,
+   "explanation": "The numerator is the top number. In 7/8 it says that 7 parts are taken."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 2/3, what does the numerator 2 tell us?",
+   "options": [
+    "How many equal parts the whole has",
+    "The size of each part in centimetres",
+    "The number of wholes",
+    "How many of the equal parts are taken"
+   ],
+   "answer": 3,
+   "explanation": "The numerator is the top number. In 2/3 it says that 2 parts are taken."
+  },
+  {
+   "topic": "1.6",
+   "q": "In the fraction 9/11, what does the numerator 9 tell us?",
+   "options": [
+    "How many equal parts the whole has",
+    "How many of the equal parts are taken",
+    "The size of each part in centimetres",
+    "The number of wholes"
+   ],
+   "answer": 1,
+   "explanation": "The numerator is the top number. In 9/11 it says that 9 parts are taken."
+  },
+  {
+   "topic": "1.6",
+   "q": "A rectangle is cut into 8 equal parts and 3 of the parts are shaded. What fraction of the rectangle is shaded?",
+   "options": [
+    "8/3",
+    "3/5",
+    "3/8",
+    "5/8"
+   ],
+   "answer": 2,
+   "explanation": "The whole has 8 equal parts and 3 are shaded, so 3/8 is shaded."
+  },
+  {
+   "topic": "1.6",
+   "q": "A rectangle is cut into 12 equal parts and 5 of the parts are shaded. What fraction of the rectangle is shaded?",
+   "options": [
+    "5/12",
+    "12/5",
+    "5/7",
+    "7/12"
+   ],
+   "answer": 0,
+   "explanation": "The whole has 12 equal parts and 5 are shaded, so 5/12 is shaded."
+  },
+  {
+   "topic": "1.6",
+   "q": "A rectangle is cut into 5 equal parts and 2 of the parts are shaded. What fraction of the rectangle is shaded?",
+   "options": [
+    "5/2",
+    "2/3",
+    "3/5",
+    "2/5"
+   ],
+   "answer": 3,
+   "explanation": "The whole has 5 equal parts and 2 are shaded, so 2/5 is shaded."
+  },
+  {
+   "topic": "1.6",
+   "q": "A rectangle is cut into 10 equal parts and 7 of the parts are shaded. What fraction of the rectangle is shaded?",
+   "options": [
+    "10/7",
+    "7/10",
+    "7/3",
+    "3/10"
+   ],
+   "answer": 1,
+   "explanation": "The whole has 10 equal parts and 7 are shaded, so 7/10 is shaded."
+  },
+  {
+   "topic": "1.6",
+   "q": "A rectangle is cut into 6 equal parts and 1 of the parts are shaded. What fraction of the rectangle is shaded?",
+   "options": [
+    "6/1",
+    "1/5",
+    "1/6",
+    "5/6"
+   ],
+   "answer": 2,
+   "explanation": "The whole has 6 equal parts and 1 are shaded, so 1/6 is shaded."
+  },
+  {
+   "topic": "1.6",
+   "q": "A circle is cut into 8 equal parts and 3 parts are shaded. What fraction is not shaded?",
+   "options": [
+    "3/8",
+    "8/5",
+    "5/8",
+    "5/3"
+   ],
+   "answer": 2,
+   "explanation": "Not shaded: 8 − 3 = 5 parts, so 5/8."
+  },
+  {
+   "topic": "1.6",
+   "q": "A circle is cut into 12 equal parts and 5 parts are shaded. What fraction is not shaded?",
+   "options": [
+    "7/12",
+    "5/12",
+    "12/7",
+    "7/5"
+   ],
+   "answer": 0,
+   "explanation": "Not shaded: 12 − 5 = 7 parts, so 7/12."
+  },
+  {
+   "topic": "1.6",
+   "q": "A circle is cut into 5 equal parts and 2 parts are shaded. What fraction is not shaded?",
+   "options": [
+    "2/5",
+    "5/3",
+    "3/2",
+    "3/5"
+   ],
+   "answer": 3,
+   "explanation": "Not shaded: 5 − 2 = 3 parts, so 3/5."
+  },
+  {
+   "topic": "1.6",
+   "q": "A circle is cut into 10 equal parts and 7 parts are shaded. What fraction is not shaded?",
+   "options": [
+    "7/10",
+    "3/10",
+    "10/3",
+    "3/7"
+   ],
+   "answer": 1,
+   "explanation": "Not shaded: 10 − 7 = 3 parts, so 3/10."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 3/4 of 12?",
+   "options": [
+    "3",
+    "12",
+    "9",
+    "7"
+   ],
+   "answer": 2,
+   "explanation": "12 ÷ 4 = 3 and 3 × 3 = 9. So 3/4 of 12 is 9."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 2/5 of 30?",
+   "options": [
+    "12",
+    "6",
+    "18",
+    "7"
+   ],
+   "answer": 0,
+   "explanation": "30 ÷ 5 = 6 and 6 × 2 = 12. So 2/5 of 30 is 12."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 1/3 of 24?",
+   "options": [
+    "16",
+    "8",
+    "4",
+    "24"
+   ],
+   "answer": 1,
+   "explanation": "24 ÷ 3 = 8 and 8 × 1 = 8. So 1/3 of 24 is 8."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 5/6 of 18?",
+   "options": [
+    "3",
+    "18",
+    "11",
+    "15"
+   ],
+   "answer": 3,
+   "explanation": "18 ÷ 6 = 3 and 3 × 5 = 15. So 5/6 of 18 is 15."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 3/8 of 40?",
+   "options": [
+    "5",
+    "25",
+    "15",
+    "20"
+   ],
+   "answer": 2,
+   "explanation": "40 ÷ 8 = 5 and 5 × 3 = 15. So 3/8 of 40 is 15."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 2/3 of 21?",
+   "options": [
+    "7",
+    "21",
+    "5",
+    "14"
+   ],
+   "answer": 3,
+   "explanation": "21 ÷ 3 = 7 and 7 × 2 = 14. So 2/3 of 21 is 14."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 1/10 of 50?",
+   "options": [
+    "5",
+    "45",
+    "10",
+    "11"
+   ],
+   "answer": 0,
+   "explanation": "50 ÷ 10 = 5 and 5 × 1 = 5. So 1/10 of 50 is 5."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 7/10 of 20?",
+   "options": [
+    "2",
+    "14",
+    "6",
+    "16"
+   ],
+   "answer": 1,
+   "explanation": "20 ÷ 10 = 2 and 2 × 7 = 14. So 7/10 of 20 is 14."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 3/5 of 25?",
+   "options": [
+    "5",
+    "10",
+    "20",
+    "15"
+   ],
+   "answer": 3,
+   "explanation": "25 ÷ 5 = 5 and 5 × 3 = 15. So 3/5 of 25 is 15."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 4/9 of 27?",
+   "options": [
+    "3",
+    "12",
+    "15",
+    "13"
+   ],
+   "answer": 1,
+   "explanation": "27 ÷ 9 = 3 and 3 × 4 = 12. So 4/9 of 27 is 12."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 5/12 of 24?",
+   "options": [
+    "2",
+    "14",
+    "10",
+    "12"
+   ],
+   "answer": 2,
+   "explanation": "24 ÷ 12 = 2 and 2 × 5 = 10. So 5/12 of 24 is 10."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is 1/4 of 36?",
+   "options": [
+    "9",
+    "27",
+    "18",
+    "5"
+   ],
+   "answer": 0,
+   "explanation": "36 ÷ 4 = 9 and 9 × 1 = 9. So 1/4 of 36 is 9."
+  },
+  {
+   "topic": "1.6",
+   "q": "Ali writes some fractions. Which of these is a proper fraction?",
+   "options": [
+    "3/8",
+    "7/4",
+    "1 3/4",
+    "11/5"
+   ],
+   "answer": 0,
+   "explanation": "In a proper fraction the numerator is smaller than the denominator, so 3/8 is less than one whole."
+  },
+  {
+   "topic": "1.6",
+   "q": "Ali writes some more fractions. Which of these is an improper fraction?",
+   "options": [
+    "3/8",
+    "7/4",
+    "1 3/4",
+    "5/12"
+   ],
+   "answer": 1,
+   "explanation": "In an improper fraction the numerator is equal to or bigger than the denominator. 7/4 is one whole or more."
+  },
+  {
+   "topic": "1.6",
+   "q": "Ali writes another set of fractions. Which of these is a mixed fraction?",
+   "options": [
+    "3/8",
+    "7/4",
+    "8/3",
+    "1 3/4"
+   ],
+   "answer": 3,
+   "explanation": "A mixed fraction has a whole number and a proper fraction, like 1 3/4."
+  },
+  {
+   "topic": "1.6",
+   "q": "Beth writes some fractions. Which of these is a proper fraction?",
+   "options": [
+    "11/5",
+    "3 1/2",
+    "2/9",
+    "9/9"
+   ],
+   "answer": 2,
+   "explanation": "In a proper fraction the numerator is smaller than the denominator, so 2/9 is less than one whole."
+  },
+  {
+   "topic": "1.6",
+   "q": "Beth writes some more fractions. Which of these is an improper fraction?",
+   "options": [
+    "2/9",
+    "3 1/2",
+    "1/2",
+    "11/5"
+   ],
+   "answer": 3,
+   "explanation": "In an improper fraction the numerator is equal to or bigger than the denominator. 11/5 is one whole or more."
+  },
+  {
+   "topic": "1.6",
+   "q": "Beth writes another set of fractions. Which of these is a mixed fraction?",
+   "options": [
+    "2/9",
+    "3 1/2",
+    "11/5",
+    "13/6"
+   ],
+   "answer": 1,
+   "explanation": "A mixed fraction has a whole number and a proper fraction, like 3 1/2."
+  },
+  {
+   "topic": "1.6",
+   "q": "Chebet writes some fractions. Which of these is a proper fraction?",
+   "options": [
+    "5/12",
+    "9/9",
+    "2 5/8",
+    "8/3"
+   ],
+   "answer": 0,
+   "explanation": "In a proper fraction the numerator is smaller than the denominator, so 5/12 is less than one whole."
+  },
+  {
+   "topic": "1.6",
+   "q": "Chebet writes some more fractions. Which of these is an improper fraction?",
+   "options": [
+    "5/12",
+    "2 5/8",
+    "9/9",
+    "7/10"
+   ],
+   "answer": 2,
+   "explanation": "In an improper fraction the numerator is equal to or bigger than the denominator. 9/9 is one whole or more."
+  },
+  {
+   "topic": "1.6",
+   "q": "Chebet writes another set of fractions. Which of these is a mixed fraction?",
+   "options": [
+    "5/12",
+    "9/9",
+    "7/4",
+    "2 5/8"
+   ],
+   "answer": 3,
+   "explanation": "A mixed fraction has a whole number and a proper fraction, like 2 5/8."
+  },
+  {
+   "topic": "1.6",
+   "q": "Dan writes some fractions. Which of these is a proper fraction?",
+   "options": [
+    "8/3",
+    "1/2",
+    "4 2/3",
+    "13/6"
+   ],
+   "answer": 1,
+   "explanation": "In a proper fraction the numerator is smaller than the denominator, so 1/2 is less than one whole."
+  },
+  {
+   "topic": "1.6",
+   "q": "Dan writes some more fractions. Which of these is an improper fraction?",
+   "options": [
+    "1/2",
+    "4 2/3",
+    "8/3",
+    "3/8"
+   ],
+   "answer": 2,
+   "explanation": "In an improper fraction the numerator is equal to or bigger than the denominator. 8/3 is one whole or more."
+  },
+  {
+   "topic": "1.6",
+   "q": "Dan writes another set of fractions. Which of these is a mixed fraction?",
+   "options": [
+    "4 2/3",
+    "1/2",
+    "8/3",
+    "11/5"
+   ],
+   "answer": 0,
+   "explanation": "A mixed fraction has a whole number and a proper fraction, like 4 2/3."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 11/4 to a mixed fraction.",
+   "options": [
+    "3 3/4",
+    "3 2/4",
+    "2 4/4",
+    "2 3/4"
+   ],
+   "answer": 3,
+   "explanation": "11 ÷ 4 = 2 remainder 3. The whole number is 2 and the fraction is 3/4, so 11/4 = 2 3/4."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 7/3 to a mixed fraction.",
+   "options": [
+    "3 1/3",
+    "1 2/3",
+    "2 1/3",
+    "2 2/3"
+   ],
+   "answer": 2,
+   "explanation": "7 ÷ 3 = 2 remainder 1. The whole number is 2 and the fraction is 1/3, so 7/3 = 2 1/3."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 23/6 to a mixed fraction.",
+   "options": [
+    "3 5/6",
+    "4 5/6",
+    "5 3/6",
+    "3 6/6"
+   ],
+   "answer": 0,
+   "explanation": "23 ÷ 6 = 3 remainder 5. The whole number is 3 and the fraction is 5/6, so 23/6 = 3 5/6."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 17/5 to a mixed fraction.",
+   "options": [
+    "4 2/5",
+    "3 2/5",
+    "2 3/5",
+    "3 3/5"
+   ],
+   "answer": 1,
+   "explanation": "17 ÷ 5 = 3 remainder 2. The whole number is 3 and the fraction is 2/5, so 17/5 = 3 2/5."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 19/4 to a mixed fraction.",
+   "options": [
+    "5 3/4",
+    "3 4/4",
+    "4 3/4",
+    "4 4/4"
+   ],
+   "answer": 2,
+   "explanation": "19 ÷ 4 = 4 remainder 3. The whole number is 4 and the fraction is 3/4, so 19/4 = 4 3/4."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 13/3 to a mixed fraction.",
+   "options": [
+    "5 1/3",
+    "4 1/3",
+    "1 4/3",
+    "4 2/3"
+   ],
+   "answer": 1,
+   "explanation": "13 ÷ 3 = 4 remainder 1. The whole number is 4 and the fraction is 1/3, so 13/3 = 4 1/3."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 22/7 to a mixed fraction.",
+   "options": [
+    "4 1/7",
+    "1 3/7",
+    "3 2/7",
+    "3 1/7"
+   ],
+   "answer": 3,
+   "explanation": "22 ÷ 7 = 3 remainder 1. The whole number is 3 and the fraction is 1/7, so 22/7 = 3 1/7."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 25/6 to a mixed fraction.",
+   "options": [
+    "4 1/6",
+    "5 1/6",
+    "1 4/6",
+    "4 2/6"
+   ],
+   "answer": 0,
+   "explanation": "25 ÷ 6 = 4 remainder 1. The whole number is 4 and the fraction is 1/6, so 25/6 = 4 1/6."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 31/10 to a mixed fraction.",
+   "options": [
+    "3 1/10",
+    "4 1/10",
+    "1 3/10",
+    "3 2/10"
+   ],
+   "answer": 0,
+   "explanation": "31 ÷ 10 = 3 remainder 1. The whole number is 3 and the fraction is 1/10, so 31/10 = 3 1/10."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 3 2/5 to an improper fraction.",
+   "options": [
+    "5/5",
+    "15/5",
+    "18/5",
+    "17/5"
+   ],
+   "answer": 3,
+   "explanation": "3 × 5 = 15 and 15 + 2 = 17. The denominator stays 5, so the answer is 17/5."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 2 1/3 to an improper fraction.",
+   "options": [
+    "3/3",
+    "6/3",
+    "7/3",
+    "8/3"
+   ],
+   "answer": 2,
+   "explanation": "2 × 3 = 6 and 6 + 1 = 7. The denominator stays 3, so the answer is 7/3."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 4 3/8 to an improper fraction.",
+   "options": [
+    "7/8",
+    "35/8",
+    "32/8",
+    "36/8"
+   ],
+   "answer": 1,
+   "explanation": "4 × 8 = 32 and 32 + 3 = 35. The denominator stays 8, so the answer is 35/8."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 1 5/6 to an improper fraction.",
+   "options": [
+    "6/6",
+    "11/6",
+    "12/6",
+    "11/7"
+   ],
+   "answer": 1,
+   "explanation": "1 × 6 = 6 and 6 + 5 = 11. The denominator stays 6, so the answer is 11/6."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 5 1/2 to an improper fraction.",
+   "options": [
+    "6/2",
+    "10/2",
+    "11/2",
+    "12/2"
+   ],
+   "answer": 2,
+   "explanation": "5 × 2 = 10 and 10 + 1 = 11. The denominator stays 2, so the answer is 11/2."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 3 3/4 to an improper fraction.",
+   "options": [
+    "6/4",
+    "12/4",
+    "16/4",
+    "15/4"
+   ],
+   "answer": 3,
+   "explanation": "3 × 4 = 12 and 12 + 3 = 15. The denominator stays 4, so the answer is 15/4."
+  },
+  {
+   "topic": "1.6",
+   "q": "Change 2 7/10 to an improper fraction.",
+   "options": [
+    "27/10",
+    "9/10",
+    "20/10",
+    "28/10"
+   ],
+   "answer": 0,
+   "explanation": "2 × 10 = 20 and 20 + 7 = 27. The denominator stays 10, so the answer is 27/10."
+  }
+ ],
+ "short": []
+}

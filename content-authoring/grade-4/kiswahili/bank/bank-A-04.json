@@ -1,0 +1,646 @@
+{
+ "mcq": [
+  {
+   "topic": "4.1.1",
+   "q": "Maneno ya upole hutumika kwa nini?",
+   "options": [
+    "Kuepuka maneno ya wazi yanayoweza kuwaudhi watu",
+    "Kuwaaibisha watu",
+    "Kuongea haraka",
+    "Kuficha kila ukweli"
+   ],
+   "answer": 0,
+   "explanation": "Maneno ya upole huonyesha heshima."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "\"Kwenda msalani\" maana yake ni nini?",
+   "options": [
+    "Kwenda sokoni",
+    "Kwenda shuleni",
+    "Kwenda kanisani",
+    "Kwenda chooni"
+   ],
+   "answer": 3,
+   "explanation": "Msalani ni neno la upole kwa choo."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Neno la upole kwa kuzaa mtoto ni lipi?",
+   "options": [
+    "Kuendesha",
+    "Kufariki",
+    "Kujifungua",
+    "Kuaga"
+   ],
+   "answer": 2,
+   "explanation": "Kujifungua ni kuzaa kwa upole."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Neno la upole kwa mtu aliyekufa ni lipi?",
+   "options": [
+    "Amelala kitandani",
+    "Ameaga dunia",
+    "Amekimbia",
+    "Ameondoka sokoni"
+   ],
+   "answer": 1,
+   "explanation": "Ameaga dunia ni neno la upole kuhusu kifo."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Neno la upole kwa mtu aliye na mimba ni lipi?",
+   "options": [
+    "Mja mzito",
+    "Mgonjwa",
+    "Mtoto",
+    "Mzee"
+   ],
+   "answer": 0,
+   "explanation": "Mja mzito ni njia ya upole."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Ni njia ipi ya adabu ya kuomba kalamu?",
+   "options": [
+    "Nipe kalamu!",
+    "Toa kalamu!",
+    "Kalamu hapa!",
+    "Tafadhali, naomba kalamu."
+   ],
+   "answer": 3,
+   "explanation": "Tafadhali na naomba ni maneno ya adabu."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Neno \"samahani\" hutumika lini?",
+   "options": [
+    "Kuomba chakula",
+    "Kuaga",
+    "Kuomba msamaha au kuvuruga mtu",
+    "Kusifu"
+   ],
+   "answer": 2,
+   "explanation": "Samahani huonyesha upole."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Neno \"pole\" hutumika lini?",
+   "options": [
+    "Kuamkua asubuhi",
+    "Kumfariji mtu mwenye huzuni au maumivu",
+    "Kuagana usiku",
+    "Kucheza"
+   ],
+   "answer": 1,
+   "explanation": "Pole huonyesha huruma."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Neno la upole kuhusu kukojoa ni lipi?",
+   "options": [
+    "Kwenda haja ndogo",
+    "Kwenda haja kubwa",
+    "Kwenda kucheza",
+    "Kwenda shuleni"
+   ],
+   "answer": 0,
+   "explanation": "Haja ndogo ni kukojoa."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Ni njia ipi ya heshima kumtaja mtu asiyeona?",
+   "options": [
+    "Neno la kumdhihaki",
+    "Kumtaja kwa jina la utani la kuumiza",
+    "Kumcheka",
+    "Mtu mwenye ulemavu wa macho"
+   ],
+   "answer": 3,
+   "explanation": "Tunawaheshimu watu wenye ulemavu."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Kwa nini tunatumia maneno ya upole?",
+   "options": [
+    "Kuchukiza watu",
+    "Kuongea kwa muda mrefu",
+    "Kuonyesha heshima na kuepuka kuwaaibisha wengine",
+    "Kuficha mawazo yote"
+   ],
+   "answer": 2,
+   "explanation": "Upole hujenga amani."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Kusoma kwa mapana ni kusoma nini?",
+   "options": [
+    "Ukurasa mmoja tu kila mwaka",
+    "Vifungu vingi vya aina mbalimbali",
+    "Kitabu kimoja tu",
+    "Majina tu"
+   ],
+   "answer": 1,
+   "explanation": "Kusoma kwa mapana hukuza maarifa."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Ukipata ujumbe kutoka kwa mtu usiyemjua mtandaoni, unafanya nini?",
+   "options": [
+    "Kumwambia mwalimu au mzazi",
+    "Kumjibu",
+    "Kumpa nenosiri",
+    "Kumtumia picha"
+   ],
+   "answer": 0,
+   "explanation": "Watu wazima wanaweza kukulinda."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Ni jambo lipi hupaswi kumpa mtu usiyemjua mtandaoni?",
+   "options": [
+    "Rangi unayopenda",
+    "Jina la mnyama",
+    "Jina la kitabu",
+    "Nenosiri lako"
+   ],
+   "answer": 3,
+   "explanation": "Nenosiri ni siri."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Tovuti salama ni ile iliyopendekezwa na nani?",
+   "options": [
+    "Mtu usiyemjua",
+    "Tangazo",
+    "Mwalimu au shule",
+    "Ujumbe wa kutisha"
+   ],
+   "answer": 2,
+   "explanation": "Tovuti salama hupendekezwa na mtu mzima anayeaminika."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Faili ni nini kwenye tarakilishi?",
+   "options": [
+    "Kipanya",
+    "Mahali pa kuhifadhi kazi",
+    "Kiwambo",
+    "Kitufe cha kuwasha"
+   ],
+   "answer": 1,
+   "explanation": "Faili huhifadhi maandishi."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Unafungua faili kwa kubonyeza mara ngapi kwa kipanya?",
+   "options": [
+    "Mara mbili",
+    "Mara sifuri",
+    "Mara kumi",
+    "Mara moja tu bila kuachilia"
+   ],
+   "answer": 0,
+   "explanation": "Mara mbili hulifungua."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Kusakura maana yake ni nini?",
+   "options": [
+    "Kuzima tarakilishi",
+    "Kuandika barua",
+    "Kufuta faili",
+    "Kutembelea tovuti kutafuta habari"
+   ],
+   "answer": 3,
+   "explanation": "Kusakura ni kutafuta mtandaoni."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Ni jambo lipi ni salama unapotumia mtandao?",
+   "options": [
+    "Kufungua kila kiungo",
+    "Kutoa anwani yako",
+    "Kutumia mtandao mwalimu au mzazi akiwa karibu",
+    "Kuongea na watu usiowajua"
+   ],
+   "answer": 2,
+   "explanation": "Uwepo wa mtu mzima hulinda."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Unatafutia wapi maana ya neno usilolijua?",
+   "options": [
+    "Kwenye jiko",
+    "Kwenye kamusi",
+    "Kwenye kiatu",
+    "Kwenye shamba"
+   ],
+   "answer": 1,
+   "explanation": "Kamusi hutoa maana."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Muhtasari wa kifungu ni nini?",
+   "options": [
+    "Ujumbe mkuu ulioandikwa kwa ufupi",
+    "Kifungu kizima",
+    "Kichwa tu",
+    "Majina ya wahusika tu"
+   ],
+   "answer": 0,
+   "explanation": "Muhtasari huwa mfupi."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Ukiona kitu kisichofaa mtandaoni, unafanya nini?",
+   "options": [
+    "Kuendelea kukitazama",
+    "Kukituma kwa rafiki",
+    "Kukificha",
+    "Kufunga ukurasa na kumwambia mtu mzima"
+   ],
+   "answer": 3,
+   "explanation": "Ni salama kuripoti."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Barua ya kirafiki huandikiwa nani?",
+   "options": [
+    "Mkurugenzi wa kampuni",
+    "Mwalimu mkuu kwa jambo rasmi",
+    "Rafiki au ndugu",
+    "Waziri"
+   ],
+   "answer": 2,
+   "explanation": "Barua ya kirafiki ni isiyo rasmi."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Anwani ya mwandishi huandikwa wapi?",
+   "options": [
+    "Chini kushoto",
+    "Juu upande wa kulia",
+    "Katikati",
+    "Mwishoni kabisa"
+   ],
+   "answer": 1,
+   "explanation": "Anwani huwa juu kulia."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Salamu ya mwanzo wa barua ya kirafiki ni ipi?",
+   "options": [
+    "Mpendwa rafiki yangu Amani,",
+    "Kwaheri rafiki",
+    "Kwa mkurugenzi",
+    "Nakuandikia"
+   ],
+   "answer": 0,
+   "explanation": "Mpendwa ni salamu ya kirafiki."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Kimalizio cha barua ya kirafiki ni kipi?",
+   "options": [
+    "Wako mtiifu wa ofisi",
+    "Bila jina",
+    "Kwa heshima kubwa",
+    "Rafiki yako mpenzi,"
+   ],
+   "answer": 3,
+   "explanation": "Kimalizio hufuatwa na jina."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "S.L.P. ni kifupi cha nini?",
+   "options": [
+    "Shule ya Lugha",
+    "Simu ya Leo",
+    "Sanduku la Posta",
+    "Sehemu ya Lugha"
+   ],
+   "answer": 2,
+   "explanation": "S.L.P. ni Sanduku la Posta."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Ni sehemu ipi hueleza ujumbe mkuu wa barua?",
+   "options": [
+    "Anwani",
+    "Kiini",
+    "Tarehe",
+    "Salamu"
+   ],
+   "answer": 1,
+   "explanation": "Kiini hubeba ujumbe."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Tarehe huandikwa wapi kwenye barua ya kirafiki?",
+   "options": [
+    "Chini ya anwani",
+    "Mwishoni",
+    "Kando ya jina",
+    "Katikati"
+   ],
+   "answer": 0,
+   "explanation": "Tarehe huwa chini ya anwani ya mwandishi."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Ni maneno yapi ni ya utangulizi wa barua ya kirafiki?",
+   "options": [
+    "Kwaheri ya kuonana",
+    "Rafiki yako mpenzi",
+    "Sanduku la Posta",
+    "Natumaini u mzima wa afya"
+   ],
+   "answer": 3,
+   "explanation": "Utangulizi hujulia hali."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Ni tarehe ipi imeandikwa vizuri?",
+   "options": [
+    "Machi14",
+    "2026 14 Machi kesho",
+    "14 Machi 2026",
+    "14/Machi/"
+   ],
+   "answer": 2,
+   "explanation": "Tarehe ina siku, mwezi na mwaka."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Ni lugha ipi inafaa katika barua ya kirafiki?",
+   "options": [
+    "Ya matusi",
+    "Nyepesi na ya upendo",
+    "Ya kisheria",
+    "Ya kifupi cha mtaani"
+   ],
+   "answer": 1,
+   "explanation": "Tunatumia lugha ya adabu na upendo."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Barua za kirafiki zina umuhimu gani?",
+   "options": [
+    "Huimarisha urafiki na kuwezesha mawasiliano",
+    "Hupoteza muda",
+    "Huleta ugomvi",
+    "Hazina faida"
+   ],
+   "answer": 0,
+   "explanation": "Hutuunganisha na wapendwa."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Ngeli ya A-WA ina nomino za nini?",
+   "options": [
+    "Vitu vya ki-vi",
+    "Miti tu",
+    "Mahali",
+    "Viumbe hai"
+   ],
+   "answer": 3,
+   "explanation": "A-WA ni ya watu, wanyama, ndege, wadudu na samaki."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Ni nomino ipi ni ya ngeli ya A-WA?",
+   "options": [
+    "mti",
+    "kitabu",
+    "mwalimu",
+    "jiko"
+   ],
+   "answer": 2,
+   "explanation": "Mwalimu ni mtu."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Wingi wa \"mtoto\" ni upi?",
+   "options": [
+    "vitoto",
+    "watoto",
+    "mitoto",
+    "matoto"
+   ],
+   "answer": 1,
+   "explanation": "Wingi wa mtoto ni watoto."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Ni sentensi ipi ya ngeli ya A-WA imepatana?",
+   "options": [
+    "Watoto wanacheza.",
+    "Watoto anacheza.",
+    "Watoto inacheza.",
+    "Watoto unacheza."
+   ],
+   "answer": 0,
+   "explanation": "Wingi wa A-WA hutumia wa-."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Kiambishi cha kitenzi kwa umoja wa A-WA ni kipi?",
+   "options": [
+    "wa-",
+    "ki-",
+    "u-",
+    "a-"
+   ],
+   "answer": 3,
+   "explanation": "Mtoto analala hutumia a-."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Kivumishi cha umoja cha A-WA huanza na kiambishi kipi?",
+   "options": [
+    "wa-",
+    "ki-",
+    "m-",
+    "vi-"
+   ],
+   "answer": 2,
+   "explanation": "Mtoto mzuri hutumia m-."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Nomino ipi haibadiliki kwa wingi?",
+   "options": [
+    "mtoto",
+    "simba",
+    "mkulima",
+    "mwalimu"
+   ],
+   "answer": 1,
+   "explanation": "Simba ni simba kwa umoja na wingi."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Ni wingi wa \"Mkulima huyu analima\"?",
+   "options": [
+    "Wakulima hawa wanalima",
+    "Wakulima huyu analima",
+    "Mkulima hawa wanalima",
+    "Wakulima hawa analima"
+   ],
+   "answer": 0,
+   "explanation": "Nomino, kiashiria na kitenzi hubadilika."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Ni nomino ipi si ya ngeli ya A-WA?",
+   "options": [
+    "mbuzi",
+    "samaki",
+    "kuku",
+    "kitabu"
+   ],
+   "answer": 3,
+   "explanation": "Kitabu si kiumbe hai."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Ni kiashiria kipi cha wingi kwa A-WA karibu?",
+   "options": [
+    "huyu",
+    "hiki",
+    "hawa",
+    "huu"
+   ],
+   "answer": 2,
+   "explanation": "Hawa ni wingi wa huyu."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "\"Mgeni\" ina wingi upi?",
+   "options": [
+    "migeni",
+    "wageni",
+    "vigeni",
+    "magani"
+   ],
+   "answer": 1,
+   "explanation": "Wingi wa mgeni ni wageni."
+  }
+ ],
+ "short": [
+  {
+   "topic": "4.1.1",
+   "q": "Taja maneno matatu ya upole na maana zake.",
+   "marks": 3,
+   "answer": "Mfano: kwenda msalani (kwenda chooni), kujifungua (kuzaa), kufariki (kufa).",
+   "working": "Alama moja kwa kila neno na maana yake."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Andika sentensi mbili zenye maneno ya adabu \"tafadhali\" na \"asante\".",
+   "marks": 2,
+   "answer": "Mfano: Tafadhali, naomba maji. Asante kwa msaada wako.",
+   "working": "Alama moja kwa kila sentensi."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Eleza sababu mbili za kutumia maneno ya upole.",
+   "marks": 2,
+   "answer": "Huonyesha heshima na hayaaibishi watu.",
+   "working": "Alama moja kwa kila sababu."
+  },
+  {
+   "topic": "4.1.1",
+   "q": "Andika mazungumzo ya mistari minne kati yako na mwalimu ukiomba ruhusa ya kwenda msalani.",
+   "marks": 4,
+   "answer": "Mfano: Samahani mwalimu, naomba kwenda msalani. / Ndiyo, nenda. / Asante mwalimu. / Rudi haraka.",
+   "working": "Alama moja kwa kila mstari wenye lugha ya adabu."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Taja sheria nne za usalama mtandaoni.",
+   "marks": 4,
+   "answer": "Tumia tovuti salama; usiwasiliane na watu usiowajua; usitoe nenosiri wala anwani; mwambie mwalimu au mzazi ukipata ujumbe wa kutisha.",
+   "working": "Alama moja kwa kila sheria."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Eleza hatua tatu za kufungua faili yenye kifungu kwenye tarakilishi.",
+   "marks": 3,
+   "answer": "Tafuta folda; tafuta jina la faili; libonyeze mara mbili.",
+   "working": "Alama moja kwa kila hatua."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Eleza kwa nini kusoma kwa mapana ni muhimu.",
+   "marks": 2,
+   "answer": "Hukuza msamiati na hutupa maarifa mengi na furaha.",
+   "working": "Alama moja kwa kila sababu."
+  },
+  {
+   "topic": "4.2.1",
+   "q": "Andika muhtasari wa sentensi mbili wa hadithi: Sungura alilala kwa kujiamini kupita kiasi katika mbio na Kobe aliyeendelea polepole akashinda.",
+   "marks": 3,
+   "answer": "Sungura alilala kwa sababu alijiamini kupita kiasi. Kobe aliendelea polepole na akashinda.",
+   "working": "Alama moja kwa kila sentensi na moja kwa ujumbe."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Taja sehemu nne za barua ya kirafiki.",
+   "marks": 4,
+   "answer": "Anwani na tarehe, salamu, utangulizi, kiini, hitimisho na kimalizio (nne zozote).",
+   "working": "Alama moja kwa kila sehemu."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Andika salamu na utangulizi wa barua kwa shangazi yako aliyekutumia zawadi.",
+   "marks": 3,
+   "answer": "Mfano: Kwa shangazi yangu mpendwa Neema, Salamu nyingi kutoka hapa. Natumaini u mzima wa afya. Nimefurahi kupata zawadi yako.",
+   "working": "Alama moja kwa salamu, moja kwa kumjulia hali na moja kwa kutaja zawadi."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Eleza kwa nini barua za kirafiki ni muhimu.",
+   "marks": 2,
+   "answer": "Huwezesha kuwasiliana na watu walio mbali na huimarisha urafiki.",
+   "working": "Alama moja kwa kila sababu."
+  },
+  {
+   "topic": "4.3.1",
+   "q": "Andika barua fupi ya kirafiki ya aya mbili ukimwalika rafiki nyumbani likizoni.",
+   "marks": 5,
+   "answer": "Barua yenye anwani na tarehe, salamu, utangulizi, kiini cha mwaliko, hitimisho na kimalizio.",
+   "working": "Alama moja kwa anwani na tarehe, moja kwa salamu, mbili kwa kiini na moja kwa hitimisho na kimalizio."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Taja nomino tano za ngeli ya A-WA.",
+   "marks": 3,
+   "answer": "Mfano: mtoto, mwalimu, simba, kuku, samaki.",
+   "working": "Alama moja kwa kila nomino mbili sahihi hadi alama tatu."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Badilisha kuwa wingi: \"Mtoto mdogo analala.\"",
+   "marks": 3,
+   "answer": "Watoto wadogo wanalala.",
+   "working": "Alama moja kwa kila neno lililobadilishwa sawasawa: nomino, kivumishi, kitenzi."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Eleza kwa nini ng'ombe iko katika ngeli ya A-WA.",
+   "marks": 2,
+   "answer": "Ng'ombe ni mnyama, yaani kiumbe hai, na viumbe hai huingia ngeli ya A-WA.",
+   "working": "Alama moja kwa kiumbe hai na moja kwa ngeli."
+  },
+  {
+   "topic": "4.4.1",
+   "q": "Tunga sentensi mbili, moja ya umoja na nyingine ya wingi, kwa nomino \"mkulima\".",
+   "marks": 4,
+   "answer": "Mkulima mzuri analima shamba. Wakulima wazuri wanalima mashamba.",
+   "working": "Alama mbili kwa kila sentensi: nomino sahihi na upatanisho."
+  }
+ ]
+}

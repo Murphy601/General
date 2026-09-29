@@ -1,0 +1,1281 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 8 in 4,835?",
+   "options": [
+    "8",
+    "8,000",
+    "80",
+    "800"
+   ],
+   "answer": 3,
+   "explanation": "The digit 8 is in the hundreds place, so its total value is 8 × 100 = 800."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 9 in 6,092?",
+   "options": [
+    "90",
+    "9",
+    "900",
+    "10"
+   ],
+   "answer": 0,
+   "explanation": "The digit 9 is in the tens place, so its total value is 9 × 10 = 90."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 7 in 27,150?",
+   "options": [
+    "7",
+    "7,000",
+    "70,000",
+    "700"
+   ],
+   "answer": 1,
+   "explanation": "The digit 7 is in the thousands place, so its total value is 7 × 1,000 = 7,000."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 3 in 5,306?",
+   "options": [
+    "3",
+    "3,000",
+    "300",
+    "30"
+   ],
+   "answer": 2,
+   "explanation": "The digit 3 is in the hundreds place, so its total value is 3 × 100 = 300."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 4 in 9,481?",
+   "options": [
+    "4",
+    "4,000",
+    "400",
+    "40"
+   ],
+   "answer": 2,
+   "explanation": "The digit 4 is in the hundreds place, so its total value is 4 × 100 = 400."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 5 in 7,250?",
+   "options": [
+    "50",
+    "5",
+    "500",
+    "10"
+   ],
+   "answer": 0,
+   "explanation": "The digit 5 is in the tens place, so its total value is 5 × 10 = 50."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 9 in 3,907?",
+   "options": [
+    "9",
+    "900",
+    "9,000",
+    "90"
+   ],
+   "answer": 1,
+   "explanation": "The digit 9 is in the hundreds place, so its total value is 9 × 100 = 900."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 6 in 62,418?",
+   "options": [
+    "6",
+    "600,000",
+    "6,000",
+    "60,000"
+   ],
+   "answer": 3,
+   "explanation": "The digit 6 is in the ten thousands place, so its total value is 6 × 10,000 = 60,000."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 6 in 8,064?",
+   "options": [
+    "6",
+    "60",
+    "600",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "The digit 6 is in the tens place, so its total value is 6 × 10 = 60."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the total value of the digit 1 in 1,523?",
+   "options": [
+    "1",
+    "10,000",
+    "100",
+    "1,000"
+   ],
+   "answer": 3,
+   "explanation": "The digit 1 is in the thousands place, so its total value is 1 × 1,000 = 1,000."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the number 4,835, the digit 3 is in which place?",
+   "options": [
+    "Ones",
+    "Hundreds",
+    "Tens",
+    "Thousands"
+   ],
+   "answer": 2,
+   "explanation": "Counting from the right the places are ones, tens, hundreds, thousands and ten thousands. The digit 3 is in the tens place."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the number 7,958, the digit 9 is in which place?",
+   "options": [
+    "Hundreds",
+    "Ones",
+    "Tens",
+    "Thousands"
+   ],
+   "answer": 0,
+   "explanation": "Counting from the right the places are ones, tens, hundreds, thousands and ten thousands. The digit 9 is in the hundreds place."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the number 24,613, the digit 4 is in which place?",
+   "options": [
+    "Ones",
+    "Thousands",
+    "Tens",
+    "Hundreds"
+   ],
+   "answer": 1,
+   "explanation": "Counting from the right the places are ones, tens, hundreds, thousands and ten thousands. The digit 4 is in the thousands place."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the number 6,092, the digit 6 is in which place?",
+   "options": [
+    "Thousands",
+    "Ones",
+    "Tens",
+    "Hundreds"
+   ],
+   "answer": 0,
+   "explanation": "Counting from the right the places are ones, tens, hundreds, thousands and ten thousands. The digit 6 is in the thousands place."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the number 91,724, the digit 9 is in which place?",
+   "options": [
+    "Ones",
+    "Tens",
+    "Ten thousands",
+    "Hundreds"
+   ],
+   "answer": 2,
+   "explanation": "Counting from the right the places are ones, tens, hundreds, thousands and ten thousands. The digit 9 is in the ten thousands place."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the number 3,850, the digit 8 is in which place?",
+   "options": [
+    "Ones",
+    "Tens",
+    "Thousands",
+    "Hundreds"
+   ],
+   "answer": 3,
+   "explanation": "Counting from the right the places are ones, tens, hundreds, thousands and ten thousands. The digit 8 is in the hundreds place."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which number is written in words as \"four thousand, six hundred and five\"?",
+   "options": [
+    "4,065",
+    "46,005",
+    "4,605",
+    "465"
+   ],
+   "answer": 2,
+   "explanation": "four thousand, six hundred and five: put each part in its place and use 0 where there is no digit. The number is 4,605."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which number is written in words as \"six thousand and forty-five\"?",
+   "options": [
+    "6,045",
+    "6,405",
+    "60,405",
+    "645"
+   ],
+   "answer": 0,
+   "explanation": "six thousand and forty-five: put each part in its place and use 0 where there is no digit. The number is 6,045."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which number is written in words as \"three thousand, four hundred and fifty\"?",
+   "options": [
+    "3,540",
+    "3,450",
+    "34,500",
+    "345"
+   ],
+   "answer": 1,
+   "explanation": "three thousand, four hundred and fifty: put each part in its place and use 0 where there is no digit. The number is 3,450."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which number is written in words as \"seven thousand and eight\"?",
+   "options": [
+    "70,008",
+    "708",
+    "8,008",
+    "7,008"
+   ],
+   "answer": 3,
+   "explanation": "seven thousand and eight: put each part in its place and use 0 where there is no digit. The number is 7,008."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which number is written in words as \"two thousand and ninety\"?",
+   "options": [
+    "2,090",
+    "2,900",
+    "20,900",
+    "290"
+   ],
+   "answer": 0,
+   "explanation": "two thousand and ninety: put each part in its place and use 0 where there is no digit. The number is 2,090."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which number is written in words as \"five thousand, three hundred\"?",
+   "options": [
+    "5,030",
+    "53,000",
+    "5,300",
+    "530"
+   ],
+   "answer": 2,
+   "explanation": "five thousand, three hundred: put each part in its place and use 0 where there is no digit. The number is 5,300."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which number is written in words as \"nine thousand and ten\"?",
+   "options": [
+    "9,100",
+    "90,100",
+    "910",
+    "9,010"
+   ],
+   "answer": 3,
+   "explanation": "nine thousand and ten: put each part in its place and use 0 where there is no digit. The number is 9,010."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which number is written in words as \"eight thousand, two hundred and six\"?",
+   "options": [
+    "8,026",
+    "8,206",
+    "82,006",
+    "826"
+   ],
+   "answer": 1,
+   "explanation": "eight thousand, two hundred and six: put each part in its place and use 0 where there is no digit. The number is 8,206."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these shows 583 in words?",
+   "options": [
+    "five hundred and eighty-three",
+    "five hundred and thirty-eight",
+    "six hundred and eighty-three",
+    "five hundred and ninety-three"
+   ],
+   "answer": 0,
+   "explanation": "583 = five hundred and eighty-three. Say the hundreds, then \"and\", then the tens and ones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these shows 305 in words?",
+   "options": [
+    "three hundred and fifty",
+    "three hundred and five",
+    "thirty-five",
+    "four hundred and five"
+   ],
+   "answer": 1,
+   "explanation": "305 = three hundred and five. Say the hundreds, then \"and\", then the tens and ones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these shows 460 in words?",
+   "options": [
+    "four hundred and six",
+    "forty-six",
+    "five hundred and sixty",
+    "four hundred and sixty"
+   ],
+   "answer": 3,
+   "explanation": "460 = four hundred and sixty. Say the hundreds, then \"and\", then the tens and ones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these shows 718 in words?",
+   "options": [
+    "seven hundred and eighty-one",
+    "eight hundred and eighteen",
+    "seven hundred and eighteen",
+    "seven hundred and twenty-eight"
+   ],
+   "answer": 2,
+   "explanation": "718 = seven hundred and eighteen. Say the hundreds, then \"and\", then the tens and ones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these shows 270 in words?",
+   "options": [
+    "two hundred and seventy",
+    "two hundred and seven",
+    "twenty-seven",
+    "three hundred and seventy"
+   ],
+   "answer": 0,
+   "explanation": "270 = two hundred and seventy. Say the hundreds, then \"and\", then the tens and ones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these shows 604 in words?",
+   "options": [
+    "six hundred and forty",
+    "sixty-four",
+    "seven hundred and four",
+    "six hundred and four"
+   ],
+   "answer": 3,
+   "explanation": "604 = six hundred and four. Say the hundreds, then \"and\", then the tens and ones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these shows 841 in words?",
+   "options": [
+    "eight hundred and fourteen",
+    "nine hundred and forty-one",
+    "eight hundred and forty-one",
+    "eight hundred and fifty-one"
+   ],
+   "answer": 2,
+   "explanation": "841 = eight hundred and forty-one. Say the hundreds, then \"and\", then the tens and ones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these shows 190 in words?",
+   "options": [
+    "one hundred and nine",
+    "one hundred and ninety",
+    "nineteen",
+    "two hundred and ninety"
+   ],
+   "answer": 1,
+   "explanation": "190 = one hundred and ninety. Say the hundreds, then \"and\", then the tens and ones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 47 to the nearest ten.",
+   "options": [
+    "50",
+    "60",
+    "40",
+    "0"
+   ],
+   "answer": 0,
+   "explanation": "Look at the ones digit 7. It is 5 or more, so go up to the next ten. 47 rounds to 50."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 342 to the nearest ten.",
+   "options": [
+    "350",
+    "340",
+    "330",
+    "300"
+   ],
+   "answer": 1,
+   "explanation": "Look at the ones digit 2. It is less than 5, so keep the tens digit. 342 rounds to 340."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 765 to the nearest ten.",
+   "options": [
+    "780",
+    "760",
+    "700",
+    "770"
+   ],
+   "answer": 3,
+   "explanation": "Look at the ones digit 5. It is 5 or more, so go up to the next ten. 765 rounds to 770."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 995 to the nearest ten.",
+   "options": [
+    "1010",
+    "990",
+    "1000",
+    "900"
+   ],
+   "answer": 2,
+   "explanation": "Look at the ones digit 5. It is 5 or more, so go up to the next ten. 995 rounds to 1000."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 128 to the nearest ten.",
+   "options": [
+    "140",
+    "120",
+    "100",
+    "130"
+   ],
+   "answer": 3,
+   "explanation": "Look at the ones digit 8. It is 5 or more, so go up to the next ten. 128 rounds to 130."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 553 to the nearest ten.",
+   "options": [
+    "550",
+    "560",
+    "540",
+    "500"
+   ],
+   "answer": 0,
+   "explanation": "Look at the ones digit 3. It is less than 5, so keep the tens digit. 553 rounds to 550."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 831 to the nearest ten.",
+   "options": [
+    "840",
+    "830",
+    "820",
+    "800"
+   ],
+   "answer": 1,
+   "explanation": "Look at the ones digit 1. It is less than 5, so keep the tens digit. 831 rounds to 830."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 694 to the nearest ten.",
+   "options": [
+    "700",
+    "680",
+    "690",
+    "600"
+   ],
+   "answer": 2,
+   "explanation": "Look at the ones digit 4. It is less than 5, so keep the tens digit. 694 rounds to 690."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 205 to the nearest ten.",
+   "options": [
+    "220",
+    "200",
+    "310",
+    "210"
+   ],
+   "answer": 3,
+   "explanation": "Look at the ones digit 5. It is 5 or more, so go up to the next ten. 205 rounds to 210."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 379 to the nearest ten.",
+   "options": [
+    "380",
+    "390",
+    "370",
+    "300"
+   ],
+   "answer": 0,
+   "explanation": "Look at the ones digit 9. It is 5 or more, so go up to the next ten. 379 rounds to 380."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 918 to the nearest ten.",
+   "options": [
+    "930",
+    "910",
+    "920",
+    "900"
+   ],
+   "answer": 2,
+   "explanation": "Look at the ones digit 8. It is 5 or more, so go up to the next ten. 918 rounds to 920."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which is the largest number: 538, 583, 358, 385?",
+   "options": [
+    "538",
+    "583",
+    "358",
+    "385"
+   ],
+   "answer": 1,
+   "explanation": "Compare the digits from the left. The largest number is 583."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which is the smallest number: 605, 560, 650, 506?",
+   "options": [
+    "605",
+    "506",
+    "560",
+    "650"
+   ],
+   "answer": 1,
+   "explanation": "Compare the digits from the left. The smallest number is 506."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which is the largest number: 742, 724, 472, 427?",
+   "options": [
+    "742",
+    "724",
+    "472",
+    "427"
+   ],
+   "answer": 0,
+   "explanation": "Compare the digits from the left. The largest number is 742."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which is the smallest number: 819, 891, 189, 918?",
+   "options": [
+    "819",
+    "891",
+    "918",
+    "189"
+   ],
+   "answer": 3,
+   "explanation": "Compare the digits from the left. The smallest number is 189."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which is the largest number: 3,060, 3,006, 3,600, 3,660?",
+   "options": [
+    "3,060",
+    "3,006",
+    "3,660",
+    "3,600"
+   ],
+   "answer": 2,
+   "explanation": "Compare the digits from the left. The largest number is 3,660."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 12?",
+   "options": [
+    "4",
+    "5",
+    "7",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "12 ÷ 4 = 3 with nothing left over, so 4 is a factor of 12. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 18?",
+   "options": [
+    "4",
+    "5",
+    "7",
+    "6"
+   ],
+   "answer": 3,
+   "explanation": "18 ÷ 6 = 3 with nothing left over, so 6 is a factor of 18. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 24?",
+   "options": [
+    "5",
+    "8",
+    "7",
+    "9"
+   ],
+   "answer": 1,
+   "explanation": "24 ÷ 8 = 3 with nothing left over, so 8 is a factor of 24. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 30?",
+   "options": [
+    "4",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "30 ÷ 5 = 6 with nothing left over, so 5 is a factor of 30. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 36?",
+   "options": [
+    "5",
+    "7",
+    "9",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "36 ÷ 9 = 4 with nothing left over, so 9 is a factor of 36. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 40?",
+   "options": [
+    "3",
+    "6",
+    "7",
+    "10"
+   ],
+   "answer": 3,
+   "explanation": "40 ÷ 10 = 4 with nothing left over, so 10 is a factor of 40. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 45?",
+   "options": [
+    "9",
+    "2",
+    "4",
+    "6"
+   ],
+   "answer": 0,
+   "explanation": "45 ÷ 9 = 5 with nothing left over, so 9 is a factor of 45. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 48?",
+   "options": [
+    "5",
+    "12",
+    "7",
+    "9"
+   ],
+   "answer": 1,
+   "explanation": "48 ÷ 12 = 4 with nothing left over, so 12 is a factor of 48. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 50?",
+   "options": [
+    "3",
+    "4",
+    "6",
+    "25"
+   ],
+   "answer": 3,
+   "explanation": "50 ÷ 25 = 2 with nothing left over, so 25 is a factor of 50. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a factor of 28?",
+   "options": [
+    "3",
+    "7",
+    "5",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "28 ÷ 7 = 4 with nothing left over, so 7 is a factor of 28. The others leave a remainder."
+  },
+  {
+   "topic": "1.1",
+   "q": "How many factors does 12 have?",
+   "options": [
+    "7",
+    "5",
+    "6",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "The factors of 12 are 1, 2, 3, 4, 6, 12. There are 6 of them."
+  },
+  {
+   "topic": "1.1",
+   "q": "How many factors does 20 have?",
+   "options": [
+    "6",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "The factors of 20 are 1, 2, 4, 5, 10, 20. There are 6 of them."
+  },
+  {
+   "topic": "1.1",
+   "q": "How many factors does 28 have?",
+   "options": [
+    "7",
+    "5",
+    "6",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "The factors of 28 are 1, 2, 4, 7, 14, 28. There are 6 of them."
+  },
+  {
+   "topic": "1.1",
+   "q": "How many factors does 36 have?",
+   "options": [
+    "10",
+    "8",
+    "11",
+    "9"
+   ],
+   "answer": 3,
+   "explanation": "The factors of 36 are 1, 2, 3, 4, 6, 9, 12, 18, 36. There are 9 of them."
+  },
+  {
+   "topic": "1.1",
+   "q": "How many factors does 45 have?",
+   "options": [
+    "6",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "The factors of 45 are 1, 3, 5, 9, 15, 45. There are 6 of them."
+  },
+  {
+   "topic": "1.1",
+   "q": "How many factors does 50 have?",
+   "options": [
+    "7",
+    "6",
+    "5",
+    "8"
+   ],
+   "answer": 1,
+   "explanation": "The factors of 50 are 1, 2, 5, 10, 25, 50. There are 6 of them."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which list shows all the factors of 18?",
+   "options": [
+    "1, 2, 6, 9, 18",
+    "1, 2, 3, 4, 6, 9, 18",
+    "1, 2, 3, 6, 9, 18",
+    "1, 2, 3, 6, 9"
+   ],
+   "answer": 2,
+   "explanation": "Pair up numbers that multiply to 18. The factors are 1, 2, 3, 6, 9, 18."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which list shows all the factors of 24?",
+   "options": [
+    "1, 2, 3, 4, 6, 8, 12, 24",
+    "1, 2, 4, 6, 8, 12, 24",
+    "1, 2, 3, 4, 5, 6, 8, 12, 24",
+    "1, 2, 3, 4, 6, 8, 12"
+   ],
+   "answer": 0,
+   "explanation": "Pair up numbers that multiply to 24. The factors are 1, 2, 3, 4, 6, 8, 12, 24."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which list shows all the factors of 30?",
+   "options": [
+    "1, 2, 5, 6, 10, 15, 30",
+    "1, 2, 3, 5, 6, 10, 15, 30",
+    "1, 2, 3, 4, 5, 6, 10, 15, 30",
+    "1, 2, 3, 5, 6, 10, 15"
+   ],
+   "answer": 1,
+   "explanation": "Pair up numbers that multiply to 30. The factors are 1, 2, 3, 5, 6, 10, 15, 30."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which list shows all the factors of 42?",
+   "options": [
+    "1, 2, 6, 7, 14, 21, 42",
+    "1, 2, 3, 4, 6, 7, 14, 21, 42",
+    "1, 2, 3, 6, 7, 14, 21",
+    "1, 2, 3, 6, 7, 14, 21, 42"
+   ],
+   "answer": 3,
+   "explanation": "Pair up numbers that multiply to 42. The factors are 1, 2, 3, 6, 7, 14, 21, 42."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a multiple of 7?",
+   "options": [
+    "43",
+    "41",
+    "42",
+    "44"
+   ],
+   "answer": 2,
+   "explanation": "42 = 7 × 6, so 42 is a multiple of 7."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a multiple of 4?",
+   "options": [
+    "29",
+    "28",
+    "27",
+    "30"
+   ],
+   "answer": 1,
+   "explanation": "28 = 4 × 7, so 28 is a multiple of 4."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a multiple of 9?",
+   "options": [
+    "64",
+    "62",
+    "65",
+    "63"
+   ],
+   "answer": 3,
+   "explanation": "63 = 9 × 7, so 63 is a multiple of 9."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a multiple of 6?",
+   "options": [
+    "54",
+    "55",
+    "53",
+    "56"
+   ],
+   "answer": 0,
+   "explanation": "54 = 6 × 9, so 54 is a multiple of 6."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a multiple of 8?",
+   "options": [
+    "73",
+    "71",
+    "74",
+    "72"
+   ],
+   "answer": 3,
+   "explanation": "72 = 8 × 9, so 72 is a multiple of 8."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a multiple of 5?",
+   "options": [
+    "65",
+    "66",
+    "64",
+    "67"
+   ],
+   "answer": 0,
+   "explanation": "65 = 5 × 13, so 65 is a multiple of 5."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a multiple of 12?",
+   "options": [
+    "85",
+    "84",
+    "83",
+    "86"
+   ],
+   "answer": 1,
+   "explanation": "84 = 12 × 7, so 84 is a multiple of 12."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a multiple of 3?",
+   "options": [
+    "52",
+    "50",
+    "51",
+    "53"
+   ],
+   "answer": 2,
+   "explanation": "51 = 3 × 17, so 51 is a multiple of 3."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the 6th multiple of 4?",
+   "options": [
+    "28",
+    "24",
+    "20",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "Multiply 4 × 6 = 24. It is the 6th multiple of 4."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the 5th multiple of 6?",
+   "options": [
+    "36",
+    "24",
+    "30",
+    "11"
+   ],
+   "answer": 2,
+   "explanation": "Multiply 6 × 5 = 30. It is the 5th multiple of 6."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the 4th multiple of 9?",
+   "options": [
+    "36",
+    "45",
+    "27",
+    "13"
+   ],
+   "answer": 0,
+   "explanation": "Multiply 9 × 4 = 36. It is the 4th multiple of 9."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the 8th multiple of 7?",
+   "options": [
+    "63",
+    "49",
+    "15",
+    "56"
+   ],
+   "answer": 3,
+   "explanation": "Multiply 7 × 8 = 56. It is the 8th multiple of 7."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.1",
+   "q": "Write 7,206 in expanded form.",
+   "marks": 2,
+   "answer": "7,000 + 200 + 6",
+   "working": "1 mark for 7,000 and 200; 1 mark for 6 ones with no tens."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write 583 in words.",
+   "marks": 2,
+   "answer": "five hundred and eighty-three",
+   "working": "1 mark for \"five hundred and\"; 1 mark for \"eighty-three\" spelt correctly with a hyphen."
+  },
+  {
+   "topic": "1.1",
+   "q": "Arrange 605, 560, 650 and 506 from smallest to largest.",
+   "marks": 3,
+   "answer": "506, 560, 605, 650",
+   "working": "Compare hundreds first, then tens. 1 mark for each correct pair of positions, up to 3 marks."
+  },
+  {
+   "topic": "1.1",
+   "q": "Round 47, 342 and 995 to the nearest ten.",
+   "marks": 3,
+   "answer": "50, 340 and 1,000",
+   "working": "1 mark for each correct rounding. 995 goes up to 1,000 because the ones digit is 5."
+  },
+  {
+   "topic": "1.1",
+   "q": "List all the factors of 36.",
+   "marks": 3,
+   "answer": "1, 2, 3, 4, 6, 9, 12, 18, 36",
+   "working": "Pairs: 1 × 36, 2 × 18, 3 × 12, 4 × 9, 6 × 6. 3 marks for all nine factors, 2 marks for seven or eight, 1 mark for at least five."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write the first five multiples of 9.",
+   "marks": 2,
+   "answer": "9, 18, 27, 36, 45",
+   "working": "1 mark for the first three and 1 mark for the last two."
+  },
+  {
+   "topic": "1.1",
+   "q": "State whether 1,468 and 3,975 are even or odd. Give a reason for each.",
+   "marks": 3,
+   "answer": "1,468 is even because it ends in 8. 3,975 is odd because it ends in 5.",
+   "working": "1 mark for each correct classification with a reason (2 marks) and 1 mark for referring to the ones digit."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write 4, 6 and 9 as Roman numerals.",
+   "marks": 3,
+   "answer": "IV, VI, IX",
+   "working": "1 mark for each. IV is 5 − 1, VI is 5 + 1, IX is 10 − 1."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write the next three numbers in the pattern 5, 9, 13, 17, ... and state the rule.",
+   "marks": 3,
+   "answer": "Rule: add 4. Next numbers: 21, 25, 29.",
+   "working": "1 mark for the rule and 2 marks for the three correct numbers (1 mark if only two are correct)."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the number 27,150, give the place value and the total value of the digit 7.",
+   "marks": 4,
+   "answer": "Place value: thousands. Total value: 7 × 1,000 = 7,000.",
+   "working": "1 mark for thousands; 1 mark for 7 × 1,000; 1 mark for the answer 7,000; 1 mark for clear working."
+  },
+  {
+   "topic": "1.1",
+   "q": "Find the first common multiple of 4 and 6 by writing the first six multiples of each number.",
+   "marks": 4,
+   "answer": "Multiples of 4: 4, 8, 12, 16, 20, 24. Multiples of 6: 6, 12, 18, 24, 30, 36. The first common multiple is 12.",
+   "working": "1 mark for each correct list and 2 marks for identifying 12."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain the difference between a factor and a multiple, using the number 6 as an example.",
+   "marks": 3,
+   "answer": "A factor divides a number exactly: the factors of 6 are 1, 2, 3 and 6. A multiple is found by multiplying: the multiples of 6 are 6, 12, 18 and so on.",
+   "working": "1 mark for each correct meaning and 1 mark for correct examples."
+  },
+  {
+   "topic": "1.1",
+   "q": "Using each of the digits 4, 0, 7 and 2 once, write the largest and the smallest 4-digit numbers you can make.",
+   "marks": 4,
+   "answer": "Largest: 7,420. Smallest: 2,047.",
+   "working": "2 marks for 7,420 (digits in descending order). 2 marks for 2,047 (a 4-digit number cannot begin with 0)."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write 4,605 in words and 305 in words. Then say which is greater.",
+   "marks": 4,
+   "answer": "4,605 is four thousand, six hundred and five. 305 is three hundred and five. 4,605 is greater.",
+   "working": "1 mark for each correct wording and 1 mark each for the comparison and its reason (more digits)."
+  },
+  {
+   "topic": "1.2",
+   "q": "Add 4,236 and 1,528. Show your working.",
+   "marks": 3,
+   "answer": "5,764",
+   "working": "Ones 6 + 8 = 14, write 4 carry 1 (1 mark); tens 3 + 2 + 1 = 6 (1 mark); hundreds 2 + 5 = 7, thousands 4 + 1 = 5, answer 5,764 (1 mark)."
+  },
+  {
+   "topic": "1.2",
+   "q": "A shop earned Ksh 4,750 on Monday and Ksh 3,895 on Tuesday. How much did it earn on the two days?",
+   "marks": 3,
+   "answer": "Ksh 8,645",
+   "working": "4,750 + 3,895. Ones 5; tens 5 + 9 = 14 write 4 carry 1; hundreds 7 + 8 + 1 = 16 write 6 carry 1; thousands 4 + 3 + 1 = 8. 1 mark for setting up, 1 for regrouping, 1 for the answer with units."
+  },
+  {
+   "topic": "1.2",
+   "q": "Add 3,568 and 2,276 and say how many times you regrouped.",
+   "marks": 3,
+   "answer": "5,844. You regrouped twice (ones to tens, tens to hundreds).",
+   "working": "1 mark for the correct sum, 1 mark for the carries, 1 mark for saying twice."
+  },
+  {
+   "topic": "1.2",
+   "q": "Estimate 5,382 + 3,617 by rounding each number to the nearest ten. Then find the exact sum.",
+   "marks": 4,
+   "answer": "Estimate: 5,380 + 3,620 = 9,000. Exact: 8,999.",
+   "working": "1 mark for each rounded number, 1 mark for the estimate 9,000, 1 mark for the exact sum 8,999."
+  },
+  {
+   "topic": "1.2",
+   "q": "Write the next three numbers in the pattern 2,000, 2,300, 2,600, 2,900.",
+   "marks": 3,
+   "answer": "3,200, 3,500, 3,800 (rule: add 300)",
+   "working": "1 mark for the rule and 2 marks for the three correct numbers."
+  },
+  {
+   "topic": "1.2",
+   "q": "A bus carried 5,684 passengers on Saturday and 3,749 on Sunday. Find the total number of passengers and check your answer by adding in the opposite order.",
+   "marks": 4,
+   "answer": "9,433 passengers. Check: 3,749 + 5,684 = 9,433.",
+   "working": "2 marks for correct working with regrouping, 1 mark for the answer with unit, 1 mark for the check."
+  },
+  {
+   "topic": "1.2",
+   "q": "Tabitha has 2,450 eggs. She gets 3,875 more. How many eggs does she have now?",
+   "marks": 3,
+   "answer": "6,325 eggs",
+   "working": "Ones 0 + 5 = 5; tens 5 + 7 = 12 write 2 carry 1; hundreds 4 + 8 + 1 = 13 write 3 carry 1; thousands 2 + 3 + 1 = 6. 1 mark for method, 1 for regrouping, 1 for answer with unit."
+  },
+  {
+   "topic": "1.2",
+   "q": "What number must be added to 3,425 to make 5,743? Explain how you found it.",
+   "marks": 3,
+   "answer": "2,318. Subtract 5,743 − 3,425 = 2,318.",
+   "working": "1 mark for using subtraction, 1 mark for the working, 1 mark for the answer 2,318."
+  },
+  {
+   "topic": "1.2",
+   "q": "Start at 1,500 and add 1,000 each time to write a pattern of five numbers. State the rule.",
+   "marks": 3,
+   "answer": "1,500, 2,500, 3,500, 4,500, 5,500. Rule: add 1,000.",
+   "working": "1 mark for the rule and 2 marks for five correct terms (1 mark for three or four)."
+  },
+  {
+   "topic": "1.2",
+   "q": "Explain why the digit carried from the tens column must be added in the hundreds column when adding 3,568 + 2,276.",
+   "marks": 3,
+   "answer": "Ten tens make one hundred, so the extra 1 hundred must be counted with the hundreds. If it is left out the answer will be 100 too small.",
+   "working": "1 mark for saying ten tens make a hundred, 1 mark for the carried digit being added in the next column, 1 mark for the effect of leaving it out."
+  },
+  {
+   "topic": "1.2",
+   "q": "Wanjiru saves Ksh 250 every week. Write how much she has saved after 1, 2, 3, 4 and 5 weeks. State the rule.",
+   "marks": 3,
+   "answer": "250, 500, 750, 1,000, 1,250. Rule: add 250.",
+   "working": "1 mark for the rule and 2 marks for correct numbers."
+  },
+  {
+   "topic": "1.2",
+   "q": "Add 6,478 and 2,355 and check by estimating to the nearest ten.",
+   "marks": 4,
+   "answer": "Exact 8,833. Estimate 6,480 + 2,360 = 8,840, which is close.",
+   "working": "2 marks for the exact sum with regrouping, 1 mark for rounding both numbers, 1 mark for the estimate."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 4,000 − 1,236. Show how you regroup.",
+   "marks": 3,
+   "answer": "2,764",
+   "working": "Borrow from the thousands so the number is 3 thousands 9 hundreds 9 tens 10 ones (1 mark). 10 − 6 = 4, 9 − 3 = 6, 9 − 2 = 7, 3 − 1 = 2 (1 mark). Answer 2,764 (1 mark)."
+  },
+  {
+   "topic": "1.3",
+   "q": "A library had 4,250 books and 1,875 were borrowed. How many books were left? Check your answer.",
+   "marks": 4,
+   "answer": "2,375 books. Check: 2,375 + 1,875 = 4,250.",
+   "working": "2 marks for the subtraction with regrouping, 1 mark for the answer with units, 1 mark for the check."
+  },
+  {
+   "topic": "1.3",
+   "q": "Njeri had Ksh 5,000. She bought a school bag for Ksh 1,850. How much change did she get?",
+   "marks": 2,
+   "answer": "Ksh 3,150",
+   "working": "5,000 − 1,850 = 3,150. 1 mark for the subtraction and 1 mark for the answer with Ksh."
+  },
+  {
+   "topic": "1.3",
+   "q": "Work out 6,003 − 2,475 and check your answer by adding.",
+   "marks": 4,
+   "answer": "3,528. Check: 3,528 + 2,475 = 6,003.",
+   "working": "2 marks for correct regrouping across the zeros, 1 mark for the answer, 1 mark for the check."
+  },
+  {
+   "topic": "1.3",
+   "q": "Estimate 7,483 − 2,196 by rounding to the nearest ten. Then find the exact answer.",
+   "marks": 4,
+   "answer": "Estimate: 7,480 − 2,200 = 5,280. Exact: 5,287.",
+   "working": "1 mark for each rounded number, 1 mark for 5,280, 1 mark for 5,287."
+  },
+  {
+   "topic": "1.3",
+   "q": "Write the next three numbers in the pattern 5,000, 4,750, 4,500, 4,250.",
+   "marks": 3,
+   "answer": "4,000, 3,750, 3,500 (rule: subtract 250)",
+   "working": "1 mark for the rule and 2 marks for the three numbers."
+  },
+  {
+   "topic": "1.3",
+   "q": "A water tank holds 1,000 litres. Each day the family uses 125 litres. Write the amount left after 1, 2 and 3 days.",
+   "marks": 3,
+   "answer": "875 litres, 750 litres, 625 litres",
+   "working": "1 mark for each correct amount."
+  },
+  {
+   "topic": "1.3",
+   "q": "A stadium seats 9,000 people. During a match 6,450 seats are taken. How many seats are empty?",
+   "marks": 3,
+   "answer": "2,550 seats",
+   "working": "9,000 − 6,450 with regrouping across zeros. 1 mark for the setup, 1 mark for regrouping, 1 mark for the answer with units."
+  },
+  {
+   "topic": "1.3",
+   "q": "Subtract 2,718 from 5,432, showing every regrouping step.",
+   "marks": 4,
+   "answer": "2,714",
+   "working": "Ones 12 − 8 = 4 (1 mark); tens 2 − 1 = 1 (1 mark); hundreds 14 − 7 = 7 (1 mark); thousands 4 − 2 = 2 (1 mark)."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain how you can use addition to check a subtraction. Use 7,865 − 3,542 = 4,323 as an example.",
+   "marks": 3,
+   "answer": "Add the answer to the number that was taken away: 4,323 + 3,542 = 7,865, which is the starting number, so the subtraction is correct.",
+   "working": "1 mark for saying add the answer and the smaller number, 1 mark for the example, 1 mark for saying the result matches the starting number."
+  },
+  {
+   "topic": "1.3",
+   "q": "A farmer had 6,500 seedlings and planted 2,875. How many were left? Estimate first by rounding to the nearest ten.",
+   "marks": 4,
+   "answer": "Estimate 6,500 − 2,880 = 3,620. Exact: 3,625 seedlings.",
+   "working": "1 mark for rounding 2,875 to 2,880 (6,500 stays), 1 mark for the estimate, 1 mark for the exact working, 1 mark for the answer."
+  },
+  {
+   "topic": "1.3",
+   "q": "Start at 10,000 and subtract 1,500 each time. Write the first five numbers of the pattern.",
+   "marks": 3,
+   "answer": "10,000, 8,500, 7,000, 5,500, 4,000",
+   "working": "1 mark for the correct rule and 2 marks for the numbers."
+  },
+  {
+   "topic": "1.4",
+   "q": "Kamau buys 15 packets of sweets and each packet has 40 sweets. How many sweets does he have?",
+   "marks": 2,
+   "answer": "600 sweets",
+   "working": "15 × 4 = 60 (1 mark), then × 10 = 600 (1 mark)."
+  },
+  {
+   "topic": "1.4",
+   "q": "Work out 36 × 24 by first multiplying by the ones and then by the tens.",
+   "marks": 3,
+   "answer": "864",
+   "working": "36 × 4 = 144 (1 mark); 36 × 20 = 720 (1 mark); 144 + 720 = 864 (1 mark)."
+  },
+  {
+   "topic": "1.4",
+   "q": "A trader buys 18 crates with 35 bananas in each crate. How many bananas are there altogether?",
+   "marks": 3,
+   "answer": "630 bananas",
+   "working": "18 × 5 = 90 (1 mark); 18 × 30 = 540 (1 mark); 90 + 540 = 630 (1 mark)."
+  },
+  {
+   "topic": "1.4",
+   "q": "Estimate 38 × 22 by rounding to the nearest ten. Then find the exact product.",
+   "marks": 4,
+   "answer": "Estimate: 40 × 20 = 800. Exact: 836.",
+   "working": "1 mark for rounding to 40 and 20, 1 mark for 800, 1 mark for 38 × 2 = 76 and 38 × 20 = 760, 1 mark for 836."
+  },
+  {
+   "topic": "1.4",
+   "q": "Work out 34 × 100 and 60 × 100.",
+   "marks": 2,
+   "answer": "3,400 and 6,000",
+   "working": "1 mark for each. Move each digit two places left."
+  },
+  {
+   "topic": "1.4",
+   "q": "Work out 12 × 21 showing both partial products.",
+   "marks": 3,
+   "answer": "252",
+   "working": "12 × 1 = 12 (1 mark); 12 × 20 = 240 (1 mark); 12 + 240 = 252 (1 mark)."
+  },
+  {
+   "topic": "1.4",
+   "q": "A tanker fills 100 jerrycans of 20 litres each. How many litres is that?",
+   "marks": 2,
+   "answer": "2,000 litres",
+   "working": "20 × 100 = 2,000. 1 mark for the multiplication and 1 mark for units."
+  }
+ ]
+}

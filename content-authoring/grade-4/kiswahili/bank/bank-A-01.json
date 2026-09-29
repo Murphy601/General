@@ -1,0 +1,944 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1.1",
+   "q": "Ni sauti ipi kati ya hizi haitetemeshi koo unapoitamka?",
+   "options": [
+    "t",
+    "d",
+    "g",
+    "j"
+   ],
+   "answer": 0,
+   "explanation": "Sauti t haitetemeshi koo. d, g na j hutetemesha koo."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Neno \"baba\" lina silabi ngapi?",
+   "options": [
+    "Moja",
+    "Tatu",
+    "Nne",
+    "Mbili"
+   ],
+   "answer": 3,
+   "explanation": "Neno baba hugawanywa ba-ba, yaani silabi mbili."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Ni neno lipi lina sauti b?",
+   "options": [
+    "pata",
+    "taka",
+    "bata",
+    "kata"
+   ],
+   "answer": 2,
+   "explanation": "Bata huanza kwa sauti b. Maneno mengine huanza kwa p, t na k."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Ni neno lipi linaanza kwa sauti g?",
+   "options": [
+    "kata",
+    "gari",
+    "chai",
+    "tunda"
+   ],
+   "answer": 1,
+   "explanation": "Gari huanza kwa g."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Maneno \"chuma\" na \"Juma\" hutofautiana kwa sauti gani?",
+   "options": [
+    "ch na j",
+    "p na b",
+    "t na d",
+    "k na g"
+   ],
+   "answer": 0,
+   "explanation": "Chuma huanza kwa ch na Juma huanza kwa j."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Ni kipi kati ya hivi ni kitanzandimi?",
+   "options": [
+    "Nifungue nikufunike.",
+    "Mtoto umleavyo ndivyo akuavyo.",
+    "Hujambo? Sijambo.",
+    "Baba alivua papa katika bahari pana."
+   ],
+   "answer": 3,
+   "explanation": "Kitanzandimi ni sentensi yenye maneno ya sauti zinazokaribiana. Kingine ni kitendawili, methali na salamu."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Ni jozi ipi ya sauti hutofautiana kwa kutetemesha koo?",
+   "options": [
+    "p na t",
+    "k na t",
+    "k na g",
+    "ch na k"
+   ],
+   "answer": 2,
+   "explanation": "K haitetemeshi koo na g hutetemesha koo. Sauti nyingine katika jozi zilizotolewa hazitetemeshi koo zote mbili."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Neno \"kuku\" huanza kwa sauti gani?",
+   "options": [
+    "g",
+    "k",
+    "ch",
+    "j"
+   ],
+   "answer": 1,
+   "explanation": "Kuku huanza kwa sauti k."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Neno \"dada\" lina sauti d mara ngapi?",
+   "options": [
+    "Mbili",
+    "Moja",
+    "Tatu",
+    "Hakuna"
+   ],
+   "answer": 0,
+   "explanation": "Dada lina d mbili: da-da."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Mwanafunzi anasema \"jai\" badala ya \"chai\". Amechanganya sauti zipi?",
+   "options": [
+    "t na d",
+    "p na b",
+    "k na g",
+    "ch na j"
+   ],
+   "answer": 3,
+   "explanation": "Chai huanza kwa ch lakini yeye ametamka j."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Ni neno lipi lina sauti ya ch?",
+   "options": [
+    "jembe",
+    "gari",
+    "cheza",
+    "tunda"
+   ],
+   "answer": 2,
+   "explanation": "Cheza huanza kwa ch."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Kusoma kwa ufahamu ni kusoma huku ukifanya nini?",
+   "options": [
+    "Kuruka maneno",
+    "Kuelewa unachosoma",
+    "Kusoma kwa kasi tu",
+    "Kuimba"
+   ],
+   "answer": 1,
+   "explanation": "Ufahamu maana yake ni kuelewa kinachosomwa."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Kifaa cha kuzuia mbu wakati wa kulala kinaitwaje?",
+   "options": [
+    "Neti",
+    "Fremu",
+    "Balbu",
+    "Kinu"
+   ],
+   "answer": 0,
+   "explanation": "Neti au chandarua hulinda mtu na mbu."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Balbu ni kifaa cha kufanya nini?",
+   "options": [
+    "Kupikia",
+    "Kuzuia mbu",
+    "Kutwangia nafaka",
+    "Kutoa mwanga wa umeme"
+   ],
+   "answer": 3,
+   "explanation": "Balbu au globu hutoa mwanga."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Sehemu ya chini ya mlango ambayo mtu huipita akiingia huitwaje?",
+   "options": [
+    "Mvungu",
+    "Sebule",
+    "Kizingiti",
+    "Kochi"
+   ],
+   "answer": 2,
+   "explanation": "Kizingiti ni sehemu ya chini ya mlango."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Nafasi iliyo chini ya kitanda huitwaje?",
+   "options": [
+    "Sebule",
+    "Mvungu",
+    "Kizingiti",
+    "Figa"
+   ],
+   "answer": 1,
+   "explanation": "Mvungu ni nafasi chini ya kitanda."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Chumba cha kukaa familia na kupokea wageni huitwaje?",
+   "options": [
+    "Sebule",
+    "Mvungu",
+    "Kinu",
+    "Neti"
+   ],
+   "answer": 0,
+   "explanation": "Sebule ni chumba cha kukaa na wageni."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Ni nini maana ya \"kupiga deki\"?",
+   "options": [
+    "Kupika chakula",
+    "Kupanda mti",
+    "Kuandika",
+    "Kusafisha sakafu kwa maji na kitambaa"
+   ],
+   "answer": 3,
+   "explanation": "Kupiga deki ni kusafisha sakafu."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Kinu ni chombo cha kufanya nini?",
+   "options": [
+    "Kukatia",
+    "Kulalia",
+    "Kutwangia nafaka",
+    "Kuandikia"
+   ],
+   "answer": 2,
+   "explanation": "Kinu ni cha mbao cha kutwangia nafaka."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Muhtasari ni nini?",
+   "options": [
+    "Kifungu kizima kilichonakiliwa",
+    "Ujumbe wa kifungu ulioandikwa kwa ufupi",
+    "Jina la mwandishi",
+    "Orodha ya maneno magumu"
+   ],
+   "answer": 1,
+   "explanation": "Muhtasari huwa na mambo makuu tu."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Mafiga ni nini?",
+   "options": [
+    "Mawe matatu ya kuwekea sufuria jikoni",
+    "Vitanda vya watoto",
+    "Viti vya sebuleni",
+    "Vyombo vya kuandikia"
+   ],
+   "answer": 0,
+   "explanation": "Figa ni jiwe moja, na mafiga ni mawe matatu ya kuwekea sufuria."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Unapojibu swali la ufahamu, jambo lipi ni bora?",
+   "options": [
+    "Kukisia bila kusoma",
+    "Kuandika lolote",
+    "Kunakili swali",
+    "Kurudi kwenye kifungu kutafuta jibu"
+   ],
+   "answer": 3,
+   "explanation": "Majibu ya ufahamu hupatikana katika kifungu."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Insha ya wasifu hueleza nini?",
+   "options": [
+    "Kisa kilichofuatana",
+    "Hatua za kupika",
+    "Sifa za mtu",
+    "Habari za hali ya hewa"
+   ],
+   "answer": 2,
+   "explanation": "Wasifu ni maelezo ya sifa za mtu."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Ni sehemu ipi huandikwa kwanza kwenye insha?",
+   "options": [
+    "Hitimisho",
+    "Anwani",
+    "Kiini",
+    "Vidokezo vya mwisho"
+   ],
+   "answer": 1,
+   "explanation": "Insha huanza na anwani."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Ni neno lipi linaeleza tabia ya mtu?",
+   "options": [
+    "mkarimu",
+    "mrefu",
+    "mweusi",
+    "mnene"
+   ],
+   "answer": 0,
+   "explanation": "Mkarimu ni tabia. Maneno mengine ni umbo."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Ni neno lipi linaeleza umbo la mtu?",
+   "options": [
+    "mkarimu",
+    "mchangamfu",
+    "mwadilifu",
+    "mwembamba"
+   ],
+   "answer": 3,
+   "explanation": "Mwembamba ni umbo la mwili."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Utangulizi wa insha ya wasifu unapaswa kuwa na nini?",
+   "options": [
+    "Sifa zote za mtu",
+    "Maoni ya mwisho",
+    "Jina la mtu na uhusiano wake nawe",
+    "Mchoro wa mtu"
+   ],
+   "answer": 2,
+   "explanation": "Utangulizi hutaja mtu na uhusiano wake."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Vidokezo ni nini?",
+   "options": [
+    "Insha kamili",
+    "Maneno machache yanayokuongoza kuandika insha",
+    "Kichwa cha insha",
+    "Mwisho wa insha"
+   ],
+   "answer": 1,
+   "explanation": "Vidokezo huandikwa kabla ya insha."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Katika sentensi \"Nimemwona neema Kisumu\", ni neno lipi lilikosewa herufi?",
+   "options": [
+    "neema",
+    "Nimemwona",
+    "Kisumu",
+    "Hakuna neno lililokosewa"
+   ],
+   "answer": 0,
+   "explanation": "Neema ni jina la mtu, kwa hiyo huandikwa Neema kwa herufi kubwa."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Hitimisho la insha ya wasifu huwa na nini?",
+   "options": [
+    "Jina lako tu",
+    "Vidokezo vyote",
+    "Maana ya maneno",
+    "Maoni yako kuhusu mtu huyo"
+   ],
+   "answer": 3,
+   "explanation": "Hitimisho hueleza unavyompenda au unavyotaka kufanana naye."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Aya mpya huanza vipi?",
+   "options": [
+    "Katikati ya mstari",
+    "Mwishoni mwa ukurasa",
+    "Kwenye mstari mpya kidogo kuelekea ndani",
+    "Bila kuacha nafasi"
+   ],
+   "answer": 2,
+   "explanation": "Kila wazo jipya liwe kwenye aya mpya."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Ni kivumishi kipi kinafaa kueleza mwalimu anayesaidia kila mtu?",
+   "options": [
+    "mfupi",
+    "mkarimu",
+    "mweupe",
+    "mdogo"
+   ],
+   "answer": 1,
+   "explanation": "Mkarimu ni tabia ya kusaidia watu."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Nomino ni neno linalotaja nini?",
+   "options": [
+    "Jina la mtu, mnyama, kitu au mahali",
+    "Kitendo",
+    "Sifa ya kitu",
+    "Jinsi kitendo kilivyofanyika"
+   ],
+   "answer": 0,
+   "explanation": "Nomino ni jina."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Ni nomino ipi ni nomino ya pekee?",
+   "options": [
+    "mji",
+    "mto",
+    "shule",
+    "Kisumu"
+   ],
+   "answer": 3,
+   "explanation": "Kisumu ni jina maalumu la mji."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Ni nomino ipi ni nomino ya dhana?",
+   "options": [
+    "kiti",
+    "ng'ombe",
+    "amani",
+    "mwalimu"
+   ],
+   "answer": 2,
+   "explanation": "Amani ni jambo tusiloligusa."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Katika sentensi \"Mama alinunua mboga sokoni\", nomino ni zipi?",
+   "options": [
+    "alinunua",
+    "Mama, mboga, sokoni",
+    "Mama, alinunua",
+    "alinunua, sokoni"
+   ],
+   "answer": 1,
+   "explanation": "Mama ni mtu, mboga ni kitu na sokoni ni mahali. Alinunua ni kitenzi."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Wingi wa \"kikombe\" ni upi?",
+   "options": [
+    "vikombe",
+    "mikombe",
+    "wakombe",
+    "makombe"
+   ],
+   "answer": 0,
+   "explanation": "Nomino za ki- hufanya wingi kwa vi-."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Ni nomino ipi haibadiliki kwa wingi?",
+   "options": [
+    "kitabu",
+    "mti",
+    "mtoto",
+    "simba"
+   ],
+   "answer": 3,
+   "explanation": "Simba ni simba kwa umoja na wingi."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Ni neno lipi ni nomino?",
+   "options": [
+    "soma",
+    "haraka",
+    "kalamu",
+    "mzuri"
+   ],
+   "answer": 2,
+   "explanation": "Kalamu ni jina la kitu."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Katika sentensi \"juma alikwenda Mombasa\", ni neno lipi halikuandikwa kwa herufi kubwa inayostahili?",
+   "options": [
+    "alikwenda",
+    "juma",
+    "Mombasa",
+    "Hakuna neno lililokosewa"
+   ],
+   "answer": 1,
+   "explanation": "Sentensi huanza kwa herufi kubwa na Juma ni jina la mtu, kwa hiyo huandikwa Juma."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Wingi wa \"mtu\" ni upi?",
+   "options": [
+    "watu",
+    "vitu",
+    "mitu",
+    "matu"
+   ],
+   "answer": 0,
+   "explanation": "Wingi wa mtu ni watu."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Ni nomino ipi ni ya mahali?",
+   "options": [
+    "kitabu",
+    "mwalimu",
+    "kalamu",
+    "shuleni"
+   ],
+   "answer": 3,
+   "explanation": "Shuleni ni jina la mahali."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Nomino ya kawaida ni ipi?",
+   "options": [
+    "Nairobi",
+    "Amina",
+    "mji",
+    "Kenya"
+   ],
+   "answer": 2,
+   "explanation": "Mji ni jina la kawaida. Mengine ni majina ya pekee."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Kitenzi ni neno linaloonyesha nini?",
+   "options": [
+    "Jina la mtu",
+    "Kitendo au hali",
+    "Sifa ya kitu",
+    "Mahali"
+   ],
+   "answer": 1,
+   "explanation": "Kitenzi huonyesha kitendo."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Ni neno lipi ni kitenzi?",
+   "options": [
+    "imba",
+    "kalamu",
+    "mzuri",
+    "shuleni"
+   ],
+   "answer": 0,
+   "explanation": "Imba huonyesha kitendo."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Katika sentensi \"Watoto wanacheza mpira\", kitenzi ni kipi?",
+   "options": [
+    "Watoto",
+    "mpira",
+    "Hakuna",
+    "wanacheza"
+   ],
+   "answer": 3,
+   "explanation": "Wanacheza huonyesha kitendo."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Kitenzi \"soma\" huandikwaje kwa jina la kitendo?",
+   "options": [
+    "kisoma",
+    "msoma",
+    "kusoma",
+    "masoma"
+   ],
+   "answer": 2,
+   "explanation": "Jina la kitendo huanza na ku-."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Ni sentensi ipi ina kitenzi kilichopatana na nomino?",
+   "options": [
+    "Wanafunzi anasoma.",
+    "Wanafunzi wanasoma.",
+    "Wanafunzi tunasoma.",
+    "Wanafunzi unasoma."
+   ],
+   "answer": 1,
+   "explanation": "Wanafunzi ni wengi kwa hiyo kitenzi ni wanasoma."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Ni kundi lipi lina vitenzi vyote?",
+   "options": [
+    "lima, panda, vuna",
+    "mama, baba, dada",
+    "mrefu, mfupi, mzuri",
+    "kitabu, kalamu, meza"
+   ],
+   "answer": 0,
+   "explanation": "Lima, panda na vuna ni vitendo."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Kitenzi kipi kinafaa: \"Mvuvi ________ samaki mtoni.\"?",
+   "options": [
+    "anapika",
+    "analima",
+    "anaandika",
+    "anavua"
+   ],
+   "answer": 3,
+   "explanation": "Mvuvi hufanya kazi ya kuvua samaki."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Ni kitenzi kipi cha jikoni?",
+   "options": [
+    "lima",
+    "andika",
+    "pika",
+    "vuna"
+   ],
+   "answer": 2,
+   "explanation": "Pika ni kitendo cha jikoni."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Neno lipi ni kitenzi katika \"Ninasoma kitabu\"?",
+   "options": [
+    "kitabu",
+    "Ninasoma",
+    "Hakuna",
+    "Kitabu tu"
+   ],
+   "answer": 1,
+   "explanation": "Ninasoma ni kitendo."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Umbo la jina la kitendo cha kitenzi huanza na kiambishi kipi?",
+   "options": [
+    "ku-",
+    "wa-",
+    "ki-",
+    "m-"
+   ],
+   "answer": 0,
+   "explanation": "Kusoma, kuimba na kucheza huanza na ku-."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Kivumishi ni neno linaloeleza nini?",
+   "options": [
+    "Kitendo",
+    "Mahali",
+    "Wakati",
+    "Sifa ya nomino"
+   ],
+   "answer": 3,
+   "explanation": "Kivumishi huvumisha nomino."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Ni kivumishi kipi katika \"Mti mrefu umeanguka\"?",
+   "options": [
+    "mti",
+    "umeanguka",
+    "mrefu",
+    "Hakuna"
+   ],
+   "answer": 2,
+   "explanation": "Mrefu linaeleza mti."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Wingi wa \"kitabu kizuri\" ni upi?",
+   "options": [
+    "vitabu kizuri",
+    "vitabu vizuri",
+    "kitabu vizuri",
+    "vitabu zuri"
+   ],
+   "answer": 1,
+   "explanation": "Nomino na kivumishi vyote hubadilika."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Ni kifungu kipi kimepatana kisarufi?",
+   "options": [
+    "watoto wazuri",
+    "watoto mzuri",
+    "watoto kizuri",
+    "watoto nzuri"
+   ],
+   "answer": 0,
+   "explanation": "Watoto ni wa A-WA wingi, kivumishi ni wazuri."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Kinyume cha \"-refu\" ni kipi?",
+   "options": [
+    "-kubwa",
+    "-eusi",
+    "-pya",
+    "-fupi"
+   ],
+   "answer": 3,
+   "explanation": "Refu na fupi ni kinyume."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Ni kifungu kipi kina kivumishi sahihi kwa \"mti\" wingi?",
+   "options": [
+    "miti mrefu",
+    "miti warefu",
+    "miti mirefu",
+    "miti virefu"
+   ],
+   "answer": 2,
+   "explanation": "Wingi wa mti ni miti na kivumishi ni mirefu."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Ni neno lipi ni kivumishi?",
+   "options": [
+    "soma",
+    "mzuri",
+    "kalamu",
+    "shuleni"
+   ],
+   "answer": 1,
+   "explanation": "Mzuri hutoa sifa."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Wingi wa \"gari jeusi\" ni upi?",
+   "options": [
+    "magari meusi",
+    "magari jeusi",
+    "gari meusi",
+    "magari yeusi"
+   ],
+   "answer": 0,
+   "explanation": "Li-ya: jeusi hubadilika kuwa meusi."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Ni kivumishi kipi kinaeleza rangi?",
+   "options": [
+    "-refu",
+    "-zuri",
+    "-dogo",
+    "-eupe"
+   ],
+   "answer": 3,
+   "explanation": "Eupe ni rangi."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Wingi wa \"kiatu cheusi\" ni upi?",
+   "options": [
+    "viatu cheusi",
+    "kiatu vyeusi",
+    "viatu vyeusi",
+    "viatu weusi"
+   ],
+   "answer": 2,
+   "explanation": "Ki-vi: cheusi huwa vyeusi."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.1.1",
+   "q": "Taja jozi nne za sauti zinazokaribiana ambazo tumejifunza.",
+   "marks": 2,
+   "answer": "p na b, t na d, k na g, ch na j.",
+   "working": "Nusu alama kwa kila jozi sahihi."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Eleza jinsi ya kutofautisha sauti b na p kwa kutumia koo.",
+   "marks": 3,
+   "answer": "Weka vidole kwenye koo. Unapotamka b, koo hutetemeka. Unapotamka p, koo halitetemeki.",
+   "working": "Alama moja kwa kuweka vidole kooni, moja kwa b kutetemesha na moja kwa p kutotetemesha."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Andika maneno mawili yenye sauti p na maneno mawili yenye sauti b.",
+   "marks": 4,
+   "answer": "Mfano: p: paka, pesa. b: baba, bata.",
+   "working": "Alama moja kwa kila neno sahihi."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Eleza hatua tatu za kukariri kitanzandimi.",
+   "marks": 3,
+   "answer": "Soma polepole mara mbili; ongeza kasi kidogo kidogo; kitamke mara tatu mfululizo bila kukosea.",
+   "working": "Alama moja kwa kila hatua sahihi."
+  },
+  {
+   "topic": "1.1.1",
+   "q": "Tunga vitanzandimi viwili, kimoja chenye sauti k na g na kingine chenye sauti ch na j.",
+   "marks": 5,
+   "answer": "Mfano: Kaka alipiga gogo kubwa kando ya gari. Chacha alicheza juu ya jiwe jeupe.",
+   "working": "Alama mbili na nusu kwa kila kitanzandimi chenye maneno mengi ya sauti husika na chenye maana."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Taja vitu vinne vinavyopatikana nyumbani na ueleze kazi ya kimoja.",
+   "marks": 3,
+   "answer": "Mfano: meza, kochi, neti, balbu. Neti huzuia mbu wakati wa kulala.",
+   "working": "Alama mbili kwa vitu vinne sahihi (nusu kwa kila kimoja) na alama moja kwa kazi sahihi ya kimoja."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Tunga sentensi moja yenye neno \"mvungu\".",
+   "marks": 2,
+   "answer": "Mfano: Paka amejificha mvungu wa kitanda.",
+   "working": "Alama moja kwa sentensi kamili na moja kwa matumizi sahihi ya neno."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Eleza hatua nne za kupata ujumbe wa kifungu cha hadithi.",
+   "marks": 4,
+   "answer": "Soma kichwa; soma kifungu polepole; tafuta maana za maneno usiyoyajua; toa muhtasari kwa maneno yako.",
+   "working": "Alama moja kwa kila hatua sahihi."
+  },
+  {
+   "topic": "1.2.1",
+   "q": "Andika muhtasari wa sentensi mbili kuhusu kile ulichofanya nyumbani jana jioni.",
+   "marks": 3,
+   "answer": "Mfano: Jana jioni nilimsaidia mama kufagia na kuosha vyombo. Kisha nilisoma kitabu changu.",
+   "working": "Alama moja kwa kila sentensi sahihi na moja kwa ufupi na mpangilio."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Taja sehemu nne za insha ya wasifu.",
+   "marks": 2,
+   "answer": "Anwani, utangulizi, kiini, hitimisho.",
+   "working": "Nusu alama kwa kila sehemu."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Andika vidokezo vitano vya wasifu wa mwalimu wako wa darasa.",
+   "marks": 3,
+   "answer": "Mfano: Jina: Bw. Otieno; Umbo: mrefu; Tabia: mpole; Kazi: hufundisha; Hitimisho: namheshimu.",
+   "working": "Alama moja kwa kila vidokezo viwili sahihi hadi alama tatu."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Andika aya moja ya kiini kinachoeleza tabia ya mama yako au mlezi wako.",
+   "marks": 4,
+   "answer": "Mfano: Mama yangu ni mkarimu na mchangamfu. Huwapokea wageni kwa furaha. Yeye ni mwenye subira anapotufundisha. Hupenda kusaidia majirani.",
+   "working": "Alama moja kwa kila tabia iliyoelezwa vizuri na sentensi sahihi, hadi alama nne."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Eleza mambo matatu ya kuzingatia unapoandika insha nzuri.",
+   "marks": 3,
+   "answer": "Hati nadhifu, tahajia sahihi, uakifishaji na herufi kubwa; aya zilizopangwa; anwani.",
+   "working": "Alama moja kwa kila jambo."
+  },
+  {
+   "topic": "1.3.1",
+   "q": "Andika insha fupi ya aya nne yenye anwani \"Rafiki yangu\".",
+   "marks": 5,
+   "answer": "Mfano: anwani, utangulizi wenye jina na uhusiano, aya ya umbo na tabia, hitimisho la maoni.",
+   "working": "Alama moja kwa anwani, moja kwa utangulizi, mbili kwa kiini na moja kwa hitimisho."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Taja nomino tano za vitu vinavyopatikana darasani.",
+   "marks": 3,
+   "answer": "Mfano: meza, kiti, kalamu, ubao, daftari.",
+   "working": "Alama moja kwa kila nomino mbili sahihi hadi alama tatu."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Eleza tofauti kati ya nomino ya pekee na nomino ya kawaida kwa mfano mmoja wa kila moja.",
+   "marks": 4,
+   "answer": "Nomino ya pekee ni jina maalumu, mfano Kenya. Nomino ya kawaida ni jina la kundi, mfano nchi.",
+   "working": "Alama mbili kwa maelezo na mbili kwa mifano."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Andika wingi wa: mtoto, kitabu, mlango, jicho.",
+   "marks": 2,
+   "answer": "watoto, vitabu, milango, macho.",
+   "working": "Nusu alama kwa kila wingi sahihi."
+  },
+  {
+   "topic": "1.4.1",
+   "q": "Andika sentensi tatu zenye nomino za dhana.",
+   "marks": 3,
+   "answer": "Mfano: Upendo hujenga familia. Amani ni nzuri. Alionyesha ujasiri.",
+   "working": "Alama moja kwa kila sentensi yenye nomino ya dhana."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Taja vitenzi vinne vya shambani.",
+   "marks": 2,
+   "answer": "Mfano: lima, panda, palilia, vuna.",
+   "working": "Nusu alama kwa kila kitenzi."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Tambua vitenzi katika sentensi: \"Baba analima na mama anapanda mahindi.\"",
+   "marks": 2,
+   "answer": "analima na anapanda.",
+   "working": "Alama moja kwa kila kitenzi."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Tunga sentensi tatu zenye vitenzi kuhusu shughuli za asubuhi.",
+   "marks": 3,
+   "answer": "Mfano: Ninaamka mapema. Ninanawa uso. Ninakula chai.",
+   "working": "Alama moja kwa kila sentensi kamili yenye kitenzi."
+  },
+  {
+   "topic": "1.4.2",
+   "q": "Sahihisha sentensi na ueleze kosa: \"Watoto anacheza mpira.\"",
+   "marks": 3,
+   "answer": "Watoto wanacheza mpira. Kitenzi hakikupatana na nomino ya wingi.",
+   "working": "Alama moja kwa sentensi sahihi na mbili kwa maelezo."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Tambua vivumishi katika sentensi: \"Msichana mrefu amevaa gauni jekundu.\"",
+   "marks": 2,
+   "answer": "mrefu na jekundu.",
+   "working": "Alama moja kwa kila kivumishi."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Andika wingi wa: kiti kikubwa, mti mrefu, jino jeupe.",
+   "marks": 3,
+   "answer": "viti vikubwa, miti mirefu, meno meupe.",
+   "working": "Alama moja kwa kila wingi sahihi."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Tunga sentensi mbili zenye vivumishi vya rangi.",
+   "marks": 4,
+   "answer": "Mfano: Paka mweusi analala. Nimevaa shati jeupe.",
+   "working": "Alama mbili kwa kila sentensi."
+  },
+  {
+   "topic": "1.4.3",
+   "q": "Andika aya fupi ya sentensi tatu kuhusu darasa lako ukitumia vivumishi vitatu.",
+   "marks": 4,
+   "answer": "Mfano: Darasa letu ni kubwa. Lina madirisha makubwa na dawati nzuri. Ubao ni mweusi.",
+   "working": "Alama moja kwa kila sentensi na moja kwa matumizi ya vivumishi vitatu."
+  }
+ ]
+}

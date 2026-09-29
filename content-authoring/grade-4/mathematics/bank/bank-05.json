@@ -1,0 +1,965 @@
+{
+ "mcq": [
+  {
+   "topic": "1.6",
+   "q": "Change 6 2/3 to an improper fraction.",
+   "options": [
+    "8/3",
+    "20/3",
+    "18/3",
+    "21/3"
+   ],
+   "answer": 1,
+   "explanation": "6 × 3 = 18 and 18 + 2 = 20. The denominator stays 3, so the answer is 20/3."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which fraction of an hour is 30 minutes?",
+   "options": [
+    "1/4",
+    "1/3",
+    "1/2",
+    "3/4"
+   ],
+   "answer": 2,
+   "explanation": "There are 60 minutes in an hour. 30 minutes is half of 60, so it is 1/2 of an hour."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which fraction of an hour is 15 minutes?",
+   "options": [
+    "1/2",
+    "1/3",
+    "3/4",
+    "1/4"
+   ],
+   "answer": 3,
+   "explanation": "15 × 4 = 60, so 15 minutes is one quarter of an hour."
+  },
+  {
+   "topic": "1.6",
+   "q": "Why must the parts be equal when we write the fraction 1/3?",
+   "options": [
+    "The whole is cut into three parts of the same size",
+    "The parts can be any size",
+    "Only the shaded part must be equal",
+    "The numerator must be 3"
+   ],
+   "answer": 0,
+   "explanation": "A fraction shows equal parts of a whole. If the parts are different sizes, one part is not one third."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 7/10 as a decimal.",
+   "options": [
+    "0.07",
+    "0.7",
+    "7.0",
+    "0.17"
+   ],
+   "answer": 1,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 7/10 = 0.7."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 3/10 as a decimal.",
+   "options": [
+    "0.3",
+    "0.03",
+    "3.0",
+    "0.13"
+   ],
+   "answer": 0,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 3/10 = 0.3."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 45/100 as a decimal.",
+   "options": [
+    "4.5",
+    "0.045",
+    "0.45",
+    "0.54"
+   ],
+   "answer": 2,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 45/100 = 0.45."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 6/100 as a decimal.",
+   "options": [
+    "0.6",
+    "6.0",
+    "0.006",
+    "0.06"
+   ],
+   "answer": 3,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 6/100 = 0.06."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 27/100 as a decimal.",
+   "options": [
+    "2.7",
+    "0.027",
+    "0.72",
+    "0.27"
+   ],
+   "answer": 3,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 27/100 = 0.27."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 5/100 as a decimal.",
+   "options": [
+    "0.05",
+    "0.5",
+    "5.0",
+    "0.005"
+   ],
+   "answer": 0,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 5/100 = 0.05."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 2 3/10 as a decimal.",
+   "options": [
+    "2.03",
+    "2.3",
+    "0.23",
+    "23.0"
+   ],
+   "answer": 1,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 2 3/10 = 2.3."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 3 1/10 as a decimal.",
+   "options": [
+    "3.01",
+    "0.31",
+    "3.1",
+    "31.0"
+   ],
+   "answer": 2,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 3 1/10 = 3.1."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 5 7/100 as a decimal.",
+   "options": [
+    "5.7",
+    "5.07",
+    "57.0",
+    "5.007"
+   ],
+   "answer": 1,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 5 7/100 = 5.07."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 2 25/100 as a decimal.",
+   "options": [
+    "2.25",
+    "2.025",
+    "22.5",
+    "0.225"
+   ],
+   "answer": 0,
+   "explanation": "Tenths need one digit after the decimal point and hundredths need two digits. 2 25/100 = 2.25."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 0.8 as a fraction.",
+   "options": [
+    "8/100",
+    "80/10",
+    "8/10",
+    "1/8"
+   ],
+   "answer": 2,
+   "explanation": "The last digit of 0.8 is in the tenths place, so the denominator is 10. 0.8 = 8/10."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 0.37 as a fraction.",
+   "options": [
+    "37/10",
+    "3/7",
+    "37/1000",
+    "37/100"
+   ],
+   "answer": 3,
+   "explanation": "The last digit of 0.37 is in the hundredths place, so the denominator is 100. 0.37 = 37/100."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 0.05 as a fraction.",
+   "options": [
+    "5/10",
+    "50/100",
+    "5/100",
+    "5/1000"
+   ],
+   "answer": 2,
+   "explanation": "The last digit of 0.05 is in the hundredths place, so the denominator is 100. 0.05 = 5/100."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 0.6 as a fraction.",
+   "options": [
+    "6/10",
+    "6/100",
+    "60/10",
+    "1/6"
+   ],
+   "answer": 0,
+   "explanation": "The last digit of 0.6 is in the tenths place, so the denominator is 10. 0.6 = 6/10."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 0.75 as a fraction.",
+   "options": [
+    "75/10",
+    "75/100",
+    "7/5",
+    "75/1000"
+   ],
+   "answer": 1,
+   "explanation": "The last digit of 0.75 is in the hundredths place, so the denominator is 100. 0.75 = 75/100."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write 0.09 as a fraction.",
+   "options": [
+    "9/10",
+    "90/100",
+    "9/1000",
+    "9/100"
+   ],
+   "answer": 3,
+   "explanation": "The last digit of 0.09 is in the hundredths place, so the denominator is 100. 0.09 = 9/100."
+  },
+  {
+   "topic": "1.7",
+   "q": "In the number 5.68, the digit 6 is in which place?",
+   "options": [
+    "Tenths",
+    "Ones",
+    "Tens",
+    "Hundredths"
+   ],
+   "answer": 0,
+   "explanation": "The first digit after the decimal point is tenths and the second is hundredths. In 5.68 the digit 6 is in the tenths place."
+  },
+  {
+   "topic": "1.7",
+   "q": "In the number 9.27, the digit 7 is in which place?",
+   "options": [
+    "Ones",
+    "Hundredths",
+    "Tens",
+    "Tenths"
+   ],
+   "answer": 1,
+   "explanation": "The first digit after the decimal point is tenths and the second is hundredths. In 9.27 the digit 7 is in the hundredths place."
+  },
+  {
+   "topic": "1.7",
+   "q": "In the number 13.42, the digit 4 is in which place?",
+   "options": [
+    "Ones",
+    "Tens",
+    "Hundredths",
+    "Tenths"
+   ],
+   "answer": 3,
+   "explanation": "The first digit after the decimal point is tenths and the second is hundredths. In 13.42 the digit 4 is in the tenths place."
+  },
+  {
+   "topic": "1.7",
+   "q": "In the number 13.42, the digit 2 is in which place?",
+   "options": [
+    "Ones",
+    "Tens",
+    "Hundredths",
+    "Tenths"
+   ],
+   "answer": 2,
+   "explanation": "The first digit after the decimal point is tenths and the second is hundredths. In 13.42 the digit 2 is in the hundredths place."
+  },
+  {
+   "topic": "1.7",
+   "q": "In the number 4.05, the digit 5 is in which place?",
+   "options": [
+    "Ones",
+    "Hundredths",
+    "Tens",
+    "Tenths"
+   ],
+   "answer": 1,
+   "explanation": "The first digit after the decimal point is tenths and the second is hundredths. In 4.05 the digit 5 is in the hundredths place."
+  },
+  {
+   "topic": "1.7",
+   "q": "In the number 26.91, the digit 2 is in which place?",
+   "options": [
+    "Ones",
+    "Tenths",
+    "Hundredths",
+    "Tens"
+   ],
+   "answer": 3,
+   "explanation": "The first digit after the decimal point is tenths and the second is hundredths. In 26.91 the digit 2 is in the tens place."
+  },
+  {
+   "topic": "1.7",
+   "q": "In the number 8.30, the digit 3 is in which place?",
+   "options": [
+    "Ones",
+    "Tens",
+    "Tenths",
+    "Hundredths"
+   ],
+   "answer": 2,
+   "explanation": "The first digit after the decimal point is tenths and the second is hundredths. In 8.30 the digit 3 is in the tenths place."
+  },
+  {
+   "topic": "1.7",
+   "q": "In the number 0.74, the digit 4 is in which place?",
+   "options": [
+    "Hundredths",
+    "Ones",
+    "Tens",
+    "Tenths"
+   ],
+   "answer": 0,
+   "explanation": "The first digit after the decimal point is tenths and the second is hundredths. In 0.74 the digit 4 is in the hundredths place."
+  },
+  {
+   "topic": "1.7",
+   "q": "What is the total value of the digit 6 in 5.68?",
+   "options": [
+    "0.6",
+    "6",
+    "0.06",
+    "600"
+   ],
+   "answer": 0,
+   "explanation": "The digit 6 is in the tenths place, so its total value is 0.6."
+  },
+  {
+   "topic": "1.7",
+   "q": "What is the total value of the digit 7 in 9.27?",
+   "options": [
+    "7",
+    "0.7",
+    "0.007",
+    "0.07"
+   ],
+   "answer": 3,
+   "explanation": "The digit 7 is in the hundredths place, so its total value is 0.07."
+  },
+  {
+   "topic": "1.7",
+   "q": "What is the total value of the digit 4 in 13.42?",
+   "options": [
+    "4",
+    "0.4",
+    "0.04",
+    "400"
+   ],
+   "answer": 1,
+   "explanation": "The digit 4 is in the tenths place, so its total value is 0.4."
+  },
+  {
+   "topic": "1.7",
+   "q": "What is the total value of the digit 9 in 3.09?",
+   "options": [
+    "9",
+    "0.9",
+    "0.09",
+    "0.009"
+   ],
+   "answer": 2,
+   "explanation": "The digit 9 is in the hundredths place, so its total value is 0.09."
+  },
+  {
+   "topic": "1.7",
+   "q": "A hundred square has 35 of its small squares shaded. Which decimal shows the shaded part?",
+   "options": [
+    "3.5",
+    "0.35",
+    "35",
+    "0.035"
+   ],
+   "answer": 1,
+   "explanation": "35 out of 100 squares is 35/100 = 0.35."
+  },
+  {
+   "topic": "1.7",
+   "q": "A hundred square has 60 of its small squares shaded. Which decimal shows the shaded part?",
+   "options": [
+    "6",
+    "60",
+    "0.06",
+    "0.6"
+   ],
+   "answer": 3,
+   "explanation": "60 out of 100 squares is 60/100 = 0.6."
+  },
+  {
+   "topic": "1.7",
+   "q": "A hundred square has 7 of its small squares shaded. Which decimal shows the shaded part?",
+   "options": [
+    "0.7",
+    "7",
+    "0.07",
+    "0.007"
+   ],
+   "answer": 2,
+   "explanation": "7 out of 100 squares is 7/100 = 0.07."
+  },
+  {
+   "topic": "1.7",
+   "q": "A hundred square has 82 of its small squares shaded. Which decimal shows the shaded part?",
+   "options": [
+    "0.82",
+    "8.2",
+    "82",
+    "0.082"
+   ],
+   "answer": 0,
+   "explanation": "82 out of 100 squares is 82/100 = 0.82."
+  },
+  {
+   "topic": "1.7",
+   "q": "A hundred square has 5 of its small squares shaded. Which decimal shows the shaded part?",
+   "options": [
+    "0.05",
+    "0.5",
+    "5",
+    "0.005"
+   ],
+   "answer": 0,
+   "explanation": "5 out of 100 squares is 5/100 = 0.05."
+  },
+  {
+   "topic": "1.7",
+   "q": "A hundred square has 48 of its small squares shaded. Which decimal shows the shaded part?",
+   "options": [
+    "4.8",
+    "0.48",
+    "48",
+    "0.048"
+   ],
+   "answer": 1,
+   "explanation": "48 out of 100 squares is 48/100 = 0.48."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is the largest number: 0.7, 0.07, 0.75, 0.57?",
+   "options": [
+    "0.7",
+    "0.07",
+    "0.75",
+    "0.57"
+   ],
+   "answer": 2,
+   "explanation": "Give every number the same number of decimal places and compare from the left. The largest number is 0.75."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is the largest number: 0.9, 0.09, 0.85, 0.099?",
+   "options": [
+    "0.09",
+    "0.85",
+    "0.099",
+    "0.9"
+   ],
+   "answer": 3,
+   "explanation": "Give every number the same number of decimal places and compare from the left. The largest number is 0.9."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is the smallest number: 0.4, 0.44, 0.04, 0.404?",
+   "options": [
+    "0.4",
+    "0.04",
+    "0.44",
+    "0.404"
+   ],
+   "answer": 1,
+   "explanation": "Give every number the same number of decimal places and compare from the left. The smallest number is 0.04."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is the smallest number: 1.2, 1.02, 1.25, 1.052?",
+   "options": [
+    "1.2",
+    "1.25",
+    "1.02",
+    "1.052"
+   ],
+   "answer": 2,
+   "explanation": "Give every number the same number of decimal places and compare from the left. The smallest number is 1.02."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is the largest number: 2.5, 2.05, 2.55, 2.505?",
+   "options": [
+    "2.5",
+    "2.05",
+    "2.505",
+    "2.55"
+   ],
+   "answer": 3,
+   "explanation": "Give every number the same number of decimal places and compare from the left. The largest number is 2.55."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is the smallest number: 0.3, 0.29, 0.31, 0.03?",
+   "options": [
+    "0.03",
+    "0.3",
+    "0.29",
+    "0.31"
+   ],
+   "answer": 0,
+   "explanation": "Give every number the same number of decimal places and compare from the left. The smallest number is 0.03."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is greater, 0.5 or 0.45?",
+   "options": [
+    "0.45",
+    "They are equal",
+    "0.5",
+    "It cannot be told"
+   ],
+   "answer": 2,
+   "explanation": "Compare the tenths first. 0.5 is greater than 0.45."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is greater, 0.3 or 0.29?",
+   "options": [
+    "0.29",
+    "0.3",
+    "They are equal",
+    "It cannot be told"
+   ],
+   "answer": 1,
+   "explanation": "Compare the tenths first. 0.3 is greater than 0.29."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is greater, 1.2 or 1.19?",
+   "options": [
+    "1.2",
+    "1.19",
+    "They are equal",
+    "It cannot be told"
+   ],
+   "answer": 0,
+   "explanation": "Compare the tenths first. 1.2 is greater than 1.19."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which is greater, 0.6 or 0.06?",
+   "options": [
+    "0.06",
+    "They are equal",
+    "It cannot be told",
+    "0.6"
+   ],
+   "answer": 3,
+   "explanation": "Compare the tenths first. 0.6 is greater than 0.06."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which decimal is equal to 0.7?",
+   "options": [
+    "0.70",
+    "0.07",
+    "7.0",
+    "0.71"
+   ],
+   "answer": 0,
+   "explanation": "Adding a zero at the end of a decimal does not change its value. 0.7 = 0.70."
+  },
+  {
+   "topic": "1.7",
+   "q": "Ksh 12.50 means",
+   "options": [
+    "12 shillings and 5 cents",
+    "1 shilling and 250 cents",
+    "12 shillings and 50 cents",
+    "125 shillings"
+   ],
+   "answer": 2,
+   "explanation": "The digits after the decimal point are the cents. Ksh 12.50 is 12 shillings and 50 cents."
+  },
+  {
+   "topic": "1.7",
+   "q": "How many hundredths make one tenth?",
+   "options": [
+    "1",
+    "100",
+    "5",
+    "10"
+   ],
+   "answer": 3,
+   "explanation": "One tenth is 10/100, so 10 hundredths make 1 tenth."
+  },
+  {
+   "topic": "1.7",
+   "q": "A stick is 1.5 m long. How many centimetres is that?",
+   "options": [
+    "15 cm",
+    "150 cm",
+    "105 cm",
+    "1,500 cm"
+   ],
+   "answer": 1,
+   "explanation": "0.5 m = 50 cm, so 1.5 m = 100 cm + 50 cm = 150 cm."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which price is the cheapest: Ksh 8.25, Ksh 8.05, Ksh 8.50, Ksh 7.99?",
+   "options": [
+    "Ksh 8.05",
+    "Ksh 8.25",
+    "Ksh 7.99",
+    "Ksh 8.50"
+   ],
+   "answer": 2,
+   "explanation": "Compare the shillings first. 7 is less than 8, so Ksh 7.99 is the smallest."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which decimal is the same as 1/2?",
+   "options": [
+    "0.2",
+    "0.5",
+    "0.12",
+    "2.0"
+   ],
+   "answer": 1,
+   "explanation": "1/2 = 5/10 = 0.5."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which decimal is the same as 3/4?",
+   "options": [
+    "0.75",
+    "0.34",
+    "0.3",
+    "3.4"
+   ],
+   "answer": 0,
+   "explanation": "3/4 = 75/100 = 0.75."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which expression shows \"5 more than x\"?",
+   "options": [
+    "x − 5",
+    "5x",
+    "x ÷ 5",
+    "x + 5"
+   ],
+   "answer": 3,
+   "explanation": "The key words tell us the operation. \"5 more than x\" is written x + 5."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which expression shows \"6 less than k\"?",
+   "options": [
+    "k + 6",
+    "k − 6",
+    "6 − k",
+    "6k"
+   ],
+   "answer": 1,
+   "explanation": "The key words tell us the operation. \"6 less than k\" is written k − 6."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which expression shows \"3 times a number a\"?",
+   "options": [
+    "a + 3",
+    "a − 3",
+    "a ÷ 3",
+    "3a"
+   ],
+   "answer": 3,
+   "explanation": "The key words tell us the operation. \"3 times a number a\" is written 3a."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which expression shows \"a number y shared equally among 4 people\"?",
+   "options": [
+    "4y",
+    "y + 4",
+    "y ÷ 4",
+    "y − 4"
+   ],
+   "answer": 2,
+   "explanation": "The key words tell us the operation. \"a number y shared equally among 4 people\" is written y ÷ 4."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which expression shows \"the cost of 6 books at b shillings each\"?",
+   "options": [
+    "6b",
+    "6 + b",
+    "b − 6",
+    "b ÷ 6"
+   ],
+   "answer": 0,
+   "explanation": "The key words tell us the operation. \"the cost of 6 books at b shillings each\" is written 6b."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which expression shows \"the sum of a and 9\"?",
+   "options": [
+    "9a",
+    "a − 9",
+    "a ÷ 9",
+    "a + 9"
+   ],
+   "answer": 3,
+   "explanation": "The key words tell us the operation. \"the sum of a and 9\" is written a + 9."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which expression shows \"twice a number p\"?",
+   "options": [
+    "p + 2",
+    "2p",
+    "p − 2",
+    "p ÷ 2"
+   ],
+   "answer": 1,
+   "explanation": "The key words tell us the operation. \"twice a number p\" is written 2p."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which expression shows \"n subtracted from 20\"?",
+   "options": [
+    "20 − n",
+    "n − 20",
+    "20 + n",
+    "20n"
+   ],
+   "answer": 0,
+   "explanation": "The key words tell us the operation. \"n subtracted from 20\" is written 20 − n."
+  },
+  {
+   "topic": "1.8",
+   "q": "If a = 4, what is the value of 3a?",
+   "options": [
+    "7",
+    "34",
+    "12",
+    "1"
+   ],
+   "answer": 2,
+   "explanation": "Replace the letter by its value and work it out. The answer is 12."
+  },
+  {
+   "topic": "1.8",
+   "q": "If a = 5, what is the value of a + 7?",
+   "options": [
+    "12",
+    "35",
+    "57",
+    "2"
+   ],
+   "answer": 0,
+   "explanation": "Replace the letter by its value and work it out. The answer is 12."
+  },
+  {
+   "topic": "1.8",
+   "q": "If b = 3, what is the value of 2b + 1?",
+   "options": [
+    "6",
+    "21",
+    "5",
+    "7"
+   ],
+   "answer": 3,
+   "explanation": "Replace the letter by its value and work it out. The answer is 7."
+  },
+  {
+   "topic": "1.8",
+   "q": "If x = 4, what is the value of 10 − x?",
+   "options": [
+    "14",
+    "6",
+    "104",
+    "40"
+   ],
+   "answer": 1,
+   "explanation": "Replace the letter by its value and work it out. The answer is 6."
+  },
+  {
+   "topic": "1.8",
+   "q": "If k = 3, what is the value of 5k − 2?",
+   "options": [
+    "17",
+    "1",
+    "13",
+    "52"
+   ],
+   "answer": 2,
+   "explanation": "Replace the letter by its value and work it out. The answer is 13."
+  },
+  {
+   "topic": "1.8",
+   "q": "If p = 5, what is the value of 4p + 3?",
+   "options": [
+    "12",
+    "43",
+    "23",
+    "9"
+   ],
+   "answer": 2,
+   "explanation": "Replace the letter by its value and work it out. The answer is 23."
+  },
+  {
+   "topic": "1.8",
+   "q": "If n = 6, what is the value of n + 5?",
+   "options": [
+    "30",
+    "65",
+    "1",
+    "11"
+   ],
+   "answer": 3,
+   "explanation": "Replace the letter by its value and work it out. The answer is 11."
+  },
+  {
+   "topic": "1.8",
+   "q": "If m = 7, what is the value of 6m?",
+   "options": [
+    "13",
+    "42",
+    "67",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "Replace the letter by its value and work it out. The answer is 42."
+  },
+  {
+   "topic": "1.8",
+   "q": "If x = 10, what is the value of x ÷ 2 + 1?",
+   "options": [
+    "6",
+    "11",
+    "5",
+    "1"
+   ],
+   "answer": 0,
+   "explanation": "Replace the letter by its value and work it out. The answer is 6."
+  },
+  {
+   "topic": "1.8",
+   "q": "If y = 3, what is the value of 8 − y?",
+   "options": [
+    "11",
+    "5",
+    "83",
+    "24"
+   ],
+   "answer": 1,
+   "explanation": "Replace the letter by its value and work it out. The answer is 5."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify 3a + 2a.",
+   "options": [
+    "5",
+    "6a",
+    "5aa",
+    "5a"
+   ],
+   "answer": 3,
+   "explanation": "Only like terms can be joined. 3a + 2a = 5a."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify 7x − 4x.",
+   "options": [
+    "3x",
+    "3",
+    "11x",
+    "28x"
+   ],
+   "answer": 0,
+   "explanation": "Only like terms can be joined. 7x − 4x = 3x."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify 4b + 3b.",
+   "options": [
+    "7",
+    "12b",
+    "7b",
+    "43b"
+   ],
+   "answer": 2,
+   "explanation": "Only like terms can be joined. 4b + 3b = 7b."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify a + a + a.",
+   "options": [
+    "3a",
+    "a3",
+    "a + 3",
+    "3"
+   ],
+   "answer": 0,
+   "explanation": "Only like terms can be joined. a + a + a = 3a."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify 6p − p.",
+   "options": [
+    "6",
+    "6p",
+    "5p",
+    "7p"
+   ],
+   "answer": 2,
+   "explanation": "Only like terms can be joined. 6p − p = 5p."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify 2a + 5 + 3a + 1.",
+   "options": [
+    "5a + 5",
+    "11a",
+    "6a + 5",
+    "5a + 6"
+   ],
+   "answer": 3,
+   "explanation": "Only like terms can be joined. 2a + 5 + 3a + 1 = 5a + 6."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify 3m + 2o + m + 4o.",
+   "options": [
+    "10mo",
+    "4m + 6o",
+    "3m + 6o",
+    "6m + 4o"
+   ],
+   "answer": 1,
+   "explanation": "Only like terms can be joined. 3m + 2o + m + 4o = 4m + 6o."
+  }
+ ],
+ "short": []
+}

@@ -1,0 +1,906 @@
+{
+ "mcq": [
+  {
+   "topic": "3.1.1",
+   "q": "Kitendawili ni nini?",
+   "options": [
+    "Fumbo linalotegwa ili litegulie",
+    "Wimbo wa harusi",
+    "Ushauri wa wazee",
+    "Kisa kirefu"
+   ],
+   "answer": 0,
+   "explanation": "Kitendawili ni fumbo lenye jibu."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Mtegaji huanza kwa kusema nini?",
+   "options": [
+    "Tega!",
+    "Nipe mji!",
+    "Mji wako!",
+    "Kitendawili!"
+   ],
+   "answer": 3,
+   "explanation": "Mtegaji husema Kitendawili na wateguaji hujibu Tega."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Wateguaji hujibu nini mtegaji anaposema \"Kitendawili!\"?",
+   "options": [
+    "Mji wako!",
+    "Nipe mji!",
+    "Tega!",
+    "Kwaheri!"
+   ],
+   "answer": 2,
+   "explanation": "Wateguaji husema Tega."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Wateguaji wakikosa jibu, husema nini?",
+   "options": [
+    "Tega!",
+    "Nipe mji!",
+    "Mji wako!",
+    "Kitendawili!"
+   ],
+   "answer": 1,
+   "explanation": "Nipe mji huomba jibu."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Mtegaji hujibu nini baada ya \"Nipe mji!\"?",
+   "options": [
+    "Mji wako!",
+    "Tega!",
+    "Kitendawili!",
+    "Pole!"
+   ],
+   "answer": 0,
+   "explanation": "Mji wako humpa kibali kutoa jibu."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Jibu la \"Nifungue nikufunike\" ni lipi?",
+   "options": [
+    "Kofia",
+    "Viatu",
+    "Yai",
+    "Mwavuli"
+   ],
+   "answer": 3,
+   "explanation": "Mwavuli hufunguliwa ili ukufunike."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Jibu la \"Nikilishwa nakua, nikinyweshwa maji nakufa\" ni lipi?",
+   "options": [
+    "Mmea",
+    "Mtoto",
+    "Moto",
+    "Samaki"
+   ],
+   "answer": 2,
+   "explanation": "Moto hukua ukilishwa kuni na huzimwa na maji."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Jibu la \"Nyumba yangu haina mlango\" ni lipi?",
+   "options": [
+    "Kikapu",
+    "Yai",
+    "Nyumba",
+    "Kiti"
+   ],
+   "answer": 1,
+   "explanation": "Yai halina mlango."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Jibu la \"Ninalinda kichwa chako jua likiwaka na sina mkono wala mguu\" ni lipi?",
+   "options": [
+    "Kofia",
+    "Viatu",
+    "Mkanda",
+    "Sabuni"
+   ],
+   "answer": 0,
+   "explanation": "Kofia hukaa kichwani na kulinda jua."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Ni kipi hakiko katika sifa za kitendawili?",
+   "options": [
+    "Ni fupi",
+    "Kina jibu moja kuu",
+    "Hutumia maneno ya picha",
+    "Hakina jibu kabisa"
+   ],
+   "answer": 3,
+   "explanation": "Kitendawili kina jibu."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Kutegua kitendawili hukuza nini?",
+   "options": [
+    "Hasira",
+    "Ugomvi",
+    "Fikra na usikivu",
+    "Uvivu"
+   ],
+   "answer": 2,
+   "explanation": "Vitendawili hukuza kufikiri."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Kusoma kwa ufasaha kunahusisha nini?",
+   "options": [
+    "Kusoma kwa kimya",
+    "Matamshi bora, sauti na kasi inayofaa",
+    "Kuandika haraka",
+    "Kuimba tu"
+   ],
+   "answer": 1,
+   "explanation": "Ufasaha ni usomaji sahihi na wa mtiririko."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Mwanafunzi wa darasa la nne anatarajiwa kusoma angalau maneno mangapi sahihi kwa dakika?",
+   "options": [
+    "60",
+    "10",
+    "20",
+    "200"
+   ],
+   "answer": 0,
+   "explanation": "Kasi inayotarajiwa ni angalau maneno 60 kwa dakika."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Kiimbo cha swali mwishoni huwa vipi?",
+   "options": [
+    "Hushuka",
+    "Hunyamaza",
+    "Hakibadiliki",
+    "Hupanda"
+   ],
+   "answer": 3,
+   "explanation": "Sauti hupanda mwishoni mwa swali."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Alama ya hisi (!) huonyesha nini?",
+   "options": [
+    "Swali",
+    "Mwisho wa insha",
+    "Hisia kali",
+    "Jina la mtu"
+   ],
+   "answer": 2,
+   "explanation": "Alama hii huonyesha furaha, mshangao au huzuni."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Sauti ya chini mno unaposoma husababisha nini?",
+   "options": [
+    "Wasikilizaji hufurahi",
+    "Wasikilizaji hawakusikii",
+    "Kasi huongezeka",
+    "Matamshi huboreka"
+   ],
+   "answer": 1,
+   "explanation": "Sauti inapaswa kusikika kwa wote."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Ishara zinazofaa unaposoma ni zipi?",
+   "options": [
+    "Tabasamu na miondoko ya mikono inayoendana na ujumbe",
+    "Kuficha uso kwa kitabu",
+    "Kupiga kelele",
+    "Kutazama sakafu"
+   ],
+   "answer": 0,
+   "explanation": "Ishara husaidia kufikisha ujumbe."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Kasi ya kusoma huhesabiwa vipi kwa dakika moja?",
+   "options": [
+    "Herufi zote",
+    "Mistari yote",
+    "Kurasa zote",
+    "Maneno yote toa maneno uliyokosea"
+   ],
+   "answer": 3,
+   "explanation": "Tunahesabu maneno sahihi kwa dakika."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Tunaposoma, tunasimama kidogo mahali gani?",
+   "options": [
+    "Kwenye kila herufi",
+    "Kwenye kila neno",
+    "Kwenye nukta na mkato",
+    "Hatusimami"
+   ],
+   "answer": 2,
+   "explanation": "Alama za uakifishaji hutuongoza."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Ni jambo lipi ni zuri unapotoa maoni kwa mwenzako aliyesoma?",
+   "options": [
+    "Kumcheka",
+    "Kuanza kwa pongezi kisha kutaja la kuboresha",
+    "Kumkaripia",
+    "Kunyamaza"
+   ],
+   "answer": 1,
+   "explanation": "Maoni ya heshima humjenga msomaji."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Kiwango cha sauti kinachofaa ni kipi?",
+   "options": [
+    "Cha kati kinachosikika kwa wote",
+    "Cha juu mno",
+    "Cha chini mno",
+    "Cha kunong'ona"
+   ],
+   "answer": 0,
+   "explanation": "Sauti ya kati hupendeza na husikika."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Sehemu ya tarakilishi inayoonyesha maandishi ni ipi?",
+   "options": [
+    "Kiibodi",
+    "Kipanya",
+    "Faili",
+    "Kiwambo"
+   ],
+   "answer": 3,
+   "explanation": "Kiwambo ni skrini."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Ubao wenye vitufe vya kupiga chapa huitwaje?",
+   "options": [
+    "Kiwambo",
+    "Kipanya",
+    "Kiibodi",
+    "Folda"
+   ],
+   "answer": 2,
+   "explanation": "Kiibodi ina vitufe."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Kifaa tunachokishika kusogeza kielekezi ni kipi?",
+   "options": [
+    "Kiibodi",
+    "Kipanya",
+    "Kiwambo",
+    "Faili"
+   ],
+   "answer": 1,
+   "explanation": "Kipanya husogeza kielekezi."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Kitufe cha Shift hutumika kufanya nini?",
+   "options": [
+    "Kuandika herufi kubwa",
+    "Kufuta maneno",
+    "Kuzima tarakilishi",
+    "Kuhifadhi"
+   ],
+   "answer": 0,
+   "explanation": "Shift hutoa herufi kubwa."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Kuhariri ni nini?",
+   "options": [
+    "Kuzima tarakilishi",
+    "Kuchora",
+    "Kufuta faili",
+    "Kurekebisha maandishi yaliyoandikwa"
+   ],
+   "answer": 3,
+   "explanation": "Kuhariri ni kusahihisha."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Kuhifadhi kazi kunamaanisha nini?",
+   "options": [
+    "Kuifuta",
+    "Kuizima",
+    "Kuiweka kwenye faili isipotee",
+    "Kuichapa tena"
+   ],
+   "answer": 2,
+   "explanation": "Kuhifadhi huzuia kupotea."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Unapaswa kufanya nini kabla ya kuzima tarakilishi?",
+   "options": [
+    "Kuvuta waya",
+    "Kuhifadhi kazi",
+    "Kufungua faili zote",
+    "Kumwambia mtu nenosiri"
+   ],
+   "answer": 1,
+   "explanation": "Hifadhi kazi kwanza."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Chapa koza inamaanisha nini?",
+   "options": [
+    "Herufi nzito",
+    "Herufi zilizoinama",
+    "Herufi zilizopigiwa mstari",
+    "Herufi ndogo"
+   ],
+   "answer": 0,
+   "explanation": "Chapa koza ni herufi nzito."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Kitufe cha nafasi (Space) hufanya nini?",
+   "options": [
+    "Huzima kiwambo",
+    "Hufuta",
+    "Huhifadhi",
+    "Huacha nafasi kati ya maneno"
+   ],
+   "answer": 3,
+   "explanation": "Nafasi hutenganisha maneno."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Ni jambo lipi ni la usalama unaposambaza kazi mtandaoni?",
+   "options": [
+    "Kumpa rafiki nenosiri",
+    "Kuandika anwani yako nyumbani",
+    "Kutotoa nenosiri kwa mtu yeyote",
+    "Kujibu watu usiowajua"
+   ],
+   "answer": 2,
+   "explanation": "Nenosiri ni siri."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Kiunganishi ni neno linalofanya nini?",
+   "options": [
+    "Linaonyesha kitendo",
+    "Linaunganisha maneno au sentensi",
+    "Linataja mtu",
+    "Linaeleza sifa"
+   ],
+   "answer": 1,
+   "explanation": "Kiunganishi huunganisha."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Ni kiunganishi kipi cha kuongeza?",
+   "options": [
+    "na",
+    "lakini",
+    "au",
+    "kwa sababu"
+   ],
+   "answer": 0,
+   "explanation": "Na huongeza kitu au kitendo."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Ni kiunganishi kipi cha kupinga?",
+   "options": [
+    "na",
+    "au",
+    "pia",
+    "lakini"
+   ],
+   "answer": 3,
+   "explanation": "Lakini huonyesha upinzani."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Ni kiunganishi kipi cha kuchagua?",
+   "options": [
+    "na",
+    "kisha",
+    "au",
+    "kwa hiyo"
+   ],
+   "answer": 2,
+   "explanation": "Au hutoa chaguo."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Ni kiunganishi kipi cha sababu?",
+   "options": [
+    "kwa hiyo",
+    "kwa sababu",
+    "kisha",
+    "wala"
+   ],
+   "answer": 1,
+   "explanation": "Kwa sababu hueleza kwa nini."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Ni kiunganishi kipi huonyesha matokeo?",
+   "options": [
+    "kwa hiyo",
+    "kwa sababu",
+    "lakini",
+    "au"
+   ],
+   "answer": 0,
+   "explanation": "Kwa hiyo huleta matokeo."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Chagua kiunganishi: \"Alilia ________ alianguka.\"",
+   "options": [
+    "kwa hiyo",
+    "au",
+    "lakini",
+    "kwa sababu"
+   ],
+   "answer": 3,
+   "explanation": "Sababu ya kulia ni kuanguka."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Chagua kiunganishi: \"Mvua ilinyesha, ________ tulibaki nyumbani.\"",
+   "options": [
+    "kwa sababu",
+    "au",
+    "kwa hiyo",
+    "wala"
+   ],
+   "answer": 2,
+   "explanation": "Kubaki nyumbani ni matokeo ya mvua."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Ni sentensi ipi ina kiunganishi \"pia\"?",
+   "options": [
+    "Mama analima shamba.",
+    "Nilinunua maziwa na pia mkate.",
+    "Kitabu kiko mezani.",
+    "Mwalimu ameingia darasani."
+   ],
+   "answer": 1,
+   "explanation": "Pia huongeza jambo lingine."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Unaandikaje \"kwa sababu\" kwa usahihi?",
+   "options": [
+    "Maneno mawili yaliyotengana",
+    "Neno moja bila nafasi",
+    "Kwa herufi kubwa tu",
+    "Kwa mkato katikati"
+   ],
+   "answer": 0,
+   "explanation": "Kwa sababu ni maneno mawili."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Kihusishi kinaonyesha nini?",
+   "options": [
+    "Kitendo",
+    "Sifa",
+    "Jina la mtu",
+    "Uhusiano wa mahali kati ya vitu"
+   ],
+   "answer": 3,
+   "explanation": "Vihusishi huonyesha mahali kwa kulinganisha vitu."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Kinyume cha \"juu ya\" ni kipi?",
+   "options": [
+    "karibu na",
+    "nje ya",
+    "chini ya",
+    "mbele ya"
+   ],
+   "answer": 2,
+   "explanation": "Juu ya na chini ya ni kinyume."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Kinyume cha \"ndani ya\" ni kipi?",
+   "options": [
+    "juu ya",
+    "nje ya",
+    "karibu na",
+    "mbele ya"
+   ],
+   "answer": 1,
+   "explanation": "Ndani ya na nje ya ni kinyume."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Kinyume cha \"karibu na\" ni kipi?",
+   "options": [
+    "mbali na",
+    "chini ya",
+    "ndani ya",
+    "nyuma ya"
+   ],
+   "answer": 0,
+   "explanation": "Karibu na na mbali na ni kinyume."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Kihusishi kipi kinafaa: \"Kitabu kiko ________ meza.\" (kitabu kipo uso wa meza)",
+   "options": [
+    "chini ya",
+    "ndani ya",
+    "nje ya",
+    "juu ya"
+   ],
+   "answer": 3,
+   "explanation": "Kitabu kilichowekwa mezani kiko juu ya meza."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Kihusishi kipi kinafaa: \"Pesa ziko ________ mkoba.\"",
+   "options": [
+    "juu ya",
+    "nje ya",
+    "ndani ya",
+    "mbali na"
+   ],
+   "answer": 2,
+   "explanation": "Pesa huwekwa ndani ya mkoba."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Ni sentensi ipi imeandikwa sahihi?",
+   "options": [
+    "Mbwa yuko njeya nyumba.",
+    "Mbwa yuko nje ya nyumba.",
+    "Mbwa yuko nyumba nje.",
+    "Mbwa nje ya yuko nyumba."
+   ],
+   "answer": 1,
+   "explanation": "Kihusishi huandikwa kwa maneno mawili yaliyotengana."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Katika \"Shule iko karibu na kanisa\", kihusishi ni kipi?",
+   "options": [
+    "karibu na",
+    "Shule",
+    "kanisa",
+    "iko"
+   ],
+   "answer": 0,
+   "explanation": "Karibu na linaonyesha uhusiano wa mahali."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Kihusishi kipi kinaonyesha kitu kilicho kwenye upande wa mbele?",
+   "options": [
+    "nyuma ya",
+    "chini ya",
+    "nje ya",
+    "mbele ya"
+   ],
+   "answer": 3,
+   "explanation": "Mbele ya ni upande wa mbele."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Ni jozi ipi ni jozi ya vinyume?",
+   "options": [
+    "juu ya - karibu na",
+    "nje ya - mbali na",
+    "mbele ya - nyuma ya",
+    "chini ya - kando ya"
+   ],
+   "answer": 2,
+   "explanation": "Mbele na nyuma ni kinyume."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Kihisishi ni neno linaloonyesha nini?",
+   "options": [
+    "Kitendo",
+    "Hisia za mtu papo hapo",
+    "Mahali",
+    "Sifa"
+   ],
+   "answer": 1,
+   "explanation": "Kihisishi huonyesha hisia."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Alama inayoandikwa baada ya kihisishi ni ipi?",
+   "options": [
+    "Alama ya hisi (!)",
+    "Nukta (.)",
+    "Alama ya kuuliza (?)",
+    "Mkato (,)"
+   ],
+   "answer": 0,
+   "explanation": "Vihisishi huandikwa na alama ya hisi."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Kihisishi kipi huonyesha furaha na shangwe?",
+   "options": [
+    "Pole!",
+    "Mama ee!",
+    "Aha!",
+    "Oyee!"
+   ],
+   "answer": 3,
+   "explanation": "Oyee ni kelele ya furaha."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Kihisishi kipi hutumika kumfariji mtu mwenye huzuni?",
+   "options": [
+    "Oyee!",
+    "Aha!",
+    "Pole!",
+    "Kumbe!"
+   ],
+   "answer": 2,
+   "explanation": "Pole huonyesha huruma."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Kihisishi kipi huonyesha kukumbuka au kugundua jambo?",
+   "options": [
+    "Pole!",
+    "Aha!",
+    "Oyee!",
+    "Mama ee!"
+   ],
+   "answer": 1,
+   "explanation": "Aha hutumika mtu anapokumbuka."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Kihisishi kipi huonyesha hofu au uchungu?",
+   "options": [
+    "Mama ee!",
+    "Oyee!",
+    "Aha!",
+    "Kumbe!"
+   ],
+   "answer": 0,
+   "explanation": "Mama ee hutumika mtu anapoogopa au kuumia."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Ni sentensi ipi ya kihisishi imeandikwa sahihi?",
+   "options": [
+    "lo umenishtua.",
+    "Lo umenishtua",
+    "lo! umenishtua",
+    "Lo! Umenishtua."
+   ],
+   "answer": 3,
+   "explanation": "Kihisishi kina alama ya hisi na sentensi mpya huanza kwa herufi kubwa."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Ni neno lipi ni kihisishi?",
+   "options": [
+    "kalamu",
+    "soma",
+    "Salalee!",
+    "mrefu"
+   ],
+   "answer": 2,
+   "explanation": "Salalee ni neno la mshangao."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Ni kihisishi kipi kinafaa: \"________ Tumeshinda kombe!\"",
+   "options": [
+    "Pole!",
+    "Oyee!",
+    "Mama ee!",
+    "Aha!"
+   ],
+   "answer": 1,
+   "explanation": "Kushinda ni jambo la furaha."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Ni kosa lipi la kuepuka kuhusu alama ya hisi?",
+   "options": [
+    "Kuandika alama nyingi mno kama !!!",
+    "Kuiandika baada ya kihisishi",
+    "Kuanza sentensi mpya kwa herufi kubwa",
+    "Kutumia kihisishi chenye hisia"
+   ],
+   "answer": 0,
+   "explanation": "Alama moja inatosha."
+  }
+ ],
+ "short": [
+  {
+   "topic": "3.1.1",
+   "q": "Eleza hatua nne za kutega kitendawili.",
+   "marks": 4,
+   "answer": "Mtegaji husema Kitendawili; wateguaji hujibu Tega; mtegaji hutoa kitendawili; wateguaji wakikosa husema Nipe mji na mtegaji hujibu Mji wako kisha hutoa jibu.",
+   "working": "Alama moja kwa kila hatua sahihi."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Andika kitendawili kimoja kuhusu vazi na uandike jibu lake.",
+   "marks": 2,
+   "answer": "Mfano: Sisi ni wawili, tunakaa miguuni, tunatembea pamoja lakini hatuachani. Jibu: Viatu.",
+   "working": "Alama moja kwa kitendawili na moja kwa jibu."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Taja kanuni tatu za kuheshimu unapotega na kutegua vitendawili darasani.",
+   "marks": 3,
+   "answer": "Sikiliza hadi mwisho; subiri zamu; usipige kelele au usimcheke aliyekosea.",
+   "working": "Alama moja kwa kila kanuni."
+  },
+  {
+   "topic": "3.1.1",
+   "q": "Tunga kitendawili chako kuhusu kitu cha darasani na uandike hatua tatu ulizotumia kukitunga.",
+   "marks": 5,
+   "answer": "Mfano: Ninaandika bila kuongea, nikiisha wino nakuwa mfu. Jibu: Kalamu. Hatua: nilichagua kitu, nilifikiria sifa zake, nilizieleza bila kutaja jina.",
+   "working": "Alama mbili kwa kitendawili na jibu na tatu kwa hatua."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Taja vipengele vinne vya kusoma kwa ufasaha.",
+   "marks": 4,
+   "answer": "Matamshi bora, kiwango cha sauti, kasi inayofaa, ishara zinazofaa.",
+   "working": "Alama moja kwa kila kipengele."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Eleza jinsi ya kupima kasi yako ya kusoma kwa dakika moja.",
+   "marks": 3,
+   "answer": "Mwenzako ashike saa; soma kwa dakika moja na mwenzako aweke alama makosa; hesabu maneno yote kisha toa makosa.",
+   "working": "Alama moja kwa kila hatua."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Eleza kwa nini kiimbo ni muhimu katika kusoma.",
+   "marks": 2,
+   "answer": "Huonyesha ujumbe kama swali au mshangao na hufanya usomaji upendeze.",
+   "working": "Alama moja kwa kila sababu."
+  },
+  {
+   "topic": "3.2.1",
+   "q": "Andika kanuni tatu za kutoa maoni kwa mwenzako aliyesoma.",
+   "marks": 3,
+   "answer": "Anza kwa jambo zuri; taja jambo moja la kuboresha; tumia maneno ya upole.",
+   "working": "Alama moja kwa kila kanuni."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Taja sehemu tatu za tarakilishi zinazotumika kupiga chapa na kazi ya kila moja.",
+   "marks": 3,
+   "answer": "Kiwambo: kuonyesha maandishi; kiibodi: kupiga chapa; kipanya: kusogeza kielekezi.",
+   "working": "Alama moja kwa kila sehemu na kazi yake."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Eleza hatua nne za kufungua tarakilishi na programu ya kuandikia.",
+   "marks": 4,
+   "answer": "Hakikisha imeunganishwa na umeme au betri imejaa; bonyeza kitufe cha kuwasha; subiri kiwambo kiwake; fungua alama ya programu ya kuandikia.",
+   "working": "Alama moja kwa kila hatua."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Eleza hatua tatu za kuhifadhi kazi kwenye faili.",
+   "marks": 3,
+   "answer": "Chagua chaguo la kuhifadhi; andika jina la faili; chagua mahali kisha bonyeza hifadhi.",
+   "working": "Alama moja kwa kila hatua."
+  },
+  {
+   "topic": "3.3.1",
+   "q": "Eleza mambo mawili unayoweza kuhariri kwenye aya uliyoandika kwenye tarakilishi.",
+   "marks": 2,
+   "answer": "Tahajia na uakifishaji; herufi kubwa au mpangilio wa aya.",
+   "working": "Alama moja kwa kila jambo."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Unganisha sentensi kwa kiunganishi: \"Nilikwenda sokoni. Nilinunua ndizi.\"",
+   "marks": 2,
+   "answer": "Nilikwenda sokoni na kununua ndizi. (au: Nilikwenda sokoni kisha nikanunua ndizi.)",
+   "working": "Alama moja kwa kiunganishi na moja kwa sentensi sahihi."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Tunga sentensi mbili, moja kwa \"lakini\" na moja kwa \"au\".",
+   "marks": 4,
+   "answer": "Mfano: Ninapenda mpira lakini sipendi kuogelea. Utakunywa chai au maziwa?",
+   "working": "Alama mbili kwa kila sentensi."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Eleza tofauti ya \"kwa sababu\" na \"kwa hiyo\".",
+   "marks": 3,
+   "answer": "Kwa sababu hueleza sababu ya jambo na kwa hiyo hueleza matokeo. Mfano: Nililia kwa sababu nilianguka; nilianguka, kwa hiyo nililia.",
+   "working": "Alama moja kwa kila maelezo na moja kwa mifano."
+  },
+  {
+   "topic": "3.4.1",
+   "q": "Andika sentensi tatu zenye viunganishi tofauti kuhusu shule yako.",
+   "marks": 3,
+   "answer": "Mfano: Ninapenda shule na walimu wake. Ni kubwa lakini ina wanafunzi wengi. Nafika mapema ili nisichelewe.",
+   "working": "Alama moja kwa kila sentensi sahihi."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Taja vihusishi vitano vya mahali.",
+   "marks": 3,
+   "answer": "Mfano: juu ya, chini ya, ndani ya, nje ya, karibu na, mbali na.",
+   "working": "Alama moja kwa kila vihusishi viwili sahihi hadi alama tatu."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Tunga sentensi mbili zenye vihusishi \"juu ya\" na \"chini ya\".",
+   "marks": 2,
+   "answer": "Mfano: Ndege yuko juu ya mti. Kikapu kiko chini ya meza.",
+   "working": "Alama moja kwa kila sentensi."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Eleza mahali kilipo kitabu chako kwa sentensi tatu zenye vihusishi tofauti.",
+   "marks": 3,
+   "answer": "Mfano: Kitabu kiko juu ya dawati. Kalamu iko ndani ya mkoba. Mkoba uko chini ya kiti.",
+   "working": "Alama moja kwa kila sentensi."
+  },
+  {
+   "topic": "3.4.2",
+   "q": "Andika jozi tatu za vihusishi vya kinyume.",
+   "marks": 3,
+   "answer": "juu ya na chini ya; ndani ya na nje ya; karibu na na mbali na.",
+   "working": "Alama moja kwa kila jozi."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Taja vihisishi vinne na hisia zinazoonyeshwa.",
+   "marks": 4,
+   "answer": "Mfano: Oyee! (furaha), Lo! (mshangao), Mama ee! (uchungu au hofu), Pole! (huruma).",
+   "working": "Alama moja kwa kila kihisishi chenye hisia sahihi."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Sahihisha: \"oyee tumefaulu\".",
+   "marks": 2,
+   "answer": "Oyee! Tumefaulu.",
+   "working": "Alama moja kwa alama ya hisi na moja kwa herufi kubwa."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Andika kifungu cha sentensi tatu chenye vihisishi viwili kuhusu siku ya michezo.",
+   "marks": 4,
+   "answer": "Mfano: Tulifika uwanjani. Oyee! Timu yetu ilishinda. Mama ee! Nilijikwaa.",
+   "working": "Alama mbili kwa vihisishi viwili sahihi na mbili kwa sentensi na uakifishaji."
+  },
+  {
+   "topic": "3.4.3",
+   "q": "Eleza kwa nini hatupaswi kutumia vihisishi vingi mno katika maandishi.",
+   "marks": 2,
+   "answer": "Vikitumika vingi, hisia hupoteza uzito na maandishi huchosha.",
+   "working": "Alama moja kwa kila hoja."
+  }
+ ]
+}

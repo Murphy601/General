@@ -1,0 +1,705 @@
+{
+ "mcq": [],
+ "short": [
+  {
+   "topic": "1.7",
+   "q": "Translate into English: ashummu bi-anfii",
+   "marks": 2,
+   "answer": "I smell with my nose.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.9",
+   "q": "Translate into English: uhibbu baytii",
+   "marks": 2,
+   "answer": "I like my house.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.3",
+   "q": "Translate into English: haadhaa baytii",
+   "marks": 2,
+   "answer": "This is my house.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.6",
+   "q": "Give three tips for neat handwriting with good word spacing. (3 marks)",
+   "marks": 3,
+   "answer": "Leave a gap about one letter wide between words; keep letters in a word joined smoothly; write on the baseline; put dots neatly.",
+   "working": "1 mark for each valid tip."
+  },
+  {
+   "topic": "1.2",
+   "q": "Translate into English: ummii tatbukhu",
+   "marks": 2,
+   "answer": "My mother cooks.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.6",
+   "q": "Translate into English: ashrabu l-maa'a",
+   "marks": 2,
+   "answer": "I drink water.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.8",
+   "q": "Explain how the voice should sound in a statement and in a question. (2 marks)",
+   "marks": 2,
+   "answer": "In a statement the voice falls at the end. In a question it rises at the end.",
+   "working": "1 mark for each correct description."
+  },
+  {
+   "topic": "3.9",
+   "q": "Write a three-sentence paragraph about your room in Arabic sounds and give the meaning. (5 marks)",
+   "marks": 5,
+   "answer": "For example: haadhihi ghurfatii. fii l-ghurfati sariir. uhibbu ghurfatii. This is my room. In the room there is a bed. I like my room.",
+   "working": "1 mark for each correct sentence, 1 mark for a beginning-middle-end order and 1 mark for the meaning."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into English: nahnu narqusu",
+   "marks": 2,
+   "answer": "We dance.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.2",
+   "q": "Translate into English: ʿindii akh wa ukht",
+   "marks": 2,
+   "answer": "I have a brother and a sister.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.3",
+   "q": "Give two reasons why we should take care of household items. (2 marks)",
+   "marks": 2,
+   "answer": "They last longer and save money, and keeping them in the right place keeps us safe.",
+   "working": "1 mark for each sensible reason."
+  },
+  {
+   "topic": "1.5",
+   "q": "Give three rules for taking turns in a conversation. (3 marks)",
+   "marks": 3,
+   "answer": "Listen until the speaker finishes; do not speak at the same time; use polite words to interrupt; give others a chance.",
+   "working": "1 mark for each valid rule."
+  },
+  {
+   "topic": "1.7",
+   "q": "Translate into English: haadhaa raʾsii",
+   "marks": 2,
+   "answer": "This is my head.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.9",
+   "q": "Translate into English: anaa fii S-Saffi r-raabiʿ",
+   "marks": 2,
+   "answer": "I am in Grade 4.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.1",
+   "q": "Explain why writing the dots correctly is important. Give one example of two letters that differ only by dots. (3 marks)",
+   "marks": 3,
+   "answer": "A wrong dot changes the letter and the word. For example ف has one dot above and ق has two dots above.",
+   "working": "1 mark for changes the letter, 1 mark for changes the word, 1 mark for a correct example."
+  },
+  {
+   "topic": "3.1",
+   "q": "Describe the steps for learning to write a new letter. (4 marks)",
+   "marks": 4,
+   "answer": "Trace the model; copy it several times from right to left; write it from memory and compare; add and check the dots.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "2.3",
+   "q": "List four theme words about the home in Arabic (English letters), with meanings. (4 marks)",
+   "marks": 4,
+   "answer": "For example bayt (house), matbakh (kitchen), taawila (table), kursii (chair).",
+   "working": "1 mark for each correct word with meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Give two reasons why reading is important. (2 marks)",
+   "marks": 2,
+   "answer": "It helps us to learn new words and information, and it gives us enjoyment.",
+   "working": "1 mark for each sensible reason."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain the difference between kayfa haaluka? and kayfa haaluki? (2 marks)",
+   "marks": 2,
+   "answer": "kayfa haaluka? is said to a boy or man. kayfa haaluki? is said to a girl or woman. Both mean 'How are you?'.",
+   "working": "1 mark for the boy and girl endings and 1 mark for the meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Write the Arabic sounds for 'two hands' and 'two legs' and give the meaning of each ending. (3 marks)",
+   "marks": 3,
+   "answer": "yadaani (two hands) and rijlaani (two legs). The ending -aani means two.",
+   "working": "1 mark for each word and 1 mark for the ending."
+  },
+  {
+   "topic": "1.6",
+   "q": "Translate into English: uhibbu l-mawza",
+   "marks": 2,
+   "answer": "I like bananas.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.6",
+   "q": "Translate into English: aakulu l-aruzza",
+   "marks": 2,
+   "answer": "I eat rice.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into English: ummii tatbukhu T-taʿaam",
+   "marks": 2,
+   "answer": "My mother cooks the food.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.1",
+   "q": "Read the sentence اسْمِي أَحْمَدُ and write its meaning. (2 marks)",
+   "marks": 2,
+   "answer": "ismii Ahmad. My name is Ahmad.",
+   "working": "1 mark for reading and 1 mark for meaning."
+  },
+  {
+   "topic": "3.2",
+   "q": "Give three rules for a handwriting contest. (3 marks)",
+   "marks": 3,
+   "answer": "Everyone writes the same words for the same time; judges look at shape, size, spacing and neatness; everyone is encouraged and praised.",
+   "working": "1 mark for each sensible rule."
+  },
+  {
+   "topic": "1.9",
+   "q": "Translate into English: fii baytii matbakh",
+   "marks": 2,
+   "answer": "In my house there is a kitchen.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.5",
+   "q": "Describe the steps of making a class picture book on family celebrations. (4 marks)",
+   "marks": 4,
+   "answer": "Collect or draw pictures of celebration things; put one on each page; write an Arabic word or sentence with the meaning; make a cover with a title.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "2.7",
+   "q": "Translate into English: aktubu bi-yadii. asmaʿu bi-udhunii. (2 marks)",
+   "marks": 2,
+   "answer": "I write with my hand. I hear with my ear.",
+   "working": "1 mark for each sentence."
+  },
+  {
+   "topic": "1.2",
+   "q": "Translate into English: man haadhaa?",
+   "marks": 2,
+   "answer": "Who is this? (a boy or man)",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.7",
+   "q": "Translate into English: anaa araa biʿaynii and atakallamu bi-famii. (2 marks)",
+   "marks": 2,
+   "answer": "I see with my eye. I speak with my mouth.",
+   "working": "1 mark for each translation."
+  },
+  {
+   "topic": "1.4",
+   "q": "Write three classroom instructions in Arabic sounds with meanings. (3 marks)",
+   "marks": 3,
+   "answer": "For example qif (stand up), ijlis (sit down), iftahi l-baab (open the door).",
+   "working": "1 mark for each correct instruction with meaning."
+  },
+  {
+   "topic": "2.8",
+   "q": "Describe how a group can stage a poem at an interclass festival. (4 marks)",
+   "marks": 4,
+   "answer": "Choose a group; share the lines and actions; stand facing the audience; say the poem together with actions; bow at the end.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "2.4",
+   "q": "Describe how you can make flashcards for the days of the week. (3 marks)",
+   "marks": 3,
+   "answer": "Cut cards; write the Arabic day on the front; write the English name and sound on the back; decorate and display in order.",
+   "working": "1 mark for each valid step."
+  },
+  {
+   "topic": "2.3",
+   "q": "Translate into English: fii l-matbakhi taawila wa kursii",
+   "marks": 2,
+   "answer": "In the kitchen there is a table and a chair.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.6",
+   "q": "Translate into English: al-mawzu ladhiidh",
+   "marks": 2,
+   "answer": "The banana is delicious.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.6",
+   "q": "Explain the difference between a direct question and an inferential question. Give one example of each about a text on breakfast. (4 marks)",
+   "marks": 4,
+   "answer": "A direct question has its answer in the text, for example 'What does she drink?' An inferential question needs clues, for example 'Is it morning?'.",
+   "working": "1 mark for each definition and 1 mark for each suitable example."
+  },
+  {
+   "topic": "3.2",
+   "q": "Describe how to copy a family word neatly. (3 marks)",
+   "marks": 3,
+   "answer": "Say the word aloud; look at each letter and mark; write it once and compare with the model; correct and write it again.",
+   "working": "1 mark for each valid step."
+  },
+  {
+   "topic": "2.9",
+   "q": "Sort these words into items and position words: kitaab, ʿalaa, taawila, taHta. (4 marks)",
+   "marks": 4,
+   "answer": "Items: kitaab (book), taawila (table). Position words: ʿalaa (on), taHta (under).",
+   "working": "1 mark for each word placed correctly."
+  },
+  {
+   "topic": "1.5",
+   "q": "Translate into English: ʿiid miilaad saʿiid",
+   "marks": 2,
+   "answer": "Happy birthday.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain the three reading strategies: decoding, cues and word spacing. (3 marks)",
+   "marks": 3,
+   "answer": "Decoding: sounding out each letter and mark. Cues: using pictures and the sentence to guess. Word spacing: looking at the spaces to see where words begin and end.",
+   "working": "1 mark for each strategy."
+  },
+  {
+   "topic": "2.9",
+   "q": "Give two ways of keeping household items safe. (2 marks)",
+   "marks": 2,
+   "answer": "Keep the key in a safe place such as the cupboard; keep knives out of reach of small children; keep lamps away from water.",
+   "working": "1 mark for each safe way."
+  },
+  {
+   "topic": "1.1",
+   "q": "Translate into English: anaa tilmiidh",
+   "marks": 2,
+   "answer": "I am a pupil (boy).",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.6",
+   "q": "Give three ways in which a family can reduce food wastage at home. (3 marks)",
+   "marks": 3,
+   "answer": "Cook only what is needed; store leftovers and eat them later; share extra food; use peels for compost.",
+   "working": "1 mark for each sensible way."
+  },
+  {
+   "topic": "1.7",
+   "q": "Translate into English: haadhihi yadii",
+   "marks": 2,
+   "answer": "This is my hand.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.1",
+   "q": "Name the four marks (harakat) that show short vowels or no vowel and say what each one shows. (4 marks)",
+   "marks": 4,
+   "answer": "fatHa gives a, kasra gives i, Damma gives u, and sukuun shows no vowel.",
+   "working": "1 mark for each mark and its meaning."
+  },
+  {
+   "topic": "3.4",
+   "q": "Put these letters in order to make a day: ت ب س. Write the word and its meaning. (2 marks)",
+   "marks": 2,
+   "answer": "سبت (sabt), Saturday.",
+   "working": "1 mark for the word and 1 mark for the meaning."
+  },
+  {
+   "topic": "3.3",
+   "q": "Match these to their Arabic names: chair, bed, kitchen. Write the sounds. (3 marks)",
+   "marks": 3,
+   "answer": "chair is kursii, bed is sariir, kitchen is matbakh.",
+   "working": "1 mark for each correct match."
+  },
+  {
+   "topic": "2.9",
+   "q": "Explain why vocabulary building helps you to learn Arabic. (3 marks)",
+   "marks": 3,
+   "answer": "The more words you know, the more you can understand, say and write. Grouping words by theme helps you to remember them.",
+   "working": "1 mark for understanding, 1 mark for speaking or writing and 1 mark for remembering."
+  },
+  {
+   "topic": "1.1",
+   "q": "Translate into English: anaa bi-khayr, al-hamdu lillaah",
+   "marks": 2,
+   "answer": "I am well, thanks be to God.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.1",
+   "q": "List the six Arabic letters that do not join to the letter that follows them. (3 marks)",
+   "marks": 3,
+   "answer": "alif, daal, dhaal, raa, zaay and waaw.",
+   "working": "3 marks for all six; 2 marks for four or five; 1 mark for two or three."
+  },
+  {
+   "topic": "2.8",
+   "q": "Say what a vocabulary bank is and how you can make one from a poem. (3 marks)",
+   "marks": 3,
+   "answer": "A vocabulary bank keeps new words for later. Pick out the words from the poem and write each with its sound, meaning and a picture on cards.",
+   "working": "1 mark for the meaning and 2 marks for the method."
+  },
+  {
+   "topic": "2.2",
+   "q": "Read the sentence هَذِهِ أُمِّي and give its meaning. Say which family word it contains. (3 marks)",
+   "marks": 3,
+   "answer": "haadhihi ummii. This is my mother. It contains umm (mother).",
+   "working": "1 mark for reading, 1 mark for meaning and 1 mark for the family word."
+  },
+  {
+   "topic": "2.5",
+   "q": "Translate into English: fawqa t-taawilati baaluun",
+   "marks": 2,
+   "answer": "Above the table there is a balloon.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into English: ʿindii hadiyya",
+   "marks": 2,
+   "answer": "I have a gift.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.5",
+   "q": "Translate into English: haadhihi hafla",
+   "marks": 2,
+   "answer": "This is a party.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.8",
+   "q": "Translate into English: wal-maTaru mina s-samaa'i",
+   "marks": 2,
+   "answer": "And the rain is from the sky.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.6",
+   "q": "Write in Arabic sounds a question and an answer about bananas and give the meaning. (4 marks)",
+   "marks": 4,
+   "answer": "hal tuhibbu l-mawz? naʿam, uhibbu l-mawz. Do you like bananas? Yes, I like bananas.",
+   "working": "1 mark for each correct sentence and 1 mark for each meaning."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain why untidy handwriting can be a problem in Arabic. (2 marks)",
+   "marks": 2,
+   "answer": "Letters that differ only by dots may look the same, so the reader may read the wrong word.",
+   "working": "1 mark for dots and 1 mark for the wrong reading."
+  },
+  {
+   "topic": "1.6",
+   "q": "Translate into English: ashrabu l-haliiba",
+   "marks": 2,
+   "answer": "I drink milk.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.2",
+   "q": "Put these syllables in order to make a family word and give its meaning: khaa + lun. (2 marks)",
+   "marks": 2,
+   "answer": "khaa-lun (mother's brother).",
+   "working": "1 mark for the correct order and 1 mark for the meaning."
+  },
+  {
+   "topic": "1.7",
+   "q": "Translate into English: asmaʿu bi-udhunii",
+   "marks": 2,
+   "answer": "I hear with my ear.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.6",
+   "q": "Write five foods or drinks in Arabic (English letters are fine) with their meanings. (5 marks)",
+   "marks": 5,
+   "answer": "For example khubz (bread), aruzz (rice), dhura (maize), lahm (meat), samak (fish).",
+   "working": "1 mark for each correct word with its meaning."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write one Arabic sentence about a household item using a describing word, and translate it. (3 marks)",
+   "marks": 3,
+   "answer": "For example al-baabu kabiir. The door is big.",
+   "working": "1 mark for a correct sentence, 1 mark for a matching describing word and 1 mark for the translation."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain why we should show respect when we greet people of a different gender or culture. (3 marks)",
+   "marks": 3,
+   "answer": "Greeting customs can differ. Using polite words and a smile shows respect. Respect helps boys and girls, men and women to be treated equally and to live peacefully.",
+   "working": "1 mark for customs differ, 1 mark for polite words, 1 mark for equality or peace."
+  },
+  {
+   "topic": "3.5",
+   "q": "Name three Arabic writing styles and state one use of one of them. (3 marks)",
+   "marks": 3,
+   "answer": "For example Naskh, Ruqʿah and Kufic. Naskh is used in printed books.",
+   "working": "1 mark for each style named (up to 2) and 1 mark for a correct use."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write two describing words in Arabic sounds with their meanings, one for a masculine and one for a feminine item. (3 marks)",
+   "marks": 3,
+   "answer": "kabiir (big) for a masculine word and kabiira (big) for a feminine word.",
+   "working": "1 mark for each form and 1 mark for the meaning."
+  },
+  {
+   "topic": "2.6",
+   "q": "Translate into English: uhibbu T-taʿaam",
+   "marks": 2,
+   "answer": "I like food.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.8",
+   "q": "Give three questions you could ask when you give peer feedback on a friend's fluency. (3 marks)",
+   "marks": 3,
+   "answer": "Were the words clear? Was the speed steady? Did the voice fall for statements and rise for questions?",
+   "working": "1 mark for each suitable question."
+  },
+  {
+   "topic": "1.6",
+   "q": "Say why food is important for human life and name two foods grown in Kenya. (3 marks)",
+   "marks": 3,
+   "answer": "Food gives energy to grow, learn and stay healthy. Examples are maize and bananas.",
+   "working": "1 mark for the importance and 1 mark each for two foods."
+  },
+  {
+   "topic": "1.8",
+   "q": "Translate into English: al-maa'u nadhiif",
+   "marks": 2,
+   "answer": "The water is clean.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.5",
+   "q": "Translate into English: ʿalaa t-taawilati kaʿka",
+   "marks": 2,
+   "answer": "On the table there is a cake.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.8",
+   "q": "Translate into English: al-jawwu ghaa'im",
+   "marks": 2,
+   "answer": "The weather is cloudy.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.8",
+   "q": "Describe three steps of making a weather poster. (3 marks)",
+   "marks": 3,
+   "answer": "Draw and colour the sun, clouds, rain and wind; write the Arabic word under each; add a sentence and a title and display it.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "3.4",
+   "q": "Explain why correct spelling is important in Arabic. (2 marks)",
+   "marks": 2,
+   "answer": "A missing letter or a wrong dot can change the word, so the reader may not understand.",
+   "working": "1 mark for a change in the word and 1 mark for understanding."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into English: anaa uhibbu l-hafla",
+   "marks": 2,
+   "answer": "I like the party.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.7",
+   "q": "Translate into English: aktubu bi-yadii",
+   "marks": 2,
+   "answer": "I write with my hand.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.2",
+   "q": "Translate into English: haadhaa abii",
+   "marks": 2,
+   "answer": "This is my father.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Translate into English: jismii qawiyy",
+   "marks": 2,
+   "answer": "My body is strong.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.8",
+   "q": "Write five weather or environment words in Arabic (English letters are fine) with their meanings. (5 marks)",
+   "marks": 5,
+   "answer": "For example shams (sun), sahaab (clouds), matar (rain), riih (wind), samaa' (sky).",
+   "working": "1 mark for each correct word with its meaning."
+  },
+  {
+   "topic": "3.4",
+   "q": "Describe how to carry out a dictation of the days of the week in pairs. (3 marks)",
+   "marks": 3,
+   "answer": "One learner says a day; the other repeats it, says the sounds and writes the letters from right to left; they check and correct together.",
+   "working": "1 mark for saying the day, 1 mark for writing and 1 mark for checking."
+  },
+  {
+   "topic": "2.7",
+   "q": "Translate into English: lii yadaani",
+   "marks": 2,
+   "answer": "I have two hands.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.5",
+   "q": "Translate into English: al-asdiqaa'u fii l-hafla. (2 marks)",
+   "marks": 2,
+   "answer": "The friends are at the party.",
+   "working": "1 mark for 'the friends' and 1 mark for 'at the party'."
+  },
+  {
+   "topic": "3.8",
+   "q": "Explain how the weather affects our daily life. Give two examples. (3 marks)",
+   "marks": 3,
+   "answer": "Rain helps crops to grow; hot sun makes us look for shade; we choose our clothes by the weather.",
+   "working": "1 mark for the idea and 1 mark for each example."
+  },
+  {
+   "topic": "1.7",
+   "q": "Translate into English: anaa araa biʿaynii",
+   "marks": 2,
+   "answer": "I see with my eye.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into English: al-asdiqaa'u ya'kuluuna l-kaʿka",
+   "marks": 2,
+   "answer": "The friends eat the cake.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.5",
+   "q": "Translate into English: kulla ʿaamin wa-antum bi-khayr",
+   "marks": 2,
+   "answer": "May you be well every year.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Explain how to build a vocabulary bank for the theme of the body. (3 marks)",
+   "marks": 3,
+   "answer": "Write each new word with its sound and meaning, add a small drawing, and keep the words on cards or a page for practice.",
+   "working": "1 mark for each valid step."
+  },
+  {
+   "topic": "1.8",
+   "q": "Translate into English: azraʿu shajara",
+   "marks": 2,
+   "answer": "I plant a tree.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.3",
+   "q": "Write the Arabic sounds and meanings of four position words. (4 marks)",
+   "marks": 4,
+   "answer": "fii (in), ʿalaa (on), taHta (under), fawqa (above).",
+   "working": "1 mark for each correct word with meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Describe three ways to work out the meaning of an unfamiliar word. (3 marks)",
+   "marks": 3,
+   "answer": "Use the sentence around the word; use a picture or a word you know; look it up in a dictionary or ask.",
+   "working": "1 mark for each way."
+  },
+  {
+   "topic": "1.3",
+   "q": "Translate into English: al-qittatu taHta s-sariir",
+   "marks": 2,
+   "answer": "The cat is under the bed.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.6",
+   "q": "Copy and translate the sentence أُحِبُّ الْخُبْزَ. (2 marks)",
+   "marks": 2,
+   "answer": "uhibbu l-khubza. I like bread.",
+   "working": "1 mark for a correct copy or sounds and 1 mark for the translation."
+  },
+  {
+   "topic": "2.4",
+   "q": "Translate into English: azuuru jaddatii yawma l-jumuʿa",
+   "marks": 2,
+   "answer": "I visit my grandmother on Friday.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.6",
+   "q": "Translate into English: aakulu l-khubza",
+   "marks": 2,
+   "answer": "I eat bread.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "2.5",
+   "q": "Explain why we celebrate special occasions and how pictures help us to understand a text. (3 marks)",
+   "marks": 3,
+   "answer": "Celebrations bring people together and give joy. Pictures show what a text is about and act as clues to new words.",
+   "working": "1 mark for celebrations and 2 marks for pictures as clues."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain why dots are important in Arabic letters. Give an example. (3 marks)",
+   "marks": 3,
+   "answer": "Some letters have the same body shape and differ only by their dots. For example baa has one dot below, taa has two dots above and thaa has three dots above.",
+   "working": "1 mark for same shape, 1 mark for dots make the difference and 1 mark for a correct example."
+  },
+  {
+   "topic": "3.9",
+   "q": "Translate into English: baytii kabiir",
+   "marks": 2,
+   "answer": "My house is big.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "3.8",
+   "q": "Write one Arabic sentence about today's weather in sounds and translate it. (2 marks)",
+   "marks": 2,
+   "answer": "For example al-jawwu baarid. The weather is cold.",
+   "working": "1 mark for a correct sentence and 1 mark for the translation."
+  },
+  {
+   "topic": "1.3",
+   "q": "Translate into English: anaa ʿinda l-baab",
+   "marks": 2,
+   "answer": "I am at the door.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  },
+  {
+   "topic": "1.8",
+   "q": "Translate into English: al-jawwu haarr",
+   "marks": 2,
+   "answer": "The weather is hot.",
+   "working": "1 mark for the subject or first part and 1 mark for the rest of the meaning."
+  }
+ ]
+}

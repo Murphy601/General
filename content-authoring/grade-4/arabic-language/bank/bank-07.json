@@ -1,0 +1,845 @@
+{
+ "mcq": [
+  {
+   "topic": "2.8",
+   "q": "How is the Arabic word حَارٌّ read aloud in English letters?",
+   "options": [
+    "nadhiif",
+    "sahaab",
+    "baarid",
+    "haarr"
+   ],
+   "answer": 3,
+   "explanation": "حَارٌّ is read haarr and means hot."
+  },
+  {
+   "topic": "2.1",
+   "q": "How do you read the syllable نَ?",
+   "options": [
+    "qaa",
+    "muu",
+    "na",
+    "ti"
+   ],
+   "answer": 2,
+   "explanation": "نَ is read na."
+  },
+  {
+   "topic": "2.3",
+   "q": "The sentence ʿalaa t-taawilati kuub says where a cup is. Where is it?",
+   "options": [
+    "Under the bed",
+    "In the bag",
+    "At the door",
+    "On the table"
+   ],
+   "answer": 3,
+   "explanation": "ʿalaa t-taawilati kuub means 'on the table there is a cup'."
+  },
+  {
+   "topic": "2.9",
+   "q": "How is the Arabic word تَحْتَ read aloud in English letters?",
+   "options": [
+    "amaama",
+    "fii",
+    "taHta",
+    "ʿinda"
+   ],
+   "answer": 2,
+   "explanation": "تَحْتَ is read taHta and means under."
+  },
+  {
+   "topic": "2.5",
+   "q": "What does the little word li- mean in li-Aminata?",
+   "options": [
+    "for",
+    "in",
+    "on",
+    "and"
+   ],
+   "answer": 0,
+   "explanation": "li- means 'for', so li-Aminata is 'for Amina'."
+  },
+  {
+   "topic": "3.1",
+   "q": "What is the name of the Arabic letter ب?",
+   "options": [
+    "baa",
+    "yaa",
+    "nuun",
+    "ghayn"
+   ],
+   "answer": 0,
+   "explanation": "The letter ب is called baa."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which Arabic word means \"family\"?",
+   "options": [
+    "أُخْتٌ",
+    "جَدَّةٌ",
+    "ابْنٌ",
+    "أُسْرَةٌ"
+   ],
+   "answer": 3,
+   "explanation": "أُسْرَةٌ (usra) means family."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which sound does the Arabic letter خ make?",
+   "options": [
+    "d as in dog",
+    "s as in sun",
+    "z as in zebra",
+    "kh, a throat sound like the ch in loch"
+   ],
+   "answer": 3,
+   "explanation": "The letter خ makes the sound kh, a throat sound like the ch in loch."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does the Arabic word أُخْتٌ (ukht) mean?",
+   "options": [
+    "sister",
+    "grandmother",
+    "family",
+    "father"
+   ],
+   "answer": 0,
+   "explanation": "أُخْتٌ (ukht) means sister."
+  },
+  {
+   "topic": "1.4",
+   "q": "How do you say 'on Monday'?",
+   "options": [
+    "al-yawm ithnayn",
+    "yawma l-ithnayn",
+    "usbuuʿ l-ithnayn",
+    "ghadan l-ithnayn"
+   ],
+   "answer": 1,
+   "explanation": "yawma l-ithnayn means 'on the day of Monday'."
+  },
+  {
+   "topic": "2.7",
+   "q": "What does jism mean?",
+   "options": [
+    "heart",
+    "head",
+    "body",
+    "hand"
+   ],
+   "answer": 2,
+   "explanation": "jism means body."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does the Arabic word بِنْتٌ (bint) mean?",
+   "options": [
+    "father's sister",
+    "mother's brother",
+    "daughter",
+    "son"
+   ],
+   "answer": 2,
+   "explanation": "بِنْتٌ (bint) means daughter."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does the Arabic word رَأْسٌ (raʾs) mean?",
+   "options": [
+    "eye",
+    "mouth",
+    "head",
+    "leg"
+   ],
+   "answer": 2,
+   "explanation": "رَأْسٌ (raʾs) means head."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which Arabic word means \"festival\"?",
+   "options": [
+    "بُرْتُقَالٌ",
+    "عِيدٌ",
+    "مَرْحَبًا",
+    "قَلَمٌ"
+   ],
+   "answer": 1,
+   "explanation": "عِيدٌ (ʿiid) means festival."
+  },
+  {
+   "topic": "3.8",
+   "q": "What does the Arabic sentence هَذِهِ شَمْسٌ mean?",
+   "options": [
+    "The sun is hot.",
+    "This is the sun.",
+    "The wind is strong.",
+    "This is rain."
+   ],
+   "answer": 1,
+   "explanation": "هَذِهِ شَمْسٌ (haadhihi shams) means: This is the sun."
+  },
+  {
+   "topic": "1.8",
+   "q": "What does the Arabic sentence كَيْفَ الْجَوُّ الْيَوْمَ؟ mean?",
+   "options": [
+    "The weather is hot.",
+    "The weather is cold.",
+    "How is the weather today?",
+    "The weather is rainy."
+   ],
+   "answer": 2,
+   "explanation": "كَيْفَ الْجَوُّ الْيَوْمَ؟ (kayfa l-jawwu l-yawm?) means: How is the weather today?"
+  },
+  {
+   "topic": "1.2",
+   "q": "What is meant by listening for the gist?",
+   "options": [
+    "Listening only for names",
+    "Repeating everything loudly",
+    "Listening for the main idea",
+    "Writing every word you hear"
+   ],
+   "answer": 2,
+   "explanation": "The gist is the main idea. You do not need to understand every word."
+  },
+  {
+   "topic": "1.5",
+   "q": "Why are special occasions important for a community?",
+   "options": [
+    "They bring people together and help them to live in peace",
+    "They make people quarrel",
+    "They are only for the rich",
+    "They are only for children"
+   ],
+   "answer": 0,
+   "explanation": "Celebrations bring families and friends together and build unity."
+  },
+  {
+   "topic": "3.5",
+   "q": "Which Arabic word means \"birthday\"?",
+   "options": [
+    "عِيدُ مِيلَادٍ",
+    "حَلْوَى",
+    "عَصِيرٌ",
+    "طَعَامٌ"
+   ],
+   "answer": 0,
+   "explanation": "عِيدُ مِيلَادٍ (ʿiid miilaad) means birthday."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which Arabic word means \"stand up\"?",
+   "options": [
+    "قِفْ",
+    "اِقْرَأْ",
+    "أَغْلِقِ الْبَابَ",
+    "اِسْمَعْ"
+   ],
+   "answer": 0,
+   "explanation": "قِفْ (qif) means stand up."
+  },
+  {
+   "topic": "1.8",
+   "q": "What does the Arabic sentence أَزْرَعُ شَجَرَةً mean?",
+   "options": [
+    "I plant a tree.",
+    "The weather is hot.",
+    "The weather is cold.",
+    "The weather is rainy."
+   ],
+   "answer": 0,
+   "explanation": "أَزْرَعُ شَجَرَةً (azraʿu shajara) means: I plant a tree."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which Arabic word means \"finger\"?",
+   "options": [
+    "إِصْبَعٌ",
+    "عَيْنٌ",
+    "رَأْسٌ",
+    "ظَهْرٌ"
+   ],
+   "answer": 0,
+   "explanation": "إِصْبَعٌ (isbaʿ) means finger."
+  },
+  {
+   "topic": "3.1",
+   "q": "What sits on the baseline in Arabic writing?",
+   "options": [
+    "Most of the letters",
+    "Only the dots",
+    "Nothing",
+    "Only the vowels"
+   ],
+   "answer": 0,
+   "explanation": "Most letters rest on the baseline. Alif stands tall above it."
+  },
+  {
+   "topic": "2.1",
+   "q": "How do you read the syllable نِ?",
+   "options": [
+    "su",
+    "ni",
+    "li",
+    "ti"
+   ],
+   "answer": 1,
+   "explanation": "نِ is read ni."
+  },
+  {
+   "topic": "2.6",
+   "q": "How is the Arabic word ذُرَةٌ read aloud in English letters?",
+   "options": [
+    "lahm",
+    "dhura",
+    "mawz",
+    "maa'"
+   ],
+   "answer": 1,
+   "explanation": "ذُرَةٌ is read dhura and means maize."
+  },
+  {
+   "topic": "3.6",
+   "q": "What does the Arabic sentence أَشْرَبُ الشَّايَ mean?",
+   "options": [
+    "I eat rice.",
+    "I drink tea.",
+    "The banana is delicious.",
+    "I am a pupil (girl)."
+   ],
+   "answer": 1,
+   "explanation": "أَشْرَبُ الشَّايَ (ashrabu sh-shaaya) means: I drink tea."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does the Arabic sentence أَشُمُّ بِأَنْفِي mean?",
+   "options": [
+    "I speak with my mouth.",
+    "I hear with my ear.",
+    "I smell with my nose.",
+    "I see with my eye."
+   ],
+   "answer": 2,
+   "explanation": "أَشُمُّ بِأَنْفِي (ashummu bi-anfii) means: I smell with my nose."
+  },
+  {
+   "topic": "2.4",
+   "q": "What does the Arabic sentence أَزُورُ جَدَّتِي يَوْمَ الْجُمُعَةِ mean?",
+   "options": [
+    "I visit my grandmother on Friday.",
+    "I help my mother on Saturday.",
+    "My mother cooks.",
+    "I read a book on Sunday."
+   ],
+   "answer": 0,
+   "explanation": "أَزُورُ جَدَّتِي يَوْمَ الْجُمُعَةِ (azuuru jaddatii yawma l-jumuʿa) means: I visit my grandmother on Friday."
+  },
+  {
+   "topic": "2.8",
+   "q": "What does the Arabic sentence الشَّمْسُ فِي السَّمَاءِ mean?",
+   "options": [
+    "Water is useful (good for you).",
+    "And the rain is from the sky.",
+    "How beautiful the environment is!",
+    "The sun is in the sky."
+   ],
+   "answer": 3,
+   "explanation": "الشَّمْسُ فِي السَّمَاءِ (ash-shamsu fii s-samaa'i) means: The sun is in the sky."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which Arabic word means \"read\"?",
+   "options": [
+    "اُخْرُجْ",
+    "افْتَحِ الْبَابَ",
+    "اِقْرَأْ",
+    "ارْفَعْ يَدَكَ"
+   ],
+   "answer": 2,
+   "explanation": "اِقْرَأْ (iqraʾ) means read."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does the Arabic sentence السَّمَكُ لَذِيذٌ mean?",
+   "options": [
+    "The juice is cold.",
+    "The fish is delicious.",
+    "Water is useful (good for you).",
+    "I like food."
+   ],
+   "answer": 1,
+   "explanation": "السَّمَكُ لَذِيذٌ (as-samaku ladhiidh) means: The fish is delicious."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which Arabic sentence means \"I like bananas.\"",
+   "options": [
+    "أَشْرَبُ الْمَاءَ",
+    "أُحِبُّ الْمَوْزَ",
+    "آكُلُ الْخُبْزَ",
+    "أُحِبُّ الْعَصِيرَ"
+   ],
+   "answer": 1,
+   "explanation": "أُحِبُّ الْمَوْزَ (uhibbu l-mawza) means: I like bananas."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which Arabic sentence means \"My sister reads.\"",
+   "options": [
+    "عِنْدِي أَخٌ وَأُخْتٌ",
+    "هَذَا أَبِي",
+    "هَذِهِ أُمِّي",
+    "أُخْتِي تَقْرَأُ"
+   ],
+   "answer": 3,
+   "explanation": "أُخْتِي تَقْرَأُ (ukhtii taqraʾu) means: My sister reads."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which Arabic sentence means \"Do you have a party? (to a boy)\"",
+   "options": [
+    "هَلْ عِنْدَكَ حَفْلَةٌ؟",
+    "عِيدٌ مُبَارَكٌ",
+    "كُلَّ عَامٍ وَأَنْتُمْ بِخَيْرٍ",
+    "عِيدُ مِيلَادٍ سَعِيدٌ"
+   ],
+   "answer": 0,
+   "explanation": "هَلْ عِنْدَكَ حَفْلَةٌ؟ (hal ʿindaka hafla?) means: Do you have a party? (to a boy)"
+  },
+  {
+   "topic": "2.2",
+   "q": "How do you read the syllable مُ?",
+   "options": [
+    "mu",
+    "na",
+    "ta",
+    "tu"
+   ],
+   "answer": 0,
+   "explanation": "مُ is read mu."
+  },
+  {
+   "topic": "3.3",
+   "q": "Why do people use pictures to communicate?",
+   "options": [
+    "Pictures can be understood by people who speak different languages",
+    "Pictures are only for children",
+    "Pictures are always words",
+    "Pictures have no meaning"
+   ],
+   "answer": 0,
+   "explanation": "A picture can carry a message without words."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does the Arabic word فَوْقَ (fawqa) mean?",
+   "options": [
+    "under",
+    "at (near, by)",
+    "beside",
+    "above"
+   ],
+   "answer": 3,
+   "explanation": "فَوْقَ (fawqa) means above."
+  },
+  {
+   "topic": "1.5",
+   "q": "What does the Arabic word بَالُونٌ (baaluun) mean?",
+   "options": [
+    "food",
+    "birthday",
+    "balloon",
+    "yes"
+   ],
+   "answer": 2,
+   "explanation": "بَالُونٌ (baaluun) means balloon."
+  },
+  {
+   "topic": "2.1",
+   "q": "How do you read the syllable سِ?",
+   "options": [
+    "bi",
+    "la",
+    "nu",
+    "si"
+   ],
+   "answer": 3,
+   "explanation": "سِ is read si."
+  },
+  {
+   "topic": "2.8",
+   "q": "How is the Arabic word بِيئَةٌ read aloud in English letters?",
+   "options": [
+    "zahra",
+    "bii'a",
+    "jabal",
+    "ghaa'im"
+   ],
+   "answer": 1,
+   "explanation": "بِيئَةٌ is read bii'a and means environment."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which line of the poem means 'My nose smells'?",
+   "options": [
+    "ʿaynii taraa",
+    "famii yatakallamu",
+    "anfii yashummu",
+    "udhunii tasmaʿu"
+   ],
+   "answer": 2,
+   "explanation": "anf is nose and yashummu means smells."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which Arabic word means \"plate\"?",
+   "options": [
+    "صَحْنٌ",
+    "سِكِّينٌ",
+    "مَطْبَخٌ",
+    "غُرْفَةٌ"
+   ],
+   "answer": 0,
+   "explanation": "صَحْنٌ (sahn) means plate."
+  },
+  {
+   "topic": "2.7",
+   "q": "How is the Arabic word كَتِفٌ read aloud in English letters?",
+   "options": [
+    "katif",
+    "raʾs",
+    "lisaan",
+    "wajh"
+   ],
+   "answer": 0,
+   "explanation": "كَتِفٌ is read katif and means shoulder."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does the word mufiid mean?",
+   "options": [
+    "big",
+    "useful",
+    "cold",
+    "delicious"
+   ],
+   "answer": 1,
+   "explanation": "mufiid means useful or good for you."
+  },
+  {
+   "topic": "1.4",
+   "q": "What does the Arabic word مَدْرَسَةٌ (madrasa) mean?",
+   "options": [
+    "day",
+    "yesterday",
+    "Monday",
+    "school"
+   ],
+   "answer": 3,
+   "explanation": "مَدْرَسَةٌ (madrasa) means school."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does the Arabic sentence فِي الْمَطْبَخِ طَاوِلَةٌ وَكُرْسِيٌّ mean?",
+   "options": [
+    "The house is big.",
+    "In the kitchen there is a table and a chair.",
+    "On the table there is a cup.",
+    "What is your name? (to a girl)"
+   ],
+   "answer": 1,
+   "explanation": "فِي الْمَطْبَخِ طَاوِلَةٌ وَكُرْسِيٌّ (fii l-matbakhi taawila wa kursii) means: In the kitchen there is a table and a chair."
+  },
+  {
+   "topic": "2.9",
+   "q": "How is the Arabic word أَمَامَ read aloud in English letters?",
+   "options": [
+    "ʿinda",
+    "amaama",
+    "fii",
+    "taHta"
+   ],
+   "answer": 1,
+   "explanation": "أَمَامَ is read amaama and means in front of."
+  },
+  {
+   "topic": "1.1",
+   "q": "How is the Arabic word مَا اسْمُكَ؟ read aloud in English letters?",
+   "options": [
+    "as-salaamu ʿalaykum",
+    "maa ismuka?",
+    "shukran",
+    "ahlan wa sahlan"
+   ],
+   "answer": 1,
+   "explanation": "مَا اسْمُكَ؟ is read maa ismuka? and means What is your name? (to a boy)."
+  },
+  {
+   "topic": "3.3",
+   "q": "How is the Arabic word صَحْنٌ read aloud in English letters?",
+   "options": [
+    "kitaab",
+    "hadiiqa",
+    "sahn",
+    "khizaana"
+   ],
+   "answer": 2,
+   "explanation": "صَحْنٌ is read sahn and means plate."
+  },
+  {
+   "topic": "1.4",
+   "q": "What does the Arabic word اِسْمَعْ (ismaʿ) mean?",
+   "options": [
+    "listen",
+    "write",
+    "open the door",
+    "read"
+   ],
+   "answer": 0,
+   "explanation": "اِسْمَعْ (ismaʿ) means listen."
+  },
+  {
+   "topic": "2.9",
+   "q": "How is the Arabic word مِلْعَقَةٌ read aloud in English letters?",
+   "options": [
+    "hadiiqa",
+    "qalam",
+    "baab",
+    "milʿaqa"
+   ],
+   "answer": 3,
+   "explanation": "مِلْعَقَةٌ is read milʿaqa and means spoon."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which Arabic word means \"father's brother\"?",
+   "options": [
+    "عَمٌّ",
+    "خَالَةٌ",
+    "جَدٌّ",
+    "جَدَّةٌ"
+   ],
+   "answer": 0,
+   "explanation": "عَمٌّ (ʿamm) means father's brother."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does the Arabic word عَيْنٌ (ʿayn) mean?",
+   "options": [
+    "leg",
+    "foot",
+    "eye",
+    "stomach"
+   ],
+   "answer": 2,
+   "explanation": "عَيْنٌ (ʿayn) means eye."
+  },
+  {
+   "topic": "2.6",
+   "q": "Which Arabic word means \"vegetables\"?",
+   "options": [
+    "فَوْقَ",
+    "خُبْزٌ",
+    "فَمٌ",
+    "خُضَارٌ"
+   ],
+   "answer": 3,
+   "explanation": "خُضَارٌ (khudaar) means vegetables."
+  },
+  {
+   "topic": "3.7",
+   "q": "What is a stanza?",
+   "options": [
+    "A group of lines in a poem",
+    "A spelling test",
+    "A kind of word",
+    "A drawing"
+   ],
+   "answer": 0,
+   "explanation": "A stanza is like a paragraph in a poem."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does the word يَا (yaa) do in مَرْحَبًا يَا أَحْمَدُ?",
+   "options": [
+    "It means 'in'",
+    "It means 'my'",
+    "It means 'and'",
+    "It calls a person, like 'O' or 'hey'"
+   ],
+   "answer": 3,
+   "explanation": "yaa is used to call someone by name."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which sound does the Arabic letter ز make?",
+   "options": [
+    "l as in lamp",
+    "th as in think",
+    "z as in zebra",
+    "dh as in this"
+   ],
+   "answer": 2,
+   "explanation": "The letter ز makes the sound z as in zebra."
+  },
+  {
+   "topic": "3.9",
+   "q": "What does the Arabic word تَحْتَ (taHta) mean?",
+   "options": [
+    "on",
+    "under",
+    "beside",
+    "behind"
+   ],
+   "answer": 1,
+   "explanation": "تَحْتَ (taHta) means under."
+  },
+  {
+   "topic": "2.2",
+   "q": "How is the Arabic word أَخٌ read aloud in English letters?",
+   "options": [
+    "usra",
+    "akh",
+    "ʿamma",
+    "khaal"
+   ],
+   "answer": 1,
+   "explanation": "أَخٌ is read akh and means brother."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which Arabic word means \"leg\"?",
+   "options": [
+    "أَنْفٌ",
+    "عَيْنٌ",
+    "رِجْلٌ",
+    "قَلْبٌ"
+   ],
+   "answer": 2,
+   "explanation": "رِجْلٌ (rijl) means leg."
+  },
+  {
+   "topic": "2.1",
+   "q": "What is the name of the Arabic letter ظ?",
+   "options": [
+    "ʿayn",
+    "Daad",
+    "Haa",
+    "DHaa"
+   ],
+   "answer": 3,
+   "explanation": "The letter ظ is called DHaa."
+  },
+  {
+   "topic": "1.8",
+   "q": "What does the Arabic sentence الْجَوُّ حَارٌّ mean?",
+   "options": [
+    "The weather is cloudy.",
+    "The weather is rainy.",
+    "The weather is hot.",
+    "The weather is cold."
+   ],
+   "answer": 2,
+   "explanation": "الْجَوُّ حَارٌّ (al-jawwu haarr) means: The weather is hot."
+  },
+  {
+   "topic": "1.1",
+   "q": "What does the Arabic word أَهْلًا وَسَهْلًا (ahlan wa sahlan) mean?",
+   "options": [
+    "good morning (the reply)",
+    "I",
+    "welcome",
+    "I am well"
+   ],
+   "answer": 2,
+   "explanation": "أَهْلًا وَسَهْلًا (ahlan wa sahlan) means welcome."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does the Arabic word يَدٌ (yad) mean?",
+   "options": [
+    "hand",
+    "shoulder",
+    "body",
+    "finger"
+   ],
+   "answer": 0,
+   "explanation": "يَدٌ (yad) means hand."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which is a rule of good turn taking?",
+   "options": [
+    "Speak at the same time as others",
+    "Wait until the speaker has finished",
+    "Shout to be heard",
+    "Interrupt without saying anything"
+   ],
+   "answer": 1,
+   "explanation": "Good speakers wait for their turn and use polite words if they must interrupt."
+  },
+  {
+   "topic": "3.1",
+   "q": "What is the name of the Arabic letter س?",
+   "options": [
+    "waaw",
+    "siin",
+    "alif",
+    "jiim"
+   ],
+   "answer": 1,
+   "explanation": "The letter س is called siin."
+  },
+  {
+   "topic": "1.7",
+   "q": "How is the Arabic word رِجْلٌ read aloud in English letters?",
+   "options": [
+    "rijl",
+    "jism",
+    "qalb",
+    "isbaʿ"
+   ],
+   "answer": 0,
+   "explanation": "رِجْلٌ is read rijl and means leg."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which Arabic sentence means \"Do you like bananas?\"",
+   "options": [
+    "أُحِبُّ الْمَوْزَ",
+    "آكُلُ الْخُبْزَ",
+    "أَشْرَبُ الْمَاءَ",
+    "هَلْ تُحِبُّ الْمَوْزَ؟"
+   ],
+   "answer": 3,
+   "explanation": "هَلْ تُحِبُّ الْمَوْزَ؟ (hal tuhibbu l-mawz?) means: Do you like bananas?"
+  },
+  {
+   "topic": "1.6",
+   "q": "What does the Arabic word لَحْمٌ (lahm) mean?",
+   "options": [
+    "carrots",
+    "meat",
+    "potatoes",
+    "maize"
+   ],
+   "answer": 1,
+   "explanation": "لَحْمٌ (lahm) means meat."
+  },
+  {
+   "topic": "2.8",
+   "q": "Which Arabic word means \"cold\"?",
+   "options": [
+    "بَارِدٌ",
+    "حَارٌّ",
+    "جَمِيلٌ",
+    "نَهْرٌ"
+   ],
+   "answer": 0,
+   "explanation": "بَارِدٌ (baarid) means cold."
+  }
+ ],
+ "short": []
+}

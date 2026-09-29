@@ -1,0 +1,772 @@
+{
+ "mcq": [
+  {
+   "topic": "2.1.1",
+   "q": "Salamu \"Shikamoo\" hutolewa na nani kwa nani?",
+   "options": [
+    "Mtoto kwa mtu mzima",
+    "Mtu mzima kwa mtoto",
+    "Rafiki kwa rafiki wa umri sawa",
+    "Mtu yeyote kwa mtoto mdogo"
+   ],
+   "answer": 0,
+   "explanation": "Shikamoo ni salamu ya heshima kwa mkubwa."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Jibu la \"Shikamoo\" ni lipi?",
+   "options": [
+    "Sijambo",
+    "Hatujambo",
+    "Kwaheri",
+    "Marahaba"
+   ],
+   "answer": 3,
+   "explanation": "Marahaba ni jibu la Shikamoo."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Jibu la \"Hamjambo?\" ni lipi?",
+   "options": [
+    "Sijambo",
+    "Marahaba",
+    "Hatujambo",
+    "Karibu"
+   ],
+   "answer": 2,
+   "explanation": "Hamjambo huwauliza watu wengi."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Mgeni anayefika mlangoni husema nini?",
+   "options": [
+    "Alamsiki",
+    "Hodi",
+    "Kwaheri",
+    "Pole"
+   ],
+   "answer": 1,
+   "explanation": "Hodi humwomba mwenyeji ruhusa ya kuingia."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Mwenyeji humjibu mgeni aliyesema \"Hodi\" kwa neno gani?",
+   "options": [
+    "Karibu",
+    "Marahaba",
+    "Kwaheri",
+    "Alamsiki"
+   ],
+   "answer": 0,
+   "explanation": "Karibu huruhusu mgeni kuingia."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Ni salamu ipi ya kusema usiku kabla ya kulala?",
+   "options": [
+    "Habari za asubuhi",
+    "Habari za mchana",
+    "Hodi",
+    "Lala salama"
+   ],
+   "answer": 3,
+   "explanation": "Lala salama ni ya usiku."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Mtu anayekwenda safari huambiwa nini?",
+   "options": [
+    "Usiku mwema",
+    "Marahaba",
+    "Safari njema",
+    "Hodi"
+   ],
+   "answer": 2,
+   "explanation": "Safari njema ni ya kumtakia mema msafiri."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Asubuhi tunasalimiana kwa kuuliza nini?",
+   "options": [
+    "Habari za jioni?",
+    "Habari za asubuhi?",
+    "Lala salama?",
+    "Kwaheri?"
+   ],
+   "answer": 1,
+   "explanation": "Habari za asubuhi hutumika asubuhi."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Mtu akiumwa tunamwambia nini?",
+   "options": [
+    "Pole",
+    "Hodi",
+    "Shikamoo",
+    "Alamsiki"
+   ],
+   "answer": 0,
+   "explanation": "Pole hutumika kumfariji."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Jibu la \"Umeamkaje?\" ni lipi?",
+   "options": [
+    "Marahaba",
+    "Kwaheri",
+    "Hodi",
+    "Nimeamka salama"
+   ],
+   "answer": 3,
+   "explanation": "Umeamkaje huulizwa asubuhi."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Maagano ni maneno ya kusema tunapofanya nini?",
+   "options": [
+    "Kukutana na mtu",
+    "Kula chakula",
+    "Kutengana na mtu",
+    "Kuandika barua"
+   ],
+   "answer": 2,
+   "explanation": "Maagano ni maneno ya kuaga."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Kitabu chenye maneno na maana zake kilichopangwa kwa alfabeti kinaitwaje?",
+   "options": [
+    "Riwaya",
+    "Kamusi",
+    "Shairi",
+    "Daftari"
+   ],
+   "answer": 1,
+   "explanation": "Kamusi hutoa maana za maneno."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Maneno yamepangwa kwa mpangilio upi katika kamusi?",
+   "options": [
+    "Wa alfabeti",
+    "Wa urefu",
+    "Wa rangi",
+    "Wa umri"
+   ],
+   "answer": 0,
+   "explanation": "Alfabeti ndio mpangilio wa kamusi."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Ni mpangilio upi umepangwa kwa alfabeti?",
+   "options": [
+    "penseli, kiti, dada, baba",
+    "dada, baba, penseli, kiti",
+    "kiti, baba, penseli, dada",
+    "baba, dada, kiti, penseli"
+   ],
+   "answer": 3,
+   "explanation": "Herufi za kwanza ni b, d, k, p."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Kitenzi \"kucheza\" hutafutwa chini ya herufi ipi?",
+   "options": [
+    "k",
+    "u",
+    "c",
+    "z"
+   ],
+   "answer": 2,
+   "explanation": "Vitenzi hutafutwa bila ku-, kwa hiyo cheza iko chini ya c."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Maneno ya mwongozo juu ya ukurasa wa kamusi huonyesha nini?",
+   "options": [
+    "Jina la mwandishi",
+    "Neno la kwanza na la mwisho la ukurasa",
+    "Idadi ya kurasa",
+    "Nambari ya kitabu"
+   ],
+   "answer": 1,
+   "explanation": "Ni maneno mawili yanayoonyesha mwanzo na mwisho wa ukurasa."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Neno lipi linakuja kwanza kwa alfabeti?",
+   "options": [
+    "embe",
+    "fagio",
+    "ndizi",
+    "saa"
+   ],
+   "answer": 0,
+   "explanation": "E huja kabla ya f, n na s."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Unatafuta neno \"mvungu\". Unaanza na herufi gani?",
+   "options": [
+    "v",
+    "u",
+    "n",
+    "m"
+   ],
+   "answer": 3,
+   "explanation": "Herufi ya kwanza ya mvungu ni m."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Ukikuta maana zaidi ya moja ya neno, unafanya nini?",
+   "options": [
+    "Chukua ya kwanza kila mara",
+    "Usisome",
+    "Chagua inayofaa kwenye sentensi yako",
+    "Kunakili zote"
+   ],
+   "answer": 2,
+   "explanation": "Maana sahihi hutegemea muktadha."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Maneno \"mama, mbuzi, meza, mtoto\" yamepangwa kwa alfabeti kwa kuangalia herufi ipi?",
+   "options": [
+    "Herufi ya mwisho",
+    "Herufi ya pili",
+    "Urefu wa neno",
+    "Herufi ya kwanza tu"
+   ],
+   "answer": 1,
+   "explanation": "Herufi ya kwanza ni m katika yote, kwa hiyo tunaangalia ya pili."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Ni kwa nini tunatumia kamusi?",
+   "options": [
+    "Kujua maana za maneno mapya",
+    "Kuandika hadithi",
+    "Kupika",
+    "Kuchora"
+   ],
+   "answer": 0,
+   "explanation": "Kamusi hukuza msamiati."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Insha ya masimulizi husimulia nini?",
+   "options": [
+    "Sifa za mtu",
+    "Hatua za kupika",
+    "Orodha ya vitu",
+    "Kisa kilichofuatana"
+   ],
+   "answer": 3,
+   "explanation": "Masimulizi huhusu matukio yanayofuatana."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Sehemu ya insha yenye funzo la kisa ni ipi?",
+   "options": [
+    "Anwani",
+    "Mwanzo",
+    "Mwisho",
+    "Kiini"
+   ],
+   "answer": 2,
+   "explanation": "Funzo hutolewa mwishoni."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Ni neno lipi ni la kufuatanisha matukio?",
+   "options": [
+    "mrefu",
+    "kisha",
+    "kalamu",
+    "mzuri"
+   ],
+   "answer": 1,
+   "explanation": "Kisha huonyesha kitendo kinachofuata."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Ni kitenzi kipi cha wakati uliopita?",
+   "options": [
+    "alikula",
+    "anakula",
+    "atakula",
+    "hula"
+   ],
+   "answer": 0,
+   "explanation": "Alikula lina -li-."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Ni nini nidhamu mezani?",
+   "options": [
+    "Kula haraka",
+    "Kuzungumza kwa sauti kubwa",
+    "Kuchagua chakula",
+    "Tabia njema tunapokula"
+   ],
+   "answer": 3,
+   "explanation": "Nidhamu mezani ni adabu wakati wa kula."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Jambo lipi ni nidhamu njema mezani?",
+   "options": [
+    "Kula mdomo umejaa na kuzungumza",
+    "Kuondoka bila kushukuru",
+    "Kunawa mikono kabla ya kula",
+    "Kuchukua chakula chote"
+   ],
+   "answer": 2,
+   "explanation": "Kunawa mikono ni tabia njema."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Sehemu ya insha yenye matukio yanayofuatana ni ipi?",
+   "options": [
+    "Anwani",
+    "Kiini",
+    "Mwisho",
+    "Vidokezo"
+   ],
+   "answer": 1,
+   "explanation": "Kiini hubeba matukio makuu."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Ni maneno yapi ya kufuatanisha kwa mpangilio sahihi?",
+   "options": [
+    "kwanza, kisha, mwishowe",
+    "mwishowe, kwanza, kisha",
+    "kisha, mwishowe, kwanza",
+    "mwishowe, kisha, kwanza"
+   ],
+   "answer": 0,
+   "explanation": "Kwanza huanza, kisha hufuata na mwishowe humaliza."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Insha ya masimulizi huandikwa kwa wakati upi mara nyingi?",
+   "options": [
+    "Ujao",
+    "Uliopo pekee",
+    "Bila wakati",
+    "Uliopita"
+   ],
+   "answer": 3,
+   "explanation": "Kisa kilishatokea."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Ni kipi kinafaa kwa anwani ya insha ya masimulizi?",
+   "options": [
+    "mezani",
+    "Nidhamu",
+    "Siku Niliyojifunza Nidhamu Mezani",
+    "Kula"
+   ],
+   "answer": 2,
+   "explanation": "Anwani nzuri huonyesha kisa kinahusu nini."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Kiwakilishi ni neno linalosimama mahali pa nini?",
+   "options": [
+    "Kitenzi",
+    "Nomino",
+    "Kivumishi",
+    "Kielezi"
+   ],
+   "answer": 1,
+   "explanation": "Kiwakilishi huchukua nafasi ya nomino."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Ni kiwakilishi kipi cha nafsi ya kwanza umoja?",
+   "options": [
+    "mimi",
+    "wewe",
+    "yeye",
+    "sisi"
+   ],
+   "answer": 0,
+   "explanation": "Mimi ni mtu anayesema."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Ni kiwakilishi kipi cha nafsi ya pili wingi?",
+   "options": [
+    "wewe",
+    "sisi",
+    "wao",
+    "ninyi"
+   ],
+   "answer": 3,
+   "explanation": "Ninyi huwakilisha watu wengi wanaoambiwa."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Ni kiwakilishi kipi kinafaa: \"Juma ni mwalimu. ________ hufundisha Kiswahili.\"",
+   "options": [
+    "Mimi",
+    "Wao",
+    "Yeye",
+    "Sisi"
+   ],
+   "answer": 2,
+   "explanation": "Yeye linarejelea Juma."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Wingi wa \"huyu\" ni upi?",
+   "options": [
+    "hao",
+    "hawa",
+    "hii",
+    "hiki"
+   ],
+   "answer": 1,
+   "explanation": "Hawa ni wingi wa huyu."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Kiwakilishi cha kuonyesha kitu cha ki- kilicho mbali ni kipi?",
+   "options": [
+    "kile",
+    "hiki",
+    "hicho",
+    "huyu"
+   ],
+   "answer": 0,
+   "explanation": "Kile ni cha mbali."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Kiwakilishi cha nafsi ya tatu wingi ni kipi?",
+   "options": [
+    "sisi",
+    "ninyi",
+    "wewe",
+    "wao"
+   ],
+   "answer": 3,
+   "explanation": "Wao huwakilisha watu wengi wanaozungumzwa."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Katika sentensi \"Sisi tunacheza uwanjani\", kiwakilishi ni kipi?",
+   "options": [
+    "tunacheza",
+    "uwanjani",
+    "Sisi",
+    "Hakuna"
+   ],
+   "answer": 2,
+   "explanation": "Sisi linasimama badala ya majina yetu."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Ni kiwakilishi kipi kinafaa: \"________ ni wanafunzi wetu wapya\" (watu wengi walio karibu)?",
+   "options": [
+    "Huyu",
+    "Hawa",
+    "Hiki",
+    "Hii"
+   ],
+   "answer": 1,
+   "explanation": "Hawa hutumika kwa watu wengi walio karibu."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Ni kiwakilishi kipi cha kuonyesha mti ulio karibu?",
+   "options": [
+    "huu",
+    "hiki",
+    "hawa",
+    "hao"
+   ],
+   "answer": 0,
+   "explanation": "Huu hutumika kwa nomino za U-I zilizo karibu."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Kielezi ni neno linaloeleza zaidi kuhusu nini?",
+   "options": [
+    "Nomino",
+    "Kivumishi",
+    "Kiunganishi",
+    "Kitenzi"
+   ],
+   "answer": 3,
+   "explanation": "Kielezi hueleza kitenzi."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Ni kielezi kipi cha namna?",
+   "options": [
+    "jana",
+    "sokoni",
+    "polepole",
+    "kesho"
+   ],
+   "answer": 2,
+   "explanation": "Polepole huonyesha jinsi kitendo kilivyofanyika."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Ni kielezi kipi cha wakati?",
+   "options": [
+    "polepole",
+    "jana",
+    "uwanjani",
+    "sana"
+   ],
+   "answer": 1,
+   "explanation": "Jana linaeleza lini."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Ni kielezi kipi cha mahali?",
+   "options": [
+    "shuleni",
+    "kesho",
+    "sana",
+    "haraka"
+   ],
+   "answer": 0,
+   "explanation": "Shuleni linaeleza mahali."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Ni kielezi kipi cha kiasi?",
+   "options": [
+    "jana",
+    "hapa",
+    "polepole",
+    "sana"
+   ],
+   "answer": 3,
+   "explanation": "Sana huonyesha kiasi."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Katika \"Mama anapika vizuri\", kielezi ni kipi?",
+   "options": [
+    "Mama",
+    "anapika",
+    "vizuri",
+    "Hakuna"
+   ],
+   "answer": 2,
+   "explanation": "Vizuri linaeleza jinsi mama anavyopika."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Kielezi kinajibu swali gani mara nyingi?",
+   "options": [
+    "Nani",
+    "Vipi, lini, wapi au kiasi gani",
+    "Nini",
+    "Ngapi tu"
+   ],
+   "answer": 1,
+   "explanation": "Vielezi hueleza namna, wakati, mahali na kiasi."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Ni sentensi ipi ina kielezi cha wakati?",
+   "options": [
+    "Tutakwenda sokoni kesho.",
+    "Mtoto mzuri anacheza.",
+    "Kitabu kiko mezani.",
+    "Mama ni mwalimu."
+   ],
+   "answer": 0,
+   "explanation": "Kesho ni wakati."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Neno \"shuleni\" katika \"Wanasoma shuleni\" ni nini?",
+   "options": [
+    "Kielezi cha wakati",
+    "Kivumishi",
+    "Kiunganishi",
+    "Kielezi cha mahali"
+   ],
+   "answer": 3,
+   "explanation": "Shuleni linaeleza mahali kitendo kinapofanyika."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Kielezi kipi kinafaa: \"Nimechelewa, ninakimbia ________.\"",
+   "options": [
+    "polepole",
+    "jana",
+    "haraka",
+    "shuleni"
+   ],
+   "answer": 2,
+   "explanation": "Kimbia haraka huonyesha kuchelewa."
+  }
+ ],
+ "short": [
+  {
+   "topic": "2.1.1",
+   "q": "Taja maamkuzi matatu na majibu yake.",
+   "marks": 3,
+   "answer": "Mfano: Hujambo? Sijambo. Shikamoo. Marahaba. Hamjambo? Hatujambo.",
+   "working": "Alama moja kwa kila salamu na jibu lake."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Taja maagano matatu yanayotumika katika Kiswahili.",
+   "marks": 3,
+   "answer": "Kwaheri, Tutaonana kesho, Safari njema, Lala salama, Alamsiki (yoyote matatu).",
+   "working": "Alama moja kwa kila kuaga sahihi."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Eleza kwa nini ni muhimu kuamkua na kuaga watu.",
+   "marks": 2,
+   "answer": "Huonyesha heshima na upendo na hujenga urafiki.",
+   "working": "Alama moja kwa kila sababu."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Andika mazungumzo mafupi ya mistari minne kati ya mtoto na babu yake asubuhi.",
+   "marks": 4,
+   "answer": "Mfano: Shikamoo, babu. / Marahaba, mjukuu wangu. Umeamkaje? / Nimeamka salama, babu. / Nzuri.",
+   "working": "Alama moja kwa kila mstari sahihi."
+  },
+  {
+   "topic": "2.1.1",
+   "q": "Eleza jinsi salamu zinavyoweza kutofautiana kati ya jamii mbalimbali na kwa nini tuziheshimu zote.",
+   "marks": 3,
+   "answer": "Jamii tofauti zina salamu tofauti kulingana na utamaduni wao. Zote zinaonyesha heshima, kwa hiyo tuziheshimu.",
+   "working": "Alama moja kwa tofauti, moja kwa sababu ya utamaduni na moja kwa kuheshimu."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Panga kwa alfabeti: mbuzi, kalamu, embe, ndizi, saa.",
+   "marks": 2,
+   "answer": "embe, kalamu, mbuzi, ndizi, saa.",
+   "working": "Alama mbili kwa mpangilio sahihi wote; alama moja ikiwa neno moja au mawili yamekosewa."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Eleza hatua tatu za kutafuta neno kwenye kamusi.",
+   "marks": 3,
+   "answer": "Tazama herufi ya kwanza; tumia maneno ya mwongozo; soma maana ya neno.",
+   "working": "Alama moja kwa kila hatua."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Eleza kwa nini tunatafuta \"soma\" badala ya \"kusoma\" tunapotafuta kitenzi kwenye kamusi.",
+   "marks": 2,
+   "answer": "Vitenzi hutafutwa bila ku- mwanzoni, kwa hiyo huwa chini ya herufi ya kwanza ya shina.",
+   "working": "Alama moja kwa kanuni na moja kwa mfano."
+  },
+  {
+   "topic": "2.2.1",
+   "q": "Taja hatua nne za usalama unapotumia kamusi ya mtandaoni.",
+   "marks": 4,
+   "answer": "Tumia tovuti salama; usitoe jina kamili wala anwani; usiwasiliane na watu usiowajua; mwambie mwalimu au mzazi ukipata ujumbe wa kutisha.",
+   "working": "Alama moja kwa kila hatua."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Taja sehemu nne za insha ya masimulizi.",
+   "marks": 2,
+   "answer": "Anwani, mwanzo, kiini na mwisho.",
+   "working": "Nusu alama kwa kila sehemu."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Andika sentensi tatu za kufuatanisha zenye \"kwanza\", \"kisha\" na \"mwishowe\" kuhusu jinsi unavyokula.",
+   "marks": 3,
+   "answer": "Mfano: Kwanza nilinawa mikono. Kisha nilikaa mezani. Mwishowe nilishukuru.",
+   "working": "Alama moja kwa kila sentensi sahihi."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Andika vidokezo vya insha ya masimulizi yenye anwani \"Chakula cha mchana shuleni\".",
+   "marks": 4,
+   "answer": "Mwanzo: kengele inagonga; Kiini: tunanawa, tunapanga mstari, tunakula kwa adabu; Mwisho: tunashukuru na kurudi darasani.",
+   "working": "Alama moja kwa mwanzo, mbili kwa kiini na moja kwa mwisho."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Andika aya ya mwisho ya insha ya masimulizi yenye funzo kuhusu nidhamu mezani.",
+   "marks": 3,
+   "answer": "Mfano: Tangu siku hiyo nilijifunza kwamba nidhamu mezani huonyesha heshima. Nitaendelea kunawa mikono na kushukuru kila siku.",
+   "working": "Alama moja kwa funzo, moja kwa sentensi sahihi na moja kwa uakifishaji."
+  },
+  {
+   "topic": "2.3.1",
+   "q": "Andika insha fupi ya aya nne yenye anwani \"Siku ya wageni nyumbani\".",
+   "marks": 5,
+   "answer": "Insha yenye anwani, mwanzo, kiini chenye matukio na mwisho wenye funzo.",
+   "working": "Alama moja kwa anwani, moja kwa mwanzo, mbili kwa kiini na moja kwa mwisho."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Taja viwakilishi vitatu vya nafsi.",
+   "marks": 3,
+   "answer": "mimi, wewe, yeye, sisi, ninyi, wao (vitatu vyovyote).",
+   "working": "Alama moja kwa kila kimoja."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Andika upya sentensi ukitumia kiwakilishi: \"Amina anasoma. Amina anapenda vitabu.\"",
+   "marks": 2,
+   "answer": "Amina anasoma. Yeye anapenda vitabu.",
+   "working": "Alama moja kwa yeye na moja kwa sentensi sahihi."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Andika sentensi mbili zenye viwakilishi \"huyu\" na \"hawa\".",
+   "marks": 3,
+   "answer": "Mfano: Huyu ni mwalimu wangu. Hawa ni wanafunzi wa darasa la nne.",
+   "working": "Alama moja kwa kila sentensi na moja kwa matumizi sahihi."
+  },
+  {
+   "topic": "2.4.1",
+   "q": "Eleza kwa nini viwakilishi ni muhimu katika sentensi.",
+   "marks": 2,
+   "answer": "Huepusha kurudia nomino nyingi na kufanya sentensi ziwe fupi na nzuri.",
+   "working": "Alama moja kwa kila hoja."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Taja vielezi vitatu vya namna.",
+   "marks": 3,
+   "answer": "polepole, haraka, vizuri, kwa makini (vitatu vyovyote).",
+   "working": "Alama moja kwa kila kimoja."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Tambua vielezi katika: \"Baba alirudi jana jioni nyumbani.\"",
+   "marks": 3,
+   "answer": "jana, jioni, nyumbani.",
+   "working": "Alama moja kwa kila kielezi."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Tunga sentensi yenye kielezi cha namna, cha mahali na cha wakati.",
+   "marks": 4,
+   "answer": "Mfano: Wanafunzi walisoma kwa makini shuleni asubuhi.",
+   "working": "Alama moja kwa sentensi na moja kwa kila kielezi sahihi."
+  },
+  {
+   "topic": "2.4.2",
+   "q": "Eleza tofauti kati ya kivumishi na kielezi kwa mifano.",
+   "marks": 4,
+   "answer": "Kivumishi hueleza nomino, kwa mfano mtoto mwerevu. Kielezi hueleza kitenzi, kwa mfano anaandika vizuri.",
+   "working": "Alama mbili kwa maelezo na mbili kwa mifano."
+  }
+ ]
+}

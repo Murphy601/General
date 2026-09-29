@@ -1,0 +1,125 @@
+{
+ "mcq": [
+  {
+   "topic": "1.8",
+   "q": "Simplify 5x + 3y − 2x + y.",
+   "options": [
+    "7xy",
+    "3x + 2y",
+    "3x + 4y",
+    "7x + 4y"
+   ],
+   "answer": 2,
+   "explanation": "Only like terms can be joined. 5x + 3y − 2x + y = 3x + 4y."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify 2c + 3d + 4c.",
+   "options": [
+    "9cd",
+    "2c + 7d",
+    "6c + 7d",
+    "6c + 3d"
+   ],
+   "answer": 3,
+   "explanation": "Only like terms can be joined. 2c + 3d + 4c = 6c + 3d."
+  },
+  {
+   "topic": "1.8",
+   "q": "Simplify 8y + 2 − 3y.",
+   "options": [
+    "11y + 2",
+    "5y + 2",
+    "5y − 2",
+    "7y"
+   ],
+   "answer": 1,
+   "explanation": "Only like terms can be joined. 8y + 2 − 3y = 5y + 2."
+  },
+  {
+   "topic": "1.8",
+   "q": "What does 4m mean?",
+   "options": [
+    "4 × m",
+    "4 + m",
+    "4 − m",
+    "4 ÷ m"
+   ],
+   "answer": 0,
+   "explanation": "A number written next to a letter means multiply. 4m is 4 times m."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which pair are like terms?",
+   "options": [
+    "3a and 5b",
+    "3a and 5a",
+    "2x and 2y",
+    "4 and 4z"
+   ],
+   "answer": 1,
+   "explanation": "Like terms have the same letter. 3a and 5a both have the letter a."
+  },
+  {
+   "topic": "1.8",
+   "q": "Why can 2a + 3b not be written as 5ab?",
+   "options": [
+    "Because 2 + 3 is not 5",
+    "Because letters can only be added to numbers",
+    "Because ab is not a letter",
+    "a and b are different things, so the terms cannot be joined"
+   ],
+   "answer": 3,
+   "explanation": "a and b stand for different kinds of things, so 2a and 3b are not like terms. The expression stays as 2a + 3b."
+  },
+  {
+   "topic": "1.8",
+   "q": "A matatu carries m passengers. Eight get in and three get out. Which expression shows the number of passengers now?",
+   "options": [
+    "m + 11",
+    "m − 5",
+    "m + 5",
+    "8m − 3"
+   ],
+   "answer": 2,
+   "explanation": "m + 8 − 3 = m + 5."
+  },
+  {
+   "topic": "1.8",
+   "q": "Otieno is a years old. His sister is 3 years older. Which expression shows his sister's age?",
+   "options": [
+    "a + 3",
+    "a − 3",
+    "3a",
+    "a ÷ 3"
+   ],
+   "answer": 0,
+   "explanation": "Older means add, so her age is a + 3."
+  },
+  {
+   "topic": "1.8",
+   "q": "Wairimu had d shillings and spent 45 shillings. Which expression shows the money she has left?",
+   "options": [
+    "d − 45",
+    "d + 45",
+    "45 − d",
+    "45d"
+   ],
+   "answer": 0,
+   "explanation": "Spent means take away, so she has d − 45 left."
+  },
+  {
+   "topic": "1.8",
+   "q": "In the expression 3m + 2o, what does the letter o stand for if m is a bag of mangoes and 2o is 2 bags of oranges?",
+   "options": [
+    "Two bags of mangoes",
+    "The number 2",
+    "One bag of oranges",
+    "The total number of bags"
+   ],
+   "answer": 2,
+   "explanation": "The letter o stands for one bag of oranges. The number 2 in front tells us how many bags."
+  }
+ ],
+ "short": []
+}

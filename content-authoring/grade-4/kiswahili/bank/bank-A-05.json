@@ -1,0 +1,646 @@
+{
+ "mcq": [
+  {
+   "topic": "5.1.1",
+   "q": "Methali ni nini?",
+   "options": [
+    "Maneno mafupi yenye hekima na ushauri",
+    "Fumbo lenye jibu",
+    "Wimbo wa harusi",
+    "Insha ndefu"
+   ],
+   "answer": 0,
+   "explanation": "Methali hutoa mafunzo."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Kamilisha: \"Mtoto umleavyo ________.\"",
+   "options": [
+    "ni nyoka",
+    "angali mbichi",
+    "hajikwai",
+    "ndivyo akuavyo"
+   ],
+   "answer": 3,
+   "explanation": "Methali kamili ni Mtoto umleavyo ndivyo akuavyo."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Kamilisha: \"Mtoto wa nyoka ________.\"",
+   "options": [
+    "ndivyo akuavyo",
+    "hutazama kisogo",
+    "ni nyoka",
+    "angali mbichi"
+   ],
+   "answer": 2,
+   "explanation": "Mtoto wa nyoka ni nyoka."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Kamilisha: \"Samaki mkunje ________.\"",
+   "options": [
+    "akiwa mkubwa",
+    "angali mbichi",
+    "ndivyo akuavyo",
+    "hajikwai"
+   ],
+   "answer": 1,
+   "explanation": "Samaki mkunje angali mbichi."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Kamilisha: \"Mtoto hutazama ________.\"",
+   "options": [
+    "kisogo cha nina",
+    "mkono wa baba",
+    "mguu wa mama",
+    "paa la nyumba"
+   ],
+   "answer": 0,
+   "explanation": "Mtoto hutazama kisogo cha nina."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "\"Mtoto wa nyoka ni nyoka\" inafundisha nini?",
+   "options": [
+    "Nyoka ni hatari",
+    "Watoto hawapendi nyoka",
+    "Nyoka hula watoto",
+    "Mtoto huiga tabia za wazazi"
+   ],
+   "answer": 3,
+   "explanation": "Methali ina maana ya ndani kuhusu malezi."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "\"Samaki mkunje angali mbichi\" inafundisha nini?",
+   "options": [
+    "Samaki hupikwa mbichi",
+    "Mtoto asifundishwe",
+    "Mtoto afundishwe tabia njema akiwa mdogo",
+    "Watu wazee tu wafundishwe"
+   ],
+   "answer": 2,
+   "explanation": "Ni rahisi kumfundisha mtoto akiwa mdogo."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "\"Asiyesikia la mkuu huvunjika guu\" inamaanisha nini?",
+   "options": [
+    "Wakubwa huvunjika miguu",
+    "Asiyesikia ushauri hupata matatizo",
+    "Miguu ni dhaifu",
+    "Watu hukimbia sana"
+   ],
+   "answer": 1,
+   "explanation": "Kutosikiliza ushauri huleta matatizo."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "\"Mwenda pole hajikwai\" inafundisha nini?",
+   "options": [
+    "Kufanya mambo kwa uangalifu huepusha makosa",
+    "Kutembea ni vibaya",
+    "Kukimbia ni vizuri",
+    "Miguu haijikwai"
+   ],
+   "answer": 0,
+   "explanation": "Uangalifu huepusha makosa."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "\"Nina\" katika \"kisogo cha nina\" ni nani?",
+   "options": [
+    "Baba",
+    "Babu",
+    "Mwalimu",
+    "Mama"
+   ],
+   "answer": 3,
+   "explanation": "Nina ni mama."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Methali za malezi hutumika lini?",
+   "options": [
+    "Kila tunapocheza mpira",
+    "Tunapopika",
+    "Tunapowashauri watoto kuhusu tabia njema",
+    "Tunaposafiri tu"
+   ],
+   "answer": 2,
+   "explanation": "Zinafaa kutoa mafunzo ya malezi."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Ubeti ni nini?",
+   "options": [
+    "Mstari mmoja",
+    "Kifungu cha mishororo katika shairi",
+    "Jina la shairi",
+    "Mtunzi"
+   ],
+   "answer": 1,
+   "explanation": "Ubeti ni kifungu cha mishororo."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Mshororo ni nini?",
+   "options": [
+    "Mstari mmoja wa shairi",
+    "Kifungu cha aya",
+    "Kichwa",
+    "Sauti ya mwisho"
+   ],
+   "answer": 0,
+   "explanation": "Mshororo ni mstari mmoja."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Vina ni nini?",
+   "options": [
+    "Kichwa cha shairi",
+    "Idadi ya beti",
+    "Jina la mtunzi",
+    "Sauti zinazofanana mwishoni mwa mishororo"
+   ],
+   "answer": 3,
+   "explanation": "Vina hupamba shairi."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Shairi hutambulikaje?",
+   "options": [
+    "Kwa aya ndefu",
+    "Kwa kichwa tu",
+    "Kwa umbo lake la mishororo na beti",
+    "Kwa picha"
+   ],
+   "answer": 2,
+   "explanation": "Shairi lina mistari mifupi iliyopangwa katika beti."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Ujumbe wa shairi ni nini?",
+   "options": [
+    "Idadi ya mistari",
+    "Jambo mtunzi anataka tujifunze",
+    "Jina la kitabu",
+    "Rangi ya karatasi"
+   ],
+   "answer": 1,
+   "explanation": "Ujumbe ni mafunzo ya shairi."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Shairi la mistari minne kila ubeti na beti tatu lina mishororo mingapi kwa jumla?",
+   "options": [
+    "12",
+    "7",
+    "9",
+    "16"
+   ],
+   "answer": 0,
+   "explanation": "Beti 3 mara mishororo 4 ni 12."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Neno lipi linamaanisha kitu chenye thamani kubwa?",
+   "options": [
+    "tulivu",
+    "nadhifu",
+    "daima",
+    "tunu"
+   ],
+   "answer": 3,
+   "explanation": "Tunu ni kitu chenye thamani."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Neno \"daima\" lina maana gani?",
+   "options": [
+    "Kamwe",
+    "Wakati mwingine",
+    "Siku zote",
+    "Leo tu"
+   ],
+   "answer": 2,
+   "explanation": "Daima ni siku zote."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Tunasomaje shairi kwa ufasaha?",
+   "options": [
+    "Haraka bila kusimama",
+    "Polepole, kwa sauti wazi na kusimama kidogo kila mshororo unapoisha",
+    "Kwa kunong'ona",
+    "Bila kuangalia maneno"
+   ],
+   "answer": 1,
+   "explanation": "Mahadhi mazuri huonyesha ujumbe."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Kukariri shairi ni nini?",
+   "options": [
+    "Kulisema bila kulisoma",
+    "Kulinakili",
+    "Kulichora",
+    "Kulifuta"
+   ],
+   "answer": 0,
+   "explanation": "Kukariri ni kulihifadhi akilini."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Kichwa cha shairi huandikwa wapi?",
+   "options": [
+    "Chini ya beti",
+    "Katikati ya ubeti",
+    "Mwishoni",
+    "Juu ya beti"
+   ],
+   "answer": 3,
+   "explanation": "Kichwa huwa juu."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Insha ya maelezo hutoa nini?",
+   "options": [
+    "Kisa cha matukio",
+    "Barua",
+    "Picha wazi ya jambo, mahali au kitu",
+    "Wimbo"
+   ],
+   "answer": 2,
+   "explanation": "Insha ya maelezo humpa msomaji picha wazi."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Ni maneno yapi hutumika sana katika insha ya maelezo?",
+   "options": [
+    "Vihisishi tu",
+    "Vivumishi na vielezi",
+    "Nambari tu",
+    "Majina ya watu tu"
+   ],
+   "answer": 1,
+   "explanation": "Hueleza sifa na jinsi mambo yanavyofanyika."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Ni wakati upi hutumika mara nyingi katika maelezo ya kitu kilivyo?",
+   "options": [
+    "Uliopo",
+    "Uliopita",
+    "Ujao",
+    "Hakuna"
+   ],
+   "answer": 0,
+   "explanation": "Maelezo ya hali ya sasa hutumia wakati uliopo."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Ushauri nasaha ni nini?",
+   "options": [
+    "Kucheza mchezo",
+    "Kupika",
+    "Kuandika kwa tarakilishi",
+    "Kumpa mtu mawaidha ili atatue tatizo"
+   ],
+   "answer": 3,
+   "explanation": "Ushauri nasaha ni mawaidha ya kusaidia mtu."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Sehemu ya insha inayotaja unachokieleza kwa mara ya kwanza ni ipi?",
+   "options": [
+    "Hitimisho",
+    "Kiini",
+    "Utangulizi",
+    "Vidokezo"
+   ],
+   "answer": 2,
+   "explanation": "Utangulizi hutaja mada."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Ni kivumishi kipi kinafaa kueleza chumba kisicho na kelele?",
+   "options": [
+    "kikubwa",
+    "tulivu",
+    "kirefu",
+    "kipya"
+   ],
+   "answer": 1,
+   "explanation": "Tulivu ni bila kelele."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Ni kielezi kipi kinafaa: \"Mwalimu anasikiliza ________.\"",
+   "options": [
+    "kwa makini",
+    "jana",
+    "shuleni",
+    "kesho"
+   ],
+   "answer": 0,
+   "explanation": "Kwa makini hueleza jinsi."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Ni hatua ipi huja kwanza kabla ya kuandika insha?",
+   "options": [
+    "Kuandika hitimisho",
+    "Kusoma kwa wenzako",
+    "Kuhifadhi faili",
+    "Kuandika vidokezo"
+   ],
+   "answer": 3,
+   "explanation": "Vidokezo hutuongoza."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Ni kosa lipi la kuepuka katika insha ya maelezo?",
+   "options": [
+    "Kutumia vivumishi",
+    "Kuandika anwani",
+    "Kusimulia kisa badala ya kueleza",
+    "Kupanga aya"
+   ],
+   "answer": 2,
+   "explanation": "Insha ya maelezo haisimulii kisa."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Ni sentensi ipi ni ya insha ya maelezo ya ofisi?",
+   "options": [
+    "Jana nilikwenda ofisini nikakimbia.",
+    "Ofisi ina viti vizuri vya rangi ya kijani.",
+    "Kesho nitasafiri.",
+    "Tulicheza mpira ofisini."
+   ],
+   "answer": 1,
+   "explanation": "Ni maelezo ya hali ya ofisi kwa wakati uliopo."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Ngeli ya U-I ina nomino za nini?",
+   "options": [
+    "Mimea, vitu vya kimaumbile na sehemu za mwili",
+    "Viumbe hai tu",
+    "Vitu vya ki-vi",
+    "Mahali tu"
+   ],
+   "answer": 0,
+   "explanation": "U-I ni ya mti, mto, mkono na kadhalika."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Ni nomino ipi ni ya ngeli ya U-I?",
+   "options": [
+    "mtoto",
+    "kitabu",
+    "simba",
+    "mto"
+   ],
+   "answer": 3,
+   "explanation": "Mto ni kitu cha kimaumbile."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Wingi wa \"mkono\" ni upi?",
+   "options": [
+    "wakono",
+    "vikono",
+    "mikono",
+    "makono"
+   ],
+   "answer": 2,
+   "explanation": "U-I hufanya wingi kwa mi-."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Wingi wa \"mlango\" ni upi?",
+   "options": [
+    "walango",
+    "milango",
+    "vilango",
+    "malango"
+   ],
+   "answer": 1,
+   "explanation": "Milango ni wingi wa mlango."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Ni sentensi ipi ya ngeli ya U-I imepatana?",
+   "options": [
+    "Miti mirefu imeanguka.",
+    "Miti mirefu umeanguka.",
+    "Miti mrefu imeanguka.",
+    "Miti warefu wameanguka."
+   ],
+   "answer": 0,
+   "explanation": "Wingi wa U-I hutumia mi- kwenye kivumishi na i- kwenye kitenzi."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Kiambishi cha kitenzi kwa umoja wa U-I ni kipi?",
+   "options": [
+    "i-",
+    "wa-",
+    "ki-",
+    "u-"
+   ],
+   "answer": 3,
+   "explanation": "Mti umeanguka."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Kiambishi cha kitenzi kwa wingi wa U-I ni kipi?",
+   "options": [
+    "u-",
+    "wa-",
+    "i-",
+    "vi-"
+   ],
+   "answer": 2,
+   "explanation": "Miti imeanguka."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Kiashiria cha umoja wa U-I kilicho karibu ni kipi?",
+   "options": [
+    "hii",
+    "huu",
+    "hawa",
+    "hiki"
+   ],
+   "answer": 1,
+   "explanation": "Mti huu."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Kiashiria cha wingi wa U-I kilicho karibu ni kipi?",
+   "options": [
+    "hii",
+    "huu",
+    "hawa",
+    "hivi"
+   ],
+   "answer": 0,
+   "explanation": "Miti hii."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Kwa nini \"mtoto\" si ya ngeli ya U-I?",
+   "options": [
+    "Haianzi kwa m-",
+    "Ina herufi nyingi",
+    "Ni kitu",
+    "Ni kiumbe hai wa A-WA"
+   ],
+   "answer": 3,
+   "explanation": "Mtoto ni kiumbe hai."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Ni kimilikishi kipi kinafaa: \"Mikono ________ ni safi.\"",
+   "options": [
+    "wangu",
+    "zangu",
+    "yangu",
+    "vyangu"
+   ],
+   "answer": 2,
+   "explanation": "Wingi wa U-I hutumia yangu."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Ni wingi upi wa \"mto\" (river)?",
+   "options": [
+    "wato",
+    "mito",
+    "vito",
+    "mato"
+   ],
+   "answer": 1,
+   "explanation": "Mto hufanya wingi mito."
+  }
+ ],
+ "short": [
+  {
+   "topic": "5.1.1",
+   "q": "Andika methali tatu za malezi.",
+   "marks": 3,
+   "answer": "Mtoto umleavyo ndivyo akuavyo; Mtoto wa nyoka ni nyoka; Mtoto hutazama kisogo cha nina; Samaki mkunje angali mbichi (tatu zozote).",
+   "working": "Alama moja kwa kila methali sahihi."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Eleza maana ya methali \"Mtoto umleavyo ndivyo akuavyo\".",
+   "marks": 3,
+   "answer": "Malezi anayopata mtoto ndiyo huamua tabia yake akiwa mkubwa. Ukimfundisha vema atakuwa mwema.",
+   "working": "Alama mbili kwa maana kuu na moja kwa mfano."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Tunga sentensi yenye methali \"Samaki mkunje angali mbichi\" ukionyesha inavyotumika.",
+   "marks": 3,
+   "answer": "Mfano: Mwalimu alimfundisha Amina kusoma akiwa mdogo. Kweli, samaki mkunje angali mbichi.",
+   "working": "Alama moja kwa methali, moja kwa hali inayoendana na moja kwa sentensi kamili."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Eleza kwa nini tunatumia methali katika mawasiliano.",
+   "marks": 2,
+   "answer": "Hupamba lugha na hufundisha hekima kwa maneno machache.",
+   "working": "Alama moja kwa kila hoja."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Eleza tofauti kati ya ubeti na mshororo.",
+   "marks": 2,
+   "answer": "Ubeti ni kifungu cha mishororo na mshororo ni mstari mmoja.",
+   "working": "Alama moja kwa kila maana."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Taja sifa tatu za kutambua shairi.",
+   "marks": 3,
+   "answer": "Lina kichwa; lina beti; kila ubeti una mishororo mifupi; mara nyingi lina vina.",
+   "working": "Alama moja kwa kila sifa."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Tunga mishororo miwili yenye vina \"ni\" kuhusu usafi.",
+   "marks": 4,
+   "answer": "Mfano: Nanawa mikono nyumbani, kabla ya kula mezani. Usafi ni wangu ngao, naupenda moyoni.",
+   "working": "Alama mbili kwa ujumbe wa usafi na mbili kwa vina."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Eleza hatua tatu za kukariri shairi.",
+   "marks": 3,
+   "answer": "Soma ubeti mmoja mara tatu; ufiche na ujaribu kuusema; unganisha beti zote.",
+   "working": "Alama moja kwa kila hatua."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Taja sehemu nne za insha ya maelezo.",
+   "marks": 2,
+   "answer": "Anwani, utangulizi, kiini na hitimisho.",
+   "working": "Nusu alama kwa kila sehemu."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Andika hatua tatu za kumshauri rafiki mwenye huzuni.",
+   "marks": 3,
+   "answer": "Kumwomba tuketi mahali tulivu; kumsikiliza kwa makini; kumfariji na kumshauri kuzungumza na mtu mzima.",
+   "working": "Alama moja kwa kila hatua."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Andika aya moja ya maelezo kuhusu darasa lenu ukitumia vivumishi vitatu na kielezi kimoja.",
+   "marks": 4,
+   "answer": "Mfano: Darasa letu ni kubwa na safi. Lina madirisha makubwa. Mwalimu hufundisha kwa makini.",
+   "working": "Alama moja kwa kila kivumishi na moja kwa kielezi."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Andika vidokezo vya insha ya maelezo yenye anwani \"Mahali ninapopata ushauri\".",
+   "marks": 3,
+   "answer": "Mahali, mtu anayeshauri, sifa za mahali na mtu, hitimisho.",
+   "working": "Alama moja kwa kila kipengele hadi tatu."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Taja nomino tano za ngeli ya U-I katika umoja na wingi.",
+   "marks": 5,
+   "answer": "mti-miti, mkono-mikono, mlango-milango, mto-mito, mlima-milima.",
+   "working": "Alama moja kwa kila jozi sahihi."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Badilisha kuwa wingi: \"Mti mrefu umeanguka.\"",
+   "marks": 3,
+   "answer": "Miti mirefu imeanguka.",
+   "working": "Alama moja kwa kila neno lililobadilishwa sawasawa."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Eleza tofauti ya ngeli ya U-I na A-WA kwa mifano miwili.",
+   "marks": 4,
+   "answer": "U-I ni ya mimea na vitu vya kimaumbile, mfano mti-miti. A-WA ni ya viumbe hai, mfano mtoto-watoto.",
+   "working": "Alama mbili kwa maelezo na mbili kwa mifano."
+  },
+  {
+   "topic": "5.4.1",
+   "q": "Andika sentensi mbili kuhusu mazingira yako zenye nomino za U-I, moja ya umoja na moja ya wingi.",
+   "marks": 4,
+   "answer": "Mfano: Mto ule ni mrefu. Miti ile ni mirefu.",
+   "working": "Alama mbili kwa kila sentensi sahihi."
+  }
+ ]
+}
