@@ -698,7 +698,7 @@
   },
   {
    "topic": "2.4",
-   "q": "Which is a digital device for photography?",
+   "q": "Which of these can also take digital photographs?",
    "options": [
     "Tablet",
     "Xylophone",
@@ -1388,6 +1388,27 @@
    "marks": 4,
    "answer": "Community of origin, type or occasion, message, participants and their roles, and instruments.",
    "working": "1 mark for each of four correct components."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain how a drum makes sound and how its parts work together.",
+   "marks": 5,
+   "answer": "The beater or hand strikes the drumhead, which vibrates and makes the sound. The hollow shell makes the sound fuller and louder. The ropes hold the skin tight, and a tighter skin gives a higher sound.",
+   "working": "1 mark each for striking, vibrating skin, shell, ropes, and effect of tightness on pitch."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe a sequence that joins the crab balance and the side roll, and how to perform it safely.",
+   "marks": 5,
+   "answer": "Warm up and use a mat with a clear space. Do a crab balance and hold for three counts. Lower to the mat and lie straight with arms overhead. Do a side roll in a straight line. Get up slowly and finish standing tall.",
+   "working": "1 mark each for safety, crab balance, lowering, roll, and finish."
+  },
+  {
+   "topic": "3.1",
+   "q": "Explain how to analyse a folk song performance using its components.",
+   "marks": 5,
+   "answer": "Say the community of origin, the type or occasion, the message and mood, the roles of the soloist, chorus and instrumentalists, and the instruments used.",
+   "working": "1 mark for each of five components."
   }
  ]
 }

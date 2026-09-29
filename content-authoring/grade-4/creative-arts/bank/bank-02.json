@@ -314,7 +314,7 @@
   },
   {
    "topic": "1.4",
-   "q": "Which letter has a descender?",
+   "q": "Which of these letters has a tail below the baseline?",
    "options": [
     "h",
     "y",
@@ -398,7 +398,7 @@
   },
   {
    "topic": "1.5",
-   "q": "Why should a short melody end on d?",
+   "q": "What makes ending on d good for a short melody?",
    "options": [
     "It sounds unfinished",
     "It is the loudest note",
@@ -590,7 +590,7 @@
   },
   {
    "topic": "2.2",
-   "q": "Why is gymnastics not a race?",
+   "q": "Why is gymnastics described as not being a race?",
    "options": [
     "It is always in the dark",
     "It cannot be seen",
@@ -1395,6 +1395,20 @@
    "marks": 4,
    "answer": "Teamwork, skill, safety and sportsmanship.",
    "working": "1 mark for each."
+  },
+  {
+   "topic": "1.4",
+   "q": "Describe how to compose, write and perform an original four-beat rhythmic pattern.",
+   "marks": 5,
+   "answer": "Choose four beats. Fill each with a crotchet, a pair of quavers or a rest. Make sure the pattern has variation and ends on a crotchet. Write it with rhythm names and note symbols. Clap it to a steady beat and improve it after feedback.",
+   "working": "1 mark each for choosing beats, using different values, ending on a long note, writing it and performing it."
+  },
+  {
+   "topic": "2.6",
+   "q": "Describe how you would enter the pool and perform a glide safely.",
+   "marks": 5,
+   "answer": "Get permission and warm up. Enter feet first by the steps or sit and slide. Stay in shallow water. Stand with the back to the wall and stretch the arms overhead. Put feet on the wall, breathe, put the face in, push off gently and glide with a straight body.",
+   "working": "1 mark for each of five parts."
   }
  ]
 }

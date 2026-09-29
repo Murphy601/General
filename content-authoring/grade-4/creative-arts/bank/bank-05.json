@@ -302,7 +302,7 @@
   },
   {
    "topic": "1.4",
-   "q": "Which letter has an ascender?",
+   "q": "Which of these letters is a tall letter with an ascender?",
    "options": [
     "n",
     "u",
@@ -1388,6 +1388,27 @@
    "marks": 3,
    "answer": "The soloist leads, the chorus answers and repeats, the instrumentalists play instruments to keep the beat.",
    "working": "1 mark for each role."
+  },
+  {
+   "topic": "1.2",
+   "q": "Describe how to play a mini-netball game safely and fairly from warm-up to the end.",
+   "marks": 5,
+   "answer": "Warm up with jogging and stretching. Choose fair teams and positions. Check the ground and the ball. Move into space, pass early and play your position. Follow the rules, obey the umpire and thank the other team.",
+   "working": "1 mark for each stage: warm-up, fair teams, checking, playing skills, fair ending."
+  },
+  {
+   "topic": "2.3",
+   "q": "Explain how good singing performance is achieved, using posture, breathing, diction, expression and etiquette.",
+   "marks": 5,
+   "answer": "Stand tall with a relaxed body. Breathe deeply and sing on the breath. Say the words clearly. Use gestures and facial expressions to show the message and mood. Walk on and off quietly and respect others.",
+   "working": "1 mark for each of five points."
+  },
+  {
+   "topic": "2.4",
+   "q": "Explain how to take a portrait of a friend with good light and a clear centre of interest.",
+   "marks": 5,
+   "answer": "Ask permission. Put the sun behind you so light falls on the friend's face. Choose a plain background. Move closer so the face fills the picture. Hold the device steadily, press gently and check the photograph.",
+   "working": "1 mark for each of five points."
   }
  ]
 }

@@ -158,7 +158,7 @@
   },
   {
    "topic": "1.2",
-   "q": "Why do we improvise a netball?",
+   "q": "What is the main reason for improvising a netball?",
    "options": [
     "To spend more money",
     "To use available materials when balls are not enough",
@@ -446,7 +446,7 @@
   },
   {
    "topic": "2.1",
-   "q": "What is a false start?",
+   "q": "Which describes a false start in a sprint?",
    "options": [
     "Finishing first",
     "Running in the wrong direction",
@@ -746,7 +746,7 @@
   },
   {
    "topic": "2.4",
-   "q": "Why should you never point a camera directly at the sun?",
+   "q": "What is the danger of pointing a camera directly at the sun?",
    "options": [
     "It saves the battery",
     "It makes the sun cooler",
@@ -1395,6 +1395,20 @@
    "marks": 3,
    "answer": "We learn about others, it builds respect and unity and it helps us value all cultures.",
    "working": "1 mark for each."
+  },
+  {
+   "topic": "1.5",
+   "q": "Describe how to compose a short melody with d, r and m, and how to check that it is a good melody.",
+   "marks": 5,
+   "answer": "Choose a rhythm. Give each note a syllable, using steps. End on d. Sing it with hand signs. Check that it has variation and stepwise motion and that it ends on d.",
+   "working": "1 mark for each of five valid points."
+  },
+  {
+   "topic": "2.7",
+   "q": "Describe how to play an animal game safely and fairly from warm-up to the end.",
+   "marks": 5,
+   "answer": "Warm up and choose soft clear ground. Explain the rules and roles. Play the game without pushing or pulling. Stop at the whistle and give everyone a turn. Cool down and drink water.",
+   "working": "1 mark for each stage."
   }
  ]
 }
