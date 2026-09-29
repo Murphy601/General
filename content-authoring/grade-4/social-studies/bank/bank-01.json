@@ -1,0 +1,1302 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1",
+   "q": "How many cardinal points are there on a compass?",
+   "options": [
+    "Four",
+    "Two",
+    "Six",
+    "Eight"
+   ],
+   "answer": 0,
+   "explanation": "There are four cardinal points: north, east, south and west."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which direction is directly opposite to north?",
+   "options": [
+    "East",
+    "West",
+    "North-east",
+    "South"
+   ],
+   "answer": 3,
+   "explanation": "North and south are opposite each other on the compass rose."
+  },
+  {
+   "topic": "1.1",
+   "q": "Where does the sun rise?",
+   "options": [
+    "In the west",
+    "In the north",
+    "In the east",
+    "In the south"
+   ],
+   "answer": 2,
+   "explanation": "The sun rises in the east and sets in the west."
+  },
+  {
+   "topic": "1.1",
+   "q": "Where does the sun set?",
+   "options": [
+    "In the east",
+    "In the west",
+    "In the north",
+    "In the south"
+   ],
+   "answer": 1,
+   "explanation": "The sun sets in the west."
+  },
+  {
+   "topic": "1.1",
+   "q": "On most maps, which direction is at the top?",
+   "options": [
+    "South",
+    "North",
+    "East",
+    "West"
+   ],
+   "answer": 1,
+   "explanation": "Maps are drawn with north at the top unless a north arrow shows otherwise."
+  },
+  {
+   "topic": "1.1",
+   "q": "What does the letter E stand for on a compass rose?",
+   "options": [
+    "East",
+    "Equator",
+    "Earth",
+    "Edge"
+   ],
+   "answer": 0,
+   "explanation": "E is the short form of east."
+  },
+  {
+   "topic": "1.1",
+   "q": "What does a compass needle point to?",
+   "options": [
+    "South",
+    "The sun",
+    "The nearest town",
+    "North"
+   ],
+   "answer": 3,
+   "explanation": "A magnetic compass needle always turns to point north."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which word describes a picture that shows the four cardinal points?",
+   "options": [
+    "Rain gauge",
+    "Weather chart",
+    "Compass rose",
+    "Timeline"
+   ],
+   "answer": 2,
+   "explanation": "A compass rose shows N, E, S and W."
+  },
+  {
+   "topic": "1.1",
+   "q": "A pupil faces the rising sun in the morning. Which direction is on the pupil's left hand?",
+   "options": [
+    "South",
+    "East",
+    "North",
+    "West"
+   ],
+   "answer": 2,
+   "explanation": "Facing east, north is on the left and south is on the right."
+  },
+  {
+   "topic": "1.1",
+   "q": "A pupil faces the rising sun in the morning. Which direction is on the pupil's right hand?",
+   "options": [
+    "North",
+    "South",
+    "West",
+    "East"
+   ],
+   "answer": 1,
+   "explanation": "Facing east, south is on the right hand."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which direction lies between south and east?",
+   "options": [
+    "South-east",
+    "North-west",
+    "North-east",
+    "South-west"
+   ],
+   "answer": 0,
+   "explanation": "South-east is half way between south and east."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which direction lies between north and west?",
+   "options": [
+    "South-east",
+    "North-east",
+    "South-west",
+    "North-west"
+   ],
+   "answer": 3,
+   "explanation": "North-west is between north and west."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these is a cardinal point?",
+   "options": [
+    "North-east",
+    "South-west",
+    "North-west",
+    "West"
+   ],
+   "answer": 3,
+   "explanation": "Only north, east, south and west are cardinal points. The others are in-between points."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the morning, your shadow falls towards which direction?",
+   "options": [
+    "East",
+    "The sun",
+    "West",
+    "Nowhere"
+   ],
+   "answer": 2,
+   "explanation": "The sun is in the east in the morning, so shadows point west."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which sentence helps you remember the cardinal points in clockwise order?",
+   "options": [
+    "Some Old Men Walk",
+    "Never Eat Slimy Worms",
+    "Eat Slowly Now Wisely",
+    "Watch Every Sunny Night"
+   ],
+   "answer": 1,
+   "explanation": "The first letters N, E, S, W give north, east, south, west in clockwise order."
+  },
+  {
+   "topic": "1.1",
+   "q": "On a map of a village, the church is to the east of the school. On the map, where is the church drawn?",
+   "options": [
+    "On the right of the school",
+    "On the left of the school",
+    "Above the school",
+    "Below the school"
+   ],
+   "answer": 0,
+   "explanation": "East is on the right when north is at the top."
+  },
+  {
+   "topic": "1.1",
+   "q": "On a map, the market is drawn above the school. Which direction is the market from the school?",
+   "options": [
+    "North",
+    "South",
+    "East",
+    "West"
+   ],
+   "answer": 0,
+   "explanation": "Above means north when north is at the top."
+  },
+  {
+   "topic": "1.1",
+   "q": "Why are cardinal points better than left and right for giving directions?",
+   "options": [
+    "They are shorter to say",
+    "They only work at night",
+    "They are used only by pilots",
+    "They do not change when you turn around"
+   ],
+   "answer": 3,
+   "explanation": "Left and right change with the way you face, but north, east, south and west stay the same."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which of these people is most likely to use a compass?",
+   "options": [
+    "A baby",
+    "A tailor",
+    "A sailor",
+    "A cook"
+   ],
+   "answer": 2,
+   "explanation": "Sailors use compasses to find direction at sea."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which direction is Mombasa from Nairobi on a map of Kenya?",
+   "options": [
+    "North-west",
+    "South-east",
+    "North",
+    "West"
+   ],
+   "answer": 1,
+   "explanation": "Mombasa lies to the south-east of Nairobi."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which direction is Nakuru from Nairobi?",
+   "options": [
+    "South-east",
+    "North-west",
+    "South",
+    "East"
+   ],
+   "answer": 1,
+   "explanation": "Nakuru is north-west of Nairobi."
+  },
+  {
+   "topic": "1.1",
+   "q": "What should you find first when you read a map?",
+   "options": [
+    "The north arrow",
+    "The colours",
+    "The names of rivers",
+    "The size of the paper"
+   ],
+   "answer": 0,
+   "explanation": "Finding north first helps you read all other directions."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which is the correct way to write the in-between point that is between south and west?",
+   "options": [
+    "West-south",
+    "Sowest",
+    "West-south-west",
+    "South-west"
+   ],
+   "answer": 3,
+   "explanation": "We say the north or south word first, so it is south-west."
+  },
+  {
+   "topic": "1.2",
+   "q": "How many counties does Kenya have?",
+   "options": [
+    "27",
+    "37",
+    "47",
+    "57"
+   ],
+   "answer": 2,
+   "explanation": "The Constitution of Kenya 2010 created 47 counties."
+  },
+  {
+   "topic": "1.2",
+   "q": "A county is divided into smaller parts called what?",
+   "options": [
+    "Countries",
+    "Continents",
+    "Sub-counties",
+    "Oceans"
+   ],
+   "answer": 2,
+   "explanation": "Counties are divided into sub-counties, and sub-counties into wards."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is a neighbouring county?",
+   "options": [
+    "A county in another country",
+    "A county that shares a boundary with your county",
+    "A county with the same name",
+    "The biggest county"
+   ],
+   "answer": 1,
+   "explanation": "Neighbouring counties touch each other along a boundary."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which county contains the capital city of Kenya?",
+   "options": [
+    "Nairobi",
+    "Kisumu",
+    "Nakuru",
+    "Kitui"
+   ],
+   "answer": 0,
+   "explanation": "Nairobi County contains Kenya's capital city."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which is the largest county in Kenya by area?",
+   "options": [
+    "Mombasa",
+    "Nairobi",
+    "Kisumu",
+    "Turkana"
+   ],
+   "answer": 3,
+   "explanation": "Turkana is the largest county by land area."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which is the smallest county in Kenya by area?",
+   "options": [
+    "Turkana",
+    "Kitui",
+    "Narok",
+    "Mombasa"
+   ],
+   "answer": 3,
+   "explanation": "Mombasa covers the smallest area of all the counties."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does the size of a county mean?",
+   "options": [
+    "The number of people in it",
+    "The number of schools in it",
+    "The area of land it covers",
+    "The number of roads in it"
+   ],
+   "answer": 2,
+   "explanation": "Size means the area of land, not the population."
+  },
+  {
+   "topic": "1.2",
+   "q": "County X covers 8 grid squares and County Y covers 5 grid squares. Which statement is correct?",
+   "options": [
+    "County Y is bigger than County X",
+    "County X is bigger than County Y",
+    "They are the same size",
+    "We cannot compare them"
+   ],
+   "answer": 1,
+   "explanation": "8 squares is more land than 5 squares."
+  },
+  {
+   "topic": "1.2",
+   "q": "What do we call describing where a county is by naming the places around it?",
+   "options": [
+    "Relative location",
+    "Rainfall",
+    "Population",
+    "Scale"
+   ],
+   "answer": 0,
+   "explanation": "Relative location compares a place with its neighbours."
+  },
+  {
+   "topic": "1.2",
+   "q": "On a county sketch map, what does the north arrow show?",
+   "options": [
+    "The direction of north",
+    "The size of the county",
+    "The number of people",
+    "The rainfall"
+   ],
+   "answer": 0,
+   "explanation": "A north arrow shows which way is north so the map can be read correctly."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does a map key explain?",
+   "options": [
+    "The date of the map",
+    "The name of the map maker",
+    "The weather",
+    "The meaning of the colours and symbols"
+   ],
+   "answer": 3,
+   "explanation": "The key tells what each line, colour and symbol stands for."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which of these should a good county sketch map have?",
+   "options": [
+    "A picture of a tractor",
+    "A recipe",
+    "A title",
+    "A photograph of the teacher"
+   ],
+   "answer": 2,
+   "explanation": "A good map has a title, a north arrow and a key."
+  },
+  {
+   "topic": "1.2",
+   "q": "On the county map in the lesson, the neighbour drawn on the right side is in which direction from the county?",
+   "options": [
+    "West",
+    "East",
+    "North",
+    "South"
+   ],
+   "answer": 1,
+   "explanation": "When north is at the top, the right side is east."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which country lies to the west of Kenya?",
+   "options": [
+    "Tanzania",
+    "Uganda",
+    "Ethiopia",
+    "Somalia"
+   ],
+   "answer": 1,
+   "explanation": "Uganda is Kenya's western neighbour."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which country lies to the south of Kenya?",
+   "options": [
+    "Tanzania",
+    "Uganda",
+    "Ethiopia",
+    "South Sudan"
+   ],
+   "answer": 0,
+   "explanation": "Tanzania borders Kenya to the south."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which ocean is found on the south-eastern side of Kenya?",
+   "options": [
+    "Atlantic Ocean",
+    "Pacific Ocean",
+    "Arctic Ocean",
+    "Indian Ocean"
+   ],
+   "answer": 3,
+   "explanation": "Kenya's coast is on the Indian Ocean."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which imaginary line crosses Kenya?",
+   "options": [
+    "The boundary",
+    "The river line",
+    "The equator",
+    "The railway line"
+   ],
+   "answer": 2,
+   "explanation": "The equator crosses the middle of Kenya."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which county borders Uganda?",
+   "options": [
+    "Nyeri",
+    "Kitui",
+    "Busia",
+    "Nairobi"
+   ],
+   "answer": 2,
+   "explanation": "Busia is on the border with Uganda."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which of these counties has a coast on the Indian Ocean?",
+   "options": [
+    "Nyeri",
+    "Kilifi",
+    "Nakuru",
+    "Kitui"
+   ],
+   "answer": 1,
+   "explanation": "Kilifi lies along the coast."
+  },
+  {
+   "topic": "1.2",
+   "q": "A pupil says that a county with many people must be the biggest in area. What is wrong with this idea?",
+   "options": [
+    "Area and population are different things",
+    "People make land bigger",
+    "Only farms make counties big",
+    "Counties never have people"
+   ],
+   "answer": 0,
+   "explanation": "Size is about area. Population is the number of people."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which county has a neighbouring county called Kiambu to its north?",
+   "options": [
+    "Mombasa",
+    "Turkana",
+    "Kisumu",
+    "Nairobi"
+   ],
+   "answer": 3,
+   "explanation": "Kiambu lies to the north of Nairobi County."
+  },
+  {
+   "topic": "1.2",
+   "q": "Why is it useful to know the size of a county?",
+   "options": [
+    "It tells us the price of food",
+    "It tells us the weather",
+    "It tells us what to eat",
+    "It helps with planning services such as roads and clinics"
+   ],
+   "answer": 3,
+   "explanation": "Planners need to know how much land there is to cover with services."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is the best way to compare the sizes of two counties on maps?",
+   "options": [
+    "Compare the length of the names",
+    "Count the number of towns only",
+    "Use the same scale and compare the areas",
+    "Guess without a map"
+   ],
+   "answer": 2,
+   "explanation": "To compare fairly we use maps drawn to the same scale."
+  },
+  {
+   "topic": "1.2",
+   "q": "What do we call the smaller parts into which a sub-county is divided?",
+   "options": [
+    "Continents",
+    "Wards",
+    "Oceans",
+    "Plateaus"
+   ],
+   "answer": 1,
+   "explanation": "Sub-counties are divided into wards."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a physical feature?",
+   "options": [
+    "A natural feature on the surface of the Earth",
+    "A building made by people",
+    "A road",
+    "A market"
+   ],
+   "answer": 0,
+   "explanation": "Physical features such as mountains and rivers are natural."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is a physical feature?",
+   "options": [
+    "A lake",
+    "A school",
+    "A bridge",
+    "A road"
+   ],
+   "answer": 0,
+   "explanation": "A lake is natural. The others are built by people."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is built by people, not natural?",
+   "options": [
+    "A hill",
+    "A river",
+    "A plain",
+    "A dam"
+   ],
+   "answer": 3,
+   "explanation": "A dam is built by people to hold water."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a mountain?",
+   "options": [
+    "A wide flat area",
+    "A large body of water",
+    "Very high land with steep sides and a peak",
+    "A low place between hills"
+   ],
+   "answer": 2,
+   "explanation": "A mountain is much higher than the land around it."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a valley?",
+   "options": [
+    "A very high peak",
+    "Low land between hills or mountains",
+    "A big lake",
+    "A huge flat plain"
+   ],
+   "answer": 1,
+   "explanation": "A valley is a low area between higher land."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a plain?",
+   "options": [
+    "A steep mountain",
+    "Wide flat land",
+    "A waterfall",
+    "A lake with salt water"
+   ],
+   "answer": 1,
+   "explanation": "A plain is a wide, flat area."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a plateau?",
+   "options": [
+    "High land that is flat on top",
+    "A river",
+    "A deep valley",
+    "A coast"
+   ],
+   "answer": 0,
+   "explanation": "A plateau is a raised area with a flat top."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a lake?",
+   "options": [
+    "A long channel of flowing water",
+    "A very high mountain",
+    "A dry plain",
+    "A large area of water surrounded by land"
+   ],
+   "answer": 3,
+   "explanation": "A lake has land all around it."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a river?",
+   "options": [
+    "A big lake",
+    "A steep hill",
+    "Water flowing along a channel from high land to low land",
+    "A flat plain"
+   ],
+   "answer": 2,
+   "explanation": "Rivers flow along channels towards a lake or an ocean."
+  },
+  {
+   "topic": "1.3",
+   "q": "What do we call a place where a river falls over a cliff?",
+   "options": [
+    "Plateau",
+    "Valley",
+    "Waterfall",
+    "Plain"
+   ],
+   "answer": 2,
+   "explanation": "A waterfall is where a river drops over a steep edge."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which is the highest mountain in Kenya?",
+   "options": [
+    "Ngong Hills",
+    "Mount Kenya",
+    "Mount Elgon",
+    "Aberdare Range"
+   ],
+   "answer": 1,
+   "explanation": "Mount Kenya is the highest mountain in Kenya."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which lake is the largest lake in Africa and is shared by Kenya, Uganda and Tanzania?",
+   "options": [
+    "Lake Victoria",
+    "Lake Naivasha",
+    "Lake Nakuru",
+    "Lake Baringo"
+   ],
+   "answer": 0,
+   "explanation": "Lake Victoria is shared by three countries."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which is the longest river inside Kenya?",
+   "options": [
+    "Nzoia River",
+    "Yala River",
+    "Athi River",
+    "Tana River"
+   ],
+   "answer": 3,
+   "explanation": "The Tana River is the longest river in Kenya."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which valley runs from north to south through Kenya?",
+   "options": [
+    "The Tana Valley",
+    "The Coast Valley",
+    "The Kisumu Valley",
+    "The Great Rift Valley"
+   ],
+   "answer": 3,
+   "explanation": "The Great Rift Valley runs through Kenya."
+  },
+  {
+   "topic": "1.3",
+   "q": "On a physical map, what colour is used for water?",
+   "options": [
+    "Brown",
+    "Red",
+    "Blue",
+    "Black"
+   ],
+   "answer": 2,
+   "explanation": "Blue is used for lakes, rivers and the ocean."
+  },
+  {
+   "topic": "1.3",
+   "q": "On a physical map, what colour is often used for high mountains?",
+   "options": [
+    "Blue",
+    "Brown",
+    "Pink",
+    "White"
+   ],
+   "answer": 1,
+   "explanation": "Brown shows high land such as mountains."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which physical feature helps people to catch fish?",
+   "options": [
+    "A lake",
+    "A plain",
+    "A plateau",
+    "A hill"
+   ],
+   "answer": 0,
+   "explanation": "People fish in lakes, rivers and the ocean."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why are mountains important for water?",
+   "options": [
+    "They catch rain and give rise to rivers",
+    "They make the land flat",
+    "They stop all rain",
+    "They dry up lakes"
+   ],
+   "answer": 0,
+   "explanation": "Mountains catch rain and feed rivers."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these uses the water of a river to make electricity?",
+   "options": [
+    "A school",
+    "A market",
+    "A church",
+    "A hydroelectric power station"
+   ],
+   "answer": 3,
+   "explanation": "Hydroelectric stations use falling river water to make electricity."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which physical feature is best for building roads, towns and farms easily?",
+   "options": [
+    "A steep mountain",
+    "A deep valley",
+    "A plain",
+    "A waterfall"
+   ],
+   "answer": 2,
+   "explanation": "Flat land is easy to build on and farm."
+  },
+  {
+   "topic": "1.3",
+   "q": "Lake Nakuru is famous for which birds?",
+   "options": [
+    "Ostriches",
+    "Flamingos",
+    "Eagles",
+    "Owls"
+   ],
+   "answer": 1,
+   "explanation": "Lake Nakuru is well known for flamingos."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is a way of caring for a river?",
+   "options": [
+    "Throwing rubbish into it",
+    "Planting trees along its banks",
+    "Washing cars in it",
+    "Cutting trees at the bank"
+   ],
+   "answer": 1,
+   "explanation": "Trees hold the soil and keep the water clean."
+  },
+  {
+   "topic": "1.3",
+   "q": "What would you draw as a symbol for a river on a map?",
+   "options": [
+    "A wavy blue line",
+    "A green triangle",
+    "A red square",
+    "A black circle"
+   ],
+   "answer": 0,
+   "explanation": "Rivers are shown as wavy blue lines."
+  },
+  {
+   "topic": "1.3",
+   "q": "Where does a river usually start?",
+   "options": [
+    "On the beach",
+    "In the desert",
+    "In a lake",
+    "On high land"
+   ],
+   "answer": 3,
+   "explanation": "Rivers start on high land and flow to lower land."
+  },
+  {
+   "topic": "1.4",
+   "q": "What is a season?",
+   "options": [
+    "The weather on one day",
+    "A kind of clothing",
+    "A part of the year with a typical kind of weather",
+    "A type of crop"
+   ],
+   "answer": 2,
+   "explanation": "A season is the weather that is typical over several months."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which of these is one of the four seasons in the county?",
+   "options": [
+    "Winter",
+    "Spring",
+    "Rainy season",
+    "Autumn"
+   ],
+   "answer": 2,
+   "explanation": "The four seasons are hot, cold, dry and rainy."
+  },
+  {
+   "topic": "1.4",
+   "q": "Why does Kenya not have summer and winter like countries far from the equator?",
+   "options": [
+    "Kenya has no sun",
+    "Kenya lies on the equator so temperatures change little",
+    "Kenya has no rain",
+    "Kenya is too small"
+   ],
+   "answer": 1,
+   "explanation": "Near the equator the temperature stays fairly steady, so rain and altitude decide our seasons."
+  },
+  {
+   "topic": "1.4",
+   "q": "In many parts of Kenya, when do the long rains usually come?",
+   "options": [
+    "March to May",
+    "January to February",
+    "June to August",
+    "September only"
+   ],
+   "answer": 0,
+   "explanation": "The long rains are usually from March to May."
+  },
+  {
+   "topic": "1.4",
+   "q": "In many parts of Kenya, when do the short rains usually come?",
+   "options": [
+    "March to May",
+    "June to July",
+    "January only",
+    "October to December"
+   ],
+   "answer": 3,
+   "explanation": "The short rains usually come between October and December."
+  },
+  {
+   "topic": "1.4",
+   "q": "What is weather?",
+   "options": [
+    "The number of months in a year",
+    "The height of a mountain",
+    "The size of a county",
+    "How the air is on a particular day"
+   ],
+   "answer": 3,
+   "explanation": "Weather describes sun, rain, wind and temperature at a given time."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which season is best for planting most crops?",
+   "options": [
+    "Dry season",
+    "Hot season",
+    "Rainy season",
+    "Cold season"
+   ],
+   "answer": 2,
+   "explanation": "Seeds need rain water to germinate and grow."
+  },
+  {
+   "topic": "1.4",
+   "q": "During which season do fishermen often dry fish in the sun?",
+   "options": [
+    "Rainy season",
+    "Dry season",
+    "Flood season",
+    "No season"
+   ],
+   "answer": 1,
+   "explanation": "Dry sunny days are best for drying fish."
+  },
+  {
+   "topic": "1.4",
+   "q": "During the dry season herders in dry areas often do what?",
+   "options": [
+    "Move animals to find water and grass",
+    "Plant maize",
+    "Sell umbrellas",
+    "Collect rainwater"
+   ],
+   "answer": 0,
+   "explanation": "Grass and water become scarce, so herders move."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which clothing is most suitable in the cold season?",
+   "options": [
+    "Sweaters and jackets",
+    "Swimming costumes",
+    "Sandals only",
+    "Light shorts only"
+   ],
+   "answer": 0,
+   "explanation": "Warm clothing keeps us comfortable when it is cold."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which drink is likely to sell more during the hot season?",
+   "options": [
+    "Hot tea",
+    "Hot porridge",
+    "Hot soup",
+    "Cold drinks"
+   ],
+   "answer": 3,
+   "explanation": "People are thirsty and feel hot, so they buy cold drinks."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which of these is a problem of the rainy season?",
+   "options": [
+    "Very dry grass",
+    "Shortage of rain",
+    "Flooding and muddy roads",
+    "Thick dust"
+   ],
+   "answer": 2,
+   "explanation": "Heavy rain can flood rivers and make roads muddy."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which symbol on a weather chart shows rain?",
+   "options": [
+    "A yellow sun",
+    "A cloud with lines falling from it",
+    "A plain cloud",
+    "A thermometer"
+   ],
+   "answer": 1,
+   "explanation": "Falling lines under a cloud show rain."
+  },
+  {
+   "topic": "1.4",
+   "q": "On a weather chart, which symbol usually means a sunny day?",
+   "options": [
+    "A cloud",
+    "A sun",
+    "A raindrop",
+    "A wind arrow"
+   ],
+   "answer": 1,
+   "explanation": "A sun symbol shows sunny weather."
+  },
+  {
+   "topic": "1.4",
+   "q": "Why is it dangerous to cross a flooded road?",
+   "options": [
+    "Water may be deep and fast and can hide holes",
+    "Water is always clean",
+    "The road is shorter",
+    "There is no traffic"
+   ],
+   "answer": 0,
+   "explanation": "Floods can carry people and vehicles away."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which clothing helps drivers to see you on a rainy day?",
+   "options": [
+    "Dark grey clothes",
+    "Black clothes",
+    "Brown clothes",
+    "Bright or reflective clothes"
+   ],
+   "answer": 3,
+   "explanation": "Bright and reflective clothes stand out."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.1",
+   "q": "Name the four cardinal points.",
+   "marks": 2,
+   "answer": "North, east, south and west.",
+   "working": "1 mark for two correct points, 2 marks for all four."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain how you can find east in the morning without a compass.",
+   "marks": 2,
+   "answer": "Face the direction where the sun rises. That direction is east.",
+   "working": "1 mark for using the rising sun, 1 mark for naming east."
+  },
+  {
+   "topic": "1.1",
+   "q": "State the direction that is opposite to each of these: north and east.",
+   "marks": 2,
+   "answer": "The opposite of north is south. The opposite of east is west.",
+   "working": "1 mark for each correct opposite."
+  },
+  {
+   "topic": "1.1",
+   "q": "Draw a compass rose and label the four cardinal points.",
+   "marks": 3,
+   "answer": "A drawing with N at the top, E on the right, S at the bottom and W on the left.",
+   "working": "1 mark for neat drawing, 1 mark for N at top, 1 mark for E, S and W correct."
+  },
+  {
+   "topic": "1.1",
+   "q": "A pupil stands facing east. Say what is behind the pupil, on the left and on the right.",
+   "marks": 3,
+   "answer": "Behind is west. On the left is north. On the right is south.",
+   "working": "1 mark for each correct direction."
+  },
+  {
+   "topic": "1.1",
+   "q": "Give three reasons why people need directions in everyday life.",
+   "marks": 3,
+   "answer": "To find places, to travel safely, and to explain to others where something is. Accept sailors, pilots and farmers using direction.",
+   "working": "1 mark for each sensible reason."
+  },
+  {
+   "topic": "1.1",
+   "q": "On a sketch map the school is in the middle, the market is above it and the clinic is below it. Write two sentences to say where the market and the clinic are.",
+   "marks": 4,
+   "answer": "The market is north of the school. The clinic is south of the school.",
+   "working": "1 mark for each correct direction word and 1 mark for each correct sentence."
+  },
+  {
+   "topic": "1.1",
+   "q": "Name the four in-between points on a compass and say between which cardinal points each lies.",
+   "marks": 4,
+   "answer": "North-east (between north and east), south-east (between south and east), south-west (between south and west), north-west (between north and west).",
+   "working": "1 mark for each correct in-between point with its place."
+  },
+  {
+   "topic": "1.1",
+   "q": "Give four instructions to guide a visitor from the school gate to the office using cardinal points. The office is 50 steps north and then 20 steps east of the gate.",
+   "marks": 4,
+   "answer": "Start at the gate. Walk 50 steps north. Turn to face east. Walk 20 steps east to the office.",
+   "working": "1 mark for each clear instruction with the right direction."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain why we say that the compass is useful in a county.",
+   "marks": 5,
+   "answer": "It helps us to find our way. It helps mapmakers to draw maps. It helps us to describe where places are. It helps drivers and sailors to travel. It helps us to plan journeys.",
+   "working": "1 mark for each valid point, up to 5."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is a sub-county?",
+   "marks": 2,
+   "answer": "A sub-county is a smaller part of a county. Each county is divided into sub-counties.",
+   "working": "1 mark for saying it is a smaller part, 1 mark for the link with a county."
+  },
+  {
+   "topic": "1.2",
+   "q": "Explain what neighbouring counties are.",
+   "marks": 2,
+   "answer": "Neighbouring counties are counties that share a boundary with your county.",
+   "working": "1 mark for sharing a boundary, 1 mark for saying they are next to yours."
+  },
+  {
+   "topic": "1.2",
+   "q": "Give two reasons why we need to know the location of our county.",
+   "marks": 2,
+   "answer": "To plan journeys and to know which counties are next to us. Accept sharing resources.",
+   "working": "1 mark for each sensible reason."
+  },
+  {
+   "topic": "1.2",
+   "q": "Give three things that should be on a sketch map of your county.",
+   "marks": 3,
+   "answer": "A title, a north arrow and a key. Accept sub-county names and boundaries.",
+   "working": "1 mark for each correct item."
+  },
+  {
+   "topic": "1.2",
+   "q": "Explain the difference between the size of a county and its population.",
+   "marks": 3,
+   "answer": "Size is the area of land a county covers. Population is the number of people who live there. A big county can have few people.",
+   "working": "1 mark for size, 1 mark for population, 1 mark for the difference or example."
+  },
+  {
+   "topic": "1.2",
+   "q": "County A covers 15 grid squares and County B covers 9 grid squares. Which is larger and by how many squares? Show your working.",
+   "marks": 3,
+   "answer": "County A is larger by 6 squares.",
+   "working": "15 - 9 = 6. 1 mark for choosing A, 1 mark for subtracting, 1 mark for 6 squares."
+  },
+  {
+   "topic": "1.2",
+   "q": "Describe how you would draw a sketch map of your county in five steps.",
+   "marks": 5,
+   "answer": "Draw the county outline. Draw the sub-county boundaries. Write the names of the sub-counties. Show the neighbouring counties around the edge. Add a north arrow, a title and a key, then colour it.",
+   "working": "1 mark for each correct step."
+  },
+  {
+   "topic": "1.2",
+   "q": "Name the five countries that border Kenya.",
+   "marks": 5,
+   "answer": "Uganda, Tanzania, Ethiopia, South Sudan and Somalia.",
+   "working": "1 mark for each country."
+  },
+  {
+   "topic": "1.2",
+   "q": "Explain three ways in which a county can benefit when its officers know its size and location well.",
+   "marks": 3,
+   "answer": "They can plan roads and health centres to reach people. They can share resources with neighbours. They can plan journeys and services better.",
+   "working": "1 mark for each way."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain the difference between a physical feature and a built feature. Give one example of each.",
+   "marks": 4,
+   "answer": "A physical feature is natural, such as a mountain. A built feature is made by people, such as a bridge.",
+   "working": "1 mark for each meaning and 1 mark for each correct example."
+  },
+  {
+   "topic": "1.3",
+   "q": "Name two landforms and two water features.",
+   "marks": 4,
+   "answer": "Landforms: mountain and valley (or hill, plain, plateau). Water features: lake and river (or waterfall, ocean).",
+   "working": "1 mark for each correct example."
+  },
+  {
+   "topic": "1.3",
+   "q": "State three ways in which physical features are important to people.",
+   "marks": 3,
+   "answer": "They give water, they provide fish and food, and they attract visitors. Accept farming land or electric power.",
+   "working": "1 mark for each correct way."
+  },
+  {
+   "topic": "1.3",
+   "q": "Describe how you would show a river, a lake and a mountain on a map with a key.",
+   "marks": 3,
+   "answer": "A wavy blue line for a river, a blue patch for a lake and a brown triangle or brown shading for a mountain, with a key that explains them.",
+   "working": "1 mark for each correct symbol described, up to 3."
+  },
+  {
+   "topic": "1.3",
+   "q": "Give two ways in which Mount Kenya is useful.",
+   "marks": 2,
+   "answer": "It gives water for rivers and it attracts tourists. Accept rich soils for farming.",
+   "working": "1 mark for each correct use."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain why a mountain can be a source of water for people living far away.",
+   "marks": 3,
+   "answer": "Mountains catch rain. The rain flows into rivers. Rivers carry the water to farms and towns far away.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "1.3",
+   "q": "List four ways of caring for rivers and lakes.",
+   "marks": 4,
+   "answer": "Do not throw rubbish into them, plant trees on the banks, do not wash or farm too close to the water, and tell adults about pollution.",
+   "working": "1 mark for each correct way."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain how the Tana River helps people in Kenya.",
+   "marks": 3,
+   "answer": "It supplies water, its dams produce electric power, and its water is used for irrigation.",
+   "working": "1 mark for each correct use."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain what may happen if people cut down all the trees on a mountain.",
+   "marks": 3,
+   "answer": "Rain may wash away the soil. Rivers may dry up. There may be landslides or floods.",
+   "working": "1 mark for each correct result."
+  },
+  {
+   "topic": "1.3",
+   "q": "Draw a side view of the land showing a mountain, a valley and a plain and label them.",
+   "marks": 5,
+   "answer": "A drawing with a high peak labelled mountain, a low dip labelled valley and a flat area labelled plain.",
+   "working": "1 mark for each correct shape drawn and 1 mark for each label, up to 5 marks."
+  },
+  {
+   "topic": "1.4",
+   "q": "Name the four seasons in the county.",
+   "marks": 2,
+   "answer": "Hot, cold, dry and rainy.",
+   "working": "2 marks for all four, 1 mark for two or three."
+  },
+  {
+   "topic": "1.4",
+   "q": "Explain why Kenya does not have summer and winter.",
+   "marks": 2,
+   "answer": "Kenya lies on the equator, so the temperature changes little through the year. Our seasons depend mainly on rain and on how high the land is.",
+   "working": "1 mark for the equator idea, 1 mark for rain or height."
+  },
+  {
+   "topic": "1.4",
+   "q": "Give three ways in which the rainy season helps people.",
+   "marks": 3,
+   "answer": "Crops grow, grass grows for animals, and rivers and tanks fill with water.",
+   "working": "1 mark for each correct way."
+  },
+  {
+   "topic": "1.4",
+   "q": "Give three ways in which the dry season affects people's activities.",
+   "marks": 3,
+   "answer": "Farmers harvest and dry crops, fishermen dry fish in the sun, and herders move animals to find water and grass.",
+   "working": "1 mark for each correct way."
+  },
+  {
+   "topic": "1.4",
+   "q": "Draw a weather chart for three days: sunny, rainy, cloudy. Add a key.",
+   "marks": 3,
+   "answer": "Three boxes with a sun, a cloud with rain lines and a plain cloud, and a key that names each symbol.",
+   "working": "1 mark for correct symbols, 1 mark for the days, 1 mark for the key."
+  },
+  {
+   "topic": "1.4",
+   "q": "State three road safety rules for a rainy day.",
+   "marks": 3,
+   "answer": "Do not cross flooded roads, wear bright or reflective clothes, and walk facing traffic if there is no pavement.",
+   "working": "1 mark for each correct rule."
+  },
+  {
+   "topic": "1.4",
+   "q": "Explain four ways in which rainy weather makes roads dangerous.",
+   "marks": 4,
+   "answer": "Roads become slippery, it is harder to see, floods can sweep away people and vehicles, and water can hide holes.",
+   "working": "1 mark for each correct way."
+  }
+ ]
+}
