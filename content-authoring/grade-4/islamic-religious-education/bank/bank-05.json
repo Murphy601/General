@@ -1,0 +1,1451 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1",
+   "q": "How many verses are in Surah Al-Ikhlas?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "answer": 1,
+   "explanation": "Al-Ikhlas has four verses."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which surah speaks about Abu Lahab?",
+   "options": [
+    "An-Nasr",
+    "Al-Fatiha",
+    "Al-Masad",
+    "Al-Falaq"
+   ],
+   "answer": 2,
+   "explanation": "Al-Masad warns Abu Lahab, whose wealth did not save him."
+  },
+  {
+   "topic": "1.1",
+   "q": "What does the verse \"Iyyaka na'budu wa iyyaka nasta'in\" mean?",
+   "options": [
+    "Allah is the Most Great",
+    "Read in the name of your Lord",
+    "You alone we worship and You alone we ask for help",
+    "Say: Allah is One"
+   ],
+   "answer": 2,
+   "explanation": "This is the fifth verse of Al-Fatiha."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which surah is number 110 in the Qur'an?",
+   "options": [
+    "Al-Masad",
+    "Al-Kafirun",
+    "Al-Ikhlas",
+    "An-Nasr"
+   ],
+   "answer": 3,
+   "explanation": "An-Nasr is 110, Al-Masad 111 and Al-Kafirun 109."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is a chapter of the Qur'an called?",
+   "options": [
+    "A surah",
+    "An ayah",
+    "A rak'ah",
+    "A sujud"
+   ],
+   "answer": 0,
+   "explanation": "A surah is a chapter made of ayat."
+  },
+  {
+   "topic": "2.1",
+   "q": "What is a hadith?",
+   "options": [
+    "A chapter of the Qur'an",
+    "A saying, action or approval of the Prophet (S.A.W.)",
+    "A type of prayer",
+    "A Muslim festival"
+   ],
+   "answer": 1,
+   "explanation": "Hadith records what the Prophet said, did or approved."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is a trait of the Prophet's character?",
+   "options": [
+    "Cheating",
+    "Honesty",
+    "Boasting",
+    "Laziness"
+   ],
+   "answer": 1,
+   "explanation": "The Prophet was known as trustworthy and truthful."
+  },
+  {
+   "topic": "2.1",
+   "q": "What did the Prophet say about smiling at your brother?",
+   "options": [
+    "It is forbidden",
+    "It is a sin",
+    "It is a kind of charity",
+    "It is only for the rich"
+   ],
+   "answer": 2,
+   "explanation": "A smile that cheers someone up is charity."
+  },
+  {
+   "topic": "2.1",
+   "q": "In which surah does Allah praise the Prophet's great character?",
+   "options": [
+    "Al-Ikhlas",
+    "An-Nasr",
+    "Al-Masad",
+    "Al-Qalam (68:4)"
+   ],
+   "answer": 3,
+   "explanation": "Surah Al-Qalam 68:4 speaks about his great standard of character."
+  },
+  {
+   "topic": "2.2",
+   "q": "What should a Muslim say before eating?",
+   "options": [
+    "Bismillah",
+    "Alhamdulillah",
+    "Astaghfirullah",
+    "Subhanallah"
+   ],
+   "answer": 0,
+   "explanation": "We begin by mentioning Allah's name."
+  },
+  {
+   "topic": "2.2",
+   "q": "Who narrated the eating hadith from the syllabus?",
+   "options": [
+    "Ibn Majah",
+    "Al-Bukhari",
+    "Al-Hakim",
+    "Abu Lahab"
+   ],
+   "answer": 1,
+   "explanation": "The syllabus gives Al-Bukhari."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is bad eating manners?",
+   "options": [
+    "Sitting calmly",
+    "Talking with a full mouth",
+    "Taking small bites",
+    "Waiting for elders"
+   ],
+   "answer": 1,
+   "explanation": "Chewing with the mouth open and talking is impolite."
+  },
+  {
+   "topic": "2.2",
+   "q": "When eating with others from one dish, what should you do?",
+   "options": [
+    "Reach across for the best piece",
+    "Take the whole dish",
+    "Push others",
+    "Eat from your own side of the dish"
+   ],
+   "answer": 3,
+   "explanation": "The hadith teaches eating from what is in front of you."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is a siwak?",
+   "options": [
+    "A prayer mat",
+    "A water pot",
+    "A type of cloth",
+    "A small stick used to clean the teeth"
+   ],
+   "answer": 3,
+   "explanation": "The siwak comes from the arak tree."
+  },
+  {
+   "topic": "2.3",
+   "q": "What happens when germs feed on sugar left on teeth?",
+   "options": [
+    "They make acid that causes cavities",
+    "Teeth become stronger",
+    "Teeth grow longer",
+    "Nothing happens"
+   ],
+   "answer": 0,
+   "explanation": "Acid damages the teeth."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which habit protects teeth?",
+   "options": [
+    "Brushing twice a day",
+    "Eating sweets all day",
+    "Never rinsing",
+    "Sharing toothbrushes"
+   ],
+   "answer": 0,
+   "explanation": "Regular brushing prevents cavities."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which food is worst for teeth if we do not brush after?",
+   "options": [
+    "Water",
+    "Cabbage",
+    "Sweets and sugary drinks",
+    "Plain rice"
+   ],
+   "answer": 2,
+   "explanation": "Sugar feeds germs."
+  },
+  {
+   "topic": "2.4",
+   "q": "What does physical fitness mean?",
+   "options": [
+    "Having many clothes",
+    "Sleeping a lot",
+    "A healthy, active and strong body",
+    "Eating sweets"
+   ],
+   "answer": 2,
+   "explanation": "Fitness means the body is healthy."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is fair play?",
+   "options": [
+    "Winning at all costs",
+    "Insulting opponents",
+    "Ignoring the referee",
+    "Keeping the rules and not cheating"
+   ],
+   "answer": 3,
+   "explanation": "Fair play means honesty in sport."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which of these is a value from sports?",
+   "options": [
+    "Humility in winning",
+    "Boasting",
+    "Anger",
+    "Cheating"
+   ],
+   "answer": 0,
+   "explanation": "A Muslim thanks Allah and stays humble."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which skill helps keep a person safe near water?",
+   "options": [
+    "Archery",
+    "Swimming",
+    "Chess",
+    "Singing"
+   ],
+   "answer": 1,
+   "explanation": "Swimming can save lives."
+  },
+  {
+   "topic": "3.1",
+   "q": "What does the word \"attribute\" mean?",
+   "options": [
+    "A type of food",
+    "A prayer",
+    "A quality that describes someone",
+    "A place"
+   ],
+   "answer": 2,
+   "explanation": "An attribute is a quality, like kindness."
+  },
+  {
+   "topic": "3.1",
+   "q": "What does \"As-Sami'\" mean?",
+   "options": [
+    "The All-Seeing",
+    "The Most Kind",
+    "The All-Hearing",
+    "The King"
+   ],
+   "answer": 2,
+   "explanation": "As-Sami' hears everything."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which verse teaches that nothing is like Allah?",
+   "options": [
+    "Qur'an 1:1",
+    "Qur'an 112:1",
+    "Qur'an 110:1",
+    "Qur'an 42:11"
+   ],
+   "answer": 3,
+   "explanation": "It says there is nothing like Him and He is the All-Hearing, All-Seeing."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which name teaches that Allah owns everything we have?",
+   "options": [
+    "Al-Malik",
+    "Ar-Rahim",
+    "As-Sami'",
+    "As-Salam"
+   ],
+   "answer": 0,
+   "explanation": "Everything belongs to the true King."
+  },
+  {
+   "topic": "3.1",
+   "q": "How should we describe Allah?",
+   "options": [
+    "Like a big man",
+    "Nothing is like Him",
+    "Like a king on earth",
+    "Like an angel"
+   ],
+   "answer": 1,
+   "explanation": "Allah is not compared to His creation."
+  },
+  {
+   "topic": "3.1",
+   "q": "Ar-Rahman's mercy is",
+   "options": [
+    "Only for Muslims in Kenya",
+    "For all creation",
+    "Only for the rich",
+    "Only for adults"
+   ],
+   "answer": 1,
+   "explanation": "It covers believers and non-believers, people and animals."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which angel is in charge of rain and provision?",
+   "options": [
+    "Jibril",
+    "Israfil",
+    "Mikail",
+    "Raqib"
+   ],
+   "answer": 2,
+   "explanation": "Scholars explain this duty of Mikail."
+  },
+  {
+   "topic": "3.2",
+   "q": "Belief in angels is one of the pillars of",
+   "options": [
+    "Iman",
+    "Islam only",
+    "Hajj",
+    "Zakat"
+   ],
+   "answer": 0,
+   "explanation": "The six pillars of Iman include angels."
+  },
+  {
+   "topic": "3.2",
+   "q": "Who is called \"Ar-Ruh al-Amin\", the Trustworthy Spirit?",
+   "options": [
+    "Jibril",
+    "Mikail",
+    "Israfil",
+    "Raqib"
+   ],
+   "answer": 0,
+   "explanation": "This title refers to Jibril."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is NOT an angel duty?",
+   "options": [
+    "Bringing revelation by Allah's order",
+    "Making rain by their own power",
+    "Recording deeds",
+    "Taking souls by permission"
+   ],
+   "answer": 1,
+   "explanation": "Angels act only by Allah's command."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which duty belongs to Jibril?",
+   "options": [
+    "Blowing the Trumpet",
+    "Bringing revelation",
+    "Taking souls",
+    "Recording deeds"
+   ],
+   "answer": 1,
+   "explanation": "He delivered the Qur'an."
+  },
+  {
+   "topic": "3.3",
+   "q": "Who was the first prophet?",
+   "options": [
+    "Nuh",
+    "Ibrahim",
+    "Musa",
+    "Adam"
+   ],
+   "answer": 3,
+   "explanation": "Adam was the first human and prophet."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which two prophets showed obedience when Ibrahim was told in a dream to sacrifice?",
+   "options": [
+    "Musa and Harun",
+    "Nuh and Hud",
+    "Yusuf and Yaqub",
+    "Ibrahim and Ismail"
+   ],
+   "answer": 3,
+   "explanation": "Both were ready to obey Allah."
+  },
+  {
+   "topic": "3.3",
+   "q": "Yahya was the son of",
+   "options": [
+    "Zakariyya",
+    "Dawud",
+    "Ibrahim",
+    "Musa"
+   ],
+   "answer": 0,
+   "explanation": "Yahya was the son of Zakariyya."
+  },
+  {
+   "topic": "3.3",
+   "q": "What is honesty?",
+   "options": [
+    "Not cheating or stealing and keeping trust",
+    "Telling lies",
+    "Hiding things",
+    "Boasting"
+   ],
+   "answer": 0,
+   "explanation": "Honest people are trusted."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which prophet is the ancestor of Yaqub?",
+   "options": [
+    "Musa",
+    "Dawud",
+    "Ishaq",
+    "Harun"
+   ],
+   "answer": 2,
+   "explanation": "Yaqub was the son of Ishaq."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which of these is NOT a najasa?",
+   "options": [
+    "Blood that flows",
+    "Vomit",
+    "Stool",
+    "Human sweat"
+   ],
+   "answer": 3,
+   "explanation": "Sweat is pure."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which example is a light najasa?",
+   "options": [
+    "Urine of an adult",
+    "Blood",
+    "Dog saliva",
+    "Urine of a baby boy who feeds only on milk"
+   ],
+   "answer": 3,
+   "explanation": "Light najasa is cleaned by sprinkling."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which verse says Allah sends down pure water from the sky?",
+   "options": [
+    "Qur'an 25:48",
+    "Qur'an 1:1",
+    "Qur'an 112:1",
+    "Qur'an 110:1"
+   ],
+   "answer": 0,
+   "explanation": "Surah Al-Furqan 25:48."
+  },
+  {
+   "topic": "4.1",
+   "q": "Why must we clean najasaat before prayer?",
+   "options": [
+    "It is a game",
+    "Purity is a condition for valid prayer",
+    "It saves water",
+    "It is only for adults"
+   ],
+   "answer": 1,
+   "explanation": "Prayer is not valid with najasa on the body, clothes or place."
+  },
+  {
+   "topic": "4.1",
+   "q": "If there is solid matter of a najasa, what should you do first?",
+   "options": [
+    "Cover it",
+    "Sprinkle perfume",
+    "Remove it",
+    "Ignore it"
+   ],
+   "answer": 2,
+   "explanation": "Remove the substance first."
+  },
+  {
+   "topic": "4.1.2",
+   "q": "What is wudhu?",
+   "options": [
+    "Reciting the Qur'an",
+    "Giving zakat",
+    "Washing certain body parts with water before prayer",
+    "A journey"
+   ],
+   "answer": 2,
+   "explanation": "Wudhu is ablution."
+  },
+  {
+   "topic": "4.1.2",
+   "q": "How far are the arms washed?",
+   "options": [
+    "Only the wrist",
+    "Only the palm",
+    "Up to the shoulder",
+    "Up to and including the elbows"
+   ],
+   "answer": 3,
+   "explanation": "Qur'an 5:6 says to the elbows."
+  },
+  {
+   "topic": "4.1.2",
+   "q": "Which of these does NOT break wudhu?",
+   "options": [
+    "Urine",
+    "Passing wind",
+    "Eating and drinking",
+    "Deep sleep lying down"
+   ],
+   "answer": 2,
+   "explanation": "Eating does not break wudhu."
+  },
+  {
+   "topic": "4.1.2",
+   "q": "What does the Prophet say about wudhu on the Day of Judgement?",
+   "options": [
+    "Nothing",
+    "Only rich people will shine",
+    "Wudhu will be forgotten",
+    "Believers will have shining marks from wudhu"
+   ],
+   "answer": 3,
+   "explanation": "Recorded by Muslim."
+  },
+  {
+   "topic": "4.1.2",
+   "q": "What is the meaning of niyyah?",
+   "options": [
+    "Intention in the heart",
+    "Prayer times",
+    "Direction",
+    "Prayer mat"
+   ],
+   "answer": 0,
+   "explanation": "Niyyah is intention."
+  },
+  {
+   "topic": "4.1.3",
+   "q": "Which is a condition of swalah?",
+   "options": [
+    "Facing the Qibla",
+    "Bowing",
+    "Prostrating",
+    "Taslim"
+   ],
+   "answer": 0,
+   "explanation": "Facing Qibla is a condition; bowing is a pillar."
+  },
+  {
+   "topic": "4.1.3",
+   "q": "If you stretch your right arm toward the sunrise, you are facing roughly",
+   "options": [
+    "North",
+    "South",
+    "East",
+    "West"
+   ],
+   "answer": 0,
+   "explanation": "Right arm east means facing north."
+  },
+  {
+   "topic": "4.1.3",
+   "q": "Which prayer begins at midday after the sun passes its highest point?",
+   "options": [
+    "Fajr",
+    "Dhuhr",
+    "Maghrib",
+    "Isha"
+   ],
+   "answer": 1,
+   "explanation": "Dhuhr begins after the sun passes noon."
+  },
+  {
+   "topic": "4.1.3",
+   "q": "How many rak'ahs does Isha have?",
+   "options": [
+    "Two",
+    "Four",
+    "Three",
+    "Five"
+   ],
+   "answer": 1,
+   "explanation": "Isha has four."
+  },
+  {
+   "topic": "4.1.3",
+   "q": "Why must clothes and the prayer place be clean?",
+   "options": [
+    "It saves money",
+    "It is a game",
+    "It is not needed",
+    "Purity is a condition of prayer"
+   ],
+   "answer": 3,
+   "explanation": "A valid prayer needs purity."
+  },
+  {
+   "topic": "4.3",
+   "q": "What is a pillar (rukn) of swalah?",
+   "options": [
+    "A type of clothing",
+    "A place",
+    "A drink",
+    "A part that must be done for the prayer to be valid"
+   ],
+   "answer": 3,
+   "explanation": "Leaving a pillar spoils the prayer."
+  },
+  {
+   "topic": "4.3",
+   "q": "What does \"Allahu Akbar\" mean?",
+   "options": [
+    "Allah is the Greatest",
+    "Allah is One",
+    "All praise belongs to Allah",
+    "Glory to Allah"
+   ],
+   "answer": 0,
+   "explanation": "Takbir means Allah is the Greatest."
+  },
+  {
+   "topic": "4.3",
+   "q": "What do we say in ruku?",
+   "options": [
+    "Subhana Rabbiyal A'la",
+    "Subhana Rabbiyal Azim",
+    "Bismillah",
+    "Alhamdulillah"
+   ],
+   "answer": 1,
+   "explanation": "Glory to my Lord, the Most Great."
+  },
+  {
+   "topic": "4.3",
+   "q": "What is taslim?",
+   "options": [
+    "The beginning of prayer",
+    "Bowing",
+    "The ending greeting of the prayer",
+    "Dua"
+   ],
+   "answer": 2,
+   "explanation": "As-salamu alaykum wa rahmatullah."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which is the correct order in one rak'ah?",
+   "options": [
+    "Sujud, ruku, Fatiha",
+    "Sitting, standing, bowing",
+    "Ruku, Fatiha, sujud",
+    "Fatiha, ruku, rising, sujud, sitting, sujud"
+   ],
+   "answer": 3,
+   "explanation": "Tartib means this order."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which of these is a Sunnah act, not a pillar?",
+   "options": [
+    "Fatiha",
+    "Ruku",
+    "Sujud",
+    "Raising hands with the first takbir"
+   ],
+   "answer": 3,
+   "explanation": "Sunnah acts add reward."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Which of these is one of Allah's creatures?",
+   "options": [
+    "A goat",
+    "A phone",
+    "A chair",
+    "A stone wall"
+   ],
+   "answer": 0,
+   "explanation": "Animals are living creatures of Allah."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Which animal do people in northern Kenya commonly use to carry loads?",
+   "options": [
+    "Zebra",
+    "Camel",
+    "Monkey",
+    "Hippo"
+   ],
+   "answer": 1,
+   "explanation": "Camels carry loads in dry areas."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "Why should we not pollute rivers?",
+   "options": [
+    "Rivers are ugly",
+    "Fish do not matter",
+    "Fish and other creatures live there",
+    "Only people use rivers"
+   ],
+   "answer": 2,
+   "explanation": "Pollution harms creatures."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "What is \"rahmah\"?",
+   "options": [
+    "Anger",
+    "Fear",
+    "Mercy",
+    "Pride"
+   ],
+   "answer": 2,
+   "explanation": "Rahmah means mercy."
+  },
+  {
+   "topic": "5.1.2",
+   "q": "What is the awrah?",
+   "options": [
+    "A prayer",
+    "A cap",
+    "A fast",
+    "The parts of the body that must be covered"
+   ],
+   "answer": 3,
+   "explanation": "Awrah is what must be covered."
+  },
+  {
+   "topic": "5.1.2",
+   "q": "Which is a Kenyan Muslim garment for men?",
+   "options": [
+    "Hijab",
+    "Kanzu",
+    "Buibui",
+    "Sari"
+   ],
+   "answer": 1,
+   "explanation": "Kanzu is a long robe."
+  },
+  {
+   "topic": "5.1.2",
+   "q": "Why should clothes not carry rude words or pictures?",
+   "options": [
+    "They are cheap",
+    "They disrespect faith and others",
+    "They are heavy",
+    "They fade"
+   ],
+   "answer": 1,
+   "explanation": "Clothes should be modest."
+  },
+  {
+   "topic": "5.1.2",
+   "q": "A girl wants to play football modestly. Which outfit suits?",
+   "options": [
+    "A see-through top",
+    "A very tight top",
+    "Tracksuit with long trousers and sports headscarf",
+    "A torn shirt"
+   ],
+   "answer": 2,
+   "explanation": "It allows free movement and modesty."
+  },
+  {
+   "topic": "5.1.3",
+   "q": "Which of these is broadcast media?",
+   "options": [
+    "Book",
+    "Poster",
+    "Radio",
+    "Magazine"
+   ],
+   "answer": 2,
+   "explanation": "Radio and television broadcast."
+  },
+  {
+   "topic": "5.1.3",
+   "q": "What does Qur'an 49:6 tell us about news?",
+   "options": [
+    "Check it first",
+    "Share it quickly",
+    "Ignore it",
+    "Change it"
+   ],
+   "answer": 0,
+   "explanation": "Verify before acting."
+  },
+  {
+   "topic": "5.1.3",
+   "q": "What is a good media rule?",
+   "options": [
+    "Ask parents before using devices",
+    "Use a phone secretly",
+    "Download any app",
+    "Share passwords"
+   ],
+   "answer": 0,
+   "explanation": "Permission keeps children safe."
+  },
+  {
+   "topic": "5.1.3",
+   "q": "Which of these is a positive use of the internet?",
+   "options": [
+    "Meeting strangers",
+    "Finding information for a school project with permission",
+    "Watching harmful videos",
+    "Bullying"
+   ],
+   "answer": 1,
+   "explanation": "Learning is good."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "What did the Prophet say about the upper hand?",
+   "options": [
+    "It is worse",
+    "It is better than the lower hand",
+    "They are equal",
+    "It does not matter"
+   ],
+   "answer": 1,
+   "explanation": "The giver is better than the receiver."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Why is it bad when children are made to beg?",
+   "options": [
+    "They miss school and face danger",
+    "They learn a lot",
+    "It helps them study",
+    "It makes them strong"
+   ],
+   "answer": 0,
+   "explanation": "Children should be protected."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Which is a way a child can earn safely with permission?",
+   "options": [
+    "Stealing",
+    "Begging on the road",
+    "Doing chores for a small reward",
+    "Taking loans"
+   ],
+   "answer": 2,
+   "explanation": "With parents' permission."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "Which is a life skill related to this topic?",
+   "options": [
+    "Wasting money",
+    "Gambling",
+    "Avoiding begging without justification",
+    "Laziness"
+   ],
+   "answer": 2,
+   "explanation": "Self-awareness."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "What do we say when leaving the house?",
+   "options": [
+    "Bismillahi walajna",
+    "Alhamdulillah only",
+    "Amin only",
+    "Bismillah, tawakkaltu 'alallah, wa la hawla wa la quwwata illa billah"
+   ],
+   "answer": 3,
+   "explanation": "This is the dua for leaving."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "What does the dua for entering the house mean?",
+   "options": [
+    "In the name of Allah we enter, in the name of Allah we leave, upon our Lord we depend",
+    "Read in the name",
+    "Guide us",
+    "Say He is Allah"
+   ],
+   "answer": 0,
+   "explanation": "That is the meaning."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Which verse tells us to greet when entering homes?",
+   "options": [
+    "Qur'an 112:1",
+    "Qur'an 24:61",
+    "Qur'an 1:2",
+    "Qur'an 110:1"
+   ],
+   "answer": 1,
+   "explanation": "Surah An-Nur 24:61."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "When you enter your home after school, what should you do first?",
+   "options": [
+    "Slam the door",
+    "Shout",
+    "Say Bismillah and the dua, then greet",
+    "Sleep"
+   ],
+   "answer": 2,
+   "explanation": "Say dua and greet."
+  },
+  {
+   "topic": "6.1",
+   "q": "Which is an obligation of parents?",
+   "options": [
+    "Ignoring children",
+    "Making them work all day",
+    "Providing food, clothing and shelter",
+    "Neglecting health"
+   ],
+   "answer": 2,
+   "explanation": "Basic needs."
+  },
+  {
+   "topic": "6.1",
+   "q": "Which of these shows love from parents?",
+   "options": [
+    "Listening and praising good behaviour",
+    "Shouting all day",
+    "Ignoring",
+    "Comparing children"
+   ],
+   "answer": 0,
+   "explanation": "Love is shown by care."
+  },
+  {
+   "topic": "6.2",
+   "q": "What does the Qur'an place right after worshipping Allah in Surah 17:23?",
+   "options": [
+    "Fasting",
+    "Journey",
+    "Being kind to parents",
+    "Trade"
+   ],
+   "answer": 2,
+   "explanation": "Kindness to parents is very important."
+  },
+  {
+   "topic": "6.2",
+   "q": "What does \"Rabbir-hamhuma kama rabbayani saghira\" mean?",
+   "options": [
+    "Guide us to the straight path",
+    "Say He is Allah",
+    "My Lord, have mercy on them as they raised me when I was small",
+    "Praise Allah"
+   ],
+   "answer": 2,
+   "explanation": "That is the meaning."
+  },
+  {
+   "topic": "6.2",
+   "q": "Which is a way to help parents at home?",
+   "options": [
+    "Break things",
+    "Hide",
+    "Complain",
+    "Sweep and wash dishes"
+   ],
+   "answer": 3,
+   "explanation": "Helping is a duty."
+  },
+  {
+   "topic": "6.2",
+   "q": "What is one reward of being good to parents?",
+   "options": [
+    "Loss",
+    "Trouble",
+    "Nothing",
+    "Blessing and Allah's pleasure"
+   ],
+   "answer": 3,
+   "explanation": "It is among the best deeds."
+  },
+  {
+   "topic": "6.3",
+   "q": "Who is a \"mjomba\"?",
+   "options": [
+    "Father's sister",
+    "Mother's brother",
+    "Grandmother",
+    "Cousin"
+   ],
+   "answer": 1,
+   "explanation": "Mjomba is mother's brother."
+  },
+  {
+   "topic": "6.3",
+   "q": "What is silat ar-rahm?",
+   "options": [
+    "Fasting",
+    "Praying",
+    "Keeping family ties",
+    "Trading"
+   ],
+   "answer": 2,
+   "explanation": "Ties of kinship."
+  },
+  {
+   "topic": "6.3",
+   "q": "Which is a duty to grandparents?",
+   "options": [
+    "Ignore them",
+    "Shout",
+    "Help them and listen to their stories",
+    "Avoid"
+   ],
+   "answer": 2,
+   "explanation": "Respect elders."
+  },
+  {
+   "topic": "6.3",
+   "q": "Which is a bad habit toward relatives?",
+   "options": [
+    "Greeting them",
+    "Helping them",
+    "Visiting them",
+    "Gossiping about them"
+   ],
+   "answer": 3,
+   "explanation": "Gossip breaks ties."
+  },
+  {
+   "topic": "7.1",
+   "q": "What was he called before prophethood?",
+   "options": [
+    "Al-Amin",
+    "Al-Farooq",
+    "As-Siddiq",
+    "Al-Haqq"
+   ],
+   "answer": 0,
+   "explanation": "Al-Amin means the trustworthy."
+  },
+  {
+   "topic": "7.1",
+   "q": "In which month did the first revelation come?",
+   "options": [
+    "Rajab",
+    "Ramadan",
+    "Muharram",
+    "Shawwal"
+   ],
+   "answer": 1,
+   "explanation": "The Qur'an began in Ramadan."
+  },
+  {
+   "topic": "7.1",
+   "q": "What does \"'Alaq\" refer to in Surah Al-Alaq?",
+   "options": [
+    "A pen",
+    "A clinging clot",
+    "A mountain",
+    "A cave"
+   ],
+   "answer": 1,
+   "explanation": "Man was created from a clinging clot."
+  },
+  {
+   "topic": "7.1",
+   "q": "What does the Kaaba represent?",
+   "options": [
+    "A market",
+    "A palace",
+    "The House built to worship Allah alone",
+    "A school"
+   ],
+   "answer": 2,
+   "explanation": "Ibrahim and Ismail built it."
+  },
+  {
+   "topic": "7.2",
+   "q": "What does \"As-Siddiq\" mean?",
+   "options": [
+    "The fast one",
+    "The rich one",
+    "The old one",
+    "The truthful one who believes"
+   ],
+   "answer": 3,
+   "explanation": "Abu Bakr's title."
+  },
+  {
+   "topic": "7.2",
+   "q": "Apart from Ibrahim, whose children were all the Prophet's children?",
+   "options": [
+    "Khadija's",
+    "Aisha's",
+    "Hafsa's",
+    "Safiyya's"
+   ],
+   "answer": 0,
+   "explanation": "All his children except Ibrahim were from Khadija."
+  },
+  {
+   "topic": "7.2",
+   "q": "Which of these was freed by Abu Bakr?",
+   "options": [
+    "Waraqa",
+    "Bilal",
+    "Abu Talib",
+    "Abu Lahab"
+   ],
+   "answer": 1,
+   "explanation": "Bilal was freed."
+  },
+  {
+   "topic": "7.2",
+   "q": "What can we learn from Ali about young people?",
+   "options": [
+    "Children cannot help",
+    "Even young people can accept truth and be brave",
+    "Children are weak",
+    "Only adults matter"
+   ],
+   "answer": 1,
+   "explanation": "Ali was a boy."
+  },
+  {
+   "topic": "7.3",
+   "q": "How did the leaders of Taif respond?",
+   "options": [
+    "They accepted at once",
+    "They gave him gifts",
+    "They joined him",
+    "They rejected him rudely"
+   ],
+   "answer": 3,
+   "explanation": "They refused."
+  },
+  {
+   "topic": "7.3",
+   "q": "What was the Prophet's answer?",
+   "options": [
+    "He asked for destruction",
+    "He said nothing",
+    "He said yes",
+    "He hoped their descendants would worship Allah alone"
+   ],
+   "answer": 3,
+   "explanation": "He chose mercy."
+  },
+  {
+   "topic": "7.3",
+   "q": "Which virtue is needed if a classmate teases you?",
+   "options": [
+    "Revenge",
+    "Shouting",
+    "Fighting",
+    "Patience and tolerance"
+   ],
+   "answer": 3,
+   "explanation": "Stay calm."
+  },
+  {
+   "topic": "7.3",
+   "q": "Why did the Prophet go to Taif?",
+   "options": [
+    "To invite people to Islam",
+    "To trade",
+    "To relax",
+    "To hide"
+   ],
+   "answer": 0,
+   "explanation": "He wanted support."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.1",
+   "q": "State the meaning of Surah Al-Ikhlas in your own words.",
+   "marks": 4,
+   "answer": "Allah is One. He is the Eternal Refuge whom everyone needs. He has no child and was not born. There is nobody equal to Him.",
+   "working": "1 mark for each of the four verses."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain the message of the last verse of Surah Al-Kafirun.",
+   "marks": 3,
+   "answer": "\"For you is your religion and for me is mine.\" A Muslim stays firm in his faith and respects the right of others to hold their beliefs.",
+   "working": "1 mark for the meaning, 1 mark for firmness, 1 mark for respect."
+  },
+  {
+   "topic": "2.1",
+   "q": "Describe how the Prophet (S.A.W.) solved the dispute over placing the Black Stone.",
+   "marks": 3,
+   "answer": "He placed the stone on a cloak and asked a leader from each tribe to hold an edge and lift it together, then he set it in place.",
+   "working": "1 mark for the cloak, 1 mark for leaders lifting together, 1 mark for setting it in place."
+  },
+  {
+   "topic": "2.1",
+   "q": "In a group role-play, a child finds Ksh 50 in the school field. Explain what a person of the Prophet's character would do and why.",
+   "marks": 5,
+   "answer": "Hand it to the teacher so the owner can be found. Honesty and trustworthiness. It is not ours, and Allah sees everything.",
+   "working": "1 mark for the action, 1 mark for honesty, 1 mark for trust, 1 mark for the reason, 1 mark for a clear explanation."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain why Muslims should not waste food and give two ways of avoiding waste.",
+   "marks": 4,
+   "answer": "Allah does not love the wasteful. Take only what you can finish, and share leftovers while fresh.",
+   "working": "1 mark for reason, 1 mark for Qur'an 7:31 or Allah's dislike, 2 marks for two ways."
+  },
+  {
+   "topic": "2.3",
+   "q": "State three times when the siwak or toothbrush is recommended.",
+   "marks": 3,
+   "answer": "Before wudhu and prayer, on waking up, when the mouth smells, before sleeping.",
+   "working": "1 mark for each correct time."
+  },
+  {
+   "topic": "2.4",
+   "q": "Write the hadith on physical fitness given in your syllabus.",
+   "marks": 2,
+   "answer": "Teach your children swimming, archery and horse riding.",
+   "working": "1 mark for the skills and 1 mark for the instruction to teach children."
+  },
+  {
+   "topic": "2.4",
+   "q": "Why is betting in a game not allowed?",
+   "marks": 3,
+   "answer": "Gambling is forbidden in Islam because it takes people's wealth unfairly and can cause harm and hatred.",
+   "working": "1 mark for forbidden, 1 mark for unfairness, 1 mark for harm."
+  },
+  {
+   "topic": "3.1",
+   "q": "Explain why we should behave well even when nobody is watching.",
+   "marks": 2,
+   "answer": "Allah is Al-Basir and sees everything, and As-Sami' hears everything.",
+   "working": "1 mark for Allah sees and hears and 1 mark for good behaviour."
+  },
+  {
+   "topic": "3.2",
+   "q": "What are angels created from, and what do they never do?",
+   "marks": 2,
+   "answer": "They are created from light and they never disobey Allah.",
+   "working": "1 mark for each part."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain why Muslims do not worship angels.",
+   "marks": 3,
+   "answer": "Angels are servants of Allah created to obey Him. Worship belongs to Allah alone.",
+   "working": "1 mark for servants of Allah, 1 mark for obey, 1 mark for worship only to Allah."
+  },
+  {
+   "topic": "3.3",
+   "q": "Name the first and the last prophet.",
+   "marks": 2,
+   "answer": "Adam was the first and Muhammad (S.A.W.) was the last.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the names of prophets in the family chain from Ibrahim to Yusuf.",
+   "marks": 3,
+   "answer": "Ibrahim, Ishaq, Yaqub, Yusuf.",
+   "working": "1 mark for Ibrahim, 1 for Ishaq and Yaqub, 1 for Yusuf in the right order."
+  },
+  {
+   "topic": "4.1",
+   "q": "Name the three types of najasaat.",
+   "marks": 3,
+   "answer": "Mukhaffafah (light), mutawassitah (medium) and mughalladha (heavy).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.1",
+   "q": "Explain how Islamic cleanliness rules protect health.",
+   "marks": 4,
+   "answer": "They prevent germs and diseases like diarrhoea and cholera. They teach washing hands after the toilet and before meals, and keep places clean.",
+   "working": "1 mark for each valid point up to 4."
+  },
+  {
+   "topic": "4.1.2",
+   "q": "State three things that do not nullify wudhu.",
+   "marks": 3,
+   "answer": "Eating, drinking, talking, laughing quietly, sweating.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.1.3",
+   "q": "State four conditions of swalah.",
+   "marks": 4,
+   "answer": "Islam and sanity; purity; covering the awrah; facing the Qibla; the time has come.",
+   "working": "1 mark for each condition."
+  },
+  {
+   "topic": "4.1.3",
+   "q": "Explain the difference between a condition and a pillar of swalah.",
+   "marks": 3,
+   "answer": "A condition is met before the prayer starts, such as wudhu. A pillar is part of the prayer, such as ruku.",
+   "working": "1 mark for condition, 1 mark for pillar, 1 mark for an example."
+  },
+  {
+   "topic": "4.3",
+   "q": "Name the seven parts of the body that touch the ground in sujud.",
+   "marks": 3,
+   "answer": "Forehead with nose, two palms, two knees and toes of both feet.",
+   "working": "1 mark for forehead, 1 mark for palms and knees, 1 mark for toes."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "State two creatures of Allah in your environment.",
+   "marks": 2,
+   "answer": "Any two, for example a cow and a bird.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.1.1",
+   "q": "What happened to the woman who did not feed her cat?",
+   "marks": 3,
+   "answer": "She tied the cat and did not feed it or let it find food. She was punished because of this. It teaches us that cruelty to animals is a sin.",
+   "working": "1 mark for the action, 1 mark for the punishment, 1 mark for the lesson."
+  },
+  {
+   "topic": "5.1.2",
+   "q": "Name three types of Muslim clothing worn in Kenya.",
+   "marks": 3,
+   "answer": "Kanzu, kofia, hijab or headscarf, buibui, long dress.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.1.3",
+   "q": "Give three positive uses of media.",
+   "marks": 3,
+   "answer": "Learning, listening to Qur'an and lessons, keeping in touch with family, news, safe skills.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.1.3",
+   "q": "Explain what integrity means when using a phone.",
+   "marks": 3,
+   "answer": "Doing the right thing even when nobody sees, because Allah sees and angels record. For example not cheating or copying.",
+   "working": "1 mark for meaning, 1 mark for Allah sees, 1 mark for example."
+  },
+  {
+   "topic": "5.2.1",
+   "q": "How should a Muslim treat a person who asks for help?",
+   "marks": 4,
+   "answer": "With kindness and respect, without driving him away, help if in real need, give quietly, or make a kind reply and dua.",
+   "working": "1 mark for each valid point."
+  },
+  {
+   "topic": "5.3.1",
+   "q": "Explain tawakkul using an example.",
+   "marks": 3,
+   "answer": "Tawakkul is doing our part and then trusting Allah, for example taking an umbrella and saying the dua before leaving.",
+   "working": "1 mark for meaning, 1 mark for example, 1 mark for trust in Allah."
+  },
+  {
+   "topic": "6.1",
+   "q": "State four obligations of parents to their children.",
+   "marks": 4,
+   "answer": "Food, clothing and shelter; health care; education; a good name; teaching faith; love; protection.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "6.1",
+   "q": "Describe how parents should correct children who do wrong.",
+   "marks": 4,
+   "answer": "With wisdom and gentleness, not cruelty. They should explain, listen, forgive small mistakes and set a good example.",
+   "working": "1 mark for each valid point."
+  },
+  {
+   "topic": "6.2",
+   "q": "Explain the hadith in which the mother is mentioned three times before the father.",
+   "marks": 3,
+   "answer": "The mother deserves the best company because of her great hardship in carrying and raising the child. But the father must also be honoured.",
+   "working": "1 mark for the order, 1 mark for the reason, 1 mark for honouring both."
+  },
+  {
+   "topic": "6.3",
+   "q": "Give the meanings of shangazi, mjomba and binamu.",
+   "marks": 3,
+   "answer": "Shangazi: father's sister; mjomba: mother's brother; binamu: cousin.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "6.3",
+   "q": "Suggest three ways to keep in touch with relatives who live far away.",
+   "marks": 3,
+   "answer": "Call, send messages, send gifts, visit in holidays, attend family events.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "7.1",
+   "q": "How did Khadija (R.A.) comfort the Prophet (S.A.W.)?",
+   "marks": 3,
+   "answer": "She covered him with a blanket, reminded him of his good character and said Allah would not disgrace him, and took him to Waraqa.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "7.1",
+   "q": "Why is Laylat al-Qadr connected to the first revelation?",
+   "marks": 3,
+   "answer": "The Qur'an says it was sent down on the Night of Power in Ramadan, which is why Ramadan is special.",
+   "working": "1 mark for the Night of Power, 1 mark for Ramadan, 1 mark for the Qur'an."
+  },
+  {
+   "topic": "7.2",
+   "q": "Why is Abu Bakr called As-Siddiq?",
+   "marks": 3,
+   "answer": "He believed the Prophet at once and spoke the truth, so he is called the truthful.",
+   "working": "1 mark for believing, 1 mark for truthfulness, 1 mark for title meaning."
+  },
+  {
+   "topic": "7.3",
+   "q": "What was the Prophet's reply to the angel of the mountains?",
+   "marks": 3,
+   "answer": "He refused to let the people be destroyed and hoped Allah would bring from their descendants people who worship Allah alone.",
+   "working": "1 mark for refusal, 1 mark for hope, 1 mark for descendants."
+  }
+ ]
+}
