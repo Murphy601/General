@@ -35,6 +35,930 @@
    ],
    "answer": 0,
    "explanation": "1/4 + 1/4 = 2/4 = 1/2."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 2 1/2 kg + 3/4 kg?",
+   "options": [
+    "3 1/2 kg",
+    "3 kg",
+    "3 3/4 kg",
+    "3 1/4 kg"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole kilograms first and then the parts. 2 1/2 kg + 3/4 kg = 3 1/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 2 1/4 kg + 1 1/2 kg?",
+   "options": [
+    "4 kg",
+    "3 3/4 kg",
+    "3 1/2 kg",
+    "4 1/4 kg"
+   ],
+   "answer": 1,
+   "explanation": "Work with the whole kilograms first and then the parts. 2 1/4 kg + 1 1/2 kg = 3 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 3 1/2 kg + 1 1/4 kg?",
+   "options": [
+    "5 kg",
+    "4 1/2 kg",
+    "4 3/4 kg",
+    "5 1/4 kg"
+   ],
+   "answer": 2,
+   "explanation": "Work with the whole kilograms first and then the parts. 3 1/2 kg + 1 1/4 kg = 4 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 3 1/4 kg + 2 1/2 kg?",
+   "options": [
+    "5 3/4 kg",
+    "6 kg",
+    "5 1/2 kg",
+    "6 1/4 kg"
+   ],
+   "answer": 0,
+   "explanation": "Work with the whole kilograms first and then the parts. 3 1/4 kg + 2 1/2 kg = 5 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 5 1/2 kg + 1/2 kg?",
+   "options": [
+    "6 1/4 kg",
+    "5 3/4 kg",
+    "6 1/2 kg",
+    "6 kg"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole kilograms first and then the parts. 5 1/2 kg + 1/2 kg = 6 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 1 3/4 kg + 2 1/4 kg?",
+   "options": [
+    "4 1/4 kg",
+    "3 3/4 kg",
+    "4 1/2 kg",
+    "4 kg"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole kilograms first and then the parts. 1 3/4 kg + 2 1/4 kg = 4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 1/2 kg + 3 kg?",
+   "options": [
+    "3 3/4 kg",
+    "3 1/4 kg",
+    "3 1/2 kg",
+    "4 kg"
+   ],
+   "answer": 2,
+   "explanation": "Work with the whole kilograms first and then the parts. 1/2 kg + 3 kg = 3 1/2 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 4 1/2 kg + 2 3/4 kg?",
+   "options": [
+    "7 1/2 kg",
+    "7 1/4 kg",
+    "7 kg",
+    "7 3/4 kg"
+   ],
+   "answer": 1,
+   "explanation": "Work with the whole kilograms first and then the parts. 4 1/2 kg + 2 3/4 kg = 7 1/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 5 kg − 1 1/2 kg?",
+   "options": [
+    "3 1/2 kg",
+    "3 3/4 kg",
+    "3 1/4 kg",
+    "4 kg"
+   ],
+   "answer": 0,
+   "explanation": "Work with the whole kilograms first and then the parts. 5 kg − 1 1/2 kg = 3 1/2 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 6 1/4 kg − 2 1/2 kg?",
+   "options": [
+    "4 kg",
+    "3 3/4 kg",
+    "3 1/2 kg",
+    "4 1/4 kg"
+   ],
+   "answer": 1,
+   "explanation": "Work with the whole kilograms first and then the parts. 6 1/4 kg − 2 1/2 kg = 3 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 3 kg − 1 3/4 kg?",
+   "options": [
+    "1 1/2 kg",
+    "1 kg",
+    "1 1/4 kg",
+    "1 3/4 kg"
+   ],
+   "answer": 2,
+   "explanation": "Work with the whole kilograms first and then the parts. 3 kg − 1 3/4 kg = 1 1/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 7 1/2 kg − 2 3/4 kg?",
+   "options": [
+    "5 kg",
+    "4 1/2 kg",
+    "5 1/4 kg",
+    "4 3/4 kg"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole kilograms first and then the parts. 7 1/2 kg − 2 3/4 kg = 4 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 4 kg − 1/4 kg?",
+   "options": [
+    "3 3/4 kg",
+    "4 kg",
+    "3 1/2 kg",
+    "4 1/4 kg"
+   ],
+   "answer": 0,
+   "explanation": "Work with the whole kilograms first and then the parts. 4 kg − 1/4 kg = 3 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 10 kg − 3 1/2 kg?",
+   "options": [
+    "6 3/4 kg",
+    "6 1/4 kg",
+    "7 kg",
+    "6 1/2 kg"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole kilograms first and then the parts. 10 kg − 3 1/2 kg = 6 1/2 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is 6 kg − 2 1/4 kg?",
+   "options": [
+    "4 kg",
+    "3 1/2 kg",
+    "3 3/4 kg",
+    "4 1/4 kg"
+   ],
+   "answer": 2,
+   "explanation": "Work with the whole kilograms first and then the parts. 6 kg − 2 1/4 kg = 3 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which unit do we use to measure the mass of a bag of maize flour?",
+   "options": [
+    "Kilogram",
+    "Litre",
+    "Metre",
+    "Centimetre"
+   ],
+   "answer": 0,
+   "explanation": "Mass is measured in kilograms."
+  },
+  {
+   "topic": "2.5",
+   "q": "Two 1/4 kg masses balance",
+   "options": [
+    "1/4 kg",
+    "1/2 kg",
+    "3/4 kg",
+    "1 kg"
+   ],
+   "answer": 1,
+   "explanation": "1/4 + 1/4 = 2/4 = 1/2."
+  },
+  {
+   "topic": "2.5",
+   "q": "How many 1/4 kg masses balance a 1 kg mass?",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "Four quarters make one whole kilogram."
+  },
+  {
+   "topic": "2.5",
+   "q": "A beam balance is level with rice in one pan and a 1/2 kg mass and a 1/4 kg mass in the other pan. What is the mass of the rice?",
+   "options": [
+    "1/4 kg",
+    "3/4 kg",
+    "1/2 kg",
+    "1 kg"
+   ],
+   "answer": 1,
+   "explanation": "1/2 + 1/4 = 2/4 + 1/4 = 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "A 50 kg sack of rice is packed into bags of 5 kg. How many bags are filled?",
+   "options": [
+    "10",
+    "5",
+    "45",
+    "250"
+   ],
+   "answer": 0,
+   "explanation": "50 ÷ 5 = 10 bags."
+  },
+  {
+   "topic": "2.5",
+   "q": "Achieng buys 3 packets of flour of 1/2 kg each and 2 packets of sugar of 1 kg each. What is the total mass?",
+   "options": [
+    "3 kg",
+    "5 kg",
+    "2 1/2 kg",
+    "3 1/2 kg"
+   ],
+   "answer": 3,
+   "explanation": "3 × 1/2 = 1 1/2 kg and 2 × 1 = 2 kg. 1 1/2 + 2 = 3 1/2 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "A basket of mangoes has a mass of 8 kg. The empty basket has a mass of 1 1/2 kg. What is the mass of the mangoes?",
+   "options": [
+    "6 1/2 kg",
+    "9 1/2 kg",
+    "7 kg",
+    "6 kg"
+   ],
+   "answer": 0,
+   "explanation": "8 − 1 1/2 = 6 1/2 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "A dial scale pointer stops halfway between 3 and 4. What is the mass?",
+   "options": [
+    "3 kg",
+    "4 kg",
+    "3 1/2 kg",
+    "3 1/4 kg"
+   ],
+   "answer": 2,
+   "explanation": "Halfway between 3 kg and 4 kg is 3 1/2 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "An electronic balance shows 2.5 kg. Which mass is this?",
+   "options": [
+    "2 1/4 kg",
+    "2 1/2 kg",
+    "2 3/4 kg",
+    "25 kg"
+   ],
+   "answer": 1,
+   "explanation": "0.5 is half, so 2.5 kg is 2 1/2 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "An electronic balance shows 0.75 kg. Which mass is this?",
+   "options": [
+    "1/4 kg",
+    "1/2 kg",
+    "7 1/2 kg",
+    "3/4 kg"
+   ],
+   "answer": 3,
+   "explanation": "0.75 = 75/100 = 3/4, so it is 3/4 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which is the best instrument for comparing the mass of a mango with known masses?",
+   "options": [
+    "A ruler",
+    "A beam balance",
+    "A measuring jug",
+    "A clock"
+   ],
+   "answer": 1,
+   "explanation": "A beam balance compares an object with known masses."
+  },
+  {
+   "topic": "2.5",
+   "q": "A big sponge is light but a small stone is heavy. What does this tell us?",
+   "options": [
+    "Big things are always heavy",
+    "Small things are always light",
+    "Mass is measured in metres",
+    "Size does not tell us the mass"
+   ],
+   "answer": 3,
+   "explanation": "We must measure to know the mass. Size alone does not tell us."
+  },
+  {
+   "topic": "2.5",
+   "q": "What should you check first before using a beam balance?",
+   "options": [
+    "That the beam is level when both pans are empty",
+    "That both pans are full",
+    "That it is near a window",
+    "That it has a 1 kg mass in each pan"
+   ],
+   "answer": 0,
+   "explanation": "The beam must be level when empty for the measurement to be correct."
+  },
+  {
+   "topic": "2.5",
+   "q": "A goat has a mass of 32 kg and a sheep 27 kg. How much heavier is the goat?",
+   "options": [
+    "59 kg",
+    "4 kg",
+    "5 kg",
+    "6 kg"
+   ],
+   "answer": 2,
+   "explanation": "32 − 27 = 5 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "A shopper buys 3/4 kg of tomatoes and 1/2 kg of onions. What is the total mass?",
+   "options": [
+    "1 kg",
+    "1 1/4 kg",
+    "1 1/2 kg",
+    "5/8 kg"
+   ],
+   "answer": 1,
+   "explanation": "3/4 + 2/4 = 5/4 = 1 1/4 kg."
+  },
+  {
+   "topic": "2.6",
+   "q": "On an analogue clock the short hour hand has reached or passed the number 3 but not yet reached the next number, and the long minute hand points to the number 12. What time is shown?",
+   "options": [
+    "4:00",
+    "3:12",
+    "3:00",
+    "12:15"
+   ],
+   "answer": 2,
+   "explanation": "Each number on the clock face is worth 5 minutes. The minute hand at 12 shows 12 × 5 = 0 minutes, so the time is 3:00."
+  },
+  {
+   "topic": "2.6",
+   "q": "On an analogue clock the short hour hand has reached or passed the number 6 but not yet reached the next number, and the long minute hand points to the number 6. What time is shown?",
+   "options": [
+    "6:30",
+    "7:30",
+    "6:06",
+    "6:45"
+   ],
+   "answer": 0,
+   "explanation": "Each number on the clock face is worth 5 minutes. The minute hand at 6 shows 6 × 5 = 30 minutes, so the time is 6:30."
+  },
+  {
+   "topic": "2.6",
+   "q": "On an analogue clock the short hour hand has reached or passed the number 4 but not yet reached the next number, and the long minute hand points to the number 4. What time is shown?",
+   "options": [
+    "5:20",
+    "4:04",
+    "4:40",
+    "4:20"
+   ],
+   "answer": 3,
+   "explanation": "Each number on the clock face is worth 5 minutes. The minute hand at 4 shows 4 × 5 = 20 minutes, so the time is 4:20."
+  },
+  {
+   "topic": "2.6",
+   "q": "On an analogue clock the short hour hand has reached or passed the number 7 but not yet reached the next number, and the long minute hand points to the number 9. What time is shown?",
+   "options": [
+    "8:45",
+    "7:09",
+    "7:45",
+    "7:15"
+   ],
+   "answer": 2,
+   "explanation": "Each number on the clock face is worth 5 minutes. The minute hand at 9 shows 9 × 5 = 45 minutes, so the time is 7:45."
+  },
+  {
+   "topic": "2.6",
+   "q": "On an analogue clock the short hour hand has reached or passed the number 2 but not yet reached the next number, and the long minute hand points to the number 3. What time is shown?",
+   "options": [
+    "3:15",
+    "2:15",
+    "2:03",
+    "2:45"
+   ],
+   "answer": 1,
+   "explanation": "Each number on the clock face is worth 5 minutes. The minute hand at 3 shows 3 × 5 = 15 minutes, so the time is 2:15."
+  },
+  {
+   "topic": "2.6",
+   "q": "On an analogue clock the short hour hand has reached or passed the number 9 but not yet reached the next number, and the long minute hand points to the number 6. What time is shown?",
+   "options": [
+    "9:30",
+    "10:30",
+    "9:06",
+    "6:45"
+   ],
+   "answer": 0,
+   "explanation": "Each number on the clock face is worth 5 minutes. The minute hand at 6 shows 6 × 5 = 30 minutes, so the time is 9:30."
+  },
+  {
+   "topic": "2.6",
+   "q": "On an analogue clock the short hour hand has reached or passed the number 11 but not yet reached the next number, and the long minute hand points to the number 1. What time is shown?",
+   "options": [
+    "12:05",
+    "11:01",
+    "11:55",
+    "11:05"
+   ],
+   "answer": 3,
+   "explanation": "Each number on the clock face is worth 5 minutes. The minute hand at 1 shows 1 × 5 = 5 minutes, so the time is 11:05."
+  },
+  {
+   "topic": "2.6",
+   "q": "On an analogue clock the short hour hand has reached or passed the number 8 but not yet reached the next number, and the long minute hand points to the number 10. What time is shown?",
+   "options": [
+    "9:50",
+    "8:50",
+    "8:10",
+    "10:40"
+   ],
+   "answer": 1,
+   "explanation": "Each number on the clock face is worth 5 minutes. The minute hand at 10 shows 10 × 5 = 50 minutes, so the time is 8:50."
+  },
+  {
+   "topic": "2.6",
+   "q": "Wekesa wakes up at half past six in the morning. How do we write this time?",
+   "options": [
+    "6:30 p.m.",
+    "6:03 a.m.",
+    "6:30 noon",
+    "6:30 a.m."
+   ],
+   "answer": 3,
+   "explanation": "Times from midnight to noon use a.m. and times from noon to midnight use p.m. The correct answer is 6:30 a.m.."
+  },
+  {
+   "topic": "2.6",
+   "q": "School ends at a quarter past three in the afternoon. How do we write this time?",
+   "options": [
+    "3:15 p.m.",
+    "3:15 a.m.",
+    "3:45 p.m.",
+    "15:3 p.m."
+   ],
+   "answer": 0,
+   "explanation": "Times from midnight to noon use a.m. and times from noon to midnight use p.m. The correct answer is 3:15 p.m.."
+  },
+  {
+   "topic": "2.6",
+   "q": "The family eats supper at half past seven at night. How do we write this time?",
+   "options": [
+    "7:30 a.m.",
+    "7:03 p.m.",
+    "7:30 p.m.",
+    "7:30 noon"
+   ],
+   "answer": 2,
+   "explanation": "Times from midnight to noon use a.m. and times from noon to midnight use p.m. The correct answer is 7:30 p.m.."
+  },
+  {
+   "topic": "2.6",
+   "q": "Assembly starts at eight o'clock in the morning. How do we write this time?",
+   "options": [
+    "8:00 p.m.",
+    "8:00 a.m.",
+    "8:00 noon",
+    "8:30 a.m."
+   ],
+   "answer": 1,
+   "explanation": "Times from midnight to noon use a.m. and times from noon to midnight use p.m. The correct answer is 8:00 a.m.."
+  },
+  {
+   "topic": "2.6",
+   "q": "Lunch is at one o'clock in the afternoon. How do we write this time?",
+   "options": [
+    "1:00 a.m.",
+    "1:00 noon",
+    "1:00 p.m.",
+    "12:00 p.m. and 1:00 a.m."
+   ],
+   "answer": 2,
+   "explanation": "Times from midnight to noon use a.m. and times from noon to midnight use p.m. The correct answer is 1:00 p.m.."
+  },
+  {
+   "topic": "2.6",
+   "q": "A learner goes to bed at nine o'clock at night. How do we write this time?",
+   "options": [
+    "9:00 p.m.",
+    "9:00 a.m.",
+    "9:00 noon",
+    "9:30 p.m."
+   ],
+   "answer": 0,
+   "explanation": "Times from midnight to noon use a.m. and times from noon to midnight use p.m. The correct answer is 9:00 p.m.."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many minutes are in 3 hours?",
+   "options": [
+    "300 minutes",
+    "72 minutes",
+    "240 minutes",
+    "180 minutes"
+   ],
+   "answer": 3,
+   "explanation": "1 hour = 60 minutes, so 3 × 60 = 180 minutes."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many minutes are in 5 hours?",
+   "options": [
+    "500 minutes",
+    "120 minutes",
+    "300 minutes",
+    "360 minutes"
+   ],
+   "answer": 2,
+   "explanation": "1 hour = 60 minutes, so 5 × 60 = 300 minutes."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many minutes are in 8 hours?",
+   "options": [
+    "800 minutes",
+    "480 minutes",
+    "192 minutes",
+    "540 minutes"
+   ],
+   "answer": 1,
+   "explanation": "1 hour = 60 minutes, so 8 × 60 = 480 minutes."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many minutes are in 12 hours?",
+   "options": [
+    "1200 minutes",
+    "288 minutes",
+    "780 minutes",
+    "720 minutes"
+   ],
+   "answer": 3,
+   "explanation": "1 hour = 60 minutes, so 12 × 60 = 720 minutes."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 90 minutes to hours and minutes.",
+   "options": [
+    "1 h 30 min",
+    "2 h",
+    "1 h",
+    "2 h 30 min"
+   ],
+   "answer": 0,
+   "explanation": "90 ÷ 60 = 1 remainder 30, so 90 minutes = 1 h 30 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 150 minutes to hours and minutes.",
+   "options": [
+    "3 h",
+    "2 h",
+    "2 h 30 min",
+    "3 h 30 min"
+   ],
+   "answer": 2,
+   "explanation": "150 ÷ 60 = 2 remainder 30, so 150 minutes = 2 h 30 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 210 minutes to hours and minutes.",
+   "options": [
+    "3 h 30 min",
+    "4 h",
+    "3 h",
+    "4 h 30 min"
+   ],
+   "answer": 0,
+   "explanation": "210 ÷ 60 = 3 remainder 30, so 210 minutes = 3 h 30 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 135 minutes to hours and minutes.",
+   "options": [
+    "2 h 45 min",
+    "1 h 45 min",
+    "3 h 15 min",
+    "2 h 15 min"
+   ],
+   "answer": 3,
+   "explanation": "135 ÷ 60 = 2 remainder 15, so 135 minutes = 2 h 15 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 270 minutes to hours and minutes.",
+   "options": [
+    "5 h",
+    "4 h 30 min",
+    "4 h",
+    "5 h 30 min"
+   ],
+   "answer": 1,
+   "explanation": "270 ÷ 60 = 4 remainder 30, so 270 minutes = 4 h 30 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many hours are in 2 days?",
+   "options": [
+    "24 hours",
+    "120 hours",
+    "48 hours",
+    "72 hours"
+   ],
+   "answer": 2,
+   "explanation": "1 day = 24 hours, so 2 × 24 = 48 hours."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many hours are in 3 days?",
+   "options": [
+    "72 hours",
+    "36 hours",
+    "180 hours",
+    "96 hours"
+   ],
+   "answer": 0,
+   "explanation": "1 day = 24 hours, so 3 × 24 = 72 hours."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many hours are in 5 days?",
+   "options": [
+    "60 hours",
+    "300 hours",
+    "144 hours",
+    "120 hours"
+   ],
+   "answer": 3,
+   "explanation": "1 day = 24 hours, so 5 × 24 = 120 hours."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many hours are in 7 days?",
+   "options": [
+    "84 hours",
+    "168 hours",
+    "420 hours",
+    "192 hours"
+   ],
+   "answer": 1,
+   "explanation": "1 day = 24 hours, so 7 × 24 = 168 hours."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 72 hours to days.",
+   "options": [
+    "6 days",
+    "1.2 days",
+    "3 days",
+    "4 days"
+   ],
+   "answer": 2,
+   "explanation": "72 ÷ 24 = 3 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 96 hours to days.",
+   "options": [
+    "8 days",
+    "1.6 days",
+    "5 days",
+    "4 days"
+   ],
+   "answer": 3,
+   "explanation": "96 ÷ 24 = 4 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 48 hours to days.",
+   "options": [
+    "4 days",
+    "2 days",
+    "0.8 days",
+    "3 days"
+   ],
+   "answer": 1,
+   "explanation": "48 ÷ 24 = 2 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many days are in 3 weeks?",
+   "options": [
+    "21 days",
+    "15 days",
+    "72 days",
+    "28 days"
+   ],
+   "answer": 0,
+   "explanation": "1 week = 7 days, so 3 × 7 = 21 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many days are in 5 weeks?",
+   "options": [
+    "25 days",
+    "120 days",
+    "35 days",
+    "42 days"
+   ],
+   "answer": 2,
+   "explanation": "1 week = 7 days, so 5 × 7 = 35 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many days are in 2 weeks?",
+   "options": [
+    "10 days",
+    "14 days",
+    "48 days",
+    "21 days"
+   ],
+   "answer": 1,
+   "explanation": "1 week = 7 days, so 2 × 7 = 14 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many days are in 6 weeks?",
+   "options": [
+    "42 days",
+    "30 days",
+    "144 days",
+    "49 days"
+   ],
+   "answer": 0,
+   "explanation": "1 week = 7 days, so 6 × 7 = 42 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 35 days to weeks and days.",
+   "options": [
+    "6 weeks",
+    "5 weeks 1 days",
+    "0 weeks 5 days",
+    "5 weeks"
+   ],
+   "answer": 3,
+   "explanation": "35 ÷ 7 = 5 remainder 0, so 35 days = 5 weeks."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 17 days to weeks and days.",
+   "options": [
+    "3 weeks",
+    "2 weeks 4 days",
+    "2 weeks 3 days",
+    "3 weeks 2 days"
+   ],
+   "answer": 2,
+   "explanation": "17 ÷ 7 = 2 remainder 3, so 17 days = 2 weeks 3 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 28 days to weeks and days.",
+   "options": [
+    "5 weeks",
+    "4 weeks 1 days",
+    "0 weeks 4 days",
+    "4 weeks"
+   ],
+   "answer": 3,
+   "explanation": "28 ÷ 7 = 4 remainder 0, so 28 days = 4 weeks."
+  },
+  {
+   "topic": "2.6",
+   "q": "How long is a lesson that starts at 8:15 a.m. and ends at 10:40 a.m.?",
+   "options": [
+    "2 h 35 min",
+    "2 h 25 min",
+    "2 h 10 min",
+    "3 h 25 min"
+   ],
+   "answer": 1,
+   "explanation": "Count on from 8:15 a.m. to 10:40 a.m.. The total is 2 h 25 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "How long is a lesson that starts at 9:30 a.m. and ends at 12:10 p.m.?",
+   "options": [
+    "2 h 40 min",
+    "2 h 50 min",
+    "2 h 25 min",
+    "3 h 40 min"
+   ],
+   "answer": 0,
+   "explanation": "Count on from 9:30 a.m. to 12:10 p.m.. The total is 2 h 40 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "How long is a lesson that starts at 10:30 a.m. and ends at 2:15 p.m.?",
+   "options": [
+    "3 h 55 min",
+    "3 h 30 min",
+    "4 h 45 min",
+    "3 h 45 min"
+   ],
+   "answer": 3,
+   "explanation": "Count on from 10:30 a.m. to 2:15 p.m.. The total is 3 h 45 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "How long is a lesson that starts at 11:20 a.m. and ends at 1:05 p.m.?",
+   "options": [
+    "1 h 55 min",
+    "1 h 45 min",
+    "1 h 30 min",
+    "2 h 45 min"
+   ],
+   "answer": 1,
+   "explanation": "Count on from 11:20 a.m. to 1:05 p.m.. The total is 1 h 45 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "How long is a lesson that starts at 7:40 a.m. and ends at 9:10 a.m.?",
+   "options": [
+    "1 h 30 min",
+    "1 h 40 min",
+    "1 h 15 min",
+    "2 h 30 min"
+   ],
+   "answer": 0,
+   "explanation": "Count on from 7:40 a.m. to 9:10 a.m.. The total is 1 h 30 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "How long is a lesson that starts at 1:15 p.m. and ends at 4:50 p.m.?",
+   "options": [
+    "3 h 45 min",
+    "3 h 20 min",
+    "3 h 35 min",
+    "4 h 35 min"
+   ],
+   "answer": 2,
+   "explanation": "Count on from 1:15 p.m. to 4:50 p.m.. The total is 3 h 35 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "A film starts at 4:20 p.m. and lasts 1 hour 40 minutes. At what time does it end?",
+   "options": [
+    "5:60 p.m.",
+    "5:40 p.m.",
+    "6:20 p.m.",
+    "6:00 p.m."
+   ],
+   "answer": 3,
+   "explanation": "4:20 + 1 hour = 5:20 and 5:20 + 40 minutes = 6:00 p.m."
+  },
+  {
+   "topic": "2.6",
+   "q": "A bus leaves at 7:45 a.m. and the journey takes 2 hours 30 minutes. At what time does it arrive?",
+   "options": [
+    "9:75 a.m.",
+    "10:15 a.m.",
+    "10:45 a.m.",
+    "9:15 a.m."
+   ],
+   "answer": 1,
+   "explanation": "7:45 + 2 hours = 9:45. 9:45 + 30 minutes = 10:15 a.m."
+  },
+  {
+   "topic": "2.6",
+   "q": "What is 2 h 45 min + 1 h 30 min?",
+   "options": [
+    "4 h 15 min",
+    "4 h 25 min",
+    "4 h 5 min",
+    "3 h 15 min"
+   ],
+   "answer": 0,
+   "explanation": "Add the minutes and hours, then change 60 minutes into 1 hour. The answer is 4 h 15 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "What is 3 h 50 min + 2 h 25 min?",
+   "options": [
+    "6 h 25 min",
+    "6 h 5 min",
+    "6 h 15 min",
+    "5 h 15 min"
+   ],
+   "answer": 2,
+   "explanation": "Add the minutes and hours, then change 60 minutes into 1 hour. The answer is 6 h 15 min."
   }
  ],
  "short": []

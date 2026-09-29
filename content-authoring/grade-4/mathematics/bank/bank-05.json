@@ -961,5 +961,321 @@
    "explanation": "Only like terms can be joined. 3m + 2o + m + 4o = 4m + 6o."
   }
  ],
- "short": []
+ "short": [
+  {
+   "topic": "2.7",
+   "q": "Show two different ways to make Ksh 50 using coins and notes.",
+   "marks": 2,
+   "answer": "For example: one Ksh 50 note; or five Ksh 10 coins; or two Ksh 20 coins and one Ksh 10 coin.",
+   "working": "1 mark for each correct way."
+  },
+  {
+   "topic": "2.7",
+   "q": "A shopkeeper counts up to give change. A customer buys goods for Ksh 750 and pays with Ksh 1,000. Show how the shopkeeper counts up.",
+   "marks": 3,
+   "answer": "From 750 to 800 is 50, and from 800 to 1,000 is 200. Change = 50 + 200 = Ksh 250.",
+   "working": "1 mark for counting to 800, 1 mark for counting to 1,000, 1 mark for adding to make Ksh 250."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces west and makes a quarter turn clockwise. Which way does he face now? Explain.",
+   "marks": 3,
+   "answer": "North",
+   "working": "Going clockwise the order is N, E, S, W and back to N (1 mark). West then a quarter turn clockwise gives north (1 mark). Answer north (1 mark)."
+  },
+  {
+   "topic": "3.1",
+   "q": "Njeri faces east. She makes two quarter turns clockwise, one after the other. Which way does she face?",
+   "marks": 3,
+   "answer": "West",
+   "working": "First turn east to south (1 mark); second turn south to west (1 mark); answer west (1 mark)."
+  },
+  {
+   "topic": "3.1",
+   "q": "Name two things at home or school that are turned clockwise to tighten or close them.",
+   "marks": 2,
+   "answer": "Any two, for example a bottle top or a screw, and a tap being closed.",
+   "working": "1 mark for each correct example."
+  },
+  {
+   "topic": "3.1",
+   "q": "Write instructions for a person to walk from the classroom door to the school gate using at least two turns. Use words such as forward, quarter turn, clockwise and anticlockwise.",
+   "marks": 4,
+   "answer": "For example: Walk forward 10 steps. Make a quarter turn clockwise. Walk forward 5 steps. Make a quarter turn anticlockwise. Walk to the gate.",
+   "working": "1 mark for the first move with steps, 1 mark for a turn with its size, 1 mark for the turn direction, 1 mark for clear order."
+  },
+  {
+   "topic": "3.1",
+   "q": "A learner says that a half turn is the same as two quarter turns. Is the learner right? Explain.",
+   "marks": 2,
+   "answer": "Yes. A half is made of two quarters, so two quarter turns make one half turn.",
+   "working": "1 mark for yes, 1 mark for the reason."
+  },
+  {
+   "topic": "3.1",
+   "q": "Amina faces north. She makes a half turn, then a quarter turn anticlockwise. Which way does she face at the end?",
+   "marks": 4,
+   "answer": "East",
+   "working": "A half turn from north gives south (2 marks). A quarter turn anticlockwise from south gives east (2 marks)."
+  },
+  {
+   "topic": "3.1",
+   "q": "Describe the difference between a clockwise and an anticlockwise turn.",
+   "marks": 2,
+   "answer": "A clockwise turn goes the same way as the hands of a clock. An anticlockwise turn goes the opposite way.",
+   "working": "1 mark for each correct description."
+  },
+  {
+   "topic": "3.2",
+   "q": "How many right angles does a rectangle have? Explain.",
+   "marks": 2,
+   "answer": "4. A rectangle has four corners and each corner is a right angle.",
+   "working": "1 mark for 4 and 1 mark for the reason."
+  },
+  {
+   "topic": "3.2",
+   "q": "Describe how you can use a folded piece of paper to test whether a corner is a right angle.",
+   "marks": 3,
+   "answer": "Fold a paper twice to make a neat square corner. Place its corner on the corner of the object. If it fits exactly, the corner is a right angle.",
+   "working": "1 mark for folding to make a square corner, 1 mark for placing it on the corner, 1 mark for saying it fits exactly."
+  },
+  {
+   "topic": "3.2",
+   "q": "Name three objects in your classroom that have right angles.",
+   "marks": 3,
+   "answer": "Any three correct, for example a window, a door and a book.",
+   "working": "1 mark for each correct object."
+  },
+  {
+   "topic": "3.2",
+   "q": "A gate opens through a half turn from its closed position. Describe the angle between the gate and the wall in its closed position.",
+   "marks": 2,
+   "answer": "They make a straight line, which is two right angles.",
+   "working": "1 mark for a straight line and 1 mark for two right angles."
+  },
+  {
+   "topic": "3.2",
+   "q": "Nanjala says an angle with longer arms is always bigger. Is she right? Explain.",
+   "marks": 3,
+   "answer": "No. The size of an angle depends on how far apart the arms are, not on how long they are.",
+   "working": "1 mark for no, 1 mark for the opening between the arms, 1 mark for length not mattering."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain how a quarter turn is related to a right angle and how four quarter turns are related to a full turn.",
+   "marks": 3,
+   "answer": "A quarter turn makes a right angle. Four quarter turns, that is four right angles, make a full turn.",
+   "working": "1 mark for quarter turn = right angle, 1 mark for four quarters, 1 mark for full turn."
+  },
+  {
+   "topic": "3.2",
+   "q": "Draw an angle using a ruler. Name the vertex and the arms and mark the angle with a small curve.",
+   "marks": 3,
+   "answer": "A drawing with two straight lines meeting at a point, the point labelled vertex, the lines labelled arms and a curve between them.",
+   "working": "1 mark for two straight arms, 1 mark for the vertex, 1 mark for the curve."
+  },
+  {
+   "topic": "3.2",
+   "q": "At what times on a clock do the hands make a right angle and a straight line? Give one example of each.",
+   "marks": 4,
+   "answer": "Right angle: 3 o'clock (or 9 o'clock). Straight line: 6 o'clock.",
+   "working": "2 marks for a right angle example and reason, 2 marks for a straight line example and reason."
+  },
+  {
+   "topic": "3.3",
+   "q": "Draw a rectangle 6 cm long and 3 cm wide and label its sides.",
+   "marks": 3,
+   "answer": "A rectangle with two sides 6 cm and two sides 3 cm and square corners.",
+   "working": "1 mark for four straight sides with square corners, 1 mark for correct lengths, 1 mark for labels."
+  },
+  {
+   "topic": "3.3",
+   "q": "Name the plane figure of each object: a plate, a floor tile, a door.",
+   "marks": 3,
+   "answer": "Plate: circle. Floor tile: square. Door: rectangle.",
+   "working": "1 mark for each correct shape."
+  },
+  {
+   "topic": "3.3",
+   "q": "A triangle has two equal sides. How many lines of symmetry does it have? Explain how you can check.",
+   "marks": 3,
+   "answer": "One line of symmetry. Fold it from the top corner to the middle of the base and the two halves match.",
+   "working": "1 mark for one, 1 mark for the fold, 1 mark for the halves matching."
+  },
+  {
+   "topic": "3.3",
+   "q": "List three properties of a square.",
+   "marks": 3,
+   "answer": "Four equal sides, four right angles and four lines of symmetry.",
+   "working": "1 mark for each correct property."
+  },
+  {
+   "topic": "3.3",
+   "q": "Describe a pattern of shapes that you can make with squares and triangles, and write down the first six shapes.",
+   "marks": 3,
+   "answer": "For example: square, triangle, square, triangle, square, triangle. The pattern repeats a square and a triangle in turn.",
+   "working": "1 mark for using both shapes, 1 mark for a clear repeating rule, 1 mark for six correct shapes."
+  },
+  {
+   "topic": "3.3",
+   "q": "State two things that are the same and two things that are different about a square and a rectangle.",
+   "marks": 4,
+   "answer": "Same: both have four straight sides and four right angles. Different: a square has all four sides equal and 4 lines of symmetry, but a rectangle has only opposite sides equal and 2 lines of symmetry.",
+   "working": "2 marks for two similarities and 2 marks for two differences."
+  },
+  {
+   "topic": "3.3",
+   "q": "A signboard has four straight sides. Two sides are 50 cm and two are 30 cm. All four corners are square. Name the shape and give a reason.",
+   "marks": 3,
+   "answer": "A rectangle, because opposite sides are equal but not all sides are equal.",
+   "working": "1 mark for the name, 1 mark for opposite sides equal, 1 mark for not all sides equal."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain how you would find the lines of symmetry of a paper rectangle. How many are there?",
+   "marks": 4,
+   "answer": "Fold the rectangle so that the two halves match. There are two folds that work: along the middle from top to bottom and along the middle from side to side. So there are 2 lines of symmetry.",
+   "working": "1 mark for folding, 1 mark for halves matching, 1 mark for each of the two lines (or 2 marks for saying 2 with reasons)."
+  },
+  {
+   "topic": "3.3",
+   "q": "Draw a triangle and write down its number of sides and corners.",
+   "marks": 2,
+   "answer": "A drawing of a triangle with 3 straight sides. It has 3 sides and 3 corners.",
+   "working": "1 mark for the drawing and 1 mark for the numbers."
+  },
+  {
+   "topic": "3.3",
+   "q": "Find and name three objects in the classroom that show a rectangle, a circle and a triangle.",
+   "marks": 3,
+   "answer": "For example a blackboard (rectangle), a clock face (circle) and a set square (triangle).",
+   "working": "1 mark for each correct object matched to a shape."
+  },
+  {
+   "topic": "4.1",
+   "q": "Ten vehicles passed: 5 matatus, 2 boda bodas, 2 buses and 1 lorry. Draw a table to show this data.",
+   "marks": 3,
+   "answer": "A table with a title and two columns, Vehicle and Number, with rows matatu 5, boda boda 2, bus 2, lorry 1 and total 10.",
+   "working": "1 mark for title and headings, 1 mark for all four rows correct, 1 mark for the total 10."
+  },
+  {
+   "topic": "4.1",
+   "q": "Using the vehicle data (5 matatus, 2 boda bodas, 2 buses, 1 lorry), which type was seen most and how many more matatus than buses were seen?",
+   "marks": 3,
+   "answer": "Matatus. 5 − 2 = 3 more matatus than buses.",
+   "working": "1 mark for matatu, 1 mark for 5 − 2, 1 mark for 3."
+  },
+  {
+   "topic": "4.1",
+   "q": "Give two things you should do to stay safe when you collect data about vehicles.",
+   "marks": 2,
+   "answer": "Count from a safe place inside the school gate and stay with a teacher. Do not stand in or near the road.",
+   "working": "1 mark for each sensible safety rule."
+  },
+  {
+   "topic": "4.1",
+   "q": "A group of five tallies and 3 more tally marks show which number? Explain how you count.",
+   "marks": 2,
+   "answer": "8. Count the group of five as 5, then add 3 more: 5 + 3 = 8.",
+   "working": "1 mark for 8 and 1 mark for the explanation."
+  },
+  {
+   "topic": "4.1",
+   "q": "Ten pupils chose their favourite drink: 4 chose juice, 3 chose milk, 2 chose water and 1 chose tea. Write two facts that you can read from this data.",
+   "marks": 2,
+   "answer": "For example: juice is the most popular with 4 pupils; only 1 pupil chose tea; 4 + 3 + 2 + 1 = 10 pupils were asked.",
+   "working": "1 mark for each correct fact based on the numbers."
+  },
+  {
+   "topic": "4.1",
+   "q": "The raw data for 10 pupils' favourite fruits is: mango, banana, mango, orange, banana, mango, pawpaw, mango, banana, orange. Make a tally table for this data.",
+   "marks": 4,
+   "answer": "Mango 4 (||||), banana 3 (|||), orange 2 (||), pawpaw 1 (|); total 10.",
+   "working": "1 mark for each correct count of two fruits (2 marks), 1 mark for correct tally marks, 1 mark for the total 10."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows mango 4, banana 3, orange 2 and pawpaw 1. How many pupils did not choose mango?",
+   "marks": 2,
+   "answer": "6 pupils",
+   "working": "4 + 3 + 2 + 1 = 10 pupils; 10 − 4 = 6 (1 mark for the total, 1 mark for the answer)."
+  },
+  {
+   "topic": "4.1",
+   "q": "List four materials you could use to collect and record data about the types of vehicles that pass the school gate.",
+   "marks": 4,
+   "answer": "For example: a pencil, an exercise book or paper, a ruler for drawing a table, a clipboard or hard book, a watch or clock.",
+   "working": "1 mark for each sensible material."
+  },
+  {
+   "topic": "4.1",
+   "q": "Explain why we add the numbers in the total row of a table.",
+   "marks": 3,
+   "answer": "To check that we have counted everything and that the total equals the number of items collected. If it is different we must count again.",
+   "working": "1 mark for checking, 1 mark for comparing with the number collected, 1 mark for counting again."
+  },
+  {
+   "topic": "4.1",
+   "q": "Explain why a table is better than raw data for answering questions.",
+   "marks": 3,
+   "answer": "A table puts the data in order under headings, is neat and easy to read, and shows totals. Raw data is untidy and easy to misread.",
+   "working": "1 mark for each valid point up to 3."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows football 5, netball 3, athletics 1 and swimming 1 for 10 pupils. Which sport is the most popular? How many pupils chose netball or athletics?",
+   "marks": 3,
+   "answer": "Football is the most popular. 3 + 1 = 4 pupils chose netball or athletics.",
+   "working": "1 mark for football, 1 mark for 3 + 1, 1 mark for 4."
+  },
+  {
+   "topic": "4.1",
+   "q": "Write the steps for collecting and recording data about the favourite colours of 10 friends.",
+   "marks": 4,
+   "answer": "Decide the question; ask each friend and make a tally mark; draw a table with a title and headings; write the totals and check they add up to 10.",
+   "working": "1 mark for each correct step."
+  },
+  {
+   "topic": "4.1",
+   "q": "A tally chart shows walking 6, bicycle 2, bus 1 and car 1 for 10 pupils. How many pupils walk to school? How many do not walk?",
+   "marks": 3,
+   "answer": "6 pupils walk. 10 − 6 = 4 pupils do not walk.",
+   "working": "1 mark for 6, 1 mark for 10 − 6, 1 mark for 4."
+  },
+  {
+   "topic": "4.1",
+   "q": "A learner writes 5 in the mango row but the tally shows 4. Explain why this is a mistake and how to avoid it.",
+   "marks": 3,
+   "answer": "The number in the table must match the tally, otherwise the total will not add up correctly. Count the tallies carefully and check the total.",
+   "working": "1 mark for the mismatch, 1 mark for the effect on total, 1 mark for checking."
+  },
+  {
+   "topic": "1.1",
+   "q": "For the number 4,835: (a) write it in expanded form, (b) give the total value of the digit 8, (c) round it to the nearest ten, (d) say whether it is even or odd.",
+   "marks": 5,
+   "answer": "(a) 4,000 + 800 + 30 + 5 (b) 800 (c) 4,840 (d) odd because it ends in 5",
+   "working": "1 mark for each part; part (a) needs all four addends, part (b) 8 × 100, part (c) the ones digit 5 rounds up, part (d) needs the reason from the ones digit (1 mark for the classification plus reason together)."
+  },
+  {
+   "topic": "1.2",
+   "q": "A trader sold goods worth Ksh 3,568 on Monday and Ksh 2,276 on Tuesday. (a) Find the total. (b) Estimate the total by rounding each amount to the nearest ten. (c) How far is the estimate from the exact total?",
+   "marks": 5,
+   "answer": "(a) Ksh 5,844 (b) 3,570 + 2,280 = Ksh 5,850 (c) 6 shillings more than the exact total",
+   "working": "2 marks for the exact total with regrouping, 1 mark for both rounded numbers, 1 mark for the estimate 5,850, 1 mark for the difference 5,850 − 5,844 = 6."
+  },
+  {
+   "topic": "1.3",
+   "q": "A school tank held 8,500 litres of water. The school used 3,275 litres in the first week and 1,850 litres in the second week. How much water is left? Check your answer.",
+   "marks": 5,
+   "answer": "3,375 litres",
+   "working": "8,500 − 3,275 = 5,225 (2 marks); 5,225 − 1,850 = 3,375 (2 marks); check by adding 3,375 + 1,850 + 3,275 = 8,500 (1 mark)."
+  },
+  {
+   "topic": "1.4",
+   "q": "A shop buys 24 boxes of pencils. Each box has 36 pencils. (a) Estimate the number of pencils by rounding to the nearest ten. (b) Work out the exact number of pencils.",
+   "marks": 5,
+   "answer": "(a) 20 × 40 = 800 (b) 864 pencils",
+   "working": "1 mark for rounding both numbers, 1 mark for 800, 2 marks for 36 × 4 = 144 and 36 × 20 = 720, 1 mark for 864."
+  }
+ ]
 }

@@ -1,0 +1,18 @@
+# NOTES-B (Kiswahili part B, strands 6 to 11)
+
+Numbering: lessons use the design's three-part numbers (6.1.1 ... 11.4.3). The manifest's two-part entries (6.1, 6.2 ... 11.4) are listed in retire-B.json because each is replaced by a three-part lesson. Manifest noise entries such as "6.1.1 Shairi" are satisfied by the real lessons. 27 lessons: 6.1.1-6.4.1, 7.1.1-7.4.2, 8.1.1-8.4.1, 9.1.1-9.4.1, 10.1.1-10.4.1, 11.1.1-11.4.3. 10.2 is numbered 10.2.1 (Kusoma Kidijitali) as in the design's contents list. 11.3 (Barua ya Kirafiki) is not in the manifest but has a lesson.
+
+Items a Kiswahili teacher should check:
+1. 7.4.2 Ngeli ya LI-LI: the design only gives "jua-jua, giza-giza". The lesson teaches jua, giza, joto with concord li- (and la, hili, lipi) and says the nouns are not normally used in the plural. I could not confirm the KICD textbook treatment, so the plural is deliberately not taught or tested. "joto" is my addition.
+2. 11.4.2 / 11.4.3: augmentative ji- (mti-jiti, mto-jito, mji-jiji, mtu-jitu, plural ma-) and diminutive ki-ji- (kijiti, kijito, kijiji, plural vi-ji-). "jito" is formed by rule; please confirm it is acceptable. The diminutive of "mtu" is not taught.
+3. 7.1.1 Nahau: the design's examples (fanya haki, omba kibali, omba ruhusa, piga hodi, taka idhini) are taught as given ("kutenda haki" used for fanya haki). Other nahau (kupiga moyo konde, kuvuta subira, kula chumvi nyingi, kushika hatamu, kula kiapo, kupiga marufuku, kutia bidii, kukata tamaa, kufunga safari, kuvunja moyo, kuchukua hatua) are from my own knowledge.
+4. 10.1.1 Tashbihi: only mrefu kama twiga, mfupi kama nyundo, mwembamba kama sindano, konda kama ng'onda come from the design. Others (mrefu kama mnazi/mlingoti, mnene kama pipa, mviringo kama mpira) are my own sensible comparisons.
+5. 8.1.1 Visawe: from the design: tembo-ndovu, kinyonga-lumbwi, adui-hasimu, siri-faragha, barua-waraka, ami-amu, televisheni-runinga. Added by me: kifaru-faru, nyati-mbogo, pesa-fedha, rafiki-sahibu, daktari-tabibu, bibi-nyanya, mwizi-mwivi, harusi-arusi, kutazama-kuangalia, kusema-kunena, kuzungumza-kuongea, kufika-kuwasili, kuogopa-kuhofu, kukasirika-kughadhabika, haraka-upesi, polepole-taratibu, furaha-raha, huzuni-simanzi, zamani-kale, mzuri-mrembo.
+6. 6.1.1: the poem "Bendera Yetu" is my own composition (4 verses with end-rhyme -ni, -tu, -ma, -te). Flag colour meanings are the standard Kenyan ones. Mizani (syllable counts) are not taught.
+7. 11.2.1: the practice passage has exactly 65 words (checked by count), matching the design's 65 words per minute.
+8. 8.4.1: kutendea rule (a, i, u -> -ia; e, o -> -ea), kutendwa (-wa; -liwa for nunua, chukua, kula). Apart from those, irregular verbs are not taught.
+9. 11.4.1 Ukanushaji: regular verbs only (si-, hu-, ha-, hatu-, ham-, hawa-; -ku- past, -ta- future, final -i in present). Verbs ending in -e, -i, -u keep their ending (brief note). Monosyllabic verbs (kula) are not used in negation.
+10. 10.4.1: the -me- (hali ya kukamilika) is introduced briefly under "Hali" although the outcomes name only the three tenses.
+11. 6.4.1 uses only safe LI-YA nouns (tunda, embe, jicho, jiwe, jino, yai, dirisha, shamba, darasa, jani, ua, goti, bega, swali, jina, chungwa, jembe, koti). "gari" and "bendera" were avoided because their class is debated.
+12. All reading passages, plays, essays and letters are original. Amounts in Ksh are simple (10 x 30 = 300).
+13. Figures: part B has 19 figures in 19 of the 27 lessons (flag, dictionary entry, ngeli tables and pictures, essay and letter layouts, play layout, verb-form chart, compass, hand-washing steps, timeline, trees). Please glance at the flag SVG in 6.1.1 (spears are drawn behind the shield).

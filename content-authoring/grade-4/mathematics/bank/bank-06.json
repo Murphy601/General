@@ -520,9 +520,9 @@
    "topic": "2.1",
    "q": "A triangle has sides of 3 cm, 4 cm and 5 cm. What is its perimeter?",
    "options": [
-    "60 cm",
-    "13 cm",
     "14 cm",
+    "13 cm",
+    "7 cm",
     "12 cm"
    ],
    "answer": 3,
@@ -532,7 +532,7 @@
    "topic": "2.1",
    "q": "A triangle has sides of 7 cm, 8 cm and 9 cm. What is its perimeter?",
    "options": [
-    "504 cm",
+    "26 cm",
     "25 cm",
     "24 cm",
     "30 cm"
@@ -544,7 +544,7 @@
    "topic": "2.1",
    "q": "A triangle has sides of 10 cm, 12 cm and 15 cm. What is its perimeter?",
    "options": [
-    "1800 cm",
+    "39 cm",
     "37 cm",
     "38 cm",
     "44 cm"
@@ -568,7 +568,7 @@
    "topic": "2.1",
    "q": "What is 3 m 45 cm + 2 m 80 cm?",
    "options": [
-    "5 m 125 cm",
+    "5 m 25 cm",
     "7 m 25 cm",
     "6 m 15 cm",
     "6 m 25 cm"
@@ -580,7 +580,7 @@
    "topic": "2.1",
    "q": "What is 4 m 60 cm + 1 m 75 cm?",
    "options": [
-    "5 m 135 cm",
+    "5 m 35 cm",
     "6 m 35 cm",
     "7 m 35 cm",
     "6 m 25 cm"
@@ -593,7 +593,7 @@
    "q": "What is 2 m 90 cm + 3 m 30 cm?",
    "options": [
     "6 m 20 cm",
-    "5 m 120 cm",
+    "5 m 20 cm",
     "7 m 20 cm",
     "6 m 10 cm"
    ],
@@ -602,15 +602,15 @@
   },
   {
    "topic": "2.1",
-   "q": "What is 1 m 25 cm + 2 m 75 cm?",
+   "q": "What is 1 m 35 cm + 2 m 85 cm?",
    "options": [
-    "3 m 100 cm",
-    "5 m",
-    "4 m",
-    "3 m 90 cm"
+    "3 m 20 cm",
+    "5 m 20 cm",
+    "4 m 20 cm",
+    "4 m 10 cm"
    ],
    "answer": 2,
-   "explanation": "Change to centimetres: 125 + 275 = 400 cm = 4 m."
+   "explanation": "Change to centimetres: 135 + 285 = 420 cm = 4 m 20 cm."
   },
   {
    "topic": "2.1",
@@ -961,5 +961,111 @@
    "explanation": "Rows × columns = 45, so columns = 45 ÷ 9 = 5."
   }
  ],
- "short": []
+ "short": [
+  {
+   "topic": "1.5",
+   "q": "A farmer has 95 eggs to pack into trays that each hold 6 eggs. (a) How many full trays are there and how many eggs are left over? (b) How many trays are needed to pack all the eggs?",
+   "marks": 5,
+   "answer": "(a) 15 full trays and 5 eggs left over (b) 16 trays",
+   "working": "2 marks for 95 ÷ 6 = 15 remainder 5, 1 mark for stating both, 1 mark for the leftover eggs needing another tray, 1 mark for 16."
+  },
+  {
+   "topic": "1.6",
+   "q": "Mama Njoki has 24 oranges. She gives 3/8 of them to her neighbours and 1/4 of them to a friend. (a) How many oranges does she give to her neighbours? (b) How many does she give to her friend? (c) How many oranges are left?",
+   "marks": 5,
+   "answer": "(a) 9 oranges (b) 6 oranges (c) 9 oranges",
+   "working": "(a) 24 ÷ 8 = 3, 3 × 3 = 9 (2 marks); (b) 24 ÷ 4 = 6 (1 mark); (c) 24 − 9 − 6 = 9 (2 marks)."
+  },
+  {
+   "topic": "1.7",
+   "q": "(a) Write 3 tenths and 5 hundredths as a decimal. (b) Write 7 hundredths as a decimal. (c) Arrange 0.35, 0.5, 0.07 and 0.29 from the smallest to the largest.",
+   "marks": 5,
+   "answer": "(a) 0.35 (b) 0.07 (c) 0.07, 0.29, 0.35, 0.5",
+   "working": "1 mark for (a), 1 mark for (b), 3 marks for (c) (0.07 first, 0.5 last, and the middle two in order)."
+  },
+  {
+   "topic": "1.8",
+   "q": "A vendor sells 2 bags of maize (m) and 3 bags of beans (b) on Monday, and 4 bags of maize and 1 bag of beans on Tuesday. (a) Write an expression for Monday. (b) Write an expression for Tuesday. (c) Simplify the expression for the two days together.",
+   "marks": 5,
+   "answer": "(a) 2m + 3b (b) 4m + b (c) 2m + 3b + 4m + b = 6m + 4b",
+   "working": "1 mark for (a), 1 mark for (b), 3 marks for (c): 1 mark for adding the expressions, 1 mark for 6m, 1 mark for 4b."
+  },
+  {
+   "topic": "2.1",
+   "q": "A rectangular field is 45 m long and 30 m wide. (a) Find its perimeter. (b) A farmer wants to fence it but leaves two gates of 3 m each. How many metres of fence does he need?",
+   "marks": 5,
+   "answer": "(a) 150 m (b) 144 m",
+   "working": "(a) 45 + 30 + 45 + 30 = 150 m (2 marks for method, 1 mark for the answer with unit); (b) 2 × 3 = 6 m and 150 − 6 = 144 m (2 marks total, awarded 1 for 6 m and 1 for 144 m). Total 5 marks."
+  },
+  {
+   "topic": "2.2",
+   "q": "A hall floor is covered with 12 rows of 15 square tiles. (a) How many tiles cover the floor? (b) A smaller room has 9 rows of 12 tiles. How many more tiles does the hall need than the smaller room?",
+   "marks": 5,
+   "answer": "(a) 180 tiles (b) 72 more tiles",
+   "working": "(a) 12 × 15: 12 × 10 = 120 and 12 × 5 = 60, so 180 (2 marks); smaller room 9 × 12 = 108 (1 mark); 180 − 108 (1 mark); 72 tiles (1 mark)."
+  },
+  {
+   "topic": "2.3",
+   "q": "A box is packed with cubes in layers. Each layer has 8 cubes along the length and 5 cubes across the width. There are 4 layers. (a) How many cubes are in one layer? (b) What is the volume of the packed cubes? (c) If 30 cubes are taken out, how many cubes are left?",
+   "marks": 5,
+   "answer": "(a) 40 cubes (b) 160 cubes (c) 130 cubes",
+   "working": "(a) 8 × 5 = 40 (1 mark); (b) 40 × 4 = 160 (2 marks); (c) 160 − 30 = 130 (2 marks)."
+  },
+  {
+   "topic": "2.4",
+   "q": "A tank holds 20 L of water. In the morning 4 1/2 L is taken out and in the afternoon 3 3/4 L is taken out. How much water is left in the tank?",
+   "marks": 5,
+   "answer": "11 3/4 L",
+   "working": "Total taken: 4 1/2 + 3 3/4 = 4 2/4 + 3 3/4 = 7 5/4 = 8 1/4 L (3 marks). 20 − 8 1/4 = 11 3/4 L (2 marks)."
+  },
+  {
+   "topic": "2.5",
+   "q": "A trader has 25 kg of rice. She sells 7 1/2 kg to one customer and 6 3/4 kg to another. How much rice does she have left?",
+   "marks": 5,
+   "answer": "10 3/4 kg",
+   "working": "Total sold: 7 1/2 + 6 3/4 = 7 2/4 + 6 3/4 = 13 5/4 = 14 1/4 kg (3 marks). 25 − 14 1/4 = 10 3/4 kg (2 marks)."
+  },
+  {
+   "topic": "2.6",
+   "q": "School starts at 8:00 a.m. and ends at 3:15 p.m. Lunch is from 12:40 p.m. to 1:40 p.m. (a) How long is the school day? (b) How long is it from the start of school to the start of lunch? (c) How long is it from the end of lunch to the end of school?",
+   "marks": 5,
+   "answer": "(a) 7 hours 15 minutes (b) 4 hours 40 minutes (c) 1 hour 35 minutes",
+   "working": "(a) 8:00 a.m. to 3:00 p.m. is 7 hours and then 15 minutes (2 marks); (b) 8:00 to 12:40 is 4 h 40 min (1 mark); (c) 1:40 p.m. to 3:15 p.m. is 1 h 35 min (2 marks)."
+  },
+  {
+   "topic": "2.7",
+   "q": "Wanjiru buys 4 loaves of bread at Ksh 60 each, 2 packets of sugar at Ksh 155 each and 1 tin of cooking fat at Ksh 480. She pays with Ksh 2,000. (a) Find the total cost. (b) Find her change.",
+   "marks": 5,
+   "answer": "(a) Ksh 1,030 (b) Ksh 970",
+   "working": "4 × 60 = 240 (1 mark); 2 × 155 = 310 (1 mark); 240 + 310 + 480 = 1,030 (1 mark); 2,000 − 1,030 = 970 (2 marks)."
+  },
+  {
+   "topic": "3.1",
+   "q": "Amina faces south. She makes a quarter turn anticlockwise, then a half turn, then a quarter turn clockwise. Which way does she face at the end? Show each step.",
+   "marks": 5,
+   "answer": "North",
+   "working": "South then a quarter turn anticlockwise gives east (2 marks). East then a half turn gives west (1 mark). West then a quarter turn clockwise gives north (1 mark). Final answer north (1 mark)."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain what a right angle is. State how many right angles there are in (a) a rectangle, (b) a straight line, (c) a full turn.",
+   "marks": 5,
+   "answer": "A right angle is a square corner, made by a quarter turn. (a) 4 (b) 2 (c) 4",
+   "working": "2 marks for explaining a right angle (square corner or quarter turn), 1 mark for each of (a) 4, (b) 2 and (c) 4."
+  },
+  {
+   "topic": "3.3",
+   "q": "A rectangle is 8 cm long and 5 cm wide. (a) How many lines of symmetry does it have? (b) How many right angles does it have? (c) Find its perimeter. (d) Say one way in which it is different from a square.",
+   "marks": 5,
+   "answer": "(a) 2 (b) 4 (c) 26 cm (d) Its sides are not all equal (only opposite sides are equal), and it has 2 lines of symmetry instead of 4.",
+   "working": "1 mark for (a), 1 mark for (b), 2 marks for (c) (8 + 5 + 8 + 5 with the answer and unit), 1 mark for (d)."
+  },
+  {
+   "topic": "4.1",
+   "q": "Ten pupils were asked their favourite fruit and the answers were: mango, banana, mango, orange, banana, mango, pawpaw, mango, banana, orange. (a) Show the data in a tally table. (b) Which fruit is the most popular? (c) How many more pupils chose mango than orange?",
+   "marks": 5,
+   "answer": "(a) mango 4, banana 3, orange 2, pawpaw 1 (total 10) (b) mango (c) 4 − 2 = 2 pupils",
+   "working": "2 marks for a correct table with title and headings, 1 mark for correct tallies and totals, 1 mark for (b), 1 mark for (c)."
+  }
+ ]
 }

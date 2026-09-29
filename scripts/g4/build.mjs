@@ -29,6 +29,7 @@ const PAPERS_PER_TIER = 20;
 
 function rng(seed) { let a = seed >>> 0; return () => { a = (a + 0x6d2b79f5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; }
 function hash(s) { let h = 2166136261; for (const c of s) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
+const ord = (n) => String(n).split('.').reduce((a, x, i) => a + (parseInt(x, 10) || 0) / 100 ** i, 0);
 const slugify = (s) => s.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '-').replace(/^-|-$/g, '');
 const words = (s) => (s.match(/\S+/g) || []).length;
 const LETTERS = 'ABCD';
@@ -139,7 +140,7 @@ function markingText(subject, tier, i, mcq, shorts, term) {
 
 function buildExams(subject, slug, bank, lessons, oldExams) {
   const rand = rng(hash(slug));
-  const topics = [...new Set(lessons.map((l) => l.meta.topicNumber))].sort((a, b) => parseFloat(a) - parseFloat(b));
+  const topics = [...new Set(lessons.map((l) => l.meta.topicNumber))].sort((a, b) => ord(a) - ord(b));
   const third = Math.ceil(topics.length / 3);
   const termOf = (t) => Math.min(3, Math.floor(topics.indexOf(t) / third) + 1);
   const usageM = new Map(); const usageS = new Map();
@@ -158,7 +159,7 @@ function buildExams(subject, slug, bank, lessons, oldExams) {
       const shorts = pickShort(sPool, T.marks - T.mcq, usageS, rand);
       mcqRaw.forEach((q) => usageM.set(q, (usageM.get(q) || 0) + 1));
       shorts.forEach((q) => usageS.set(q, (usageS.get(q) || 0) + 1));
-      const ordered = tier === 'general' ? mcqRaw : [...mcqRaw].sort((a, b) => parseFloat(a.topic) - parseFloat(b.topic));
+      const ordered = tier === 'general' ? mcqRaw : [...mcqRaw].sort((a, b) => ord(a.topic) - ord(b.topic));
       const mcq = ordered.map((q) => { const s = shuffleOptions(q, rand); return { ...q, options: s.options, answer: s.answer }; });
       const old = olds[i - 1];
       records.push({
@@ -199,13 +200,13 @@ for (const slug of slugs) {
   const oldVideos = [...allG4.values()].filter((r) => r.topic.subject === subject && r.type === 'video-script');
   const oldExams = [...allG4.values()].filter((r) => r.topic.subject === subject && /exam/.test(r.type));
   const claimed = new Set(); const built = [];
-  lessons.sort((a, b) => parseFloat(a.meta.topicNumber) - parseFloat(b.meta.topicNumber));
+  lessons.sort((a, b) => ord(a.meta.topicNumber) - ord(b.meta.topicNumber));
   lessons.forEach((L, i) => {
     const num = L.meta.topicNumber;
     const match = oldLessons.find((r) => !claimed.has(r.id) && r.topic.topicNumber === num);
     if (match) claimed.add(match.id);
     const src = match?.sources?.[0]?.excerpt || '';
-    const rec = buildLesson(subject, slug, L, match?.id, src, parseFloat(num) || i + 1);
+    const rec = buildLesson(subject, slug, L, match?.id, src, ord(num) || i + 1);
     built.push(rec); toWrite.push(rec);
   });
   const keepIds = new Set(built.map((r) => r.id));

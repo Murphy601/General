@@ -568,7 +568,7 @@
    "topic": "1.4",
    "q": "A packet holds 40 sweets. How many sweets are in 15 packets?",
    "options": [
-    "60 sweets",
+    "580 sweets",
     "600 sweets",
     "700 sweets",
     "590 sweets"
@@ -580,7 +580,7 @@
    "topic": "1.4",
    "q": "A trader buys 18 crates with 35 bananas in each crate. How many bananas are there?",
    "options": [
-    "63 bananas",
+    "610 bananas",
     "730 bananas",
     "630 bananas",
     "620 bananas"
@@ -592,7 +592,7 @@
    "topic": "1.4",
    "q": "A classroom has 13 rows of 12 desks. How many desks are there?",
    "options": [
-    "15.6 desks",
+    "136 desks",
     "156 desks",
     "256 desks",
     "146 desks"
@@ -605,7 +605,7 @@
    "q": "A jerrycan holds 20 litres. How many litres do 100 jerrycans hold?",
    "options": [
     "2,000 litres",
-    "200 litres",
+    "1,980 litres",
     "2,100 litres",
     "1,990 litres"
    ],
@@ -616,7 +616,7 @@
    "topic": "1.4",
    "q": "A book costs Ksh 45. How much do 24 books cost?",
    "options": [
-    "108 shillings",
+    "1,060 shillings",
     "1,180 shillings",
     "1,070 shillings",
     "1,080 shillings"
@@ -628,7 +628,7 @@
    "topic": "1.4",
    "q": "A hen lays 21 eggs in a month. How many eggs do 16 hens lay in a month?",
    "options": [
-    "33.6 eggs",
+    "316 eggs",
     "336 eggs",
     "436 eggs",
     "326 eggs"

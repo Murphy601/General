@@ -1,0 +1,833 @@
+{
+ "mcq": [
+  {
+   "topic": "3.2",
+   "q": "How can you test whether a corner is a right angle?",
+   "options": [
+    "Measure its colour",
+    "Count its sides",
+    "Weigh it",
+    "Fit the corner of a folded piece of paper into it"
+   ],
+   "answer": 3,
+   "explanation": "A folded paper corner is a right angle checker. If it fits exactly, the corner is a right angle."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which object does NOT have a right angle at its corners?",
+   "options": [
+    "A book",
+    "A window",
+    "A round plate",
+    "A door"
+   ],
+   "answer": 2,
+   "explanation": "A round plate has a curved edge and no corners, so no right angles."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which sign is used to mark a right angle in a drawing?",
+   "options": [
+    "A small square in the corner",
+    "A small triangle",
+    "A small circle",
+    "A wavy line"
+   ],
+   "answer": 0,
+   "explanation": "A right angle is marked with a small square."
+  },
+  {
+   "topic": "3.2",
+   "q": "A gate opens through a quarter turn from the wall. What angle does it make with the wall?",
+   "options": [
+    "A straight line",
+    "A right angle",
+    "A full turn",
+    "No angle"
+   ],
+   "answer": 1,
+   "explanation": "A quarter turn makes a right angle."
+  },
+  {
+   "topic": "3.2",
+   "q": "How many corners does a cuboid have?",
+   "options": [
+    "4",
+    "8",
+    "6",
+    "12"
+   ],
+   "answer": 1,
+   "explanation": "A cuboid such as a matchbox has 8 corners."
+  },
+  {
+   "topic": "3.2",
+   "q": "Two lines that meet at a point form",
+   "options": [
+    "a circle",
+    "a triangle",
+    "a square",
+    "an angle"
+   ],
+   "answer": 3,
+   "explanation": "When two lines meet at a point they make an angle."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which shape has three straight sides?",
+   "options": [
+    "Rectangle",
+    "Circle",
+    "Triangle",
+    "Square"
+   ],
+   "answer": 2,
+   "explanation": "A triangle has three straight sides and three corners."
+  },
+  {
+   "topic": "3.3",
+   "q": "How many lines of symmetry does a square have?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 0,
+   "explanation": "A square can be folded down the middle both ways and along its two diagonals."
+  },
+  {
+   "topic": "3.3",
+   "q": "How many lines of symmetry does a rectangle that is not a square have?",
+   "options": [
+    "0",
+    "4",
+    "6",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "It folds along the line joining the middles of the long sides and the line joining the middles of the short sides."
+  },
+  {
+   "topic": "3.3",
+   "q": "How many lines of symmetry does a triangle with three equal sides have?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "Each line goes from a corner to the middle of the opposite side."
+  },
+  {
+   "topic": "3.3",
+   "q": "How many lines of symmetry does a triangle with two equal sides have?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "Only one fold, from the top corner to the middle of the base, makes the halves match."
+  },
+  {
+   "topic": "3.3",
+   "q": "How many lines of symmetry does a triangle with no equal sides have?",
+   "options": [
+    "0",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 0,
+   "explanation": "No fold makes the two halves match."
+  },
+  {
+   "topic": "3.3",
+   "q": "How many lines of symmetry does an oval have?",
+   "options": [
+    "1",
+    "4",
+    "0",
+    "2"
+   ],
+   "answer": 3,
+   "explanation": "An oval folds along its length and across its width."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which shape has no corners?",
+   "options": [
+    "Triangle",
+    "Rectangle",
+    "Circle",
+    "Square"
+   ],
+   "answer": 2,
+   "explanation": "A circle has one curved edge and no corners."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which statement about a rectangle is true?",
+   "options": [
+    "It has three sides",
+    "Opposite sides are equal and all corners are right angles",
+    "All sides are always equal",
+    "It has a curved edge"
+   ],
+   "answer": 1,
+   "explanation": "A rectangle has four sides, opposite sides equal and four right angles."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which statement about a square is true?",
+   "options": [
+    "All four sides are equal and all corners are right angles",
+    "It has only three corners",
+    "Its opposite sides are different",
+    "It has no lines of symmetry"
+   ],
+   "answer": 0,
+   "explanation": "A square has four equal sides and four right angles."
+  },
+  {
+   "topic": "3.3",
+   "q": "How many corners does a triangle have?",
+   "options": [
+    "2",
+    "4",
+    "5",
+    "3"
+   ],
+   "answer": 3,
+   "explanation": "A triangle has three sides and three corners."
+  },
+  {
+   "topic": "3.3",
+   "q": "A door has four straight sides and four square corners, with two long sides and two short sides. What shape is its face?",
+   "options": [
+    "Rectangle",
+    "Square",
+    "Triangle",
+    "Circle"
+   ],
+   "answer": 0,
+   "explanation": "Opposite sides are equal but not all sides are equal, so it is a rectangle."
+  },
+  {
+   "topic": "3.3",
+   "q": "A floor tile has four equal sides and four square corners. What shape is it?",
+   "options": [
+    "Rectangle with unequal sides",
+    "Square",
+    "Triangle",
+    "Oval"
+   ],
+   "answer": 1,
+   "explanation": "Four equal sides and four right angles make a square."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which everyday object has a face that is a circle?",
+   "options": [
+    "A door",
+    "A roof end",
+    "A coin",
+    "A brick"
+   ],
+   "answer": 2,
+   "explanation": "A coin is round and flat, so its face is a circle."
+  },
+  {
+   "topic": "3.3",
+   "q": "What is the fold line that divides a shape into two matching halves called?",
+   "options": [
+    "A line of symmetry",
+    "A perimeter",
+    "A vertex",
+    "An angle"
+   ],
+   "answer": 0,
+   "explanation": "If the two halves match exactly, the fold is a line of symmetry."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which fold gives a line of symmetry of a rectangle that is not a square?",
+   "options": [
+    "Along a diagonal",
+    "From one corner to the middle of the opposite long side",
+    "Along one of the short sides",
+    "Across the middle from side to side"
+   ],
+   "answer": 3,
+   "explanation": "Folding across the middle makes the two halves match exactly. A diagonal does not, because the corners do not fit on each other."
+  },
+  {
+   "topic": "3.3",
+   "q": "What is the next shape in the pattern square, triangle, square, triangle, square, ...?",
+   "options": [
+    "Square",
+    "Circle",
+    "Triangle",
+    "Rectangle"
+   ],
+   "answer": 2,
+   "explanation": "The pattern alternates between a square and a triangle, so a triangle comes next."
+  },
+  {
+   "topic": "3.3",
+   "q": "In the pattern blue square, orange square, blue square, orange square, and so on, what colour is the 6th square?",
+   "options": [
+    "Blue",
+    "Orange",
+    "Green",
+    "Red"
+   ],
+   "answer": 1,
+   "explanation": "The colours alternate blue, orange. Squares 2, 4 and 6 are orange."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which of these letters has a line of symmetry?",
+   "options": [
+    "F",
+    "H",
+    "G",
+    "R"
+   ],
+   "answer": 1,
+   "explanation": "The letter H can be folded down the middle and the halves match."
+  },
+  {
+   "topic": "3.3",
+   "q": "What is a plane figure?",
+   "options": [
+    "A solid object",
+    "A kind of aeroplane",
+    "A flat shape",
+    "A curved line only"
+   ],
+   "answer": 2,
+   "explanation": "A plane figure is a flat shape with length and width but no thickness."
+  },
+  {
+   "topic": "3.3",
+   "q": "How many straight sides does a rectangle have?",
+   "options": [
+    "4",
+    "3",
+    "2",
+    "5"
+   ],
+   "answer": 0,
+   "explanation": "A rectangle has four straight sides."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite fruits of 10 pupils: mango 4, banana 3, orange 2, pawpaw 1. Which one has the greatest number?",
+   "options": [
+    "banana",
+    "orange",
+    "pawpaw",
+    "mango"
+   ],
+   "answer": 3,
+   "explanation": "The biggest number is 4, which belongs to mango."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite fruits of 10 pupils: mango 4, banana 3, orange 2, pawpaw 1. What is the total of all the numbers?",
+   "options": [
+    "10",
+    "9",
+    "11",
+    "12"
+   ],
+   "answer": 0,
+   "explanation": "Add all the numbers: 4 + 3 + 2 + 1 = 10."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite fruits of 10 pupils: mango 4, banana 3, orange 2, pawpaw 1. How many more are there of mango than of banana?",
+   "options": [
+    "2",
+    "3",
+    "7",
+    "1"
+   ],
+   "answer": 3,
+   "explanation": "4 − 3 = 1."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite fruits of 10 pupils: mango 4, banana 3, orange 2, pawpaw 1. How many are NOT pawpaw?",
+   "options": [
+    "1",
+    "9",
+    "11",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "10 − 1 = 9."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite fruits of 10 pupils: mango 4, banana 3, orange 2, pawpaw 1. How many are mango or pawpaw together?",
+   "options": [
+    "6",
+    "4",
+    "5",
+    "7"
+   ],
+   "answer": 2,
+   "explanation": "4 + 1 = 5."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the vehicles that passed a school gate (10 vehicles): matatu 5, boda boda 2, bus 2, lorry 1. Which one has the greatest number?",
+   "options": [
+    "boda boda",
+    "bus",
+    "lorry",
+    "matatu"
+   ],
+   "answer": 3,
+   "explanation": "The biggest number is 5, which belongs to matatu."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the vehicles that passed a school gate (10 vehicles): matatu 5, boda boda 2, bus 2, lorry 1. What is the total of all the numbers?",
+   "options": [
+    "9",
+    "11",
+    "10",
+    "12"
+   ],
+   "answer": 2,
+   "explanation": "Add all the numbers: 5 + 2 + 2 + 1 = 10."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the vehicles that passed a school gate (10 vehicles): matatu 5, boda boda 2, bus 2, lorry 1. How many more are there of matatu than of boda boda?",
+   "options": [
+    "3",
+    "4",
+    "5",
+    "7"
+   ],
+   "answer": 0,
+   "explanation": "5 − 2 = 3."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the vehicles that passed a school gate (10 vehicles): matatu 5, boda boda 2, bus 2, lorry 1. How many are NOT lorry?",
+   "options": [
+    "1",
+    "9",
+    "11",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "10 − 1 = 9."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the vehicles that passed a school gate (10 vehicles): matatu 5, boda boda 2, bus 2, lorry 1. How many are matatu or lorry together?",
+   "options": [
+    "7",
+    "5",
+    "8",
+    "6"
+   ],
+   "answer": 3,
+   "explanation": "5 + 1 = 6."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite sports of 10 pupils: football 5, netball 3, athletics 1, swimming 1. Which one has the greatest number?",
+   "options": [
+    "netball",
+    "football",
+    "athletics",
+    "swimming"
+   ],
+   "answer": 1,
+   "explanation": "The biggest number is 5, which belongs to football."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite sports of 10 pupils: football 5, netball 3, athletics 1, swimming 1. What is the total of all the numbers?",
+   "options": [
+    "10",
+    "9",
+    "11",
+    "12"
+   ],
+   "answer": 0,
+   "explanation": "Add all the numbers: 5 + 3 + 1 + 1 = 10."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite sports of 10 pupils: football 5, netball 3, athletics 1, swimming 1. How many more are there of football than of netball?",
+   "options": [
+    "3",
+    "4",
+    "2",
+    "8"
+   ],
+   "answer": 2,
+   "explanation": "5 − 3 = 2."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite sports of 10 pupils: football 5, netball 3, athletics 1, swimming 1. How many are NOT swimming?",
+   "options": [
+    "1",
+    "11",
+    "9",
+    "10"
+   ],
+   "answer": 2,
+   "explanation": "10 − 1 = 9."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite sports of 10 pupils: football 5, netball 3, athletics 1, swimming 1. How many are football or swimming together?",
+   "options": [
+    "6",
+    "7",
+    "5",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "5 + 1 = 6."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the type of transport 10 pupils use to come to school: walking 6, bicycle 2, bus 1, car 1. Which one has the greatest number?",
+   "options": [
+    "bicycle",
+    "walking",
+    "bus",
+    "car"
+   ],
+   "answer": 1,
+   "explanation": "The biggest number is 6, which belongs to walking."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the type of transport 10 pupils use to come to school: walking 6, bicycle 2, bus 1, car 1. What is the total of all the numbers?",
+   "options": [
+    "9",
+    "11",
+    "12",
+    "10"
+   ],
+   "answer": 3,
+   "explanation": "Add all the numbers: 6 + 2 + 1 + 1 = 10."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the type of transport 10 pupils use to come to school: walking 6, bicycle 2, bus 1, car 1. How many more are there of walking than of bicycle?",
+   "options": [
+    "5",
+    "4",
+    "6",
+    "8"
+   ],
+   "answer": 1,
+   "explanation": "6 − 2 = 4."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the type of transport 10 pupils use to come to school: walking 6, bicycle 2, bus 1, car 1. How many are NOT car?",
+   "options": [
+    "1",
+    "11",
+    "10",
+    "9"
+   ],
+   "answer": 3,
+   "explanation": "10 − 1 = 9."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the type of transport 10 pupils use to come to school: walking 6, bicycle 2, bus 1, car 1. How many are walking or car together?",
+   "options": [
+    "8",
+    "6",
+    "7",
+    "9"
+   ],
+   "answer": 2,
+   "explanation": "6 + 1 = 7."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite colours of 10 pupils: blue 4, red 4, green 2. What is the total of all the numbers?",
+   "options": [
+    "10",
+    "9",
+    "11",
+    "12"
+   ],
+   "answer": 0,
+   "explanation": "Add all the numbers: 4 + 4 + 2 = 10."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite colours of 10 pupils: blue 4, red 4, green 2. How many are NOT green?",
+   "options": [
+    "8",
+    "2",
+    "12",
+    "9"
+   ],
+   "answer": 0,
+   "explanation": "10 − 2 = 8."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the favourite colours of 10 pupils: blue 4, red 4, green 2. How many are blue or green together?",
+   "options": [
+    "7",
+    "6",
+    "5",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "4 + 2 = 6."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the pets kept by 10 families: dog 3, cat 3, rabbit 2, hen 2. What is the total of all the numbers?",
+   "options": [
+    "9",
+    "11",
+    "10",
+    "12"
+   ],
+   "answer": 2,
+   "explanation": "Add all the numbers: 3 + 3 + 2 + 2 = 10."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the pets kept by 10 families: dog 3, cat 3, rabbit 2, hen 2. How many are NOT hen?",
+   "options": [
+    "2",
+    "12",
+    "9",
+    "8"
+   ],
+   "answer": 3,
+   "explanation": "10 − 2 = 8."
+  },
+  {
+   "topic": "4.1",
+   "q": "The table shows the pets kept by 10 families: dog 3, cat 3, rabbit 2, hen 2. How many are dog or hen together?",
+   "options": [
+    "6",
+    "5",
+    "4",
+    "3"
+   ],
+   "answer": 1,
+   "explanation": "3 + 2 = 5."
+  },
+  {
+   "topic": "4.1",
+   "q": "In a tally chart, one group of five and 3 more single tally marks are drawn. What number do they show?",
+   "options": [
+    "9",
+    "7",
+    "8",
+    "13"
+   ],
+   "answer": 2,
+   "explanation": "1 × 5 + 3 = 8."
+  },
+  {
+   "topic": "4.1",
+   "q": "In a tally chart, 2 groups of five and 2 more single tally marks are drawn. What number do they show?",
+   "options": [
+    "12",
+    "13",
+    "11",
+    "17"
+   ],
+   "answer": 0,
+   "explanation": "2 × 5 + 2 = 12."
+  },
+  {
+   "topic": "4.1",
+   "q": "In a tally chart, 4 more single tally marks are drawn. What number do they show?",
+   "options": [
+    "5",
+    "3",
+    "9",
+    "4"
+   ],
+   "answer": 3,
+   "explanation": "0 × 5 + 4 = 4."
+  },
+  {
+   "topic": "4.1",
+   "q": "In a tally chart, 3 groups of five and 1 more single tally mark are drawn. What number do they show?",
+   "options": [
+    "16",
+    "17",
+    "15",
+    "21"
+   ],
+   "answer": 0,
+   "explanation": "3 × 5 + 1 = 16."
+  },
+  {
+   "topic": "4.1",
+   "q": "In a tally chart, 2 groups of five and 4 more single tally marks are drawn. What number do they show?",
+   "options": [
+    "15",
+    "14",
+    "13",
+    "19"
+   ],
+   "answer": 1,
+   "explanation": "2 × 5 + 4 = 14."
+  },
+  {
+   "topic": "4.1",
+   "q": "In a tally chart, one group of five and 1 more single tally mark are drawn. What number do they show?",
+   "options": [
+    "7",
+    "5",
+    "6",
+    "11"
+   ],
+   "answer": 2,
+   "explanation": "1 × 5 + 1 = 6."
+  },
+  {
+   "topic": "4.1",
+   "q": "What is data?",
+   "options": [
+    "A kind of shape",
+    "A unit of time",
+    "A measuring tape",
+    "Information that we collect"
+   ],
+   "answer": 3,
+   "explanation": "Data is information such as counts or names that we collect to answer questions."
+  },
+  {
+   "topic": "4.1",
+   "q": "What is raw data?",
+   "options": [
+    "Data written in a table",
+    "Data that has been collected but not yet arranged",
+    "Data that is wrong",
+    "A picture of data"
+   ],
+   "answer": 1,
+   "explanation": "Raw data is untidy information straight from collection."
+  },
+  {
+   "topic": "4.1",
+   "q": "A group of five tally marks is drawn by",
+   "options": [
+    "five separate circles",
+    "two long lines",
+    "four upright strokes crossed by a fifth stroke",
+    "a square"
+   ],
+   "answer": 2,
+   "explanation": "The fifth stroke crosses the first four to make a group of five."
+  },
+  {
+   "topic": "4.1",
+   "q": "What should every good table have?",
+   "options": [
+    "A title and column headings",
+    "Only pictures",
+    "No numbers",
+    "A long story"
+   ],
+   "answer": 0,
+   "explanation": "A title tells what the table is about and headings tell what each column shows."
+  },
+  {
+   "topic": "4.1",
+   "q": "Why do we add up the totals in a table?",
+   "options": [
+    "To make the table longer",
+    "To hide the data",
+    "To change the data",
+    "To check that the numbers are correct"
+   ],
+   "answer": 3,
+   "explanation": "If the total does not match the number of items counted, we must count again."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which is the safest way to count vehicles for a data project?",
+   "options": [
+    "Standing in the middle of the road",
+    "From a safe place inside the school gate with a teacher",
+    "Running alongside the vehicles",
+    "Sitting on the road"
+   ],
+   "answer": 1,
+   "explanation": "Safety comes first. Count from a safe place and never stand in the road."
+  },
+  {
+   "topic": "4.1",
+   "q": "In a table, a row goes",
+   "options": [
+    "down the page",
+    "round in a circle",
+    "diagonally only",
+    "across the page"
+   ],
+   "answer": 3,
+   "explanation": "Rows go across and columns go down."
+  },
+  {
+   "topic": "4.1",
+   "q": "In this grade we collect data of at most",
+   "options": [
+    "100 items",
+    "1,000 items",
+    "10 items",
+    "5,000 items"
+   ],
+   "answer": 2,
+   "explanation": "To keep counting easy and accurate we collect at most 10 items."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which is a good tool for drawing straight lines in a table?",
+   "options": [
+    "A ruler",
+    "A beam balance",
+    "A measuring jug",
+    "A clock"
+   ],
+   "answer": 0,
+   "explanation": "A ruler is used to draw straight lines."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which of these is a good way to collect data on favourite games?",
+   "options": [
+    "Guess what they like",
+    "Write only your own favourite",
+    "Ask each pupil which game they like best and record the answer",
+    "Count the desks"
+   ],
+   "answer": 2,
+   "explanation": "Asking and recording the answers gives real data."
+  }
+ ],
+ "short": []
+}

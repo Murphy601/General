@@ -1,0 +1,965 @@
+{
+ "mcq": [
+  {
+   "topic": "2.6",
+   "q": "What is 1 h 20 min + 45 min?",
+   "options": [
+    "2 h 15 min",
+    "1 h 55 min",
+    "1 h 5 min",
+    "2 h 5 min"
+   ],
+   "answer": 3,
+   "explanation": "Add the minutes and hours, then change 60 minutes into 1 hour. The answer is 2 h 5 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "What is 4 h 35 min + 3 h 40 min?",
+   "options": [
+    "8 h 15 min",
+    "8 h 25 min",
+    "8 h 5 min",
+    "7 h 15 min"
+   ],
+   "answer": 0,
+   "explanation": "Add the minutes and hours, then change 60 minutes into 1 hour. The answer is 8 h 15 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "What is 5 h 20 min − 2 h 35 min?",
+   "options": [
+    "2 h 55 min",
+    "2 h 45 min",
+    "2 h 35 min",
+    "3 h 45 min"
+   ],
+   "answer": 1,
+   "explanation": "Change 1 hour to 60 minutes when the minutes are not enough. The answer is 2 h 45 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "What is 4 h 10 min − 1 h 40 min?",
+   "options": [
+    "2 h 40 min",
+    "2 h 20 min",
+    "2 h 30 min",
+    "3 h 30 min"
+   ],
+   "answer": 2,
+   "explanation": "Change 1 hour to 60 minutes when the minutes are not enough. The answer is 2 h 30 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "What is 6 h − 2 h 15 min?",
+   "options": [
+    "3 h 45 min",
+    "3 h 55 min",
+    "3 h 35 min",
+    "4 h 45 min"
+   ],
+   "answer": 0,
+   "explanation": "Change 1 hour to 60 minutes when the minutes are not enough. The answer is 3 h 45 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "What is 7 h 15 min − 3 h 50 min?",
+   "options": [
+    "3 h 35 min",
+    "3 h 15 min",
+    "3 h 25 min",
+    "4 h 25 min"
+   ],
+   "answer": 2,
+   "explanation": "Change 1 hour to 60 minutes when the minutes are not enough. The answer is 3 h 25 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "When is a shadow shortest?",
+   "options": [
+    "Early in the morning",
+    "Around midday",
+    "Late in the afternoon",
+    "At night"
+   ],
+   "answer": 1,
+   "explanation": "At midday the Sun is highest, so shadows are very short."
+  },
+  {
+   "topic": "2.6",
+   "q": "In which direction do shadows point in the early morning?",
+   "options": [
+    "Towards the east",
+    "Straight up",
+    "They do not point anywhere",
+    "Towards the west"
+   ],
+   "answer": 3,
+   "explanation": "The Sun rises in the east, so morning shadows point west."
+  },
+  {
+   "topic": "2.6",
+   "q": "How many minutes does the minute hand take to go once round the clock face?",
+   "options": [
+    "12 minutes",
+    "30 minutes",
+    "24 minutes",
+    "60 minutes"
+   ],
+   "answer": 3,
+   "explanation": "The minute hand takes one hour, which is 60 minutes."
+  },
+  {
+   "topic": "2.6",
+   "q": "a.m. is used for times",
+   "options": [
+    "from midnight to noon",
+    "from noon to midnight",
+    "only at night",
+    "only at midday"
+   ],
+   "answer": 0,
+   "explanation": "a.m. is used from midnight to noon and p.m. from noon to midnight."
+  },
+  {
+   "topic": "2.7",
+   "q": "How many cents are in Ksh 3?",
+   "options": [
+    "30 cents",
+    "3,000 cents",
+    "300 cents",
+    "103 cents"
+   ],
+   "answer": 2,
+   "explanation": "Ksh 1 = 100 cents, so Ksh 3 = 3 × 100 = 300 cents."
+  },
+  {
+   "topic": "2.7",
+   "q": "How many cents are in Ksh 12?",
+   "options": [
+    "120 cents",
+    "1,200 cents",
+    "12,000 cents",
+    "112 cents"
+   ],
+   "answer": 1,
+   "explanation": "Ksh 1 = 100 cents, so Ksh 12 = 12 × 100 = 1,200 cents."
+  },
+  {
+   "topic": "2.7",
+   "q": "How many cents are in Ksh 5?",
+   "options": [
+    "50 cents",
+    "5,000 cents",
+    "105 cents",
+    "500 cents"
+   ],
+   "answer": 3,
+   "explanation": "Ksh 1 = 100 cents, so Ksh 5 = 5 × 100 = 500 cents."
+  },
+  {
+   "topic": "2.7",
+   "q": "How many cents are in Ksh 25?",
+   "options": [
+    "250 cents",
+    "2,500 cents",
+    "25,000 cents",
+    "125 cents"
+   ],
+   "answer": 1,
+   "explanation": "Ksh 1 = 100 cents, so Ksh 25 = 25 × 100 = 2,500 cents."
+  },
+  {
+   "topic": "2.7",
+   "q": "How many cents are in Ksh 8?",
+   "options": [
+    "800 cents",
+    "80 cents",
+    "8,000 cents",
+    "108 cents"
+   ],
+   "answer": 0,
+   "explanation": "Ksh 1 = 100 cents, so Ksh 8 = 8 × 100 = 800 cents."
+  },
+  {
+   "topic": "2.7",
+   "q": "How many cents are in Ksh 40?",
+   "options": [
+    "400 cents",
+    "40,000 cents",
+    "4,000 cents",
+    "140 cents"
+   ],
+   "answer": 2,
+   "explanation": "Ksh 1 = 100 cents, so Ksh 40 = 40 × 100 = 4,000 cents."
+  },
+  {
+   "topic": "2.7",
+   "q": "450 cents is the same as",
+   "options": [
+    "Ksh 45",
+    "Ksh 4.50",
+    "Ksh 0.45",
+    "Ksh 5.50"
+   ],
+   "answer": 1,
+   "explanation": "450 ÷ 100 = 4 remainder 50, so it is Ksh 4.50."
+  },
+  {
+   "topic": "2.7",
+   "q": "700 cents is the same as",
+   "options": [
+    "Ksh 70",
+    "Ksh 0.70",
+    "Ksh 7",
+    "Ksh 8"
+   ],
+   "answer": 2,
+   "explanation": "700 ÷ 100 = 7 remainder 0, so it is Ksh 7."
+  },
+  {
+   "topic": "2.7",
+   "q": "1,250 cents is the same as",
+   "options": [
+    "Ksh 12.50",
+    "Ksh 125",
+    "Ksh 1.25",
+    "Ksh 13.50"
+   ],
+   "answer": 0,
+   "explanation": "1,250 ÷ 100 = 12 remainder 50, so it is Ksh 12.50."
+  },
+  {
+   "topic": "2.7",
+   "q": "75 cents is the same as",
+   "options": [
+    "Ksh 7.50",
+    "Ksh 0.07",
+    "Ksh 1.75",
+    "Ksh 0.75"
+   ],
+   "answer": 3,
+   "explanation": "75 ÷ 100 = 0 remainder 75, so it is Ksh 0.75."
+  },
+  {
+   "topic": "2.7",
+   "q": "2,005 cents is the same as",
+   "options": [
+    "Ksh 200.50",
+    "Ksh 2",
+    "Ksh 21.05",
+    "Ksh 20.05"
+   ],
+   "answer": 3,
+   "explanation": "2,005 ÷ 100 = 20 remainder 5, so it is Ksh 20.05."
+  },
+  {
+   "topic": "2.7",
+   "q": "325 cents is the same as",
+   "options": [
+    "Ksh 32.50",
+    "Ksh 3.25",
+    "Ksh 0.32",
+    "Ksh 4.25"
+   ],
+   "answer": 1,
+   "explanation": "325 ÷ 100 = 3 remainder 25, so it is Ksh 3.25."
+  },
+  {
+   "topic": "2.7",
+   "q": "One unit costs Ksh 120. What is the cost of 2 packets of maize flour?",
+   "options": [
+    "Ksh 240",
+    "Ksh 122",
+    "Ksh 250",
+    "Ksh 120"
+   ],
+   "answer": 0,
+   "explanation": "Cost = number × price = 2 × 120 = Ksh 240."
+  },
+  {
+   "topic": "2.7",
+   "q": "One unit costs Ksh 65. What is the cost of 3 exercise books?",
+   "options": [
+    "Ksh 68",
+    "Ksh 205",
+    "Ksh 195",
+    "Ksh 130"
+   ],
+   "answer": 2,
+   "explanation": "Cost = number × price = 3 × 65 = Ksh 195."
+  },
+  {
+   "topic": "2.7",
+   "q": "One unit costs Ksh 250. What is the cost of 4 bottles of cooking oil?",
+   "options": [
+    "Ksh 254",
+    "Ksh 1,000",
+    "Ksh 1,010",
+    "Ksh 750"
+   ],
+   "answer": 1,
+   "explanation": "Cost = number × price = 4 × 250 = Ksh 1,000."
+  },
+  {
+   "topic": "2.7",
+   "q": "One unit costs Ksh 45. What is the cost of 5 mandazi?",
+   "options": [
+    "Ksh 50",
+    "Ksh 235",
+    "Ksh 180",
+    "Ksh 225"
+   ],
+   "answer": 3,
+   "explanation": "Cost = number × price = 5 × 45 = Ksh 225."
+  },
+  {
+   "topic": "2.7",
+   "q": "One unit costs Ksh 130. What is the cost of 6 loaves of bread?",
+   "options": [
+    "Ksh 780",
+    "Ksh 136",
+    "Ksh 790",
+    "Ksh 650"
+   ],
+   "answer": 0,
+   "explanation": "Cost = number × price = 6 × 130 = Ksh 780."
+  },
+  {
+   "topic": "2.7",
+   "q": "One unit costs Ksh 15. What is the cost of 12 pencils?",
+   "options": [
+    "Ksh 27",
+    "Ksh 190",
+    "Ksh 180",
+    "Ksh 165"
+   ],
+   "answer": 2,
+   "explanation": "Cost = number × price = 12 × 15 = Ksh 180."
+  },
+  {
+   "topic": "2.7",
+   "q": "A shopping list has three items costing Ksh 650, Ksh 800 and Ksh 1,900. What is the total cost?",
+   "options": [
+    "Ksh 3,350",
+    "Ksh 3,450",
+    "Ksh 3,250",
+    "Ksh 3,360"
+   ],
+   "answer": 0,
+   "explanation": "Add the three costs: 650 + 800 + 1,900 = 3,350."
+  },
+  {
+   "topic": "2.7",
+   "q": "A shopping list has three items costing Ksh 240, Ksh 160 and Ksh 350. What is the total cost?",
+   "options": [
+    "Ksh 850",
+    "Ksh 750",
+    "Ksh 650",
+    "Ksh 760"
+   ],
+   "answer": 1,
+   "explanation": "Add the three costs: 240 + 160 + 350 = 750."
+  },
+  {
+   "topic": "2.7",
+   "q": "A shopping list has three items costing Ksh 6,500, Ksh 1,750 and Ksh 850. What is the total cost?",
+   "options": [
+    "Ksh 9,200",
+    "Ksh 9,000",
+    "Ksh 9,100",
+    "Ksh 9,110"
+   ],
+   "answer": 2,
+   "explanation": "Add the three costs: 6,500 + 1,750 + 850 = 9,100."
+  },
+  {
+   "topic": "2.7",
+   "q": "A shopping list has three items costing Ksh 1,200, Ksh 2,350 and Ksh 875. What is the total cost?",
+   "options": [
+    "Ksh 4,525",
+    "Ksh 4,325",
+    "Ksh 4,435",
+    "Ksh 4,425"
+   ],
+   "answer": 3,
+   "explanation": "Add the three costs: 1,200 + 2,350 + 875 = 4,425."
+  },
+  {
+   "topic": "2.7",
+   "q": "A shopping list has three items costing Ksh 95, Ksh 140 and Ksh 260. What is the total cost?",
+   "options": [
+    "Ksh 595",
+    "Ksh 395",
+    "Ksh 495",
+    "Ksh 505"
+   ],
+   "answer": 2,
+   "explanation": "Add the three costs: 95 + 140 + 260 = 495."
+  },
+  {
+   "topic": "2.7",
+   "q": "A shopping list has three items costing Ksh 3,200, Ksh 4,100 and Ksh 1,550. What is the total cost?",
+   "options": [
+    "Ksh 8,850",
+    "Ksh 8,950",
+    "Ksh 8,750",
+    "Ksh 8,860"
+   ],
+   "answer": 0,
+   "explanation": "Add the three costs: 3,200 + 4,100 + 1,550 = 8,850."
+  },
+  {
+   "topic": "2.7",
+   "q": "A customer pays with Ksh 1,000 for goods that cost Ksh 750. How much change should she get?",
+   "options": [
+    "Ksh 350",
+    "Ksh 250",
+    "Ksh 240",
+    "Ksh 1,750"
+   ],
+   "answer": 1,
+   "explanation": "Change = amount paid − cost = 1,000 − 750 = Ksh 250."
+  },
+  {
+   "topic": "2.7",
+   "q": "A customer pays with Ksh 500 for goods that cost Ksh 235. How much change should she get?",
+   "options": [
+    "Ksh 365",
+    "Ksh 255",
+    "Ksh 735",
+    "Ksh 265"
+   ],
+   "answer": 3,
+   "explanation": "Change = amount paid − cost = 500 − 235 = Ksh 265."
+  },
+  {
+   "topic": "2.7",
+   "q": "A customer pays with Ksh 2,000 for goods that cost Ksh 1,340. How much change should she get?",
+   "options": [
+    "Ksh 760",
+    "Ksh 650",
+    "Ksh 660",
+    "Ksh 3,340"
+   ],
+   "answer": 2,
+   "explanation": "Change = amount paid − cost = 2,000 − 1,340 = Ksh 660."
+  },
+  {
+   "topic": "2.7",
+   "q": "A customer pays with Ksh 200 for goods that cost Ksh 145. How much change should she get?",
+   "options": [
+    "Ksh 155",
+    "Ksh 45",
+    "Ksh 345",
+    "Ksh 55"
+   ],
+   "answer": 3,
+   "explanation": "Change = amount paid − cost = 200 − 145 = Ksh 55."
+  },
+  {
+   "topic": "2.7",
+   "q": "A customer pays with Ksh 5,000 for goods that cost Ksh 3,350. How much change should she get?",
+   "options": [
+    "Ksh 1,750",
+    "Ksh 1,650",
+    "Ksh 1,640",
+    "Ksh 8,350"
+   ],
+   "answer": 1,
+   "explanation": "Change = amount paid − cost = 5,000 − 3,350 = Ksh 1,650."
+  },
+  {
+   "topic": "2.7",
+   "q": "A customer pays with Ksh 1,000 for goods that cost Ksh 865. How much change should she get?",
+   "options": [
+    "Ksh 135",
+    "Ksh 235",
+    "Ksh 125",
+    "Ksh 1,865"
+   ],
+   "answer": 0,
+   "explanation": "Change = amount paid − cost = 1,000 − 865 = Ksh 135."
+  },
+  {
+   "topic": "2.7",
+   "q": "Why do people prepare a shopping list?",
+   "options": [
+    "To make shops close early",
+    "To buy as many things as possible",
+    "To remember everything and not spend more than they have",
+    "To avoid using money"
+   ],
+   "answer": 2,
+   "explanation": "A list helps us remember what we need and plan our spending."
+  },
+  {
+   "topic": "2.7",
+   "q": "Which formula gives the change from a purchase?",
+   "options": [
+    "Total cost − amount paid",
+    "Amount paid − total cost",
+    "Amount paid + total cost",
+    "Total cost × amount paid"
+   ],
+   "answer": 1,
+   "explanation": "Change is what remains of the money paid after taking away the cost."
+  },
+  {
+   "topic": "2.7",
+   "q": "The price Ksh 12.50 shows how many whole shillings and how many cents?",
+   "options": [
+    "12 shillings and 5 cents",
+    "125 shillings and no cents",
+    "1 shilling and 250 cents",
+    "12 shillings and 50 cents"
+   ],
+   "answer": 3,
+   "explanation": "The digits after the decimal point show the cents."
+  },
+  {
+   "topic": "2.7",
+   "q": "Which is the same as half a shilling?",
+   "options": [
+    "50 cents",
+    "5 cents",
+    "10 cents",
+    "500 cents"
+   ],
+   "answer": 0,
+   "explanation": "One shilling is 100 cents, so half a shilling is 50 cents."
+  },
+  {
+   "topic": "2.7",
+   "q": "How can you make Ksh 50 using only 10 shilling coins?",
+   "options": [
+    "Two coins",
+    "Ten coins",
+    "Fifty coins",
+    "Five coins"
+   ],
+   "answer": 3,
+   "explanation": "5 × 10 = 50, so five 10 shilling coins make Ksh 50."
+  },
+  {
+   "topic": "2.7",
+   "q": "Musa has one Ksh 100 note, one Ksh 50 note and two Ksh 20 coins. How much money does he have?",
+   "options": [
+    "Ksh 190",
+    "Ksh 170",
+    "Ksh 210",
+    "Ksh 150"
+   ],
+   "answer": 0,
+   "explanation": "100 + 50 + 20 + 20 = 190."
+  },
+  {
+   "topic": "2.7",
+   "q": "A sweet costs 50 cents. How many sweets can you buy with Ksh 10?",
+   "options": [
+    "10",
+    "20",
+    "5",
+    "200"
+   ],
+   "answer": 1,
+   "explanation": "Ksh 10 = 1,000 cents and 1,000 ÷ 50 = 20 sweets."
+  },
+  {
+   "topic": "2.7",
+   "q": "What is a good thing to do when a shopkeeper gives you change?",
+   "options": [
+    "Leave without looking",
+    "Ask for more than you are owed",
+    "Count it to check that it is correct",
+    "Throw it away"
+   ],
+   "answer": 2,
+   "explanation": "Counting the change carefully is honest and helps avoid mistakes."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces North and makes a quarter turn clockwise. Which way does he face now?",
+   "options": [
+    "East",
+    "North",
+    "South",
+    "West"
+   ],
+   "answer": 0,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. North followed by a quarter turn clockwise gives East."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces North and makes a half turn. Which way does he face now?",
+   "options": [
+    "North",
+    "East",
+    "South",
+    "West"
+   ],
+   "answer": 2,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. North followed by a half turn gives South."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces North and makes a quarter turn anticlockwise. Which way does he face now?",
+   "options": [
+    "North",
+    "East",
+    "South",
+    "West"
+   ],
+   "answer": 3,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. North followed by a quarter turn anticlockwise gives West."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces East and makes a half turn. Which way does he face now?",
+   "options": [
+    "North",
+    "West",
+    "East",
+    "South"
+   ],
+   "answer": 1,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. East followed by a half turn gives West."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces South and makes a quarter turn anticlockwise. Which way does he face now?",
+   "options": [
+    "North",
+    "South",
+    "West",
+    "East"
+   ],
+   "answer": 3,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. South followed by a quarter turn anticlockwise gives East."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces West and makes a quarter turn clockwise. Which way does he face now?",
+   "options": [
+    "East",
+    "North",
+    "South",
+    "West"
+   ],
+   "answer": 1,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. West followed by a quarter turn clockwise gives North."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces East and makes a quarter turn anticlockwise. Which way does he face now?",
+   "options": [
+    "East",
+    "South",
+    "North",
+    "West"
+   ],
+   "answer": 2,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. East followed by a quarter turn anticlockwise gives North."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces South and makes a quarter turn clockwise. Which way does he face now?",
+   "options": [
+    "West",
+    "North",
+    "East",
+    "South"
+   ],
+   "answer": 0,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. South followed by a quarter turn clockwise gives West."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces West and makes a half turn. Which way does he face now?",
+   "options": [
+    "North",
+    "East",
+    "South",
+    "West"
+   ],
+   "answer": 1,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. West followed by a half turn gives East."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces North and makes a three-quarter turn clockwise. Which way does he face now?",
+   "options": [
+    "North",
+    "East",
+    "South",
+    "West"
+   ],
+   "answer": 3,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. North followed by a three-quarter turn clockwise gives West."
+  },
+  {
+   "topic": "3.1",
+   "q": "Kip faces North and makes a full turn. Which way does he face now?",
+   "options": [
+    "East",
+    "South",
+    "North",
+    "West"
+   ],
+   "answer": 2,
+   "explanation": "Going clockwise the order is North, East, South, West. Going anticlockwise it is North, West, South, East. North followed by a full turn gives North."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which way do the hands of a clock move?",
+   "options": [
+    "Clockwise",
+    "Anticlockwise",
+    "Up and down",
+    "Sideways"
+   ],
+   "answer": 0,
+   "explanation": "The hands of a clock move in the direction we call clockwise."
+  },
+  {
+   "topic": "3.1",
+   "q": "Four quarter turns make",
+   "options": [
+    "a quarter turn",
+    "a half turn",
+    "a full turn",
+    "a three-quarter turn"
+   ],
+   "answer": 2,
+   "explanation": "Four quarters make one whole, so four quarter turns make one full turn."
+  },
+  {
+   "topic": "3.1",
+   "q": "Two half turns together make",
+   "options": [
+    "a quarter turn",
+    "a half turn",
+    "two full turns",
+    "a full turn"
+   ],
+   "answer": 3,
+   "explanation": "Two halves make one whole turn."
+  },
+  {
+   "topic": "3.1",
+   "q": "Two quarter turns together make",
+   "options": [
+    "a quarter turn",
+    "a half turn",
+    "a full turn",
+    "a three-quarter turn"
+   ],
+   "answer": 1,
+   "explanation": "1/4 + 1/4 = 1/2, so two quarter turns make a half turn."
+  },
+  {
+   "topic": "3.1",
+   "q": "You face the door and make a half turn. What do you face now?",
+   "options": [
+    "The back wall",
+    "The door",
+    "The left wall only",
+    "The ceiling"
+   ],
+   "answer": 0,
+   "explanation": "A half turn takes you to face the opposite way."
+  },
+  {
+   "topic": "3.1",
+   "q": "A tap is usually opened by turning it",
+   "options": [
+    "anticlockwise",
+    "clockwise",
+    "up",
+    "down"
+   ],
+   "answer": 0,
+   "explanation": "Most taps open when turned anticlockwise and close when turned clockwise."
+  },
+  {
+   "topic": "3.1",
+   "q": "A bottle top is usually tightened by turning it",
+   "options": [
+    "anticlockwise",
+    "sideways",
+    "up and down",
+    "clockwise"
+   ],
+   "answer": 3,
+   "explanation": "Tightening a bottle top means turning it clockwise."
+  },
+  {
+   "topic": "3.1",
+   "q": "If you face north, which direction is on your right?",
+   "options": [
+    "West",
+    "South",
+    "East",
+    "North"
+   ],
+   "answer": 2,
+   "explanation": "Facing north, east is on your right, west on your left and south behind you."
+  },
+  {
+   "topic": "3.1",
+   "q": "How many quarter turns make a half turn?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Two quarters make a half."
+  },
+  {
+   "topic": "3.2",
+   "q": "What do we call the point where the two arms of an angle meet?",
+   "options": [
+    "The vertex",
+    "The arm",
+    "The side",
+    "The edge"
+   ],
+   "answer": 0,
+   "explanation": "The arms of an angle meet at a point called the vertex."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is a right angle?",
+   "options": [
+    "The point of a sharp pencil",
+    "The corner of a page in an exercise book",
+    "A half-open pair of scissors",
+    "A wide open gate"
+   ],
+   "answer": 1,
+   "explanation": "A page corner is a square corner, which is a right angle."
+  },
+  {
+   "topic": "3.2",
+   "q": "A quarter turn makes",
+   "options": [
+    "a straight line",
+    "a full turn",
+    "a right angle",
+    "no angle"
+   ],
+   "answer": 2,
+   "explanation": "A quarter turn sweeps out a right angle."
+  },
+  {
+   "topic": "3.2",
+   "q": "A half turn makes",
+   "options": [
+    "a right angle",
+    "a full turn",
+    "a small angle",
+    "a straight line"
+   ],
+   "answer": 3,
+   "explanation": "A half turn is two right angles, which form a straight line."
+  },
+  {
+   "topic": "3.2",
+   "q": "How many right angles make a full turn?",
+   "options": [
+    "4",
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": 0,
+   "explanation": "A full turn is four quarter turns, and each quarter turn is a right angle."
+  },
+  {
+   "topic": "3.2",
+   "q": "How many right angles are there in a rectangle?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "1"
+   ],
+   "answer": 1,
+   "explanation": "A rectangle has four corners and each is a right angle."
+  },
+  {
+   "topic": "3.2",
+   "q": "How many right angles make a straight line?",
+   "options": [
+    "1",
+    "3",
+    "2",
+    "4"
+   ],
+   "answer": 2,
+   "explanation": "A straight line is a half turn, which is two right angles."
+  },
+  {
+   "topic": "3.2",
+   "q": "At 6 o'clock the hands of a clock make",
+   "options": [
+    "a right angle",
+    "a small angle",
+    "no angle",
+    "a straight line"
+   ],
+   "answer": 3,
+   "explanation": "At 6 o'clock the hands point in opposite directions, making a straight line."
+  },
+  {
+   "topic": "3.2",
+   "q": "At 3 o'clock the hands of a clock make",
+   "options": [
+    "a straight line",
+    "a right angle",
+    "a full turn",
+    "a very small angle"
+   ],
+   "answer": 1,
+   "explanation": "At 3 o'clock the minute hand is at 12 and the hour hand at 3, a quarter turn apart."
+  },
+  {
+   "topic": "3.2",
+   "q": "An angle that is smaller than a right angle looks like",
+   "options": [
+    "a corner that is more open than a square corner",
+    "a straight line",
+    "a circle",
+    "a corner that is more closed than a square corner"
+   ],
+   "answer": 3,
+   "explanation": "Its arms are closer together than the arms of a right angle."
+  },
+  {
+   "topic": "3.2",
+   "q": "An angle that is bigger than a right angle has arms that are",
+   "options": [
+    "closer together than a right angle",
+    "exactly the same as a right angle",
+    "further apart than the arms of a right angle",
+    "joined into one line and closed"
+   ],
+   "answer": 2,
+   "explanation": "A bigger angle has arms opened wider than a square corner."
+  },
+  {
+   "topic": "3.2",
+   "q": "What does the size of an angle depend on?",
+   "options": [
+    "How far apart the arms are",
+    "How long the arms are",
+    "The colour of the arms",
+    "The number of arms"
+   ],
+   "answer": 0,
+   "explanation": "The size depends on the opening between the arms, not on their length."
+  }
+ ],
+ "short": []
+}

@@ -1,448 +1,196 @@
 {
  "mcq": [
   {
-   "topic": "6.4.1",
-   "q": "Kiambishi cha upatanisho cha umoja wa ngeli ya LI-YA katika kitenzi ni kipi?",
+   "topic": "6.2.1",
+   "q": "Wahusika ni akina nani katika hadithi?",
    "options": [
-    "li-",
-    "ki-",
-    "u-",
-    "a-"
-   ],
-   "answer": 0,
-   "explanation": "Ngeli ya LI-YA hutumia li- katika umoja, kwa mfano tunda limeiva."
-  },
-  {
-   "topic": "6.4.1",
-   "q": "Wingi wa tunda ni upi?",
-   "options": [
-    "matunda",
-    "mitunda",
-    "vitunda",
-    "tunda"
-   ],
-   "answer": 0,
-   "explanation": "Nomino za LI-YA nyingi huunda wingi kwa ma-, kwa hiyo tunda huwa matunda."
-  },
-  {
-   "topic": "6.4.1",
-   "q": "Jaza nafasi: Madirisha ___ darasa yamefunguliwa.",
-   "options": [
-    "vya",
-    "ya",
-    "cha",
-    "la"
+    "Kurasa za kitabu",
+    "Watu au wanyama wanaotajwa katika hadithi",
+    "Maneno magumu",
+    "Majina ya waandishi"
    ],
    "answer": 1,
-   "explanation": "Kiunganishi cha wingi wa LI-YA ni ya."
+   "explanation": "Wahusika ni watu au wanyama wanaotajwa katika hadithi."
   },
   {
-   "topic": "8.2.1",
-   "q": "Ni tofauti gani kati ya mchezo wa kuigiza na hadithi ya kawaida?",
+   "topic": "7.2.1",
+   "q": "Kadi ya kusoma hutumika kufanya nini?",
    "options": [
-    "Hadithi haina mwanzo",
-    "Mchezo huandikwa kwa mazungumzo ya wahusika bila msimulizi",
-    "Mchezo hauna wahusika",
-    "Hakuna tofauti"
+    "Kulipia kitabu",
+    "Kusafiri",
+    "Kuchezea",
+    "Kukumbuka vitabu ulivyosoma"
    ],
-   "answer": 1,
-   "explanation": "Katika mchezo wahusika wenyewe huzungumza."
+   "answer": 3,
+   "explanation": "Kadi ya kusoma huwa na jina la kitabu, mwandishi na jambo ulilopenda."
   },
   {
-   "topic": "9.1.1",
-   "q": "Unamwambia nini mtu mwenye shida ili umfariji?",
+   "topic": "6.4.1",
+   "q": "Wingi wa jino ni upi?",
    "options": [
-    "Tafadhali",
-    "Pole",
-    "Marahaba",
-    "Karibu"
-   ],
-   "answer": 1,
-   "explanation": "Pole ni neno la kufariji."
-  },
-  {
-   "topic": "9.3.1",
-   "q": "Ni neno lipi ni la mfuatano wa hatua?",
-   "options": [
-    "Safi",
-    "Mzima",
-    "Mwishowe",
-    "Tamu"
+    "vijino",
+    "majino",
+    "meno",
+    "mijino"
    ],
    "answer": 2,
-   "explanation": "Mwishowe huonyesha hatua ya mwisho."
+   "explanation": "Jino lina wingi wa kipekee, meno."
   },
   {
-   "topic": "7.4.1",
-   "q": "Kimilikishi cha wingi wa KI-VI kwa mtu wa kwanza ni kipi?",
+   "topic": "6.1.1",
+   "q": "Rangi ya nyeusi kwenye bendera ya Kenya inawakilisha nini?",
    "options": [
-    "zangu",
-    "yangu",
-    "vyangu",
-    "changu"
+    "Watu wa Kenya",
+    "Damu iliyomwagika",
+    "Amani",
+    "Ardhi"
+   ],
+   "answer": 0,
+   "explanation": "Nyeusi inawakilisha watu wa Kenya."
+  },
+  {
+   "topic": "11.3.1",
+   "q": "Ni nani anayeweza kuandikiwa barua ya kirafiki kuhusu mapato?",
+   "options": [
+    "Mkurugenzi tu",
+    "Waziri",
+    "Rafiki, ndugu au mzazi",
+    "Mtu asiyejulikana"
    ],
    "answer": 2,
-   "explanation": "Vitabu vyangu ni wingi, kimilikishi ni vyangu."
+   "explanation": "Barua ya kirafiki huandikiwa watu tunaowajua vizuri."
   },
   {
    "topic": "9.4.1",
-   "q": "Kinyume cha baba ni kipi?",
+   "q": "Kinyume cha furaha ni kipi?",
    "options": [
-    "mjomba",
-    "mama",
-    "babu",
-    "kaka"
+    "huzuni",
+    "upendo",
+    "wema",
+    "amani"
+   ],
+   "answer": 0,
+   "explanation": "Furaha na huzuni ni vinyume."
+  },
+  {
+   "topic": "11.4.1",
+   "q": "Kanusha: Nitaenda.",
+   "options": [
+    "Sitaenda",
+    "Nitaenda",
+    "Siendi",
+    "Sikuenda"
+   ],
+   "answer": 0,
+   "explanation": "Wakati ujao hukanushwa kwa kubaki -ta-."
+  },
+  {
+   "topic": "10.4.1",
+   "q": "Kitenzi atalima kiko katika wakati gani?",
+   "options": [
+    "Timilifu",
+    "Uliopita",
+    "Uliopo",
+    "Ujao"
+   ],
+   "answer": 3,
+   "explanation": "Atalima lina -ta-, wakati ujao."
+  },
+  {
+   "topic": "6.4.1",
+   "q": "Ni sentensi ipi iliyo sahihi kisarufi kuhusu jicho?",
+   "options": [
+    "Jicho yangu linauma.",
+    "Jicho langu yanauma.",
+    "Jicho zangu linauma.",
+    "Jicho langu linauma."
+   ],
+   "answer": 3,
+   "explanation": "Jicho ni umoja, kwa hiyo kimilikishi ni langu na kitenzi ni linauma."
+  },
+  {
+   "topic": "7.3.1",
+   "q": "Neno kubwa katika sentensi Shamba ni kubwa ni aina gani ya neno?",
+   "options": [
+    "Nomino",
+    "Kivumishi",
+    "Kielezi",
+    "Kitenzi"
    ],
    "answer": 1,
-   "explanation": "Baba na mama ni vinyume kwa jinsia."
+   "explanation": "Kubwa huelezea sifa ya shamba."
+  },
+  {
+   "topic": "8.1.1",
+   "q": "Kisawe cha adui ni kipi?",
+   "options": [
+    "hasimu",
+    "sahibu",
+    "ami",
+    "rafiki"
+   ],
+   "answer": 0,
+   "explanation": "Adui na hasimu yana maana sawa."
   },
   {
    "topic": "9.3.1",
-   "q": "Ni hatua gani hufuata kupaka sabuni?",
+   "q": "Kila aya ya insha ya maelezo inapaswa kuwa na nini?",
    "options": [
-    "Kuondoka",
-    "Kuloweka",
-    "Kukausha",
-    "Kusugua viganja, migongo ya mikono, vidole na kucha"
+    "Picha",
+    "Anwani mpya",
+    "Wazo moja",
+    "Mawazo yote"
    ],
-   "answer": 3,
-   "explanation": "Baada ya kupaka sabuni tunasugua."
+   "answer": 2,
+   "explanation": "Kila aya ieleze wazo moja."
   },
   {
    "topic": "6.2.1",
    "q": "Kwa mpangilio wa alfabeti, neno lipi linakuja mwisho?",
    "options": [
     "taifa",
-    "jukumu",
     "bendera",
-    "mlingoti"
+    "mlingoti",
+    "jukumu"
    ],
    "answer": 0,
    "explanation": "T huja baada ya b, j na m katika alfabeti."
   },
   {
-   "topic": "9.1.1",
-   "q": "Neno lipi hutumika kupokea msaada?",
+   "topic": "9.4.1",
+   "q": "Kinyume cha mvulana ni kipi?",
    "options": [
-    "Pole",
-    "Samahani",
-    "Karibu",
-    "Asante"
-   ],
-   "answer": 3,
-   "explanation": "Asante ni neno la shukrani."
-  },
-  {
-   "topic": "8.2.1",
-   "q": "Ni jambo lipi la kuzingatia unaposoma mchezo kwa sauti?",
-   "options": [
-    "Kusoma maelekezo kwa sauti kama mazungumzo",
-    "Kusoma kwa kunong'ona daima",
-    "Kufuata maelekezo na alama za uakifishaji",
-    "Kupuuza jina la mhusika"
+    "kijana",
+    "mtoto",
+    "msichana",
+    "baba"
    ],
    "answer": 2,
-   "explanation": "Tunafuata maelekezo na uakifishaji ili kusoma kwa ufasaha."
-  },
-  {
-   "topic": "7.4.2",
-   "q": "Ni nomino ipi ni ya ngeli ya LI-LI?",
-   "options": [
-    "kitabu",
-    "kikombe",
-    "giza",
-    "mtoto"
-   ],
-   "answer": 2,
-   "explanation": "Giza limetanda, kiambishi ni li-."
-  },
-  {
-   "topic": "9.3.1",
-   "q": "Ni wakati gani tunapaswa kunawa mikono?",
-   "options": [
-    "Tukiwa tumeoga tu",
-    "Kabla ya kula na baada ya kutoka chooni",
-    "Mara moja kwa mwezi",
-    "Wakati wa kulala"
-   ],
-   "answer": 1,
-   "explanation": "Kunawa katika nyakati hizo hulinda afya."
-  },
-  {
-   "topic": "6.3.1",
-   "q": "Insha ya wasifu inaeleza nini?",
-   "options": [
-    "Maana ya neno",
-    "Sifa za mtu",
-    "Kisa cha safari",
-    "Njia ya kupika"
-   ],
-   "answer": 1,
-   "explanation": "Insha ya wasifu hueleza sifa za mtu kama umbo na tabia."
-  },
-  {
-   "topic": "7.3.1",
-   "q": "Insha ya maelezo hufanya nini?",
-   "options": [
-    "Huelezea sifa za mtu tu",
-    "Huandika shairi",
-    "Husimulia kisa cha safari",
-    "Huelezea kitu, mahali au njia ya kufanya jambo"
-   ],
-   "answer": 3,
-   "explanation": "Insha ya maelezo hueleza kitu, mahali au jambo kwa uwazi."
-  },
-  {
-   "topic": "6.1.1",
-   "q": "Mahadhi ya shairi ni nini?",
-   "options": [
-    "Idadi ya beti",
-    "Rangi za shairi",
-    "Mpangilio wa sauti unapoimba au kukariri",
-    "Jina la mtunzi"
-   ],
-   "answer": 2,
-   "explanation": "Mahadhi ni jinsi sauti inavyopanda, kushuka, kwenda haraka au polepole."
-  },
-  {
-   "topic": "8.4.1",
-   "q": "Sentensi ipi iko katika kauli ya kutendea?",
-   "options": [
-    "Chakula kinapikwa.",
-    "Mama anapika chakula.",
-    "Mama anampikia mtoto chakula.",
-    "Chakula kimeiva."
-   ],
-   "answer": 2,
-   "explanation": "Anampikia inaonyesha kitendo kwa ajili ya mtu."
-  },
-  {
-   "topic": "8.1.1",
-   "q": "Kisawe cha tembo ni kipi?",
-   "options": [
-    "ndovu",
-    "nyati",
-    "kinyonga",
-    "kifaru"
-   ],
-   "answer": 0,
-   "explanation": "Tembo na ndovu yana maana sawa."
-  },
-  {
-   "topic": "7.2.1",
-   "q": "Kulingana na kifungu cha Mbegu Ndogo, Mmea Mkubwa, ni nini hutoka kwanza mbegu inapoota?",
-   "options": [
-    "Mzizi",
-    "Jani",
-    "Ua",
-    "Ganda"
-   ],
-   "answer": 0,
-   "explanation": "Kifungu kinasema mzizi hutoka kwanza na kuingia chini ya udongo."
-  },
-  {
-   "topic": "8.4.1",
-   "q": "Kauli ya kutendea ya andika ni ipi?",
-   "options": [
-    "andikika",
-    "andikia",
-    "andikwa",
-    "andikea"
-   ],
-   "answer": 1,
-   "explanation": "Irabu ya mwisho ni i, kwa hiyo -ia."
-  },
-  {
-   "topic": "8.2.1",
-   "q": "Mhusika ni nani katika mchezo wa kuigiza?",
-   "options": [
-    "Mtazamaji",
-    "Mwandishi",
-    "Mwalimu mkuu",
-    "Mtu au mnyama anayeigizwa"
-   ],
-   "answer": 3,
-   "explanation": "Mhusika ndiye anayeigizwa katika mchezo."
+   "explanation": "Mvulana na msichana ni vinyume kwa jinsia."
   },
   {
    "topic": "9.4.1",
-   "q": "Kinyume cha mwanamume ni kipi?",
+   "q": "Kinyume cha wema ni kipi?",
    "options": [
-    "mtoto",
-    "kijana",
-    "mzee",
-    "mwanamke"
+    "furaha",
+    "nguvu",
+    "upendo",
+    "ubaya"
    ],
    "answer": 3,
-   "explanation": "Mwanamume na mwanamke ni vinyume."
+   "explanation": "Wema na ubaya ni vinyume."
   },
   {
-   "topic": "6.3.1",
-   "q": "Neno mkarimu ni aina gani ya neno?",
+   "topic": "10.3.1",
+   "q": "Katika Mkoba Uliopotea, nani aliuokota mkoba?",
    "options": [
-    "Kiunganishi",
-    "Kivumishi",
-    "Kielezi",
-    "Kitenzi"
-   ],
-   "answer": 1,
-   "explanation": "Mkarimu huelezea sifa ya nomino, kwa hiyo ni kivumishi."
-  },
-  {
-   "topic": "8.1.1",
-   "q": "Kisawe cha polepole ni kipi?",
-   "options": [
-    "mbio",
-    "haraka",
-    "upesi",
-    "taratibu"
-   ],
-   "answer": 3,
-   "explanation": "Polepole na taratibu yana maana sawa."
-  },
-  {
-   "topic": "6.2.1",
-   "q": "Kamusi ni kitabu chenye nini?",
-   "options": [
-    "Mashairi ya watoto",
-    "Habari za kila siku",
-    "Maneno yaliyopangwa kwa alfabeti pamoja na maana zake",
-    "Hadithi ndefu"
+    "Amina",
+    "Mama",
+    "Otieno",
+    "Mzee wa soko"
    ],
    "answer": 2,
-   "explanation": "Kamusi hupanga maneno kwa alfabeti na hutoa maana zake."
-  },
-  {
-   "topic": "8.2.1",
-   "q": "Mahali ambapo wahusika huigiza huitwa nini?",
-   "options": [
-    "Anwani",
-    "Kamusi",
-    "Jukwaa",
-    "Kibwagizo"
-   ],
-   "answer": 2,
-   "explanation": "Jukwaa ni mahali pa kuigiza."
-  },
-  {
-   "topic": "7.2.1",
-   "q": "Matini ni nini?",
-   "options": [
-    "Aina ya nguo",
-    "Mahali pa kuchezea",
-    "Kitu kilichoandikwa kinachoweza kusomwa",
-    "Aina ya chakula"
-   ],
-   "answer": 2,
-   "explanation": "Matini ni maandishi kama kitabu, gazeti au ukurasa wa mtandaoni."
-  },
-  {
-   "topic": "9.2.1",
-   "q": "Mlo kamili una nini?",
-   "options": [
-    "Maji tu",
-    "Vyakula vya aina zote tatu",
-    "Ugali tu",
-    "Matunda tu"
-   ],
-   "answer": 1,
-   "explanation": "Mlo kamili una vyakula vya kujenga mwili, vya nguvu na vya kulinda."
-  },
-  {
-   "topic": "7.3.1",
-   "q": "Ni methali ipi inahusiana na kusubiri matunda yaive?",
-   "options": [
-    "Mwenda pole hajikwai.",
-    "Baada ya dhiki faraja.",
-    "Kidole kimoja hakivunji chawa.",
-    "Mvumilivu hula mbivu."
-   ],
-   "answer": 3,
-   "explanation": "Mvumilivu hula mbivu inamaanisha anayesubiri kwa subira hupata mafanikio."
-  },
-  {
-   "topic": "8.3.1",
-   "q": "Hitimisho la insha ya masimulizi linafaa kuwa na nini?",
-   "options": [
-    "Mwanzo mpya",
-    "Orodha ya majina",
-    "Mwisho wa kisa na funzo au hisia",
-    "Maswali"
-   ],
-   "answer": 2,
-   "explanation": "Hitimisho hueleza kilichotokea mwishoni na funzo."
-  },
-  {
-   "topic": "6.4.1",
-   "q": "Kiambishi cha upatanisho cha wingi wa ngeli ya LI-YA katika kitenzi ni kipi?",
-   "options": [
-    "wa-",
-    "ya-",
-    "zi-",
-    "vi-"
-   ],
-   "answer": 1,
-   "explanation": "Wingi wa LI-YA hutumia ya-, kwa mfano matunda yameiva."
-  },
-  {
-   "topic": "8.3.1",
-   "q": "Alama zinazotumiwa kuandika maneno ya mtu anayezungumza katika insha ni zipi?",
-   "options": [
-    "Alama za nukuu",
-    "Mabano",
-    "Alama za mshangao tu",
-    "Mistari"
-   ],
-   "answer": 0,
-   "explanation": "Alama za nukuu huonyesha maneno yaliyosemwa na mtu."
-  },
-  {
-   "topic": "6.4.1",
-   "q": "Kivumishi cha wingi kinachopatana na matunda ni kipi?",
-   "options": [
-    "mitamu",
-    "matamu",
-    "watamu",
-    "vitamu"
-   ],
-   "answer": 1,
-   "explanation": "Wingi wa LI-YA hutumia ma- katika vivumishi, kwa mfano matunda matamu."
-  },
-  {
-   "topic": "8.4.1",
-   "q": "Kauli ya kutendwa ya pika ni ipi?",
-   "options": [
-    "pikika",
-    "pikwa",
-    "pikea",
-    "pikia"
-   ],
-   "answer": 1,
-   "explanation": "Kauli ya kutendwa huongeza -wa, kwa hiyo pika huwa pikwa."
-  },
-  {
-   "topic": "6.1.1",
-   "q": "Neno kupandisha bendera lina kinyume kipi?",
-   "options": [
-    "Kuimba",
-    "Kushusha",
-    "Kukariri",
-    "Kupepea"
-   ],
-   "answer": 1,
-   "explanation": "Kupandisha ni kuinua juu, na kinyume chake ni kushusha."
-  },
-  {
-   "topic": "8.4.1",
-   "q": "Sentensi ipi iko katika kauli ya kutendwa?",
-   "options": [
-    "Baba anaendesha baiskeli.",
-    "Wanyama wanalindwa na askari.",
-    "Mama anampikia mtoto chakula.",
-    "Askari analinda wanyama."
-   ],
-   "answer": 1,
-   "explanation": "Wanalindwa ni kauli ya kutendwa na mtendaji ametajwa kwa na."
+   "explanation": "Otieno aliuokota na kuupeleka kwa mzee wa soko."
   },
   {
    "topic": "8.1.1",
@@ -457,220 +205,208 @@
    "explanation": "Kutazama na kuangalia yana maana sawa."
   },
   {
-   "topic": "6.1.1",
-   "q": "Mtu anayekariri au kughani shairi huitwa nani?",
+   "topic": "9.3.1",
+   "q": "Ni hatua gani ya kwanza ya kunawa mikono?",
    "options": [
-    "Mwalimu mkuu",
-    "Askari",
-    "Mghani",
-    "Mkulima"
+    "Kuondoka",
+    "Kusuuza",
+    "Kuloweka mikono kwa maji safi",
+    "Kukausha"
    ],
    "answer": 2,
-   "explanation": "Mghani ni mtu anayekariri au kughani shairi kwa sauti."
+   "explanation": "Hatua ya kwanza ni kuloweka mikono kwa maji safi."
   },
   {
-   "topic": "8.1.1",
-   "q": "Kisawe cha haraka ni kipi?",
+   "topic": "10.1.1",
+   "q": "Ni tashbihi ipi ni ya umbo?",
    "options": [
-    "jana",
-    "polepole",
-    "upesi",
-    "taratibu"
+    "mrefu kama mlingoti",
+    "mfupi kama nyundo",
+    "mwembamba kama sindano",
+    "mrefu kama mnazi"
    ],
    "answer": 2,
-   "explanation": "Haraka na upesi yana maana sawa."
+   "explanation": "Mwembamba kama sindano huelezea maumbile."
   },
   {
-   "topic": "8.4.1",
-   "q": "Mnyambuliko wa vitenzi ni nini?",
+   "topic": "11.2.1",
+   "q": "Ni ishara ipi inafaa unaposoma habari ya furaha?",
    "options": [
-    "Kubadilisha umbo la mwisho wa kitenzi ili kupata maana mpya",
-    "Kupanga maneno kwa alfabeti",
-    "Kubadilisha jina",
-    "Kuandika kwa herufi kubwa"
-   ],
-   "answer": 0,
-   "explanation": "Mnyambuliko ni kubadilisha mwisho wa kitenzi kupata kauli."
-  },
-  {
-   "topic": "9.2.1",
-   "q": "Ni faida gani ya kuchagua matini mwenyewe?",
-   "options": [
-    "Unapata kazi zaidi",
-    "Unaacha shule",
-    "Unasahau maneno",
-    "Unafurahia kusoma zaidi"
+    "Uso wa hasira",
+    "Kugeuka",
+    "Kulia",
+    "Tabasamu"
    ],
    "answer": 3,
-   "explanation": "Kusoma unachopenda huongeza furaha."
-  },
-  {
-   "topic": "6.2.1",
-   "q": "Unapokutana na neno usilolijua katika makala, unafaa kufanya nini?",
-   "options": [
-    "Kuliruka bila kufikiri",
-    "Kutumia kamusi kupata maana yake",
-    "Kulibadilisha kuwa jina lako",
-    "Kuacha kusoma"
-   ],
-   "answer": 1,
-   "explanation": "Kamusi hutupa maana za maneno tusiyoyajua."
-  },
-  {
-   "topic": "7.1.1",
-   "q": "Katika sentensi Moraa alipiga moyo konde akasoma shairi, Moraa alionyesha nini?",
-   "options": [
-    "Hasira",
-    "Njaa",
-    "Ujasiri",
-    "Woga"
-   ],
-   "answer": 2,
-   "explanation": "Alisoma shairi mbele ya wageni licha ya kuogopa, kwa hiyo alikuwa jasiri."
-  },
-  {
-   "topic": "7.4.2",
-   "q": "Sahihisha: Joto hii limepanda. Sentensi sahihi ni ipi?",
-   "options": [
-    "Joto hiki kimepanda.",
-    "Joto hii imepanda.",
-    "Joto hizi yamepanda.",
-    "Joto hili limepanda."
-   ],
-   "answer": 3,
-   "explanation": "Kionyeshi cha LI-LI ni hili na kitenzi ni limepanda."
-  },
-  {
-   "topic": "7.3.1",
-   "q": "Kielezi cha jinsi katika sentensi Babu hufanya kazi kwa bidii ni kipi?",
-   "options": [
-    "hufanya",
-    "Babu",
-    "kwa bidii",
-    "kazi"
-   ],
-   "answer": 2,
-   "explanation": "Kwa bidii huonyesha jinsi kazi inavyofanywa."
-  },
-  {
-   "topic": "7.4.1",
-   "q": "Jaza nafasi: Viatu ___ ni vyeupe.",
-   "options": [
-    "vyangu",
-    "yangu",
-    "langu",
-    "changu"
-   ],
-   "answer": 0,
-   "explanation": "Viatu ni wingi wa KI-VI na kimilikishi ni vyangu."
-  },
-  {
-   "topic": "7.4.1",
-   "q": "Kivumishi cha wingi kinachopatana na viti ni kipi?",
-   "options": [
-    "mazuri",
-    "vizuri",
-    "kizuri",
-    "mizuri"
-   ],
-   "answer": 1,
-   "explanation": "Viti vizuri, kwa sababu wingi wa KI-VI hutumia vi-."
-  },
-  {
-   "topic": "8.1.1",
-   "q": "Kisawe cha kufika ni kipi?",
-   "options": [
-    "kuwasili",
-    "kucheza",
-    "kuondoka",
-    "kukimbia"
-   ],
-   "answer": 0,
-   "explanation": "Kufika na kuwasili ni visawe."
+   "explanation": "Tabasamu huendana na furaha."
   },
   {
    "topic": "9.4.1",
-   "q": "Kinyume cha utajiri ni kipi?",
+   "q": "Kinyume cha usiku ni kipi?",
    "options": [
-    "ujana",
-    "urefu",
-    "umaskini",
-    "uzee"
+    "mchana",
+    "giza",
+    "jioni",
+    "alfajiri"
    ],
-   "answer": 2,
-   "explanation": "Utajiri na umaskini ni vinyume."
-  },
-  {
-   "topic": "7.1.1",
-   "q": "Nahau kupiga marufuku inamaanisha nini?",
-   "options": [
-    "Kuruhusu",
-    "Kupiga kelele",
-    "Kukataza rasmi",
-    "Kucheza"
-   ],
-   "answer": 2,
-   "explanation": "Kupiga marufuku ni kukataza kitu rasmi."
-  },
-  {
-   "topic": "7.3.1",
-   "q": "Kiini cha insha kina nini?",
-   "options": [
-    "Anwani tu",
-    "Jina la mwandishi",
-    "Aya zinazotoa maelezo makuu",
-    "Sentensi moja"
-   ],
-   "answer": 2,
-   "explanation": "Kiini kina aya mbili au tatu zinazotoa maelezo makuu."
-  },
-  {
-   "topic": "9.1.1",
-   "q": "Kwa nini tunatumia lugha tofauti na watu tofauti?",
-   "options": [
-    "Ili tusizungumze",
-    "Ili kuwachanganya",
-    "Kwa sababu hatuna maneno",
-    "Ili kuwaheshimu na kuwasiliana vizuri"
-   ],
-   "answer": 3,
-   "explanation": "Lugha inafaa kubadilishwa kulingana na muktadha."
-  },
-  {
-   "topic": "9.3.1",
-   "q": "Ni nahau ipi inamaanisha kufanya kazi kwa juhudi?",
-   "options": [
-    "Kula kiapo",
-    "Kupiga marufuku",
-    "Kukata tamaa",
-    "Kutia bidii"
-   ],
-   "answer": 3,
-   "explanation": "Kutia bidii ni kufanya kazi kwa juhudi."
+   "answer": 0,
+   "explanation": "Usiku na mchana ni vinyume."
   },
   {
    "topic": "8.2.1",
-   "q": "Watu wanaotazama mchezo huitwa nini?",
+   "q": "Kwa nini Askari Kimani alimzuia Wanjala kumlisha twiga?",
    "options": [
-    "Mkutubi",
-    "Wahusika",
-    "Waandishi",
-    "Hadhira"
+    "Askari hapendi mkate",
+    "Mkate ni ghali",
+    "Twiga hana njaa",
+    "Chakula cha binadamu kinaweza kuwadhuru wanyama"
    ],
    "answer": 3,
-   "explanation": "Hadhira ni watu wanaotazama au kusikiliza."
+   "explanation": "Askari alieleza kuwa chakula cha binadamu kinaweza kuwadhuru wanyama."
+  },
+  {
+   "topic": "7.3.1",
+   "q": "Ni tahajia ipi ni sahihi ya wingi wa mmea?",
+   "options": [
+    "mimea",
+    "miamea",
+    "mimia",
+    "meamea"
+   ],
+   "answer": 0,
+   "explanation": "Wingi wa mmea ni mimea."
+  },
+  {
+   "topic": "10.1.1",
+   "q": "Ni tabia ipi ni nzuri kuhusu tashbihi za umbo?",
+   "options": [
+    "Kuwaita majina mabaya",
+    "Kuepuka kuwadhihaki watu",
+    "Kuwacheka watu",
+    "Kuwaogopesha"
+   ],
+   "answer": 1,
+   "explanation": "Tunapaswa kutumia tashbihi kwa heshima."
   },
   {
    "topic": "6.2.1",
-   "q": "Tahajia ni nini?",
+   "q": "Ujumbe wa Zawadi ya Bendera ni upi?",
    "options": [
-    "Rangi ya kalamu",
-    "Idadi ya aya",
-    "Jinsi ya kuimba",
-    "Jinsi maneno yanavyoandikwa kwa usahihi"
+    "Tutimize majukumu yetu kwa bidii",
+    "Tusipande bendera",
+    "Ijumaa ni siku mbaya",
+    "Walimu hawapendi wanafunzi"
+   ],
+   "answer": 0,
+   "explanation": "Mwalimu alisema kila mtu ana jukumu lake na akilitimiza kwa bidii, taifa lote linanufaika."
+  },
+  {
+   "topic": "7.4.1",
+   "q": "Wingi wa kitabu ni upi?",
+   "options": [
+    "kitabu",
+    "vitabu",
+    "matabu",
+    "mitabu"
+   ],
+   "answer": 1,
+   "explanation": "Katika ngeli ya KI-VI, ki- huwa vi- katika wingi."
+  },
+  {
+   "topic": "10.3.1",
+   "q": "Maneno ya mtu anayezungumza katika insha huandikwa vipi?",
+   "options": [
+    "Kwa herufi kubwa",
+    "Ndani ya alama za nukuu",
+    "Ndani ya mabano",
+    "Bila alama"
+   ],
+   "answer": 1,
+   "explanation": "Alama za nukuu huonyesha maneno ya mzungumzaji."
+  },
+  {
+   "topic": "7.4.2",
+   "q": "Tofauti kati ya LI-YA na LI-LI ni ipi?",
+   "options": [
+    "LI-YA ina wingi wenye ya-, LI-LI ina li- daima",
+    "Hakuna tofauti",
+    "LI-YA haina nomino",
+    "LI-LI ina nomino nyingi za ma-"
+   ],
+   "answer": 0,
+   "explanation": "Katika LI-YA wingi hutumia ya-, lakini nomino za LI-LI hubaki na li-."
+  },
+  {
+   "topic": "7.1.1",
+   "q": "Nahau kushika hatamu inamaanisha nini?",
+   "options": [
+    "Kuongoza",
+    "Kuanguka",
+    "Kupika",
+    "Kulala"
+   ],
+   "answer": 0,
+   "explanation": "Kushika hatamu ni kuongoza au kutawala."
+  },
+  {
+   "topic": "7.1.1",
+   "q": "Ni nahau ipi inafaa kwa mwanafunzi anayeomba idhini kwa mwalimu?",
+   "options": [
+    "Kushika hatamu",
+    "Kuomba ruhusa",
+    "Kula kiapo",
+    "Kupiga marufuku"
+   ],
+   "answer": 1,
+   "explanation": "Kuomba ruhusa ni kumwomba mtu mzima akuruhusu kufanya jambo."
+  },
+  {
+   "topic": "7.2.1",
+   "q": "Ni matini ipi hutoa habari za kila siku?",
+   "options": [
+    "Kitabu cha methali",
+    "Kamusi",
+    "Shairi",
+    "Gazeti"
    ],
    "answer": 3,
-   "explanation": "Tahajia ni uandishi sahihi wa maneno."
+   "explanation": "Gazeti hutoa habari za kila siku."
+  },
+  {
+   "topic": "11.1.1",
+   "q": "Amani alikuwa na shilingi ngapi baada ya siku thelathini?",
+   "options": [
+    "Mia nne",
+    "Mia tatu",
+    "Mia mbili",
+    "Mia moja"
+   ],
+   "answer": 1,
+   "explanation": "10 mara 30 ni 300."
+  },
+  {
+   "topic": "9.3.1",
+   "q": "Methali Afya ni utajiri ina maana gani?",
+   "options": [
+    "Mtu mwenye afya njema ana kitu cha thamani",
+    "Tajiri hana afya",
+    "Afya haina thamani",
+    "Afya ni pesa"
+   ],
+   "answer": 0,
+   "explanation": "Afya njema ni kitu cha thamani kama utajiri."
+  },
+  {
+   "topic": "7.1.1",
+   "q": "Nahau kupiga hodi ina maana gani?",
+   "options": [
+    "Kupiga mlango kwa nguvu",
+    "Kuimba nje",
+    "Kuchukua kitu",
+    "Kujulisha mwenyeji kwamba upo mlangoni kabla ya kuingia"
+   ],
+   "answer": 3,
+   "explanation": "Kupiga hodi ni ishara ya adabu ya kujitambulisha mlangoni."
   },
   {
    "topic": "7.3.1",
@@ -678,123 +414,512 @@
    "options": [
     "Jinsi ya kupanda mche wa mti",
     "Siku niliyopotea sokoni",
-    "Rafiki yangu Otieno",
-    "Ndoto ya kuwa rubani"
+    "Ndoto ya kuwa rubani",
+    "Rafiki yangu Otieno"
    ],
    "answer": 0,
    "explanation": "Jinsi ya kupanda mche ni maelezo ya njia ya kufanya jambo."
   },
   {
+   "topic": "11.4.3",
+   "q": "Udogo wa mti ni upi?",
+   "options": [
+    "miti",
+    "mtiti",
+    "kijiti",
+    "jiti"
+   ],
+   "answer": 2,
+   "explanation": "M- huwa ki-ji- katika udogo."
+  },
+  {
    "topic": "8.3.1",
-   "q": "Ni kiambishi kipi cha wakati uliopita?",
+   "q": "Katika insha kielelezo Siku Nilipomwona Tembo, kilele ni nini?",
    "options": [
-    "-ki-",
-    "-na-",
-    "-li-",
-    "-ta-"
-   ],
-   "answer": 2,
-   "explanation": "Kiambishi -li- huonyesha wakati uliopita."
-  },
-  {
-   "topic": "7.2.1",
-   "q": "Ukikutana na kitu kisichofaa mtandaoni, unafaa kufanya nini?",
-   "options": [
-    "Kukiandika",
-    "Kukisambaza",
-    "Kumwambia mtu mzima",
-    "Kukificha"
-   ],
-   "answer": 2,
-   "explanation": "Kumwambia mtu mzima ni njia ya kujilinda."
-  },
-  {
-   "topic": "7.4.2",
-   "q": "Sentensi ipi inaonyesha wakati uliopita?",
-   "options": [
-    "Jua lilitua jioni.",
-    "Jua litatua jioni.",
-    "Jua hutua jioni.",
-    "Jua linatua sasa."
-   ],
-   "answer": 0,
-   "explanation": "Kiambishi -li- pia huonyesha wakati uliopita."
-  },
-  {
-   "topic": "7.4.2",
-   "q": "Katika sentensi Giza limeondoka, kiambishi cha upatanisho ni kipi?",
-   "options": [
-    "u-",
-    "ya-",
-    "li-",
-    "ki-"
-   ],
-   "answer": 2,
-   "explanation": "Kitenzi kimeanza kwa li-."
-  },
-  {
-   "topic": "9.2.1",
-   "q": "Aina ya kwanza ya vyakula vya Chakula Bora ni ipi?",
-   "options": [
-    "Vinywaji",
-    "Vyakula vya kujenga mwili",
-    "Vyakula vya nguvu",
-    "Vyakula vya kulinda mwili"
+    "Walipofika nyumbani",
+    "Walipomwona tembo akivuka mto",
+    "Walipopanda basi",
+    "Walipoimba"
    ],
    "answer": 1,
-   "explanation": "Kifungu kinaanza na vyakula vya kujenga mwili."
+   "explanation": "Kilele ni tukio la kusisimua zaidi, kuona tembo."
   },
   {
-   "topic": "6.2.1",
-   "q": "Kusoma kwa kina kunamaanisha nini?",
+   "topic": "7.1.1",
+   "q": "Nahau kutia bidii inamaanisha nini?",
    "options": [
-    "Kuruka aya nyingi",
-    "Kuandika tu",
-    "Kusoma kwa haraka bila kufikiri",
-    "Kusoma makala polepole na kwa makini ili kuelewa kila kitu"
+    "Kuchelewa",
+    "Kuacha kazi",
+    "Kulala mchana",
+    "Kufanya kazi kwa juhudi"
    ],
    "answer": 3,
-   "explanation": "Kusoma kwa kina ni kusoma kwa makini, kufikiri na kuelewa."
+   "explanation": "Kutia bidii ni kufanya kazi kwa juhudi."
   },
   {
-   "topic": "7.4.2",
-   "q": "Sentensi ipi inaonyesha wakati ujao?",
+   "topic": "11.3.1",
+   "q": "Tarehe huandikwa wapi kwenye barua?",
    "options": [
-    "Jua lilichomoza.",
-    "Jua limechomoza.",
-    "Jua linachomoza sasa.",
-    "Jua litachomoza kesho."
+    "Nyuma ya barua",
+    "Kabla ya salamu upande wa kushoto",
+    "Mwishoni mwa barua",
+    "Chini ya anwani ya mwandishi"
    ],
    "answer": 3,
-   "explanation": "Kiambishi -ta- huonyesha wakati ujao."
+   "explanation": "Tarehe huandikwa chini ya anwani ya mwandishi."
+  },
+  {
+   "topic": "11.4.1",
+   "q": "Kanusha: Walisoma.",
+   "options": [
+    "Hawasomi",
+    "Hawatasoma",
+    "Hawakusoma",
+    "Hawalisoma"
+   ],
+   "answer": 2,
+   "explanation": "Wao hutumia hawa- na -ku-."
+  },
+  {
+   "topic": "11.4.1",
+   "q": "Kanusha: Mlifika.",
+   "options": [
+    "Hamtafika",
+    "Hamlifika",
+    "Hamfiki",
+    "Hamkufika"
+   ],
+   "answer": 3,
+   "explanation": "Ninyi hutumia ham- na -ku-."
+  },
+  {
+   "topic": "11.1.1",
+   "q": "Ujumbe wa Kibubu cha Amani ni upi?",
+   "options": [
+    "Sokoni ni mbali",
+    "Watoto wasifanye kazi",
+    "Bidii na akiba huleta mafanikio",
+    "Vitabu ni ghali"
+   ],
+   "answer": 2,
+   "explanation": "Amani alifanya kazi kwa bidii na kuweka akiba."
   },
   {
    "topic": "6.1.1",
-   "q": "Mstari unaorudiwa mwishoni mwa kila ubeti huitwa nini?",
+   "q": "Neno fahari lina maana gani?",
    "options": [
-    "Ngao",
-    "Anwani",
-    "Kamusi",
-    "Kibwagizo"
+    "Hasira",
+    "Hofu kubwa",
+    "Hali ya kujivunia kitu chako",
+    "Njaa"
+   ],
+   "answer": 2,
+   "explanation": "Fahari ni kujivunia kitu ulicho nacho, kwa mfano bendera ya nchi yako."
+  },
+  {
+   "topic": "6.2.1",
+   "q": "Ni kipengele kipi ni cha kuzingatia unaposoma makala kwa kina?",
+   "options": [
+    "Wahusika",
+    "Bei ya kitabu",
+    "Rangi ya jalada tu",
+    "Idadi ya kurasa tu"
+   ],
+   "answer": 0,
+   "explanation": "Wahusika, ujumbe, tahajia na sarufi ni vipengele vya kuzingatia."
+  },
+  {
+   "topic": "8.2.1",
+   "q": "Maelekezo (Kwa woga.) yanaonyesha nini?",
+   "options": [
+    "Jina la mhusika",
+    "Jinsi mhusika anavyosema",
+    "Wakati wa siku",
+    "Mahali pa onyesho"
+   ],
+   "answer": 1,
+   "explanation": "Yanamwambia mwigizaji aseme kwa woga."
+  },
+  {
+   "topic": "6.2.1",
+   "q": "Ni neno lipi litapatikana kwanza kwenye kamusi?",
+   "options": [
+    "mlingoti",
+    "jukumu",
+    "taifa",
+    "bendera"
    ],
    "answer": 3,
-   "explanation": "Kibwagizo ni mstari unaorudiwa mwishoni mwa kila ubeti."
+   "explanation": "Kwa mpangilio wa alfabeti, b hutangulia j, m na t."
+  },
+  {
+   "topic": "11.1.1",
+   "q": "Masimulizi ni nini?",
+   "options": [
+    "Kuandika barua",
+    "Kukariri shairi",
+    "Kusimulia kisa kwa mdomo",
+    "Kuimba wimbo"
+   ],
+   "answer": 2,
+   "explanation": "Masimulizi ni kusimulia kisa kwa mdomo."
+  },
+  {
+   "topic": "8.4.1",
+   "q": "Sentensi ipi iko katika kauli ya kutendea?",
+   "options": [
+    "Chakula kinapikwa.",
+    "Chakula kimeiva.",
+    "Mama anampikia mtoto chakula.",
+    "Mama anapika chakula."
+   ],
+   "answer": 2,
+   "explanation": "Anampikia inaonyesha kitendo kwa ajili ya mtu."
+  },
+  {
+   "topic": "9.3.1",
+   "q": "Ni tahajia ipi ni sahihi ya kitu cha kunawia mikono?",
+   "options": [
+    "sabini",
+    "sabuu",
+    "savuni",
+    "sabuni"
+   ],
+   "answer": 3,
+   "explanation": "Sabuni ni neno sahihi la kutumia kunawa mikono."
+  },
+  {
+   "topic": "6.2.1",
+   "q": "Ni jambo lipi ni sahihi unaposoma blogi mtandaoni?",
+   "options": [
+    "Kubonyeza kila tangazo",
+    "Kuandika anwani yako",
+    "Kusoma ukiwa na mtu mzima na kutotoa taarifa zako",
+    "Kumwambia kila mtu jina lako kamili"
+   ],
+   "answer": 2,
+   "explanation": "Usalama mtandaoni unamaanisha kutotoa taarifa za siri."
+  },
+  {
+   "topic": "9.3.1",
+   "q": "Ni wakati gani tunapaswa kunawa mikono?",
+   "options": [
+    "Mara moja kwa mwezi",
+    "Kabla ya kula na baada ya kutoka chooni",
+    "Tukiwa tumeoga tu",
+    "Wakati wa kulala"
+   ],
+   "answer": 1,
+   "explanation": "Kunawa katika nyakati hizo hulinda afya."
+  },
+  {
+   "topic": "8.4.1",
+   "q": "Kauli ya kutendwa ya sentensi Baba anaendesha baiskeli ni ipi?",
+   "options": [
+    "Baiskeli inaendeshwa na baba.",
+    "Baba alimwendeshea baiskeli.",
+    "Baiskeli inaendesha baba.",
+    "Baba anaendeshwa na baiskeli."
+   ],
+   "answer": 0,
+   "explanation": "Kitu kinachotendwa huwa mwanzo na mtendaji hutajwa kwa na."
+  },
+  {
+   "topic": "11.3.1",
+   "q": "Salamu ya barua ya kirafiki huandikwa wapi?",
+   "options": [
+    "Upande wa kushoto",
+    "Juu kulia",
+    "Nyuma",
+    "Chini"
+   ],
+   "answer": 0,
+   "explanation": "Salamu huandikwa upande wa kushoto."
+  },
+  {
+   "topic": "10.1.1",
+   "q": "Tashbihi ipi si sahihi kimantiki?",
+   "options": [
+    "mwembamba kama sindano",
+    "mrefu kama twiga",
+    "mrefu kama sindano",
+    "mrefu kama mnazi"
+   ],
+   "answer": 2,
+   "explanation": "Sindano ni fupi na nyembamba, si ndefu, kwa hiyo si sahihi kwa urefu."
+  },
+  {
+   "topic": "11.4.3",
+   "q": "Udogo wa mji ni upi?",
+   "options": [
+    "kijiji",
+    "miji",
+    "jiji",
+    "mjiji"
+   ],
+   "answer": 0,
+   "explanation": "Mji huwa kijiji."
+  },
+  {
+   "topic": "6.3.1",
+   "q": "Neno mkarimu ni aina gani ya neno?",
+   "options": [
+    "Kitenzi",
+    "Kivumishi",
+    "Kiunganishi",
+    "Kielezi"
+   ],
+   "answer": 1,
+   "explanation": "Mkarimu huelezea sifa ya nomino, kwa hiyo ni kivumishi."
+  },
+  {
+   "topic": "11.4.1",
+   "q": "Ni sentensi ipi ya ukanushaji ni sahihi?",
+   "options": [
+    "Sikusoma jana.",
+    "Sikusomi jana.",
+    "Sisomi jana.",
+    "Sitasoma jana."
+   ],
+   "answer": 0,
+   "explanation": "Jana huonyesha wakati uliopita, kwa hiyo sikusoma."
+  },
+  {
+   "topic": "11.3.1",
+   "q": "Mwili wa barua hueleza nini?",
+   "options": [
+    "Tarehe",
+    "Jina la mpokeaji",
+    "Anwani",
+    "Habari kuu unazotaka kutoa"
+   ],
+   "answer": 3,
+   "explanation": "Mwili una habari kuu za barua."
+  },
+  {
+   "topic": "9.2.1",
+   "q": "Kifungu cha Maji Safi ni Uhai kinasema maji machafu yanaweza kuleta nini?",
+   "options": [
+    "Usingizi",
+    "Nguvu",
+    "Furaha",
+    "Magonjwa"
+   ],
+   "answer": 3,
+   "explanation": "Maji machafu huleta magonjwa kama kuharisha."
+  },
+  {
+   "topic": "9.1.1",
+   "q": "Kwa nini tunatumia lugha tofauti na watu tofauti?",
+   "options": [
+    "Ili kuwachanganya",
+    "Kwa sababu hatuna maneno",
+    "Ili tusizungumze",
+    "Ili kuwaheshimu na kuwasiliana vizuri"
+   ],
+   "answer": 3,
+   "explanation": "Lugha inafaa kubadilishwa kulingana na muktadha."
+  },
+  {
+   "topic": "9.3.1",
+   "q": "Ni sehemu ipi ya insha ya maelezo hufuata anwani?",
+   "options": [
+    "Methali",
+    "Hitimisho",
+    "Utangulizi",
+    "Kiini"
+   ],
+   "answer": 2,
+   "explanation": "Baada ya anwani huja utangulizi."
+  },
+  {
+   "topic": "7.4.1",
+   "q": "Kiambishi cha upatanisho cha umoja wa ngeli ya KI-VI katika kitenzi ni kipi?",
+   "options": [
+    "u-",
+    "li-",
+    "ki-",
+    "vi-"
+   ],
+   "answer": 2,
+   "explanation": "Kitabu kimeanguka, kiambishi ni ki-."
+  },
+  {
+   "topic": "11.4.1",
+   "q": "Kanusha: Ninasoma.",
+   "options": [
+    "Sikusoma",
+    "Sitasoma",
+    "Sisomi",
+    "Sisoma"
+   ],
+   "answer": 2,
+   "explanation": "Wakati uliopo hukanushwa kwa si- na a ya mwisho kuwa i."
+  },
+  {
+   "topic": "10.1.1",
+   "q": "Kamilisha: Mtoto huyo ni mfupi kama ___.",
+   "options": [
+    "mnazi",
+    "mlingoti",
+    "twiga",
+    "nyundo"
+   ],
+   "answer": 3,
+   "explanation": "Nyundo ni kifaa kifupi, kwa hiyo inafaa kwa ufupi."
+  },
+  {
+   "topic": "7.1.1",
+   "q": "Nahau kukata tamaa inamaanisha nini?",
+   "options": [
+    "Kula sana",
+    "Kuanza kazi upya",
+    "Kukata kamba",
+    "Kuacha kujaribu kwa kuona hutafaulu"
+   ],
+   "answer": 3,
+   "explanation": "Kukata tamaa ni kupoteza matumaini na kuacha kujaribu."
+  },
+  {
+   "topic": "7.4.1",
+   "q": "Ni nomino ipi ya ngeli ya KI-VI?",
+   "options": [
+    "Mtoto",
+    "Tunda",
+    "Nyumba",
+    "Kisu"
+   ],
+   "answer": 3,
+   "explanation": "Kisu hupata wingi visu na hupatana na ki- na vi-."
+  },
+  {
+   "topic": "7.3.1",
+   "q": "Ni methali ipi inahusiana na kusubiri matunda yaive?",
+   "options": [
+    "Baada ya dhiki faraja.",
+    "Kidole kimoja hakivunji chawa.",
+    "Mwenda pole hajikwai.",
+    "Mvumilivu hula mbivu."
+   ],
+   "answer": 3,
+   "explanation": "Mvumilivu hula mbivu inamaanisha anayesubiri kwa subira hupata mafanikio."
+  },
+  {
+   "topic": "8.3.1",
+   "q": "Ni sehemu ipi ya insha huandikwa juu ya ukurasa na kupigiwa mstari?",
+   "options": [
+    "Anwani",
+    "Kilele",
+    "Kiini",
+    "Hitimisho"
+   ],
+   "answer": 0,
+   "explanation": "Anwani ni kichwa cha insha."
+  },
+  {
+   "topic": "9.2.1",
+   "q": "Matunda na mboga za majani ni vyakula vya aina gani?",
+   "options": [
+    "Vya kulinda mwili",
+    "Vya nguvu",
+    "Vya kupamba",
+    "Vya kujenga mwili"
+   ],
+   "answer": 0,
+   "explanation": "Hutusaidia kuwa na afya na kuzuia magonjwa."
+  },
+  {
+   "topic": "8.3.1",
+   "q": "Ni neno lipi si la mfuatano wa matukio?",
+   "options": [
+    "kisha",
+    "kwanza",
+    "mkarimu",
+    "mwishowe"
+   ],
+   "answer": 2,
+   "explanation": "Mkarimu ni kivumishi cha tabia."
+  },
+  {
+   "topic": "6.1.1",
+   "q": "Mahadhi ya shairi ni nini?",
+   "options": [
+    "Idadi ya beti",
+    "Rangi za shairi",
+    "Mpangilio wa sauti unapoimba au kukariri",
+    "Jina la mtunzi"
+   ],
+   "answer": 2,
+   "explanation": "Mahadhi ni jinsi sauti inavyopanda, kushuka, kwenda haraka au polepole."
+  },
+  {
+   "topic": "10.1.1",
+   "q": "Tashbihi ni nini?",
+   "options": [
+    "Neno lenye maana kinyume",
+    "Usemi unaolinganisha vitu viwili kwa kutumia kama",
+    "Wimbo wa taifa",
+    "Sentensi yenye mafunzo"
+   ],
+   "answer": 1,
+   "explanation": "Tashbihi hulinganisha vitu viwili kwa kutumia maneno kama kama, mithili ya au mfano wa."
+  },
+  {
+   "topic": "11.4.2",
+   "q": "Nomino za ukubwa ziko katika ngeli ipi?",
+   "options": [
+    "LI-YA",
+    "A-WA",
+    "U-I",
+    "KI-VI"
+   ],
+   "answer": 0,
+   "explanation": "Nomino za ukubwa hupatana kwa li- na ya-."
+  },
+  {
+   "topic": "9.1.1",
+   "q": "Ni kipi si sahihi katika mazungumzo yasiyo rasmi?",
+   "options": [
+    "Kusema asante",
+    "Kusikiliza kwa makini",
+    "Kupeana nafasi",
+    "Kutumia matusi"
+   ],
+   "answer": 3,
+   "explanation": "Matusi hayafai katika miktadha yote."
+  },
+  {
+   "topic": "7.3.1",
+   "q": "Kielezi cha jinsi katika sentensi Babu hufanya kazi kwa bidii ni kipi?",
+   "options": [
+    "Babu",
+    "hufanya",
+    "kwa bidii",
+    "kazi"
+   ],
+   "answer": 2,
+   "explanation": "Kwa bidii huonyesha jinsi kazi inavyofanywa."
+  },
+  {
+   "topic": "10.1.1",
+   "q": "Tashbihi za umbo zinahusu nini?",
+   "options": [
+    "Maumbile ya kitu kama nene au nyembamba",
+    "Ladha ya chakula",
+    "Sauti ya mtu",
+    "Rangi ya nguo"
+   ],
+   "answer": 0,
+   "explanation": "Umbo ni maumbile ya kitu."
   }
  ],
  "short": [
   {
-   "topic": "7.1.1",
-   "q": "Eleza jinsi nahau kupiga hodi inavyoonyesha adabu njema.",
-   "marks": 3,
-   "answer": "Mtu anapiga hodi kabla ya kuingia mahali ili kumjulisha mwenyeji na kuomba kukaribishwa. Hilo linaonyesha heshima na kutovamia faragha ya wengine.",
-   "working": "Alama 1 kwa maana ya kupiga hodi, alama 1 kwa kutovamia faragha, alama 1 kwa kuonyesha heshima."
-  },
-  {
-   "topic": "7.1.1",
-   "q": "Tunga sentensi mbili zenye nahau zinazohusu uongozi au uraia.",
+   "topic": "11.4.3",
+   "q": "Eleza tofauti kati ya jiji na kijiji, na kati ya jiti na kijiti.",
    "marks": 4,
-   "answer": "Mfano: Kiongozi mpya ameshika hatamu za shule. Kiongozi alikula kiapo cha kuwatumikia watu.",
-   "working": "Alama 2 kwa kila sentensi, yaani alama 1 kwa nahau sahihi na alama 1 kwa sarufi sahihi."
+   "answer": "Jiji ni mji mkubwa sana na kijiji ni mji mdogo. Jiti ni mti mkubwa sana na kijiti ni mti mdogo.",
+   "working": "Alama 1 kwa kila maelezo sahihi."
   },
   {
    "topic": "7.1.1",
@@ -804,60 +929,60 @@
    "working": "Alama 1 kwa maana ya kila nahau na alama 1 kwa kuonyesha tofauti."
   },
   {
-   "topic": "7.2.1",
-   "q": "Eleza tofauti kati ya kusoma kwa mapana na kusoma kwa kina.",
+   "topic": "7.4.1",
+   "q": "Andika viambishi vya umoja na wingi vya ngeli ya KI-VI na toa mfano mmoja.",
    "marks": 2,
-   "answer": "Kusoma kwa mapana ni kusoma matini nyingi ulizojichagulia kwa ajili ya ujumbe na furaha. Kusoma kwa kina ni kusoma matini moja polepole na kwa makini ili kuichambua.",
-   "working": "Alama 1 kwa kila maelezo sahihi."
+   "answer": "Umoja ki-, wingi vi-. Mfano: Kikombe kimevunjika, vikombe vimevunjika.",
+   "working": "Alama 1 kwa viambishi na alama 1 kwa mfano."
   },
   {
-   "topic": "7.2.1",
-   "q": "Taja aina tatu za matini za kusoma.",
-   "marks": 3,
-   "answer": "Vitabu vya hadithi, vitabu vya maarifa, majarida, magazeti, mashairi, tovuti (zozote tatu).",
-   "working": "Alama 1 kwa kila aina sahihi."
+   "topic": "8.2.1",
+   "q": "Eleza sifa mbili za mhusika Askari Kimani katika mchezo wa Tuwalinde Wanyama.",
+   "marks": 4,
+   "answer": "Ni mwenye busara kwa sababu alieleza kwa nini si vizuri kulisha wanyama. Ni mpole kwa sababu alifundisha bila kukasirika.",
+   "working": "Alama 1 kwa kila sifa na alama 1 kwa kila ushahidi."
   },
   {
-   "topic": "7.2.1",
-   "q": "Andika hatua tatu za kuchagua kitabu cha kusoma.",
+   "topic": "11.2.1",
+   "q": "Msomaji amesoma maneno 260 sahihi kwa dakika nne. Kasi yake ni ipi? Je, amefikia kasi inayotakiwa?",
+   "marks": 2,
+   "answer": "260 ÷ 4 = maneno 65 kwa dakika. Ndiyo, amefikia kasi inayotakiwa.",
+   "working": "Alama 1 kwa hesabu sahihi na alama 1 kwa hitimisho."
+  },
+  {
+   "topic": "8.1.1",
+   "q": "Eleza maana ya kisawe na utoe mfano mmoja.",
+   "marks": 2,
+   "answer": "Kisawe ni neno lenye maana sawa na neno lingine. Mfano: tembo na ndovu.",
+   "working": "Alama 1 kwa maana na alama 1 kwa mfano."
+  },
+  {
+   "topic": "11.2.1",
+   "q": "Eleza kwa nini kiimbo ni muhimu unaposoma kwa sauti.",
    "marks": 3,
-   "answer": "Kutazama jalada, kusoma jina la mwandishi, kusoma maelezo ya nyuma ya kitabu, kutazama yaliyomo, kusoma ukurasa mmoja (zozote tatu).",
+   "answer": "Kiimbo hutuonyesha kama ni swali, mshangao au sentensi ya kawaida, na husaidia wasikilizaji kuelewa hisia na ujumbe.",
+   "working": "Alama 1 kwa kutofautisha aina za sentensi, alama 1 kwa hisia na alama 1 kwa kuelewa ujumbe."
+  },
+  {
+   "topic": "6.4.1",
+   "q": "Eleza hatua nne za kubadilisha sentensi ya LI-YA kutoka umoja hadi wingi.",
+   "marks": 4,
+   "answer": "Kutafuta nomino kuu, kuiandika kwa wingi, kubadilisha kitenzi kutoka li- kuwa ya-, kubadilisha kivumishi na kimilikishi.",
    "working": "Alama 1 kwa kila hatua sahihi."
   },
   {
-   "topic": "7.2.1",
-   "q": "Eleza kwa ufupi jinsi mbegu ya maharagwe inavyoota kulingana na kifungu ulichosoma.",
-   "marks": 3,
-   "answer": "Mbegu inapopandwa huchukua maji kutoka udongoni. Kisha mzizi hutoka, baadaye shina huinuka na majani hufunguka. Mmea hutoa maua kisha maganda yenye mbegu mpya.",
-   "working": "Alama 1 kwa mzizi kutoka kwanza, alama 1 kwa shina na majani, alama 1 kwa maua na maganda."
-  },
-  {
-   "topic": "7.2.1",
-   "q": "Andika kanuni nne za maktaba.",
-   "marks": 4,
-   "answer": "Kunyamaza, kutunza vitabu, kurudisha vitabu kwa wakati, kurudisha kitabu mahali ulipokichukua, kuosha mikono (nne).",
-   "working": "Alama 1 kwa kila kanuni sahihi."
-  },
-  {
-   "topic": "7.2.1",
-   "q": "Simulia kwa sentensi tatu kitabu au makala uliyosoma hivi karibuni.",
-   "marks": 3,
-   "answer": "Mfano: Nilisoma makala ya Mbegu Ndogo, Mmea Mkubwa. Inaeleza jinsi mbegu inavyoota. Nilijifunza kuwa majani hutumia mwanga wa jua.",
-   "working": "Alama 1 kwa kutaja jina, alama 1 kwa kueleza kinachohusu, alama 1 kwa kutaja ulichojifunza."
-  },
-  {
-   "topic": "7.3.1",
-   "q": "Eleza insha ya maelezo ni nini.",
+   "topic": "9.2.1",
+   "q": "Eleza faida mbili za kuchagua matini za kusoma mwenyewe.",
    "marks": 2,
-   "answer": "Ni insha inayoeleza kitu, mahali au njia ya kufanya jambo kwa uwazi ili msomaji aelewe.",
-   "working": "Alama 1 kwa kusema inaeleza na alama 1 kwa kutaja kile inachoeleza."
+   "answer": "Unasoma unachopenda na kufurahia, unajifunza maneno mapya, unaimarisha kufikiri, unagundua mambo mengi (mbili).",
+   "working": "Alama 1 kwa kila faida sahihi."
   },
   {
-   "topic": "7.3.1",
-   "q": "Taja sehemu nne za insha ya maelezo.",
+   "topic": "10.4.1",
+   "q": "Eleza tofauti kati ya alifika na amefika.",
    "marks": 2,
-   "answer": "Anwani, utangulizi, kiini, hitimisho.",
-   "working": "Alama nusu kwa kila sehemu sahihi."
+   "answer": "Alifika ni wakati uliopita. Amefika humaanisha amefika na yuko hapa sasa.",
+   "working": "Alama 1 kwa kila maelezo."
   },
   {
    "topic": "7.3.1",
@@ -867,18 +992,53 @@
    "working": "Alama 1 kwa kila hatua sahihi iliyo kwa mpangilio."
   },
   {
-   "topic": "7.3.1",
-   "q": "Andika sentensi tatu zenye vivumishi kuhusu shamba la matunda.",
-   "marks": 3,
-   "answer": "Mfano: Shamba la babu ni kubwa. Maembe yake ni matamu. Miti yake ni mirefu.",
-   "working": "Alama 1 kwa kila sentensi yenye kivumishi sahihi."
+   "topic": "10.3.1",
+   "q": "Andika vidokezo vinne vya kisa kuhusu kalamu iliyoibwa darasani.",
+   "marks": 4,
+   "answer": "Mfano: Neema alipoteza kalamu; alimtafuta darasani; mwalimu aliuliza; Baraka alikiri na kuomba msamaha.",
+   "working": "Alama 1 kwa kila kidokezo kinachofuatana."
   },
   {
-   "topic": "7.3.1",
-   "q": "Eleza jinsi unavyoweza kutumia methali katika insha ya maelezo kuhusu kilimo.",
+   "topic": "10.3.1",
+   "q": "Andika sentensi mbili zenye mazungumzo yaliyowekwa kwenye alama za nukuu.",
    "marks": 3,
-   "answer": "Ningetumia methali inayohusiana na mada, kama Mvumilivu hula mbivu, katika hitimisho ili kuonyesha kuwa subira huleta mafanikio. Ningeitumia mara moja au mbili tu.",
-   "working": "Alama 1 kwa methali inayofaa, alama 1 kwa mahali pa kuitumia, alama 1 kwa kutoilazimisha."
+   "answer": "Mfano: Mwalimu aliuliza, \"Nani ameichukua kalamu?\" Baraka alijibu, \"Ni mimi.\"",
+   "working": "Alama 1 kwa alama za nukuu, alama 1 kwa koma na uakifishaji, alama 1 kwa maana."
+  },
+  {
+   "topic": "8.4.1",
+   "q": "Andika sentensi tatu kuhusu kuendesha baiskeli ukitumia kauli ya kutenda, ya kutendea na ya kutendwa.",
+   "marks": 4,
+   "answer": "Mfano: Juma anaendesha baiskeli. Baba anamwendeshea mtoto baiskeli. Baiskeli inaendeshwa kwa uangalifu.",
+   "working": "Alama 1 kwa kila kauli sahihi na alama 1 kwa upatanisho wa kisarufi."
+  },
+  {
+   "topic": "9.3.1",
+   "q": "Andika hatua nne za kunawa mikono kwa mpangilio.",
+   "marks": 4,
+   "answer": "Kuloweka mikono kwa maji safi, kupaka sabuni, kusugua viganja, migongo, vidole na kucha, kusuuza na kukausha (nne).",
+   "working": "Alama 1 kwa kila hatua iliyo katika mpangilio sahihi."
+  },
+  {
+   "topic": "10.4.1",
+   "q": "Andika viambishi vya nyakati tatu na utoe mfano wa kila kimoja.",
+   "marks": 2,
+   "answer": "-li- nilisoma, -na- ninasoma, -ta- nitasoma",
+   "working": "Alama 1 kwa viambishi vitatu na alama 1 kwa mifano."
+  },
+  {
+   "topic": "11.4.3",
+   "q": "Tunga sentensi mbili zenye nomino za udogo, moja ya umoja na moja ya wingi.",
+   "marks": 3,
+   "answer": "Mfano: Kijiji chetu ni kizuri. Vijito vidogo vinatiririka.",
+   "working": "Alama 1 kwa kila sentensi na alama 1 kwa upatanisho."
+  },
+  {
+   "topic": "11.1.1",
+   "q": "Eleza njia tatu za kutumia mapato kwa busara.",
+   "marks": 3,
+   "answer": "Kuweka akiba, kutumia pesa kwa vitu muhimu kwanza, kumsaidia mtu mwenye shida, kutotumia pesa ovyo.",
+   "working": "Alama 1 kwa kila njia sahihi."
   },
   {
    "topic": "7.3.1",
@@ -888,53 +1048,88 @@
    "working": "Alama 1 kwa anwani, alama 1 kwa utangulizi, alama 1 kwa kiini, alama 1 kwa hitimisho na alama 1 kwa sarufi na tahajia."
   },
   {
-   "topic": "7.4.1",
-   "q": "Andika wingi wa maneno haya: kikapu, kiazi, chombo.",
-   "marks": 3,
-   "answer": "vikapu, viazi, vyombo",
-   "working": "Alama 1 kwa kila wingi sahihi."
-  },
-  {
-   "topic": "7.4.1",
-   "q": "Badilisha sentensi hii iwe wingi: Kiatu changu kipya kimepotea.",
-   "marks": 3,
-   "answer": "Viatu vyangu vipya vimepotea.",
-   "working": "Alama 1 kwa viatu vyangu, alama 1 kwa vipya na alama 1 kwa vimepotea."
-  },
-  {
-   "topic": "7.4.1",
-   "q": "Andika viambishi vya umoja na wingi vya ngeli ya KI-VI na toa mfano mmoja.",
-   "marks": 2,
-   "answer": "Umoja ki-, wingi vi-. Mfano: Kikombe kimevunjika, vikombe vimevunjika.",
-   "working": "Alama 1 kwa viambishi na alama 1 kwa mfano."
-  },
-  {
-   "topic": "7.4.1",
-   "q": "Sahihisha sentensi hizi: Vitabu kimeanguka. Kiatu vyangu kimepotea. Chakula vitamu.",
-   "marks": 3,
-   "answer": "Vitabu vimeanguka. Kiatu changu kimepotea. Chakula kitamu.",
-   "working": "Alama 1 kwa kila sentensi iliyosahihishwa."
-  },
-  {
-   "topic": "7.4.1",
-   "q": "Tunga sentensi tatu kuhusu vitu vya jikoni ukitumia nomino za ngeli ya KI-VI, mbili za umoja na moja ya wingi.",
-   "marks": 3,
-   "answer": "Mfano: Kikombe kimevunjika. Kisu changu ni kikali. Vijiko vimeoshwa.",
-   "working": "Alama 1 kwa kila sentensi iliyopatana kisarufi."
-  },
-  {
-   "topic": "7.4.1",
-   "q": "Eleza kanuni za kuunda wingi wa nomino za KI-VI zenye ki-, ch- na ki- kabla ya irabu.",
+   "topic": "11.4.2",
+   "q": "Eleza hatua nne za kubadilisha sentensi iwe katika ukubwa.",
    "marks": 4,
-   "answer": "Ki- huwa vi-, kwa mfano kitabu - vitabu. Ch- huwa vy-, kwa mfano chakula - vyakula. Ki- kabla ya irabu huwa vi-, kwa mfano kiatu - viatu.",
-   "working": "Alama 1 kwa kila kanuni na alama 1 kwa mifano sahihi."
+   "answer": "Kutafuta nomino ya wastani, kuibadilisha kuwa ya ukubwa, kubadilisha kitenzi na kivumishi kuwa vya LI-YA, kusoma na kuhakiki.",
+   "working": "Alama 1 kwa kila hatua."
   },
   {
-   "topic": "7.4.2",
-   "q": "Andika nomino tatu za ngeli ya LI-LI na sentensi moja kwa kila moja.",
+   "topic": "8.3.1",
+   "q": "Eleza maana ya insha ya masimulizi.",
+   "marks": 2,
+   "answer": "Ni insha inayosimulia kisa chenye mwanzo, kati na mwisho.",
+   "working": "Alama 1 kwa kusimulia kisa na alama 1 kwa mfuatano."
+  },
+  {
+   "topic": "11.4.2",
+   "q": "Andika hali ya ukubwa ya nomino hizi: mji, mto, mti.",
    "marks": 3,
-   "answer": "Jua limechomoza. Giza limetanda. Joto limepanda.",
-   "working": "Alama 1 kwa kila nomino na sentensi sahihi."
+   "answer": "jiji, jito, jiti",
+   "working": "Alama 1 kwa kila ukubwa sahihi."
+  },
+  {
+   "topic": "8.2.1",
+   "q": "Andika kanuni tatu za kuandika mchezo wa kuigiza.",
+   "marks": 3,
+   "answer": "Kuandika mahali na wakati juu, kuorodhesha wahusika, kuandika jina la mhusika kisha nukta mbili kisha maneno, kuandika maelekezo ndani ya mabano.",
+   "working": "Alama 1 kwa kila kanuni sahihi."
+  },
+  {
+   "topic": "6.3.1",
+   "q": "Andika vidokezo vitano vya insha kuhusu rafiki yako.",
+   "marks": 4,
+   "answer": "Mfano: Utangulizi: jina la rafiki na shule; umbo: mfupi na mwenye tabasamu; tabia: mkweli na mcheshi; mambo apendayo: kucheza mpira; hitimisho: ninampenda kwa sababu ni mwaminifu.",
+   "working": "Alama 1 kwa kila kidokezo kinachohusu insha ya wasifu kuanzia cha kwanza hadi cha nne, na alama 1 kwa mpangilio mzuri."
+  },
+  {
+   "topic": "11.4.3",
+   "q": "Badilisha sentensi iwe katika udogo: Mto unatiririka polepole.",
+   "marks": 3,
+   "answer": "Kijito kinatiririka polepole.",
+   "working": "Alama 1 kwa kijito, alama 1 kwa kinatiririka, alama 1 kwa sentensi kamili."
+  },
+  {
+   "topic": "9.3.1",
+   "q": "Andika insha fupi ya aya tatu yenye anwani Umuhimu wa Kunywa Maji.",
+   "marks": 5,
+   "answer": "Mfano: Umuhimu wa Kunywa Maji. Mwili wetu unahitaji maji kila siku. Maji hupoza mwili, husaidia kusaga chakula na kuondoa uchafu. Tunapaswa kunywa maji safi na salama. Kinga ni bora kuliko tiba.",
+   "working": "Alama 1 kwa anwani, alama 1 kwa utangulizi, alama 1 kwa kiini, alama 1 kwa hitimisho na alama 1 kwa sarufi na tahajia."
+  },
+  {
+   "topic": "9.1.1",
+   "q": "Eleza kanuni tatu za kuzungumza vizuri.",
+   "marks": 3,
+   "answer": "Kumtazama mzungumzaji, kutomkatiza, kutumia sauti ya wastani, kupeana nafasi (zozote tatu).",
+   "working": "Alama 1 kwa kila kanuni sahihi."
+  },
+  {
+   "topic": "10.2.1",
+   "q": "Eleza hatua tatu za kiusalama unapotumia mtandao.",
+   "marks": 3,
+   "answer": "Kutumia kifaa ukiwa na mtu mzima, kutotoa taarifa zako za siri, kutofungua ujumbe wa watu usiowajua, kumwambia mtu mzima ukikutana na kitu kisichofaa.",
+   "working": "Alama 1 kwa kila hatua sahihi."
+  },
+  {
+   "topic": "9.4.1",
+   "q": "Tunga sentensi moja yenye jozi ya vinyume vya nomino.",
+   "marks": 2,
+   "answer": "Mfano: Usafi huleta afya, lakini uchafu huleta ugonjwa.",
+   "working": "Alama 1 kwa jozi ya vinyume na alama 1 kwa sentensi sahihi."
+  },
+  {
+   "topic": "10.2.1",
+   "q": "Eleza kwa nini ni muhimu kumwambia mtu mzima ukipata ujumbe kutoka kwa mtu usiyemjua.",
+   "marks": 2,
+   "answer": "Kwa sababu mtu huyo anaweza kuwa hatari, na mtu mzima anaweza kukusaidia kujilinda.",
+   "working": "Alama 1 kwa hatari na alama 1 kwa msaada wa mtu mzima."
+  },
+  {
+   "topic": "9.2.1",
+   "q": "Eleza tahadhari tatu za kufuata unapotafuta habari za afya mtandaoni.",
+   "marks": 3,
+   "answer": "Kufanya hivyo ukiwa na mtu mzima, kutotoa taarifa zetu, kutobonyeza matangazo ya ajabu, kumwambia mtu mzima tukikutana na kitu kisichofaa.",
+   "working": "Alama 1 kwa kila tahadhari sahihi."
   },
   {
    "topic": "7.4.2",
@@ -944,32 +1139,11 @@
    "working": "Alama 1 kwa la na alama 1 kwa limeingia."
   },
   {
-   "topic": "7.4.2",
-   "q": "Tofautisha ngeli ya LI-YA na LI-LI kwa mifano.",
-   "marks": 3,
-   "answer": "LI-YA: tunda limeiva, matunda yameiva, wingi hutumia ya-. LI-LI: jua limechomoza, kiambishi ni li-.",
-   "working": "Alama 1 kwa maelezo ya kila ngeli na alama 1 kwa mifano."
-  },
-  {
-   "topic": "7.4.2",
-   "q": "Andika sentensi tatu kuhusu jua kwa wakati uliopita, uliopo na ujao.",
-   "marks": 3,
-   "answer": "Jua lilitua jioni. Jua linawaka sasa. Jua litachomoza kesho.",
-   "working": "Alama 1 kwa kila sentensi sahihi."
-  },
-  {
-   "topic": "7.4.2",
-   "q": "Tunga sentensi moja yenye nomino joto na kivumishi.",
+   "topic": "9.3.1",
+   "q": "Taja vitu viwili vinavyoweza kuandikiwa insha ya maelezo kuhusu afya bora.",
    "marks": 2,
-   "answer": "Mfano: Joto kali limepanda mchana.",
-   "working": "Alama 1 kwa kivumishi na alama 1 kwa kiambishi cha upatanisho."
-  },
-  {
-   "topic": "7.4.2",
-   "q": "Andika aya ya sentensi nne kuhusu siku ya jua ukitumia jua, joto na giza kwa upatanisho sahihi.",
-   "marks": 4,
-   "answer": "Mfano: Jua kali limechomoza asubuhi. Joto limepanda mchana. Jioni jua lilitua. Giza limetanda usiku.",
-   "working": "Alama 1 kwa kila sentensi iliyopatana na li-."
+   "answer": "Chakula bora, usafi wa mwili, jinsi ya kunawa mikono, umuhimu wa kunywa maji, faida za mazoezi (viwili).",
+   "working": "Alama 1 kwa kila kitu sahihi."
   }
  ]
 }

@@ -422,7 +422,7 @@
   },
   {
    "topic": "1.6",
-   "q": "A rectangle is cut into 6 equal parts and 1 of the parts are shaded. What fraction of the rectangle is shaded?",
+   "q": "A rectangle is cut into 6 equal parts and 1 of the parts is shaded. What fraction of the rectangle is shaded?",
    "options": [
     "6/1",
     "1/5",
@@ -1024,6 +1024,258 @@
    "marks": 3,
    "answer": "3 3/4 L",
    "working": "Change 6 1/4 to 5 5/4 (1 mark); wholes 5 − 2 = 3 and quarters 5/4 − 2/4 = 3/4 (1 mark); answer 3 3/4 L (1 mark)."
+  },
+  {
+   "topic": "2.5",
+   "q": "Bags of 5 kg are filled from a 50 kg sack of rice. Find the number of bags.",
+   "marks": 2,
+   "answer": "10 bags",
+   "working": "50 ÷ 5 = 10. 1 mark for the division and 1 mark for the answer."
+  },
+  {
+   "topic": "2.5",
+   "q": "Achieng buys 3 packets of flour of 1/2 kg each and 2 packets of sugar of 1 kg each. Find the total mass.",
+   "marks": 3,
+   "answer": "3 1/2 kg",
+   "working": "3 × 1/2 = 1 1/2 kg (1 mark); 2 × 1 = 2 kg (1 mark); total 3 1/2 kg (1 mark)."
+  },
+  {
+   "topic": "2.5",
+   "q": "The mass of a basket full of mangoes is 8 kg and the basket alone is 1 1/2 kg. Find the mass of the mangoes alone.",
+   "marks": 2,
+   "answer": "6 1/2 kg",
+   "working": "8 − 1 1/2 = 6 1/2. 1 mark for the subtraction and 1 mark for the unit."
+  },
+  {
+   "topic": "2.5",
+   "q": "Work out 6 1/4 kg − 2 3/4 kg.",
+   "marks": 3,
+   "answer": "3 1/2 kg",
+   "working": "Change 6 1/4 to 5 5/4 (1 mark); wholes 5 − 2 = 3 and quarters 5/4 − 3/4 = 1/2 (1 mark); answer 3 1/2 kg (1 mark)."
+  },
+  {
+   "topic": "2.5",
+   "q": "Explain how you can use a beam balance to find the mass of a bag of sugar.",
+   "marks": 3,
+   "answer": "Put the sugar in one pan. Add known masses to the other pan until the beam is level. Add up the masses to find the mass of the sugar.",
+   "working": "1 mark for putting the sugar in a pan, 1 mark for adding known masses until level, 1 mark for adding the masses."
+  },
+  {
+   "topic": "2.5",
+   "q": "Add 2 1/2 kg and 1 3/4 kg. Show your working.",
+   "marks": 3,
+   "answer": "4 1/4 kg",
+   "working": "Wholes 2 + 1 = 3 (1 mark); parts 2/4 + 3/4 = 5/4 = 1 1/4 (1 mark); total 4 1/4 kg (1 mark)."
+  },
+  {
+   "topic": "2.5",
+   "q": "A bag has a mass of 5 kg. Musa takes out 1 1/2 kg of beans. What mass is left in the bag?",
+   "marks": 2,
+   "answer": "3 1/2 kg",
+   "working": "5 − 1 1/2 = 3 1/2. 1 mark for the subtraction and 1 mark for the unit."
+  },
+  {
+   "topic": "2.5",
+   "q": "A dial scale has big marks for each kilogram and three small marks between them. What mass does the first small mark after 3 kg show? Explain.",
+   "marks": 3,
+   "answer": "3 1/4 kg. The three small marks divide each kilogram into four equal parts of 1/4 kg.",
+   "working": "1 mark for 3 1/4 kg, 1 mark for four equal parts, 1 mark for 1/4 kg each."
+  },
+  {
+   "topic": "2.5",
+   "q": "Describe how to make a 1/2 kg mass from sand using a 1 kg mass and a beam balance.",
+   "marks": 4,
+   "answer": "Balance a bag of sand against the 1 kg mass. Share the sand equally into two bags, checking with the balance that they are level. Each bag is 1/2 kg.",
+   "working": "1 mark for balancing sand with 1 kg, 1 mark for sharing into two bags, 1 mark for checking they balance, 1 mark for stating each is 1/2 kg."
+  },
+  {
+   "topic": "2.5",
+   "q": "A mother buys 3/4 kg of tomatoes and 1/2 kg of onions. Find the total mass.",
+   "marks": 3,
+   "answer": "1 1/4 kg",
+   "working": "3/4 + 1/2 = 3/4 + 2/4 (1 mark); = 5/4 (1 mark); = 1 1/4 kg (1 mark)."
+  },
+  {
+   "topic": "2.5",
+   "q": "A trader has 12 kg of beans and 8 kg of maize. He sells 5 kg of the beans. Find the total mass of the beans and maize he has left.",
+   "marks": 3,
+   "answer": "15 kg",
+   "working": "12 − 5 = 7 kg of beans (1 mark); 7 + 8 (1 mark); 15 kg (1 mark)."
+  },
+  {
+   "topic": "2.5",
+   "q": "Why can we not tell the mass of an object only by looking at its size? Give an example.",
+   "marks": 3,
+   "answer": "A large sponge is light but a small stone is heavy. Mass depends on what the object is made of, so we must measure it.",
+   "working": "1 mark for saying size does not decide mass, 1 mark for an example, 1 mark for saying we must measure."
+  },
+  {
+   "topic": "2.6",
+   "q": "A lesson starts at 8:15 a.m. and ends at 10:40 a.m. How long is the lesson?",
+   "marks": 3,
+   "answer": "2 hours 25 minutes",
+   "working": "8:15 to 10:15 is 2 hours (1 mark); 10:15 to 10:40 is 25 minutes (1 mark); total 2 h 25 min (1 mark)."
+  },
+  {
+   "topic": "2.6",
+   "q": "Add 2 hours 45 minutes and 1 hour 30 minutes.",
+   "marks": 3,
+   "answer": "4 hours 15 minutes",
+   "working": "45 + 30 = 75 min and 2 + 1 = 3 h (1 mark); 75 min = 1 h 15 min (1 mark); total 4 h 15 min (1 mark)."
+  },
+  {
+   "topic": "2.6",
+   "q": "Subtract 2 hours 35 minutes from 5 hours 20 minutes.",
+   "marks": 3,
+   "answer": "2 hours 45 minutes",
+   "working": "Change 5 h 20 min to 4 h 80 min (1 mark); 80 − 35 = 45 min (1 mark); 4 − 2 = 2 h, so 2 h 45 min (1 mark)."
+  },
+  {
+   "topic": "2.6",
+   "q": "A film begins at 4:20 p.m. and runs for 1 hour 40 minutes. Find the time at which it ends.",
+   "marks": 2,
+   "answer": "6:00 p.m.",
+   "working": "4:20 + 1 h = 5:20 p.m. (1 mark); + 40 min = 6:00 p.m. (1 mark)."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 150 minutes to hours and minutes, and change 35 days to weeks.",
+   "marks": 3,
+   "answer": "150 minutes = 2 hours 30 minutes. 35 days = 5 weeks.",
+   "working": "150 ÷ 60 = 2 remainder 30 (1 mark for 2 h 30 min); 35 ÷ 7 = 5 (1 mark for 5 weeks); 1 mark for division working."
+  },
+  {
+   "topic": "2.6",
+   "q": "Write these times using a.m. or p.m.: (a) waking up at half past six in the morning, (b) school ending at a quarter past three in the afternoon, (c) supper at half past seven at night.",
+   "marks": 3,
+   "answer": "(a) 6:30 a.m. (b) 3:15 p.m. (c) 7:30 p.m.",
+   "working": "1 mark for each correct time with a.m. or p.m."
+  },
+  {
+   "topic": "2.6",
+   "q": "A bus leaves at 10:30 a.m. and arrives at 2:15 p.m. How long is the journey?",
+   "marks": 3,
+   "answer": "3 hours 45 minutes",
+   "working": "10:30 a.m. to 12:30 p.m. is 2 h (1 mark); 12:30 to 2:15 p.m. is 1 h 45 min (1 mark); total 3 h 45 min (1 mark)."
+  },
+  {
+   "topic": "2.6",
+   "q": "Change 3 hours to minutes and 2 days to hours.",
+   "marks": 2,
+   "answer": "180 minutes and 48 hours",
+   "working": "3 × 60 = 180 (1 mark); 2 × 24 = 48 (1 mark)."
+  },
+  {
+   "topic": "2.6",
+   "q": "Wanjiru studied for 1 hour 20 minutes on Monday and 45 minutes on Tuesday. How long did she study in all?",
+   "marks": 3,
+   "answer": "2 hours 5 minutes",
+   "working": "20 + 45 = 65 min (1 mark); 1 h + 65 min = 2 h 5 min (2 marks)."
+  },
+  {
+   "topic": "2.6",
+   "q": "Describe how the length of a shadow changes from morning to afternoon and explain how this can help us to estimate the time of day.",
+   "marks": 4,
+   "answer": "In the morning shadows are long, they get shorter towards midday when they are very short, and then get longer again in the afternoon. A very short shadow means it is about midday.",
+   "working": "1 mark for long in the morning, 1 mark for short at midday, 1 mark for long again in the afternoon, 1 mark for estimating time."
+  },
+  {
+   "topic": "2.6",
+   "q": "A school timetable shows assembly from 8:00 a.m. to 8:20 a.m. and mathematics from 8:20 a.m. to 9:10 a.m. Find how long each lasts and the total time.",
+   "marks": 4,
+   "answer": "Assembly 20 minutes, mathematics 50 minutes, total 70 minutes (1 hour 10 minutes).",
+   "working": "1 mark for each duration, 1 mark for adding, 1 mark for 1 h 10 min."
+  },
+  {
+   "topic": "2.6",
+   "q": "A learner says 3 weeks is 20 days. Explain her mistake and give the correct number of days.",
+   "marks": 3,
+   "answer": "1 week has 7 days, so 3 weeks is 3 × 7 = 21 days.",
+   "working": "1 mark for 7 days in a week, 1 mark for multiplying by 3, 1 mark for 21 days."
+  },
+  {
+   "topic": "2.6",
+   "q": "The minute hand of a clock points to 4 and the hour hand is just past 9. What time is it? Explain how you know.",
+   "marks": 3,
+   "answer": "9:20. Each number is worth 5 minutes, so the minute hand at 4 shows 4 × 5 = 20 minutes past 9.",
+   "working": "1 mark for 9:20, 1 mark for 5 minutes per number, 1 mark for 4 × 5."
+  },
+  {
+   "topic": "2.6",
+   "q": "A trip leaves at 7:45 a.m. and takes 2 hours 30 minutes. At what time does it arrive?",
+   "marks": 3,
+   "answer": "10:15 a.m.",
+   "working": "7:45 + 2 h = 9:45 (1 mark); 9:45 + 30 min = 10:15 (1 mark); a.m. stated (1 mark)."
+  },
+  {
+   "topic": "2.7",
+   "q": "Change Ksh 12 to cents and 1,250 cents to shillings.",
+   "marks": 2,
+   "answer": "Ksh 12 = 1,200 cents; 1,250 cents = Ksh 12.50",
+   "working": "12 × 100 = 1,200 (1 mark); 1,250 ÷ 100 = 12 remainder 50, so Ksh 12.50 (1 mark)."
+  },
+  {
+   "topic": "2.7",
+   "q": "Write three reasons why we prepare a shopping list.",
+   "marks": 3,
+   "answer": "To remember everything we need; to buy only what is needed; to avoid spending more than we have.",
+   "working": "1 mark for each sensible reason, up to 3 marks."
+  },
+  {
+   "topic": "2.7",
+   "q": "A shopping list has 3 packets of rice at Ksh 130 each, 2 bottles of oil at Ksh 250 each and 1 tin of tomatoes at Ksh 60. Find the total cost.",
+   "marks": 4,
+   "answer": "Ksh 950",
+   "working": "3 × 130 = 390 (1 mark); 2 × 250 = 500 (1 mark); 390 + 500 + 60 (1 mark); Ksh 950 (1 mark)."
+  },
+  {
+   "topic": "2.7",
+   "q": "A school uniform costs a shirt Ksh 650, shorts Ksh 800 and shoes Ksh 1,900. Find the total cost and the change from Ksh 5,000.",
+   "marks": 4,
+   "answer": "Total Ksh 3,350; change Ksh 1,650",
+   "working": "650 + 800 + 1,900 = 3,350 (2 marks); 5,000 − 3,350 = 1,650 (2 marks)."
+  },
+  {
+   "topic": "2.7",
+   "q": "Mr Otieno has Ksh 2,000. He buys items costing Ksh 1,340. Does he have enough money? How much is left?",
+   "marks": 3,
+   "answer": "Yes. He has Ksh 660 left.",
+   "working": "2,000 is more than 1,340 (1 mark); 2,000 − 1,340 (1 mark); Ksh 660 (1 mark)."
+  },
+  {
+   "topic": "2.7",
+   "q": "A bicycle costs Ksh 6,500, a helmet Ksh 1,750 and a lock Ksh 850. Find the total cost.",
+   "marks": 3,
+   "answer": "Ksh 9,100",
+   "working": "6,500 + 1,750 = 8,250 (1 mark); 8,250 + 850 (1 mark); Ksh 9,100 (1 mark)."
+  },
+  {
+   "topic": "2.7",
+   "q": "Wanjiru buys goods worth Ksh 750 and pays with a Ksh 1,000 note. How much change should she get? Check your answer.",
+   "marks": 3,
+   "answer": "Ksh 250. Check: 750 + 250 = 1,000.",
+   "working": "1 mark for 1,000 − 750, 1 mark for Ksh 250, 1 mark for the check."
+  },
+  {
+   "topic": "2.7",
+   "q": "A sweet costs 50 cents. How many sweets can be bought with Ksh 10?",
+   "marks": 3,
+   "answer": "20 sweets",
+   "working": "Ksh 10 = 1,000 cents (1 mark); 1,000 ÷ 50 (1 mark); 20 sweets (1 mark)."
+  },
+  {
+   "topic": "2.7",
+   "q": "A buyer picks biscuits at Ksh 50, juice at Ksh 80 and a book at Ksh 120. He pays with a Ksh 500 note. Find the total cost and his change.",
+   "marks": 4,
+   "answer": "Total Ksh 250; change Ksh 250",
+   "working": "50 + 80 + 120 = 250 (2 marks); 500 − 250 = 250 (2 marks)."
+  },
+  {
+   "topic": "2.7",
+   "q": "Explain how to prepare a shopping list of three items and find its total cost.",
+   "marks": 4,
+   "answer": "Decide what is needed, write the three items with numbers, find the price of each, work out the cost of each item, and add the costs to get the total.",
+   "working": "1 mark for choosing items, 1 mark for writing quantity, 1 mark for prices, 1 mark for adding the costs."
   }
  ]
 }
