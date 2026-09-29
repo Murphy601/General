@@ -1,0 +1,347 @@
+{
+  "subject": "CHRISTIAN RELIGIOUS EDUCATION",
+  "slug": "christian-religious-education",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 115476,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Self-awareness",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "61600934-48af-4c5e-9121-5b9a17d7ba68",
+        "729946d1-33f9-41eb-9121-5cb42dfc9dd5"
+      ],
+      "excerpt": "1.1 Self-awareness\n\n2 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) mention his or her name\n\nfor identification and self- awareness,\n\nb) recognise his or her\n\nuniqueness as a creation\n\nof God"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Thoughts and feelings",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "6c59cc9c-6ea5-4746-aa1d-4555f303ce5e",
+        "8016d585-a993-42f7-a495-5a98d16dd07c"
+      ],
+      "excerpt": "1.2 Thoughts and\n\nfeelings\n\n3 lessons\n\n2\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify good thoughts and\n\nfeelings,\n\nb) explain the importance of\n\nbeing joyful,\n\nc) list lessons learnt from\n"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Making choices",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "3e8e7687-f4e0-4307-99db-c839c31b2aa7",
+        "42dc17b7-c7c2-4c69-9615-312baae2a828"
+      ],
+      "excerpt": "1.3 Making\n\nchoices\n\n3 lessons\n\n4\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) list choices they make in\n\nday-to-day life,\n\nb) discuss results of choices\n\nthey make in daily life,\n\nc) make right cho"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "My Family Family members",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "a2282c22-5352-4731-b701-b8ef24f75511",
+        "a2893185-97a8-44d1-8145-a4995848a2b0"
+      ],
+      "excerpt": "1.4 My Family\n\nFamily members\n\n3 lessons\n\nBy the end of the sub- strand, the learner\n\nshould be able to:\n\na) name family\n\nmembers in the\n\nnuclear and\n\nextended family,\n\nb) draw a family tree\n\nto understand\n\nrelationships"
+    },
+    {
+      "topicNumber": "1.6",
+      "topicName": "Attributes of God",
+      "topicOrder": 1.6,
+      "existingLessonIds": [
+        "3ce247a6-90bd-4538-8b2b-c9a8757a4ebb",
+        "fb112fca-39e4-47b1-b525-9b3a0afc1e03"
+      ],
+      "excerpt": "1.6\n\nAttributes\n\nof God\n\n2 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) read scriptures on the\n\nattributes of God,\n\nb) list three attributes of God\n\nand revere Him,\n\nc) recognise God as a lo"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "The Inspired Word of God",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "ad94454d-fcdd-4e5d-95de-e6ce3158fe6e",
+        "bdd61c20-4e49-4f45-8bd7-6e20681f21cf"
+      ],
+      "excerpt": "2.1 The\n\nInspired Word\n\nof God\n\n3 lessons\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) handle the Holy Bible\n\nwith respect as the\n\ninspired word of God,\n\nb) identify the books in\n\nthe Old and New\n\n"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Zacchaeus the Tax Collector",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "186b02b9-50a3-4b22-a4f9-977c606f73c3",
+        "b436eb11-281d-41cc-b17d-3158a800a3fd"
+      ],
+      "excerpt": "2.2 Zacchaeus the\n\nTax Collector\n\n3 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) retell the story of\n\nZacchaeus,\n\nb) recount how Zacchaeus\n\nchanged his behaviour\n\npositively,\n\nc) demonstrate"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Balaam’s Donkey",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "a9a90e7c-f22d-4a31-9584-791d0f2e491c",
+        "cfebb91d-0c36-464a-a9cb-2f4df2383925"
+      ],
+      "excerpt": "2.3 Balaam’s\n\nDonkey\n\n3 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) retell the story of Balaam\n\nand his donkey,\n\nb) apply the story in their lives\n\nby obeying God’s\n\ninstructions,\n\nc) acqui"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Samson kills a Lion",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "9dc1798a-1ed7-48f2-a288-7e51744be4c0",
+        "cf6d98b2-c22f-45f5-9b34-de96a1872dd7"
+      ],
+      "excerpt": "2.4 Samson\n\nkills a Lion\n\n2 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) retell the story of Samson;\n\nJudges 14: 5- 9,\n\nb) acknowledge God’s\n\npower in his or her life,\n\nc) trust in God to co"
+    },
+    {
+      "topicNumber": "2.5",
+      "topicName": "Joseph interprets a Dream",
+      "topicOrder": 2.5,
+      "existingLessonIds": [
+        "3dc32592-61d8-4d40-8b69-816d3a88fbe4",
+        "f9311465-6434-494e-9916-910d8a881c53"
+      ],
+      "excerpt": "2.5 Joseph\n\ninterprets a\n\nDream\n\n3 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) retell the story of Joseph\n\ninterpreting a dream,\n\nb) apply lessons learnt by\n\ndepending on God’s\n\nwisdom,\n\nc)"
+    },
+    {
+      "topicNumber": "2.6",
+      "topicName": "Bible Patriarchs Abraham",
+      "topicOrder": 2.6,
+      "existingLessonIds": [
+        "48c22f2b-d734-4a9c-9799-68c11f39395a",
+        "a5a2016a-4f23-45f6-a3a6-7823c7e1a675"
+      ],
+      "excerpt": "2.6 Bible\n\nPatriarchs\n\nAbraham\n\n2 lessons\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) recount the call of Abraham,\n\nb) obey God’s instructions in his\n\nor her day-to-day life,\n\nc) mention his or her"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "The Annunciation",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "a489810a-8c49-4112-bb53-78c99e7f7c94",
+        "fa7071ac-4a94-4546-9439-b7d95426fc92"
+      ],
+      "excerpt": "3.1 The\n\nAnnunciation\n\n3 lessons\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) narrate the annunciation of the\n\nBirth of Jesus Christ,\n\nb) acknowledge the uniqueness of\n\nthe birth of Jesus Christ,\n\nc"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Healing of Blind Bartimaeus",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "8adec1e2-72c5-4bad-9a9e-3c28387c1998",
+        "d720f3df-6508-496e-ae5a-5e9fcd8962b2"
+      ],
+      "excerpt": "3.3\n\nHealing of\n\nBlind\n\nBartimaeus\n\n3 lessons\n\nBy the end of the sub- strand, the learner should be\n\nable to:\n\na) retell the healing of\n\nblind Bartimaeus,\n\nb) recognise the healing\n\npower of Jesus Christ in\n\ntheir lives,"
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Healing By the end of the sub",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "16190583-3a08-418e-ada3-a3e401c1feb1",
+        "510892a4-9d7f-4f82-84e6-2e041076de15"
+      ],
+      "excerpt": "3.4 Healing By the end of the sub- The learner is guided to: How did the 10\n\nϮϬ\n\n• Digital Literacy: the skill of connecting using technology is portrayed as learners watch a video clip on the birth of John the\n\nBaptist."
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Healing",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "18efa5e2-843f-4845-a440-4dd83c2d7dd5",
+        "220969a7-b851-4519-92d8-0edfaa80586a"
+      ],
+      "excerpt": "3.4 Healing By the end of the sub- The learner is guided to: How did the 10\n\nϮϬ\n\n• Digital Literacy: the skill of connecting using technology is portrayed as learners watch a video clip on the birth of John the\n\nBaptist."
+    },
+    {
+      "topicNumber": "3.5",
+      "topicName": "Jesus raises a Widow’s Son",
+      "topicOrder": 3.5,
+      "existingLessonIds": [
+        "309638b4-a952-40cc-b9ce-153cbfd5e1b4",
+        "eaaefed4-fb39-4373-ae5d-64a29eaa59e9"
+      ],
+      "excerpt": "3.5 Jesus raises\n\na Widow’s Son\n\n2 lessons\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) retell the story of\n\nraising the widow’s\n\nson,\n\nb) recognise God’s\n\npower over life and\n\ndeath,\n\nc) apply les"
+    },
+    {
+      "topicNumber": "3.6",
+      "topicName": "Forgiveness",
+      "topicOrder": 3.6,
+      "existingLessonIds": [
+        "70991359-5f27-4de1-bb01-e7523718acbb",
+        "877e2656-f833-471d-a045-559ab67b6563"
+      ],
+      "excerpt": "3.6 Forgiveness\n\n2 lessons\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) outline the importance of\n\nforgiving others,\n\nb) resist vengeance as outlined\n\nin Mathew 5:39,\n\nc) appreciate forgiveness by n"
+    },
+    {
+      "topicNumber": "3.7",
+      "topicName": "Helping the Needy",
+      "topicOrder": 3.7,
+      "existingLessonIds": [
+        "a0e98b30-a4cd-49ad-a89f-91dbe80d0c87",
+        "cb07bb84-8ad5-48f4-a2ed-691bbdf3a721"
+      ],
+      "excerpt": "3.7 Helping the\n\nNeedy\n\n2 lessons\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) state the importance of\n\nhelping the needy,\n\nb) demonstrate kindness by\n\nsharing with those in need,\n\nc) recite Mathew "
+    },
+    {
+      "topicNumber": "3.9",
+      "topicName": "Nicodemus’ encounter with Jesus Christ",
+      "topicOrder": 3.9,
+      "existingLessonIds": [
+        "1d5a7240-e141-4228-98d2-f895a93885f0"
+      ],
+      "excerpt": "3.9 Nicodemus’\n\nencounter with\n\nJesus Christ\n\n3 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) retell the story of\n\nNicodemus’ encounter\n\nwith Jesus Christ,\n\nb) acknowledge that\n\nrepentance of"
+    },
+    {
+      "topicNumber": "4.1",
+      "topicName": "Trust:",
+      "topicOrder": 4.1,
+      "existingLessonIds": [
+        "52baa9b0-ee78-4a2e-93eb-4776e0550eb1",
+        "86028015-4fc0-48d6-8beb-da4c648b4fd8"
+      ],
+      "excerpt": "4.1 Trust:\n\n3 lessons\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) emulate Joseph by\n\nresisting sexual\n\ntemptations as young\n\npeople\n\nb) exercise assertiveness\n\nin the face of\n\ntemptations/tempting"
+    },
+    {
+      "topicNumber": "4.2",
+      "topicName": "Truthfulness",
+      "topicOrder": 4.2,
+      "existingLessonIds": [
+        "48019239-b158-4952-ba08-66f3d37eb21c",
+        "ce654ce3-660a-4508-8f7a-2d559fe6ee75"
+      ],
+      "excerpt": "4.2\n\nTruthfulness\n\n3 lessons\n\nBy the end of the sub- strand, the learner should be\n\nable to:\n\na) state the importance of\n\ntelling the truth,\n\nb) resist lying as cited in\n\nProverbs 12:19,\n\nc) desire to always speak\n\nthe t"
+    },
+    {
+      "topicNumber": "4.3",
+      "topicName": "Obedience",
+      "topicOrder": 4.3,
+      "existingLessonIds": [
+        "aab6e0e6-dba9-4dbf-9a2c-a16085638039",
+        "b59884cd-e8ed-47d4-bb7d-458e5aeef5d9"
+      ],
+      "excerpt": "4.3 Obedience\n\n3 lessons\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) read Exodus 20:12 and state\n\nthe benefit of honouring\n\nparents,\n\nb) obey parents and teachers to\n\npromote harmonious co- existen"
+    },
+    {
+      "topicNumber": "4.4",
+      "topicName": "Love",
+      "topicOrder": 4.4,
+      "existingLessonIds": [
+        "95d9a3f0-e88d-4c4f-8ae0-d12284737f01",
+        "dfdeda00-22aa-48a8-8e11-1583599c646e"
+      ],
+      "excerpt": "4.4 Love\n\n3 lessons\n\nBy the end of the sub-strand, the learner\n\nshould be able to:\n\na) recognise that God loves children;\n\nMatthew 19:13-15,\n\nb) demonstrate love by showing kindness\n\nto others,\n\nc) appreciate God’s love "
+    },
+    {
+      "topicNumber": "4.5",
+      "topicName": "Responsibility Personal and school items",
+      "topicOrder": 4.5,
+      "existingLessonIds": [
+        "5cc17846-2fba-4c88-9033-f6d1528db7c0"
+      ],
+      "excerpt": "4.5 Responsibility\n\nPersonal and school\n\nitems\n\n(2 lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify personal items\n\nand how they care for\n\nthem,\n\nb) identify school\n\nproperties and ho"
+    },
+    {
+      "topicNumber": "4.6",
+      "topicName": "Holiness",
+      "topicOrder": 4.6,
+      "existingLessonIds": [
+        "6592358d-39ae-418c-a659-69d921af2d07",
+        "68abff7f-5d4f-48a1-897e-3bcd900d4e6c"
+      ],
+      "excerpt": "4.6 Holiness\n\n4 lessons\n\nBy the end of the sub-strand, the learner\n\nshould be able to;\n\na) describe ways of glorifying God\n\nwith their bodies,\n\nb) acquire the value of holiness by\n\nkeeping away from situations\n\nthat lead"
+    },
+    {
+      "topicNumber": "5.1",
+      "topicName": "House of God",
+      "topicOrder": 5.1,
+      "existingLessonIds": [
+        "129c4dc8-d3be-4612-b4f2-41ffb2c2ccdb",
+        "9b9fdb9b-1e50-4e67-b9f2-d4db656c9b3d"
+      ],
+      "excerpt": "5.1 House\n\nof God\n\n2 lessons\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) outline lessons learnt\n\nfrom Matthew 21:12-\n\n14,\n\nb) participate in church\n\nactivities to grow\n\nspiritually,\n\nc) appreciate"
+    },
+    {
+      "topicNumber": "5.2",
+      "topicName": "The Early Church",
+      "topicOrder": 5.2,
+      "existingLessonIds": [
+        "158f83b6-d541-472b-9b10-c3cd2cce88b2",
+        "ab8efac2-5553-4a3a-8d37-8c3d59b4f711"
+      ],
+      "excerpt": "5.2 The Early\n\nChurch\n\n3 lessons\n\nBy the end of the sub- strand, the learner\n\nshould be able to;\n\na) name the disciples\n\nof Jesus Christ,\n\nb) describe how the\n\nearly church was\n\nstarted,\n\nc) desire to turn away\n\nfrom sin"
+    },
+    {
+      "topicNumber": "5.3",
+      "topicName": "Standing Firm in Faith",
+      "topicOrder": 5.3,
+      "existingLessonIds": [
+        "76154bbc-2438-495c-b9d0-49e39c8c058a",
+        "88677b48-0c4c-430c-9389-d30b0e3b8107"
+      ],
+      "excerpt": "5.3 Standing\n\nFirm in Faith\n\n3 lessons\n\nBy the end of the sub- strand, the learner should be\n\nable to:\n\na) name the city where\n\nbelievers were first\n\ncalled Christians,\n\nb) retell how Stephen was\n\nstoned for standing fir"
+    },
+    {
+      "topicNumber": "5.4",
+      "topicName": "The Lord’s Prayer",
+      "topicOrder": 5.4,
+      "existingLessonIds": [
+        "13bf5207-5e20-43c3-b5c5-6eb2e575c239",
+        "bcc57188-a0e5-4811-8568-9d24eb7cbae3"
+      ],
+      "excerpt": "5.4 The\n\nLord’s\n\nPrayer\n\n3 lessons\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) recite the Lord’s prayer\n\nb) pray for parents,\n\nguardians and friends,\n\nc) say a prayer to God\n\nevery day to grow\n\nsp"
+    },
+    {
+      "topicNumber": "5.5",
+      "topicName": "Fruit of the Holy Spirit",
+      "topicOrder": 5.5,
+      "existingLessonIds": [
+        "4b9fed70-0c5b-426e-9965-00fbd3cc7e88",
+        "f8072d3e-ceec-4414-9bb0-724e192a1ff7"
+      ],
+      "excerpt": "5.5 Fruit of the\n\nHoly Spirit\n\n3 lessons\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) list the fruit of the Holy\n\nSpirit; Galatians 5:22-\n\n23,\n\nb) describe how they\n\napply the fruit of the\n\nHoly Sp"
+    },
+    {
+      "topicNumber": "5.6",
+      "topicName": "Self-control",
+      "topicOrder": 5.6,
+      "existingLessonIds": [
+        "af9d1507-10f2-472d-b933-e5b6a4877dc8",
+        "ddc99e9d-6d20-4bee-85de-5c9475ec4ebc"
+      ],
+      "excerpt": "5.6 Self-control\n\n2 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) ractice self-control as\n\nguided in Galatians 5:23-\n\n25,\n\nb) make right decisions that\n\nare guided by the Holy\n\nSpirit,\n\nc) de"
+    },
+    {
+      "topicNumber": "6.1",
+      "topicName": "Use of Social Media",
+      "topicOrder": 6.1,
+      "existingLessonIds": [
+        "3b68c9f7-9799-4bac-9c28-e7a9e50bf083",
+        "e0675e79-bd96-4530-b97d-5b10657eac8a"
+      ],
+      "excerpt": "6.1 Use of\n\nSocial Media\n\n2 lessons\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) list digital devices used at\n\nhome and school,\n\nb) discuss appropriate ways\n\nof using social media,\n\nc) apply the val"
+    },
+    {
+      "topicNumber": "3.8.2",
+      "topicName": "Parable of the mustard seed",
+      "topicOrder": 340,
+      "existingLessonIds": [
+        "27132c1e-8ecc-45bf-860d-6759a55c3568",
+        "b3cc8910-7c40-4a6e-ab09-edf8ac2f68e0"
+      ],
+      "excerpt": "3.8.2 Parable of\n\nthe mustard\n\nseed\n\n3 lessons\n\nBy the end of the Sub- strand, the learner should\n\nbe able to;\n\na) retell the parable of\n\nthe mustard seed as\n\nguided by the Bible\n\ntext,\n\nb) describe how the\n\nkingdom of G"
+    },
+    {
+      "topicNumber": "3.8.1",
+      "topicName": "Parable of the lost coin",
+      "topicOrder": 1021,
+      "existingLessonIds": [
+        "4a9d439c-594a-425d-bbbb-d5380c559b22",
+        "918a7bc5-d781-46f9-b5fb-63581a3978ca"
+      ],
+      "excerpt": "3.8.1 Parable\n\nof the lost coin\n\n2 lessons\n\nBy the end of the Sub- strand, the learner should\n\nbe able to:\n\na) retell the parable of the\n\nlost coin,\n\nb) list lessons learnt from\n\nthe parable of the lost\n\ncoin,\n\nc) recogn"
+    }
+  ]
+}

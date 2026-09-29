@@ -1,0 +1,663 @@
+{
+  "subject": "KISWAHILI",
+  "slug": "kiswahili",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 153125,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Kusikiliza na Kuzungumza 1.1.1 Matamshi Bora Sauti",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "7dfab7f0-ad33-4cd0-9e6f-1d1b9d6693d6"
+      ],
+      "excerpt": "1.1 Kusikiliza\n\nna\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Kusoma 1.2.1 Kusoma kwa Ufahamu",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "17417910-1634-4736-99d0-3c0a3945b3d0",
+        "c03e219b-712b-43ea-bde0-2fc6c3d8f5f0"
+      ],
+      "excerpt": "1.2\n\nKusoma\n\n1.2.1\n\nKusoma\n\nkwa\n\nUfahamu\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kutambua msamiati\n\nwa suala lengwa\n\nuliotumika katika\n\nkifungu cha hadithi\n\nili kuimarisha\n\nufahamu,\n\nb) kutumi"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Kuandika 1.3.1 Insha ya Wasifu",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "39a3dc8d-149b-4855-a052-6d6dea426dd9",
+        "94e51864-7bca-42fd-8526-c7f6515876ca"
+      ],
+      "excerpt": "1.3\n\nKuandika\n\n1.3.1 Insha\n\nya Wasifu\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua insha\n\nya wasifu kwa\n\nkuzingatia\n\nmuundo,\n\nb) kuandika insha\n\nya wasifu kwa\n\nkuzingatia\n\nujumbe,\n\nmtindo "
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Sarufi 1.4.2 Vitenzi",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "24d67cd6-c5b7-4b2f-891b-516629417b51",
+        "d66eb75f-3dfc-43b1-80ae-f58a1476da33"
+      ],
+      "excerpt": "1.4\n\nSarufi\n\n1.4.3 Vivumishi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kueleza maana ya\n\nkivumishi ili\n\nkukitofautisha na\n\naina nyingine za\n\nmaneno,\n\nb) kutambua\n\nvivumishi katika\n\nkundi la mane"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Sarufi 1.4.3 Vivumishi",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "a5b94201-7fa2-423f-abd0-725a0600dfe0",
+        "daa51deb-78c9-4e42-b5da-f9bf57aea94a"
+      ],
+      "excerpt": "1.4\n\nSarufi\n\n1.4.3 Vivumishi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kueleza maana ya\n\nkivumishi ili\n\nkukitofautisha na\n\naina nyingine za\n\nmaneno,\n\nb) kutambua\n\nvivumishi katika\n\nkundi la mane"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Sarufi 1.4.1 Nomino",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "b3f52943-67e9-41a7-9c16-5df6f0c83130",
+        "e6a71bb9-b540-43a7-bfab-f1b46e419f69"
+      ],
+      "excerpt": "1.4\n\nSarufi\n\n1.4.3 Vivumishi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kueleza maana ya\n\nkivumishi ili\n\nkukitofautisha na\n\naina nyingine za\n\nmaneno,\n\nb) kutambua\n\nvivumishi katika\n\nkundi la mane"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Kusikiliza na Kuzungumza 2.1.1 Maamkuzi na Maagano",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "c8821bdc-0c5d-4b33-a441-19252c536c9c"
+      ],
+      "excerpt": "2.1\n\nKusikiliza\n\nna\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Kusoma 2.2.1 Kusoma kwa Kina",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "2bce34b7-e03c-4dfb-8da2-c9772d0acf4d",
+        "dbb78f65-ad84-4295-b6fd-6e21d62aa3ac"
+      ],
+      "excerpt": "2.2\n\nKusoma\n\n2.2.1\n\nKusoma\n\nkwa Kina\n\n(Vipindi 2)\n\nKufikia mwisho wa mada ndogo,\n\nmwanafunzi aweze:\n\na) kueleza maana ya kamusi ili\n\nkuitofautisha na vitabu vingine,\n\nb) kutumia kamusi ipasavyo\n\nkutafuta maana za maneno\n"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Kuandika 2.3.1 Insha ya Masimulizi",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "5548c6f7-f9fb-4aa5-a475-68c9c9248648",
+        "9a835b9b-297d-40b3-b8e2-058ed4f39389"
+      ],
+      "excerpt": "2.3\n\nKuandika\n\n2.3.1 Insha\n\nya\n\nMasimulizi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kutambua insha ya\n\nmasimulizi kwa\n\nkuzingatia muundo,\n\nb) kuandika insha ya\n\nmasimulizi\n\ninayozingatia mada,\n"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Sarufi 2.4.2 Vielezi",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "25e19c32-fc47-4405-b6b9-dbae6a3c4109",
+        "538ae81c-602c-499f-882e-0f80953619a5"
+      ],
+      "excerpt": "2.4\n\nSarufi\n\n2.4.2 Vielezi\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kueleza maana\n\nya kielezi ili\n\nkukibainisha,\n\nb) kutambua vielezi\n\nkatika kundi la\n\nmaneno na\n\nsentensi,\n\nc) kutumia vielezi\n"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Sarufi 2.4.1 Viwakilishi",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "30fe8056-8978-497e-bfa0-ce9323c07b90",
+        "f4ba124e-4c80-4998-b06b-7c7a487a99c8"
+      ],
+      "excerpt": "2.4\n\nSarufi\n\n2.4.2 Vielezi\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kueleza maana\n\nya kielezi ili\n\nkukibainisha,\n\nb) kutambua vielezi\n\nkatika kundi la\n\nmaneno na\n\nsentensi,\n\nc) kutumia vielezi\n"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Kusikiliza na Kuzungumza 3.1.1 Vitendawili",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "95c0608e-ebe7-4221-b034-90aec6e0bfaf"
+      ],
+      "excerpt": "3.1\n\nKusikiliza\n\nna\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Kusoma 3.2.1 Kusoma kwa Ufasaha",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "3789a976-5f19-429b-8cc8-87c9d037c3a1",
+        "db63426b-b4c4-47f5-ba77-b20920c55537"
+      ],
+      "excerpt": "3.2\n\nKusoma\n\n3.2.1\n\nKusoma\n\nkwa\n\nUfasaha\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kujadili vipengele vya\n\nkuzingatia katika kusoma\n\nkwa ufasaha,\n\nb) kusoma kifungu cha\n\nhadithi kwa kuzingatia\n\nm"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Kuandika 3.3.1 Kuandika kwa Tarakilishi",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "03b800fa-ed3b-411e-9f2a-01dbd2995a1c"
+      ],
+      "excerpt": "3.3\n\nKuandika\n\n3.3.1\n\nKuandika\n\nkwa\n\nTarakilishi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua sehemu\n\nmbalimbali za tarakilishi\n\nzinazotumika kupigia\n\nchapa,\n\nb) kufungua na kufunga\n\ntaraki"
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Sarufi 3.4.2 Vihusishi",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "1d42a12b-2c8f-4233-a64a-2b955d7527c5",
+        "4e2b084d-2314-45ca-abef-b75c7ac4db35"
+      ],
+      "excerpt": "3.4\n\nSarufi\n\n3.4.3\n\nVihisishi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kueleza maana ya\n\nkihisishi ili\n\nkukibainisha,\n\nb) kutambua vihisishi\n\nkatika kundi la\n\nmaneno na sentensi,\n\nc) kutumia vi"
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Sarufi 3.4.3 Vihisishi",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "25da1686-83b4-4c01-aeb6-f5cd95de2018",
+        "a005134f-c1b1-4f1b-ba6c-d236139e0821"
+      ],
+      "excerpt": "3.4\n\nSarufi\n\n3.4.3\n\nVihisishi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kueleza maana ya\n\nkihisishi ili\n\nkukibainisha,\n\nb) kutambua vihisishi\n\nkatika kundi la\n\nmaneno na sentensi,\n\nc) kutumia vi"
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Sarufi 3.4.1 Viunganishi",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "4d5b94eb-520f-4298-bce3-bbad981a9c21",
+        "be1a8dfd-5669-42c6-82dc-9ddfd0f8d4f9"
+      ],
+      "excerpt": "3.4\n\nSarufi\n\n3.4.3\n\nVihisishi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kueleza maana ya\n\nkihisishi ili\n\nkukibainisha,\n\nb) kutambua vihisishi\n\nkatika kundi la\n\nmaneno na sentensi,\n\nc) kutumia vi"
+    },
+    {
+      "topicNumber": "4.1",
+      "topicName": "Kusikiliza na Kuzungumza 4.1.1 Maneno ya Upole",
+      "topicOrder": 4.1,
+      "existingLessonIds": [
+        "2bb26bf5-7f12-45a9-b6aa-fa6e0e1615f1"
+      ],
+      "excerpt": "4.1 Kusikiliza\n\nna\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "4.2",
+      "topicName": "Kusoma 4.2.1 Kusoma kwa Mapana",
+      "topicOrder": 4.2,
+      "existingLessonIds": [
+        "8b7eb20f-b0a2-477b-8c84-5a379ddadd3c",
+        "9990015e-894c-4d4e-8e2e-e0df6483ec14"
+      ],
+      "excerpt": "4.2\n\nKusoma\n\n4.2.1\n\nKusoma\n\nkwa\n\nMapana\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua na kufungua\n\nfaili iliyo na kifungu cha\n\nkusoma,\n\nb) kutambua na kuzingatia\n\nhatua za kiusalama\n\nkatika "
+    },
+    {
+      "topicNumber": "4.3",
+      "topicName": "Kuandika 4.3.1 Barua ya Kirafiki",
+      "topicOrder": 4.3,
+      "existingLessonIds": [
+        "1954c5f2-25e6-4090-93c9-311867845ec0",
+        "c14f42e7-9e9f-4923-8080-6d8a63d390a0"
+      ],
+      "excerpt": "4.3\n\nKuandika\n\n4.3.1\n\nBarua ya\n\nKirafiki\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kutambua barua ya\n\nkirafiki kwa\n\nkuzingatia muundo\n\nwake,\n\nb) kujadili\n\numuhimu wa\n\nbarua ya kirafiki\n\nkatika\n\n"
+    },
+    {
+      "topicNumber": "4.4",
+      "topicName": "Sarufi 4.4.1 Ngeli ya A-WA",
+      "topicOrder": 4.4,
+      "existingLessonIds": [
+        "15775e30-5fb2-4d6a-8338-8174d130e172",
+        "f431be00-1140-4654-9555-06599bcd616e"
+      ],
+      "excerpt": "4.4\n\nSarufi\n\n4.4.1 Ngeli\n\nya A-WA\n\n(Vipindi 4)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kutambua\n\nviambishi vya\n\nupatanisho wa\n\nkisarufi wa ngeli ya\n\nA-WA,\n\nb) kutambua nomino\n\nkatika ngeli ya A-WA\n\nili kuz"
+    },
+    {
+      "topicNumber": "5.1",
+      "topicName": "Kusikiliza na Kuzungumza 5.1.1 Methali",
+      "topicOrder": 5.1,
+      "existingLessonIds": [
+        "dc54bfc4-7d93-498c-b55b-e03e860857b2"
+      ],
+      "excerpt": "5.1\n\nKusikiliza na\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "5.2",
+      "topicName": "Kusoma 5.2.1 Kusoma kwa Ufahamu Shairi",
+      "topicOrder": 5.2,
+      "existingLessonIds": [
+        "d88fe3aa-acc0-4c9b-ae7e-c9c099ab4b61"
+      ],
+      "excerpt": "5.2\n\nKusoma\n\n5.2.1 Kusoma\n\nkwa Ufahamu\n\nShairi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kueleza maana ya shairi,\n\nubeti na mshororo ili\n\nkuvibainisha,\n\nb) kusoma shairi kwa\n\nufasaha kwa kuzingat"
+    },
+    {
+      "topicNumber": "5.3",
+      "topicName": "Kuandika 5.3.1 Insha ya Maelezo",
+      "topicOrder": 5.3,
+      "existingLessonIds": [
+        "82bf97cd-cd93-4e77-9ce1-1dee8d1bbfa6",
+        "df08ac0f-a06a-4783-8a60-a4086de32a06"
+      ],
+      "excerpt": "5.3\n\nKuandika\n\n5.3.1 Insha ya\n\nMaelezo\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua\n\nvifungu vya\n\nmaelezo\n\nkatika matini,\n\nb) kuandika insha ya\n\nmaelezo kwa\n\nkufuata kanuni\n\nzifaazo,\n\nc) k"
+    },
+    {
+      "topicNumber": "5.4",
+      "topicName": "Sarufi 5.4.1 Ngeli ya U-I",
+      "topicOrder": 5.4,
+      "existingLessonIds": [
+        "c530f06c-6bc1-414b-a6f8-f09db06413ed",
+        "ee95a4f8-201a-4b17-86ac-8a0117f0755f"
+      ],
+      "excerpt": "5.4\n\nSarufi\n\n5.4.1 Ngeli ya\n\nU-I\n\n(Vipindi 4)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua viambishi vya\n\nupatanisho wa kisarufi\n\nwa ngeli ya U-I,\n\nb) kutambua nomino katika\n\nngeli ya U-I ili\n\nkuzitofau"
+    },
+    {
+      "topicNumber": "6.1",
+      "topicName": "Kusikiliza na Kuzungumza 6.1.1 Shairi",
+      "topicOrder": 6.1,
+      "existingLessonIds": [
+        "8f9b7c11-8d49-4f67-8fea-f113dab7d9ca"
+      ],
+      "excerpt": "6.1\n\nKusikiliza na\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "6.2",
+      "topicName": "Kusoma 6.2.1 Kusoma kwa Kina",
+      "topicOrder": 6.2,
+      "existingLessonIds": [
+        "0bd2ed51-d6da-479f-8ddb-d15e42507962",
+        "1c822e62-9bcd-4be6-abda-c5f0c3ace8ce"
+      ],
+      "excerpt": "6.2\n\nKusoma\n\n6.2.1 Kusoma\n\nkwa Kina\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kusoma makala kwa\n\nkuzingatia vipengele\n\nmbalimbali\n\nvinavyoyajenga,\n\nb) kusoma na kutambua\n\numuhimu wa ujumbe wa\n\nma"
+    },
+    {
+      "topicNumber": "6.3",
+      "topicName": "Kuandika 6.3.1 Insha ya Wasifu",
+      "topicOrder": 6.3,
+      "existingLessonIds": [
+        "d248dc40-c08b-4371-b817-da368b6aeb5e",
+        "eef12ebc-68af-4f13-90ac-04dd49a246ab"
+      ],
+      "excerpt": "6.3\n\nKuandika\n\n6.3.1 Insha\n\nya Wasifu\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua insha ya\n\nwasifu kwa\n\nkuzingatia muundo,\n\nb) kuandika insha ya\n\nwasifu kwa kufuata\n\nkanuni zifaazo\n\nakizin"
+    },
+    {
+      "topicNumber": "6.4",
+      "topicName": "Sarufi 6.4.1 Ngeli ya LI- YA",
+      "topicOrder": 6.4,
+      "existingLessonIds": [
+        "80939ec0-94a5-4165-b964-afd51787ea7e",
+        "f7d357a8-e143-4a59-9514-c01bf8fdb3b3"
+      ],
+      "excerpt": "6.4\n\nSarufi\n\n6.4.1 Ngeli\n\nya LI- YA\n\n(Vipindi 4)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua viambishi\n\nvya upatanisho wa\n\nkisarufi wa ngeli ya\n\nLI-YA,\n\nb) kutambua nomino\n\nkatika ngeli ya LI -YA\n\nili "
+    },
+    {
+      "topicNumber": "7.1",
+      "topicName": "Kusikiliza na Kuzungumza 7.1.1 Nahau",
+      "topicOrder": 7.1,
+      "existingLessonIds": [
+        "c0dc91d6-59e2-41c1-88cc-6006359a5f21"
+      ],
+      "excerpt": "7.1\n\nKusikiliza\n\nna\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "7.2",
+      "topicName": "Kusoma 7.2.1 Kusoma kwa Mapana Matini",
+      "topicOrder": 7.2,
+      "existingLessonIds": [
+        "bc0c38a4-006f-4084-b52b-c0b9bb4f3cf8"
+      ],
+      "excerpt": "7.2\n\nKusoma\n\n7.2.1 Kusoma kwa\n\nMapana\n\nMatini\n\n(Vipindi 3)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua matini\n\nya aina mbalimbali\n\nya kusoma na\n\nkuchagua\n\nyanayomvutia,\n\nb) kusoma matini\n\naliyochagua i"
+    },
+    {
+      "topicNumber": "7.3",
+      "topicName": "Kuandika 7.3.1 Insha ya Maelezo",
+      "topicOrder": 7.3,
+      "existingLessonIds": [
+        "52ca171f-bc07-46d5-bf85-197f455c75a0",
+        "d6bbfdd7-610b-4784-ba1d-15c41ea9c91b"
+      ],
+      "excerpt": "7.3\n\nKuandika\n\n7.3.1 Insha ya\n\nMaelezo\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua insha\n\nya maelezo\n\nkatika matini,\n\nb) kuandika insha\n\nya maelezo kwa\n\nkufuata kanuni\n\nzifaazo,\n\nc) kucha"
+    },
+    {
+      "topicNumber": "7.4",
+      "topicName": "Sarufi 7.4.2 Ngeli ya LI-LI",
+      "topicOrder": 7.4,
+      "existingLessonIds": [
+        "354bbbe9-02ad-4684-a00d-878b2ced68bf",
+        "b0d7eb0b-a024-4b1c-90ac-9f2c9547d012"
+      ],
+      "excerpt": "7.4\n\nSarufi\n\n7.4.1 Ngeli\n\nya KI-VI\n\n(Vipindi 4)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kutambua viambishi\n\nvya upatanisho wa\n\nkisarufi wa ngeli ya\n\nKI-VI,\n\nb) kutambua nomino\n\nkatika ngeli ya KI-VI\n\nili k"
+    },
+    {
+      "topicNumber": "7.4",
+      "topicName": "Sarufi 7.4.1 Ngeli ya KI-VI",
+      "topicOrder": 7.4,
+      "existingLessonIds": [
+        "526ba5cc-4e42-4c2f-8475-859d4a2d1f2e",
+        "898d6d1a-007d-4891-8d6c-6c761fa1e03b"
+      ],
+      "excerpt": "7.4\n\nSarufi\n\n7.4.1 Ngeli\n\nya KI-VI\n\n(Vipindi 4)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kutambua viambishi\n\nvya upatanisho wa\n\nkisarufi wa ngeli ya\n\nKI-VI,\n\nb) kutambua nomino\n\nkatika ngeli ya KI-VI\n\nili k"
+    },
+    {
+      "topicNumber": "8.1",
+      "topicName": "Kusikiliza na Kuzungumza 8.1.1 Visawe",
+      "topicOrder": 8.1,
+      "existingLessonIds": [
+        "d4bfd406-80ee-4d51-bb01-c89335aeb61b"
+      ],
+      "excerpt": "8.1\n\nKusikiliza\n\nna\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "8.2",
+      "topicName": "Kusoma 8.2.1 Kusoma kwa Ufahamu Mchezo wa kuigiza",
+      "topicOrder": 8.2,
+      "existingLessonIds": [
+        "c9369824-1212-4fb9-958a-7ebfe2fe59af"
+      ],
+      "excerpt": "8.2\n\nKusoma\n\n8.2.1 Kusoma kwa\n\nUfahamu\n\nMchezo wa kuigiza\n\n(Vipindi 3)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kueleza maana ya\n\nmchezo wa kuigiza,\n\nmhusika na\n\nmaelekezo,\n\nb) kutambua mchezo\n\nwa kuigiza ka"
+    },
+    {
+      "topicNumber": "8.3",
+      "topicName": "Kuandika 8.3.1 Insha ya Masimulizi",
+      "topicOrder": 8.3,
+      "existingLessonIds": [
+        "06c29248-b3e4-45fd-89ef-f7f68b8db663",
+        "9e71bf24-81c1-4669-9033-7ba90d631ef7"
+      ],
+      "excerpt": "8.3\n\nKuandika\n\n8.3.1 Insha ya\n\nMasimulizi\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua insha\n\nya masimulizi\n\nkwa kuzingatia\n\nmuundo,\n\nb) kuandika insha\n\nya masimulizi\n\nkwa kufuata\n\nkanuni\n"
+    },
+    {
+      "topicNumber": "8.4",
+      "topicName": "Sarufi 8.4.1 Mnyambuliko wa Vitenzi",
+      "topicOrder": 8.4,
+      "existingLessonIds": [
+        "ffb6cb4d-44f1-4144-8b80-8aebb1206411"
+      ],
+      "excerpt": "8.4\n\nSarufi\n\n8.4.1 Mnyambuliko\n\nwa Vitenzi\n\n• Kauli ya kutenda,\n\n• Kauli ya kutendea\n\n• Kauli ya kutendwa\n\n(Vipindi 3)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kueleza maana ya\n\nmnyambuliko wa\n\nvitenzi ili k"
+    },
+    {
+      "topicNumber": "9.1",
+      "topicName": "Kusikiliza na Kuzungumza 9.1.1 Mazungumzo ya Kimuktadha Miktadha isiyo rasmi",
+      "topicOrder": 9.1,
+      "existingLessonIds": [
+        "e2f9f065-a1f7-4874-9d7c-a5b0975c43f7"
+      ],
+      "excerpt": "9.1\n\nKusikiliza\n\nna\n\nKuzungumza\n\n"
+    },
+    {
+      "topicNumber": "9.2",
+      "topicName": "Kusoma 9.2.1 Kusoma kwa Mapana Matini ya kujichagulia",
+      "topicOrder": 9.2,
+      "existingLessonIds": [
+        "c43e5707-4123-4885-b453-dea49407d311"
+      ],
+      "excerpt": "9.2\n\nKusoma\n\n9.2.1 Kusoma kwa\n\nMapana\n\nMatini ya kujichagulia\n\n(Vipindi 3)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua matini za\n\nkusoma za aina\n\nmbalimbali na kuchagua\n\nzinazomvutia,\n\nb) kusoma matini"
+    },
+    {
+      "topicNumber": "9.3",
+      "topicName": "Kuandika 9.3.1 Insha ya Maelezo",
+      "topicOrder": 9.3,
+      "existingLessonIds": [
+        "99cc38c8-40a9-4e8c-afc2-aebcd3eaab61",
+        "dad0048d-e1da-43c3-9c8d-5f2020271e0f"
+      ],
+      "excerpt": "9.3\n\nKuandika\n\n9.3.1\n\nInsha ya\n\nMaelezo\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi\n\naweze:\n\na) kutambua insha\n\nya maelezo\n\nkatika matini,\n\nb) kuandika insha\n\nya maelezo\n\nkwa kufuata\n\nkanuni zifaazo,\n\nc) kuc"
+    },
+    {
+      "topicNumber": "9.4",
+      "topicName": "Sarufi 9.4.1 Vinyume vya Nomino",
+      "topicOrder": 9.4,
+      "existingLessonIds": [
+        "263f87c4-c495-4ebc-a1ac-5f81600e77ee",
+        "cd4e3b84-22f7-44a2-aee6-d8b4ac7e167b"
+      ],
+      "excerpt": "9.4 Sarufi 9.4.1 Vinyume\n\nvya Nomino\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kueleza maana ya\n\nkinyume cha\n\nnomino ili\n\nkukibainisha,\n\nb) kutambua\n\nvinyume vya\n\nnomino katika\n\nmatini,\n\nc) kutu"
+    },
+    {
+      "topicNumber": "10.1",
+      "topicName": "Kusikiliza na kuzungumza 10.1.1 Tashbihi kimo umbo",
+      "topicOrder": 10.1,
+      "existingLessonIds": [
+        "71e40447-3f74-488e-ba9a-b4b616926955"
+      ],
+      "excerpt": "10.1\n\nKusikiliza\n\nna\n\nkuzungumza\n\n"
+    },
+    {
+      "topicNumber": "10.2",
+      "topicName": "Kusoma",
+      "topicOrder": 10.2,
+      "existingLessonIds": [
+        "3103ec9a-dc19-4095-867d-d5dd22b1bb49",
+        "8626e4c4-4d8e-4e4c-802c-c0149e12b9c9"
+      ],
+      "excerpt": "10.2\n\nKusoma\n\n10.2 Kusoma\n\nKidijitali\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua na kuzingatia\n\nhatua za kiusalama katika\n\nmatumizi ya vifaa vya\n\nkidijitali,\n\nb) kutambua na kufungua\n\nfai"
+    },
+    {
+      "topicNumber": "10.3",
+      "topicName": "Kuandika 10.3.1 Insha ya Masimulizi",
+      "topicOrder": 10.3,
+      "existingLessonIds": [
+        "54fc1678-29f2-4e98-9971-41acf94ee0ef"
+      ],
+      "excerpt": "10.3\n\nKuandika\n\n10.3.1 Insha ya\n\nMasimulizi\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua insha\n\nya masimulizi\n\nkwa kuzingatia\n\nujumbe, mtindo\n\nna muundo,\n\nb) kuandika\n\ninsha ya\n\nmasimulizi"
+    },
+    {
+      "topicNumber": "10.4",
+      "topicName": "Sarufi 10.4.1 Nyakati na hali. uliopita uliopo ujao",
+      "topicOrder": 10.4,
+      "existingLessonIds": [
+        "366b7b1a-057f-4d52-846e-6d153258f933"
+      ],
+      "excerpt": "10.4\n\nSarufi\n\n10.4.1\n\nNyakati na\n\nhali.\n\n• Wakati\n\nuliopita\n\n• Wakati\n\nuliopo\n\n• Wakati\n\nujao\n\n(Vipindi 3)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kutambua\n\nviambishi vya\n\nwakati uliopita,\n\nuliopo na ujao\n"
+    },
+    {
+      "topicNumber": "11.1",
+      "topicName": "Kusikiliza na kuzungumza 11.1.1 Masimulizi",
+      "topicOrder": 11.1,
+      "existingLessonIds": [
+        "373b481e-f869-41d1-af5a-6b656279ef4c"
+      ],
+      "excerpt": "11.1\n\nKusikiliza\n\nna\n\nkuzungumza\n\n"
+    },
+    {
+      "topicNumber": "11.2",
+      "topicName": "Kusoma 11.2.1 Kusoma kwa Ufasaha",
+      "topicOrder": 11.2,
+      "existingLessonIds": [
+        "3b9a9486-7016-476b-a452-b1e461e318d4",
+        "f7991c85-166f-478d-8669-9ddfb9155965"
+      ],
+      "excerpt": "11.2\n\nKusoma\n\n11.2.1\n\nKusoma\n\nkwa\n\nUfasaha\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua vipengele vya\n\nkuzingatia katika kusoma\n\nkwa ufasaha,\n\nb) kusoma kifungu cha\n\nhadithi kwa kuzingatia\n"
+    },
+    {
+      "topicNumber": "11.4",
+      "topicName": "Sarufi 11.4.3 Udogo wa Nomino",
+      "topicOrder": 11.4,
+      "existingLessonIds": [
+        "21b00fa6-ad16-4048-a005-8a00c6ad47ec",
+        "d2e007a4-94f6-43cb-b09f-d4883385e2c6"
+      ],
+      "excerpt": "11.4\n\nSarufi\n\n11.4.3\n\nUdogo wa\n\nNomino\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kueleza maana ya udogo\n\nwa nomino ili\n\nkuubainisha,\n\nb) kutambua nomino\n\nzinazoanza kwa herufi\n\nm- na zenye mzizi "
+    },
+    {
+      "topicNumber": "11.4",
+      "topicName": "Sarufi 11.4.2 Ukubwa wa Nomino",
+      "topicOrder": 11.4,
+      "existingLessonIds": [
+        "5d515a8f-2c16-4a02-886b-9b5ccb0a7bfd",
+        "dfec6184-4176-41e2-9c0d-01b0ec447414"
+      ],
+      "excerpt": "11.4\n\nSarufi\n\n11.4.3\n\nUdogo wa\n\nNomino\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kueleza maana ya udogo\n\nwa nomino ili\n\nkuubainisha,\n\nb) kutambua nomino\n\nzinazoanza kwa herufi\n\nm- na zenye mzizi "
+    },
+    {
+      "topicNumber": "11.4",
+      "topicName": "Sarufi 11.4.1 Ukanushaji uliopita uliopo",
+      "topicOrder": 11.4,
+      "existingLessonIds": [
+        "e0972153-fa90-46db-b4a0-413322bca379"
+      ],
+      "excerpt": "11.4\n\nSarufi\n\n11.4.3\n\nUdogo wa\n\nNomino\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kueleza maana ya udogo\n\nwa nomino ili\n\nkuubainisha,\n\nb) kutambua nomino\n\nzinazoanza kwa herufi\n\nm- na zenye mzizi "
+    },
+    {
+      "topicNumber": "1.1.1",
+      "topicName": "Matamshi Bora Sauti",
+      "topicOrder": 126,
+      "existingLessonIds": [
+        "3f66509d-1795-4ffc-864e-2d79f382caf8",
+        "8aa047f2-9653-4b0c-a1fa-ed521f68a18a"
+      ],
+      "excerpt": "1.1.1\n\nMatamshi\n\nBora\n\nSauti\n\n• p/b\n\n• t/d\n\n• k/g\n\n• ch/j\n\n(Vipindi 4)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kutambua silabi\n\nzinazotokana na sauti\n\np/b, t/d, k/g, ch/j\n\nkatika maneno,\n\nb) kutamka silabi"
+    },
+    {
+      "topicNumber": "2.1.1",
+      "topicName": "Maamkuzi na Maagano",
+      "topicOrder": 133,
+      "existingLessonIds": [
+        "0cda6bc0-de99-434b-aaaf-2742102677dc",
+        "291acaff-04f7-4e46-97c6-87d070d852b7"
+      ],
+      "excerpt": "2.1.1\n\nMaamkuzi\n\nna\n\nMaagano\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua aina\n\nmbalimbali za\n\nmaamkuzi na\n\nmaagano katika\n\nmawasiliano,\n\nb) kueleza maamkuzi\n\nna maagano\n\nyanayotumika\n\nkat"
+    },
+    {
+      "topicNumber": "5.1.1",
+      "topicName": "Methali",
+      "topicOrder": 151,
+      "existingLessonIds": [
+        "38320b23-d3a1-4375-92c7-efade9578c2a",
+        "b803e665-6d2d-4ac2-a815-06cb2f8784f1"
+      ],
+      "excerpt": "5.1.1\n\nMethali\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua methali\n\nzinazohusu malezi\n\nkatika matini\n\ntofautitofauti,\n\nb) kueleza maana za\n\nmethali kuhusu\n\nmalezi,\n\nc) kutumia methali\n\nzi"
+    },
+    {
+      "topicNumber": "6.1.1",
+      "topicName": "Shairi",
+      "topicOrder": 157,
+      "existingLessonIds": [
+        "94c08a34-b73e-4bfe-861e-10172286d142",
+        "c277465a-c80c-485e-b29d-4c0844125103"
+      ],
+      "excerpt": "6.1.1\n\nShairi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kukariri au kuimba\n\nshairi kwa kuzingatia\n\nmatamshi na mahadhi\n\nmbalimbali,\n\nb) kueleza maana ya\n\nmsamiati uliotumiwa\n\nkatika shairi,\n\nc) k"
+    },
+    {
+      "topicNumber": "8.1.1",
+      "topicName": "Visawe",
+      "topicOrder": 169,
+      "existingLessonIds": [
+        "defc90cf-d59d-4c61-a2d3-85e7e4a33762",
+        "e62fdbea-0f4c-444a-af8c-f77eaead154d"
+      ],
+      "excerpt": "8.1.1\n\nVisawe\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kueleza maana ya\n\nkisawe ili\n\nkukibainisha,\n\nb) kutambua maneno\n\nmawili yenye maana\n\nsawa katika matini,\n\nc) kutumia visawe\n\nifaavyo katika"
+    },
+    {
+      "topicNumber": "10.1.1",
+      "topicName": "Tashbihi kimo umbo",
+      "topicOrder": 181,
+      "existingLessonIds": [
+        "a1edf503-d98d-4e5b-bfc2-2033c41dd8b8",
+        "e983d145-0727-4c4f-b88e-ffa9f7d229ec"
+      ],
+      "excerpt": "10.1.1\n\nTashbihi\n\n• Tashbihi za\n\nkimo\n\n• Tashbihi za\n\numbo\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kueleza maana ya\n\ntashbihi ili\n\nkuibainisha,\n\nb) kutambua tashbihi za\n\nkimo na umbo katika\n\nm"
+    },
+    {
+      "topicNumber": "11.1.1",
+      "topicName": "Masimulizi",
+      "topicOrder": 186,
+      "existingLessonIds": [
+        "7a758957-d4b8-4898-8f16-e3b19334fa40",
+        "845dd7fc-21a3-461d-951d-b333aef72fad"
+      ],
+      "excerpt": "11.1.1\n\nMasimulizi\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi\n\naweze:\n\na) kusikiliza masimulizi\n\nkwa kuzingatia\n\nujumbe\n\nb) kusimulia tungo kwa\n\nkuzingatia mada,\n\nubunifu na usanifu wa\n\nlugha mbele ya\n\nwenza"
+    },
+    {
+      "topicNumber": "3.1.1",
+      "topicName": "Vitendawili",
+      "topicOrder": 821,
+      "existingLessonIds": [
+        "954fd95f-a0d7-4e33-b43e-4af53e659751",
+        "f3c352c3-3719-4347-bfc5-4bbb800f6388"
+      ],
+      "excerpt": "3.1.1\n\nVitendawili\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua\n\nvitendawili\n\nkwenye matini,\n\nb) kutega na kutegua\n\nvitendawili ili\n\nkukuza uwazaji\n\nkina,\n\nc) kuchangamkia\n\nmatumizi ya\n\nvi"
+    },
+    {
+      "topicNumber": "4.1.1",
+      "topicName": "Maneno ya Upole",
+      "topicOrder": 828,
+      "existingLessonIds": [
+        "0b18d7aa-5f00-4103-b4b6-4df58172eaf1",
+        "610c2045-983e-4d12-8ff3-174e4821f186"
+      ],
+      "excerpt": "4.1.1 Maneno\n\nya Upole\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi aweze:\n\na) kutambua\n\nmaneno ya upole\n\nyanayotumiwa\n\nkatika\n\nmawasiliano,\n\nb) kutumia maneno\n\nya upole katika\n\nmawasiliano,\n\nc) kuthamini\n\nma"
+    },
+    {
+      "topicNumber": "5.4.1",
+      "topicName": "Ngeli ya U - I 4 6.4.1 Ngeli ya LI -YA 4 7.4.1 Ngeli ya KI -VI 4 7.4.2 Ngeli ya",
+      "topicOrder": 836,
+      "existingLessonIds": [
+        "8105f413-3fb3-4073-a805-1218dd15b540"
+      ],
+      "excerpt": "5.4.1 Ngeli ya U\n\n-\n\nI\n\n4\n\n6.4.1 Ngeli ya LI\n\n-YA\n\n4\n\n"
+    },
+    {
+      "topicNumber": "7.1.1",
+      "topicName": "Nahau",
+      "topicOrder": 844,
+      "existingLessonIds": [
+        "767c8f6b-923d-4396-8e36-a8e5a8391f07",
+        "f4c79377-ba84-4371-b603-5518060ffa56"
+      ],
+      "excerpt": "7.1.1\n\nNahau\n\n(Vipindi 2)\n\nKufikia mwisho wa mada\n\nndogo, mwanafunzi aweze:\n\na) kutambua nahau za\n\nmaadili na uraia katika\n\nmatini mbalimbali,\n\nb) kutambua maana za\n\nnahau mbalimbali za\n\nmaadili na uraia katika\n\nmazungum"
+    },
+    {
+      "topicNumber": "7.4.1",
+      "topicName": "Ngeli ya KI -VI 4 7.4.2 Ngeli ya LI -LI 4 Page 15 of 130 xv 8.4.1 Mnyambuliko wa",
+      "topicOrder": 847,
+      "existingLessonIds": [
+        "d644df88-bf8e-40f3-832e-79eae188ef1e"
+      ],
+      "excerpt": "7.4.1 Ngeli ya KI\n\n-VI\n\n4\n\n7.4.2 Ngeli ya LI\n\n-LI\n\n4\n\nPage 15 of 130\n\nxv\n\n"
+    },
+    {
+      "topicNumber": "8.4.1",
+      "topicName": "Mnyambuliko wa Vitenzi 4 9.4.1 Vinyume vya Nomino 3 10.4.1 Nyakati na Hali 4 11.",
+      "topicOrder": 854,
+      "existingLessonIds": [
+        "3fc3fe2c-2731-4f66-8ff8-daf25c0e574e"
+      ],
+      "excerpt": "8.4.1 Mnyambuliko wa Vitenzi 4\n\n"
+    },
+    {
+      "topicNumber": "9.1.1",
+      "topicName": "Mazungumzo ya Kimuktadha Miktadha isiyo rasmi",
+      "topicOrder": 857,
+      "existingLessonIds": [
+        "a24c7d27-d04e-424d-afc8-d5c4ee63748a"
+      ],
+      "excerpt": "9.1.1\n\nMazungumzo\n\nya\n\nKimuktadha\n\nMiktadha isiyo\n\nrasmi\n\n(Vipindi 2)\n\nKufikia mwisho wa\n\nmada ndogo,\n\nmwanafunzi\n\naweze:\n\na) kutambua miktadha ya\n\nmawasiliano isiyo\n\nrasmi,\n\nb) kutumia lugha ipasavyo\n\nkatika miktadha is"
+    },
+    {
+      "topicNumber": "9.4.1",
+      "topicName": "Vinyume vya Nomino 3 10.4.1 Nyakati na Hali 4 11.4.1 Ukanushaji 3 11.4.2. Ukubwa",
+      "topicOrder": 860,
+      "existingLessonIds": [
+        "84c57d71-a6d7-4015-a8c8-b79a98529f91"
+      ],
+      "excerpt": "9.4.1 Vinyume vya Nomino 3\n\n10.4.1 Nyakati na Hali 4\n\n"
+    },
+    {
+      "topicNumber": "11.4.1",
+      "topicName": "Ukanushaji 3 11.4.2. Ukubwa na Udogo wa Nomino 2 11.4.3 Udogo wa Nomino 2 Jumla",
+      "topicOrder": 870,
+      "existingLessonIds": [
+        "fb8528ae-023d-4c6a-b615-172502f44dd5"
+      ],
+      "excerpt": "11.4.1 Ukanushaji 3\n\n11.4.2. Ukubwa na Udogo wa Nomino 2\n\n"
+    },
+    {
+      "topicNumber": "11.4.3",
+      "topicName": "Udogo wa Nomino 2 Jumla ya",
+      "topicOrder": 871,
+      "existingLessonIds": [
+        "4602c746-79af-43ea-a87e-e0e6c49d745a",
+        "c8e614fa-0e81-4dfe-9958-0fa2b9c25fb8"
+      ],
+      "excerpt": "11.4.3 Udogo wa Nomino 2\n\nJumla ya Vipindi 120\n\nKUMBUKA:\n\nIdadi ya vipindi vilivyopendekezwa kwa kila mada ndogo vinaweza kuwa vichache au vingi kutegemea na muktadha.\n\nPage 16 of 130\n\n1\n\n1.0 NYUMBANI\n\nMada Mada Ndogo Ma"
+    }
+  ]
+}

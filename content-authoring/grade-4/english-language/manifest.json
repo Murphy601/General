@@ -1,0 +1,626 @@
+{
+  "subject": "ENGLISH LANGUAGE",
+  "slug": "english-language",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 147569,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Listening and Speaking 1.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "35b805ea-c22d-4df6-884a-09baca8398c8"
+      ],
+      "excerpt": "1.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Reading 1.2.1 Extensive Reading",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "9728f399-e5c2-41d7-984a-a46b37c39bdc",
+        "cf662e4f-ae35-4c66-a442-8e4116ae406f"
+      ],
+      "excerpt": "1.2\n\nReading\n\n1.2.1\n\nExtensive\n\nReading\n\n(3 lessons)\n\nReference\n\nMaterials\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify the spelling\n\nand meaning of words\n\nfrom the dictionary,\n\nb) read th"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Grammar in use 1.3.1 Word Classes: Determiners",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "3e469a87-31c8-45a9-b697-ac6d88536e6e",
+        "990c5069-1aa8-479e-afe8-cacc2a3f6961"
+      ],
+      "excerpt": "1.3\n\nGrammar\n\nin use\n\n1.3.1\n\nWord\n\nClasses:\n\nDeterminers\n\n(3 Lessons)\n\n• Definite\n\narticles\n\n• Indefinite\n\narticles\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) identify definite and\n\nindefinite ar"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Writing 1.4.1 Functional writing",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "200819f6-db3a-498a-b480-f06a6e6d5c6c",
+        "30ce3e58-fce2-4960-825f-9317abd762f4"
+      ],
+      "excerpt": "1.4\n\nWriting\n\n1.4.1\n\nFunctional\n\nwriting\n\n(3 lessons)\n\nFilling forms\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify the required\n\ninformation to be filled\n\nin forms for different\n\npurposes,\n"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Listening and Speaking 2.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "4b1112b3-f2f9-4dcb-9618-527a9ef551dd"
+      ],
+      "excerpt": "2.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Reading 2.2.1 Intensive Reading",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "45673cfd-49de-4f9d-8395-8a51b071ee5b",
+        "92e806c6-e86d-446b-aacd-1ee6b311827f"
+      ],
+      "excerpt": "2.2\n\nReading\n\n2.2.1\n\nIntensive\n\nReading\n\n(3 lessons)\n\n• Poems\n\n• Stories\n\n• Similes\n\nand\n\nsayings\n\n• Reading\n\ntechniques\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read poems or stories\n\nrelated t"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Grammar in uses 2.3.1 Word Classes: Nouns",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "0fb0a6db-bd60-4050-ade7-7a09501e0f61",
+        "f3b968a3-a344-4a25-8484-763611da7044"
+      ],
+      "excerpt": "2.3\n\nGrammar\n\nin uses\n\n2.3.1 Word\n\nClasses: Nouns\n\n(3 lessons)\n\n• Regular Nouns\n\n• Irregular Nouns\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) identify plurals of\n\nregular and irregular\n\nnouns for"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Writing 2.4.1 Creative Writing",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "25be6439-c345-4489-8bce-2c9578291496",
+        "e9bf2a70-3463-4300-ba73-72541c1b6d71"
+      ],
+      "excerpt": "2.4\n\nWriting\n\n2.4.1\n\nCreative\n\nWriting\n\n(3 lessons)\n\nOpen ended\n\nCompositions\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) express relevant ideas\n\non a given topic for\n\neffective\n\ncommunication,\n\nb"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Listening and Speaking 3.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "4723b2f5-7c59-41bf-85f2-0d4a96a22a6c"
+      ],
+      "excerpt": "3.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Reading 3.2.1 Intensive Reading: Comprehension",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "0245221b-1bff-4e7d-a236-7aeb6efe8891",
+        "3043dbdb-81bb-40f6-8343-7cfbd681e4c6"
+      ],
+      "excerpt": "3.2\n\nReading\n\n3.2.1 Intensive\n\nReading:\n\nComprehension\n\n(3 lessons)\n\n• Text (300\n\nwords)\n\n• Factual\n\ninformation\n\n• Inferential\n\ninformation\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) read a text"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Grammar in Use 3.3.1 Language pattern",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "f29d2c83-1f5f-4945-b5e3-3d7715c9c1f5"
+      ],
+      "excerpt": "3.3\n\nGrammar\n\nin Use\n\n3.3.1\n\nLanguage pattern\n\n(3 lessons)\n\n● Enough +\n\nNominal +\n\nInfinitive\n\n● A lot/a lot of...\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) use the target language\n\npattern in se"
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Writing 3.4.1 Mechanics of Writing: Handwriting",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "a19311c9-da15-4de7-a867-1429a4db0e8f",
+        "ebe3630a-5d4e-406e-9f92-8a9b8e44d4e2"
+      ],
+      "excerpt": "3.4 Writing 3.4.1\n\nMechanics of\n\nWriting:\n\nHandwriting\n\n(3 lessons)\n\n● Legibility\n\n● Neatness\n\n● Spelling\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) write legibly and\n\nneatly in print script\n\nfor"
+    },
+    {
+      "topicNumber": "4.1",
+      "topicName": "Listening and speaking 4.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 4.1,
+      "existingLessonIds": [
+        "e8bba91c-66ab-4edb-88a8-870f47fd5f8c"
+      ],
+      "excerpt": "4.1\n\nListening\n\nand\n\nspeaking\n\n"
+    },
+    {
+      "topicNumber": "4.2",
+      "topicName": "Reading 4.2.1 Intensive Reading: Visuals",
+      "topicOrder": 4.2,
+      "existingLessonIds": [
+        "35897b56-5cee-40ad-be83-b16408b6cd5e",
+        "86a4a636-7ad0-46ce-82d8-eeb19be7361d"
+      ],
+      "excerpt": "4.2\n\nReading\n\n4.2.1 Intensive\n\nReading:\n\nVisuals\n\n(3 lessons)\n\n• Interpreting\n\nvisuals\n\nBy the end of the Sub\n\nStrand, learner should be\n\nable to:\n\na) read visuals in print\n\nand digital formats for\n\ninformation,\n\nb) inte"
+    },
+    {
+      "topicNumber": "4.3",
+      "topicName": "Grammar in Use Word classes: Pronouns",
+      "topicOrder": 4.3,
+      "existingLessonIds": [
+        "1c98c473-ad1d-4fca-bef2-b9fddbee034a",
+        "35654f2f-73d3-424d-84f2-c0a861da7f25"
+      ],
+      "excerpt": "4.3\n\nGrammar\n\nin Use\n\nWord\n\nclasses:\n\nPronouns\n\n(3 lessons)\n\n• Personal\n\npronouns\n\n• Possessive\n\npronouns\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) identify personal and\n\npossessive pronouns\n\nus"
+    },
+    {
+      "topicNumber": "4.4",
+      "topicName": "Writing 4.4.1 Functional Writing",
+      "topicOrder": 4.4,
+      "existingLessonIds": [
+        "c0cddc05-93ba-4789-b05a-d3094f60a3f7",
+        "c2f0230e-0fb9-4301-bd82-cb847f08c8b0"
+      ],
+      "excerpt": "4.4\n\nWriting\n\n4.4.1 Functional\n\nWriting\n\n(3 lessons)\n\n• Friendly Letter\n\n• SMS\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify the key parts of a\n\nfriendly letter in\n\npreparation for writing,\n"
+    },
+    {
+      "topicNumber": "5.1",
+      "topicName": "Listening and Speaking 5.1.1 Pronunciation and Vocabulary:",
+      "topicOrder": 5.1,
+      "existingLessonIds": [
+        "df65ccd8-3487-4556-8f14-f25d1e9154f6"
+      ],
+      "excerpt": "5.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "5.2",
+      "topicName": "Reading 5.2.1 Extensive Reading",
+      "topicOrder": 5.2,
+      "existingLessonIds": [
+        "3d8d08a5-9070-46fc-9a21-c81364f901c6",
+        "f60e9a16-4640-4bf3-a696-886d606ca0b1"
+      ],
+      "excerpt": "5.2\n\nReading\n\n5.2.1\n\nExtensive\n\nReading\n\n(3 lessons)\n\n• Independent\n\nReading\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) select appropriate reading\n\nmaterials for lifelong\n\nlearning,\n\nb) read a var"
+    },
+    {
+      "topicNumber": "5.3",
+      "topicName": "Grammar in use 5.3.1 Word Classes: Adjectives",
+      "topicOrder": 5.3,
+      "existingLessonIds": [
+        "54d58a31-6576-4517-9ff2-53753cb9a64b",
+        "6decf75a-ac70-4a89-a1f4-2aab3818e8f0"
+      ],
+      "excerpt": "5.3\n\nGrammar\n\nin use\n\n5.3.1 Word\n\nClasses:\n\nAdjectives\n\n(3 lessons)\n\n• Regular\n\nadjectives\n\n• Irregular\n\nAdjectives\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) By the end of the Sub\n\nStrand, the l"
+    },
+    {
+      "topicNumber": "5.4",
+      "topicName": "Writing 5.4.1 Creative Writing",
+      "topicOrder": 5.4,
+      "existingLessonIds": [
+        "587b0c18-e308-4c13-ae33-558fd169f3eb",
+        "da31ce9c-69b5-4ca3-8eea-92ec47bd55bf"
+      ],
+      "excerpt": "5.4\n\nWriting\n\n5.4.1\n\nCreative\n\nWriting\n\n(3 lessons)\n\nNarrative\n\nCompositions\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) describe the parts of a\n\nnarrative composition in\n\npreparation for writing,\n"
+    },
+    {
+      "topicNumber": "6.1",
+      "topicName": "Listening and Speaking 6.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 6.1,
+      "existingLessonIds": [
+        "9a0f85ec-f91d-4344-8772-37fa47152ab4"
+      ],
+      "excerpt": "6.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "6.2",
+      "topicName": "Reading 6.2.1 Intensive Reading",
+      "topicOrder": 6.2,
+      "existingLessonIds": [
+        "7e915e6c-8654-4728-9a04-05357a5e138a",
+        "950d05d9-1a7e-4d05-881b-f3b535ae9a83"
+      ],
+      "excerpt": "6.2\n\nReading\n\n6.2.1\n\nIntensive\n\nReading\n\n(3 lessons)\n\nDialogue\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read a variety of dialogues\n\nrelated to email and the\n\ninternet for comprehension,\n\nb) app"
+    },
+    {
+      "topicNumber": "6.3",
+      "topicName": "Grammar in Use",
+      "topicOrder": 6.3,
+      "existingLessonIds": [
+        "2b3fad91-0f85-45d7-9110-d29984fb9686",
+        "7ffb8d9c-1eda-48cd-84f4-c0acc0a951be"
+      ],
+      "excerpt": "6.3\n\nGrammar\n\nin Use\n\n6.31 Word\n\nClass:\n\nDeterminers\n\n(3 lessons)\n\n• Quantifiers\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) identify quantifiers\n\nand nouns used\n\nwith them\n\nappropriately for\n\neff"
+    },
+    {
+      "topicNumber": "6.4",
+      "topicName": "Writing 6.4.1 Creative Writing",
+      "topicOrder": 6.4,
+      "existingLessonIds": [
+        "17948e0b-063a-4dbc-9fc9-660b7708088c",
+        "8b9226bf-d400-4891-88ec-51a973043920"
+      ],
+      "excerpt": "6.4\n\nWriting\n\n6.4.1 Creative\n\nWriting\n\n(3 lessons)\n\n• Pictorial\n\nCompositions\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) organise pictures in a\n\nlogical sequence to\n\nwrite pictorial\n\ncompositions"
+    },
+    {
+      "topicNumber": "7.1",
+      "topicName": "Listening and Speaking 7.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 7.1,
+      "existingLessonIds": [
+        "247204f1-0ae7-4e2d-94ab-79fdd40cc506"
+      ],
+      "excerpt": "7.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "7.2",
+      "topicName": "Reading 7.2.1 Extensive Reading: Independent Reading",
+      "topicOrder": 7.2,
+      "existingLessonIds": [
+        "8ccffb87-4f05-4987-8f63-1a58ed155759",
+        "bb4967d4-da75-4aca-a4fb-3989b9d374d0"
+      ],
+      "excerpt": "7.2\n\nReading\n\n7.2.1\n\nExtensive\n\nReading:\n\nIndependent\n\nReading\n\n(3 lessons)\n\n• Narratives/Poems\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read a variety of materials\n\n(narratives, poems, graded\n\n"
+    },
+    {
+      "topicNumber": "7.3",
+      "topicName": "Grammar in Use 7.3.1 Word classes: verb aspect",
+      "topicOrder": 7.3,
+      "existingLessonIds": [
+        "864c750c-9273-4cbb-93c6-10f1693fc049",
+        "d1b49187-e824-433a-a8ac-3a3ca7e4b26c"
+      ],
+      "excerpt": "7.3\n\nGrammar\n\nin Use\n\n7.3.1\n\nWord classes:\n\nverb aspect\n\n(3 lessons)\n\n• Present\n\nProgressive\n\nAspect\n\n• Past\n\nProgressive\n\nAspect\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify the present a"
+    },
+    {
+      "topicNumber": "7.4",
+      "topicName": "Writing 7.4.1 Mechanics of writing: Punctuation",
+      "topicOrder": 7.4,
+      "existingLessonIds": [
+        "4abe04ea-c615-488b-8cc3-5971faa9be66",
+        "6bceb223-c74d-45ea-9b92-ba6376210f5e"
+      ],
+      "excerpt": "7.4\n\nWriting\n\n7.4.1\n\nMechanics\n\nof writing:\n\nPunctuation\n\n(3 lessons)\n\n• Full stop\n\n• Capital\n\nletters\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) identify commonly used\n\npunctuation marks in\n\nwri"
+    },
+    {
+      "topicNumber": "8.1",
+      "topicName": "Listening and Speaking 8.1.1 Pronunciation and Vocabulary:",
+      "topicOrder": 8.1,
+      "existingLessonIds": [
+        "fcca02dc-d212-4f91-81a7-40ed86ec877e"
+      ],
+      "excerpt": "8.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "8.2",
+      "topicName": "Reading 8.2.1 Reading Fluency",
+      "topicOrder": 8.2,
+      "existingLessonIds": [
+        "599fa59d-4b37-4547-b33c-afdb2501f9b8",
+        "9402308e-6745-476f-894e-e47602a05589"
+      ],
+      "excerpt": "8.2\n\nReading\n\n8.2.1\n\nReading\n\nFluency\n\n(2 Lessons)\n\nBy the end of the Sub Strand,\n\nthe learners should be able\n\nto:\n\na) read a text of about 300\n\nwords accurately, at the\n\nright speed and with\n\nexpression for effective\n\n"
+    },
+    {
+      "topicNumber": "8.3",
+      "topicName": "Grammar in Use 8.3.1 Word Classes",
+      "topicOrder": 8.3,
+      "existingLessonIds": [
+        "bf30932d-d0dd-4976-9ed0-a7692d6dc17c",
+        "d908ddf9-478b-4374-8782-731f848ede5b"
+      ],
+      "excerpt": "8.3\n\nGrammar\n\nin Use\n\n8.3.1 Word\n\nClasses\n\n(3 Lessons)\n\n• Contracted\n\nVerb Forms\n\n• Positive and\n\nNegative\n\nStatements\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) form appropriate\n\ncontracted form"
+    },
+    {
+      "topicNumber": "8.4",
+      "topicName": "Writing 8.4.1 Creative Writing",
+      "topicOrder": 8.4,
+      "existingLessonIds": [
+        "a638e6bc-21f6-4086-9755-80c3e65259aa",
+        "e384ca7e-366f-4678-a405-560f94176807"
+      ],
+      "excerpt": "8.4\n\nWriting\n\n8.4.1 Creative\n\nWriting\n\n(3 Lessons)\n\n• Narrative\n\ncompositions\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) describe the parts of a\n\nnarrative composition in\n\npreparation for writing,"
+    },
+    {
+      "topicNumber": "9.2",
+      "topicName": "Reading 9.2.1 Intensive Reading",
+      "topicOrder": 9.2,
+      "existingLessonIds": [
+        "389babd2-e3ef-45cf-b3ff-456a44efd348",
+        "887aa51e-9c0a-4337-a77d-a44dcbd2c590"
+      ],
+      "excerpt": "9.2\n\nReading\n\n9.2.1 Intensive\n\nReading\n\n(3 lessons)\n\nNarratives\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read a short narrative of\n\nabout 320 words for\n\ncomprehension,\n\nb) apply appropriate read"
+    },
+    {
+      "topicNumber": "9.3",
+      "topicName": "Grammar in Use 9.3.1 Word Classes: Adverbs",
+      "topicOrder": 9.3,
+      "existingLessonIds": [
+        "1499796c-733d-478c-809e-29032f316074",
+        "435932b8-0365-44b5-8f56-bfd1335da4e4"
+      ],
+      "excerpt": "9.3\n\nGrammar\n\nin Use\n\n9.3.1 Word\n\nClasses:\n\nAdverbs\n\n(3 Lessons)\n\n• Adverbs of\n\ntime\n\n• Adverbs of\n\nplace\n\n• Adverbs of\n\nmanner\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) distinguish adverbs of\n\nm"
+    },
+    {
+      "topicNumber": "9.4",
+      "topicName": "Writing 9.4.1 Punctuation",
+      "topicOrder": 9.4,
+      "existingLessonIds": [
+        "156a6aa2-2bc6-4ba7-ad1b-ac8d62b896a2",
+        "a5f22c9b-8dc3-488b-8095-787b35c61952"
+      ],
+      "excerpt": "9.4\n\nWriting\n\n9.4.1\n\nPunctuation\n\n(3 lessons)\n\n• Comma,\n\n• Question\n\nMark\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify commonly\n\nused punctuation\n\nmarks in written\n\ntexts for effective\n\nco"
+    },
+    {
+      "topicNumber": "10.1",
+      "topicName": "Listening and Speaking 10.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 10.1,
+      "existingLessonIds": [
+        "d58fd8b5-c8ab-4d2a-94c4-2ceeb79f08ba"
+      ],
+      "excerpt": "10.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "10.2",
+      "topicName": "Reading 10.2.1 Intensive Reading",
+      "topicOrder": 10.2,
+      "existingLessonIds": [
+        "9cd3668c-eb78-4a26-835c-df5d5bfd7a5e",
+        "d8e53bc6-966d-43c8-8422-3dde39195b6e"
+      ],
+      "excerpt": "10.2\n\nReading\n\n10.2.1\n\nIntensive\n\nReading\n\n(3 lessons)\n\n• Factual Texts\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read factual texts of about\n\n320 words related to the\n\ntheme for comprehension,\n\n"
+    },
+    {
+      "topicNumber": "10.3",
+      "topicName": "Grammar in Use 10.3.1 Word Class: Conjunctions",
+      "topicOrder": 10.3,
+      "existingLessonIds": [
+        "10600cf2-f0e2-49e0-a584-9c2a27f3484b",
+        "5060ebc8-e45f-46f6-9fc1-9447553e4795"
+      ],
+      "excerpt": "10.3\n\nGrammar\n\nin Use\n\n10.3.1\n\nWord Class:\n\nConjunctions\n\n(3 lessons)\n\n• Coordinating\n\nconjunctions\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify conjunctions\n\ncorrectly in oral and\n\nwritten"
+    },
+    {
+      "topicNumber": "10.4",
+      "topicName": "Writing 10.4.1 Creative Writing",
+      "topicOrder": 10.4,
+      "existingLessonIds": [
+        "2f52ab06-ca76-45d8-b45e-277f309f0a74",
+        "772a1dd1-776c-444c-8102-172ab7c3af33"
+      ],
+      "excerpt": "10.4\n\nWriting\n\n10.4.1\n\nCreative\n\nWriting\n\n(3Lessons)\n\n• Descriptive\n\nCompositions\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) describe the parts of a\n\ndescriptive composition\n\nfor self-expression,\n"
+    },
+    {
+      "topicNumber": "11.1",
+      "topicName": "Listening and speaking 11.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 11.1,
+      "existingLessonIds": [
+        "500c6fe5-03bb-4b58-a45e-1e496cc50e41"
+      ],
+      "excerpt": "11.1\n\nListening\n\nand\n\nspeaking\n\n"
+    },
+    {
+      "topicNumber": "11.2",
+      "topicName": "Reading 11.2.1 Intensive Reading",
+      "topicOrder": 11.2,
+      "existingLessonIds": [
+        "9f0182b6-1945-4d6a-b084-2a8d6707953a",
+        "a00767dc-f3fe-473e-a28c-3287207d3fea"
+      ],
+      "excerpt": "11.2\n\nReading\n\n11.2.1\n\nIntensive\n\nReading\n\n(3 lessons)\n\n• Reading\n\ndigital texts\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) read grade- appropriate\n\ndigital poems and\n\nnarratives of about 300-\n\n3"
+    },
+    {
+      "topicNumber": "11.3",
+      "topicName": "Grammar in Use 11.3.1 Language Patterns",
+      "topicOrder": 11.3,
+      "existingLessonIds": [
+        "645ad99d-f9b1-4f03-bcb6-68b696fa3240"
+      ],
+      "excerpt": "11.3\n\nGrammar\n\nin Use\n\n11.3.1\n\nLanguage\n\nPatterns\n\n(3 lessons)\n\n• Interrogatives\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify interrogatives in a\n\nvariety of texts for\n\ncommunication clarit"
+    },
+    {
+      "topicNumber": "11.4",
+      "topicName": "Writing 11.4.1 Mechanics of writing: Spelling",
+      "topicOrder": 11.4,
+      "existingLessonIds": [
+        "f5398a3d-547f-401d-b7ad-de46b6374552",
+        "f5de5356-f5b2-4001-8f4b-2147d7e4f13b"
+      ],
+      "excerpt": "11.4\n\nWriting\n\n11.4.1\n\nMechanics of\n\nwriting:\n\nSpelling\n\n(2 lessons)\n\n• Commonly\n\nMisspelt\n\nWords\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify commonly\n\nmisspelt words in oral\n\nand written"
+    },
+    {
+      "topicNumber": "12.1",
+      "topicName": "Listening and Speaking 12.1.1 Pronunciation and Vocabulary",
+      "topicOrder": 12.1,
+      "existingLessonIds": [
+        "7278f16c-023a-41ba-9f43-47912d4ae5dc"
+      ],
+      "excerpt": "12.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "12.2",
+      "topicName": "Reading 12.2. 1 Intensive Reading",
+      "topicOrder": 12.2,
+      "existingLessonIds": [
+        "a15bb8a2-f4ad-45a6-b663-c894d993c761",
+        "d78aec2c-079a-43dd-8ca9-e5507114df76"
+      ],
+      "excerpt": "12.2\n\nReading\n\n12.2. 1\n\nIntensive Reading\n\n(3 lessons)\n\n• Poem\n\n• Song\n\n• Passage\n\n• Proverbs\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read a poem, song or\n\npassage containing\n\nproverbs with exp"
+    },
+    {
+      "topicNumber": "12.3",
+      "topicName": "Grammar in Use 12.3.1 Word classes: verb aspect",
+      "topicOrder": 12.3,
+      "existingLessonIds": [
+        "03c789f8-47b4-4706-bfcc-2116047bd0f2",
+        "cf6709c5-1833-43e3-8fe2-15346cacf6e3"
+      ],
+      "excerpt": "12.3\n\nGrammar\n\nin Use\n\n12.3.1\n\nWord\n\nclasses: verb\n\naspect\n\n(3 lessons)\n\n• Present\n\nPerfect\n\nAspect\n\n• Past\n\nPerfect\n\nAspect\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) identify the present\n\nand p"
+    },
+    {
+      "topicNumber": "12.4",
+      "topicName": "Writing 12.4.1 Guided Composition",
+      "topicOrder": 12.4,
+      "existingLessonIds": [
+        "5d24c23d-2e63-436a-b499-f6a836eeeb63",
+        "e6c45a8a-e808-4490-8e45-6b12f70c2674"
+      ],
+      "excerpt": "12.4\n\nWriting\n\n12.4.1\n\nGuided\n\nComposition\n\n(3 lessons)\n\n• Diary\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify the components of\n\na diary for effective\n\nwriting,\n\nb) write a diary in the rig"
+    },
+    {
+      "topicNumber": "13.2",
+      "topicName": "Reading 13.2.1 Extensive Reading: Independent Reading",
+      "topicOrder": 13.2,
+      "existingLessonIds": [
+        "5582fa8f-46e5-45f1-b62e-5d09d25c56bd",
+        "ee0905e8-a26f-4f52-b8d3-69aaeee6dbb8"
+      ],
+      "excerpt": "13.2\n\nReading\n\n13.2.1 Extensive\n\nReading:\n\nIndependent\n\nReading\n\n(3 lessons)\n\n• Newspapers and\n\nMagazines\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) read a variety of grade- appropriate digital a"
+    },
+    {
+      "topicNumber": "13.3",
+      "topicName": "Grammar in Use 13.3.1 Word Class: Prepositions",
+      "topicOrder": 13.3,
+      "existingLessonIds": [
+        "ad417f2e-a466-49fe-be6d-530dc324cd1b",
+        "fbc9d8c1-006e-4a03-82e1-26d45505974d"
+      ],
+      "excerpt": "13.3\n\nGrammar\n\nin Use\n\n13.3.1 Word\n\nClass:\n\nPrepositions\n\n(2 lessons)\n\n• Prepositions\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify prepositions of\n\nposition and direction in\n\nsentences,\n\nb"
+    },
+    {
+      "topicNumber": "13.4",
+      "topicName": "Writing 13.4.1 Spelling",
+      "topicOrder": 13.4,
+      "existingLessonIds": [
+        "b9a7e893-a34e-4b62-bcb1-e14454608c00",
+        "f544b2ef-ceb6-4ab7-affc-089d9b308956"
+      ],
+      "excerpt": "13.4\n\nWriting\n\n13.4.1\n\nSpelling\n\n(2 lessons)\n\n• Double\n\nWord\n\nConsonants\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) spell words with double\n\nconsonants correctly for\n\nclarity of writing,\n\nb) cons"
+    },
+    {
+      "topicNumber": "1.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 208,
+      "existingLessonIds": [
+        "27f3eadf-6479-44e6-94b3-d659fc4a31d5",
+        "de2ad81d-e5f5-4c7c-8330-9dcf6d34f53a"
+      ],
+      "excerpt": "1.1.1\n\nPronunciation\n\nand Vocabulary\n\n(3 lessons)\n\nListening\n\nComprehension\n\nBy the end of the Sub Strand\n\nthe learner should be able to:\n\na) pronounce sounds and\n\nwords correctly for\n\neffective oral\n\ncommunication,\n\nb) "
+    },
+    {
+      "topicNumber": "2.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 213,
+      "existingLessonIds": [
+        "1717e30d-6e98-437d-ad7c-acb4bfe67328",
+        "c4e1ba2a-eec6-49f8-a1fe-c2ef0e3a874f"
+      ],
+      "excerpt": "2.1.1\n\nPronunciation\n\nand\n\nVocabulary\n\n(3 lessons)\n\n• Target\n\nsounds\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) discriminate sounds and\n\nwords for listening,\n\ncomprehension,\n\nb) pronounce words\n\nc"
+    },
+    {
+      "topicNumber": "3.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 218,
+      "existingLessonIds": [
+        "028af2a6-f5be-4c07-b6d8-254cbc5c1f35",
+        "a8ecad5e-16f5-4261-9899-7fad4d513110"
+      ],
+      "excerpt": "3.1.1\n\nPronunciation\n\nand\n\nVocabulary\n\n(3 lessons)\n\n• Polite words\n\nand phrases\n\n• Target sounds\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\nb) identify polite words\n\nand phrases in a\n\nconversation f"
+    },
+    {
+      "topicNumber": "4.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 223,
+      "existingLessonIds": [
+        "74c05427-e272-4038-9b2f-9f78f1d69c1f",
+        "f7e63700-be46-48e0-b5e2-343b85084777"
+      ],
+      "excerpt": "4.1.1\n\nPronunciation\n\nand\n\nVocabulary\n\n(3 lessons)\n\n● Word Stress\n\n● Vocabulary\n\nbuilding\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\nb) pronounce words related\n\nto the theme using the\n\ncorrect stress"
+    },
+    {
+      "topicNumber": "8.1.1",
+      "topicName": "Pronunciation and Vocabulary:",
+      "topicOrder": 243,
+      "existingLessonIds": [
+        "98633d11-747f-4408-8539-b40999a44be5",
+        "d0061cfe-9026-4b6c-a246-e2356a38c5c1"
+      ],
+      "excerpt": "8.1.1\n\nPronunciation\n\nand\n\nVocabulary:\n\n(3 lessons)\n\n• Sounds\n\n• Tongue\n\nTwisters\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) articulate sounds\n\naccurately for clarity of\n\nspeech,\n\nb) select sounds"
+    },
+    {
+      "topicNumber": "11.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 257,
+      "existingLessonIds": [
+        "7faf6df1-197d-41b1-a654-0e09c89d14d2",
+        "ef0823e5-41d6-460e-8dae-1612a8a48fb7"
+      ],
+      "excerpt": "11.1.1\n\nPronunciation\n\nand\n\nVocabulary\n\n(2 lessons)\n\n• Listening\n\nFluency\n\nBy the end of the Sub Strand, the\n\nlearner should be able to:\n\na) listen to short speeches related\n\nto the theme for listening\n\nfluency,\n\nb) appl"
+    },
+    {
+      "topicNumber": "12.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 262,
+      "existingLessonIds": [
+        "8cbda565-1579-4938-8af7-4f38a8fb0fde",
+        "c9d01ea2-5dc0-4624-8cbf-e21601512143"
+      ],
+      "excerpt": "12.1.1\n\nPronunciation\n\nand\n\nVocabulary\n\n(2 lessons)\n\n• Speaking\n\nFluency\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) speak accurately, with\n\nexpression and at the\n\nright speed (minimal\n\nhesitation)"
+    },
+    {
+      "topicNumber": "5.1.1",
+      "topicName": "Pronunciation and Vocabulary:",
+      "topicOrder": 910,
+      "existingLessonIds": [
+        "54de61dc-ab3d-41c0-90dc-f1b61471a9b5",
+        "cb8e81e3-b188-4baa-b11b-225e552e0473"
+      ],
+      "excerpt": "5.1.1\n\nPronunciation and\n\nVocabulary:\n\n(3 lessons)\n\n• Listening\n\nComprehension\n\n• Language\n\nPattern (noun\n\nphrase + would\n\nlike to be ...)\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) listen activel"
+    },
+    {
+      "topicNumber": "6.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 915,
+      "existingLessonIds": [
+        "18a96375-2b92-4189-9d06-0cdd6513e827",
+        "a18f3618-0115-4615-a167-fc4d1bed2904"
+      ],
+      "excerpt": "6.1.1\n\nPronunciation\n\nand Vocabulary\n\n(3 lessons)\n\nStress and\n\nIntonation\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify correct stress and\n\nintonation in ‘WH’\n\nquestions, other questions\n\nan"
+    },
+    {
+      "topicNumber": "7.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 920,
+      "existingLessonIds": [
+        "6fdbe883-bea8-46fd-bb33-3a951b114e80",
+        "e2c41767-5304-4f99-9f94-cb23277017fb"
+      ],
+      "excerpt": "7.1.1\n\nPronunciation\n\nand\n\nVocabulary\n\n(3 lessons)\n\n• Interactive\n\n• Listening\n\n• Turn taking\n\n• Vocabulary\n\nbuilding\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) participate actively in a\n\ntwo-way "
+    },
+    {
+      "topicNumber": "9.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 929,
+      "existingLessonIds": [
+        "6817ffa5-8726-4fda-8530-78f1c3114983",
+        "b0e2e1df-2995-45ef-b711-7dd5ad641d36"
+      ],
+      "excerpt": "9.1.1\n\nPronunciation\n\nand\n\nVocabulary\n\n(2 lessons)\n\n• Speaking\n\nFluency\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) speak fluently and\n\nconfidently on a given\n\ntopic to enhance oral\n\nskills,\n\nb) a"
+    },
+    {
+      "topicNumber": "10.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 934,
+      "existingLessonIds": [
+        "0cd88398-39e6-4f49-94ad-53cddcd88918",
+        "9b79c5be-1702-4e4e-8a24-6647d3a3cf11"
+      ],
+      "excerpt": "10.1.1\n\nPronunciation\n\nand\n\nVocabulary\n\n(2 lessons)\n\n• Sounds\n\n• Oral\n\npresentation\n\ns\n\n• Interrupting\n\npolitely\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) articulate sounds /ɪ/, /iː/,\n\n/s/, /ʃ/ "
+    },
+    {
+      "topicNumber": "13.1.1",
+      "topicName": "Pronunciation and Vocabulary",
+      "topicOrder": 948,
+      "existingLessonIds": [
+        "c394dbe6-882e-47aa-8a80-1bda94b98405",
+        "fc8af850-91a2-4ab5-b809-6efc13d0e66a"
+      ],
+      "excerpt": "13.1.1\n\nPronunciation and\n\nVocabulary\n\n(3 lessons)\n\n• Language\n\nPattern\n\n‘very...but...’\n\n• Silent letters\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) listen intensively for\n\nspecific sounds, words"
+    }
+  ]
+}

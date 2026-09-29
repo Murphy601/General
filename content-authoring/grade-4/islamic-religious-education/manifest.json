@@ -1,0 +1,285 @@
+{
+  "subject": "ISLAMIC RELIGIOUS EDUCATION",
+  "slug": "islamic-religious-education",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 75626,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Selected Surahs",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "75d980bc-332e-4534-9e3d-6e578a261eb8",
+        "f71514a7-1682-4da4-8f44-a9cd62d7d127"
+      ],
+      "excerpt": "1.1 Selected\n\nSurahs\n\n• Al- Fatiha\n\n• An-Naas\n\n• Al-Falaq\n\n• Al-Ikhlas\n\n• Al- Masad\n\n• An-Nasr\n\n• Al- Kafirun\n\n(21 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) read the selected surah for\n\n"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Hadith of Prophet Muhammad as a model of good character.",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "626449f2-144b-4d47-b670-639b1a63e2df"
+      ],
+      "excerpt": "2.1 Hadith of\n\nProphet\n\nMuhammad\n\n(S.A.W.) as a\n\nmodel of good\n\ncharacter.\n\n(3 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) read the selected hadith on\n\nthe character of the\n\nProphet as a r"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Hadith on Etiquette of Eating",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "5a805575-0134-4c99-add9-681622b33a7d",
+        "bf477404-128a-488d-b5ee-50cb8e2aa0df"
+      ],
+      "excerpt": "2.2 Hadith on\n\nEtiquette of\n\nEating\n\n(3 Lessons)\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) read the selected hadith on\n\nappropriate manners of eating,\n\nb) demonstrate the etiquette of\n\neating to "
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Hadith on brushing teeth",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "1b3a465c-c631-4aa5-a2ae-719e6fb79f02",
+        "74e2d2a2-793c-4260-b6b5-753442f996e8"
+      ],
+      "excerpt": "2.3 Hadith on\n\nbrushing teeth\n\n(3 Lessons)\n\nBy the end of the sub-strand, the learner\n\nshould be able to:\n\na) read the selected hadith on brushing\n\nteeth for the promotion of oral\n\nhygiene,\n\nb) assess the importance of b"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Hadith on Fitness",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "0106ac35-877a-4cfa-b121-0d1268388f2a",
+        "6a56066b-f8a7-42ba-abc4-2cca62f16961"
+      ],
+      "excerpt": "2.4 Hadith\n\non Fitness\n\n(3 Lessons)\n\nBy the end of the sub -strand,\n\nthe learner should be able to:\n\na) read the selected hadith\n\non physical fitness to\n\npromote healthy living,\n\nb) assess the importance of\n\nphysical fit"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Attributes of Allah",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "3eb5a6d7-549a-43ca-8f45-a4ba64f2daa1",
+        "a3858bcc-2232-4507-9164-52e40387cba0"
+      ],
+      "excerpt": "3.1Attributes of\n\nAllah (S.W.T)\n\n• Ar-Rahman,\n\n• Ar-Rahim,\n\n• Al-Malik,\n\n• As-Salaam,\n\n• Al-Samiu\n\n• Al- Basir\n\n(4 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) mention the attributes of\n\nAl"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Belief in Angels Atid,",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "0bb0ede8-2dac-41f4-a988-0cb20da2da70",
+        "377c21cd-1446-42ac-b956-6ee721128377"
+      ],
+      "excerpt": "3.2 Belief in Angels\n\n• Jibril,\n\n• Mikail\n\n• Raqib and\n\nAtid,\n\n• Malakul Maut\n\n(Izrail)\n\n• Israfil\n\n(4 Lessons)\n\nBy the end of the sub- strand, the learner\n\nshould be able to:\n\na) mention the names\n\nof the selected\n\nange"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Prophets mentioned in the Qur’an Virtues of the Prophets (patience, honesty, tru",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "1b818c98-858f-4dbf-9331-03b4542e47bf"
+      ],
+      "excerpt": "3.3 Prophets\n\nmentioned in the\n\nQur’an\n\nVirtues of the\n\nProphets (patience,\n\nhonesty, truthfulness,\n\ngenerosity and\n\nobedience)\n\n(6 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) mention the "
+    },
+    {
+      "topicNumber": "4.1",
+      "topicName": "Twahara Types of Najasaat",
+      "topicOrder": 4.1,
+      "existingLessonIds": [
+        "269bbafc-72bb-49d2-9e01-4dee2882e252",
+        "cd01fe8d-e75f-49b5-a0c6-bf93d07ca627"
+      ],
+      "excerpt": "4.1 Twahara\n\n(Ritual\n\nPurity)\n\nTypes of\n\nNajasaat\n\n(3 Lessons)\n\nBy the end of the sub- strand,\n\nthe learner should be able to:\n\na) outline the types of najasaat\n\n(impurities) for physical and\n\nspiritual purification,\n\nb)"
+    },
+    {
+      "topicNumber": "4.3",
+      "topicName": "Pillars of Swalah",
+      "topicOrder": 4.3,
+      "existingLessonIds": [
+        "2e0aa72c-5701-4e4b-8051-540b3161d184",
+        "8b8e11d4-5e44-4238-b286-8e5056e07c3b"
+      ],
+      "excerpt": "4.3 Pillars\n\nof Swalah\n\n(4 Lessons)\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) identify the pillars of\n\nprayers for validity of\n\nswalah,\n\nb) apply the pillars of swalah\n\ncorrectly in daily prayers"
+    },
+    {
+      "topicNumber": "6.1",
+      "topicName": "Obligations of Parents to Children",
+      "topicOrder": 6.1,
+      "existingLessonIds": [
+        "36cfc39f-108a-4d41-924f-85a15ca626dc",
+        "d95e8ba7-5142-409c-86c7-0785cd385617"
+      ],
+      "excerpt": "6.1 Obligations\n\nof Parents\n\nto Children\n\n(2 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) state the obligations of\n\nparents to their children,\n\nb) assess the importance of\n\nparents fulfilli"
+    },
+    {
+      "topicNumber": "6.1",
+      "topicName": "Obligation of parents to children",
+      "topicOrder": 6.1,
+      "existingLessonIds": [
+        "e72fe757-98e2-4826-97a6-eebf790c72ff",
+        "f0970a46-e9cb-461a-ad81-966bd5bea8cb"
+      ],
+      "excerpt": "6.1 Obligations\n\nof Parents\n\nto Children\n\n(2 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) state the obligations of\n\nparents to their children,\n\nb) assess the importance of\n\nparents fulfilli"
+    },
+    {
+      "topicNumber": "6.2",
+      "topicName": "Obligation of children to parents",
+      "topicOrder": 6.2,
+      "existingLessonIds": [
+        "18ada39a-7bb7-4108-9a26-89d2c6fb3f6f",
+        "be0da2f0-65aa-4a6a-857b-7c31bb899ef7"
+      ],
+      "excerpt": "6.2 Obligations\n\nof Children\n\nto Parents\n\n(3 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) outline obligations of\n\nchildren to their parents,\n\nb) assess the importance of\n\nobeying and respec"
+    },
+    {
+      "topicNumber": "6.2",
+      "topicName": "Obligations of Children to Parents",
+      "topicOrder": 6.2,
+      "existingLessonIds": [
+        "462053e5-7327-469c-b413-1370bbd522e2",
+        "ca673f7d-1014-4852-89fb-deb80844b003"
+      ],
+      "excerpt": "6.2 Obligations\n\nof Children\n\nto Parents\n\n(3 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) outline obligations of\n\nchildren to their parents,\n\nb) assess the importance of\n\nobeying and respec"
+    },
+    {
+      "topicNumber": "6.3",
+      "topicName": "Children’s Obligations to Other Family Members",
+      "topicOrder": 6.3,
+      "existingLessonIds": [
+        "54b6be23-11f4-4827-b67e-c23472920dee"
+      ],
+      "excerpt": "6.3 Children’s\n\nObligations to\n\nOther Family\n\nMembers\n\n(3 Lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) outline obligations of\n\nchildren to other\n\nfamily members as an\n\nact of ibadah,\n\nb) a"
+    },
+    {
+      "topicNumber": "6.3",
+      "topicName": "Children’s obligation to other family members 03 7 Islamic Heritage and Civilisa",
+      "topicOrder": 6.3,
+      "existingLessonIds": [
+        "7bb23b2a-aade-416c-9db7-95a0171de363"
+      ],
+      "excerpt": "6.3 Children’s\n\nObligations to\n\nOther Family\n\nMembers\n\n(3 Lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) outline obligations of\n\nchildren to other\n\nfamily members as an\n\nact of ibadah,\n\nb) a"
+    },
+    {
+      "topicNumber": "7.1",
+      "topicName": "Call to Prophethood",
+      "topicOrder": 7.1,
+      "existingLessonIds": [
+        "12bb5b36-f274-4a1a-8356-d84ae502a921",
+        "9593f46c-2466-4b11-9e63-3694349fe3ce",
+        "b41e8392-c431-4258-8329-a17fe00ebb97",
+        "dc03d836-96f5-43c3-9545-9ec6e923c319"
+      ],
+      "excerpt": "7.1 Call to\n\nProphethood\n\n(4 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) describe the Prophet’s\n\nincidence at cave Hira with\n\nAngel Jibril (A.S.),\n\nb) assess the significance of\n\nthe first"
+    },
+    {
+      "topicNumber": "7.3",
+      "topicName": "Prophets journey Taif 03 TOTAL 90 Page 12 of 63",
+      "topicOrder": 7.3,
+      "existingLessonIds": [
+        "5e30c643-5408-4f27-ba09-c7c6f72a9182"
+      ],
+      "excerpt": "7.3 Prophet\n\n(S.A.W.)’s\n\nJourney to\n\nTaif\n\n(3 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) narrate the story of the\n\nProphet (S.A.W)’s journey\n\nto Taif,\n\nb) demonstrate the virtues\n\nexhibit"
+    },
+    {
+      "topicNumber": "7.3",
+      "topicName": "Prophet ’s Journey to Taif",
+      "topicOrder": 7.3,
+      "existingLessonIds": [
+        "84770a0a-9507-43d4-8585-a0fb7532eaac",
+        "e4aeb832-ac28-4020-a11c-6bb1c7690874"
+      ],
+      "excerpt": "7.3 Prophet\n\n(S.A.W.)’s\n\nJourney to\n\nTaif\n\n(3 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) narrate the story of the\n\nProphet (S.A.W)’s journey\n\nto Taif,\n\nb) demonstrate the virtues\n\nexhibit"
+    },
+    {
+      "topicNumber": "4.1.2",
+      "topicName": "Wudhu",
+      "topicOrder": 101,
+      "existingLessonIds": [
+        "24cedc5c-f309-4b61-892c-a062455c7750",
+        "d6b7877a-ae98-460f-8270-2ecb4aa5e57d"
+      ],
+      "excerpt": "4.1.2Wudhu\n\n(Ablution)\n\n(3 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) state the nullifiers of wudhu\n\n(ablution) to maintain a\n\nstate of ritual purity,\n\nb) assess the significance of\n\nwudh"
+    },
+    {
+      "topicNumber": "5.1.3",
+      "topicName": "Positive Usage of Media",
+      "topicOrder": 106,
+      "existingLessonIds": [
+        "21604db3-206d-41d7-8318-a347c2635c84",
+        "d16ee087-ba1d-4a5a-841b-1a03885d0101"
+      ],
+      "excerpt": "5.1.3 Positive\n\nUsage of\n\nMedia\n\n(3 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify types of media\n\nthat can be used to\n\nreinforce learning,\n\nb) explain the positive use\n\nof media for"
+    },
+    {
+      "topicNumber": "5.2.1",
+      "topicName": "Prohibition in Islam 02 5.3.1 Dua",
+      "topicOrder": 107,
+      "existingLessonIds": [
+        "338ea639-59f3-4f1b-815a-fd5e4aa4cabe",
+        "461cbce3-18ef-4583-9431-524942f333b7"
+      ],
+      "excerpt": "5.2.1\n\nProhibitions\n\nin Islam:\n\nEvils of\n\nBegging\n\n(2 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify categories of\n\npeople who deserve\n\nassistance in society,\n\nb) describe the evils "
+    },
+    {
+      "topicNumber": "5.2.1",
+      "topicName": "Prohibitions in Islam: Evils of Begging",
+      "topicOrder": 108,
+      "existingLessonIds": [
+        "2eb17ce6-181c-43ce-978c-fb4ab929bd25",
+        "4178acf2-4844-42a8-957e-ec47cdc938ac"
+      ],
+      "excerpt": "5.2.1\n\nProhibitions\n\nin Islam:\n\nEvils of\n\nBegging\n\n(2 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify categories of\n\npeople who deserve\n\nassistance in society,\n\nb) describe the evils "
+    },
+    {
+      "topicNumber": "4.1.3",
+      "topicName": "Conditions for Swalah",
+      "topicOrder": 784,
+      "existingLessonIds": [
+        "02b9fa14-9046-43a7-bea1-cf4b3dd925b1",
+        "619fbe1e-2738-4305-989a-a59b23c783e7"
+      ],
+      "excerpt": "4.1.3\n\nConditions for\n\nSwalah\n\n(3 Lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) state the conditions for\n\nswalah as a\n\nrequirement for its\n\nvalidity,\n\nb) demonstrate the\n\nobservable conditi"
+    },
+    {
+      "topicNumber": "5.1.1",
+      "topicName": "Virtues: Kindness to Allah’s Creatures",
+      "topicOrder": 786,
+      "existingLessonIds": [
+        "2f241b08-cc10-4382-8171-a89d0c03c3ed",
+        "81b55e2d-91e6-40b1-b007-efb51ffeec7d"
+      ],
+      "excerpt": "5.1.1Virtues:\n\nKindness to\n\nAllah’s\n\nCreatures\n\n(2 Lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) assess the significance\n\nof showing kindness to\n\nAllah’s creatures in the\n\nenvironment,\n\nb) "
+    },
+    {
+      "topicNumber": "5.1.2",
+      "topicName": "Islamic Manners of Dressing",
+      "topicOrder": 787,
+      "existingLessonIds": [
+        "65acb714-349d-4d57-8b37-7070643df5ff",
+        "69e4d017-b35a-42ff-86b2-84494397bf53"
+      ],
+      "excerpt": "5.1.2\n\nIslamic\n\nManners of\n\nDressing\n\n(3 Lessons)\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) describe appropriate Islamic code\n\nof dressing as per the teachings of\n\nIslam,\n\nb) assess the significa"
+    },
+    {
+      "topicNumber": "5.3.1",
+      "topicName": "Dua",
+      "topicOrder": 791,
+      "existingLessonIds": [
+        "10620352-e840-407f-b875-18a01f54a601",
+        "7401bffd-cbb4-4b17-84de-eb5a9d592850"
+      ],
+      "excerpt": "5.3.1Dua\n\n(Supplication)\n\nDua for Leaving\n\nand Entering the\n\nHouse\n\n(2 Lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) recite the dua for\n\nleaving and entering\n\nthe house to seek\n\nAllah’s pro"
+    },
+    {
+      "topicNumber": "5.3.1",
+      "topicName": "Dua Dua for Leaving and Entering the House",
+      "topicOrder": 792,
+      "existingLessonIds": [
+        "ab428f9c-26f3-45f6-b58b-5fb025469e40"
+      ],
+      "excerpt": "5.3.1Dua\n\n(Supplication)\n\nDua for Leaving\n\nand Entering the\n\nHouse\n\n(2 Lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) recite the dua for\n\nleaving and entering\n\nthe house to seek\n\nAllah’s pro"
+    }
+  ]
+}

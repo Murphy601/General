@@ -1,0 +1,296 @@
+{
+  "subject": "INDIGENOUS LANGUAGES",
+  "slug": "indigenous-languages",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 86314,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Listening and Speaking 1.1.1 Attentive Listening",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "3fccd9f2-71d1-44dc-a762-2273bff59d6a"
+      ],
+      "excerpt": "1.1 Listening\n\nand Speaking\n\n1.1.1 Attentive\n\nListening\n\n(2 lessons)\n\n• Nouns- singular and\n\nplural\n\n• Verbal\n\ninstructions- Songs\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify nouns in\n\nsi"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Reading 1.2.1 Reading for Information",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "4abb924c-449c-4e58-8749-a75a033eccbb"
+      ],
+      "excerpt": "1.2 Reading 1.2.1 Reading\n\nfor\n\nInformation\n\n(2 lessons)\n\n• Vocabulary\n\nbuilding\n\n• Nouns- singular\n\nand plural\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify vocabulary\n\nitems in a text for\n"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Writing 1.3.1 Handwriting",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "7a7fe5b0-4e6d-4140-bf8c-e12e5fc8707b",
+        "ba2bfaeb-bf9b-4b17-a0dd-ad241aca7bc4"
+      ],
+      "excerpt": "1.3 Writing 1.3.1\n\nHandwriting\n\n(2 lessons)\n\n• Letters of the\n\nalphabet\n\n• Neatness and\n\nlegibility- sentences\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify letters of the\n\nalphabet in the l"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Listening and Speaking 2.1.1 Listening for Information",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "daa0bd4d-1212-4b00-9ec2-db77a1e98a49"
+      ],
+      "excerpt": "2.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Reading 2.2.1Reading Fluency",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "0c9ae53f-cdfc-47f2-a0d1-7599126e44e1",
+        "b56a2636-f4a0-4b38-bf6b-1bf40ed668de"
+      ],
+      "excerpt": "2.2 Reading 2.2.1Reading\n\nFluency\n\n(2 lessons)\n\n• Intonation\n\n• Reading with\n\nexpression\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read a story with correct\n\nintonation for effective\n\ncommunicati"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Writing 2.3.1 Punctuation",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "dbeb5026-46cf-40b6-9ebf-b720c007b64e",
+        "eb583e73-572c-48aa-9763-6a16378a9b5e"
+      ],
+      "excerpt": "2.3 Writing 2.3.1\n\nPunctuation\n\n(2 lessons)\n\n• The full stop\n\n• The comma\n\n• Capitalization\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify punctuation marks\n\nin written sentences for\n\ninforma"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Listening and Speaking 3.1.1 Listening for Comprehension",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "51f58a2e-d0f7-488a-b294-ed7b4a529c87"
+      ],
+      "excerpt": "3.1 Listening\n\nand Speaking\n\n3.1.1 Listening\n\nfor\n\nComprehension\n\n(2 lessons)\n\n• Responding to\n\nquestions\n\n• Verbs- introduction\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify verbs from an o"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Reading 3.2.1 Reading for comprehension",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "1300447a-9808-42ae-beab-65fde9f2984a"
+      ],
+      "excerpt": "3.2 Reading 3.2.1 Reading\n\nfor\n\ncomprehension\n\n(2 lessons)\n\n• Dialogues- vocabulary\n\nbuilding\n\n• Inferring\n\nmeaning\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read a dialogue based on\n\nthe theme f"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Writing 3.3.1 Sequencing Ideas",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "c31e2f9f-2cfb-4705-828d-3a0b6b4d375c",
+        "e6e07776-c371-467a-b4b8-da117694ec66"
+      ],
+      "excerpt": "3.3 Writing 3.3.1 Sequencing\n\nIdeas\n\n(2 lessons)\n\n• Sequencing in\n\na paragraph\n\n• Verbs\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify main ideas in a\n\nsimple paragraph for\n\ncomprehension,\n\nb"
+    },
+    {
+      "topicNumber": "4.2",
+      "topicName": "Reading 4.2.1 Extensive Reading",
+      "topicOrder": 4.2,
+      "existingLessonIds": [
+        "4a005493-364d-4acc-a3c3-0375d719ede3",
+        "97e5886e-7f50-4794-a7b8-701aea120a3c"
+      ],
+      "excerpt": "4.2\n\nReading\n\n4.2.1 Extensive\n\nReading\n\n(2 lessons)\n\n• Vocabulary\n\nbuilding\n\n• Proverbs\n\nand sayings\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify proverbs and\n\nsayings from level readers\n\nf"
+    },
+    {
+      "topicNumber": "4.3",
+      "topicName": "Writing 4.3.1 Creative Writing",
+      "topicOrder": 4.3,
+      "existingLessonIds": [
+        "32ba1773-f7d0-4ca4-9928-1a87937b85d6",
+        "4f975253-3194-4616-b459-01c956b1ef7d"
+      ],
+      "excerpt": "4.3 Writing 4.3.1 Creative\n\nWriting\n\n(2 lessons)\n\n• Proverbs and\n\nsayings\n\n• Imaginative\n\ncompositions\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify proverbs and\n\nsayings for information,\n\n"
+    },
+    {
+      "topicNumber": "5.1",
+      "topicName": "Listening and Speaking 5.1.1 Expressing Self Creatively",
+      "topicOrder": 5.1,
+      "existingLessonIds": [
+        "0bf1c8b8-e5dd-4ce2-bc5b-96799d02b5ec"
+      ],
+      "excerpt": "5.1 Listening\n\nand Speaking\n\n5.1.1\n\nExpressing Self\n\nCreatively\n\n(2 lessons)\n\n• Describe\n\npersonal\n\nexperiences\n\n• Use of ‘when’\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) describe personal\n\nexper"
+    },
+    {
+      "topicNumber": "5.2",
+      "topicName": "Reading 5.2.1 Reading for Information",
+      "topicOrder": 5.2,
+      "existingLessonIds": [
+        "e595761b-5c83-40ec-8645-ed2c4e1eb0fe"
+      ],
+      "excerpt": "5.2 Reading 5.2.1 Reading\n\nfor Information\n\n(2 lessons)\n\n• Vocabulary\n\nbuilding\n\n• Reading\n\nstrategies- skimming and\n\nscanning\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) identify vocabulary\n\nrela"
+    },
+    {
+      "topicNumber": "5.3",
+      "topicName": "Writing 5.3.1 Writing Sentences",
+      "topicOrder": 5.3,
+      "existingLessonIds": [
+        "73ca79b6-9061-4cf1-914c-f875ddc64a80",
+        "8dbe36e7-1015-4f91-8368-a92e5a93dacd"
+      ],
+      "excerpt": "5.3 Writing 5.3.1\n\nWriting\n\nSentences\n\n(2 lessons)\n\n• Vocabulary\n\nbuilding\n\n• Parts of a\n\nsentence\n\n• Compound\n\nsentences\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify parts that\n\nmake a sen"
+    },
+    {
+      "topicNumber": "6.1",
+      "topicName": "Listening and Speaking 6.1.1 Listening for Information",
+      "topicOrder": 6.1,
+      "existingLessonIds": [
+        "135842b9-83d4-4c55-8066-02533abd5536"
+      ],
+      "excerpt": "6.1 Listening\n\nand Speaking\n\n6.1.1 Listening\n\nfor Information\n\n(2 lessons)\n\n• Vocabulary\n\nbuilding\n\n• Responding to\n\nquestions\n\n• Prepositions\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) describe "
+    },
+    {
+      "topicNumber": "6.2",
+      "topicName": "Reading 6.2.1 Reading Fluency: Poetry",
+      "topicOrder": 6.2,
+      "existingLessonIds": [
+        "c8d79e74-9aaf-4799-87cf-fb76a6795d67",
+        "d1c5d4ad-75b3-4f04-a3ee-e4e95e88c73b"
+      ],
+      "excerpt": "6.2 Reading 6.2.1 Reading\n\nFluency:\n\nPoetry\n\n(2 lessons)\n\n• Fluency- pace and\n\nintonation\n\n• Answering\n\nquestions\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read poems with\n\ncorrect pace and\n\ninto"
+    },
+    {
+      "topicNumber": "6.3",
+      "topicName": "Writing 6.3.1 Creative Writing",
+      "topicOrder": 6.3,
+      "existingLessonIds": [
+        "5a416d88-513a-45fb-93db-a35081855ee4",
+        "a2426fb1-9999-493d-8a07-f774b7e80710"
+      ],
+      "excerpt": "6.3\n\nWriting\n\n6.3.1 Creative\n\nWriting\n\n(2 lessons)\n\n• Elements of\n\ncreative\n\nwriting\n\n• Stories from\n\nartistic\n\nworks/pictures\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) highlight the elements of\n"
+    },
+    {
+      "topicNumber": "7.1",
+      "topicName": "Listening and Speaking 7.1.1 Self- expression",
+      "topicOrder": 7.1,
+      "existingLessonIds": [
+        "5cbfb5f5-e34b-4922-a3fb-5b0f944979af"
+      ],
+      "excerpt": "7.1 Listening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "7.2",
+      "topicName": "Reading 7.2.1 Reading comprehension",
+      "topicOrder": 7.2,
+      "existingLessonIds": [
+        "e7998bec-c5fb-4514-9f3f-e5110a58ce8d"
+      ],
+      "excerpt": "7.2 Reading 7.2.1 Reading\n\ncomprehension\n\n(2 lessons)\n\nInterjections to\n\nexpress emotion\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) identify interjections in\n\ntexts for comprehension,\n\nb) use int"
+    },
+    {
+      "topicNumber": "7.3",
+      "topicName": "Writing 7.3.1 Creative writing- Dialogue",
+      "topicOrder": 7.3,
+      "existingLessonIds": [
+        "fc54e9da-c3b2-4582-ae7a-818fece02492"
+      ],
+      "excerpt": "7.3\n\nWriting\n\n7.3.1 Creative\n\nwriting- Dialogue\n\n(2 lessons)\n\n• Writing a\n\ndialogue\n\n• Using\n\ninterjections\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) highlight the steps of\n\nwriting a simple\n\ndia"
+    },
+    {
+      "topicNumber": "8.1",
+      "topicName": "Listening and Speaking 8.1.1Attentive Listening",
+      "topicOrder": 8.1,
+      "existingLessonIds": [
+        "50f85d72-c918-4068-a047-0e24c6c83c41"
+      ],
+      "excerpt": "8.1\n\nListening\n\nand\n\nSpeaking\n\n"
+    },
+    {
+      "topicNumber": "8.2",
+      "topicName": "Reading 8.2.1 Extensive Reading: Advertisements and News",
+      "topicOrder": 8.2,
+      "existingLessonIds": [
+        "0acf8ef0-84c3-44c6-946a-23accf367073",
+        "123acf10-48c2-41b8-96cb-454cc03f7c73"
+      ],
+      "excerpt": "8.2 Reading 8.2.1 Extensive\n\nReading:\n\nAdvertisements\n\nand News\n\n(2 lessons)\n\n• Adjectives\n\n• Interpreting\n\nadverts and\n\nnews\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) describe objects from\n\nadv"
+    },
+    {
+      "topicNumber": "8.3",
+      "topicName": "Writing 8.3.1 Functional Writing: Filling Forms",
+      "topicOrder": 8.3,
+      "existingLessonIds": [
+        "cf8a69c7-c96e-4a4f-b343-39d2c82d4419",
+        "ee25cc60-f096-4a20-b1e2-43ee91d943dc"
+      ],
+      "excerpt": "8.3Writing 8.3.1\n\nFunctional\n\nWriting: Filling\n\nForms\n\n(2 lessons)\n\n• Components\n\n• Format\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify parts of a simple\n\nform for information,\n\nb) create a"
+    },
+    {
+      "topicNumber": "9.1",
+      "topicName": "Listening and Speaking 9.1.1 Self- expression",
+      "topicOrder": 9.1,
+      "existingLessonIds": [
+        "dc261328-caa8-4db1-b243-5f9121987d6c"
+      ],
+      "excerpt": "9.1 Listening\n\nand Speaking\n\n9.1.1 Self- expression\n\n(2 lessons)\n\n• Turn taking\n\n• Polite\n\ninterruption\n\n• Verbs\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) describe a real life\n\nexperience using\n\n"
+    },
+    {
+      "topicNumber": "9.2",
+      "topicName": "Reading 9.2.1 Reading Comprehension: Poetry",
+      "topicOrder": 9.2,
+      "existingLessonIds": [
+        "f0dae9e9-7bc0-45cb-84b5-9617d467e263",
+        "ffec856f-bee7-4d29-8f02-3a6ffed88528"
+      ],
+      "excerpt": "9.2 Reading 9.2.1 Reading\n\nComprehension:\n\nPoetry\n\n(2 lessons)\n\n• Components of\n\na poem\n\n• Answering\n\nquestions\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify components of a\n\npoem for compre"
+    },
+    {
+      "topicNumber": "9.3",
+      "topicName": "Writing 9.3.1 Functional writing: Instruction charts",
+      "topicOrder": 9.3,
+      "existingLessonIds": [
+        "182ea551-f8f9-48ba-810e-931d4820bffe",
+        "56e60ca0-ebfc-4a99-8b8f-965fb277b7b9"
+      ],
+      "excerpt": "9.3 Writing 9.3.1\n\nFunctional\n\nwriting:\n\nInstruction\n\ncharts\n\n(2 lessons)\n\n• Giving\n\ninstructions\n\n• Verbs\n\nBy the end of the Sub strand,\n\nthe learner should be able to:\n\na) give clear instructions for\n\ninformation,\n\nb) "
+    },
+    {
+      "topicNumber": "2.1.1",
+      "topicName": "Listening for Information",
+      "topicOrder": 17,
+      "existingLessonIds": [
+        "1e447479-a855-470f-8b8a-247567e1d0be",
+        "d1e788e5-01c4-48cb-a4ed-52e09ec2556b"
+      ],
+      "excerpt": "2.1.1 Listening\n\nfor Information\n\n(2 lessons)\n\n• Responding to\n\ninstructions\n\n• Verbs- introduction\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) select instructions from an\n\noral text for informatio"
+    },
+    {
+      "topicNumber": "4.1.1",
+      "topicName": "Self – expression",
+      "topicOrder": 23,
+      "existingLessonIds": [
+        "4b5e167e-d493-4402-bc50-92ab18c4de20",
+        "f4504e62-d076-47ad-8f0e-27625d8aace5"
+      ],
+      "excerpt": "4.1.1 Self –\n\nexpression\n\n(2 lessons)\n\n• Oral\n\nnarratives\n\n• Similes\n\n• Metaphors\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify similes and\n\nmetaphors commonly\n\nused in the community,\n\nb) re"
+    },
+    {
+      "topicNumber": "7.1.1",
+      "topicName": "Self- expression",
+      "topicOrder": 33,
+      "existingLessonIds": [
+        "15f8daaf-7722-4c2a-89d7-8a2e4c47ead4",
+        "31f6b176-dd6b-4c3e-8cce-a29068a1213b"
+      ],
+      "excerpt": "7.1.1 Self- expression\n\n(2 lessons)\n\n• Vocabulary\n\nbuilding\n\n• Using\n\ninterjections\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) describe leisure\n\nactivities for\n\ninformation,\n\nb) conduct a debate\n"
+    },
+    {
+      "topicNumber": "8.1.1",
+      "topicName": "Attentive Listening",
+      "topicOrder": 719,
+      "existingLessonIds": [
+        "76430e5c-0755-4671-a335-80e016cb43db",
+        "7e19663b-5bc3-4cfd-95ef-ee80debd80fe"
+      ],
+      "excerpt": "8.1.1Attentive\n\nListening\n\n(2 lessons)\n\n• Telephone\n\nConversation- Polite\n\nexpressions\n\n• Adjectives- introduction\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) describe digital devices\n\nfor informat"
+    }
+  ]
+}

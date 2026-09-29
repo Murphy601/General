@@ -1,0 +1,128 @@
+{
+  "subject": "AGRICULTURE",
+  "slug": "agriculture",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 48672,
+  "topics": [
+    {
+      "topicNumber": "1.2",
+      "topicName": "Water Conservation",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "1d2681f2-4d07-4199-b111-a2b9c8ff8014",
+        "7475f574-bed7-4d64-be63-9e97c86f34c2"
+      ],
+      "excerpt": "1.2 Water\n\nConservation\n\n(7 lessons)\n\nBy the end of the sub\n\nstrand the learner should\n\nbe able to:\n\na) describe drip\n\nirrigation as a way of\n\nconserving water,\n\nb) carry out drip\n\nirrigation to conserve\n\nwater,\n\nc) appr"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Fuel Conservation",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "64be68f8-a2fd-408b-80f5-8c87f82915f6",
+        "861c676f-64fd-49ff-aba9-edd5e7f86623"
+      ],
+      "excerpt": "1.3 Fuel\n\nConservation\n\n(7 lessons)\n\nBy the end of the sub\n\nstrand the learner should\n\nbe able to:\n\na) identify types of fuels\n\nused at home,\n\nb) conserve fuels during\n\ncooking,\n\nc) appreciate the\n\nimportance of\n\nconserv"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Conserving Wild Animals",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "8348c38c-63fb-45e6-9a48-8a52da47fcdf",
+        "c7bebbb1-7b30-4eb8-a2e5-9ebd7999e4ac"
+      ],
+      "excerpt": "1.4 Conserving\n\nWild Animals\n\n(8 lessons)\n\nBy the end of the sub\n\nstrand the learner should\n\nbe able to:\n\na) identify small wild\n\nanimals that destroy\n\ncrops,\n\nb) construct and use a\n\nscarecrow to scare off\n\nsmall wild a"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Direct Sowing of Tiny Seeds",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "c4073caa-cd36-48d1-ac30-9f0c4092f9f1",
+        "fcb2a47f-c4bd-44cd-888a-c734cd64815c"
+      ],
+      "excerpt": "2.1 Direct\n\nSowing of\n\nTiny Seeds\n\n(8 lessons)\n\nBy the end of the sub\n\nstrand the learner\n\nshould be able to:\n\na) identify crops\n\nestablished through\n\ndirect sowing of\n\ntiny seeds,\n\nb) sow tiny seeds in a\n\nfinely prepare"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Growing Fruits",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "07b1b64f-fd8c-46f2-8525-d16f7905ad0f",
+        "93df281a-f6bb-40ef-93b7-3ccb0bdc9112"
+      ],
+      "excerpt": "2.2\n\nGrowing\n\nFruits\n\n(16 lessons)\n\nBy the end of the sub\n\nstrand the learner\n\nshould be able to:\n\na) identify fruits that\n\ncan grow the\n\nlocality,\n\nb) grow a fruit crop\n\nsuited in the\n\nlocality,\n\nc) appreciate the\n\nimpo"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Uses of Domestic Animals",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "786b430c-dd19-4738-a6c0-6169112bb71e",
+        "ce86550f-cce5-4ccc-b78e-643dc0f6f378"
+      ],
+      "excerpt": "2.3 Uses of\n\nDomestic\n\nAnimals\n\n(8 lessons)\n\nBy the end of the sub\n\nstrand the learner should\n\nbe able to:\n\na) identify types of\n\ndomestic animals in\n\nthe community,\n\nb) relate various domestic\n\nanimals to their uses,\n\nc"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Balanced Meal",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "503e6f78-2fba-4b08-8b12-c6313d08cb29",
+        "6452b0e8-4c21-4801-b8eb-e1ee9a2d63aa"
+      ],
+      "excerpt": "2.4\n\nBalanced\n\nMeal\n\n(9 lessons)\n\nBy the end of the sub\n\nstrand the learner should be\n\nable to:\n\na) explain importance of\n\neating a balanced meal,\n\nb) select food from\n\ndifferent food groups to\n\nmake a balanced meal,\n\nc)"
+    },
+    {
+      "topicNumber": "2.5",
+      "topicName": "Cooking Food food frying food",
+      "topicOrder": 2.5,
+      "existingLessonIds": [
+        "48bdd55f-9ef3-47a8-aec2-0b797e71462e",
+        "c95b1ca0-7918-4f21-b0fc-6c406c41aa2a"
+      ],
+      "excerpt": "2.5 Cooking\n\nFood\n\n• Boiling\n\nfood\n\n• Shallow\n\nfrying\n\nfood\n\n(11 lessons)\n\nBy the end of the sub\n\nstrand the learner should\n\nbe able to:\n\na) describe methods of\n\ncooking food,\n\nb) cook food using\n\ndifferent methods,\n\nc) "
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Personal Hygiene",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "29d72749-fc8e-46b6-b0ad-c3146359015c",
+        "5504bdee-b7c2-469a-a7b6-94791e8ec666"
+      ],
+      "excerpt": "3.1\n\nPersonal\n\nHygiene\n\n(10 lessons)\n\nBy the end of the sub\n\nstrand the learner should\n\nbe able to:\n\na) identify healthy\n\npractices that promote\n\npersonal hygiene,\n\nb) apply healthy\n\npractices that promote\n\npersonal hygi"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Domestic Hygiene",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "981e20aa-e03d-4e16-b025-e49493442ffa",
+        "f9d5455c-2460-47d4-ac4b-44f83c4fbf5b"
+      ],
+      "excerpt": "3.2\n\nDomestic\n\nHygiene\n\n(9 lessons)\n\nBy the end of the sub\n\nstrand the learner should be\n\nable to:\n\na) describe the various\n\nmethods used for\n\ncleaning home\n\nenvironment,\n\nb) use appropriate\n\nmethods to clean home\n\nenvir"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Cleaning Personal Protective Equipment",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "1da79a99-edae-4457-9005-619c86063bb9"
+      ],
+      "excerpt": "3.3 Cleaning\n\nPersonal\n\nProtective\n\nEquipment\n\n(9 lessons)\n\nBy the end of the sub\n\nstrand the learner\n\nshould be able to:\n\na) identify personal\n\nprotective\n\nequipment in day to\n\nday life,\n\nb) clean personal\n\nprotective\n\n"
+    },
+    {
+      "topicNumber": "4.1",
+      "topicName": "Making Tacking Stitches",
+      "topicOrder": 4.1,
+      "existingLessonIds": [
+        "58514131-fb91-4b57-92ab-446c363737ad",
+        "844b2871-c8a2-44ad-97c5-ecc83dad4828"
+      ],
+      "excerpt": "4.1 Making\n\nTacking\n\nStitches\n\n(11 lessons)\n\nBy the end of the sub\n\nstrand the learner should\n\nbe able to:\n\na) identify the types of\n\ntacking stitches in\n\nsewing,\n\nb) make an item using\n\ntacking stitches,\n\nc) appreciate "
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "subject": "HINDU RELIGIOUS EDUCATION",
+  "slug": "hindu-religious-education",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 55645,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Panch- mahabhoot",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "852d5734-5b3b-4a1c-95b4-0fedd9c5857c",
+        "a9cb2d56-8b1e-4ce2-b963-4eb5bacf8b50"
+      ],
+      "excerpt": "1.1Panch- mahabhoot\n\n(10 lessons)\n\n• Jal(water)\n\n• Sacred Rivers\n\n• River Ganga,\n\nBeas,\n\nRujubalika\n\n• Sacred Trees.\n\nTulsi,\n\n• Beri &\n\n• Boddhi tree.\n\nBy the end of the sub- strand the learner should\n\nbe able to:\n\na) st"
+    },
+    {
+      "topicNumber": "4.1",
+      "topicName": "Dainik Prarthana",
+      "topicOrder": 4.1,
+      "existingLessonIds": [
+        "080f5de3-a4a7-4835-a60d-49e6b7f3e99e",
+        "f682f542-56c9-4327-a69a-ff769755c02e"
+      ],
+      "excerpt": "4.1 Dainik\n\nPrarthana (Daily\n\nprayers)\n\n(10 lessons)\n\n• Gayatri\n\nMantra\n\n• Twamev\n\nMata cha\n\nPita Twamey\n\n• Saraswati\n\nVandana\n\nSanatan/Hindu\n\nBy the end of the sub-strand\n\nthe learner should be able to:\n\na) identify the"
+    },
+    {
+      "topicNumber": "5.1",
+      "topicName": "Aspects of integrity",
+      "topicOrder": 5.1,
+      "existingLessonIds": [
+        "021c5426-eb92-468f-8639-df715c2e2ce9",
+        "dfee2228-1785-4592-aea9-0de7980cdfc9"
+      ],
+      "excerpt": "5.1Aspects of\n\nintegrity\n\n(10 lessons)\n\n• Parables\n\nfrom the\n\nfour faiths.\n\n(Moral\n\nstories from\n\nthe four\n\nfaiths)\n\n• Practices of\n\na passenger\n\nBy the end of the sub-strand\n\nthe learner should be able\n\nto:\n\na) state th"
+    },
+    {
+      "topicNumber": "5.1",
+      "topicName": "Aspects of Integrity. 10 6.0. Yoga 6.1. Pranayam and asanas 10 7.0. Principles o",
+      "topicOrder": 5.1,
+      "existingLessonIds": [
+        "4ad7632f-7f91-4090-b6f7-bdea343d0dc0"
+      ],
+      "excerpt": "5.1Aspects of\n\nintegrity\n\n(10 lessons)\n\n• Parables\n\nfrom the\n\nfour faiths.\n\n(Moral\n\nstories from\n\nthe four\n\nfaiths)\n\n• Practices of\n\na passenger\n\nBy the end of the sub-strand\n\nthe learner should be able\n\nto:\n\na) state th"
+    },
+    {
+      "topicNumber": "6.1",
+      "topicName": "Pranayam and asanas 10 7.0. Principles of Dharma 7.1. Virtues of Righteousness.",
+      "topicOrder": 6.1,
+      "existingLessonIds": [
+        "4c4b5cee-8269-43dd-b7c7-b8e04ab83480"
+      ],
+      "excerpt": "6.1 Pranayam\n\n(Breathing\n\nexercises)\n\n(10 lessons)\n\n• Bhastrika\n\n• Kapaal Bhaati\n\nAsanas\n\n• Vajra sana\n\n(ankle pose),\n\nBy the end of the sub-strand\n\nthe learner should be able to:\n\na) name the types of\n\nPranayam for\n\nfam"
+    },
+    {
+      "topicNumber": "6.1",
+      "topicName": "Pranayam",
+      "topicOrder": 6.1,
+      "existingLessonIds": [
+        "67a6c0d8-02a3-4d73-9ce1-26203a8824aa",
+        "e36f4907-154f-4725-b781-2516a93fbd45"
+      ],
+      "excerpt": "6.1 Pranayam\n\n(Breathing\n\nexercises)\n\n(10 lessons)\n\n• Bhastrika\n\n• Kapaal Bhaati\n\nAsanas\n\n• Vajra sana\n\n(ankle pose),\n\nBy the end of the sub-strand\n\nthe learner should be able to:\n\na) name the types of\n\nPranayam for\n\nfam"
+    },
+    {
+      "topicNumber": "7.1",
+      "topicName": "Virtues of Righteousness. 10 8.0. Utsav 8.1. Social and National festivals 10 8.",
+      "topicOrder": 7.1,
+      "existingLessonIds": [
+        "a68bd6ae-2a47-47b5-aa5f-e9d0f3c0df97"
+      ],
+      "excerpt": "7.1Virtues for\n\nrighteousness\n\n(10 lessons)\n\nSanatan/Vedic based\n\non moral stories.\n\n• Paramatma\n\n• Purushartha\n\n• Pranidaya\n\n• Punarjanam\n\n• Prarthana\n\nBy the end of the sub- strand the learner should\n\nbe able to:\n\na) i"
+    },
+    {
+      "topicNumber": "7.1",
+      "topicName": "Virtues for righteousness",
+      "topicOrder": 7.1,
+      "existingLessonIds": [
+        "b43f83dd-bc5d-47e2-ae78-53f6700aec71",
+        "e6389c79-d9bd-4299-b662-6fbf144997b0"
+      ],
+      "excerpt": "7.1Virtues for\n\nrighteousness\n\n(10 lessons)\n\nSanatan/Vedic based\n\non moral stories.\n\n• Paramatma\n\n• Purushartha\n\n• Pranidaya\n\n• Punarjanam\n\n• Prarthana\n\nBy the end of the sub- strand the learner should\n\nbe able to:\n\na) i"
+    },
+    {
+      "topicNumber": "8.1",
+      "topicName": "Social and National Festivals",
+      "topicOrder": 8.1,
+      "existingLessonIds": [
+        "896d17e6-0f42-41b4-9911-23fff1b508c9",
+        "d4177356-b4a1-4abf-9f9d-3045cdf8a035"
+      ],
+      "excerpt": "8.1 Social and\n\nNational\n\nFestivals\n\n(10 lessons)\n\n• Maha\n\nShivratri\n\n(Hinduism)\n\n• Paryushan\n\nParva\n\n(Jainism)\n\n• Madaraka\n\nDay\n\nBy the end of the sub- strand the learner should\n\nbe able to:\n\na) explain the\n\nsignificanc"
+    },
+    {
+      "topicNumber": "8.1",
+      "topicName": "Social and National festivals 10 8.2. Indian Traditional Calender 10 NOTE: The s",
+      "topicOrder": 8.1,
+      "existingLessonIds": [
+        "ea590dc6-29b1-4004-a186-c334362f37ce"
+      ],
+      "excerpt": "8.1 Social and\n\nNational\n\nFestivals\n\n(10 lessons)\n\n• Maha\n\nShivratri\n\n(Hinduism)\n\n• Paryushan\n\nParva\n\n(Jainism)\n\n• Madaraka\n\nDay\n\nBy the end of the sub- strand the learner should\n\nbe able to:\n\na) explain the\n\nsignificanc"
+    },
+    {
+      "topicNumber": "8.2",
+      "topicName": "Indian Traditional Calender 10 NOTE: The suggested number of lessons per sub str",
+      "topicOrder": 8.2,
+      "existingLessonIds": [
+        "0ad41645-163d-4ff3-9add-714108d80d74",
+        "fee43ef8-0d6c-487b-89af-3113636f0db5"
+      ],
+      "excerpt": "8.2 Indian\n\nTraditional\n\nCalendar\n\n(10 lessons)\n\nDays of the week\n\nin relation to\n\nplanets.\n\nBy the end of the sub-strand\n\nthe learner should be able to:\n\na) name the days of the\n\nweek according to Indian\n\ntraditional ca"
+    },
+    {
+      "topicNumber": "8.2",
+      "topicName": "Indian Traditional Calendar",
+      "topicOrder": 8.2,
+      "existingLessonIds": [
+        "85a31ddf-96f2-43e3-8d6d-34e6fd88a095",
+        "9f6ef2ee-127b-4f16-8421-6180aca88ade"
+      ],
+      "excerpt": "8.2 Indian\n\nTraditional\n\nCalendar\n\n(10 lessons)\n\nDays of the week\n\nin relation to\n\nplanets.\n\nBy the end of the sub-strand\n\nthe learner should be able to:\n\na) name the days of the\n\nweek according to Indian\n\ntraditional ca"
+    }
+  ]
+}

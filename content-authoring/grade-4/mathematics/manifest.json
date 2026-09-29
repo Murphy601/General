@@ -1,0 +1,209 @@
+{
+  "subject": "MATHEMATICS",
+  "slug": "mathematics",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 84803,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Whole Numbers",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "b589b348-cce6-4dee-b410-6ab9257c4a2e",
+        "b74462d0-afa9-4112-b7b2-441a4125695a"
+      ],
+      "excerpt": "1.1 Whole\n\nNumbers\n\n(10 (10 Lessons)\n\n• Place value and\n\ntotal value\n\n• Reading and\n\nwriting numbers\n\nin symbols and\n\nin words\n\n• Factors and\n\nmultiples\n\n• Even and odd\n\nnumbers\n\n• Roman numbers\n\nBy the end of the sub-st"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Addition",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "5a8f695a-bcaa-43ab-a8b3-a8575d18161f",
+        "7615cb1d-18b6-4aab-9b6e-6afc4b11c60d"
+      ],
+      "excerpt": "1.2 Addition\n\n(8 (8 Lessons)\n\n• Addition of\n\nnumbers\n\n• Creating\n\npatterns\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) add up to two 4-digit numbers\n\nwith single regrouping up to a\n\nsum of 10,000 i"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Subtraction",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "11495223-cf82-4cf3-93f8-c599922acf74",
+        "a70334df-40c4-43e6-886a-dabcc61f7d09"
+      ],
+      "excerpt": "1.3 Subtraction\n\n(8 (8 Lessons)\n\n• Subtraction of\n\nnumbers\n\n• Creating\n\npatterns\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) subtract up to 4-digit\n\nnumbers without regrouping\n\nin real-life situati"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Multiplication",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "9a4f9b9a-48a7-46a6-8225-f9bac71bc642",
+        "e04afabd-084b-4076-8616-34d0f950276a"
+      ],
+      "excerpt": "1.4 Multiplication\n\n(8 (8 Lessons)\n\n• Multiplication of\n\nnumbers\n\n• Creating patterns\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) multiply up to a two-digit\n\nnumber by multiples of 10 in\n\ndifferent"
+    },
+    {
+      "topicNumber": "1.5",
+      "topicName": "Division",
+      "topicOrder": 1.5,
+      "existingLessonIds": [
+        "124dfd5a-a947-4cc6-9c3c-70eba0bb22e2",
+        "e3730652-7c12-48ef-9d3b-fc7270e8b744"
+      ],
+      "excerpt": "1.5 Division\n\n(8 Lessons)\n\n• Division of\n\nnumbers\n\n• Relating\n\nmultiplicatio\n\nn and\n\ndivision\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) divide up to a two-digit\n\nnumber by a one-digit number\n\nwit"
+    },
+    {
+      "topicNumber": "1.6",
+      "topicName": "Fractions",
+      "topicOrder": 1.6,
+      "existingLessonIds": [
+        "3d6822e0-879f-41de-829d-f41cf3118c71",
+        "943e12d1-89a2-4276-b9cd-2e6703fbe0b9"
+      ],
+      "excerpt": "1.6\n\nFractions\n\n(6 Lessons)\n\n• Identifying\n\nand\n\nrepresenting\n\nfractions\n\n• Converting\n\nfractions\n\nBy the end of the sub-strand, the\n\nlearnershould be able to:\n\na) identify the numerator and\n\ndenominator in a fraction in"
+    },
+    {
+      "topicNumber": "1.7",
+      "topicName": "Decimals",
+      "topicOrder": 1.7,
+      "existingLessonIds": [
+        "5e64b57f-da73-41cc-a133-719e619fb1a8",
+        "ab0bd604-999d-4c21-b1ce-0c1ea2bbcc23"
+      ],
+      "excerpt": "1.7\n\nDecimals\n\n(10 Lessons)\n\n• Identifying\n\nand\n\nconverting\n\ndecimals\n\n• Ordering\n\ndecimals\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) identify a tenth and a\n\nhundredth inreal-life\n\nsituations,\n\nb"
+    },
+    {
+      "topicNumber": "1.8",
+      "topicName": "Use of letters",
+      "topicOrder": 1.8,
+      "existingLessonIds": [
+        "9344b02a-1760-4d1d-b880-dff43556a821",
+        "9caeb88f-1f12-443c-a5e3-76a709894798"
+      ],
+      "excerpt": "1.8 Use of\n\nletters\n\n(6 Lessons)\n\n• Forming\n\nsimple\n\nexpressions\n\n• Simplifying\n\nexpressions\n\nBy the end of the sub-strand,\n\nthelearner should be able to:\n\na) represent information using\n\nletters in real-life situations,"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Length",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "5345b6dd-426a-4b17-9578-8ac584789eb1",
+        "774d3866-62bf-41e0-8935-c6de0c432bb1"
+      ],
+      "excerpt": "2.1 Length\n\n(10 Lessons)\n\n• Centimetres\n\nas unit of\n\nlength\n\n• Measure\n\nlength in cm\n\n• Converting\n\nlength\n\n• Perimeter of\n\nplane figures\n\n• Operations\n\nin length\n\nBy the end of the sub-strand, the\n\nlearner should be abl"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Area",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "287e117f-9054-45a2-90f9-f6898631a7b9",
+        "5a42fd0b-d4f1-4eab-9e77-1227387ea89e",
+        "894bc2d9-0ed9-41fe-b2c1-8f706de993a8",
+        "8bf95346-9c7e-48bd-9049-32bd1a4ab20d"
+      ],
+      "excerpt": "2.2 Area 8\n\n2.3 Volume 8\n\n2.4 Capacity 8\n\n"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Volume",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "7c494894-8fc1-445e-a797-478483e055df",
+        "fe526c6f-3902-4bcd-bc25-ec63326e55cc"
+      ],
+      "excerpt": "2.3Volume\n\n(8 Lessons)\n\nVolume of cubes\n\nand cuboids\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) pile objects into stacks\n\nof cubes and cuboids in\n\nreal-life situations,\n\nb) work out volume of\n\ncub"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Capacity",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "663205dc-55a8-44d9-9e65-36aaf3c30a5a",
+        "7ece4dd7-6426-4c3a-94a5-315e46da7424"
+      ],
+      "excerpt": "2.4 Capacity\n\n(8 Lessons)\n\n• Capacity in\n\nlitres\n\n• Addition and\n\nsubtraction of\n\n• capacity\n\nBy the end of the sub- strand, the learnershould be\n\nable to:\n\na) measure capacity in\n\nlitres in real-life\n\nsituations,\n\nb) me"
+    },
+    {
+      "topicNumber": "2.5",
+      "topicName": "Mass",
+      "topicOrder": 2.5,
+      "existingLessonIds": [
+        "0dd8581b-3638-41ad-834b-27f71064bd8c",
+        "3bb7df87-e5f5-462b-ac49-cdd3c4ac0cb2",
+        "49654afd-f271-48e3-94b2-af8beb1fd9bf",
+        "689dea30-b69a-4bf1-bcdd-8497450d908c"
+      ],
+      "excerpt": "2.5 Mass 8\n\n2.6 Time 10\n\n2.7 Money 8\n\n3 3.0 Geometry "
+    },
+    {
+      "topicNumber": "2.6",
+      "topicName": "Time",
+      "topicOrder": 2.6,
+      "existingLessonIds": [
+        "4df996e9-6dfb-4313-8fc0-c69566c0dddf",
+        "a76f5d9b-48f6-4e60-9071-aea0cdade4c4"
+      ],
+      "excerpt": "2.6 Time\n\n(10 Lessons)\n\n• Reading time\n\n• Conversions in\n\ntime\n\n• Recording\n\ntime\n\nBy the end of the sub-strand,\n\nthelearner should be able to:\n\na) read and tell time in a.m.\n\nand p.m. in real-life\n\nsituations,\n\nb) estim"
+    },
+    {
+      "topicNumber": "2.7",
+      "topicName": "Money",
+      "topicOrder": 2.7,
+      "existingLessonIds": [
+        "25fb4030-73c4-4310-bd70-0b159ab7b8ed",
+        "ab8403bd-a3ac-4b15-82f6-b53bfd3e9601"
+      ],
+      "excerpt": "2.7 Money\n\n(8 Lessons)\n\n• Conversions\n\nin money\n\n• Shopping list\n\nBy the end of the sub- strand, the learnershould\n\nbe able to:\n\na) convert shillings into\n\ncents and cents into\n\nshillings in different\n\ncontexts,\n\nb) prep"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Position and Direction",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "048ff597-83a2-42fe-a298-a1394ab053e0",
+        "4cfa0f0b-cba3-4a2d-9244-f79699495a5b",
+        "63535455-04fc-4441-9df7-51572404a6c2",
+        "80bb8292-fc95-4f7b-86e3-282c6abb2d8c"
+      ],
+      "excerpt": "3.1 Position and Direction 5\n\n"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Angles",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "41dffee6-0c9f-419a-b78a-9c92ef4141a1",
+        "5dc5aa07-4470-4c4b-bd79-5bc1360d4e1e",
+        "728faf9c-43d2-4e60-9e67-eabbbf4f0135",
+        "d2d25a53-fa68-4c08-8b92-520afd717574"
+      ],
+      "excerpt": "3.2 Angles 5\n\n3.3 Plane Figures 6\n\n4 4.0 Data Handling "
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Plane Figures",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "d4b96b0e-1b6b-4843-a2c5-e43fb9bcbb57",
+        "ec7a8b89-09f4-4b2d-bdc0-d53c7257e677"
+      ],
+      "excerpt": "3.3\n\nPlane\n\nFigures\n\n(6 Lessons)\n\n• Rectangles,\n\nsquares,\n\ntriangles,\n\ncircles and\n\novals\n\n• Lines of\n\nsymmetry\n\n• Properties of\n\nplane figures\n\nBy the end of the sub-strand,\n\nthelearner should be able to:\n\na) identify r"
+    },
+    {
+      "topicNumber": "4.1",
+      "topicName": "Data",
+      "topicOrder": 4.1,
+      "existingLessonIds": [
+        "8f7546ef-5026-49c9-a85d-04672516f5b0",
+        "d6232585-b4c9-4ec3-9a38-4f6dd13054dc",
+        "e683d360-f074-4e0d-9393-6a84bbae054b",
+        "fe8c2197-db97-4836-8fb5-546a9f7172ce"
+      ],
+      "excerpt": "4.1 Data\n\n(10 Lessons)\n\n• Collecting\n\ndata\n\n• Drawing\n\ntables\n\n• Recording\n\ndata\n\n• Interpreting\n\nraw data\n\nBy the end of the sub- strand, thelearner should be\n\nable to:\n\na) identify materials for\n\ndata collection and\n\nr"
+    }
+  ]
+}

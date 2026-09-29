@@ -1,0 +1,106 @@
+{
+  "subject": "GERMAN",
+  "slug": "german",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 69477,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Listening for gist",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "0e1250dd-87a1-4d51-8bf5-4a91f90d87d7",
+        "e3bee0fb-cc09-4bb7-a334-da7023d1260a"
+      ],
+      "excerpt": "1.1 Listening\n\nfor gist\n\n(3 Lessons)\n\nImitative\n\nspeaking\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify basic\n\ngreetings for learning,\n\nb) greet others using\n\nacquired structures,\n\nc) appre"
+    },
+    {
+      "topicNumber": "1.5",
+      "topicName": "Phonological awareness",
+      "topicOrder": 1.5,
+      "existingLessonIds": [
+        "06308f14-f980-4eda-a3d0-900667312850"
+      ],
+      "excerpt": "1.5\n\nPhonological\n\nawareness\n\n(3 Lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) articulate words for\n\nfluency,\n\nb) speak words imitatively\n\nfor communication,\n\nc) appreciate the role\n\narticul"
+    },
+    {
+      "topicNumber": "1.9",
+      "topicName": "Listening for gist, Imitative speaking",
+      "topicOrder": 1.9,
+      "existingLessonIds": [
+        "9e007003-66d9-434d-9170-fa3a6ff0b695"
+      ],
+      "excerpt": "1.9 Listening for\n\ngist,\n\nImitative\n\nspeaking\n\n(3 Lessons)\n\nBy the end of the sub-strand\n\nthe learner should be able\n\nto:\n\na) identify general\n\ninformation from\n\nlistening texts for\n\ncomprehension,\n\nb) speak imitatively "
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Reading Aloud",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "62936c0c-28a2-4162-9123-20b7a103746b",
+        "981acd62-1f14-41fa-ba74-02f09c22006e"
+      ],
+      "excerpt": "2.1 Reading Aloud\n\n(2 Lessons)\n\n(Decoding)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify German sound\n\npatterns for learning,\n\nb) read texts aloud for\n\nfluency,\n\nc) appreciate the\n\nimportanc"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Reading for comprehension",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "01960c59-b818-4d0e-9060-daceb6f422fb",
+        "e03cc166-3f5a-4f17-a730-8f0eeb247eb8"
+      ],
+      "excerpt": "2.3 Reading for\n\ncomprehension\n\n(2 Lessons)\n\nBy the end of the sub-strand the\n\nlearner should be able to:\n\na) identify information from\n\ntexts for comprehension,\n\nb) extract basic information\n\nfrom short, simple texts fo"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Reading aloud",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "6d9a91e0-582c-4f5b-b6d3-64039cf03031",
+        "78df889b-4532-49b6-b648-8a3955786f57"
+      ],
+      "excerpt": "2.4 Reading\n\naloud\n\n(2 Lessons)\n\n(Fluency)\n\nBy the end of the sub-strand\n\nthe learner should be able to:\n\na) recognise basic\n\npunctuation marks for\n\nfluency,\n\nb) read words aloud for\n\nfluency,\n\nc) appreciate the role\n\npu"
+    },
+    {
+      "topicNumber": "2.5",
+      "topicName": "Guided reading",
+      "topicOrder": 2.5,
+      "existingLessonIds": [
+        "86f93807-2bd1-440c-a89c-a53130c8d854",
+        "fccbc84e-1a34-4c4d-b18f-e68d6e478944"
+      ],
+      "excerpt": "2.5 Guided\n\nreading\n\n(2 Lessons)\n\n(Comprehension)\n\nBy the end of the sub- strand the learner\n\nshould be able to:\n\na) identify\n\ninformation from\n\nreading texts,\n\nb) read texts for\n\ncomprehension,\n\nc) appreciate the role\n\n"
+    },
+    {
+      "topicNumber": "2.7",
+      "topicName": "Reading for comprehension",
+      "topicOrder": 2.7,
+      "existingLessonIds": [
+        "c11cfedc-3c2d-4768-b05d-bb42276f369e"
+      ],
+      "excerpt": "2.7 Reading for\n\ncomprehension\n\n(2 Lessons)\n\nBy the end of the sub-strand\n\nthe learner should be able to:\n\na) identify specific\n\nvocabulary for\n\ncomprehension,\n\nb) read texts for\n\ncomprehension,\n\nc) read texts for enjoym"
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Guided writing",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "215abd62-d7b6-471e-a1cc-4c940b45df72",
+        "96f1fb44-0c75-4f6a-a3e9-c0d1e6d8b4b9"
+      ],
+      "excerpt": "3.4 Guided\n\nwriting\n\n(1 Lesson)\n\n(Orthography)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify basic German\n\northography rules,\n\nb) write texts observing\n\nGerman orthography\n\nrules,\n\nc) appre"
+    },
+    {
+      "topicNumber": "3.9",
+      "topicName": "Guided writing",
+      "topicOrder": 3.9,
+      "existingLessonIds": [
+        "0760e946-d4ba-4d9a-9521-bd2f7043ad6f",
+        "2902d20d-c95a-4283-b8f4-411030b6ec4c"
+      ],
+      "excerpt": "3.9 Guided writing\n\n(1 Lesson)\n\nPunctuation\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify punctuation in\n\nsentences for\n\ncommunication,\n\nb) punctuate sentences for\n\ncommunication,\n\nc) apprec"
+    }
+  ]
+}

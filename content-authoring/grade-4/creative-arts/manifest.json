@@ -1,0 +1,141 @@
+{
+  "subject": "CREATIVE ARTS",
+  "slug": "creative-arts",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 61083,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Percussion Musical Instruments",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "aeef520d-3572-4f10-83f2-a5faa888e992",
+        "d791d3fa-da33-4d26-825e-5fa1e5cf1bc6"
+      ],
+      "excerpt": "1.1 Percussion\n\nMusical Instruments\n\n(Drawing)\n\n(17 lessons)\n\n• Identifying: name,\n\ncommunity, method\n\nof playing\n\n• Parts of a\n\npercussion,\n\n• Classifying:\n\nmelodic, non- melodic,\n\n• Improvised\n\nrhythmic patterns\n\n• Mak"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Netball",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "0336e67c-7a77-4fd8-906d-c6621061b95a",
+        "3bb75038-ef2d-4f3c-a346-430849dc5433"
+      ],
+      "excerpt": "1.2\n\nNetball\n\n(15 lessons)\n\n• Passes\n\n(chest,\n\noverhead)\n\n• Catching\n\n(double\n\nhanded)\n\n• Macramé\n\ntechnique\n\n(overhand\n\nknot)\n\n• Macramé\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) discuss the sk"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Painting and Montage",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "42baeba9-3cf5-4f64-aebc-c9abfa2d0081",
+        "48b045d9-7e2d-4f64-89e1-7f3669c4db92"
+      ],
+      "excerpt": "1.3 Painting and\n\nMontage\n\n(15 lessons)\n\n• Colour\n\nclassification\n\n• Colour value\n\n• Montage -subject\n\nmatter,\n\noverlapping,\n\nneatness.\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) classify colours"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Rhythm",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "60254735-9e53-405a-989f-2b3cc9540f7d",
+        "d5e82116-c5a8-479d-a467-b3f28ea0e93a"
+      ],
+      "excerpt": "1.4 Rhythm\n\n(15 lessons)\n\n• Note values: crotchet,\n\npair of quavers and\n\ntheir rests.\n\n• French rhythm names:\n\ntaa, ta-te.\n\n• Note symbols: crochet,\n\na pair of quavers and\n\ntheir rests.\n\n• Qualities: Variation of\n\nnote v"
+    },
+    {
+      "topicNumber": "1.5",
+      "topicName": "Melody",
+      "topicOrder": 1.5,
+      "existingLessonIds": [
+        "57cb8a78-9595-4183-a453-51a9122fe3f7",
+        "c6daddd2-fb3d-4473-8f93-f192adf12182"
+      ],
+      "excerpt": "1.5 Melody\n\n(15 lessons)\n\n• Sol-fa syllables: d r m\n\n• Kodaly hand signs for\n\nd r m\n\n• Qualities of a melody;\n\nuse of stepwise\n\nmotion, variation of\n\nthe sol-fa syllables\n\nand sound duration,\n\nending on d\n\n• Slab and coi"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Athletics",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "1da8251c-e5e0-4a31-94a3-d77e5fe38e23",
+        "5577eb5f-b73d-4712-9ccc-5511e759d344"
+      ],
+      "excerpt": "2.1 Athletics\n\n(18 lessons)\n\n• Medium\n\nsprint start,\n\n• Elongated\n\nsprint start,\n\n• Sprinting\n\ntechniques\n\n• Painting\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) discuss the sprint starts\n\nand spr"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Gymnastics",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "206610e4-b660-4085-8a17-3a118cb6df17",
+        "bc91c609-9316-4dad-ac0a-fb1abc3ee9f8"
+      ],
+      "excerpt": "2.2\n\nGymnastics\n\n(15 lessons)\n\n• Crab\n\nbalance\n\n• Side roll\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to;\n\na) explain a crab balance\n\nand a side roll in\n\ngymnastics,\n\nb) perform the crab\n\nbalance for sk"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Songs",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "3aceb557-0854-42cb-ae2a-5aadfd997621",
+        "e318a22d-4cc9-4402-8790-2681400ca1e8"
+      ],
+      "excerpt": "2.3 Songs\n\n(15 lessons)\n\n• Sacred, patriotic and\n\ntopical songs -\n\nAccuracy in pitch,\n\nrhythm, performance\n\ndirections: tempo,\n\ndynamics.\n\n• Performance\n\ntechniques and\n\netiquette: gestures,\n\nfacial expressions\n\ndiction."
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Photography",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "59303909-7325-4733-9df3-1689082e094e",
+        "6be7dbbe-a385-4b3a-ae02-8bf3ad4f7a78"
+      ],
+      "excerpt": "2.4 Photography\n\n(8 lessons)\n\n• Devices\n\n• Elements- light and centre of\n\ninterest\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify digital\n\ndevices for\n\nphotography,\n\nb) discuss elements of\n\n"
+    },
+    {
+      "topicNumber": "2.5",
+      "topicName": "Descant Recorder",
+      "topicOrder": 2.5,
+      "existingLessonIds": [
+        "85ff6d8b-57cc-45cd-a131-cb2ae785b40c",
+        "bbb0f82d-5584-442c-b173-9fc668cffb04"
+      ],
+      "excerpt": "2.5 Descant\n\nRecorder\n\n(15 lessons)\n\n• Parts: head joint,\n\nmiddle joint, foot\n\njoint, finger holes.\n\n• Care: hygiene\n\nmeasures,\n\nhandling and\n\nstorage.\n\n• Techniques:\n\nposture, fingering\n\nand blowing.\n\nBy the end of the "
+    },
+    {
+      "topicNumber": "2.6",
+      "topicName": "Swimming",
+      "topicOrder": 2.6,
+      "existingLessonIds": [
+        "0635a14b-8837-4326-8992-b1876c9b09df",
+        "55792d81-d003-42c0-a194-7b499bc93d58"
+      ],
+      "excerpt": "2.6\n\nIndigenous\n\nKenyan\n\nGames\n\n(Optional)\n\n(15 lessons)\n\nAnimal games\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify types of\n\nindigenous animal\n\ngames played in\n\nKenya,\n\nb) perform differe"
+    },
+    {
+      "topicNumber": "2.6",
+      "topicName": "Indigenous Kenyan Games",
+      "topicOrder": 2.6,
+      "existingLessonIds": [
+        "994b7c99-7ebe-4768-9d83-ee78de39e830",
+        "d188b6e4-7f01-49e6-a910-f5f116e602aa"
+      ],
+      "excerpt": "2.6\n\nIndigenous\n\nKenyan\n\nGames\n\n(Optional)\n\n(15 lessons)\n\nAnimal games\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify types of\n\nindigenous animal\n\ngames played in\n\nKenya,\n\nb) perform differe"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Analysis of Creative Arts works",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "131ec802-227d-47fa-8204-1892e16e39d2",
+        "2879db66-f17f-4c77-a69d-7f8a7ff630ed",
+        "3edef9ec-9950-4168-a103-83596f2cca2e",
+        "593a5138-6066-45f1-91cf-5eb5f2dea436"
+      ],
+      "excerpt": "3.1 Analysis of Creative\n\nArts works\n\n(15 lessons)\n\n• Making a portfolio\n\n• Concept of appreciation:\n\nappropriate behaviour,\n\naesthetic, skills, message\n\ncommunicated, how to give\n\nfeedback, care of displayed\n\nworks,\n\n• "
+    }
+  ]
+}

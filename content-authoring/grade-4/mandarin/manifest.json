@@ -1,0 +1,169 @@
+{
+  "subject": "MANDARIN",
+  "slug": "mandarin",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 82069,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Phonological Awareness",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "7d55837e-7e65-483c-8319-de70e5a8d894",
+        "9cee5d2d-bf45-4f50-add1-7e0981473f71"
+      ],
+      "excerpt": "1.1\n\nPhonological\n\nAwareness\n\n(3 lessons)\n\n• Initials and\n\nfinals\n\n• Chinese\n\ntones\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) identify initials\n\nand finals in\n\nChinese,\n\nb) differentiate the\n\nfo"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Phonological Awareness",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "02f73dcc-2bad-426f-a409-a8a1bf79d277",
+        "a2128820-4750-46de-bf1c-d0d10cab84cc"
+      ],
+      "excerpt": "1.3 Phonological\n\nAwareness\n\n(3 lessons)\n\n• Blending of\n\nsyllables\n\n• Mechanics of\n\nlanguage:\n\nword order\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) combine syllables\n\nto form disyllabic\n\nwords i"
+    },
+    {
+      "topicNumber": "1.5",
+      "topicName": "Listening for Gist",
+      "topicOrder": 1.5,
+      "existingLessonIds": [
+        "0c0682b9-4b85-4314-9074-f37166d04a2e",
+        "d9d655c2-e919-4759-94bb-6869afa6beb8"
+      ],
+      "excerpt": "1.5 Listening for Gist\n\n(3 lessons)\n\n• Active listening\n\n• Comprehension\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify key ideas\n\nin spoken texts,\n\nb) extract general\n\ninformation in\n\nthe g"
+    },
+    {
+      "topicNumber": "1.7",
+      "topicName": "Listening for Gist",
+      "topicOrder": 1.7,
+      "existingLessonIds": [
+        "79a0ba65-4b79-4442-8bff-08c675b04299",
+        "88bada69-3551-479a-acc3-bfda58c789d1"
+      ],
+      "excerpt": "1.7 Listening for\n\nGist\n\n(3 lessons)\n\n• Comprehension\n\n• Following\n\ninstructions\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) rephrase essential\n\ninformation in\n\nlistening texts,\n\nb) respond to sim"
+    },
+    {
+      "topicNumber": "1.8",
+      "topicName": "Imitative Speaking",
+      "topicOrder": 1.8,
+      "existingLessonIds": [
+        "3e63b47c-a97d-4a5b-af76-4b206243b4ec",
+        "bef9c5a1-c4a0-4a81-9356-2d80f4f2d6ec"
+      ],
+      "excerpt": "1.8 Imitative\n\nSpeaking\n\n(3 lessons)\n\n• Vocabulary\n\ndevelopment\n\n• Fluency\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify words,\n\nphrases and\n\nexpressions in\n\nvaried texts,\n\nb) repeat words,"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Reading Aloud",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "742efb5e-10da-468c-8df4-d99a9335abde",
+        "8aacc22d-a716-4b35-8aa0-88205b7674b4"
+      ],
+      "excerpt": "2.1\n\nReading Aloud\n\n(2 lessons)\n\n• Initials and\n\nfinals\n\n• Chinese tones\n\n• Pronunciation\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) highlight initials and\n\nfinals in a text,\n\nb) articulate Chine"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Reading Aloud",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "894b7916-1747-4325-857b-b285e5308d6e",
+        "e2b289f7-a886-4872-ab87-320631b9bd50"
+      ],
+      "excerpt": "2.3 Reading\n\nAloud\n\n(2 lessons)\n\n• Vocabulary\n\ndevelopment\n\n• Articulation:\n\nintonation\n\nand\n\nexpression\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) outline words\n\nand phrases\n\nusing correct\n\nexpr"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Reading Aloud",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "22723a8a-f1f8-4014-a9ea-8a0a1fe5b020",
+        "4d240c3c-959b-4f4d-8ed9-29094e4da762"
+      ],
+      "excerpt": "2.4 Reading\n\nAloud\n\n(2 lessons)\n\nFluency: tone,\n\nvolume and\n\nvocal\n\nprojection\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) express words and\n\nphrases fluently in\n\noral\n\ncommunication,\n\nb) use appr"
+    },
+    {
+      "topicNumber": "2.5",
+      "topicName": "Reading Aloud",
+      "topicOrder": 2.5,
+      "existingLessonIds": [
+        "7d7431bc-dffb-4d9b-b6b8-5265de03676a",
+        "e723a0cc-4ff7-4ab4-92eb-3164b83aaef2"
+      ],
+      "excerpt": "2.5 Reading\n\nAloud\n\n(2 lessons)\n\n• Vocabulary\n\ndevelopment\n\n• Stress and\n\nrhythm\n\nBy the end of the Sub\n\nStrand the learner\n\nshould be able to:\n\na) indicate key words\n\nand phrases in a\n\ntext for\n\ncomprehension,\n\nb) apply"
+    },
+    {
+      "topicNumber": "2.7",
+      "topicName": "Guided Reading",
+      "topicOrder": 2.7,
+      "existingLessonIds": [
+        "3ba1d0dd-ee3a-4426-ad22-7ce5ef0a084b",
+        "be9de8d0-7a40-48b9-93a1-72b9ba5d8173"
+      ],
+      "excerpt": "2.7 Guided\n\nReading\n\n(2 lessons)\n\n• Fluency\n\n• Reading\n\nstrategies:\n\nskimming\n\nand\n\nscanning\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) repeat words and\n\nphrases fluently in\n\nthe given texts,\n\nb)"
+    },
+    {
+      "topicNumber": "2.9",
+      "topicName": "Reading Aloud",
+      "topicOrder": 2.9,
+      "existingLessonIds": [
+        "417ec8d6-94bf-47ac-9f31-720cab962416",
+        "8978d1cd-c747-4cdc-8610-59b51902303a"
+      ],
+      "excerpt": "2.9 Reading\n\nAloud\n\n(2 lessons)\n\n• Comprehension\n\n• Decoding words\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) select the main\n\nideas and details\n\nin reading texts,\n\nb) apply phonetic\n\nknowledge t"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Guided Writing",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "31cd12f7-3318-4c72-ba45-f1989cd3ccb9",
+        "9723cf22-1641-433b-baa9-ef8b1ee5603d"
+      ],
+      "excerpt": "3.1\n\nGuided\n\nWriting\n\n(1 lesson)\n\n• Chinese\n\ntones\n\n• Chinese\n\ncharacters:\n\nstroke order\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) write syllables and\n\nwords with the\n\ncorrect tones,\n\nb) write C"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Guided Writing",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "5d2966b6-afd8-427e-b83c-dcf10c729b05",
+        "a0174cc2-cef2-4313-80a4-0c6f2f328e18"
+      ],
+      "excerpt": "3.2 Guided\n\nWriting\n\n(1 lesson)\n\n• Chinese\n\npinyin:\n\ntone\n\nplacement\n\n• Paragraph\n\nwriting\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) list words in\n\npinyin with\n\nproper tones\n\nfrom texts,\n\nb) com"
+    },
+    {
+      "topicNumber": "3.5",
+      "topicName": "Guided Writing",
+      "topicOrder": 3.5,
+      "existingLessonIds": [
+        "2711e211-5bd4-4460-a8a6-7530501179cd",
+        "9bc748a8-c68d-4fcf-8dce-1bff09c3d9a7"
+      ],
+      "excerpt": "3.5 Guided\n\nWriting\n\n(1 lesson)\n\n• Mechanics of\n\nlanguage:\n\nspelling\n\n• Handwriting:\n\nlegibility and\n\nneatness\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) compile words,\n\nphrases and\n\nexpression w"
+    },
+    {
+      "topicNumber": "3.7",
+      "topicName": "Guided Writing",
+      "topicOrder": 3.7,
+      "existingLessonIds": [
+        "dfe2a7f0-4fdc-4746-a3ff-975efb8809bd",
+        "f3bcfd15-aa77-4e59-9c3e-2beae135fe27"
+      ],
+      "excerpt": "3.7\n\nGuided\n\nWriting\n\n(1 lesson)\n\n• Chinese pinyin\n\n• Handwriting:\n\nChinese\n\ncharacter strokes\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) list pinyin and\n\ncharacters related\n\nto the theme from\n\nt"
+    },
+    {
+      "topicNumber": "3.9",
+      "topicName": "Guided Writing",
+      "topicOrder": 3.9,
+      "existingLessonIds": [
+        "2d00f8a3-78e5-404b-ba1e-346e0ca0b4bc",
+        "32d5ba10-7cf0-4d1a-931b-251073d004f3"
+      ],
+      "excerpt": "3.9 Guided\n\nWriting\n\n(1 lesson)\n\n• Vocabulary\n\ndevelopment\n\n• Paragraph\n\nwriting:\n\norganisation\n\nand structure\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) list keywords and\n\nphrases from an audio\n"
+    }
+  ]
+}

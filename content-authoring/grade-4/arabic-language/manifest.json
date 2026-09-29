@@ -1,0 +1,279 @@
+{
+  "subject": "ARABIC LANGUAGE",
+  "slug": "arabic-language",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 83471,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Interactive Speaking",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "92ab67b6-94f0-4243-b03a-3d6389890b9b",
+        "b3881de5-6636-47ca-a86b-3b464a8334e4"
+      ],
+      "excerpt": "1.1 Interactive\n\nSpeaking\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding- Greetings\n\n• Pronunciation\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) use appropriate words\n\nto introduce self,\n\nb) pronounce word"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Listening for Gist: Attentive Listening",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "554f05f2-6e1f-426e-84d1-67c67bcaadc9",
+        "ba50d8fa-588e-4280-a7c7-2a3bc5c1f4e4"
+      ],
+      "excerpt": "1.2 Listening for\n\nGist: Attentive\n\nListening\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding- members of the\n\nfamily\n\n• Oral questions\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify members of\n\nthe f"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Imitative Speaking",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "0d22936a-80ed-4b69-9e43-63d085319db6",
+        "9589569e-b886-4543-942a-39d32e19f89b"
+      ],
+      "excerpt": "1.3 Imitative\n\nSpeaking\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding- household items\n\nand rooms\n\n• Prepositions (in,\n\non at, under,\n\nabove)\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) outline vocabulary"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Phonological Awareness: Pronunciation",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "414fbb96-f560-48cb-a447-cd3c39e8ab26",
+        "9a117f3e-4329-42bd-97f7-3f3cf9adf10e"
+      ],
+      "excerpt": "1.4 Phonological\n\nAwareness:\n\nPronunciation\n\n(2 sessions)\n\n• Pronunciation\n\n• Vocabulary\n\nbuilding- Days\n\nof the week\n\n• Simple\n\ninstructions\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) use approp"
+    },
+    {
+      "topicNumber": "1.5",
+      "topicName": "Conversational Skills",
+      "topicOrder": 1.5,
+      "existingLessonIds": [
+        "ce94f2c7-9afb-400d-9db1-31b372e0862e",
+        "ddebbc07-1996-4985-a499-0166fff71d8f"
+      ],
+      "excerpt": "1.5\n\nConversational\n\nSkills\n\n(2 sessions)\n\n• Vocabulary\n\nBuilding- celebrations\n\n• Turn taking\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify vocabulary\n\nrelated to the\n\ncelebration parties "
+    },
+    {
+      "topicNumber": "1.6",
+      "topicName": "Listening for Gist: Attentive Listening",
+      "topicOrder": 1.6,
+      "existingLessonIds": [
+        "157b2933-0fbd-4d54-972e-1ddfc1bf7571",
+        "a4fcbbfe-23bb-483a-8125-97ec3264fc52"
+      ],
+      "excerpt": "1.6 Listening for\n\nGist: Attentive\n\nListening\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding- foods\n\nand drinks\n\n• Oral questions\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) mention different types\n\nof foo"
+    },
+    {
+      "topicNumber": "1.7",
+      "topicName": "Imitative Speaking",
+      "topicOrder": 1.7,
+      "existingLessonIds": [
+        "22164b9c-e383-4aab-8846-31268144f39d",
+        "ea9526b8-eb5a-43ef-b16b-bccd4b1e45ec"
+      ],
+      "excerpt": "1.7 Imitative\n\nSpeaking\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding- Parts of\n\nthe body\n\n• Instructions\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) describe parts of the\n\nbody for information,\n\nb) respo"
+    },
+    {
+      "topicNumber": "1.8",
+      "topicName": "Phonological Awareness: Fluency",
+      "topicOrder": 1.8,
+      "existingLessonIds": [
+        "2cad3bb9-c4db-4c7c-a4da-98df5f2b49ae",
+        "7d05e57e-590a-4895-82ce-c87cafc5217f"
+      ],
+      "excerpt": "1.8 Phonological\n\nAwareness:\n\nFluency\n\n(2 sessions)\n\n• Pronunciation\n\n• Intonation\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) use correct pronunciation\n\nto express ideas on\n\nweather and the\n\nenvir"
+    },
+    {
+      "topicNumber": "1.9",
+      "topicName": "Public Speaking",
+      "topicOrder": 1.9,
+      "existingLessonIds": [
+        "cbc4ef1e-3525-47f0-808d-266bd8c193df",
+        "e8c20f9f-f3cc-449f-a655-7b8c41c372ac"
+      ],
+      "excerpt": "1.9 Public\n\nSpeaking\n\n(2 sessions)\n\n• Pronunciation\n\n• Tone\n\n• Short speeches\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) retell key words and\n\nphrases using correct\n\npronunciation,\n\nb) make a sho"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Reading Aloud: Arabic Alphabet",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "005b9b31-cb23-4810-9159-9fd69df20c27",
+        "bdb6a7b7-0d5e-4260-9d4b-647572e1e0ca"
+      ],
+      "excerpt": "2.1 Reading\n\nAloud: Arabic\n\nAlphabet\n\n(2 sessions)\n\n• Arabic\n\nAlphabetic\n\nCharacters\n\n• Greeting words\n\nand phrases\n\nBy the end of the Sub\n\nStrand, the learner\n\nshould be able to:\n\na) articulate simple\n\nArabic\n\nsymbols/c"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Reading aloud",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "f860b907-d808-4aed-8eef-957e86fbf471",
+        "fdef81a9-f2df-4a05-abd4-03ff77072728"
+      ],
+      "excerpt": "2.2 Reading\n\naloud\n\n(2 sessions)\n\n• Syllables\n\nblending\n\n• Simple words\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) blend syllables to\n\nform words for\n\ncomprehension,\n\nb) read simple words\n\nrelate"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Guided reading: Fluency",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "415c9a87-6a98-400b-b6a3-b5ddfe653381",
+        "e3b316ee-1d9c-4e1f-9af8-b76ff4facb85"
+      ],
+      "excerpt": "2.3 Guided\n\nreading: Fluency\n\n(2 sessions)\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) pick out vocabulary\n\nrelated to the theme\n\nfrom a written text,\n\nb) apply appropriate\n\npronunciation when\n\nre"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Reading Aloud: Fluency",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "3ae15f86-0288-4af7-8e9a-6d1e7132e0c4",
+        "63b89dde-bd73-4bd5-8225-241135f65990"
+      ],
+      "excerpt": "2.4 Reading Aloud:\n\nFluency\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding- days of\n\nthe week\n\n• Meaning of words\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) read words relating to\n\ndays of the week\n\naccura"
+    },
+    {
+      "topicNumber": "2.5",
+      "topicName": "Guided Reading: Picture Reading",
+      "topicOrder": 2.5,
+      "existingLessonIds": [
+        "69864d3f-aa52-48a1-ab6f-617139d93d19",
+        "7c60758f-29a4-4f57-bba3-ac4fb2ed45f2"
+      ],
+      "excerpt": "2.5 Guided\n\nReading: Picture\n\nReading\n\n(2 sessions)\n\n• Picture events\n\n• Oral questions\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) describe events based on\n\npictures on celebrations,\n\nb) respond "
+    },
+    {
+      "topicNumber": "2.6",
+      "topicName": "Guided Reading: Fluency",
+      "topicOrder": 2.6,
+      "existingLessonIds": [
+        "33196bdb-8d5e-46fe-a693-49f38ea278ee",
+        "842172db-bbb7-49ca-82ba-5169af38e3a6"
+      ],
+      "excerpt": "2.6 Guided\n\nReading: Fluency\n\n(2 sessions)\n\n• Pace\n\n• Verbal cues\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) read a sentence with\n\ngood pace for fluency,\n\nb) apply appropriate verbal\n\ncues in rea"
+    },
+    {
+      "topicNumber": "2.7",
+      "topicName": "Reading Aloud: Grade Appropriate Texts",
+      "topicOrder": 2.7,
+      "existingLessonIds": [
+        "4996b01a-1ec1-4825-ada7-470db57f1fd1",
+        "a7d7572e-fe89-489f-8982-b144eb21a889"
+      ],
+      "excerpt": "2.7 Reading Aloud:\n\nGrade Appropriate\n\nTexts\n\n(2 sessions)\n\n• Reading speed\n\n• Inferring meaning\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) read a simple text with\n\nappropriate speed for\n\ncompreh"
+    },
+    {
+      "topicNumber": "2.8",
+      "topicName": "Reading Aloud: Poetry",
+      "topicOrder": 2.8,
+      "existingLessonIds": [
+        "4050409e-f57c-44f9-88d8-98ad0962f93e",
+        "7fc28031-914c-41ea-b426-37822fc2eaef"
+      ],
+      "excerpt": "2.8 Reading\n\nAloud: Poetry\n\n(2 sessions)\n\n• Poems\n\n• Non-verbal cues\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) read a simple poem on\n\nweather for effective\n\ncommunication,\n\nb) apply non-verbal c"
+    },
+    {
+      "topicNumber": "2.9",
+      "topicName": "Guided Reading: Vocabulary Building",
+      "topicOrder": 2.9,
+      "existingLessonIds": [
+        "05641d78-b4bf-4489-8b82-aace14cbb02d",
+        "42c6c664-1ae4-47f3-877a-29cc6f180461"
+      ],
+      "excerpt": "2.9 Guided\n\nReading:\n\nVocabulary\n\nBuilding\n\n(2 sessions)\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify thematic words\n\nfrom a text for\n\ncomprehension,\n\nb) prepare a vocabulary\n\nbank on the "
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Guided writing: Arabic Alphabet",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "78ed7dcc-a89e-4981-a075-225ce7ee14b8",
+        "f5e6eb50-bd0b-4ea4-9040-3aec2c85ec2d"
+      ],
+      "excerpt": "3.1 Guided writing:\n\nArabic Alphabet\n\n(2 sessions)\n\n• Symbols/Characters\n\nof the Alphabet\n\n• Writing words\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) write symbols of the\n\nArabic alphabet\n\naccura"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Guided writing: Handwriting",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "e3ce9e2d-e483-494f-a50f-df7265b1a105",
+        "e8e2c0ac-18d0-4310-9358-5640492acc73"
+      ],
+      "excerpt": "3.2 Guided writing:\n\nHandwriting\n\n(2 sessions)\n\n• Neatness and\n\nlegibility\n\n• Letters/ characters of\n\nthe Alphabet\n\n• Simple words\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify the\n\ncharact"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Guided Writing: Visuals",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "0052a315-a0ef-46bc-a27a-bf08fb1c0c36",
+        "8258340a-562a-4a97-9f5e-8cb5598f01de"
+      ],
+      "excerpt": "3.3 Guided\n\nWriting:\n\nVisuals\n\n(2 sessions)\n\nPicture drawing\n\nPicture naming\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) identify simple items\n\nfound at home,\n\nb) use basic descriptive\n\nwords to n"
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Guided Writing: Spelling",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "7f622e0d-6569-4f2b-9992-1e8ff73019ff",
+        "d6b336fb-5528-4b05-b686-6ad9741e8a14"
+      ],
+      "excerpt": "3.4 Guided\n\nWriting: Spelling\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding- days of\n\nthe week\n\n• Spelling\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) list words related to\n\ndays of the week using\n\ncorrec"
+    },
+    {
+      "topicNumber": "3.5",
+      "topicName": "Mechanics of Writing: Writing Styles",
+      "topicOrder": 3.5,
+      "existingLessonIds": [
+        "8a896d4a-745d-4276-b2fe-35be78ae6d1d",
+        "c27042df-7f7c-4c25-a612-38bfe63a8b7e"
+      ],
+      "excerpt": "3.5 Mechanics of\n\nWriting: Writing\n\nStyles\n\n(2 sessions)\n\n• Arabic writing styles\n\n• Vocabulary\n\nBy the end of the Sub\n\nStrand, the learner should\n\nbe able to:\n\na) outline vocabulary\n\nrelated to the theme\n\nusing various "
+    },
+    {
+      "topicNumber": "3.6",
+      "topicName": "Guided Writing: Handwriting",
+      "topicOrder": 3.6,
+      "existingLessonIds": [
+        "08666905-a2b8-4bf7-9f14-df0313f321e2",
+        "655b9aa5-9f8e-4556-b41a-21ece194dcc1"
+      ],
+      "excerpt": "3.6 Guided\n\nWriting:\n\nHandwriting\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding\n\n• Word spacing\n\n• Shaping of\n\ncharacters\n\n• Simple\n\nsentences\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) identify foods and"
+    },
+    {
+      "topicNumber": "3.7",
+      "topicName": "Guided Writing: Creative Writing",
+      "topicOrder": 3.7,
+      "existingLessonIds": [
+        "f079c11b-f4c2-47b3-894c-11fb0624554a",
+        "f0e6ab07-3c86-4711-95c7-54577b5a020b"
+      ],
+      "excerpt": "3.7 Guided\n\nWriting:\n\nCreative Writing\n\n(2 sessions)\n\n• Neatness and\n\nlegibility\n\n• Simple poems\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) list vocabulary related to\n\nthe theme in neat and\n\nlegib"
+    },
+    {
+      "topicNumber": "3.8",
+      "topicName": "Guided Writing",
+      "topicOrder": 3.8,
+      "existingLessonIds": [
+        "99d6ee8c-d9a7-4108-9be0-aaecfb28cfac",
+        "d7ddc2a7-382c-49b5-8618-3085bb788d8c"
+      ],
+      "excerpt": "3.8 Guided\n\nWriting\n\n(2 sessions)\n\n• Vocabulary\n\nbuilding\n\n• Simple\n\nsentences\n\nBy the end of the Sub Strand,\n\nthe learner should be able to:\n\na) list weather features for\n\ncomprehension,\n\nb) use basic descriptive\n\nwords"
+    },
+    {
+      "topicNumber": "3.9",
+      "topicName": "Guided Writing: Paragraph Writing",
+      "topicOrder": 3.9,
+      "existingLessonIds": [
+        "3e4842a9-ce8b-4343-92b2-acae03c15efe",
+        "63c208a3-cc08-4ee3-a0a7-270cbb5aa607"
+      ],
+      "excerpt": "3.9 Guided Writing:\n\nParagraph Writing\n\n(2 sessions)\n\n• Simple sentences\n\n• Forming coherent\n\nparagraphs\n\nBy the end of the Sub\n\nStrand, the learner should be\n\nable to:\n\na) construct simple\n\nsentences to express\n\nideas r"
+    }
+  ]
+}

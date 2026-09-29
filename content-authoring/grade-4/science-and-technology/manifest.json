@@ -1,0 +1,49 @@
+{
+  "subject": "SCIENCE AND TECHNOLOGY",
+  "slug": "science-and-technology",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 45739,
+  "topics": [
+    {
+      "topicNumber": "2.1",
+      "topicName": "Properties of Matter",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "adf98f89-c83f-498d-8034-d874667fa899",
+        "dee9c726-7bce-48e7-8599-3c1c6d385b9d"
+      ],
+      "excerpt": "2.1 Properties of\n\nMatter\n\n(14 lessons)\n\n● Meaning of matter\n\n● States of matter\n\n(solid, liquid and\n\ngas).\n\n● Properties of matter\n\n(shape, volume and\n\nmass).\n\n● Importance of the\n\ndifferent states of\n\nmatter.\n\nBy the e"
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Water Conservation",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "7ebdb20b-d102-479d-8fb5-6dedac69041b",
+        "c42e9f13-7edc-4bb3-a48d-86bb8cd983d1"
+      ],
+      "excerpt": "2.3 Water\n\nConservation\n\n(12 Lessons)\n\n● Meaning of water\n\nconservation.\n\n● Methods of\n\nconserving water\n\n(cover: Simple\n\nexamples of\n\nReducing water\n\nwastage, Reusing\n\nwater and Recycling\n\nwater).\n\n● Importance of water"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Light",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "3acf174b-ffcd-45ff-8834-eb7ee354e996",
+        "be7379e7-b516-44bc-80c8-d99f0652208f"
+      ],
+      "excerpt": "3.2 Light\n\n(14 lessons)\n\n●Sources of light.\n\n●Ways of lighting the\n\nhouse (windows,\n\ntranslucent roofs,\n\nartificial lighting).\n\n● Uses of light (to see,\n\nsafety, discourage\n\npests).\n\nBy the end of the sub- strand, the le"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Heat",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "4ff3d8a2-9e92-4487-b75b-ff1c83f81144",
+        "98d05877-fe4b-44d9-9735-6b0369e951d8"
+      ],
+      "excerpt": "3.3 Heat\n\n(12 lessons)\n\n● Sources of heat (sun,\n\nfire, electricity).\n\n● Uses of heat\n\n(Cooking, warming,\n\nironing and drying).\n\n● Safety measures\n\nwhen handling heat\n\n● Importance of heat in\n\ndaily life.\n\nBy the end of t"
+    }
+  ]
+}

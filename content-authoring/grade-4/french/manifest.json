@@ -1,0 +1,304 @@
+{
+  "subject": "FRENCH",
+  "slug": "french",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 91465,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Interactive speaking",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "255b2e74-0742-4004-b00e-7c7f4a86ad30",
+        "3bdcdaaa-1316-43de-96fa-fe0fd6beee60"
+      ],
+      "excerpt": "1.1\n\nPhonological\n\nawareness\n\nPhonetic\n\nawareness\n\nVocabulary\n\nPronunciation\n\nRecognising tone\n\nBy the end of the sub- strand, the learner should be\n\nable to:\n\na) recognise letter sounds\n\nin words from audio\n\nstimuli,\n\nb"
+    },
+    {
+      "topicNumber": "1.1",
+      "topicName": "Phonological awareness Phonetic awareness Vocabulary Pronunciation Recognising t",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "63e00e5c-5a85-420f-abaf-5eead8dfde17"
+      ],
+      "excerpt": "1.1\n\nPhonological\n\nawareness\n\nPhonetic\n\nawareness\n\nVocabulary\n\nPronunciation\n\nRecognising tone\n\nBy the end of the sub- strand, the learner should be\n\nable to:\n\na) recognise letter sounds\n\nin words from audio\n\nstimuli,\n\nb"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Imitative speaking Turn taking Non-verbal communication Active engagement",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "dfea6617-4edc-4ab3-b9cd-d2c7864d996c"
+      ],
+      "excerpt": "1.2 Imitative\n\nspeaking\n\nTurn taking\n\nNon-verbal\n\ncommunication\n\nActive\n\nengagement\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify vocabulary and\n\nexpressions in oral\n\ninteractions,\n\nb) imita"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Interactive listening",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "0af2735a-d3f5-4097-b0d7-eeb6d1635093",
+        "e155e1fe-691f-4d42-8b1e-ad97eadf00ab"
+      ],
+      "excerpt": "1.3 Listening\n\nfor gist\n\nIdentifying key\n\nwords\n\nSummarising\n\nVocabulary\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify general\n\ninformation from audio\n\nstimuli/texts,\n\nb) use information fro"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Listening for gist Identifying key words Summarising Vocabulary",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "a06a4675-d468-45bc-8df6-aa8a1dc5b463"
+      ],
+      "excerpt": "1.3 Listening\n\nfor gist\n\nIdentifying key\n\nwords\n\nSummarising\n\nVocabulary\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify general\n\ninformation from audio\n\nstimuli/texts,\n\nb) use information fro"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Listening for information",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "0cecb281-d35c-4f58-9987-2c8f359ccfca",
+        "8ea89e9c-c6ae-4ccc-b0ee-f0dc60b4d2ea"
+      ],
+      "excerpt": "1.4\n\nPhonological\n\nawareness\n\nPhonetic\n\nawareness\n\nVocabulary\n\nPronunciation\n\nIntonation\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) recognise letter sounds in\n\nwords from audio stimuli,\n\nb) articu"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Phonological awareness Phonetic awareness Vocabulary Pronunciation Intonation",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "499b2791-df27-4fdf-876f-ac909780eec6"
+      ],
+      "excerpt": "1.4\n\nPhonological\n\nawareness\n\nPhonetic\n\nawareness\n\nVocabulary\n\nPronunciation\n\nIntonation\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) recognise letter sounds in\n\nwords from audio stimuli,\n\nb) articu"
+    },
+    {
+      "topicNumber": "1.5",
+      "topicName": "Listening for gist Skimming Vocabulary Identifying key words",
+      "topicOrder": 1.5,
+      "existingLessonIds": [
+        "cb578167-5036-40cb-ab34-6c3b641235d5"
+      ],
+      "excerpt": "1.5\n\nListening for\n\ngist\n\nSkimming\n\nVocabulary\n\nIdentifying key\n\nwords\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify general\n\ninformation from audio\n\nstimuli/texts,\n\nb) reproduce information"
+    },
+    {
+      "topicNumber": "1.6",
+      "topicName": "Imitative speaking Repetition Nonverbal communication Intonation Engagement",
+      "topicOrder": 1.6,
+      "existingLessonIds": [
+        "e0b2c8b7-d7ba-486a-94c8-c165b71517f2"
+      ],
+      "excerpt": "1.6 Imitative\n\nspeaking\n\nRepetition\n\nNonverbal\n\ncommunication\n\nIntonation\n\nEngagement\n\nBy the end of the sub- strand, the learner\n\nshould be able to:\n\na) outline vocabulary\n\nand expressions\n\nfrom audio\n\nmaterial,\n\nb) imi"
+    },
+    {
+      "topicNumber": "1.7",
+      "topicName": "Phonological awareness Phonetic awareness Repetition Intonation Pacing",
+      "topicOrder": 1.7,
+      "existingLessonIds": [
+        "5489bf5d-2391-4244-8929-363e838711f9"
+      ],
+      "excerpt": "1.7\n\nPhonological\n\nawareness\n\nPhonetic\n\nawareness\n\nRepetition\n\nIntonation\n\nPacing\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) recognise letter sounds in\n\nwords from audio stimuli,\n\nb) articulate wo"
+    },
+    {
+      "topicNumber": "1.8",
+      "topicName": "Phonological awareness Phonetic awareness Intonation Chunking",
+      "topicOrder": 1.8,
+      "existingLessonIds": [
+        "799b218f-ee63-4dbc-8b5a-342358874cd7"
+      ],
+      "excerpt": "1.8\n\nPhonological\n\nawareness\n\nPhonetic\n\nawareness\n\nIntonation\n\nChunking\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify letter sounds\n\nfrom audio stimuli,\n\nb) articulate words\n\ncorrectly in o"
+    },
+    {
+      "topicNumber": "1.9",
+      "topicName": "Imitative speaking: Phonetic awareness Modeling Engagement Pronunciation",
+      "topicOrder": 1.9,
+      "existingLessonIds": [
+        "b9735a10-4012-45ef-ba38-5ac757ea79d0"
+      ],
+      "excerpt": "1.9 Imitative\n\nspeaking:\n\nPhonetic\n\nawareness\n\nModeling\n\nEngagement\n\nPronunciation\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify vocabulary\n\nand expressions from\n\naudio stimuli,\n\nb) imitate"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Reading Aloud Phonetic awareness Pronunciation Phrasing Voice Projection Narrati",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "0426d37e-99c2-4abe-9a5d-bc3cf34afb1e"
+      ],
+      "excerpt": "2.1 Reading\n\nAloud\n\nPhonetic\n\nawareness\n\nPronunciation\n\nPhrasing\n\nVoice Projection\n\nNarrative flow\n\nReflexive practice\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) recognize words in\n\ncontext when r"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Reading aloud",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "88cda28d-ccfc-4e23-9684-924e54ec7582",
+        "ea291522-4916-47ba-b95b-38766d310c3d"
+      ],
+      "excerpt": "2.1 Reading\n\nAloud\n\nPhonetic\n\nawareness\n\nPronunciation\n\nPhrasing\n\nVoice Projection\n\nNarrative flow\n\nReflexive practice\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) recognize words in\n\ncontext when r"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Guided reading",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "23299238-3525-474e-8d8f-2516a7c183e7",
+        "f78e1022-e32d-4f32-9774-36e7c52ff748"
+      ],
+      "excerpt": "2.2 Reading\n\naloud\n\nPhonetic\n\nawareness\n\nExpression\n\nmarkings\n\nPronunciation\n\nPhrasing\n\nVoice projection\n\nNarrative flow\n\nReflexive\n\npractice\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) recognize "
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Reading aloud Phonetic awareness Expression markings Pronunciation Phrasing Voic",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "96e575c5-1896-4879-9509-cf0ea52d7608"
+      ],
+      "excerpt": "2.2 Reading\n\naloud\n\nPhonetic\n\nawareness\n\nExpression\n\nmarkings\n\nPronunciation\n\nPhrasing\n\nVoice projection\n\nNarrative flow\n\nReflexive\n\npractice\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) recognize "
+    },
+    {
+      "topicNumber": "2.3",
+      "topicName": "Reading aloud: Phonetic awareness Pronunciation Phrasing Voice projection",
+      "topicOrder": 2.3,
+      "existingLessonIds": [
+        "fdf6a416-2862-4f82-8662-7d7d94a56bc1"
+      ],
+      "excerpt": "2.3 Reading\n\naloud:\n\nPhonetic\n\nawareness\n\nPronunciation\n\nPhrasing\n\nVoice\n\nprojection\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) recognize words\n\nin context when\n\nreading,\n\nb) read aloud simple\n\nw"
+    },
+    {
+      "topicNumber": "2.4",
+      "topicName": "Reading Aloud Phonetic awareness Pronunciation Phrasing Voice projection Narrati",
+      "topicOrder": 2.4,
+      "existingLessonIds": [
+        "63eab776-e057-4ee7-b5ee-473390e96469"
+      ],
+      "excerpt": "2.4 Reading\n\nAloud\n\nPhonetic\n\nawareness\n\nPronunciation\n\nPhrasing\n\nVoice\n\nprojection\n\nNarrative flow\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) recognize words in\n\ncontext when reading,\n\nb) read al"
+    },
+    {
+      "topicNumber": "2.5",
+      "topicName": "Reading Aloud Phonetic awareness Pronunciation Phrasing Voice projection Intonat",
+      "topicOrder": 2.5,
+      "existingLessonIds": [
+        "faf9ce05-d49e-4e9e-b811-c3cbe12eb743"
+      ],
+      "excerpt": "2.5 Reading\n\nAloud\n\nPhonetic\n\nawareness\n\nPronunciation\n\nPhrasing\n\nVoice projection\n\nIntonation\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify the meaning of\n\nwords from context,\n\nb) read alo"
+    },
+    {
+      "topicNumber": "2.6",
+      "topicName": "Reading Aloud Phonetic awareness Pronunciation",
+      "topicOrder": 2.6,
+      "existingLessonIds": [
+        "da88626b-60b1-4d05-9d5a-e83f02a198ff"
+      ],
+      "excerpt": "2.6 Reading\n\nAloud\n\nPhonetic\n\nawareness\n\nPronunciation\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) Point out vocabulary\n\nfrom written texts,\n\nb) read aloud simple\n\nwords from a written\n\ntext,\n\nc) "
+    },
+    {
+      "topicNumber": "2.7",
+      "topicName": "Guided reading Vocabulary Pacing Repetition Articulation Rhythm",
+      "topicOrder": 2.7,
+      "existingLessonIds": [
+        "e9da2e9c-ff78-41db-9c8e-9149d299e473"
+      ],
+      "excerpt": "2.7 Guided\n\nreading\n\nVocabulary\n\nPacing\n\nRepetition\n\nArticulation\n\nRhythm\n\nBy the end of the sub-strand, the\n\nlearner should be able to:\n\na) infer the meaning of words\n\nfrom texts for learning,\n\nb) read simple texts for\n"
+    },
+    {
+      "topicNumber": "2.8",
+      "topicName": "Guided Reading Pronunciation Vocabulary Intonation Word recognition",
+      "topicOrder": 2.8,
+      "existingLessonIds": [
+        "1ffe9498-ef25-4942-aade-5340cb4badbb"
+      ],
+      "excerpt": "2.8 Guided\n\nReading\n\nPronunciation\n\nVocabulary\n\nIntonation\n\nWord recognition\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) infer the meaning of\n\nwords from simple\n\ntexts,\n\nb) read simple texts\n\nflue"
+    },
+    {
+      "topicNumber": "2.9",
+      "topicName": "Guided Reading Vocabulary Fluency Intonation Decoding",
+      "topicOrder": 2.9,
+      "existingLessonIds": [
+        "23be4bb4-51dd-48f1-9b6b-252e5478a7b6"
+      ],
+      "excerpt": "2.9 Guided\n\nReading\n\nVocabulary\n\nFluency\n\nIntonation\n\nDecoding\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) infer meaning of\n\nwords from simple\n\ntexts,\n\nb) read simple texts\n\nfluently using the\n\nri"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Guided writing",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "530e2139-656a-4290-b877-6a43ebf47f9a",
+        "77abc1ff-4b47-47cd-89a9-70dd8a6c4c2b"
+      ],
+      "excerpt": "3.1 Guided\n\nwriting\n\nOrthography\n\nVocabulary\n\nHandwriting\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) write common words\n\nwith the correct\n\northography,\n\nb) create simple sentences\n\nusing correct\n"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Guided writing Orthography Vocabulary Handwriting",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "f139d7aa-9c77-4a42-b252-b8489410b62c"
+      ],
+      "excerpt": "3.1 Guided\n\nwriting\n\nOrthography\n\nVocabulary\n\nHandwriting\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) write common words\n\nwith the correct\n\northography,\n\nb) create simple sentences\n\nusing correct\n"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "Guided Writing Orthography Vocabulary Handwriting",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "692bc9a4-da8b-4b1f-a98e-c486716119cd"
+      ],
+      "excerpt": "3.2 Guided\n\nWriting\n\nOrthography\n\nVocabulary\n\nHandwriting\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) write common words\n\nwith correct\n\northography,\n\nb) create simple sentences\n\nusing correct stru"
+    },
+    {
+      "topicNumber": "3.3",
+      "topicName": "Guided writing Orthography Clarity Handwriting",
+      "topicOrder": 3.3,
+      "existingLessonIds": [
+        "6afadcc7-cc1a-45ec-917d-bbd485704c89"
+      ],
+      "excerpt": "3.3 Guided\n\nwriting\n\nOrthography\n\nClarity\n\nHandwriting\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) write common words\n\nwith correct\n\northography,\n\nb) create simple sentences\n\nusing correct\n\nstruct"
+    },
+    {
+      "topicNumber": "3.4",
+      "topicName": "Guided writing Orthography Punctuation Handwriting",
+      "topicOrder": 3.4,
+      "existingLessonIds": [
+        "e63688e4-ddf1-4302-86c2-c0440d852ea9"
+      ],
+      "excerpt": "3.4 Guided\n\nwriting\n\nOrthography\n\nPunctuation\n\nHandwriting\n\nBy the end of the sub- strand, the learner should be\n\nable to:\n\na) write common words\n\nwith correct\n\northography,\n\nb) create simple sentences\n\nusing correct str"
+    },
+    {
+      "topicNumber": "3.5",
+      "topicName": "Guided Writing: Handwriting Orthography Vocabulary",
+      "topicOrder": 3.5,
+      "existingLessonIds": [
+        "a50c767b-fb5d-45fc-a39c-12c311b27154",
+        "c47c8fb6-b962-47f3-b6f5-7654015ed182"
+      ],
+      "excerpt": "3.5 Guided\n\nWriting:\n\nHandwriting\n\nOrthography\n\nVocabulary\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) write common words\n\nwith correct\n\northography,\n\nb) create simple\n\nsentences using correct\n\nst"
+    },
+    {
+      "topicNumber": "3.6",
+      "topicName": "Guided Writing Orthography Handwriting Clarity",
+      "topicOrder": 3.6,
+      "existingLessonIds": [
+        "679e0ab8-50d7-4662-868b-15e969d449cd"
+      ],
+      "excerpt": "3.6 Guided\n\nWriting\n\nOrthography\n\nHandwriting\n\nClarity\n\nBy the end of the sub- strand, the learner should be\n\nable to:\n\na) write common words\n\nwith correct\n\northography,\n\nb) create simple sentences\n\nusing correct structu"
+    },
+    {
+      "topicNumber": "3.7",
+      "topicName": "Guided writing: Orthography Handwriting Sentence order",
+      "topicOrder": 3.7,
+      "existingLessonIds": [
+        "0ad8067a-6223-44e0-b96f-0a628691de81"
+      ],
+      "excerpt": "3.7 Guided\n\nwriting:\n\nOrthography\n\nHandwriting\n\nSentence order\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) write common words\n\nwith correct\n\northography,\n\nb) create simple sentences\n\nusing correct"
+    },
+    {
+      "topicNumber": "3.8",
+      "topicName": "Guided writing Orthography Vocabulary Conciseness",
+      "topicOrder": 3.8,
+      "existingLessonIds": [
+        "88097960-2e74-4765-85a9-f66416a4753f"
+      ],
+      "excerpt": "3.8\n\nGuided writing\n\nOrthography\n\nVocabulary\n\nConciseness\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) write common words\n\nwith correct\n\northography,\n\nb) create simple sentences\n\nusing correct\n\nstr"
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "subject": "SOCIAL STUDIES",
+  "slug": "social-studies",
+  "grade": "grade-4",
+  "note": "topics = what the current (bad) build knows about. Compare with curriculum-source.txt (the full KICD design, OCR text) and cover the real Grade 4 syllabus. Add lessons for real topics missing here; set \"retire\": true only for entries that are OCR noise / not real topics.",
+  "designChars": 68712,
+  "topics": [
+    {
+      "topicNumber": "1.1",
+      "topicName": "Compass Direction",
+      "topicOrder": 1.1,
+      "existingLessonIds": [
+        "3ac28e34-a15d-4da8-aa36-b7bc86f5b857",
+        "d6613e7b-25fe-4979-a7f5-668ea48ee190"
+      ],
+      "excerpt": "1.1\n\nCompass\n\nDirection\n\n(6 lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify the four\n\ncardinal points of a\n\ncompass,\n\nb) use the four cardinal\n\npoints to give directions\n\non a map,\n\nc"
+    },
+    {
+      "topicNumber": "1.2",
+      "topicName": "Location and size of the County",
+      "topicOrder": 1.2,
+      "existingLessonIds": [
+        "22ad68e7-25fe-4916-a9d3-79661e9d5100",
+        "e0bcb728-19ce-4e69-b191-824421d853e5"
+      ],
+      "excerpt": "1.2 Location\n\nand size of\n\nthe County\n\n(5 lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify sub-counties\n\nin the county,\n\nb) locate the county in\n\nrelation to\n\nneighbouring\n\ncounties,\n"
+    },
+    {
+      "topicNumber": "1.3",
+      "topicName": "Physical features in the County",
+      "topicOrder": 1.3,
+      "existingLessonIds": [
+        "e69ec766-9e45-41d0-83a2-3e70e755196e",
+        "ee0f6ead-b6f9-4bb2-baf9-58e1a0b14127"
+      ],
+      "excerpt": "1.3 Physical\n\nfeatures in\n\nthe County\n\n(5 lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify the main\n\nphysical features in\n\nthe county,\n\nb) state the importance of\n\nthe main physical\n\nf"
+    },
+    {
+      "topicNumber": "1.4",
+      "topicName": "Seasons in the County",
+      "topicOrder": 1.4,
+      "existingLessonIds": [
+        "6c94025e-4127-4c37-b1a7-d830acb709f0",
+        "7c4bd9c7-ead6-4b36-bd55-2c2a93cf3278"
+      ],
+      "excerpt": "1.4 Seasons\n\nin the\n\nCounty\n\n(4 lessons)\n\n- Hot,\n\n- Cold,\n\n- Dry\n\n- Rainy\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify the four\n\nseasons experienced in\n\nthe county,\n\nb) explain how the four"
+    },
+    {
+      "topicNumber": "1.5",
+      "topicName": "Historic Built Environments in the County",
+      "topicOrder": 1.5,
+      "existingLessonIds": [
+        "dca9efd7-d54d-4a6d-a6b4-789346a25f8f"
+      ],
+      "excerpt": "1.5 Historic\n\nBuilt\n\nEnvironments\n\nin the County\n\n(5 lessons)\n\n- Museums,\n\n- Monuments,\n\n- Cultural\n\ncentres\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify the main\n\nhistoric built\n\nenvironme"
+    },
+    {
+      "topicNumber": "2.1",
+      "topicName": "Interdependence of people",
+      "topicOrder": 2.1,
+      "existingLessonIds": [
+        "901fe01f-189f-45d3-9159-8fa3648a151b",
+        "b6785d18-a5ed-46d8-bc46-f71f21f6accb"
+      ],
+      "excerpt": "2.1\n\nInterdependence\n\nof people\n\n(6 Lessons)\n\n- trade\n\n- farming\n\n- hospital,\n\n- worship places\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify ways in\n\nwhich people depend\n\non each other in t"
+    },
+    {
+      "topicNumber": "2.2",
+      "topicName": "Population Distribution",
+      "topicOrder": 2.2,
+      "existingLessonIds": [
+        "063b73a4-1349-4369-afad-43c2631b790f",
+        "72ae13f8-10e0-4a52-a1e3-c895adca772a"
+      ],
+      "excerpt": "2.2\n\nPopulation\n\nDistribution\n\n(5 lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) describe patterns of\n\npopulation distribution\n\nin the county,\n\nb) illustrate the patterns of\n\npopulation distr"
+    },
+    {
+      "topicNumber": "3.1",
+      "topicName": "Aspects of Traditional Culture in the County.",
+      "topicOrder": 3.1,
+      "existingLessonIds": [
+        "977679d8-064d-4202-802f-40e8b60f7a3e"
+      ],
+      "excerpt": "3.1 Aspects of\n\nTraditional\n\nCulture in the\n\nCounty.\n\n(4 lessons)\n\n- dressing\n\n- food\n\n- housing\n\n- artefacts\n\n- sports and games\n\n- festivals and\n\nceremonies\n\nBy the end of the sub- strand, the learner should be\n\nable t"
+    },
+    {
+      "topicNumber": "3.2",
+      "topicName": "The School",
+      "topicOrder": 3.2,
+      "existingLessonIds": [
+        "2766e2f1-33cf-480f-819e-ac4ed67ba4f4",
+        "92dc8a4c-0c6a-4504-9faa-4a31a9c0f401"
+      ],
+      "excerpt": "3.2. The\n\nSchool\n\n(3 lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) narrate the history of the\n\nschool,\n\nb) explain the\n\nvalues of the\n\nschool,\n\nc) recite the school\n\nmotto,\n\nd) desire to obe"
+    },
+    {
+      "topicNumber": "4.1",
+      "topicName": "Economic activities in the County",
+      "topicOrder": 4.1,
+      "existingLessonIds": [
+        "677d374a-ddef-4c91-8681-c49fd750ad70",
+        "9745b323-b2b4-4c43-9bef-9930d8a01ff8"
+      ],
+      "excerpt": "4.1 Economic\n\nactivities in\n\nthe County\n\n(4 lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) Explore the main\n\nresources found in the\n\ncounty,\n\nb) identify the main\n\neconomic activities\n\ncarri"
+    },
+    {
+      "topicNumber": "4.2",
+      "topicName": "Industries in the County",
+      "topicOrder": 4.2,
+      "existingLessonIds": [
+        "14b1076c-bf3e-40fd-99d8-645137cc2312",
+        "31229659-f245-482a-ad35-384195f921a0"
+      ],
+      "excerpt": "4.2\n\nIndustries\n\nin the\n\nCounty\n\n(6 lessons)\n\nBy the end of the sub-strand\n\nthe learner should be able to;\n\na) identify industries in\n\nthe county,\n\nb) explain the benefits\n\nof industries in the\n\ncounty,\n\nc) locate indust"
+    },
+    {
+      "topicNumber": "4.3",
+      "topicName": "Enterprise Project at School",
+      "topicOrder": 4.3,
+      "existingLessonIds": [
+        "866a1f52-507c-4851-9e98-1ef7eca5446c",
+        "f07ed5d7-fc6f-4c5d-8c96-9b08982943fb"
+      ],
+      "excerpt": "4.3 Enterprise\n\nProject at\n\nSchool\n\n(7 lessons)\n\nBy the end of the sub-strand,\n\nthe learner should be able to:\n\na) identify the projects that\n\ncan be initiated at school,\n\nb) participate in initiating an\n\nenterprise proj"
+    },
+    {
+      "topicNumber": "5.2",
+      "topicName": "Peace",
+      "topicOrder": 5.2,
+      "existingLessonIds": [
+        "ecc5a5de-0d3a-4293-aad6-3864dacd262e",
+        "f100daeb-96f1-4922-8cff-36c34e7f36e9"
+      ],
+      "excerpt": "5.2 Peace\n\n(4 lessons)\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify factors that\n\npromote peace in\n\nschool,\n\nb) develop strategies of\n\nliving in peace with\n\nothers in school,\n\nc) desire to"
+    },
+    {
+      "topicNumber": "5.3",
+      "topicName": "Child Rights",
+      "topicOrder": 5.3,
+      "existingLessonIds": [
+        "32c6b56c-8334-4588-a871-df96ea15268f",
+        "9a4c207c-f4ae-427c-a94c-60a0d663dcb5"
+      ],
+      "excerpt": "5.3 Child Rights\n\n(4 lessons)\n\n- Early and forced\n\nmarriages\n\n- Female genital\n\nmutilation\n\n- Slavery\n\n- Child trafficking\n\n- Child/forced\n\nlabour\n\n- Sexual abuse,\n\n- Abuse of children\n\nwith special\n\nneeds\n\n- Unauthorise"
+    },
+    {
+      "topicNumber": "5.4",
+      "topicName": "Democracy in school",
+      "topicOrder": 5.4,
+      "existingLessonIds": [
+        "9bfb4b8e-f88f-426b-a596-ce3429893a18",
+        "a633b9a3-6535-4fed-b185-7298142ab095"
+      ],
+      "excerpt": "5.4\n\nDemocracy\n\nin school\n\n(3 lessons)\n\nBy the end of the sub- strand the learner should\n\nbe able to:\n\na) identify democratic\n\nprocesses in the\n\nschool,\n\nb) explain the benefits of\n\ndemocracy in school,\n\nc) practise demo"
+    },
+    {
+      "topicNumber": "5.6",
+      "topicName": "Community Leadership",
+      "topicOrder": 5.6,
+      "existingLessonIds": [
+        "ab59ecc8-630a-49c6-b954-23b7f30aa3e1",
+        "e2458268-c670-48b9-b8a4-e963c43a140c"
+      ],
+      "excerpt": "5.6\n\nCommunity\n\nLeadership\n\n(5 Lessons)\n\n- Religious leaders\n\n- Clan leaders\n\n- village leaders\n\nBy the end of the sub- strand, the learner should\n\nbe able to:\n\na) identify leaders in\n\nthe community,\n\nb) explain the duti"
+    },
+    {
+      "topicNumber": "5.7",
+      "topicName": "The County Governments in Kenya",
+      "topicOrder": 5.7,
+      "existingLessonIds": [
+        "28543642-ce4b-481b-ab28-9ae1c203cfb3",
+        "615e7c0e-1ac1-4c16-8c0b-f360f61761bd"
+      ],
+      "excerpt": "5.7 The\n\nCounty\n\nGovernments\n\nin Kenya\n\n(6 lessons)\n\nBy the end of the sub- strand the learner should\n\nbe able to:\n\na) identify the structure of\n\ncounty government,\n\nb) explain the duties of\n\nCounty Governor in\n\nKenya,\n\n"
+    }
+  ]
+}
