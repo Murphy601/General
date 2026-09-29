@@ -1,0 +1,1400 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1",
+   "q": "Which of these is a percussion instrument?",
+   "options": [
+    "Recorder",
+    "Whistle",
+    "Trumpet",
+    "Drum"
+   ],
+   "answer": 3,
+   "explanation": "A drum is struck to make sound. The others are played by blowing."
+  },
+  {
+   "topic": "1.1",
+   "q": "To identify an instrument we give its name, its community and",
+   "options": [
+    "its price",
+    "the name of the shop",
+    "the colour of the shop",
+    "how it is played"
+   ],
+   "answer": 3,
+   "explanation": "Identifying uses name, community and method of playing."
+  },
+  {
+   "topic": "1.1",
+   "q": "If the skin of a drum is loose, the sound is",
+   "options": [
+    "higher",
+    "the same as a tight skin",
+    "louder than a tight skin always",
+    "lower"
+   ],
+   "answer": 3,
+   "explanation": "A loose skin vibrates more slowly, so the sound is lower."
+  },
+  {
+   "topic": "1.1",
+   "q": "On a xylophone, the short bars give",
+   "options": [
+    "high notes",
+    "low notes",
+    "no sound",
+    "the loudest sound only"
+   ],
+   "answer": 0,
+   "explanation": "Shorter bars vibrate faster and sound higher."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the first step in improvising an accompaniment to a song?",
+   "options": [
+    "Find the steady beat",
+    "Change the words",
+    "Buy a drum",
+    "Stop singing"
+   ],
+   "answer": 0,
+   "explanation": "You must find the beat before you can add patterns."
+  },
+  {
+   "topic": "1.1",
+   "q": "Why must the tin of charcoal stay closed until it is cold?",
+   "options": [
+    "Fresh air can make hot charcoal catch fire",
+    "The charcoal will become white",
+    "The tin will float",
+    "The charcoal will taste bad"
+   ],
+   "answer": 0,
+   "explanation": "Air can make hot charcoal burn, so we wait until it is fully cool."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which tool is good for smudging charcoal?",
+   "options": [
+    "A finger or a tissue",
+    "A wet brush of paint",
+    "A knife",
+    "A stone"
+   ],
+   "answer": 0,
+   "explanation": "A finger or tissue blends charcoal softly."
+  },
+  {
+   "topic": "1.2",
+   "q": "How many players are in a full netball team on the court?",
+   "options": [
+    "5",
+    "7",
+    "9",
+    "11"
+   ],
+   "answer": 1,
+   "explanation": "A full netball team has seven players on court."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which players are allowed to shoot at goal?",
+   "options": [
+    "GK and GD",
+    "GS and GA",
+    "WA and WD",
+    "Only C"
+   ],
+   "answer": 1,
+   "explanation": "Only the Goal Shooter and the Goal Attack may score."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which two positions are defenders that may enter the goal circle they defend?",
+   "options": [
+    "WA and C",
+    "GD and GK",
+    "WD and WA",
+    "GS and C"
+   ],
+   "answer": 1,
+   "explanation": "The Goal Defence and the Goal Keeper may play in their defending circle."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is the minimum distance a defender must keep from the player with the ball?",
+   "options": [
+    "5 metres",
+    "0.9 metres",
+    "1 centimetre",
+    "10 metres"
+   ],
+   "answer": 1,
+   "explanation": "A defender must stand at least 0.9 metres away."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does giving with the ball mean?",
+   "options": [
+    "Handing the ball to the umpire",
+    "Throwing the ball away",
+    "Bending the arms as the ball arrives to soften the catch",
+    "Kicking the ball"
+   ],
+   "answer": 2,
+   "explanation": "Bending the arms takes the force out of the ball."
+  },
+  {
+   "topic": "1.2",
+   "q": "In an overhead pass, the ball starts",
+   "options": [
+    "between the knees",
+    "behind the knees",
+    "above the head",
+    "at the ankles"
+   ],
+   "answer": 2,
+   "explanation": "The ball is lifted above the head before it is thrown."
+  },
+  {
+   "topic": "1.2",
+   "q": "What can be used as the core of an improvised macramé ball?",
+   "options": [
+    "A large stone",
+    "A glass bottle",
+    "Crumpled paper or old cloth",
+    "A metal nail"
+   ],
+   "answer": 2,
+   "explanation": "Paper or cloth makes a soft core that keeps its shape."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which player mainly tries to stop the shooter?",
+   "options": [
+    "GS",
+    "C",
+    "GK",
+    "WA"
+   ],
+   "answer": 2,
+   "explanation": "The Goal Keeper guards the goal and defends against the shooter."
+  },
+  {
+   "topic": "1.3",
+   "q": "Blue mixed with red makes",
+   "options": [
+    "orange",
+    "green",
+    "yellow",
+    "purple"
+   ],
+   "answer": 3,
+   "explanation": "Blue and red give purple."
+  },
+  {
+   "topic": "1.3",
+   "q": "Colour value means",
+   "options": [
+    "how loud a colour is",
+    "the price of a colour",
+    "the smell of paint",
+    "how light or dark a colour is"
+   ],
+   "answer": 3,
+   "explanation": "Value is the lightness or darkness of a colour."
+  },
+  {
+   "topic": "1.3",
+   "q": "When darkening a colour with black, you should add",
+   "options": [
+    "a whole tin at once",
+    "nothing",
+    "white first",
+    "a little at a time"
+   ],
+   "answer": 3,
+   "explanation": "Black is strong, so add it in small amounts."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a good way to blend the edges of two tones?",
+   "options": [
+    "With a dry stone",
+    "With a knife",
+    "With sand",
+    "With a damp brush"
+   ],
+   "answer": 3,
+   "explanation": "A damp brush joins the tones smoothly."
+  },
+  {
+   "topic": "1.3",
+   "q": "In a montage, the subject matter means",
+   "options": [
+    "what the montage is about",
+    "the size of the glue pot",
+    "the price of the paper",
+    "the colour of the desk"
+   ],
+   "answer": 0,
+   "explanation": "The subject matter is the theme."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which is an improvised glue?",
+   "options": [
+    "Flour paste",
+    "Engine oil",
+    "Paint thinner",
+    "Salt water"
+   ],
+   "answer": 0,
+   "explanation": "Flour mixed with water and heated water makes a paste."
+  },
+  {
+   "topic": "1.3",
+   "q": "What can you do to clean your working area after painting?",
+   "options": [
+    "Wash brushes and wipe the desk",
+    "Leave it messy",
+    "Throw paint on the floor",
+    "Pour paint in a stream where animals drink"
+   ],
+   "answer": 0,
+   "explanation": "Clean-up shows responsibility."
+  },
+  {
+   "topic": "1.4",
+   "q": "How many beats does a crotchet last?",
+   "options": [
+    "One",
+    "Half",
+    "Two",
+    "Four"
+   ],
+   "answer": 0,
+   "explanation": "A crotchet lasts for one beat."
+  },
+  {
+   "topic": "1.4",
+   "q": "What joins the stems of a pair of quavers?",
+   "options": [
+    "A rope",
+    "A beam",
+    "A rest",
+    "A bar of soap"
+   ],
+   "answer": 1,
+   "explanation": "A thick line called a beam joins them."
+  },
+  {
+   "topic": "1.4",
+   "q": "When you see a crotchet rest, you should",
+   "options": [
+    "clap twice",
+    "keep the beat but not clap",
+    "stop the whole song",
+    "shout"
+   ],
+   "answer": 1,
+   "explanation": "A rest is a silent beat, and the beat continues."
+  },
+  {
+   "topic": "1.4",
+   "q": "Dictation in music means",
+   "options": [
+    "drawing a picture",
+    "writing down a pattern you hear",
+    "copying a friend's book",
+    "singing louder"
+   ],
+   "answer": 1,
+   "explanation": "In dictation, the teacher plays or claps and you write it."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which letter has a descender?",
+   "options": [
+    "h",
+    "y",
+    "d",
+    "l"
+   ],
+   "answer": 1,
+   "explanation": "The letter y has a tail below the baseline."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which is a quality of a good rhythmic pattern?",
+   "options": [
+    "Only one kind of note",
+    "No beat",
+    "Variation of note values",
+    "Ending on a rest always"
+   ],
+   "answer": 2,
+   "explanation": "Good patterns vary the note values."
+  },
+  {
+   "topic": "1.4",
+   "q": "To compose a rhythm means to",
+   "options": [
+    "copy a friend's pattern exactly",
+    "erase a pattern",
+    "create a new pattern",
+    "play an instrument only"
+   ],
+   "answer": 2,
+   "explanation": "Composing is creating something original."
+  },
+  {
+   "topic": "1.5",
+   "q": "Pitch means",
+   "options": [
+    "how long a sound lasts",
+    "how loud a sound is",
+    "how high or low a sound is",
+    "the speed of a song"
+   ],
+   "answer": 2,
+   "explanation": "Pitch is the highness or lowness of a note."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which is the highest of the notes d, r and m?",
+   "options": [
+    "r",
+    "d",
+    "m",
+    "They are all the same"
+   ],
+   "answer": 2,
+   "explanation": "Me is the highest of the three."
+  },
+  {
+   "topic": "1.5",
+   "q": "The Kodaly hand sign for m is",
+   "options": [
+    "a closed fist",
+    "a sloping palm",
+    "a wave",
+    "a flat palm held level"
+   ],
+   "answer": 3,
+   "explanation": "Me is shown with a flat, level hand."
+  },
+  {
+   "topic": "1.5",
+   "q": "Listening for the name of a note without seeing it is called",
+   "options": [
+    "painting",
+    "drawing",
+    "running",
+    "aural work"
+   ],
+   "answer": 3,
+   "explanation": "Aural work uses the ears to identify notes."
+  },
+  {
+   "topic": "1.5",
+   "q": "Why should a short melody end on d?",
+   "options": [
+    "It sounds unfinished",
+    "It is the loudest note",
+    "It is the highest note",
+    "It sounds finished and at rest"
+   ],
+   "answer": 3,
+   "explanation": "Ending on the home note gives a complete feeling."
+  },
+  {
+   "topic": "1.5",
+   "q": "The recorder notes G, A and B match the sol-fa syllables",
+   "options": [
+    "m, r and d",
+    "r, m and d",
+    "m, d and r",
+    "d, r and m"
+   ],
+   "answer": 3,
+   "explanation": "If G is doh, then A is ray and B is me."
+  },
+  {
+   "topic": "1.5",
+   "q": "How do you make a coil?",
+   "options": [
+    "Roll a small piece between the palms or on a table",
+    "Beat it with a stick",
+    "Bake it",
+    "Cut it flat"
+   ],
+   "answer": 0,
+   "explanation": "Rolling back and forth makes a long even coil."
+  },
+  {
+   "topic": "2.1",
+   "q": "A sprint is",
+   "options": [
+    "a short race run at full speed",
+    "a very long race",
+    "a jump into sand",
+    "a throwing event"
+   ],
+   "answer": 0,
+   "explanation": "Sprints such as 50 m or 100 m are short races."
+  },
+  {
+   "topic": "2.1",
+   "q": "What happens on the command set?",
+   "options": [
+    "The runners raise their hips slightly and stay still",
+    "The runners run",
+    "The runners sit",
+    "The race ends"
+   ],
+   "answer": 0,
+   "explanation": "On set, runners lift the hips and hold still."
+  },
+  {
+   "topic": "2.1",
+   "q": "Where should your hands be at the start?",
+   "options": [
+    "Just behind the start line",
+    "Far in front of the line",
+    "In your pockets",
+    "Over the line"
+   ],
+   "answer": 0,
+   "explanation": "Hands go on the ground just behind the line."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which part of the foot should touch the ground when sprinting?",
+   "options": [
+    "The heel",
+    "The front part of the foot",
+    "The side only",
+    "The ankle"
+   ],
+   "answer": 1,
+   "explanation": "Sprinters land on the balls of the feet."
+  },
+  {
+   "topic": "2.1",
+   "q": "What should you do after crossing the finish line?",
+   "options": [
+    "Stop suddenly",
+    "Slow down gradually",
+    "Turn around fast",
+    "Push others"
+   ],
+   "answer": 1,
+   "explanation": "Slowing down gradually is safer."
+  },
+  {
+   "topic": "2.1",
+   "q": "The bottom stripe of the Kenyan flag is",
+   "options": [
+    "red",
+    "green",
+    "black",
+    "white"
+   ],
+   "answer": 1,
+   "explanation": "Green is at the bottom."
+  },
+  {
+   "topic": "2.1",
+   "q": "The shield and two crossed spears on the flag stand for",
+   "options": [
+    "farming",
+    "defence of freedom",
+    "music",
+    "sports"
+   ],
+   "answer": 1,
+   "explanation": "The shield and spears represent the defence of freedom."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why should the flag stick be held high when cheering?",
+   "options": [
+    "To hide the runners",
+    "To make noise",
+    "So it does not hit anyone",
+    "To block the sun"
+   ],
+   "answer": 2,
+   "explanation": "Keeping it high and away from the track avoids hitting people."
+  },
+  {
+   "topic": "2.2",
+   "q": "In a crab balance, your tummy faces",
+   "options": [
+    "down",
+    "sideways",
+    "up",
+    "backwards"
+   ],
+   "answer": 2,
+   "explanation": "The tummy faces the ceiling like a table top."
+  },
+  {
+   "topic": "2.2",
+   "q": "How can you fix sagging hips in the crab balance?",
+   "options": [
+    "Lie down",
+    "Drop your head",
+    "Push harder through your hands and feet",
+    "Bend your arms"
+   ],
+   "answer": 2,
+   "explanation": "Pushing through hands and feet lifts the hips."
+  },
+  {
+   "topic": "2.2",
+   "q": "In a side roll, you should keep your legs",
+   "options": [
+    "wide apart",
+    "bent",
+    "together with toes pointed",
+    "lifted off the mat"
+   ],
+   "answer": 2,
+   "explanation": "Legs stay together to keep the log shape."
+  },
+  {
+   "topic": "2.2",
+   "q": "What should you do with long hair in gymnastics?",
+   "options": [
+    "Let it hang in your face",
+    "Cut it during class",
+    "Cover the mat with it",
+    "Tie it back"
+   ],
+   "answer": 3,
+   "explanation": "Tied-back hair does not get in your way."
+  },
+  {
+   "topic": "2.2",
+   "q": "In this lesson's sequence, what comes after the crab balance?",
+   "options": [
+    "Side roll immediately",
+    "Sprint start",
+    "Netball pass",
+    "Lower the hips to the mat"
+   ],
+   "answer": 3,
+   "explanation": "You lower the hips, lie straight, then roll."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is gymnastics not a race?",
+   "options": [
+    "It is always in the dark",
+    "It cannot be seen",
+    "It uses no body",
+    "It is about control and quality, not speed"
+   ],
+   "answer": 3,
+   "explanation": "Skill and control matter more than speed."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is a spotter or supporting partner's job?",
+   "options": [
+    "To push you",
+    "To laugh",
+    "To leave",
+    "To help gently as your teacher shows you"
+   ],
+   "answer": 3,
+   "explanation": "A partner supports carefully and only in the way taught."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which is a patriotic song?",
+   "options": [
+    "Kenya National Anthem",
+    "A lullaby about sleeping",
+    "A hymn of worship only",
+    "A drum solo"
+   ],
+   "answer": 0,
+   "explanation": "The anthem is a patriotic song."
+  },
+  {
+   "topic": "2.3",
+   "q": "Pitch is",
+   "options": [
+    "how high or low a note is",
+    "how loud it is",
+    "how fast it is",
+    "the words"
+   ],
+   "answer": 0,
+   "explanation": "Accurate pitch means singing the right notes."
+  },
+  {
+   "topic": "2.3",
+   "q": "A sign that gets wider to the right means",
+   "options": [
+    "getting louder",
+    "getting softer",
+    "stop",
+    "slow"
+   ],
+   "answer": 0,
+   "explanation": "An opening sign means the music grows louder."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which is good singing posture?",
+   "options": [
+    "Standing tall with shoulders relaxed",
+    "Slouching",
+    "Bending over",
+    "Hiding behind others"
+   ],
+   "answer": 0,
+   "explanation": "Good posture helps breathing."
+  },
+  {
+   "topic": "2.3",
+   "q": "Good manners for an audience include",
+   "options": [
+    "talking loudly",
+    "being quiet and clapping at the right time",
+    "walking around",
+    "throwing things"
+   ],
+   "answer": 1,
+   "explanation": "The audience should listen respectfully."
+  },
+  {
+   "topic": "2.3",
+   "q": "A folk song is",
+   "options": [
+    "a song only for cities",
+    "a traditional song belonging to a community",
+    "a computer song",
+    "a song without a message"
+   ],
+   "answer": 1,
+   "explanation": "Folk songs are passed on by singing."
+  },
+  {
+   "topic": "2.3",
+   "q": "At a wedding, we are most likely to hear",
+   "options": [
+    "funeral songs",
+    "marriage songs",
+    "work songs only",
+    "topical songs only"
+   ],
+   "answer": 1,
+   "explanation": "Marriage songs praise the couple and give good wishes."
+  },
+  {
+   "topic": "2.4",
+   "q": "A photograph is also called a",
+   "options": [
+    "montage",
+    "photo",
+    "drum",
+    "stave"
+   ],
+   "answer": 1,
+   "explanation": "Photo is short for photograph."
+  },
+  {
+   "topic": "2.4",
+   "q": "The screen of a camera",
+   "options": [
+    "is the battery",
+    "makes sound",
+    "shows what you will photograph and photos you have taken",
+    "is the strap"
+   ],
+   "answer": 2,
+   "explanation": "The screen displays the view and the saved pictures."
+  },
+  {
+   "topic": "2.4",
+   "q": "How should you hold a camera or tablet?",
+   "options": [
+    "By one corner",
+    "Over your head",
+    "With both hands",
+    "By the lens"
+   ],
+   "answer": 2,
+   "explanation": "Two hands prevent dropping."
+  },
+  {
+   "topic": "2.4",
+   "q": "The element of light means",
+   "options": [
+    "the weight of the camera",
+    "the size of the photo",
+    "how well the subject is lit",
+    "the price"
+   ],
+   "answer": 2,
+   "explanation": "Light is a key element."
+  },
+  {
+   "topic": "2.4",
+   "q": "If the bright sun is behind your subject, the subject will",
+   "options": [
+    "be lit clearly",
+    "disappear",
+    "be dark with the face in shadow",
+    "turn blue"
+   ],
+   "answer": 2,
+   "explanation": "The face is in shadow."
+  },
+  {
+   "topic": "2.4",
+   "q": "To make the centre of interest clearer you can",
+   "options": [
+    "move very far away",
+    "add lots of clutter",
+    "shake the camera",
+    "move closer to the subject"
+   ],
+   "answer": 3,
+   "explanation": "Getting closer helps the subject fill the picture."
+  },
+  {
+   "topic": "2.4",
+   "q": "After taking photos, choosing the best ones is called",
+   "options": [
+    "hiding",
+    "painting",
+    "smudging",
+    "selecting"
+   ],
+   "answer": 3,
+   "explanation": "Selecting means choosing the best."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which of these makes a photograph too dark?",
+   "options": [
+    "Too much practice",
+    "A clean lens",
+    "A battery",
+    "Too little light"
+   ],
+   "answer": 3,
+   "explanation": "Poor light makes dark pictures."
+  },
+  {
+   "topic": "2.5",
+   "q": "The top part of the recorder is the",
+   "options": [
+    "foot joint",
+    "middle joint",
+    "bell",
+    "head joint"
+   ],
+   "answer": 3,
+   "explanation": "The head joint has the mouthpiece."
+  },
+  {
+   "topic": "2.5",
+   "q": "When you blow into the recorder, the sound is made by",
+   "options": [
+    "air vibrating inside it",
+    "the wood being struck",
+    "a string",
+    "a drum skin"
+   ],
+   "answer": 0,
+   "explanation": "The air inside vibrates."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which part of the finger covers a hole?",
+   "options": [
+    "The soft pad",
+    "The nail",
+    "The fingertip edge",
+    "The knuckle"
+   ],
+   "answer": 0,
+   "explanation": "Pads seal the hole fully."
+  },
+  {
+   "topic": "2.5",
+   "q": "Tonguing means",
+   "options": [
+    "saying too or doo quietly at the start of each note",
+    "singing loudly",
+    "chewing",
+    "rolling on the floor"
+   ],
+   "answer": 0,
+   "explanation": "Tonguing separates notes clearly."
+  },
+  {
+   "topic": "2.5",
+   "q": "Where should a recorder be stored?",
+   "options": [
+    "In its bag or box",
+    "On a hot windowsill",
+    "In the mud",
+    "Under a heavy load"
+   ],
+   "answer": 0,
+   "explanation": "A case protects it."
+  },
+  {
+   "topic": "2.5",
+   "q": "Of the notes B, A and G, which is the highest?",
+   "options": [
+    "A",
+    "B",
+    "G",
+    "They are equal"
+   ],
+   "answer": 1,
+   "explanation": "Fewer covered holes give a higher note."
+  },
+  {
+   "topic": "2.5",
+   "q": "On the staff, the note A sits",
+   "options": [
+    "on line 1",
+    "in the space between lines 2 and 3",
+    "above the staff",
+    "below the staff"
+   ],
+   "answer": 1,
+   "explanation": "A is in the space between G and B."
+  },
+  {
+   "topic": "2.6",
+   "q": "When should you swim?",
+   "options": [
+    "Alone",
+    "Only when a teacher or lifeguard is watching",
+    "In the dark",
+    "Whenever you like"
+   ],
+   "answer": 1,
+   "explanation": "Supervision keeps swimmers safe."
+  },
+  {
+   "topic": "2.6",
+   "q": "A swimming cap is useful for",
+   "options": [
+    "making you float",
+    "keeping long hair out of the way",
+    "holding a whistle",
+    "drying"
+   ],
+   "answer": 1,
+   "explanation": "Caps keep hair tidy."
+  },
+  {
+   "topic": "2.6",
+   "q": "How should you use steps or a ladder to enter?",
+   "options": [
+    "Go head first",
+    "Jump onto them",
+    "Face the steps, hold the rails and go feet first",
+    "Ignore rails"
+   ],
+   "answer": 2,
+   "explanation": "Use the rails and enter carefully."
+  },
+  {
+   "topic": "2.6",
+   "q": "In water tag, players",
+   "options": [
+    "push others",
+    "run on the pool side",
+    "walk fast, not run, and tag gently",
+    "hold others under water"
+   ],
+   "answer": 2,
+   "explanation": "No pushing."
+  },
+  {
+   "topic": "2.6",
+   "q": "Prone means",
+   "options": [
+    "face up",
+    "standing",
+    "face down",
+    "sitting"
+   ],
+   "answer": 2,
+   "explanation": "Prone is face down."
+  },
+  {
+   "topic": "2.6",
+   "q": "A glide is",
+   "options": [
+    "a fast kick",
+    "a dive",
+    "moving through water after a push without kicking",
+    "a float on the back"
+   ],
+   "answer": 2,
+   "explanation": "Gliding uses the momentum of the push."
+  },
+  {
+   "topic": "2.6",
+   "q": "You begin a glide by",
+   "options": [
+    "jumping from a height",
+    "swimming hard",
+    "kicking the wall in anger",
+    "pushing gently off the wall"
+   ],
+   "answer": 3,
+   "explanation": "A gentle push is enough."
+  },
+  {
+   "topic": "2.7",
+   "q": "How are indigenous games mostly learnt?",
+   "options": [
+    "By reading long books only",
+    "By buying kits",
+    "By watching TV only",
+    "By watching and joining in"
+   ],
+   "answer": 3,
+   "explanation": "Elders and children play together."
+  },
+  {
+   "topic": "2.7",
+   "q": "The crab walk strengthens the",
+   "options": [
+    "ears",
+    "eyes",
+    "hair",
+    "arms, shoulders and tummy"
+   ],
+   "answer": 3,
+   "explanation": "The body is held up by the arms and legs."
+  },
+  {
+   "topic": "2.7",
+   "q": "Which game builds strong arms and shoulders as you crawl on hands and toes?",
+   "options": [
+    "Giraffe stretch",
+    "Elephant walk",
+    "Snake slither",
+    "Crocodile crawl"
+   ],
+   "answer": 3,
+   "explanation": "Body held straight on hands and toes."
+  },
+  {
+   "topic": "2.7",
+   "q": "Which Kiswahili word means crab?",
+   "options": [
+    "kaa",
+    "chura",
+    "simba",
+    "mamba"
+   ],
+   "answer": 0,
+   "explanation": "Kaa is a crab."
+  },
+  {
+   "topic": "2.7",
+   "q": "How does the hawk tag?",
+   "options": [
+    "Gently on the back or shoulders",
+    "By pushing",
+    "By pulling clothes",
+    "By tripping"
+   ],
+   "answer": 0,
+   "explanation": "Gentle tagging keeps everyone safe."
+  },
+  {
+   "topic": "2.7",
+   "q": "When playing an animal game, you should play on",
+   "options": [
+    "soft, clear ground",
+    "sharp stones",
+    "thorn bushes",
+    "broken glass"
+   ],
+   "answer": 0,
+   "explanation": "Soft, clear ground prevents injuries."
+  },
+  {
+   "topic": "2.7",
+   "q": "Learning about animals in games links to",
+   "options": [
+    "Agriculture",
+    "Swimming lessons only",
+    "Weather forecasts",
+    "Space travel"
+   ],
+   "answer": 0,
+   "explanation": "Agriculture teaches about animals."
+  },
+  {
+   "topic": "3.1",
+   "q": "Aesthetic refers to",
+   "options": [
+    "how heavy it is",
+    "how beautiful or pleasing something is",
+    "how cheap it is",
+    "how long it is"
+   ],
+   "answer": 1,
+   "explanation": "Aesthetic is about beauty."
+  },
+  {
+   "topic": "3.1",
+   "q": "When someone comments on your work, you should",
+   "options": [
+    "argue",
+    "listen quietly and say thank you",
+    "walk away",
+    "tear the work"
+   ],
+   "answer": 1,
+   "explanation": "Good listeners grow."
+  },
+  {
+   "topic": "3.1",
+   "q": "What is used to close a homemade portfolio?",
+   "options": [
+    "A padlock",
+    "A string or ribbon tie",
+    "Nails",
+    "Wet glue only"
+   ],
+   "answer": 1,
+   "explanation": "Punched holes with string keep it closed."
+  },
+  {
+   "topic": "3.1",
+   "q": "How should you care for displayed works?",
+   "options": [
+    "Touch to feel the paint",
+    "Do not touch or write on them",
+    "Tear the corners",
+    "Leave them in the rain"
+   ],
+   "answer": 1,
+   "explanation": "Care keeps them safe."
+  },
+  {
+   "topic": "3.1",
+   "q": "The Kenya National Anthem is a",
+   "options": [
+    "a work song",
+    "a game",
+    "national symbol",
+    "a topical song about washing"
+   ],
+   "answer": 2,
+   "explanation": "Like the flag, it stands for the nation."
+  },
+  {
+   "topic": "3.1",
+   "q": "Verse 3 of the anthem talks about",
+   "options": [
+    "the weather",
+    "sports",
+    "working together to build the nation and giving thanks",
+    "cooking"
+   ],
+   "answer": 2,
+   "explanation": "It calls for common effort and gratitude."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which are instrumentalists in a folk song?",
+   "options": [
+    "The audience",
+    "Dancers only",
+    "People playing drums or shakers",
+    "The umpire"
+   ],
+   "answer": 2,
+   "explanation": "Instrumentalists play instruments."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.1",
+   "q": "Name two parts of a drum.",
+   "marks": 2,
+   "answer": "Drumhead (skin) and shell (body). Rope and beater are also accepted.",
+   "working": "1 mark for each correct part."
+  },
+  {
+   "topic": "1.1",
+   "q": "Identify the kayamba and the drum by giving the name, the community or area and the way of playing for each.",
+   "marks": 4,
+   "answer": "Kayamba: coastal people such as the Mijikenda, played by shaking. Drum (ngoma): found in many communities, played with hands or sticks.",
+   "working": "1 mark for each correct name, community or area and method, up to 4."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain what tone or value means in a drawing.",
+   "marks": 3,
+   "answer": "Tone means how light or dark an area is. In a charcoal drawing, we can make tones from light grey to black by pressing lightly or hard.",
+   "working": "1 mark for lightness or darkness, 1 mark for range of tones, 1 mark for charcoal pressure."
+  },
+  {
+   "topic": "2.1",
+   "q": "What is a false start?",
+   "marks": 2,
+   "answer": "Leaving the start line before the last signal is given.",
+   "working": "1 mark for leaving early, 1 mark for before the signal."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why is it important to keep the right posture during a sprint?",
+   "marks": 3,
+   "answer": "It keeps the body moving forward in a straight line. It saves energy and helps speed. It prevents pain or injury.",
+   "working": "1 mark for each valid reason."
+  },
+  {
+   "topic": "2.1",
+   "q": "Describe how to paint the Kenyan flag on paper.",
+   "marks": 5,
+   "answer": "Cut a rectangle of paper in the ratio three to two. Draw the stripes and the thin white lines lightly with a ruler. Sketch the shield and the crossed spears in the middle. Paint black at the top, red in the middle and green at the bottom, leaving the white lines. Let it dry and attach it to a stick.",
+   "working": "1 mark each for the rectangle, drawing stripes, shield, colour order and drying with handle."
+  },
+  {
+   "topic": "1.2",
+   "q": "Name any two players' positions in netball.",
+   "marks": 2,
+   "answer": "Goal Shooter, Goal Attack, Wing Attack, Centre, Wing Defence, Goal Defence, Goal Keeper. Any two.",
+   "working": "1 mark for each position."
+  },
+  {
+   "topic": "1.2",
+   "q": "Describe how to make an overhead pass.",
+   "marks": 3,
+   "answer": "Lift the ball above the head with both hands and elbows slightly bent. Step forward and throw from behind the head, flicking wrists and fingers so the ball goes over the defender.",
+   "working": "1 mark for the start, 1 mark for the throw, 1 mark for going over the defender."
+  },
+  {
+   "topic": "1.2",
+   "q": "Describe how to make a ball using the macramé technique and overhand knots.",
+   "marks": 5,
+   "answer": "Make a firm core from paper or cloth. Cut equal cords. Tie them together with an overhand knot at the middle. Put the core on top. Tie overhand knots between pairs of neighbouring cords to make a net around the core. Gather the cords at the bottom and tie a strong knot.",
+   "working": "1 mark for each of five clear stages."
+  },
+  {
+   "topic": "1.3",
+   "q": "Name the three primary colours.",
+   "marks": 2,
+   "answer": "Red, yellow and blue.",
+   "working": "Award 2 marks for all three, 1 mark for two."
+  },
+  {
+   "topic": "1.3",
+   "q": "Describe how to make a value scale strip of orange.",
+   "marks": 3,
+   "answer": "Draw a strip and divide it into five boxes. Mix orange with white for the two light boxes. Paint pure orange in the middle. Mix orange with black for the two dark boxes.",
+   "working": "1 mark for the five boxes, 1 mark for light tones, 1 mark for dark tones."
+  },
+  {
+   "topic": "1.3",
+   "q": "Describe how to make a montage on ball games.",
+   "marks": 4,
+   "answer": "Collect and cut pictures of ball games from old papers. Arrange them on a background without gluing, overlapping the pieces. Paste the back ones first and then the others. Add a title and let it dry.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "1.4",
+   "q": "Give the French rhythm names for a crotchet and a pair of quavers.",
+   "marks": 2,
+   "answer": "Crotchet: taa. Pair of quavers: ta-te.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.4",
+   "q": "Write the rhythm names of a pattern of a crotchet, a crotchet rest, a pair of quavers and a crotchet.",
+   "marks": 3,
+   "answer": "taa (rest) ta-te taa",
+   "working": "1 mark for each correct part in order."
+  },
+  {
+   "topic": "1.4",
+   "q": "Compose a four-beat rhythmic pattern using a crotchet, a pair of quavers and a rest, and write it in rhythm names.",
+   "marks": 4,
+   "answer": "For example taa ta-te (rest) taa. Any four-beat pattern with all three parts and ending on a crotchet.",
+   "working": "1 mark for four beats, 1 mark for using all three, 1 mark for correct names, 1 mark for ending on a long note."
+  },
+  {
+   "topic": "1.5",
+   "q": "Describe the Kodaly hand sign for each of d, r and m.",
+   "marks": 3,
+   "answer": "d is a closed fist, r is a sloping palm, m is a flat palm held level.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.5",
+   "q": "Write a melody that goes up by steps from d to m and comes down to d, and state the number of notes.",
+   "marks": 3,
+   "answer": "d r m r d. There are five notes.",
+   "working": "1 mark for going up, 1 mark for coming down, 1 mark for five."
+  },
+  {
+   "topic": "1.5",
+   "q": "Describe the steps of modelling the letters d, r and m on clay slabs.",
+   "marks": 5,
+   "answer": "Prepare and knead clay. Roll a slab and cut three rectangles of different sizes. Make coils. Shape a coil into each letter and scratch and wet where they join. Press on gently, smooth, and let dry slowly in the shade.",
+   "working": "1 mark each for preparing clay, cutting slabs, making coils, joining, and drying."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe how to get into a crab balance.",
+   "marks": 4,
+   "answer": "Sit with knees bent and feet flat. Put hands behind you shoulder-width apart with fingers pointing to the feet. Push through hands and feet to lift the hips so the body is level. Hold for a few counts.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is it important to warm up before doing gymnastics?",
+   "marks": 3,
+   "answer": "Warm-up prepares the muscles and joints, prevents injury and helps you perform better.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain how working in pairs helps when learning the crab balance.",
+   "marks": 3,
+   "answer": "One learner performs while the other watches and checks, gives feedback, and helps if needed. They swap places.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "2.3",
+   "q": "State four performance techniques for a good singer.",
+   "marks": 4,
+   "answer": "Good posture; deep breathing; clear diction; gestures; facial expression; eye contact. Any four.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the East African Community?",
+   "marks": 3,
+   "answer": "A group of countries in East Africa that work together on matters such as trade, travel and peace.",
+   "working": "1 mark for group of countries, 1 mark for East Africa, 1 mark for working together."
+  },
+  {
+   "topic": "2.3",
+   "q": "Explain how to prepare and perform a folk song with your class.",
+   "marks": 5,
+   "answer": "Choose a song and say the community, type and message. Share roles among soloist, chorus and instrumentalists. Practise pitch, rhythm, tempo and dynamics. Add gestures and expressions. Perform with respect and take a bow.",
+   "working": "1 mark each for choosing the song, roles, practising, expression and performing respectfully."
+  },
+  {
+   "topic": "2.4",
+   "q": "Why is light important in photography?",
+   "marks": 2,
+   "answer": "Light lets the camera record the picture. With good light the subject is clear.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.4",
+   "q": "Describe the steps of taking a photograph with a digital device.",
+   "marks": 5,
+   "answer": "Check the battery and memory and wipe the lens. Decide the subject. Check the light and centre of interest. Hold with two hands and keep elbows close. Frame the subject and press the button gently. Check the result and retake if needed.",
+   "working": "1 mark for each valid stage."
+  },
+  {
+   "topic": "2.5",
+   "q": "State how many finger holes a descant recorder has in front and where the thumb hole is.",
+   "marks": 2,
+   "answer": "Seven finger holes in front and the thumb hole is at the back.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.5",
+   "q": "Describe the correct posture and hand position for playing the recorder.",
+   "marks": 4,
+   "answer": "Sit or stand tall. Hold the recorder pointing down and away. The left hand is at the top and the right hand at the bottom. The left thumb covers the thumb hole and fingers cover holes with the pads.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.5",
+   "q": "Explain how you would learn a simple melody on B, A and G.",
+   "marks": 4,
+   "answer": "Sing it in sol-fa, clap and say the rhythm, finger the notes without blowing, play slowly, then speed up keeping the beat steady.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "2.6",
+   "q": "Why should we enter the water feet first?",
+   "marks": 2,
+   "answer": "It is safer because you cannot hit your head on the bottom, and you can see where you land.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "2.6",
+   "q": "Describe the steps of a glide.",
+   "marks": 4,
+   "answer": "Stand with the back to the wall and arms stretched overhead. Put the feet on the wall and bend the knees. Take a breath and put the face in. Push off gently with the body straight.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.7",
+   "q": "What are indigenous games?",
+   "marks": 2,
+   "answer": "Traditional games that belong to a people and were passed on from long ago.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.7",
+   "q": "Describe how to do the crab walk and name the muscles it strengthens.",
+   "marks": 3,
+   "answer": "Sit, put hands behind, lift the hips and walk on hands and feet with tummy up. It strengthens the arms, shoulders and tummy.",
+   "working": "1 mark for the position, 1 mark for walking, 1 mark for muscles."
+  },
+  {
+   "topic": "2.7",
+   "q": "Explain how to perform an animal game to a musical rhythm.",
+   "marks": 4,
+   "answer": "Choose a game and a rhythm, clap or drum the beat, move to the beat, change the speed for different animals and add a song.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.1",
+   "q": "State four things to think about when analysing an art work.",
+   "marks": 4,
+   "answer": "Aesthetic, skills, message and behaviour. Feedback is also accepted.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.1",
+   "q": "Describe how to make a portfolio from manila paper.",
+   "marks": 5,
+   "answer": "Fold two large pieces of manila paper to make a folder and trim the edges. Punch holes and add a string tie. Paste coloured paper or fabric on the cover. Write a label with name and class. Put in the works with dates and notes.",
+   "working": "1 mark for each of the five parts."
+  },
+  {
+   "topic": "3.1",
+   "q": "State three occasions when the Kenya National Anthem is sung.",
+   "marks": 3,
+   "answer": "School assembly, Madaraka Day, Mashujaa Day, Jamhuri Day, sports events and other official ceremonies. Any three.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.1",
+   "q": "State four things you would look for when appreciating a sports performance.",
+   "marks": 4,
+   "answer": "Teamwork, skill, safety and sportsmanship.",
+   "working": "1 mark for each."
+  }
+ ]
+}
