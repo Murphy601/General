@@ -551,6 +551,654 @@
    ],
    "answer": 0,
    "explanation": "A box and bottle tops make a toy car."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does water conservation mean?",
+   "options": [
+    "Wasting water",
+    "Selling water",
+    "Boiling water",
+    "Using water carefully and protecting water sources"
+   ],
+   "answer": 3,
+   "explanation": "Conservation means saving water and using it wisely."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is a way of wasting water?",
+   "options": [
+    "Closing taps",
+    "Fixing leaks",
+    "Leaving a tap running",
+    "Using a bucket"
+   ],
+   "answer": 2,
+   "explanation": "A running tap that is not in use wastes water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is a source of fresh water?",
+   "options": [
+    "The sea",
+    "A salty lake only",
+    "A river",
+    "A puddle of sea water"
+   ],
+   "answer": 2,
+   "explanation": "Rivers carry fresh water that people can use."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why must we conserve water?",
+   "options": [
+    "Water never ends",
+    "Fresh water is limited",
+    "Water is always free",
+    "Water is not needed"
+   ],
+   "answer": 1,
+   "explanation": "Only a small part of the world's water is fresh and usable."
+  },
+  {
+   "topic": "2.3",
+   "q": "A tap leaks 2 litres every hour. How much is wasted in 5 hours?",
+   "options": [
+    "10 litres",
+    "7 litres",
+    "25 litres",
+    "2 litres"
+   ],
+   "answer": 0,
+   "explanation": "2 x 5 = 10 litres."
+  },
+  {
+   "topic": "2.3",
+   "q": "A tap leaks 3 litres each hour. How much is wasted in one day of 24 hours?",
+   "options": [
+    "27 litres",
+    "48 litres",
+    "24 litres",
+    "72 litres"
+   ],
+   "answer": 3,
+   "explanation": "3 x 24 = 72 litres."
+  },
+  {
+   "topic": "2.3",
+   "q": "A leaking pipe wastes 5 litres each day. How much is wasted in 7 days?",
+   "options": [
+    "12 litres",
+    "57 litres",
+    "70 litres",
+    "35 litres"
+   ],
+   "answer": 3,
+   "explanation": "5 x 7 = 35 litres."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is an example of reducing water wastage?",
+   "options": [
+    "Leaving the hose on",
+    "Ignoring leaks",
+    "Closing a tap after use",
+    "Washing with lots of water"
+   ],
+   "answer": 2,
+   "explanation": "Closing taps stops the flow of water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these uses less water to wash a car?",
+   "options": [
+    "A running hose",
+    "A bucket and sponge",
+    "A long shower",
+    "A large drum poured everywhere"
+   ],
+   "answer": 1,
+   "explanation": "A bucket limits the water used."
+  },
+  {
+   "topic": "2.3",
+   "q": "What should you do when you see a leaking tap at school?",
+   "options": [
+    "Tell an adult so it can be fixed",
+    "Ignore it",
+    "Open it wider",
+    "Play with it"
+   ],
+   "answer": 0,
+   "explanation": "Reporting leaks helps save water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is an example of reusing water?",
+   "options": [
+    "Using water from washing vegetables to water plants",
+    "Leaving taps open",
+    "Pouring water down the drain",
+    "Buying bottled water"
+   ],
+   "answer": 0,
+   "explanation": "Using water twice is reusing."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which reused water is safe for drinking?",
+   "options": [
+    "Water that washed clothes",
+    "Water that washed vegetables",
+    "Water that washed a car",
+    "None of the used washing water"
+   ],
+   "answer": 3,
+   "explanation": "Used washing water is not safe to drink."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is rainwater harvesting?",
+   "options": [
+    "Drinking rainwater from puddles",
+    "Digging wells",
+    "Catching and storing rainwater",
+    "Selling rainwater"
+   ],
+   "answer": 2,
+   "explanation": "Harvesting means collecting rainwater from roofs."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is needed to harvest rainwater from a roof?",
+   "options": [
+    "A fan",
+    "A gutter and a tank",
+    "A torch",
+    "A ladder only"
+   ],
+   "answer": 1,
+   "explanation": "Gutters carry rain to a tank."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why should a rainwater tank be covered?",
+   "options": [
+    "To keep the water warm",
+    "To keep out mosquitoes and dirt",
+    "To make water heavier",
+    "To make it rain"
+   ],
+   "answer": 1,
+   "explanation": "A cover stops mosquitoes breeding and dirt getting in."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the job of the gutter in rainwater harvesting?",
+   "options": [
+    "Carries water from the roof to a pipe",
+    "Stores water",
+    "Cleans water",
+    "Heats water"
+   ],
+   "answer": 0,
+   "explanation": "Gutters catch water as it runs off the roof."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these describes recycling water?",
+   "options": [
+    "Wasting water",
+    "Letting water evaporate",
+    "Boiling it and throwing it",
+    "Cleaning used water so it can be used again"
+   ],
+   "answer": 3,
+   "explanation": "Recycling cleans water for another use."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is an example of a place where water may be recycled?",
+   "options": [
+    "A dry shamba",
+    "A tap",
+    "A water treatment plant",
+    "A road"
+   ],
+   "answer": 2,
+   "explanation": "Treatment plants clean used water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these reduces water use when brushing teeth?",
+   "options": [
+    "Leaving the tap running",
+    "Using a hose",
+    "Using a cup of water",
+    "Using a bucket of water"
+   ],
+   "answer": 2,
+   "explanation": "A cup uses only a little water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why is saving water good for families?",
+   "options": [
+    "It makes water heavier",
+    "It reduces the water bill",
+    "It stops rain",
+    "It causes floods"
+   ],
+   "answer": 1,
+   "explanation": "Less water used means less money paid."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these helps farmers to save water?",
+   "options": [
+    "Drip irrigation",
+    "Flooding the field",
+    "Leaving canals leaking",
+    "Watering at noon"
+   ],
+   "answer": 0,
+   "explanation": "Drip irrigation gives water directly to roots."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is mulching?",
+   "options": [
+    "Digging deep holes",
+    "Burning grass",
+    "Removing all plants",
+    "Covering soil with dry grass or leaves"
+   ],
+   "answer": 3,
+   "explanation": "Mulch reduces evaporation from the soil."
+  },
+  {
+   "topic": "2.3",
+   "q": "How does mulching help save water?",
+   "options": [
+    "It makes soil hot",
+    "It makes water flow away",
+    "It makes soil dry",
+    "It reduces evaporation from the soil"
+   ],
+   "answer": 3,
+   "explanation": "Covered soil stays moist longer."
+  },
+  {
+   "topic": "2.3",
+   "q": "When is the best time to water plants?",
+   "options": [
+    "Noon",
+    "Midday only",
+    "Early morning or evening",
+    "Never"
+   ],
+   "answer": 2,
+   "explanation": "Less water evaporates when it is cooler."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is a way of protecting water sources?",
+   "options": [
+    "Washing clothes in the river",
+    "Planting trees near rivers",
+    "Throwing waste in the river",
+    "Letting animals dirty the spring"
+   ],
+   "answer": 1,
+   "explanation": "Tree roots hold the soil and protect water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why should we not throw waste in rivers?",
+   "options": [
+    "It pollutes the water",
+    "It makes water sweet",
+    "It makes water clean",
+    "It helps fish"
+   ],
+   "answer": 0,
+   "explanation": "Waste makes water dirty and unsafe."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does drip irrigation do?",
+   "options": [
+    "Gives water to each plant a drop at a time",
+    "Floods the whole field",
+    "Cleans the soil",
+    "Makes rain"
+   ],
+   "answer": 0,
+   "explanation": "It gives water slowly at the roots."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is a reason to conserve water?",
+   "options": [
+    "To make it more expensive",
+    "To make taps rust",
+    "To waste less time",
+    "There will be enough for everyone"
+   ],
+   "answer": 3,
+   "explanation": "Conserving leaves water for others."
+  },
+  {
+   "topic": "2.3",
+   "q": "A school wastes 20 litres a day through leaks. How much in 5 days?",
+   "options": [
+    "25 litres",
+    "15 litres",
+    "100 litres",
+    "4 litres"
+   ],
+   "answer": 2,
+   "explanation": "20 x 5 = 100 litres."
+  },
+  {
+   "topic": "2.3",
+   "q": "A dripping tap fills a 5 litre bucket in one day. How much water is wasted in 4 days?",
+   "options": [
+    "9 litres",
+    "20 litres",
+    "1 litre",
+    "54 litres"
+   ],
+   "answer": 1,
+   "explanation": "5 x 4 = 20 litres."
+  },
+  {
+   "topic": "2.3",
+   "q": "A jerrycan holds 20 litres. A leaking tap wastes 40 litres in a day. How many jerrycans is that?",
+   "options": [
+    "20",
+    "2",
+    "4",
+    "60"
+   ],
+   "answer": 1,
+   "explanation": "40 divided by 20 = 2."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is NOT a way to conserve water?",
+   "options": [
+    "Washing dishes under a running tap",
+    "Fixing leaks",
+    "Using a basin",
+    "Harvesting rainwater"
+   ],
+   "answer": 0,
+   "explanation": "A running tap wastes water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why do we wash vegetables in a basin?",
+   "options": [
+    "It makes them heavier",
+    "It makes them cold",
+    "It wastes water",
+    "It uses less water and the water can be reused"
+   ],
+   "answer": 3,
+   "explanation": "A basin limits water use and allows reuse."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is a good message for a water conservation poster?",
+   "options": [
+    "Leave the tap open",
+    "Waste is fun",
+    "Close the tap after use",
+    "Water is free for all to waste"
+   ],
+   "answer": 2,
+   "explanation": "A short, clear message helps people remember."
+  },
+  {
+   "topic": "2.3",
+   "q": "Where should a water conservation poster be put?",
+   "options": [
+    "In a cupboard",
+    "Under a bed",
+    "Near a tap or the school gate",
+    "In a bin"
+   ],
+   "answer": 2,
+   "explanation": "Posters should be seen by many people."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is a source of dirty water we should not drink?",
+   "options": [
+    "Boiled and treated water",
+    "Water used to wash clothes",
+    "Clean tap water",
+    "Safe borehole water"
+   ],
+   "answer": 1,
+   "explanation": "Used washing water is dirty and unsafe."
+  },
+  {
+   "topic": "2.3",
+   "q": "What should be done with stored rainwater before drinking?",
+   "options": [
+    "Boil or treat it",
+    "Drink it directly",
+    "Add soil",
+    "Freeze it only"
+   ],
+   "answer": 0,
+   "explanation": "Boiling or treating kills germs."
+  },
+  {
+   "topic": "2.3",
+   "q": "Who should monitor taps in a school?",
+   "options": [
+    "Only visitors",
+    "Nobody",
+    "Only cooks",
+    "Water monitors"
+   ],
+   "answer": 3,
+   "explanation": "Monitors help make sure taps are closed."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why do we need water for farming?",
+   "options": [
+    "To make stones",
+    "To bake bricks only",
+    "To make wind",
+    "Crops and livestock need water"
+   ],
+   "answer": 3,
+   "explanation": "Water is needed for plants and animals."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is a way to save water when bathing?",
+   "options": [
+    "Leave the tap open",
+    "Use a hose",
+    "Use a basin",
+    "Use a sprinkler"
+   ],
+   "answer": 2,
+   "explanation": "Using a basin limits the water used."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why should you keep drinking water in a clean covered container?",
+   "options": [
+    "To make it colder",
+    "To keep it safe from germs",
+    "To make it salty",
+    "To make it hot"
+   ],
+   "answer": 1,
+   "explanation": "Covered clean containers protect water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is true of water?",
+   "options": [
+    "Water is needed by all living things",
+    "Only humans need water",
+    "Plants do not need water",
+    "Animals do not need water"
+   ],
+   "answer": 0,
+   "explanation": "All living things need water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is a result of wasting water?",
+   "options": [
+    "Less water for others",
+    "More rain",
+    "Less money spent",
+    "More trees"
+   ],
+   "answer": 0,
+   "explanation": "Wasted water is not available to others."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these can make a river dry up?",
+   "options": [
+    "Planting trees",
+    "Saving water",
+    "Using rain tanks",
+    "Cutting trees near it and wasting water"
+   ],
+   "answer": 3,
+   "explanation": "Cutting trees near sources reduces water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why is a bucket better than a running tap for washing a bicycle?",
+   "options": [
+    "It uses more water",
+    "It makes the bicycle dirty",
+    "It uses less water",
+    "It makes it heavier"
+   ],
+   "answer": 2,
+   "explanation": "A bucket has a limited amount of water."
+  },
+  {
+   "topic": "2.3",
+   "q": "Who should practise water conservation?",
+   "options": [
+    "Only adults",
+    "Everyone at home and school",
+    "Only farmers",
+    "Only teachers"
+   ],
+   "answer": 1,
+   "explanation": "Everyone shares water and should save it."
+  },
+  {
+   "topic": "3.1",
+   "q": "What is a force?",
+   "options": [
+    "A kind of light",
+    "A push or a pull",
+    "A kind of sound",
+    "A kind of matter"
+   ],
+   "answer": 1,
+   "explanation": "A force is a push or a pull."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these is a pull?",
+   "options": [
+    "Opening a drawer by its handle",
+    "Kicking a ball",
+    "Closing a door by pushing",
+    "Pressing a bell"
+   ],
+   "answer": 0,
+   "explanation": "A handle is pulled toward you."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these is a push?",
+   "options": [
+    "Drawing water with a rope",
+    "Pulling a cart",
+    "Opening a drawer by its handle",
+    "Kicking a football"
+   ],
+   "answer": 3,
+   "explanation": "A kick pushes the ball."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which force pulls objects down towards the Earth?",
+   "options": [
+    "Friction",
+    "Wind",
+    "Gravity",
+    "Sound"
+   ],
+   "answer": 2,
+   "explanation": "Gravity pulls things towards the centre of the Earth."
+  },
+  {
+   "topic": "3.1",
+   "q": "Why does a mango fall from a tree?",
+   "options": [
+    "Friction pushes it",
+    "Light pulls it",
+    "Gravity pulls it down",
+    "Sound moves it"
+   ],
+   "answer": 2,
+   "explanation": "Gravity acts on every object."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which force slows down or stops a book sliding on the floor?",
+   "options": [
+    "Gravity",
+    "Friction",
+    "Light",
+    "Heat"
+   ],
+   "answer": 1,
+   "explanation": "Friction opposes the movement between surfaces."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which surface gives the most friction?",
+   "options": [
+    "A rough carpet",
+    "A polished tile",
+    "An oiled floor",
+    "A smooth ice surface"
+   ],
+   "answer": 0,
+   "explanation": "Rough surfaces give more friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which surface gives the least friction?",
+   "options": [
+    "Rough sandpaper",
+    "A thick carpet",
+    "Dry grass",
+    "A wet, oiled tile"
+   ],
+   "answer": 3,
+   "explanation": "Oil and smoothness reduce friction."
   }
  ],
  "short": []

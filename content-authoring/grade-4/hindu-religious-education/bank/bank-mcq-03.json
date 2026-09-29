@@ -101,7 +101,7 @@
    "q": "What should Amina do about the extra money?",
    "options": [
     "Keep it",
-    "Hide it",
+    "Give it away",
     "Spend it",
     "Return the extra to the shopkeeper"
    ],
@@ -138,7 +138,7 @@
    "options": [
     "Tell a trusted adult",
     "Share it with friends",
-    "Hide it forever",
+    "Put it back where you found it",
     "Keep clicking"
    ],
    "answer": 0,
@@ -210,7 +210,7 @@
    "options": [
     "Blame another child",
     "Own up",
-    "Hide it",
+    "Give it away",
     "Run away"
    ],
    "answer": 1,
@@ -295,7 +295,7 @@
     "Give it to the driver or conductor",
     "Keep it",
     "Throw it away",
-    "Hide it"
+    "Give it away"
    ],
    "answer": 0,
    "explanation": "Returning it shows integrity."
@@ -484,7 +484,7 @@
    "topic": "6.1",
    "q": "Which organisation set International Yoga Day?",
    "options": [
-    "The Kenya Football Club",
+    "A local school",
     "A school",
     "The United Nations",
     "A bank"
@@ -880,9 +880,9 @@
    "topic": "7.1",
    "q": "Which tradition teaches the five principles in this lesson?",
    "options": [
-    "Only a school rulebook",
+    "Only the Buddhist tradition",
     "Sanatan or Vedic",
-    "A sports club",
+    "A trade union",
     "A market"
    ],
    "answer": 1,

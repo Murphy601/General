@@ -414,8 +414,8 @@
    "options": [
     "Ignore them",
     "Listen to a resource person or visit a library",
-    "Throw them away",
-    "Draw on them"
+    "Keep them in a bag",
+    "Copy them from memory only"
    ],
    "answer": 1,
    "explanation": "We can listen, read and discuss."
@@ -894,7 +894,7 @@
    "options": [
     "Waving a lamp in front of the murti while singing",
     "Eating",
-    "Sleeping",
+    "Painting",
     "Reading a map"
    ],
    "answer": 0,
@@ -953,9 +953,9 @@
    "q": "How should you dress to visit a Mandir?",
    "options": [
     "Modestly",
-    "Wearing swimwear",
+    "Wearing a heavy coat",
     "Very informally",
-    "Wearing costumes"
+    "Wearing school uniform"
    ],
    "answer": 0,
    "explanation": "Modest dress shows respect."
@@ -989,8 +989,8 @@
    "q": "Which is a typical feature of Mandirs?",
    "options": [
     "A roaring engine",
-    "A football pitch",
-    "A market stall",
+    "A kitchen garden",
+    "A water tank",
     "A bell rung gently on arrival"
    ],
    "answer": 3,
@@ -1087,7 +1087,7 @@
     "Keep it quietly",
     "Spend it on sweets",
     "Give it to the teacher so it can be returned",
-    "Hide it"
+    "Give it away"
    ],
    "answer": 2,
    "explanation": "A lost note belongs to its owner."
@@ -1194,7 +1194,7 @@
    "options": [
     "Earning by honest work",
     "Fasting",
-    "Sleeping",
+    "Painting",
     "Travelling"
    ],
    "answer": 0,

@@ -55,7 +55,7 @@
     "A race",
     "A song of prayer called a bhajan",
     "A market",
-    "A football game"
+    "A school race"
    ],
    "answer": 1,
    "explanation": "Bhajans are sung prayers."
@@ -281,7 +281,7 @@
    "q": "What is a jagaran or vigil?",
    "options": [
     "Staying awake at night to pray and sing",
-    "Sleeping early",
+    "Eating a big meal",
     "A meal",
     "A race"
    ],
@@ -331,7 +331,7 @@
     "Winning arguments",
     "Getting rich",
     "Self-control, faith and staying alert to do good",
-    "Sleeping late"
+    "Playing games all night"
    ],
    "answer": 2,
    "explanation": "These are its lessons."
@@ -523,7 +523,7 @@
     "The national flag",
     "The school flag",
     "A sail",
-    "A banner of a shop"
+    "A flag of a sports team"
    ],
    "answer": 0,
    "explanation": "The flag is raised and the anthem sung."
@@ -641,7 +641,7 @@
    "q": "Why do the dates of Maha Shivratri and Paryushan change on the usual calendar?",
    "options": [
     "They follow the shops",
-    "They follow the weather forecast",
+    "They follow the market days",
     "They follow the Moon",
     "They follow the school terms"
    ],
@@ -736,10 +736,10 @@
    "topic": "8.1",
    "q": "Which activity is suggested to learn about festivals?",
    "options": [
-    "Skip school",
+    "Copy a friend's essay",
     "Write a composition on your favourite festival",
-    "Stay at home",
-    "Tear up a book"
+    "Watch television all day",
+    "Read a book quietly"
    ],
    "answer": 1,
    "explanation": "Writing helps us reflect."
@@ -1180,10 +1180,10 @@
    "topic": "8.2",
    "q": "Which is a use of the Panchang?",
    "options": [
-    "Doing sums",
+    "Counting rainfall",
     "Fixing the dates of festivals",
-    "Tracking football scores",
-    "Making tea"
+    "Keeping the school timetable",
+    "Cooking rice"
    ],
    "answer": 1,
    "explanation": "It lists festival dates."
@@ -1193,9 +1193,9 @@
    "q": "Which activity helps you learn the days and planets?",
    "options": [
     "Making a decorated calendar",
-    "Sleeping",
+    "Painting",
     "Hiding the calendar",
-    "Tearing the chart"
+    "Copying from a book"
    ],
    "answer": 0,
    "explanation": "Decorating helps memory."

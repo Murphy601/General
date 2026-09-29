@@ -1,0 +1,521 @@
+{
+ "mcq": [
+  {
+   "topic": "3.1",
+   "q": "What effect does friction have on rubbing your hands?",
+   "options": [
+    "It makes them cold",
+    "It makes them wet",
+    "It makes them heavy",
+    "It makes them warm"
+   ],
+   "answer": 3,
+   "explanation": "Friction produces heat."
+  },
+  {
+   "topic": "3.1",
+   "q": "What does a force do when it squeezes a sponge?",
+   "options": [
+    "Makes it hot",
+    "Changes its colour",
+    "Changes its shape",
+    "Makes it lighter"
+   ],
+   "answer": 2,
+   "explanation": "Squeezing changes the shape."
+  },
+  {
+   "topic": "3.1",
+   "q": "What effect of force is shown when a goalkeeper stops a ball?",
+   "options": [
+    "Starts a moving object",
+    "Stops a moving object",
+    "Changes its colour",
+    "Makes it lighter"
+   ],
+   "answer": 1,
+   "explanation": "The force of the hands stops the ball."
+  },
+  {
+   "topic": "3.1",
+   "q": "What effect is shown when a force starts a still football moving?",
+   "options": [
+    "Starts motion",
+    "Stops motion",
+    "Changes shape only",
+    "Holds it together"
+   ],
+   "answer": 0,
+   "explanation": "A push makes a still object move."
+  },
+  {
+   "topic": "3.1",
+   "q": "A cyclist pedals harder and goes faster. What effect of force is this?",
+   "options": [
+    "Increases speed",
+    "Decreases speed",
+    "Stops motion",
+    "Changes shape"
+   ],
+   "answer": 0,
+   "explanation": "More force increases speed."
+  },
+  {
+   "topic": "3.1",
+   "q": "A cyclist presses the brakes and slows down. What effect of force is this?",
+   "options": [
+    "Increases speed",
+    "Starts motion",
+    "Holds objects together",
+    "Decreases speed"
+   ],
+   "answer": 3,
+   "explanation": "Brakes use friction to slow the bicycle."
+  },
+  {
+   "topic": "3.1",
+   "q": "A hockey stick hits a rolling ball to the left. What effect of force is this?",
+   "options": [
+    "Starts motion",
+    "Holds together",
+    "Changes direction",
+    "Changes shape only"
+   ],
+   "answer": 2,
+   "explanation": "The direction of the ball changes."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these holds objects together?",
+   "options": [
+    "Oil",
+    "Glue",
+    "A smooth floor",
+    "A rolling ball"
+   ],
+   "answer": 1,
+   "explanation": "Glue, nails and ropes use forces to hold things together."
+  },
+  {
+   "topic": "3.1",
+   "q": "Why do we put oil on machine parts?",
+   "options": [
+    "To increase friction",
+    "To reduce friction",
+    "To make them heavy",
+    "To make them weak"
+   ],
+   "answer": 1,
+   "explanation": "Oil makes surfaces slide easily."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these reduces friction?",
+   "options": [
+    "Ball bearings",
+    "Rough paint",
+    "Sand on a surface",
+    "Gluing parts"
+   ],
+   "answer": 0,
+   "explanation": "Ball bearings roll and reduce friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "Where are ball bearings found?",
+   "options": [
+    "In a pencil",
+    "In a book",
+    "In a cup",
+    "In bicycle wheels"
+   ],
+   "answer": 3,
+   "explanation": "Bicycle wheels use ball bearings."
+  },
+  {
+   "topic": "3.1",
+   "q": "Logs placed under a heavy load help it move because they act as",
+   "options": [
+    "Brakes",
+    "Glue",
+    "Rollers",
+    "Weights"
+   ],
+   "answer": 2,
+   "explanation": "Rollers reduce friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these is a way of increasing useful friction?",
+   "options": [
+    "Oiling a floor",
+    "Polishing a table",
+    "Shoes with rough soles",
+    "Wearing smooth socks on a wet floor"
+   ],
+   "answer": 2,
+   "explanation": "Rough soles grip the ground."
+  },
+  {
+   "topic": "3.1",
+   "q": "Why are tyres made with rough patterns?",
+   "options": [
+    "To make them shiny",
+    "To grip the road",
+    "To make them lighter",
+    "To reduce friction"
+   ],
+   "answer": 1,
+   "explanation": "Grip needs friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "Why do matches light when rubbed on the box?",
+   "options": [
+    "Friction makes heat",
+    "Friction makes cold",
+    "Gravity makes light",
+    "Wind makes fire"
+   ],
+   "answer": 0,
+   "explanation": "Rubbing produces heat."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which is a use of gravity?",
+   "options": [
+    "Lifting up a stone by itself",
+    "Making objects float in air",
+    "Making air hot",
+    "Water flowing downhill"
+   ],
+   "answer": 3,
+   "explanation": "Gravity makes water flow downhill."
+  },
+  {
+   "topic": "3.1",
+   "q": "A stone and a crumpled paper are dropped together. They land almost together because",
+   "options": [
+    "The stone is lighter",
+    "The paper is heavier",
+    "There is no gravity",
+    "Gravity pulls both and air pushes little on the crumpled paper"
+   ],
+   "answer": 3,
+   "explanation": "The air has very little effect on the crumpled paper."
+  },
+  {
+   "topic": "3.1",
+   "q": "A flat sheet of paper falls slower than a stone because",
+   "options": [
+    "Gravity does not pull paper",
+    "Paper is bigger",
+    "Air pushes up on the flat paper more",
+    "The stone is bigger"
+   ],
+   "answer": 2,
+   "explanation": "Air pushes up more on the wide flat sheet."
+  },
+  {
+   "topic": "3.1",
+   "q": "What is weight?",
+   "options": [
+    "The amount of light",
+    "The pull of gravity on an object",
+    "The heat of an object",
+    "The colour of an object"
+   ],
+   "answer": 1,
+   "explanation": "Weight is the pull of gravity on a thing."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these is a problem caused by friction?",
+   "options": [
+    "Wearing away of shoes and tyres",
+    "Walking safely",
+    "Braking a bicycle",
+    "Lighting a match"
+   ],
+   "answer": 0,
+   "explanation": "Friction wears surfaces away."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these is a use of friction?",
+   "options": [
+    "Brakes stopping a bicycle",
+    "Machines wearing out",
+    "Wasting energy",
+    "Making parts hot"
+   ],
+   "answer": 0,
+   "explanation": "Brakes use friction to slow wheels."
+  },
+  {
+   "topic": "3.1",
+   "q": "A wheelbarrow is easier to move than dragging a load because",
+   "options": [
+    "The wheel is heavy",
+    "Gravity is less",
+    "The load gets smaller",
+    "The wheel reduces friction"
+   ],
+   "answer": 3,
+   "explanation": "Wheels roll and reduce friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which force acts on a ball thrown into the air and brings it back down?",
+   "options": [
+    "Friction",
+    "Light",
+    "Gravity",
+    "Sound"
+   ],
+   "answer": 2,
+   "explanation": "Gravity pulls the ball to the ground."
+  },
+  {
+   "topic": "3.1",
+   "q": "How can a farmer keep a wheelbarrow running smoothly?",
+   "options": [
+    "Add sand to the wheel",
+    "Oil its moving joints",
+    "Leave it in the rain",
+    "Use rough paint"
+   ],
+   "answer": 1,
+   "explanation": "Oil reduces friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these needs friction to work?",
+   "options": [
+    "Skating on wet ice",
+    "Walking on the ground",
+    "A rolling wheel",
+    "Sliding on oil"
+   ],
+   "answer": 1,
+   "explanation": "Walking needs grip from friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "What happens if there is no friction between your shoes and the ground?",
+   "options": [
+    "You slip",
+    "You walk faster",
+    "You stop",
+    "You fly"
+   ],
+   "answer": 0,
+   "explanation": "Without friction you cannot grip."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these can change the shape of dough?",
+   "options": [
+    "Looking at it",
+    "Talking to it",
+    "Leaving it alone",
+    "Pressing with a force"
+   ],
+   "answer": 3,
+   "explanation": "A force can squeeze and stretch dough."
+  },
+  {
+   "topic": "3.1",
+   "q": "A force can be small or big. A bigger push makes a ball go",
+   "options": [
+    "Slower",
+    "Not move",
+    "Faster and further",
+    "Change colour"
+   ],
+   "answer": 2,
+   "explanation": "A stronger force has a bigger effect."
+  },
+  {
+   "topic": "3.1",
+   "q": "What happens when you push a book gently with a finger compared with a hard push?",
+   "options": [
+    "It moves faster with the gentle push",
+    "It flies away with the gentle push",
+    "It moves slowly with the gentle push",
+    "It does not move with the hard push"
+   ],
+   "answer": 2,
+   "explanation": "A bigger force gives a bigger effect."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these shows that friction produces heat?",
+   "options": [
+    "Pouring water",
+    "Rubbing hands together",
+    "Drawing with chalk",
+    "Looking at a torch"
+   ],
+   "answer": 1,
+   "explanation": "Rubbing surfaces produces heat."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these will make a block slide the shortest distance on a ramp?",
+   "options": [
+    "Sandpaper",
+    "Smooth tile",
+    "Oiled plastic",
+    "Glass"
+   ],
+   "answer": 0,
+   "explanation": "Rough surfaces have the most friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "What should you do when doing force experiments?",
+   "options": [
+    "Push others",
+    "Throw heavy things",
+    "Run with sharp tools",
+    "Keep fingers away from moving parts"
+   ],
+   "answer": 3,
+   "explanation": "Safe practice prevents injuries."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these is NOT an effect of force?",
+   "options": [
+    "Changing shape",
+    "Starting motion",
+    "Stopping motion",
+    "Making something have colour"
+   ],
+   "answer": 3,
+   "explanation": "Colour is not caused by a force."
+  },
+  {
+   "topic": "3.1",
+   "q": "Pulling a rope in tug of war uses",
+   "options": [
+    "Only gravity",
+    "Only light",
+    "A pull force",
+    "Only heat"
+   ],
+   "answer": 2,
+   "explanation": "Pulling is a force."
+  },
+  {
+   "topic": "3.1",
+   "q": "What direction does friction act in compared with the motion of an object?",
+   "options": [
+    "The same",
+    "Opposite",
+    "Sideways only",
+    "Upwards only"
+   ],
+   "answer": 1,
+   "explanation": "Friction acts against motion."
+  },
+  {
+   "topic": "3.1",
+   "q": "A rolling ball slowly comes to a stop on the ground mainly because of",
+   "options": [
+    "Friction",
+    "Light",
+    "Sound",
+    "Colour"
+   ],
+   "answer": 0,
+   "explanation": "Friction between the ball and the ground slows it."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these is a way of reducing friction on a bicycle chain?",
+   "options": [
+    "Oiling it",
+    "Adding sand",
+    "Wetting it with mud",
+    "Leaving it dry and rusty"
+   ],
+   "answer": 0,
+   "explanation": "Oil helps parts slide."
+  },
+  {
+   "topic": "3.1",
+   "q": "A pump pushing air into a tyre is an example of",
+   "options": [
+    "A gas",
+    "A shadow",
+    "A colour",
+    "A force"
+   ],
+   "answer": 3,
+   "explanation": "The pump pushes air by force."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which force is at work when you pour water and it flows down a slope?",
+   "options": [
+    "Sound",
+    "Light",
+    "Gravity",
+    "Magnetism only"
+   ],
+   "answer": 2,
+   "explanation": "Gravity pulls water downhill."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which force makes it hard to push a heavy box along a rough floor?",
+   "options": [
+    "Light",
+    "Friction",
+    "Sound",
+    "Colour"
+   ],
+   "answer": 1,
+   "explanation": "Rough floor gives large friction."
+  },
+  {
+   "topic": "3.1",
+   "q": "Why do people spread ash or sand on a slippery path?",
+   "options": [
+    "To reduce friction",
+    "To increase friction",
+    "To make it hot",
+    "To make it heavy"
+   ],
+   "answer": 1,
+   "explanation": "Rough material improves grip."
+  },
+  {
+   "topic": "3.1",
+   "q": "A ball is rolling and you kick it in the direction it moves. What happens?",
+   "options": [
+    "It speeds up",
+    "It stops",
+    "It changes into a solid",
+    "It gets smaller"
+   ],
+   "answer": 0,
+   "explanation": "A force in the direction of movement increases speed."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which of these holds a shirt together?",
+   "options": [
+    "Oil",
+    "A rolling wheel",
+    "Wind",
+    "Thread stitches"
+   ],
+   "answer": 3,
+   "explanation": "Stitches hold cloth pieces together."
+  }
+ ],
+ "short": []
+}
