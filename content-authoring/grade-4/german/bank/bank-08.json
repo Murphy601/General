@@ -1,0 +1,173 @@
+{
+ "mcq": [
+  {
+   "topic": "2.5",
+   "q": "Which German word is the number 20?",
+   "options": [
+    "zwanzig",
+    "drei",
+    "achtzehn",
+    "zwölf"
+   ],
+   "answer": 0,
+   "explanation": "20 in German is zwanzig."
+  },
+  {
+   "topic": "1.9",
+   "q": "Which safety idea is right for the kitchen?",
+   "options": [
+    "Let children play with matches",
+    "Block the door",
+    "Leave the cooker on when you go out",
+    "Keep hot pots and matches away from small children"
+   ],
+   "answer": 3,
+   "explanation": "Small children must be kept away from heat and matches."
+  },
+  {
+   "topic": "1.4",
+   "q": "What does \"der Mittwoch\" mean in English?",
+   "options": [
+    "Wednesday",
+    "week",
+    "Saturday",
+    "Monday"
+   ],
+   "answer": 0,
+   "explanation": "der Mittwoch means Wednesday."
+  },
+  {
+   "topic": "1.6",
+   "q": "In \"Fischers Fritz fischt frische Fische\", which sound repeats?",
+   "options": [
+    "z",
+    "k",
+    "f",
+    "m"
+   ],
+   "answer": 2,
+   "explanation": "Every word begins with f or sch or f."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which question asks \"Who is that?\"",
+   "options": [
+    "Wer ist das?",
+    "Was ist das?",
+    "Wo ist das?",
+    "Wie ist das?"
+   ],
+   "answer": 0,
+   "explanation": "Wer means who."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which form completes \"Wir ___ Geschwister\"?",
+   "options": [
+    "sind",
+    "bin",
+    "bist",
+    "ist"
+   ],
+   "answer": 0,
+   "explanation": "wir goes with sind."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why do we copy the teacher's sounds when learning German?",
+   "options": [
+    "To avoid reading",
+    "To learn the sounds accurately by practice",
+    "To learn only spelling",
+    "To make the class noisy"
+   ],
+   "answer": 1,
+   "explanation": "Imitation trains the ears and mouth to make the new sounds."
+  },
+  {
+   "topic": "2.7",
+   "q": "What does \"die Hand\" mean in English?",
+   "options": [
+    "shoulder",
+    "hand",
+    "leg",
+    "finger"
+   ],
+   "answer": 1,
+   "explanation": "die Hand means hand."
+  },
+  {
+   "topic": "3.8",
+   "q": "What does \"kühl\" mean in English?",
+   "options": [
+    "warm",
+    "cloudy",
+    "cool",
+    "windy"
+   ],
+   "answer": 2,
+   "explanation": "kühl means cool."
+  },
+  {
+   "topic": "2.1",
+   "q": "How many umlaut letters does German have?",
+   "options": [
+    "2",
+    "4",
+    "3",
+    "5"
+   ],
+   "answer": 2,
+   "explanation": "The umlauts are ä, ö and ü."
+  },
+  {
+   "topic": "3.2",
+   "q": "What is the plural of \"der Bruder\"?",
+   "options": [
+    "die Brüder",
+    "die Bruder",
+    "die Bruders",
+    "die Bruderen"
+   ],
+   "answer": 0,
+   "explanation": "The plural of der Bruder is die Brüder."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which German word or phrase means \"brother\"?",
+   "options": [
+    "der Bruder",
+    "der Freund",
+    "die Schwester",
+    "die Familie"
+   ],
+   "answer": 0,
+   "explanation": "brother in German is der Bruder."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does \"im\" stand for?",
+   "options": [
+    "in dem",
+    "in die",
+    "in der",
+    "an dem"
+   ],
+   "answer": 0,
+   "explanation": "im is the short form of in dem."
+  },
+  {
+   "topic": "1.2",
+   "q": "You hear: \"Das ist mein Vater. Er heißt Juma. Er ist groß.\" What is the gist?",
+   "options": [
+    "A child describes a sister",
+    "Someone talks about the weather",
+    "Someone orders food",
+    "A child describes his or her father"
+   ],
+   "answer": 3,
+   "explanation": "The words Vater, heißt and groß tell us it is about a father."
+  }
+ ],
+ "short": []
+}

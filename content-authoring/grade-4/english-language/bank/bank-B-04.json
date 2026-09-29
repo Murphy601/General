@@ -1,0 +1,646 @@
+{
+ "mcq": [
+  {
+   "topic": "10.1",
+   "q": "Which word has the long vowel /iː/?",
+   "options": [
+    "ship",
+    "sit",
+    "sheep",
+    "bit"
+   ],
+   "answer": 2,
+   "explanation": "'Sheep' has a long /iː/; the others have a short /ɪ/."
+  },
+  {
+   "topic": "10.1",
+   "q": "Which word has the short vowel /ɪ/?",
+   "options": [
+    "leave",
+    "seat",
+    "live",
+    "feel"
+   ],
+   "answer": 2,
+   "explanation": "'Live' has a short /ɪ/."
+  },
+  {
+   "topic": "10.1",
+   "q": "Which pair differs in the sounds /s/ and /ʃ/?",
+   "options": [
+    "sea and she",
+    "sit and seat",
+    "go and no",
+    "live and leave"
+   ],
+   "answer": 0,
+   "explanation": "'Sea' has /s/ and 'she' has /ʃ/."
+  },
+  {
+   "topic": "10.1",
+   "q": "Which word has the gliding vowel /əʊ/?",
+   "options": [
+    "sip",
+    "ship",
+    "bit",
+    "soap"
+   ],
+   "answer": 3,
+   "explanation": "'Soap' has /əʊ/."
+  },
+  {
+   "topic": "10.1",
+   "q": "What is a riddle?",
+   "options": [
+    "A long story",
+    "A word puzzle that describes something without naming it",
+    "A kind of song",
+    "A list of rules"
+   ],
+   "answer": 1,
+   "explanation": "The listener guesses the answer."
+  },
+  {
+   "topic": "10.1",
+   "q": "What is the answer to this riddle? 'I am used to wash the body. I make bubbles and get smaller each time you use me.'",
+   "options": [
+    "a towel",
+    "soap",
+    "a bucket",
+    "a broom"
+   ],
+   "answer": 1,
+   "explanation": "Soap makes bubbles and wears away."
+  },
+  {
+   "topic": "10.1",
+   "q": "Which is a polite way to interrupt a speaker?",
+   "options": [
+    "Stop talking!",
+    "You are wrong!",
+    "Be quiet!",
+    "Excuse me, may I ask a question?"
+   ],
+   "answer": 3,
+   "explanation": "It is polite because it asks permission."
+  },
+  {
+   "topic": "10.1",
+   "q": "When is it fair to interrupt a speaker?",
+   "options": [
+    "When you did not hear or someone needs urgent help",
+    "When you are bored",
+    "When you want to talk instead",
+    "When you disagree loudly"
+   ],
+   "answer": 0,
+   "explanation": "Only interrupt for good reasons, and do so politely."
+  },
+  {
+   "topic": "10.1",
+   "q": "Which is a nonverbal cue that shows you are listening?",
+   "options": [
+    "Looking out of the window",
+    "Talking to a friend",
+    "Looking at the speaker and nodding",
+    "Turning your back"
+   ],
+   "answer": 2,
+   "explanation": "Eye contact and nods show attention."
+  },
+  {
+   "topic": "10.1",
+   "q": "What does 'sanitation' mean?",
+   "options": [
+    "A kind of food",
+    "A game",
+    "Clean toilets, drains and waste systems that protect health",
+    "A type of shoe"
+   ],
+   "answer": 2,
+   "explanation": "Sanitation protects health by keeping waste away."
+  },
+  {
+   "topic": "10.1",
+   "q": "What is hygiene?",
+   "options": [
+    "Keeping yourself and things clean to stay healthy",
+    "A type of exercise",
+    "A school subject only",
+    "Playing with friends"
+   ],
+   "answer": 0,
+   "explanation": "Hygiene protects us from germs."
+  },
+  {
+   "topic": "10.1",
+   "q": "What does 'rinse' mean?",
+   "options": [
+    "To make dirty",
+    "To dry with cloth",
+    "To cook",
+    "To wash with clean water to take off soap"
+   ],
+   "answer": 3,
+   "explanation": "You rinse after using soap."
+  },
+  {
+   "topic": "10.2",
+   "q": "What is a factual text?",
+   "options": [
+    "A made-up story only",
+    "A text that gives true information",
+    "A poem only",
+    "A joke"
+   ],
+   "answer": 1,
+   "explanation": "Factual texts share facts."
+  },
+  {
+   "topic": "10.2",
+   "q": "According to the text, when should we wash our hands?",
+   "options": [
+    "Never with soap",
+    "After using the toilet",
+    "Only on Sundays",
+    "Only when we see dirt"
+   ],
+   "answer": 1,
+   "explanation": "The text lists after using the toilet, before eating and more."
+  },
+  {
+   "topic": "10.2",
+   "q": "Why should water from rivers be boiled before drinking?",
+   "options": [
+    "It is too cold",
+    "It tastes sweet",
+    "It is too clear",
+    "It may contain germs"
+   ],
+   "answer": 3,
+   "explanation": "Boiling kills germs."
+  },
+  {
+   "topic": "10.2",
+   "q": "How long should you rub your hands when washing them, according to the text?",
+   "options": [
+    "About twenty seconds",
+    "About two seconds",
+    "About ten minutes",
+    "There is no time needed"
+   ],
+   "answer": 0,
+   "explanation": "Rub for about twenty seconds, then rinse."
+  },
+  {
+   "topic": "10.2",
+   "q": "Why do flies spread germs?",
+   "options": [
+    "They eat all the soap",
+    "They drink clean water",
+    "They land on waste and then on food",
+    "They sleep on beds"
+   ],
+   "answer": 2,
+   "explanation": "Flies carry germs from waste to food."
+  },
+  {
+   "topic": "10.2",
+   "q": "What should a person with diarrhoea do?",
+   "options": [
+    "Stop drinking water",
+    "Share their cup",
+    "Drink plenty of safe water and see a health worker",
+    "Stay away from clean water"
+   ],
+   "answer": 2,
+   "explanation": "Drinking safe water and seeking help is important."
+  },
+  {
+   "topic": "10.2",
+   "q": "What does 'rinse' mean in the passage on hand washing?",
+   "options": [
+    "To wash off soap with clean water",
+    "To add soap",
+    "To dry the hands",
+    "To hide germs"
+   ],
+   "answer": 0,
+   "explanation": "You rinse after soap."
+  },
+  {
+   "topic": "10.2",
+   "q": "Which is an opinion, not a fact?",
+   "options": [
+    "Germs are too small to see.",
+    "Soap helps to remove germs.",
+    "Boiled water is safer than untreated river water.",
+    "Cold water is the nicest to drink."
+   ],
+   "answer": 3,
+   "explanation": "An opinion says what someone thinks."
+  },
+  {
+   "topic": "10.2",
+   "q": "What is inferring the meaning of a word?",
+   "options": [
+    "Copying it",
+    "Working out its meaning from the words around it",
+    "Ignoring it",
+    "Spelling it backwards"
+   ],
+   "answer": 1,
+   "explanation": "Context gives clues."
+  },
+  {
+   "topic": "10.2",
+   "q": "What does a dictionary give?",
+   "options": [
+    "A map of Kenya",
+    "The meaning and spelling of words",
+    "News about sports",
+    "A list of names of people"
+   ],
+   "answer": 1,
+   "explanation": "Dictionary words are in alphabetical order."
+  },
+  {
+   "topic": "10.2",
+   "q": "Which is a main idea of the text 'Keeping Clean to Stay Healthy'?",
+   "options": [
+    "Germs are good for us",
+    "Soap is expensive",
+    "Flies help us",
+    "Good hygiene keeps us healthy"
+   ],
+   "answer": 3,
+   "explanation": "The whole text supports good hygiene."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which of these is a coordinating conjunction?",
+   "options": [
+    "but",
+    "quickly",
+    "broom",
+    "tidy"
+   ],
+   "answer": 0,
+   "explanation": "'But' joins words or sentences."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which conjunction shows a result? 'The floor was dirty, ____ we mopped it.'",
+   "options": [
+    "or",
+    "nor",
+    "so",
+    "yet"
+   ],
+   "answer": 2,
+   "explanation": "'So' shows result."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which conjunction gives a choice?",
+   "options": [
+    "and",
+    "so",
+    "or",
+    "yet"
+   ],
+   "answer": 2,
+   "explanation": "'Or' offers choices."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which conjunction shows a difference? 'The water looked clean, ____ it was not safe.'",
+   "options": [
+    "but",
+    "and",
+    "so",
+    "or"
+   ],
+   "answer": 0,
+   "explanation": "'But' shows contrast."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which sentence uses 'nor' correctly?",
+   "options": [
+    "She has no soap, nor she does have water.",
+    "She has no soap, nor water has she.",
+    "She has no soap nor does have water she.",
+    "She has no soap, nor does she have water."
+   ],
+   "answer": 3,
+   "explanation": "After 'nor', the helping verb comes before the subject."
+  },
+  {
+   "topic": "10.3",
+   "q": "What does 'for' mean when it is used as a conjunction?",
+   "options": [
+    "although",
+    "because",
+    "however",
+    "before"
+   ],
+   "answer": 1,
+   "explanation": "'For' gives a reason."
+  },
+  {
+   "topic": "10.3",
+   "q": "What is the full set of coordinating conjunctions?",
+   "options": [
+    "if, when, while, since, until, unless, after",
+    "for, and, nor, but, or, yet, so",
+    "in, on, at, by, to, from, with",
+    "he, she, it, we, you, they, I"
+   ],
+   "answer": 1,
+   "explanation": "The seven are remembered as FANBOYS."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which sentence has correct punctuation?",
+   "options": [
+    "I was tired but, I finished sweeping.",
+    "I was, tired but I finished sweeping.",
+    "I was tired but I finished sweeping,",
+    "I was tired, but I finished sweeping."
+   ],
+   "answer": 3,
+   "explanation": "A comma comes before but when joining two full sentences."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which conjunction means the same as 'but' in 'The room was small, ____ it was very clean'?",
+   "options": [
+    "yet",
+    "so",
+    "nor",
+    "for"
+   ],
+   "answer": 0,
+   "explanation": "'Yet' shows a surprise, like 'but'."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which conjunction joins two negative ideas?",
+   "options": [
+    "and",
+    "so",
+    "nor",
+    "or"
+   ],
+   "answer": 2,
+   "explanation": "'Nor' follows a negative."
+  },
+  {
+   "topic": "10.3",
+   "q": "Which sentence is joined correctly?",
+   "options": [
+    "We swept the floor, nor we wiped the desks.",
+    "We swept the floor, yet we wiped the desks.",
+    "We swept the floor, and we wiped the desks.",
+    "We swept the floor, for we wiped the desks."
+   ],
+   "answer": 2,
+   "explanation": "'And' adds an idea."
+  },
+  {
+   "topic": "10.4",
+   "q": "What is a descriptive composition?",
+   "options": [
+    "Writing that paints a picture of a person, place, object or activity",
+    "A story with a problem to solve",
+    "A letter to a friend",
+    "A list of numbers"
+   ],
+   "answer": 0,
+   "explanation": "It describes so that the reader can imagine."
+  },
+  {
+   "topic": "10.4",
+   "q": "Which sentence uses the sense of smell?",
+   "options": [
+    "The wall is white.",
+    "The tap drips.",
+    "The towel is rough.",
+    "The soap gives off a fresh smell."
+   ],
+   "answer": 3,
+   "explanation": "'Fresh smell' refers to smell."
+  },
+  {
+   "topic": "10.4",
+   "q": "Which sentence uses the sense of touch?",
+   "options": [
+    "The room is bright.",
+    "The towel is soft and dry.",
+    "We heard laughter.",
+    "The soup tasted sweet."
+   ],
+   "answer": 1,
+   "explanation": "'Soft and dry' describes how it feels."
+  },
+  {
+   "topic": "10.4",
+   "q": "How long is a descriptive composition at this level?",
+   "options": [
+    "10 to 20 words",
+    "80 to 100 words",
+    "200 to 300 words",
+    "500 words"
+   ],
+   "answer": 1,
+   "explanation": "The task calls for 80 to 100 words."
+  },
+  {
+   "topic": "10.4",
+   "q": "What is a topic sentence?",
+   "options": [
+    "The last word of the paragraph",
+    "A question at the end",
+    "A list of adjectives",
+    "A sentence that tells what the paragraph is about"
+   ],
+   "answer": 3,
+   "explanation": "It states the main idea."
+  },
+  {
+   "topic": "10.4",
+   "q": "Which paragraph plan is correct?",
+   "options": [
+    "Introduction, details, conclusion",
+    "Conclusion, details, introduction",
+    "Details only",
+    "Conclusion only"
+   ],
+   "answer": 0,
+   "explanation": "Descriptions usually run from an introduction through details to a conclusion."
+  },
+  {
+   "topic": "10.4",
+   "q": "Which is a better describing phrase than 'nice room'?",
+   "options": [
+    "a room",
+    "a room room",
+    "a bright, tidy room",
+    "the room, room"
+   ],
+   "answer": 2,
+   "explanation": "Exact adjectives give a clearer picture."
+  },
+  {
+   "topic": "10.4",
+   "q": "In which tense is a description usually written?",
+   "options": [
+    "Future perfect",
+    "Past perfect",
+    "Present tense",
+    "Command form"
+   ],
+   "answer": 2,
+   "explanation": "Descriptions often say what something is like now."
+  },
+  {
+   "topic": "10.4",
+   "q": "What does proofreading mean?",
+   "options": [
+    "Checking your work for mistakes",
+    "Writing a new composition",
+    "Reading only the title",
+    "Counting the pages"
+   ],
+   "answer": 0,
+   "explanation": "Proofread for spelling, capitals and punctuation."
+  },
+  {
+   "topic": "10.4",
+   "q": "Which is NOT one of the five senses?",
+   "options": [
+    "sight",
+    "smell",
+    "taste",
+    "sleep"
+   ],
+   "answer": 3,
+   "explanation": "The senses are sight, sound, smell, touch and taste."
+  }
+ ],
+ "short": [
+  {
+   "topic": "10.1",
+   "q": "Write the minimal pairs for: ship, seat, sock.",
+   "marks": 3,
+   "answer": "ship and sheep (or sip); seat and sheet (or sit); sock and shock.",
+   "working": "1 mark for each correct partner word."
+  },
+  {
+   "topic": "10.1",
+   "q": "Give one riddle about an object used for cleaning, with its answer.",
+   "marks": 2,
+   "answer": "For example: I have hairs but no head, and I clean your teeth. What am I? A toothbrush.",
+   "working": "1 mark for a clear riddle and 1 for the correct answer."
+  },
+  {
+   "topic": "10.1",
+   "q": "When is it right to interrupt a speaker, and how should you do it?",
+   "marks": 3,
+   "answer": "When you did not hear or understand, or someone needs urgent help. Say politely: 'Excuse me, may I say something?'",
+   "working": "2 marks for the reasons and 1 for a polite phrase."
+  },
+  {
+   "topic": "10.1",
+   "q": "Write two ways you can show a speaker that you are listening actively.",
+   "marks": 2,
+   "answer": "Look at the speaker and nod; keep still and quiet; say 'I see'.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "10.2",
+   "q": "Explain the difference between a fact and an opinion. Give one example of each.",
+   "marks": 3,
+   "answer": "A fact can be checked, for example 'Germs are tiny'. An opinion says what someone thinks, for example 'Cold water is nicest'.",
+   "working": "1 mark for each definition and 1 for examples."
+  },
+  {
+   "topic": "10.2",
+   "q": "List three hygiene habits mentioned in the text.",
+   "marks": 3,
+   "answer": "Wash hands with soap; boil drinking water; use a clean latrine; cover food; brush teeth; cut nails short.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "10.2",
+   "q": "Explain why flies are dangerous to health.",
+   "marks": 2,
+   "answer": "Flies land on waste and then on food, so they carry germs to the food we eat.",
+   "working": "1 mark for waste then food and 1 mark for germs spreading."
+  },
+  {
+   "topic": "10.2",
+   "q": "Write four sentences to advise classmates on keeping the school toilets clean.",
+   "marks": 4,
+   "answer": "Wash hands with soap after using the toilet. Do not throw rubbish in the latrine. Keep the door closed. Tell the teacher about any damage.",
+   "working": "1 mark for each sensible sentence."
+  },
+  {
+   "topic": "10.3",
+   "q": "Name the seven coordinating conjunctions.",
+   "marks": 3,
+   "answer": "for, and, nor, but, or, yet, so",
+   "working": "3 marks for all seven, 2 for five or six, 1 for three or four."
+  },
+  {
+   "topic": "10.3",
+   "q": "Join with a suitable conjunction: 'I was tired. I finished sweeping.'",
+   "marks": 2,
+   "answer": "I was tired, but I finished sweeping.",
+   "working": "1 mark for a suitable conjunction (but or yet) and 1 for the comma."
+  },
+  {
+   "topic": "10.3",
+   "q": "Explain the difference between 'but' and 'so' with an example of each.",
+   "marks": 4,
+   "answer": "'But' shows a difference: It was late, but we stayed. 'So' shows a result: It was late, so we left.",
+   "working": "1 mark for each meaning and 1 mark for each example."
+  },
+  {
+   "topic": "10.3",
+   "q": "Write four sentences about cleaning your classroom that use and, but, so and or.",
+   "marks": 4,
+   "answer": "Any four correct sentences, each with the named conjunction.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "10.4",
+   "q": "Name the five senses and say why a descriptive writer uses them.",
+   "marks": 3,
+   "answer": "Sight, sound, smell, touch and taste. They help the reader to imagine the thing being described.",
+   "working": "2 marks for the senses and 1 for the reason."
+  },
+  {
+   "topic": "10.4",
+   "q": "Plan a composition called 'My School Compound' by saying what goes into each of three paragraphs.",
+   "marks": 3,
+   "answer": "Paragraph 1: what the compound is and where. Paragraph 2: details such as trees, playground, buildings. Paragraph 3: how I feel about it.",
+   "working": "1 mark for each paragraph."
+  },
+  {
+   "topic": "10.4",
+   "q": "Write four descriptive sentences about your classroom.",
+   "marks": 4,
+   "answer": "Any four correct descriptive sentences with capitals and full stops.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "10.4",
+   "q": "Replace each plain word with a better describing word: nice room, dirty clothes, good smell. Write the new phrases.",
+   "marks": 3,
+   "answer": "For example: bright, tidy room; muddy, crumpled clothes; fresh smell.",
+   "working": "1 mark for each."
+  }
+ ]
+}

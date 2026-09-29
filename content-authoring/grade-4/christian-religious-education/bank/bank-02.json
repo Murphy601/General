@@ -1,0 +1,982 @@
+{
+ "mcq": [
+  {
+   "topic": "1.5",
+   "q": "What is one warning sign that a situation is unsafe?",
+   "options": [
+    "You feel happy",
+    "You feel proud",
+    "You feel sleepy",
+    "You feel uneasy or scared"
+   ],
+   "answer": 3,
+   "explanation": "Uneasy feelings are a signal to move away."
+  },
+  {
+   "topic": "1.6",
+   "q": "What is an attribute of God?",
+   "options": [
+    "A quality that describes what God is like",
+    "A kind of building",
+    "A song",
+    "A holiday"
+   ],
+   "answer": 0,
+   "explanation": "An attribute is a quality that describes someone."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which of these is an attribute of God taught in this topic?",
+   "options": [
+    "Weak",
+    "Unknown",
+    "Sole Creator",
+    "Forgetful"
+   ],
+   "answer": 2,
+   "explanation": "God is the sole Creator, loving Father and holy."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which verse says, \"God is love\"?",
+   "options": [
+    "Genesis 1:1",
+    "Luke 19:5",
+    "1 John 4:8",
+    "Acts 11:26"
+   ],
+   "answer": 2,
+   "explanation": "1 John 4:8 states that God is love."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which verse says that there is no one holy like the Lord?",
+   "options": [
+    "1 Samuel 2:2",
+    "Isaiah 49:16",
+    "Galatians 5:22",
+    "Luke 1:37"
+   ],
+   "answer": 0,
+   "explanation": "1 Samuel 2:2 declares God's holiness."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does \"holy\" mean?",
+   "options": [
+    "Rich",
+    "Old",
+    "Fast",
+    "Pure, perfect and set apart"
+   ],
+   "answer": 3,
+   "explanation": "God is holy because He never does wrong."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which verse says that God calls us by name?",
+   "options": [
+    "Exodus 20:12",
+    "Isaiah 43:1",
+    "Mark 10:52",
+    "Acts 2:38"
+   ],
+   "answer": 1,
+   "explanation": "Isaiah 43:1 says, \"I have called you by name.\""
+  },
+  {
+   "topic": "1.6",
+   "q": "What does it mean to revere God?",
+   "options": [
+    "To ignore Him",
+    "To fear Him only",
+    "To forget Him",
+    "To respect Him deeply and be in awe of Him"
+   ],
+   "answer": 3,
+   "explanation": "Reverence is deep respect for God."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which action shows reverence for God?",
+   "options": [
+    "Talking during prayer",
+    "Handling the Bible with care",
+    "Throwing the Bible",
+    "Laughing in church"
+   ],
+   "answer": 1,
+   "explanation": "Care with God's word shows respect."
+  },
+  {
+   "topic": "1.6",
+   "q": "The Bible begins by telling us that God is:",
+   "options": [
+    "A king of Egypt",
+    "A farmer",
+    "The Creator of heaven and earth",
+    "A teacher of the law"
+   ],
+   "answer": 2,
+   "explanation": "Genesis 1:1 tells us God created heaven and earth."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which action shows that we care for God's creation?",
+   "options": [
+    "Planting trees and saving water",
+    "Wasting food",
+    "Cutting trees for fun",
+    "Hurting animals"
+   ],
+   "answer": 0,
+   "explanation": "Caring for the environment honours the Creator."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which attribute comforts a child who is lonely?",
+   "options": [
+    "God is a loving Father who knows us by name",
+    "God is far away",
+    "God is angry",
+    "God forgets us"
+   ],
+   "answer": 0,
+   "explanation": "A loving Father cares and knows us."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which of these shows God's love?",
+   "options": [
+    "He punishes for no reason",
+    "He ignores prayers",
+    "He gave us Jesus to save us",
+    "He hides from people"
+   ],
+   "answer": 2,
+   "explanation": "John 3:16 shows God's love in giving His Son."
+  },
+  {
+   "topic": "2.1",
+   "q": "How many books are in the Old Testament?",
+   "options": [
+    "27",
+    "39",
+    "66",
+    "12"
+   ],
+   "answer": 1,
+   "explanation": "The Old Testament has 39 books."
+  },
+  {
+   "topic": "2.1",
+   "q": "How many books are in the New Testament?",
+   "options": [
+    "39",
+    "66",
+    "21",
+    "27"
+   ],
+   "answer": 3,
+   "explanation": "The New Testament has 27 books."
+  },
+  {
+   "topic": "2.1",
+   "q": "How many books are in the whole Bible?",
+   "options": [
+    "39",
+    "66",
+    "27",
+    "100"
+   ],
+   "answer": 1,
+   "explanation": "39 + 27 = 66."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is the first book of the New Testament?",
+   "options": [
+    "Genesis",
+    "Acts",
+    "Romans",
+    "Matthew"
+   ],
+   "answer": 3,
+   "explanation": "Matthew is the first of the four Gospels and of the New Testament."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which is the last book of the Bible?",
+   "options": [
+    "Revelation",
+    "Jude",
+    "Malachi",
+    "Acts"
+   ],
+   "answer": 0,
+   "explanation": "Revelation is the last book of the New Testament and of the Bible."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which group of books in the Old Testament is known as the Law?",
+   "options": [
+    "Joshua to Esther",
+    "Job to Song of Songs",
+    "Genesis to Deuteronomy",
+    "Isaiah to Malachi"
+   ],
+   "answer": 2,
+   "explanation": "The first five books are called the Law."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is a Gospel?",
+   "options": [
+    "Acts",
+    "Romans",
+    "John",
+    "Psalms"
+   ],
+   "answer": 2,
+   "explanation": "The four Gospels are Matthew, Mark, Luke and John."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does it mean to say that the Bible is inspired?",
+   "options": [
+    "God guided the writers so that their message is His word",
+    "The writers copied other books",
+    "People invented it",
+    "It was written in one day"
+   ],
+   "answer": 0,
+   "explanation": "2 Timothy 3:16 teaches that Scripture is inspired by God."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is the correct way to handle the Bible?",
+   "options": [
+    "Drop it on the floor",
+    "Sit on it",
+    "Draw on its pages",
+    "Carry it carefully and keep it clean"
+   ],
+   "answer": 3,
+   "explanation": "We respect the Bible because it is God's word."
+  },
+  {
+   "topic": "2.1",
+   "q": "In the reference John 3:16, what does the number 16 stand for?",
+   "options": [
+    "The chapter",
+    "The verse",
+    "The book",
+    "The page"
+   ],
+   "answer": 1,
+   "explanation": "In John 3:16, John is the book, 3 is the chapter, and 16 is the verse."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which book comes directly after Genesis?",
+   "options": [
+    "Leviticus",
+    "Numbers",
+    "Joshua",
+    "Exodus"
+   ],
+   "answer": 3,
+   "explanation": "The order is Genesis, Exodus, Leviticus, Numbers, Deuteronomy."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which New Testament book tells how the early church began?",
+   "options": [
+    "Luke",
+    "Acts",
+    "Romans",
+    "Hebrews"
+   ],
+   "answer": 1,
+   "explanation": "The Acts of the Apostles tells the story of the early church."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which verse says that God has engraved His people on the palms of His hands?",
+   "options": [
+    "Genesis 1:27",
+    "Luke 1:37",
+    "Isaiah 49:16",
+    "Acts 2:38"
+   ],
+   "answer": 2,
+   "explanation": "Isaiah 49:16 uses this picture to show that God does not forget us."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which is a poetry and wisdom book in the Old Testament?",
+   "options": [
+    "Psalms",
+    "Exodus",
+    "Joshua",
+    "Isaiah"
+   ],
+   "answer": 0,
+   "explanation": "Psalms, Proverbs and Job are among the poetry and wisdom books."
+  },
+  {
+   "topic": "2.1",
+   "q": "What is the New Testament mainly about?",
+   "options": [
+    "Jesus, His teaching and the early church",
+    "The creation of the world only",
+    "The Law of Moses only",
+    "The kings of Israel"
+   ],
+   "answer": 0,
+   "explanation": "The New Testament tells about Jesus and the early church."
+  },
+  {
+   "topic": "2.2",
+   "q": "In which town did Zacchaeus live?",
+   "options": [
+    "Nazareth",
+    "Bethlehem",
+    "Jericho",
+    "Jerusalem"
+   ],
+   "answer": 2,
+   "explanation": "Luke 19:1 says Jesus was passing through Jericho."
+  },
+  {
+   "topic": "2.2",
+   "q": "What was Zacchaeus' job?",
+   "options": [
+    "Fisherman",
+    "Chief tax collector",
+    "Shepherd",
+    "Priest"
+   ],
+   "answer": 1,
+   "explanation": "Zacchaeus was a chief tax collector."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why did Zacchaeus climb a tree?",
+   "options": [
+    "He was hiding from the police",
+    "He was collecting fruit",
+    "He was playing",
+    "He was short and wanted to see Jesus"
+   ],
+   "answer": 3,
+   "explanation": "The crowd was large, and he was short."
+  },
+  {
+   "topic": "2.2",
+   "q": "What did Jesus say to Zacchaeus?",
+   "options": [
+    "Go away",
+    "Come down, I must stay at your house today",
+    "Sell your house",
+    "Follow me to Jerusalem"
+   ],
+   "answer": 1,
+   "explanation": "Luke 19:5 records Jesus asking to stay at his house."
+  },
+  {
+   "topic": "2.2",
+   "q": "How did the crowd react when Jesus went to Zacchaeus' house?",
+   "options": [
+    "They cheered",
+    "They were silent",
+    "They followed Zacchaeus",
+    "They grumbled"
+   ],
+   "answer": 3,
+   "explanation": "Luke 19:7 says they all began to mutter."
+  },
+  {
+   "topic": "2.2",
+   "q": "What did Zacchaeus promise to give to the poor?",
+   "options": [
+    "Half of his possessions",
+    "All his possessions",
+    "One tenth",
+    "Nothing"
+   ],
+   "answer": 0,
+   "explanation": "Zacchaeus said he would give half of his possessions."
+  },
+  {
+   "topic": "2.2",
+   "q": "How much would Zacchaeus pay back to anyone he had cheated?",
+   "options": [
+    "Twice",
+    "Ten times",
+    "Four times the amount",
+    "Half"
+   ],
+   "answer": 2,
+   "explanation": "He promised to pay back four times."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does it mean to repent?",
+   "options": [
+    "To pretend nothing happened",
+    "To blame others",
+    "To be sorry for sin and turn away from it",
+    "To run away"
+   ],
+   "answer": 2,
+   "explanation": "Repentance includes turning away from wrong."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why did people dislike tax collectors?",
+   "options": [
+    "Many took more money than they should",
+    "They were teachers",
+    "They were poor",
+    "They were farmers"
+   ],
+   "answer": 0,
+   "explanation": "Many tax collectors cheated people."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is an honest use of money?",
+   "options": [
+    "Stealing from a friend",
+    "Lying about the price",
+    "Cheating in a game",
+    "Returning extra change to a shopkeeper"
+   ],
+   "answer": 3,
+   "explanation": "Honesty means returning what is not ours."
+  },
+  {
+   "topic": "2.2",
+   "q": "What did Jesus say about why He came?",
+   "options": [
+    "To rule Rome",
+    "To seek and to save the lost",
+    "To build a palace",
+    "To collect taxes"
+   ],
+   "answer": 1,
+   "explanation": "Luke 19:10 says that the Son of Man came to seek and save the lost."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which word best describes a person who is honest even when nobody sees?",
+   "options": [
+    "Pride",
+    "Greed",
+    "Jealousy",
+    "Integrity"
+   ],
+   "answer": 3,
+   "explanation": "Integrity means doing right when nobody is watching."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is a sign of real repentance?",
+   "options": [
+    "Only saying sorry with words",
+    "Making things right with those we wronged",
+    "Repeating the wrong",
+    "Hiding the wrong"
+   ],
+   "answer": 1,
+   "explanation": "Zacchaeus showed repentance by paying back."
+  },
+  {
+   "topic": "2.3",
+   "q": "Who asked Balaam to curse the Israelites?",
+   "options": [
+    "Pharaoh",
+    "Joshua",
+    "King Balak",
+    "Herod"
+   ],
+   "answer": 2,
+   "explanation": "Numbers 22 says that Balak, king of Moab, sent for Balaam."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which people did Balak want Balaam to curse?",
+   "options": [
+    "The Israelites",
+    "The Egyptians",
+    "The Philistines",
+    "The Romans"
+   ],
+   "answer": 0,
+   "explanation": "Balak feared the Israelites camped on the plains of Moab."
+  },
+  {
+   "topic": "2.3",
+   "q": "What did God first tell Balaam about going with Balak's messengers?",
+   "options": [
+    "Do not go with them",
+    "Go at once",
+    "Curse Israel",
+    "Take a gift"
+   ],
+   "answer": 0,
+   "explanation": "God told him not to go and not to curse the people."
+  },
+  {
+   "topic": "2.3",
+   "q": "What did the donkey see on the road?",
+   "options": [
+    "A lion",
+    "A snake",
+    "The angel of the Lord",
+    "A wall"
+   ],
+   "answer": 2,
+   "explanation": "The angel stood in the road with a drawn sword."
+  },
+  {
+   "topic": "2.3",
+   "q": "How many times did the donkey turn aside or stop before she spoke?",
+   "options": [
+    "One",
+    "Three",
+    "Five",
+    "Seven"
+   ],
+   "answer": 1,
+   "explanation": "Balaam struck her three times."
+  },
+  {
+   "topic": "2.3",
+   "q": "What did the donkey say to Balaam?",
+   "options": [
+    "Please go home",
+    "Give me water",
+    "I am tired",
+    "What have I done to you to make you beat me these three times?"
+   ],
+   "answer": 3,
+   "explanation": "Numbers 22:28 records the donkey's question."
+  },
+  {
+   "topic": "2.3",
+   "q": "Who opened the donkey's mouth?",
+   "options": [
+    "Balak",
+    "The Lord",
+    "Balaam",
+    "The angel of the king"
+   ],
+   "answer": 1,
+   "explanation": "The Lord made the donkey speak."
+  },
+  {
+   "topic": "2.3",
+   "q": "What did the angel tell Balaam to do at the end?",
+   "options": [
+    "Curse Israel",
+    "Go home forever",
+    "Kill the donkey",
+    "Go with the men but speak only what God tells him"
+   ],
+   "answer": 3,
+   "explanation": "God allowed him to go but ordered him to speak only His words."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the meaning of \"bless\" in this story?",
+   "options": [
+    "To speak good things over someone",
+    "To insult",
+    "To ignore",
+    "To curse"
+   ],
+   "answer": 0,
+   "explanation": "To bless is to ask God's good for someone."
+  },
+  {
+   "topic": "2.3",
+   "q": "What should we do instead of cursing or speaking ill about others?",
+   "options": [
+    "Gossip",
+    "Insult",
+    "Speak well of them and bless them",
+    "Spread rumours"
+   ],
+   "answer": 2,
+   "explanation": "God's people are called to bless, not curse."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is kind treatment of a donkey?",
+   "options": [
+    "Beating it",
+    "Overloading it",
+    "Giving it food, water and rest",
+    "Leaving it hungry"
+   ],
+   "answer": 2,
+   "explanation": "Kindness to animals includes meeting their needs."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which lesson do we learn from Balaam?",
+   "options": [
+    "Obey God and speak only what He says",
+    "Follow money",
+    "Curse enemies",
+    "Ignore God"
+   ],
+   "answer": 0,
+   "explanation": "Balaam had to speak only God's words."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why did the donkey turn away from the road?",
+   "options": [
+    "She was tired",
+    "She was hungry",
+    "She was afraid of Balak",
+    "She saw the angel and Balaam did not"
+   ],
+   "answer": 3,
+   "explanation": "The donkey saw what Balaam could not see."
+  },
+  {
+   "topic": "2.4",
+   "q": "In which book of the Bible is the story of Samson found?",
+   "options": [
+    "Genesis",
+    "Judges",
+    "Luke",
+    "Psalms"
+   ],
+   "answer": 1,
+   "explanation": "Judges 13-16 tells about Samson."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which people ruled the Israelites during Samson's time?",
+   "options": [
+    "The Egyptians",
+    "The Romans",
+    "The Greeks",
+    "The Philistines"
+   ],
+   "answer": 3,
+   "explanation": "The Philistines oppressed Israel in the days of Samson."
+  },
+  {
+   "topic": "2.4",
+   "q": "What animal attacked Samson near Timnah?",
+   "options": [
+    "A bear",
+    "A young lion",
+    "A wolf",
+    "A snake"
+   ],
+   "answer": 1,
+   "explanation": "Judges 14:5 says a young lion came roaring towards him."
+  },
+  {
+   "topic": "2.4",
+   "q": "What did Samson use to kill the lion?",
+   "options": [
+    "A spear",
+    "A sword",
+    "His bare hands",
+    "A stone"
+   ],
+   "answer": 2,
+   "explanation": "He tore it apart with his bare hands."
+  },
+  {
+   "topic": "2.4",
+   "q": "What gave Samson the strength to kill the lion?",
+   "options": [
+    "The Spirit of the Lord",
+    "His long hair alone",
+    "His parents",
+    "Special food"
+   ],
+   "answer": 0,
+   "explanation": "The Spirit of the Lord came powerfully upon him."
+  },
+  {
+   "topic": "2.4",
+   "q": "What did Samson find later in the body of the lion?",
+   "options": [
+    "Bees and honey",
+    "Gold",
+    "A snake",
+    "Nothing"
+   ],
+   "answer": 0,
+   "explanation": "Judges 14:8 says a swarm of bees and honey were there."
+  },
+  {
+   "topic": "2.4",
+   "q": "Who was told by an angel that they would have a son called Samson?",
+   "options": [
+    "Balak",
+    "Joshua",
+    "His parents",
+    "Ruth"
+   ],
+   "answer": 2,
+   "explanation": "The angel of the Lord appeared to Samson's parents."
+  },
+  {
+   "topic": "2.4",
+   "q": "What did Samson's set-apart life to God mean he must never do?",
+   "options": [
+    "Eat honey",
+    "Cut his hair",
+    "Visit his parents",
+    "Go to Timnah"
+   ],
+   "answer": 1,
+   "explanation": "A Nazirite did not cut his hair."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is a judge in the book of Judges?",
+   "options": [
+    "A court officer today",
+    "A king",
+    "A priest",
+    "A leader raised up by God to rescue Israel"
+   ],
+   "answer": 3,
+   "explanation": "Judges were leaders who rescued Israel."
+  },
+  {
+   "topic": "2.4",
+   "q": "What does the story of Samson mainly show?",
+   "options": [
+    "The power of lions",
+    "God's power",
+    "The wealth of Philistines",
+    "The size of Timnah"
+   ],
+   "answer": 1,
+   "explanation": "The Spirit of the Lord gave Samson strength."
+  },
+  {
+   "topic": "2.4",
+   "q": "What should a child do if they meet a dangerous animal?",
+   "options": [
+    "Try to fight it",
+    "Go closer",
+    "Throw stones",
+    "Stay away and call adults"
+   ],
+   "answer": 3,
+   "explanation": "The story is not a call to fight animals."
+  }
+ ],
+ "short": [
+  {
+   "topic": "2.1",
+   "q": "Name the four Gospels and say what they tell us about.",
+   "marks": 4,
+   "answer": "Matthew, Mark, Luke and John. They tell about the life, teachings, death and resurrection of Jesus.",
+   "working": "1 mark for each Gospel named up to 3 marks, and 1 mark for what they tell about."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain how to find Luke 19:1-10 in the Bible.",
+   "marks": 4,
+   "answer": "Use the contents page to find the book of Luke. Turn to chapter 19. Then find verses 1 to 10 within that chapter.",
+   "working": "1 mark for finding the book, 1 for the chapter, 1 for the verses, 1 for using the contents page."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain how the books of the Old Testament are grouped, giving the number of books in each group.",
+   "marks": 5,
+   "answer": "Law has 5 books, history has 12 books, poetry and wisdom has 5 books, and the prophets have 17 books. Together they make 39 books.",
+   "working": "1 mark for each group with number, and 1 mark for the total."
+  },
+  {
+   "topic": "2.2",
+   "q": "Give two reasons why Zacchaeus climbed the sycamore-fig tree.",
+   "marks": 2,
+   "answer": "He was short, the crowd was big, and he wanted to see Jesus.",
+   "working": "1 mark for each valid reason."
+  },
+  {
+   "topic": "2.2",
+   "q": "Name two things that Zacchaeus promised to do after meeting Jesus.",
+   "marks": 2,
+   "answer": "Give half his possessions to the poor and pay back four times to anyone he cheated.",
+   "working": "1 mark for each promise."
+  },
+  {
+   "topic": "2.2",
+   "q": "State three lessons from the story of Zacchaeus.",
+   "marks": 3,
+   "answer": "Jesus loves everyone, even those others reject; repentance means changing and putting things right; we should be honest with money and share with the poor.",
+   "working": "1 mark for each valid lesson."
+  },
+  {
+   "topic": "2.2",
+   "q": "List three ways of using money wisely.",
+   "marks": 3,
+   "answer": "Save some, spend on needs first, give to those in need, avoid wasting, do not steal or cheat, keep a record.",
+   "working": "1 mark for each valid way."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe how Zacchaeus met Jesus and how his behaviour changed.",
+   "marks": 4,
+   "answer": "Zacchaeus climbed a tree to see Jesus. Jesus called him by name and went to his house. Zacchaeus promised to give half his goods to the poor and to repay four times anyone he had cheated.",
+   "working": "1 mark for climbing the tree, 1 for Jesus calling him, 1 for giving to the poor, 1 for repaying."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain the steps a child can take to turn away from wrong behaviour, using Zacchaeus as an example.",
+   "marks": 5,
+   "answer": "Admit the wrong; be sorry and tell God; say sorry to the person hurt; put things right as Zacchaeus repaid; decide not to repeat and ask God for help.",
+   "working": "1 mark for each valid step, and a clear link to Zacchaeus."
+  },
+  {
+   "topic": "2.3",
+   "q": "Give two lessons from the story of Balaam and his donkey.",
+   "marks": 2,
+   "answer": "Obey God; do not be greedy; bless others; be kind to animals. Any two.",
+   "working": "1 mark for each valid lesson."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why did King Balak ask Balaam for help?",
+   "marks": 2,
+   "answer": "He was afraid of the Israelites and wanted them to be cursed.",
+   "working": "1 mark for fear and 1 mark for wanting the Israelites cursed."
+  },
+  {
+   "topic": "2.3",
+   "q": "Explain why we should bless and not curse others.",
+   "marks": 3,
+   "answer": "Words can build up or break down people. God wants us to love others. Blessing brings peace.",
+   "working": "1 mark for the power of words, 1 for God's wish for love, 1 for peace."
+  },
+  {
+   "topic": "2.3",
+   "q": "Give three ways in which children can care for animals.",
+   "marks": 3,
+   "answer": "Give them food and water; protect them from harm; do not beat them; do not overload them; give them shelter.",
+   "working": "1 mark for each valid way."
+  },
+  {
+   "topic": "2.3",
+   "q": "Describe what happened on the road when Balaam was riding his donkey.",
+   "marks": 4,
+   "answer": "The angel stood in the road. The donkey turned into a field and Balaam struck her. Then she pressed against a wall and crushed his foot, and he struck her again. Then she lay down and he struck her a third time.",
+   "working": "1 mark for the angel, 1 for turning aside, 1 for the wall and foot, 1 for lying down."
+  },
+  {
+   "topic": "2.3",
+   "q": "Explain how the story of Balaam teaches obedience to God and respect for those in authority.",
+   "marks": 5,
+   "answer": "God told Balaam what to say and do, and Balaam had to obey even though a king offered rewards. We should obey God's word and instructions from parents and teachers when they are good and right. Disobeying can put us in danger.",
+   "working": "1 mark for God's instruction, 1 for the reward temptation, 1 for obedience to God, 1 for obeying parents and teachers, 1 for danger of disobedience."
+  },
+  {
+   "topic": "2.4",
+   "q": "What does the name Nazirite refer to in the story of Samson?",
+   "marks": 2,
+   "answer": "A person set apart for God from birth.",
+   "working": "1 mark for set apart and 1 mark for for God."
+  },
+  {
+   "topic": "2.4",
+   "q": "Name two things that Samson did in Judges 14:5-9.",
+   "marks": 2,
+   "answer": "He killed a lion with his bare hands; he ate honey from the lion's body and shared it with his parents.",
+   "working": "1 mark for each valid action."
+  },
+  {
+   "topic": "2.4",
+   "q": "Explain how the story of Samson and the lion shows God's power.",
+   "marks": 3,
+   "answer": "Samson had no weapon, but the Spirit of the Lord gave him strength to tear a lion apart. This shows God's power is greater than any danger.",
+   "working": "1 mark for no weapon, 1 for the Spirit giving strength, 1 for God's power."
+  },
+  {
+   "topic": "2.4",
+   "q": "Give three ways in which God helps us today.",
+   "marks": 3,
+   "answer": "He gives courage, wisdom, the power to forgive, healing and protection, and talents.",
+   "working": "1 mark for each valid way."
+  },
+  {
+   "topic": "2.4",
+   "q": "Describe four ways in which a child can trust God in life's challenges.",
+   "marks": 4,
+   "answer": "Pray; read the Bible; ask trusted adults; do their best; thank God.",
+   "working": "1 mark for each valid way, up to 4."
+  },
+  {
+   "topic": "2.4",
+   "q": "Explain what the story of Samson teaches and what it does not teach children to do.",
+   "marks": 5,
+   "answer": "It teaches that God is powerful, that strength and abilities are gifts from God, and that we should trust Him and be honest with parents. It does not teach children to fight lions or dangerous animals or to do dangerous things. Children should stay away from danger and call adults.",
+   "working": "1 mark for God's power, 1 for gifts from God, 1 for trust and honesty, 1 for not fighting dangerous animals, 1 for staying safe."
+  },
+  {
+   "topic": "2.5",
+   "q": "What did Pharaoh's two dreams mean?",
+   "marks": 2,
+   "answer": "Seven years of plenty followed by seven years of famine.",
+   "working": "1 mark for plenty and 1 mark for famine."
+  },
+  {
+   "topic": "2.5",
+   "q": "Give two words that describe Joseph's character in this story.",
+   "marks": 2,
+   "answer": "Wise, honest, humble, faithful, hardworking, trusting in God. Any two.",
+   "working": "1 mark for each valid word."
+  },
+  {
+   "topic": "2.5",
+   "q": "Explain why Joseph said, \"I cannot do it, but God will give Pharaoh the answer\".",
+   "marks": 3,
+   "answer": "Joseph knew that wisdom comes from God. He was humble and did not boast. He gave God the honour.",
+   "working": "1 mark for wisdom from God, 1 for humility, 1 for honouring God."
+  },
+  {
+   "topic": "2.5",
+   "q": "State three lessons that we learn from the story of Joseph interpreting the dream.",
+   "marks": 3,
+   "answer": "Depend on God; do not give up when life is unfair; use gifts to serve others; save for hard times.",
+   "working": "1 mark for each valid lesson."
+  },
+  {
+   "topic": "2.5",
+   "q": "Describe Joseph's plan to save Egypt from the famine.",
+   "marks": 4,
+   "answer": "Find a wise man to be in charge, take a fifth of the grain during the seven good years, store it in the towns, and use it in the famine years.",
+   "working": "1 mark for each valid point up to 4."
+  },
+  {
+   "topic": "2.5",
+   "q": "Explain how Proverbs 1:7 helps us to understand why Joseph was so wise.",
+   "marks": 5,
+   "answer": "The fear of the Lord means respect and love for God. Joseph respected God, trusted Him and obeyed Him. God gave him wisdom, so he could interpret the dream and give good advice. We too should respect God to receive wisdom.",
+   "working": "1 mark for meaning of the verse, 1 for Joseph respecting God, 1 for God giving wisdom, 1 for the good advice, 1 for application to us."
+  },
+  {
+   "topic": "2.6",
+   "q": "Name the three places in the journey of Abram, in order.",
+   "marks": 2,
+   "answer": "Ur, Haran, Canaan.",
+   "working": "1 mark for the correct places and 1 mark for the correct order."
+  }
+ ]
+}

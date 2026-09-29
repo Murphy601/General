@@ -1,0 +1,658 @@
+{
+ "mcq": [
+  {
+   "topic": "11.1",
+   "q": "Which word has the sound /aʊ/?",
+   "options": [
+    "hot",
+    "crowd",
+    "cat",
+    "bell"
+   ],
+   "answer": 1,
+   "explanation": "'Crowd' has the diphthong /aʊ/, as in 'cow'."
+  },
+  {
+   "topic": "11.1",
+   "q": "Which word begins with the voiced sound /ð/?",
+   "options": [
+    "think",
+    "this",
+    "three",
+    "thumb"
+   ],
+   "answer": 1,
+   "explanation": "'This' has the voiced 'th'."
+  },
+  {
+   "topic": "11.1",
+   "q": "Which word begins with the unvoiced sound /θ/?",
+   "options": [
+    "that",
+    "they",
+    "the",
+    "thank"
+   ],
+   "answer": 3,
+   "explanation": "'Thank' has the unvoiced 'th'."
+  },
+  {
+   "topic": "11.1",
+   "q": "Which word has the consonant cluster /sk/?",
+   "options": [
+    "desk",
+    "ball",
+    "goal",
+    "race"
+   ],
+   "answer": 0,
+   "explanation": "'Desk' ends in sk."
+  },
+  {
+   "topic": "11.1",
+   "q": "What does a referee do?",
+   "options": [
+    "Sells tickets",
+    "Trains the team",
+    "Controls a game and makes sure the rules are followed",
+    "Cleans the field"
+   ],
+   "answer": 2,
+   "explanation": "A referee is the official in charge."
+  },
+  {
+   "topic": "11.1",
+   "q": "Who is a coach?",
+   "options": [
+    "The team's fans",
+    "The person who blows the whistle",
+    "A person who trains a team",
+    "The person who sells kit"
+   ],
+   "answer": 2,
+   "explanation": "A coach trains players."
+  },
+  {
+   "topic": "11.1",
+   "q": "What is athletics?",
+   "options": [
+    "Sports such as running, jumping and throwing",
+    "A kind of card game",
+    "Only football",
+    "A type of food"
+   ],
+   "answer": 0,
+   "explanation": "Athletics includes track and field events."
+  },
+  {
+   "topic": "11.1",
+   "q": "Which is an example of a nonverbal cue?",
+   "options": [
+    "A sentence",
+    "A word",
+    "A song",
+    "A thumbs-up"
+   ],
+   "answer": 3,
+   "explanation": "Gestures are nonverbal."
+  },
+  {
+   "topic": "11.1",
+   "q": "What does a smile usually show?",
+   "options": [
+    "Anger",
+    "Happiness or friendliness",
+    "Fear",
+    "Boredom"
+   ],
+   "answer": 1,
+   "explanation": "A smile shows a friendly feeling."
+  },
+  {
+   "topic": "11.1",
+   "q": "Which sentence has the /ð/ sound in the first word?",
+   "options": [
+    "Think before you act.",
+    "The team practised hard.",
+    "Three players scored.",
+    "Thank the coach."
+   ],
+   "answer": 1,
+   "explanation": "'The' has voiced 'th'; 'think', 'three' and 'thank' have unvoiced 'th'."
+  },
+  {
+   "topic": "11.1",
+   "q": "What should you do to listen fluently to a speech?",
+   "options": [
+    "Talk to a friend",
+    "Look at your phone",
+    "Draw during the speech",
+    "Face the speaker and listen for the main points"
+   ],
+   "answer": 3,
+   "explanation": "Active listening means paying attention to the main points."
+  },
+  {
+   "topic": "11.1",
+   "q": "Which word means 'the leader of a team'?",
+   "options": [
+    "captain",
+    "stadium",
+    "whistle",
+    "kit"
+   ],
+   "answer": 0,
+   "explanation": "The captain leads the team."
+  },
+  {
+   "topic": "11.2",
+   "q": "What is a digital text?",
+   "options": [
+    "A text printed on paper only",
+    "A spoken poem",
+    "A text read on a screen",
+    "A hand-written letter"
+   ],
+   "answer": 2,
+   "explanation": "Digital texts are read on phones, tablets and computers."
+  },
+  {
+   "topic": "11.2",
+   "q": "In which order do we read comic panels?",
+   "options": [
+    "Right to left",
+    "Bottom to top",
+    "Left to right and top to bottom",
+    "Any order"
+   ],
+   "answer": 2,
+   "explanation": "We read a comic like a book."
+  },
+  {
+   "topic": "11.2",
+   "q": "What is at the centre of a mind map?",
+   "options": [
+    "The main topic",
+    "The last idea",
+    "The author's name",
+    "The date"
+   ],
+   "answer": 0,
+   "explanation": "The main topic is in the middle."
+  },
+  {
+   "topic": "11.2",
+   "q": "Which is a safe habit when searching online?",
+   "options": [
+    "Sharing your address",
+    "Clicking every pop-up",
+    "Telling strangers your password",
+    "Using sites your teacher approves"
+   ],
+   "answer": 3,
+   "explanation": "Approved sites and private details keep you safe."
+  },
+  {
+   "topic": "11.2",
+   "q": "In a comic, what do speech bubbles show?",
+   "options": [
+    "The page number",
+    "What the characters say",
+    "The author's name",
+    "The price"
+   ],
+   "answer": 1,
+   "explanation": "Speech bubbles hold spoken words."
+  },
+  {
+   "topic": "11.2",
+   "q": "What does it mean to read a poem interpretively?",
+   "options": [
+    "To read it silently in one second",
+    "To think about its meaning and feelings and show them in your voice",
+    "To copy it",
+    "To count the words"
+   ],
+   "answer": 1,
+   "explanation": "Interpretive reading brings out meaning and feeling."
+  },
+  {
+   "topic": "11.2",
+   "q": "In the passage about netball, how many players are in a team?",
+   "options": [
+    "five",
+    "eleven",
+    "nine",
+    "seven"
+   ],
+   "answer": 3,
+   "explanation": "The passage says two teams of seven players."
+  },
+  {
+   "topic": "11.2",
+   "q": "In netball, what must a player do with the ball after catching it?",
+   "options": [
+    "Pass it within three seconds without running with it",
+    "Run with it",
+    "Sit on it",
+    "Kick it"
+   ],
+   "answer": 0,
+   "explanation": "The passage says players cannot run with the ball."
+  },
+  {
+   "topic": "11.2",
+   "q": "Which key words would help you find out how netball is played?",
+   "options": [
+    "my address",
+    "free prizes",
+    "netball rules for children",
+    "password"
+   ],
+   "answer": 2,
+   "explanation": "Good key words describe the topic you want."
+  },
+  {
+   "topic": "11.2",
+   "q": "Which is a fact that can be checked?",
+   "options": [
+    "Netball is the nicest game.",
+    "Everyone should play netball.",
+    "A netball team has seven players.",
+    "Netball is boring."
+   ],
+   "answer": 2,
+   "explanation": "A fact can be checked; the others are opinions."
+  },
+  {
+   "topic": "11.2",
+   "q": "Why should you not click on strange pop-up advertisements?",
+   "options": [
+    "They may be unsafe",
+    "They are always free prizes",
+    "They improve your reading",
+    "They are required by the teacher"
+   ],
+   "answer": 0,
+   "explanation": "Strange links can be unsafe."
+  },
+  {
+   "topic": "11.3",
+   "q": "Which question word asks about ownership?",
+   "options": [
+    "who",
+    "when",
+    "where",
+    "whose"
+   ],
+   "answer": 3,
+   "explanation": "'Whose' asks who owns something."
+  },
+  {
+   "topic": "11.3",
+   "q": "Which is the best answer to 'When does the match begin?'",
+   "options": [
+    "On the field.",
+    "At ten o'clock.",
+    "The referee.",
+    "It is mine."
+   ],
+   "answer": 1,
+   "explanation": "'When' asks for a time."
+  },
+  {
+   "topic": "11.3",
+   "q": "Which is the best answer to 'Where is the stadium?'",
+   "options": [
+    "At three o'clock.",
+    "It is near the town.",
+    "The captain.",
+    "Hers."
+   ],
+   "answer": 1,
+   "explanation": "'Where' asks for a place."
+  },
+  {
+   "topic": "11.3",
+   "q": "Which question is correct?",
+   "options": [
+    "Where you keep the ball?",
+    "Where do you keeps the ball?",
+    "Where you do keep the ball?",
+    "Where do you keep the ball?"
+   ],
+   "answer": 3,
+   "explanation": "The helping verb 'do' comes before the subject."
+  },
+  {
+   "topic": "11.3",
+   "q": "Which word completes 'The coach is asking, \"____ scored the goal?\"'?",
+   "options": [
+    "Who",
+    "Whose",
+    "When",
+    "Where"
+   ],
+   "answer": 0,
+   "explanation": "'Who' asks about a person."
+  },
+  {
+   "topic": "11.3",
+   "q": "'Who's' is a short form of which words?",
+   "options": [
+    "whose is",
+    "who was not",
+    "who is",
+    "who has not"
+   ],
+   "answer": 2,
+   "explanation": "Who's = who is (or who has)."
+  },
+  {
+   "topic": "11.3",
+   "q": "Which question word asks about a thing or an action?",
+   "options": [
+    "whose",
+    "where",
+    "what",
+    "when"
+   ],
+   "answer": 2,
+   "explanation": "'What' asks about things, ideas and actions."
+  },
+  {
+   "topic": "11.3",
+   "q": "Which question is correct?",
+   "options": [
+    "Whose boots are these?",
+    "Whose is these boots?",
+    "Who boots are these?",
+    "Whose are boot these?"
+   ],
+   "answer": 0,
+   "explanation": "'Whose' is followed by a noun."
+  },
+  {
+   "topic": "11.3",
+   "q": "Which sentence needs a question mark?",
+   "options": [
+    "The match starts at ten",
+    "Please sit down",
+    "We won the match",
+    "When does the match start"
+   ],
+   "answer": 3,
+   "explanation": "It is a direct question."
+  },
+  {
+   "topic": "11.3",
+   "q": "After 'does' or 'did', which form of the main verb do we use?",
+   "options": [
+    "The -ing form",
+    "The base form",
+    "The past participle",
+    "The plural form"
+   ],
+   "answer": 1,
+   "explanation": "For example: 'When does she practise?'"
+  },
+  {
+   "topic": "11.3",
+   "q": "Which is the best question for the answer 'In the school hall'?",
+   "options": [
+    "Who practised?",
+    "Where did they practise?",
+    "When did they practise?",
+    "Whose hall is it?"
+   ],
+   "answer": 1,
+   "explanation": "The answer names a place."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which spelling is correct?",
+   "options": [
+    "freind",
+    "frend",
+    "frind",
+    "friend"
+   ],
+   "answer": 3,
+   "explanation": "Friend is spelt f-r-i-e-n-d."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which spelling is correct?",
+   "options": [
+    "because",
+    "becuase",
+    "becase",
+    "becouse"
+   ],
+   "answer": 0,
+   "explanation": "Because is spelt b-e-c-a-u-s-e."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which word has a double r?",
+   "options": [
+    "library",
+    "beautiful",
+    "tomorrow",
+    "necessary"
+   ],
+   "answer": 2,
+   "explanation": "'Tomorrow' is t-o-m-o-r-r-o-w."
+  },
+  {
+   "topic": "11.4",
+   "q": "Choose the word that means 'to listen with your ears'.",
+   "options": [
+    "here",
+    "hair",
+    "hear",
+    "heer"
+   ],
+   "answer": 2,
+   "explanation": "'Hear' is what we do with our ears."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which word is spelt correctly?",
+   "options": [
+    "beautiful",
+    "beutiful",
+    "beatiful",
+    "butiful"
+   ],
+   "answer": 0,
+   "explanation": "Beautiful is spelt b-e-a-u-t-i-f-u-l."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which day is spelt correctly?",
+   "options": [
+    "Wensday",
+    "Wednsday",
+    "Wenesday",
+    "Wednesday"
+   ],
+   "answer": 3,
+   "explanation": "Wednesday is spelt Wed-nes-day."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which is the correct spelling?",
+   "options": [
+    "neccessary",
+    "necessary",
+    "necesary",
+    "necessery"
+   ],
+   "answer": 1,
+   "explanation": "One c and two s's."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which of these is a homophone pair?",
+   "options": [
+    "hot and cold",
+    "their and there",
+    "big and large",
+    "run and walk"
+   ],
+   "answer": 1,
+   "explanation": "They sound the same but are spelt differently."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which sentence uses the correct word?",
+   "options": [
+    "I no the answer.",
+    "I nose the answer.",
+    "I noe the answer.",
+    "I know the answer."
+   ],
+   "answer": 3,
+   "explanation": "'Know' means to have learnt something."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which is a good way to learn a hard spelling?",
+   "options": [
+    "Look, cover, write and check",
+    "Guess it every time",
+    "Never write it",
+    "Copy it wrongly"
+   ],
+   "answer": 0,
+   "explanation": "Cover-write-check builds memory."
+  },
+  {
+   "topic": "11.4",
+   "q": "Which spelling is correct?",
+   "options": [
+    "seperate",
+    "separete",
+    "separate",
+    "seprate"
+   ],
+   "answer": 2,
+   "explanation": "Remember 'a rat' in separate."
+  }
+ ],
+ "short": [
+  {
+   "topic": "11.1",
+   "q": "Give two words with /θ/ and two with /ð/.",
+   "marks": 4,
+   "answer": "/θ/: think, three, thank, mouth (any two). /ð/: this, that, the, mother (any two).",
+   "working": "1 mark for each correct word."
+  },
+  {
+   "topic": "11.1",
+   "q": "What is a nonverbal cue? Give two examples.",
+   "marks": 3,
+   "answer": "A nonverbal cue is a message sent without words. Examples: a smile shows happiness; a thumbs-up shows approval.",
+   "working": "1 mark for the meaning and 1 for each example."
+  },
+  {
+   "topic": "11.1",
+   "q": "Write four sentences for a short speech about your favourite game.",
+   "marks": 4,
+   "answer": "A greeting, the name of the game, a reason, and a closing.",
+   "working": "1 mark for each part."
+  },
+  {
+   "topic": "11.1",
+   "q": "Explain why gestures should match your words.",
+   "marks": 2,
+   "answer": "If they do not match, the listener may be confused about what you mean.",
+   "working": "1 mark for confusion and 1 for a clear reason."
+  },
+  {
+   "topic": "11.2",
+   "q": "Give two safety rules for using the internet.",
+   "marks": 2,
+   "answer": "Do not share personal details; tell an adult if something worries you; use approved sites.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "11.2",
+   "q": "Draw a mind map in words: put 'Keeping Fit' in the centre and give four branches.",
+   "marks": 4,
+   "answer": "Centre: Keeping Fit. Branches: exercise, healthy food, sleep, clean water.",
+   "working": "1 mark for the centre and 1 for each branch."
+  },
+  {
+   "topic": "11.2",
+   "q": "Write the steps you would follow to search for information safely online.",
+   "marks": 4,
+   "answer": "Decide what to find out; choose key words; use an approved site; read carefully and note the facts in your own words.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "11.2",
+   "q": "What lesson does the poem 'The Whistle' teach about winning and losing?",
+   "marks": 2,
+   "answer": "To be a good sport: lose without crying, shake hands with the other team and say 'Good try'.",
+   "working": "1 mark for the lesson and 1 for a reason from the poem."
+  },
+  {
+   "topic": "11.3",
+   "q": "Write a question for each answer: (a) 'It is at the stadium.' (b) 'The coach.'",
+   "marks": 2,
+   "answer": "(a) Where is it? (b) Who is the man with the whistle?",
+   "working": "1 mark for each suitable question."
+  },
+  {
+   "topic": "11.3",
+   "q": "Use when, where, who and whose in four questions about a sports day.",
+   "marks": 4,
+   "answer": "For example: When is sports day? Where is it held? Who is the guest of honour? Whose team is winning?",
+   "working": "1 mark for each correct question."
+  },
+  {
+   "topic": "11.3",
+   "q": "Correct these sentences: (a) Who did scored the goal? (b) When you will come?",
+   "marks": 3,
+   "answer": "(a) Who scored the goal? (b) When will you come?",
+   "working": "1 mark for each correction and 1 for question marks and capitals."
+  },
+  {
+   "topic": "11.3",
+   "q": "Explain the difference between 'who' and 'whose'. Give one question for each.",
+   "marks": 3,
+   "answer": "'Who' asks about a person: Who is the coach? 'Whose' asks about the owner: Whose ball is this?",
+   "working": "1 mark for each meaning and 1 for examples."
+  },
+  {
+   "topic": "11.4",
+   "q": "Correct the spellings: peple, libary, beutiful.",
+   "marks": 3,
+   "answer": "people, library, beautiful",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "11.4",
+   "q": "Give a memory trick for spelling 'necessary' or 'separate'.",
+   "marks": 2,
+   "answer": "'Necessary' has one collar (c) and two sleeves (ss); 'separate' has 'a rat' in it.",
+   "working": "1 mark for a trick and 1 for a correct explanation."
+  },
+  {
+   "topic": "11.4",
+   "q": "Choose the correct word in each: (a) I (know / no) the answer. (b) They put (their / there) bags (their / there).",
+   "marks": 3,
+   "answer": "(a) know (b) their, there",
+   "working": "1 mark for each correct choice."
+  },
+  {
+   "topic": "11.4",
+   "q": "Write three sentences using three of these words: because, different, address, favourite, tomorrow.",
+   "marks": 3,
+   "answer": "Any three correct sentences using the words with correct spelling.",
+   "working": "1 mark for each."
+  }
+ ]
+}

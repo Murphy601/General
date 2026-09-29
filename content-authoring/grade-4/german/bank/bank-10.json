@@ -1,0 +1,628 @@
+{
+ "mcq": [],
+ "short": [
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: cabbage or kale, toilet, fog.",
+   "marks": 3,
+   "answer": "der Kohl, die Toilette, der Nebel.",
+   "working": "1 mark for each correct noun with the correct article (3 marks)."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: rice, breakfast, table, fridge, kitchen.",
+   "marks": 5,
+   "answer": "der Reis, das Frühstück, der Tisch, der Kühlschrank, die Küche.",
+   "working": "1 mark for each correct noun with the correct article (5 marks)."
+  },
+  {
+   "topic": "2.4",
+   "q": "Write in German what you do on Saturday. Start with \"Am Samstag\".",
+   "marks": 2,
+   "answer": "For example: Am Samstag spiele ich Fußball.",
+   "working": "1 mark for Am Samstag, 1 mark for a correct sentence."
+  },
+  {
+   "topic": "3.8",
+   "q": "Write the German words with der, die or das for: thunderstorm, candle.",
+   "marks": 2,
+   "answer": "das Gewitter, die Kerze.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: garden, room, sun, thunderstorm.",
+   "marks": 4,
+   "answer": "der Garten, das Zimmer, die Sonne, das Gewitter.",
+   "working": "1 mark for each correct noun with the correct article (4 marks)."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write a short German dialogue of three lines in which two children greet each other, ask their names and answer.",
+   "marks": 3,
+   "answer": "A: Hallo! Wie heißt du? B: Ich heiße Otieno. A: Ich heiße Amina.",
+   "working": "1 mark for the greeting, 1 mark for the question Wie heißt du?, 1 mark for the answer with Ich heiße."
+  },
+  {
+   "topic": "1.7",
+   "q": "Explain how to pronounce ß, sch and z, with one example each.",
+   "marks": 3,
+   "answer": "ß is a strong ss (Fuß). sch is sh (Schulter). z is ts (Zahn).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.3",
+   "q": "Write the German words with their articles for: kitchen, bedroom, garden, living room.",
+   "marks": 4,
+   "answer": "die Küche, das Schlafzimmer, der Garten, das Wohnzimmer.",
+   "working": "1 mark for each correct noun with its article."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain how your voice should change for a question mark and for a full stop.",
+   "marks": 2,
+   "answer": "It goes up at a question mark and down at a full stop.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.3",
+   "q": "Read: \"Im Wohnzimmer ist ein Sofa. In der Küche ist ein Kühlschrank.\" Say where each item is in English.",
+   "marks": 3,
+   "answer": "The sofa is in the living room. The fridge is in the kitchen.",
+   "working": "1 mark for each correct place and 1 mark for the items."
+  },
+  {
+   "topic": "3.5",
+   "q": "Write the German words with der, die or das for: birthday, banana, tummy, apple, cheese.",
+   "marks": 5,
+   "answer": "der Geburtstag, die Banane, der Bauch, der Apfel, der Käse.",
+   "working": "1 mark for each correct noun with the correct article (5 marks)."
+  },
+  {
+   "topic": "2.5",
+   "q": "Write these numbers in German: 1, 15, 20.",
+   "marks": 3,
+   "answer": "eins, fünfzehn, zwanzig.",
+   "working": "1 mark for each correctly spelled number."
+  },
+  {
+   "topic": "3.8",
+   "q": "Write three sentences about the weather in German.",
+   "marks": 3,
+   "answer": "For example: Heute ist es sonnig. Es ist warm. Der Wind weht.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "3.5",
+   "q": "Write the German names of these months: July, August, September.",
+   "marks": 3,
+   "answer": "Juli, August, September.",
+   "working": "1 mark for each correctly spelled month with a capital letter."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: spoon, supper.",
+   "marks": 2,
+   "answer": "der Löffel, das Abendessen.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "2.7",
+   "q": "Match the body part to what it does: Auge, Ohr, Nase.",
+   "marks": 3,
+   "answer": "Auge = sehen, Ohr = hören, Nase = riechen.",
+   "working": "1 mark for each correct match."
+  },
+  {
+   "topic": "3.3",
+   "q": "Describe a floor plan of your dream house in German. Name at least three rooms.",
+   "marks": 3,
+   "answer": "For example: Das ist die Küche. Das ist das Wohnzimmer. Das ist das Schlafzimmer.",
+   "working": "1 mark for each room correctly named."
+  },
+  {
+   "topic": "2.1",
+   "q": "Spell the name \"Zawadi\" using German letter names.",
+   "marks": 3,
+   "answer": "Z (tset), A (ah), W (vay), A (ah), D (day), I (ee).",
+   "working": "3 marks if all letter names are correct; 2 marks for four or five; 1 mark for two or three."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: onion, parents, ear, cloud, cake.",
+   "marks": 5,
+   "answer": "die Zwiebel, die Eltern, das Ohr, die Wolke, der Kuchen.",
+   "working": "1 mark for each correct noun with the correct article (5 marks)."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: bedroom, chair, window, watermelon.",
+   "marks": 4,
+   "answer": "das Schlafzimmer, der Stuhl, das Fenster, die Wassermelone.",
+   "working": "1 mark for each correct noun with the correct article (4 marks)."
+  },
+  {
+   "topic": "3.7",
+   "q": "Write the German words with der, die or das for: leg, house.",
+   "marks": 2,
+   "answer": "das Bein, das Haus.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: table, fridge, kitchen.",
+   "marks": 3,
+   "answer": "der Tisch, der Kühlschrank, die Küche.",
+   "working": "1 mark for each correct noun with the correct article (3 marks)."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: cupboard or wardrobe, weather, back.",
+   "marks": 3,
+   "answer": "der Schrank, das Wetter, der Rücken.",
+   "working": "1 mark for each correct noun with the correct article (3 marks)."
+  },
+  {
+   "topic": "2.1",
+   "q": "Read aloud and write the sound of these words: Schule, heute, Haus, Tür.",
+   "marks": 4,
+   "answer": "Schule = SHOO-le, heute = HOY-te, Haus = house (ow), Tür = tür (ee with round lips).",
+   "working": "1 mark for each word."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain how to say the letters z, w and v in German words. Give one example each.",
+   "marks": 3,
+   "answer": "z is ts (Zahl), w is v (Wasser), v is f in most words (Vater).",
+   "working": "1 mark for each correct sound and example."
+  },
+  {
+   "topic": "3.8",
+   "q": "Unscramble the letters KLAT and NEGER.",
+   "marks": 2,
+   "answer": "kalt and Regen.",
+   "working": "1 mark for each; nouns with a capital letter, adjectives with a small letter."
+  },
+  {
+   "topic": "1.9",
+   "q": "Write the German for: I cook, I sleep, I read, I play.",
+   "marks": 4,
+   "answer": "Ich koche, ich schlafe, ich lese, ich spiele.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.6",
+   "q": "Explain why a menu uses a colon after the meal name.",
+   "marks": 2,
+   "answer": "The colon announces the list of food that follows.",
+   "working": "1 mark for announces the list and 1 mark for an example."
+  },
+  {
+   "topic": "1.2",
+   "q": "Explain when to use \"mein\" and when to use \"meine\". Give one example of each.",
+   "marks": 3,
+   "answer": "Use mein with der and das nouns (mein Vater) and meine with die nouns and plurals (meine Mutter).",
+   "working": "1 mark for each rule and 1 mark for correct examples."
+  },
+  {
+   "topic": "3.7",
+   "q": "Write the German words with der, die or das for: eye, neck, friend, uncle.",
+   "marks": 4,
+   "answer": "das Auge, der Hals, der Freund, der Onkel.",
+   "working": "1 mark for each correct noun with the correct article (4 marks)."
+  },
+  {
+   "topic": "1.8",
+   "q": "You hear \"Auf dem Mount Kenya ist es kalt. Dort schneit es manchmal.\" What is the gist?",
+   "marks": 2,
+   "answer": "It is cold on Mount Kenya and sometimes it snows there.",
+   "working": "1 mark for cold, 1 mark for snow."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: orange, lunch, carrot, grandfather.",
+   "marks": 4,
+   "answer": "die Orange, das Mittagessen, die Karotte, der Opa.",
+   "working": "1 mark for each correct noun with the correct article (4 marks)."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write three sentences in German about your father or mother: name, age and one adjective.",
+   "marks": 3,
+   "answer": "For example: Meine Mutter heißt Neema. Sie ist 35 Jahre alt. Sie ist nett.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "1.8",
+   "q": "Write the German for: sun, rain, wind, sky. Use der, die or das.",
+   "marks": 4,
+   "answer": "die Sonne, der Regen, der Wind, der Himmel.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: room, sun.",
+   "marks": 2,
+   "answer": "das Zimmer, die Sonne.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "2.3",
+   "q": "Read: \"Der Herd ist heiß. Das Messer ist scharf.\" Explain what the text warns about.",
+   "marks": 2,
+   "answer": "The cooker is hot and the knife is sharp, so we must be careful in the kitchen.",
+   "working": "1 mark for each warning."
+  },
+  {
+   "topic": "3.7",
+   "q": "Write the German words with der, die or das for: foot, head.",
+   "marks": 2,
+   "answer": "der Fuß, der Kopf.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "2.9",
+   "q": "Explain what reading in chunks means and why it helps.",
+   "marks": 2,
+   "answer": "It means reading groups of words together, so your reading sounds smooth.",
+   "working": "1 mark for the meaning and 1 mark for the reason."
+  },
+  {
+   "topic": "1.1",
+   "q": "Give three German words or phrases for saying goodbye and say which is friendly and which is polite.",
+   "marks": 3,
+   "answer": "Tschüss (friendly), Auf Wiedersehen (polite), Bis morgen (see you tomorrow).",
+   "working": "1 mark for each correct phrase; award the marks only if the friendly and polite ones are identified sensibly."
+  },
+  {
+   "topic": "1.6",
+   "q": "Write the German words with der, die or das for: bread, egg, tomato, water.",
+   "marks": 4,
+   "answer": "das Brot, das Ei, die Tomate, das Wasser.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write two sentences about healthy food and one about unhealthy food in German.",
+   "marks": 3,
+   "answer": "For example: Obst ist gesund. Wasser ist gesund. Limonade ist ungesund.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "3.7",
+   "q": "Write the German words with der, die or das for: finger, brothers and sisters, wind.",
+   "marks": 3,
+   "answer": "der Finger, die Geschwister, der Wind.",
+   "working": "1 mark for each correct noun with the correct article (3 marks)."
+  },
+  {
+   "topic": "2.2",
+   "q": "Say why all nouns in a German text begin with capital letters and how this helps a reader.",
+   "marks": 2,
+   "answer": "It is a spelling rule. Readers can spot the nouns quickly.",
+   "working": "1 mark for the rule and 1 mark for the help."
+  },
+  {
+   "topic": "3.7",
+   "q": "Write three sentences about your body in German.",
+   "marks": 3,
+   "answer": "For example: Ich habe zwei Augen. Das ist meine Nase. Mit den Ohren höre ich.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "2.8",
+   "q": "Write three sentences about today's weather in German.",
+   "marks": 3,
+   "answer": "For example: Heute ist es sonnig. Es ist warm. Der Wind weht.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: water, rice, breakfast.",
+   "marks": 3,
+   "answer": "das Wasser, der Reis, das Frühstück.",
+   "working": "1 mark for each correct noun with the correct article (3 marks)."
+  },
+  {
+   "topic": "2.5",
+   "q": "Read: \"Kamau hat Geburtstag. Er ist zehn Jahre alt.\" Say in English who has a birthday and how old he is.",
+   "marks": 2,
+   "answer": "Kamau has a birthday and he is ten years old.",
+   "working": "1 mark for each fact."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: lunch, carrot.",
+   "marks": 2,
+   "answer": "das Mittagessen, die Karotte.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "3.5",
+   "q": "Write the German words with der, die or das for: balloon, arm, sister, shoulder.",
+   "marks": 4,
+   "answer": "der Luftballon, der Arm, die Schwester, die Schulter.",
+   "working": "1 mark for each correct noun with the correct article (4 marks)."
+  },
+  {
+   "topic": "1.5",
+   "q": "Write the German birthday wish \"All the best for your birthday\".",
+   "marks": 2,
+   "answer": "Alles Gute zum Geburtstag!",
+   "working": "1 mark for the words and 1 mark for correct spelling and punctuation."
+  },
+  {
+   "topic": "2.4",
+   "q": "Explain what the colon, the question mark and the exclamation mark tell us when reading aloud.",
+   "marks": 3,
+   "answer": "The colon announces a list or speech, the question mark tells us to raise the voice and the exclamation mark shows strong feeling.",
+   "working": "1 mark for each mark."
+  },
+  {
+   "topic": "2.2",
+   "q": "Write three German sentences describing a member of your family.",
+   "marks": 3,
+   "answer": "For example: Meine Mutter heißt Neema. Sie ist jung. Sie ist lustig.",
+   "working": "1 mark for each correct sentence with capital letters and full stops."
+  },
+  {
+   "topic": "3.5",
+   "q": "Describe the structure of an Elfchen, line by line.",
+   "marks": 3,
+   "answer": "Line 1: one word; line 2: two words; line 3: three words; line 4: four words; line 5: one word.",
+   "working": "1 mark for lines 1 and 2, 1 mark for lines 3 and 4, 1 mark for line 5 and the total of 11."
+  },
+  {
+   "topic": "1.6",
+   "q": "Write two sentences in German: one about a food you like to eat and one about a drink you like to drink.",
+   "marks": 3,
+   "answer": "For example: Ich esse gern Mais. Ich trinke gern Tee.",
+   "working": "1 mark for each sentence and 1 mark for correct spelling."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: wall, tea, tooth, cocoa.",
+   "marks": 4,
+   "answer": "die Wand, der Tee, der Zahn, der Kakao.",
+   "working": "1 mark for each correct noun with the correct article (4 marks)."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain why \"Meine Mutter sind nett\" is wrong and correct it.",
+   "marks": 2,
+   "answer": "With one person we use ist. Correct: Meine Mutter ist nett.",
+   "working": "1 mark for the reason and 1 mark for the correction."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: knife, balloon.",
+   "marks": 2,
+   "answer": "das Messer, der Luftballon.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: clock, leg, house, spoon.",
+   "marks": 4,
+   "answer": "die Uhr, das Bein, das Haus, der Löffel.",
+   "working": "1 mark for each correct noun with the correct article (4 marks)."
+  },
+  {
+   "topic": "3.5",
+   "q": "Write your own Elfchen about a birthday. Check that it has 11 words.",
+   "marks": 4,
+   "answer": "For example: Kuchen / Süße Kerzen / Wir singen zusammen / Ich bin heute zehn / Danke!",
+   "working": "1 mark for the 1-2-3-4-1 pattern, 1 mark for spelling, 1 mark for capital letters, 1 mark for meaning."
+  },
+  {
+   "topic": "1.4",
+   "q": "Explain the difference in sound between \"ie\" and \"ei\" and give one example day for each.",
+   "marks": 3,
+   "answer": "ie sounds like ee (Dienstag); ei sounds like eye (Freitag).",
+   "working": "1 mark for each sound and 1 mark for correct examples."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write a menu for one day in German with three meals.",
+   "marks": 3,
+   "answer": "For example: Frühstück: Tee und Brot. Mittagessen: Reis und Bohnen. Abendessen: Ugali und Fisch.",
+   "working": "1 mark for each meal correctly written."
+  },
+  {
+   "topic": "2.1",
+   "q": "Name the three umlaut letters and the special letter ß.",
+   "marks": 2,
+   "answer": "ä, ö, ü and ß (Eszett).",
+   "working": "1 mark for the three umlauts and 1 mark for ß."
+  },
+  {
+   "topic": "3.7",
+   "q": "Unscramble and write with der, die or das: NUMD and ESAN.",
+   "marks": 4,
+   "answer": "der Mund and die Nase.",
+   "working": "1 mark for each word and 1 mark for each article."
+  },
+  {
+   "topic": "1.2",
+   "q": "Say what the tongue twister \"Montags macht mir meine muntere Mutter mittags meistens Mus\" means in English.",
+   "marks": 2,
+   "answer": "On Mondays my lively mother usually makes me mush at midday.",
+   "working": "1 mark for Mondays and mother, 1 mark for the mush at midday."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: radio, nose, family.",
+   "marks": 3,
+   "answer": "das Radio, die Nase, die Familie.",
+   "working": "1 mark for each correct noun with the correct article (3 marks)."
+  },
+  {
+   "topic": "1.9",
+   "q": "Name two ways to make the kitchen safer at home.",
+   "marks": 2,
+   "answer": "Keep hot pots and matches away from small children; never leave the cooker alone.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.1",
+   "q": "Write three words from a Kenyan greeting or from German that must begin with a capital letter, and say why.",
+   "marks": 3,
+   "answer": "For example: Guten Morgen, Amina, Kenia. Nouns, names and the first word of a sentence begin with capitals.",
+   "working": "1 mark for examples, 1 mark for nouns, 1 mark for names."
+  },
+  {
+   "topic": "2.1",
+   "q": "Write the German sound for each letter group: ei and ie. Give an example word for each.",
+   "marks": 2,
+   "answer": "ei sounds like eye (nein). ie sounds like ee (Tier).",
+   "working": "1 mark for each correct sound with an example."
+  },
+  {
+   "topic": "3.7",
+   "q": "Write the plural of Fuß, Zahn and Auge.",
+   "marks": 3,
+   "answer": "die Füße, die Zähne, die Augen.",
+   "working": "1 mark for each correct plural."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write the German words with der, die or das for: daughter, orange.",
+   "marks": 2,
+   "answer": "die Tochter, die Orange.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "3.8",
+   "q": "Explain the difference between \"Es regnet\" and \"Es ist regnerisch\".",
+   "marks": 2,
+   "answer": "Es regnet uses a verb and means it is raining. Es ist regnerisch uses an adjective and means it is rainy.",
+   "working": "1 mark for each meaning."
+  },
+  {
+   "topic": "3.5",
+   "q": "Explain why you should use reliable sources when you research a famous person's birthday.",
+   "marks": 2,
+   "answer": "Some information is wrong; reliable sources have been checked.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: sugar, child, sofa.",
+   "marks": 3,
+   "answer": "der Zucker, das Kind, das Sofa.",
+   "working": "1 mark for each correct noun with the correct article (3 marks)."
+  },
+  {
+   "topic": "1.2",
+   "q": "Write the German words with der or die for: father, mother, brother, sister.",
+   "marks": 4,
+   "answer": "der Vater, die Mutter, der Bruder, die Schwester.",
+   "working": "1 mark for each noun with the correct article."
+  },
+  {
+   "topic": "3.5",
+   "q": "Write the German names of these months: January, February, March.",
+   "marks": 3,
+   "answer": "Januar, Februar, März.",
+   "working": "1 mark for each correctly spelled month with a capital letter."
+  },
+  {
+   "topic": "1.5",
+   "q": "Write four short German sentences that a child could say about his or her birthday.",
+   "marks": 4,
+   "answer": "For example: Ich bin heute zehn. Ich habe einen Kuchen. Meine Familie ist da. Alles Gute zum Geburtstag!",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write three sentences that say which item is in which room.",
+   "marks": 3,
+   "answer": "For example: Das Bett ist im Schlafzimmer. Der Tisch ist in der Küche. Das Sofa ist im Wohnzimmer.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "3.8",
+   "q": "Write the German words with der, die or das for: cloud, cake, toe.",
+   "marks": 3,
+   "answer": "die Wolke, der Kuchen, der Zeh.",
+   "working": "1 mark for each correct noun with the correct article (3 marks)."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: tea, tooth.",
+   "marks": 2,
+   "answer": "der Tee, der Zahn.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  },
+  {
+   "topic": "1.3",
+   "q": "Say why the word \"Schlafzimmer\" is a das word.",
+   "marks": 2,
+   "answer": "Its last part, Zimmer, is a das word, and a joined word takes the article of the last part.",
+   "working": "1 mark for last part, 1 mark for Zimmer being das."
+  },
+  {
+   "topic": "2.5",
+   "q": "Write the numbers 3, 9 and 12 in German.",
+   "marks": 3,
+   "answer": "drei, neun, zwölf.",
+   "working": "1 mark for each correctly spelled number."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the German words with der, die or das for: pot, face, father, grandmother.",
+   "marks": 4,
+   "answer": "der Topf, das Gesicht, der Vater, die Oma.",
+   "working": "1 mark for each correct noun with the correct article (4 marks)."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write the German words with der, die or das for: son, mouth, door, radio, nose.",
+   "marks": 5,
+   "answer": "der Sohn, der Mund, die Tür, das Radio, die Nase.",
+   "working": "1 mark for each correct noun with the correct article (5 marks)."
+  },
+  {
+   "topic": "1.4",
+   "q": "Say the three time words heute, morgen and gestern in English and give one German sentence with one of them.",
+   "marks": 3,
+   "answer": "heute = today, morgen = tomorrow, gestern = yesterday. For example: Heute ist Montag.",
+   "working": "1 mark for the three meanings, 1 mark for a correct sentence, 1 mark for capital letters."
+  },
+  {
+   "topic": "2.5",
+   "q": "Write these numbers in German: 3, 7, 11.",
+   "marks": 3,
+   "answer": "drei, sieben, elf.",
+   "working": "1 mark for each correctly spelled number."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write the forms of \"sein\" for ich, du and er.",
+   "marks": 3,
+   "answer": "ich bin, du bist, er ist.",
+   "working": "1 mark for each correct form."
+  },
+  {
+   "topic": "1.2",
+   "q": "Write in German: \"Who is that? That is my mother.\"",
+   "marks": 2,
+   "answer": "Wer ist das? Das ist meine Mutter.",
+   "working": "1 mark for each sentence."
+  },
+  {
+   "topic": "3.9",
+   "q": "Explain when we use dem and when we use der after a position word like auf or neben.",
+   "marks": 3,
+   "answer": "dem with der and das nouns (dem Tisch, dem Bett) and der with die nouns (der Tür).",
+   "working": "1 mark for dem with der nouns, 1 mark for dem with das nouns, 1 mark for der with die nouns."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the German words with der, die or das for: watermelon, pot.",
+   "marks": 2,
+   "answer": "die Wassermelone, der Topf.",
+   "working": "1 mark for each correct noun with the correct article (2 marks)."
+  }
+ ]
+}

@@ -1,0 +1,1085 @@
+{
+ "mcq": [
+  {
+   "topic": "2.7",
+   "q": "What does \"das Bein\" mean in English?",
+   "options": [
+    "hand",
+    "eye",
+    "leg",
+    "arm"
+   ],
+   "answer": 2,
+   "explanation": "das Bein means leg."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does \"das Badezimmer\" mean in English?",
+   "options": [
+    "pot",
+    "door",
+    "clock",
+    "bathroom"
+   ],
+   "answer": 3,
+   "explanation": "das Badezimmer means bathroom."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does \"jung\" mean?",
+   "options": [
+    "tall",
+    "old",
+    "small",
+    "young"
+   ],
+   "answer": 3,
+   "explanation": "jung is the opposite of alt."
+  },
+  {
+   "topic": "2.8",
+   "q": "What is the plural of \"die Wolke\"?",
+   "options": [
+    "die Wolken",
+    "die Wolker",
+    "die Wolkes",
+    "die Wolke"
+   ],
+   "answer": 0,
+   "explanation": "The plural of die Wolke is die Wolken."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which German word means \"today\"? (time)",
+   "options": [
+    "jetzt",
+    "morgen",
+    "heute",
+    "gestern"
+   ],
+   "answer": 2,
+   "explanation": "today in German is heute."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which German word or phrase means \"back\"?",
+   "options": [
+    "das Auge",
+    "das Knie",
+    "der Bauch",
+    "der Rücken"
+   ],
+   "answer": 3,
+   "explanation": "back in German is der Rücken."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does \"die Tochter\" mean in English?",
+   "options": [
+    "sister",
+    "brother",
+    "daughter",
+    "father"
+   ],
+   "answer": 2,
+   "explanation": "die Tochter means daughter."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which German word or phrase means \"family\"?",
+   "options": [
+    "die Familie",
+    "der Sohn",
+    "der Onkel",
+    "der Freund"
+   ],
+   "answer": 0,
+   "explanation": "family in German is die Familie."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which verb fits in \"Am Sonntag ___ ich in die Kirche\"?",
+   "options": [
+    "geht",
+    "gehe",
+    "gehen",
+    "gehst"
+   ],
+   "answer": 1,
+   "explanation": "ich goes with gehe."
+  },
+  {
+   "topic": "1.8",
+   "q": "What does \"der Schnee\" mean in English?",
+   "options": [
+    "snow",
+    "cloud",
+    "thunderstorm",
+    "wind"
+   ],
+   "answer": 0,
+   "explanation": "der Schnee means snow."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which month is \"Dezember\"?",
+   "options": [
+    "November",
+    "September",
+    "October",
+    "December"
+   ],
+   "answer": 3,
+   "explanation": "Dezember is the last month of the year."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which German word is the number 17?",
+   "options": [
+    "elf",
+    "siebzehn",
+    "sieben",
+    "zwei"
+   ],
+   "answer": 1,
+   "explanation": "17 in German is siebzehn."
+  },
+  {
+   "topic": "2.1",
+   "q": "How is \"j\" pronounced in \"ja\"?",
+   "options": [
+    "like j in jam",
+    "like y",
+    "like zh",
+    "like ch"
+   ],
+   "answer": 1,
+   "explanation": "German j sounds like the English y."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which form completes \"Du ___ nett\"?",
+   "options": [
+    "ist",
+    "bin",
+    "sind",
+    "bist"
+   ],
+   "answer": 3,
+   "explanation": "du goes with bist."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which German word or phrase means \"living room\"?",
+   "options": [
+    "die Uhr",
+    "der Topf",
+    "der Stuhl",
+    "das Wohnzimmer"
+   ],
+   "answer": 3,
+   "explanation": "living room in German is das Wohnzimmer."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which German word or phrase means \"no\"?",
+   "options": [
+    "Nein",
+    "Hallo",
+    "Sehr gut",
+    "Auf Wiedersehen"
+   ],
+   "answer": 0,
+   "explanation": "no in German is Nein."
+  },
+  {
+   "topic": "2.8",
+   "q": "Which little word goes with the noun \"Regenbogen\"?",
+   "options": [
+    "die",
+    "den",
+    "das",
+    "der"
+   ],
+   "answer": 3,
+   "explanation": "It is der Regenbogen, so the little word is der."
+  },
+  {
+   "topic": "2.7",
+   "q": "Which little word goes with the noun \"Hand\"?",
+   "options": [
+    "die",
+    "der",
+    "das",
+    "den"
+   ],
+   "answer": 0,
+   "explanation": "It is die Hand, so the little word is die."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which plural has an umlaut?",
+   "options": [
+    "die Augen",
+    "die Beine",
+    "die Ohren",
+    "die Füße"
+   ],
+   "answer": 3,
+   "explanation": "Fuß becomes Füße."
+  },
+  {
+   "topic": "1.5",
+   "q": "What number is \"fünf\"?",
+   "options": [
+    "12",
+    "5",
+    "0",
+    "15"
+   ],
+   "answer": 1,
+   "explanation": "fünf is the number 5."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which little word goes with the noun \"Messer\"?",
+   "options": [
+    "der",
+    "die",
+    "das",
+    "den"
+   ],
+   "answer": 2,
+   "explanation": "It is das Messer, so the little word is das."
+  },
+  {
+   "topic": "3.8",
+   "q": "What does \"Gestern war es windig\" mean?",
+   "options": [
+    "Tomorrow it will be windy",
+    "Today it is windy",
+    "Yesterday it was windy",
+    "It is always windy"
+   ],
+   "answer": 2,
+   "explanation": "gestern = yesterday and war = was."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which word has a silent h that makes the vowel long?",
+   "options": [
+    "Mund",
+    "Zahn",
+    "Kopf",
+    "Bauch"
+   ],
+   "answer": 1,
+   "explanation": "Zahn has a silent h after the a."
+  },
+  {
+   "topic": "3.6",
+   "q": "Which food group does \"die Orange\" belong to?",
+   "options": [
+    "die Getränke",
+    "das Fleisch",
+    "das Obst",
+    "das Gemüse"
+   ],
+   "answer": 2,
+   "explanation": "die Orange belongs to das Obst."
+  },
+  {
+   "topic": "2.5",
+   "q": "What does \"September\" mean in English?",
+   "options": [
+    "December",
+    "August",
+    "September",
+    "February"
+   ],
+   "answer": 2,
+   "explanation": "September means September."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does \"die Tür\" mean in English?",
+   "options": [
+    "pot",
+    "plate",
+    "door",
+    "kitchen"
+   ],
+   "answer": 2,
+   "explanation": "die Tür means door."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which little word goes with the noun \"Mutter\"?",
+   "options": [
+    "die",
+    "der",
+    "das",
+    "den"
+   ],
+   "answer": 0,
+   "explanation": "It is die Mutter, so the little word is die."
+  },
+  {
+   "topic": "1.1",
+   "q": "When do you say \"Gute Nacht\"?",
+   "options": [
+    "When you meet a teacher",
+    "When someone goes to bed",
+    "When you say hello at midday",
+    "When you meet in the morning"
+   ],
+   "answer": 1,
+   "explanation": "Gute Nacht wishes someone a good night as they go to sleep."
+  },
+  {
+   "topic": "3.7",
+   "q": "What does \"Das sind meine Augen\" mean?",
+   "options": [
+    "That is my nose",
+    "These are my ears",
+    "These are my eyes",
+    "This is my eye"
+   ],
+   "answer": 2,
+   "explanation": "sind is used for more than one thing."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does \"der Topf\" mean in English?",
+   "options": [
+    "clock",
+    "pot",
+    "bathroom",
+    "plate"
+   ],
+   "answer": 1,
+   "explanation": "der Topf means pot."
+  },
+  {
+   "topic": "2.7",
+   "q": "What is the plural of \"das Bein\"?",
+   "options": [
+    "die Beiner",
+    "die Beins",
+    "die Beine",
+    "die Beinen"
+   ],
+   "answer": 2,
+   "explanation": "The plural of das Bein is die Beine."
+  },
+  {
+   "topic": "2.9",
+   "q": "What does \"tanzen\" mean in English?",
+   "options": [
+    "to have a shower",
+    "to eat",
+    "to dance",
+    "to sing"
+   ],
+   "answer": 2,
+   "explanation": "tanzen means to dance."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which German word means \"to read\"? (verb)",
+   "options": [
+    "tanzen",
+    "hören",
+    "trinken",
+    "lesen"
+   ],
+   "answer": 3,
+   "explanation": "to read in German is lesen."
+  },
+  {
+   "topic": "1.1",
+   "q": "What does \"Guten Tag\" mean in English?",
+   "options": [
+    "How are you?",
+    "good day (daytime greeting)",
+    "good morning",
+    "thank you"
+   ],
+   "answer": 1,
+   "explanation": "Guten Tag means good day (daytime greeting)."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does \"der Tee\" mean in English?",
+   "options": [
+    "milk",
+    "tea",
+    "egg",
+    "bean"
+   ],
+   "answer": 1,
+   "explanation": "der Tee means tea."
+  },
+  {
+   "topic": "2.5",
+   "q": "What does \"zusammen\" mean?",
+   "options": [
+    "together",
+    "later",
+    "never",
+    "always"
+   ],
+   "answer": 0,
+   "explanation": "zusammen means together."
+  },
+  {
+   "topic": "2.4",
+   "q": "What does \"Gut gemacht!\" mean?",
+   "options": [
+    "Well done!",
+    "One more time!",
+    "See you soon!",
+    "Be quiet!"
+   ],
+   "answer": 0,
+   "explanation": "Gut gemacht is praise."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does \"der Freund\" mean in English?",
+   "options": [
+    "friend",
+    "brothers and sisters",
+    "brother",
+    "grandfather"
+   ],
+   "answer": 0,
+   "explanation": "der Freund means friend."
+  },
+  {
+   "topic": "3.6",
+   "q": "Which little word goes with the noun \"Tomate\"?",
+   "options": [
+    "der",
+    "die",
+    "das",
+    "den"
+   ],
+   "answer": 1,
+   "explanation": "It is die Tomate, so the little word is die."
+  },
+  {
+   "topic": "3.9",
+   "q": "What does \"unter\" mean in English?",
+   "options": [
+    "on",
+    "above",
+    "under",
+    "in front of"
+   ],
+   "answer": 2,
+   "explanation": "unter means under."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does \"das Ei\" mean in English?",
+   "options": [
+    "egg",
+    "sugar",
+    "meat",
+    "fish"
+   ],
+   "answer": 0,
+   "explanation": "das Ei means egg."
+  },
+  {
+   "topic": "2.8",
+   "q": "Which adjective is made from \"Wolke\"?",
+   "options": [
+    "wolkin",
+    "wolkig",
+    "wolke",
+    "wolken"
+   ],
+   "answer": 1,
+   "explanation": "Wolke + -ig gives wolkig, cloudy."
+  },
+  {
+   "topic": "2.7",
+   "q": "What does \"schwarze Haare\" mean?",
+   "options": [
+    "big hands",
+    "brown eyes",
+    "small feet",
+    "black hair"
+   ],
+   "answer": 3,
+   "explanation": "schwarz = black, Haare = hair."
+  },
+  {
+   "topic": "2.5",
+   "q": "What does \"Juli\" mean in English?",
+   "options": [
+    "November",
+    "September",
+    "January",
+    "July"
+   ],
+   "answer": 3,
+   "explanation": "Juli means July."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does \"der Sohn\" mean in English?",
+   "options": [
+    "uncle",
+    "friend",
+    "son",
+    "brother"
+   ],
+   "answer": 2,
+   "explanation": "der Sohn means son."
+  },
+  {
+   "topic": "3.2",
+   "q": "What does \"jung\" mean in English?",
+   "options": [
+    "funny",
+    "small",
+    "young",
+    "old"
+   ],
+   "answer": 2,
+   "explanation": "jung means young."
+  },
+  {
+   "topic": "1.1",
+   "q": "What does \"Gute Nacht\" mean in English?",
+   "options": [
+    "bye (friendly)",
+    "good evening",
+    "thank you",
+    "good night"
+   ],
+   "answer": 3,
+   "explanation": "Gute Nacht means good night."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does \"der Vater\" mean in English?",
+   "options": [
+    "aunt",
+    "father",
+    "friend",
+    "brothers and sisters"
+   ],
+   "answer": 1,
+   "explanation": "der Vater means father."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does \"die Eltern\" mean in English?",
+   "options": [
+    "family",
+    "daughter",
+    "friend",
+    "parents"
+   ],
+   "answer": 3,
+   "explanation": "die Eltern means parents."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does \"Wie heißt du?\" mean in English?",
+   "options": [
+    "see you soon",
+    "What is your name?",
+    "please",
+    "sorry, excuse me"
+   ],
+   "answer": 1,
+   "explanation": "Wie heißt du? means What is your name?."
+  },
+  {
+   "topic": "3.9",
+   "q": "What does \"in\" mean in English?",
+   "options": [
+    "in",
+    "behind",
+    "between",
+    "on"
+   ],
+   "answer": 0,
+   "explanation": "in means in."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which little word goes with the noun \"Geschenk\"?",
+   "options": [
+    "die",
+    "der",
+    "den",
+    "das"
+   ],
+   "answer": 3,
+   "explanation": "It is das Geschenk, so the little word is das."
+  },
+  {
+   "topic": "2.6",
+   "q": "Which food group does \"der Kohl\" belong to?",
+   "options": [
+    "das Obst",
+    "das Gemüse",
+    "das Fleisch",
+    "die Getränke"
+   ],
+   "answer": 1,
+   "explanation": "der Kohl belongs to das Gemüse."
+  },
+  {
+   "topic": "3.5",
+   "q": "Which German word means \"September\"? (month)",
+   "options": [
+    "August",
+    "Juni",
+    "September",
+    "November"
+   ],
+   "answer": 2,
+   "explanation": "September in German is September."
+  },
+  {
+   "topic": "2.5",
+   "q": "What does \"März\" mean in English?",
+   "options": [
+    "July",
+    "September",
+    "August",
+    "March"
+   ],
+   "answer": 3,
+   "explanation": "März means March."
+  },
+  {
+   "topic": "3.6",
+   "q": "Which little word goes with the noun \"Banane\"?",
+   "options": [
+    "die",
+    "das",
+    "der",
+    "den"
+   ],
+   "answer": 0,
+   "explanation": "It is die Banane, so the little word is die."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is the gist of the text \"Guten Morgen! Ich heiße Neema. Ich bin neun. Auf Wiedersehen!\"?",
+   "options": [
+    "A girl greets, gives her name and age, and says goodbye",
+    "Two friends talk about the weather",
+    "A family goes to bed",
+    "A boy asks for food"
+   ],
+   "answer": 0,
+   "explanation": "The words Guten Morgen, ich heiße, ich bin neun and Auf Wiedersehen show a greeting, a name, an age and a goodbye."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which day comes right after Montag?",
+   "options": [
+    "Donnerstag",
+    "Dienstag",
+    "Samstag",
+    "Mittwoch"
+   ],
+   "answer": 1,
+   "explanation": "After Montag comes Dienstag."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does \"das Wasser\" mean in English?",
+   "options": [
+    "water",
+    "bean",
+    "tea",
+    "banana"
+   ],
+   "answer": 0,
+   "explanation": "das Wasser means water."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which little word goes with the noun \"Schulter\"?",
+   "options": [
+    "den",
+    "die",
+    "der",
+    "das"
+   ],
+   "answer": 1,
+   "explanation": "It is die Schulter, so the little word is die."
+  },
+  {
+   "topic": "3.7",
+   "q": "What is the plural of \"der Fuß\"?",
+   "options": [
+    "die Füß",
+    "die Füße",
+    "die Fußen",
+    "die Fuße"
+   ],
+   "answer": 1,
+   "explanation": "The plural of der Fuß is die Füße."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does \"der Kühlschrank\" mean in English?",
+   "options": [
+    "fridge",
+    "living room",
+    "bed",
+    "window"
+   ],
+   "answer": 0,
+   "explanation": "der Kühlschrank means fridge."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does \"die Milch\" mean in English?",
+   "options": [
+    "mango",
+    "carrot",
+    "milk",
+    "cocoa"
+   ],
+   "answer": 2,
+   "explanation": "die Milch means milk."
+  },
+  {
+   "topic": "1.4",
+   "q": "What does \"der Freitag\" mean in English?",
+   "options": [
+    "Monday",
+    "day",
+    "Friday",
+    "Wednesday"
+   ],
+   "answer": 2,
+   "explanation": "der Freitag means Friday."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which is the correct way to write \"living room\"?",
+   "options": [
+    "das Wohnzimmer",
+    "der Wohnzimmer",
+    "die Wohnzimmer",
+    "das Wohnzimer"
+   ],
+   "answer": 0,
+   "explanation": "Wohnzimmer is a das noun and begins with a capital letter."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which month comes right after \"September\"?",
+   "options": [
+    "Mai",
+    "Juni",
+    "August",
+    "Oktober"
+   ],
+   "answer": 3,
+   "explanation": "After September comes Oktober."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which sound needs rounded lips?",
+   "options": [
+    "e",
+    "ü",
+    "a",
+    "i"
+   ],
+   "answer": 1,
+   "explanation": "To say ü, say ee with round lips as if whistling."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which little word goes with the noun \"Woche\"?",
+   "options": [
+    "die",
+    "der",
+    "das",
+    "den"
+   ],
+   "answer": 0,
+   "explanation": "It is die Woche, so the little word is die."
+  },
+  {
+   "topic": "3.8",
+   "q": "Which German word or phrase means \"snow\"?",
+   "options": [
+    "die Sonne",
+    "der Wind",
+    "der Regen",
+    "der Schnee"
+   ],
+   "answer": 3,
+   "explanation": "snow in German is der Schnee."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does \"Ich mag keine Cola\" mean?",
+   "options": [
+    "I drink cola every day",
+    "I do not like cola",
+    "I like cola",
+    "I am buying cola"
+   ],
+   "answer": 1,
+   "explanation": "keine shows that the person does not like cola."
+  },
+  {
+   "topic": "3.8",
+   "q": "Which German word means \"sunny\"? (weather)",
+   "options": [
+    "sonnig",
+    "heiß",
+    "kalt",
+    "trocken"
+   ],
+   "answer": 0,
+   "explanation": "sunny in German is sonnig."
+  },
+  {
+   "topic": "3.5",
+   "q": "What is the plural of \"das Geschenk\"?",
+   "options": [
+    "die Geschenke",
+    "die Geschenken",
+    "die Geschenker",
+    "die Geschenks"
+   ],
+   "answer": 0,
+   "explanation": "The plural of das Geschenk is die Geschenke."
+  },
+  {
+   "topic": "3.8",
+   "q": "Which German word means \"warm\"? (weather)",
+   "options": [
+    "neblig",
+    "warm",
+    "nass",
+    "wolkig"
+   ],
+   "answer": 1,
+   "explanation": "warm in German is warm."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which German word or phrase means \"see you soon\"?",
+   "options": [
+    "Danke",
+    "Ja",
+    "Bis bald",
+    "Bitte"
+   ],
+   "answer": 2,
+   "explanation": "see you soon in German is Bis bald."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which day comes right after Donnerstag?",
+   "options": [
+    "Sonntag",
+    "Mittwoch",
+    "Dienstag",
+    "Freitag"
+   ],
+   "answer": 3,
+   "explanation": "After Donnerstag comes Freitag."
+  },
+  {
+   "topic": "3.5",
+   "q": "Which German word or phrase means \"candle\"?",
+   "options": [
+    "die Kerze",
+    "der Kuchen",
+    "das Lied",
+    "die Party"
+   ],
+   "answer": 0,
+   "explanation": "candle in German is die Kerze."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does \"die Küche\" mean in English?",
+   "options": [
+    "radio",
+    "garden",
+    "bathroom",
+    "kitchen"
+   ],
+   "answer": 3,
+   "explanation": "die Küche means kitchen."
+  },
+  {
+   "topic": "2.9",
+   "q": "What does \"hinter\" mean in English?",
+   "options": [
+    "in front of",
+    "next to",
+    "behind",
+    "under"
+   ],
+   "answer": 2,
+   "explanation": "hinter means behind."
+  },
+  {
+   "topic": "3.5",
+   "q": "What does \"der vierte\" mean in English?",
+   "options": [
+    "fourth",
+    "sixth",
+    "fifth",
+    "third"
+   ],
+   "answer": 0,
+   "explanation": "der vierte means fourth."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which day comes right before Sonntag?",
+   "options": [
+    "Freitag",
+    "Samstag",
+    "Dienstag",
+    "Mittwoch"
+   ],
+   "answer": 1,
+   "explanation": "Before Sonntag comes Samstag."
+  },
+  {
+   "topic": "3.4",
+   "q": "What does \"lernen\" mean in English?",
+   "options": [
+    "to learn or study",
+    "to drink",
+    "to speak",
+    "to help"
+   ],
+   "answer": 0,
+   "explanation": "lernen means to learn or study."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which sentence means \"I like eating bananas\"?",
+   "options": [
+    "Ich esse gern Bananen.",
+    "Ich koche Bananen.",
+    "Ich trinke gern Bananen.",
+    "Ich esse keine Bananen."
+   ],
+   "answer": 0,
+   "explanation": "gern shows you like doing it."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does \"der Rücken\" mean in English?",
+   "options": [
+    "toe",
+    "back",
+    "ear",
+    "finger"
+   ],
+   "answer": 1,
+   "explanation": "der Rücken means back."
+  },
+  {
+   "topic": "2.1",
+   "q": "How is \"w\" pronounced in \"Wasser\"?",
+   "options": [
+    "like English w",
+    "like f",
+    "like v",
+    "like b"
+   ],
+   "answer": 2,
+   "explanation": "German w sounds like v, so Wasser is VAS-ser."
+  },
+  {
+   "topic": "3.5",
+   "q": "What does \"August\" mean in English?",
+   "options": [
+    "July",
+    "June",
+    "September",
+    "August"
+   ],
+   "answer": 3,
+   "explanation": "August means August."
+  },
+  {
+   "topic": "3.6",
+   "q": "Which food group does \"der Saft\" belong to?",
+   "options": [
+    "das Gemüse",
+    "die Getränke",
+    "das Fleisch",
+    "das Obst"
+   ],
+   "answer": 1,
+   "explanation": "der Saft belongs to die Getränke."
+  },
+  {
+   "topic": "1.5",
+   "q": "In \"Geburtstag\", how do you say the letter \"u\"?",
+   "options": [
+    "like uh",
+    "like yoo",
+    "like ow",
+    "like oo"
+   ],
+   "answer": 3,
+   "explanation": "The u in Geburtstag is said oo."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which month comes right after \"März\"?",
+   "options": [
+    "April",
+    "Juli",
+    "September",
+    "August"
+   ],
+   "answer": 0,
+   "explanation": "After März comes April."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does \"der Kakao\" mean in English?",
+   "options": [
+    "watermelon",
+    "cocoa",
+    "mango",
+    "cheese"
+   ],
+   "answer": 1,
+   "explanation": "der Kakao means cocoa."
+  },
+  {
+   "topic": "2.9",
+   "q": "Which German word means \"between\"? (position word)",
+   "options": [
+    "auf",
+    "zwischen",
+    "neben",
+    "hinter"
+   ],
+   "answer": 1,
+   "explanation": "between in German is zwischen."
+  }
+ ],
+ "short": []
+}

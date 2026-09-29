@@ -1,0 +1,982 @@
+{
+ "mcq": [
+  {
+   "topic": "4.3",
+   "q": "What is a good way of obeying?",
+   "options": [
+    "Do it later",
+    "Complain",
+    "Refuse",
+    "Do it at once and cheerfully"
+   ],
+   "answer": 3,
+   "explanation": "Obey promptly and willingly."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which verse says that God is love?",
+   "options": [
+    "Genesis 1:1",
+    "1 John 4:8",
+    "Luke 19:5",
+    "Acts 2:38"
+   ],
+   "answer": 1,
+   "explanation": "1 John 4:8 states that God is love."
+  },
+  {
+   "topic": "4.4",
+   "q": "In which Gospel passage did Jesus bless little children?",
+   "options": [
+    "Genesis 12:1",
+    "Acts 2:1",
+    "John 3:1",
+    "Matthew 19:13-15"
+   ],
+   "answer": 3,
+   "explanation": "Matthew 19:13-15 records it."
+  },
+  {
+   "topic": "4.4",
+   "q": "What did Jesus say to the disciples about the children?",
+   "options": [
+    "Send them away",
+    "Let them come to me",
+    "Wait for tomorrow",
+    "They are too small"
+   ],
+   "answer": 1,
+   "explanation": "Matthew 19:14 records His welcome."
+  },
+  {
+   "topic": "4.4",
+   "q": "What did Jesus do to the children?",
+   "options": [
+    "Gave them money",
+    "Sent them home",
+    "Placed His hands on them and blessed them",
+    "Ignored them"
+   ],
+   "answer": 2,
+   "explanation": "Matthew 19:15 says He blessed them."
+  },
+  {
+   "topic": "4.4",
+   "q": "Who did the disciples rebuke?",
+   "options": [
+    "The people bringing children",
+    "The children",
+    "The Pharisees",
+    "The soldiers"
+   ],
+   "answer": 0,
+   "explanation": "They told off those who brought the children."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which action shows love?",
+   "options": [
+    "Sharing your lunch",
+    "Teasing",
+    "Ignoring",
+    "Hurting"
+   ],
+   "answer": 0,
+   "explanation": "Sharing is practical love."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which command did Jesus give in John 13:34?",
+   "options": [
+    "Go to the temple",
+    "Give money",
+    "Love one another",
+    "Fast"
+   ],
+   "answer": 2,
+   "explanation": "Jesus said to love as He loved."
+  },
+  {
+   "topic": "4.4",
+   "q": "What are the two greatest commandments?",
+   "options": [
+    "Pray and fast",
+    "Love God and love your neighbour",
+    "Work and rest",
+    "Buy and sell"
+   ],
+   "answer": 1,
+   "explanation": "Matthew 22:37-39."
+  },
+  {
+   "topic": "4.4",
+   "q": "Who is your neighbour?",
+   "options": [
+    "Only people next door",
+    "Only relatives",
+    "Only friends",
+    "Anyone near you or in need"
+   ],
+   "answer": 3,
+   "explanation": "A neighbour is anyone we can help."
+  },
+  {
+   "topic": "4.4",
+   "q": "How can we show love for God?",
+   "options": [
+    "By ignoring them",
+    "By obeying His teachings",
+    "By being rude",
+    "By being greedy"
+   ],
+   "answer": 1,
+   "explanation": "Jesus said love shows in obedience."
+  },
+  {
+   "topic": "4.4",
+   "q": "Is love only a feeling?",
+   "options": [
+    "Yes",
+    "Only for adults",
+    "Only in church",
+    "No, it is also a choice and action"
+   ],
+   "answer": 3,
+   "explanation": "Love is shown in actions."
+  },
+  {
+   "topic": "4.4",
+   "q": "If someone says they love you but hurts you, what should you do?",
+   "options": [
+    "Tell a trusted adult",
+    "Keep it secret",
+    "Hurt them",
+    "Ignore it"
+   ],
+   "answer": 0,
+   "explanation": "Love is never hurtful."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which of these shows love at school?",
+   "options": [
+    "Laughing at new pupils",
+    "Refusing to greet",
+    "Welcoming a new pupil",
+    "Hiding books"
+   ],
+   "answer": 2,
+   "explanation": "Welcoming is kind."
+  },
+  {
+   "topic": "4.5",
+   "q": "What does responsibility mean?",
+   "options": [
+    "Leaving jobs to others",
+    "Being lazy",
+    "Doing your duties and caring for what belongs to you",
+    "Breaking things"
+   ],
+   "answer": 2,
+   "explanation": "Responsibility means doing what is expected."
+  },
+  {
+   "topic": "4.5",
+   "q": "Which is a personal item?",
+   "options": [
+    "A school uniform",
+    "A classroom desk",
+    "A library book",
+    "The school gate"
+   ],
+   "answer": 0,
+   "explanation": "Personal items belong to you."
+  },
+  {
+   "topic": "4.5",
+   "q": "Which is school property?",
+   "options": [
+    "A pencil case",
+    "Your shoes",
+    "Your lunch",
+    "A desk"
+   ],
+   "answer": 3,
+   "explanation": "A desk belongs to the school."
+  },
+  {
+   "topic": "4.5",
+   "q": "How should you care for an exercise book?",
+   "options": [
+    "Tear it",
+    "Cover it and keep it clean",
+    "Draw on it",
+    "Leave it in the rain"
+   ],
+   "answer": 1,
+   "explanation": "Covers protect books."
+  },
+  {
+   "topic": "4.5",
+   "q": "What does Luke 16:10 teach?",
+   "options": [
+    "Money is evil",
+    "Do not work",
+    "Be greedy",
+    "Whoever is trusted with little can be trusted with much"
+   ],
+   "answer": 3,
+   "explanation": "Faithfulness in small things matters."
+  },
+  {
+   "topic": "4.5",
+   "q": "What did God tell the first man to do in the garden, according to Genesis 2:15?",
+   "options": [
+    "Sleep",
+    "Work it and take care of it",
+    "Leave it",
+    "Sell it"
+   ],
+   "answer": 1,
+   "explanation": "Genesis 2:15 says this."
+  },
+  {
+   "topic": "4.5",
+   "q": "If you break a friend's ruler, what should you do?",
+   "options": [
+    "Hide it",
+    "Blame another",
+    "Say sorry and offer to replace it",
+    "Say nothing"
+   ],
+   "answer": 2,
+   "explanation": "Honesty and repair are responsible."
+  },
+  {
+   "topic": "4.5",
+   "q": "What should you do with a found pencil that is not yours?",
+   "options": [
+    "Hand it to the teacher",
+    "Keep it",
+    "Throw it away",
+    "Sell it"
+   ],
+   "answer": 0,
+   "explanation": "Return what is not yours."
+  },
+  {
+   "topic": "4.5",
+   "q": "Which action shows care for school property?",
+   "options": [
+    "Keeping toilets clean",
+    "Writing on desks",
+    "Wasting water",
+    "Breaking chairs"
+   ],
+   "answer": 0,
+   "explanation": "Cleanliness respects property."
+  },
+  {
+   "topic": "4.5",
+   "q": "Why is it important to care for personal items?",
+   "options": [
+    "They are unimportant",
+    "They look bad",
+    "They last longer and save money",
+    "They are free"
+   ],
+   "answer": 2,
+   "explanation": "Care reduces loss."
+  },
+  {
+   "topic": "4.5",
+   "q": "Which is a way of keeping a uniform in good condition?",
+   "options": [
+    "Tearing it",
+    "Washing and mending it",
+    "Leaving it in mud",
+    "Lending it out"
+   ],
+   "answer": 1,
+   "explanation": "Good care extends its life."
+  },
+  {
+   "topic": "4.5",
+   "q": "Which chore shows responsibility at home?",
+   "options": [
+    "Breaking plates",
+    "Hiding",
+    "Complaining",
+    "Washing plates"
+   ],
+   "answer": 3,
+   "explanation": "Doing chores shows duty."
+  },
+  {
+   "topic": "4.5",
+   "q": "What should you do with a borrowed book?",
+   "options": [
+    "Keep it",
+    "Return it in good condition",
+    "Damage it",
+    "Sell it"
+   ],
+   "answer": 1,
+   "explanation": "Borrowed items must be returned."
+  },
+  {
+   "topic": "4.6",
+   "q": "Who does the Bible say we should be like in holiness?",
+   "options": [
+    "The king",
+    "Our friends",
+    "Our teachers",
+    "God"
+   ],
+   "answer": 3,
+   "explanation": "1 Peter 1:16 says to be holy because God is holy."
+  },
+  {
+   "topic": "4.6",
+   "q": "What does the word holy mean?",
+   "options": [
+    "Pure and set apart for God",
+    "Rich",
+    "Famous",
+    "Old"
+   ],
+   "answer": 0,
+   "explanation": "Holy means pure and set apart."
+  },
+  {
+   "topic": "4.6",
+   "q": "What does 1 Corinthians 6:19 say our bodies are?",
+   "options": [
+    "Machines",
+    "Toys",
+    "Temples of the Holy Spirit",
+    "Property of strangers"
+   ],
+   "answer": 2,
+   "explanation": "The body is a temple."
+  },
+  {
+   "topic": "4.6",
+   "q": "What does it mean to glorify God with our bodies?",
+   "options": [
+    "To ignore Him",
+    "To hurt others",
+    "To honour Him by how we use them",
+    "To boast"
+   ],
+   "answer": 2,
+   "explanation": "We honour God by how we live."
+  },
+  {
+   "topic": "4.6",
+   "q": "Which action honours God with the body?",
+   "options": [
+    "Keeping clean and eating well",
+    "Taking drugs",
+    "Fighting",
+    "Using bad words"
+   ],
+   "answer": 0,
+   "explanation": "Care for the body honours God."
+  },
+  {
+   "topic": "4.6",
+   "q": "Which is a sin?",
+   "options": [
+    "Sharing",
+    "Praying",
+    "Helping",
+    "Stealing"
+   ],
+   "answer": 3,
+   "explanation": "Stealing is taking what is not yours."
+  },
+  {
+   "topic": "4.6",
+   "q": "What should you do when you sin?",
+   "options": [
+    "Hide it",
+    "Confess, say sorry and put things right",
+    "Blame others",
+    "Repeat it"
+   ],
+   "answer": 1,
+   "explanation": "1 John 1:9 says God forgives those who confess."
+  },
+  {
+   "topic": "4.6",
+   "q": "Which helps you to avoid situations that lead to sin?",
+   "options": [
+    "Going to wrong places",
+    "Keeping bad secrets",
+    "Ignoring parents",
+    "Choosing good friends"
+   ],
+   "answer": 3,
+   "explanation": "Good friends help us do right."
+  },
+  {
+   "topic": "4.6",
+   "q": "Which of these is harmful to the body?",
+   "options": [
+    "Water",
+    "Alcohol and drugs",
+    "Vegetables",
+    "Sleep"
+   ],
+   "answer": 1,
+   "explanation": "Drugs and alcohol harm the body."
+  },
+  {
+   "topic": "4.6",
+   "q": "Who ran away from a wrong situation and was wise?",
+   "options": [
+    "Balaam",
+    "Zacchaeus",
+    "Joseph",
+    "Nicodemus"
+   ],
+   "answer": 2,
+   "explanation": "Joseph ran from temptation."
+  },
+  {
+   "topic": "4.6",
+   "q": "Which of these is a result of sin?",
+   "options": [
+    "It separates us from God",
+    "It brings peace",
+    "It brings health",
+    "It brings praise"
+   ],
+   "answer": 0,
+   "explanation": "Sin harms us and others."
+  },
+  {
+   "topic": "4.6",
+   "q": "Which of these shows respect for others' bodies?",
+   "options": [
+    "Not hitting or bullying",
+    "Hitting",
+    "Bullying",
+    "Touching without permission"
+   ],
+   "answer": 0,
+   "explanation": "We respect others as God's creation."
+  },
+  {
+   "topic": "4.6",
+   "q": "Why should a child tell a trusted adult if someone touches them wrongly?",
+   "options": [
+    "To get someone in trouble",
+    "To boast",
+    "It is not their fault and the adult can protect them",
+    "For no reason"
+   ],
+   "answer": 2,
+   "explanation": "Telling keeps children safe."
+  },
+  {
+   "topic": "5.1",
+   "q": "What did Jesus say the temple should be called?",
+   "options": [
+    "A market",
+    "A house of prayer",
+    "A palace",
+    "A school"
+   ],
+   "answer": 1,
+   "explanation": "Matthew 21:13 says, \"My house will be called a house of prayer.\""
+  },
+  {
+   "topic": "5.1",
+   "q": "What did Jesus overturn in the temple?",
+   "options": [
+    "The altar",
+    "The doors",
+    "The windows",
+    "Tables of the money changers"
+   ],
+   "answer": 3,
+   "explanation": "Matthew 21:12 says He overturned the tables."
+  },
+  {
+   "topic": "5.1",
+   "q": "Why did Jesus drive out the buyers and sellers?",
+   "options": [
+    "They were noisy",
+    "They were misusing God's house",
+    "They were poor",
+    "They were children"
+   ],
+   "answer": 1,
+   "explanation": "The temple was for prayer, not trading."
+  },
+  {
+   "topic": "5.1",
+   "q": "Who came to Jesus in the temple after the clearing?",
+   "options": [
+    "Soldiers",
+    "Kings",
+    "Tax collectors",
+    "The blind and the lame"
+   ],
+   "answer": 3,
+   "explanation": "Matthew 21:14 says He healed them."
+  },
+  {
+   "topic": "5.1",
+   "q": "What are the two meanings of the word church?",
+   "options": [
+    "The building and the people of God",
+    "A market and a school",
+    "A river and a hill",
+    "A song and a prayer"
+   ],
+   "answer": 0,
+   "explanation": "Church means the building and the community."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which verse mentions activities such as a hymn and a word of instruction?",
+   "options": [
+    "Genesis 1:1",
+    "Luke 1:37",
+    "1 Corinthians 14:26",
+    "John 3:16"
+   ],
+   "answer": 2,
+   "explanation": "1 Corinthians 14:26 lists activities in worship."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which is an activity in church?",
+   "options": [
+    "Selling goods",
+    "Fighting",
+    "Praying and singing",
+    "Playing football inside"
+   ],
+   "answer": 2,
+   "explanation": "Worship includes prayer and singing."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which behaviour shows respect for the church?",
+   "options": [
+    "Entering quietly",
+    "Shouting",
+    "Running",
+    "Littering"
+   ],
+   "answer": 0,
+   "explanation": "Quiet respect honours God's house."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which of these is a way of serving God in church?",
+   "options": [
+    "Breaking chairs",
+    "Talking during prayers",
+    "Leaving litter",
+    "Helping to clean"
+   ],
+   "answer": 3,
+   "explanation": "Cleaning is service."
+  },
+  {
+   "topic": "5.1",
+   "q": "What does Psalm 122:1 say people were glad to do?",
+   "options": [
+    "Go to market",
+    "Go to the house of the Lord",
+    "Go to sleep",
+    "Go to war"
+   ],
+   "answer": 1,
+   "explanation": "The psalm rejoices at going to God's house."
+  },
+  {
+   "topic": "5.1",
+   "q": "Why is the church called the house of God?",
+   "options": [
+    "It is a shop",
+    "It is a school",
+    "It is a farm",
+    "It is a holy place for worship"
+   ],
+   "answer": 3,
+   "explanation": "Believers meet there to worship God."
+  },
+  {
+   "topic": "5.1",
+   "q": "What should we do with phones in church?",
+   "options": [
+    "Play games",
+    "Switch them off or keep them silent",
+    "Make calls",
+    "Watch videos"
+   ],
+   "answer": 1,
+   "explanation": "Phones can disturb worship."
+  },
+  {
+   "topic": "5.1",
+   "q": "Why should we take part in church activities?",
+   "options": [
+    "To show off",
+    "To waste time",
+    "To grow spiritually and serve others",
+    "To avoid home"
+   ],
+   "answer": 2,
+   "explanation": "Participation helps faith to grow."
+  },
+  {
+   "topic": "5.2",
+   "q": "How many disciples did Jesus choose?",
+   "options": [
+    "Twelve",
+    "Seven",
+    "Ten",
+    "Twenty"
+   ],
+   "answer": 0,
+   "explanation": "Matthew 10:1 speaks of twelve."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which disciple was a tax collector?",
+   "options": [
+    "Matthew",
+    "Peter",
+    "Andrew",
+    "Philip"
+   ],
+   "answer": 0,
+   "explanation": "Matthew was a tax collector."
+  },
+  {
+   "topic": "5.2",
+   "q": "Who was Andrew's brother?",
+   "options": [
+    "John",
+    "Thomas",
+    "Simon Peter",
+    "Philip"
+   ],
+   "answer": 2,
+   "explanation": "Simon Peter and Andrew were brothers."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which two disciples were brothers, sons of Zebedee?",
+   "options": [
+    "Peter and Andrew",
+    "James and John",
+    "Thomas and Philip",
+    "Matthew and Thaddaeus"
+   ],
+   "answer": 1,
+   "explanation": "James and John were sons of Zebedee."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which disciple betrayed Jesus?",
+   "options": [
+    "Peter",
+    "Thomas",
+    "Andrew",
+    "Judas Iscariot"
+   ],
+   "answer": 3,
+   "explanation": "Judas betrayed Jesus."
+  },
+  {
+   "topic": "5.2",
+   "q": "Who replaced Judas among the twelve?",
+   "options": [
+    "Barnabas",
+    "Matthias",
+    "Paul",
+    "Stephen"
+   ],
+   "answer": 1,
+   "explanation": "Acts 1:26 says Matthias was chosen."
+  },
+  {
+   "topic": "5.2",
+   "q": "What came upon the disciples at Pentecost?",
+   "options": [
+    "A storm only",
+    "An army",
+    "A king",
+    "The Holy Spirit"
+   ],
+   "answer": 3,
+   "explanation": "Acts 2 tells of the Holy Spirit."
+  },
+  {
+   "topic": "5.2",
+   "q": "Who preached to the crowd at Pentecost?",
+   "options": [
+    "Peter",
+    "Judas",
+    "Thomas",
+    "Stephen"
+   ],
+   "answer": 0,
+   "explanation": "Peter spoke boldly."
+  },
+  {
+   "topic": "5.2",
+   "q": "About how many people were baptised that day?",
+   "options": [
+    "Thirty",
+    "Three hundred",
+    "Three thousand",
+    "Three"
+   ],
+   "answer": 2,
+   "explanation": "Acts 2:41."
+  },
+  {
+   "topic": "5.2",
+   "q": "What does Acts 2:38 tell people to do?",
+   "options": [
+    "Stay at home",
+    "Fast for a month",
+    "Repent and be baptised",
+    "Sell everything"
+   ],
+   "answer": 2,
+   "explanation": "Peter's answer to the crowd."
+  },
+  {
+   "topic": "5.2",
+   "q": "What did the first Christians devote themselves to?",
+   "options": [
+    "Teaching, fellowship, breaking of bread and prayer",
+    "Trading",
+    "Fighting",
+    "Travel"
+   ],
+   "answer": 0,
+   "explanation": "Acts 2:42."
+  },
+  {
+   "topic": "5.2",
+   "q": "What does the word apostle mean?",
+   "options": [
+    "One who sits",
+    "A king",
+    "A fisher",
+    "One who is sent"
+   ],
+   "answer": 3,
+   "explanation": "Apostles were sent out with a message."
+  }
+ ],
+ "short": [
+  {
+   "topic": "4.4",
+   "q": "Describe how Jesus responded when the disciples sent the children away.",
+   "marks": 3,
+   "answer": "He told them to let the children come, said the kingdom belongs to them, and blessed them.",
+   "working": "1 mark for each valid point."
+  },
+  {
+   "topic": "4.4",
+   "q": "Explain what it means to say that love is a choice.",
+   "marks": 4,
+   "answer": "We do not always feel like loving. We can still choose to be kind, like helping someone who annoyed us. Love shows in actions.",
+   "working": "1 mark for not always feeling, 1 for choosing kindness, 1 for example, 1 for actions."
+  },
+  {
+   "topic": "4.4",
+   "q": "Explain the two greatest commandments and how a child can obey them.",
+   "marks": 5,
+   "answer": "Love God with all your heart, soul and mind, and love your neighbour as yourself. A child obeys by praying, reading the Bible, going to church, and by kindness, sharing and forgiving others.",
+   "working": "1 mark for loving God, 1 for loving neighbour, 1 for prayer or Bible, 1 for kindness, 1 for forgiving or sharing."
+  },
+  {
+   "topic": "4.5",
+   "q": "Name two personal items and one way of caring for each.",
+   "marks": 2,
+   "answer": "Uniform: wash it; exercise book: cover it.",
+   "working": "1 mark for each item with care."
+  },
+  {
+   "topic": "4.5",
+   "q": "Give two examples of school property.",
+   "marks": 2,
+   "answer": "Desks, textbooks, library books, toilets, compound.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.5",
+   "q": "State three reasons why we should care for school property.",
+   "marks": 3,
+   "answer": "It belongs to everyone; repair costs money; a clean school helps learning; others will use it later.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "4.5",
+   "q": "Describe what a child should do when they lose or break something belonging to someone else.",
+   "marks": 3,
+   "answer": "Tell the owner honestly, say sorry, offer to replace or repair it.",
+   "working": "1 mark for each valid step."
+  },
+  {
+   "topic": "4.5",
+   "q": "Explain four ways of showing responsibility at school.",
+   "marks": 4,
+   "answer": "Keep the class clean, take care of books, obey rules, do assigned duties, return borrowed things.",
+   "working": "1 mark for each valid way up to 4."
+  },
+  {
+   "topic": "4.5",
+   "q": "Explain how Luke 16:10 and Genesis 2:15 teach responsibility, and give examples from school and home.",
+   "marks": 5,
+   "answer": "Luke 16:10 says being faithful in small things leads to bigger tasks. Genesis 2:15 says God gave people work to do and things to care for. At school a child covers books and cleans the class. At home a child washes plates and looks after younger siblings.",
+   "working": "1 mark for each verse meaning, 1 for a school example, 1 for a home example, 1 for a clear link."
+  },
+  {
+   "topic": "4.6",
+   "q": "State two ways of glorifying God with our bodies.",
+   "marks": 2,
+   "answer": "Keep clean and healthy, speak kindly, avoid harmful things, use hands to help.",
+   "working": "1 mark for each way."
+  },
+  {
+   "topic": "4.6",
+   "q": "Give two sins that do not please God.",
+   "marks": 2,
+   "answer": "Lying, stealing, disobedience, bullying, jealousy.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.6",
+   "q": "Explain why the body is called a temple of the Holy Spirit.",
+   "marks": 3,
+   "answer": "The Holy Spirit lives in believers, so the body is holy like a temple and should be treated with respect.",
+   "working": "1 mark for Holy Spirit, 1 for holy, 1 for respect."
+  },
+  {
+   "topic": "4.6",
+   "q": "Give three ways of avoiding situations that lead to sin.",
+   "marks": 3,
+   "answer": "Choose good friends, avoid wrong places, be careful about what you watch, keep busy with good things, pray.",
+   "working": "1 mark for each way."
+  },
+  {
+   "topic": "4.6",
+   "q": "Describe what a child should do after sinning, in four steps.",
+   "marks": 4,
+   "answer": "Admit it, say sorry to God, say sorry to the person hurt, put things right, decide not to repeat.",
+   "working": "1 mark for each step up to 4."
+  },
+  {
+   "topic": "4.6",
+   "q": "Explain why young people should lead holy lives, and give four ways of doing it.",
+   "marks": 5,
+   "answer": "God is holy and asks us to be holy. Our bodies are temples of the Holy Spirit. A holy life keeps us safe and pleases God. Ways: keep clean, avoid drugs and alcohol, choose good friends, avoid harmful media, pray and read the Bible.",
+   "working": "1 mark for God's call, 1 for the temple idea, 1 for safety, 2 for ways."
+  },
+  {
+   "topic": "5.1",
+   "q": "Give two meanings of the word church.",
+   "marks": 2,
+   "answer": "The building where Christians worship; the community of believers.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.1",
+   "q": "State two ways of respecting the church building.",
+   "marks": 2,
+   "answer": "Enter quietly, do not litter, keep phones silent, take care of Bibles.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain why Jesus cleared the temple.",
+   "marks": 3,
+   "answer": "The temple was meant for prayer but people used it to make money and cheat. Jesus cared for the honour of His Father's house.",
+   "working": "1 mark for prayer purpose, 1 for making money or cheating, 1 for honour of God's house."
+  },
+  {
+   "topic": "5.1",
+   "q": "List three activities Christians do in church.",
+   "marks": 3,
+   "answer": "Pray, sing, read the Bible, give offerings, listen to the sermon, fellowship.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.1",
+   "q": "Describe four ways in which children can serve in church.",
+   "marks": 4,
+   "answer": "Sing in the choir, help clean, welcome visitors, read a verse, take the offering, help in Sunday school.",
+   "working": "1 mark for each way up to 4."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain the lessons that we learn from Matthew 21:12-14.",
+   "marks": 5,
+   "answer": "The house of God is holy; it is for prayer; we must not misuse it or cheat others; Jesus cares about what happens there; it is a place of healing and help.",
+   "working": "1 mark for each valid lesson up to 5."
+  },
+  {
+   "topic": "5.2",
+   "q": "Name two of the twelve disciples who were brothers.",
+   "marks": 2,
+   "answer": "Peter and Andrew; James and John.",
+   "working": "1 mark for each pair."
+  },
+  {
+   "topic": "5.2",
+   "q": "Explain the meaning of the word disciple.",
+   "marks": 2,
+   "answer": "A follower and learner of Jesus.",
+   "working": "1 mark for follower and 1 for learner."
+  },
+  {
+   "topic": "5.2",
+   "q": "List six of the twelve disciples.",
+   "marks": 3,
+   "answer": "Peter, Andrew, James, John, Philip, Bartholomew, Thomas, Matthew, James son of Alphaeus, Thaddaeus, Simon the Zealot, Judas Iscariot.",
+   "working": "1 mark for each two correct names up to 3 marks."
+  },
+  {
+   "topic": "5.2",
+   "q": "State three ways in which the first Christians lived together.",
+   "marks": 3,
+   "answer": "They learned the teaching, prayed, ate together, shared with the needy.",
+   "working": "1 mark for each valid way."
+  },
+  {
+   "topic": "5.2",
+   "q": "Describe how the early church began.",
+   "marks": 4,
+   "answer": "The Holy Spirit came at Pentecost, Peter preached, people asked what to do, Peter told them to repent and be baptised, about three thousand believed.",
+   "working": "1 mark for each valid point up to 4."
+  },
+  {
+   "topic": "5.2",
+   "q": "Explain what it means to repent as taught in Acts 2:38 and how a child can do it.",
+   "marks": 5,
+   "answer": "Repent means to be sorry for sin and turn away from it. Peter told people to repent and be baptised. A child can admit wrong, tell God sorry, ask forgiveness from others, make a decision to do better and ask the Holy Spirit's help.",
+   "working": "1 mark for the meaning, 1 for Acts 2:38, 1 for admitting, 1 for saying sorry, 1 for deciding to do better."
+  },
+  {
+   "topic": "5.3",
+   "q": "Where were believers first called Christians?",
+   "marks": 2,
+   "answer": "Antioch (Acts 11:26).",
+   "working": "1 mark for Antioch and 1 for reference or the meaning."
+  }
+ ]
+}
