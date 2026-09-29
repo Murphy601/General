@@ -1030,7 +1030,7 @@
     "Crocodile"
    ],
    "answer": 0,
-   "explanation": "A whale breathes air, has hair as a young animal, and feeds milk to its calf."
+   "explanation": "A whale breathes air and feeds milk to its calf, so it is a mammal even though it lives in water."
   },
   {
    "topic": "1.2",
@@ -1055,6 +1055,150 @@
    ],
    "answer": 2,
    "explanation": "Fish are vertebrates. Small animals may be spiders, worms or others."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is digestion?",
+   "options": [
+    "Storing food in the stomach for years",
+    "Throwing away food",
+    "Breaking down food into tiny parts the body can use",
+    "Making food hot"
+   ],
+   "answer": 2,
+   "explanation": "Digestion breaks food into tiny parts that can pass into the blood."
+  },
+  {
+   "topic": "1.3",
+   "q": "Where does the digestive tube begin?",
+   "options": [
+    "Stomach",
+    "Mouth",
+    "Anus",
+    "Small intestine"
+   ],
+   "answer": 1,
+   "explanation": "Food enters the body through the mouth."
+  },
+  {
+   "topic": "1.3",
+   "q": "Where does the digestive tube end?",
+   "options": [
+    "Anus",
+    "Mouth",
+    "Gullet",
+    "Stomach"
+   ],
+   "answer": 0,
+   "explanation": "Waste leaves the body through the anus."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is the correct order of parts food passes through?",
+   "options": [
+    "Stomach, mouth, gullet, small intestine",
+    "Gullet, mouth, small intestine, stomach",
+    "Mouth, stomach, gullet, anus",
+    "Mouth, gullet, stomach, small intestine"
+   ],
+   "answer": 3,
+   "explanation": "Food goes from the mouth down the gullet to the stomach and then the small intestine."
+  },
+  {
+   "topic": "1.3",
+   "q": "What do teeth do in digestion?",
+   "options": [
+    "Digest food into the blood",
+    "Store waste",
+    "Take back water",
+    "Cut and grind food into small pieces"
+   ],
+   "answer": 3,
+   "explanation": "Chewing makes food smaller."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is saliva?",
+   "options": [
+    "A tube in the stomach",
+    "A type of waste",
+    "A liquid in the mouth that wets food",
+    "A germ"
+   ],
+   "answer": 2,
+   "explanation": "Saliva wets food and starts to digest starchy foods."
+  },
+  {
+   "topic": "1.3",
+   "q": "Another name for the gullet is",
+   "options": [
+    "Rectum",
+    "Oesophagus",
+    "Anus",
+    "Tongue"
+   ],
+   "answer": 1,
+   "explanation": "The gullet is also called the oesophagus."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does the gullet do?",
+   "options": [
+    "Pushes swallowed food to the stomach",
+    "Stores faeces",
+    "Absorbs food into blood",
+    "Makes saliva"
+   ],
+   "answer": 0,
+   "explanation": "The gullet squeezes food down."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does the stomach do to food?",
+   "options": [
+    "Churns it and mixes it with juices",
+    "Takes back water",
+    "Cuts it into pieces",
+    "Stores faeces"
+   ],
+   "answer": 0,
+   "explanation": "The stomach churns food into a thick soup with digestive juices."
+  },
+  {
+   "topic": "1.3",
+   "q": "Where does digestion finish and digested food pass into the blood?",
+   "options": [
+    "Stomach",
+    "Mouth",
+    "Rectum",
+    "Small intestine"
+   ],
+   "answer": 3,
+   "explanation": "The small intestine completes digestion and absorbs food into the blood."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is absorption?",
+   "options": [
+    "Chewing food",
+    "Swallowing food",
+    "Digested food passing into the blood",
+    "Passing faeces"
+   ],
+   "answer": 2,
+   "explanation": "Absorption means digested food parts pass into the blood."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which part takes back most of the water from the leftover food?",
+   "options": [
+    "Gullet",
+    "Large intestine",
+    "Mouth",
+    "Stomach"
+   ],
+   "answer": 1,
+   "explanation": "The large intestine takes back water."
   }
  ],
  "short": [
@@ -1182,7 +1326,7 @@
    "q": "State any four signs of life in animals.",
    "marks": 2,
    "answer": "Feeding, growing, breathing, reproducing, removing waste, moving, responding to changes, dying (any four).",
-   "working": "Half a mark for each correct sign."
+   "working": "1 mark for two correct signs and 2 marks for four."
   },
   {
    "topic": "1.2",
@@ -1309,6 +1453,454 @@
    "marks": 5,
    "answer": "Animals give us milk, meat, eggs and honey and help us in work. They are part of nature. We give them food, water, shelter and medical care and we do not hurt them. At school we keep the compound safe for birds.",
    "working": "2 marks for reasons and 3 marks for ways."
+  },
+  {
+   "topic": "1.3",
+   "q": "Name the parts of the digestive system in the order food passes through them.",
+   "marks": 2,
+   "answer": "Mouth, gullet, stomach, small intestine, large intestine, rectum, anus.",
+   "working": "Award 2 marks for the correct order. 1 mark if at most two parts are out of order."
+  },
+  {
+   "topic": "1.3",
+   "q": "State two jobs of the mouth in digestion.",
+   "marks": 2,
+   "answer": "Teeth cut and grind food. The tongue moves food and saliva wets it and starts digesting starch.",
+   "working": "1 mark for each correct job."
+  },
+  {
+   "topic": "1.3",
+   "q": "Give two symptoms of an unhealthy digestive system.",
+   "marks": 2,
+   "answer": "Stomach ache, bloating, diarrhoea, vomiting, constipation, worms (any two).",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "1.3",
+   "q": "What happens in the large intestine?",
+   "marks": 2,
+   "answer": "Water is taken back from the leftover food and the rest becomes faeces.",
+   "working": "1 mark for water and 1 mark for faeces."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why is chewing food well important?",
+   "marks": 2,
+   "answer": "It breaks food into small pieces and makes digestion easier.",
+   "working": "1 mark for small pieces and 1 mark for easier digestion."
+  },
+  {
+   "topic": "1.3",
+   "q": "Describe what happens to food in the stomach.",
+   "marks": 3,
+   "answer": "The stomach churns the food and mixes it with strong juices. The juices kill many germs and break down the food into a thick soup.",
+   "working": "1 mark for churns, 1 mark for juices and 1 mark for germs or thick soup."
+  },
+  {
+   "topic": "1.3",
+   "q": "State three ways of keeping teeth healthy.",
+   "marks": 3,
+   "answer": "Brush at least twice a day, limit sweets and sugary drinks, visit a dentist, use clean toothbrush or chewing stick.",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain why we should wash our hands before eating and after using the toilet.",
+   "marks": 3,
+   "answer": "Hands may carry germs and worm eggs. Washing removes them and stops them entering the mouth and causing disease.",
+   "working": "1 mark for germs on hands, 1 mark for washing removes them, 1 mark for preventing illness."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain how fibre helps the digestive system.",
+   "marks": 3,
+   "answer": "Fibre in fruits, vegetables and whole grains helps food and waste move through the intestines and helps prevent constipation.",
+   "working": "1 mark for naming fibre foods, 1 mark for movement, 1 mark for constipation."
+  },
+  {
+   "topic": "1.3",
+   "q": "Write the function of the rectum and anus.",
+   "marks": 3,
+   "answer": "The rectum stores faeces for a short time and the anus is the opening through which faeces leave the body.",
+   "working": "1 mark for rectum, 1 mark for anus, 1 mark for describing waste leaving."
+  },
+  {
+   "topic": "1.3",
+   "q": "State three things a child should do when he has diarrhoea.",
+   "marks": 3,
+   "answer": "Tell an adult, drink clean water or ORS, and see a health worker. Keep clean.",
+   "working": "1 mark for each correct action."
+  },
+  {
+   "topic": "1.3",
+   "q": "Describe the journey of a mouthful of food from the mouth to the anus.",
+   "marks": 4,
+   "answer": "Chewed in the mouth, swallowed, pushed down the gullet, churned in the stomach, digested and absorbed in the small intestine, water taken back in the large intestine, faeces stored in the rectum and passed out of the anus.",
+   "working": "1 mark for every two correct steps up to 4."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain why deworming is important and state two other ways of preventing worms.",
+   "marks": 4,
+   "answer": "Worms live in the intestines and take food and make us weak. Deworming kills them. Wear shoes, wash hands, keep nails short.",
+   "working": "2 marks for reasons and 1 mark each for other ways."
+  },
+  {
+   "topic": "1.3",
+   "q": "Describe what happens in the small intestine and why it is important.",
+   "marks": 4,
+   "answer": "Digestion is finished there. Digested food passes through the wall into the blood. The blood carries it to all parts of the body for energy, growth and repair.",
+   "working": "1 mark for each point up to 4."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain the difference between diarrhoea and constipation.",
+   "marks": 4,
+   "answer": "Diarrhoea is passing loose watery faeces many times and causes loss of water. Constipation is passing hard dry faeces with difficulty.",
+   "working": "2 marks for each condition."
+  },
+  {
+   "topic": "1.3",
+   "q": "Give four healthy eating habits that keep the digestive system healthy.",
+   "marks": 4,
+   "answer": "Eat a balanced diet, eat fruits and vegetables, drink clean water, chew slowly, wash fruits, avoid rotten food, cover food.",
+   "working": "1 mark for each habit up to 4."
+  },
+  {
+   "topic": "1.3",
+   "q": "Draw a simple diagram of the digestive system and label mouth, gullet, stomach, small intestine, large intestine and anus.",
+   "marks": 5,
+   "answer": "A neat tube drawn from mouth to anus with each part labelled in the correct order.",
+   "working": "1 mark for the drawing and 1 mark for each of four correct labels."
+  },
+  {
+   "topic": "1.3",
+   "q": "Make a plan for keeping your digestive system healthy for one week.",
+   "marks": 5,
+   "answer": "A plan including brushing teeth twice a day, eating fruits and vegetables, drinking clean water, washing hands, chewing well, deworming as advised and limiting sweets.",
+   "working": "1 mark for each sensible action up to 5."
+  },
+  {
+   "topic": "1.3",
+   "q": "Describe the function of each part of the digestive system: mouth, gullet, stomach, small intestine and large intestine.",
+   "marks": 5,
+   "answer": "Mouth: chews and adds saliva. Gullet: pushes food down. Stomach: churns with juices. Small intestine: finishes digestion and absorbs food. Large intestine: takes back water.",
+   "working": "1 mark for each part."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain the dangers of diarrhoea and what should be done to help someone who has it.",
+   "marks": 5,
+   "answer": "The body loses water quickly and the person becomes weak, especially young children. They should drink clean water and ORS, rest, see a health worker and keep clean.",
+   "working": "2 marks for dangers, 3 marks for actions."
+  },
+  {
+   "topic": "2.1",
+   "q": "Define matter and give two examples.",
+   "marks": 2,
+   "answer": "Matter is anything that has mass and takes up space. Examples: water, stone, air.",
+   "working": "1 mark for the meaning and 1 mark for two examples."
+  },
+  {
+   "topic": "2.1",
+   "q": "Name the three states of matter and give one example of each.",
+   "marks": 2,
+   "answer": "Solid (stone), liquid (water), gas (air).",
+   "working": "Award 1 mark for the three states and 1 mark for correct examples."
+  },
+  {
+   "topic": "2.1",
+   "q": "State the difference between mass and volume.",
+   "marks": 2,
+   "answer": "Mass is the amount of matter in an object and volume is the space it takes up.",
+   "working": "1 mark for each correct meaning."
+  },
+  {
+   "topic": "2.1",
+   "q": "Convert 3 litres into millilitres.",
+   "marks": 2,
+   "answer": "3000 ml.",
+   "working": "1 mark for 3 x 1000 and 1 mark for the answer."
+  },
+  {
+   "topic": "2.1",
+   "q": "Convert 4 kg into grams.",
+   "marks": 2,
+   "answer": "4000 g.",
+   "working": "1 mark for 4 x 1000 and 1 mark for the answer with units."
+  },
+  {
+   "topic": "2.1",
+   "q": "Give two reasons why solids are useful in daily life.",
+   "marks": 2,
+   "answer": "They keep their shape so we can build houses, make tools, furniture, clothes and shoes.",
+   "working": "1 mark for each correct use."
+  },
+  {
+   "topic": "2.1",
+   "q": "Describe two properties of a liquid.",
+   "marks": 3,
+   "answer": "A liquid has a fixed volume and no shape of its own. It takes the shape of its container and can be poured.",
+   "working": "1 mark for each of two properties and 1 mark for the example."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain why a football is described as a container of matter although it looks empty.",
+   "marks": 3,
+   "answer": "It is full of air. Air is a gas, so it has mass and takes up space. It keeps the ball in shape.",
+   "working": "1 mark for air inside, 1 mark for air being matter, 1 mark for it filling the ball."
+  },
+  {
+   "topic": "2.1",
+   "q": "Describe how you can show that a liquid takes the shape of its container.",
+   "marks": 3,
+   "answer": "Pour 200 ml of water into a tall glass and then into a wide bowl. The shape of the water changes but the amount stays the same.",
+   "working": "1 mark for the two containers, 1 mark for shape changing, 1 mark for the volume the same."
+  },
+  {
+   "topic": "2.1",
+   "q": "A shopkeeper has 2 kg of sugar and 750 g of salt. Find the total mass in grams.",
+   "marks": 3,
+   "answer": "2750 g.",
+   "working": "1 mark for 2 kg = 2000 g, 1 mark for adding 750 g and 1 mark for the answer."
+  },
+  {
+   "topic": "2.1",
+   "q": "A jug has 1 litre of juice. 350 ml is poured into a cup. How much is left in the jug?",
+   "marks": 3,
+   "answer": "650 ml.",
+   "working": "1 mark for 1 litre = 1000 ml, 1 mark for the subtraction 1000 - 350 and 1 mark for the answer."
+  },
+  {
+   "topic": "2.1",
+   "q": "Name three gases and say how each is useful.",
+   "marks": 3,
+   "answer": "Air or oxygen for breathing, cooking gas for cooking, air in tyres or footballs.",
+   "working": "1 mark for each gas with its use."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain why sand is not a liquid although it can be poured.",
+   "marks": 3,
+   "answer": "Each grain of sand is a small solid with its own shape. The grains are piled together and pour as a pile.",
+   "working": "1 mark for grains being solids, 1 mark for grains having shape, 1 mark for conclusion."
+  },
+  {
+   "topic": "2.1",
+   "q": "Describe how you would show that air takes up space using a cup, tissue paper and a basin of water.",
+   "marks": 4,
+   "answer": "Push dry tissue into the bottom of the cup. Turn the cup upside down and push it straight down into water. Lift it out. The tissue is dry because air took up the space in the cup and kept the water out.",
+   "working": "1 mark for set up, 1 mark for pushing into water, 1 mark for dry tissue, 1 mark for conclusion."
+  },
+  {
+   "topic": "2.1",
+   "q": "Compare solids, liquids and gases in terms of shape and volume.",
+   "marks": 4,
+   "answer": "Solid: own shape and fixed volume. Liquid: takes shape of container, fixed volume. Gas: no shape and no fixed volume, fills the container.",
+   "working": "1 mark for each state with correct shape and volume, plus 1 mark for a comparison."
+  },
+  {
+   "topic": "2.1",
+   "q": "Write two uses of each of these: solids, liquids and gases. (Choose any four uses in all.)",
+   "marks": 4,
+   "answer": "Solids: building, tools, clothes. Liquids: drinking, washing, cooking, fuel. Gases: breathing, cooking gas, inflating tyres.",
+   "working": "1 mark for each correct use up to 4."
+  },
+  {
+   "topic": "2.1",
+   "q": "Group these into solid, liquid and gas: milk, chalk, oxygen, cooking oil, book, steam.",
+   "marks": 4,
+   "answer": "Solids: chalk and book. Liquids: milk and cooking oil. Gases: oxygen and steam.",
+   "working": "1 mark for each correct pair."
+  },
+  {
+   "topic": "2.1",
+   "q": "A jug holds 500 ml of water. Musa pours in 250 ml and later takes out 100 ml. How much water is in the jug at the end?",
+   "marks": 4,
+   "answer": "650 ml.",
+   "working": "1 mark for 500 + 250 = 750, 1 mark for 750 - 100, 1 mark for 650, 1 mark for the unit ml."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain why a kilogram of stones and a kilogram of feathers have the same mass but not the same volume.",
+   "marks": 4,
+   "answer": "Both have 1 kg of matter. The feathers take up more space than the stones so their volume is larger.",
+   "working": "1 mark for equal mass, 1 mark for the meaning of mass, 1 mark for feathers taking more space, 1 mark for volume being space."
+  },
+  {
+   "topic": "2.1",
+   "q": "Describe an experiment to show that a solid keeps its shape but a liquid takes the shape of its container. State what you would observe.",
+   "marks": 5,
+   "answer": "Use a stone and water. Put the stone in a cup and then in a bowl. It keeps its shape. Pour water in the cup and then into the bowl and its shape changes with the container. Conclusion: solids keep shape but liquids take the container's shape.",
+   "working": "1 mark for materials, 1 mark for stone in both containers, 1 mark for water in both, 1 mark for observation, 1 mark for conclusion."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain why steam from a kettle is invisible although we see a white cloud above the spout. Say what state of matter the cloud is.",
+   "marks": 5,
+   "answer": "Steam is water as a gas and it is invisible. The white cloud is made of tiny water drops which are liquid.",
+   "working": "1 mark for steam is a gas, 1 mark for invisible, 1 mark for white cloud being tiny drops, 1 mark for liquid, 1 mark for a clear explanation."
+  },
+  {
+   "topic": "2.1",
+   "q": "Describe how you would measure 300 ml of water using a measuring jug, and how you would measure the mass of a mango.",
+   "marks": 5,
+   "answer": "Place the jug on a flat surface, pour water until the level reaches the 300 mark with your eye level with the water. For the mango, place it on a balance and read the mass in grams.",
+   "working": "1 mark each for flat surface, pouring to 300 ml, eye level, using a balance, reading in grams."
+  },
+  {
+   "topic": "2.1",
+   "q": "A pupil says that empty containers have nothing inside. Explain why the pupil is wrong and how you would show it.",
+   "marks": 5,
+   "answer": "They are full of air which is matter. Air takes up space. For example the upside-down cup pushed into water stays dry inside or a balloon swells with air.",
+   "working": "1 mark for air inside, 1 mark for air is matter, 1 mark for an activity, 1 mark for the observation, 1 mark for the conclusion."
+  },
+  {
+   "topic": "2.2",
+   "q": "Give two examples of decomposable waste and two of non-decomposable waste.",
+   "marks": 2,
+   "answer": "Decomposable: vegetable peelings, dung, leaves. Non-decomposable: plastic, tin, glass.",
+   "working": "1 mark for each correct pair."
+  },
+  {
+   "topic": "2.2",
+   "q": "Name the three Rs of waste management.",
+   "marks": 2,
+   "answer": "Reduce, reuse and recycle.",
+   "working": "1 mark for two and 2 marks for all three."
+  },
+  {
+   "topic": "2.2",
+   "q": "State two dangers of leaving waste in the environment.",
+   "marks": 2,
+   "answer": "Blocked drains and floods, disease from flies and rats, harm to animals, injuries from glass.",
+   "working": "1 mark for each danger."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why should you wear gloves when collecting waste?",
+   "marks": 2,
+   "answer": "To protect your hands from cuts and germs.",
+   "working": "1 mark for cuts and 1 mark for germs."
+  },
+  {
+   "topic": "2.2",
+   "q": "Give two ways of reducing waste at home.",
+   "marks": 2,
+   "answer": "Buy less packaging, carry a reusable bag, cook only what is needed, repair things.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain the difference between reusing and recycling.",
+   "marks": 3,
+   "answer": "Reusing means using an item again in the same or a new way without changing it, for example a bottle for water. Recycling means turning waste into a new product, for example melting old plastic.",
+   "working": "1 mark for reuse, 1 mark for recycle, 1 mark for one example."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe how kitchen waste can be turned into manure.",
+   "marks": 3,
+   "answer": "Put peelings and other kitchen waste with dry leaves and some soil in a compost pit. Decomposers rot it and after some weeks it turns to compost.",
+   "working": "1 mark for the pit, 1 mark for decomposers, 1 mark for compost."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe how waste attracts pests that harm health.",
+   "marks": 3,
+   "answer": "Rotting waste attracts flies, rats and cockroaches. They spread germs to food and cause diseases such as diarrhoea and cholera.",
+   "working": "1 mark for pests, 1 mark for germs, 1 mark for diseases."
+  },
+  {
+   "topic": "2.2",
+   "q": "Give three safety measures during waste management.",
+   "marks": 3,
+   "answer": "Wear gloves and closed shoes, use a rake or shovel, do not touch sharp objects, wash hands afterwards, do not burn waste.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.2",
+   "q": "Write three ways of managing waste in the classroom.",
+   "marks": 3,
+   "answer": "Use a bin with a lid, put paper in a separate box for reusing, do not litter, make monitors.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain why plastic bags are a danger to the environment.",
+   "marks": 3,
+   "answer": "They stay for many years, block drains, harm animals that eat them and pollute land and water.",
+   "working": "1 mark for each of three points."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe how solid waste causes flooding in towns.",
+   "marks": 4,
+   "answer": "Polythene bags and plastic block drains. Water cannot flow away when it rains. It gathers in the streets and floods homes and roads.",
+   "working": "1 mark for each point up to 4."
+  },
+  {
+   "topic": "2.2",
+   "q": "Sort into decomposable and non-decomposable: egg shells, tin can, cotton cloth, polythene bag, cow dung, glass bottle.",
+   "marks": 4,
+   "answer": "Decomposable: egg shells, cotton cloth, cow dung. Non-decomposable: tin can, polythene bag, glass bottle.",
+   "working": "Award 4 marks for all correct, 3 for five, 2 for four and 1 for three."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe how you would make a dustbin from locally available materials.",
+   "marks": 4,
+   "answer": "Choose a strong bucket, box or container. Cut and smooth the top and cover any sharp edge. Make a lid if possible. Paint a label saying waste only and put it in a suitable place.",
+   "working": "1 mark for each of four steps."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain how a school can manage waste at the kitchen, classrooms and playground.",
+   "marks": 4,
+   "answer": "Kitchen: compost pit for food waste and separate bin for plastic. Classroom: bin with lid and paper box. Playground: bins and monitors who pick litter.",
+   "working": "1 mark for each place and 1 mark for a clear system."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain why sorting waste is important for reusing and recycling.",
+   "marks": 4,
+   "answer": "Sorting separates plastics, metals, glass, paper and food waste so each can be recycled, reused or composted without contaminating the others.",
+   "working": "1 mark for sorting, 1 mark for recycling, 1 mark for composting, 1 mark for clear link."
+  },
+  {
+   "topic": "2.2",
+   "q": "Suggest two ways to make toys or ornaments from waste and the materials needed.",
+   "marks": 4,
+   "answer": "A toy car from a box and bottle tops. Beads from rolled paper. A flower vase from a tin.",
+   "working": "1 mark for each toy and 1 mark for each list of materials."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain the dangers of solid waste to health, animals and the environment.",
+   "marks": 5,
+   "answer": "Health: flies and rats spread diseases, mosquitoes breed in tins. Animals: goats eat polythene and die. Environment: blocked drains, polluted water, harmful smoke from burning.",
+   "working": "2 marks for health, 1 mark for animals and 2 marks for environment."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe how you would organise the cleaning of a school compound using safe methods.",
+   "marks": 5,
+   "answer": "Form groups with roles. Wear gloves and shoes. Use rakes and shovels. Sort waste into decomposable and non-decomposable bins. Take compost to the pit. Wash hands after.",
+   "working": "1 mark for each step up to 5."
+  },
+  {
+   "topic": "2.2",
+   "q": "Discuss how the three Rs can be used for waste from a school kitchen.",
+   "marks": 5,
+   "answer": "Reduce: cook and serve only what is needed. Reuse: use empty oil tins for storage and sacks for carrying. Recycle: sell scrap metal and paper, compost peelings.",
+   "working": "1 mark for each R, 1 mark for one clear example and 1 mark for the compost point."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain why burning waste is not a good way of managing waste and give better methods.",
+   "marks": 5,
+   "answer": "Burning gives harmful smoke, especially from plastic. Better: reduce, reuse, recycle, compost and use bins.",
+   "working": "2 marks for reasons and 3 marks for better methods."
   }
  ]
 }

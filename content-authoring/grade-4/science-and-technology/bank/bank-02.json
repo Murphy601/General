@@ -1,0 +1,1205 @@
+{
+ "mcq": [
+  {
+   "topic": "1.3",
+   "q": "What is the solid waste passed out through the anus called?",
+   "options": [
+    "Saliva",
+    "Faeces",
+    "Juice",
+    "Blood"
+   ],
+   "answer": 1,
+   "explanation": "Faeces are the solid waste of the body."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does the rectum do?",
+   "options": [
+    "Stores faeces for a short time",
+    "Digests proteins",
+    "Chews food",
+    "Makes saliva"
+   ],
+   "answer": 0,
+   "explanation": "The rectum stores faeces before they pass out."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which part of the digestive system is the widest tube near the end?",
+   "options": [
+    "Gullet",
+    "Small intestine",
+    "Anus",
+    "Large intestine"
+   ],
+   "answer": 3,
+   "explanation": "The large intestine is wider than the small intestine."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which part of the digestive system is long and coiled?",
+   "options": [
+    "Gullet",
+    "Rectum",
+    "Small intestine",
+    "Mouth"
+   ],
+   "answer": 2,
+   "explanation": "The small intestine is a very long coiled tube."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why should you chew your food well?",
+   "options": [
+    "It makes food colder",
+    "It makes food heavier",
+    "It makes food smaller for easier digestion",
+    "It stops you drinking water"
+   ],
+   "answer": 2,
+   "explanation": "Chewing breaks food into small pieces."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these helps to keep teeth healthy?",
+   "options": [
+    "Eating many sweets",
+    "Brushing twice a day",
+    "Never visiting a dentist",
+    "Biting hard objects"
+   ],
+   "answer": 1,
+   "explanation": "Brushing removes food remains and prevents tooth decay."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why should you limit sweets and sugary drinks?",
+   "options": [
+    "They cause tooth decay",
+    "They make teeth stronger",
+    "They help digestion",
+    "They make you taller"
+   ],
+   "answer": 0,
+   "explanation": "Sugar feeds germs that damage teeth."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does deworming do?",
+   "options": [
+    "Makes food taste better",
+    "Cleans teeth",
+    "Cures a cough",
+    "Kills worms in the intestines"
+   ],
+   "answer": 3,
+   "explanation": "Deworming tablets kill worms living in the intestines."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why should you wear shoes and wash hands to prevent worms?",
+   "options": [
+    "Shoes make food digest",
+    "Water makes worms grow",
+    "Worms live in shoes",
+    "Worm eggs are found in dirty soil and on dirty hands"
+   ],
+   "answer": 3,
+   "explanation": "Worm eggs can enter the body through dirt."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which food group helps to prevent constipation?",
+   "options": [
+    "Sweets",
+    "Fizzy drinks",
+    "Fibre in fruits and vegetables",
+    "Sugary biscuits"
+   ],
+   "answer": 2,
+   "explanation": "Fibre helps food move through the intestines."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is a symptom of an unhealthy digestive system?",
+   "options": [
+    "Sneezing",
+    "Stomach ache",
+    "A headache only",
+    "Sunburn"
+   ],
+   "answer": 1,
+   "explanation": "Stomach ache, bloating, diarrhoea, vomiting and constipation are digestive symptoms."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is diarrhoea?",
+   "options": [
+    "Passing loose watery faeces many times",
+    "Passing hard dry faeces",
+    "Food coming out of the mouth",
+    "A swollen stomach"
+   ],
+   "answer": 0,
+   "explanation": "Diarrhoea means loose watery faeces."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is constipation?",
+   "options": [
+    "Passing hard, dry faeces with difficulty",
+    "Passing watery faeces",
+    "Vomiting",
+    "Having worms"
+   ],
+   "answer": 0,
+   "explanation": "Constipation means hard faeces that are difficult to pass."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is vomiting?",
+   "options": [
+    "Passing loose faeces",
+    "Feeling hungry",
+    "Chewing food",
+    "Food coming out through the mouth"
+   ],
+   "answer": 3,
+   "explanation": "Vomiting is throwing up food through the mouth."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is bloating?",
+   "options": [
+    "Loose faeces",
+    "A cut in the mouth",
+    "A full, swollen tummy often with gas",
+    "Tiredness"
+   ],
+   "answer": 2,
+   "explanation": "Bloating means the tummy feels full and swollen."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why is diarrhoea dangerous for young children?",
+   "options": [
+    "They become taller",
+    "They lose water quickly",
+    "They grow more teeth",
+    "They sleep too much"
+   ],
+   "answer": 1,
+   "explanation": "The body loses a lot of water and can become weak."
+  },
+  {
+   "topic": "1.3",
+   "q": "What can help a child with diarrhoea while waiting to see a health worker?",
+   "options": [
+    "Eating only sweets",
+    "Drinking clean water and ORS as advised",
+    "Drinking dirty water",
+    "Eating unwashed fruit"
+   ],
+   "answer": 1,
+   "explanation": "Water and ORS replace what the body loses."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is a healthy habit for digestion?",
+   "options": [
+    "Washing hands before eating",
+    "Eating food that fell in dirt",
+    "Drinking water from a dirty pond",
+    "Never washing fruits"
+   ],
+   "answer": 0,
+   "explanation": "Clean hands prevent germs from entering the mouth."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why should fruits and vegetables be washed before eating?",
+   "options": [
+    "To make them heavier",
+    "To make them sweeter",
+    "To make them hot",
+    "To remove dirt and germs"
+   ],
+   "answer": 3,
+   "explanation": "Washing removes dirt, germs and worm eggs."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is a balanced meal?",
+   "options": [
+    "Only sweets",
+    "Only tea",
+    "Ugali, vegetables and beans",
+    "Only soda"
+   ],
+   "answer": 2,
+   "explanation": "A balanced meal has energy foods, body-building foods and protective foods."
+  },
+  {
+   "topic": "1.3",
+   "q": "What should you do when you have a persistent stomach ache?",
+   "options": [
+    "Eat more sweets",
+    "Hide it",
+    "Tell an adult and see a health worker",
+    "Drink dirty water"
+   ],
+   "answer": 2,
+   "explanation": "Adults and health workers can help find the cause."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is NOT a part of the digestive system?",
+   "options": [
+    "Gullet",
+    "Lungs",
+    "Stomach",
+    "Rectum"
+   ],
+   "answer": 1,
+   "explanation": "Lungs are for breathing."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is the job of the anus?",
+   "options": [
+    "To let faeces leave the body",
+    "To digest food",
+    "To make saliva",
+    "To swallow food"
+   ],
+   "answer": 0,
+   "explanation": "The anus is the opening at the end of the digestive tube."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is true about the small intestine?",
+   "options": [
+    "It stores faeces",
+    "It chews food",
+    "It swallows food",
+    "Digested food passes through its wall into the blood"
+   ],
+   "answer": 3,
+   "explanation": "Absorption takes place there."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these do we drink to keep digestion healthy?",
+   "options": [
+    "Muddy water",
+    "Sugary drinks all the time",
+    "Nothing",
+    "Clean safe water"
+   ],
+   "answer": 3,
+   "explanation": "Clean safe water helps digestion and prevents disease."
+  },
+  {
+   "topic": "1.3",
+   "q": "In the mouth, which part helps to move food around and swallow?",
+   "options": [
+    "Rectum",
+    "Gullet",
+    "Tongue",
+    "Stomach"
+   ],
+   "answer": 2,
+   "explanation": "The tongue moves food and helps swallowing."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these parts is found before the stomach?",
+   "options": [
+    "Small intestine",
+    "Gullet",
+    "Large intestine",
+    "Rectum"
+   ],
+   "answer": 1,
+   "explanation": "Food passes through the gullet before it reaches the stomach."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these parts is found after the stomach?",
+   "options": [
+    "Small intestine",
+    "Mouth",
+    "Gullet",
+    "Tongue"
+   ],
+   "answer": 0,
+   "explanation": "Food moves from the stomach to the small intestine."
+  },
+  {
+   "topic": "1.3",
+   "q": "A pupil has hard dry faeces. Which is the best advice?",
+   "options": [
+    "Eat more fruits, vegetables and drink water",
+    "Eat only white bread",
+    "Stop drinking water",
+    "Eat more sweets"
+   ],
+   "answer": 0,
+   "explanation": "Fibre and water help soften faeces."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these can cause stomach ache?",
+   "options": [
+    "Drinking clean water",
+    "Washing hands",
+    "Brushing teeth",
+    "Eating too fast or germs in dirty food"
+   ],
+   "answer": 3,
+   "explanation": "Fast eating and dirty food can cause stomach pain."
+  },
+  {
+   "topic": "1.3",
+   "q": "How often should teeth be brushed?",
+   "options": [
+    "Once a month",
+    "Once a year",
+    "At least twice a day",
+    "Never"
+   ],
+   "answer": 2,
+   "explanation": "Brushing morning and night keeps teeth healthy."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these helps prevent germs entering the food?",
+   "options": [
+    "Leaving food open",
+    "Covering food",
+    "Letting flies land on food",
+    "Putting food on the floor"
+   ],
+   "answer": 1,
+   "explanation": "Covering food keeps out flies and dirt."
+  },
+  {
+   "topic": "1.3",
+   "q": "The stomach is described in the lesson as being like",
+   "options": [
+    "A hard stone",
+    "A stretchy bag",
+    "A long ladder",
+    "A sharp knife"
+   ],
+   "answer": 1,
+   "explanation": "The stomach is a stretchy bag that churns food."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why is it important to eat slowly?",
+   "options": [
+    "It lets you chew well and helps digestion",
+    "It makes food taste of salt",
+    "It makes you thirsty",
+    "It stops you growing"
+   ],
+   "answer": 0,
+   "explanation": "Chewing well breaks food down before swallowing."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is a way of storing leftover food safely?",
+   "options": [
+    "Leaving it uncovered in the sun",
+    "Putting it on the floor",
+    "Sharing it with flies",
+    "Covering it and keeping it clean"
+   ],
+   "answer": 3,
+   "explanation": "Covered food is safer from germs."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these describes healthy eating?",
+   "options": [
+    "Eating only sweets",
+    "Never drinking water",
+    "Eating fruits, vegetables and whole grains",
+    "Eating rotten food"
+   ],
+   "answer": 2,
+   "explanation": "Healthy eating includes fibre and a variety of foods."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why is a plan for a healthy digestive system useful?",
+   "options": [
+    "It cures all diseases at once",
+    "It makes us grow overnight",
+    "It reminds us to do the right things every day",
+    "It stops us feeling hungry"
+   ],
+   "answer": 2,
+   "explanation": "A plan helps us follow healthy habits."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does the large intestine do with the leftovers?",
+   "options": [
+    "Turns them into saliva",
+    "Takes back water and forms faeces",
+    "Chews them",
+    "Swallows them"
+   ],
+   "answer": 1,
+   "explanation": "Water is absorbed and the rest becomes solid waste."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these leaves the body through the anus?",
+   "options": [
+    "Faeces",
+    "Saliva",
+    "Blood",
+    "Stomach juice"
+   ],
+   "answer": 0,
+   "explanation": "Faeces leave the body through the anus."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does the small intestine mainly absorb?",
+   "options": [
+    "Air",
+    "Sound",
+    "Light",
+    "Digested food"
+   ],
+   "answer": 3,
+   "explanation": "Digested food passes through its wall into blood."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which of these is a good use of a school deworming day?",
+   "options": [
+    "Refuse to take them",
+    "Throw them away",
+    "Give them to animals",
+    "Take the tablets when given by the health worker"
+   ],
+   "answer": 3,
+   "explanation": "Follow the health worker's advice."
+  },
+  {
+   "topic": "1.3",
+   "q": "What are the symptoms of worms mentioned in the lesson?",
+   "options": [
+    "Loud voice",
+    "Clear skin",
+    "Seeing worms in faeces, itchy anus, weakness",
+    "Fast running"
+   ],
+   "answer": 2,
+   "explanation": "These are signs that worms may be present."
+  },
+  {
+   "topic": "2.1",
+   "q": "What is matter?",
+   "options": [
+    "Anything that shines",
+    "Anything that has mass and takes up space",
+    "Anything that makes sound",
+    "Anything that is hot"
+   ],
+   "answer": 1,
+   "explanation": "Matter has mass and occupies space."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is matter?",
+   "options": [
+    "Water",
+    "Light",
+    "Sound",
+    "Heat"
+   ],
+   "answer": 0,
+   "explanation": "Water has mass and takes up space. Light, sound and heat are not matter."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is NOT matter?",
+   "options": [
+    "Light from a torch",
+    "A stone",
+    "Milk",
+    "Air"
+   ],
+   "answer": 0,
+   "explanation": "Light has no mass and takes up no space."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does mass mean?",
+   "options": [
+    "The space an object takes up",
+    "How hot an object is",
+    "How bright an object is",
+    "The amount of matter in an object"
+   ],
+   "answer": 3,
+   "explanation": "Mass is the amount of matter in something."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does volume mean?",
+   "options": [
+    "The amount of matter in an object",
+    "How heavy it feels",
+    "The amount of space an object takes up",
+    "The colour of an object"
+   ],
+   "answer": 2,
+   "explanation": "Volume is the space a substance takes up."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which are the three states of matter?",
+   "options": [
+    "Hot, warm and cold",
+    "Solid, liquid and gas",
+    "Big, medium and small",
+    "Hard, soft and rough"
+   ],
+   "answer": 1,
+   "explanation": "Matter exists as solids, liquids and gases."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which state of matter has its own shape and fixed volume?",
+   "options": [
+    "Liquid",
+    "Solid",
+    "Gas",
+    "Steam only"
+   ],
+   "answer": 1,
+   "explanation": "Solids keep their shape and volume."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is a solid?",
+   "options": [
+    "A stone",
+    "Milk",
+    "Air",
+    "Steam"
+   ],
+   "answer": 0,
+   "explanation": "A stone keeps its shape."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is a liquid?",
+   "options": [
+    "Chalk",
+    "Air in a football",
+    "Sugar",
+    "Cooking oil"
+   ],
+   "answer": 3,
+   "explanation": "Cooking oil flows and takes the shape of its container."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is a gas?",
+   "options": [
+    "Water in a cup",
+    "A wooden spoon",
+    "The air in a balloon",
+    "Flour"
+   ],
+   "answer": 2,
+   "explanation": "Air is a mixture of gases."
+  },
+  {
+   "topic": "2.1",
+   "q": "What happens to a liquid when you pour it into a different container?",
+   "options": [
+    "It keeps its old shape",
+    "It becomes a solid",
+    "It takes the shape of the new container",
+    "It disappears"
+   ],
+   "answer": 2,
+   "explanation": "A liquid has no shape of its own."
+  },
+  {
+   "topic": "2.1",
+   "q": "What happens to a gas that is put in a closed jar?",
+   "options": [
+    "It stays at the bottom",
+    "It spreads to fill the whole jar",
+    "It becomes a solid",
+    "It sits at the top only"
+   ],
+   "answer": 1,
+   "explanation": "A gas fills any container it is in."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is true of a liquid?",
+   "options": [
+    "It has a fixed volume but no fixed shape",
+    "It has a fixed shape but no fixed volume",
+    "It has no volume",
+    "It fills a room"
+   ],
+   "answer": 0,
+   "explanation": "A liquid has a fixed volume and takes the container's shape."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is true of a gas?",
+   "options": [
+    "It keeps its own shape",
+    "It cannot spread out",
+    "It is always visible",
+    "It has no fixed shape and no fixed volume"
+   ],
+   "answer": 3,
+   "explanation": "A gas spreads to fill the space."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is true of a solid?",
+   "options": [
+    "It takes the shape of any container",
+    "It cannot be measured",
+    "It has no mass",
+    "It keeps its shape wherever it is put"
+   ],
+   "answer": 3,
+   "explanation": "A solid has a definite shape."
+  },
+  {
+   "topic": "2.1",
+   "q": "What instrument measures the mass of an object?",
+   "options": [
+    "Measuring jug",
+    "Thermometer",
+    "Balance",
+    "Clock"
+   ],
+   "answer": 2,
+   "explanation": "A balance is used to measure mass."
+  },
+  {
+   "topic": "2.1",
+   "q": "What instrument measures the volume of a liquid?",
+   "options": [
+    "Beam balance",
+    "Measuring jug",
+    "Ruler",
+    "Stopwatch"
+   ],
+   "answer": 1,
+   "explanation": "A measuring jug or cylinder shows volume."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which unit is used for the mass of a sack of maize?",
+   "options": [
+    "Kilogram",
+    "Litre",
+    "Metre",
+    "Second"
+   ],
+   "answer": 0,
+   "explanation": "Mass is measured in grams and kilograms."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which unit is used for the volume of milk?",
+   "options": [
+    "Litre",
+    "Kilogram",
+    "Gram",
+    "Metre"
+   ],
+   "answer": 0,
+   "explanation": "Liquid volume is measured in millilitres and litres."
+  },
+  {
+   "topic": "2.1",
+   "q": "How many millilitres are in 1 litre?",
+   "options": [
+    "10",
+    "100",
+    "10 000",
+    "1000"
+   ],
+   "answer": 3,
+   "explanation": "1 litre is 1000 ml."
+  },
+  {
+   "topic": "2.1",
+   "q": "How many grams are in 1 kilogram?",
+   "options": [
+    "10",
+    "100",
+    "1000",
+    "500"
+   ],
+   "answer": 2,
+   "explanation": "1 kg is 1000 g."
+  },
+  {
+   "topic": "2.1",
+   "q": "How many millilitres are in 2 litres?",
+   "options": [
+    "200",
+    "2000",
+    "20",
+    "20 000"
+   ],
+   "answer": 1,
+   "explanation": "2 x 1000 = 2000 ml."
+  },
+  {
+   "topic": "2.1",
+   "q": "How many grams are in 5 kg?",
+   "options": [
+    "500",
+    "5000",
+    "50",
+    "50 000"
+   ],
+   "answer": 1,
+   "explanation": "5 x 1000 = 5000 g."
+  },
+  {
+   "topic": "2.1",
+   "q": "A jug has 400 ml of water. Fatuma adds 250 ml. How much water is in the jug?",
+   "options": [
+    "650 ml",
+    "150 ml",
+    "450 ml",
+    "600 ml"
+   ],
+   "answer": 0,
+   "explanation": "400 + 250 = 650 ml."
+  },
+  {
+   "topic": "2.1",
+   "q": "A bag has 1 kg of rice and 250 g of beans. What is the total mass?",
+   "options": [
+    "1025 g",
+    "350 g",
+    "2500 g",
+    "1250 g"
+   ],
+   "answer": 3,
+   "explanation": "1 kg = 1000 g, and 1000 + 250 = 1250 g."
+  },
+  {
+   "topic": "2.1",
+   "q": "There are 750 ml of milk in a jug. 300 ml is poured out. How much is left?",
+   "options": [
+    "1050 ml",
+    "350 ml",
+    "450 ml",
+    "550 ml"
+   ],
+   "answer": 2,
+   "explanation": "750 - 300 = 450 ml."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why is air matter?",
+   "options": [
+    "It is invisible",
+    "It is cold",
+    "It has mass and takes up space",
+    "It is light"
+   ],
+   "answer": 2,
+   "explanation": "Air fills balloons and pushes against things, so it takes up space."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which activity shows that air takes up space?",
+   "options": [
+    "Shining a torch",
+    "Blowing up a balloon",
+    "Lighting a candle",
+    "Singing a song"
+   ],
+   "answer": 1,
+   "explanation": "The balloon swells because air takes up space inside."
+  },
+  {
+   "topic": "2.1",
+   "q": "In the dry tissue experiment, why does the tissue stay dry?",
+   "options": [
+    "Air in the cup keeps the water out",
+    "The cup is made of plastic",
+    "Water cannot touch paper",
+    "The tissue is warm"
+   ],
+   "answer": 0,
+   "explanation": "Air takes up the space inside the cup."
+  },
+  {
+   "topic": "2.1",
+   "q": "Sand pours like a liquid. What state is each grain?",
+   "options": [
+    "Liquid",
+    "Gas",
+    "Steam",
+    "Solid"
+   ],
+   "answer": 3,
+   "explanation": "Each grain is a small solid."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these can be poured and takes the shape of its container?",
+   "options": [
+    "Brick",
+    "Stone",
+    "Book",
+    "Water"
+   ],
+   "answer": 3,
+   "explanation": "Water is a liquid."
+  },
+  {
+   "topic": "2.1",
+   "q": "A kilogram of stones and a kilogram of feathers have the same",
+   "options": [
+    "Volume",
+    "Shape",
+    "Mass",
+    "Colour"
+   ],
+   "answer": 2,
+   "explanation": "Both are 1 kg. The feathers take up much more space."
+  },
+  {
+   "topic": "2.1",
+   "q": "Steam from a boiling pot is really",
+   "options": [
+    "A white solid",
+    "An invisible gas",
+    "A red liquid",
+    "A block of ice"
+   ],
+   "answer": 1,
+   "explanation": "Steam is water as a gas and is invisible. The cloud we see is tiny water drops."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these gases do we breathe in to stay alive?",
+   "options": [
+    "Oxygen",
+    "Smoke",
+    "Dust",
+    "Petrol fumes"
+   ],
+   "answer": 0,
+   "explanation": "Oxygen in the air is needed for life."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which state of matter is used in a cooking gas cylinder?",
+   "options": [
+    "Gas",
+    "Solid",
+    "Powder",
+    "Ice"
+   ],
+   "answer": 0,
+   "explanation": "Cooking gas is a gas that burns to give heat."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why are solids like bricks and stones used to build houses?",
+   "options": [
+    "They flow easily",
+    "They are invisible",
+    "They spread out",
+    "They keep their shape and can support weight"
+   ],
+   "answer": 3,
+   "explanation": "Solids keep their shape."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why are liquids useful for drinking?",
+   "options": [
+    "They keep their own shape",
+    "They cannot flow",
+    "They can be poured and swallowed",
+    "They are always hot"
+   ],
+   "answer": 2,
+   "explanation": "Liquids pour easily."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does a football need to keep its shape?",
+   "options": [
+    "Water",
+    "Air",
+    "Sand",
+    "Milk"
+   ],
+   "answer": 1,
+   "explanation": "The air inside fills the football."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these can be a solid, liquid or gas depending on conditions?",
+   "options": [
+    "Stone",
+    "Water",
+    "Wooden chair",
+    "Book"
+   ],
+   "answer": 1,
+   "explanation": "Water can be ice, liquid water or steam."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why should each child use their own balloon for the balloon activity?",
+   "options": [
+    "To avoid spreading germs",
+    "To make the balloon bigger",
+    "To make it burst",
+    "To make it heavier"
+   ],
+   "answer": 0,
+   "explanation": "Sharing a balloon that has been in someone's mouth can spread germs."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is a liquid used as fuel?",
+   "options": [
+    "Firewood",
+    "Charcoal",
+    "Air",
+    "Paraffin"
+   ],
+   "answer": 3,
+   "explanation": "Paraffin and petrol are liquid fuels."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these solids can be poured?",
+   "options": [
+    "Brick",
+    "Stone",
+    "Flour",
+    "Ruler"
+   ],
+   "answer": 2,
+   "explanation": "Flour is made of tiny solid grains that can pour."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is heavier: 3 kg of sugar or 3000 g of sugar?",
+   "options": [
+    "3 kg",
+    "3000 g",
+    "They have the same mass",
+    "Cannot tell"
+   ],
+   "answer": 2,
+   "explanation": "3 kg equals 3000 g."
+  },
+  {
+   "topic": "2.1",
+   "q": "A cup can hold about",
+   "options": [
+    "25 ml",
+    "250 ml",
+    "2500 ml",
+    "25 litres"
+   ],
+   "answer": 1,
+   "explanation": "A cup holds about 250 ml."
+  },
+  {
+   "topic": "2.1",
+   "q": "When reading a measuring jug, where should your eye be?",
+   "options": [
+    "At the same level as the water surface",
+    "Above the jug",
+    "Below the jug",
+    "Far from the jug"
+   ],
+   "answer": 0,
+   "explanation": "This gives an accurate reading."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which state of matter has no fixed shape and no fixed volume?",
+   "options": [
+    "Solid",
+    "Liquid",
+    "Powder",
+    "Gas"
+   ],
+   "answer": 3,
+   "explanation": "Gases spread out to fill all the space."
+  },
+  {
+   "topic": "2.1",
+   "q": "An empty bottle is full of",
+   "options": [
+    "Nothing",
+    "Water",
+    "Sand",
+    "Air"
+   ],
+   "answer": 3,
+   "explanation": "An empty bottle contains air."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is a correct grouping?",
+   "options": [
+    "Air, stone and salt are gases",
+    "Chalk, water and steam are solids",
+    "Milk, water and juice are liquids",
+    "Steam, oil and rice are gases"
+   ],
+   "answer": 2,
+   "explanation": "Milk, water and juice are all liquids."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which grouping of gases is correct?",
+   "options": [
+    "Sugar, oil and air are solids",
+    "Air, steam and cooking gas are gases",
+    "Stone, water and wood are liquids",
+    "Milk, chalk and steam are solids"
+   ],
+   "answer": 1,
+   "explanation": "Air, steam and cooking gas are gases."
+  },
+  {
+   "topic": "2.1",
+   "q": "A heavy sack of maize has more mass than a small packet of salt. This means the sack has more",
+   "options": [
+    "Matter",
+    "Light",
+    "Air only",
+    "Sound"
+   ],
+   "answer": 0,
+   "explanation": "Mass is the amount of matter."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these do we measure using litres?",
+   "options": [
+    "Volume of juice",
+    "Length of a rope",
+    "Mass of a book",
+    "Time of a race"
+   ],
+   "answer": 0,
+   "explanation": "Litres measure volume."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these is a reason we need gases?",
+   "options": [
+    "We can build houses with them",
+    "We can sit on them",
+    "We can write with them",
+    "We breathe air"
+   ],
+   "answer": 3,
+   "explanation": "Air gives us oxygen for breathing."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these statements about matter is correct?",
+   "options": [
+    "Only solids have mass",
+    "Gases have no mass",
+    "Solids, liquids and gases all have mass",
+    "Only liquids have mass"
+   ],
+   "answer": 2,
+   "explanation": "All matter has mass, whatever its state."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is solid waste?",
+   "options": [
+    "Dirty water",
+    "Unwanted solid material that is thrown away",
+    "Smoke from a fire",
+    "Air from a tyre"
+   ],
+   "answer": 1,
+   "explanation": "Solid waste is unwanted solid material."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is solid waste?",
+   "options": [
+    "Dirty bath water",
+    "A banana peel",
+    "Smoke",
+    "Steam"
+   ],
+   "answer": 1,
+   "explanation": "A banana peel is a solid thrown away."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is decomposable waste?",
+   "options": [
+    "Waste that rots and breaks down",
+    "Waste that never changes",
+    "Waste made of plastic",
+    "Waste made of metal"
+   ],
+   "answer": 0,
+   "explanation": "Decomposable waste is broken down by decomposers."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these breaks down and rots easily?",
+   "options": [
+    "Plastic bag",
+    "Tin can",
+    "Glass bottle",
+    "Vegetable peelings"
+   ],
+   "answer": 3,
+   "explanation": "Vegetable peelings are decomposable."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is non-decomposable?",
+   "options": [
+    "Fruit peel",
+    "Dry leaves",
+    "Plastic bottle",
+    "Dung"
+   ],
+   "answer": 2,
+   "explanation": "Plastic does not rot easily."
+  }
+ ],
+ "short": []
+}

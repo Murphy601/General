@@ -1,0 +1,557 @@
+{
+ "mcq": [
+  {
+   "topic": "2.2",
+   "q": "Which of these is non-decomposable waste?",
+   "options": [
+    "Egg shells",
+    "Banana peel",
+    "Tin can",
+    "Leaves"
+   ],
+   "answer": 2,
+   "explanation": "Metal does not rot easily."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which living things help waste to decompose?",
+   "options": [
+    "Stones",
+    "Fungi and bacteria",
+    "Plastic bags",
+    "Bottles"
+   ],
+   "answer": 1,
+   "explanation": "Decomposers such as fungi and bacteria break down waste."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is e-waste?",
+   "options": [
+    "An old phone",
+    "A banana peel",
+    "A paper bag",
+    "A leaf"
+   ],
+   "answer": 0,
+   "explanation": "E-waste means old electrical and electronic items."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is a danger of solid waste?",
+   "options": [
+    "It cleans rivers",
+    "It makes air fresh",
+    "It grows food",
+    "It blocks drains and causes floods"
+   ],
+   "answer": 3,
+   "explanation": "Waste blocks drains and water floods the area."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why are rotting waste heaps a health danger?",
+   "options": [
+    "They make soil red",
+    "They make water sweet",
+    "They cool the air",
+    "They attract flies and rats that spread diseases"
+   ],
+   "answer": 3,
+   "explanation": "Flies and rats carry germs."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which disease can spread by mosquitoes breeding in old tins that hold water?",
+   "options": [
+    "Diarrhoea only",
+    "Toothache",
+    "Malaria",
+    "Sunburn"
+   ],
+   "answer": 2,
+   "explanation": "Mosquitoes spread malaria and breed in standing water."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is polythene dangerous for goats and cows?",
+   "options": [
+    "It makes them grow",
+    "They may eat it and get sick",
+    "It makes them sweet",
+    "It makes milk"
+   ],
+   "answer": 1,
+   "explanation": "Animals that eat polythene can become ill or die."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is broken glass on the ground dangerous?",
+   "options": [
+    "It can cut people and animals",
+    "It grows",
+    "It rots",
+    "It feeds the soil"
+   ],
+   "answer": 0,
+   "explanation": "Sharp glass can injure."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is burning plastic bad?",
+   "options": [
+    "It makes harmful smoke",
+    "It makes good manure",
+    "It makes rain",
+    "It is safe for everyone"
+   ],
+   "answer": 0,
+   "explanation": "Burning plastic gives off harmful smoke."
+  },
+  {
+   "topic": "2.2",
+   "q": "What can leak from old batteries and pollute soil and water?",
+   "options": [
+    "Clean water",
+    "Sweet juice",
+    "Milk",
+    "Harmful chemicals"
+   ],
+   "answer": 3,
+   "explanation": "Old batteries have harmful chemicals."
+  },
+  {
+   "topic": "2.2",
+   "q": "What are the three Rs?",
+   "options": [
+    "Read, write and run",
+    "Reduce, remove and rest",
+    "Reduce, reuse and recycle",
+    "Recycle, repair and rest"
+   ],
+   "answer": 2,
+   "explanation": "Reduce, reuse and recycle are ways of managing waste."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does reduce mean?",
+   "options": [
+    "Use again",
+    "Make less waste",
+    "Make into new items",
+    "Burn waste"
+   ],
+   "answer": 1,
+   "explanation": "To reduce is to make less waste."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does reuse mean?",
+   "options": [
+    "Throw it away",
+    "Use something again",
+    "Burn it",
+    "Bury it"
+   ],
+   "answer": 1,
+   "explanation": "To reuse is to use again."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does recycle mean?",
+   "options": [
+    "Make waste into new things",
+    "Throw waste away",
+    "Burn waste",
+    "Bury waste"
+   ],
+   "answer": 0,
+   "explanation": "Recycling makes new things from old materials."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which is an example of reducing waste?",
+   "options": [
+    "Throwing a bottle in a river",
+    "Burning plastic",
+    "Leaving litter at a picnic",
+    "Carrying a cloth shopping bag"
+   ],
+   "answer": 3,
+   "explanation": "A reusable bag means fewer plastic bags are thrown away."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which is an example of reusing?",
+   "options": [
+    "Burning a plastic bottle",
+    "Leaving it on the road",
+    "Using a washed bottle to carry water",
+    "Throwing it in a drain"
+   ],
+   "answer": 2,
+   "explanation": "The bottle is used again for a new purpose."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which is an example of recycling?",
+   "options": [
+    "Using a tin for a pencil holder",
+    "Throwing paper in a bin",
+    "Melting scrap metal to make new items",
+    "Buying less food"
+   ],
+   "answer": 2,
+   "explanation": "Melting metal to make new items is recycling."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is a compost pit used for?",
+   "options": [
+    "Storing plastic",
+    "Turning kitchen waste into manure",
+    "Storing glass",
+    "Burning waste"
+   ],
+   "answer": 1,
+   "explanation": "Decomposable waste rots into compost."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which waste goes into a compost pit?",
+   "options": [
+    "Vegetable peelings",
+    "Plastic bags",
+    "Tins",
+    "Glass"
+   ],
+   "answer": 0,
+   "explanation": "Only decomposable waste is composted."
+  },
+  {
+   "topic": "2.2",
+   "q": "What should you wear when collecting waste?",
+   "options": [
+    "Sandals only",
+    "Nothing",
+    "A hat only",
+    "Gloves and closed shoes"
+   ],
+   "answer": 3,
+   "explanation": "Gloves and shoes protect from cuts and germs."
+  },
+  {
+   "topic": "2.2",
+   "q": "What should you do if you find a needle or broken glass in waste?",
+   "options": [
+    "Pick it up with bare hands",
+    "Play with it",
+    "Put it in your pocket",
+    "Tell a teacher and do not touch it"
+   ],
+   "answer": 3,
+   "explanation": "Sharp objects should be handled by adults using tools."
+  },
+  {
+   "topic": "2.2",
+   "q": "What should you do after handling waste?",
+   "options": [
+    "Eat at once",
+    "Touch your face",
+    "Wash hands with soap and clean water",
+    "Wipe hands on your clothes"
+   ],
+   "answer": 2,
+   "explanation": "Washing removes germs."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why should waste bins have lids?",
+   "options": [
+    "To make them look nice",
+    "To keep out flies and rats",
+    "To make waste heavier",
+    "To make waste rot faster"
+   ],
+   "answer": 1,
+   "explanation": "Covered bins reduce smell and pests."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which waste can be reused as a pencil holder?",
+   "options": [
+    "An empty tin",
+    "Banana peel",
+    "Egg shells",
+    "Old leaves"
+   ],
+   "answer": 0,
+   "explanation": "A clean tin can be reused."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which item can be reused as a toy wheel?",
+   "options": [
+    "Bottle tops",
+    "Banana peel",
+    "Ash",
+    "Leaves"
+   ],
+   "answer": 0,
+   "explanation": "Bottle tops make good wheels for toys."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these can be made from waste for the classroom?",
+   "options": [
+    "A new mountain",
+    "A car engine",
+    "A house",
+    "A dustbin"
+   ],
+   "answer": 3,
+   "explanation": "A dustbin can be made from waste materials like a bucket or box."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which is the best way to manage the food remains from the school kitchen?",
+   "options": [
+    "Throw them in a river",
+    "Bury plastic with them",
+    "Put them in a compost pit",
+    "Burn them near classrooms"
+   ],
+   "answer": 2,
+   "explanation": "Kitchen waste can be composted."
+  },
+  {
+   "topic": "2.2",
+   "q": "At a wedding, what can organisers do to keep the place clean?",
+   "options": [
+    "Leave waste on the ground",
+    "Provide bins and clean after the event",
+    "Burn plastic",
+    "Throw waste in a river"
+   ],
+   "answer": 1,
+   "explanation": "Bins and cleaning keep the place tidy."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which item is a paper waste that can be recycled?",
+   "options": [
+    "Banana peel",
+    "Old newspapers",
+    "Plastic bottle",
+    "Glass bottle"
+   ],
+   "answer": 1,
+   "explanation": "Paper can be turned into new paper."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which is the best order of managing waste?",
+   "options": [
+    "Reduce, reuse, recycle",
+    "Recycle, reuse, reduce",
+    "Burn, bury, throw",
+    "Throw, burn, bury"
+   ],
+   "answer": 0,
+   "explanation": "First make less waste, then reuse, then recycle."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does the word biodegradable mean?",
+   "options": [
+    "Made of plastic",
+    "Made of glass",
+    "Not able to rot",
+    "Able to be broken down by living things"
+   ],
+   "answer": 3,
+   "explanation": "Biodegradable waste rots naturally."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is it good to separate waste into different bins?",
+   "options": [
+    "It makes waste heavier",
+    "It makes waste smell",
+    "It makes reusing, recycling and composting easier",
+    "It makes waste burn"
+   ],
+   "answer": 2,
+   "explanation": "Sorting helps each type be managed properly."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is the danger of leaving plastic bags on the ground?",
+   "options": [
+    "They turn into soil fast",
+    "They make the soil rich",
+    "They stay for a long time and block drains",
+    "They grow into plants"
+   ],
+   "answer": 2,
+   "explanation": "Plastic bags stay for years and block drains."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is a tool for picking up waste safely?",
+   "options": [
+    "Bare hands",
+    "A rake",
+    "Bare feet",
+    "A towel"
+   ],
+   "answer": 1,
+   "explanation": "A rake or shovel keeps hands away from the waste."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which waste is both decomposable and from an animal?",
+   "options": [
+    "Dung",
+    "Glass",
+    "Tin",
+    "Plastic"
+   ],
+   "answer": 0,
+   "explanation": "Animal dung rots and can be used as manure."
+  },
+  {
+   "topic": "2.2",
+   "q": "A wrapper of biscuits is made of plastic. Which type of waste is it?",
+   "options": [
+    "Decomposable",
+    "Liquid",
+    "Gas",
+    "Non-decomposable"
+   ],
+   "answer": 3,
+   "explanation": "Plastic wrappers do not rot easily."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is NOT a way of managing solid waste?",
+   "options": [
+    "Reusing",
+    "Recycling",
+    "Composting",
+    "Throwing it in a river"
+   ],
+   "answer": 3,
+   "explanation": "Throwing waste in rivers pollutes water."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is a good use of old clothes?",
+   "options": [
+    "Burn them near a house",
+    "Throw them in a drain",
+    "Use them as cleaning cloths",
+    "Bury them in a garden pit"
+   ],
+   "answer": 2,
+   "explanation": "Reusing old cloth as cleaning cloths reduces waste."
+  },
+  {
+   "topic": "2.2",
+   "q": "What should never be done with waste in a place where children are playing?",
+   "options": [
+    "Put it in a bin",
+    "Burn it",
+    "Sort it",
+    "Collect it"
+   ],
+   "answer": 1,
+   "explanation": "Burning near children is dangerous."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why are gumboots useful when handling waste?",
+   "options": [
+    "They protect the feet from sharp things and dirt",
+    "They make waste rot",
+    "They make waste lighter",
+    "They make hands clean"
+   ],
+   "answer": 0,
+   "explanation": "Boots protect feet from cuts and germs."
+  },
+  {
+   "topic": "2.2",
+   "q": "In a school, who could check that bins are emptied and clean?",
+   "options": [
+    "Class monitors",
+    "Only the visitors",
+    "Only the wind",
+    "Nobody"
+   ],
+   "answer": 0,
+   "explanation": "Monitors can share the responsibility."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is the best way to deal with metal scrap in a school?",
+   "options": [
+    "Bury it in the school garden",
+    "Burn it",
+    "Throw it in a river",
+    "Sell it to a scrap dealer or reuse it"
+   ],
+   "answer": 3,
+   "explanation": "Metal can be recycled."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these makes a good compost mixture?",
+   "options": [
+    "Plastic and tins",
+    "Glass and metal",
+    "Vegetable peelings, dry leaves and some soil",
+    "Batteries and plastic"
+   ],
+   "answer": 2,
+   "explanation": "Composting uses natural plant waste."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is waste in rivers dangerous?",
+   "options": [
+    "It makes water clean",
+    "It makes water dirty and harms fish",
+    "It makes fish bigger",
+    "It makes rain"
+   ],
+   "answer": 1,
+   "explanation": "Waste pollutes water and harms living things."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is a benefit of proper waste management?",
+   "options": [
+    "More flies",
+    "A clean and healthy environment",
+    "More floods",
+    "More disease"
+   ],
+   "answer": 1,
+   "explanation": "Proper waste management protects health and the environment."
+  },
+  {
+   "topic": "2.2",
+   "q": "A pupil wants to make a toy car from waste. Which materials are suitable?",
+   "options": [
+    "A box and bottle tops",
+    "Banana peel and leaves",
+    "Water and air",
+    "Fire and paper"
+   ],
+   "answer": 0,
+   "explanation": "A box and bottle tops make a toy car."
+  }
+ ],
+ "short": []
+}

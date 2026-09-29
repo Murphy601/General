@@ -1,0 +1,29 @@
+{
+ "mcq": [
+  {
+   "topic": "8.2",
+   "q": "Which is a memory trick for the seven names?",
+   "options": [
+    "Making a rhyme or song",
+    "Skipping them",
+    "Writing them once",
+    "Reading backwards only"
+   ],
+   "answer": 0,
+   "explanation": "Songs help us remember."
+  },
+  {
+   "topic": "8.2",
+   "q": "Which is a mistake?",
+   "options": [
+    "Learning the table",
+    "Making a song",
+    "Using a chart",
+    "Mixing up Guruvaar and Shukravaar"
+   ],
+   "answer": 3,
+   "explanation": "Guruvaar is Jupiter and Shukravaar is Venus."
+  }
+ ],
+ "short": []
+}
