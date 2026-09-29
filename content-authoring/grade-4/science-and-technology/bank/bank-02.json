@@ -1466,7 +1466,7 @@
    "q": "Explain why friction can be both useful and a problem. Give two examples of each.",
    "marks": 4,
    "answer": "Useful: brakes stop bicycles and shoes grip the ground. A problem: it wears out tyres and makes machines hot.",
-   "working": "1 mark for explaining both uses and 3 marks for four examples (first gets marks in order)."
+   "working": "1 mark for saying it helps in some cases and harms in others, and 1 mark for each correct example up to 3."
   },
   {
    "topic": "3.1",
@@ -1502,6 +1502,293 @@
    "marks": 5,
    "answer": "Friction wears out parts, wastes energy and makes machines hot. It is reduced by oiling, smoothing, using rollers or ball bearings.",
    "working": "2 marks for reasons and 3 marks for methods."
+  },
+  {
+   "topic": "3.2",
+   "q": "Give two natural and two artificial sources of light.",
+   "marks": 2,
+   "answer": "Natural: sun, stars, lightning, firefly. Artificial: bulb, torch, candle, lantern, solar lamp.",
+   "working": "1 mark for two correct natural and 1 mark for two correct artificial."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why is the moon not a source of light?",
+   "marks": 2,
+   "answer": "It does not make its own light. It reflects light from the sun.",
+   "working": "1 mark for no light of its own and 1 mark for reflecting sunlight."
+  },
+  {
+   "topic": "3.2",
+   "q": "State two uses of light.",
+   "marks": 2,
+   "answer": "To see, for safety, to discourage pests, for plants to make food, to dry clothes.",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "3.2",
+   "q": "Name two ways of lighting a house during the day.",
+   "marks": 2,
+   "answer": "Windows and translucent roof sheets (skylights).",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "3.2",
+   "q": "Give two examples each of transparent and opaque materials.",
+   "marks": 2,
+   "answer": "Transparent: clear glass, clear plastic, clean water. Opaque: wood, metal, stone.",
+   "working": "1 mark for each pair."
+  },
+  {
+   "topic": "3.2",
+   "q": "Describe how you would show that light travels in a straight line.",
+   "marks": 3,
+   "answer": "Use three cards with holes in the middle and line them up in a row. Shine a torch through the holes. Light passes. Move the middle card and the light is blocked.",
+   "working": "1 mark for set up, 1 mark for observation and 1 mark for conclusion."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain the difference between transparent, translucent and opaque materials.",
+   "marks": 3,
+   "answer": "Transparent materials let almost all light through. Translucent materials let some light through. Opaque materials do not let light through.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.2",
+   "q": "Give three ways of lighting a house at night.",
+   "marks": 3,
+   "answer": "Electric bulbs, solar lamps, paraffin lamps, candles.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain how light helps in security and safety. Give three examples.",
+   "marks": 3,
+   "answer": "Street lights help people see, security lights keep thieves away, traffic lights direct drivers, torches show dangers, reflectors.",
+   "working": "1 mark for each example."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain why a translucent roof sheet is useful in a classroom during the day.",
+   "marks": 3,
+   "answer": "It lets daylight in, so lamps are not needed, saving electricity and money.",
+   "working": "1 mark for daylight, 1 mark for no lamps, 1 mark for saving."
+  },
+  {
+   "topic": "3.2",
+   "q": "Give three safety rules when using sources of light.",
+   "marks": 3,
+   "answer": "Never look directly at the sun, do not shine torches in eyes, keep candles and lamps away from curtains and paper, do not touch hot bulbs.",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain why a mirror or a shiny cup is not a source of light.",
+   "marks": 3,
+   "answer": "It does not make its own light. It only reflects light that falls on it.",
+   "working": "1 mark for not making light, 1 mark for reflecting, 1 mark for explanation."
+  },
+  {
+   "topic": "3.2",
+   "q": "Classify these as natural or artificial: candle, stars, torch, lightning, firefly, solar lamp.",
+   "marks": 4,
+   "answer": "Natural: stars, lightning, firefly. Artificial: candle, torch, solar lamp.",
+   "working": "1 mark for each correct pair, plus 1 mark for correct table."
+  },
+  {
+   "topic": "3.2",
+   "q": "Describe how windows, roofs and walls can be used to make a house brighter by day.",
+   "marks": 4,
+   "answer": "Large windows let in light, translucent roof sheets let in light, light-coloured walls reflect light, open curtains.",
+   "working": "1 mark for each of four points."
+  },
+  {
+   "topic": "3.2",
+   "q": "A pupil wants to find out which material is transparent, translucent or opaque. Describe a test.",
+   "marks": 4,
+   "answer": "Use a torch in a dark room. Put tissue paper, clear plastic and a book one at a time between the torch and a wall. Record whether all, some or no light passes.",
+   "working": "1 mark for equipment, 1 mark for method, 1 mark for observation, 1 mark for classification."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain how farmers use light to discourage pests and animals.",
+   "marks": 4,
+   "answer": "They use bright or flashing lights at night near fields or animal pens to scare wild animals away. Lamps near sheds help to see thieves or pests.",
+   "working": "1 mark for bright lights, 1 mark for scaring away animals and 2 marks for examples."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why should we use LED and solar lamps instead of paraffin lamps? Give two reasons.",
+   "marks": 4,
+   "answer": "They are safer with less fire risk and less smoke. Solar lamps use free energy and are cheaper to use.",
+   "working": "2 marks for each reason."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain why light is important in our daily lives.",
+   "marks": 5,
+   "answer": "It lets us see, keeps us safe, helps plants to make food, dries clothes, gives solar power and discourages pests.",
+   "working": "1 mark for each point up to 5."
+  },
+  {
+   "topic": "3.2",
+   "q": "Describe the natural and artificial sources of light and explain the difference.",
+   "marks": 5,
+   "answer": "Natural sources are found in nature such as the sun, stars, lightning and fireflies. Artificial sources are made by people such as bulbs, torches and candles.",
+   "working": "1 mark each for natural and artificial, 1 mark for examples of each and 1 mark for the difference."
+  },
+  {
+   "topic": "3.2",
+   "q": "Discuss how a family can light their home cheaply and safely.",
+   "marks": 5,
+   "answer": "Use windows and translucent sheets by day, solar lamps and LED bulbs at night, keep candles and paraffin away from cloth, turn off lights when not needed.",
+   "working": "1 mark for each point up to 5."
+  },
+  {
+   "topic": "3.3",
+   "q": "Name the three main sources of heat.",
+   "marks": 2,
+   "answer": "The sun, fire and electricity.",
+   "working": "1 mark for two and 2 marks for all three."
+  },
+  {
+   "topic": "3.3",
+   "q": "State two uses of heat at home.",
+   "marks": 2,
+   "answer": "Cooking, warming, ironing, drying clothes.",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Why do we use kitchen gloves when holding hot pots?",
+   "marks": 2,
+   "answer": "Gloves are poor passers of heat so they protect hands from burns.",
+   "working": "1 mark for poor at passing heat and 1 mark for protection from burns."
+  },
+  {
+   "topic": "3.3",
+   "q": "Give two safety rules when using an electric iron.",
+   "marks": 2,
+   "answer": "Do not touch it while hot, switch off after use, keep it away from children, do not touch with wet hands.",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "3.3",
+   "q": "What is evaporation? Give one example.",
+   "marks": 2,
+   "answer": "Liquid water turning into water vapour, for example wet clothes drying.",
+   "working": "1 mark for the meaning and 1 mark for an example."
+  },
+  {
+   "topic": "3.3",
+   "q": "Describe how to show that metal passes heat more easily than wood.",
+   "marks": 3,
+   "answer": "Put a metal spoon and a wooden spoon into a cup of warm water. After two minutes touch the top of each. The metal feels warmer so metal passes heat easily.",
+   "working": "1 mark for set up, 1 mark for observation, 1 mark for conclusion."
+  },
+  {
+   "topic": "3.3",
+   "q": "Give three safety measures to observe when cooking.",
+   "marks": 3,
+   "answer": "Use gloves, turn handles inwards, keep children away, do not play with matches, keep paraffin away from fire.",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain how wet clothes dry in the sun.",
+   "marks": 3,
+   "answer": "Heat from the sun makes the water evaporate. It changes to vapour and goes into the air so the clothes become dry.",
+   "working": "1 mark for sun heat, 1 mark for evaporation, 1 mark for the result."
+  },
+  {
+   "topic": "3.3",
+   "q": "What should you do for a small burn? State three actions.",
+   "marks": 3,
+   "answer": "Put it under cool running water, cover with a clean cloth, tell an adult and do not put butter or oil.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Give three examples of things that use electricity to make heat.",
+   "marks": 3,
+   "answer": "Electric kettle, iron, cooker, heater, hair dryer, toaster.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain why heat from the sun is important to the Earth.",
+   "marks": 3,
+   "answer": "It warms the Earth so plants and animals can live, it dries things, and helps the water cycle.",
+   "working": "1 mark for each of three points."
+  },
+  {
+   "topic": "3.3",
+   "q": "Why should you not touch a hot object to find out how hot it is? What should you use?",
+   "marks": 3,
+   "answer": "It can burn your skin. Use a thermometer.",
+   "working": "1 mark for burns, 1 mark for using a thermometer, 1 mark for reason it is safe."
+  },
+  {
+   "topic": "3.3",
+   "q": "Describe how heat is used in cooking and warming in a home.",
+   "marks": 4,
+   "answer": "Heat from fire, gas or electricity cooks food making it soft and safer. Heat from fire or clothes keeps the body warm and chicks warm.",
+   "working": "1 mark for each of four points."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain why cooking pots are made of metal but their handles are not.",
+   "marks": 4,
+   "answer": "Metal passes heat quickly to the food so it cooks. Handles made of wood or plastic pass heat slowly so our hands do not burn.",
+   "working": "2 marks for the pot and 2 marks for the handle."
+  },
+  {
+   "topic": "3.3",
+   "q": "Describe how to make a pair of kitchen gloves from local materials.",
+   "marks": 4,
+   "answer": "Choose thick cotton cloth or old towel. Trace and cut two mitten shapes. Add an inner layer. Sew them together leaving the wrist open. Turn it inside out.",
+   "working": "1 mark for each of four steps."
+  },
+  {
+   "topic": "3.3",
+   "q": "Name four safety measures to observe in a kitchen and give a reason for each.",
+   "marks": 4,
+   "answer": "Handles inwards to avoid knocking pots, gloves to avoid burns, children away to avoid accidents, switch off iron to avoid fire.",
+   "working": "1 mark for each with reason."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain the difference between heat and temperature.",
+   "marks": 4,
+   "answer": "Heat is energy that makes things hot. Temperature is how hot something is and it is measured with a thermometer in degrees Celsius.",
+   "working": "2 marks for heat and 2 marks for temperature."
+  },
+  {
+   "topic": "3.3",
+   "q": "Give four ways in which heat is used in farming.",
+   "marks": 4,
+   "answer": "Drying grain and crops, hatching chicks, keeping chicks warm, cooking, controlling pests, drying fish.",
+   "working": "1 mark each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain the importance of heat in daily life.",
+   "marks": 5,
+   "answer": "Heat keeps us warm, cooks food, dries clothes and crops, helps plants grow, makes rain by evaporation, and is used to make metals and glass.",
+   "working": "1 mark for each point up to 5."
+  },
+  {
+   "topic": "3.3",
+   "q": "Describe safety measures to be observed when handling heat at home and at school.",
+   "marks": 5,
+   "answer": "Do not play with matches, keep children from fires, use gloves, turn handles inwards, switch off cookers and irons, keep fuels away from fire, cool burns with water and tell an adult.",
+   "working": "1 mark for each measure up to 5."
+  },
+  {
+   "topic": "3.3",
+   "q": "Describe an activity that shows the uses of heat, for example drying clothes in different conditions.",
+   "marks": 5,
+   "answer": "Wet two similar cloths. Hang one in the sun and the other in the shade. After some time, feel them. The cloth in the sun dries faster because heat from the sun evaporates the water.",
+   "working": "1 mark for materials, 1 mark for method, 1 mark for fair comparison, 1 mark for observation, 1 mark for conclusion."
   }
  ]
 }

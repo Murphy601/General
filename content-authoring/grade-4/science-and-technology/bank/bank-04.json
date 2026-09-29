@@ -515,6 +515,690 @@
    ],
    "answer": 3,
    "explanation": "Stitches hold cloth pieces together."
+  },
+  {
+   "topic": "3.2",
+   "q": "What does light help us to do?",
+   "options": [
+    "Smell",
+    "Hear",
+    "See",
+    "Taste"
+   ],
+   "answer": 2,
+   "explanation": "Light lets us see objects."
+  },
+  {
+   "topic": "3.2",
+   "q": "What is a source of light?",
+   "options": [
+    "Something that reflects light",
+    "Something that blocks light",
+    "Something that gives out its own light",
+    "Something that is dark"
+   ],
+   "answer": 2,
+   "explanation": "A source of light makes its own light."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is a natural source of light?",
+   "options": [
+    "A candle",
+    "The sun",
+    "A torch",
+    "A bulb"
+   ],
+   "answer": 1,
+   "explanation": "The sun is found in nature."
+  },
+  {
+   "topic": "3.2",
+   "q": "A flash of light in the sky during a storm is a natural source of light. What is it?",
+   "options": [
+    "Lightning",
+    "A solar lamp",
+    "A lantern",
+    "A car headlight"
+   ],
+   "answer": 0,
+   "explanation": "Lightning is a natural flash of light."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which small living thing makes its own light and so is a natural source?",
+   "options": [
+    "Electric bulb",
+    "Candle",
+    "Torch",
+    "Firefly"
+   ],
+   "answer": 3,
+   "explanation": "Fireflies make their own light."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is a natural source of light at night?",
+   "options": [
+    "A street lamp",
+    "A torch",
+    "A candle",
+    "Stars"
+   ],
+   "answer": 3,
+   "explanation": "Stars give out their own light."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is an artificial source of light?",
+   "options": [
+    "The sun",
+    "Stars",
+    "Electric bulb",
+    "Lightning"
+   ],
+   "answer": 2,
+   "explanation": "Bulbs are made by people."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which battery-powered device gives artificial light?",
+   "options": [
+    "Firefly",
+    "Torch",
+    "Stars",
+    "Sun"
+   ],
+   "answer": 1,
+   "explanation": "A torch is made by people."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these gives artificial light by burning paraffin?",
+   "options": [
+    "Paraffin lamp",
+    "Sun",
+    "Lightning",
+    "Star"
+   ],
+   "answer": 0,
+   "explanation": "A paraffin lamp is a made light source."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these artificial sources charges its battery in the sun?",
+   "options": [
+    "Solar lamp",
+    "Stars",
+    "Sun",
+    "Lightning"
+   ],
+   "answer": 0,
+   "explanation": "A solar lamp is made by people."
+  },
+  {
+   "topic": "3.2",
+   "q": "The moon shines brightly at night. Why is it still not a source of light?",
+   "options": [
+    "It is too small",
+    "It is too near",
+    "It is cold",
+    "It reflects light from the sun"
+   ],
+   "answer": 3,
+   "explanation": "The moon does not make its own light."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is NOT a source of light?",
+   "options": [
+    "A torch",
+    "A candle",
+    "A mirror",
+    "An electric bulb"
+   ],
+   "answer": 2,
+   "explanation": "A mirror only reflects light."
+  },
+  {
+   "topic": "3.2",
+   "q": "How does light travel?",
+   "options": [
+    "In curves only",
+    "In straight lines",
+    "In circles",
+    "In zigzags"
+   ],
+   "answer": 1,
+   "explanation": "Light travels in straight lines."
+  },
+  {
+   "topic": "3.2",
+   "q": "What happens to light when it hits an opaque object?",
+   "options": [
+    "It passes through completely",
+    "It is blocked",
+    "It becomes sound",
+    "It becomes heat only"
+   ],
+   "answer": 1,
+   "explanation": "Opaque objects do not let light pass."
+  },
+  {
+   "topic": "3.2",
+   "q": "What is a transparent material?",
+   "options": [
+    "A material that lets almost all light pass through",
+    "A material that blocks all light",
+    "A material that makes light",
+    "A material that is always red"
+   ],
+   "answer": 0,
+   "explanation": "Transparent materials let us see clearly through them."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is transparent?",
+   "options": [
+    "Wood",
+    "Metal",
+    "Thick cardboard",
+    "Clear glass"
+   ],
+   "answer": 3,
+   "explanation": "Clear glass lets light through."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is translucent?",
+   "options": [
+    "Wood",
+    "Clear glass",
+    "Tissue paper",
+    "Stone"
+   ],
+   "answer": 2,
+   "explanation": "Tissue paper lets some light through."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is opaque?",
+   "options": [
+    "Clear glass",
+    "Clean water",
+    "Wood",
+    "Clear plastic"
+   ],
+   "answer": 2,
+   "explanation": "Wood blocks light."
+  },
+  {
+   "topic": "3.2",
+   "q": "What does a translucent roof sheet do?",
+   "options": [
+    "Blocks all light",
+    "Lets some light in",
+    "Makes light",
+    "Creates sound"
+   ],
+   "answer": 1,
+   "explanation": "It lets daylight in but you cannot see through it clearly."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why do houses have windows?",
+   "options": [
+    "To let in daylight",
+    "To let in only rain",
+    "To keep out light",
+    "To make noise"
+   ],
+   "answer": 0,
+   "explanation": "Windows allow sunlight to enter the room."
+  },
+  {
+   "topic": "3.2",
+   "q": "What is one benefit of using translucent roof sheets in a house?",
+   "options": [
+    "It makes the house dark",
+    "It uses more electricity",
+    "It blocks the sun completely",
+    "It saves electricity in the day"
+   ],
+   "answer": 3,
+   "explanation": "Daylight comes in so lamps are not needed."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which wall colour helps a room to be brighter?",
+   "options": [
+    "Dark black",
+    "Dark brown",
+    "Dark blue",
+    "Light colours"
+   ],
+   "answer": 3,
+   "explanation": "Light colours reflect more light."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is an artificial way of lighting a house?",
+   "options": [
+    "Windows",
+    "Sun through the door",
+    "Electric bulbs",
+    "Moonlight"
+   ],
+   "answer": 2,
+   "explanation": "Bulbs are artificial light."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which artificial light uses energy from the sun?",
+   "options": [
+    "Candle",
+    "Solar lamp",
+    "Paraffin lamp",
+    "Firewood"
+   ],
+   "answer": 1,
+   "explanation": "A solar lamp charges by day."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why should candles and paraffin lamps be kept away from curtains?",
+   "options": [
+    "They can start a fire",
+    "They make curtains cold",
+    "They make curtains dry",
+    "They make curtains bright"
+   ],
+   "answer": 0,
+   "explanation": "Flames can set cloth on fire."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is a safety use of light?",
+   "options": [
+    "Street lights",
+    "Making shadows",
+    "Colouring paint",
+    "Making sound"
+   ],
+   "answer": 0,
+   "explanation": "Street lights help people see at night."
+  },
+  {
+   "topic": "3.2",
+   "q": "What does a red traffic light tell a driver?",
+   "options": [
+    "Go",
+    "Speed up",
+    "Turn on lights",
+    "Stop"
+   ],
+   "answer": 3,
+   "explanation": "Red means stop."
+  },
+  {
+   "topic": "3.2",
+   "q": "What does a green traffic light tell a driver?",
+   "options": [
+    "Stop",
+    "Sleep",
+    "Go",
+    "Stop at once"
+   ],
+   "answer": 2,
+   "explanation": "Green means go."
+  },
+  {
+   "topic": "3.2",
+   "q": "What do reflectors on a road or bicycle do?",
+   "options": [
+    "Make their own light all night",
+    "Shine when car lights fall on them",
+    "Make sound",
+    "Make heat"
+   ],
+   "answer": 1,
+   "explanation": "Reflectors bounce light back."
+  },
+  {
+   "topic": "3.2",
+   "q": "How can lights help protect a home?",
+   "options": [
+    "Lights make people sleep",
+    "Security lights help keep thieves away",
+    "Lights make walls hot",
+    "Lights make doors open"
+   ],
+   "answer": 1,
+   "explanation": "Thieves avoid places where they can be seen."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why do some farmers use bright lights near animal pens at night?",
+   "options": [
+    "To scare away wild animals",
+    "To make animals sleepy",
+    "To make animals heavier",
+    "To warm animals"
+   ],
+   "answer": 0,
+   "explanation": "Bright lights can scare away predators."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these uses of light is for plants?",
+   "options": [
+    "Making them bend downward",
+    "Making roots taller",
+    "Making them cold",
+    "Making their own food"
+   ],
+   "answer": 3,
+   "explanation": "Plants use light to make food."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these uses sunlight to dry things?",
+   "options": [
+    "Making ice",
+    "Making rain only",
+    "Drying clothes and grain",
+    "Making stones"
+   ],
+   "answer": 2,
+   "explanation": "Sunlight dries wet things."
+  },
+  {
+   "topic": "3.2",
+   "q": "What do solar panels change sunlight into?",
+   "options": [
+    "Water",
+    "Food",
+    "Electricity",
+    "Sound"
+   ],
+   "answer": 2,
+   "explanation": "Solar panels make electricity from sunlight."
+  },
+  {
+   "topic": "3.2",
+   "q": "You want to see if a material is opaque. What do you do?",
+   "options": [
+    "Weigh it",
+    "Shine a torch at it and see if light passes",
+    "Taste it",
+    "Smell it"
+   ],
+   "answer": 1,
+   "explanation": "If no light passes, it is opaque."
+  },
+  {
+   "topic": "3.2",
+   "q": "When light hits an opaque object, what forms behind it?",
+   "options": [
+    "A shadow",
+    "A rainbow",
+    "A flame",
+    "Sound"
+   ],
+   "answer": 0,
+   "explanation": "Blocked light makes a shadow."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is a safe practice with light?",
+   "options": [
+    "Look at the sun with your eyes",
+    "Shine torches in eyes",
+    "Stare at bright lights",
+    "Never look straight at the sun"
+   ],
+   "answer": 3,
+   "explanation": "Looking at the sun harms eyes."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is a torch used for?",
+   "options": [
+    "To make food",
+    "To make sound",
+    "To cool a room",
+    "To give light in the dark"
+   ],
+   "answer": 3,
+   "explanation": "A torch is an artificial light source."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is a benefit of good lighting when reading?",
+   "options": [
+    "It makes books heavier",
+    "It makes pages smell",
+    "It prevents tired eyes",
+    "It makes letters disappear"
+   ],
+   "answer": 2,
+   "explanation": "Enough light makes reading easier."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these could you use to test three cards for straight line travel of light?",
+   "options": [
+    "A ruler only",
+    "Cards with holes in the middle and a torch",
+    "A cup of water",
+    "A bell"
+   ],
+   "answer": 1,
+   "explanation": "Aligned holes let light pass only when straight."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is a way of making a room lighter during the day?",
+   "options": [
+    "Opening the curtains",
+    "Closing the door",
+    "Painting the walls black",
+    "Closing the window"
+   ],
+   "answer": 0,
+   "explanation": "Open curtains let in more daylight."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these is the biggest natural source of light for the Earth?",
+   "options": [
+    "The sun",
+    "A star far away",
+    "The moon",
+    "A candle"
+   ],
+   "answer": 0,
+   "explanation": "The sun lights the Earth in the daytime."
+  },
+  {
+   "topic": "3.2",
+   "q": "A lighthouse is used to",
+   "options": [
+    "Cook food",
+    "Dry clothes",
+    "Grow plants",
+    "Warn ships of danger"
+   ],
+   "answer": 3,
+   "explanation": "Lighthouses show ships where land or rocks are."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these can be a cheap way of lighting a house in a rural area?",
+   "options": [
+    "A big generator",
+    "Many electric heaters",
+    "Solar lamp",
+    "Hundreds of candles"
+   ],
+   "answer": 2,
+   "explanation": "Solar lamps use free energy from the sun."
+  },
+  {
+   "topic": "3.2",
+   "q": "What is the purpose of skylights?",
+   "options": [
+    "Make the house hot",
+    "Let daylight through the roof",
+    "Let rain in on purpose",
+    "Block light"
+   ],
+   "answer": 1,
+   "explanation": "Skylights are roof openings or sheets that let light in."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why is it better to use daylight than electric light in the day?",
+   "options": [
+    "It costs more",
+    "It saves money",
+    "It makes rooms dark",
+    "It is unsafe"
+   ],
+   "answer": 1,
+   "explanation": "Sunlight is free."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these makes its own light?",
+   "options": [
+    "A glow-worm",
+    "A mirror",
+    "A white wall",
+    "A shiny cup"
+   ],
+   "answer": 0,
+   "explanation": "Glow-worms produce their own light."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these only reflects light?",
+   "options": [
+    "A candle",
+    "A torch",
+    "A firefly",
+    "The moon"
+   ],
+   "answer": 3,
+   "explanation": "The moon reflects sunlight."
+  },
+  {
+   "topic": "3.3",
+   "q": "What is heat?",
+   "options": [
+    "A kind of matter",
+    "A kind of sound",
+    "A form of energy that makes things hot",
+    "A type of gas"
+   ],
+   "answer": 2,
+   "explanation": "Heat is a form of energy."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which instrument measures temperature?",
+   "options": [
+    "Balance",
+    "Measuring jug",
+    "Thermometer",
+    "Ruler"
+   ],
+   "answer": 2,
+   "explanation": "A thermometer shows how hot something is."
+  },
+  {
+   "topic": "3.3",
+   "q": "In which unit is temperature measured in science?",
+   "options": [
+    "Kilograms",
+    "Degrees Celsius",
+    "Litres",
+    "Metres"
+   ],
+   "answer": 1,
+   "explanation": "Temperature is measured in degrees Celsius."
+  },
+  {
+   "topic": "3.3",
+   "q": "At what temperature does water boil?",
+   "options": [
+    "100 degrees Celsius",
+    "0 degrees Celsius",
+    "50 degrees Celsius",
+    "10 degrees Celsius"
+   ],
+   "answer": 0,
+   "explanation": "Pure water boils at 100 degrees Celsius."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which of these is the biggest natural source of heat for the Earth?",
+   "options": [
+    "A fire",
+    "A kettle",
+    "An iron",
+    "The sun"
+   ],
+   "answer": 3,
+   "explanation": "The sun heats the Earth."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which of these is a source of heat from burning?",
+   "options": [
+    "A ruler",
+    "A book",
+    "A cup",
+    "Charcoal"
+   ],
+   "answer": 3,
+   "explanation": "Charcoal gives out heat when it burns."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which of these sources of heat uses electricity?",
+   "options": [
+    "Charcoal jiko",
+    "Firewood",
+    "Electric iron",
+    "The sun"
+   ],
+   "answer": 2,
+   "explanation": "An electric iron uses electricity."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which of these uses electricity to make heat?",
+   "options": [
+    "Bicycle",
+    "Electric kettle",
+    "Wooden chair",
+    "Book"
+   ],
+   "answer": 1,
+   "explanation": "A kettle is heated by electricity."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which of these gives out heat when rubbed?",
+   "options": [
+    "Hands",
+    "A stone table",
+    "A book in a bag",
+    "A leaf"
+   ],
+   "answer": 0,
+   "explanation": "Rubbing produces heat through friction."
   }
  ],
  "short": []
