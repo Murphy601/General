@@ -2,74 +2,18 @@
  "mcq": [],
  "short": [
   {
-   "topic": "2.2",
-   "q": "Write the pinyin for 爸爸, 妈妈 and 姐姐.",
-   "marks": 3,
-   "answer": "bàba, māma, jiějie.",
-   "working": "1 mark for each with the correct tone marks."
-  },
-  {
-   "topic": "3.1",
-   "q": "Write the stroke order of 大 in Chinese stroke names.",
+   "topic": "3.4",
+   "q": "Write the pinyin and the English meaning of 八 and 玩.",
    "marks": 2,
-   "answer": "横, 撇, 捺.",
-   "working": "2 marks for all three in order, 1 mark for two."
-  },
-  {
-   "topic": "3.5",
-   "q": "Write the pinyin and the English meaning of 祝, 妈妈 and 说.",
-   "marks": 3,
-   "answer": "祝: zhù, to wish. 妈妈: māma, mother. 说: shuō, to speak.",
+   "answer": "八: bā, eight. 玩: wán, to play.",
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
-   "topic": "4.1",
-   "q": "Give three things to do when planning a showcase item.",
-   "marks": 3,
-   "answer": "Choose an item, decide who does what, list the materials and words needed, practise several times.",
-   "working": "1 mark for each."
-  },
-  {
-   "topic": "3.5",
-   "q": "Write \"Happy birthday to you\" in characters and pinyin.",
+   "topic": "2.2",
+   "q": "Write in Chinese characters and pinyin: \"Who is this?\"",
    "marks": 2,
-   "answer": "祝你生日快乐! zhù nǐ shēngrì kuàilè!",
-   "working": "1 mark for the characters and 1 mark for the pinyin."
-  },
-  {
-   "topic": "1.4",
-   "q": "Write these two sentences in Chinese characters and pinyin: \"Today is Wednesday.\" and \"On Wednesday I go to school.\"",
-   "marks": 4,
-   "answer": "今天星期三。 jīntiān xīngqīsān. 我星期三去学校。 wǒ xīngqīsān qù xuéxiào.",
-   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
-  },
-  {
-   "topic": "4.1",
-   "q": "Write three things you could include in a class display and one thing to check.",
-   "marks": 3,
-   "answer": "For example a labelled house plan, a birthday card and character models; check tone marks and stroke order.",
-   "working": "1 mark for each item and 1 mark for a check."
-  },
-  {
-   "topic": "1.6",
-   "q": "Explain two things that help you read a sentence at a good pace.",
-   "marks": 4,
-   "answer": "Read it slowly first; join the words together; speak at natural speed; keep the tones clear; record and listen back.",
-   "working": "2 marks for each explained point."
-  },
-  {
-   "topic": "1.7",
-   "q": "Write in Chinese characters and pinyin: \"I use my eyes to see.\"",
-   "marks": 2,
-   "answer": "我用眼睛看。 wǒ yòng yǎnjing kàn.",
+   "answer": "这是谁? zhè shì shéi?",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "4.1",
-   "q": "Explain how a good presenter speaks and behaves during a showcase, giving five points.",
-   "marks": 5,
-   "answer": "Stands tall and smiles; looks at the audience; says each word clearly with the right tone; speaks at a steady pace and pauses; stays calm and repeats after a mistake.",
-   "working": "1 mark for each point."
   },
   {
    "topic": "1.9",
@@ -79,172 +23,123 @@
    "working": "1 mark for each."
   },
   {
-   "topic": "2.6",
-   "q": "Put these pinyin words in alphabetical order: mǐfàn, bǐng, chá.",
-   "marks": 3,
-   "answer": "bǐng, chá, mǐfàn.",
-   "working": "1 mark for each correct position."
-  },
-  {
-   "topic": "3.2",
-   "q": "Read the pinyin and write the English meaning: wǒ ài nǐ.",
+   "topic": "1.8",
+   "q": "Write in Chinese and pinyin: \"The wind is very strong.\"",
    "marks": 2,
-   "answer": "I love you.",
-   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+   "answer": "风很大。 fēng hěn dà.",
+   "working": "1 mark for the characters and 1 mark for the pinyin."
   },
   {
-   "topic": "2.8",
-   "q": "Write in Chinese characters and pinyin: \"This is the sun.\"",
+   "topic": "3.4",
+   "q": "Write the pinyin and the English meaning of 明天 and 二.",
    "marks": 2,
-   "answer": "这是太阳。 zhè shì tàiyáng.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+   "answer": "明天: míngtiān, tomorrow. 二: èr, two.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
-   "topic": "1.9",
-   "q": "Give three tips for following spoken instructions well.",
+   "topic": "3.7",
+   "q": "Write the pinyin and the English meaning of 肩膀, 切 and 去.",
    "marks": 3,
-   "answer": "Listen to the whole instruction; catch the key words; ask for a repeat if unsure; show the answer by pointing or drawing.",
-   "working": "1 mark for each tip."
+   "answer": "肩膀: jiānbǎng, shoulder. 切: qiē, to cut. 去: qù, to go.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
    "topic": "1.5",
-   "q": "Write the pinyin and the English meaning of 朋友 and 肩膀.",
-   "marks": 2,
-   "answer": "朋友: péngyou, friend. 肩膀: jiānbǎng, shoulder.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.8",
-   "q": "Read the pinyin and write the English meaning: jīntiān xià yǔ.",
-   "marks": 2,
-   "answer": "Today it rains.",
-   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
-  },
-  {
-   "topic": "2.7",
-   "q": "Write the pinyin and the English meaning of 笑 and 头.",
-   "marks": 2,
-   "answer": "笑: xiào, to laugh, to smile. 头: tóu, head.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.3",
-   "q": "Write these two sentences in Chinese characters and pinyin: \"The bed is in the bedroom.\" and \"The television is on the table.\"",
+   "q": "Write these two sentences in Chinese characters and pinyin: \"Happy birthday to you!\" and \"When is your birthday?\"",
    "marks": 4,
-   "answer": "床在卧室。 chuáng zài wòshì. 电视在桌子上。 diànshì zài zhuōzi shàng.",
+   "answer": "祝你生日快乐! zhù nǐ shēngrì kuàilè! 你生日是几月几号? nǐ shēngrì shì jǐ yuè jǐ hào?",
    "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
   },
   {
-   "topic": "1.6",
-   "q": "Write a dialogue of five lines in Chinese with pinyin between two learners about a food picture: ask what it is, answer, ask if they like it, and reply.",
-   "marks": 5,
-   "answer": "A: 这是什么? zhè shì shénme? B: 这是香蕉。 zhè shì xiāngjiāo. A: 你喜欢吃香蕉吗? nǐ xǐhuan chī xiāngjiāo ma? B: 我喜欢。 wǒ xǐhuan. A: 谢谢! xièxie!",
-   "working": "1 mark for each line with pinyin."
-  },
-  {
-   "topic": "1.2",
-   "q": "Write in Chinese characters and pinyin: \"I love you.\"",
-   "marks": 2,
-   "answer": "我爱你。 wǒ ài nǐ.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.3",
-   "q": "Explain the sentence pattern for saying where something is, with an example.",
+   "topic": "2.5",
+   "q": "Explain what stress is in reading aloud and give an example.",
    "marks": 3,
-   "answer": "Thing + 在 + place, with 上 or 下 at the end when needed. For example 电视在桌子上。",
-   "working": "1 mark for the pattern, 1 mark for the example, 1 mark for the translation."
-  },
-  {
-   "topic": "2.4",
-   "q": "Read and translate: 星期一到星期五,去学校。",
-   "marks": 3,
-   "answer": "xīngqīyī dào xīngqīwǔ, qù xuéxiào. From Monday to Friday, go to school.",
-   "working": "1 mark for pinyin and 2 marks for the meaning."
-  },
-  {
-   "topic": "3.6",
-   "q": "Write the pinyin and the English meaning of 吃 and 上面.",
-   "marks": 2,
-   "answer": "吃: chī, to eat. 上面: shàngmiàn, above.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "2.2",
-   "q": "Write a five-sentence description of your family in Chinese with pinyin, using 这是 and 我家有.",
-   "marks": 5,
-   "answer": "我家有五口人。这是我爸爸。这是我妈妈。这是我哥哥。这是我。 wǒ jiā yǒu wǔ kǒu rén. zhè shì wǒ bàba. zhè shì wǒ māma. zhè shì wǒ gēge. zhè shì wǒ.",
-   "working": "1 mark for each sentence, with pinyin and correct tones."
-  },
-  {
-   "topic": "3.2",
-   "q": "Write the pinyin and the English meaning of 谁 and 咖啡.",
-   "marks": 2,
-   "answer": "谁: shéi, who. 咖啡: kāfēi, coffee.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "3.2",
-   "q": "Write in Chinese characters and pinyin: \"There are five people in my family.\"",
-   "marks": 3,
-   "answer": "我家有五口人。 wǒ jiā yǒu wǔ kǒu rén.",
-   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
-  },
-  {
-   "topic": "3.1",
-   "q": "Write the eight basic strokes' names in Chinese with pinyin. Any six earn full marks.",
-   "marks": 3,
-   "answer": "横 héng, 竖 shù, 撇 piě, 捺 nà, 点 diǎn, 提 tí, 横折 héngzhé, 竖钩 shùgōu.",
-   "working": "1 mark for two, 2 marks for four, 3 marks for six or more."
+   "answer": "Stress means saying an important word a little stronger. For example in 我们切蛋糕, you may stress 蛋糕 to show what we cut. It does not change the tone.",
+   "working": "1 mark for meaning, 1 mark for an example, 1 mark for the tone note."
   },
   {
    "topic": "2.9",
-   "q": "Write in Chinese characters and pinyin: \"The door is on the left.\"",
-   "marks": 2,
-   "answer": "门在左边。 mén zài zuǒbian.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "1.2",
-   "q": "Compare how Mandarin and Kiswahili name family members. Give two similarities or differences.",
-   "marks": 4,
-   "answer": "Similar: both repeat a syllable in words for close family, such as baba and bàba, mama and māma. Different: Mandarin has different words for older and younger brothers and sisters, but Kiswahili uses kaka and dada for both.",
-   "working": "1 mark for each correct point, up to 4."
-  },
-  {
-   "topic": "4.1",
-   "q": "Write a short dialogue of four lines in Chinese with pinyin: two friends greet each other and one says it is their birthday.",
-   "marks": 4,
-   "answer": "A: 你好! nǐ hǎo! B: 你好! nǐ hǎo! A: 今天是我的生日。 jīntiān shì wǒ de shēngrì. B: 祝你生日快乐! zhù nǐ shēngrì kuàilè!",
-   "working": "1 mark for each correct line, with pinyin."
-  },
-  {
-   "topic": "2.1",
-   "q": "Write the pinyin and the English meaning of 你好 and 鸡肉.",
-   "marks": 2,
-   "answer": "你好: nǐ hǎo, hello. 鸡肉: jīròu, chicken (meat).",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "2.2",
-   "q": "What does the apostrophe in nǚ'ér do?",
-   "marks": 2,
-   "answer": "It shows where one syllable ends and the next begins, nǚ + ér.",
-   "working": "1 mark for each part of the explanation."
-  },
-  {
-   "topic": "2.5",
-   "q": "Write in Chinese characters and pinyin: \"My friend gives me a gift.\"",
+   "q": "Write in Chinese characters and pinyin: \"The bathroom is beside the garden.\"",
    "marks": 3,
-   "answer": "朋友送我礼物。 péngyou sòng wǒ lǐwù.",
+   "answer": "浴室在花园旁边。 yùshì zài huāyuán pángbiān.",
    "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
   },
   {
-   "topic": "3.8",
-   "q": "Decide whether each statement is 对 or 错 and explain. Text: 今天有太阳,没有雨。 Statement: 今天有雨。",
+   "topic": "3.5",
+   "q": "Write \"Happy birthday to you\" in characters and pinyin.",
+   "marks": 2,
+   "answer": "祝你生日快乐! zhù nǐ shēngrì kuàilè!",
+   "working": "1 mark for the characters and 1 mark for the pinyin."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the pinyin and the English meaning of 水, 没有 and 门.",
    "marks": 3,
-   "answer": "错. The text says there is no rain (没有雨).",
-   "working": "1 mark for 错, 1 mark for finding 没有, 1 mark for the explanation."
+   "answer": "水: shuǐ, water. 没有: méiyǒu, there is not. 门: mén, door.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "1.1",
+   "q": "Draw the four tone marks over the vowel a and name each tone.",
+   "marks": 3,
+   "answer": "ā first tone (high, flat), á second tone (rising), ǎ third tone (dipping), à fourth tone (falling).",
+   "working": "1 mark for two correct marks, 2 marks for three, 3 marks for all four with names."
+  },
+  {
+   "topic": "1.5",
+   "q": "What does it mean to listen for gist? Give one way to do it.",
+   "marks": 2,
+   "answer": "Listening for gist means finding the main idea. You can listen for key words you already know.",
+   "working": "1 mark for meaning and 1 mark for a method."
+  },
+  {
+   "topic": "1.3",
+   "q": "Write the pinyin and the English meaning of 放 and 蜡烛.",
+   "marks": 2,
+   "answer": "放: fàng, to put. 蜡烛: làzhú, candle.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "2.4",
+   "q": "Explain what tone, volume and vocal projection mean when reading aloud.",
+   "marks": 3,
+   "answer": "Tone is the rise and fall of each syllable, volume is how loud you speak and projection is sending your voice to the back of the room without shouting.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.2",
+   "q": "Write the question for \"Who is this?\" and answer it with \"This is my father\", with pinyin.",
+   "marks": 2,
+   "answer": "这是谁? zhè shì shéi? 这是我爸爸。 zhè shì wǒ bàba.",
+   "working": "1 mark for the question and 1 mark for the answer."
+  },
+  {
+   "topic": "2.4",
+   "q": "Write in Chinese characters and pinyin: \"On Wednesday I go to school.\"",
+   "marks": 3,
+   "answer": "我星期三去学校。 wǒ xīngqīsān qù xuéxiào.",
+   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+  },
+  {
+   "topic": "2.6",
+   "q": "Write in Chinese characters and pinyin: \"For breakfast I eat bǐng.\"",
+   "marks": 2,
+   "answer": "我早饭吃饼。 wǒ zǎofàn chī bǐng.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "2.8",
+   "q": "Write the pinyin and the English meaning of 小 and 哥哥.",
+   "marks": 2,
+   "answer": "小: xiǎo, small. 哥哥: gēge, older brother.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "3.8",
+   "q": "Explain one way rain helps the environment and one way too much rain harms it.",
+   "marks": 4,
+   "answer": "Rain gives water to crops, rivers and animals. Too much rain can cause floods that damage crops and homes.",
+   "working": "2 marks for the benefit and 2 marks for the harm."
   },
   {
    "topic": "2.9",
@@ -254,39 +149,46 @@
    "working": "1 mark for each of three steps."
   },
   {
-   "topic": "3.6",
-   "q": "Explain why a healthy plate should have food from several groups and name two groups with their Chinese names.",
-   "marks": 4,
-   "answer": "Each group does a different job. Vegetables and fruit (蔬菜, 水果) give vitamins, rice (米饭) gives energy, and meat (肉) helps the body grow.",
-   "working": "1 mark for saying groups do different jobs, 1 mark for each group named, 1 mark for the job."
+   "topic": "3.4",
+   "q": "Write a paragraph of four sentences about your week in Chinese with pinyin, using the days and activities from this lesson.",
+   "marks": 5,
+   "answer": "星期一到星期五,我去学校。星期六,我在家休息。星期天,我去教堂。 xīngqīyī dào xīngqīwǔ, wǒ qù xuéxiào. xīngqīliù, wǒ zài jiā xiūxi. xīngqītiān, wǒ qù jiàotáng.",
+   "working": "1 mark for each correct sentence and 1 mark for order and punctuation. Any sensible activities."
   },
   {
-   "topic": "1.6",
-   "q": "Write in Chinese characters and pinyin: \"I like to eat bananas.\"",
+   "topic": "1.5",
+   "q": "Write three birthday activities in Chinese or English.",
    "marks": 3,
-   "answer": "我喜欢吃香蕉。 wǒ xǐhuan chī xiāngjiāo.",
-   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+   "answer": "切蛋糕 (cut the cake), 送礼物 (give gifts), 唱歌 (sing), 和朋友一起玩 (play with friends). Any three.",
+   "working": "1 mark for each."
   },
   {
-   "topic": "1.3",
-   "q": "Write the pinyin and the English meaning of 卧室 and 手.",
+   "topic": "2.6",
+   "q": "Write the pinyin and the English meaning of 水果 and 蔬菜.",
    "marks": 2,
-   "answer": "卧室: wòshì, bedroom. 手: shǒu, hand.",
+   "answer": "水果: shuǐguǒ, fruit (as a group). 蔬菜: shūcài, vegetables.",
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
-   "topic": "3.2",
-   "q": "Explain what the part 女 tells us in 妈, 姐 and 妹.",
-   "marks": 3,
-   "answer": "女 means woman or female, so the characters are for female family members.",
-   "working": "1 mark for the meaning, 1 mark for the link to family, 1 mark for naming the three characters."
+   "topic": "2.8",
+   "q": "Read the pinyin and write the English meaning: yǔ hěn dà.",
+   "marks": 2,
+   "answer": "The rain is heavy.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
   },
   {
-   "topic": "2.3",
-   "q": "Write in Chinese characters and pinyin: \"There is a television in the living room.\"",
+   "topic": "3.6",
+   "q": "Write the pinyin and the English meaning of 肉, 用 and 摸.",
    "marks": 3,
-   "answer": "客厅里有电视。 kètīng lǐ yǒu diànshì.",
-   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+   "answer": "肉: ròu, meat. 用: yòng, to use. 摸: mō, to touch.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "2.8",
+   "q": "Read and translate the chant line: 风来了,雨来了,雪也来了。",
+   "marks": 3,
+   "answer": "Fēng lái le, yǔ lái le, xuě yě lái le. The wind has come, the rain has come, the snow has come too.",
+   "working": "1 mark for pinyin, 2 marks for meaning."
   },
   {
    "topic": "2.3",
@@ -296,32 +198,102 @@
    "working": "1 mark for pinyin, 1 mark for translation, 1 mark for the question."
   },
   {
-   "topic": "2.1",
-   "q": "Write in Chinese characters and pinyin: \"Hello, teacher!\"",
-   "marks": 2,
-   "answer": "老师好! lǎoshī hǎo!",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "2.8",
-   "q": "Write in Chinese characters and pinyin: \"Today it rains.\"",
-   "marks": 2,
-   "answer": "今天下雨。 jīntiān xià yǔ.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.5",
-   "q": "Give three tips for neat Chinese handwriting.",
+   "topic": "3.7",
+   "q": "Write the pinyin and the English meaning of 刷牙, 手 and 生日.",
    "marks": 3,
-   "answer": "Keep characters the same size, keep strokes firm and straight, leave equal spaces, write in the right stroke order, do not join separate strokes.",
-   "working": "1 mark for each."
+   "answer": "刷牙: shuāyá, to brush teeth. 手: shǒu, hand. 生日: shēngrì, birthday.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "3.4",
+   "q": "Write the pinyin and the English meaning of 清真寺 and 一.",
+   "marks": 2,
+   "answer": "清真寺: qīngzhēnsì, mosque. 一: yī, one.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write a short conversation of three lines in which two learners greet each other, give their names and ask \"And you?\". Include pinyin.",
+   "marks": 5,
+   "answer": "A: 你好! nǐ hǎo! B: 你好!我叫安娜。你呢? nǐ hǎo! wǒ jiào Ānnà. nǐ ne? A: 我叫小明。 wǒ jiào Xiǎomíng.",
+   "working": "1 mark for each correct greeting line and 1 mark each for the name sentences, 1 mark for correct pinyin tone marks, 5 in total."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain the sentence pattern for saying where something is, with an example.",
+   "marks": 3,
+   "answer": "Thing + 在 + place, with 上 or 下 at the end when needed. For example 电视在桌子上。",
+   "working": "1 mark for the pattern, 1 mark for the example, 1 mark for the translation."
+  },
+  {
+   "topic": "3.8",
+   "q": "Write in Chinese characters and pinyin: \"The sun is very big.\"",
+   "marks": 2,
+   "answer": "太阳很大。 tàiyáng hěn dà.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "2.5",
+   "q": "Arrange the words to make a sentence and translate: 礼物 / 送 / 朋友 / 我.",
+   "marks": 3,
+   "answer": "朋友送我礼物。 My friend gives me a gift.",
+   "working": "1 mark for the order, 1 mark for 。, 1 mark for the translation."
   },
   {
    "topic": "3.9",
-   "q": "Write in Chinese characters and pinyin: \"Where is the sofa?\"",
+   "q": "Rearrange and translate: 浴室 / 花园 / 旁边 / 在.",
+   "marks": 3,
+   "answer": "浴室在花园旁边。 The bathroom is beside the garden.",
+   "working": "1 mark for the order, 1 mark for 。, 1 mark for the meaning."
+  },
+  {
+   "topic": "3.9",
+   "q": "Read the pinyin and write the English meaning: chuānghu zài shāfā shàngmiàn.",
    "marks": 2,
-   "answer": "沙发在哪儿? shāfā zài nǎr?",
+   "answer": "The window is above the sofa.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+  },
+  {
+   "topic": "1.6",
+   "q": "Write the pinyin and the English meaning of 喜欢 and 哪儿.",
+   "marks": 2,
+   "answer": "喜欢: xǐhuan, to like. 哪儿: nǎr, where.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "1.4",
+   "q": "Write in Chinese characters and pinyin: \"Today is Wednesday.\"",
+   "marks": 2,
+   "answer": "今天星期三。 jīntiān xīngqīsān.",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "2.9",
+   "q": "Give two words with the final -ao and one with the final -ang, with pinyin.",
+   "marks": 3,
+   "answer": "For example 好 hǎo, 小 xiǎo; 房 fáng.",
+   "working": "1 mark for each correct word."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write in Chinese characters and pinyin: \"I drink tea.\"",
+   "marks": 2,
+   "answer": "我喝茶。 wǒ hē chá.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write these two sentences in Chinese characters and pinyin: \"Hello!\" and \"Hello! (polite)\"",
+   "marks": 4,
+   "answer": "你好! nǐ hǎo! 您好! nín hǎo!",
+   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
+  },
+  {
+   "topic": "2.6",
+   "q": "Put these pinyin words in alphabetical order: mǐfàn, bǐng, chá.",
+   "marks": 3,
+   "answer": "bǐng, chá, mǐfàn.",
+   "working": "1 mark for each correct position."
   },
   {
    "topic": "1.8",
@@ -332,44 +304,23 @@
   },
   {
    "topic": "1.6",
-   "q": "Write these two sentences in Chinese characters and pinyin: \"What is this?\" and \"This is a banana.\"",
+   "q": "Read the pinyin and write the English meaning: zhè shì xiāngjiāo.",
+   "marks": 2,
+   "answer": "This is a banana.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+  },
+  {
+   "topic": "4.1",
+   "q": "Write a short dialogue of four lines in Chinese with pinyin: two friends greet each other and one says it is their birthday.",
    "marks": 4,
-   "answer": "这是什么? zhè shì shénme? 这是香蕉。 zhè shì xiāngjiāo.",
-   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
+   "answer": "A: 你好! nǐ hǎo! B: 你好! nǐ hǎo! A: 今天是我的生日。 jīntiān shì wǒ de shēngrì. B: 祝你生日快乐! zhù nǐ shēngrì kuàilè!",
+   "working": "1 mark for each correct line, with pinyin."
   },
   {
-   "topic": "3.9",
-   "q": "Write the pinyin and the English meaning of 花园 and 女儿.",
+   "topic": "3.6",
+   "q": "Write in Chinese characters and pinyin: \"I like to drink tea.\"",
    "marks": 2,
-   "answer": "花园: huāyuán, garden. 女儿: nǚ'ér, daughter.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "3.2",
-   "q": "Write in Chinese characters and pinyin: \"That is my younger brother.\"",
-   "marks": 2,
-   "answer": "那是我弟弟。 nà shì wǒ dìdi.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "1.1",
-   "q": "Write in Chinese characters and pinyin: \"Goodbye!\"",
-   "marks": 2,
-   "answer": "再见! zàijiàn!",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.1",
-   "q": "Write in Chinese characters and pinyin: \"My name is Xiaoming.\"",
-   "marks": 2,
-   "answer": "我叫小明。 wǒ jiào Xiǎomíng.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "2.6",
-   "q": "Write in Chinese characters and pinyin: \"For breakfast I eat bǐng.\"",
-   "marks": 2,
-   "answer": "我早饭吃饼。 wǒ zǎofàn chī bǐng.",
+   "answer": "我喜欢喝茶。 wǒ xǐhuan hē chá.",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
@@ -381,310 +332,44 @@
   },
   {
    "topic": "3.9",
-   "q": "Write the pinyin and the English meaning of 旁边, 十 and 风.",
+   "q": "Write in Chinese characters and pinyin: \"The garden is on the right of the house.\"",
    "marks": 3,
-   "answer": "旁边: pángbiān, beside. 十: shí, ten. 风: fēng, wind.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.4",
-   "q": "Write in Chinese characters and pinyin: \"Today is Wednesday.\"",
-   "marks": 2,
-   "answer": "今天星期三。 jīntiān xīngqīsān.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.1",
-   "q": "Write the pinyin and the English meaning of 早上好, 沙发 and 零食.",
-   "marks": 3,
-   "answer": "早上好: zǎoshang hǎo, good morning. 沙发: shāfā, sofa. 零食: língshí, snacks.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.9",
-   "q": "Write in Chinese characters and pinyin: \"The sofa is beside the door.\"",
-   "marks": 3,
-   "answer": "沙发在门旁边。 shāfā zài mén pángbiān.",
+   "answer": "花园在房子右边。 huāyuán zài fángzi yòubian.",
    "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
   },
   {
    "topic": "3.3",
-   "q": "Write in Chinese characters and pinyin: \"There is a bed in the bedroom.\"",
+   "q": "Write the difference in meaning between chuáng and chuāng.",
    "marks": 2,
-   "answer": "卧室里有床。 wòshì lǐ yǒu chuáng.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "1.1",
-   "q": "Draw the four tone marks over the vowel a and name each tone.",
-   "marks": 3,
-   "answer": "ā first tone (high, flat), á second tone (rising), ǎ third tone (dipping), à fourth tone (falling).",
-   "working": "1 mark for two correct marks, 2 marks for three, 3 marks for all four with names."
-  },
-  {
-   "topic": "3.7",
-   "q": "Write the stroke names of 手 in order.",
-   "marks": 3,
-   "answer": "撇, 横, 横, 竖钩.",
-   "working": "1 mark for two, 2 marks for three, 3 marks for all four."
-  },
-  {
-   "topic": "1.2",
-   "q": "Write in Chinese characters and pinyin: \"This is my father.\"",
-   "marks": 2,
-   "answer": "这是我爸爸。 zhè shì wǒ bàba.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "2.8",
-   "q": "Explain how to pause when reading: what does a comma mean and what does a full stop mean?",
-   "marks": 3,
-   "answer": "A comma is a short pause and a full stop is a longer pause, so you can breathe and the listener can follow.",
-   "working": "1 mark for comma, 1 mark for full stop, 1 mark for the reason."
-  },
-  {
-   "topic": "2.5",
-   "q": "Write the pinyin and the English meaning of 礼物 and 星期四.",
-   "marks": 2,
-   "answer": "礼物: lǐwù, gift. 星期四: xīngqīsì, Thursday.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.1",
-   "q": "Describe how to say the initials b and p differently, and give one more pair like them.",
-   "marks": 4,
-   "answer": "b is said without a puff of air and p with a puff of air. Another pair is d and t (or g and k). You can test with a paper strip, which moves more with p.",
-   "working": "1 mark for b, 1 mark for p, 1 mark for another pair, 1 mark for the paper test or description."
-  },
-  {
-   "topic": "1.1",
-   "q": "Write the pinyin and the English meaning of 谢谢 and 听.",
-   "marks": 2,
-   "answer": "谢谢: xièxie, thank you. 听: tīng, to listen, to hear.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "2.7",
-   "q": "Write the Chinese for \"I laugh\" and \"I cry\" with pinyin.",
-   "marks": 2,
-   "answer": "我笑 wǒ xiào; 我哭 wǒ kū.",
-   "working": "1 mark for each."
-  },
-  {
-   "topic": "3.3",
-   "q": "Write the pinyin and the English meaning of 电视 and 哥哥.",
-   "marks": 2,
-   "answer": "电视: diànshì, television. 哥哥: gēge, older brother.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "3.8",
-   "q": "Write in Chinese characters and pinyin: \"The rain is heavy.\"",
-   "marks": 2,
-   "answer": "雨很大。 yǔ hěn dà.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.6",
-   "q": "Write the pinyin and the English meaning of 肉 and 星期六.",
-   "marks": 2,
-   "answer": "肉: ròu, meat. 星期六: xīngqīliù, Saturday.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.1",
-   "q": "Explain how nǐ hǎo is really said, and why.",
-   "marks": 2,
-   "answer": "It is said like ní hǎo, because when two third tones come together, the first changes to a second tone.",
-   "working": "1 mark for the changed sound and 1 mark for the rule."
-  },
-  {
-   "topic": "2.8",
-   "q": "Write the pinyin and the English meaning of 刮风 and 天.",
-   "marks": 2,
-   "answer": "刮风: guā fēng, the wind blows. 天: tiān, sky, day.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.9",
-   "q": "Write these two sentences in Chinese characters and pinyin: \"The sofa is beside the door.\" and \"The bathroom is beside the garden.\"",
-   "marks": 4,
-   "answer": "沙发在门旁边。 shāfā zài mén pángbiān. 浴室在花园旁边。 yùshì zài huāyuán pángbiān.",
-   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
-  },
-  {
-   "topic": "2.6",
-   "q": "Write in Chinese characters and pinyin: \"This is a banana.\"",
-   "marks": 2,
-   "answer": "这是香蕉。 zhè shì xiāngjiāo.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.5",
-   "q": "Write the pinyin and the English meaning of 玩 and 右边.",
-   "marks": 2,
-   "answer": "玩: wán, to play. 右边: yòubian, right side.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.8",
-   "q": "Write the pinyin and the English meaning of 小 and 天气.",
-   "marks": 2,
-   "answer": "小: xiǎo, small. 天气: tiānqì, weather.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.9",
-   "q": "Write the pinyin and the English meaning of 浴室 and 四.",
-   "marks": 2,
-   "answer": "浴室: yùshì, bathroom. 四: sì, four.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "2.2",
-   "q": "Explain one way each of these family members might help you: 妈妈 and 哥哥. Then say one way you help them.",
-   "marks": 4,
-   "answer": "For example: mum cooks and cares for us; an older brother helps with homework; I help by washing the dishes.",
-   "working": "1 mark for each helper, 1 mark for how, 1 mark for your own help. Any sensible answer."
-  },
-  {
-   "topic": "1.2",
-   "q": "Write these two sentences in Chinese characters and pinyin: \"This is my older sister.\" and \"Who is this?\"",
-   "marks": 4,
-   "answer": "这是我姐姐。 zhè shì wǒ jiějie. 这是谁? zhè shì shéi?",
-   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
+   "answer": "chuáng 床 is a bed and chuāng 窗 is a window. The tones are different.",
+   "working": "1 mark for each meaning."
   },
   {
    "topic": "1.3",
-   "q": "Write the pinyin and the English meaning of 猫 and 膝盖.",
+   "q": "Write in Chinese characters and pinyin: \"Where is the television?\"",
    "marks": 2,
-   "answer": "猫: māo, cat. 膝盖: xīgài, knee.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "3.8",
-   "q": "Write in Chinese characters and pinyin: \"Today there are clouds.\"",
-   "marks": 2,
-   "answer": "今天有云。 jīntiān yǒu yún.",
+   "answer": "电视在哪儿? diànshì zài nǎr?",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "2.3",
-   "q": "Write in Chinese characters and pinyin: \"The television is on the table.\"",
-   "marks": 3,
-   "answer": "电视在桌子上。 diànshì zài zhuōzi shàng.",
-   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
-  },
-  {
-   "topic": "2.8",
-   "q": "Read and translate the chant line: 风来了,雨来了,雪也来了。",
-   "marks": 3,
-   "answer": "Fēng lái le, yǔ lái le, xuě yě lái le. The wind has come, the rain has come, the snow has come too.",
-   "working": "1 mark for pinyin, 2 marks for meaning."
-  },
-  {
-   "topic": "1.5",
-   "q": "Write in Chinese characters and pinyin: \"Happy birthday to you!\"",
-   "marks": 3,
-   "answer": "祝你生日快乐! zhù nǐ shēngrì kuàilè!",
-   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
-  },
-  {
-   "topic": "3.2",
-   "q": "Write two sentences about your family with 这是, and give pinyin.",
-   "marks": 3,
-   "answer": "For example 这是我爸爸。 zhè shì wǒ bàba. 这是我妈妈。 zhè shì wǒ māma.",
-   "working": "1 mark for each sentence, 1 mark for correct pinyin."
   },
   {
    "topic": "3.7",
-   "q": "Describe how to make the character 手 using local materials.",
-   "marks": 3,
-   "answer": "Choose pebbles, sand, maize grains, sticks or plasticine. Lay out each stroke in the correct order: 撇, 横, 横, 竖钩. Check the order with a partner.",
-   "working": "1 mark for the material, 1 mark for the order, 1 mark for checking."
-  },
-  {
-   "topic": "3.1",
-   "q": "Read the pinyin and write the English meaning: nǐ ne?",
+   "q": "Write in Chinese characters and pinyin: \"I use my mouth to speak.\"",
    "marks": 2,
-   "answer": "And you?",
-   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
-  },
-  {
-   "topic": "1.2",
-   "q": "Write in Chinese characters and pinyin: \"This is my older sister.\"",
-   "marks": 2,
-   "answer": "这是我姐姐。 zhè shì wǒ jiějie.",
+   "answer": "我用嘴巴说。 wǒ yòng zuǐba shuō.",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
-   "topic": "3.5",
-   "q": "Write in Chinese characters and pinyin: \"We sing.\"",
+   "topic": "3.9",
+   "q": "Give one challenge of writing Chinese and one way to overcome it.",
    "marks": 2,
-   "answer": "我们唱歌。 wǒmen chànggē.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+   "answer": "For example, remembering stroke order; practise a few characters each day and use flashcards.",
+   "working": "1 mark for each."
   },
   {
-   "topic": "2.9",
-   "q": "What is the main idea of a text and what are details? Give a short example.",
-   "marks": 3,
-   "answer": "The main idea is what the whole text is about, for example \"my home\". Details are facts that support it, for example \"there is a sofa in the living room\".",
-   "working": "1 mark for main idea, 1 mark for details, 1 mark for the example."
-  },
-  {
-   "topic": "3.8",
-   "q": "Write a five-sentence weather diary for one week in Chinese with pinyin.",
-   "marks": 5,
-   "answer": "星期一,太阳很大。星期二,有云。星期三,下雨。星期四,风很大。星期五,太阳很大。 xīngqīyī, tàiyáng hěn dà. xīngqī'èr, yǒu yún. xīngqīsān, xià yǔ. xīngqīsì, fēng hěn dà. xīngqīwǔ, tàiyáng hěn dà.",
-   "working": "1 mark for each day with weather and pinyin."
-  },
-  {
-   "topic": "1.4",
-   "q": "Write in Chinese characters and pinyin: \"On Friday, go to the mosque.\"",
-   "marks": 3,
-   "answer": "星期五,去清真寺。 xīngqīwǔ, qù qīngzhēnsì.",
-   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
-  },
-  {
-   "topic": "3.4",
-   "q": "Write the pinyin and the English meaning of 星期二, 雨 and 五.",
-   "marks": 3,
-   "answer": "星期二: xīngqī'èr, Tuesday. 雨: yǔ, rain. 五: wǔ, five.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "2.6",
-   "q": "Write the pinyin and the English meaning of 饼干 and 快乐.",
+   "topic": "2.1",
+   "q": "Write in Chinese characters and pinyin: \"Hello, teacher!\"",
    "marks": 2,
-   "answer": "饼干: bǐnggān, biscuits. 快乐: kuàilè, happy.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.6",
-   "q": "Write the pinyin and the English meaning of 喝 and 饮料.",
-   "marks": 2,
-   "answer": "喝: hē, to drink. 饮料: yǐnliào, drinks.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.6",
-   "q": "Read the pinyin and write the English meaning: zhè shì xiāngjiāo.",
-   "marks": 2,
-   "answer": "This is a banana.",
-   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
-  },
-  {
-   "topic": "1.1",
-   "q": "Write these two sentences in Chinese characters and pinyin: \"Hello!\" and \"Hello! (polite)\"",
-   "marks": 4,
-   "answer": "你好! nǐ hǎo! 您好! nín hǎo!",
-   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
-  },
-  {
-   "topic": "2.3",
-   "q": "Write in Chinese characters and pinyin: \"The television is in the living room.\"",
-   "marks": 2,
-   "answer": "电视在客厅。 diànshì zài kètīng.",
+   "answer": "老师好! lǎoshī hǎo!",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
@@ -695,11 +380,326 @@
    "working": "1 mark for each."
   },
   {
-   "topic": "3.4",
-   "q": "Write the pinyin and the English meaning of 六, 送 and 没有.",
+   "topic": "1.8",
+   "q": "Write the five weather words in pinyin.",
    "marks": 3,
-   "answer": "六: liù, six. 送: sòng, to give (a gift). 没有: méiyǒu, there is not.",
+   "answer": "tàiyáng, yún, fēng, yǔ, xuě.",
+   "working": "1 mark for two, 2 marks for four, 3 marks for all five."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write the pinyin and the English meaning of 客厅 and 咖啡.",
+   "marks": 2,
+   "answer": "客厅: kètīng, living room. 咖啡: kāfēi, coffee.",
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Give three ways to make a reading club work well.",
+   "marks": 3,
+   "answer": "Be kind and do not laugh at mistakes, listen while others read, take turns fairly and help others who find reading hard.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.4",
+   "q": "Read the pinyin and write the English meaning: míngtiān shì xīngqīsì.",
+   "marks": 2,
+   "answer": "Tomorrow is Thursday.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+  },
+  {
+   "topic": "2.4",
+   "q": "Write the pinyin and the English meaning of 九 and 号.",
+   "marks": 2,
+   "answer": "九: jiǔ, nine. 号: hào, date (day of the month).",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "3.5",
+   "q": "Write in Chinese characters and pinyin: \"We sing.\"",
+   "marks": 2,
+   "answer": "我们唱歌。 wǒmen chànggē.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "2.5",
+   "q": "Write the pinyin and the English meaning of 祝 and 电视.",
+   "marks": 2,
+   "answer": "祝: zhù, to wish. 电视: diànshì, television.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "2.8",
+   "q": "Write the pinyin and the English meaning of 风 and 鸡肉.",
+   "marks": 2,
+   "answer": "风: fēng, wind. 鸡肉: jīròu, chicken (meat).",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Write the Chinese for \"I laugh\" and \"I cry\" with pinyin.",
+   "marks": 2,
+   "answer": "我笑 wǒ xiào; 我哭 wǒ kū.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.8",
+   "q": "Explain how to pause when reading: what does a comma mean and what does a full stop mean?",
+   "marks": 3,
+   "answer": "A comma is a short pause and a full stop is a longer pause, so you can breathe and the listener can follow.",
+   "working": "1 mark for comma, 1 mark for full stop, 1 mark for the reason."
+  },
+  {
+   "topic": "3.5",
+   "q": "Write the pinyin and the English meaning of 盘子, 爱 and 唱歌.",
+   "marks": 3,
+   "answer": "盘子: pánzi, plate. 爱: ài, love. 唱歌: chànggē, to sing.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "4.1",
+   "q": "Give three things to do when planning a showcase item.",
+   "marks": 3,
+   "answer": "Choose an item, decide who does what, list the materials and words needed, practise several times.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.6",
+   "q": "Write these two sentences in Chinese characters and pinyin: \"What is this?\" and \"This is a banana.\"",
+   "marks": 4,
+   "answer": "这是什么? zhè shì shénme? 这是香蕉。 zhè shì xiāngjiāo.",
+   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write in Chinese characters and pinyin: \"That is my younger brother.\"",
+   "marks": 2,
+   "answer": "那是我弟弟。 nà shì wǒ dìdi.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "1.5",
+   "q": "Write in Chinese characters and pinyin: \"We cut the cake.\"",
+   "marks": 2,
+   "answer": "我们切蛋糕。 wǒmen qiē dàngāo.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "3.1",
+   "q": "Read the pinyin and write the English meaning: nǐ ne?",
+   "marks": 2,
+   "answer": "And you?",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+  },
+  {
+   "topic": "1.7",
+   "q": "Answer the riddle in Chinese with pinyin: \"I help you hear. I am on the sides of your head.\"",
+   "marks": 2,
+   "answer": "耳朵 ěrduo (ears).",
+   "working": "1 mark for the word and 1 mark for the pinyin."
+  },
+  {
+   "topic": "1.2",
+   "q": "Write in Chinese characters and pinyin: \"I love you.\"",
+   "marks": 2,
+   "answer": "我爱你。 wǒ ài nǐ.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "3.8",
+   "q": "Write in Chinese characters and pinyin: \"Today there are clouds.\"",
+   "marks": 2,
+   "answer": "今天有云。 jīntiān yǒu yún.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "1.7",
+   "q": "Write the Chinese words for head, hand and foot, with pinyin.",
+   "marks": 3,
+   "answer": "头 tóu, 手 shǒu, 脚 jiǎo.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.1",
+   "q": "Write the stroke order of 大 in Chinese stroke names.",
+   "marks": 2,
+   "answer": "横, 撇, 捺.",
+   "working": "2 marks for all three in order, 1 mark for two."
+  },
+  {
+   "topic": "2.4",
+   "q": "Give the Chinese for mosque and church with pinyin.",
+   "marks": 2,
+   "answer": "清真寺 qīngzhēnsì and 教堂 jiàotáng.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.9",
+   "q": "Write the pinyin and the English meaning of 旁边 and 您好.",
+   "marks": 2,
+   "answer": "旁边: pángbiān, beside. 您好: nín hǎo, hello (polite).",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "3.1",
+   "q": "State three rules of stroke order and give an example of each.",
+   "marks": 3,
+   "answer": "Top to bottom (三), left to right (好: 女 then 子), horizontal before vertical (十), 撇 before 捺 (人).",
+   "working": "1 mark for each rule with an example."
+  },
+  {
+   "topic": "2.8",
+   "q": "Write in Chinese characters and pinyin: \"The wind is very light.\"",
+   "marks": 2,
+   "answer": "风很小。 fēng hěn xiǎo.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "1.9",
+   "q": "Write these two sentences in Chinese characters and pinyin: \"The sofa is beside the door.\" and \"The bathroom is beside the garden.\"",
+   "marks": 4,
+   "answer": "沙发在门旁边。 shāfā zài mén pángbiān. 浴室在花园旁边。 yùshì zài huāyuán pángbiān.",
+   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
+  },
+  {
+   "topic": "1.4",
+   "q": "Read the pinyin and write the English meaning: wǒ xīngqīsān qù xuéxiào.",
+   "marks": 2,
+   "answer": "On Wednesday I go to school.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+  },
+  {
+   "topic": "3.1",
+   "q": "Write in Chinese characters and pinyin: \"My name is Xiaoming.\"",
+   "marks": 2,
+   "answer": "我叫小明。 wǒ jiào Xiǎomíng.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "2.6",
+   "q": "Write the pinyin and the English meaning of 香蕉 and 饼.",
+   "marks": 2,
+   "answer": "香蕉: xiāngjiāo, banana. 饼: bǐng, flat bread.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "1.1",
+   "q": "Describe how to say the initials b and p differently, and give one more pair like them.",
+   "marks": 4,
+   "answer": "b is said without a puff of air and p with a puff of air. Another pair is d and t (or g and k). You can test with a paper strip, which moves more with p.",
+   "working": "1 mark for b, 1 mark for p, 1 mark for another pair, 1 mark for the paper test or description."
+  },
+  {
+   "topic": "3.9",
+   "q": "Write the pinyin and the English meaning of 上面, 周 and 同学们.",
+   "marks": 3,
+   "answer": "上面: shàngmiàn, above. 周: zhōu, week (short form). 同学们: tóngxuémen, classmates.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "1.5",
+   "q": "Write the pinyin and the English meaning of 礼物 and 冰箱.",
+   "marks": 2,
+   "answer": "礼物: lǐwù, gift. 冰箱: bīngxiāng, fridge.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Write the pinyin and the English meaning of 听 and 雨.",
+   "marks": 2,
+   "answer": "听: tīng, to listen, to hear. 雨: yǔ, rain.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "3.5",
+   "q": "Read the pinyin and write the English meaning: wǒmen qiē dàngāo.",
+   "marks": 2,
+   "answer": "We cut the cake.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+  },
+  {
+   "topic": "2.1",
+   "q": "Write in Chinese characters and pinyin: \"Hello! (polite)\"",
+   "marks": 2,
+   "answer": "您好! nín hǎo!",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "2.3",
+   "q": "Write in Chinese characters and pinyin: \"The television is in the living room.\"",
+   "marks": 2,
+   "answer": "电视在客厅。 diànshì zài kètīng.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "2.2",
+   "q": "Write a five-sentence description of your family in Chinese with pinyin, using 这是 and 我家有.",
+   "marks": 5,
+   "answer": "我家有五口人。这是我爸爸。这是我妈妈。这是我哥哥。这是我。 wǒ jiā yǒu wǔ kǒu rén. zhè shì wǒ bàba. zhè shì wǒ māma. zhè shì wǒ gēge. zhè shì wǒ.",
+   "working": "1 mark for each sentence, with pinyin and correct tones."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write in Chinese characters and pinyin: \"Hello!\"",
+   "marks": 2,
+   "answer": "你好! nǐ hǎo!",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write in Chinese characters and pinyin: \"Goodbye!\"",
+   "marks": 2,
+   "answer": "再见! zàijiàn!",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "1.1",
+   "q": "Explain why tones are important in Mandarin. Give one example with meanings.",
+   "marks": 3,
+   "answer": "The tone changes the meaning of a word. For example mā means mother but mǎ means horse.",
+   "working": "1 mark for saying tone changes meaning, 2 marks for a correct pair with meanings."
+  },
+  {
+   "topic": "3.7",
+   "q": "Write the stroke names of 手 in order.",
+   "marks": 3,
+   "answer": "撇, 横, 横, 竖钩.",
+   "working": "1 mark for two, 2 marks for three, 3 marks for all four."
+  },
+  {
+   "topic": "1.9",
+   "q": "Give three tips for following spoken instructions well.",
+   "marks": 3,
+   "answer": "Listen to the whole instruction; catch the key words; ask for a repeat if unsure; show the answer by pointing or drawing.",
+   "working": "1 mark for each tip."
+  },
+  {
+   "topic": "2.8",
+   "q": "Write in Chinese characters and pinyin: \"This is the sun.\"",
+   "marks": 2,
+   "answer": "这是太阳。 zhè shì tàiyáng.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "1.9",
+   "q": "Write in Chinese characters and pinyin: \"The window is above the sofa.\"",
+   "marks": 3,
+   "answer": "窗户在沙发上面。 chuānghu zài shāfā shàngmiàn.",
+   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+  },
+  {
+   "topic": "1.5",
+   "q": "Write in Chinese characters and pinyin: \"Happy birthday to you!\"",
+   "marks": 3,
+   "answer": "祝你生日快乐! zhù nǐ shēngrì kuàilè!",
+   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+  },
+  {
+   "topic": "3.1",
+   "q": "Punctuate the sentences: 你好 (greeting), 我叫小明 (statement), 你呢 (question). Write the full sentences.",
+   "marks": 2,
+   "answer": "你好! 我叫小明。 你呢?",
+   "working": "1 mark for the two correct marks, 2 marks for all three."
   }
  ]
 }

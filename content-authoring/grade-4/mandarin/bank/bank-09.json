@@ -2,25 +2,193 @@
  "mcq": [],
  "short": [
   {
-   "topic": "2.6",
-   "q": "Write a short text of five sentences saying what you eat for each meal, in Chinese with pinyin.",
-   "marks": 5,
-   "answer": "我早饭吃饼,喝茶。我午饭吃米饭和鸡肉。我晚饭吃米饭和菠菜。我喜欢水果。 wǒ zǎofàn chī bǐng, hē chá. wǒ wǔfàn chī mǐfàn hé jīròu. wǒ wǎnfàn chī mǐfàn hé bōcài. wǒ xǐhuan shuǐguǒ.",
-   "working": "1 mark for each sentence with correct verbs and pinyin."
+   "topic": "1.4",
+   "q": "Write the numbers 1 to 5 in Chinese characters.",
+   "marks": 2,
+   "answer": "一, 二, 三, 四, 五.",
+   "working": "2 marks for all five correct, 1 mark for three or four."
   },
   {
-   "topic": "1.1",
-   "q": "Say where the tone mark goes in these syllables: hǎo and liù.",
-   "marks": 2,
-   "answer": "hǎo: on a. liù: on u (the second of iu).",
-   "working": "1 mark for each."
+   "topic": "3.1",
+   "q": "Write the eight basic strokes' names in Chinese with pinyin. Any six earn full marks.",
+   "marks": 3,
+   "answer": "横 héng, 竖 shù, 撇 piě, 捺 nà, 点 diǎn, 提 tí, 横折 héngzhé, 竖钩 shùgōu.",
+   "working": "1 mark for two, 2 marks for four, 3 marks for six or more."
   },
   {
    "topic": "3.3",
-   "q": "Write the pinyin and the English meaning of 冰箱 and 用.",
+   "q": "Write a plan for a model house: name four rooms or things in Chinese with pinyin and write one sentence about it.",
+   "marks": 4,
+   "answer": "For example 厨房 chúfáng, 客厅 kètīng, 卧室 wòshì, 床 chuáng. Sentence: 床在卧室。",
+   "working": "1 mark for each name with pinyin, 1 mark for a correct sentence."
+  },
+  {
+   "topic": "1.2",
+   "q": "Write in Chinese characters and pinyin: \"This is my father.\"",
    "marks": 2,
-   "answer": "冰箱: bīngxiāng, fridge. 用: yòng, to use.",
+   "answer": "这是我爸爸。 zhè shì wǒ bàba.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "3.5",
+   "q": "Give three tips for neat Chinese handwriting.",
+   "marks": 3,
+   "answer": "Keep characters the same size, keep strokes firm and straight, leave equal spaces, write in the right stroke order, do not join separate strokes.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.9",
+   "q": "Draw a plan of a home with a garden, door, window and sofa and write four sentences about where things are, in Chinese with pinyin.",
+   "marks": 5,
+   "answer": "For example 门在左边。 mén zài zuǒbian. 沙发在门旁边。 shāfā zài mén pángbiān. 窗户在沙发上面。 chuānghu zài shāfā shàngmiàn. 花园在房子右边。 huāyuán zài fángzi yòubian.",
+   "working": "1 mark for the plan and 1 mark for each correct sentence."
+  },
+  {
+   "topic": "2.8",
+   "q": "Tell how to tell 大 dà from 太 tài by looking.",
+   "marks": 2,
+   "answer": "太 has an extra dot at the bottom right.",
+   "working": "1 mark for the dot and 1 mark for naming the two characters correctly."
+  },
+  {
+   "topic": "2.6",
+   "q": "Write in Chinese with pinyin: \"I like to drink tea.\"",
+   "marks": 2,
+   "answer": "我喜欢喝茶。 wǒ xǐhuan hē chá.",
+   "working": "1 mark for the characters and 1 mark for the pinyin."
+  },
+  {
+   "topic": "3.6",
+   "q": "Write the pinyin and the English meaning of 牛奶, 大 and 昨天.",
+   "marks": 3,
+   "answer": "牛奶: niúnǎi, milk. 大: dà, big. 昨天: zuótiān, yesterday.",
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write in Chinese characters and pinyin: \"The fridge is in the kitchen.\"",
+   "marks": 2,
+   "answer": "冰箱在厨房。 bīngxiāng zài chúfáng.",
+   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
+  },
+  {
+   "topic": "3.4",
+   "q": "Write the pinyin and the English meaning of 七 and 云.",
+   "marks": 2,
+   "answer": "七: qī, seven. 云: yún, cloud.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "1.6",
+   "q": "Explain when we use 吃 and when we use 喝.",
+   "marks": 2,
+   "answer": "We use 吃 with foods to say eat, and we use 喝 with drinks to say drink.",
+   "working": "1 mark for each verb."
+  },
+  {
+   "topic": "1.9",
+   "q": "Write in Chinese with pinyin: \"The sofa is beside the door.\"",
+   "marks": 2,
+   "answer": "沙发在门旁边。 shāfā zài mén pángbiān.",
+   "working": "1 mark for the characters and 1 mark for the pinyin."
+  },
+  {
+   "topic": "1.4",
+   "q": "Write in Chinese characters and pinyin: \"On Friday, go to the mosque.\"",
+   "marks": 3,
+   "answer": "星期五,去清真寺。 xīngqīwǔ, qù qīngzhēnsì.",
+   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+  },
+  {
+   "topic": "2.5",
+   "q": "Write in Chinese characters and pinyin: \"My friend gives me a gift.\"",
+   "marks": 3,
+   "answer": "朋友送我礼物。 péngyou sòng wǒ lǐwù.",
+   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+  },
+  {
+   "topic": "3.5",
+   "q": "Write the pinyin and the English meaning of 来 and 笑.",
+   "marks": 2,
+   "answer": "来: lái, to come. 笑: xiào, to laugh, to smile.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "2.7",
+   "q": "Explain the difference between skimming and scanning.",
+   "marks": 2,
+   "answer": "Skimming is reading quickly to get the main idea. Scanning is looking for one particular word or fact.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.6",
+   "q": "Write the pinyin and the English meaning of 牛肉 and 女儿.",
+   "marks": 2,
+   "answer": "牛肉: niúròu, beef. 女儿: nǚ'ér, daughter.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "3.6",
+   "q": "Explain why a healthy plate should have food from several groups and name two groups with their Chinese names.",
+   "marks": 4,
+   "answer": "Each group does a different job. Vegetables and fruit (蔬菜, 水果) give vitamins, rice (米饭) gives energy, and meat (肉) helps the body grow.",
+   "working": "1 mark for saying groups do different jobs, 1 mark for each group named, 1 mark for the job."
+  },
+  {
+   "topic": "1.6",
+   "q": "Why is a healthy plate made from several food groups? Give an example of a food from two groups.",
+   "marks": 3,
+   "answer": "Each group helps the body in a different way. For example rice gives energy and spinach gives vitamins.",
+   "working": "1 mark for saying groups do different jobs, 2 marks for examples."
+  },
+  {
+   "topic": "1.3",
+   "q": "Write these two sentences in Chinese characters and pinyin: \"The bed is in the bedroom.\" and \"The television is on the table.\"",
+   "marks": 4,
+   "answer": "床在卧室。 chuáng zài wòshì. 电视在桌子上。 diànshì zài zhuōzi shàng.",
+   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
+  },
+  {
+   "topic": "2.6",
+   "q": "Read the pinyin and write the English meaning: wǒ xǐhuan hē chá.",
+   "marks": 2,
+   "answer": "I like to drink tea.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write in Chinese characters and pinyin: \"The chair is under the table.\"",
+   "marks": 3,
+   "answer": "椅子在桌子下。 yǐzi zài zhuōzi xià.",
+   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+  },
+  {
+   "topic": "2.3",
+   "q": "Write the pinyin and the English meaning of 椅子 and 谁.",
+   "marks": 2,
+   "answer": "椅子: yǐzi, chair. 谁: shéi, who.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "1.4",
+   "q": "Name the days of the week from Monday to Wednesday in Chinese with pinyin.",
+   "marks": 3,
+   "answer": "星期一 xīngqīyī, 星期二 xīngqī'èr, 星期三 xīngqīsān.",
+   "working": "1 mark for each day."
+  },
+  {
+   "topic": "2.4",
+   "q": "Write the pinyin and the English meaning of 星期天 and 早上好.",
+   "marks": 2,
+   "answer": "星期天: xīngqītiān, Sunday. 早上好: zǎoshang hǎo, good morning.",
+   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+  },
+  {
+   "topic": "1.8",
+   "q": "Read the pinyin and write the English meaning: jīntiān xià yǔ.",
+   "marks": 2,
+   "answer": "Today it rains.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
   },
   {
    "topic": "3.2",
@@ -30,95 +198,25 @@
    "working": "1 mark for the family size sentence, 2 marks for three correct sentences, 1 mark for pinyin, 1 mark for punctuation."
   },
   {
-   "topic": "1.8",
-   "q": "Write in Chinese characters and pinyin: \"The wind is very strong.\"",
+   "topic": "2.5",
+   "q": "Write the pinyin and the English meaning of 送 and 床.",
    "marks": 2,
-   "answer": "风很大。 fēng hěn dà.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.1",
-   "q": "Punctuate the sentences: 你好 (greeting), 我叫小明 (statement), 你呢 (question). Write the full sentences.",
-   "marks": 2,
-   "answer": "你好! 我叫小明。 你呢?",
-   "working": "1 mark for the two correct marks, 2 marks for all three."
-  },
-  {
-   "topic": "3.5",
-   "q": "Write the pinyin and the English meaning of 蛋糕 and 椅子.",
-   "marks": 2,
-   "answer": "蛋糕: dàngāo, cake. 椅子: yǐzi, chair.",
+   "answer": "送: sòng, to give (a gift). 床: chuáng, bed.",
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
-   "topic": "1.7",
-   "q": "Write the Chinese words for head, hand and foot, with pinyin.",
-   "marks": 3,
-   "answer": "头 tóu, 手 shǒu, 脚 jiǎo.",
-   "working": "1 mark for each."
-  },
-  {
-   "topic": "1.2",
-   "q": "Write two strategies for speaking Chinese clearly.",
-   "marks": 3,
-   "answer": "Listen first and copy the tone with your hand; say it slowly then faster; record yourself and compare.",
-   "working": "1 mark for each strategy, 1 mark for explaining how it helps."
-  },
-  {
-   "topic": "2.2",
-   "q": "Write in Chinese characters and pinyin: \"Who is this?\"",
+   "topic": "3.3",
+   "q": "Write in Chinese characters and pinyin: \"There is a bed in the bedroom.\"",
    "marks": 2,
-   "answer": "这是谁? zhè shì shéi?",
+   "answer": "卧室里有床。 wòshì lǐ yǒu chuáng.",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
-   "topic": "3.4",
-   "q": "Write the pinyin and the English meaning of 周, 米饭 and 下面.",
-   "marks": 3,
-   "answer": "周: zhōu, week (short form). 米饭: mǐfàn, cooked rice. 下面: xiàmiàn, below.",
+   "topic": "2.7",
+   "q": "Write the pinyin and the English meaning of 说 and 再见.",
+   "marks": 2,
+   "answer": "说: shuō, to speak. 再见: zàijiàn, goodbye.",
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "2.4",
-   "q": "Give the Chinese for mosque and church with pinyin.",
-   "marks": 2,
-   "answer": "清真寺 qīngzhēnsì and 教堂 jiàotáng.",
-   "working": "1 mark for each."
-  },
-  {
-   "topic": "1.2",
-   "q": "Give the Mandarin words for older brother, younger brother and younger sister, with pinyin.",
-   "marks": 3,
-   "answer": "哥哥 gēge, 弟弟 dìdi, 妹妹 mèimei.",
-   "working": "1 mark for each word with pinyin."
-  },
-  {
-   "topic": "2.3",
-   "q": "Read the pinyin and write the English meaning: wòshì lǐ yǒu chuáng.",
-   "marks": 2,
-   "answer": "There is a bed in the bedroom.",
-   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
-  },
-  {
-   "topic": "2.3",
-   "q": "Write the difference between a statement and a question when reading aloud, with an example.",
-   "marks": 3,
-   "answer": "A statement ends a little lower, like 电视在客厅。 A question ends a little higher, like 电视在哪儿? Every syllable keeps its tone.",
-   "working": "1 mark for each and 1 mark for keeping the tones."
-  },
-  {
-   "topic": "3.4",
-   "q": "Write a sentence about what you do on Monday and one about what you do on Sunday, with pinyin.",
-   "marks": 4,
-   "answer": "For example 我星期一去学校。 wǒ xīngqīyī qù xuéxiào. 我星期天去教堂。 wǒ xīngqītiān qù jiàotáng. (Any correct sentences.)",
-   "working": "2 marks for each sentence."
-  },
-  {
-   "topic": "1.1",
-   "q": "Read the pinyin and write the English meaning: xièxie!",
-   "marks": 2,
-   "answer": "Thank you!",
-   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
   },
   {
    "topic": "1.1",
@@ -129,150 +227,52 @@
   },
   {
    "topic": "1.1",
-   "q": "Write these two sentences in Chinese characters and pinyin: \"Goodbye!\" and \"Thank you!\"",
-   "marks": 4,
-   "answer": "再见! zàijiàn! 谢谢! xièxie!",
-   "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
-  },
-  {
-   "topic": "2.3",
-   "q": "Write the pinyin and the English meaning of 房间 and 摸.",
-   "marks": 2,
-   "answer": "房间: fángjiān, room. 摸: mō, to touch.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.2",
-   "q": "Write the question for \"Who is this?\" and answer it with \"This is my father\", with pinyin.",
-   "marks": 2,
-   "answer": "这是谁? zhè shì shéi? 这是我爸爸。 zhè shì wǒ bàba.",
-   "working": "1 mark for the question and 1 mark for the answer."
-  },
-  {
-   "topic": "3.3",
-   "q": "Write in Chinese characters and pinyin: \"The fridge is in the kitchen.\"",
-   "marks": 2,
-   "answer": "冰箱在厨房。 bīngxiāng zài chúfáng.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.3",
-   "q": "Write the difference in meaning between chuáng and chuāng.",
-   "marks": 2,
-   "answer": "chuáng 床 is a bed and chuāng 窗 is a window. The tones are different.",
-   "working": "1 mark for each meaning."
-  },
-  {
-   "topic": "1.4",
-   "q": "Write the pinyin and the English meaning of 学校 and 厕所.",
-   "marks": 2,
-   "answer": "学校: xuéxiào, school. 厕所: cèsuǒ, toilet.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "3.7",
-   "q": "Write the pinyin and the English meaning of 嘴巴, 去 and 老师.",
+   "q": "Break the syllables hǎo, jiào and nǐ into initial and final.",
    "marks": 3,
-   "answer": "嘴巴: zuǐba, mouth. 去: qù, to go. 老师: lǎoshī, teacher.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.8",
-   "q": "Write the five weather words in pinyin.",
-   "marks": 3,
-   "answer": "tàiyáng, yún, fēng, yǔ, xuě.",
-   "working": "1 mark for two, 2 marks for four, 3 marks for all five."
-  },
-  {
-   "topic": "2.7",
-   "q": "Write in Chinese characters and pinyin: \"I use my ears to hear.\"",
-   "marks": 2,
-   "answer": "我用耳朵听。 wǒ yòng ěrduo tīng.",
-   "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
-  },
-  {
-   "topic": "3.6",
-   "q": "Write the pinyin and the English meaning of 菠菜 and 星期一.",
-   "marks": 2,
-   "answer": "菠菜: bōcài, spinach. 星期一: xīngqīyī, Monday.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "3.9",
-   "q": "Rearrange and translate: 浴室 / 花园 / 旁边 / 在.",
-   "marks": 3,
-   "answer": "浴室在花园旁边。 The bathroom is beside the garden.",
-   "working": "1 mark for the order, 1 mark for 。, 1 mark for the meaning."
-  },
-  {
-   "topic": "3.5",
-   "q": "Write in Chinese characters and pinyin: \"My birthday is on 5 March.\"",
-   "marks": 3,
-   "answer": "我的生日是三月五号。 wǒ de shēngrì shì sān yuè wǔ hào.",
-   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
-  },
-  {
-   "topic": "1.4",
-   "q": "Read the pinyin and write the English meaning: wǒ xīngqīsān qù xuéxiào.",
-   "marks": 2,
-   "answer": "On Wednesday I go to school.",
-   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
-  },
-  {
-   "topic": "3.1",
-   "q": "Write the pinyin and the English meaning of 同学们 and 二.",
-   "marks": 2,
-   "answer": "同学们: tóngxuémen, classmates. 二: èr, two.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
-  },
-  {
-   "topic": "1.4",
-   "q": "Write the numbers 1 to 5 in Chinese characters.",
-   "marks": 2,
-   "answer": "一, 二, 三, 四, 五.",
-   "working": "2 marks for all five correct, 1 mark for three or four."
+   "answer": "hǎo = h + ao; jiào = j + iao; nǐ = n + i.",
+   "working": "1 mark for each correct syllable."
   },
   {
    "topic": "3.4",
-   "q": "Write in characters the days Friday, Saturday and Sunday.",
+   "q": "Write in Chinese characters and pinyin: \"Tomorrow is Thursday.\"",
    "marks": 3,
-   "answer": "星期五, 星期六, 星期天.",
-   "working": "1 mark for each."
+   "answer": "明天是星期四。 míngtiān shì xīngqīsì.",
+   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
+  },
+  {
+   "topic": "2.2",
+   "q": "Read the pinyin and write the English meaning: nà shì wǒ dìdi.",
+   "marks": 2,
+   "answer": "That is my younger brother.",
+   "working": "1 mark for the general meaning and 1 mark for all the key words correct."
+  },
+  {
+   "topic": "3.7",
+   "q": "Write five sentences about body parts and what they do, with pinyin.",
+   "marks": 5,
+   "answer": "我用眼睛看。我用耳朵听。我用嘴巴说。我有两只手。我有两只脚。 wǒ yòng yǎnjing kàn. wǒ yòng ěrduo tīng. wǒ yòng zuǐba shuō. wǒ yǒu liǎng zhī shǒu. wǒ yǒu liǎng zhī jiǎo.",
+   "working": "1 mark for each sentence with correct pinyin."
+  },
+  {
+   "topic": "2.3",
+   "q": "Write in Chinese characters and pinyin: \"There is a television in the living room.\"",
+   "marks": 3,
+   "answer": "客厅里有电视。 kètīng lǐ yǒu diànshì.",
+   "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
   },
   {
    "topic": "1.6",
-   "q": "Why is a healthy plate made from several food groups? Give an example of a food from two groups.",
-   "marks": 3,
-   "answer": "Each group helps the body in a different way. For example rice gives energy and spinach gives vitamins.",
-   "working": "1 mark for saying groups do different jobs, 2 marks for examples."
+   "q": "Write a dialogue of five lines in Chinese with pinyin between two learners about a food picture: ask what it is, answer, ask if they like it, and reply.",
+   "marks": 5,
+   "answer": "A: 这是什么? zhè shì shénme? B: 这是香蕉。 zhè shì xiāngjiāo. A: 你喜欢吃香蕉吗? nǐ xǐhuan chī xiāngjiāo ma? B: 我喜欢。 wǒ xǐhuan. A: 谢谢! xièxie!",
+   "working": "1 mark for each line with pinyin."
   },
   {
-   "topic": "1.1",
-   "q": "Explain why tones are important in Mandarin. Give one example with meanings.",
-   "marks": 3,
-   "answer": "The tone changes the meaning of a word. For example mā means mother but mǎ means horse.",
-   "working": "1 mark for saying tone changes meaning, 2 marks for a correct pair with meanings."
-  },
-  {
-   "topic": "3.6",
-   "q": "Add punctuation to: 我喜欢芒果香蕉葡萄你呢",
-   "marks": 3,
-   "answer": "我喜欢芒果、香蕉、葡萄。你呢?",
-   "working": "1 mark for 、, 1 mark for 。, 1 mark for ?."
-  },
-  {
-   "topic": "2.4",
-   "q": "Explain what tone, volume and vocal projection mean when reading aloud.",
-   "marks": 3,
-   "answer": "Tone is the rise and fall of each syllable, volume is how loud you speak and projection is sending your voice to the back of the room without shouting.",
-   "working": "1 mark for each."
-  },
-  {
-   "topic": "3.8",
-   "q": "Write the pinyin and the English meaning of 雪, 葡萄 and 今天.",
-   "marks": 3,
-   "answer": "雪: xuě, snow. 葡萄: pútao, grapes. 今天: jīntiān, today.",
-   "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
+   "topic": "2.6",
+   "q": "Write a short text of five sentences saying what you eat for each meal, in Chinese with pinyin.",
+   "marks": 5,
+   "answer": "我早饭吃饼,喝茶。我午饭吃米饭和鸡肉。我晚饭吃米饭和菠菜。我喜欢水果。 wǒ zǎofàn chī bǐng, hē chá. wǒ wǔfàn chī mǐfàn hé jīròu. wǒ wǎnfàn chī mǐfàn hé bōcài. wǒ xǐhuan shuǐguǒ.",
+   "working": "1 mark for each sentence with correct verbs and pinyin."
   }
  ]
 }

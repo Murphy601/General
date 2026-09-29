@@ -1,1108 +1,40 @@
 {
  "mcq": [
   {
-   "topic": "2.4",
-   "q": "What does 星期六 (xīngqīliù) mean?",
-   "options": [
-    "Saturday",
-    "Church",
-    "Eight",
-    "Three"
-   ],
-   "answer": 0,
-   "explanation": "星期六 (xīngqīliù) means Saturday."
-  },
-  {
-   "topic": "3.6",
-   "q": "What does 晚饭 (wǎnfàn) mean?",
-   "options": [
-    "Snacks",
-    "Spinach",
-    "Biscuits",
-    "Dinner"
-   ],
-   "answer": 3,
-   "explanation": "晚饭 (wǎnfàn) means dinner."
-  },
-  {
-   "topic": "2.2",
-   "q": "What does the apostrophe in nǚ'ér do?",
-   "options": [
-    "It marks a question",
-    "It changes the tone",
-    "It shows where one syllable ends and the next starts",
-    "It means a light tone"
-   ],
-   "answer": 2,
-   "explanation": "The apostrophe separates nǚ and ér."
-  },
-  {
-   "topic": "3.4",
-   "q": "Which sentence means \"On Saturday I rest at home.\"?",
-   "options": [
-    "我星期三去学校。",
-    "星期天,去教堂。",
-    "星期五,去清真寺。",
-    "我星期六在家休息。"
-   ],
-   "answer": 3,
-   "explanation": "我星期六在家休息。 (wǒ xīngqīliù zài jiā xiūxi.) means \"On Saturday I rest at home.\"."
-  },
-  {
-   "topic": "3.8",
-   "q": "Which sentence means \"The rain is heavy.\"?",
-   "options": [
-    "雨很大。",
-    "今天天气很好。",
-    "风很大。",
-    "这是太阳。"
-   ],
-   "answer": 0,
-   "explanation": "雨很大。 (yǔ hěn dà.) means \"The rain is heavy.\"."
-  },
-  {
-   "topic": "3.7",
-   "q": "Which sentence means \"I use my mouth to speak.\"?",
-   "options": [
-    "我用眼睛看。",
-    "我用耳朵听。",
-    "我用嘴巴说。",
-    "我有两只眼睛。"
-   ],
-   "answer": 2,
-   "explanation": "我用嘴巴说。 (wǒ yòng zuǐba shuō.) means \"I use my mouth to speak.\"."
-  },
-  {
-   "topic": "1.1",
-   "q": "How many main tones does Mandarin have, not counting the neutral tone?",
-   "options": [
-    "Two",
-    "Four",
-    "Three",
-    "Six"
-   ],
-   "answer": 1,
-   "explanation": "Mandarin has four main tones: high level, rising, dipping and falling."
-  },
-  {
-   "topic": "1.5",
-   "q": "Which Chinese word means \"to play\"?",
-   "options": [
-    "玩 wán",
-    "蛋糕 dàngāo",
-    "他们 tāmen",
-    "切 qiē"
-   ],
-   "answer": 0,
-   "explanation": "玩 (wán) means to play."
-  },
-  {
-   "topic": "3.4",
-   "q": "Which sentence means \"Today is Wednesday\"?",
-   "options": [
-    "昨天是星期三。",
-    "明天是星期一。",
-    "今天是星期三。",
-    "今天是星期天。"
-   ],
-   "answer": 2,
-   "explanation": "今天 is today."
-  },
-  {
-   "topic": "3.1",
-   "q": "Which stroke rule is used when writing 好?",
-   "options": [
-    "Left part 女 before right part 子",
-    "Right before left",
-    "Top only",
-    "Bottom first"
-   ],
-   "answer": 0,
-   "explanation": "Write from left to right."
-  },
-  {
-   "topic": "4.1",
-   "q": "What should you check on your display before a showcase?",
-   "options": [
-    "Only the colour",
-    "Tone marks, stroke order, spelling and neat writing",
-    "Nothing",
-    "Only the size"
-   ],
-   "answer": 1,
-   "explanation": "Careful checking makes the display clear."
-  },
-  {
-   "topic": "3.8",
-   "q": "Which Chinese word means \"drought\"?",
-   "options": [
-    "云 yún",
-    "雨 yǔ",
-    "太阳 tàiyáng",
-    "干旱 gānhàn"
-   ],
-   "answer": 3,
-   "explanation": "干旱 (gānhàn) means drought."
-  },
-  {
-   "topic": "1.6",
-   "q": "Which is a good step for reading a sentence at a good pace?",
-   "options": [
-    "Read as fast as you can at once",
-    "Read slowly first, then join the words and speed up",
-    "Read only the first word",
-    "Read without looking"
-   ],
-   "answer": 1,
-   "explanation": "Slow reading first, then a natural speed."
-  },
-  {
-   "topic": "1.4",
-   "q": "What does 六 (liù) mean?",
-   "options": [
-    "Eight",
-    "Seven",
-    "Six",
-    "Ten"
-   ],
-   "answer": 2,
-   "explanation": "六 (liù) means six."
-  },
-  {
-   "topic": "3.2",
-   "q": "What does 妈妈 (māma) mean?",
-   "options": [
-    "Younger sister",
-    "Mother",
-    "Older sister",
-    "This"
-   ],
-   "answer": 1,
-   "explanation": "妈妈 (māma) means mother."
-  },
-  {
-   "topic": "3.4",
-   "q": "What does 周 (zhōu) mean?",
-   "options": [
-    "Week (short form)",
-    "School",
-    "To rest",
-    "Tomorrow"
-   ],
-   "answer": 0,
-   "explanation": "周 (zhōu) means week (short form)."
-  },
-  {
-   "topic": "3.6",
-   "q": "What does 肉 (ròu) mean?",
-   "options": [
-    "Meat",
-    "Breakfast",
-    "Flat bread",
-    "Snacks"
-   ],
-   "answer": 0,
-   "explanation": "肉 (ròu) means meat."
-  },
-  {
-   "topic": "1.2",
-   "q": "Fill the blank: 这是____妈妈。 (This is my mum.)",
-   "options": [
-    "你",
-    "我",
-    "谁",
-    "什么"
-   ],
-   "answer": 1,
-   "explanation": "我 means my."
-  },
-  {
-   "topic": "2.1",
-   "q": "Which word is pronounced nín hǎo?",
-   "options": [
-    "老师",
-    "再见",
-    "你好",
-    "您好"
-   ],
-   "answer": 3,
-   "explanation": "您好 is pronounced nín hǎo and means hello (polite)."
-  },
-  {
-   "topic": "1.1",
-   "q": "How is 你好 nǐ hǎo really said?",
-   "options": [
-    "Like nì hǎo",
-    "Like nī hǎo",
-    "Like ní hǎo",
-    "Like nǐ hào"
-   ],
-   "answer": 2,
-   "explanation": "Two third tones together: the first changes to the second tone."
-  },
-  {
-   "topic": "3.2",
-   "q": "How many strokes does 妈 have?",
-   "options": [
-    "6",
-    "4",
-    "5",
-    "8"
-   ],
-   "answer": 0,
-   "explanation": "女 has 3 strokes and 马 has 3."
-  },
-  {
-   "topic": "2.3",
-   "q": "Fill the blank: 电视在桌子上____? (Is the television on the table?)",
-   "options": [
-    "吗",
-    "呢",
-    "了",
-    "的"
-   ],
-   "answer": 0,
-   "explanation": "吗 turns the statement into a yes-or-no question."
-  },
-  {
-   "topic": "1.1",
-   "q": "What is pinyin?",
-   "options": [
-    "A system that writes Mandarin sounds with letters",
-    "A kind of Chinese food",
-    "A type of pen",
-    "A Chinese number"
-   ],
-   "answer": 0,
-   "explanation": "Pinyin uses the same letters as English and Kiswahili to show how Mandarin sounds."
-  },
-  {
-   "topic": "1.4",
-   "q": "What does 星期一到星期五,我上学 mean?",
-   "options": [
-    "On Sunday, I rest at home",
-    "From Monday to Friday, I go to school",
-    "I go to school on Saturday",
-    "Monday is a holiday"
-   ],
-   "answer": 1,
-   "explanation": "到 is to, and 上学 is go to school."
-  },
-  {
-   "topic": "1.2",
-   "q": "Which Chinese word means \"mother\"?",
-   "options": [
-    "爸爸 bàba",
-    "女儿 nǚ'ér",
-    "妈妈 māma",
-    "爱 ài"
-   ],
-   "answer": 2,
-   "explanation": "妈妈 (māma) means mother."
-  },
-  {
-   "topic": "3.1",
-   "q": "Which sentence means \"My name is Xiaoming.\"?",
-   "options": [
-    "你呢?",
-    "老师好!",
-    "我叫小明。",
-    "早上好!"
-   ],
-   "answer": 2,
-   "explanation": "我叫小明。 (wǒ jiào Xiǎomíng.) means \"My name is Xiaoming.\"."
-  },
-  {
    "topic": "2.6",
-   "q": "Which sentence means \"This is a banana.\"?",
+   "q": "Which word is pronounced xiāngjiāo?",
    "options": [
-    "这是香蕉。",
-    "我早饭吃饼。",
-    "我喜欢喝茶。",
-    "我喝茶。"
-   ],
-   "answer": 0,
-   "explanation": "这是香蕉。 (zhè shì xiāngjiāo.) means \"This is a banana.\"."
-  },
-  {
-   "topic": "2.8",
-   "q": "What does 不 (bù) mean?",
-   "options": [
-    "Drought",
-    "Also",
-    "Not",
-    "It rains"
+    "牛奶",
+    "米饭",
+    "香蕉",
+    "蔬菜"
    ],
    "answer": 2,
-   "explanation": "不 (bù) means not."
-  },
-  {
-   "topic": "1.6",
-   "q": "Which Chinese word means \"tea\"?",
-   "options": [
-    "芒果 mángguǒ",
-    "早饭 zǎofàn",
-    "晚饭 wǎnfàn",
-    "茶 chá"
-   ],
-   "answer": 3,
-   "explanation": "茶 (chá) means tea."
-  },
-  {
-   "topic": "1.2",
-   "q": "Which sentence means \"This is my father.\"?",
-   "options": [
-    "我爱你。",
-    "这是我爸爸。",
-    "那是我弟弟。",
-    "我家有五口人。"
-   ],
-   "answer": 1,
-   "explanation": "这是我爸爸。 (zhè shì wǒ bàba.) means \"This is my father.\"."
-  },
-  {
-   "topic": "3.6",
-   "q": "What does 饼 (bǐng) mean?",
-   "options": [
-    "Cooked rice",
-    "Water",
-    "To like",
-    "Flat bread"
-   ],
-   "answer": 3,
-   "explanation": "饼 (bǐng) means flat bread."
-  },
-  {
-   "topic": "1.3",
-   "q": "Fill the blank: 冰箱____厨房。 (The fridge is in the kitchen.)",
-   "options": [
-    "有",
-    "是",
-    "在",
-    "上"
-   ],
-   "answer": 2,
-   "explanation": "在 means is at or is in."
-  },
-  {
-   "topic": "2.4",
-   "q": "What does 七 (qī) mean?",
-   "options": [
-    "Ten",
-    "Six",
-    "Five",
-    "Seven"
-   ],
-   "answer": 3,
-   "explanation": "七 (qī) means seven."
+   "explanation": "香蕉 is pronounced xiāngjiāo and means banana."
   },
   {
    "topic": "3.4",
-   "q": "What does 二 (èr) mean?",
+   "q": "Which Chinese word means \"one\"?",
    "options": [
-    "Eight",
-    "Two",
-    "One",
-    "Five"
-   ],
-   "answer": 1,
-   "explanation": "二 (èr) means two."
-  },
-  {
-   "topic": "1.2",
-   "q": "What is a good strategy to speak Chinese clearly?",
-   "options": [
-    "Speak as fast as possible",
-    "Listen first and copy the tone with your hand",
-    "Ignore the tones",
-    "Whisper all the time"
-   ],
-   "answer": 1,
-   "explanation": "Listening and copying the tone shapes helps you speak clearly."
-  },
-  {
-   "topic": "2.6",
-   "q": "What does 芒果 (mángguǒ) mean?",
-   "options": [
-    "Dinner",
-    "Vegetables",
-    "Meat",
-    "Mango"
-   ],
-   "answer": 3,
-   "explanation": "芒果 (mángguǒ) means mango."
-  },
-  {
-   "topic": "1.3",
-   "q": "Which two syllables blend to make 椅子?",
-   "options": [
-    "zhuō and zi",
-    "diàn and shì",
-    "bīng and xiāng",
-    "yǐ and zi"
-   ],
-   "answer": 3,
-   "explanation": "yǐ + zi = yǐzi, chair."
-  },
-  {
-   "topic": "3.4",
-   "q": "What does 星期四 (xīngqīsì) mean?",
-   "options": [
-    "To go",
-    "Three",
-    "Thursday",
-    "Seven"
-   ],
-   "answer": 2,
-   "explanation": "星期四 (xīngqīsì) means Thursday."
-  },
-  {
-   "topic": "3.3",
-   "q": "Read the pinyin: kètīng lǐ yǒu diànshì. What does it mean?",
-   "options": [
-    "The bathroom is beside the garden.",
-    "There is a television in the living room.",
-    "The fridge is in the kitchen.",
-    "Where is the television?"
-   ],
-   "answer": 1,
-   "explanation": "kètīng lǐ yǒu diànshì. is 客厅里有电视。, which means \"There is a television in the living room.\"."
-  },
-  {
-   "topic": "2.6",
-   "q": "Which word is pronounced wǎnfàn?",
-   "options": [
-    "肉",
-    "晚饭",
-    "午饭",
-    "咖啡"
-   ],
-   "answer": 1,
-   "explanation": "晚饭 is pronounced wǎnfàn and means dinner."
-  },
-  {
-   "topic": "1.3",
-   "q": "What does 下 (xià) mean?",
-   "options": [
-    "Living room",
-    "House",
-    "Kitchen",
-    "Under"
-   ],
-   "answer": 3,
-   "explanation": "下 (xià) means under."
-  },
-  {
-   "topic": "1.6",
-   "q": "Which of these is a staple food that gives the body energy?",
-   "options": [
-    "水 water",
-    "茶 tea",
-    "咖啡 coffee",
-    "米饭 rice"
-   ],
-   "answer": 3,
-   "explanation": "Staple foods such as rice give energy."
-  },
-  {
-   "topic": "2.5",
-   "q": "Which sentence means \"My friend gives me a gift.\"?",
-   "options": [
-    "你生日是几月几号?",
-    "祝你生日快乐!",
-    "我们唱歌。",
-    "朋友送我礼物。"
-   ],
-   "answer": 3,
-   "explanation": "朋友送我礼物。 (péngyou sòng wǒ lǐwù.) means \"My friend gives me a gift.\"."
-  },
-  {
-   "topic": "2.2",
-   "q": "What does 姐姐 (jiějie) mean?",
-   "options": [
-    "Who",
-    "Older sister",
-    "Younger sister",
-    "Younger brother"
-   ],
-   "answer": 1,
-   "explanation": "姐姐 (jiějie) means older sister."
-  },
-  {
-   "topic": "2.7",
-   "q": "Which sentence means \"I use my ears to hear.\"?",
-   "options": [
-    "我用眼睛看。",
-    "我用耳朵听。",
-    "我有两只眼睛。",
-    "我用嘴巴说。"
-   ],
-   "answer": 1,
-   "explanation": "我用耳朵听。 (wǒ yòng ěrduo tīng.) means \"I use my ears to hear.\"."
-  },
-  {
-   "topic": "2.2",
-   "q": "What does 和 (hé) mean?",
-   "options": [
-    "Father",
-    "Mother",
-    "And",
-    "Older sister"
-   ],
-   "answer": 2,
-   "explanation": "和 (hé) means and."
-  },
-  {
-   "topic": "3.2",
-   "q": "Read the pinyin: nà shì wǒ gēge. What does it mean?",
-   "options": [
-    "I love you.",
-    "This is my older sister.",
-    "That is my younger brother.",
-    "That is my older brother."
-   ],
-   "answer": 3,
-   "explanation": "nà shì wǒ gēge. is 那是我哥哥。, which means \"That is my older brother.\"."
-  },
-  {
-   "topic": "3.8",
-   "q": "What does 没有 méiyǒu mean?",
-   "options": [
-    "Also",
-    "Very",
-    "There is not",
-    "Today"
-   ],
-   "answer": 2,
-   "explanation": "没有 is the opposite of 有."
-  },
-  {
-   "topic": "2.6",
-   "q": "What does 午饭 (wǔfàn) mean?",
-   "options": [
-    "Beef",
-    "Meat",
-    "Lunch",
-    "Coffee"
-   ],
-   "answer": 2,
-   "explanation": "午饭 (wǔfàn) means lunch."
-  },
-  {
-   "topic": "3.5",
-   "q": "Why use recycled materials for a card?",
-   "options": [
-    "It costs more",
-    "It is not allowed",
-    "It reduces waste",
-    "It is heavier"
-   ],
-   "answer": 2,
-   "explanation": "Reusing materials means less rubbish."
-  },
-  {
-   "topic": "3.4",
-   "q": "Which Chinese word means \"four\"?",
-   "options": [
-    "四 sì",
     "一 yī",
-    "十 shí",
-    "九 jiǔ"
+    "五 wǔ",
+    "四 sì",
+    "二 èr"
    ],
    "answer": 0,
-   "explanation": "四 (sì) means four."
-  },
-  {
-   "topic": "2.9",
-   "q": "What does decoding a word mean?",
-   "options": [
-    "Drawing it",
-    "Copying it",
-    "Using letters and sounds to work out how to say it",
-    "Hiding it"
-   ],
-   "answer": 2,
-   "explanation": "Decoding uses letter-sound knowledge."
-  },
-  {
-   "topic": "1.6",
-   "q": "What do the three words 早饭, 午饭 and 晚饭 have in common?",
-   "options": [
-    "They are days",
-    "They are drinks",
-    "They are names of meals",
-    "They are fruits"
-   ],
-   "answer": 2,
-   "explanation": "饭 is meal, and the first characters tell the time of day."
-  },
-  {
-   "topic": "3.1",
-   "q": "On which vowel does the tone mark go in nǐ?",
-   "options": [
-    "n",
-    "i",
-    "No vowel",
-    "u"
-   ],
-   "answer": 1,
-   "explanation": "The only vowel is i, and the mark replaces its dot."
-  },
-  {
-   "topic": "3.4",
-   "q": "Which Chinese word means \"ten\"?",
-   "options": [
-    "十 shí",
-    "三 sān",
-    "九 jiǔ",
-    "五 wǔ"
-   ],
-   "answer": 0,
-   "explanation": "十 (shí) means ten."
-  },
-  {
-   "topic": "1.1",
-   "q": "Which sentence means \"Goodbye!\"?",
-   "options": [
-    "再见!",
-    "早上好!",
-    "你呢?",
-    "谢谢!"
-   ],
-   "answer": 0,
-   "explanation": "再见! (zàijiàn!) means \"Goodbye!\"."
-  },
-  {
-   "topic": "1.5",
-   "q": "What does 祝 (zhù) mean?",
-   "options": [
-    "To wish",
-    "Knife",
-    "They",
-    "Cup"
-   ],
-   "answer": 0,
-   "explanation": "祝 (zhù) means to wish."
-  },
-  {
-   "topic": "1.8",
-   "q": "Which sentence means \"The wind is very strong.\"?",
-   "options": [
-    "风很大。",
-    "风很小。",
-    "今天有云。",
-    "这是太阳。"
-   ],
-   "answer": 0,
-   "explanation": "风很大。 (fēng hěn dà.) means \"The wind is very strong.\"."
-  },
-  {
-   "topic": "2.1",
-   "q": "Why do we read greetings with a friendly face?",
-   "options": [
-    "It makes the words longer",
-    "It changes the voice to sound friendly",
-    "It changes the tones",
-    "It hides the words"
-   ],
-   "answer": 1,
-   "explanation": "A smile changes the sound of your voice."
-  },
-  {
-   "topic": "2.5",
-   "q": "In reading aloud, what is stress?",
-   "options": [
-    "Reading without tones",
-    "Reading in a whisper",
-    "Stopping after every word",
-    "Saying an important word a little stronger"
-   ],
-   "answer": 3,
-   "explanation": "Stress makes key words stand out but does not change the tone."
-  },
-  {
-   "topic": "1.7",
-   "q": "What does the broken telephone game teach?",
-   "options": [
-    "Fast running",
-    "Careful listening",
-    "Counting",
-    "Drawing"
-   ],
-   "answer": 1,
-   "explanation": "A whispered word can change when a listener misses a sound or tone."
-  },
-  {
-   "topic": "2.2",
-   "q": "What does 谁 (shéi) mean?",
-   "options": [
-    "Is, am, are",
-    "Younger brother",
-    "Who",
-    "Older sister"
-   ],
-   "answer": 2,
-   "explanation": "谁 (shéi) means who."
-  },
-  {
-   "topic": "3.1",
-   "q": "What does 你 (nǐ) mean?",
-   "options": [
-    "Teacher",
-    "Classmates",
-    "Thank you",
-    "You"
-   ],
-   "answer": 3,
-   "explanation": "你 (nǐ) means you."
-  },
-  {
-   "topic": "2.7",
-   "q": "What does 我用耳朵听 mean?",
-   "options": [
-    "I use my ears to hear",
-    "I use my eyes to see",
-    "I use my mouth to speak",
-    "I use my hands to write"
-   ],
-   "answer": 0,
-   "explanation": "耳朵 is ears and 听 is hear."
-  },
-  {
-   "topic": "3.6",
-   "q": "What does 菠菜 (bōcài) mean?",
-   "options": [
-    "Fruit (as a group)",
-    "Spinach",
-    "Snacks",
-    "Breakfast"
-   ],
-   "answer": 1,
-   "explanation": "菠菜 (bōcài) means spinach."
-  },
-  {
-   "topic": "1.5",
-   "q": "What does 你生日是几月几号? ask?",
-   "options": [
-    "What is your name?",
-    "Where do you live?",
-    "When is your birthday?",
-    "What is your favourite food?"
-   ],
-   "answer": 2,
-   "explanation": "月 is month and 号 is the date."
-  },
-  {
-   "topic": "3.9",
-   "q": "What does 里 (lǐ) mean?",
-   "options": [
-    "To put",
-    "Inside",
-    "Door",
-    "Bathroom"
-   ],
-   "answer": 1,
-   "explanation": "里 (lǐ) means inside."
-  },
-  {
-   "topic": "3.1",
-   "q": "In 十, which stroke is written first?",
-   "options": [
-    "The vertical 竖",
-    "Neither",
-    "The horizontal 横",
-    "Both together"
-   ],
-   "answer": 2,
-   "explanation": "Horizontal comes before vertical when they cross."
+   "explanation": "一 (yī) means one."
   },
   {
    "topic": "1.2",
-   "q": "What is special about Mandarin words for brothers and sisters?",
+   "q": "Which two words are said with a tone followed by a light syllable?",
    "options": [
-    "They are all the same word",
-    "They have no tones",
-    "There are different words for older and younger ones",
-    "They are only used by adults"
-   ],
-   "answer": 2,
-   "explanation": "Mandarin has gēge and dìdi, jiějie and mèimei."
-  },
-  {
-   "topic": "2.7",
-   "q": "Which Chinese word means \"knee\"?",
-   "options": [
-    "膝盖 xīgài",
-    "刷牙 shuāyá",
-    "看 kàn",
-    "牙 yá"
+    "bàba and gēge",
+    "nǐ and hǎo",
+    "dà and xiǎo",
+    "wǒ and nǐ"
    ],
    "answer": 0,
-   "explanation": "膝盖 (xīgài) means knee."
-  },
-  {
-   "topic": "3.2",
-   "q": "Which sentence means \"There are five people in my family.\"?",
-   "options": [
-    "我家有五口人。",
-    "这是谁?",
-    "这是我妈妈。",
-    "那是我弟弟。"
-   ],
-   "answer": 0,
-   "explanation": "我家有五口人。 (wǒ jiā yǒu wǔ kǒu rén.) means \"There are five people in my family.\"."
-  },
-  {
-   "topic": "1.8",
-   "q": "Which sentence do we use to name a weather picture?",
-   "options": [
-    "我叫太阳。",
-    "太阳在哪儿?",
-    "这是太阳。",
-    "你好太阳。"
-   ],
-   "answer": 2,
-   "explanation": "这是 + word names what we see."
-  },
-  {
-   "topic": "1.5",
-   "q": "What does 月 (yuè) mean?",
-   "options": [
-    "Candle",
-    "Month",
-    "To give (a gift)",
-    "To play"
-   ],
-   "answer": 1,
-   "explanation": "月 (yuè) means month."
-  },
-  {
-   "topic": "3.9",
-   "q": "What does 右边 (yòubian) mean?",
-   "options": [
-    "Right side",
-    "Living room",
-    "Garden",
-    "Where"
-   ],
-   "answer": 0,
-   "explanation": "右边 (yòubian) means right side."
-  },
-  {
-   "topic": "3.2",
-   "q": "What does 爱 (ài) mean?",
-   "options": [
-    "Older sister",
-    "Who",
-    "To have, there is",
-    "Love"
-   ],
-   "answer": 3,
-   "explanation": "爱 (ài) means love."
-  },
-  {
-   "topic": "2.2",
-   "q": "Read the pinyin: zhè shì wǒ jiějie. What does it mean?",
-   "options": [
-    "Who is this?",
-    "That is my younger brother.",
-    "This is my older sister.",
-    "This is my father."
-   ],
-   "answer": 2,
-   "explanation": "zhè shì wǒ jiějie. is 这是我姐姐。, which means \"This is my older sister.\"."
-  },
-  {
-   "topic": "1.9",
-   "q": "What does 浴室 (yùshì) mean?",
-   "options": [
-    "Inside",
-    "Bathroom",
-    "Right side",
-    "Is at, is in"
-   ],
-   "answer": 1,
-   "explanation": "浴室 (yùshì) means bathroom."
-  },
-  {
-   "topic": "1.4",
-   "q": "What does 九 (jiǔ) mean?",
-   "options": [
-    "Four",
-    "Eight",
-    "Nine",
-    "Two"
-   ],
-   "answer": 2,
-   "explanation": "九 (jiǔ) means nine."
-  },
-  {
-   "topic": "1.4",
-   "q": "In the Chinese week, which day is 星期一?",
-   "options": [
-    "Monday",
-    "Sunday",
-    "Saturday",
-    "Tuesday"
-   ],
-   "answer": 0,
-   "explanation": "Chinese counts the days from Monday."
-  },
-  {
-   "topic": "1.5",
-   "q": "Which Chinese word means \"to sing\"?",
-   "options": [
-    "礼物 lǐwù",
-    "快乐 kuàilè",
-    "盘子 pánzi",
-    "唱歌 chànggē"
-   ],
-   "answer": 3,
-   "explanation": "唱歌 (chànggē) means to sing."
-  },
-  {
-   "topic": "1.5",
-   "q": "Which is an activity at a birthday party?",
-   "options": [
-    "洗手 washing hands",
-    "切蛋糕 cutting the cake",
-    "刮风 the wind blows",
-    "上学 going to school"
-   ],
-   "answer": 1,
-   "explanation": "切蛋糕 is cut the cake."
-  },
-  {
-   "topic": "3.1",
-   "q": "Read the pinyin: lǎoshī hǎo! What does it mean?",
-   "options": [
-    "My name is Xiaoming.",
-    "Thank you!",
-    "Hello, teacher!",
-    "Hello! (polite)"
-   ],
-   "answer": 2,
-   "explanation": "lǎoshī hǎo! is 老师好!, which means \"Hello, teacher!\"."
-  },
-  {
-   "topic": "3.5",
-   "q": "Which sentence means \"My birthday is on 5 March.\"?",
-   "options": [
-    "我的生日是三月五号。",
-    "朋友送我礼物。",
-    "我们切蛋糕。",
-    "你生日是几月几号?"
-   ],
-   "answer": 0,
-   "explanation": "我的生日是三月五号。 (wǒ de shēngrì shì sān yuè wǔ hào.) means \"My birthday is on 5 March.\"."
-  },
-  {
-   "topic": "1.8",
-   "q": "Which word means \"very\" in 雨很大?",
-   "options": [
-    "雨",
-    "大",
-    "很",
-    "的"
-   ],
-   "answer": 2,
-   "explanation": "很 hěn means very."
-  },
-  {
-   "topic": "1.1",
-   "q": "What is the neutral tone?",
-   "options": [
-    "A very loud tone",
-    "A light, short tone written without a mark",
-    "A tone that rises high",
-    "A tone that falls sharply"
-   ],
-   "answer": 1,
-   "explanation": "The neutral tone is light and short, as in the second syllable of māma."
-  },
-  {
-   "topic": "3.4",
-   "q": "What does 五 (wǔ) mean?",
-   "options": [
-    "Seven",
-    "Five",
-    "Nine",
-    "Four"
-   ],
-   "answer": 1,
-   "explanation": "五 (wǔ) means five."
-  },
-  {
-   "topic": "2.5",
-   "q": "What does 号 (hào) mean?",
-   "options": [
-    "To play",
-    "They",
-    "Date (day of the month)",
-    "Gift"
-   ],
-   "answer": 2,
-   "explanation": "号 (hào) means date (day of the month)."
-  },
-  {
-   "topic": "2.6",
-   "q": "Fill the blank: 我____吃香蕉。 (I like to eat bananas.)",
-   "options": [
-    "不是",
-    "喜欢",
-    "有",
-    "在"
-   ],
-   "answer": 1,
-   "explanation": "喜欢 means to like."
-  },
-  {
-   "topic": "3.8",
-   "q": "Which Chinese word means \"sun\"?",
-   "options": [
-    "干旱 gānhàn",
-    "下雨 xià yǔ",
-    "太阳 tàiyáng",
-    "大 dà"
-   ],
-   "answer": 2,
-   "explanation": "太阳 (tàiyáng) means sun."
-  },
-  {
-   "topic": "1.4",
-   "q": "Which day is 星期四?",
-   "options": [
-    "Tuesday",
-    "Thursday",
-    "Wednesday",
-    "Friday"
-   ],
-   "answer": 1,
-   "explanation": "四 is four, so 星期四 is week four, Thursday."
-  },
-  {
-   "topic": "3.5",
-   "q": "What does 盘子 (pánzi) mean?",
-   "options": [
-    "Knife",
-    "Gift",
-    "Plate",
-    "Birthday"
-   ],
-   "answer": 2,
-   "explanation": "盘子 (pánzi) means plate."
-  },
-  {
-   "topic": "1.5",
-   "q": "What does 大家 (dàjiā) mean?",
-   "options": [
-    "Month",
-    "They",
-    "Everybody",
-    "We"
-   ],
-   "answer": 2,
-   "explanation": "大家 (dàjiā) means everybody."
+   "explanation": "The second syllable of bàba and gēge is neutral."
   },
   {
    "topic": "2.4",
@@ -1117,40 +49,64 @@
    "explanation": "Use projection, not shouting."
   },
   {
-   "topic": "3.1",
-   "q": "Which Chinese word means \"to be called\"?",
+   "topic": "4.1",
+   "q": "What should you check on your display before a showcase?",
    "options": [
-    "呢 ne",
-    "我 wǒ",
-    "叫 jiào",
-    "同学们 tóngxuémen"
+    "Only the colour",
+    "Tone marks, stroke order, spelling and neat writing",
+    "Nothing",
+    "Only the size"
    ],
-   "answer": 2,
-   "explanation": "叫 (jiào) means to be called."
+   "answer": 1,
+   "explanation": "Careful checking makes the display clear."
   },
   {
-   "topic": "1.7",
-   "q": "What does 手 (shǒu) mean?",
+   "topic": "1.3",
+   "q": "What does 卧室 (wòshì) mean?",
    "options": [
-    "Hand",
-    "Knee",
-    "To wash hands",
-    "To speak"
-   ],
-   "answer": 0,
-   "explanation": "手 (shǒu) means hand."
-  },
-  {
-   "topic": "1.2",
-   "q": "Which sentence means \"I love you.\"?",
-   "options": [
-    "那是我哥哥。",
-    "那是我弟弟。",
-    "我爱你。",
-    "这是我姐姐。"
+    "Chair",
+    "In front of",
+    "Bedroom",
+    "On"
    ],
    "answer": 2,
-   "explanation": "我爱你。 (wǒ ài nǐ.) means \"I love you.\"."
+   "explanation": "卧室 (wòshì) means bedroom."
+  },
+  {
+   "topic": "1.5",
+   "q": "Read the pinyin: wǒ de shēngrì shì sān yuè wǔ hào. What does it mean?",
+   "options": [
+    "When is your birthday?",
+    "My birthday is on 5 March.",
+    "We cut the cake.",
+    "We sing."
+   ],
+   "answer": 1,
+   "explanation": "wǒ de shēngrì shì sān yuè wǔ hào. is 我的生日是三月五号。, which means \"My birthday is on 5 March.\"."
+  },
+  {
+   "topic": "1.3",
+   "q": "In the sentence 电视在桌子上, where is the television?",
+   "options": [
+    "Under the table",
+    "In the kitchen",
+    "Beside the door",
+    "On the table"
+   ],
+   "answer": 3,
+   "explanation": "上 means on."
+  },
+  {
+   "topic": "2.7",
+   "q": "Why does repetition help your reading?",
+   "options": [
+    "It erases the words",
+    "It makes the text shorter",
+    "It removes tones",
+    "It builds smooth, fluent reading"
+   ],
+   "answer": 3,
+   "explanation": "Repeated reading builds fluency."
   },
   {
    "topic": "2.5",
@@ -1165,40 +121,1084 @@
    "explanation": "Keep personal information private."
   },
   {
-   "topic": "2.5",
-   "q": "What does 生日 (shēngrì) mean?",
+   "topic": "1.2",
+   "q": "What kind of syllable pattern do bàba, māma and dìdi share?",
    "options": [
-    "Happy",
-    "Birthday",
-    "To come",
-    "Cake"
-   ],
-   "answer": 1,
-   "explanation": "生日 (shēngrì) means birthday."
-  },
-  {
-   "topic": "1.8",
-   "q": "What does 大 (dà) mean?",
-   "options": [
-    "Big",
-    "Snow",
-    "Small",
-    "The wind blows"
+    "A syllable is repeated",
+    "They have three syllables",
+    "They have no vowels",
+    "They have only one syllable"
    ],
    "answer": 0,
-   "explanation": "大 (dà) means big."
+   "explanation": "Each word repeats a syllable, with a light second one."
   },
   {
    "topic": "3.8",
-   "q": "What does 云 (yún) mean?",
+   "q": "How does too much rain harm the environment?",
    "options": [
-    "Sun",
-    "It rains",
-    "Not",
-    "Cloud"
+    "It makes the soil drier",
+    "It can cause floods",
+    "It always makes the wind stronger",
+    "It makes the sun brighter"
+   ],
+   "answer": 1,
+   "explanation": "Heavy rain causes floods."
+  },
+  {
+   "topic": "2.9",
+   "q": "Read the pinyin: shāfā zài mén pángbiān. What does it mean?",
+   "options": [
+    "The sofa is beside the door.",
+    "Where is the television?",
+    "The television is on the table.",
+    "The bed is in the bedroom."
+   ],
+   "answer": 0,
+   "explanation": "shāfā zài mén pángbiān. is 沙发在门旁边。, which means \"The sofa is beside the door.\"."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does 东西 (dōngxi) mean?",
+   "options": [
+    "Toilet",
+    "Things",
+    "Door",
+    "Sofa"
+   ],
+   "answer": 1,
+   "explanation": "东西 (dōngxi) means things."
+  },
+  {
+   "topic": "3.6",
+   "q": "How many strokes does 米 have?",
+   "options": [
+    "4",
+    "6",
+    "5",
+    "7"
+   ],
+   "answer": 1,
+   "explanation": "米 has six strokes."
+  },
+  {
+   "topic": "3.3",
+   "q": "What does 客厅 (kètīng) mean?",
+   "options": [
+    "Cat",
+    "Living room",
+    "Is at, is in",
+    "Where"
+   ],
+   "answer": 1,
+   "explanation": "客厅 (kètīng) means living room."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which Chinese word means \"today\"?",
+   "options": [
+    "明天 míngtiān",
+    "休息 xiūxi",
+    "今天 jīntiān",
+    "清真寺 qīngzhēnsì"
+   ],
+   "answer": 2,
+   "explanation": "今天 (jīntiān) means today."
+  },
+  {
+   "topic": "1.9",
+   "q": "What should you do first when you get a spoken instruction?",
+   "options": [
+    "Act at once",
+    "Walk away",
+    "Guess",
+    "Listen to the whole instruction"
    ],
    "answer": 3,
-   "explanation": "云 (yún) means cloud."
+   "explanation": "You need the whole message to follow it correctly."
+  },
+  {
+   "topic": "1.8",
+   "q": "Which sentence means \"The weather is very good today.\"?",
+   "options": [
+    "今天下雨。",
+    "今天天气很好。",
+    "今天有云。",
+    "雨很大。"
+   ],
+   "answer": 1,
+   "explanation": "今天天气很好。 (jīntiān tiānqì hěn hǎo.) means \"The weather is very good today.\"."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does 客厅里有电视 mean?",
+   "options": [
+    "The television is in the kitchen",
+    "The living room is on the television",
+    "I like television",
+    "There is a television in the living room"
+   ],
+   "answer": 3,
+   "explanation": "里 is inside and 有 is there is."
+  },
+  {
+   "topic": "1.7",
+   "q": "\"I am in the middle of your face and help you breathe.\" Which word is the answer?",
+   "options": [
+    "嘴巴 zuǐba",
+    "鼻子 bízi",
+    "头 tóu",
+    "脚 jiǎo"
+   ],
+   "answer": 1,
+   "explanation": "The nose is in the middle of the face."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does 我爱你 wǒ ài nǐ mean?",
+   "options": [
+    "I like you",
+    "I see you",
+    "I love you",
+    "I am you"
+   ],
+   "answer": 2,
+   "explanation": "爱 is love."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which word is pronounced xīngqītiān?",
+   "options": [
+    "七",
+    "学校",
+    "去",
+    "星期天"
+   ],
+   "answer": 3,
+   "explanation": "星期天 is pronounced xīngqītiān and means Sunday."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does 那是我哥哥 nà shì wǒ gēge mean?",
+   "options": [
+    "This is my younger brother",
+    "That is my mother",
+    "That is my older brother",
+    "This is my sister"
+   ],
+   "answer": 2,
+   "explanation": "那 is that and 哥哥 is older brother."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does 椅子 (yǐzi) mean?",
+   "options": [
+    "Left side",
+    "House",
+    "In front of",
+    "Chair"
+   ],
+   "answer": 3,
+   "explanation": "椅子 (yǐzi) means chair."
+  },
+  {
+   "topic": "2.9",
+   "q": "Fill the blank: 窗户在门____。 (The window is above the door.)",
+   "options": [
+    "下面",
+    "旁边",
+    "左边",
+    "上面"
+   ],
+   "answer": 3,
+   "explanation": "上面 is above."
+  },
+  {
+   "topic": "3.7",
+   "q": "What does 肩膀 (jiānbǎng) mean?",
+   "options": [
+    "To look, to see",
+    "Tooth",
+    "Shoulder",
+    "To speak"
+   ],
+   "answer": 2,
+   "explanation": "肩膀 (jiānbǎng) means shoulder."
+  },
+  {
+   "topic": "2.9",
+   "q": "What does 早上 zǎoshang mean?",
+   "options": [
+    "Morning",
+    "Evening",
+    "Afternoon",
+    "Night"
+   ],
+   "answer": 0,
+   "explanation": "早上 is morning."
+  },
+  {
+   "topic": "1.1",
+   "q": "On which letter does the tone mark go in the syllable liù?",
+   "options": [
+    "l",
+    "i",
+    "No letter",
+    "u"
+   ],
+   "answer": 3,
+   "explanation": "With iu the mark goes on the second vowel, u."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is intonation?",
+   "options": [
+    "The size of a character",
+    "How the voice rises and falls",
+    "The number of strokes",
+    "The spelling of a word"
+   ],
+   "answer": 1,
+   "explanation": "Intonation is the rise and fall of the voice."
+  },
+  {
+   "topic": "1.9",
+   "q": "Read the pinyin: huāyuán zài fángzi yòubian. What does it mean?",
+   "options": [
+    "There is a bed in the bedroom.",
+    "The fridge is in the kitchen.",
+    "Where is the sofa?",
+    "The garden is on the right of the house."
+   ],
+   "answer": 3,
+   "explanation": "huāyuán zài fángzi yòubian. is 花园在房子右边。, which means \"The garden is on the right of the house.\"."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which room would you find a fridge in?",
+   "options": [
+    "卧室 the bedroom",
+    "厨房 the kitchen",
+    "客厅 the living room",
+    "厕所 the toilet"
+   ],
+   "answer": 1,
+   "explanation": "冰箱 is in the kitchen, 厨房."
+  },
+  {
+   "topic": "3.6",
+   "q": "Fill the blank: 我早饭____饼。 (For breakfast I eat bǐng.)",
+   "options": [
+    "喝",
+    "去",
+    "吃",
+    "是"
+   ],
+   "answer": 2,
+   "explanation": "饼 is food, so 吃."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does 家 (jiā) mean?",
+   "options": [
+    "Older sister",
+    "Home, family",
+    "Son",
+    "Daughter"
+   ],
+   "answer": 1,
+   "explanation": "家 (jiā) means home, family."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which sentence means \"Good morning!\"?",
+   "options": [
+    "我叫小明。",
+    "谢谢!",
+    "再见!",
+    "早上好!"
+   ],
+   "answer": 3,
+   "explanation": "早上好! (zǎoshang hǎo!) means \"Good morning!\"."
+  },
+  {
+   "topic": "3.6",
+   "q": "Which sentence is correctly punctuated?",
+   "options": [
+    "我吃米饭? 你呢。",
+    "我吃米饭、你呢、",
+    "我吃米饭。你呢?",
+    "我吃米饭!你呢。"
+   ],
+   "answer": 2,
+   "explanation": "A statement ends with 。 and a question with ?."
+  },
+  {
+   "topic": "1.6",
+   "q": "Which sentence means \"I like to eat bananas.\"?",
+   "options": [
+    "这是什么?",
+    "我喝茶。",
+    "这是香蕉。",
+    "我喜欢吃香蕉。"
+   ],
+   "answer": 3,
+   "explanation": "我喜欢吃香蕉。 (wǒ xǐhuan chī xiāngjiāo.) means \"I like to eat bananas.\"."
+  },
+  {
+   "topic": "3.8",
+   "q": "Fill the blank: 今天有____。 (Today there is sun.)",
+   "options": [
+    "云",
+    "太阳",
+    "雨",
+    "雪"
+   ],
+   "answer": 1,
+   "explanation": "太阳 is the sun."
+  },
+  {
+   "topic": "2.6",
+   "q": "Which sentence means \"This is a banana.\"?",
+   "options": [
+    "这是香蕉。",
+    "我喝茶。",
+    "这是什么?",
+    "我早饭吃饼。"
+   ],
+   "answer": 0,
+   "explanation": "这是香蕉。 (zhè shì xiāngjiāo.) means \"This is a banana.\"."
+  },
+  {
+   "topic": "1.2",
+   "q": "Read the pinyin: zhè shì wǒ māma. What does it mean?",
+   "options": [
+    "This is my mother.",
+    "That is my older brother.",
+    "There are five people in my family.",
+    "This is my father."
+   ],
+   "answer": 0,
+   "explanation": "zhè shì wǒ māma. is 这是我妈妈。, which means \"This is my mother.\"."
+  },
+  {
+   "topic": "1.8",
+   "q": "What does 也 (yě) mean?",
+   "options": [
+    "Cloud",
+    "Also",
+    "Small",
+    "It rains"
+   ],
+   "answer": 1,
+   "explanation": "也 (yě) means also."
+  },
+  {
+   "topic": "1.5",
+   "q": "What does 杯子 (bēizi) mean?",
+   "options": [
+    "Cup",
+    "To give (a gift)",
+    "We",
+    "To wish"
+   ],
+   "answer": 0,
+   "explanation": "杯子 (bēizi) means cup."
+  },
+  {
+   "topic": "2.7",
+   "q": "Which Chinese word means \"to touch\"?",
+   "options": [
+    "肩膀 jiānbǎng",
+    "哭 kū",
+    "摸 mō",
+    "用 yòng"
+   ],
+   "answer": 2,
+   "explanation": "摸 (mō) means to touch."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does 谢谢 (xièxie) mean?",
+   "options": [
+    "Thank you",
+    "Hello",
+    "I, me",
+    "Teacher"
+   ],
+   "answer": 0,
+   "explanation": "谢谢 (xièxie) means thank you."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which Chinese word means \"which number, how many\"?",
+   "options": [
+    "几 jǐ",
+    "唱歌 chànggē",
+    "送 sòng",
+    "朋友 péngyou"
+   ],
+   "answer": 0,
+   "explanation": "几 (jǐ) means which number, how many."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does 牙 (yá) mean?",
+   "options": [
+    "Tooth",
+    "Shoulder",
+    "To look, to see",
+    "To touch"
+   ],
+   "answer": 0,
+   "explanation": "牙 (yá) means tooth."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does 饮料 (yǐnliào) mean?",
+   "options": [
+    "Meat",
+    "Dinner",
+    "Drinks",
+    "Beef"
+   ],
+   "answer": 2,
+   "explanation": "饮料 (yǐnliào) means drinks."
+  },
+  {
+   "topic": "2.7",
+   "q": "Which word is pronounced bízi?",
+   "options": [
+    "肩膀",
+    "用",
+    "牙",
+    "鼻子"
+   ],
+   "answer": 3,
+   "explanation": "鼻子 is pronounced bízi and means nose."
+  },
+  {
+   "topic": "3.1",
+   "q": "How many strokes does the character 十 have?",
+   "options": [
+    "2",
+    "1",
+    "3",
+    "4"
+   ],
+   "answer": 0,
+   "explanation": "十 has 横 and 竖."
+  },
+  {
+   "topic": "3.9",
+   "q": "What does 沙发 (shāfā) mean?",
+   "options": [
+    "Sofa",
+    "Chair",
+    "Under",
+    "Window"
+   ],
+   "answer": 0,
+   "explanation": "沙发 (shāfā) means sofa."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which Chinese word means \"daughter\"?",
+   "options": [
+    "女儿 nǚ'ér",
+    "有 yǒu",
+    "是 shì",
+    "哥哥 gēge"
+   ],
+   "answer": 0,
+   "explanation": "女儿 (nǚ'ér) means daughter."
+  },
+  {
+   "topic": "2.7",
+   "q": "Which Chinese word means \"hand\"?",
+   "options": [
+    "用 yòng",
+    "手 shǒu",
+    "刷牙 shuāyá",
+    "耳朵 ěrduo"
+   ],
+   "answer": 1,
+   "explanation": "手 (shǒu) means hand."
+  },
+  {
+   "topic": "3.7",
+   "q": "What does 鼻子 (bízi) mean?",
+   "options": [
+    "To speak",
+    "Eye",
+    "Nose",
+    "Head"
+   ],
+   "answer": 2,
+   "explanation": "鼻子 (bízi) means nose."
+  },
+  {
+   "topic": "3.1",
+   "q": "How many strokes does 好 have?",
+   "options": [
+    "4",
+    "7",
+    "6",
+    "9"
+   ],
+   "answer": 2,
+   "explanation": "女 has 3 and 子 has 3."
+  },
+  {
+   "topic": "3.2",
+   "q": "Read the pinyin: nà shì wǒ gēge. What does it mean?",
+   "options": [
+    "Who is this?",
+    "This is my father.",
+    "There are five people in my family.",
+    "That is my older brother."
+   ],
+   "answer": 3,
+   "explanation": "nà shì wǒ gēge. is 那是我哥哥。, which means \"That is my older brother.\"."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which word means \"gift\"?",
+   "options": [
+    "蜡烛",
+    "盘子",
+    "杯子",
+    "礼物"
+   ],
+   "answer": 3,
+   "explanation": "礼物 lǐwù is a gift."
+  },
+  {
+   "topic": "3.3",
+   "q": "What does 电视 (diànshì) mean?",
+   "options": [
+    "Kitchen",
+    "To put",
+    "Television",
+    "Table"
+   ],
+   "answer": 2,
+   "explanation": "电视 (diànshì) means television."
+  },
+  {
+   "topic": "3.8",
+   "q": "Which Chinese word means \"not\"?",
+   "options": [
+    "干旱 gānhàn",
+    "也 yě",
+    "很 hěn",
+    "不 bù"
+   ],
+   "answer": 3,
+   "explanation": "不 (bù) means not."
+  },
+  {
+   "topic": "3.2",
+   "q": "How many strokes does 妈 have?",
+   "options": [
+    "6",
+    "4",
+    "5",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "女 has 3 strokes and 马 has 3."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which sentence means \"We cut the cake.\"?",
+   "options": [
+    "你生日是几月几号?",
+    "祝你生日快乐!",
+    "我们切蛋糕。",
+    "我们唱歌。"
+   ],
+   "answer": 2,
+   "explanation": "我们切蛋糕。 (wǒmen qiē dàngāo.) means \"We cut the cake.\"."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which character means \"mouth\" and has 3 strokes?",
+   "options": [
+    "手",
+    "头",
+    "口",
+    "耳"
+   ],
+   "answer": 2,
+   "explanation": "口 kǒu."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does 房间 (fángjiān) mean?",
+   "options": [
+    "Left side",
+    "Beside",
+    "Where",
+    "Room"
+   ],
+   "answer": 3,
+   "explanation": "房间 (fángjiān) means room."
+  },
+  {
+   "topic": "2.6",
+   "q": "Which word comes first in pinyin alphabetical order?",
+   "options": [
+    "bǐng",
+    "chá",
+    "mángguǒ",
+    "xiāngjiāo"
+   ],
+   "answer": 0,
+   "explanation": "b comes before c, m and x."
+  },
+  {
+   "topic": "3.4",
+   "q": "What does 休息 (xiūxi) mean?",
+   "options": [
+    "Today",
+    "Church",
+    "Yesterday",
+    "To rest"
+   ],
+   "answer": 3,
+   "explanation": "休息 (xiūxi) means to rest."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which tone mark is written in bàba?",
+   "options": [
+    "Two marks",
+    "One mark, on the first a",
+    "No marks",
+    "A mark on the last a"
+   ],
+   "answer": 1,
+   "explanation": "The second syllable is light, so it has no mark."
+  },
+  {
+   "topic": "3.1",
+   "q": "What does 您好 (nín hǎo) mean?",
+   "options": [
+    "I, me",
+    "You",
+    "Hello (polite)",
+    "To be called"
+   ],
+   "answer": 2,
+   "explanation": "您好 (nín hǎo) means hello (polite)."
+  },
+  {
+   "topic": "4.1",
+   "q": "What should you do if you make a mistake while presenting?",
+   "options": [
+    "Run away",
+    "Stop and cry",
+    "Stay calm, breathe and say it again",
+    "Blame a friend"
+   ],
+   "answer": 2,
+   "explanation": "Everyone makes mistakes."
+  },
+  {
+   "topic": "1.4",
+   "q": "Fill the blank: 今天是星期____。 (Today is Wednesday.)",
+   "options": [
+    "三",
+    "二",
+    "四",
+    "五"
+   ],
+   "answer": 0,
+   "explanation": "三 is three, so Wednesday."
+  },
+  {
+   "topic": "3.7",
+   "q": "Which sentence means \"I use my mouth to speak.\"?",
+   "options": [
+    "我有两只眼睛。",
+    "我用眼睛看。",
+    "我用嘴巴说。",
+    "我用耳朵听。"
+   ],
+   "answer": 2,
+   "explanation": "我用嘴巴说。 (wǒ yòng zuǐba shuō.) means \"I use my mouth to speak.\"."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which sentence means \"Hello, teacher!\"?",
+   "options": [
+    "我叫小明。",
+    "老师好!",
+    "再见!",
+    "你呢?"
+   ],
+   "answer": 1,
+   "explanation": "老师好! (lǎoshī hǎo!) means \"Hello, teacher!\"."
+  },
+  {
+   "topic": "1.4",
+   "q": "In the Swahili week, which day is counted as day 1?",
+   "options": [
+    "Monday",
+    "Sunday",
+    "Friday",
+    "Saturday"
+   ],
+   "answer": 3,
+   "explanation": "Jumamosi, Saturday, is day one, so Monday is day three (Jumatatu)."
+  },
+  {
+   "topic": "2.6",
+   "q": "Read the pinyin: zhè shì shénme? What does it mean?",
+   "options": [
+    "I drink tea.",
+    "I like to eat bananas.",
+    "For breakfast I eat bǐng.",
+    "What is this?"
+   ],
+   "answer": 3,
+   "explanation": "zhè shì shénme? is 这是什么?, which means \"What is this?\"."
+  },
+  {
+   "topic": "2.7",
+   "q": "What does 脚 (jiǎo) mean?",
+   "options": [
+    "Head",
+    "Foot",
+    "Shoulder",
+    "To use"
+   ],
+   "answer": 1,
+   "explanation": "脚 (jiǎo) means foot."
+  },
+  {
+   "topic": "1.9",
+   "q": "What does 浴室 (yùshì) mean?",
+   "options": [
+    "Below",
+    "Bathroom",
+    "Sofa",
+    "Where"
+   ],
+   "answer": 1,
+   "explanation": "浴室 (yùshì) means bathroom."
+  },
+  {
+   "topic": "1.7",
+   "q": "Fill the blank: 我用嘴巴____。 (I use my mouth to speak.)",
+   "options": [
+    "看",
+    "听",
+    "摸",
+    "说"
+   ],
+   "answer": 3,
+   "explanation": "说 is to speak."
+  },
+  {
+   "topic": "1.9",
+   "q": "Fill the blank: 沙发在门____。 (The sofa is beside the door.)",
+   "options": [
+    "上面",
+    "下面",
+    "旁边",
+    "里"
+   ],
+   "answer": 2,
+   "explanation": "旁边 is beside."
+  },
+  {
+   "topic": "1.8",
+   "q": "What is a good safety tip in strong rain?",
+   "options": [
+    "Play near the river",
+    "Stay away from fast rivers",
+    "Shelter under a tall tree in a storm",
+    "Ignore warnings"
+   ],
+   "answer": 1,
+   "explanation": "Floods are dangerous and fast rivers are unsafe."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does 早饭 (zǎofàn) mean?",
+   "options": [
+    "Apple",
+    "Breakfast",
+    "Spinach",
+    "To drink"
+   ],
+   "answer": 1,
+   "explanation": "早饭 (zǎofàn) means breakfast."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which word is pronounced xǐshǒu?",
+   "options": [
+    "说",
+    "肩膀",
+    "头",
+    "洗手"
+   ],
+   "answer": 3,
+   "explanation": "洗手 is pronounced xǐshǒu and means to wash hands."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which sentence means \"There is a bed in the bedroom.\"?",
+   "options": [
+    "门在左边。",
+    "沙发在哪儿?",
+    "卧室里有床。",
+    "客厅里有电视。"
+   ],
+   "answer": 2,
+   "explanation": "卧室里有床。 (wòshì lǐ yǒu chuáng.) means \"There is a bed in the bedroom.\"."
+  },
+  {
+   "topic": "1.7",
+   "q": "Which body word is a single character, one you can write with 3 strokes?",
+   "options": [
+    "头 tóu (head)",
+    "耳 ěr (ear)",
+    "口 kǒu (mouth)",
+    "目 mù (eye)"
+   ],
+   "answer": 2,
+   "explanation": "口 has three strokes; 头 has 5, 耳 has 6 and 目 has 5."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does 叫 (jiào) mean?",
+   "options": [
+    "Thank you",
+    "To be called",
+    "Hello (polite)",
+    "Hello"
+   ],
+   "answer": 1,
+   "explanation": "叫 (jiào) means to be called."
+  },
+  {
+   "topic": "3.2",
+   "q": "Fill the blank: 我家有五____人。 (There are five people in my family.)",
+   "options": [
+    "只",
+    "两",
+    "号",
+    "口"
+   ],
+   "answer": 3,
+   "explanation": "口 is used to count family members."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does 冰箱 (bīngxiāng) mean?",
+   "options": [
+    "Beside",
+    "Left side",
+    "Sofa",
+    "Fridge"
+   ],
+   "answer": 3,
+   "explanation": "冰箱 (bīngxiāng) means fridge."
+  },
+  {
+   "topic": "2.6",
+   "q": "Which word means \"snacks\"?",
+   "options": [
+    "蔬菜",
+    "饮料",
+    "水果",
+    "零食"
+   ],
+   "answer": 3,
+   "explanation": "零食 língshí is snacks."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which pair of numbers is easily mixed up in sound?",
+   "options": [
+    "yī (1) and èr (2)",
+    "sì (4) and shí (10)",
+    "sān (3) and bā (8)",
+    "liù (6) and qī (7)"
+   ],
+   "answer": 1,
+   "explanation": "sì has an s sound and shí has an sh sound."
+  },
+  {
+   "topic": "4.1",
+   "q": "What is self-assessment?",
+   "options": [
+    "Marking a friend",
+    "Ignoring your work",
+    "Copying work",
+    "Checking your own work and progress"
+   ],
+   "answer": 3,
+   "explanation": "You look at what you did well and what to improve."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does 再见 zàijiàn mean?",
+   "options": [
+    "Hello",
+    "Goodbye",
+    "Thank you",
+    "Good morning"
+   ],
+   "answer": 1,
+   "explanation": "再见 means see you again, goodbye."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does 牛奶 (niúnǎi) mean?",
+   "options": [
+    "Milk",
+    "Meat",
+    "Vegetables",
+    "Spinach"
+   ],
+   "answer": 0,
+   "explanation": "牛奶 (niúnǎi) means milk."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which sentence means \"Today is Wednesday.\"?",
+   "options": [
+    "今天星期三。",
+    "我星期三去学校。",
+    "星期五,去清真寺。",
+    "星期天,去教堂。"
+   ],
+   "answer": 0,
+   "explanation": "今天星期三。 (jīntiān xīngqīsān.) means \"Today is Wednesday.\"."
+  },
+  {
+   "topic": "3.7",
+   "q": "What does 洗手 xǐshǒu mean?",
+   "options": [
+    "Wash hands",
+    "Brush teeth",
+    "Eat",
+    "Clap hands"
+   ],
+   "answer": 0,
+   "explanation": "洗 is wash and 手 is hand."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does 儿子 (érzi) mean?",
+   "options": [
+    "Home, family",
+    "Son",
+    "Older brother",
+    "Is, am, are"
+   ],
+   "answer": 1,
+   "explanation": "儿子 (érzi) means son."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which sentence means \"Goodbye!\"?",
+   "options": [
+    "再见!",
+    "你呢?",
+    "我叫小明。",
+    "谢谢!"
+   ],
+   "answer": 0,
+   "explanation": "再见! (zàijiàn!) means \"Goodbye!\"."
+  },
+  {
+   "topic": "1.3",
+   "q": "Fill the blank: 电视在____? (Where is the television?)",
+   "options": [
+    "谁",
+    "什么",
+    "几",
+    "哪儿"
+   ],
+   "answer": 3,
+   "explanation": "哪儿 asks where."
+  },
+  {
+   "topic": "3.5",
+   "q": "What does 几 (jǐ) mean?",
+   "options": [
+    "Gift",
+    "Everybody",
+    "To play",
+    "Which number, how many"
+   ],
+   "answer": 3,
+   "explanation": "几 (jǐ) means which number, how many."
+  },
+  {
+   "topic": "1.5",
+   "q": "What does 你生日是几月几号? ask?",
+   "options": [
+    "What is your name?",
+    "Where do you live?",
+    "When is your birthday?",
+    "What is your favourite food?"
+   ],
+   "answer": 2,
+   "explanation": "月 is month and 号 is the date."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does 这是什么? ask?",
+   "options": [
+    "Who is this?",
+    "Where is it?",
+    "When is it?",
+    "What is this?"
+   ],
+   "answer": 3,
+   "explanation": "什么 means what."
+  },
+  {
+   "topic": "3.5",
+   "q": "Which sentence means \"We sing.\"?",
+   "options": [
+    "我们切蛋糕。",
+    "我们唱歌。",
+    "你生日是几月几号?",
+    "祝你生日快乐!"
+   ],
+   "answer": 1,
+   "explanation": "我们唱歌。 (wǒmen chànggē.) means \"We sing.\"."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does 牛奶 niúnǎi mean?",
+   "options": [
+    "Beef",
+    "Milk",
+    "Chicken",
+    "Tea"
+   ],
+   "answer": 1,
+   "explanation": "牛奶 is milk; 牛肉 is beef."
+  },
+  {
+   "topic": "2.5",
+   "q": "What does 送 (sòng) mean?",
+   "options": [
+    "Happy",
+    "Which number, how many",
+    "To give (a gift)",
+    "Candle"
+   ],
+   "answer": 2,
+   "explanation": "送 (sòng) means to give (a gift)."
   }
  ],
  "short": []
