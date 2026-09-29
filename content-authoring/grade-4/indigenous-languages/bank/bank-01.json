@@ -954,11 +954,11 @@
    "options": [
     "The sun is hot.",
     "The sun is hot,",
-    "The sun is hot",
-    "the sun is hot"
+    "The sun is hot?",
+    "The sun is hot:"
    ],
    "answer": 0,
-   "explanation": "A statement ends with a full stop and begins with a capital."
+   "explanation": "A statement ends with a full stop."
   },
   {
    "topic": "2.3",
@@ -1010,15 +1010,15 @@
   },
   {
    "topic": "2.3",
-   "q": "Which sentence has correct capital letters?",
+   "q": "Which of these must always begin with a capital letter in English?",
    "options": [
-    "on tuesday i met achieng in kisumu.",
-    "On Tuesday I met Achieng in Kisumu.",
-    "On tuesday I met achieng in kisumu.",
-    "On Tuesday i met Achieng in kisumu."
+    "The names of foods",
+    "The names of people",
+    "The names of colours",
+    "The names of weather"
    ],
    "answer": 1,
-   "explanation": "Names of days, people and places and the word I begin with capitals."
+   "explanation": "Names of people and places begin with capital letters."
   },
   {
    "topic": "2.3",
@@ -1546,7 +1546,7 @@
   },
   {
    "topic": "4.3",
-   "q": "What is an imaginative composition?",
+   "q": "Describe what an imaginative composition is.",
    "marks": 2,
    "answer": "A story that comes from the writer's imagination and is not a true report.",
    "working": "One mark for story and one for imagination."
@@ -1704,6 +1704,13 @@
    "marks": 4,
    "answer": "I had money, so I bought bread. I wanted a toy, but it was too costly.",
    "working": "One mark for each correct sentence and one for each correct comma."
+  },
+  {
+   "topic": "5.3",
+   "q": "Explain what a subject and a predicate are, then write one sentence and divide it.",
+   "marks": 5,
+   "answer": "The subject is who or what the sentence is about and the predicate says what the subject does. Example: The girl (subject) counts the coins (predicate).",
+   "working": "Two marks for the two meanings, one for a sentence, and two marks for the correct division."
   }
  ]
 }

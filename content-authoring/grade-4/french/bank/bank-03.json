@@ -1,0 +1,1296 @@
+{
+ "mcq": [
+  {
+   "topic": "1.2",
+   "q": "How do you say 'This is my sister.' in French?",
+   "options": [
+    "Qui est-ce ?",
+    "Ma mère s'appelle Grace.",
+    "C'est ma sœur.",
+    "C'est ma mère."
+   ],
+   "answer": 2,
+   "explanation": "This is my sister. in French is C'est ma sœur."
+  },
+  {
+   "topic": "1.5",
+   "q": "What number is 'trente' in French?",
+   "options": [
+    "13",
+    "30",
+    "3",
+    "10"
+   ],
+   "answer": 1,
+   "explanation": "trente means 30."
+  },
+  {
+   "topic": "1.5",
+   "q": "Which month is 'septembre'?",
+   "options": [
+    "September",
+    "May",
+    "November",
+    "March"
+   ],
+   "answer": 0,
+   "explanation": "septembre means September."
+  },
+  {
+   "topic": "3.2",
+   "q": "How do you say 'Who is it?' in French?",
+   "options": [
+    "Qui est-ce ?",
+    "la famille",
+    "l'enfant",
+    "Voici"
+   ],
+   "answer": 0,
+   "explanation": "Who is it? in French is Qui est-ce ?."
+  },
+  {
+   "topic": "2.6",
+   "q": "Which little word goes with 'carotte' (the carrot)?",
+   "options": [
+    "la",
+    "les",
+    "le",
+    "l'"
+   ],
+   "answer": 0,
+   "explanation": "carotte is feminine, so we say la carotte."
+  },
+  {
+   "topic": "3.5",
+   "q": "Fill in: Cher Kamau, ______ anniversaire !",
+   "options": [
+    "Bonsoir",
+    "Salut",
+    "Bonne",
+    "Bon"
+   ],
+   "answer": 3,
+   "explanation": "Bon anniversaire is the wish."
+  },
+  {
+   "topic": "3.6",
+   "q": "How do you say 'the mango' in French?",
+   "options": [
+    "l'eau",
+    "le lait",
+    "le maïs",
+    "la mangue"
+   ],
+   "answer": 3,
+   "explanation": "the mango in French is la mangue."
+  },
+  {
+   "topic": "1.7",
+   "q": "How do you say 'I have two feet.' in French?",
+   "options": [
+    "J'ai une bouche.",
+    "J'ai deux yeux.",
+    "J'ai deux pieds.",
+    "J'ai deux oreilles."
+   ],
+   "answer": 2,
+   "explanation": "I have two feet. in French is J'ai deux pieds."
+  },
+  {
+   "topic": "1.1",
+   "q": "How do you say 'Hello, Amina!' in French?",
+   "options": [
+    "Ça va bien, merci.",
+    "Au revoir, Monsieur.",
+    "Bonjour, Amina !",
+    "Ça s'écrit comment ?"
+   ],
+   "answer": 2,
+   "explanation": "Hello, Amina! in French is Bonjour, Amina !"
+  },
+  {
+   "topic": "2.9",
+   "q": "What does 'Excusez-moi, où est l'école ?' mean?",
+   "options": [
+    "Go straight ahead.",
+    "Where is the key?",
+    "Turn right.",
+    "Excuse me, where is the school?"
+   ],
+   "answer": 3,
+   "explanation": "Excusez-moi, où est l'école ? means Excuse me, where is the school?"
+  },
+  {
+   "topic": "3.8",
+   "q": "How do you say 'the snow' in French?",
+   "options": [
+    "le vent",
+    "la neige",
+    "une inondation",
+    "l'orage"
+   ],
+   "answer": 1,
+   "explanation": "the snow in French is la neige."
+  },
+  {
+   "topic": "1.4",
+   "q": "How do you say 'On Friday, I dance.' in French?",
+   "options": [
+    "Demain, c'est jeudi.",
+    "Aujourd'hui, c'est lundi.",
+    "Le dimanche, je me repose.",
+    "Le vendredi, je danse."
+   ],
+   "answer": 3,
+   "explanation": "On Friday, I dance. in French is Le vendredi, je danse."
+  },
+  {
+   "topic": "1.7",
+   "q": "Fill in: J'ai ______ mains. (2)",
+   "options": [
+    "dix",
+    "un",
+    "trois",
+    "deux"
+   ],
+   "answer": 3,
+   "explanation": "Two hands is deux mains."
+  },
+  {
+   "topic": "2.4",
+   "q": "What does 'Aujourd'hui, c'est lundi.' mean?",
+   "options": [
+    "On Friday, I dance.",
+    "Today it is Monday.",
+    "On Saturday, I play.",
+    "On Saturday, I help my mother."
+   ],
+   "answer": 1,
+   "explanation": "Aujourd'hui, c'est lundi. means Today it is Monday."
+  },
+  {
+   "topic": "2.8",
+   "q": "Which little word goes with 'vent' (the wind)?",
+   "options": [
+    "le",
+    "la",
+    "l'",
+    "les"
+   ],
+   "answer": 0,
+   "explanation": "vent is masculine, so we say le vent."
+  },
+  {
+   "topic": "3.7",
+   "q": "How do you say 'the leg' in French?",
+   "options": [
+    "le genou",
+    "le ventre",
+    "la jambe",
+    "le dos"
+   ],
+   "answer": 2,
+   "explanation": "the leg in French is la jambe."
+  },
+  {
+   "topic": "1.9",
+   "q": "Fill in: Tournez ______ . (Turn left.)",
+   "options": [
+    "devant",
+    "à droite",
+    "à gauche",
+    "tout droit"
+   ],
+   "answer": 2,
+   "explanation": "À gauche means to the left."
+  },
+  {
+   "topic": "1.3",
+   "q": "How do you say 'Put the book in the bedroom.' in French?",
+   "options": [
+    "C'est un lit.",
+    "Le sac est dans la chambre.",
+    "Le livre est sur la table.",
+    "Mets le livre dans la chambre."
+   ],
+   "answer": 3,
+   "explanation": "Put the book in the bedroom. in French is Mets le livre dans la chambre."
+  },
+  {
+   "topic": "1.9",
+   "q": "Read: Amina: Excusez-moi, où est l'école ? Kamau: Allez tout droit. Tournez à gauche. Amina: Merci ! Kamau: De rien ! Question: Which way should she turn?",
+   "options": [
+    "right",
+    "up",
+    "back",
+    "left"
+   ],
+   "answer": 3,
+   "explanation": "Tournez à gauche."
+  },
+  {
+   "topic": "3.7",
+   "q": "How do you say 'the hand' in French?",
+   "options": [
+    "le genou",
+    "l'épaule",
+    "le ventre",
+    "la main"
+   ],
+   "answer": 3,
+   "explanation": "the hand in French is la main."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does 'les cheveux' mean in English?",
+   "options": [
+    "the tooth",
+    "the hair",
+    "the stomach",
+    "the leg"
+   ],
+   "answer": 1,
+   "explanation": "les cheveux means the hair."
+  },
+  {
+   "topic": "3.6",
+   "q": "Which is the correct spelling of the French word for 'tea'?",
+   "options": [
+    "the",
+    "thè",
+    "té",
+    "thé"
+   ],
+   "answer": 3,
+   "explanation": "The correct spelling is thé, with its accents."
+  },
+  {
+   "topic": "3.7",
+   "q": "How do you say 'the knee' in French?",
+   "options": [
+    "les cheveux",
+    "le genou",
+    "la main",
+    "l'épaule"
+   ],
+   "answer": 1,
+   "explanation": "the knee in French is le genou."
+  },
+  {
+   "topic": "3.9",
+   "q": "How do you say 'straight ahead' in French?",
+   "options": [
+    "à côté de",
+    "près de",
+    "à gauche",
+    "tout droit"
+   ],
+   "answer": 3,
+   "explanation": "straight ahead in French is tout droit."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does 'le dos' mean in English?",
+   "options": [
+    "the eyes",
+    "the hand",
+    "the back",
+    "the foot"
+   ],
+   "answer": 2,
+   "explanation": "le dos means the back."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which sentence is correctly written?",
+   "options": [
+    "Je m'apelle Amina.",
+    "Je m appelle Amina",
+    "Je m'appelle Amina.",
+    "je mappelle amina"
+   ],
+   "answer": 2,
+   "explanation": "It has the apostrophe, double l, capital letters and a full stop."
+  },
+  {
+   "topic": "2.4",
+   "q": "Read: Salut ! Je m'appelle Kamau. J'ai dix ans. Le samedi, je joue au football. Le dimanche, je vais à l'église avec ma famille. Question: Who does he go to church with on Sunday?",
+   "options": [
+    "his cat",
+    "his teacher",
+    "nobody",
+    "his family"
+   ],
+   "answer": 3,
+   "explanation": "Avec ma famille means with my family."
+  },
+  {
+   "topic": "3.2",
+   "q": "How do you say 'the brother' in French?",
+   "options": [
+    "le père",
+    "la grand-mère",
+    "le frère",
+    "la famille"
+   ],
+   "answer": 2,
+   "explanation": "the brother in French is le frère."
+  },
+  {
+   "topic": "3.5",
+   "q": "How do you write the number 17 in French?",
+   "options": [
+    "vingt-cinq",
+    "treize",
+    "huit",
+    "dix-sept"
+   ],
+   "answer": 3,
+   "explanation": "17 in French is dix-sept."
+  },
+  {
+   "topic": "3.8",
+   "q": "How do you say 'the sun' in French?",
+   "options": [
+    "le nuage",
+    "le soleil",
+    "une inondation",
+    "la pluie"
+   ],
+   "answer": 1,
+   "explanation": "the sun in French is le soleil."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does 'À midi, je mange du riz et des haricots.' mean?",
+   "options": [
+    "At midday, I eat rice and beans.",
+    "I drink a juice.",
+    "They are mangoes.",
+    "It is a cake."
+   ],
+   "answer": 0,
+   "explanation": "À midi, je mange du riz et des haricots. means At midday, I eat rice and beans."
+  },
+  {
+   "topic": "1.5",
+   "q": "What number is 'neuf' in French?",
+   "options": [
+    "21",
+    "3",
+    "11",
+    "9"
+   ],
+   "answer": 3,
+   "explanation": "neuf means 9."
+  },
+  {
+   "topic": "1.8",
+   "q": "What does 'agréable' mean in English?",
+   "options": [
+    "the cloud",
+    "the rain",
+    "pleasant",
+    "strong"
+   ],
+   "answer": 2,
+   "explanation": "agréable means pleasant."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does 'Ma mère s'appelle Grace.' mean?",
+   "options": [
+    "My mother is called Grace.",
+    "This is my father.",
+    "I have a brother and a sister.",
+    "Who is it?"
+   ],
+   "answer": 0,
+   "explanation": "Ma mère s'appelle Grace. means My mother is called Grace."
+  },
+  {
+   "topic": "3.5",
+   "q": "How do you say the month 'December' in French?",
+   "options": [
+    "mars",
+    "avril",
+    "octobre",
+    "décembre"
+   ],
+   "answer": 3,
+   "explanation": "December in French is décembre."
+  },
+  {
+   "topic": "1.3",
+   "q": "Fill in: Le chat est ______ la chaise. (under)",
+   "options": [
+    "devant",
+    "sous",
+    "sur",
+    "entre"
+   ],
+   "answer": 1,
+   "explanation": "Sous means under."
+  },
+  {
+   "topic": "1.4",
+   "q": "What does 'vendredi' mean in English?",
+   "options": [
+    "Friday",
+    "Thursday",
+    "Tuesday",
+    "Monday"
+   ],
+   "answer": 0,
+   "explanation": "vendredi means Friday."
+  },
+  {
+   "topic": "1.9",
+   "q": "How do you say 'Turn right.' in French?",
+   "options": [
+    "Où est la clé ?",
+    "Elle est sous la chaise.",
+    "Le frigo est dans la cuisine.",
+    "Tournez à droite."
+   ],
+   "answer": 3,
+   "explanation": "Turn right. in French is Tournez à droite."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which day comes after dimanche?",
+   "options": [
+    "jeudi",
+    "lundi",
+    "samedi",
+    "mardi"
+   ],
+   "answer": 1,
+   "explanation": "The week begins again with Monday."
+  },
+  {
+   "topic": "3.7",
+   "q": "How do you say 'long' in French?",
+   "options": [
+    "long",
+    "grand",
+    "noir",
+    "court"
+   ],
+   "answer": 0,
+   "explanation": "long in French is long."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which little word goes with 'bougie'?",
+   "options": [
+    "la",
+    "le",
+    "les",
+    "l'"
+   ],
+   "answer": 0,
+   "explanation": "bougie is feminine, so we say la bougie."
+  },
+  {
+   "topic": "1.7",
+   "q": "How do you say 'She has black hair.' in French?",
+   "options": [
+    "Elle a les cheveux noirs.",
+    "Il est grand.",
+    "J'ai deux pieds.",
+    "J'ai une bouche."
+   ],
+   "answer": 0,
+   "explanation": "She has black hair. in French is Elle a les cheveux noirs."
+  },
+  {
+   "topic": "3.3",
+   "q": "How do you say 'the table' in French?",
+   "options": [
+    "la salle de bain",
+    "la table",
+    "la cuisine",
+    "la télé"
+   ],
+   "answer": 1,
+   "explanation": "the table in French is la table."
+  },
+  {
+   "topic": "3.3",
+   "q": "Fill in: C'est ______ lit.",
+   "options": [
+    "un",
+    "la",
+    "une",
+    "des"
+   ],
+   "answer": 0,
+   "explanation": "Lit is masculine, so un."
+  },
+  {
+   "topic": "3.7",
+   "q": "How do you say 'the nose' in French?",
+   "options": [
+    "le nez",
+    "la jambe",
+    "la dent",
+    "le doigt"
+   ],
+   "answer": 0,
+   "explanation": "the nose in French is le nez."
+  },
+  {
+   "topic": "3.4",
+   "q": "How do you say 'the week' in French?",
+   "options": [
+    "l'école",
+    "la semaine",
+    "le jour",
+    "l'église"
+   ],
+   "answer": 1,
+   "explanation": "the week in French is la semaine."
+  },
+  {
+   "topic": "3.3",
+   "q": "How do you say 'the bathroom' in French?",
+   "options": [
+    "le sac",
+    "la maison",
+    "la douche",
+    "la salle de bain"
+   ],
+   "answer": 3,
+   "explanation": "the bathroom in French is la salle de bain."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does 'la dent' mean in English?",
+   "options": [
+    "the ear",
+    "the eyes",
+    "the tooth",
+    "the arm"
+   ],
+   "answer": 2,
+   "explanation": "la dent means the tooth."
+  },
+  {
+   "topic": "3.2",
+   "q": "Fill in: ______ grand-mère s'appelle Grace.",
+   "options": [
+    "Un",
+    "Ma",
+    "Mon",
+    "Le"
+   ],
+   "answer": 1,
+   "explanation": "Grand-mère is feminine."
+  },
+  {
+   "topic": "2.8",
+   "q": "What does 'Il fait froid.' mean?",
+   "options": [
+    "It is hot.",
+    "It is cold.",
+    "It is windy.",
+    "It is sunny."
+   ],
+   "answer": 1,
+   "explanation": "Il fait froid. means It is cold."
+  },
+  {
+   "topic": "3.8",
+   "q": "How do you say 'the wind' in French?",
+   "options": [
+    "la neige",
+    "le vent",
+    "le soleil",
+    "la pluie"
+   ],
+   "answer": 1,
+   "explanation": "the wind in French is le vent."
+  },
+  {
+   "topic": "1.4",
+   "q": "What does 'la semaine' mean in English?",
+   "options": [
+    "the church",
+    "the week",
+    "the school",
+    "the day"
+   ],
+   "answer": 1,
+   "explanation": "la semaine means the week."
+  },
+  {
+   "topic": "3.8",
+   "q": "How do you say 'pleasant' in French?",
+   "options": [
+    "Il y a du vent.",
+    "Il fait froid.",
+    "agréable",
+    "Il pleut."
+   ],
+   "answer": 2,
+   "explanation": "pleasant in French is agréable."
+  },
+  {
+   "topic": "1.7",
+   "q": "What does 'le doigt' mean in English?",
+   "options": [
+    "the finger",
+    "the head",
+    "the eyes",
+    "the tooth"
+   ],
+   "answer": 0,
+   "explanation": "le doigt means the finger."
+  },
+  {
+   "topic": "1.6",
+   "q": "How do you say 'It is not good for your health.' in French?",
+   "options": [
+    "Ce n'est pas bon pour la santé.",
+    "Je n'aime pas le poisson.",
+    "C'est un gâteau.",
+    "J'aime le lait."
+   ],
+   "answer": 0,
+   "explanation": "It is not good for your health. in French is Ce n'est pas bon pour la santé."
+  },
+  {
+   "topic": "3.3",
+   "q": "How do you say 'under' in French?",
+   "options": [
+    "sur",
+    "devant",
+    "sous",
+    "entre"
+   ],
+   "answer": 2,
+   "explanation": "under in French is sous."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which little word goes with 'fille' (the girl)?",
+   "options": [
+    "les",
+    "l'",
+    "la",
+    "le"
+   ],
+   "answer": 2,
+   "explanation": "fille is feminine, so we say la fille."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does 'Mets le livre dans la chambre.' mean?",
+   "options": [
+    "The cat is under the chair.",
+    "Put the book in the bedroom.",
+    "There is a sofa in the living room.",
+    "In the kitchen, there is a fridge."
+   ],
+   "answer": 1,
+   "explanation": "Mets le livre dans la chambre. means Put the book in the bedroom."
+  },
+  {
+   "topic": "1.8",
+   "q": "How do you say 'I stay in the house.' in French?",
+   "options": [
+    "Il pleut.",
+    "Je reste dans la maison.",
+    "Aujourd'hui, il pleut.",
+    "Il fait froid."
+   ],
+   "answer": 1,
+   "explanation": "I stay in the house. in French is Je reste dans la maison."
+  },
+  {
+   "topic": "1.8",
+   "q": "Fill in: Il ______ . (It is raining.)",
+   "options": [
+    "est pleut",
+    "pleut",
+    "fait pleut",
+    "y a pleut"
+   ],
+   "answer": 1,
+   "explanation": "We say Il pleut, without fait."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does 'les frites' mean in English?",
+   "options": [
+    "milk",
+    "chips",
+    "fish",
+    "fruits"
+   ],
+   "answer": 1,
+   "explanation": "les frites means chips."
+  },
+  {
+   "topic": "2.1",
+   "q": "In the word salut, which letter is silent?",
+   "options": [
+    "t",
+    "s",
+    "l",
+    "u"
+   ],
+   "answer": 0,
+   "explanation": "The final t is silent in salut."
+  },
+  {
+   "topic": "3.3",
+   "q": "Fill in: Dans la cuisine, il y a un ______.",
+   "options": [
+    "frigo",
+    "lit",
+    "canapé",
+    "tapis"
+   ],
+   "answer": 0,
+   "explanation": "A fridge belongs in the kitchen."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does 'derrière' mean in English?",
+   "options": [
+    "behind",
+    "in",
+    "under",
+    "in front of"
+   ],
+   "answer": 0,
+   "explanation": "derrière means behind."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which letters say oo in bonjour?",
+   "options": [
+    "on",
+    "au",
+    "ou",
+    "oi"
+   ],
+   "answer": 2,
+   "explanation": "The letters ou say oo."
+  },
+  {
+   "topic": "1.5",
+   "q": "What number is 'douze' in French?",
+   "options": [
+    "17",
+    "13",
+    "9",
+    "12"
+   ],
+   "answer": 3,
+   "explanation": "douze means 12."
+  },
+  {
+   "topic": "1.3",
+   "q": "How do you say 'The ball is behind the door.' in French?",
+   "options": [
+    "Dans la cuisine, il y a un frigo.",
+    "Le ballon est derrière la porte.",
+    "Mets le livre sur la table.",
+    "C'est une table."
+   ],
+   "answer": 1,
+   "explanation": "The ball is behind the door. in French is Le ballon est derrière la porte."
+  },
+  {
+   "topic": "1.5",
+   "q": "How do you say 'I sing and I dance.' in French?",
+   "options": [
+    "Je chante et je danse.",
+    "Bon anniversaire !",
+    "J'ai dix ans.",
+    "Mon anniversaire, c'est le 12 mai."
+   ],
+   "answer": 0,
+   "explanation": "I sing and I dance. in French is Je chante et je danse."
+  },
+  {
+   "topic": "3.8",
+   "q": "How do you say 'strong' in French?",
+   "options": [
+    "beaucoup",
+    "le vent",
+    "fort",
+    "Il gèle."
+   ],
+   "answer": 2,
+   "explanation": "strong in French is fort."
+  },
+  {
+   "topic": "3.6",
+   "q": "How do you say 'chicken' in French?",
+   "options": [
+    "le jus",
+    "le maïs",
+    "le poulet",
+    "le gâteau"
+   ],
+   "answer": 2,
+   "explanation": "chicken in French is le poulet."
+  },
+  {
+   "topic": "3.7",
+   "q": "How do you say 'the eyes' in French?",
+   "options": [
+    "les yeux",
+    "le ventre",
+    "le bras",
+    "le doigt"
+   ],
+   "answer": 0,
+   "explanation": "the eyes in French is les yeux."
+  },
+  {
+   "topic": "2.6",
+   "q": "Which little word goes with 'tomate' (the tomato)?",
+   "options": [
+    "le",
+    "les",
+    "la",
+    "l'"
+   ],
+   "answer": 2,
+   "explanation": "tomate is feminine, so we say la tomate."
+  },
+  {
+   "topic": "3.6",
+   "q": "How do you say 'juice' in French?",
+   "options": [
+    "le thé",
+    "le jus",
+    "les fruits",
+    "les frites"
+   ],
+   "answer": 1,
+   "explanation": "juice in French is le jus."
+  },
+  {
+   "topic": "1.8",
+   "q": "What does 'le vent' mean in English?",
+   "options": [
+    "the cloud",
+    "the sun",
+    "the wind",
+    "the weather"
+   ],
+   "answer": 2,
+   "explanation": "le vent means the wind."
+  },
+  {
+   "topic": "1.5",
+   "q": "What number is 'six' in French?",
+   "options": [
+    "10",
+    "6",
+    "16",
+    "17"
+   ],
+   "answer": 1,
+   "explanation": "six means 6."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which little word goes with 'sac' (the bag)?",
+   "options": [
+    "les",
+    "l'",
+    "la",
+    "le"
+   ],
+   "answer": 3,
+   "explanation": "sac is masculine, so we say le sac."
+  },
+  {
+   "topic": "3.3",
+   "q": "How do you say 'the living room' in French?",
+   "options": [
+    "la cuisine",
+    "le salon",
+    "le ballon",
+    "la chambre"
+   ],
+   "answer": 1,
+   "explanation": "the living room in French is le salon."
+  },
+  {
+   "topic": "1.2",
+   "q": "How do you say 'It is the baby.' in French?",
+   "options": [
+    "Voici ma famille.",
+    "Mon père s'appelle David.",
+    "C'est ma sœur.",
+    "C'est le bébé."
+   ],
+   "answer": 3,
+   "explanation": "It is the baby. in French is C'est le bébé."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does 'Le chat est sous la chaise.' mean?",
+   "options": [
+    "In the kitchen, there is a fridge.",
+    "It is a table.",
+    "Put the book in the bedroom.",
+    "The cat is under the chair."
+   ],
+   "answer": 3,
+   "explanation": "Le chat est sous la chaise. means The cat is under the chair."
+  },
+  {
+   "topic": "3.2",
+   "q": "How do you say 'the child' in French?",
+   "options": [
+    "la mère",
+    "la sœur",
+    "l'enfant",
+    "la famille"
+   ],
+   "answer": 2,
+   "explanation": "the child in French is l'enfant."
+  },
+  {
+   "topic": "3.5",
+   "q": "How do you write the number 5 in French?",
+   "options": [
+    "dix-huit",
+    "cinq",
+    "neuf",
+    "trois"
+   ],
+   "answer": 1,
+   "explanation": "5 in French is cinq."
+  },
+  {
+   "topic": "3.5",
+   "q": "How do you write the number 19 in French?",
+   "options": [
+    "dix-neuf",
+    "deux",
+    "vingt",
+    "trente et un"
+   ],
+   "answer": 0,
+   "explanation": "19 in French is dix-neuf."
+  },
+  {
+   "topic": "3.9",
+   "q": "How do you say 'the shop' in French?",
+   "options": [
+    "le jardin",
+    "la clé",
+    "le magasin",
+    "le tapis"
+   ],
+   "answer": 2,
+   "explanation": "the shop in French is le magasin."
+  },
+  {
+   "topic": "3.1",
+   "q": "How do you say 'How are you?' in French?",
+   "options": [
+    "Comment tu t'appelles ?",
+    "Ça va ?",
+    "Et toi ?",
+    "Ça s'écrit comment ?"
+   ],
+   "answer": 1,
+   "explanation": "How are you? in French is Ça va ?."
+  },
+  {
+   "topic": "3.6",
+   "q": "How do you say 'fish' in French?",
+   "options": [
+    "les frites",
+    "les légumes",
+    "le jus",
+    "le poisson"
+   ],
+   "answer": 3,
+   "explanation": "fish in French is le poisson."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does 'J'aime le lait.' mean?",
+   "options": [
+    "I like milk.",
+    "They are mangoes.",
+    "I drink a juice.",
+    "It is good for your health."
+   ],
+   "answer": 0,
+   "explanation": "J'aime le lait. means I like milk."
+  },
+  {
+   "topic": "1.6",
+   "q": "How do you say 'I like milk.' in French?",
+   "options": [
+    "Qu'est-ce que c'est ?",
+    "À midi, je mange du riz et des haricots.",
+    "C'est une banane.",
+    "J'aime le lait."
+   ],
+   "answer": 3,
+   "explanation": "I like milk. in French is J'aime le lait."
+  },
+  {
+   "topic": "3.1",
+   "q": "How do you say 'How do you spell it?' in French?",
+   "options": [
+    "Je m'appelle Amina.",
+    "Ça va ?",
+    "Ça s'écrit comment ?",
+    "Et toi ?"
+   ],
+   "answer": 2,
+   "explanation": "How do you spell it? in French is Ça s'écrit comment ?."
+  },
+  {
+   "topic": "1.6",
+   "q": "What does 'le gâteau' mean in English?",
+   "options": [
+    "the mango",
+    "water",
+    "the cake",
+    "maize"
+   ],
+   "answer": 2,
+   "explanation": "le gâteau means the cake."
+  },
+  {
+   "topic": "2.6",
+   "q": "What does 'Ce sont des oranges.' mean?",
+   "options": [
+    "I do not like fish.",
+    "They are oranges.",
+    "At midday, I eat rice and beans.",
+    "What is it?"
+   ],
+   "answer": 1,
+   "explanation": "Ce sont des oranges. means They are oranges."
+  }
+ ],
+ "short": [
+  {
+   "topic": "3.9",
+   "q": "Write the French words for: near, the rug, the key (3 marks)",
+   "marks": 3,
+   "answer": "près de, le tapis, la clé",
+   "working": "1 mark for each correct word with its accents and le or la."
+  },
+  {
+   "topic": "2.5",
+   "q": "Translate into English: 'Voici un cadeau pour toi.' (3 marks)",
+   "marks": 3,
+   "answer": "Here is a present for you.",
+   "working": "Award marks for each correct part of the meaning: 3 marks in total."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into French: 'When is your birthday?' (3 marks)",
+   "marks": 3,
+   "answer": "Ton anniversaire, c'est quand ?",
+   "working": "Award marks for correct words, articles, accents and punctuation: 3 marks in total."
+  },
+  {
+   "topic": "3.9",
+   "q": "Translate into French: 'It is on the table.' (3 marks)",
+   "marks": 3,
+   "answer": "Il est sur la table.",
+   "working": "Award marks for correct words, articles, accents and punctuation: 3 marks in total."
+  },
+  {
+   "topic": "2.5",
+   "q": "Translate into English: 'J'ai neuf ans.' (2 marks)",
+   "marks": 2,
+   "answer": "I am nine years old.",
+   "working": "Award marks for each correct part of the meaning: 2 marks in total."
+  },
+  {
+   "topic": "2.8",
+   "q": "Translate into English: 'Il y a du soleil.' (3 marks)",
+   "marks": 3,
+   "answer": "It is sunny.",
+   "working": "Award marks for each correct part of the meaning: 3 marks in total."
+  },
+  {
+   "topic": "2.9",
+   "q": "Translate into English: 'La porte est à côté de la fenêtre.' (4 marks)",
+   "marks": 4,
+   "answer": "The door is next to the window.",
+   "working": "Award marks for each correct part of the meaning: 4 marks in total."
+  },
+  {
+   "topic": "2.5",
+   "q": "Translate into English: 'Mon anniversaire, c'est le 12 mai.' (3 marks)",
+   "marks": 3,
+   "answer": "My birthday is on 12 May.",
+   "working": "Award marks for each correct part of the meaning: 3 marks in total."
+  },
+  {
+   "topic": "2.4",
+   "q": "Translate into English: 'Quel jour est-ce aujourd'hui ?' (3 marks)",
+   "marks": 3,
+   "answer": "What day is it today?",
+   "working": "Award marks for each correct part of the meaning: 3 marks in total."
+  },
+  {
+   "topic": "2.3",
+   "q": "Translate into English: 'Le sac est dans la chambre.' (3 marks)",
+   "marks": 3,
+   "answer": "The bag is in the bedroom.",
+   "working": "Award marks for each correct part of the meaning: 3 marks in total."
+  },
+  {
+   "topic": "3.8",
+   "q": "Translate into French: 'It is raining.' (2 marks)",
+   "marks": 2,
+   "answer": "Il pleut.",
+   "working": "Award marks for correct words, articles, accents and punctuation: 2 marks in total."
+  },
+  {
+   "topic": "2.1",
+   "q": "Translate into English: 'Comment tu t'appelles ?' (3 marks)",
+   "marks": 3,
+   "answer": "What is your name?",
+   "working": "Award marks for each correct part of the meaning: 3 marks in total."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into French: 'It is the first of January.' (3 marks)",
+   "marks": 3,
+   "answer": "C'est le premier janvier.",
+   "working": "Award marks for correct words, articles, accents and punctuation: 3 marks in total."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write the French words for: the baby, the child, the mother (3 marks)",
+   "marks": 3,
+   "answer": "le bébé, l'enfant, la mère",
+   "working": "1 mark for each correct word with its accents and le or la."
+  },
+  {
+   "topic": "1.2",
+   "q": "List the members of a nuclear family in French with le or la. Give at least five. (5 marks)",
+   "marks": 5,
+   "answer": "le père, la mère, le frère, la sœur, le bébé (also l'enfant, le grand-père, la grand-mère)",
+   "working": "1 mark for each correct word with its le or la."
+  },
+  {
+   "topic": "2.6",
+   "q": "Translate into English: 'J'aime le lait.' (2 marks)",
+   "marks": 2,
+   "answer": "I like milk.",
+   "working": "Award marks for each correct part of the meaning: 2 marks in total."
+  },
+  {
+   "topic": "3.7",
+   "q": "Translate into French: 'I have a nose.' (2 marks)",
+   "marks": 2,
+   "answer": "J'ai un nez.",
+   "working": "Award marks for correct words, articles, accents and punctuation: 2 marks in total."
+  },
+  {
+   "topic": "3.9",
+   "q": "Translate into French: 'Excuse me, where is the school?' (3 marks)",
+   "marks": 3,
+   "answer": "Excusez-moi, où est l'école ?",
+   "working": "Award marks for correct words, articles, accents and punctuation: 3 marks in total."
+  },
+  {
+   "topic": "2.1",
+   "q": "Translate into English: 'Oui, ça va.' (2 marks)",
+   "marks": 2,
+   "answer": "Yes, I am fine.",
+   "working": "Award marks for each correct part of the meaning: 2 marks in total."
+  },
+  {
+   "topic": "1.1",
+   "q": "Give three French greetings and say when you would use each one. (3 marks)",
+   "marks": 3,
+   "answer": "Bonjour in the day, bonsoir in the evening, au revoir when leaving; salut for friends.",
+   "working": "1 mark for each greeting with a correct use."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into French: 'I am nine years old.' (2 marks)",
+   "marks": 2,
+   "answer": "J'ai neuf ans.",
+   "working": "Award marks for correct words, articles, accents and punctuation: 2 marks in total."
+  },
+  {
+   "topic": "3.7",
+   "q": "Translate into French: 'I have a mouth.' (2 marks)",
+   "marks": 2,
+   "answer": "J'ai une bouche.",
+   "working": "Award marks for correct words, articles, accents and punctuation: 2 marks in total."
+  },
+  {
+   "topic": "3.4",
+   "q": "Translate into French: 'What day is it today?' (3 marks)",
+   "marks": 3,
+   "answer": "Quel jour est-ce aujourd'hui ?",
+   "working": "Award marks for correct words, articles, accents and punctuation: 3 marks in total."
+  },
+  {
+   "topic": "3.5",
+   "q": "Translate into French: 'Thank you very much!' (2 marks)",
+   "marks": 2,
+   "answer": "Merci beaucoup !",
+   "working": "Award marks for correct words, articles, accents and punctuation: 2 marks in total."
+  },
+  {
+   "topic": "2.7",
+   "q": "Translate into English: 'J'ai deux oreilles.' (2 marks)",
+   "marks": 2,
+   "answer": "I have two ears.",
+   "working": "Award marks for each correct part of the meaning: 2 marks in total."
+  },
+  {
+   "topic": "1.2",
+   "q": "Write a role play of four lines in which you introduce your family. (4 marks)",
+   "marks": 4,
+   "answer": "Bonjour ! Voici ma famille. C'est ma mère. C'est mon père.",
+   "working": "1 mark for greeting, 1 mark for voici, 1 mark for each correct C'est line."
+  },
+  {
+   "topic": "3.8",
+   "q": "Translate into French: 'It is cloudy.' (3 marks)",
+   "marks": 3,
+   "answer": "Il y a des nuages.",
+   "working": "Award marks for correct words, articles, accents and punctuation: 3 marks in total."
+  },
+  {
+   "topic": "2.5",
+   "q": "Translate into English: 'J'ai dix ans.' (2 marks)",
+   "marks": 2,
+   "answer": "I am ten years old.",
+   "working": "Award marks for each correct part of the meaning: 2 marks in total."
+  },
+  {
+   "topic": "3.2",
+   "q": "Translate into French: 'It is the baby.' (2 marks)",
+   "marks": 2,
+   "answer": "C'est le bébé.",
+   "working": "Award marks for correct words, articles, accents and punctuation: 2 marks in total."
+  },
+  {
+   "topic": "2.7",
+   "q": "Translate into English: 'Elle a les cheveux longs.' (3 marks)",
+   "marks": 3,
+   "answer": "She has long hair.",
+   "working": "Award marks for each correct part of the meaning: 3 marks in total."
+  }
+ ]
+}

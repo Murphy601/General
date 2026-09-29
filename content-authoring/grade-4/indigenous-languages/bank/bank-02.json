@@ -122,12 +122,12 @@
   },
   {
    "topic": "3.1",
-   "q": "A verb is",
+   "q": "In grammar, a verb is a word that",
    "options": [
-    "a naming word",
-    "an action word",
-    "a joining word",
-    "a place"
+    "names a person",
+    "shows an action",
+    "joins two sentences",
+    "names a place"
    ],
    "answer": 1,
    "explanation": "Verbs show actions."
