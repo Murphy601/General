@@ -587,6 +587,498 @@
    ],
    "answer": 1,
    "explanation": "Bargaining is agreeing on price."
+  },
+  {
+   "topic": "6.1",
+   "q": "What does a preposition show?",
+   "options": [
+    "The position of one thing in relation to another",
+    "The colour of a thing",
+    "The sound of an animal",
+    "The price of goods"
+   ],
+   "answer": 0,
+   "explanation": "Prepositions show position such as on, under and beside."
+  },
+  {
+   "topic": "6.1",
+   "q": "The bag is below the table. Which preposition fits?",
+   "options": [
+    "on",
+    "beside",
+    "between",
+    "under"
+   ],
+   "answer": 3,
+   "explanation": "Under means below something."
+  },
+  {
+   "topic": "6.1",
+   "q": "The ball is touching the top of the table. Which preposition fits?",
+   "options": [
+    "under",
+    "behind",
+    "on",
+    "outside"
+   ],
+   "answer": 2,
+   "explanation": "On shows contact with the top."
+  },
+  {
+   "topic": "6.1",
+   "q": "The cow eats grass next to the river. Which word means the same as next to?",
+   "options": [
+    "inside",
+    "above",
+    "beside",
+    "under"
+   ],
+   "answer": 2,
+   "explanation": "Beside and next to both show the side."
+  },
+  {
+   "topic": "6.1",
+   "q": "Which preposition needs two things to make sense?",
+   "options": [
+    "on",
+    "between",
+    "in",
+    "under"
+   ],
+   "answer": 1,
+   "explanation": "Between means with something on each side."
+  },
+  {
+   "topic": "6.1",
+   "q": "The goat is inside the shed. Which preposition shows this?",
+   "options": [
+    "in",
+    "outside",
+    "behind",
+    "between"
+   ],
+   "answer": 0,
+   "explanation": "In shows something is inside."
+  },
+  {
+   "topic": "6.1",
+   "q": "Which of these is a preposition?",
+   "options": [
+    "banana",
+    "quickly",
+    "jump",
+    "behind"
+   ],
+   "answer": 3,
+   "explanation": "Behind shows position."
+  },
+  {
+   "topic": "6.1",
+   "q": "Which word means not inside?",
+   "options": [
+    "between",
+    "beside",
+    "under",
+    "outside"
+   ],
+   "answer": 3,
+   "explanation": "Outside means not inside."
+  },
+  {
+   "topic": "6.1",
+   "q": "What is animal welfare?",
+   "options": [
+    "Selling animals only",
+    "Hunting animals",
+    "Taking good care of animals so they are healthy and safe",
+    "Ignoring animals"
+   ],
+   "answer": 2,
+   "explanation": "Welfare means care for animals' well-being."
+  },
+  {
+   "topic": "6.1",
+   "q": "Which is a domestic animal?",
+   "options": [
+    "Lion",
+    "Goat",
+    "Elephant",
+    "Zebra"
+   ],
+   "answer": 1,
+   "explanation": "Goats are kept by people."
+  },
+  {
+   "topic": "6.1",
+   "q": "Which is a wild animal?",
+   "options": [
+    "Zebra",
+    "Hen",
+    "Dog",
+    "Cow"
+   ],
+   "answer": 0,
+   "explanation": "Zebras live freely on the plains."
+  },
+  {
+   "topic": "6.1",
+   "q": "Who should you call for a sick animal?",
+   "options": [
+    "A veterinary doctor",
+    "A tailor",
+    "A driver",
+    "A shopkeeper"
+   ],
+   "answer": 0,
+   "explanation": "Veterinary doctors treat animals."
+  },
+  {
+   "topic": "6.1",
+   "q": "Which is an example of caring for an animal?",
+   "options": [
+    "Beating it",
+    "Throwing stones at it",
+    "Leaving it without shelter",
+    "Giving clean water every day"
+   ],
+   "answer": 3,
+   "explanation": "Water and shelter meet its needs."
+  },
+  {
+   "topic": "6.1",
+   "q": "What does it mean to advocate for animal welfare?",
+   "options": [
+    "To harm animals",
+    "To ignore them",
+    "To speak in support of caring for animals",
+    "To hide them"
+   ],
+   "answer": 2,
+   "explanation": "Advocating means speaking in support."
+  },
+  {
+   "topic": "6.1",
+   "q": "What should you do while listening to instructions about where to place objects?",
+   "options": [
+    "Move immediately",
+    "Listen to the whole instruction before acting",
+    "Talk",
+    "Look away"
+   ],
+   "answer": 1,
+   "explanation": "Full listening avoids mistakes."
+  },
+  {
+   "topic": "6.1",
+   "q": "What is a mosaic?",
+   "options": [
+    "A kind of song",
+    "A picture made of small pieces",
+    "A long story",
+    "A heavy load"
+   ],
+   "answer": 1,
+   "explanation": "A mosaic is made of small pieces of paper or seeds."
+  },
+  {
+   "topic": "6.1",
+   "q": "In front of means",
+   "options": [
+    "before something and facing it",
+    "behind it",
+    "inside it",
+    "under it"
+   ],
+   "answer": 0,
+   "explanation": "In front of shows the position ahead of something."
+  },
+  {
+   "topic": "6.2",
+   "q": "What is a group of lines in a poem called?",
+   "options": [
+    "A sentence",
+    "A chapter",
+    "A paragraph",
+    "A stanza"
+   ],
+   "answer": 3,
+   "explanation": "A stanza is a group of lines."
+  },
+  {
+   "topic": "6.2",
+   "q": "What does pace mean when reading a poem?",
+   "options": [
+    "How loud you read",
+    "How long the poem is",
+    "How fast or slow you read",
+    "How many words rhyme"
+   ],
+   "answer": 2,
+   "explanation": "Pace is speed."
+  },
+  {
+   "topic": "6.2",
+   "q": "Which pair of words rhyme?",
+   "options": [
+    "hen and goat",
+    "water and food",
+    "day and play",
+    "cow and shade"
+   ],
+   "answer": 2,
+   "explanation": "Day and play end in the same sound."
+  },
+  {
+   "topic": "6.2",
+   "q": "How should you read a sad poem?",
+   "options": [
+    "Fast and loudly",
+    "Slowly and softly",
+    "Laughing",
+    "Without a pause"
+   ],
+   "answer": 1,
+   "explanation": "Slow and soft matches sadness."
+  },
+  {
+   "topic": "6.2",
+   "q": "What is a refrain?",
+   "options": [
+    "A line that is repeated",
+    "The title",
+    "A page",
+    "A rhyme only"
+   ],
+   "answer": 0,
+   "explanation": "A refrain is repeated in a poem or song."
+  },
+  {
+   "topic": "6.2",
+   "q": "What is the meaning of reciting a poem?",
+   "options": [
+    "Writing it",
+    "Erasing it",
+    "Copying it",
+    "Saying it aloud, usually from memory"
+   ],
+   "answer": 3,
+   "explanation": "To recite is to say aloud."
+  },
+  {
+   "topic": "6.2",
+   "q": "What does intonation add to a poem?",
+   "options": [
+    "A new title",
+    "A picture",
+    "Extra pages",
+    "The rise and fall of the voice that shows feeling"
+   ],
+   "answer": 3,
+   "explanation": "Intonation shows meaning."
+  },
+  {
+   "topic": "6.2",
+   "q": "Why should you mark pauses in a poem?",
+   "options": [
+    "To spoil the page",
+    "To make it longer",
+    "To know where to stop and breathe",
+    "To hide words"
+   ],
+   "answer": 2,
+   "explanation": "Pauses help the listener follow."
+  },
+  {
+   "topic": "6.2",
+   "q": "In choral recitation, the group",
+   "options": [
+    "reads silently",
+    "says the poem together at the same pace",
+    "writes the poem",
+    "sings only"
+   ],
+   "answer": 1,
+   "explanation": "Choral means together."
+  },
+  {
+   "topic": "6.2",
+   "q": "What should you do while a classmate recites?",
+   "options": [
+    "Listen and respect them",
+    "Talk",
+    "Laugh",
+    "Leave"
+   ],
+   "answer": 0,
+   "explanation": "Good listeners respect performers."
+  },
+  {
+   "topic": "6.2",
+   "q": "Which is a good tip for reciting?",
+   "options": [
+    "Look at the audience and speak clearly",
+    "Look at the floor and mumble",
+    "Speak very fast",
+    "Cover your face"
+   ],
+   "answer": 0,
+   "explanation": "Eye contact and clarity help."
+  },
+  {
+   "topic": "6.2",
+   "q": "What is spoken word?",
+   "options": [
+    "A silent song",
+    "A kind of drawing",
+    "A dictionary",
+    "Poetry performed aloud for an audience"
+   ],
+   "answer": 3,
+   "explanation": "Spoken word is performed poetry."
+  },
+  {
+   "topic": "6.2",
+   "q": "What does rhyme mean?",
+   "options": [
+    "Words with many letters",
+    "Words with capital letters",
+    "Words with the same ending sound",
+    "Words with no vowels"
+   ],
+   "answer": 2,
+   "explanation": "Rhyming words sound alike at the end."
+  },
+  {
+   "topic": "6.2",
+   "q": "Which is a poem's mood if it is joyful?",
+   "options": [
+    "Sad",
+    "Happy",
+    "Angry",
+    "Sleepy"
+   ],
+   "answer": 1,
+   "explanation": "A joyful poem has a happy mood."
+  },
+  {
+   "topic": "6.2",
+   "q": "Why record yourself reciting?",
+   "options": [
+    "To lose the poem",
+    "To listen back and improve",
+    "To delete your voice",
+    "To stop practising"
+   ],
+   "answer": 1,
+   "explanation": "Playback shows how to improve."
+  },
+  {
+   "topic": "6.3",
+   "q": "Which element tells where and when a story happens?",
+   "options": [
+    "Setting",
+    "Title",
+    "Ending",
+    "Character"
+   ],
+   "answer": 0,
+   "explanation": "Setting means place and time."
+  },
+  {
+   "topic": "6.3",
+   "q": "What is the problem in a story?",
+   "options": [
+    "The title",
+    "The page",
+    "The ending word",
+    "The trouble or challenge the characters face"
+   ],
+   "answer": 3,
+   "explanation": "The problem drives the events."
+  },
+  {
+   "topic": "6.3",
+   "q": "Which of these is a character?",
+   "options": [
+    "A cloudy afternoon",
+    "Under the tree",
+    "A girl called Neema",
+    "The last page"
+   ],
+   "answer": 2,
+   "explanation": "Characters are people or animals."
+  },
+  {
+   "topic": "6.3",
+   "q": "What should you do first when studying a picture for a story?",
+   "options": [
+    "Write the ending",
+    "Cover it",
+    "Look at the whole picture",
+    "Copy a story"
+   ],
+   "answer": 2,
+   "explanation": "First see the whole picture."
+  },
+  {
+   "topic": "6.3",
+   "q": "Which question helps you find ideas from a picture?",
+   "options": [
+    "How heavy is the paper?",
+    "Who is in the picture?",
+    "What page is this?",
+    "Who printed it?"
+   ],
+   "answer": 1,
+   "explanation": "Who, where, what and why give story ideas."
+  },
+  {
+   "topic": "6.3",
+   "q": "What are the events of a story?",
+   "options": [
+    "What happens step by step",
+    "The title",
+    "The author",
+    "The margin"
+   ],
+   "answer": 0,
+   "explanation": "Events are the actions in order."
+  },
+  {
+   "topic": "6.3",
+   "q": "Which is a good ending for a story?",
+   "options": [
+    "It repeats the title",
+    "It has no meaning",
+    "It begins a new topic",
+    "It solves the problem or shows the lesson"
+   ],
+   "answer": 3,
+   "explanation": "Endings resolve the story."
+  },
+  {
+   "topic": "6.3",
+   "q": "What is creative writing?",
+   "options": [
+    "Copying a text exactly",
+    "Writing a list of names",
+    "Writing only numbers",
+    "Using imagination to write stories, poems and other pieces"
+   ],
+   "answer": 3,
+   "explanation": "Creative writing is imaginative."
+  },
+  {
+   "topic": "6.3",
+   "q": "Why are stories important in communities?",
+   "options": [
+    "They waste time",
+    "They cause trouble",
+    "They teach values and keep history",
+    "They hide the truth"
+   ],
+   "answer": 2,
+   "explanation": "Stories teach and entertain."
   }
  ],
  "short": []

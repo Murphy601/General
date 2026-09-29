@@ -1,0 +1,725 @@
+{
+ "mcq": [
+  {
+   "topic": "8.3",
+   "q": "Which is a common field on a form?",
+   "options": [
+    "Colour of the wall",
+    "The number of windows",
+    "Name",
+    "Type of soil"
+   ],
+   "answer": 2,
+   "explanation": "Name is a common field."
+  },
+  {
+   "topic": "8.3",
+   "q": "Why should you write true information on a form?",
+   "options": [
+    "False answers are best",
+    "Forms are records and false information causes problems",
+    "Nobody reads forms",
+    "It is a game"
+   ],
+   "answer": 1,
+   "explanation": "Honest answers are important."
+  },
+  {
+   "topic": "8.3",
+   "q": "What should you use to fill a form unless told otherwise?",
+   "options": [
+    "A pen",
+    "A crayon",
+    "A finger",
+    "A chalk"
+   ],
+   "answer": 0,
+   "explanation": "A pen gives clear permanent writing."
+  },
+  {
+   "topic": "8.3",
+   "q": "Which is a part of a form?",
+   "options": [
+    "Poem",
+    "Ending song",
+    "Riddle",
+    "Title"
+   ],
+   "answer": 3,
+   "explanation": "A form has a title."
+  },
+  {
+   "topic": "8.3",
+   "q": "Why should you ask an adult before giving your address on an online form?",
+   "options": [
+    "To waste time",
+    "To make it longer",
+    "No reason",
+    "To stay safe"
+   ],
+   "answer": 3,
+   "explanation": "Personal details should be protected."
+  },
+  {
+   "topic": "8.3",
+   "q": "What does format mean for a form?",
+   "options": [
+    "What it costs",
+    "Who wrote it",
+    "How it is arranged on the page",
+    "How old it is"
+   ],
+   "answer": 2,
+   "explanation": "Format is the layout."
+  },
+  {
+   "topic": "8.3",
+   "q": "What does a good form have?",
+   "options": [
+    "No spaces",
+    "Clear title, instructions and enough space",
+    "No title",
+    "Tiny words only"
+   ],
+   "answer": 1,
+   "explanation": "Clarity makes forms easy to fill."
+  },
+  {
+   "topic": "8.3",
+   "q": "What should you do after filling a form?",
+   "options": [
+    "Check it and sign and date it",
+    "Throw it away",
+    "Give it to anyone",
+    "Ignore it"
+   ],
+   "answer": 0,
+   "explanation": "Checking prevents mistakes."
+  },
+  {
+   "topic": "8.3",
+   "q": "What is a digital form?",
+   "options": [
+    "A form filled in on a device",
+    "A form on a tree",
+    "A form made of clay",
+    "A paper airplane"
+   ],
+   "answer": 0,
+   "explanation": "Digital forms are filled on phones or computers."
+  },
+  {
+   "topic": "8.3",
+   "q": "Where should your class keep collected forms?",
+   "options": [
+    "In the fire",
+    "In the river",
+    "Under a stone",
+    "In a portfolio"
+   ],
+   "answer": 3,
+   "explanation": "A portfolio keeps them organised."
+  },
+  {
+   "topic": "8.3",
+   "q": "Which field asks how old you are?",
+   "options": [
+    "Class",
+    "School",
+    "Age",
+    "Signature"
+   ],
+   "answer": 2,
+   "explanation": "Age records how old you are."
+  },
+  {
+   "topic": "8.3",
+   "q": "What is the purpose of the instructions on a form?",
+   "options": [
+    "To make it hard",
+    "To tell you how to fill it in",
+    "To hide the title",
+    "To use up space"
+   ],
+   "answer": 1,
+   "explanation": "Instructions guide the person filling it."
+  },
+  {
+   "topic": "9.1",
+   "q": "What does turn taking mean?",
+   "options": [
+    "Speaking all at once",
+    "Speaking one at a time and waiting for your chance",
+    "Speaking loudest",
+    "Refusing to speak"
+   ],
+   "answer": 1,
+   "explanation": "Turn taking is orderly speaking."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which is a polite way to interrupt?",
+   "options": [
+    "Excuse me, may I say something?",
+    "Stop talking!",
+    "You are wrong!",
+    "Be quiet!"
+   ],
+   "answer": 0,
+   "explanation": "It asks permission politely."
+  },
+  {
+   "topic": "9.1",
+   "q": "What does a moderator do in a panel discussion?",
+   "options": [
+    "Sleeps",
+    "Speaks all the time",
+    "Leaves",
+    "Guides the discussion and gives turns"
+   ],
+   "answer": 3,
+   "explanation": "The moderator keeps order."
+  },
+  {
+   "topic": "9.1",
+   "q": "What is a panel discussion?",
+   "options": [
+    "A game of football",
+    "A solo song",
+    "A planned discussion by a small group before an audience",
+    "A quiz"
+   ],
+   "answer": 2,
+   "explanation": "A panel discusses a topic."
+  },
+  {
+   "topic": "9.1",
+   "q": "What is a talking object used for?",
+   "options": [
+    "To play with",
+    "To throw",
+    "To show who may speak",
+    "To hide"
+   ],
+   "answer": 2,
+   "explanation": "Only the holder speaks."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which word in The teacher counted the votes is a verb?",
+   "options": [
+    "teacher",
+    "counted",
+    "the",
+    "votes"
+   ],
+   "answer": 1,
+   "explanation": "Counted shows the action."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which pair of verbs shows an action?",
+   "options": [
+    "vote, count",
+    "is, are",
+    "red, blue",
+    "table, chair"
+   ],
+   "answer": 0,
+   "explanation": "Vote and count are actions."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which is a good quality of a leader?",
+   "options": [
+    "Cruelty",
+    "Laziness",
+    "Rudeness",
+    "Honesty"
+   ],
+   "answer": 3,
+   "explanation": "Good leaders are honest and fair."
+  },
+  {
+   "topic": "9.1",
+   "q": "Why is it important to obey leaders?",
+   "options": [
+    "It is a game",
+    "It is boring",
+    "It makes noise",
+    "It keeps order, peace and safety"
+   ],
+   "answer": 3,
+   "explanation": "Obeying fair leaders keeps everyone safe."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which is a rude phrase?",
+   "options": [
+    "Please continue",
+    "Pardon me",
+    "Shut up",
+    "Excuse me"
+   ],
+   "answer": 2,
+   "explanation": "Shut up is disrespectful."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which is a polite phrase for asking someone to explain again?",
+   "options": [
+    "Say it again now",
+    "Pardon me, could you explain?",
+    "You are silly",
+    "Never mind"
+   ],
+   "answer": 1,
+   "explanation": "Pardon me and could you are polite."
+  },
+  {
+   "topic": "9.1",
+   "q": "What should you do when someone else is speaking?",
+   "options": [
+    "Listen without interrupting",
+    "Talk over them",
+    "Draw",
+    "Leave"
+   ],
+   "answer": 0,
+   "explanation": "Respectful listening is key."
+  },
+  {
+   "topic": "9.1",
+   "q": "What should a real-life experience description include?",
+   "options": [
+    "Who, what, when, where and how you felt",
+    "Only a title",
+    "Only a number",
+    "Nothing"
+   ],
+   "answer": 0,
+   "explanation": "These details make it clear."
+  },
+  {
+   "topic": "9.1",
+   "q": "What does a class monitor do?",
+   "options": [
+    "Runs the school",
+    "Cooks",
+    "Drives",
+    "Helps lead the class"
+   ],
+   "answer": 3,
+   "explanation": "A monitor helps the teacher lead."
+  },
+  {
+   "topic": "9.1",
+   "q": "What is polite when you want to speak in a discussion?",
+   "options": [
+    "Shout",
+    "Snatch the talking stick",
+    "Raise your hand or signal",
+    "Stand on a chair"
+   ],
+   "answer": 2,
+   "explanation": "Signal politely."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which of these is an action verb?",
+   "options": [
+    "is",
+    "lead",
+    "the",
+    "very"
+   ],
+   "answer": 1,
+   "explanation": "Lead shows action."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is a stanza?",
+   "options": [
+    "A single word",
+    "A group of lines in a poem",
+    "The title",
+    "A rhyme only"
+   ],
+   "answer": 1,
+   "explanation": "A stanza is a group of lines."
+  },
+  {
+   "topic": "9.2",
+   "q": "Which two words in the poem Lead with honesty rhyme?",
+   "options": [
+    "all and call",
+    "leader and rule",
+    "poem and song",
+    "fair and strong"
+   ],
+   "answer": 0,
+   "explanation": "All and call have the same ending sound."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is the message of a poem?",
+   "options": [
+    "The number of lines",
+    "The printer",
+    "The date",
+    "The main idea the poet wants to share"
+   ],
+   "answer": 3,
+   "explanation": "The message is the main idea."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is rhythm?",
+   "options": [
+    "The title",
+    "The page number",
+    "The beat or flow when a poem is read aloud",
+    "The ink"
+   ],
+   "answer": 2,
+   "explanation": "Rhythm is the pattern of sounds."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is a poem's title?",
+   "options": [
+    "Its last line",
+    "Its rhyme",
+    "Its name",
+    "Its page"
+   ],
+   "answer": 2,
+   "explanation": "The title names the poem."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is a line in a poem?",
+   "options": [
+    "A whole page",
+    "One row of words",
+    "A stanza",
+    "A book"
+   ],
+   "answer": 1,
+   "explanation": "Poems are written in lines."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is repetition in a poem?",
+   "options": [
+    "Repeating words or lines for effect",
+    "Deleting lines",
+    "Adding a picture",
+    "Changing the title"
+   ],
+   "answer": 0,
+   "explanation": "Repetition emphasises an idea."
+  },
+  {
+   "topic": "9.2",
+   "q": "What are images in a poem?",
+   "options": [
+    "Photographs",
+    "Maps",
+    "Diagrams",
+    "Words that make pictures in the mind"
+   ],
+   "answer": 3,
+   "explanation": "Images are word pictures."
+  },
+  {
+   "topic": "9.2",
+   "q": "Which is the first step in understanding a poem?",
+   "options": [
+    "Ignore it",
+    "Copy it",
+    "Tear it",
+    "Read the title and the poem aloud"
+   ],
+   "answer": 3,
+   "explanation": "Reading aloud comes first."
+  },
+  {
+   "topic": "9.2",
+   "q": "What should you use in your answers to poem questions?",
+   "options": [
+    "Nothing",
+    "Your favourite song",
+    "Words from the poem",
+    "A dictionary only"
+   ],
+   "answer": 2,
+   "explanation": "Answers should come from the poem."
+  },
+  {
+   "topic": "9.2",
+   "q": "What does answer when they call mean in the model poem?",
+   "options": [
+    "A leader hides",
+    "A leader responds when people need them",
+    "A leader shouts",
+    "A leader sleeps"
+   ],
+   "answer": 1,
+   "explanation": "It means to respond to people's needs."
+  },
+  {
+   "topic": "9.2",
+   "q": "What are non-verbal cues in a performance?",
+   "options": [
+    "Gestures and facial expressions",
+    "Written words",
+    "Music only",
+    "Loud shouting"
+   ],
+   "answer": 0,
+   "explanation": "Non-verbal cues are actions without words."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is a choral poem?",
+   "options": [
+    "A poem performed by a group together",
+    "A silent poem",
+    "A written test",
+    "A map"
+   ],
+   "answer": 0,
+   "explanation": "Chorus means together."
+  },
+  {
+   "topic": "9.2",
+   "q": "Does every poem have to rhyme?",
+   "options": [
+    "Yes, always",
+    "Only long poems",
+    "Only short poems",
+    "No"
+   ],
+   "answer": 3,
+   "explanation": "Some poems do not rhyme."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is a good leader described as in the model poem?",
+   "options": [
+    "Rude",
+    "Lazy",
+    "Fair and kind",
+    "Angry"
+   ],
+   "answer": 2,
+   "explanation": "The poem advises fairness and kindness."
+  },
+  {
+   "topic": "9.2",
+   "q": "Why do we read poems?",
+   "options": [
+    "To waste time",
+    "To enjoy language and learn lessons",
+    "To stop reading",
+    "To hide feelings"
+   ],
+   "answer": 1,
+   "explanation": "Poems entertain and teach."
+  },
+  {
+   "topic": "9.3",
+   "q": "In writing, what is an instruction?",
+   "options": [
+    "A poem",
+    "Words telling someone what to do",
+    "A story",
+    "A picture"
+   ],
+   "answer": 1,
+   "explanation": "Instructions say what to do."
+  },
+  {
+   "topic": "9.3",
+   "q": "What should each step in written instructions usually start with?",
+   "options": [
+    "A verb",
+    "A number only",
+    "A name",
+    "A colour"
+   ],
+   "answer": 0,
+   "explanation": "Steps begin with action words."
+  },
+  {
+   "topic": "9.3",
+   "q": "What is an instruction chart?",
+   "options": [
+    "A story chart",
+    "A list of animals",
+    "A drawing of a house",
+    "A poster showing steps for a task"
+   ],
+   "answer": 3,
+   "explanation": "It shows steps in order."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which word helps to show the order of steps?",
+   "options": [
+    "Green",
+    "Table",
+    "Finally",
+    "Yesterday"
+   ],
+   "answer": 2,
+   "explanation": "Finally shows the last step."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which is the correct order for washing hands?",
+   "options": [
+    "Dry, wet, soap, rinse",
+    "Rinse, dry, wet, soap",
+    "Wet, rub soap, rinse, dry",
+    "Soap, dry, wet, rinse"
+   ],
+   "answer": 2,
+   "explanation": "This is the logical order."
+  },
+  {
+   "topic": "9.3",
+   "q": "Why should each step contain only one action?",
+   "options": [
+    "To make it longer",
+    "So it is clear and easy to follow",
+    "To confuse readers",
+    "To use fewer words"
+   ],
+   "answer": 1,
+   "explanation": "One action per step is clear."
+  },
+  {
+   "topic": "9.3",
+   "q": "What should you add when a task is dangerous?",
+   "options": [
+    "A warning",
+    "A joke",
+    "A song",
+    "A colour"
+   ],
+   "answer": 0,
+   "explanation": "Warnings keep people safe."
+  },
+  {
+   "topic": "9.3",
+   "q": "What does a red eight-sided road sign tell drivers?",
+   "options": [
+    "Go faster",
+    "Turn left",
+    "Park",
+    "Stop"
+   ],
+   "answer": 3,
+   "explanation": "That shape is the stop sign."
+  },
+  {
+   "topic": "9.3",
+   "q": "Why should instruction charts use large clear letters?",
+   "options": [
+    "To use more ink",
+    "To hide meaning",
+    "To make them heavy",
+    "So people can read them from a distance"
+   ],
+   "answer": 3,
+   "explanation": "Clarity helps readers."
+  },
+  {
+   "topic": "9.3",
+   "q": "What is the treasure hunt game used for?",
+   "options": [
+    "Learning to sing",
+    "Drawing maps only",
+    "Practising following instructions",
+    "Sleeping"
+   ],
+   "answer": 2,
+   "explanation": "Each note gives the next instruction."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which is a poor instruction?",
+   "options": [
+    "Collect the exercise books and place them on the table",
+    "Do the thing with the papers",
+    "Wet your hands",
+    "Rinse the soap"
+   ],
+   "answer": 1,
+   "explanation": "It is vague."
+  },
+  {
+   "topic": "9.3",
+   "q": "What should you do to check if your instructions are clear?",
+   "options": [
+    "Ask someone to follow them",
+    "Hide them",
+    "Tear them",
+    "Read them backwards"
+   ],
+   "answer": 0,
+   "explanation": "Testing shows whether they work."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which is a verb in Open your book?",
+   "options": [
+    "Open",
+    "your",
+    "book",
+    "the"
+   ],
+   "answer": 0,
+   "explanation": "Open is the action."
+  },
+  {
+   "topic": "9.3",
+   "q": "What should the title of an instruction chart do?",
+   "options": [
+    "Hide the task",
+    "Give a joke",
+    "Be blank",
+    "Tell what the task is"
+   ],
+   "answer": 3,
+   "explanation": "The title names the task."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which is a signal word for the second step?",
+   "options": [
+    "Finally",
+    "Yesterday",
+    "Next",
+    "Never"
+   ],
+   "answer": 2,
+   "explanation": "Next shows the following step."
+  },
+  {
+   "topic": "9.3",
+   "q": "Why do leaders need to give clear instructions?",
+   "options": [
+    "To confuse people",
+    "So people know exactly what to do",
+    "To waste time",
+    "To make noise"
+   ],
+   "answer": 1,
+   "explanation": "Clear instructions get work done safely."
+  }
+ ],
+ "short": []
+}

@@ -1,0 +1,682 @@
+{
+ "mcq": [
+  {
+   "topic": "9.1",
+   "q": "In which word does 'gh' say /f/?",
+   "options": [
+    "laugh",
+    "night",
+    "high",
+    "daughter"
+   ],
+   "answer": 0,
+   "explanation": "'Gh' says /f/ in laugh, cough, enough and rough."
+  },
+  {
+   "topic": "9.1",
+   "q": "In which word is 'gh' silent?",
+   "options": [
+    "cough",
+    "enough",
+    "tough",
+    "night"
+   ],
+   "answer": 3,
+   "explanation": "In 'night' the gh is not pronounced."
+  },
+  {
+   "topic": "9.1",
+   "q": "In which word does the letter s say /z/?",
+   "options": [
+    "sun",
+    "easy",
+    "sit",
+    "class"
+   ],
+   "answer": 1,
+   "explanation": "The s in 'easy' is buzzed, like z."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which word begins with /z/?",
+   "options": [
+    "sun",
+    "zebra",
+    "sit",
+    "sad"
+   ],
+   "answer": 1,
+   "explanation": "'Zebra' begins with the buzzing /z/."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which word begins with a silent h?",
+   "options": [
+    "hand",
+    "house",
+    "help",
+    "honest"
+   ],
+   "answer": 3,
+   "explanation": "'Honest' is said 'onest'."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which pair of words differs only in /h/ and /f/?",
+   "options": [
+    "hill and fill",
+    "sit and seat",
+    "ship and sheep",
+    "cat and cap"
+   ],
+   "answer": 0,
+   "explanation": "'Hill' begins with /h/ and 'fill' with /f/."
+  },
+  {
+   "topic": "9.1",
+   "q": "What is a virus?",
+   "options": [
+    "A kind of medicine",
+    "A sharp tool",
+    "A tiny germ that can make people ill",
+    "A type of food"
+   ],
+   "answer": 2,
+   "explanation": "A virus is a tiny germ."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which word means 'to move from one person or place to another' (for example an illness)?",
+   "options": [
+    "cure",
+    "diet",
+    "spread",
+    "signs"
+   ],
+   "answer": 2,
+   "explanation": "Germs spread from person to person."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which is a sign of good speaking fluency?",
+   "options": [
+    "Speaking clearly at a steady pace",
+    "Stopping after every word",
+    "Whispering so nobody hears",
+    "Speaking as fast as possible"
+   ],
+   "answer": 0,
+   "explanation": "Fluent speech is clear and steady."
+  },
+  {
+   "topic": "9.1",
+   "q": "How do we speak about people who are ill?",
+   "options": [
+    "With jokes",
+    "With fear",
+    "By ignoring them",
+    "With care and respect"
+   ],
+   "answer": 3,
+   "explanation": "People who are ill need care, not fear."
+  },
+  {
+   "topic": "9.1",
+   "q": "Which of these is a nonverbal cue that shows confidence?",
+   "options": [
+    "Looking at the floor",
+    "Standing straight and looking at your audience",
+    "Hiding your face",
+    "Turning your back"
+   ],
+   "answer": 1,
+   "explanation": "Posture and eye contact show confidence."
+  },
+  {
+   "topic": "9.1",
+   "q": "What does 'prevention' mean?",
+   "options": [
+    "Medicine that cures an illness",
+    "Acting so that something bad does not happen",
+    "A sharp object",
+    "A kind of food"
+   ],
+   "answer": 1,
+   "explanation": "Prevention stops problems before they start."
+  },
+  {
+   "topic": "9.2",
+   "q": "In 'The Barber's New Blade', why does the barber use a new blade for each customer?",
+   "options": [
+    "New blades are cheaper",
+    "Customers like blades",
+    "The blade is red",
+    "Sharing blades can pass germs through blood"
+   ],
+   "answer": 3,
+   "explanation": "He explains that blood can carry germs."
+  },
+  {
+   "topic": "9.2",
+   "q": "In the story, why was Omondi standing alone?",
+   "options": [
+    "Other children refused to play with him because of his mother's illness",
+    "He had a football",
+    "He had lost his shoes",
+    "He wanted to study"
+   ],
+   "answer": 0,
+   "explanation": "The other children were afraid because they did not know the facts."
+  },
+  {
+   "topic": "9.2",
+   "q": "Which of these can spread HIV?",
+   "options": [
+    "Sharing a plate of food",
+    "Playing football together",
+    "Sharing a razor blade",
+    "Hugging a friend"
+   ],
+   "answer": 2,
+   "explanation": "HIV can pass through blood, so razor blades must never be shared."
+  },
+  {
+   "topic": "9.2",
+   "q": "Which is NOT a way in which HIV spreads?",
+   "options": [
+    "Sharing sharp objects that have blood on them",
+    "From a mother to her baby",
+    "Sitting together in class",
+    "Through blood"
+   ],
+   "answer": 2,
+   "explanation": "Ordinary contact such as sitting together does not spread HIV."
+  },
+  {
+   "topic": "9.2",
+   "q": "What does 'customer' mean?",
+   "options": [
+    "A person who buys something or uses a service",
+    "A person who sells goods",
+    "A teacher",
+    "A doctor"
+   ],
+   "answer": 0,
+   "explanation": "A customer visits a shop or a barber."
+  },
+  {
+   "topic": "9.2",
+   "q": "What did Baraka do that showed he was a good friend?",
+   "options": [
+    "He ran away",
+    "He laughed at Omondi",
+    "He told the others to stay away",
+    "He explained the facts and invited Omondi to play"
+   ],
+   "answer": 3,
+   "explanation": "Baraka used facts to help."
+  },
+  {
+   "topic": "9.2",
+   "q": "Where was Omondi's mother on the day of the story?",
+   "options": [
+    "At the market",
+    "At the clinic getting her medicine",
+    "At school",
+    "At the barber's"
+   ],
+   "answer": 1,
+   "explanation": "The story says she was at the clinic."
+  },
+  {
+   "topic": "9.2",
+   "q": "Which question is factual?",
+   "options": [
+    "Why do you think Baraka is brave?",
+    "Who told Baraka about how HIV spreads?",
+    "How did Omondi feel deep inside?",
+    "What lesson does the story teach?"
+   ],
+   "answer": 1,
+   "explanation": "A factual question has its answer stated in the text."
+  },
+  {
+   "topic": "9.2",
+   "q": "Which question is inferential?",
+   "options": [
+    "What did the barber put into his razor?",
+    "Where is the barbershop?",
+    "What day did Baraka visit the barber?",
+    "How did Omondi feel at the start of the story?"
+   ],
+   "answer": 3,
+   "explanation": "You work out his feelings from clues."
+  },
+  {
+   "topic": "9.2",
+   "q": "What should you do if you find a needle or razor blade on the ground?",
+   "options": [
+    "Not touch it and tell a trusted adult",
+    "Pick it up and keep it",
+    "Play with it",
+    "Give it to a younger child"
+   ],
+   "answer": 0,
+   "explanation": "Sharp objects may carry germs."
+  },
+  {
+   "topic": "9.2",
+   "q": "What is a clinic?",
+   "options": [
+    "A place for playing football",
+    "A market stall",
+    "A place where people get health care",
+    "A school library"
+   ],
+   "answer": 2,
+   "explanation": "Clinics give health care."
+  },
+  {
+   "topic": "9.2",
+   "q": "Which word in the story means 'said no to doing something'?",
+   "options": [
+    "nodded",
+    "noticed",
+    "refused",
+    "smiled"
+   ],
+   "answer": 2,
+   "explanation": "Some children refused to play with Omondi."
+  },
+  {
+   "topic": "9.3",
+   "q": "What does an adverb tell us?",
+   "options": [
+    "More about a verb, such as how, when or where",
+    "The name of a place",
+    "A person's name",
+    "How many things there are"
+   ],
+   "answer": 0,
+   "explanation": "Adverbs answer how, when and where."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which word is an adverb of manner?",
+   "options": [
+    "tomorrow",
+    "outside",
+    "never",
+    "carefully"
+   ],
+   "answer": 3,
+   "explanation": "'Carefully' tells how something is done."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which word is an adverb of time?",
+   "options": [
+    "quietly",
+    "yesterday",
+    "here",
+    "upstairs"
+   ],
+   "answer": 1,
+   "explanation": "'Yesterday' tells when."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which word is an adverb of place?",
+   "options": [
+    "always",
+    "outside",
+    "gently",
+    "soon"
+   ],
+   "answer": 1,
+   "explanation": "'Outside' tells where."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which is the adverb form of 'happy'?",
+   "options": [
+    "happyly",
+    "happly",
+    "happiy",
+    "happily"
+   ],
+   "answer": 3,
+   "explanation": "Change y to i and add -ly."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which sentence is correct?",
+   "options": [
+    "She sings well.",
+    "She sings good.",
+    "She sings goodly.",
+    "She sing well."
+   ],
+   "answer": 0,
+   "explanation": "'Well' is the adverb; 'good' is an adjective."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which word in this sentence is the adverb? 'The nurse spoke gently.'",
+   "options": [
+    "nurse",
+    "spoke",
+    "gently",
+    "The"
+   ],
+   "answer": 2,
+   "explanation": "'Gently' tells how she spoke."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which adverb of frequency completes: 'I ____ wash my hands before eating.' (every time)?",
+   "options": [
+    "never",
+    "seldom",
+    "always",
+    "rarely"
+   ],
+   "answer": 2,
+   "explanation": "'Always' means every time."
+  },
+  {
+   "topic": "9.3",
+   "q": "Where does an adverb of frequency such as 'always' usually go in a sentence?",
+   "options": [
+    "Before the main verb",
+    "At the end after a full stop",
+    "Inside a word",
+    "Before the capital letter"
+   ],
+   "answer": 0,
+   "explanation": "For example: 'I always brush my teeth.'"
+  },
+  {
+   "topic": "9.3",
+   "q": "Which of these is NOT an adverb?",
+   "options": [
+    "slowly",
+    "early",
+    "nearby",
+    "tidy"
+   ],
+   "answer": 3,
+   "explanation": "'Tidy' is an adjective."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which adverb has the same form as its adjective?",
+   "options": [
+    "quickly",
+    "hard",
+    "gently",
+    "slowly"
+   ],
+   "answer": 1,
+   "explanation": "'He works hard' uses hard as an adverb."
+  },
+  {
+   "topic": "9.3",
+   "q": "Which is an adverb of time meaning 'not at any time'?",
+   "options": [
+    "often",
+    "never",
+    "sometimes",
+    "usually"
+   ],
+   "answer": 1,
+   "explanation": "'Never' means at no time."
+  },
+  {
+   "topic": "9.4",
+   "q": "Which sentence is punctuated correctly?",
+   "options": [
+    "We bought rice beans and maize.",
+    "We bought, rice beans and maize.",
+    "We bought rice, beans, and, maize.",
+    "We bought rice, beans and maize."
+   ],
+   "answer": 3,
+   "explanation": "Commas separate items in a list and 'and' comes before the last."
+  },
+  {
+   "topic": "9.4",
+   "q": "Which sentence needs a question mark?",
+   "options": [
+    "Where is the school",
+    "Please close the door",
+    "We went home",
+    "I like apples"
+   ],
+   "answer": 0,
+   "explanation": "It is a direct question."
+  },
+  {
+   "topic": "9.4",
+   "q": "Where does the comma go?",
+   "options": [
+    "Yes I, will help.",
+    "Yes I will, help.",
+    "Yes, I will help.",
+    "Yes I will help,"
+   ],
+   "answer": 2,
+   "explanation": "A comma follows 'Yes'."
+  },
+  {
+   "topic": "9.4",
+   "q": "Which sentence should end with a full stop, not a question mark?",
+   "options": [
+    "Where is the clinic",
+    "What is her name",
+    "She asked where the clinic was.",
+    "Are you ready"
+   ],
+   "answer": 2,
+   "explanation": "It reports a question, so it is a statement."
+  },
+  {
+   "topic": "9.4",
+   "q": "Which is correct?",
+   "options": [
+    "Mama, may I go to the shop?",
+    "Mama may I go to the shop.",
+    "Mama, may I go to the shop.",
+    "Mama may, I go to the shop?"
+   ],
+   "answer": 0,
+   "explanation": "A comma after the person addressed, and a question mark at the end."
+  },
+  {
+   "topic": "9.4",
+   "q": "Which sentence has a comma used correctly before 'but'?",
+   "options": [
+    "I wanted, to go but it was raining.",
+    "I wanted to go but, it was raining.",
+    "I, wanted to go but it was raining.",
+    "I wanted to go, but it was raining."
+   ],
+   "answer": 3,
+   "explanation": "A comma comes before but when joining two full sentences."
+  },
+  {
+   "topic": "9.4",
+   "q": "How does your voice usually change at the end of a question?",
+   "options": [
+    "It goes down",
+    "It goes up",
+    "It becomes silent",
+    "It stays flat"
+   ],
+   "answer": 1,
+   "explanation": "A question ends with a rising voice."
+  },
+  {
+   "topic": "9.4",
+   "q": "What is the job of a comma?",
+   "options": [
+    "To end a sentence",
+    "To show a short pause and to separate items",
+    "To show a question",
+    "To show strong feeling"
+   ],
+   "answer": 1,
+   "explanation": "Commas mark short pauses and separate list items."
+  },
+  {
+   "topic": "9.4",
+   "q": "Which sentence is correct?",
+   "options": [
+    "In the morning we, do exercises.",
+    "In, the morning we do exercises.",
+    "In the morning we do, exercises.",
+    "In the morning, we do exercises."
+   ],
+   "answer": 3,
+   "explanation": "A comma follows the opening phrase."
+  },
+  {
+   "topic": "9.4",
+   "q": "Which sentence has correct punctuation?",
+   "options": [
+    "Mother said, \"Please close the door.\"",
+    "Mother said \"Please close the door\"",
+    "Mother, said \"Please close the door.\"",
+    "Mother said. \"Please close the door\""
+   ],
+   "answer": 0,
+   "explanation": "A comma comes after 'said' before the spoken words."
+  },
+  {
+   "topic": "9.4",
+   "q": "Which end mark is right for: 'How many books have you read'?",
+   "options": [
+    ".",
+    "!",
+    "?",
+    ","
+   ],
+   "answer": 2,
+   "explanation": "It is a direct question."
+  }
+ ],
+ "short": [
+  {
+   "topic": "9.1",
+   "q": "Write two words in which 'gh' is silent and two in which it says /f/.",
+   "marks": 4,
+   "answer": "Silent: night, light, high, daughter (any two). /f/: laugh, cough, enough, rough (any two).",
+   "working": "1 mark for each correct word."
+  },
+  {
+   "topic": "9.1",
+   "q": "Give two nonverbal cues that show a speaker is confident.",
+   "marks": 2,
+   "answer": "Eye contact and standing straight; a smile.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "9.1",
+   "q": "Explain what 'prevention' means and use it in a sentence.",
+   "marks": 3,
+   "answer": "Prevention means acting so that something bad does not happen. For example: Washing hands is a way of prevention.",
+   "working": "2 marks for the meaning, 1 for a sentence."
+  },
+  {
+   "topic": "9.1",
+   "q": "Write a short talk of four sentences on how to care for a sick friend.",
+   "marks": 4,
+   "answer": "A greeting, two caring actions such as visiting and listening, and a closing thank-you.",
+   "working": "1 mark for each of the four parts."
+  },
+  {
+   "topic": "9.2",
+   "q": "List two facts from the story about how HIV cannot spread.",
+   "marks": 2,
+   "answer": "It cannot spread by playing, shaking hands, sharing a plate or hugging.",
+   "working": "1 mark for each correct fact."
+  },
+  {
+   "topic": "9.2",
+   "q": "What kind of person is Baraka? Give one reason from the story.",
+   "marks": 3,
+   "answer": "He is kind and brave. He went to talk to Omondi, explained the facts and invited him to play.",
+   "working": "1 mark for a quality and 2 for the evidence."
+  },
+  {
+   "topic": "9.2",
+   "q": "Put these events in order: (a) Omondi scored a goal. (b) Baraka spoke to Omondi. (c) The barber changed the blade.",
+   "marks": 3,
+   "answer": "(c), (b), (a)",
+   "working": "1 mark for each correct position."
+  },
+  {
+   "topic": "9.2",
+   "q": "Explain the difference between a factual and an inferential question and give an example of each from the story.",
+   "marks": 4,
+   "answer": "A factual question has its answer stated in the text: 'Where was Omondi's mother?' An inferential question needs clues: 'How did Omondi feel at the start?'",
+   "working": "1 mark for each meaning and 1 for each example."
+  },
+  {
+   "topic": "9.3",
+   "q": "Change these adjectives into adverbs: gentle, angry, quick.",
+   "marks": 3,
+   "answer": "gently, angrily, quickly",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "9.3",
+   "q": "Write a sentence that has an adverb of manner, an adverb of time and an adverb of place.",
+   "marks": 3,
+   "answer": "For example: Yesterday the children played happily outside.",
+   "working": "1 mark for each correct adverb."
+  },
+  {
+   "topic": "9.3",
+   "q": "Explain the difference between 'good' and 'well'. Give one sentence for each.",
+   "marks": 4,
+   "answer": "'Good' is an adjective and describes a noun: She is a good singer. 'Well' is an adverb and describes a verb: She sings well.",
+   "working": "1 mark for each rule and 1 mark for each sentence."
+  },
+  {
+   "topic": "9.3",
+   "q": "Sort these adverbs into manner, time and place: quietly, later, nearby, always, neatly, upstairs.",
+   "marks": 3,
+   "answer": "Manner: quietly, neatly. Time: later, always. Place: nearby, upstairs.",
+   "working": "1 mark for each correct group."
+  },
+  {
+   "topic": "9.4",
+   "q": "Punctuate: 'mama may i go to the shop'",
+   "marks": 2,
+   "answer": "Mama, may I go to the shop?",
+   "working": "1 mark for capitals and comma, 1 for the question mark."
+  },
+  {
+   "topic": "9.4",
+   "q": "Punctuate: 'we planted maize beans and sorghum'",
+   "marks": 2,
+   "answer": "We planted maize, beans and sorghum.",
+   "working": "1 mark for each comma and capital/full stop."
+  },
+  {
+   "topic": "9.4",
+   "q": "Explain three uses of the comma with an example for each.",
+   "marks": 5,
+   "answer": "In lists: rice, beans and cabbage. After yes or no: Yes, I can. When addressing a person: Mama, come here. Also before but/so between sentences.",
+   "working": "1 mark for each use and example (max 5 including quality of examples)."
+  },
+  {
+   "topic": "9.4",
+   "q": "Explain why 'She asked where the clinic was?' is wrong and correct it.",
+   "marks": 3,
+   "answer": "It reports a question, so it is a statement and needs a full stop. Correct: She asked where the clinic was.",
+   "working": "1 mark for reason, 1 for correction, 1 for full stop."
+  }
+ ]
+}
