@@ -1,0 +1,670 @@
+{
+ "mcq": [
+  {
+   "topic": "12.1",
+   "q": "Which word has the long vowel /ɔː/?",
+   "options": [
+    "cup",
+    "bus",
+    "door",
+    "mud"
+   ],
+   "answer": 2,
+   "explanation": "'Door' has /ɔː/; the others have the short /ʌ/."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which word has the short vowel /ʌ/?",
+   "options": [
+    "door",
+    "floor",
+    "mother",
+    "sport"
+   ],
+   "answer": 2,
+   "explanation": "'Mother' has the short /ʌ/."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which word begins with the cluster 'sw'?",
+   "options": [
+    "sweep",
+    "broom",
+    "clean",
+    "green"
+   ],
+   "answer": 0,
+   "explanation": "'Sweep' begins with s and w."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which word begins with the cluster 'br'?",
+   "options": [
+    "sweep",
+    "clap",
+    "grass",
+    "broom"
+   ],
+   "answer": 3,
+   "explanation": "'Broom' begins with b and r."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which word begins with the cluster 'pr'?",
+   "options": [
+    "brush",
+    "protect",
+    "clap",
+    "grow"
+   ],
+   "answer": 1,
+   "explanation": "'Protect' begins with p and r."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which word begins with the cluster 'cl'?",
+   "options": [
+    "green",
+    "clean",
+    "brush",
+    "print"
+   ],
+   "answer": 1,
+   "explanation": "'Clean' begins with c and l."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which word begins with the cluster 'gr'?",
+   "options": [
+    "glass",
+    "clap",
+    "swim",
+    "grass"
+   ],
+   "answer": 3,
+   "explanation": "'Grass' begins with g and r."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which is a yes/no question?",
+   "options": [
+    "Is the compound clean?",
+    "Where is the bin?",
+    "What did you sweep?",
+    "Who is the captain?"
+   ],
+   "answer": 0,
+   "explanation": "It starts with a helping verb and can be answered yes or no."
+  },
+  {
+   "topic": "12.1",
+   "q": "What does it mean to speak with expression?",
+   "options": [
+    "To speak very fast",
+    "To speak in a whisper only",
+    "To use the voice to show meaning and feeling",
+    "To speak without pausing"
+   ],
+   "answer": 2,
+   "explanation": "Expression means changing loudness, stress and pitch to show feeling."
+  },
+  {
+   "topic": "12.1",
+   "q": "What is hesitation in speaking?",
+   "options": [
+    "Speaking clearly",
+    "Using gestures",
+    "Stopping or saying 'um' and 'er'",
+    "Speaking loudly"
+   ],
+   "answer": 2,
+   "explanation": "Practise to hesitate less."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which of these helps you speak fluently?",
+   "options": [
+    "Practising what you want to say",
+    "Never looking at the audience",
+    "Speaking as fast as possible",
+    "Mumbling"
+   ],
+   "answer": 0,
+   "explanation": "Practice reduces hesitation."
+  },
+  {
+   "topic": "12.1",
+   "q": "Which answer suits 'Do you sweep every day?'",
+   "options": [
+    "At six o'clock.",
+    "In the compound.",
+    "It is mine.",
+    "Yes, I do."
+   ],
+   "answer": 3,
+   "explanation": "A yes/no question needs a yes or no answer."
+  },
+  {
+   "topic": "12.2",
+   "q": "What is a proverb?",
+   "options": [
+    "A long story",
+    "A short well-known saying that gives advice or a truth",
+    "A kind of song",
+    "A page of a dictionary"
+   ],
+   "answer": 1,
+   "explanation": "Proverbs teach lessons."
+  },
+  {
+   "topic": "12.2",
+   "q": "What does 'Many hands make light work' mean?",
+   "options": [
+    "Big hands are strong",
+    "A job is easier when many people help",
+    "Work must be light",
+    "Hands are heavy"
+   ],
+   "answer": 1,
+   "explanation": "Sharing work makes it easier."
+  },
+  {
+   "topic": "12.2",
+   "q": "What does 'A stitch in time saves nine' mean?",
+   "options": [
+    "Sewing is always fun",
+    "Nine stitches are better than one",
+    "Time is money",
+    "Fixing a small problem early prevents a bigger one"
+   ],
+   "answer": 3,
+   "explanation": "Early action saves later work."
+  },
+  {
+   "topic": "12.2",
+   "q": "What does 'Prevention is better than cure' mean?",
+   "options": [
+    "It is better to stop a problem than to solve it later",
+    "Medicine is always better",
+    "Cure is easy",
+    "Avoid all doctors"
+   ],
+   "answer": 0,
+   "explanation": "Stopping problems early saves effort."
+  },
+  {
+   "topic": "12.2",
+   "q": "What is a chorus in a song?",
+   "options": [
+    "The first word",
+    "The name of the singer",
+    "The part repeated after each verse",
+    "The last verse only"
+   ],
+   "answer": 2,
+   "explanation": "The chorus is repeated."
+  },
+  {
+   "topic": "12.2",
+   "q": "What is rhythm?",
+   "options": [
+    "The title",
+    "The colour of the page",
+    "The beat in the words",
+    "The number of lines"
+   ],
+   "answer": 2,
+   "explanation": "Rhythm is the pattern of beats."
+  },
+  {
+   "topic": "12.2",
+   "q": "Which words rhyme?",
+   "options": [
+    "green and clean",
+    "green and grass",
+    "clean and sweep",
+    "tree and tall"
+   ],
+   "answer": 0,
+   "explanation": "'Green' and 'clean' end with the same sound."
+  },
+  {
+   "topic": "12.2",
+   "q": "Which syllable is stressed in 'com-POUND'?",
+   "options": [
+    "The first",
+    "Both equally",
+    "Neither",
+    "The second"
+   ],
+   "answer": 3,
+   "explanation": "The stress falls on 'pound'."
+  },
+  {
+   "topic": "12.2",
+   "q": "In 'The Clean-Up Day', which proverb did Kamau use about fixing the hole in the fence?",
+   "options": [
+    "Many hands make light work",
+    "A stitch in time saves nine",
+    "Prevention is better than cure",
+    "Look before you leap"
+   ],
+   "answer": 1,
+   "explanation": "He wanted to fix the small hole before it got worse."
+  },
+  {
+   "topic": "12.2",
+   "q": "Which is a factual question about the passage?",
+   "options": [
+    "What kind of person is Kamau?",
+    "What job did Class Six do?",
+    "Was the clean-up a success?",
+    "Why do you think the head teacher smiled?"
+   ],
+   "answer": 1,
+   "explanation": "The answer is stated in the text."
+  },
+  {
+   "topic": "12.2",
+   "q": "Which situation fits 'Little by little fills the measure'?",
+   "options": [
+    "Getting a big prize at once",
+    "Losing a shoe",
+    "Sleeping late",
+    "Picking up a little rubbish every day until the compound is clean"
+   ],
+   "answer": 3,
+   "explanation": "Small efforts add up."
+  },
+  {
+   "topic": "12.2",
+   "q": "How should you read a poem with rhythm?",
+   "options": [
+    "Tap the beat and stress the strong syllables",
+    "Read as fast as you can",
+    "Whisper every line",
+    "Skip the rhymes"
+   ],
+   "answer": 0,
+   "explanation": "Follow the beat with your voice."
+  },
+  {
+   "topic": "12.3",
+   "q": "Which sentence is in the present perfect?",
+   "options": [
+    "She finishes.",
+    "She was finishing.",
+    "She has finished.",
+    "She will finish."
+   ],
+   "answer": 2,
+   "explanation": "Has + past participle."
+  },
+  {
+   "topic": "12.3",
+   "q": "What is the past participle of 'eat'?",
+   "options": [
+    "ate",
+    "eated",
+    "eaten",
+    "eating"
+   ],
+   "answer": 2,
+   "explanation": "Eat, ate, eaten."
+  },
+  {
+   "topic": "12.3",
+   "q": "What is the past participle of 'write'?",
+   "options": [
+    "written",
+    "wrote",
+    "writed",
+    "writing"
+   ],
+   "answer": 0,
+   "explanation": "Write, wrote, written."
+  },
+  {
+   "topic": "12.3",
+   "q": "What is the past participle of 'go'?",
+   "options": [
+    "went",
+    "goed",
+    "going",
+    "gone"
+   ],
+   "answer": 3,
+   "explanation": "Go, went, gone."
+  },
+  {
+   "topic": "12.3",
+   "q": "Which sentence uses the past perfect?",
+   "options": [
+    "I have finished.",
+    "I had finished before he came.",
+    "I finish.",
+    "I am finishing."
+   ],
+   "answer": 1,
+   "explanation": "Had + past participle."
+  },
+  {
+   "topic": "12.3",
+   "q": "Which sentence is correct?",
+   "options": [
+    "They have went to the river.",
+    "They have gone to the river.",
+    "They has gone to the river.",
+    "They have go to the river."
+   ],
+   "answer": 1,
+   "explanation": "The participle of go is gone."
+  },
+  {
+   "topic": "12.3",
+   "q": "Which sentence is correct?",
+   "options": [
+    "She has ate her lunch.",
+    "She have eaten her lunch.",
+    "She has eating her lunch.",
+    "She has eaten her lunch."
+   ],
+   "answer": 3,
+   "explanation": "Has + eaten."
+  },
+  {
+   "topic": "12.3",
+   "q": "Which time word often goes with the present perfect?",
+   "options": [
+    "already",
+    "yesterday",
+    "last week",
+    "in 2010"
+   ],
+   "answer": 0,
+   "explanation": "'Already' fits the present perfect; finished-time words do not."
+  },
+  {
+   "topic": "12.3",
+   "q": "When I arrived, the bus had left. Which happened first?",
+   "options": [
+    "I arrived.",
+    "Both together.",
+    "The bus left.",
+    "Neither happened."
+   ],
+   "answer": 2,
+   "explanation": "The past perfect shows the earlier action."
+  },
+  {
+   "topic": "12.3",
+   "q": "Which sentence is correct?",
+   "options": [
+    "I have seen him yesterday.",
+    "I had seen him yesterday now.",
+    "I saw him yesterday.",
+    "I have saw him yesterday."
+   ],
+   "answer": 2,
+   "explanation": "Use the simple past with a finished time such as yesterday."
+  },
+  {
+   "topic": "12.3",
+   "q": "Which is the past participle of 'break'?",
+   "options": [
+    "broken",
+    "broke",
+    "breaked",
+    "breaking"
+   ],
+   "answer": 0,
+   "explanation": "Break, broke, broken."
+  },
+  {
+   "topic": "12.3",
+   "q": "Which is the negative of 'I have eaten'?",
+   "options": [
+    "I not have eaten.",
+    "I do not have eaten.",
+    "I has not eaten.",
+    "I have not eaten."
+   ],
+   "answer": 3,
+   "explanation": "Add not after have."
+  },
+  {
+   "topic": "12.4",
+   "q": "What must a diary entry begin with?",
+   "options": [
+    "A friend's name",
+    "The day and date",
+    "A question",
+    "A title in capitals"
+   ],
+   "answer": 1,
+   "explanation": "Every entry is dated."
+  },
+  {
+   "topic": "12.4",
+   "q": "In which person is a diary usually written?",
+   "options": [
+    "Second person (you)",
+    "First person (I, we)",
+    "Third person (he, she)",
+    "No person"
+   ],
+   "answer": 1,
+   "explanation": "A diary is about what I did and felt."
+  },
+  {
+   "topic": "12.4",
+   "q": "Which sentence describes a feeling?",
+   "options": [
+    "We swept the paths.",
+    "It was Saturday.",
+    "We planted five trees.",
+    "I felt proud of our work."
+   ],
+   "answer": 3,
+   "explanation": "'Proud' is a feeling."
+  },
+  {
+   "topic": "12.4",
+   "q": "Which tense do we usually use for earlier events in a diary?",
+   "options": [
+    "Past tense",
+    "Future tense",
+    "Command",
+    "Question form"
+   ],
+   "answer": 0,
+   "explanation": "Events that already happened use the past tense."
+  },
+  {
+   "topic": "12.4",
+   "q": "What is a diary?",
+   "options": [
+    "A letter to a friend",
+    "A newspaper",
+    "A personal record of what happens to you each day",
+    "A dictionary"
+   ],
+   "answer": 2,
+   "explanation": "A diary records events and feelings."
+  },
+  {
+   "topic": "12.4",
+   "q": "Which is a good way to start a diary entry sentence?",
+   "options": [
+    "Yours faithfully ...",
+    "Dear Sir ...",
+    "Today I ...",
+    "Chapter One ..."
+   ],
+   "answer": 2,
+   "explanation": "Diary sentences often start with 'Today I ...'."
+  },
+  {
+   "topic": "12.4",
+   "q": "What is a good way to end a diary entry?",
+   "options": [
+    "With a plan for tomorrow or a short sign-off",
+    "With a list of prices",
+    "With a poem only",
+    "With a map"
+   ],
+   "answer": 0,
+   "explanation": "Diaries often end with plans or 'Goodnight'."
+  },
+  {
+   "topic": "12.4",
+   "q": "Which is a sentence in the future tense about tomorrow?",
+   "options": [
+    "Yesterday I visited my grandmother.",
+    "I visit my grandmother now.",
+    "I was visiting her.",
+    "Tomorrow I will visit my grandmother."
+   ],
+   "answer": 3,
+   "explanation": "'Will visit' shows the future."
+  },
+  {
+   "topic": "12.4",
+   "q": "How is a diary different from a letter?",
+   "options": [
+    "A diary always has an address",
+    "A diary is written for yourself and is not sent",
+    "A diary is always sent by post",
+    "A diary has no date"
+   ],
+   "answer": 1,
+   "explanation": "A letter is sent to another person."
+  },
+  {
+   "topic": "12.4",
+   "q": "Which word can help you show the order of events in a diary?",
+   "options": [
+    "green",
+    "then",
+    "desk",
+    "broom"
+   ],
+   "answer": 1,
+   "explanation": "'Then' is a time word."
+  }
+ ],
+ "short": [
+  {
+   "topic": "12.1",
+   "q": "Write two words for each cluster: (a) br (b) gr.",
+   "marks": 4,
+   "answer": "(a) bring, broom (or bread, brush) (b) green, grass (or grow, ground)",
+   "working": "1 mark for each correct word."
+  },
+  {
+   "topic": "12.1",
+   "q": "Explain what it means to speak with expression.",
+   "marks": 2,
+   "answer": "It means using the voice to show meaning and feeling by changing loudness, stress and pitch.",
+   "working": "1 mark for using the voice and 1 for showing feeling or meaning."
+  },
+  {
+   "topic": "12.1",
+   "q": "Write three yes/no questions about keeping the compound clean.",
+   "marks": 3,
+   "answer": "For example: Do you sweep the compound? Is the bin covered? Can we plant a tree?",
+   "working": "1 mark for each correct question."
+  },
+  {
+   "topic": "12.1",
+   "q": "Write a short speech of four sentences about protecting a river.",
+   "marks": 4,
+   "answer": "A greeting, two points such as not throwing rubbish in the river and planting trees on its bank, and a closing.",
+   "working": "1 mark for each element."
+  },
+  {
+   "topic": "12.2",
+   "q": "Explain the proverb 'A stitch in time saves nine'.",
+   "marks": 2,
+   "answer": "Fixing a small problem early stops it becoming a bigger problem that takes more work.",
+   "working": "1 mark for fixing early and 1 for avoiding bigger work."
+  },
+  {
+   "topic": "12.2",
+   "q": "Give a situation in which 'Prevention is better than cure' applies.",
+   "marks": 2,
+   "answer": "Washing hands before eating prevents illness, which is better than getting sick and needing medicine.",
+   "working": "1 mark for a situation and 1 for linking it to the proverb."
+  },
+  {
+   "topic": "12.2",
+   "q": "What kind of person is Kamau in 'The Clean-Up Day'? Give a reason from the text.",
+   "marks": 3,
+   "answer": "Observant and responsible: he noticed a hole in the fence and said it should be fixed at once.",
+   "working": "1 mark for each quality and 1 for evidence."
+  },
+  {
+   "topic": "12.2",
+   "q": "Mark the words you would stress in: 'We must keep our compound clean.'",
+   "marks": 3,
+   "answer": "We must KEEP our COMpound CLEAN. (Important words: keep, compound, clean.)",
+   "working": "1 mark for each important word."
+  },
+  {
+   "topic": "12.3",
+   "q": "Write the past participle of: write, see, take.",
+   "marks": 3,
+   "answer": "written, seen, taken",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "12.3",
+   "q": "Rewrite using the past perfect: 'The bus left. Then I arrived.'",
+   "marks": 2,
+   "answer": "The bus had left before I arrived. (Or: When I arrived, the bus had left.)",
+   "working": "1 mark for 'had left' and 1 for the linking word."
+  },
+  {
+   "topic": "12.3",
+   "q": "Explain the difference between 'I have eaten' and 'I had eaten when he came.'",
+   "marks": 3,
+   "answer": "'I have eaten' says the eating is finished and it matters now. 'I had eaten when he came' says I finished eating before he came, in the past.",
+   "working": "1 mark for each meaning and 1 for the time link."
+  },
+  {
+   "topic": "12.3",
+   "q": "Write four sentences about your morning: two with have or has and two with had.",
+   "marks": 4,
+   "answer": "For example: I have brushed my teeth. She has swept the floor. We had eaten before we left. He had washed before school.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "12.4",
+   "q": "List three parts of a diary entry.",
+   "marks": 3,
+   "answer": "Day and date; greeting (Dear Diary); body (events and feelings); sign-off. Any three.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "12.4",
+   "q": "Write two reasons why people keep diaries.",
+   "marks": 2,
+   "answer": "To remember events; to practise writing; to record feelings.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "12.4",
+   "q": "Rewrite in the past tense: 'Today we sweep the compound and plant a tree.'",
+   "marks": 2,
+   "answer": "Today we swept the compound and planted a tree.",
+   "working": "1 mark for swept and 1 for planted."
+  },
+  {
+   "topic": "12.4",
+   "q": "Write a diary entry of about 60 words about a day at school. Include the date, feelings and a plan for tomorrow.",
+   "marks": 5,
+   "answer": "An entry in the first person with a date, events in order, feelings, a plan and a sign-off.",
+   "working": "1 mark for the date, 1 for events in order, 1 for feelings, 1 for a plan, 1 for correct tense and punctuation."
+  }
+ ]
+}
