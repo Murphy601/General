@@ -16,7 +16,10 @@ export default async function RevisionCategoryPage({ params }: { params: Promise
   const label = CATEGORY_LABELS[category];
   if (!label) notFound();
 
-  const grades = getGrades();
+  const grades = await getGrades();
+  const counts = Object.fromEntries(
+    await Promise.all(grades.map(async (g) => [g.grade, await countExams(category, g.grade)] as const)),
+  );
 
   return (
     <PlatformLayout active="/revision">
@@ -28,7 +31,7 @@ export default async function RevisionCategoryPage({ params }: { params: Promise
 
       <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {grades.map((g) => {
-          const papers = countExams(category, g.grade);
+          const papers = counts[g.grade];
           return (
             <Link
               key={g.grade}

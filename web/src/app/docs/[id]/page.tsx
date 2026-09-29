@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default async function DocDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
-  const item = getContent(id);
+  const item = await getContent(id);
   if (!item || item.type !== 'notes') notFound();
 
   return (

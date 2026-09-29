@@ -1,8 +1,12 @@
 import { NextResponse } from 'next/server';
+import { isWorkers } from '@/lib/storage';
 import { generateContent } from '@/lib/generate';
 import type { ContentType } from '@/lib/types';
 
 export async function POST(request: Request) {
+  if (isWorkers()) {
+    return NextResponse.json({ error: 'Not available on the hosted (Cloudflare) site. Run locally.' }, { status: 501 });
+  }
   try {
     const body = await request.json();
     const { type, grade, subject, strand, subStrand, term, questionCount, access, priceKes } = body;

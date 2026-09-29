@@ -1,8 +1,12 @@
 import { NextResponse } from 'next/server';
+import { isWorkers } from '@/lib/storage';
 import { spawn } from 'node:child_process';
 import { join } from 'node:path';
 
 export async function POST(request: Request) {
+  if (isWorkers()) {
+    return NextResponse.json({ error: 'Not available on the hosted (Cloudflare) site. Run locally.' }, { status: 501 });
+  }
   try {
     const body = await request.json();
     const { grade, subject } = body;

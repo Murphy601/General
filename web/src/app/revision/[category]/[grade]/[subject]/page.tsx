@@ -21,7 +21,7 @@ function PaperList({
   exams,
   emptyLabel,
 }: {
-  exams: ReturnType<typeof listExams>;
+  exams: Awaited<ReturnType<typeof listExams>>;
   emptyLabel: string;
 }) {
   if (!exams.length) {
@@ -75,12 +75,12 @@ export default async function RevisionSubjectPage({
   if (!catLabel) notFound();
 
   const gradeKey = decodeURIComponent(grade);
-  const subject = findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
+  const subject = await findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
   if (!subject) notFound();
 
-  const gradeLabel = getGrades().find((g) => g.grade === gradeKey)?.label || gradeKey;
-  const topics = getTopics(gradeKey, subject);
-  const exams = listExams(gradeKey, category, subject);
+  const gradeLabel = (await getGrades()).find((g) => g.grade === gradeKey)?.label || gradeKey;
+  const topics = await getTopics(gradeKey, subject);
+  const exams = await listExams(gradeKey, category, subject);
 
   return (
     <PlatformLayout active="/revision">

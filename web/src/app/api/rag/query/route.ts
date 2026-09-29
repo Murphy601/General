@@ -1,7 +1,11 @@
 import { NextResponse } from 'next/server';
+import { isWorkers } from '@/lib/storage';
 import { queryRag } from '@/lib/rag';
 
 export async function POST(request: Request) {
+  if (isWorkers()) {
+    return NextResponse.json({ error: 'Not available on the hosted (Cloudflare) site. Run locally.' }, { status: 501 });
+  }
   try {
     const body = await request.json();
     const { query, grade, subject, generateAnswer = true, topK } = body;

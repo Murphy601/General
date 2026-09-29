@@ -19,8 +19,6 @@ if (existsSync(rootEnv)) {
   }
 }
 
-const nextConfig: NextConfig = {
-  outputFileTracingRoot: join(__dirname, '..'),
-};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;

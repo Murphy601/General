@@ -2,8 +2,8 @@ import { PlatformLayout } from '@/components/PlatformLayout';
 import Link from 'next/link';
 import { getGrades } from '@/lib/content-store';
 
-export default function HomePage() {
-  const grades = getGrades();
+export default async function HomePage() {
+  const grades = await getGrades();
 
   return (
     <PlatformLayout active="/">

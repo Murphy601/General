@@ -10,14 +10,14 @@ export default async function VideoTopicPage({
 }) {
   const { grade, subject: subjectSlug, topic: topicSlug } = await params;
   const gradeKey = decodeURIComponent(grade);
-  const subject = findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
+  const subject = await findSubjectBySlug(gradeKey, decodeURIComponent(subjectSlug));
   if (!subject) notFound();
 
-  const topics = getTopics(gradeKey, subject);
+  const topics = await getTopics(gradeKey, subject);
   const topicMeta = topics.find((t) => t.slug === topicSlug || t.topicNumber === topicSlug);
   if (!topicMeta) notFound();
 
-  const scripts = listVideoScripts(gradeKey, subject);
+  const scripts = await listVideoScripts(gradeKey, subject);
   const script = scripts.find(
     (s) => s.topic.subStrand === topicMeta.topicName || s.topic.topicNumber === topicMeta.topicNumber,
   );

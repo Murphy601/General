@@ -141,7 +141,7 @@ export async function generateContent(req: GenerateRequest): Promise<GeneratedCo
     })),
   };
 
-  saveContent(content);
+  await saveContent(content);
   return content;
 }
 

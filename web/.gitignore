@@ -1,0 +1,6 @@
+
+# Cloudflare
+.open-next/
+.wrangler/
+.r2-stage/
+.dev.vars

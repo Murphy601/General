@@ -21,11 +21,11 @@ export default async function RevisionGradePage({
   if (!label) notFound();
 
   const gradeKey = decodeURIComponent(grade);
-  const gradeLabel = getGrades().find((g) => g.grade === gradeKey)?.label || gradeKey;
+  const gradeLabel = (await getGrades()).find((g) => g.grade === gradeKey)?.label || gradeKey;
 
   // Past Paper Vault: list subjects that actually have vault papers
   if (category === 'vault') {
-    const papers = listExams(gradeKey, 'vault');
+    const papers = await listExams(gradeKey, 'vault');
     const bySubject = new Map<string, number>();
     for (const p of papers) {
       bySubject.set(p.topic.subject, (bySubject.get(p.topic.subject) || 0) + 1);
@@ -65,8 +65,11 @@ export default async function RevisionGradePage({
     );
   }
 
-  const subjects = getSubjects(gradeKey);
+  const subjects = await getSubjects(gradeKey);
   if (!subjects.length) notFound();
+  const paperCounts = Object.fromEntries(
+    await Promise.all(subjects.map(async (s) => [s.subject, (await listExams(gradeKey, category, s.subject)).length] as const)),
+  );
 
   return (
     <PlatformLayout active="/revision">
@@ -78,7 +81,7 @@ export default async function RevisionGradePage({
 
       <div className="mt-8 grid gap-3 sm:grid-cols-2">
         {subjects.map((s) => {
-          const papers = listExams(gradeKey, category, s.subject).length;
+          const papers = paperCounts[s.subject];
           return (
             <Link
               key={s.subject}

@@ -8,6 +8,6 @@ export async function GET(request: Request) {
   const grade = searchParams.get('grade') || undefined;
   const subject = searchParams.get('subject') || undefined;
 
-  const items = listContent({ type: type as never, grade, subject });
+  const items = await listContent({ type: type as never, grade, subject });
   return NextResponse.json({ items });
 }
