@@ -9,7 +9,7 @@
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
-   "topic": "2.2",
+   "topic": "1.2",
    "q": "Write in Chinese characters and pinyin: \"Who is this?\"",
    "marks": 2,
    "answer": "这是谁? zhè shì shéi?",
@@ -30,7 +30,7 @@
    "working": "1 mark for the characters and 1 mark for the pinyin."
   },
   {
-   "topic": "3.4",
+   "topic": "1.4",
    "q": "Write the pinyin and the English meaning of 明天 and 二.",
    "marks": 2,
    "answer": "明天: míngtiān, tomorrow. 二: èr, two.",
@@ -93,7 +93,7 @@
    "working": "1 mark for meaning and 1 mark for a method."
   },
   {
-   "topic": "1.3",
+   "topic": "2.3",
    "q": "Write the pinyin and the English meaning of 放 and 蜡烛.",
    "marks": 2,
    "answer": "放: fàng, to put. 蜡烛: làzhú, candle.",
@@ -114,7 +114,7 @@
    "working": "1 mark for the question and 1 mark for the answer."
   },
   {
-   "topic": "2.4",
+   "topic": "3.4",
    "q": "Write in Chinese characters and pinyin: \"On Wednesday I go to school.\"",
    "marks": 3,
    "answer": "我星期三去学校。 wǒ xīngqīsān qù xuéxiào.",
@@ -205,7 +205,7 @@
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
-   "topic": "3.4",
+   "topic": "2.4",
    "q": "Write the pinyin and the English meaning of 清真寺 and 一.",
    "marks": 2,
    "answer": "清真寺: qīngzhēnsì, mosque. 一: yī, one.",
@@ -275,7 +275,7 @@
    "working": "1 mark for each correct word."
   },
   {
-   "topic": "3.6",
+   "topic": "1.6",
    "q": "Write in Chinese characters and pinyin: \"I drink tea.\"",
    "marks": 2,
    "answer": "我喝茶。 wǒ hē chá.",
@@ -296,14 +296,14 @@
    "working": "1 mark for each correct position."
   },
   {
-   "topic": "1.8",
+   "topic": "2.8",
    "q": "Write in Chinese characters and pinyin: \"The weather is very good today.\"",
    "marks": 3,
    "answer": "今天天气很好。 jīntiān tiānqì hěn hǎo.",
    "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
   },
   {
-   "topic": "1.6",
+   "topic": "3.6",
    "q": "Read the pinyin and write the English meaning: zhè shì xiāngjiāo.",
    "marks": 2,
    "answer": "This is a banana.",
@@ -331,7 +331,7 @@
    "working": "1 mark for the characters and 1 mark for the pinyin."
   },
   {
-   "topic": "3.9",
+   "topic": "1.9",
    "q": "Write in Chinese characters and pinyin: \"The garden is on the right of the house.\"",
    "marks": 3,
    "answer": "花园在房子右边。 huāyuán zài fángzi yòubian.",
@@ -345,14 +345,14 @@
    "working": "1 mark for each meaning."
   },
   {
-   "topic": "1.3",
+   "topic": "2.3",
    "q": "Write in Chinese characters and pinyin: \"Where is the television?\"",
    "marks": 2,
    "answer": "电视在哪儿? diànshì zài nǎr?",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
-   "topic": "3.7",
+   "topic": "2.7",
    "q": "Write in Chinese characters and pinyin: \"I use my mouth to speak.\"",
    "marks": 2,
    "answer": "我用嘴巴说。 wǒ yòng zuǐba shuō.",
@@ -450,7 +450,7 @@
    "working": "1 mark for comma, 1 mark for full stop, 1 mark for the reason."
   },
   {
-   "topic": "3.5",
+   "topic": "1.5",
    "q": "Write the pinyin and the English meaning of 盘子, 爱 and 唱歌.",
    "marks": 3,
    "answer": "盘子: pánzi, plate. 爱: ài, love. 唱歌: chànggē, to sing.",
@@ -478,7 +478,7 @@
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
-   "topic": "1.5",
+   "topic": "3.5",
    "q": "Write in Chinese characters and pinyin: \"We cut the cake.\"",
    "marks": 2,
    "answer": "我们切蛋糕。 wǒmen qiē dàngāo.",
@@ -499,14 +499,14 @@
    "working": "1 mark for the word and 1 mark for the pinyin."
   },
   {
-   "topic": "1.2",
+   "topic": "2.2",
    "q": "Write in Chinese characters and pinyin: \"I love you.\"",
    "marks": 2,
    "answer": "我爱你。 wǒ ài nǐ.",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
-   "topic": "3.8",
+   "topic": "1.8",
    "q": "Write in Chinese characters and pinyin: \"Today there are clouds.\"",
    "marks": 2,
    "answer": "今天有云。 jīntiān yǒu yún.",
@@ -548,7 +548,7 @@
    "working": "1 mark for each rule with an example."
   },
   {
-   "topic": "2.8",
+   "topic": "3.8",
    "q": "Write in Chinese characters and pinyin: \"The wind is very light.\"",
    "marks": 2,
    "answer": "风很小。 fēng hěn xiǎo.",
@@ -562,14 +562,14 @@
    "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
   },
   {
-   "topic": "1.4",
+   "topic": "3.4",
    "q": "Read the pinyin and write the English meaning: wǒ xīngqīsān qù xuéxiào.",
    "marks": 2,
    "answer": "On Wednesday I go to school.",
    "working": "1 mark for the general meaning and 1 mark for all the key words correct."
   },
   {
-   "topic": "3.1",
+   "topic": "2.1",
    "q": "Write in Chinese characters and pinyin: \"My name is Xiaoming.\"",
    "marks": 2,
    "answer": "我叫小明。 wǒ jiào Xiǎomíng.",
@@ -646,7 +646,7 @@
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
-   "topic": "1.1",
+   "topic": "2.1",
    "q": "Write in Chinese characters and pinyin: \"Goodbye!\"",
    "marks": 2,
    "answer": "再见! zàijiàn!",
@@ -674,14 +674,14 @@
    "working": "1 mark for each tip."
   },
   {
-   "topic": "2.8",
+   "topic": "1.8",
    "q": "Write in Chinese characters and pinyin: \"This is the sun.\"",
    "marks": 2,
    "answer": "这是太阳。 zhè shì tàiyáng.",
    "working": "1 mark for the characters and 1 mark for the pinyin with tone marks."
   },
   {
-   "topic": "1.9",
+   "topic": "3.9",
    "q": "Write in Chinese characters and pinyin: \"The window is above the sofa.\"",
    "marks": 3,
    "answer": "窗户在沙发上面。 chuānghu zài shāfā shàngmiàn.",

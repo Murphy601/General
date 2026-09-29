@@ -1,0 +1,41 @@
+{
+ "mcq": [
+  {
+   "topic": "2.4",
+   "q": "Which is the best way to read the water level on a measuring jug?",
+   "options": [
+    "Look from high above the jug",
+    "Look at the scale level with the water",
+    "Look with your eyes closed",
+    "Count the number of handles"
+   ],
+   "answer": 1,
+   "explanation": "Reading level with the water gives the correct mark."
+  },
+  {
+   "topic": "2.4",
+   "q": "A bucket holds 10 L. A boy pours 3 cans of 2 L into it. How many more litres are needed to fill it?",
+   "options": [
+    "6 L",
+    "7 L",
+    "4 L",
+    "1 L"
+   ],
+   "answer": 2,
+   "explanation": "3 × 2 = 6 L poured in. 10 − 6 = 4 L more."
+  },
+  {
+   "topic": "2.4",
+   "q": "Two quarters of a litre are the same as",
+   "options": [
+    "1/2 L",
+    "1/4 L",
+    "3/4 L",
+    "1 L"
+   ],
+   "answer": 0,
+   "explanation": "1/4 + 1/4 = 2/4 = 1/2."
+  }
+ ],
+ "short": []
+}

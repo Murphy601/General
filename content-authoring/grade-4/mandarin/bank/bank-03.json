@@ -1,7 +1,7 @@
 {
  "mcq": [
   {
-   "topic": "3.1",
+   "topic": "2.1",
    "q": "Which sentence means \"My name is Xiaoming.\"?",
    "options": [
     "再见!",
@@ -37,7 +37,7 @@
    "explanation": "我们 (wǒmen) means we."
   },
   {
-   "topic": "3.1",
+   "topic": "2.1",
    "q": "Which Chinese word means \"thank you\"?",
    "options": [
     "叫 jiào",
@@ -61,7 +61,7 @@
    "explanation": "你好 (nǐ hǎo) means hello."
   },
   {
-   "topic": "2.7",
+   "topic": "3.7",
    "q": "Which sentence means \"I use my ears to hear.\"?",
    "options": [
     "我用嘴巴说。",
@@ -145,7 +145,7 @@
    "explanation": "晚饭 (wǎnfàn) means dinner."
   },
   {
-   "topic": "2.6",
+   "topic": "3.6",
    "q": "What does 饼干 (bǐnggān) mean?",
    "options": [
     "Grapes",
@@ -169,7 +169,7 @@
    "explanation": "一 (yī) means one."
   },
   {
-   "topic": "1.5",
+   "topic": "2.5",
    "q": "Which Chinese word means \"to play\"?",
    "options": [
     "玩 wán",
@@ -181,7 +181,7 @@
    "explanation": "玩 (wán) means to play."
   },
   {
-   "topic": "3.5",
+   "topic": "2.5",
    "q": "Read the pinyin: péngyou sòng wǒ lǐwù. What does it mean?",
    "options": [
     "My friend gives me a gift.",
@@ -193,7 +193,7 @@
    "explanation": "péngyou sòng wǒ lǐwù. is 朋友送我礼物。, which means \"My friend gives me a gift.\"."
   },
   {
-   "topic": "1.7",
+   "topic": "3.7",
    "q": "Read the pinyin: wǒ yòng zuǐba shuō. What does it mean?",
    "options": [
     "I have two eyes.",
@@ -205,7 +205,7 @@
    "explanation": "wǒ yòng zuǐba shuō. is 我用嘴巴说。, which means \"I use my mouth to speak.\"."
   },
   {
-   "topic": "3.7",
+   "topic": "2.7",
    "q": "What does 两 (liǎng) mean?",
    "options": [
     "Two (before a counting word)",
@@ -229,7 +229,7 @@
    "explanation": "水 (shuǐ) means water."
   },
   {
-   "topic": "1.4",
+   "topic": "3.4",
    "q": "Read the pinyin: wǒ xīngqīliù zài jiā xiūxi. What does it mean?",
    "options": [
     "On Saturday I rest at home.",
@@ -253,7 +253,7 @@
    "explanation": "You start with the last part and add one part at a time."
   },
   {
-   "topic": "2.9",
+   "topic": "1.9",
    "q": "Which sentence means \"The door is on the left.\"?",
    "options": [
     "电视在桌子上。",
@@ -541,7 +541,7 @@
    "explanation": "香蕉 (xiāngjiāo) means banana."
   },
   {
-   "topic": "2.1",
+   "topic": "1.1",
    "q": "Which word is pronounced nín hǎo?",
    "options": [
     "谢谢",
@@ -589,7 +589,7 @@
    "explanation": "姐姐 is older sister."
   },
   {
-   "topic": "3.3",
+   "topic": "2.3",
    "q": "Which Chinese word means \"things\"?",
    "options": [
     "前面 qiánmiàn",
@@ -613,7 +613,7 @@
    "explanation": "听 is to hear."
   },
   {
-   "topic": "2.8",
+   "topic": "1.8",
    "q": "What does 下雨 (xià yǔ) mean?",
    "options": [
     "There is not",
@@ -661,7 +661,7 @@
    "explanation": "菠菜 (bōcài) means spinach."
   },
   {
-   "topic": "2.2",
+   "topic": "1.2",
    "q": "What does 谁 (shéi) mean?",
    "options": [
     "Love",
@@ -709,7 +709,7 @@
    "explanation": "菠菜 (bōcài) means spinach."
   },
   {
-   "topic": "3.9",
+   "topic": "2.9",
    "q": "What does 里 (lǐ) mean?",
    "options": [
     "To put",
@@ -733,7 +733,7 @@
    "explanation": "哪儿 is where and takes the place of the answer."
   },
   {
-   "topic": "2.4",
+   "topic": "1.4",
    "q": "Read the pinyin: jīntiān xīngqīsān. What does it mean?",
    "options": [
     "On Saturday I rest at home.",
@@ -757,7 +757,7 @@
    "explanation": "In ui the second vowel takes the mark."
   },
   {
-   "topic": "3.1",
+   "topic": "2.1",
    "q": "Read the pinyin: lǎoshī hǎo! What does it mean?",
    "options": [
     "My name is Xiaoming.",
@@ -781,7 +781,7 @@
    "explanation": "右边 (yòubian) means right side."
   },
   {
-   "topic": "3.2",
+   "topic": "2.2",
    "q": "What does 爱 (ài) mean?",
    "options": [
     "Is, am, are",
@@ -925,7 +925,7 @@
    "explanation": "太阳 (tàiyáng) means sun."
   },
   {
-   "topic": "3.5",
+   "topic": "1.5",
    "q": "What does 盘子 (pánzi) mean?",
    "options": [
     "Knife",
@@ -937,7 +937,7 @@
    "explanation": "盘子 (pánzi) means plate."
   },
   {
-   "topic": "1.5",
+   "topic": "2.5",
    "q": "What does 大家 (dàjiā) mean?",
    "options": [
     "Month",
@@ -1045,7 +1045,7 @@
    "explanation": "七 (qī) means seven."
   },
   {
-   "topic": "1.1",
+   "topic": "2.1",
    "q": "Which word is pronounced tóngxuémen?",
    "options": [
     "叫",
@@ -1057,7 +1057,7 @@
    "explanation": "同学们 is pronounced tóngxuémen and means classmates."
   },
   {
-   "topic": "2.6",
+   "topic": "1.6",
    "q": "What does 苹果 (píngguǒ) mean?",
    "options": [
     "Apple",
@@ -1105,7 +1105,7 @@
    "explanation": "星期六 (xīngqīliù) means Saturday."
   },
   {
-   "topic": "1.9",
+   "topic": "3.9",
    "q": "Which sentence means \"The window is above the sofa.\"?",
    "options": [
     "窗户在沙发上面。",
@@ -1189,7 +1189,7 @@
    "explanation": "撇 before 捺."
   },
   {
-   "topic": "3.4",
+   "topic": "2.4",
    "q": "Which Chinese word means \"church\"?",
    "options": [
     "昨天 zuótiān",

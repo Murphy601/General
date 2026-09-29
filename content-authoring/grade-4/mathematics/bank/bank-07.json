@@ -1,0 +1,965 @@
+{
+ "mcq": [
+  {
+   "topic": "2.2",
+   "q": "A square is covered with 3 rows of 3 unit squares. What is its area?",
+   "options": [
+    "6 square units",
+    "12 square units",
+    "8 square units",
+    "9 square units"
+   ],
+   "answer": 3,
+   "explanation": "Area = 3 × 3 = 9 square units."
+  },
+  {
+   "topic": "2.2",
+   "q": "A square is covered with 6 rows of 6 unit squares. What is its area?",
+   "options": [
+    "12 square units",
+    "36 square units",
+    "24 square units",
+    "42 square units"
+   ],
+   "answer": 1,
+   "explanation": "Area = 6 × 6 = 36 square units."
+  },
+  {
+   "topic": "2.2",
+   "q": "A square is covered with 10 rows of 10 unit squares. What is its area?",
+   "options": [
+    "100 square units",
+    "20 square units",
+    "40 square units",
+    "110 square units"
+   ],
+   "answer": 0,
+   "explanation": "Area = 10 × 10 = 100 square units."
+  },
+  {
+   "topic": "2.2",
+   "q": "A square is covered with 5 rows of 5 unit squares. What is its area?",
+   "options": [
+    "10 square units",
+    "20 square units",
+    "25 square units",
+    "30 square units"
+   ],
+   "answer": 2,
+   "explanation": "Area = 5 × 5 = 25 square units."
+  },
+  {
+   "topic": "2.2",
+   "q": "A square is covered with 8 rows of 8 unit squares. What is its area?",
+   "options": [
+    "16 square units",
+    "32 square units",
+    "64 square units",
+    "72 square units"
+   ],
+   "answer": 2,
+   "explanation": "Area = 8 × 8 = 64 square units."
+  },
+  {
+   "topic": "2.2",
+   "q": "Rectangle P has 5 rows and 7 columns. Rectangle Q has 6 rows and 6 columns. Which has the bigger area?",
+   "options": [
+    "Rectangle Q",
+    "Rectangle P",
+    "They are equal",
+    "It cannot be told"
+   ],
+   "answer": 0,
+   "explanation": "P = 5 × 7 = 35 and Q = 6 × 6 = 36. Rectangle Q has the bigger area."
+  },
+  {
+   "topic": "2.2",
+   "q": "Rectangle P has 4 rows and 9 columns. Rectangle Q has 5 rows and 8 columns. Which has the bigger area?",
+   "options": [
+    "Rectangle P",
+    "They are equal",
+    "It cannot be told",
+    "Rectangle Q"
+   ],
+   "answer": 3,
+   "explanation": "P = 4 × 9 = 36 and Q = 5 × 8 = 40. Rectangle Q has the bigger area."
+  },
+  {
+   "topic": "2.2",
+   "q": "Rectangle P has 3 rows and 10 columns. Rectangle Q has 6 rows and 5 columns. Which has the bigger area?",
+   "options": [
+    "Rectangle P",
+    "They are equal",
+    "Rectangle Q",
+    "It cannot be told"
+   ],
+   "answer": 1,
+   "explanation": "P = 3 × 10 = 30 and Q = 6 × 5 = 30. They are equal."
+  },
+  {
+   "topic": "2.2",
+   "q": "Rectangle P has 8 rows and 7 columns. Rectangle Q has 9 rows and 6 columns. Which has the bigger area?",
+   "options": [
+    "Rectangle P",
+    "Rectangle Q",
+    "They are equal",
+    "It cannot be told"
+   ],
+   "answer": 0,
+   "explanation": "P = 8 × 7 = 56 and Q = 9 × 6 = 54. Rectangle P has the bigger area."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does area measure?",
+   "options": [
+    "How long a line is",
+    "How heavy an object is",
+    "How much flat surface a shape covers",
+    "How much water a container holds"
+   ],
+   "answer": 2,
+   "explanation": "Area is the amount of flat surface covered by a shape."
+  },
+  {
+   "topic": "2.2",
+   "q": "How can you compare the areas of two sheets of paper without measuring?",
+   "options": [
+    "Count the number of corners",
+    "Put one on top of the other and see which one sticks out",
+    "Measure their masses",
+    "Fold both into halves and count folds only"
+   ],
+   "answer": 1,
+   "explanation": "Placing one surface on the other shows which is bigger."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which unit is used for area?",
+   "options": [
+    "Centimetres",
+    "Litres",
+    "Kilograms",
+    "Square centimetres"
+   ],
+   "answer": 3,
+   "explanation": "Area is measured in square units, such as square centimetres (cm²)."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which sum finds the area of a rectangle with 4 rows and 6 columns?",
+   "options": [
+    "4 + 6",
+    "4 − 6",
+    "6 ÷ 4",
+    "4 × 6"
+   ],
+   "answer": 3,
+   "explanation": "Area is the number of rows multiplied by the number of columns."
+  },
+  {
+   "topic": "2.2",
+   "q": "A floor is covered with square tiles in 8 rows of 12 tiles. How many tiles are on the floor?",
+   "options": [
+    "96 tiles",
+    "20 tiles",
+    "86 tiles",
+    "104 tiles"
+   ],
+   "answer": 0,
+   "explanation": "8 × 12 = 96 tiles."
+  },
+  {
+   "topic": "2.2",
+   "q": "A garden bed marked in 1 m squares has 9 rows and 4 columns. What is its area?",
+   "options": [
+    "13 square metres",
+    "36 square metres",
+    "26 square metres",
+    "49 square metres"
+   ],
+   "answer": 1,
+   "explanation": "9 × 4 = 36 square metres."
+  },
+  {
+   "topic": "2.2",
+   "q": "Wanjiku says the area of a rectangle with 4 rows and 6 columns is 10 square units. Her mistake is that she",
+   "options": [
+    "multiplied instead of adding",
+    "counted the corners",
+    "added instead of multiplying",
+    "forgot to use a ruler"
+   ],
+   "answer": 2,
+   "explanation": "Area is 4 × 6 = 24 square units. She added 4 + 6."
+  },
+  {
+   "topic": "2.2",
+   "q": "A rectangle has 5 rows and 8 columns. How many small squares are needed to cover it?",
+   "options": [
+    "13",
+    "26",
+    "40",
+    "45"
+   ],
+   "answer": 2,
+   "explanation": "5 × 8 = 40 squares."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which shape has the same number of rows and columns of unit squares?",
+   "options": [
+    "A rectangle that is not a square",
+    "A triangle",
+    "A circle",
+    "A square"
+   ],
+   "answer": 3,
+   "explanation": "A square has equal sides, so its number of rows equals its number of columns."
+  },
+  {
+   "topic": "2.2",
+   "q": "Musa covers a book cover with 12 rows of 9 squares. Which sum gives the number of squares?",
+   "options": [
+    "12 + 9",
+    "12 × 9",
+    "12 − 9",
+    "12 ÷ 9"
+   ],
+   "answer": 1,
+   "explanation": "Squares = rows × columns = 12 × 9 = 108."
+  },
+  {
+   "topic": "2.2",
+   "q": "A tile is 10 cm long and 10 cm wide. It is covered with 1 cm squares. How many squares fit?",
+   "options": [
+    "100",
+    "20",
+    "40",
+    "10"
+   ],
+   "answer": 0,
+   "explanation": "10 rows × 10 columns = 100 squares."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 4 blocks long, 3 blocks wide and 2 blocks high. What is its volume?",
+   "options": [
+    "9 blocks",
+    "12 blocks",
+    "28 blocks",
+    "24 blocks"
+   ],
+   "answer": 3,
+   "explanation": "One layer has 4 × 3 = 12 blocks. There are 2 layers, so the volume is 12 × 2 = 24 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 6 blocks long, 4 blocks wide and 3 blocks high. What is its volume?",
+   "options": [
+    "13 blocks",
+    "72 blocks",
+    "24 blocks",
+    "78 blocks"
+   ],
+   "answer": 1,
+   "explanation": "One layer has 6 × 4 = 24 blocks. There are 3 layers, so the volume is 24 × 3 = 72 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 5 blocks long, 2 blocks wide and 3 blocks high. What is its volume?",
+   "options": [
+    "10 blocks",
+    "35 blocks",
+    "30 blocks",
+    "28 blocks"
+   ],
+   "answer": 2,
+   "explanation": "One layer has 5 × 2 = 10 blocks. There are 3 layers, so the volume is 10 × 3 = 30 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 5 blocks long, 4 blocks wide and 4 blocks high. What is its volume?",
+   "options": [
+    "80 blocks",
+    "13 blocks",
+    "20 blocks",
+    "85 blocks"
+   ],
+   "answer": 0,
+   "explanation": "One layer has 5 × 4 = 20 blocks. There are 4 layers, so the volume is 20 × 4 = 80 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 10 blocks long, 5 blocks wide and 2 blocks high. What is its volume?",
+   "options": [
+    "17 blocks",
+    "100 blocks",
+    "50 blocks",
+    "110 blocks"
+   ],
+   "answer": 1,
+   "explanation": "One layer has 10 × 5 = 50 blocks. There are 2 layers, so the volume is 50 × 2 = 100 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 3 blocks long, 3 blocks wide and 3 blocks high. What is its volume?",
+   "options": [
+    "9 blocks",
+    "30 blocks",
+    "24 blocks",
+    "27 blocks"
+   ],
+   "answer": 3,
+   "explanation": "One layer has 3 × 3 = 9 blocks. There are 3 layers, so the volume is 9 × 3 = 27 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 2 blocks long, 2 blocks wide and 2 blocks high. What is its volume?",
+   "options": [
+    "8 blocks",
+    "6 blocks",
+    "4 blocks",
+    "10 blocks"
+   ],
+   "answer": 0,
+   "explanation": "One layer has 2 × 2 = 4 blocks. There are 2 layers, so the volume is 4 × 2 = 8 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 4 blocks long, 4 blocks wide and 4 blocks high. What is its volume?",
+   "options": [
+    "12 blocks",
+    "16 blocks",
+    "64 blocks",
+    "68 blocks"
+   ],
+   "answer": 2,
+   "explanation": "One layer has 4 × 4 = 16 blocks. There are 4 layers, so the volume is 16 × 4 = 64 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 5 blocks long, 5 blocks wide and 5 blocks high. What is its volume?",
+   "options": [
+    "125 blocks",
+    "15 blocks",
+    "25 blocks",
+    "130 blocks"
+   ],
+   "answer": 0,
+   "explanation": "One layer has 5 × 5 = 25 blocks. There are 5 layers, so the volume is 25 × 5 = 125 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 6 blocks long, 3 blocks wide and 2 blocks high. What is its volume?",
+   "options": [
+    "11 blocks",
+    "36 blocks",
+    "18 blocks",
+    "42 blocks"
+   ],
+   "answer": 1,
+   "explanation": "One layer has 6 × 3 = 18 blocks. There are 2 layers, so the volume is 18 × 2 = 36 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 7 blocks long, 3 blocks wide and 2 blocks high. What is its volume?",
+   "options": [
+    "12 blocks",
+    "21 blocks",
+    "49 blocks",
+    "42 blocks"
+   ],
+   "answer": 3,
+   "explanation": "One layer has 7 × 3 = 21 blocks. There are 2 layers, so the volume is 21 × 2 = 42 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid is 8 blocks long, 2 blocks wide and 5 blocks high. What is its volume?",
+   "options": [
+    "15 blocks",
+    "16 blocks",
+    "80 blocks",
+    "88 blocks"
+   ],
+   "answer": 2,
+   "explanation": "One layer has 8 × 2 = 16 blocks. There are 5 layers, so the volume is 16 × 5 = 80 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "One layer of a cuboid has 12 blocks and there are 2 layers. What is the volume?",
+   "options": [
+    "14 blocks",
+    "24 blocks",
+    "36 blocks",
+    "22 blocks"
+   ],
+   "answer": 1,
+   "explanation": "Volume = blocks in one layer × layers = 12 × 2 = 24 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "One layer of a cuboid has 20 blocks and there are 4 layers. What is the volume?",
+   "options": [
+    "24 blocks",
+    "100 blocks",
+    "76 blocks",
+    "80 blocks"
+   ],
+   "answer": 3,
+   "explanation": "Volume = blocks in one layer × layers = 20 × 4 = 80 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "One layer of a cuboid has 15 blocks and there are 3 layers. What is the volume?",
+   "options": [
+    "45 blocks",
+    "18 blocks",
+    "60 blocks",
+    "42 blocks"
+   ],
+   "answer": 0,
+   "explanation": "Volume = blocks in one layer × layers = 15 × 3 = 45 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "One layer of a cuboid has 24 blocks and there are 5 layers. What is the volume?",
+   "options": [
+    "29 blocks",
+    "144 blocks",
+    "120 blocks",
+    "115 blocks"
+   ],
+   "answer": 2,
+   "explanation": "Volume = blocks in one layer × layers = 24 × 5 = 120 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "One layer of a cuboid has 9 blocks and there are 6 layers. What is the volume?",
+   "options": [
+    "15 blocks",
+    "63 blocks",
+    "54 blocks",
+    "48 blocks"
+   ],
+   "answer": 2,
+   "explanation": "Volume = blocks in one layer × layers = 9 × 6 = 54 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid has a volume of 60 blocks. One layer has 12 blocks. How many layers are there?",
+   "options": [
+    "48",
+    "5",
+    "6",
+    "72"
+   ],
+   "answer": 1,
+   "explanation": "Layers = 60 ÷ 12 = 5."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid has a volume of 72 blocks. One layer has 24 blocks. How many layers are there?",
+   "options": [
+    "3",
+    "48",
+    "4",
+    "96"
+   ],
+   "answer": 0,
+   "explanation": "Layers = 72 ÷ 24 = 3."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid has a volume of 48 blocks. One layer has 8 blocks. How many layers are there?",
+   "options": [
+    "40",
+    "7",
+    "56",
+    "6"
+   ],
+   "answer": 3,
+   "explanation": "Layers = 48 ÷ 8 = 6."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid has a volume of 100 blocks. One layer has 20 blocks. How many layers are there?",
+   "options": [
+    "5",
+    "80",
+    "6",
+    "120"
+   ],
+   "answer": 0,
+   "explanation": "Layers = 100 ÷ 20 = 5."
+  },
+  {
+   "topic": "2.3",
+   "q": "Cuboid A is 4 by 3 by 2 blocks (length, width, height). Cuboid B is 3 by 3 by 3 blocks. Which has the greater volume?",
+   "options": [
+    "Cuboid A",
+    "Cuboid B",
+    "They are equal",
+    "It cannot be told"
+   ],
+   "answer": 1,
+   "explanation": "A = 4 × 3 × 2 = 24 blocks. B = 3 × 3 × 3 = 27 blocks. Cuboid B is greater."
+  },
+  {
+   "topic": "2.3",
+   "q": "Cuboid A is 5 by 2 by 4 blocks (length, width, height). Cuboid B is 4 by 4 by 2 blocks. Which has the greater volume?",
+   "options": [
+    "Cuboid B",
+    "They are equal",
+    "Cuboid A",
+    "It cannot be told"
+   ],
+   "answer": 2,
+   "explanation": "A = 5 × 2 × 4 = 40 blocks. B = 4 × 4 × 2 = 32 blocks. Cuboid A is greater."
+  },
+  {
+   "topic": "2.3",
+   "q": "Cuboid A is 6 by 2 by 2 blocks (length, width, height). Cuboid B is 3 by 3 by 3 blocks. Which has the greater volume?",
+   "options": [
+    "Cuboid A",
+    "They are equal",
+    "It cannot be told",
+    "Cuboid B"
+   ],
+   "answer": 3,
+   "explanation": "A = 6 × 2 × 2 = 24 blocks. B = 3 × 3 × 3 = 27 blocks. Cuboid B is greater."
+  },
+  {
+   "topic": "2.3",
+   "q": "Cuboid A is 10 by 2 by 2 blocks (length, width, height). Cuboid B is 5 by 4 by 3 blocks. Which has the greater volume?",
+   "options": [
+    "Cuboid B",
+    "Cuboid A",
+    "They are equal",
+    "It cannot be told"
+   ],
+   "answer": 0,
+   "explanation": "A = 10 × 2 × 2 = 40 blocks. B = 5 × 4 × 3 = 60 blocks. Cuboid B is greater."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does volume measure?",
+   "options": [
+    "The distance round a shape",
+    "The flat surface a shape covers",
+    "The space a solid object takes up",
+    "The time an event takes"
+   ],
+   "answer": 2,
+   "explanation": "Volume is the amount of space that a solid fills."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which statement about a cube is true?",
+   "options": [
+    "It has only 4 faces",
+    "It has no corners",
+    "Its length is double its width",
+    "Its length, width and height are equal"
+   ],
+   "answer": 3,
+   "explanation": "A cube has 6 equal square faces, so its length, width and height are the same."
+  },
+  {
+   "topic": "2.3",
+   "q": "A learner says the volume of a cuboid 4 by 3 by 2 blocks is 9 because 4 + 3 + 2 = 9. What is her mistake?",
+   "options": [
+    "She multiplied instead of adding",
+    "She added the numbers instead of multiplying",
+    "She counted the faces",
+    "She forgot the corners"
+   ],
+   "answer": 1,
+   "explanation": "Volume = 4 × 3 × 2 = 24 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "A box is 10 cm long, 10 cm wide and 10 cm high. What is its volume?",
+   "options": [
+    "1,000 cubic centimetres",
+    "30 cubic centimetres",
+    "100 cubic centimetres",
+    "300 cubic centimetres"
+   ],
+   "answer": 0,
+   "explanation": "10 × 10 = 100 per layer and 100 × 10 = 1,000 cubic centimetres."
+  },
+  {
+   "topic": "2.3",
+   "q": "A stack of soda crates has 5 crates along a wall, 4 crates deep and 4 layers high. How many crates are in the stack?",
+   "options": [
+    "13 crates",
+    "20 crates",
+    "80 crates",
+    "100 crates"
+   ],
+   "answer": 2,
+   "explanation": "5 × 4 = 20 crates per layer and 20 × 4 = 80 crates."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which shape is a cuboid?",
+   "options": [
+    "A football",
+    "A plate",
+    "A coin",
+    "A matchbox"
+   ],
+   "answer": 3,
+   "explanation": "A matchbox has six rectangular faces, so it is a cuboid."
+  },
+  {
+   "topic": "2.3",
+   "q": "When we stack blocks to make a cuboid, what do we do first?",
+   "options": [
+    "Put all the blocks in one long line only",
+    "Make one flat layer with rows and columns",
+    "Cut the blocks into halves",
+    "Count the corners of the room"
+   ],
+   "answer": 1,
+   "explanation": "We build one layer first and then add more layers on top."
+  },
+  {
+   "topic": "2.3",
+   "q": "How many small cubes make a big cube that is 2 blocks long, 2 blocks wide and 2 blocks high?",
+   "options": [
+    "4",
+    "8",
+    "6",
+    "16"
+   ],
+   "answer": 1,
+   "explanation": "2 × 2 = 4 in a layer and 4 × 2 = 8 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "The unit for volume when each block has sides of 1 cm is",
+   "options": [
+    "square centimetres",
+    "centimetres",
+    "cubic centimetres",
+    "litres"
+   ],
+   "answer": 2,
+   "explanation": "Each block is one cubic centimetre, so volume is measured in cubic centimetres."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why should heavy boxes be stacked at the bottom?",
+   "options": [
+    "So that the stack is stable and does not fall",
+    "So that the boxes are hidden",
+    "So that the volume increases",
+    "It makes no difference"
+   ],
+   "answer": 0,
+   "explanation": "A stack with heavy boxes at the bottom is more stable and safer."
+  },
+  {
+   "topic": "2.3",
+   "q": "How many blocks are needed to build a cube 5 blocks long, 5 blocks wide and 5 blocks high?",
+   "options": [
+    "15",
+    "25",
+    "55",
+    "125"
+   ],
+   "answer": 3,
+   "explanation": "5 × 5 = 25 per layer and 25 × 5 = 125 blocks."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 1 1/4 L + 2 1/2 L?",
+   "options": [
+    "4 L",
+    "3 3/4 L",
+    "3 1/2 L",
+    "4 1/4 L"
+   ],
+   "answer": 1,
+   "explanation": "Work with the whole litres first and then the parts. 1 1/4 L + 2 1/2 L = 3 3/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 2 L + 1 1/2 L?",
+   "options": [
+    "3 3/4 L",
+    "3 1/4 L",
+    "4 L",
+    "3 1/2 L"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole litres first and then the parts. 2 L + 1 1/2 L = 3 1/2 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 3 3/4 L + 3 1/2 L?",
+   "options": [
+    "7 1/2 L",
+    "7 L",
+    "7 1/4 L",
+    "7 3/4 L"
+   ],
+   "answer": 2,
+   "explanation": "Work with the whole litres first and then the parts. 3 3/4 L + 3 1/2 L = 7 1/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 2 1/4 L + 1 1/2 L?",
+   "options": [
+    "3 3/4 L",
+    "4 L",
+    "3 1/2 L",
+    "4 1/4 L"
+   ],
+   "answer": 0,
+   "explanation": "Work with the whole litres first and then the parts. 2 1/4 L + 1 1/2 L = 3 3/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 4 1/2 L + 2 1/2 L?",
+   "options": [
+    "7 1/4 L",
+    "6 3/4 L",
+    "7 L",
+    "7 1/2 L"
+   ],
+   "answer": 2,
+   "explanation": "Work with the whole litres first and then the parts. 4 1/2 L + 2 1/2 L = 7 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 1/2 L + 1/4 L?",
+   "options": [
+    "3/4 L",
+    "1 L",
+    "1/2 L",
+    "1 1/4 L"
+   ],
+   "answer": 0,
+   "explanation": "Work with the whole litres first and then the parts. 1/2 L + 1/4 L = 3/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 3 1/2 L + 1 1/4 L?",
+   "options": [
+    "5 L",
+    "4 1/2 L",
+    "5 1/4 L",
+    "4 3/4 L"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole litres first and then the parts. 3 1/2 L + 1 1/4 L = 4 3/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 5 1/4 L + 2 1/4 L?",
+   "options": [
+    "7 3/4 L",
+    "7 1/2 L",
+    "7 1/4 L",
+    "8 L"
+   ],
+   "answer": 1,
+   "explanation": "Work with the whole litres first and then the parts. 5 1/4 L + 2 1/4 L = 7 1/2 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 5 L − 2 1/2 L?",
+   "options": [
+    "2 3/4 L",
+    "2 1/2 L",
+    "2 1/4 L",
+    "3 L"
+   ],
+   "answer": 1,
+   "explanation": "Work with the whole litres first and then the parts. 5 L − 2 1/2 L = 2 1/2 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 4 L − 1 3/4 L?",
+   "options": [
+    "2 1/2 L",
+    "2 L",
+    "2 1/4 L",
+    "2 3/4 L"
+   ],
+   "answer": 2,
+   "explanation": "Work with the whole litres first and then the parts. 4 L − 1 3/4 L = 2 1/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 6 1/4 L − 2 1/2 L?",
+   "options": [
+    "3 3/4 L",
+    "4 L",
+    "3 1/2 L",
+    "4 1/4 L"
+   ],
+   "answer": 0,
+   "explanation": "Work with the whole litres first and then the parts. 6 1/4 L − 2 1/2 L = 3 3/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 3 L − 1/4 L?",
+   "options": [
+    "3 L",
+    "2 1/2 L",
+    "3 1/4 L",
+    "2 3/4 L"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole litres first and then the parts. 3 L − 1/4 L = 2 3/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 10 L − 4 1/4 L?",
+   "options": [
+    "6 L",
+    "5 1/2 L",
+    "5 3/4 L",
+    "6 1/4 L"
+   ],
+   "answer": 2,
+   "explanation": "Work with the whole litres first and then the parts. 10 L − 4 1/4 L = 5 3/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 7 1/2 L − 3 3/4 L?",
+   "options": [
+    "4 L",
+    "3 3/4 L",
+    "3 1/2 L",
+    "4 1/4 L"
+   ],
+   "answer": 1,
+   "explanation": "Work with the whole litres first and then the parts. 7 1/2 L − 3 3/4 L = 3 3/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is 5 1/2 L − 3 1/4 L?",
+   "options": [
+    "2 1/2 L",
+    "2 L",
+    "2 3/4 L",
+    "2 1/4 L"
+   ],
+   "answer": 3,
+   "explanation": "Work with the whole litres first and then the parts. 5 1/2 L − 3 1/4 L = 2 1/4 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "How many quarter-litre containers fill 1 litre?",
+   "options": [
+    "4",
+    "2",
+    "3",
+    "8"
+   ],
+   "answer": 0,
+   "explanation": "Four quarters make one whole, so four 1/4 L containers make 1 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "How many half-litre containers fill 1 litre?",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": 1,
+   "explanation": "Two halves make one whole."
+  },
+  {
+   "topic": "2.4",
+   "q": "How many 5 L buckets can be filled from a 20 L jerrycan?",
+   "options": [
+    "4",
+    "2",
+    "5",
+    "15"
+   ],
+   "answer": 0,
+   "explanation": "20 ÷ 5 = 4 buckets."
+  },
+  {
+   "topic": "2.4",
+   "q": "A tank has 50 L of water and 18 L is used. How much is left?",
+   "options": [
+    "68 L",
+    "22 L",
+    "32 L",
+    "42 L"
+   ],
+   "answer": 2,
+   "explanation": "50 − 18 = 32 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "How many 1/4 L cups can be filled from 3 L of milk?",
+   "options": [
+    "6",
+    "7",
+    "9",
+    "12"
+   ],
+   "answer": 3,
+   "explanation": "Each litre fills 4 cups, so 3 L fills 3 × 4 = 12 cups."
+  },
+  {
+   "topic": "2.4",
+   "q": "How many 1/2 L bottles can be filled from 12 L of juice?",
+   "options": [
+    "6",
+    "24",
+    "12",
+    "18"
+   ],
+   "answer": 1,
+   "explanation": "Each litre fills 2 half-litre bottles, so 12 L fills 12 × 2 = 24 bottles."
+  },
+  {
+   "topic": "2.4",
+   "q": "A shop sells 3 packets of milk of 1/2 L each. What is the total amount of milk?",
+   "options": [
+    "1 L",
+    "3 L",
+    "1 1/2 L",
+    "2 L"
+   ],
+   "answer": 2,
+   "explanation": "3 × 1/2 = 3/2 = 1 1/2 L."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which of these is the unit of capacity?",
+   "options": [
+    "Kilogram",
+    "Metre",
+    "Hour",
+    "Litre"
+   ],
+   "answer": 3,
+   "explanation": "Capacity is measured in litres."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is capacity?",
+   "options": [
+    "The amount of liquid a container can hold",
+    "The mass of a container",
+    "The height of a container",
+    "The colour of a container"
+   ],
+   "answer": 0,
+   "explanation": "Capacity tells us how much liquid a container holds when it is full."
+  }
+ ],
+ "short": []
+}

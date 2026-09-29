@@ -1010,6 +1010,272 @@
    "marks": 3,
    "answer": "d − 45. When d = 100, she has 100 − 45 = 55 shillings.",
    "working": "1 mark for d − 45, 1 mark for the substitution, 1 mark for 55 shillings."
+  },
+  {
+   "topic": "2.1",
+   "q": "Change 3.4 m to centimetres.",
+   "marks": 2,
+   "answer": "340 cm",
+   "working": "3 m = 300 cm and 0.4 m = 40 cm (1 mark). 300 + 40 = 340 cm (1 mark)."
+  },
+  {
+   "topic": "2.1",
+   "q": "A square garden has sides of 15 m. Find the perimeter of the garden.",
+   "marks": 2,
+   "answer": "60 m",
+   "working": "15 + 15 + 15 + 15 = 60 m. 1 mark for method and 1 mark for answer with unit."
+  },
+  {
+   "topic": "2.1",
+   "q": "A ribbon is 5 m 20 cm long. A piece 2 m 75 cm long is cut off. How much ribbon is left?",
+   "marks": 3,
+   "answer": "2 m 45 cm",
+   "working": "520 − 275 = 245 cm (2 marks); 245 cm = 2 m 45 cm (1 mark)."
+  },
+  {
+   "topic": "2.1",
+   "q": "A farmer joins 4 pieces of wire, each measuring 2 m 30 cm, to make one long wire. Find the length of the long wire.",
+   "marks": 3,
+   "answer": "9 m 20 cm",
+   "working": "230 × 4 = 920 cm (2 marks); 920 cm = 9 m 20 cm (1 mark)."
+  },
+  {
+   "topic": "2.1",
+   "q": "Tabitha cuts a 7 m 20 cm rope into 6 pieces of equal length. Find the length of one piece.",
+   "marks": 3,
+   "answer": "1 m 20 cm",
+   "working": "720 ÷ 6 = 120 cm (2 marks); 120 cm = 1 m 20 cm (1 mark)."
+  },
+  {
+   "topic": "2.1",
+   "q": "Add 3 m 45 cm and 2 m 80 cm.",
+   "marks": 3,
+   "answer": "6 m 25 cm",
+   "working": "345 + 280 = 625 cm (2 marks); 625 cm = 6 m 25 cm (1 mark)."
+  },
+  {
+   "topic": "2.1",
+   "q": "A rectangle is 8 cm long and 5 cm wide. Draw it roughly, label the sides and find its perimeter.",
+   "marks": 3,
+   "answer": "Perimeter = 8 + 5 + 8 + 5 = 26 cm.",
+   "working": "1 mark for a labelled rectangle, 1 mark for adding all four sides, 1 mark for 26 cm."
+  },
+  {
+   "topic": "2.1",
+   "q": "A triangle has sides of 3 cm, 4 cm and 5 cm. Find its perimeter.",
+   "marks": 2,
+   "answer": "12 cm",
+   "working": "3 + 4 + 5 = 12. 1 mark for adding all three sides and 1 mark for the unit."
+  },
+  {
+   "topic": "2.1",
+   "q": "A rectangular plot is 12 m long and 8 m wide. Peter walks once round the plot. How far does he walk?",
+   "marks": 3,
+   "answer": "40 m",
+   "working": "12 + 8 + 12 + 8 = 40 m. 1 mark for identifying perimeter, 1 mark for the sum, 1 mark for unit."
+  },
+  {
+   "topic": "2.1",
+   "q": "An L-shaped garden has sides of 6 m, 2 m, 3 m, 2 m, 3 m and 4 m. Find its perimeter.",
+   "marks": 3,
+   "answer": "20 m",
+   "working": "6 + 2 + 3 + 2 + 3 + 4 = 20 m. 2 marks for adding all six sides, 1 mark for the unit."
+  },
+  {
+   "topic": "2.1",
+   "q": "Change 250 cm to metres and centimetres, and then to metres using a decimal.",
+   "marks": 3,
+   "answer": "2 m 50 cm and 2.5 m",
+   "working": "1 mark for dividing by 100, 1 mark for 2 m 50 cm, 1 mark for 2.5 m."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain why we should change lengths to centimetres before adding 3 m 45 cm and 2 m 80 cm.",
+   "marks": 3,
+   "answer": "When both lengths are in centimetres we can add them like ordinary numbers: 345 + 280 = 625 cm. This avoids mistakes with regrouping 100 cm into 1 m.",
+   "working": "1 mark for using one unit, 1 mark for adding, 1 mark for reference to regrouping."
+  },
+  {
+   "topic": "2.1",
+   "q": "A tailor has 3 m 60 cm of cloth and uses 1 m 85 cm. How much cloth is left?",
+   "marks": 3,
+   "answer": "1 m 75 cm",
+   "working": "360 − 185 = 175 cm (2 marks); 175 cm = 1 m 75 cm (1 mark)."
+  },
+  {
+   "topic": "2.1",
+   "q": "Amina says the perimeter of a rectangle 8 cm by 5 cm is 13 cm. Explain her mistake and give the correct perimeter.",
+   "marks": 3,
+   "answer": "She added only two sides. The perimeter is the distance all the way round, so we add all four sides: 8 + 5 + 8 + 5 = 26 cm.",
+   "working": "1 mark for the mistake, 1 mark for the reason, 1 mark for 26 cm."
+  },
+  {
+   "topic": "2.2",
+   "q": "The floor of a shop has 8 rows of 12 square tiles. How many tiles are on the floor?",
+   "marks": 3,
+   "answer": "96 tiles",
+   "working": "8 × 12 (1 mark); 80 + 16 (1 mark); 96 tiles (1 mark)."
+  },
+  {
+   "topic": "2.2",
+   "q": "Rectangle P has 5 rows and 7 columns. Rectangle Q has 6 rows and 6 columns. Which has the bigger area and by how much?",
+   "marks": 4,
+   "answer": "Q is bigger by 1 square unit.",
+   "working": "P = 35 (1 mark); Q = 36 (1 mark); Q is bigger (1 mark); difference 1 (1 mark)."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain how you can compare the areas of two sheets of paper without using a ruler.",
+   "marks": 2,
+   "answer": "Put one sheet on top of the other with their corners lined up. The sheet that sticks out has the bigger area.",
+   "working": "1 mark for placing one on the other and 1 mark for saying the one that sticks out is bigger."
+  },
+  {
+   "topic": "2.2",
+   "q": "A garden bed has 9 rows and 4 columns of 1 m squares. Find its area in square metres.",
+   "marks": 2,
+   "answer": "36 square metres",
+   "working": "9 × 4 = 36. 1 mark for the multiplication and 1 mark for the unit."
+  },
+  {
+   "topic": "2.2",
+   "q": "Amina says the area of a rectangle with 4 rows and 6 columns is 10 because 4 + 6 = 10. Explain her mistake and give the correct area.",
+   "marks": 3,
+   "answer": "She added the rows and columns. Area is rows × columns = 4 × 6 = 24 square units.",
+   "working": "1 mark for saying she added, 1 mark for saying multiply, 1 mark for 24."
+  },
+  {
+   "topic": "2.2",
+   "q": "A rectangle has an area of 48 square units and 6 rows. How many columns does it have? Explain how you found out.",
+   "marks": 3,
+   "answer": "8 columns. Area = rows × columns, so columns = 48 ÷ 6 = 8.",
+   "working": "1 mark for the relationship, 1 mark for the division, 1 mark for 8."
+  },
+  {
+   "topic": "2.2",
+   "q": "Find the area of a square with 6 rows of 6 unit squares. Then find the area of a rectangle with 5 rows of 7 squares. Which is bigger?",
+   "marks": 4,
+   "answer": "Square 36, rectangle 35. The square is bigger by 1 square unit.",
+   "working": "1 mark for each area and 1 mark for the comparison and 1 mark for the difference."
+  },
+  {
+   "topic": "2.2",
+   "q": "A book cover has 12 rows of 9 squares. A notebook cover has 10 rows of 10 squares. Which cover is larger and by how many squares?",
+   "marks": 4,
+   "answer": "The book cover: 108 squares. The notebook: 100 squares. The book cover is larger by 8 squares.",
+   "working": "1 mark each for 108 and 100, 1 mark for the larger cover, 1 mark for 8."
+  },
+  {
+   "topic": "2.2",
+   "q": "Draw a rectangle of 3 rows and 5 columns of squares. Write its area.",
+   "marks": 3,
+   "answer": "A drawing with 3 rows of 5 squares; area = 15 square units.",
+   "working": "1 mark for 3 rows, 1 mark for 5 columns, 1 mark for area 15."
+  },
+  {
+   "topic": "2.2",
+   "q": "Give two differences between perimeter and area.",
+   "marks": 3,
+   "answer": "Perimeter is the distance round the edge and is measured in units of length such as cm. Area is the flat surface inside the shape and is measured in square units.",
+   "working": "1 mark for the meaning of each and 1 mark for the units."
+  },
+  {
+   "topic": "2.2",
+   "q": "A classroom floor is covered with 15 rows of 10 tiles. How many tiles are used? If 6 tiles are broken and must be replaced, how many tiles are unbroken?",
+   "marks": 4,
+   "answer": "150 tiles; 144 tiles unbroken",
+   "working": "1 mark for 15 × 10, 1 mark for 150, 1 mark for 150 − 6, 1 mark for 144."
+  },
+  {
+   "topic": "2.3",
+   "q": "A stack of soda crates has 5 crates along the wall, 4 crates deep and 4 layers high. How many crates are in the stack?",
+   "marks": 3,
+   "answer": "80 crates",
+   "working": "5 × 4 = 20 per layer (1 mark); 20 × 4 (1 mark); 80 crates (1 mark)."
+  },
+  {
+   "topic": "2.3",
+   "q": "A cuboid has a volume of 60 blocks. One layer has 12 blocks. How many layers does it have?",
+   "marks": 2,
+   "answer": "5 layers",
+   "working": "60 ÷ 12 = 5. 1 mark for the division and 1 mark for the answer."
+  },
+  {
+   "topic": "2.3",
+   "q": "Box P is 5 blocks long, 2 wide and 4 high. Box Q is 4 blocks long, 4 wide and 2 high. Which has the greater volume and by how many blocks?",
+   "marks": 4,
+   "answer": "Box P, by 8 blocks",
+   "working": "P = 40 (1 mark); Q = 32 (1 mark); P is greater (1 mark); 40 − 32 = 8 (1 mark)."
+  },
+  {
+   "topic": "2.3",
+   "q": "Explain the difference between area and volume.",
+   "marks": 2,
+   "answer": "Area is the amount of flat surface a shape covers, in square units. Volume is the amount of space a solid takes up, in cubic units.",
+   "working": "1 mark for area and 1 mark for volume."
+  },
+  {
+   "topic": "2.3",
+   "q": "A learner says the volume of a cuboid 4 blocks long, 3 wide and 2 high is 9 blocks because 4 + 3 + 2 = 9. What mistake did the learner make and what is the correct volume?",
+   "marks": 3,
+   "answer": "The learner added. She should multiply: one layer has 4 × 3 = 12 blocks and 2 layers make 24 blocks.",
+   "working": "1 mark for the mistake, 1 mark for the method, 1 mark for 24 blocks."
+  },
+  {
+   "topic": "2.3",
+   "q": "Find the volume of a cuboid that is 6 blocks long, 4 blocks wide and 3 blocks high. Show your working.",
+   "marks": 3,
+   "answer": "72 blocks",
+   "working": "6 × 4 = 24 blocks in a layer (1 mark); 24 × 3 (1 mark); 72 blocks (1 mark)."
+  },
+  {
+   "topic": "2.3",
+   "q": "Find the volume of a cube with sides of 4 blocks.",
+   "marks": 3,
+   "answer": "64 blocks",
+   "working": "4 × 4 = 16 per layer (1 mark); 16 × 4 (1 mark); 64 blocks (1 mark)."
+  },
+  {
+   "topic": "2.3",
+   "q": "A store stacks boxes 6 in a row, 3 rows deep and 2 layers high. How many boxes are in the stack? Give one safety rule for stacking.",
+   "marks": 4,
+   "answer": "36 boxes. Put heavy boxes at the bottom (or do not stack too high).",
+   "working": "1 mark for 6 × 3 = 18, 1 mark for 18 × 2, 1 mark for 36, 1 mark for a sensible safety rule."
+  },
+  {
+   "topic": "2.3",
+   "q": "How can you tell that a cuboid is a cube? Give one example of each from everyday life.",
+   "marks": 3,
+   "answer": "In a cube the length, width and height are equal. Example of a cube: a dice. Example of a cuboid that is not a cube: a matchbox or a brick.",
+   "working": "1 mark for the property, 1 mark for each example."
+  },
+  {
+   "topic": "2.3",
+   "q": "One layer of a cuboid has 15 blocks and the cuboid has 4 layers. Find the volume. Then find the volume if 2 more layers are added.",
+   "marks": 4,
+   "answer": "60 blocks; then 90 blocks",
+   "working": "15 × 4 = 60 (2 marks); 6 layers: 15 × 6 = 90 (2 marks)."
+  },
+  {
+   "topic": "2.3",
+   "q": "Cuboid A is 10 by 2 by 2 blocks and cuboid B is 5 by 4 by 3 blocks. Work out both volumes and say which is greater.",
+   "marks": 4,
+   "answer": "A = 40 blocks, B = 60 blocks. B is greater by 20 blocks.",
+   "working": "1 mark each for the volumes, 1 mark for the comparison, 1 mark for the difference."
+  },
+  {
+   "topic": "2.4",
+   "q": "Work out 4 L − 1 3/4 L. Show your working.",
+   "marks": 3,
+   "answer": "2 1/4 L",
+   "working": "Change 4 L to 3 4/4 L (1 mark). 3 4/4 − 1 3/4 = 2 1/4 (1 mark). Check: 2 1/4 + 1 3/4 = 4 L (1 mark)."
+  },
+  {
+   "topic": "2.4",
+   "q": "Wanjiku has 2 L of milk and buys 1 1/2 L more. How much milk does she have now?",
+   "marks": 2,
+   "answer": "3 1/2 L",
+   "working": "2 + 1 1/2 = 3 1/2. 1 mark for the addition and 1 mark for the unit."
   }
  ]
 }

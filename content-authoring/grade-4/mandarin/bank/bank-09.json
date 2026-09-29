@@ -23,7 +23,7 @@
    "working": "1 mark for each name with pinyin, 1 mark for a correct sentence."
   },
   {
-   "topic": "1.2",
+   "topic": "3.2",
    "q": "Write in Chinese characters and pinyin: \"This is my father.\"",
    "marks": 2,
    "answer": "这是我爸爸。 zhè shì wǒ bàba.",
@@ -58,7 +58,7 @@
    "working": "1 mark for the characters and 1 mark for the pinyin."
   },
   {
-   "topic": "3.6",
+   "topic": "2.6",
    "q": "Write the pinyin and the English meaning of 牛奶, 大 and 昨天.",
    "marks": 3,
    "answer": "牛奶: niúnǎi, milk. 大: dà, big. 昨天: zuótiān, yesterday.",
@@ -107,7 +107,7 @@
    "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
   },
   {
-   "topic": "3.5",
+   "topic": "1.5",
    "q": "Write the pinyin and the English meaning of 来 and 笑.",
    "marks": 2,
    "answer": "来: lái, to come. 笑: xiào, to laugh, to smile.",
@@ -149,7 +149,7 @@
    "working": "2 marks for each sentence: 1 for the characters and 1 for the pinyin."
   },
   {
-   "topic": "2.6",
+   "topic": "3.6",
    "q": "Read the pinyin and write the English meaning: wǒ xǐhuan hē chá.",
    "marks": 2,
    "answer": "I like to drink tea.",
@@ -184,7 +184,7 @@
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
-   "topic": "1.8",
+   "topic": "3.8",
    "q": "Read the pinyin and write the English meaning: jīntiān xià yǔ.",
    "marks": 2,
    "answer": "Today it rains.",
@@ -198,14 +198,14 @@
    "working": "1 mark for the family size sentence, 2 marks for three correct sentences, 1 mark for pinyin, 1 mark for punctuation."
   },
   {
-   "topic": "2.5",
+   "topic": "1.5",
    "q": "Write the pinyin and the English meaning of 送 and 床.",
    "marks": 2,
    "answer": "送: sòng, to give (a gift). 床: chuáng, bed.",
    "working": "1 mark for each word with correct pinyin (tone marks) and meaning."
   },
   {
-   "topic": "3.3",
+   "topic": "2.3",
    "q": "Write in Chinese characters and pinyin: \"There is a bed in the bedroom.\"",
    "marks": 2,
    "answer": "卧室里有床。 wòshì lǐ yǒu chuáng.",
@@ -240,7 +240,7 @@
    "working": "1 mark for the characters in the correct order, 1 mark for the pinyin with tone marks, 1 mark for punctuation."
   },
   {
-   "topic": "2.2",
+   "topic": "3.2",
    "q": "Read the pinyin and write the English meaning: nà shì wǒ dìdi.",
    "marks": 2,
    "answer": "That is my younger brother.",
