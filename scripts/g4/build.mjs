@@ -188,7 +188,13 @@ const toDelete = new Set(); const toWrite = [];
 
 function readRec(id) { try { return JSON.parse(readFileSync(join(CONTENT, id + '.json'), 'utf8')); } catch { return null; } }
 const allG4 = new Map();
-for (const r of idx) if (r.topic?.grade === 'grade-4') allG4.set(r.id, r);
+// Scan disk, not just index.json: the index is missing hundreds of grade-4 records that still exist as files.
+for (const f of readdirSync(CONTENT)) {
+  if (!f.endsWith('.json') || f === 'index.json') continue;
+  const raw = readFileSync(join(CONTENT, f), 'utf8');
+  if (!/"grade":\s*"grade-4"/.test(raw)) continue;
+  try { const r = JSON.parse(raw); if (r.topic?.grade === 'grade-4') allG4.set(r.id, r); } catch { /* skip broken */ }
+}
 
 for (const slug of slugs) {
   const subject = SUBJECTS[slug]; const dir = join(AUTH, slug);
