@@ -1034,11 +1034,11 @@
   },
   {
    "topic": "3.1",
-   "q": "What is an artefact?",
+   "q": "In traditional culture, what do we call a basket or clay pot made and used by people?",
    "options": [
     "A kind of food",
     "A type of weather",
-    "An object made and used by people",
+    "An artefact",
     "A river"
    ],
    "answer": 2,
@@ -1046,41 +1046,6 @@
   }
  ],
  "short": [
-  {
-   "topic": "1.4",
-   "q": "Describe what people do in the cold season to stay healthy and warm.",
-   "marks": 4,
-   "answer": "They wear warm clothes, eat and drink hot foods, sleep under blankets, and wash their hands to avoid colds and flu.",
-   "working": "1 mark for each correct action."
-  },
-  {
-   "topic": "1.4",
-   "q": "A weather chart for a week shows: Mon sunny, Tue sunny, Wed rainy, Thu cloudy, Fri rainy, Sat sunny, Sun cloudy. How many days were sunny, rainy and cloudy?",
-   "marks": 3,
-   "answer": "3 sunny days, 2 rainy days and 2 cloudy days.",
-   "working": "1 mark for each correct count. Check: 3 + 2 + 2 = 7 days."
-  },
-  {
-   "topic": "1.4",
-   "q": "Explain how the four seasons can influence what people do in your county. Give one example for each season.",
-   "marks": 5,
-   "answer": "Rainy: farmers plant crops. Dry: farmers harvest and dry crops. Hot: people drink more water and wear light clothes. Cold: people wear warm clothes and drink hot tea. Award a fifth mark for a clear explanation of why seasons matter for farming.",
-   "working": "1 mark for each season example and 1 mark for the link to activities."
-  },
-  {
-   "topic": "1.5",
-   "q": "Name the three main kinds of historic built environments.",
-   "marks": 3,
-   "answer": "Museums, monuments and cultural centres.",
-   "working": "1 mark for each correct kind."
-  },
-  {
-   "topic": "1.5",
-   "q": "State two things that a visitor can learn in a museum.",
-   "marks": 2,
-   "answer": "How people lived long ago and which tools they used. Accept learning about animals, plants and cultures.",
-   "working": "1 mark for each correct point."
-  },
   {
    "topic": "1.5",
    "q": "Explain why a monument is built.",
@@ -1297,6 +1262,76 @@
    "marks": 3,
    "answer": "It gives identity, teaches values, and brings people together.",
    "working": "1 mark for each reason."
+  },
+  {
+   "topic": "3.1",
+   "q": "Explain why some cultural practices are no longer kept.",
+   "marks": 3,
+   "answer": "Some practices harm people, such as female genital mutilation and early marriage. The law forbids them. We keep the good parts and leave out the harmful ones.",
+   "working": "1 mark for harm, 1 mark for law, 1 mark for keeping good parts."
+  },
+  {
+   "topic": "3.1",
+   "q": "Describe the houses of two communities in Kenya.",
+   "marks": 4,
+   "answer": "The Maasai build low houses of wooden frames covered with mud and dung inside a fence called a manyatta. Old coastal houses in Lamu were built of coral stone with carved doors.",
+   "working": "1 mark for each community and 1 mark for each description."
+  },
+  {
+   "topic": "3.1",
+   "q": "Give three examples of artefacts and say how each is used.",
+   "marks": 3,
+   "answer": "A clay pot for cooking or storing water, a basket for carrying items, and a stool for sitting. Accept other correct examples.",
+   "working": "1 mark for each correct artefact with use."
+  },
+  {
+   "topic": "3.1",
+   "q": "Describe how to interview an elder about traditional culture politely.",
+   "marks": 4,
+   "answer": "Greet the elder respectfully, ask permission before recording or taking photographs, listen without interrupting, and say thank you.",
+   "working": "1 mark for each correct step."
+  },
+  {
+   "topic": "3.1",
+   "q": "Explain the difference between a ceremony and a festival and give one example of each.",
+   "marks": 4,
+   "answer": "A ceremony marks a special event in life, such as a wedding. A festival is a big celebration with many people, such as the Lamu Cultural Festival.",
+   "working": "1 mark for each meaning and 1 mark for each example."
+  },
+  {
+   "topic": "3.1",
+   "q": "Plan a class culture day. State five things you would include.",
+   "marks": 5,
+   "answer": "Traditional dress, foods to taste, songs and dances, artefacts on display, and stories told by elders.",
+   "working": "1 mark for each correct item."
+  },
+  {
+   "topic": "3.2",
+   "q": "List four questions you could ask to find out the history of your school.",
+   "marks": 4,
+   "answer": "When was the school started? Who started it? Who was the first headteacher? How has the school changed?",
+   "working": "1 mark for each relevant question."
+  },
+  {
+   "topic": "3.2",
+   "q": "Name two places where you can find information about your school's history.",
+   "marks": 2,
+   "answer": "The headteacher or teachers, and the school records or log book. Accept old photographs or elders.",
+   "working": "1 mark for each source."
+  },
+  {
+   "topic": "3.2",
+   "q": "Give three school values and say why each is important.",
+   "marks": 3,
+   "answer": "Honesty helps us to be trusted. Respect keeps peace. Responsibility helps us to do our duties. Accept other valid values.",
+   "working": "1 mark for each value with a reason."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write a short motto and explain what it asks pupils to do.",
+   "marks": 3,
+   "answer": "For example: Work hard, be kind. It asks pupils to study well and treat others with kindness.",
+   "working": "1 mark for a short motto, 1 mark for meaning, 1 mark for showing action."
   }
  ]
 }

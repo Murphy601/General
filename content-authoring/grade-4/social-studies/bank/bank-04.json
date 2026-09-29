@@ -242,7 +242,7 @@
   },
   {
    "topic": "5.1",
-   "q": "What is a right?",
+   "q": "In school life, what is a right?",
    "options": [
     "A punishment",
     "Something you are allowed to have or do",
@@ -1047,111 +1047,6 @@
  ],
  "short": [
   {
-   "topic": "4.3",
-   "q": "Give three ethical practices in managing a school enterprise.",
-   "marks": 3,
-   "answer": "Be honest with money and customers, be fair in sharing work and rewards, and care for the environment.",
-   "working": "1 mark for each practice."
-  },
-  {
-   "topic": "4.3",
-   "q": "Explain why it is important to keep records of income and costs.",
-   "marks": 3,
-   "answer": "To know whether there is profit or loss, to show honesty, and to plan better next time.",
-   "working": "1 mark for each reason."
-  },
-  {
-   "topic": "4.3",
-   "q": "Describe how you would design a safety bib for pupils who walk to school.",
-   "marks": 4,
-   "answer": "Use bright cloth, cut it in a vest shape with a head opening, fix reflective strips across the front and back, and test that it is easy to wear and seen from far.",
-   "working": "1 mark for each step."
-  },
-  {
-   "topic": "4.3",
-   "q": "A group spent Ksh 900 and earned Ksh 600. Say whether this is a profit or a loss and find the amount. Suggest two reasons why it may have happened.",
-   "marks": 4,
-   "answer": "It is a loss of Ksh 300. Sales may have been low because the price was too high or not enough people knew about the goods.",
-   "working": "1 mark for loss, 1 mark for the amount 900 - 600 = 300, 1 mark for each reason."
-  },
-  {
-   "topic": "4.3",
-   "q": "Describe how your class could showcase its school enterprise project.",
-   "marks": 5,
-   "answer": "Set up a stall with the goods, display a poster, show records of costs and income, explain each team member's role, and let visitors ask questions and give feedback.",
-   "working": "1 mark for each point."
-  },
-  {
-   "topic": "5.1",
-   "q": "Explain the meaning of a good citizen in school.",
-   "marks": 2,
-   "answer": "A good citizen in school follows the rules, respects others and does what is good for the whole school community.",
-   "working": "1 mark for rules/respect, 1 mark for the community idea."
-  },
-  {
-   "topic": "5.1",
-   "q": "State three qualities of a good citizen in school and give an example for each.",
-   "marks": 3,
-   "answer": "Honesty: returning lost items. Respect: greeting teachers. Responsibility: doing class duties.",
-   "working": "1 mark for each quality with example."
-  },
-  {
-   "topic": "5.1",
-   "q": "Explain three rules of good digital citizenship.",
-   "marks": 3,
-   "answer": "Ask an adult before going online, do not share private information, and be kind and never bully online.",
-   "working": "1 mark for each rule."
-  },
-  {
-   "topic": "5.1",
-   "q": "Explain the difference between a right and a duty and give one example of each in school.",
-   "marks": 4,
-   "answer": "A right is something you are allowed, such as learning in a safe place. A duty is something you must do, such as following the rules.",
-   "working": "1 mark for each meaning and 1 mark for each example."
-  },
-  {
-   "topic": "5.1",
-   "q": "Describe how a pupil can help a new pupil to settle in.",
-   "marks": 3,
-   "answer": "Welcome the pupil, show the classrooms and toilets, and invite the pupil to play.",
-   "working": "1 mark for each way."
-  },
-  {
-   "topic": "5.1",
-   "q": "Explain why we should be honest even when nobody is watching.",
-   "marks": 3,
-   "answer": "Honesty builds trust, it is right, and it prepares us to be good citizens.",
-   "working": "1 mark for each reason."
-  },
-  {
-   "topic": "5.1",
-   "q": "Describe four steps to develop a good quality such as punctuality.",
-   "marks": 4,
-   "answer": "Choose the quality, set a small goal, practise every day, and ask a friend to encourage you.",
-   "working": "1 mark for each step."
-  },
-  {
-   "topic": "5.1",
-   "q": "Explain how good citizenship in school prepares pupils to be good citizens of Kenya.",
-   "marks": 4,
-   "answer": "Pupils learn to follow rules, respect others, take care of public property and take responsibility. These habits continue when they are adults.",
-   "working": "1 mark for each point."
-  },
-  {
-   "topic": "5.1",
-   "q": "Describe five actions that show good citizenship in school.",
-   "marks": 5,
-   "answer": "Arrive on time, keep the compound clean, respect teachers, share with others, and report bullying.",
-   "working": "1 mark for each action."
-  },
-  {
-   "topic": "5.2",
-   "q": "Explain what peace means in a school.",
-   "marks": 2,
-   "answer": "Peace means pupils and teachers live together safely, respect each other and settle disagreements without fighting.",
-   "working": "1 mark for safety and respect, 1 mark for solving conflict peacefully."
-  },
-  {
    "topic": "5.2",
    "q": "Give three factors that promote peace in school.",
    "marks": 3,
@@ -1297,6 +1192,146 @@
    "marks": 3,
    "answer": "Everyone has a voice, decisions are fair, and pupils obey rules they helped to make.",
    "working": "1 mark for each benefit."
+  },
+  {
+   "topic": "5.4",
+   "q": "Explain why a ballot should be secret.",
+   "marks": 2,
+   "answer": "So that nobody can force or influence how a person votes, so the choice is free.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "5.4",
+   "q": "In a class election, Maria got 14 votes, Juma got 9 votes and 2 papers were spoilt. How many pupils voted? Who won? Show working.",
+   "marks": 3,
+   "answer": "25 pupils voted. Maria won.",
+   "working": "14 + 9 + 2 = 25. 14 is more than 9, so Maria won. 1 mark for the total, 1 mark for the winner, 1 mark for showing working."
+  },
+  {
+   "topic": "5.4",
+   "q": "Describe the steps in a fair class election.",
+   "marks": 4,
+   "answer": "Announce, nominate candidates, campaign, vote, count votes in public, and declare the winner.",
+   "working": "1 mark for each group of two correct steps."
+  },
+  {
+   "topic": "5.4",
+   "q": "Explain why buying votes with sweets is wrong.",
+   "marks": 3,
+   "answer": "It is cheating, it makes the election unfair, and votes should be given freely on merit.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "5.4",
+   "q": "Describe how a losing candidate should behave and why.",
+   "marks": 3,
+   "answer": "Accept the result peacefully, congratulate the winner and offer to help. This keeps peace and shows respect for democracy.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "5.4",
+   "q": "Explain three elements of democracy and give an example of each in school.",
+   "marks": 5,
+   "answer": "Equality: one vote each. Freedom of expression: giving opinions in class. Majority rule: choosing a game by most votes. Award marks for each element and example.",
+   "working": "1 mark for each correct element with example, up to 5."
+  },
+  {
+   "topic": "5.5",
+   "q": "Explain what a Children's Government is.",
+   "marks": 2,
+   "answer": "It is a group of pupils elected by their classmates to help run the school and speak for pupils, guided by a teacher.",
+   "working": "1 mark for elected pupils, 1 mark for helping and speaking for pupils."
+  },
+  {
+   "topic": "5.5",
+   "q": "Name four members of a typical Children's Government.",
+   "marks": 4,
+   "answer": "President, deputy president, Speaker, and class representatives. Accept cabinet members or secretary.",
+   "working": "1 mark for each member."
+  },
+  {
+   "topic": "5.5",
+   "q": "State three functions of the Children's Government.",
+   "marks": 3,
+   "answer": "Represent pupils, help keep order, and promote cleanliness. Accept organising activities.",
+   "working": "1 mark for each function."
+  },
+  {
+   "topic": "5.5",
+   "q": "Explain why a Children's Government should not punish pupils.",
+   "marks": 3,
+   "answer": "Only teachers decide on discipline, pupil leaders may be unfair, and serious problems must be reported to teachers.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "5.5",
+   "q": "Describe how an ordinary pupil can support the Children's Government.",
+   "marks": 3,
+   "answer": "Vote for leaders, follow fair instructions, and give ideas through the class representative.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "5.5",
+   "q": "List the five items on the sample agenda for a Children's Government meeting.",
+   "marks": 5,
+   "answer": "Opening, reading the last minutes, reports from cabinet members, suggestions from classes, and closing remarks.",
+   "working": "1 mark for each item."
+  },
+  {
+   "topic": "5.5",
+   "q": "Explain how a class representative helps classmates.",
+   "marks": 3,
+   "answer": "They bring classmates' ideas and complaints to meetings, tell the class what was decided, and help solve small problems.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "5.5",
+   "q": "Give four qualities of a good pupil leader.",
+   "marks": 4,
+   "answer": "Honest, fair, responsible and a good listener. Accept humble or hard working.",
+   "working": "1 mark for each quality."
+  },
+  {
+   "topic": "5.5",
+   "q": "Explain why it is important to have a Children's Government in school.",
+   "marks": 4,
+   "answer": "It gives pupils a voice, teaches leadership, helps teachers with order and cleanliness, and teaches democracy.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "5.6",
+   "q": "Name three kinds of community leaders.",
+   "marks": 3,
+   "answer": "Religious leaders, clan elders and village elders. Accept chiefs.",
+   "working": "1 mark for each kind."
+  },
+  {
+   "topic": "5.6",
+   "q": "State three duties of clan elders.",
+   "marks": 3,
+   "answer": "Keep customs, settle disputes and advise at ceremonies.",
+   "working": "1 mark for each duty."
+  },
+  {
+   "topic": "5.6",
+   "q": "State three duties of a village elder.",
+   "marks": 3,
+   "answer": "Welcome visitors, settle small quarrels and call meetings. Accept reporting problems.",
+   "working": "1 mark for each duty."
+  },
+  {
+   "topic": "5.6",
+   "q": "Give four duties of a religious leader.",
+   "marks": 4,
+   "answer": "Lead prayers, teach values, counsel people and visit the sick. Accept conducting weddings or funerals.",
+   "working": "1 mark for each duty."
+  },
+  {
+   "topic": "5.6",
+   "q": "Give three qualities of a good leader and explain why each matters.",
+   "marks": 3,
+   "answer": "Honesty so people trust the leader, fairness so all are treated equally, and listening so decisions are wise.",
+   "working": "1 mark for each quality with reason."
   }
  ]
 }

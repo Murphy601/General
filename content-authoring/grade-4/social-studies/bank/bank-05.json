@@ -878,7 +878,7 @@
   },
   {
    "topic": "5.7",
-   "q": "Which of these is a county government service?",
+   "q": "Which of these tasks belongs to the county government?",
    "options": [
     "County roads",
     "National defence",
@@ -1011,146 +1011,6 @@
  ],
  "short": [
   {
-   "topic": "5.4",
-   "q": "Explain why a ballot should be secret.",
-   "marks": 2,
-   "answer": "So that nobody can force or influence how a person votes, so the choice is free.",
-   "working": "1 mark for each point."
-  },
-  {
-   "topic": "5.4",
-   "q": "In a class election, Maria got 14 votes, Juma got 9 votes and 2 papers were spoilt. How many pupils voted? Who won? Show working.",
-   "marks": 3,
-   "answer": "25 pupils voted. Maria won.",
-   "working": "14 + 9 + 2 = 25. 14 is more than 9, so Maria won. 1 mark for the total, 1 mark for the winner, 1 mark for showing working."
-  },
-  {
-   "topic": "5.4",
-   "q": "Describe the steps in a fair class election.",
-   "marks": 4,
-   "answer": "Announce, nominate candidates, campaign, vote, count votes in public, and declare the winner.",
-   "working": "1 mark for each group of two correct steps."
-  },
-  {
-   "topic": "5.4",
-   "q": "Explain why buying votes with sweets is wrong.",
-   "marks": 3,
-   "answer": "It is cheating, it makes the election unfair, and votes should be given freely on merit.",
-   "working": "1 mark for each point."
-  },
-  {
-   "topic": "5.4",
-   "q": "Describe how a losing candidate should behave and why.",
-   "marks": 3,
-   "answer": "Accept the result peacefully, congratulate the winner and offer to help. This keeps peace and shows respect for democracy.",
-   "working": "1 mark for each point."
-  },
-  {
-   "topic": "5.4",
-   "q": "Explain three elements of democracy and give an example of each in school.",
-   "marks": 5,
-   "answer": "Equality: one vote each. Freedom of expression: giving opinions in class. Majority rule: choosing a game by most votes. Award marks for each element and example.",
-   "working": "1 mark for each correct element with example, up to 5."
-  },
-  {
-   "topic": "5.5",
-   "q": "Explain what a Children's Government is.",
-   "marks": 2,
-   "answer": "It is a group of pupils elected by their classmates to help run the school and speak for pupils, guided by a teacher.",
-   "working": "1 mark for elected pupils, 1 mark for helping and speaking for pupils."
-  },
-  {
-   "topic": "5.5",
-   "q": "Name four members of a typical Children's Government.",
-   "marks": 4,
-   "answer": "President, deputy president, Speaker, and class representatives. Accept cabinet members or secretary.",
-   "working": "1 mark for each member."
-  },
-  {
-   "topic": "5.5",
-   "q": "State three functions of the Children's Government.",
-   "marks": 3,
-   "answer": "Represent pupils, help keep order, and promote cleanliness. Accept organising activities.",
-   "working": "1 mark for each function."
-  },
-  {
-   "topic": "5.5",
-   "q": "Explain why a Children's Government should not punish pupils.",
-   "marks": 3,
-   "answer": "Only teachers decide on discipline, pupil leaders may be unfair, and serious problems must be reported to teachers.",
-   "working": "1 mark for each point."
-  },
-  {
-   "topic": "5.5",
-   "q": "Describe how an ordinary pupil can support the Children's Government.",
-   "marks": 3,
-   "answer": "Vote for leaders, follow fair instructions, and give ideas through the class representative.",
-   "working": "1 mark for each point."
-  },
-  {
-   "topic": "5.5",
-   "q": "List the five items on the sample agenda for a Children's Government meeting.",
-   "marks": 5,
-   "answer": "Opening, reading the last minutes, reports from cabinet members, suggestions from classes, and closing remarks.",
-   "working": "1 mark for each item."
-  },
-  {
-   "topic": "5.5",
-   "q": "Explain how a class representative helps classmates.",
-   "marks": 3,
-   "answer": "They bring classmates' ideas and complaints to meetings, tell the class what was decided, and help solve small problems.",
-   "working": "1 mark for each point."
-  },
-  {
-   "topic": "5.5",
-   "q": "Give four qualities of a good pupil leader.",
-   "marks": 4,
-   "answer": "Honest, fair, responsible and a good listener. Accept humble or hard working.",
-   "working": "1 mark for each quality."
-  },
-  {
-   "topic": "5.5",
-   "q": "Explain why it is important to have a Children's Government in school.",
-   "marks": 4,
-   "answer": "It gives pupils a voice, teaches leadership, helps teachers with order and cleanliness, and teaches democracy.",
-   "working": "1 mark for each reason."
-  },
-  {
-   "topic": "5.6",
-   "q": "Name three kinds of community leaders.",
-   "marks": 3,
-   "answer": "Religious leaders, clan elders and village elders. Accept chiefs.",
-   "working": "1 mark for each kind."
-  },
-  {
-   "topic": "5.6",
-   "q": "State three duties of clan elders.",
-   "marks": 3,
-   "answer": "Keep customs, settle disputes and advise at ceremonies.",
-   "working": "1 mark for each duty."
-  },
-  {
-   "topic": "5.6",
-   "q": "State three duties of a village elder.",
-   "marks": 3,
-   "answer": "Welcome visitors, settle small quarrels and call meetings. Accept reporting problems.",
-   "working": "1 mark for each duty."
-  },
-  {
-   "topic": "5.6",
-   "q": "Give four duties of a religious leader.",
-   "marks": 4,
-   "answer": "Lead prayers, teach values, counsel people and visit the sick. Accept conducting weddings or funerals.",
-   "working": "1 mark for each duty."
-  },
-  {
-   "topic": "5.6",
-   "q": "Give three qualities of a good leader and explain why each matters.",
-   "marks": 3,
-   "answer": "Honesty so people trust the leader, fairness so all are treated equally, and listening so decisions are wise.",
-   "working": "1 mark for each quality with reason."
-  },
-  {
    "topic": "5.6",
    "q": "Explain how a village elder can help two neighbours who quarrel about a fence.",
    "marks": 4,
@@ -1254,6 +1114,174 @@
    "marks": 5,
    "answer": "To make sure county money is used honestly, to prevent misuse of power, to make sure services reach people, to protect citizens' interests, and to keep the governor accountable.",
    "working": "1 mark for each valid reason."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is a compass used for?",
+   "marks": 2,
+   "answer": "A compass is used to find direction. Its needle points to north.",
+   "working": "1 mark for finding direction, 1 mark for the needle pointing north."
+  },
+  {
+   "topic": "1.2",
+   "q": "State two things a good map key should show.",
+   "marks": 2,
+   "answer": "The meaning of the colours and the meaning of the lines or symbols used on the map.",
+   "working": "1 mark for each correct item."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is the difference between a lake and a river?",
+   "marks": 2,
+   "answer": "A lake is a large area of water with land around it. A river is water flowing along a channel to a lake or ocean.",
+   "working": "1 mark for each correct description."
+  },
+  {
+   "topic": "1.3",
+   "q": "Name two water features found in Kenya.",
+   "marks": 2,
+   "answer": "Lake Victoria and the Tana River. Accept Lake Turkana, Lake Naivasha or the Indian Ocean.",
+   "working": "1 mark for each correct feature."
+  },
+  {
+   "topic": "1.4",
+   "q": "Give two reasons why farmers plant crops at the start of the rainy season.",
+   "marks": 2,
+   "answer": "The rain gives the seeds water to grow, and the wet soil is soft to dig.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "1.4",
+   "q": "Why should you never shelter under a tall tree during a thunderstorm?",
+   "marks": 2,
+   "answer": "Lightning can strike tall trees. It is safer to go into a strong building.",
+   "working": "1 mark for the danger, 1 mark for a safer choice."
+  },
+  {
+   "topic": "1.5",
+   "q": "Name two historic places in Kenya and the town or county where each is found.",
+   "marks": 2,
+   "answer": "Fort Jesus in Mombasa and Thimlich Ohinga in Migori County. Accept Lamu Old Town or Gede Ruins.",
+   "working": "1 mark for each correct place with its location."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why do people trade?",
+   "marks": 2,
+   "answer": "People trade to get the goods they need but cannot make, and to earn money from the goods they produce.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is meant by a densely populated area?",
+   "marks": 2,
+   "answer": "An area where many people live close together.",
+   "working": "1 mark for many people, 1 mark for close together."
+  },
+  {
+   "topic": "3.1",
+   "q": "Name two artefacts made by communities in Kenya.",
+   "marks": 2,
+   "answer": "A kiondo basket and a soapstone carving. Accept clay pots, beaded jewellery or wooden stools.",
+   "working": "1 mark for each artefact."
+  },
+  {
+   "topic": "3.2",
+   "q": "What is a school motto?",
+   "marks": 2,
+   "answer": "A motto is a short sentence that shows what a school stands for or hopes to achieve.",
+   "working": "1 mark for short sentence, 1 mark for showing what the school stands for."
+  },
+  {
+   "topic": "3.2",
+   "q": "Give two reasons why we obey school rules.",
+   "marks": 2,
+   "answer": "Rules keep everyone safe and they help everyone to learn.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "4.1",
+   "q": "Give two examples of natural resources.",
+   "marks": 2,
+   "answer": "Water and soil. Accept forests, minerals, wildlife or fish.",
+   "working": "1 mark for each example."
+  },
+  {
+   "topic": "4.2",
+   "q": "Explain what a raw material is and give one example.",
+   "marks": 2,
+   "answer": "A raw material is a material used to make something new, for example sugarcane used to make sugar.",
+   "working": "1 mark for meaning, 1 mark for example."
+  },
+  {
+   "topic": "4.3",
+   "q": "How do you calculate profit?",
+   "marks": 2,
+   "answer": "Profit is found by subtracting the costs from the income.",
+   "working": "1 mark for subtracting, 1 mark for costs from income."
+  },
+  {
+   "topic": "5.1",
+   "q": "Name two duties of a pupil in school.",
+   "marks": 2,
+   "answer": "Follow the school rules and respect others. Accept care for property or do class duties.",
+   "working": "1 mark for each duty."
+  },
+  {
+   "topic": "5.2",
+   "q": "What does the Kiswahili word amani mean and why is it important in a school?",
+   "marks": 2,
+   "answer": "Amani means peace. It is important because pupils feel safe and can learn well.",
+   "working": "1 mark for the meaning, 1 mark for the reason."
+  },
+  {
+   "topic": "5.3",
+   "q": "Where can a child go for help if they are being harmed?",
+   "marks": 2,
+   "answer": "To a trusted adult such as a parent or teacher, or to the child helpline 116.",
+   "working": "1 mark for each correct source of help."
+  },
+  {
+   "topic": "5.4",
+   "q": "What is a majority?",
+   "marks": 2,
+   "answer": "The larger number of votes, more than any other choice.",
+   "working": "1 mark for larger number, 1 mark for votes."
+  },
+  {
+   "topic": "5.5",
+   "q": "Who is the patron of a Children's Government?",
+   "marks": 2,
+   "answer": "The patron is a teacher who guides and advises the pupil leaders.",
+   "working": "1 mark for a teacher, 1 mark for guides the pupil leaders."
+  },
+  {
+   "topic": "5.6",
+   "q": "Who is a clan elder?",
+   "marks": 2,
+   "answer": "A clan elder is an older respected member of a clan who leads it and keeps its customs.",
+   "working": "1 mark for respected older member, 1 mark for leading or keeping customs."
+  },
+  {
+   "topic": "5.7",
+   "q": "What is a county assembly?",
+   "marks": 2,
+   "answer": "The county assembly is the group of elected members (MCAs) that makes laws for the county.",
+   "working": "1 mark for group of MCAs, 1 mark for making county laws."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write a short motto for a school and say what it means.",
+   "marks": 3,
+   "answer": "For example: Work hard, be kind. It means pupils should study well and be kind to others.",
+   "working": "1 mark for a short motto, 1 mark for its meaning, 1 mark for showing action."
+  },
+  {
+   "topic": "3.2",
+   "q": "Describe how you would prepare a poster on the school values.",
+   "marks": 4,
+   "answer": "Choose the values, write a large title, draw a picture for each value, and use bright colours that can be seen from far.",
+   "working": "1 mark for each step."
   }
  ]
 }

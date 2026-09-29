@@ -626,7 +626,7 @@
   },
   {
    "topic": "4.1",
-   "q": "Which of these is a service?",
+   "q": "Which of these economic activities is a service?",
    "options": [
     "A crop of maize",
     "A fish",
@@ -1047,76 +1047,6 @@
  ],
  "short": [
   {
-   "topic": "3.1",
-   "q": "Explain why some cultural practices are no longer kept.",
-   "marks": 3,
-   "answer": "Some practices harm people, such as female genital mutilation and early marriage. The law forbids them. We keep the good parts and leave out the harmful ones.",
-   "working": "1 mark for harm, 1 mark for law, 1 mark for keeping good parts."
-  },
-  {
-   "topic": "3.1",
-   "q": "Describe the houses of two communities in Kenya.",
-   "marks": 4,
-   "answer": "The Maasai build low houses of wooden frames covered with mud and dung inside a fence called a manyatta. Old coastal houses in Lamu were built of coral stone with carved doors.",
-   "working": "1 mark for each community and 1 mark for each description."
-  },
-  {
-   "topic": "3.1",
-   "q": "Give three examples of artefacts and say how each is used.",
-   "marks": 3,
-   "answer": "A clay pot for cooking or storing water, a basket for carrying items, and a stool for sitting. Accept other correct examples.",
-   "working": "1 mark for each correct artefact with use."
-  },
-  {
-   "topic": "3.1",
-   "q": "Describe how to interview an elder about traditional culture politely.",
-   "marks": 4,
-   "answer": "Greet the elder respectfully, ask permission before recording or taking photographs, listen without interrupting, and say thank you.",
-   "working": "1 mark for each correct step."
-  },
-  {
-   "topic": "3.1",
-   "q": "Explain the difference between a ceremony and a festival and give one example of each.",
-   "marks": 4,
-   "answer": "A ceremony marks a special event in life, such as a wedding. A festival is a big celebration with many people, such as the Lamu Cultural Festival.",
-   "working": "1 mark for each meaning and 1 mark for each example."
-  },
-  {
-   "topic": "3.1",
-   "q": "Plan a class culture day. State five things you would include.",
-   "marks": 5,
-   "answer": "Traditional dress, foods to taste, songs and dances, artefacts on display, and stories told by elders.",
-   "working": "1 mark for each correct item."
-  },
-  {
-   "topic": "3.2",
-   "q": "List four questions you could ask to find out the history of your school.",
-   "marks": 4,
-   "answer": "When was the school started? Who started it? Who was the first headteacher? How has the school changed?",
-   "working": "1 mark for each relevant question."
-  },
-  {
-   "topic": "3.2",
-   "q": "Name two places where you can find information about your school's history.",
-   "marks": 2,
-   "answer": "The headteacher or teachers, and the school records or log book. Accept old photographs or elders.",
-   "working": "1 mark for each source."
-  },
-  {
-   "topic": "3.2",
-   "q": "Give three school values and say why each is important.",
-   "marks": 3,
-   "answer": "Honesty helps us to be trusted. Respect keeps peace. Responsibility helps us to do our duties. Accept other valid values.",
-   "working": "1 mark for each value with a reason."
-  },
-  {
-   "topic": "3.2",
-   "q": "Write a short motto and explain what it asks pupils to do.",
-   "marks": 3,
-   "answer": "For example: Work hard, be kind. It asks pupils to study well and treat others with kindness.",
-   "working": "1 mark for a short motto, 1 mark for meaning, 1 mark for showing action."
-  },
-  {
    "topic": "3.2",
    "q": "Explain why discipline is important in school.",
    "marks": 3,
@@ -1297,6 +1227,111 @@
    "marks": 4,
    "answer": "Project manager leads the team, treasurer keeps money records, production team makes the goods, sales team sells the goods.",
    "working": "1 mark for each role and duty pair."
+  },
+  {
+   "topic": "4.3",
+   "q": "Give three ethical practices in managing a school enterprise.",
+   "marks": 3,
+   "answer": "Be honest with money and customers, be fair in sharing work and rewards, and care for the environment.",
+   "working": "1 mark for each practice."
+  },
+  {
+   "topic": "4.3",
+   "q": "Explain why it is important to keep records of income and costs.",
+   "marks": 3,
+   "answer": "To know whether there is profit or loss, to show honesty, and to plan better next time.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "4.3",
+   "q": "Describe how you would design a safety bib for pupils who walk to school.",
+   "marks": 4,
+   "answer": "Use bright cloth, cut it in a vest shape with a head opening, fix reflective strips across the front and back, and test that it is easy to wear and seen from far.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "4.3",
+   "q": "A group spent Ksh 900 and earned Ksh 600. Say whether this is a profit or a loss and find the amount. Suggest two reasons why it may have happened.",
+   "marks": 4,
+   "answer": "It is a loss of Ksh 300. Sales may have been low because the price was too high or not enough people knew about the goods.",
+   "working": "1 mark for loss, 1 mark for the amount 900 - 600 = 300, 1 mark for each reason."
+  },
+  {
+   "topic": "4.3",
+   "q": "Describe how your class could showcase its school enterprise project.",
+   "marks": 5,
+   "answer": "Set up a stall with the goods, display a poster, show records of costs and income, explain each team member's role, and let visitors ask questions and give feedback.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain the meaning of a good citizen in school.",
+   "marks": 2,
+   "answer": "A good citizen in school follows the rules, respects others and does what is good for the whole school community.",
+   "working": "1 mark for rules/respect, 1 mark for the community idea."
+  },
+  {
+   "topic": "5.1",
+   "q": "State three qualities of a good citizen in school and give an example for each.",
+   "marks": 3,
+   "answer": "Honesty: returning lost items. Respect: greeting teachers. Responsibility: doing class duties.",
+   "working": "1 mark for each quality with example."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain three rules of good digital citizenship.",
+   "marks": 3,
+   "answer": "Ask an adult before going online, do not share private information, and be kind and never bully online.",
+   "working": "1 mark for each rule."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain the difference between a right and a duty and give one example of each in school.",
+   "marks": 4,
+   "answer": "A right is something you are allowed, such as learning in a safe place. A duty is something you must do, such as following the rules.",
+   "working": "1 mark for each meaning and 1 mark for each example."
+  },
+  {
+   "topic": "5.1",
+   "q": "Describe how a pupil can help a new pupil to settle in.",
+   "marks": 3,
+   "answer": "Welcome the pupil, show the classrooms and toilets, and invite the pupil to play.",
+   "working": "1 mark for each way."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain why we should be honest even when nobody is watching.",
+   "marks": 3,
+   "answer": "Honesty builds trust, it is right, and it prepares us to be good citizens.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "5.1",
+   "q": "Describe four steps to develop a good quality such as punctuality.",
+   "marks": 4,
+   "answer": "Choose the quality, set a small goal, practise every day, and ask a friend to encourage you.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain how good citizenship in school prepares pupils to be good citizens of Kenya.",
+   "marks": 4,
+   "answer": "Pupils learn to follow rules, respect others, take care of public property and take responsibility. These habits continue when they are adults.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "5.1",
+   "q": "Describe five actions that show good citizenship in school.",
+   "marks": 5,
+   "answer": "Arrive on time, keep the compound clean, respect teachers, share with others, and report bullying.",
+   "working": "1 mark for each action."
+  },
+  {
+   "topic": "5.2",
+   "q": "Explain what peace means in a school.",
+   "marks": 2,
+   "answer": "Peace means pupils and teachers live together safely, respect each other and settle disagreements without fighting.",
+   "working": "1 mark for safety and respect, 1 mark for solving conflict peacefully."
   }
  ]
 }
