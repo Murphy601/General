@@ -1,0 +1,696 @@
+{
+ "mcq": [
+  {
+   "topic": "3.1",
+   "q": "Which word makes a request polite?",
+   "options": [
+    "now",
+    "hurry",
+    "quick",
+    "please"
+   ],
+   "answer": 3,
+   "explanation": "Please turns an order into a polite request."
+  },
+  {
+   "topic": "3.1",
+   "q": "What do we say when someone thanks us?",
+   "options": [
+    "You are welcome",
+    "Excuse me",
+    "I beg your pardon",
+    "Congratulations"
+   ],
+   "answer": 0,
+   "explanation": "You are welcome is the polite reply."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which phrase do we use to get someone's attention politely?",
+   "options": [
+    "Hey you",
+    "Excuse me",
+    "Give me",
+    "Move away"
+   ],
+   "answer": 1,
+   "explanation": "Excuse me is polite."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which is a minimal pair for /p/ and /b/?",
+   "options": [
+    "pen, pain",
+    "wet, wait",
+    "pig, big",
+    "men, main"
+   ],
+   "answer": 2,
+   "explanation": "Pig and big differ only in the first sound."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which word has the vowel /eɪ/?",
+   "options": [
+    "wet",
+    "pen",
+    "bed",
+    "wait"
+   ],
+   "answer": 3,
+   "explanation": "Wait has /eɪ/, but wet, pen and bed have /e/."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which word has the vowel /e/?",
+   "options": [
+    "bed",
+    "day",
+    "pain",
+    "late"
+   ],
+   "answer": 0,
+   "explanation": "Bed has the short vowel /e/."
+  },
+  {
+   "topic": "3.1",
+   "q": "What do we say when a friend wins a prize?",
+   "options": [
+    "I beg your pardon",
+    "Congratulations",
+    "Excuse me",
+    "Good night"
+   ],
+   "answer": 1,
+   "explanation": "Congratulations shows we are happy for someone."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which is the more polite request?",
+   "options": [
+    "Give me your pen.",
+    "Pen now.",
+    "May I borrow your pen, please?",
+    "I want the pen."
+   ],
+   "answer": 2,
+   "explanation": "It uses may I and please."
+  },
+  {
+   "topic": "3.1",
+   "q": "When do we say 'I beg your pardon'?",
+   "options": [
+    "When we say goodbye",
+    "When we win",
+    "When we are hungry",
+    "When we did not hear or we need to say sorry"
+   ],
+   "answer": 3,
+   "explanation": "It asks a person to repeat or says sorry."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which is a greeting for the afternoon?",
+   "options": [
+    "Good afternoon",
+    "Good morning",
+    "Good night",
+    "Good luck"
+   ],
+   "answer": 0,
+   "explanation": "Good afternoon is used after midday."
+  },
+  {
+   "topic": "3.1",
+   "q": "/p/ is a whispered sound. /b/ is",
+   "options": [
+    "also whispered",
+    "voiced, with a buzz",
+    "silent",
+    "a vowel"
+   ],
+   "answer": 1,
+   "explanation": "The difference between p and b is the voice."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which pair is a minimal pair for /e/ and /eɪ/?",
+   "options": [
+    "pin, bin",
+    "pat, bat",
+    "let, late",
+    "ten, den"
+   ],
+   "answer": 2,
+   "explanation": "Let and late differ in the vowel sound."
+  },
+  {
+   "topic": "3.2",
+   "q": "To scan a text means to",
+   "options": [
+    "read every word slowly",
+    "copy the text",
+    "draw pictures",
+    "look quickly for one fact"
+   ],
+   "answer": 3,
+   "explanation": "Scanning is used to find a name, number or word."
+  },
+  {
+   "topic": "3.2",
+   "q": "To skim a text means to",
+   "options": [
+    "read quickly to get the main idea",
+    "look for one word only",
+    "copy it",
+    "memorise it"
+   ],
+   "answer": 0,
+   "explanation": "Skimming gives you the general idea."
+  },
+  {
+   "topic": "3.2",
+   "q": "A factual question has an answer that",
+   "options": [
+    "you invent",
+    "is stated in the text",
+    "is not in the text",
+    "is a joke"
+   ],
+   "answer": 1,
+   "explanation": "Factual answers can be found in the words of the passage."
+  },
+  {
+   "topic": "3.2",
+   "q": "An inferential question needs you to",
+   "options": [
+    "copy a sentence",
+    "guess without reading",
+    "use clues and think",
+    "skip the text"
+   ],
+   "answer": 2,
+   "explanation": "Inference means working out the answer from clues."
+  },
+  {
+   "topic": "3.2",
+   "q": "In 'The Purse in the Market', what did Neema do with the purse?",
+   "options": [
+    "She kept it",
+    "She threw it away",
+    "She sold it",
+    "She returned it to its owner"
+   ],
+   "answer": 3,
+   "explanation": "Neema found the woman and returned the purse."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which word best describes Neema in the passage?",
+   "options": [
+    "honest",
+    "greedy",
+    "rude",
+    "lazy"
+   ],
+   "answer": 0,
+   "explanation": "She returned the purse and refused a reward."
+  },
+  {
+   "topic": "3.2",
+   "q": "'She sighed with relief' means she",
+   "options": [
+    "was very angry",
+    "was happy that a worry was over",
+    "was very tired",
+    "was afraid"
+   ],
+   "answer": 1,
+   "explanation": "Relief is the feeling when a worry ends."
+  },
+  {
+   "topic": "3.2",
+   "q": "What is a good way to find the meaning of an unknown word in a passage?",
+   "options": [
+    "Skip the passage",
+    "Guess without reading",
+    "Read the sentences around it for clues",
+    "Ask a stranger"
+   ],
+   "answer": 2,
+   "explanation": "Context clues help you understand new words."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which is the best first step before answering a question on a passage?",
+   "options": [
+    "Write the answer immediately",
+    "Close the book",
+    "Copy the passage",
+    "Read the question and find key words"
+   ],
+   "answer": 3,
+   "explanation": "Key words tell you what to look for in the text."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why did the woman say Neema's mother had taught her good manners?",
+   "options": [
+    "Because Neema spoke and acted politely",
+    "Because Neema was rich",
+    "Because Neema was tall",
+    "Because Neema was late"
+   ],
+   "answer": 0,
+   "explanation": "Her actions showed good manners."
+  },
+  {
+   "topic": "3.2",
+   "q": "We answer comprehension questions best in",
+   "options": [
+    "one letter",
+    "full sentences",
+    "numbers only",
+    "drawings only"
+   ],
+   "answer": 1,
+   "explanation": "Full sentences show that we understand."
+  },
+  {
+   "topic": "3.2",
+   "q": "Reading a text again more slowly to understand it well is called",
+   "options": [
+    "silent singing",
+    "scanning",
+    "intensive reading",
+    "copying"
+   ],
+   "answer": 2,
+   "explanation": "Intensive reading means careful, slow reading."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which sentence is correct?",
+   "options": [
+    "We have chairs enough to sit on.",
+    "We have enough chair to sit on.",
+    "We have enough chairs for sit.",
+    "We have enough chairs to sit on."
+   ],
+   "answer": 3,
+   "explanation": "The pattern is enough + noun + to + verb."
+  },
+  {
+   "topic": "3.3",
+   "q": "In the pattern 'enough + noun + to + verb', the word after 'to' is a",
+   "options": [
+    "verb",
+    "noun",
+    "adjective",
+    "name"
+   ],
+   "answer": 0,
+   "explanation": "To is followed by a verb such as sit or eat."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which sentence uses 'a lot of' correctly?",
+   "options": [
+    "There are a lot children in the yard.",
+    "There are a lot of children in the yard.",
+    "There are lot of children in the yard.",
+    "There are alot of children in the yard."
+   ],
+   "answer": 1,
+   "explanation": "A lot of is written as three words and is followed by a noun."
+  },
+  {
+   "topic": "3.3",
+   "q": "'She reads a lot.' Here 'a lot' means",
+   "options": [
+    "never",
+    "only one book",
+    "often or much",
+    "a place"
+   ],
+   "answer": 2,
+   "explanation": "A lot at the end of a sentence tells how much or how often."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which is correct?",
+   "options": [
+    "There is water enough to drink.",
+    "There is enough water for drink.",
+    "There enough is water to drink.",
+    "There is enough water to drink."
+   ],
+   "answer": 3,
+   "explanation": "Enough comes before the noun."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which is a negative sentence?",
+   "options": [
+    "I do not have enough money to buy a bicycle.",
+    "I have enough money.",
+    "Money is for buying.",
+    "I bought a bicycle."
+   ],
+   "answer": 0,
+   "explanation": "It says that the money is not sufficient."
+  },
+  {
+   "topic": "3.3",
+   "q": "'He is old enough to ride a bicycle.' Here enough comes",
+   "options": [
+    "before the noun",
+    "after the adjective",
+    "at the end",
+    "before the verb"
+   ],
+   "answer": 1,
+   "explanation": "With adjectives, enough comes after the adjective."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which is correct spelling?",
+   "options": [
+    "alot of",
+    "a lott of",
+    "a lot of",
+    "allot of"
+   ],
+   "answer": 2,
+   "explanation": "A lot is two words."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which sentence has a lot of a noun we cannot count?",
+   "options": [
+    "We have a lot of cows.",
+    "We have a lot of chairs.",
+    "We have a lot of pupils.",
+    "We have a lot of rain in April."
+   ],
+   "answer": 3,
+   "explanation": "Rain cannot be counted."
+  },
+  {
+   "topic": "3.3",
+   "q": "Complete: 'Mother bought enough flour ___ chapati.'",
+   "options": [
+    "to make",
+    "for make",
+    "making",
+    "by make"
+   ],
+   "answer": 0,
+   "explanation": "Use to + verb."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which question uses the pattern correctly?",
+   "options": [
+    "Do we enough have chairs to seat the guests?",
+    "Do we have enough chairs to seat the guests?",
+    "Have we chairs enough to seat guests?",
+    "Enough chairs do we to seat the guests?"
+   ],
+   "answer": 1,
+   "explanation": "Enough comes before the noun chairs."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which letter is a tail letter?",
+   "options": [
+    "m",
+    "t",
+    "g",
+    "o"
+   ],
+   "answer": 2,
+   "explanation": "G hangs below the line."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which letter is a tall letter?",
+   "options": [
+    "a",
+    "e",
+    "n",
+    "h"
+   ],
+   "answer": 3,
+   "explanation": "H reaches the top line."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which letter is silent in 'knife'?",
+   "options": [
+    "k",
+    "n",
+    "f",
+    "e"
+   ],
+   "answer": 0,
+   "explanation": "We say nife, so the k is silent."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which letter is silent in 'write'?",
+   "options": [
+    "r",
+    "w",
+    "i",
+    "t"
+   ],
+   "answer": 1,
+   "explanation": "We say rite, so the w is silent."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which word has a silent b?",
+   "options": [
+    "bat",
+    "table",
+    "lamb",
+    "ribbon"
+   ],
+   "answer": 2,
+   "explanation": "In lamb the b is not pronounced."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which word has a double consonant?",
+   "options": [
+    "stop",
+    "play",
+    "drink",
+    "dinner"
+   ],
+   "answer": 3,
+   "explanation": "Dinner has double n."
+  },
+  {
+   "topic": "3.4",
+   "q": "What should you use first when learning neat print script?",
+   "options": [
+    "A pencil",
+    "A felt pen",
+    "A marker",
+    "A brush"
+   ],
+   "answer": 0,
+   "explanation": "A pencil allows you to rub out mistakes."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which describes the letter b?",
+   "options": [
+    "A round part with the stick on its right",
+    "A stick with the round part on its right",
+    "A stick that goes below the line",
+    "A dot only"
+   ],
+   "answer": 1,
+   "explanation": "For b the stick is on the left and the round part on the right."
+  },
+  {
+   "topic": "3.4",
+   "q": "Why should there be a gap between words?",
+   "options": [
+    "To use more paper",
+    "To hide mistakes",
+    "So that the words are easy to read",
+    "To make the page dirty"
+   ],
+   "answer": 2,
+   "explanation": "Gaps make the writing legible."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which word has a silent h at the start?",
+   "options": [
+    "hand",
+    "house",
+    "hen",
+    "hour"
+   ],
+   "answer": 3,
+   "explanation": "Hour begins with a vowel sound, so the h is silent."
+  },
+  {
+   "topic": "3.4",
+   "q": "Which word contains the blend 'tr'?",
+   "options": [
+    "train",
+    "snake",
+    "clap",
+    "flag"
+   ],
+   "answer": 0,
+   "explanation": "Train begins with t and r."
+  },
+  {
+   "topic": "3.4",
+   "q": "In 'listen', the silent letter is",
+   "options": [
+    "l",
+    "t",
+    "s",
+    "n"
+   ],
+   "answer": 1,
+   "explanation": "We say lisn, so the t is silent."
+  }
+ ],
+ "short": [
+  {
+   "topic": "3.1",
+   "q": "Write a polite request to borrow a ruler from a classmate.",
+   "marks": 2,
+   "answer": "May I borrow your ruler, please?",
+   "working": "1 mark for may I and 1 mark for please."
+  },
+  {
+   "topic": "3.1",
+   "q": "Write two minimal pairs for /p/ and /b/.",
+   "marks": 2,
+   "answer": "For example: pin, bin and pat, bat.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.1",
+   "q": "Name three polite words or phrases and say when each is used.",
+   "marks": 3,
+   "answer": "Please: when asking. Thank you: when someone helps. Sorry: when we make a mistake.",
+   "working": "1 mark for each phrase with its use."
+  },
+  {
+   "topic": "3.1",
+   "q": "Why is it important to use polite words? Give two reasons.",
+   "marks": 4,
+   "answer": "Polite words show respect and make people feel welcome. They help people to cooperate and be friendly.",
+   "working": "2 marks for each reason."
+  },
+  {
+   "topic": "3.1",
+   "q": "Write a short dialogue of four lines in which you borrow a book from a friend politely.",
+   "marks": 4,
+   "answer": "A: Good morning, Ali. B: Good morning. A: May I borrow your book, please? B: Yes, here you are. A: Thank you.",
+   "working": "1 mark each for greeting, request, answer and thanks."
+  },
+  {
+   "topic": "3.2",
+   "q": "State the difference between a factual question and an inferential question.",
+   "marks": 2,
+   "answer": "A factual question has an answer stated in the text. An inferential question needs you to use clues and think.",
+   "working": "1 mark for each type."
+  },
+  {
+   "topic": "3.2",
+   "q": "In the passage 'The Purse in the Market', what did the purse contain?",
+   "marks": 2,
+   "answer": "It had some coins and a card with the name Mrs Achieng Odhiambo.",
+   "working": "1 mark for the coins and 1 mark for the card."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain what we learn from the story about honesty.",
+   "marks": 3,
+   "answer": "Honesty means returning what belongs to others. Neema returned the purse and refused a reward, and her mother said honesty is a great treasure.",
+   "working": "1 mark for meaning, 1 mark for the example, 1 mark for the message."
+  },
+  {
+   "topic": "3.2",
+   "q": "Describe how to skim and how to scan a passage.",
+   "marks": 4,
+   "answer": "To skim, look at the title, pictures and the first sentence of each paragraph to get the main idea. To scan, look quickly for key words to find a particular fact.",
+   "working": "2 marks for skimming and 2 marks for scanning."
+  },
+  {
+   "topic": "3.3",
+   "q": "Complete the sentences: (a) We have enough plates ___ (eat) the meal. (b) There is enough rice ___ (feed) the guests.",
+   "marks": 2,
+   "answer": "(a) to eat (b) to feed",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Correct these sentences: (a) 'I have money enough to buy bread.' (b) 'She has alot of friends.'",
+   "marks": 2,
+   "answer": "(a) I have enough money to buy bread. (b) She has a lot of friends.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write one sentence with 'enough ... to' and one with 'a lot of' about your school.",
+   "marks": 3,
+   "answer": "We have enough desks to seat every learner. The school has a lot of trees.",
+   "working": "1 mark for each pattern and 1 mark for correct punctuation."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain the difference in position of 'enough' with a noun and with an adjective. Give an example of each.",
+   "marks": 4,
+   "answer": "With a noun, enough comes before it: enough food. With an adjective, enough comes after it: tall enough.",
+   "working": "1 mark for each position and 1 mark for each example."
+  },
+  {
+   "topic": "3.4",
+   "q": "Write three tall letters and three tail letters.",
+   "marks": 3,
+   "answer": "Tall: b, d, h (or f, k, l, t). Tail: g, p, y (or j, q).",
+   "working": "1 mark for each set, up to 3, with a mark for correctness."
+  },
+  {
+   "topic": "3.4",
+   "q": "Copy in neat print: 'Please listen carefully.' Circle the silent letter.",
+   "marks": 2,
+   "answer": "Please listen carefully. (silent t in listen)",
+   "working": "1 mark for neat copying and 1 mark for identifying t."
+  },
+  {
+   "topic": "3.4",
+   "q": "List three things that make handwriting legible.",
+   "marks": 3,
+   "answer": "Letters of the correct size, letters sitting on the line, even gaps between letters and words, correct spelling.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.4",
+   "q": "Explain how you can tell b from d when you write.",
+   "marks": 2,
+   "answer": "b: stick first then the round part on the right. d: round part first then the stick on the right.",
+   "working": "1 mark for each letter."
+  },
+  {
+   "topic": "3.4",
+   "q": "Write four words with double consonants and four words with blends.",
+   "marks": 4,
+   "answer": "Double: letter, dinner, apple, bottle. Blends: train, snake, clap, flag.",
+   "working": "1 mark for each correct group of two words, up to 4."
+  }
+ ]
+}

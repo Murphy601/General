@@ -1,0 +1,734 @@
+{
+ "mcq": [
+  {
+   "topic": "4.1",
+   "q": "In the word 'hospital', which syllable is stressed?",
+   "options": [
+    "The second",
+    "The third",
+    "The first",
+    "None"
+   ],
+   "answer": 2,
+   "explanation": "We say HOS-pi-tal."
+  },
+  {
+   "topic": "4.1",
+   "q": "In the word 'emergency', which syllable is stressed?",
+   "options": [
+    "The first",
+    "The third",
+    "The fourth",
+    "The second"
+   ],
+   "answer": 3,
+   "explanation": "We say e-MER-gen-cy."
+  },
+  {
+   "topic": "4.1",
+   "q": "In 'bandage', the stress is on",
+   "options": [
+    "the first syllable",
+    "the second syllable",
+    "both syllables",
+    "neither"
+   ],
+   "answer": 0,
+   "explanation": "We say BAN-dage."
+  },
+  {
+   "topic": "4.1",
+   "q": "The noun 'present' (a gift) is stressed on",
+   "options": [
+    "the second syllable",
+    "the first syllable",
+    "the last letter",
+    "no syllable"
+   ],
+   "answer": 1,
+   "explanation": "The noun is PRE-sent and the verb is pre-SENT."
+  },
+  {
+   "topic": "4.1",
+   "q": "The verb 'record' (to make a record) is stressed on",
+   "options": [
+    "the first syllable",
+    "both",
+    "the second syllable",
+    "neither"
+   ],
+   "answer": 2,
+   "explanation": "The verb is re-CORD."
+  },
+  {
+   "topic": "4.1",
+   "q": "First aid is",
+   "options": [
+    "the last help",
+    "a kind of food",
+    "a road sign",
+    "the first help given to a person who is hurt or ill"
+   ],
+   "answer": 3,
+   "explanation": "First aid is given before a doctor takes over."
+  },
+  {
+   "topic": "4.1",
+   "q": "An antiseptic is",
+   "options": [
+    "a liquid or cream that kills germs on a wound",
+    "a strip of cloth",
+    "a road sign",
+    "a kind of bicycle"
+   ],
+   "answer": 0,
+   "explanation": "It cleans wounds by killing germs."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which word has the sound /aɪ/?",
+   "options": [
+    "stop",
+    "bite",
+    "hot",
+    "box"
+   ],
+   "answer": 1,
+   "explanation": "Bite has /aɪ/."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which word has the sound /ɒ/?",
+   "options": [
+    "snake",
+    "pain",
+    "doctor",
+    "bite"
+   ],
+   "answer": 2,
+   "explanation": "Doctor has the short vowel /ɒ/."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which word starts with the cluster 'sn'?",
+   "options": [
+    "treatment",
+    "stop",
+    "stitch",
+    "snake"
+   ],
+   "answer": 3,
+   "explanation": "Snake starts with s and n."
+  },
+  {
+   "topic": "4.1",
+   "q": "An underpass is",
+   "options": [
+    "a path or road that goes under a busy road",
+    "a bridge over a river",
+    "a bicycle",
+    "a kind of train"
+   ],
+   "answer": 0,
+   "explanation": "Pedestrians can walk through it without meeting cars."
+  },
+  {
+   "topic": "4.1",
+   "q": "A roundabout is",
+   "options": [
+    "a straight road",
+    "a circular junction where vehicles go around in one direction",
+    "a railway",
+    "a type of bridge"
+   ],
+   "answer": 1,
+   "explanation": "Traffic moves round a central island."
+  },
+  {
+   "topic": "4.1",
+   "q": "What does 'bleed' mean?",
+   "options": [
+    "To eat too much",
+    "To sleep",
+    "To lose blood from a cut",
+    "To sing"
+   ],
+   "answer": 2,
+   "explanation": "A bleeding wound loses blood."
+  },
+  {
+   "topic": "4.2",
+   "q": "A visual is something we",
+   "options": [
+    "taste",
+    "smell",
+    "hear only",
+    "understand by looking at it"
+   ],
+   "answer": 3,
+   "explanation": "Pictures, signs, maps and videos are visuals."
+  },
+  {
+   "topic": "4.2",
+   "q": "In which direction does the sun rise?",
+   "options": [
+    "East",
+    "West",
+    "North",
+    "South"
+   ],
+   "answer": 0,
+   "explanation": "The sun rises in the east."
+  },
+  {
+   "topic": "4.2",
+   "q": "In which direction does the sun set?",
+   "options": [
+    "East",
+    "West",
+    "North",
+    "South"
+   ],
+   "answer": 1,
+   "explanation": "The sun sets in the west."
+  },
+  {
+   "topic": "4.2",
+   "q": "What does a foot bridge help people to do?",
+   "options": [
+    "Drive fast",
+    "Park cars",
+    "Cross a road safely by walking over it",
+    "Carry luggage"
+   ],
+   "answer": 2,
+   "explanation": "It goes over the road."
+  },
+  {
+   "topic": "4.2",
+   "q": "What should you do at a railway crossing?",
+   "options": [
+    "Run across",
+    "Play on the track",
+    "Ride faster",
+    "Stop, look and listen"
+   ],
+   "answer": 3,
+   "explanation": "Trains cannot stop quickly."
+  },
+  {
+   "topic": "4.2",
+   "q": "On a map, the four main directions are",
+   "options": [
+    "north, south, east and west",
+    "up, down, left and right",
+    "front, back, near and far",
+    "red, blue, green and yellow"
+   ],
+   "answer": 0,
+   "explanation": "These are called the cardinal points."
+  },
+  {
+   "topic": "4.2",
+   "q": "On most maps, north is at the",
+   "options": [
+    "bottom",
+    "top",
+    "left",
+    "right"
+   ],
+   "answer": 1,
+   "explanation": "North is shown at the top of a map."
+  },
+  {
+   "topic": "4.2",
+   "q": "A comic is a story told in",
+   "options": [
+    "a single long word",
+    "a mathematical sum",
+    "a series of small pictures",
+    "a table"
+   ],
+   "answer": 2,
+   "explanation": "Comics use pictures, often with speech bubbles."
+  },
+  {
+   "topic": "4.2",
+   "q": "A caption is",
+   "options": [
+    "a kind of camera",
+    "a colour",
+    "a song",
+    "words that explain a picture"
+   ],
+   "answer": 3,
+   "explanation": "Captions tell us what a picture shows."
+  },
+  {
+   "topic": "4.2",
+   "q": "A red octagon sign with the word STOP tells drivers to",
+   "options": [
+    "stop completely",
+    "go faster",
+    "turn on lights",
+    "park"
+   ],
+   "answer": 0,
+   "explanation": "A stop sign means stop."
+  },
+  {
+   "topic": "4.2",
+   "q": "If you face the rising sun, north is on your",
+   "options": [
+    "right",
+    "left",
+    "back",
+    "front"
+   ],
+   "answer": 1,
+   "explanation": "The sun rises in the east. When you face east, north is on your left."
+  },
+  {
+   "topic": "4.2",
+   "q": "Which visual would help you find a place you have never been to?",
+   "options": [
+    "A joke",
+    "A recipe",
+    "A map",
+    "A poem"
+   ],
+   "answer": 2,
+   "explanation": "A map shows where places are."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which word is a pronoun?",
+   "options": [
+    "quickly",
+    "bridge",
+    "green",
+    "she"
+   ],
+   "answer": 3,
+   "explanation": "She takes the place of a noun."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which pronoun replaces 'Ali and I'?",
+   "options": [
+    "we",
+    "they",
+    "he",
+    "you"
+   ],
+   "answer": 0,
+   "explanation": "We includes the speaker and another person."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which pronoun replaces 'the children'?",
+   "options": [
+    "he",
+    "they",
+    "she",
+    "it"
+   ],
+   "answer": 1,
+   "explanation": "They stands for more than one."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which is an object pronoun?",
+   "options": [
+    "he",
+    "his",
+    "him",
+    "I"
+   ],
+   "answer": 2,
+   "explanation": "Him is the object form of he."
+  },
+  {
+   "topic": "4.3",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "The nurse helped I.",
+    "The nurse helped my.",
+    "The nurse helped mine.",
+    "The nurse helped me."
+   ],
+   "answer": 3,
+   "explanation": "Me is the object form of I."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which is a possessive pronoun?",
+   "options": [
+    "yours",
+    "you",
+    "your",
+    "yourself"
+   ],
+   "answer": 0,
+   "explanation": "Yours stands alone and shows ownership."
+  },
+  {
+   "topic": "4.3",
+   "q": "Complete: 'This bag is mine and that bag is ___.' (belonging to you)",
+   "options": [
+    "your",
+    "yours",
+    "you",
+    "yourself"
+   ],
+   "answer": 1,
+   "explanation": "Yours is the possessive pronoun for you."
+  },
+  {
+   "topic": "4.3",
+   "q": "Complete: 'Give the book to ___.' (Ann and Eve)",
+   "options": [
+    "they",
+    "their",
+    "them",
+    "theirs"
+   ],
+   "answer": 2,
+   "explanation": "Them is the object form of they."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which is correct?",
+   "options": [
+    "Ali and me went to the clinic.",
+    "Me and Ali went to the clinic.",
+    "Ali and myself went to the clinic.",
+    "Ali and I went to the clinic."
+   ],
+   "answer": 3,
+   "explanation": "I is the subject form."
+  },
+  {
+   "topic": "4.3",
+   "q": "Complete: 'That car belongs to my parents. It is ___.'",
+   "options": [
+    "theirs",
+    "their",
+    "them",
+    "they"
+   ],
+   "answer": 0,
+   "explanation": "Theirs shows that the car belongs to them."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which word goes before a noun to show ownership?",
+   "options": [
+    "mine",
+    "my",
+    "yours",
+    "hers"
+   ],
+   "answer": 1,
+   "explanation": "My comes before a noun. Mine stands alone."
+  },
+  {
+   "topic": "4.3",
+   "q": "Which sentence is correct?",
+   "options": [
+    "The house is our's.",
+    "The house is ours'.",
+    "The house is ours.",
+    "The house is ours's."
+   ],
+   "answer": 2,
+   "explanation": "Possessive pronouns are written without an apostrophe."
+  },
+  {
+   "topic": "4.4",
+   "q": "Where does the sender's address go in a friendly letter?",
+   "options": [
+    "At the bottom left",
+    "In the middle",
+    "After the name",
+    "At the top right"
+   ],
+   "answer": 3,
+   "explanation": "Address and date are at the top right."
+  },
+  {
+   "topic": "4.4",
+   "q": "What punctuation mark follows the greeting 'Dear Achieng'?",
+   "options": [
+    "A comma",
+    "A full stop",
+    "A question mark",
+    "A colon"
+   ],
+   "answer": 0,
+   "explanation": "A comma follows the greeting."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which closing is suitable for a friendly letter?",
+   "options": [
+    "Yours faithfully,",
+    "Yours lovingly,",
+    "To whom it may concern,",
+    "Dear Sir,"
+   ],
+   "answer": 1,
+   "explanation": "Yours lovingly is friendly."
+  },
+  {
+   "topic": "4.4",
+   "q": "A friendly letter is written to",
+   "options": [
+    "a stranger only",
+    "the government only",
+    "someone you know well",
+    "nobody"
+   ],
+   "answer": 2,
+   "explanation": "A friendly letter is personal."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which is a part of an SMS?",
+   "options": [
+    "The stamp",
+    "The envelope",
+    "The salutation address",
+    "The message"
+   ],
+   "answer": 3,
+   "explanation": "An SMS has a receiver, a message and a sender."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which is a good rule for writing an SMS?",
+   "options": [
+    "Be polite, short and clear",
+    "Use secret code",
+    "Send it to strangers",
+    "Leave out your name"
+   ],
+   "answer": 0,
+   "explanation": "A good SMS is clear and polite."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which is the correct order for the parts of a friendly letter?",
+   "options": [
+    "Body, greeting, name, date",
+    "Address and date, greeting, body, closing, name",
+    "Name, body, date, greeting",
+    "Closing, address, body, greeting"
+   ],
+   "answer": 1,
+   "explanation": "This is the standard order."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which sentence would be best in the body of a friendly letter?",
+   "options": [
+    "To whom it may concern",
+    "Yours faithfully",
+    "I hope you are well.",
+    "Sincerely, the Manager"
+   ],
+   "answer": 2,
+   "explanation": "It is a warm, friendly opening line."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which is better for sharing a lot of news and feelings?",
+   "options": [
+    "A one-word SMS",
+    "A phone number",
+    "A signature",
+    "A letter"
+   ],
+   "answer": 3,
+   "explanation": "A letter can hold more news."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which date form is correct in a letter?",
+   "options": [
+    "14th May 2026",
+    "May 2026 14th",
+    "2026 May 14",
+    "14 2026 May"
+   ],
+   "answer": 0,
+   "explanation": "The usual order is day, month, year."
+  },
+  {
+   "topic": "4.4",
+   "q": "Why should you use a mobile phone only with permission?",
+   "options": [
+    "Phones are only for adults to own",
+    "It keeps you safe and responsible",
+    "It makes calls cheaper",
+    "It makes the battery last longer"
+   ],
+   "answer": 1,
+   "explanation": "A trusted adult can guide you."
+  },
+  {
+   "topic": "4.4",
+   "q": "Which word begins the greeting in a friendly letter?",
+   "options": [
+    "Sincerely",
+    "Yours",
+    "Dear",
+    "Faithfully"
+   ],
+   "answer": 2,
+   "explanation": "Friendly letters begin with Dear and the name."
+  }
+ ],
+ "short": [
+  {
+   "topic": "4.1",
+   "q": "Explain what word stress is. Give one example.",
+   "marks": 2,
+   "answer": "Word stress is the syllable we say more strongly in a word, for example the first syllable in HOS-pi-tal.",
+   "working": "1 mark for the meaning and 1 mark for the example."
+  },
+  {
+   "topic": "4.1",
+   "q": "Write one sentence using 'present' as a noun and one using 'present' as a verb. Show the stress with capital letters.",
+   "marks": 3,
+   "answer": "My uncle gave me a PRE-sent. I will pre-SENT the prize to the winner.",
+   "working": "1 mark for each correct sentence and 1 mark for correct stress."
+  },
+  {
+   "topic": "4.1",
+   "q": "Write three sentences you would say to report an accident to an adult.",
+   "marks": 3,
+   "answer": "For example: Help! There is an emergency. A boy has fallen and his arm is bleeding. Please bring the first aid kit.",
+   "working": "1 mark for each clear sentence."
+  },
+  {
+   "topic": "4.1",
+   "q": "Explain why it is important to put the stress on the right syllable.",
+   "marks": 2,
+   "answer": "Wrong stress can make a word hard to understand, and it can change the word from a noun to a verb.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "4.1",
+   "q": "Give the meaning of four words from the lesson: injury, treatment, painkiller, poison.",
+   "marks": 4,
+   "answer": "Injury: harm done to the body. Treatment: care given to a sick person. Painkiller: medicine that reduces pain. Poison: something that can make you very ill or kill you.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.2",
+   "q": "Name two visuals you can find in a newspaper.",
+   "marks": 2,
+   "answer": "Any two: photographs, cartoons, maps, charts, advertisements.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.2",
+   "q": "Describe the steps to interpret a picture.",
+   "marks": 3,
+   "answer": "Look at the whole picture, read the caption, notice details and expressions, think what is happening and what will happen next.",
+   "working": "1 mark for each of three steps."
+  },
+  {
+   "topic": "4.2",
+   "q": "Write directions to walk from the school to the market on the map in the lesson.",
+   "marks": 3,
+   "answer": "Walk east to the roundabout, go straight east across the foot bridge and you will reach the market.",
+   "working": "1 mark for east, 1 mark for the roundabout and 1 mark for the foot bridge and market."
+  },
+  {
+   "topic": "4.2",
+   "q": "Why is it important to interpret road signs correctly?",
+   "marks": 2,
+   "answer": "Signs warn us of danger and tell us what to do, so misunderstanding one could cause an accident.",
+   "working": "1 mark for what signs do and 1 mark for the danger of misunderstanding."
+  },
+  {
+   "topic": "4.2",
+   "q": "Write four sentences using north, south, east and west to describe the position of places near your school.",
+   "marks": 4,
+   "answer": "For example: The gate is south of the classroom. The field is east of the gate. The library is west of the field. The road is north of the school.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "4.3",
+   "q": "Replace the second mention with a pronoun: 'Neema saw the bridge. Neema liked the bridge.'",
+   "marks": 2,
+   "answer": "Neema saw the bridge. She liked it.",
+   "working": "1 mark for she and 1 mark for it."
+  },
+  {
+   "topic": "4.3",
+   "q": "Explain the difference between 'my' and 'mine'. Use each in a sentence.",
+   "marks": 3,
+   "answer": "My comes before a noun (This is my bag). Mine stands alone (The bag is mine).",
+   "working": "1 mark for each sentence and 1 mark for the difference."
+  },
+  {
+   "topic": "4.3",
+   "q": "Write the subject and the object forms of: I, he, we, they.",
+   "marks": 2,
+   "answer": "I, me; he, him; we, us; they, them.",
+   "working": "Half a mark for each pair."
+  },
+  {
+   "topic": "4.3",
+   "q": "Write three sentences about a car near a bridge using one subject pronoun, one object pronoun and one possessive pronoun.",
+   "marks": 3,
+   "answer": "It has bright head lights. The bridge protects us. The car is theirs.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.3",
+   "q": "Correct the sentences: (a) 'Him is a driver.' (b) 'Give the pen to she.' (c) 'The bag is mine bag.'",
+   "marks": 3,
+   "answer": "(a) He is a driver. (b) Give the pen to her. (c) The bag is mine. / It is my bag.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.4",
+   "q": "Write the greeting and closing for a friendly letter to your friend Wanjiku.",
+   "marks": 2,
+   "answer": "Dear Wanjiku, ... Yours lovingly, (your name).",
+   "working": "1 mark for the greeting with comma and 1 mark for the closing."
+  },
+  {
+   "topic": "4.4",
+   "q": "List the five parts of a friendly letter.",
+   "marks": 3,
+   "answer": "Address, date, greeting, body, closing and name (address and date may be given together).",
+   "working": "1 mark for address and date, 1 mark for greeting and body, 1 mark for closing and name."
+  },
+  {
+   "topic": "4.4",
+   "q": "Write an SMS inviting a friend to your birthday party on Saturday at 3 o'clock.",
+   "marks": 3,
+   "answer": "Hi Kamau. Please come to my birthday party on Saturday at 3 o'clock at my home. Thank you. Ann.",
+   "working": "1 mark for greeting, 1 for day, time and place, 1 for politeness and name."
+  },
+  {
+   "topic": "4.4",
+   "q": "Give two differences between a friendly letter and an SMS.",
+   "marks": 2,
+   "answer": "A letter is longer and has five parts, but an SMS is short and has a receiver, a message and a sender. A letter is better for news and feelings.",
+   "working": "1 mark for each difference."
+  },
+  {
+   "topic": "4.4",
+   "q": "Write a friendly letter of about five sentences to a friend in another school about new road safety words you learnt.",
+   "marks": 5,
+   "answer": "A letter with address and date, Dear ..., a body that mentions words such as roundabout, foot bridge and railway crossing, a closing and a name.",
+   "working": "1 mark for address and date, 1 for greeting, 1 for body content, 1 for closing and name, 1 for punctuation."
+  }
+ ]
+}

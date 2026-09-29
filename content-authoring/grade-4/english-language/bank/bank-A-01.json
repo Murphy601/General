@@ -1,0 +1,713 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1",
+   "q": "Which word begins with the voiced sound /d/?",
+   "options": [
+    "den",
+    "ten",
+    "fan",
+    "few"
+   ],
+   "answer": 0,
+   "explanation": "Den starts with /d/, which makes your throat buzz. Ten starts with /t/ and fan and few with /f/."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which pair of words is a minimal pair for /f/ and /v/?",
+   "options": [
+    "tin, chin",
+    "fine, vine",
+    "boy, toy",
+    "cat, mat"
+   ],
+   "answer": 1,
+   "explanation": "Fine and vine differ only in the first sound, /f/ and /v/."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which sound is whispered, with no buzz in the throat?",
+   "options": [
+    "/v/",
+    "/d/",
+    "/f/",
+    "/g/"
+   ],
+   "answer": 2,
+   "explanation": "/f/ is a whispered sound. /v/, /d/ and /g/ are voiced."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which word ends with the sound /v/?",
+   "options": [
+    "leaf",
+    "half",
+    "proof",
+    "leave"
+   ],
+   "answer": 3,
+   "explanation": "Leave ends with /v/. Leaf, half and proof end with /f/."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is a twin?",
+   "options": [
+    "One of two children born at the same time to the same mother",
+    "A child who has no parents",
+    "A brother who is older",
+    "A person who lives next door"
+   ],
+   "answer": 0,
+   "explanation": "Twins are two children born together to one mother."
+  },
+  {
+   "topic": "1.1",
+   "q": "An orphan is",
+   "options": [
+    "a woman whose husband has died",
+    "a child whose parents have both died",
+    "a person who looks after children",
+    "a brother or a sister"
+   ],
+   "answer": 1,
+   "explanation": "An orphan has lost both parents."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which word begins with the blend tw?",
+   "options": [
+    "tender",
+    "tenth",
+    "twenty",
+    "tennis"
+   ],
+   "answer": 2,
+   "explanation": "Twenty starts with t and w together."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which tongue twister helps you practise /f/ and /v/?",
+   "options": [
+    "Ten tired tigers took Tom's toys.",
+    "Dina's dad did a dance.",
+    "Twin Tom twists ten twigs.",
+    "Five fat frogs fried five fine fish."
+   ],
+   "answer": 3,
+   "explanation": "Five, fat, frogs, fried and fine have /f/ and five has /v/."
+  },
+  {
+   "topic": "1.1",
+   "q": "A minimal pair is two words that",
+   "options": [
+    "differ in only one sound",
+    "mean the same thing",
+    "have the same spelling",
+    "rhyme with each other"
+   ],
+   "answer": 0,
+   "explanation": "For example tin and din differ only in the first sound."
+  },
+  {
+   "topic": "1.1",
+   "q": "The mother of your husband or wife is your",
+   "options": [
+    "sister-in-law",
+    "mother-in-law",
+    "ancestor",
+    "care-giver"
+   ],
+   "answer": 1,
+   "explanation": "The mother of your husband or wife is your mother-in-law."
+  },
+  {
+   "topic": "1.1",
+   "q": "In the family tree in the lesson, Amina's father's sister is her",
+   "options": [
+    "cousin",
+    "sibling",
+    "aunt",
+    "grandmother"
+   ],
+   "answer": 2,
+   "explanation": "A father's sister is an aunt."
+  },
+  {
+   "topic": "1.1",
+   "q": "A person in your family who lived long before your grandparents is an",
+   "options": [
+    "orphan",
+    "elder",
+    "widow",
+    "ancestor"
+   ],
+   "answer": 3,
+   "explanation": "Ancestors are family members from long ago."
+  },
+  {
+   "topic": "1.1",
+   "q": "Which word has the same first sound as 'tie'?",
+   "options": [
+    "two",
+    "die",
+    "fan",
+    "van"
+   ],
+   "answer": 0,
+   "explanation": "Tie and two both begin with /t/. Die starts with /d/."
+  },
+  {
+   "topic": "1.1",
+   "q": "When you say 'leaf' and 'leave' aloud, what is the last sound of 'leave'?",
+   "options": [
+    "/f/",
+    "/v/",
+    "/t/",
+    "/d/"
+   ],
+   "answer": 1,
+   "explanation": "Leave ends with the voiced sound /v/."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which of these is a reference material?",
+   "options": [
+    "A storybook",
+    "A song",
+    "A dictionary",
+    "A letter"
+   ],
+   "answer": 2,
+   "explanation": "A dictionary is used to look up spelling and meaning, so it is a reference book."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which list is in alphabetical order?",
+   "options": [
+    "brother, aunt, cousin, sister",
+    "sister, cousin, brother, aunt",
+    "aunt, cousin, brother, sister",
+    "aunt, brother, cousin, sister"
+   ],
+   "answer": 3,
+   "explanation": "a, b, c, s is the order of the first letters."
+  },
+  {
+   "topic": "1.2",
+   "q": "What are guide words?",
+   "options": [
+    "The first and last words on a dictionary page",
+    "The longest words in the book",
+    "Words that rhyme",
+    "The words on the cover"
+   ],
+   "answer": 0,
+   "explanation": "They show which words can be found on the page."
+  },
+  {
+   "topic": "1.2",
+   "q": "If the guide words are 'farm' and 'feast', which word is on that page?",
+   "options": [
+    "mango",
+    "fashion",
+    "apple",
+    "zebra"
+   ],
+   "answer": 1,
+   "explanation": "Fashion comes after farm and before feast in the alphabet."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which comes first in a dictionary?",
+   "options": [
+    "market",
+    "mat",
+    "mango",
+    "mother"
+   ],
+   "answer": 2,
+   "explanation": "Mango has n as the third letter, which comes before r, t and the o in mother."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does the abbreviation 'n.' mean in a dictionary entry?",
+   "options": [
+    "number",
+    "name",
+    "never",
+    "noun"
+   ],
+   "answer": 3,
+   "explanation": "The letter n. shows that the word is a noun."
+  },
+  {
+   "topic": "1.2",
+   "q": "Where would you find facts about elephants?",
+   "options": [
+    "A junior encyclopaedia",
+    "A calendar",
+    "A timetable",
+    "A form"
+   ],
+   "answer": 0,
+   "explanation": "An encyclopaedia gives facts about many subjects."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which is the best first step to look up the word 'orphan'?",
+   "options": [
+    "Open at the letter z",
+    "Open the dictionary at the letter o",
+    "Read every page",
+    "Ask a friend to spell it"
+   ],
+   "answer": 1,
+   "explanation": "Words are in alphabetical order, so start with the first letter."
+  },
+  {
+   "topic": "1.2",
+   "q": "A word has two meanings in the dictionary. What should you do?",
+   "options": [
+    "Use the first meaning always",
+    "Use the last meaning always",
+    "Choose the meaning that fits your sentence",
+    "Ignore both"
+   ],
+   "answer": 2,
+   "explanation": "Read all meanings and choose the one that matches how the word is used."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which of these shows how to say a word?",
+   "options": [
+    "The page number",
+    "The cover",
+    "The index of the atlas",
+    "The sound guide next to the headword"
+   ],
+   "answer": 3,
+   "explanation": "Dictionaries show pronunciation beside the headword."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which word comes last in alphabetical order?",
+   "options": [
+    "uncle",
+    "aunt",
+    "brother",
+    "sister"
+   ],
+   "answer": 0,
+   "explanation": "u comes after a, b and s."
+  },
+  {
+   "topic": "1.2",
+   "q": "What should you do before using a website for facts?",
+   "options": [
+    "Share your address",
+    "Ask a teacher or parent and check the fact elsewhere",
+    "Believe everything",
+    "Copy it without reading"
+   ],
+   "answer": 1,
+   "explanation": "Checking a second source shows whether the fact is correct."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which word is a definite article?",
+   "options": [
+    "a",
+    "an",
+    "the",
+    "some"
+   ],
+   "answer": 2,
+   "explanation": "The is the definite article."
+  },
+  {
+   "topic": "1.3",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "She has a uncle.",
+    "She has the an uncle.",
+    "She has uncle an.",
+    "She has an uncle."
+   ],
+   "answer": 3,
+   "explanation": "Uncle starts with a vowel sound, so we use an."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which article goes before 'hour'?",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "no article always"
+   ],
+   "answer": 0,
+   "explanation": "The h is silent, so hour starts with a vowel sound."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which article goes before 'uniform'?",
+   "options": [
+    "an",
+    "a",
+    "the",
+    "one"
+   ],
+   "answer": 1,
+   "explanation": "Uniform starts with the consonant sound 'yoo'."
+  },
+  {
+   "topic": "1.3",
+   "q": "'I saw a goat. ___ goat was brown.' Which article fits the blank?",
+   "options": [
+    "A",
+    "An",
+    "The",
+    "Some"
+   ],
+   "answer": 2,
+   "explanation": "The goat has already been mentioned, so we use the."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which sentence is wrong?",
+   "options": [
+    "I have a book.",
+    "I have the book.",
+    "I have books.",
+    "I have an books."
+   ],
+   "answer": 3,
+   "explanation": "A and an cannot be used before a plural noun."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which noun needs the article 'the' because there is only one?",
+   "options": [
+    "sun",
+    "boy",
+    "chair",
+    "mango"
+   ],
+   "answer": 0,
+   "explanation": "There is only one sun, so we say the sun."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which is correct?",
+   "options": [
+    "The Kenya is beautiful.",
+    "Kenya is beautiful.",
+    "A Kenya is beautiful.",
+    "An Kenya is beautiful."
+   ],
+   "answer": 1,
+   "explanation": "We do not use the before most country names."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which article do we use before 'honest man'?",
+   "options": [
+    "a",
+    "the",
+    "an",
+    "some"
+   ],
+   "answer": 2,
+   "explanation": "The h in honest is silent, so an is used."
+  },
+  {
+   "topic": "1.3",
+   "q": "The word 'the' is said as 'thee' before",
+   "options": [
+    "a consonant sound",
+    "a plural only",
+    "a name",
+    "a vowel sound"
+   ],
+   "answer": 3,
+   "explanation": "We say thee egg and thuh boy."
+  },
+  {
+   "topic": "1.3",
+   "q": "Choose the correct pair: '___ tall boy and ___ old woman.'",
+   "options": [
+    "A, an",
+    "An, a",
+    "The, an",
+    "An, an"
+   ],
+   "answer": 0,
+   "explanation": "Tall starts with a consonant sound, old starts with a vowel sound."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which sentence uses 'the' correctly for a best one?",
+   "options": [
+    "She is tallest a girl.",
+    "She is the tallest girl.",
+    "She is a the tallest girl.",
+    "She is tall the girl."
+   ],
+   "answer": 1,
+   "explanation": "We use the before superlative words such as tallest."
+  },
+  {
+   "topic": "1.4",
+   "q": "What should you do first when you get a form?",
+   "options": [
+    "Start writing at once",
+    "Sign it",
+    "Read the instructions",
+    "Fold it"
+   ],
+   "answer": 2,
+   "explanation": "Instructions tell you how to fill in the form."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which is written in block letters?",
+   "options": [
+    "Wanjiku Kamau, with capitals at the start of each name",
+    "wanjiku kamau, in small letters",
+    "Wanjiku, in joined writing",
+    "WANJIKU KAMAU, in capital letters only"
+   ],
+   "answer": 3,
+   "explanation": "Block letters are capital letters."
+  },
+  {
+   "topic": "1.4",
+   "q": "What is a surname?",
+   "options": [
+    "Your family name",
+    "Your first name",
+    "Your school",
+    "Your address"
+   ],
+   "answer": 0,
+   "explanation": "The surname is the family name."
+  },
+  {
+   "topic": "1.4",
+   "q": "How would you write 9 January 2016 as day, month and year?",
+   "options": [
+    "01/09/2016",
+    "09/01/2016",
+    "2016/01/09 only",
+    "9-2016"
+   ],
+   "answer": 1,
+   "explanation": "Day first, then month, then year."
+  },
+  {
+   "topic": "1.4",
+   "q": "What should you do if a question does not apply to you?",
+   "options": [
+    "Leave it empty",
+    "Write a false answer",
+    "Write N/A or draw a line",
+    "Tear the form"
+   ],
+   "answer": 2,
+   "explanation": "N/A means not applicable and shows that you did not forget."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which information is a school detail?",
+   "options": [
+    "Your date of birth",
+    "Your weight",
+    "Your favourite food",
+    "Name of the head teacher"
+   ],
+   "answer": 3,
+   "explanation": "School details include the school name, address and teachers."
+  },
+  {
+   "topic": "1.4",
+   "q": "Why should you check your form before handing it in?",
+   "options": [
+    "To find missing or wrong information",
+    "To make it dirty",
+    "To lose it",
+    "To hide it"
+   ],
+   "answer": 0,
+   "explanation": "Checking finds mistakes that can cause problems later."
+  },
+  {
+   "topic": "1.4",
+   "q": "What does 'DOB' mean on a form?",
+   "options": [
+    "Day of business",
+    "Date of birth",
+    "Date of book",
+    "Duty of boy"
+   ],
+   "answer": 1,
+   "explanation": "DOB is short for date of birth."
+  },
+  {
+   "topic": "1.4",
+   "q": "If you make a small mistake on a form, you should",
+   "options": [
+    "scribble over it",
+    "tear the page",
+    "draw one neat line through it and write the correct word",
+    "leave it"
+   ],
+   "answer": 2,
+   "explanation": "A neat single line keeps the form readable."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which is safe when filling an online form?",
+   "options": [
+    "Give your password to any site",
+    "Share your address with strangers",
+    "Fill it in secret",
+    "Fill it with a parent or teacher"
+   ],
+   "answer": 3,
+   "explanation": "A trusted adult can help you keep your details safe."
+  },
+  {
+   "topic": "1.4",
+   "q": "What is a signature?",
+   "options": [
+    "Your name written in your own handwriting",
+    "Your telephone number",
+    "Your grade",
+    "Your date of birth"
+   ],
+   "answer": 0,
+   "explanation": "A signature shows that you agree with what is written."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.1",
+   "q": "Explain how you can feel the difference between /t/ and /d/ using your throat.",
+   "marks": 2,
+   "answer": "Put your fingers on your throat and say the sounds. You feel a buzz with /d/ because it is voiced, but no buzz with /t/, which is whispered.",
+   "working": "1 mark for the buzz with /d/, 1 mark for no buzz with /t/."
+  },
+  {
+   "topic": "1.1",
+   "q": "Write two minimal pairs for /t/ and /d/.",
+   "marks": 2,
+   "answer": "For example: ten, den and tin, din.",
+   "working": "1 mark for each correct pair."
+  },
+  {
+   "topic": "1.1",
+   "q": "Use the words 'sibling', 'relative' and 'chore' in three sentences about a family.",
+   "marks": 3,
+   "answer": "For example: My sibling is my little sister. My aunt is a relative. My chore is to sweep the yard.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "1.1",
+   "q": "Describe how to make the sounds /f/ and /v/ and say how they are different. Give one example pair.",
+   "marks": 4,
+   "answer": "Touch the top teeth to the lower lip and blow. /f/ is whispered and /v/ is voiced with a buzz. Example: fan and van.",
+   "working": "1 mark for the mouth position, 1 mark for /f/ whispered, 1 mark for /v/ voiced, 1 mark for the pair."
+  },
+  {
+   "topic": "1.1",
+   "q": "Give the meaning of clan, ancestor and adopt.",
+   "marks": 3,
+   "answer": "A clan is a large group of families with the same ancestor. An ancestor is a family member who lived long ago. To adopt is to take a child into your family and raise the child as your own.",
+   "working": "1 mark for each meaning."
+  },
+  {
+   "topic": "1.2",
+   "q": "Arrange in alphabetical order: goat, cow, hen, dog.",
+   "marks": 2,
+   "answer": "cow, dog, goat, hen",
+   "working": "1 mark for c and d first, 1 mark for g and h last."
+  },
+  {
+   "topic": "1.2",
+   "q": "State two things you can find in a dictionary entry.",
+   "marks": 2,
+   "answer": "Any two: spelling, meaning, part of speech, example sentence, pronunciation.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.2",
+   "q": "Explain how guide words help you find a word quickly.",
+   "marks": 3,
+   "answer": "Guide words show the first and last word on a page. If your word comes between them alphabetically, it is on that page. If not, turn forward or backward.",
+   "working": "1 mark for what guide words show, 1 mark for comparing your word, 1 mark for turning pages."
+  },
+  {
+   "topic": "1.2",
+   "q": "Describe how to find facts about a lion in a junior encyclopaedia.",
+   "marks": 4,
+   "answer": "Choose the topic Lion, find the L volume or type it in the search box, use guide words or the index to find the page, read the text, pictures and captions and write short notes in your own words.",
+   "working": "1 mark for each of four correct steps."
+  },
+  {
+   "topic": "1.3",
+   "q": "Write a or an before each word: egg, banana, umbrella, hour.",
+   "marks": 2,
+   "answer": "an egg, a banana, an umbrella, an hour",
+   "working": "Half a mark for each correct answer."
+  },
+  {
+   "topic": "1.3",
+   "q": "Explain why we say 'a university' but 'an umbrella'.",
+   "marks": 3,
+   "answer": "Both start with the letter u, but university starts with the consonant sound 'yoo', so it takes a. Umbrella starts with a vowel sound, so it takes an. We choose by sound, not by letter.",
+   "working": "1 mark for each example and 1 mark for the sound rule."
+  },
+  {
+   "topic": "1.3",
+   "q": "Fill in with a, an or the: 'Mama bought ___ cabbage and ___ egg. ___ egg was big.'",
+   "marks": 3,
+   "answer": "a, an, The",
+   "working": "1 mark for each correct article."
+  },
+  {
+   "topic": "1.3",
+   "q": "Write four sentences about your family. Use a, an and the at least once.",
+   "marks": 4,
+   "answer": "For example: I have a brother. He has an old bicycle. The bicycle is red. We ride it in the yard.",
+   "working": "1 mark for each correct sentence that uses the articles correctly."
+  },
+  {
+   "topic": "1.4",
+   "q": "Give two reasons why we must fill in forms carefully.",
+   "marks": 2,
+   "answer": "The reader depends on the information, so a mistake may cause confusion or lost messages. Wrong information may delay help.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "1.4",
+   "q": "List three details that a school library form may ask for.",
+   "marks": 3,
+   "answer": "Name, grade, date of birth, school name, address, class teacher, head teacher (any three).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "1.4",
+   "q": "Fill in this form line with your own details in block letters: Name, Grade, School. (Write an example.)",
+   "marks": 3,
+   "answer": "Name: AMINA NJOROGE; Grade: 4; School: SUNRISE PRIMARY SCHOOL (any correct example).",
+   "working": "1 mark for each line in block letters."
+  },
+  {
+   "topic": "1.4",
+   "q": "Describe the steps to fill in a form correctly.",
+   "marks": 4,
+   "answer": "Read the whole form and its instructions, get the facts ready, write neatly in the spaces using block letters if asked, fill every space, check the spelling and sign if needed.",
+   "working": "1 mark for each of four correct steps."
+  }
+ ]
+}

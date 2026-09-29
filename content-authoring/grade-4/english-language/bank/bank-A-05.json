@@ -1,0 +1,722 @@
+{
+ "mcq": [
+  {
+   "topic": "5.1",
+   "q": "Which word has the long sound /uː/?",
+   "options": [
+    "book",
+    "good",
+    "foot",
+    "food"
+   ],
+   "answer": 3,
+   "explanation": "Food has /uː/. The others have /ʊ/."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which word has the short sound /ʊ/?",
+   "options": [
+    "cook",
+    "moon",
+    "fruit",
+    "spoon"
+   ],
+   "answer": 0,
+   "explanation": "Cook has /ʊ/."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which word has the sound /æ/?",
+   "options": [
+    "food",
+    "apple",
+    "fruit",
+    "juice"
+   ],
+   "answer": 1,
+   "explanation": "Apple has /æ/."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which is a minimal pair for /f/ and /v/?",
+   "options": [
+    "book, look",
+    "jam, ham",
+    "safe, save",
+    "pen, pin"
+   ],
+   "answer": 2,
+   "explanation": "They differ in the last sound."
+  },
+  {
+   "topic": "5.1",
+   "q": "A balanced diet is a diet that",
+   "options": [
+    "has only meat",
+    "has only sweets",
+    "has no water",
+    "has the right amounts of all types of food"
+   ],
+   "answer": 3,
+   "explanation": "It has energy, body-building and protective foods and water."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which foods mainly give us energy?",
+   "options": [
+    "Ugali, rice and potatoes",
+    "Vitamins only",
+    "Salt and pepper",
+    "Water and tea"
+   ],
+   "answer": 0,
+   "explanation": "They are carbohydrates."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which foods help the body to grow?",
+   "options": [
+    "Sugar and salt",
+    "Beans, eggs, fish and meat",
+    "Tea only",
+    "Air"
+   ],
+   "answer": 1,
+   "explanation": "They contain protein."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which sentence is correct?",
+   "options": [
+    "I would like be a nurse.",
+    "I would like to being a nurse.",
+    "I would like to be a nurse.",
+    "I would likes to be a nurse."
+   ],
+   "answer": 2,
+   "explanation": "The pattern is would like to be + noun phrase."
+  },
+  {
+   "topic": "5.1",
+   "q": "'She would like to be ___.' Which fits?",
+   "options": [
+    "farming",
+    "to farm",
+    "farmed",
+    "a farmer"
+   ],
+   "answer": 3,
+   "explanation": "A noun phrase follows be."
+  },
+  {
+   "topic": "5.1",
+   "q": "What is a good habit for a listener?",
+   "options": [
+    "Look at the speaker and do not interrupt",
+    "Talk while others speak",
+    "Look away",
+    "Play with things"
+   ],
+   "answer": 0,
+   "explanation": "Good listeners give attention."
+  },
+  {
+   "topic": "5.1",
+   "q": "The short form of 'I would' is",
+   "options": [
+    "I'll",
+    "I'd",
+    "I'm",
+    "I've"
+   ],
+   "answer": 1,
+   "explanation": "I would can be shortened to I'd."
+  },
+  {
+   "topic": "5.1",
+   "q": "What does 'thin' mean?",
+   "options": [
+    "very fat",
+    "very tall",
+    "With little flesh on the body",
+    "very old"
+   ],
+   "answer": 2,
+   "explanation": "Thin is the opposite of plump."
+  },
+  {
+   "topic": "5.2",
+   "q": "Independent reading means",
+   "options": [
+    "reading only for exams",
+    "copying sentences",
+    "reading aloud to the class only",
+    "reading on your own without being told what to read"
+   ],
+   "answer": 3,
+   "explanation": "You choose and read for yourself."
+  },
+  {
+   "topic": "5.2",
+   "q": "In the five-finger test, four or five fingers on a page mean the book is",
+   "options": [
+    "too hard for now",
+    "too easy",
+    "just right",
+    "empty"
+   ],
+   "answer": 0,
+   "explanation": "Many unknown words show that it is too hard."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which is an example of extensive reading?",
+   "options": [
+    "Reading one line for a test",
+    "Reading many story books in your free time",
+    "Writing a letter",
+    "Learning a poem for an exam"
+   ],
+   "answer": 1,
+   "explanation": "Extensive reading means reading widely."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is fluency?",
+   "options": [
+    "Reading very loudly",
+    "Reading only one word",
+    "Reading smoothly with few stops",
+    "Not reading"
+   ],
+   "answer": 2,
+   "explanation": "Fluent readers read smoothly."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which is a way of choosing a book?",
+   "options": [
+    "Choose the biggest only",
+    "Choose a book with no words",
+    "Choose the one nobody likes",
+    "Read the title, cover and first page"
+   ],
+   "answer": 3,
+   "explanation": "These clues show whether the book interests you."
+  },
+  {
+   "topic": "5.2",
+   "q": "A reading log helps you to",
+   "options": [
+    "remember what you have read",
+    "hide your books",
+    "sell books",
+    "break books"
+   ],
+   "answer": 0,
+   "explanation": "It records titles, dates and what you liked."
+  },
+  {
+   "topic": "5.2",
+   "q": "When reading silently, you should",
+   "options": [
+    "shout",
+    "read quietly in your head",
+    "sing",
+    "read backwards"
+   ],
+   "answer": 1,
+   "explanation": "Silent reading helps you focus."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which is a good rule for a reading club?",
+   "options": [
+    "Talk all the time",
+    "Tear pages",
+    "Listen politely and take turns",
+    "Take books home and keep them"
+   ],
+   "answer": 2,
+   "explanation": "Politeness keeps everyone included."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which material gives you news?",
+   "options": [
+    "A dictionary",
+    "A story book",
+    "A map key",
+    "A newspaper"
+   ],
+   "answer": 3,
+   "explanation": "Newspapers report news."
+  },
+  {
+   "topic": "5.2",
+   "q": "You meet a new word while reading alone. What can you do?",
+   "options": [
+    "Use clues in the sentence and check a dictionary later",
+    "Throw the book away",
+    "Skip the whole page always",
+    "Ask nobody"
+   ],
+   "answer": 0,
+   "explanation": "Context and a dictionary help."
+  },
+  {
+   "topic": "5.2",
+   "q": "Why should you return borrowed books on time?",
+   "options": [
+    "To make the book dirty",
+    "So others can read them too",
+    "To forget the title",
+    "Because books are heavy"
+   ],
+   "answer": 1,
+   "explanation": "It shows responsibility and fairness."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which is a sentence starter for sharing a story?",
+   "options": [
+    "To whom it may concern...",
+    "Yours faithfully...",
+    "My favourite part was...",
+    "Dear Sir..."
+   ],
+   "answer": 2,
+   "explanation": "It helps you tell what you liked."
+  },
+  {
+   "topic": "5.3",
+   "q": "An adjective is a word that",
+   "options": [
+    "names a person",
+    "shows an action",
+    "joins sentences",
+    "describes a noun"
+   ],
+   "answer": 3,
+   "explanation": "Adjectives describe nouns."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is the comparative form of 'tall'?",
+   "options": [
+    "taller",
+    "tallest",
+    "more tall",
+    "tallr"
+   ],
+   "answer": 0,
+   "explanation": "Short adjectives add er."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is the superlative form of 'big'?",
+   "options": [
+    "bigest",
+    "biggest",
+    "more big",
+    "biger"
+   ],
+   "answer": 1,
+   "explanation": "The last letter doubles: big, bigger, biggest."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is the comparative of 'happy'?",
+   "options": [
+    "happyer",
+    "more happy",
+    "happier",
+    "happiest"
+   ],
+   "answer": 2,
+   "explanation": "Change y to i and add er."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is the superlative of 'good'?",
+   "options": [
+    "goodest",
+    "better",
+    "most good",
+    "best"
+   ],
+   "answer": 3,
+   "explanation": "Good, better, best."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is the comparative of 'bad'?",
+   "options": [
+    "worse",
+    "badder",
+    "more bad",
+    "worst"
+   ],
+   "answer": 0,
+   "explanation": "Bad, worse, worst."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which is correct?",
+   "options": [
+    "This is beautifuller than that.",
+    "This is more beautiful than that.",
+    "This is more beautifuler than that.",
+    "This is beautifullest than that."
+   ],
+   "answer": 1,
+   "explanation": "Long adjectives use more."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which phrase has adjectives in the correct order?",
+   "options": [
+    "a red round small ball",
+    "a round small red ball",
+    "a small round red ball",
+    "a round red small ball"
+   ],
+   "answer": 2,
+   "explanation": "The order is size, shape, colour."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which is correct?",
+   "options": [
+    "Kevin is more taller than Musa.",
+    "Kevin is tallest than Musa.",
+    "Kevin is tall than Musa.",
+    "Kevin is taller than Musa."
+   ],
+   "answer": 3,
+   "explanation": "Use the er form with than."
+  },
+  {
+   "topic": "5.3",
+   "q": "Choose the sentence with a superlative.",
+   "options": [
+    "Chege is the tallest boy.",
+    "Chege is taller than Ben.",
+    "Chege is tall.",
+    "Chege is very tall than Ben."
+   ],
+   "answer": 0,
+   "explanation": "The tallest points to the top of three or more."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which word is the opposite of plump?",
+   "options": [
+    "round",
+    "thin",
+    "big",
+    "healthy"
+   ],
+   "answer": 1,
+   "explanation": "Plump means fat in a pleasant way and thin is its opposite."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which is the comparative form of 'little' (amount)?",
+   "options": [
+    "littler",
+    "more little",
+    "less",
+    "least"
+   ],
+   "answer": 2,
+   "explanation": "Little, less, least."
+  },
+  {
+   "topic": "5.4",
+   "q": "A narrative is",
+   "options": [
+    "a list of names",
+    "a map",
+    "a form",
+    "a story that tells what happened"
+   ],
+   "answer": 3,
+   "explanation": "It tells events in order."
+  },
+  {
+   "topic": "5.4",
+   "q": "Which part of a narrative tells how it finished?",
+   "options": [
+    "The ending",
+    "The title",
+    "The beginning",
+    "The middle"
+   ],
+   "answer": 0,
+   "explanation": "The ending gives the result."
+  },
+  {
+   "topic": "5.4",
+   "q": "Which sentence has a simile?",
+   "options": [
+    "The bread was soft.",
+    "The bread was as soft as a pillow.",
+    "We ate bread.",
+    "Bread is food."
+   ],
+   "answer": 1,
+   "explanation": "It compares bread with a pillow using as ... as."
+  },
+  {
+   "topic": "5.4",
+   "q": "Which word helps to show order in a narrative?",
+   "options": [
+    "blue",
+    "table",
+    "suddenly",
+    "eleven"
+   ],
+   "answer": 2,
+   "explanation": "Time words show order."
+  },
+  {
+   "topic": "5.4",
+   "q": "About how long is a Grade 4 narrative composition?",
+   "options": [
+    "5 words",
+    "10 words",
+    "1000 words",
+    "60 to 80 words"
+   ],
+   "answer": 3,
+   "explanation": "The design asks for about 60 to 80 words."
+  },
+  {
+   "topic": "5.4",
+   "q": "Why is it important to plan a composition?",
+   "options": [
+    "It keeps the ideas in order",
+    "It makes the story longer without ideas",
+    "It stops you from writing",
+    "It hides your ideas"
+   ],
+   "answer": 0,
+   "explanation": "A plan shows what comes first, next and last."
+  },
+  {
+   "topic": "5.4",
+   "q": "Which is the correct order for the parts of a narrative?",
+   "options": [
+    "End, middle, beginning",
+    "Beginning, middle, end",
+    "Middle, end, beginning",
+    "End, beginning, middle"
+   ],
+   "answer": 1,
+   "explanation": "Stories move from beginning to end."
+  },
+  {
+   "topic": "5.4",
+   "q": "Which phrase is a better word for 'nice' food?",
+   "options": [
+    "bad",
+    "hard",
+    "delicious",
+    "cold"
+   ],
+   "answer": 2,
+   "explanation": "Delicious is a stronger, more exact word."
+  },
+  {
+   "topic": "5.4",
+   "q": "A story that you heard on the radio and write in your own words is",
+   "options": [
+    "a map",
+    "a receipt",
+    "a menu",
+    "a retelling"
+   ],
+   "answer": 3,
+   "explanation": "You tell the same story in new words."
+  },
+  {
+   "topic": "5.4",
+   "q": "Which detail uses the sense of smell?",
+   "options": [
+    "I could smell fresh bread.",
+    "I saw a table.",
+    "I heard a bell.",
+    "I touched a wall."
+   ],
+   "answer": 0,
+   "explanation": "It describes something smelt."
+  },
+  {
+   "topic": "5.4",
+   "q": "In the story shape, the highest point is",
+   "options": [
+    "the title",
+    "the exciting part",
+    "the last full stop",
+    "the date"
+   ],
+   "answer": 1,
+   "explanation": "Events rise to an exciting part."
+  },
+  {
+   "topic": "5.4",
+   "q": "Which sentence would be a good first sentence?",
+   "options": [
+    "The end.",
+    "Thank you.",
+    "On Saturday, Mama took me to the supermarket.",
+    "Yours lovingly."
+   ],
+   "answer": 2,
+   "explanation": "It tells when, who and where."
+  }
+ ],
+ "short": [
+  {
+   "topic": "5.1",
+   "q": "Write two sentences beginning 'I would like to be' and give a reason in each.",
+   "marks": 3,
+   "answer": "I would like to be a doctor because I want to help sick people. I would like to be a runner because I love sport.",
+   "working": "1 mark for each correct sentence with reason, and 1 for accuracy."
+  },
+  {
+   "topic": "5.1",
+   "q": "Name the three groups of food on a healthy plate and give one example of each.",
+   "marks": 3,
+   "answer": "Energy foods such as ugali; body-building foods such as beans; protective foods such as spinach.",
+   "working": "1 mark for each group with an example."
+  },
+  {
+   "topic": "5.1",
+   "q": "State two habits of a good listener.",
+   "marks": 2,
+   "answer": "Look at the speaker; do not interrupt; think about what you hear; ask a question when the speaker finishes (any two).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain what Baraka learnt from his grandmother.",
+   "marks": 4,
+   "answer": "He learnt that ugali and tea are not enough. A balanced diet with energy foods, body-building foods, fruit and vegetables and clean water keeps a person strong and healthy.",
+   "working": "1 mark for each of four correct points."
+  },
+  {
+   "topic": "5.1",
+   "q": "Write two words with the sound /uː/ and two words with /ʊ/.",
+   "marks": 2,
+   "answer": "/uː/: food, spoon. /ʊ/: book, cook.",
+   "working": "1 mark for each correct pair."
+  },
+  {
+   "topic": "5.2",
+   "q": "State three materials you can read for pleasure.",
+   "marks": 3,
+   "answer": "Story books, poems, magazines, comics, newspapers (any three).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.2",
+   "q": "Explain how to use the five-finger test.",
+   "marks": 3,
+   "answer": "Open a page and read. Hold up a finger for each new word. Count the fingers: few means the book is right, many means it is too hard.",
+   "working": "1 mark for the method, 1 mark for few, 1 mark for many."
+  },
+  {
+   "topic": "5.2",
+   "q": "Give two reasons why we should read widely.",
+   "marks": 2,
+   "answer": "It builds vocabulary and improves reading speed and understanding. It gives knowledge and enjoyment.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "5.2",
+   "q": "Describe how you would set up a reading club in your class.",
+   "marks": 4,
+   "answer": "Choose a day, time and place; give members roles; agree on rules such as taking turns; and read silently then share what was read.",
+   "working": "1 mark for each of four points."
+  },
+  {
+   "topic": "5.2",
+   "q": "Read: 'Juma asked his mother to add vegetables to his lunch.' Say why Juma did this, using the story 'A Pot of Vegetables'.",
+   "marks": 2,
+   "answer": "Mama Zuri told him vegetables give vitamins that protect the body from sickness, so he wanted to stay healthy.",
+   "working": "1 mark for vitamins or protection and 1 mark for linking to Juma."
+  },
+  {
+   "topic": "5.3",
+   "q": "Write the comparative and superlative of: happy, beautiful.",
+   "marks": 2,
+   "answer": "happier, happiest; more beautiful, most beautiful.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.3",
+   "q": "Put the adjectives in the right order: a (red, round, big) balloon.",
+   "marks": 2,
+   "answer": "a big round red balloon",
+   "working": "1 mark for size first and 1 mark for shape before colour."
+  },
+  {
+   "topic": "5.3",
+   "q": "Write the missing forms: good, better, ___ ; bad, ___ , worst; many, more, ___ .",
+   "marks": 3,
+   "answer": "best; worse; most",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.3",
+   "q": "Write three sentences about your family or school: one comparative, one superlative and one with two adjectives in the right order.",
+   "marks": 3,
+   "answer": "My brother is taller than I am. He is the tallest boy in his class. He has a big round bag.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.3",
+   "q": "Explain why 'more better' is wrong. Give the correct form.",
+   "marks": 2,
+   "answer": "Better is already the comparative form, so we do not add more. The correct form is better.",
+   "working": "1 mark for the reason and 1 mark for the correct form."
+  },
+  {
+   "topic": "5.4",
+   "q": "List the three parts of a narrative and say what each tells.",
+   "marks": 3,
+   "answer": "Beginning: who, where and when. Middle: the events. End: how it finished.",
+   "working": "1 mark for each part."
+  },
+  {
+   "topic": "5.4",
+   "q": "Write two similes about food.",
+   "marks": 2,
+   "answer": "The bread was as soft as a pillow. The juice was as sweet as honey.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.4",
+   "q": "Arrange in order: (a) Then she paid. (b) Grace entered the shop. (c) Finally, she went home.",
+   "marks": 2,
+   "answer": "b, a, c",
+   "working": "1 mark for b first and 1 mark for a then c."
+  },
+  {
+   "topic": "5.4",
+   "q": "Give two reasons why we plan before writing a story.",
+   "marks": 2,
+   "answer": "It puts ideas in order and makes sure we do not forget important events.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "5.4",
+   "q": "Write a narrative of about 60 words about a visit to a shop. Use one simile and two time words.",
+   "marks": 5,
+   "answer": "A story of about 60 words with beginning, middle and end, one simile, two time words such as first and then, and correct punctuation.",
+   "working": "1 mark each for beginning, events, simile, time words, and punctuation."
+  }
+ ]
+}

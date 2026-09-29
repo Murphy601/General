@@ -1,0 +1,746 @@
+{
+ "mcq": [
+  {
+   "topic": "2.1",
+   "q": "Which word has the sound /ɔɪ/?",
+   "options": [
+    "bird",
+    "enjoy",
+    "kite",
+    "car"
+   ],
+   "answer": 1,
+   "explanation": "Enjoy has the diphthong /ɔɪ/."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which word has the sound /ɜː/?",
+   "options": [
+    "toy",
+    "five",
+    "girl",
+    "party"
+   ],
+   "answer": 2,
+   "explanation": "Girl has the long vowel /ɜː/."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which word has the long vowel /ɑː/?",
+   "options": [
+    "burn",
+    "coin",
+    "light",
+    "market"
+   ],
+   "answer": 3,
+   "explanation": "Market has /ɑː/ in its first syllable."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which word has the sound /aɪ/?",
+   "options": [
+    "invite",
+    "noise",
+    "turn",
+    "farm"
+   ],
+   "answer": 0,
+   "explanation": "Invite has /aɪ/ in its second syllable."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which pair is a minimal pair for /l/ and /r/?",
+   "options": [
+    "boy, toy",
+    "lake, rake",
+    "bird, girl",
+    "five, nine"
+   ],
+   "answer": 1,
+   "explanation": "Lake and rake differ only in the first sound."
+  },
+  {
+   "topic": "2.1",
+   "q": "To make the /l/ sound, the tip of the tongue",
+   "options": [
+    "stays far from the roof of the mouth and curls back",
+    "touches the bottom lip",
+    "touches the ridge behind the top front teeth",
+    "touches the top lip"
+   ],
+   "answer": 2,
+   "explanation": "For /l/ the tongue tip touches the ridge and air flows around the sides."
+  },
+  {
+   "topic": "2.1",
+   "q": "An invitation is",
+   "options": [
+    "a big meal",
+    "a gift",
+    "a song",
+    "a card or message that asks a person to come to an event"
+   ],
+   "answer": 3,
+   "explanation": "An invitation invites someone to an event."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which word means 'to make a place pretty with balloons and ribbons'?",
+   "options": [
+    "decorate",
+    "celebrate",
+    "attend",
+    "graduate"
+   ],
+   "answer": 0,
+   "explanation": "To decorate is to make a place look pretty."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which word means a very big and special meal?",
+   "options": [
+    "snack",
+    "feast",
+    "chore",
+    "ribbon"
+   ],
+   "answer": 1,
+   "explanation": "A feast is a large special meal."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which word rhymes with 'road'?",
+   "options": [
+    "lead",
+    "raid",
+    "load",
+    "rod"
+   ],
+   "answer": 2,
+   "explanation": "Road and load both end with /əʊd/."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which word has the same vowel sound as 'bird'?",
+   "options": [
+    "card",
+    "toy",
+    "time",
+    "turn"
+   ],
+   "answer": 3,
+   "explanation": "Bird and turn both have /ɜː/."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which of these words has /r/ as its first sound?",
+   "options": [
+    "ribbon",
+    "light",
+    "lake",
+    "load"
+   ],
+   "answer": 0,
+   "explanation": "Ribbon starts with /r/."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which word has both the sounds /ɔɪ/ and /l/?",
+   "options": [
+    "toy",
+    "oil",
+    "road",
+    "boy"
+   ],
+   "answer": 1,
+   "explanation": "Oil has /ɔɪ/ followed by /l/."
+  },
+  {
+   "topic": "2.2",
+   "q": "A simile compares two things using",
+   "options": [
+    "but or and",
+    "if or then",
+    "like or as",
+    "who or which"
+   ],
+   "answer": 2,
+   "explanation": "A simile uses like or as, for example as brave as a lion."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which sentence has a simile?",
+   "options": [
+    "The runner won the race.",
+    "The runner was tired.",
+    "The race started at nine.",
+    "The runner was as fast as a cheetah."
+   ],
+   "answer": 3,
+   "explanation": "It compares the runner with a cheetah using as ... as."
+  },
+  {
+   "topic": "2.2",
+   "q": "'As busy as a bee' means",
+   "options": [
+    "very busy",
+    "very lazy",
+    "very tall",
+    "very quiet"
+   ],
+   "answer": 0,
+   "explanation": "Bees always seem to be working, so it means very busy."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does the saying 'Unity is strength' mean?",
+   "options": [
+    "The strongest person always wins",
+    "People are stronger when they work together",
+    "Nobody needs friends",
+    "Only leaders are strong"
+   ],
+   "answer": 1,
+   "explanation": "Working together makes a group stronger."
+  },
+  {
+   "topic": "2.2",
+   "q": "'Practice makes perfect' teaches us that",
+   "options": [
+    "we should never try",
+    "perfect people never practise",
+    "the more we practise, the better we become",
+    "practice is a waste of time"
+   ],
+   "answer": 2,
+   "explanation": "Repeating a skill helps us improve."
+  },
+  {
+   "topic": "2.2",
+   "q": "What should you do before you read a story?",
+   "options": [
+    "Read the last page only",
+    "Close the book",
+    "Write the answers",
+    "Read the title and look at the pictures"
+   ],
+   "answer": 3,
+   "explanation": "The title and pictures help you predict."
+  },
+  {
+   "topic": "2.2",
+   "q": "A direct question is one whose answer",
+   "options": [
+    "is written in the text",
+    "is not in the text",
+    "is a joke",
+    "has no words"
+   ],
+   "answer": 0,
+   "explanation": "Direct answers are stated plainly in the text."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which question is indirect?",
+   "options": [
+    "Who cried?",
+    "Why do you think the girl cried?",
+    "When did the girl cry?",
+    "Where did she cry?"
+   ],
+   "answer": 1,
+   "explanation": "The answer must be worked out from clues."
+  },
+  {
+   "topic": "2.2",
+   "q": "What does 'Haste makes waste' mean?",
+   "options": [
+    "Hurry is always best",
+    "Waste is good",
+    "If you hurry, you may make mistakes and waste things",
+    "Food is wasted at night"
+   ],
+   "answer": 2,
+   "explanation": "Rushing often leads to errors."
+  },
+  {
+   "topic": "2.2",
+   "q": "In a readers' theatre, learners",
+   "options": [
+    "build a stage from wood",
+    "draw pictures only",
+    "sing without words",
+    "read a story aloud with different parts"
+   ],
+   "answer": 3,
+   "explanation": "Each reader takes a part and reads the lines."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which is a simile?",
+   "options": [
+    "She sang like a bird.",
+    "She sang.",
+    "She is a bird.",
+    "She sang loudly."
+   ],
+   "answer": 0,
+   "explanation": "Like a bird compares her singing to a bird's."
+  },
+  {
+   "topic": "2.2",
+   "q": "'Sleep like a log' means",
+   "options": [
+    "sleep in the forest",
+    "sleep very deeply",
+    "sleep very little",
+    "wake up early"
+   ],
+   "answer": 1,
+   "explanation": "A log does not move, so it means a deep sleep."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'box'?",
+   "options": [
+    "boxs",
+    "boxies",
+    "boxes",
+    "boxen"
+   ],
+   "answer": 2,
+   "explanation": "Nouns ending in x add es."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'baby'?",
+   "options": [
+    "babys",
+    "babyes",
+    "baby",
+    "babies"
+   ],
+   "answer": 3,
+   "explanation": "A consonant comes before y, so change y to i and add es."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'monkey'?",
+   "options": [
+    "monkeys",
+    "monkies",
+    "monkeyes",
+    "monkeis"
+   ],
+   "answer": 0,
+   "explanation": "A vowel comes before y, so just add s."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'knife'?",
+   "options": [
+    "knifes",
+    "knives",
+    "knifs",
+    "knifees"
+   ],
+   "answer": 1,
+   "explanation": "Change fe to ves."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which plural is irregular?",
+   "options": [
+    "books",
+    "dishes",
+    "children",
+    "boxes"
+   ],
+   "answer": 2,
+   "explanation": "Child becomes children, not childs."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which word stays the same in the plural?",
+   "options": [
+    "cow",
+    "goat",
+    "hen",
+    "sheep"
+   ],
+   "answer": 3,
+   "explanation": "Sheep is both singular and plural."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'tooth'?",
+   "options": [
+    "teeth",
+    "tooths",
+    "teeths",
+    "toothes"
+   ],
+   "answer": 0,
+   "explanation": "Tooth is irregular."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'potato'?",
+   "options": [
+    "potatos",
+    "potatoes",
+    "potatoies",
+    "potatoos"
+   ],
+   "answer": 1,
+   "explanation": "Some nouns ending in o add es."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'photo'?",
+   "options": [
+    "photoes",
+    "photoss",
+    "photos",
+    "photees"
+   ],
+   "answer": 2,
+   "explanation": "Photo just adds s."
+  },
+  {
+   "topic": "2.3",
+   "q": "Choose the correct sentence.",
+   "options": [
+    "The woman are selling tomatoes.",
+    "The women is selling tomatoes.",
+    "The womans are selling tomatoes.",
+    "The women are selling tomatoes."
+   ],
+   "answer": 3,
+   "explanation": "Women is plural and takes are."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'leaf'?",
+   "options": [
+    "leaves",
+    "leafs",
+    "leafes",
+    "leaf"
+   ],
+   "answer": 0,
+   "explanation": "Change f to ves."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the plural of 'church'?",
+   "options": [
+    "churchs",
+    "churches",
+    "churchies",
+    "churchen"
+   ],
+   "answer": 1,
+   "explanation": "Nouns ending in ch add es."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which noun is always plural?",
+   "options": [
+    "spoon",
+    "book",
+    "scissors",
+    "cup"
+   ],
+   "answer": 2,
+   "explanation": "Scissors are two blades joined together, so the noun is plural."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is the first step in writing a composition?",
+   "options": [
+    "Write the conclusion",
+    "Copy a story",
+    "Draw a picture only",
+    "Plan your ideas"
+   ],
+   "answer": 3,
+   "explanation": "A plan puts ideas in order first."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which part of a composition tells who, where and when?",
+   "options": [
+    "The introduction",
+    "The conclusion",
+    "The title only",
+    "The body"
+   ],
+   "answer": 0,
+   "explanation": "The introduction sets the scene."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which is a linking word that shows something happened at the end?",
+   "options": [
+    "first",
+    "finally",
+    "next",
+    "then"
+   ],
+   "answer": 1,
+   "explanation": "Finally introduces the last event."
+  },
+  {
+   "topic": "2.4",
+   "q": "A new idea in a composition begins",
+   "options": [
+    "in the same sentence",
+    "with a question mark",
+    "in a new paragraph",
+    "in capital letters"
+   ],
+   "answer": 2,
+   "explanation": "Each paragraph holds one idea."
+  },
+  {
+   "topic": "2.4",
+   "q": "What does 'proofread' mean?",
+   "options": [
+    "Write faster",
+    "Copy from a book",
+    "Draw pictures",
+    "Read your work carefully and correct mistakes"
+   ],
+   "answer": 3,
+   "explanation": "Proofreading is checking spelling, punctuation and meaning."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which sentence has correct capital letters and the correct ending?",
+   "options": [
+    "We went to Mombasa on Saturday.",
+    "We went to mombasa on saturday",
+    "We went to Mombasa on Saturday?",
+    "We went to Mombasa on Saturday,"
+   ],
+   "answer": 0,
+   "explanation": "Sentences start with a capital letter and names such as Mombasa and Saturday also need capitals."
+  },
+  {
+   "topic": "2.4",
+   "q": "An open-ended composition",
+   "options": [
+    "has only one correct answer",
+    "gives you a topic and you decide the story",
+    "must copy a story",
+    "has no words"
+   ],
+   "answer": 1,
+   "explanation": "You use your own ideas to complete it."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which is the best way to end a story?",
+   "options": [
+    "With the word 'the'",
+    "With a list of numbers",
+    "With a feeling or a lesson",
+    "With nothing"
+   ],
+   "answer": 2,
+   "explanation": "A good ending gives the reader a feeling or a message."
+  },
+  {
+   "topic": "2.4",
+   "q": "A sentence ends with",
+   "options": [
+    "a comma only",
+    "a capital letter",
+    "a colon",
+    "a full stop, question mark or exclamation mark"
+   ],
+   "answer": 3,
+   "explanation": "These are the marks that end sentences."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which is a good way to make a story interesting?",
+   "options": [
+    "Add small details and one simile",
+    "Copy a friend",
+    "Write very short words",
+    "Leave out the ending"
+   ],
+   "answer": 0,
+   "explanation": "Details and similes help the reader picture the story."
+  },
+  {
+   "topic": "2.4",
+   "q": "'The sun was as warm as a fresh loaf of bread.' This sentence uses",
+   "options": [
+    "a question",
+    "a simile",
+    "a list",
+    "a command"
+   ],
+   "answer": 1,
+   "explanation": "It compares the sun to bread using as ... as."
+  },
+  {
+   "topic": "2.4",
+   "q": "In a plan for a story, the middle usually tells",
+   "options": [
+    "only the title",
+    "the name of the school",
+    "what happens",
+    "the last sentence"
+   ],
+   "answer": 2,
+   "explanation": "The middle tells the events, including any problem."
+  }
+ ],
+ "short": [
+  {
+   "topic": "2.1",
+   "q": "Write two words with the sound /aɪ/ and use one in a sentence.",
+   "marks": 2,
+   "answer": "For example: kite, night. I fly my kite on Saturday.",
+   "working": "1 mark for two correct words and 1 mark for a correct sentence."
+  },
+  {
+   "topic": "2.1",
+   "q": "Write two minimal pairs for /l/ and /r/.",
+   "marks": 2,
+   "answer": "For example: light, right and load, road.",
+   "working": "1 mark for each correct pair."
+  },
+  {
+   "topic": "2.1",
+   "q": "Write an invitation of three sentences to a wedding or birthday party, using 'invite' and 'decorate'.",
+   "marks": 3,
+   "answer": "For example: I invite you to my sister's wedding on Saturday. We will decorate the hall with flowers. Please come at ten o'clock.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain how to make the sound /r/.",
+   "marks": 3,
+   "answer": "Pull the tongue back a little and curl the tip up without touching the roof of the mouth, and round the lips slightly. The tongue tip touches nothing.",
+   "working": "1 mark for tongue pulled back, 1 mark for the tip not touching, 1 mark for rounded lips."
+  },
+  {
+   "topic": "2.1",
+   "q": "Explain how a word wheel can help you make new words. Give an example with the ending -oy.",
+   "marks": 4,
+   "answer": "A word wheel has a fixed ending and different beginning letters. You change the first letter to make a new word. With -oy you can make boy, toy and joy.",
+   "working": "1 mark for fixed ending, 1 mark for changing the first letter, 1 mark each for two correct words."
+  },
+  {
+   "topic": "2.2",
+   "q": "Complete the simile and explain it: 'as cold as ______'.",
+   "marks": 2,
+   "answer": "as cold as ice, because ice is very cold.",
+   "working": "1 mark for a suitable comparison and 1 mark for the explanation."
+  },
+  {
+   "topic": "2.2",
+   "q": "Explain what the saying 'A stitch in time saves nine' teaches.",
+   "marks": 2,
+   "answer": "It teaches us to fix a small problem early, before it becomes a big problem.",
+   "working": "1 mark for fixing early and 1 mark for avoiding a bigger problem."
+  },
+  {
+   "topic": "2.2",
+   "q": "Give one direct question and one indirect question about a story of a birthday party.",
+   "marks": 3,
+   "answer": "Direct: What time did the guests arrive? Indirect: Why do you think the girl was excited?",
+   "working": "1 mark for each question and 1 mark for correct types."
+  },
+  {
+   "topic": "2.2",
+   "q": "Describe three things you do before, while and after reading a story.",
+   "marks": 3,
+   "answer": "Before: read the title and predict. While: read slowly and find meanings of new words. After: answer questions and retell.",
+   "working": "1 mark for each stage."
+  },
+  {
+   "topic": "2.2",
+   "q": "Write two sentences using a simile of your own about a celebration.",
+   "marks": 4,
+   "answer": "For example: The cake was as sweet as honey. The children danced like leaves in the wind.",
+   "working": "2 marks for each sentence with a correct simile."
+  },
+  {
+   "topic": "2.3",
+   "q": "Write the plurals of: bus, story, wolf, mouse.",
+   "marks": 2,
+   "answer": "buses, stories, wolves, mice",
+   "working": "Half a mark for each."
+  },
+  {
+   "topic": "2.3",
+   "q": "Give two examples of regular plurals and two of irregular plurals.",
+   "marks": 2,
+   "answer": "Regular: books, dishes. Irregular: men, feet.",
+   "working": "1 mark for each pair."
+  },
+  {
+   "topic": "2.3",
+   "q": "Explain the rule for changing nouns that end in y into plurals. Give two examples.",
+   "marks": 3,
+   "answer": "If a consonant comes before y, change y to i and add es (baby, babies). If a vowel comes before y, add s (boy, boys).",
+   "working": "1 mark for each rule and 1 mark for correct examples."
+  },
+  {
+   "topic": "2.3",
+   "q": "Rewrite in the plural: 'The child put a loaf and a tomato in the box.'",
+   "marks": 3,
+   "answer": "The children put loaves and tomatoes in the boxes.",
+   "working": "1 mark each for children, loaves and tomatoes and boxes (award 3 for all correct)."
+  },
+  {
+   "topic": "2.3",
+   "q": "Create a short puzzle with four clues whose answers are irregular plurals.",
+   "marks": 4,
+   "answer": "For example: I have two of these and I walk on them: feet. You chew with these: teeth. Small animals that squeak: mice. Grown-up females: women.",
+   "working": "1 mark for each clue with a correct answer."
+  },
+  {
+   "topic": "2.4",
+   "q": "List the three main parts of a composition and say what each does.",
+   "marks": 3,
+   "answer": "Introduction: tells who, where and when. Body: tells what happened in order. Conclusion: tells how it ended or how the writer felt.",
+   "working": "1 mark for each part with its job."
+  },
+  {
+   "topic": "2.4",
+   "q": "Write an introduction of two sentences for the topic 'A day I enjoyed'.",
+   "marks": 2,
+   "answer": "For example: It was a sunny Sunday in Kisumu. My family went to the lake for a picnic.",
+   "working": "1 mark for when or where and 1 mark for who or what."
+  },
+  {
+   "topic": "2.4",
+   "q": "Give three questions to ask yourself when you proofread.",
+   "marks": 3,
+   "answer": "Does every sentence start with a capital letter? Are words spelt correctly? Does my story have a beginning, middle and end?",
+   "working": "1 mark for each sensible question."
+  },
+  {
+   "topic": "2.4",
+   "q": "Make a simple plan for a story called 'The Guests Who Came Late'.",
+   "marks": 4,
+   "answer": "Beginning: family prepares for a party. Middle: guests do not arrive, food gets cold. Problem: they lost the way. End: they arrive, everyone laughs and eats.",
+   "working": "1 mark for a beginning, 1 for events, 1 for a problem and 1 for an ending."
+  },
+  {
+   "topic": "2.4",
+   "q": "Explain two ways to make a story interesting.",
+   "marks": 4,
+   "answer": "Start with something that makes the reader curious, and add small details or similes. These help the reader picture the story and want to continue.",
+   "working": "2 marks for each way explained."
+  }
+ ]
+}
