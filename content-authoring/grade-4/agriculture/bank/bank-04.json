@@ -1,0 +1,1209 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1",
+   "q": "Which of these is a brown material for a compost heap?",
+   "options": [
+    "Vegetable peelings",
+    "Dry leaves",
+    "Fresh cow dung",
+    "Fresh weeds"
+   ],
+   "answer": 1,
+   "explanation": "Brown materials are dry, like dry leaves, dry grass and straw."
+  },
+  {
+   "topic": "1.1",
+   "q": "Where is the best place to make a compost heap?",
+   "options": [
+    "In the middle of a stream",
+    "In a very windy open road",
+    "A shady, well-drained place near the garden",
+    "Inside the kitchen"
+   ],
+   "answer": 2,
+   "explanation": "A shaded, dry spot protects the heap from sun and flooding."
+  },
+  {
+   "topic": "1.1",
+   "q": "Why do we cover a compost heap?",
+   "options": [
+    "To hide it from animals only",
+    "To make it heavier",
+    "To stop it from rotting",
+    "To keep off rain and sun"
+   ],
+   "answer": 3,
+   "explanation": "A cover protects the heap from too much rain and drying sun."
+  },
+  {
+   "topic": "1.1",
+   "q": "How can compost be used in a garden?",
+   "options": [
+    "Mix it in planting holes or spread it around crops",
+    "Throw it away",
+    "Feed it to fish",
+    "Use it to build a wall"
+   ],
+   "answer": 0,
+   "explanation": "Compost feeds crops and improves the soil."
+  },
+  {
+   "topic": "1.1",
+   "q": "What word describes manure made from once-living things?",
+   "options": [
+    "Organic",
+    "Plastic",
+    "Metal",
+    "Mineral only"
+   ],
+   "answer": 0,
+   "explanation": "Organic means it comes from plants and animals."
+  },
+  {
+   "topic": "1.2",
+   "q": "Which is a benefit of drip irrigation?",
+   "options": [
+    "More weeds grow",
+    "The leaves get very wet",
+    "Fewer weeds grow between plants",
+    "Water is wasted"
+   ],
+   "answer": 2,
+   "explanation": "The soil between plants stays dry so fewer weeds grow."
+  },
+  {
+   "topic": "1.2",
+   "q": "Why is a cloth placed over the opening of the water container?",
+   "options": [
+    "To make the water hot",
+    "To colour the water",
+    "To keep dirt from blocking the small holes",
+    "To make the container heavier"
+   ],
+   "answer": 2,
+   "explanation": "Dirt would clog the tiny holes."
+  },
+  {
+   "topic": "1.2",
+   "q": "Why should the end of the drip pipe be closed?",
+   "options": [
+    "So the pipe looks nice",
+    "So the plants do not drink",
+    "So rainwater cannot enter",
+    "So water does not run out of the end"
+   ],
+   "answer": 3,
+   "explanation": "An open end would waste water."
+  },
+  {
+   "topic": "1.2",
+   "q": "How can you tell that a plant has enough water?",
+   "options": [
+    "The soil is dust",
+    "The leaves are gone",
+    "The pot is empty",
+    "The soil is damp about a finger deep"
+   ],
+   "answer": 3,
+   "explanation": "Feeling the soil shows if the roots have water."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is the meaning of conserving water?",
+   "options": [
+    "Using as much as possible",
+    "Using it carefully so none is wasted",
+    "Storing dirty water",
+    "Selling water"
+   ],
+   "answer": 1,
+   "explanation": "Conserving means saving and protecting."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which fuel comes in a metal cylinder?",
+   "options": [
+    "Firewood",
+    "Gas",
+    "Charcoal",
+    "Dung cakes"
+   ],
+   "answer": 1,
+   "explanation": "LPG gas is stored under pressure in a cylinder."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why do we soak dry beans before cooking?",
+   "options": [
+    "They become poisonous",
+    "They dry out",
+    "They cook in less time so less fuel is used",
+    "They become bigger than the pot"
+   ],
+   "answer": 2,
+   "explanation": "Soaked beans soften and cook faster."
+  },
+  {
+   "topic": "1.3",
+   "q": "Where should kerosene be stored?",
+   "options": [
+    "In a water bottle on the table",
+    "Near the fire",
+    "In an open bowl",
+    "In a labelled container with a tight cap, away from children and fire"
+   ],
+   "answer": 3,
+   "explanation": "Kerosene catches fire easily and is poisonous."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which action wastes fuel?",
+   "options": [
+    "Boiling water with no lid and a big flame",
+    "Using a lid",
+    "Using dry wood",
+    "Turning the flame down after boiling starts"
+   ],
+   "answer": 0,
+   "explanation": "Heat escapes without a lid and a big flame."
+  },
+  {
+   "topic": "1.3",
+   "q": "Why is dry firewood better than wet firewood?",
+   "options": [
+    "It is heavier",
+    "It burns better with less smoke",
+    "It puts out fires",
+    "It cannot burn"
+   ],
+   "answer": 1,
+   "explanation": "Dry wood gives more heat and less smoke."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which animal often picks maize cobs and bananas?",
+   "options": [
+    "Cow",
+    "Monkey",
+    "Hen",
+    "Duck"
+   ],
+   "answer": 1,
+   "explanation": "Monkeys pick crops from farms near forests."
+  },
+  {
+   "topic": "1.4",
+   "q": "Why should a scarecrow be moved every few days?",
+   "options": [
+    "The pole is too heavy",
+    "It grows",
+    "Animals get used to one that never moves",
+    "It gets too hot"
+   ],
+   "answer": 2,
+   "explanation": "Animals learn that something still is harmless."
+  },
+  {
+   "topic": "1.4",
+   "q": "What should the scarecrow pole be like?",
+   "options": [
+    "Loose so it can fall over",
+    "Very short",
+    "Made of glass",
+    "Firmly fixed in the ground so it does not fall"
+   ],
+   "answer": 3,
+   "explanation": "A loose pole falls in the wind."
+  },
+  {
+   "topic": "1.4",
+   "q": "Why is it wrong to kill every bird that visits a field?",
+   "options": [
+    "Birds also eat harmful insects and are part of nature",
+    "Birds are always good",
+    "Birds cannot eat crops",
+    "Birds pay tax"
+   ],
+   "answer": 0,
+   "explanation": "Wild animals are needed for balance in nature."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which animal is a domestic animal, not a wild one?",
+   "options": [
+    "Goat",
+    "Squirrel",
+    "Monkey",
+    "Hare"
+   ],
+   "answer": 0,
+   "explanation": "Goats are kept by people."
+  },
+  {
+   "topic": "2.1",
+   "q": "What does sowing mean?",
+   "options": [
+    "Cutting a crop",
+    "Putting seeds into the soil so they can grow",
+    "Watering a crop",
+    "Storing seeds"
+   ],
+   "answer": 1,
+   "explanation": "Sowing is planting seeds."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why are carrots not transplanted?",
+   "options": [
+    "They grow in water",
+    "They have no roots",
+    "They are too large",
+    "Moving damages the root and makes it crooked"
+   ],
+   "answer": 3,
+   "explanation": "The carrot root is the food, so it must grow straight."
+  },
+  {
+   "topic": "2.1",
+   "q": "Which tool gives gentle watering of a seedbed?",
+   "options": [
+    "Bucket poured fast",
+    "Hose without a nozzle",
+    "Cup thrown from far",
+    "Watering can with a fine rose"
+   ],
+   "answer": 3,
+   "explanation": "Fine spray does not wash seeds away."
+  },
+  {
+   "topic": "2.1",
+   "q": "About how far apart may rows of tiny seeds be?",
+   "options": [
+    "15 to 20 cm",
+    "5 metres",
+    "1 mm",
+    "10 metres"
+   ],
+   "answer": 0,
+   "explanation": "Rows are close but leave space for weeding."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why do crowded seedlings grow badly?",
+   "options": [
+    "They compete for water, light and food",
+    "They like company",
+    "They get too much space",
+    "They have no roots"
+   ],
+   "answer": 0,
+   "explanation": "Too many plants in a small space fight for resources."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why are weeds removed from the seedbed?",
+   "options": [
+    "They are colourful",
+    "They protect seedlings from rain",
+    "They take water, light and food from the crop",
+    "They add manure"
+   ],
+   "answer": 2,
+   "explanation": "Weeds compete with crops."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is a fruit?",
+   "options": [
+    "The roots of a plant",
+    "The leaves of a plant",
+    "The part of a plant that holds the seeds",
+    "The stem of a plant"
+   ],
+   "answer": 2,
+   "explanation": "Fruits grow from flowers and hold seeds."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which nutrient do oranges and guavas supply in large amounts?",
+   "options": [
+    "Starch",
+    "Salt",
+    "Cooking oil",
+    "Vitamin C"
+   ],
+   "answer": 3,
+   "explanation": "Citrus fruits and guavas are rich in vitamin C."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is a grafted seedling?",
+   "options": [
+    "A seed in a bag",
+    "A dead plant",
+    "A plant grown in water",
+    "A young tree joined with a branch from a good tree"
+   ],
+   "answer": 3,
+   "explanation": "Grafted trees give good quality fruit sooner."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is compost mixed into the planting hole?",
+   "options": [
+    "It kills the seedling",
+    "It feeds the young plant and improves the soil",
+    "It prevents growth",
+    "It makes the hole shallow"
+   ],
+   "answer": 1,
+   "explanation": "Compost gives food and helps water retention."
+  },
+  {
+   "topic": "2.2",
+   "q": "How far should mulch be from the stem?",
+   "options": [
+    "Piled tightly against it",
+    "Ten metres",
+    "A small gap away",
+    "Not needed"
+   ],
+   "answer": 2,
+   "explanation": "Mulch touching the stem can cause rot."
+  },
+  {
+   "topic": "2.2",
+   "q": "When should fruits be harvested?",
+   "options": [
+    "While green and hard",
+    "Before flowers appear",
+    "When they are ripe",
+    "After they rot"
+   ],
+   "answer": 2,
+   "explanation": "Ripe fruit is tastiest and has the most vitamins."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why is a hole dug before planting a tree seedling?",
+   "options": [
+    "To give the tree shade",
+    "To hide the seedling",
+    "To water the neighbours",
+    "To loosen the soil so roots can grow easily"
+   ],
+   "answer": 3,
+   "explanation": "Loose soil lets roots spread."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these is a climbing fruit?",
+   "options": [
+    "Grapes",
+    "Guava",
+    "Mango",
+    "Orange"
+   ],
+   "answer": 0,
+   "explanation": "Grapes grow on vines."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which is an example of caring for fruit plants?",
+   "options": [
+    "Leaving them without water",
+    "Watering, weeding and mulching",
+    "Cutting the roots",
+    "Burning the leaves"
+   ],
+   "answer": 1,
+   "explanation": "Care keeps plants healthy."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which is a pest problem for ripe fruit?",
+   "options": [
+    "Stones",
+    "Fruit flies and birds",
+    "Sand",
+    "Sun"
+   ],
+   "answer": 1,
+   "explanation": "Ripe fruit attracts flies and birds."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which nutrient in oranges and guavas helps the body to heal cuts and fight colds?",
+   "options": [
+    "Starch",
+    "Cooking oil",
+    "Vitamin C",
+    "Salt"
+   ],
+   "answer": 2,
+   "explanation": "Vitamin C helps the body fight illness."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the young one of a goat called?",
+   "options": [
+    "Calf",
+    "Lamb",
+    "Chick",
+    "Kid"
+   ],
+   "answer": 3,
+   "explanation": "A young goat is a kid."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the meat of sheep called?",
+   "options": [
+    "Mutton",
+    "Beef",
+    "Pork",
+    "Bacon"
+   ],
+   "answer": 0,
+   "explanation": "Mutton is sheep meat."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is leather made from?",
+   "options": [
+    "Feathers",
+    "Animal hides and skins",
+    "Wool only",
+    "Eggs"
+   ],
+   "answer": 1,
+   "explanation": "Skins of cattle, goats and sheep become leather."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is an animal welfare need?",
+   "options": [
+    "Being hit",
+    "Clean water always available",
+    "Living in mud",
+    "No shelter"
+   ],
+   "answer": 1,
+   "explanation": "Animals need water, feed, shelter, health care and kind treatment."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which animal browses on leaves and shoots from bushes?",
+   "options": [
+    "Hen",
+    "Duck",
+    "Rabbit only",
+    "Goat"
+   ],
+   "answer": 3,
+   "explanation": "Goats browse on shrubs."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why should hands be washed after handling chickens?",
+   "options": [
+    "To colour the hands",
+    "To get feathers off",
+    "To warm the hands",
+    "To remove germs"
+   ],
+   "answer": 3,
+   "explanation": "Poultry can carry germs."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which of these root foods gives the body energy?",
+   "options": [
+    "Sweet potato",
+    "Egg",
+    "Milk",
+    "Kale"
+   ],
+   "answer": 0,
+   "explanation": "Sweet potatoes are starchy."
+  },
+  {
+   "topic": "2.4",
+   "q": "What do body-building foods do?",
+   "options": [
+    "Help the body to grow and repair",
+    "Only give heat",
+    "Only quench thirst",
+    "Make food taste sweet"
+   ],
+   "answer": 0,
+   "explanation": "They are rich in protein."
+  },
+  {
+   "topic": "2.4",
+   "q": "What does variety mean in eating?",
+   "options": [
+    "Eating one food only",
+    "Eating a lot",
+    "Eating many different kinds of food",
+    "Eating slowly"
+   ],
+   "answer": 2,
+   "explanation": "Variety means different foods."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which group does githeri belong to mainly?",
+   "options": [
+    "Only protective",
+    "Only water",
+    "Energy and body-building",
+    "Drinks"
+   ],
+   "answer": 2,
+   "explanation": "Maize gives energy, beans give protein."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which activity is part of keeping a food journal?",
+   "options": [
+    "Buying food",
+    "Cooking only",
+    "Throwing food away",
+    "Writing what you eat at each meal"
+   ],
+   "answer": 3,
+   "explanation": "Records help you check your meals."
+  },
+  {
+   "topic": "2.4",
+   "q": "Why should we not skip breakfast?",
+   "options": [
+    "The body needs energy and nutrients to start the day",
+    "Breakfast is a waste of money",
+    "It makes you tired",
+    "It is not real food"
+   ],
+   "answer": 0,
+   "explanation": "Breakfast gives energy for school."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is boiling?",
+   "options": [
+    "Cooking in a little oil",
+    "Cooking food in bubbling hot water",
+    "Cooking in the sun",
+    "Cooking without heat"
+   ],
+   "answer": 1,
+   "explanation": "Boiling uses hot water."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which of these is used for boiling food?",
+   "options": [
+    "A frying pan only",
+    "A plate",
+    "A saucepan with a lid",
+    "A basket"
+   ],
+   "answer": 2,
+   "explanation": "A saucepan holds water."
+  },
+  {
+   "topic": "2.5",
+   "q": "About how long are eggs boiled for hard-boiled eggs?",
+   "options": [
+    "About 10 seconds",
+    "About 5 hours",
+    "About 10 minutes",
+    "One second"
+   ],
+   "answer": 2,
+   "explanation": "Ten minutes of gentle boiling makes hard eggs."
+  },
+  {
+   "topic": "2.5",
+   "q": "Why should vegetables be boiled for a short time only?",
+   "options": [
+    "Short boiling makes them poisonous",
+    "Long boiling makes them colder",
+    "It saves nothing",
+    "Long boiling destroys some vitamins"
+   ],
+   "answer": 3,
+   "explanation": "Vitamins are lost with too much cooking."
+  },
+  {
+   "topic": "2.5",
+   "q": "Why do we crack an egg into a bowl first?",
+   "options": [
+    "To check it and remove bits of shell",
+    "To make it hot",
+    "To make it grow",
+    "To cook it"
+   ],
+   "answer": 0,
+   "explanation": "You avoid a bad egg spoiling the pan."
+  },
+  {
+   "topic": "2.5",
+   "q": "What should you do if oil in a pan catches fire?",
+   "options": [
+    "Pour water on it",
+    "An adult covers the pan with a lid and turns off the heat",
+    "Blow on it",
+    "Carry the pan outside quickly"
+   ],
+   "answer": 1,
+   "explanation": "Water makes an oil fire worse."
+  },
+  {
+   "topic": "2.5",
+   "q": "Why should the frying pan be heated before adding food?",
+   "options": [
+    "To burn it",
+    "So that food browns and does not soak up oil",
+    "To melt it",
+    "To break it"
+   ],
+   "answer": 1,
+   "explanation": "Food placed in cold oil soaks up oil."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which disease can be spread by dirty hands?",
+   "options": [
+    "Broken leg",
+    "Sunburn",
+    "Diarrhoea",
+    "Toothache only"
+   ],
+   "answer": 2,
+   "explanation": "Germs on hands can get into the mouth."
+  },
+  {
+   "topic": "3.1",
+   "q": "What is a tippy tap?",
+   "options": [
+    "A simple hand-washing device made from a container",
+    "A type of soap",
+    "A toothbrush",
+    "A cooking pot"
+   ],
+   "answer": 0,
+   "explanation": "A tippy tap uses little water."
+  },
+  {
+   "topic": "3.1",
+   "q": "What should you use to brush your teeth?",
+   "options": [
+    "A toothbrush and toothpaste",
+    "A comb",
+    "A knife",
+    "A cloth soaked in oil"
+   ],
+   "answer": 0,
+   "explanation": "These clean teeth safely."
+  },
+  {
+   "topic": "3.1",
+   "q": "How can you make drinking water safe?",
+   "options": [
+    "Leave it in the sun uncovered",
+    "Boil it and let it cool covered",
+    "Add soil",
+    "Stir it with a stick"
+   ],
+   "answer": 1,
+   "explanation": "Boiling kills germs."
+  },
+  {
+   "topic": "3.1",
+   "q": "Which PPE would you wear on your hands to handle dirty things?",
+   "options": [
+    "Gumboots",
+    "Gloves",
+    "Headgear",
+    "Dust mask"
+   ],
+   "answer": 1,
+   "explanation": "Gloves cover the hands."
+  },
+  {
+   "topic": "3.1",
+   "q": "What should you do after coughing into your hands?",
+   "options": [
+    "Wipe them on your clothes",
+    "Ignore it",
+    "Shake hands",
+    "Wash your hands with soap and water"
+   ],
+   "answer": 3,
+   "explanation": "Germs from coughs stay on hands."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which is a method of cleaning the home?",
+   "options": [
+    "Planting",
+    "Sowing",
+    "Grafting",
+    "Mopping"
+   ],
+   "answer": 3,
+   "explanation": "Mopping cleans floors."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why do we dust from high places to low places?",
+   "options": [
+    "Dust falls downward",
+    "Low places are dirtier",
+    "High places are easier",
+    "It looks better"
+   ],
+   "answer": 0,
+   "explanation": "Dust moves downward."
+  },
+  {
+   "topic": "3.2",
+   "q": "What should you do after mopping a floor?",
+   "options": [
+    "Put up a sign that the floor is wet",
+    "Run on it",
+    "Pour more water",
+    "Sweep it"
+   ],
+   "answer": 0,
+   "explanation": "Wet floors are slippery."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why should a rubbish bin have a lid?",
+   "options": [
+    "To make it heavy",
+    "To look pretty",
+    "To keep out flies and rats",
+    "To stop rubbish from rotting"
+   ],
+   "answer": 2,
+   "explanation": "Lids stop pests."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why should stagnant water be emptied from tins and tyres?",
+   "options": [
+    "It smells of soap",
+    "It is too clean",
+    "It cools the compound",
+    "Mosquitoes lay eggs in it"
+   ],
+   "answer": 3,
+   "explanation": "Mosquitoes spread malaria."
+  },
+  {
+   "topic": "3.2",
+   "q": "What should you do after cleaning the house?",
+   "options": [
+    "Eat without washing",
+    "Play in the dirt",
+    "Touch food",
+    "Wash hands with soap"
+   ],
+   "answer": 3,
+   "explanation": "Hands may carry germs."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which PPE protects the hands?",
+   "options": [
+    "Gloves",
+    "Gumboots",
+    "Dust mask",
+    "Headgear"
+   ],
+   "answer": 0,
+   "explanation": "Gloves cover the hands."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which PPE is worn on the feet at school and in the garden?",
+   "options": [
+    "Gloves",
+    "Canvas shoes",
+    "Dust mask",
+    "Overall"
+   ],
+   "answer": 1,
+   "explanation": "Canvas shoes protect feet."
+  },
+  {
+   "topic": "3.3",
+   "q": "How should gumboots be dried?",
+   "options": [
+    "Beside a hot fire",
+    "In a closed cupboard while wet",
+    "Upside down in a shady, airy place",
+    "Under a heavy weight"
+   ],
+   "answer": 2,
+   "explanation": "This drains water and protects the rubber."
+  },
+  {
+   "topic": "3.3",
+   "q": "How should an overall be cleaned?",
+   "options": [
+    "Wipe it with a dry cloth only",
+    "Burn it",
+    "Wash with soap, rinse and dry in the sun",
+    "Leave it wet"
+   ],
+   "answer": 2,
+   "explanation": "Sunshine helps to kill germs."
+  },
+  {
+   "topic": "3.3",
+   "q": "Where should clean PPE be stored?",
+   "options": [
+    "In a wet corner",
+    "In a dirty box",
+    "On the floor",
+    "In a dry, clean place"
+   ],
+   "answer": 3,
+   "explanation": "Damp PPE grows mould."
+  },
+  {
+   "topic": "3.3",
+   "q": "Why should chemicals not be used to clean PPE unless an adult directs you?",
+   "options": [
+    "They can harm the skin and the material",
+    "They make it too clean",
+    "They are too cheap",
+    "They cool the PPE"
+   ],
+   "answer": 0,
+   "explanation": "Chemicals can be dangerous."
+  },
+  {
+   "topic": "4.1",
+   "q": "What is one purpose of tacking?",
+   "options": [
+    "To cut cloth",
+    "To hold layers of cloth together before sewing",
+    "To wash cloth",
+    "To iron cloth"
+   ],
+   "answer": 1,
+   "explanation": "Tacking keeps layers in place."
+  },
+  {
+   "topic": "4.1",
+   "q": "About how long is each stitch in even tacking in this lesson?",
+   "options": [
+    "1 metre",
+    "10 cm",
+    "1 cm",
+    "1 mm"
+   ],
+   "answer": 2,
+   "explanation": "Even tacking uses 1 cm stitches and gaps."
+  },
+  {
+   "topic": "4.1",
+   "q": "What should you never do with a needle?",
+   "options": [
+    "Thread it",
+    "Keep it in a pin cushion",
+    "Put it in your mouth",
+    "Use a thimble"
+   ],
+   "answer": 2,
+   "explanation": "Needles are dangerous in the mouth."
+  },
+  {
+   "topic": "4.1",
+   "q": "Why do we knot the end of the thread?",
+   "options": [
+    "So it does not pull through the cloth",
+    "To make it stronger",
+    "To make it longer",
+    "To colour it"
+   ],
+   "answer": 0,
+   "explanation": "A knot anchors the thread."
+  },
+  {
+   "topic": "4.1",
+   "q": "What do you use to mark a straight line on cloth?",
+   "options": [
+    "Chalk and a ruler",
+    "A hammer",
+    "A broom",
+    "A plate"
+   ],
+   "answer": 0,
+   "explanation": "Chalk marks show the line."
+  },
+  {
+   "topic": "4.1",
+   "q": "When is even tacking most useful?",
+   "options": [
+    "Only for straight seams that need no hold",
+    "For curves and slippery cloth",
+    "When you do not want to sew",
+    "Only for paper"
+   ],
+   "answer": 1,
+   "explanation": "Even tacking holds firmly."
+  },
+  {
+   "topic": "4.1",
+   "q": "How should you hold the cloth if you are right-handed?",
+   "options": [
+    "In your teeth",
+    "In the left hand while sewing with the right",
+    "Under your foot",
+    "Above your head"
+   ],
+   "answer": 1,
+   "explanation": "This is the usual way."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.1",
+   "marks": 3,
+   "q": "Explain the difference between green and brown materials for compost, with an example of each.",
+   "answer": "Green materials are fresh and wet such as fresh grass or peelings. Brown materials are dry such as dry leaves or straw.",
+   "working": "1 mark for each meaning and 1 mark for correct examples."
+  },
+  {
+   "topic": "1.1",
+   "marks": 5,
+   "q": "A school wants to make compost from kitchen and garden wastes. Write a plan with the materials, the place, the steps and the safety measures.",
+   "answer": "Materials: peelings, leaves, grass. Place: shaded, well-drained, near the garden. Steps: sticks, layers, water, cover, turn. Safety: gloves, wash hands, keep children away from the heap.",
+   "working": "1 mark for materials, 1 for place, 2 for steps, 1 for safety."
+  },
+  {
+   "topic": "1.2",
+   "marks": 3,
+   "q": "Describe how to make a bottle drip for one plant.",
+   "answer": "Make tiny holes in the cap, fill the bottle with clean water, bury the neck upside down near the plant, press soil around it and refill when empty.",
+   "working": "1 mark for holes in cap, 1 mark for placing near plant, 1 mark for filling and refilling."
+  },
+  {
+   "topic": "1.2",
+   "marks": 4,
+   "q": "A drip system drips very fast at one hole and not at all at another. Explain what may be wrong and how to fix each.",
+   "answer": "The first hole is too big, so tie cloth around it or use a smaller hole. The other hole is blocked, so clear it gently with a thin wire.",
+   "working": "1 mark each for cause and fix for both holes."
+  },
+  {
+   "topic": "1.3",
+   "marks": 3,
+   "q": "State three dangers of using fuels at home and how to avoid one of them.",
+   "answer": "Fire burns, charcoal fumes are poisonous and gas can leak. Avoid one by keeping children away from fire, cooking in a place with fresh air or closing the gas valve after use.",
+   "working": "2 marks for dangers, 1 mark for a correct way to avoid one."
+  },
+  {
+   "topic": "1.3",
+   "marks": 3,
+   "q": "Name three safety rules when using gas for cooking.",
+   "answer": "Keep the cylinder upright and away from fire; close the valve after use; if you smell gas open windows and do not light a flame.",
+   "working": "1 mark for each rule."
+  },
+  {
+   "topic": "1.4",
+   "marks": 4,
+   "q": "Describe how to make a scarecrow.",
+   "answer": "Fix a long pole firmly in the ground; tie a shorter stick across it; put a stuffed head on top; dress with a stuffed shirt and hat; add tins or shiny strips.",
+   "working": "1 mark for each of four correct steps."
+  },
+  {
+   "topic": "1.4",
+   "marks": 2,
+   "q": "What is meant by coexisting with wild animals?",
+   "answer": "Living together peacefully so that both farmers and animals are safe.",
+   "working": "1 mark for living together, 1 mark for both safe."
+  },
+  {
+   "topic": "2.1",
+   "marks": 2,
+   "q": "Give two advantages of direct sowing.",
+   "answer": "Roots are not disturbed, no nursery is needed, saves time and work (any two).",
+   "working": "1 mark for each advantage."
+  },
+  {
+   "topic": "2.1",
+   "marks": 4,
+   "q": "Describe how to care for a seedbed after sowing.",
+   "answer": "Water gently and regularly, remove weeds, thin the seedlings, and protect the bed from animals and birds.",
+   "working": "1 mark for each correct activity."
+  },
+  {
+   "topic": "2.2",
+   "marks": 3,
+   "q": "Give three reasons why fruits are important.",
+   "answer": "They give vitamins, they give fibre and water, and they can be sold for money.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "2.2",
+   "marks": 2,
+   "q": "Why must a passion fruit plant have a trellis?",
+   "answer": "Its stem is soft and cannot stand, so the trellis supports it as it climbs and spreads.",
+   "working": "1 mark for soft stem, 1 mark for support."
+  },
+  {
+   "topic": "2.2",
+   "marks": 3,
+   "q": "List three safety rules when harvesting fruit.",
+   "answer": "Use a ladder or picking pole; do not climb thin branches; wash hands and fruit; use both hands (any three).",
+   "working": "1 mark for each rule."
+  },
+  {
+   "topic": "2.2",
+   "marks": 4,
+   "q": "Describe how a group can share the work of growing a fruit tree at school.",
+   "answer": "Make a chart with jobs such as watering, weeding, mulching and recording; take turns each week; check the plant daily; record dates of flowers and fruits.",
+   "working": "1 mark for each correct activity or arrangement."
+  },
+  {
+   "topic": "2.2",
+   "marks": 4,
+   "q": "Explain how mulch and compost help a young fruit tree.",
+   "answer": "Mulch keeps the soil moist, reduces weeds and protects roots from heat. Compost feeds the tree and improves soil structure.",
+   "working": "2 marks for mulch, 2 marks for compost."
+  },
+  {
+   "topic": "2.3",
+   "marks": 3,
+   "q": "Give three uses of chickens.",
+   "answer": "Eggs, meat, manure, feathers and income (any three).",
+   "working": "1 mark for each use."
+  },
+  {
+   "topic": "2.3",
+   "marks": 2,
+   "q": "Give two reasons why goats are suitable for dry areas.",
+   "answer": "They eat leaves, shrubs and grass, and can live where cattle find little to eat.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "2.4",
+   "marks": 2,
+   "q": "Why do we need protective foods?",
+   "answer": "They give vitamins and minerals that fight sickness and keep the body healthy.",
+   "working": "1 mark for fight sickness, 1 mark for vitamins or minerals."
+  },
+  {
+   "topic": "2.4",
+   "marks": 4,
+   "q": "Describe how to keep a food journal for one week.",
+   "answer": "Draw a table; write what you eat at every meal; write the group of each food; at the end of the week check which groups were missing.",
+   "working": "1 mark for each step."
+  },
+  {
+   "topic": "2.5",
+   "marks": 3,
+   "q": "Name three foods that are boiled.",
+   "answer": "Potatoes, eggs, cassava, maize, beans, rice (any three).",
+   "working": "1 mark for each food."
+  },
+  {
+   "topic": "2.5",
+   "marks": 4,
+   "q": "Describe how to boil potatoes.",
+   "answer": "Wash, peel and cut into equal pieces; put in a pot with water and salt; cover and boil for about 15 to 20 minutes until soft; drain the water carefully.",
+   "working": "1 mark for each of four steps."
+  },
+  {
+   "topic": "2.5",
+   "marks": 3,
+   "q": "Why should vegetables not be boiled for a long time?",
+   "answer": "Long boiling removes vitamins into the water, so they lose their goodness.",
+   "working": "1 mark for each correct point."
+  },
+  {
+   "topic": "3.1",
+   "marks": 3,
+   "q": "Give three times when you should wash your hands.",
+   "answer": "Before eating, after using the toilet, after playing outside, after touching animals, after coughing (any three).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.1",
+   "marks": 3,
+   "q": "Explain why a tippy tap is useful in a school without a tap.",
+   "answer": "It saves water, it can be made cheaply from a container, and children do not touch the container with dirty hands.",
+   "working": "1 mark for each point."
+  },
+  {
+   "topic": "3.1",
+   "marks": 5,
+   "q": "Design a hygiene log for one week. List five practices to record and explain how you will use it.",
+   "answer": "Practices: washed hands before meals, brushed teeth twice, bathed, clean clothes, drank safe water. Tick each day, count ticks at the end, and improve the practice with fewest ticks.",
+   "working": "3 marks for practices and table, 2 marks for use."
+  },
+  {
+   "topic": "3.2",
+   "marks": 2,
+   "q": "Why do we dust before sweeping?",
+   "answer": "Dust falls to the floor, so sweeping afterwards removes it.",
+   "working": "1 mark for dust falls, 1 mark for sweeping removes."
+  },
+  {
+   "topic": "3.2",
+   "marks": 4,
+   "q": "Explain how stagnant water around the home can lead to disease and how to prevent it.",
+   "answer": "Mosquitoes breed in it and spread malaria. Empty tins and tyres, fill puddles, and drain water.",
+   "working": "1 mark for breeding, 1 mark for disease, 2 marks for prevention."
+  },
+  {
+   "topic": "3.3",
+   "marks": 2,
+   "q": "What is personal protective equipment (PPE)?",
+   "answer": "Clothing and gear worn to protect the body from dirt, injury, dust and germs.",
+   "working": "1 mark for clothing or gear, 1 mark for protection."
+  },
+  {
+   "topic": "3.3",
+   "marks": 2,
+   "q": "Why should gumboots not be dried near a hot fire?",
+   "answer": "Heat can crack the rubber and spoil the boots.",
+   "working": "1 mark for heat, 1 mark for cracking."
+  },
+  {
+   "topic": "3.3",
+   "marks": 3,
+   "q": "Choose PPE for gardening and say why.",
+   "answer": "Gloves protect hands from dirt and cuts; gumboots protect feet from mud; hat protects the head from the sun.",
+   "working": "1 mark for each item with reason."
+  },
+  {
+   "topic": "4.1",
+   "marks": 4,
+   "q": "Describe how to make even tacking.",
+   "answer": "Mark a line; bring the needle up; make 1 cm stitches with 1 cm gaps along the line; keep the thread loose; finish with a small back stitch.",
+   "working": "1 mark for each of four steps."
+  },
+  {
+   "topic": "4.1",
+   "marks": 4,
+   "q": "Describe how to make a handkerchief hem using tacking.",
+   "answer": "Cut a 25 cm square; fold each edge twice by about 1 cm; pin; tack along the fold with even tacking; check evenness; sew permanently and remove tacking.",
+   "working": "1 mark for each of four steps."
+  },
+  {
+   "topic": "4.1",
+   "marks": 5,
+   "q": "Plan a group project of making a scarecrow shirt using tacking. Give materials, steps, safety and how the group shares work.",
+   "answer": "Materials: old cloth, needles, thread, scissors, chalk, ruler. Steps: measure and cut two pieces; pin; tack along sides; leave openings; sew firmly; stuff. Safety: count needles. Group: share tools, assign jobs.",
+   "working": "1 mark materials, 2 marks steps, 1 mark safety, 1 mark teamwork."
+  }
+ ]
+}

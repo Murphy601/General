@@ -1,0 +1,1221 @@
+{
+ "mcq": [
+  {
+   "topic": "1.1",
+   "q": "What does soil conservation mean?",
+   "options": [
+    "Looking after soil so that it stays healthy and stays in place",
+    "Digging up all the soil on a farm",
+    "Selling soil to other farmers",
+    "Covering the soil with plastic"
+   ],
+   "answer": 0,
+   "explanation": "Soil conservation protects the soil from being washed away and from losing its plant food."
+  },
+  {
+   "topic": "1.1",
+   "q": "Why should broken glass be kept out of compost?",
+   "options": [
+    "It does not rot and can cut people",
+    "It rots too fast",
+    "It makes the heap too wet",
+    "It smells bad"
+   ],
+   "answer": 0,
+   "explanation": "Glass never rots and can injure anyone handling the compost."
+  },
+  {
+   "topic": "1.1",
+   "q": "Why do we sprinkle soil or old compost between layers?",
+   "options": [
+    "It makes the heap sweeter",
+    "It adds tiny living things that help wastes to rot",
+    "It keeps birds away",
+    "It adds plastic"
+   ],
+   "answer": 1,
+   "explanation": "Soil and old compost carry bacteria and fungi that break down wastes."
+  },
+  {
+   "topic": "1.1",
+   "q": "Why is a compost heap turned with a fork?",
+   "options": [
+    "To make it smaller",
+    "To let in air and mix the materials",
+    "To remove all the water",
+    "To add plastic"
+   ],
+   "answer": 1,
+   "explanation": "Mixing brings outer material to the middle so all rots evenly."
+  },
+  {
+   "topic": "1.1",
+   "q": "What is soil erosion?",
+   "options": [
+    "Adding manure to soil",
+    "Planting trees",
+    "Watering the garden",
+    "The washing or blowing away of top soil"
+   ],
+   "answer": 3,
+   "explanation": "Bare soil can be carried away by rain or wind."
+  },
+  {
+   "topic": "1.2",
+   "q": "What is irrigation?",
+   "options": [
+    "Digging the soil",
+    "Harvesting crops",
+    "Spraying crops with medicine",
+    "Giving water to crops by ways other than rain"
+   ],
+   "answer": 3,
+   "explanation": "Irrigation means supplying water to crops artificially."
+  },
+  {
+   "topic": "1.2",
+   "q": "Why is the water container placed on a stand?",
+   "options": [
+    "So water flows down through the pipe",
+    "To keep it out of the sun forever",
+    "To hide it from birds",
+    "So it looks tall"
+   ],
+   "answer": 0,
+   "explanation": "A raised container gives water the push to flow down."
+  },
+  {
+   "topic": "1.2",
+   "q": "Where is the neck of the bottle placed in a bottle drip system?",
+   "options": [
+    "In the soil beside the plant",
+    "On the leaves",
+    "In the bucket",
+    "High in a tree"
+   ],
+   "answer": 0,
+   "explanation": "The bottle is buried neck down near the plant."
+  },
+  {
+   "topic": "1.2",
+   "q": "What does mulch do?",
+   "options": [
+    "Makes the soil hot",
+    "Kills the plant",
+    "Keeps the soil moist by reducing evaporation",
+    "Adds plastic to the soil"
+   ],
+   "answer": 2,
+   "explanation": "A covering of dry grass slows down drying of the soil."
+  },
+  {
+   "topic": "1.2",
+   "q": "Why does a higher container give a faster drip?",
+   "options": [
+    "It has more air",
+    "It has a lid",
+    "It is nearer the sun",
+    "Gravity pushes the water more strongly"
+   ],
+   "answer": 3,
+   "explanation": "A higher container gives a bigger push for water flowing down."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a fuel?",
+   "options": [
+    "A kind of food",
+    "A cleaning tool",
+    "A type of soil",
+    "Something we burn to get heat"
+   ],
+   "answer": 3,
+   "explanation": "Fuels such as wood and gas are burnt for heat."
+  },
+  {
+   "topic": "1.3",
+   "q": "What does it mean to conserve fuel?",
+   "options": [
+    "To use only what is needed and make it last",
+    "To burn as much as possible",
+    "To waste it",
+    "To hide it"
+   ],
+   "answer": 0,
+   "explanation": "Conserving fuel means saving it."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which stove saves more charcoal?",
+   "options": [
+    "A stone on the ground",
+    "An improved jiko",
+    "An open fire in the wind",
+    "A broken pot"
+   ],
+   "answer": 1,
+   "explanation": "An improved jiko holds heat around the pot."
+  },
+  {
+   "topic": "1.3",
+   "q": "Which statement about a three-stone fire is correct?",
+   "options": [
+    "It is completely smoke-free",
+    "It never needs firewood",
+    "It loses a lot of heat to the air",
+    "It saves the most fuel"
+   ],
+   "answer": 2,
+   "explanation": "Open fires waste heat."
+  },
+  {
+   "topic": "1.3",
+   "q": "What is a good first step if a person's clothes catch fire?",
+   "options": [
+    "Run fast",
+    "Wave the arms",
+    "Stop, drop and roll on the ground",
+    "Jump in the air"
+   ],
+   "answer": 2,
+   "explanation": "Rolling smothers the flames."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which of these is a small wild animal that can destroy crops?",
+   "options": [
+    "Cow",
+    "Hen",
+    "Goat",
+    "Weaver bird"
+   ],
+   "answer": 3,
+   "explanation": "Weaver birds and other birds eat grain crops."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which is the best material for stuffing a scarecrow?",
+   "options": [
+    "Dry grass",
+    "Wet mud",
+    "Stones",
+    "Glass"
+   ],
+   "answer": 0,
+   "explanation": "Dry grass is light and easy to use."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which of these is a peaceful way of protecting fruit from birds?",
+   "options": [
+    "Poisoning the birds",
+    "Covering trees with a light net",
+    "Setting traps that kill",
+    "Burning the trees"
+   ],
+   "answer": 1,
+   "explanation": "A net keeps birds away without harming them."
+  },
+  {
+   "topic": "1.4",
+   "q": "How do bees and butterflies help crops and fruit trees?",
+   "options": [
+    "They eat the fruit",
+    "They dig the soil",
+    "They carry pollen from flower to flower",
+    "They water the plants"
+   ],
+   "answer": 2,
+   "explanation": "Pollination helps fruits and seeds to form."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which is the safest way to make holes or dig for scarecrow parts?",
+   "options": [
+    "Use bare hands on sharp tools",
+    "Play with the tools",
+    "Ask an adult to help",
+    "Use broken glass"
+   ],
+   "answer": 2,
+   "explanation": "Safety comes first."
+  },
+  {
+   "topic": "1.4",
+   "q": "Which person is protecting wildlife?",
+   "options": [
+    "A learner who reports poaching to a wildlife officer",
+    "A hunter who sets a trap",
+    "A person who poisons birds",
+    "A person who burns a forest"
+   ],
+   "answer": 0,
+   "explanation": "Reporting poaching helps protect animals."
+  },
+  {
+   "topic": "2.1",
+   "q": "What is transplanting?",
+   "options": [
+    "Moving young plants from a nursery to the field",
+    "Sowing seeds directly",
+    "Harvesting",
+    "Making compost"
+   ],
+   "answer": 0,
+   "explanation": "Transplanting means moving seedlings."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why should a seedbed for tiny seeds be fine?",
+   "options": [
+    "Lumps help seeds",
+    "Tiny seeds cannot push through big lumps",
+    "Fine soil makes seeds bigger",
+    "It is a school rule"
+   ],
+   "answer": 1,
+   "explanation": "Tiny seeds have little food and are weak."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why should tiny seeds not be sown deeply?",
+   "options": [
+    "They grow faster",
+    "They run out of stored food before reaching the light",
+    "They become large",
+    "They wash away"
+   ],
+   "answer": 1,
+   "explanation": "Deep seeds cannot push up to the surface."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why is dry grass laid lightly over a seedbed?",
+   "options": [
+    "It stops seeds growing",
+    "It makes seeds fly",
+    "It makes the soil hard",
+    "It keeps moisture and protects seeds from rain and birds"
+   ],
+   "answer": 3,
+   "explanation": "Mulch protects the surface."
+  },
+  {
+   "topic": "2.1",
+   "q": "Why do we label the seedbed rows?",
+   "options": [
+    "To decorate",
+    "To scare birds",
+    "To give plants names",
+    "To remember the crop and the date sown"
+   ],
+   "answer": 3,
+   "explanation": "Labels prevent confusion."
+  },
+  {
+   "topic": "2.1",
+   "q": "How long may carrot seeds take to sprout?",
+   "options": [
+    "One to three weeks",
+    "One hour",
+    "One day",
+    "One year"
+   ],
+   "answer": 0,
+   "explanation": "Carrot seeds are slow, so be patient."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which of these fruits grows on a woody tree?",
+   "options": [
+    "Passion fruit",
+    "Mango",
+    "Grapes",
+    "Blackberry"
+   ],
+   "answer": 1,
+   "explanation": "Mango grows on a woody tree."
+  },
+  {
+   "topic": "2.2",
+   "q": "What do leaves do for a fruit tree?",
+   "options": [
+    "Take in water from the soil",
+    "Hold the tree in the ground",
+    "Use sunlight to make food for the plant",
+    "Make the trunk"
+   ],
+   "answer": 2,
+   "explanation": "Leaves make food using sunlight."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which site is suitable for planting a fruit tree?",
+   "options": [
+    "A deep shade under big trees",
+    "A flooded area",
+    "Inside a building",
+    "A sunny place with space to spread"
+   ],
+   "answer": 3,
+   "explanation": "Fruit trees need light and space."
+  },
+  {
+   "topic": "2.2",
+   "q": "At what depth should the seedling be planted?",
+   "options": [
+    "Very deep",
+    "On top of the ground",
+    "Upside down",
+    "The same depth as it was in the bag"
+   ],
+   "answer": 3,
+   "explanation": "Planting too deep can rot the stem."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why does passion fruit need a trellis?",
+   "options": [
+    "Its stem is soft and cannot stand alone",
+    "It grows underground",
+    "It is a tree",
+    "It eats insects"
+   ],
+   "answer": 0,
+   "explanation": "Climbers need supports."
+  },
+  {
+   "topic": "2.2",
+   "q": "Which sign shows a purple passion fruit is ripe?",
+   "options": [
+    "Bright green skin",
+    "Deep purple skin that begins to wrinkle",
+    "A white flower",
+    "Hard green skin"
+   ],
+   "answer": 1,
+   "explanation": "Purple types change colour when ripe."
+  },
+  {
+   "topic": "2.2",
+   "q": "How does eating fruit help our health?",
+   "options": [
+    "It gives only sugar and nothing else",
+    "It stops us drinking water",
+    "It gives vitamins and fibre",
+    "It makes us weak"
+   ],
+   "answer": 2,
+   "explanation": "Fruits protect the body and help digestion."
+  },
+  {
+   "topic": "2.2",
+   "q": "What is the main job of the trunk of a tree?",
+   "options": [
+    "Make flowers",
+    "Absorb sunlight",
+    "Carry water and food between roots and leaves",
+    "Collect rain"
+   ],
+   "answer": 2,
+   "explanation": "The trunk is like a pipe for the plant."
+  },
+  {
+   "topic": "2.2",
+   "q": "Why should you avoid climbing thin branches while harvesting?",
+   "options": [
+    "They are too sweet",
+    "They are too high",
+    "They are cold",
+    "They can break and you may fall"
+   ],
+   "answer": 3,
+   "explanation": "Safety while picking fruit."
+  },
+  {
+   "topic": "2.2",
+   "q": "What can an agricultural extension officer help with?",
+   "options": [
+    "Selling your tools",
+    "Advice on which varieties and methods suit your area",
+    "Cooking meals",
+    "Building a house"
+   ],
+   "answer": 1,
+   "explanation": "Extension officers advise farmers."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these is a domestic animal?",
+   "options": [
+    "Zebra",
+    "Goat",
+    "Lion",
+    "Giraffe"
+   ],
+   "answer": 1,
+   "explanation": "Goats are kept by farmers."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is the young one of a hen called?",
+   "options": [
+    "Calf",
+    "Kid",
+    "Chick",
+    "Lamb"
+   ],
+   "answer": 2,
+   "explanation": "A chick is a young chicken."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which product does a dairy cow give?",
+   "options": [
+    "Eggs",
+    "Wool",
+    "Milk",
+    "Feathers"
+   ],
+   "answer": 2,
+   "explanation": "Dairy cows are kept for milk."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which domestic animal is often kept in dry areas for milk and meat?",
+   "options": [
+    "Camel",
+    "Pig",
+    "Duck",
+    "Rabbit"
+   ],
+   "answer": 0,
+   "explanation": "Camels survive in dry regions."
+  },
+  {
+   "topic": "2.3",
+   "q": "Who should be called when a cow is sick?",
+   "options": [
+    "A veterinary officer",
+    "A tailor",
+    "A carpenter",
+    "A driver"
+   ],
+   "answer": 0,
+   "explanation": "A vet treats sick animals."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which of these completes the farm cycle: animals, manure, ____?",
+   "options": [
+    "Machines",
+    "Crops",
+    "Roads",
+    "Bricks"
+   ],
+   "answer": 1,
+   "explanation": "Manure feeds crops, and crops feed animals."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is a balanced meal?",
+   "options": [
+    "A meal with only one kind of food",
+    "A meal with foods from all the main groups in the right amounts",
+    "A very large meal",
+    "A meal of only sweets"
+   ],
+   "answer": 1,
+   "explanation": "A balanced meal includes energy, body-building and protective foods."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which of these animal foods is rich in protein?",
+   "options": [
+    "Cassava",
+    "Bread",
+    "Banana",
+    "Fish"
+   ],
+   "answer": 3,
+   "explanation": "Fish is a protein food."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which nutrient do body-building foods supply?",
+   "options": [
+    "Protein",
+    "Fibre only",
+    "Water",
+    "Salt"
+   ],
+   "answer": 0,
+   "explanation": "Protein builds muscles."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which drink is best with meals?",
+   "options": [
+    "Clean water",
+    "Only soda",
+    "Only sugary juice",
+    "Dirty water"
+   ],
+   "answer": 0,
+   "explanation": "Water is essential and healthy."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which local vegetable is a protective food?",
+   "options": [
+    "Ugali",
+    "Managu",
+    "Rice",
+    "Butter"
+   ],
+   "answer": 1,
+   "explanation": "Managu is a green leafy vegetable."
+  },
+  {
+   "topic": "2.4",
+   "q": "Which of these belongs to more than one group?",
+   "options": [
+    "Sugar",
+    "Water",
+    "Groundnuts",
+    "Salt"
+   ],
+   "answer": 2,
+   "explanation": "Groundnuts give protein and energy."
+  },
+  {
+   "topic": "2.4",
+   "q": "What is one way to choose foods for a balanced meal?",
+   "options": [
+    "Pick only your favourite food",
+    "Pick only sweet food",
+    "Pick only cheap food",
+    "Pick one or more foods from each group"
+   ],
+   "answer": 3,
+   "explanation": "A balanced meal includes all three groups."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which food is usually boiled?",
+   "options": [
+    "Mandazi",
+    "Chips",
+    "Bhajia",
+    "Potatoes"
+   ],
+   "answer": 3,
+   "explanation": "Potatoes are commonly boiled."
+  },
+  {
+   "topic": "2.5",
+   "q": "What should you do before you start cooking?",
+   "options": [
+    "Wash your hands",
+    "Play with the fire",
+    "Eat first",
+    "Take off your shoes"
+   ],
+   "answer": 0,
+   "explanation": "Clean hands prevent germs."
+  },
+  {
+   "topic": "2.5",
+   "q": "How do you test if boiled potatoes are cooked?",
+   "options": [
+    "They are still very hard",
+    "A fork goes in easily",
+    "They float",
+    "They turn green"
+   ],
+   "answer": 1,
+   "explanation": "Soft potatoes are ready."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which is a disadvantage of too much frying?",
+   "options": [
+    "It makes food cold",
+    "It removes all flavour",
+    "Too much oil is not good for health",
+    "It uses no heat"
+   ],
+   "answer": 2,
+   "explanation": "Too much oil can harm health."
+  },
+  {
+   "topic": "2.5",
+   "q": "What should you hold hot pots with?",
+   "options": [
+    "A wet cloth",
+    "Bare hands",
+    "Paper",
+    "A dry cloth or oven gloves"
+   ],
+   "answer": 3,
+   "explanation": "Wet cloth lets heat through."
+  },
+  {
+   "topic": "2.5",
+   "q": "What is the first thing to do with leftover cooked food?",
+   "options": [
+    "Leave it on the floor",
+    "Leave it in the sun",
+    "Throw it in the road",
+    "Cover it and store it safely"
+   ],
+   "answer": 3,
+   "explanation": "Covered food stays safe from flies."
+  },
+  {
+   "topic": "2.5",
+   "q": "Which of these is a kitchen safety rule?",
+   "options": [
+    "Play around the stove",
+    "Never leave cooking food alone",
+    "Leave water near hot oil",
+    "Use wet cloths"
+   ],
+   "answer": 1,
+   "explanation": "Careful supervision prevents fires."
+  },
+  {
+   "topic": "3.1",
+   "q": "About how long should you rub hands with soap?",
+   "options": [
+    "About 1 second",
+    "About 20 seconds",
+    "About 5 minutes",
+    "Not at all"
+   ],
+   "answer": 1,
+   "explanation": "This is long enough to clean properly."
+  },
+  {
+   "topic": "3.1",
+   "q": "How does the tippy tap release water?",
+   "options": [
+    "By a switch",
+    "By a battery",
+    "A foot lever tips the container",
+    "By a magnet"
+   ],
+   "answer": 2,
+   "explanation": "Pushing the lever tips the container."
+  },
+  {
+   "topic": "3.1",
+   "q": "Should you share a toothbrush?",
+   "options": [
+    "Yes with friends",
+    "Yes with family",
+    "No",
+    "Only at school"
+   ],
+   "answer": 2,
+   "explanation": "Toothbrushes carry germs."
+  },
+  {
+   "topic": "3.1",
+   "q": "Why should you not dip hands into a drinking water container?",
+   "options": [
+    "Hands may put germs into the water",
+    "Hands would get cold",
+    "The water would evaporate",
+    "The container would break"
+   ],
+   "answer": 0,
+   "explanation": "Use a clean cup or tap."
+  },
+  {
+   "topic": "3.1",
+   "q": "Why should you wash hands after removing gloves?",
+   "options": [
+    "Hands may still have germs",
+    "Gloves are wet",
+    "Gloves are heavy",
+    "To dry the gloves"
+   ],
+   "answer": 0,
+   "explanation": "Germs can get on hands."
+  },
+  {
+   "topic": "3.1",
+   "q": "What can be used if there is no soap?",
+   "options": [
+    "Mud",
+    "Clean ash and running water",
+    "Oil",
+    "Sugar"
+   ],
+   "answer": 1,
+   "explanation": "Ash helps to remove dirt when soap is not available."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which method wipes dust from furniture?",
+   "options": [
+    "Sweeping",
+    "Mopping",
+    "Dusting",
+    "Burning"
+   ],
+   "answer": 2,
+   "explanation": "Dusting removes dust from surfaces."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why do we sweep before mopping?",
+   "options": [
+    "Because mops cannot touch water",
+    "To use more soap",
+    "To waste time",
+    "To remove loose dirt so it does not turn to mud"
+   ],
+   "answer": 3,
+   "explanation": "Mopping dirt makes mud."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which refuse can be put in the compost heap?",
+   "options": [
+    "Vegetable peelings",
+    "Plastic bottles",
+    "Tins",
+    "Batteries"
+   ],
+   "answer": 0,
+   "explanation": "Organic waste rots."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which of these can be made into a mop?",
+   "options": [
+    "Strips of old cloth tied to a stick",
+    "A basin",
+    "A chair",
+    "A shoe"
+   ],
+   "answer": 0,
+   "explanation": "A cloth mop works well."
+  },
+  {
+   "topic": "3.2",
+   "q": "Which is a way of reducing waste?",
+   "options": [
+    "Buy more packages",
+    "Reuse containers",
+    "Throw things away quickly",
+    "Burn tins"
+   ],
+   "answer": 1,
+   "explanation": "Reuse cuts down rubbish."
+  },
+  {
+   "topic": "3.2",
+   "q": "Why should dusters and mops be washed after use?",
+   "options": [
+    "To make them smell",
+    "So they wear out",
+    "So they do not spread dirt and germs",
+    "To make them heavy"
+   ],
+   "answer": 2,
+   "explanation": "Dirty tools spread dirt."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which PPE keeps dust from being breathed in?",
+   "options": [
+    "Gumboots",
+    "Overall",
+    "Headgear",
+    "Dust mask"
+   ],
+   "answer": 3,
+   "explanation": "A mask covers the nose and mouth."
+  },
+  {
+   "topic": "3.3",
+   "q": "Why should torn gloves not be used?",
+   "options": [
+    "They are too clean",
+    "They are too heavy",
+    "They are too big",
+    "They may not protect the hands"
+   ],
+   "answer": 3,
+   "explanation": "Holes let dirt and germs in."
+  },
+  {
+   "topic": "3.3",
+   "q": "What should you do with laces when cleaning canvas shoes?",
+   "options": [
+    "Remove and wash them separately",
+    "Cut them",
+    "Burn them",
+    "Leave them dirty"
+   ],
+   "answer": 0,
+   "explanation": "Laces need to be washed too."
+  },
+  {
+   "topic": "3.3",
+   "q": "Which PPE is thrown away rather than washed?",
+   "options": [
+    "A cloth mask",
+    "An overall",
+    "A paper dust mask",
+    "Canvas shoes"
+   ],
+   "answer": 2,
+   "explanation": "Disposable masks should not be washed."
+  },
+  {
+   "topic": "3.3",
+   "q": "What is the use of labelling PPE?",
+   "options": [
+    "To make it heavier",
+    "To hide it",
+    "So each item goes back to its owner",
+    "To tear it"
+   ],
+   "answer": 2,
+   "explanation": "Labels avoid mix-ups."
+  },
+  {
+   "topic": "3.3",
+   "q": "Why is a display of clean PPE useful?",
+   "options": [
+    "It makes PPE dirty",
+    "It hides the PPE",
+    "It wastes time",
+    "It helps others learn about PPE and hygiene"
+   ],
+   "answer": 3,
+   "explanation": "Displays teach and encourage others."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which of these is another tacking stitch?",
+   "options": [
+    "Herringbone",
+    "French knot",
+    "Blanket stitch",
+    "Long and short tacking"
+   ],
+   "answer": 3,
+   "explanation": "Long and short tacking is another type."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which tool holds a needle safely on the finger to push it?",
+   "options": [
+    "Ruler",
+    "Thimble",
+    "Pin cushion",
+    "Scissors"
+   ],
+   "answer": 1,
+   "explanation": "A thimble protects the finger."
+  },
+  {
+   "topic": "4.1",
+   "q": "What should you do if you prick your finger?",
+   "options": [
+    "Ignore it",
+    "Tell the teacher and wash with soap and water",
+    "Hide it",
+    "Put dirt on it"
+   ],
+   "answer": 1,
+   "explanation": "Clean the wound."
+  },
+  {
+   "topic": "4.1",
+   "q": "Why should tacking thread not be pulled tight?",
+   "options": [
+    "Thread is expensive",
+    "It will become long",
+    "The cloth will wrinkle",
+    "It will not hold"
+   ],
+   "answer": 2,
+   "explanation": "Loose stitches lie flat."
+  },
+  {
+   "topic": "4.1",
+   "q": "What is a hem?",
+   "options": [
+    "A hole",
+    "A button",
+    "A folded and stitched edge of cloth",
+    "A needle"
+   ],
+   "answer": 2,
+   "explanation": "A hem stops edges fraying."
+  },
+  {
+   "topic": "4.1",
+   "q": "Which item can be made with tacking stitches in this lesson?",
+   "options": [
+    "A handkerchief",
+    "A car",
+    "A house",
+    "A roof"
+   ],
+   "answer": 0,
+   "explanation": "A handkerchief is an easy first item."
+  },
+  {
+   "topic": "4.1",
+   "q": "What is the use of a scarecrow shirt made with tacking?",
+   "options": [
+    "It is eaten",
+    "It clothes the scarecrow using stitches",
+    "It is a tool",
+    "It waters plants"
+   ],
+   "answer": 1,
+   "explanation": "Tacking holds the shirt pieces together."
+  }
+ ],
+ "short": [
+  {
+   "topic": "1.1",
+   "marks": 2,
+   "q": "Give two reasons why soil should be conserved.",
+   "answer": "Soil grows our food, and if it is washed away or made poor the crops will fail.",
+   "working": "1 mark for soil grows food, 1 mark for erosion or loss of plant food."
+  },
+  {
+   "topic": "1.1",
+   "marks": 4,
+   "q": "Describe how to build a compost heap using layers.",
+   "answer": "Choose a shady place; lay sticks; add a dry layer, a green layer and dung; sprinkle soil and water; repeat to chest height; cover the heap.",
+   "working": "1 mark each for place, base and layers, soil and water, and covering."
+  },
+  {
+   "topic": "1.2",
+   "marks": 2,
+   "q": "Explain what drip irrigation is.",
+   "answer": "It is watering plants slowly, drop by drop, next to their roots.",
+   "working": "1 mark for slowly or drop by drop, 1 mark for near the roots."
+  },
+  {
+   "topic": "1.2",
+   "marks": 3,
+   "q": "Give three ways of caring for a drip irrigation system.",
+   "answer": "Fill the container daily, check for leaks and blocked holes, keep the water covered and clean.",
+   "working": "1 mark for each correct way."
+  },
+  {
+   "topic": "1.3",
+   "marks": 2,
+   "q": "Name four fuels used for cooking in homes.",
+   "answer": "Firewood, charcoal, gas and kerosene.",
+   "working": "Half a mark for each fuel, total 2."
+  },
+  {
+   "topic": "1.3",
+   "marks": 4,
+   "q": "Describe how a family can plant trees to help conserve fuel.",
+   "answer": "Plant fast growing trees on their land for firewood, care for them and replace any tree cut with more new trees, so wood is always available and forests are not cut.",
+   "working": "1 mark each for planting, caring, replacing and result."
+  },
+  {
+   "topic": "1.4",
+   "marks": 3,
+   "q": "Name three small wild animals that destroy crops.",
+   "answer": "Birds, hares, squirrels, monkeys (any three).",
+   "working": "1 mark for each correct animal."
+  },
+  {
+   "topic": "1.4",
+   "marks": 3,
+   "q": "Explain why a scarecrow becomes less useful if it is never moved.",
+   "answer": "Birds and animals soon notice it never moves, learn that it is harmless, and come back to eat the crops.",
+   "working": "1 mark for noticing, 1 mark for learning it is harmless, 1 mark for returning to the crops."
+  },
+  {
+   "topic": "1.4",
+   "marks": 5,
+   "q": "Sila has a millet field where birds eat the grain every morning. Suggest and explain a plan to protect the crop without killing the birds.",
+   "answer": "Make a scarecrow with tins and shiny strips, place it in the field, move it every few days, and use a net or a noise maker. Avoid poison because it harms other living things.",
+   "working": "2 marks for scarecrow and moving it, 1 mark for another method, 1 mark for avoiding poison, 1 mark for reason."
+  },
+  {
+   "topic": "2.1",
+   "marks": 4,
+   "q": "Explain how to sow tiny seeds in a drill.",
+   "answer": "Make a shallow drill about 1 cm deep; mix seeds with sand; sprinkle thinly in the drill; cover lightly with fine soil; water gently.",
+   "working": "1 mark for each of four correct steps."
+  },
+  {
+   "topic": "2.1",
+   "marks": 3,
+   "q": "Give three mistakes to avoid when sowing tiny seeds.",
+   "answer": "Leaving big lumps in the seedbed, sowing too deep, sowing too thick without thinning, or watering strongly (any three).",
+   "working": "1 mark for each mistake."
+  },
+  {
+   "topic": "2.2",
+   "marks": 3,
+   "q": "State the functions of roots, leaves and flowers in a fruit tree.",
+   "answer": "Roots hold the tree and take in water; leaves make food using sunlight; flowers form fruits.",
+   "working": "1 mark for each part."
+  },
+  {
+   "topic": "2.2",
+   "marks": 3,
+   "q": "Give three ways of caring for a fruit crop.",
+   "answer": "Watering, weeding, mulching, adding compost, pruning, protecting from animals (any three).",
+   "working": "1 mark for each way."
+  },
+  {
+   "topic": "2.2",
+   "marks": 3,
+   "q": "Explain why it is best to choose fruits that suit your locality.",
+   "answer": "They grow better in the local climate, give more fruit, and need less care and cost.",
+   "working": "1 mark for each correct reason."
+  },
+  {
+   "topic": "2.2",
+   "marks": 2,
+   "q": "Name two problems that can attack ripe fruits.",
+   "answer": "Fruit flies, birds or monkeys (any two).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.3",
+   "marks": 3,
+   "q": "Name three products we get from cattle.",
+   "answer": "Milk, beef, hides and skins, manure, or draught power (any three).",
+   "working": "1 mark for each product."
+  },
+  {
+   "topic": "2.3",
+   "marks": 3,
+   "q": "Explain how animals help crops grow.",
+   "answer": "Their dung is used as manure, which feeds the soil, and oxen can be used to plough. Crops then grow well.",
+   "working": "1 mark for manure, 1 for ploughing, 1 for better crops."
+  },
+  {
+   "topic": "2.4",
+   "marks": 2,
+   "q": "Explain what is meant by a balanced meal.",
+   "answer": "A meal that has foods from all the main food groups in the right amounts.",
+   "working": "1 mark for foods from all groups, 1 mark for right amounts."
+  },
+  {
+   "topic": "2.4",
+   "marks": 4,
+   "q": "Explain four things that may happen to a child who does not eat a balanced diet.",
+   "answer": "Weakness, tiredness, frequent illness, slow growth, poor concentration (any four).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "2.4",
+   "marks": 3,
+   "q": "Explain the difference between variety and proportion in a meal.",
+   "answer": "Variety is eating many kinds of food; proportion is eating the right amount of each kind.",
+   "working": "1 mark for variety, 1 mark for proportion, 1 mark for an example."
+  },
+  {
+   "topic": "2.5",
+   "marks": 2,
+   "q": "Give two advantages of boiling food.",
+   "answer": "It needs no oil and it makes hard food soft and safe.",
+   "working": "1 mark for each advantage."
+  },
+  {
+   "topic": "2.5",
+   "marks": 3,
+   "q": "Why must fish be dried before shallow frying?",
+   "answer": "Wet food makes the hot oil splash, which can burn people, so the fish should be dried with a cloth.",
+   "working": "1 mark for splash, 1 for burns, 1 for drying."
+  },
+  {
+   "topic": "2.5",
+   "marks": 5,
+   "q": "Write the steps for preparing a meal using both boiling and shallow frying. Include hygiene and safety.",
+   "answer": "Wash hands; wash food; boil potatoes until soft; shallow fry an egg or fish; serve with vegetables; safety: adult present, handles inward, dry cloth, water away from hot oil; clean up after.",
+   "working": "1 mark for hygiene, 1 for boiling, 1 for frying, 1 for safety, 1 for serving and cleaning."
+  },
+  {
+   "topic": "3.1",
+   "marks": 3,
+   "q": "Give three good personal hygiene practices apart from washing hands.",
+   "answer": "Bathing daily, brushing teeth twice a day, keeping nails short, wearing clean clothes, drinking safe water (any three).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "3.1",
+   "marks": 2,
+   "q": "Why should you brush teeth twice a day?",
+   "answer": "It removes food and germs that cause decay and keeps the mouth fresh.",
+   "working": "1 mark for removing food, 1 mark for preventing decay."
+  },
+  {
+   "topic": "3.1",
+   "marks": 2,
+   "q": "Why should personal items like towels not be shared?",
+   "answer": "Germs and skin infections spread through them.",
+   "working": "1 mark for germs, 1 mark for infection."
+  },
+  {
+   "topic": "3.2",
+   "marks": 3,
+   "q": "Give three ways of disposing of refuse safely.",
+   "answer": "Compost organic waste; put other waste in a bin with a lid and take it to a collection point; reuse or recycle paper, plastic and glass; wrap broken glass.",
+   "working": "1 mark for each way."
+  },
+  {
+   "topic": "3.2",
+   "marks": 4,
+   "q": "Explain the steps for dusting a room.",
+   "answer": "Open windows; use a slightly damp clean cloth; dust from high to low; shake and wash the duster outside.",
+   "working": "1 mark for each of four steps."
+  },
+  {
+   "topic": "3.3",
+   "marks": 3,
+   "q": "Give three reasons why PPE should be cleaned.",
+   "answer": "It can carry germs, it may smell or spoil, and clean PPE lasts longer and protects better.",
+   "working": "1 mark for each reason."
+  },
+  {
+   "topic": "3.3",
+   "marks": 2,
+   "q": "What should be done with a paper dust mask that is dirty?",
+   "answer": "It is thrown away and replaced, not washed.",
+   "working": "1 mark for throwing, 1 mark for replacing."
+  },
+  {
+   "topic": "4.1",
+   "marks": 2,
+   "q": "What are tacking stitches?",
+   "answer": "Large, loose temporary stitches used to hold cloth in place before permanent sewing.",
+   "working": "1 mark for temporary, 1 mark for holding cloth."
+  },
+  {
+   "topic": "4.1",
+   "marks": 3,
+   "q": "State three safety rules when using needles and scissors.",
+   "answer": "Never put needles in the mouth; keep them in a pin cushion; count them; carry scissors with points down (any three).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "4.1",
+   "marks": 2,
+   "q": "Explain why tacking thread should be loose.",
+   "answer": "Tight thread pulls and wrinkles the cloth.",
+   "working": "1 mark for pulls, 1 mark for wrinkles."
+  }
+ ]
+}

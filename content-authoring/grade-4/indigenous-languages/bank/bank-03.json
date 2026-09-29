@@ -1,0 +1,593 @@
+{
+ "mcq": [
+  {
+   "topic": "4.3",
+   "q": "What does a peer review checklist help with?",
+   "options": [
+    "Stealing ideas",
+    "Checking a partner's story kindly",
+    "Ending the lesson",
+    "Cleaning the room"
+   ],
+   "answer": 1,
+   "explanation": "Peer review helps improve writing."
+  },
+  {
+   "topic": "4.3",
+   "q": "A good ending to an imaginative story usually",
+   "options": [
+    "solves the problem or shows the lesson",
+    "starts a new problem always",
+    "has no full stops",
+    "repeats the title"
+   ],
+   "answer": 0,
+   "explanation": "Endings resolve the story."
+  },
+  {
+   "topic": "4.3",
+   "q": "What does the proverb Look before you leap advise a writer of a story about a careless pupil?",
+   "options": [
+    "Run fast",
+    "Be careless",
+    "Never look",
+    "Think before acting"
+   ],
+   "answer": 3,
+   "explanation": "It would fit a story where carelessness causes trouble."
+  },
+  {
+   "topic": "4.3",
+   "q": "What is the difference between a proverb and a story?",
+   "options": [
+    "They are the same",
+    "A story is shorter",
+    "A proverb is a short saying and a story is longer with events",
+    "A proverb has many characters"
+   ],
+   "answer": 2,
+   "explanation": "Proverbs are very short."
+  },
+  {
+   "topic": "5.1",
+   "q": "What is a personal experience?",
+   "options": [
+    "A story from a book",
+    "A rule",
+    "Something that happened to you",
+    "A number"
+   ],
+   "answer": 2,
+   "explanation": "A personal experience is an event you lived."
+  },
+  {
+   "topic": "5.1",
+   "q": "What kind of word is when in When I arrived, the shop was closed?",
+   "options": [
+    "A noun",
+    "A conjunction",
+    "An adjective",
+    "A number"
+   ],
+   "answer": 1,
+   "explanation": "When joins two ideas by time."
+  },
+  {
+   "topic": "5.1",
+   "q": "What does a conjunction do?",
+   "options": [
+    "Joins words or sentences",
+    "Names a thing",
+    "Shows a feeling",
+    "Describes a colour"
+   ],
+   "answer": 0,
+   "explanation": "Conjunctions are joining words."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which sentence uses when correctly?",
+   "options": [
+    "When we ran home rained it.",
+    "Rained we when home.",
+    "We when ran.",
+    "When it rained, we ran home."
+   ],
+   "answer": 3,
+   "explanation": "It shows two events joined by time."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which comma use is correct?",
+   "options": [
+    "When, the bell rang we ran.",
+    "When the bell, rang we ran.",
+    "When the bell rang we, ran.",
+    "When the bell rang, we ran."
+   ],
+   "answer": 3,
+   "explanation": "A comma follows the when part at the start."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which question helps you plan an experience to tell?",
+   "options": [
+    "How long is the ruler?",
+    "What colour is the wall?",
+    "Who was there?",
+    "Where is the moon?"
+   ],
+   "answer": 2,
+   "explanation": "Who, what, where, when, why and how help plan a story."
+  },
+  {
+   "topic": "5.1",
+   "q": "What should you do with the events of a story you tell?",
+   "options": [
+    "Mix them up",
+    "Tell them in the order they happened",
+    "Skip the beginning",
+    "Never mention the end"
+   ],
+   "answer": 1,
+   "explanation": "Order helps listeners follow."
+  },
+  {
+   "topic": "5.1",
+   "q": "What is the language train game?",
+   "options": [
+    "Pupils build a story with sentences beginning with when",
+    "A game with real trains",
+    "A running race",
+    "A reading test"
+   ],
+   "answer": 0,
+   "explanation": "Each pupil adds a when sentence."
+  },
+  {
+   "topic": "5.1",
+   "q": "How should you speak when narrating an event?",
+   "options": [
+    "Clearly and with feeling",
+    "Very quietly",
+    "Angrily always",
+    "Without stopping"
+   ],
+   "answer": 0,
+   "explanation": "Clear speech and feeling make a story good."
+  },
+  {
+   "topic": "5.1",
+   "q": "Why might a class record narrations on a device?",
+   "options": [
+    "To waste time",
+    "To erase them",
+    "To sell them",
+    "To listen back and improve"
+   ],
+   "answer": 3,
+   "explanation": "Recordings show what to improve."
+  },
+  {
+   "topic": "5.1",
+   "q": "What should you do if a classmate's story is not as good as yours?",
+   "options": [
+    "Laugh at them",
+    "Interrupt",
+    "Listen politely and give kind feedback",
+    "Leave"
+   ],
+   "answer": 2,
+   "explanation": "Respect is important."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which sentence joins two events with when?",
+   "options": [
+    "I smiled the gift.",
+    "I smiled when I saw the gift.",
+    "When the gift.",
+    "Saw I gift."
+   ],
+   "answer": 1,
+   "explanation": "It uses when to link two events."
+  },
+  {
+   "topic": "5.1",
+   "q": "What is a skit?",
+   "options": [
+    "A long poem",
+    "A short play",
+    "A list",
+    "A picture"
+   ],
+   "answer": 1,
+   "explanation": "A skit is a short acted scene."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which value should be shown in a market skit?",
+   "options": [
+    "Honesty, such as giving correct change",
+    "Cheating",
+    "Stealing",
+    "Rudeness"
+   ],
+   "answer": 0,
+   "explanation": "Skits can show good values."
+  },
+  {
+   "topic": "5.1",
+   "q": "Which of these should you include when describing an event?",
+   "options": [
+    "Only the date",
+    "Only the name",
+    "Nothing",
+    "Who, where, when, what happened and how you felt"
+   ],
+   "answer": 3,
+   "explanation": "These details make the event clear."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is skimming?",
+   "options": [
+    "Reading slowly for every word",
+    "Copying the text",
+    "Reading quickly to get the main idea",
+    "Reading backwards"
+   ],
+   "answer": 2,
+   "explanation": "Skimming gives the general idea."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is scanning?",
+   "options": [
+    "Reading for the main idea only",
+    "Writing a story",
+    "Looking quickly for a specific piece of information",
+    "Singing"
+   ],
+   "answer": 2,
+   "explanation": "Scanning searches for a detail."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which strategy would you use to find a price in an advert?",
+   "options": [
+    "Skimming",
+    "Scanning",
+    "Singing",
+    "Drawing"
+   ],
+   "answer": 1,
+   "explanation": "You know exactly what you need."
+  },
+  {
+   "topic": "5.2",
+   "q": "Which strategy would you use to see what a newspaper article is about?",
+   "options": [
+    "Skimming",
+    "Scanning for a number",
+    "Cutting",
+    "Painting"
+   ],
+   "answer": 0,
+   "explanation": "You want the main idea."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is profit?",
+   "options": [
+    "Money spent",
+    "A kind of shop",
+    "A bill",
+    "Money left after paying the cost"
+   ],
+   "answer": 3,
+   "explanation": "Profit is gain after costs."
+  },
+  {
+   "topic": "5.2",
+   "q": "A seller buys mangoes for 300 shillings and sells them for 450 shillings. What is the profit?",
+   "options": [
+    "750 shillings",
+    "300 shillings",
+    "450 shillings",
+    "150 shillings"
+   ],
+   "answer": 3,
+   "explanation": "450 minus 300 is 150."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is a customer?",
+   "options": [
+    "A person who sells only",
+    "A kind of shop",
+    "A person who buys",
+    "A type of money"
+   ],
+   "answer": 2,
+   "explanation": "A customer buys goods or services."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is a service?",
+   "options": [
+    "A thing you can hold",
+    "Work done for others",
+    "A kind of coin",
+    "A market"
+   ],
+   "answer": 1,
+   "explanation": "Cutting hair is a service."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is a good first step when skimming?",
+   "options": [
+    "Read the title and headings",
+    "Read every word carefully",
+    "Close the book",
+    "Skip the page"
+   ],
+   "answer": 0,
+   "explanation": "The title tells the topic."
+  },
+  {
+   "topic": "5.2",
+   "q": "What should you keep in mind when scanning?",
+   "options": [
+    "What you are looking for",
+    "A poem",
+    "A song",
+    "Nothing"
+   ],
+   "answer": 0,
+   "explanation": "Scanning needs a target."
+  },
+  {
+   "topic": "5.2",
+   "q": "Where can the main idea often be found?",
+   "options": [
+    "Only in the last word",
+    "In the page number",
+    "Nowhere",
+    "In the first sentence of a paragraph"
+   ],
+   "answer": 3,
+   "explanation": "First sentences often give the main idea."
+  },
+  {
+   "topic": "5.2",
+   "q": "Why do we check a dictionary meaning against the sentence?",
+   "options": [
+    "Words never change",
+    "Dictionaries are wrong",
+    "Words can have more than one meaning",
+    "Sentences have no meaning"
+   ],
+   "answer": 2,
+   "explanation": "The right meaning depends on context."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is a conman?",
+   "options": [
+    "A shopkeeper",
+    "A person who tricks people to get money",
+    "A teacher",
+    "A farmer"
+   ],
+   "answer": 1,
+   "explanation": "A conman deceives others."
+  },
+  {
+   "topic": "5.2",
+   "q": "What should you do if a stranger promises cheap goods and asks for money first?",
+   "options": [
+    "Send money at once",
+    "Be careful and ask an adult",
+    "Give your address",
+    "Trust them"
+   ],
+   "answer": 1,
+   "explanation": "Such offers may be tricks."
+  },
+  {
+   "topic": "5.2",
+   "q": "What is a vocabulary bank?",
+   "options": [
+    "A list of useful words on a theme",
+    "A place for money",
+    "A kind of poem",
+    "A book cover"
+   ],
+   "answer": 0,
+   "explanation": "A word bank stores words to learn."
+  },
+  {
+   "topic": "5.3",
+   "q": "What are the two main parts of a sentence?",
+   "options": [
+    "Noun and verb only",
+    "Title and ending",
+    "Capital and full stop",
+    "Subject and predicate"
+   ],
+   "answer": 3,
+   "explanation": "Every sentence has a subject and a predicate."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is the subject of a sentence?",
+   "options": [
+    "What is said about it",
+    "The full stop",
+    "Who or what the sentence is about",
+    "The verb only"
+   ],
+   "answer": 2,
+   "explanation": "The subject is the topic of the sentence."
+  },
+  {
+   "topic": "5.3",
+   "q": "In The seller counts the money, what is the predicate?",
+   "options": [
+    "The seller",
+    "The",
+    "counts the money",
+    "money only"
+   ],
+   "answer": 2,
+   "explanation": "The predicate tells what the subject does."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which group of words is a sentence?",
+   "options": [
+    "The customer in the market",
+    "The customer pays fifty shillings.",
+    "Pays fifty",
+    "Fifty shillings"
+   ],
+   "answer": 1,
+   "explanation": "It has a subject and a predicate."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which word joins two ideas that contrast?",
+   "options": [
+    "but",
+    "and",
+    "so",
+    "because"
+   ],
+   "answer": 0,
+   "explanation": "But shows contrast."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which word shows a result?",
+   "options": [
+    "but",
+    "or",
+    "and",
+    "so"
+   ],
+   "answer": 3,
+   "explanation": "So shows a result."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which word shows a choice?",
+   "options": [
+    "so",
+    "but",
+    "and",
+    "or"
+   ],
+   "answer": 3,
+   "explanation": "Or offers a choice."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is a compound sentence?",
+   "options": [
+    "A sentence with one word",
+    "A list",
+    "Two simple sentences joined by a conjunction",
+    "A title"
+   ],
+   "answer": 2,
+   "explanation": "It joins two ideas."
+  },
+  {
+   "topic": "5.3",
+   "q": "Which is a compound sentence?",
+   "options": [
+    "I bought a pen.",
+    "I saved money, so I bought a pen.",
+    "The red pen.",
+    "A pen"
+   ],
+   "answer": 1,
+   "explanation": "It joins two sentences with so."
+  },
+  {
+   "topic": "5.3",
+   "q": "Where should the comma go in I have money and I want a book?",
+   "options": [
+    "Before and",
+    "After I",
+    "After have",
+    "After want"
+   ],
+   "answer": 0,
+   "explanation": "A comma comes before the joining word."
+  },
+  {
+   "topic": "5.3",
+   "q": "What does a simple sentence have?",
+   "options": [
+    "One subject and one predicate",
+    "Two subjects always",
+    "No verb",
+    "No capital"
+   ],
+   "answer": 0,
+   "explanation": "Simple sentences have one main idea."
+  },
+  {
+   "topic": "5.3",
+   "q": "What does change mean in a shop?",
+   "options": [
+    "The weather",
+    "The clothes",
+    "A journey",
+    "Money given back after paying"
+   ],
+   "answer": 3,
+   "explanation": "Change is the money you get back."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is a receipt?",
+   "options": [
+    "A kind of coin",
+    "A type of fruit",
+    "A paper that shows you paid",
+    "A shop"
+   ],
+   "answer": 2,
+   "explanation": "A receipt is proof of payment."
+  },
+  {
+   "topic": "5.3",
+   "q": "What should you check when you reorder jumbled words?",
+   "options": [
+    "The colour of the letters",
+    "That the sentence makes sense and has a verb",
+    "The paper",
+    "Nothing"
+   ],
+   "answer": 1,
+   "explanation": "A sentence must make sense."
+  },
+  {
+   "topic": "5.3",
+   "q": "What is a bargain?",
+   "options": [
+    "To steal",
+    "To discuss the price",
+    "To run",
+    "To sleep"
+   ],
+   "answer": 1,
+   "explanation": "Bargaining is agreeing on price."
+  }
+ ],
+ "short": []
+}

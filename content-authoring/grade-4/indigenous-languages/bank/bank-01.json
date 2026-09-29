@@ -935,6 +935,150 @@
    ],
    "answer": 2,
    "explanation": "Excitement is often read faster and stronger."
+  },
+  {
+   "topic": "2.3",
+   "q": "What does a full stop show?",
+   "options": [
+    "A list of items",
+    "The end of a statement",
+    "A question",
+    "A sudden feeling"
+   ],
+   "answer": 1,
+   "explanation": "A full stop ends a statement."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which sentence ends correctly?",
+   "options": [
+    "The sun is hot.",
+    "The sun is hot,",
+    "The sun is hot",
+    "the sun is hot"
+   ],
+   "answer": 0,
+   "explanation": "A statement ends with a full stop and begins with a capital."
+  },
+  {
+   "topic": "2.3",
+   "q": "A comma is used to",
+   "options": [
+    "separate items in a list",
+    "end a story",
+    "begin a sentence",
+    "show a question"
+   ],
+   "answer": 0,
+   "explanation": "Commas separate list items and show short pauses."
+  },
+  {
+   "topic": "2.3",
+   "q": "Where should commas go in: We planted maize beans peas and kale?",
+   "options": [
+    "After We",
+    "After kale",
+    "After planted",
+    "After maize and beans"
+   ],
+   "answer": 3,
+   "explanation": "The list is maize, beans, peas and kale."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which word needs a capital letter?",
+   "options": [
+    "river",
+    "market",
+    "Nairobi",
+    "road"
+   ],
+   "answer": 2,
+   "explanation": "Names of towns begin with capital letters."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which word must begin with a capital letter in the middle of a sentence?",
+   "options": [
+    "morning",
+    "Monday",
+    "weather",
+    "cloud"
+   ],
+   "answer": 1,
+   "explanation": "Days of the week begin with capital letters."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which sentence has correct capital letters?",
+   "options": [
+    "on tuesday i met achieng in kisumu.",
+    "On Tuesday I met Achieng in Kisumu.",
+    "On tuesday I met achieng in kisumu.",
+    "On Tuesday i met Achieng in kisumu."
+   ],
+   "answer": 1,
+   "explanation": "Names of days, people and places and the word I begin with capitals."
+  },
+  {
+   "topic": "2.3",
+   "q": "Why do we use punctuation marks?",
+   "options": [
+    "To make writing clear",
+    "To make pages heavy",
+    "To hide meaning",
+    "To use up ink"
+   ],
+   "answer": 0,
+   "explanation": "Punctuation helps readers understand."
+  },
+  {
+   "topic": "2.3",
+   "q": "A sentence always begins with",
+   "options": [
+    "a comma",
+    "a full stop",
+    "a number",
+    "a capital letter"
+   ],
+   "answer": 3,
+   "explanation": "A capital letter shows the start of a sentence."
+  },
+  {
+   "topic": "2.3",
+   "q": "What is wrong with: it rained all night.",
+   "options": [
+    "It needs two full stops",
+    "It needs no changes",
+    "It needs a capital letter at the start",
+    "It needs a comma after it"
+   ],
+   "answer": 2,
+   "explanation": "The first word of a sentence must begin with a capital letter."
+  },
+  {
+   "topic": "2.3",
+   "q": "Which sentence uses a comma correctly for speaking to someone?",
+   "options": [
+    "Wanjiku please, bring the umbrella",
+    "Wanjiku please bring, the umbrella.",
+    "Wanjiku, please bring the umbrella.",
+    "Wanjiku please bring the, umbrella."
+   ],
+   "answer": 2,
+   "explanation": "A comma follows the name of the person addressed."
+  },
+  {
+   "topic": "2.3",
+   "q": "The word I is always written",
+   "options": [
+    "as a small letter",
+    "as a capital letter",
+    "in brackets",
+    "with a comma"
+   ],
+   "answer": 1,
+   "explanation": "In English the word I is always a capital."
   }
  ],
  "short": [
@@ -1108,10 +1252,10 @@
   },
   {
    "topic": "2.2",
-   "q": "What is intonation?",
+   "q": "Explain what intonation is and give one English example of a rising voice.",
    "marks": 2,
-   "answer": "The rise and fall of the voice as we speak.",
-   "working": "One mark for rise and one for fall of the voice."
+   "answer": "Intonation is the rise and fall of the voice as we speak. A question such as Are you coming? rises at the end.",
+   "working": "One mark for the meaning and one mark for a correct example."
   },
   {
    "topic": "2.2",
@@ -1147,6 +1291,419 @@
    "marks": 5,
    "answer": "Roles such as narrator, farmer, child and rain. Read your part silently three times, mark stressed words, then read aloud with expression. The audience gives one good point and one improvement.",
    "working": "Two marks for suitable roles, two marks for practice steps and one mark for feedback."
+  },
+  {
+   "topic": "2.3",
+   "q": "State two uses of a full stop and a capital letter in a sentence.",
+   "marks": 2,
+   "answer": "A capital letter begins a sentence and a full stop ends it.",
+   "working": "One mark for each correct use."
+  },
+  {
+   "topic": "2.3",
+   "q": "Rewrite correctly: we live in nairobi",
+   "marks": 2,
+   "answer": "We live in Nairobi.",
+   "working": "One mark for capital letters and one for the full stop."
+  },
+  {
+   "topic": "2.3",
+   "q": "Add capital letters, commas and full stops: on friday we bought rice beans and flour",
+   "marks": 3,
+   "answer": "On Friday we bought rice, beans and flour.",
+   "working": "One mark for capitals, one mark for the commas, one for the full stop."
+  },
+  {
+   "topic": "2.3",
+   "q": "Give three uses of capital letters in English.",
+   "marks": 3,
+   "answer": "The first word of a sentence, names of people and places, the word I, days and months (any three).",
+   "working": "One mark for each use."
+  },
+  {
+   "topic": "2.3",
+   "q": "Correct this paragraph: it was a cold morning in nyeri the children wore sweaters scarves and socks",
+   "marks": 4,
+   "answer": "It was a cold morning in Nyeri. The children wore sweaters, scarves and socks.",
+   "working": "One mark for each of four corrections: capitals at the start, Nyeri, the full stops and the commas."
+  },
+  {
+   "topic": "2.3",
+   "q": "Write a short paragraph of three sentences about today's weather. Use at least one comma in a list, two capital letters for names and three full stops.",
+   "marks": 5,
+   "answer": "Any three correct sentences, for example On Monday in Kisumu the sky was cloudy. It was cool, windy and dry. Amina wore a sweater.",
+   "working": "One mark for each sentence that is complete and correct, one for a comma in a list and one for correct capitals."
+  },
+  {
+   "topic": "3.1",
+   "q": "Give the meaning of comprehension and say why it matters when we listen.",
+   "marks": 2,
+   "answer": "Comprehension means understanding. It matters because we can then remember and use what we heard.",
+   "working": "One mark for the meaning and one for why it matters."
+  },
+  {
+   "topic": "3.1",
+   "q": "Name four question words used to check comprehension.",
+   "marks": 2,
+   "answer": "Who, what, where, when, why, how (any four).",
+   "working": "One mark for two correct question words and two marks for four."
+  },
+  {
+   "topic": "3.1",
+   "q": "List the verbs in: Otieno touched the handle and the water splashed.",
+   "marks": 3,
+   "answer": "touched, splashed",
+   "working": "One mark for each verb and one mark for ignoring the nouns."
+  },
+  {
+   "topic": "3.1",
+   "q": "Complete each sentence with a suitable verb: (a) We ______ our hands before eating. (b) Please ______ the door.",
+   "marks": 3,
+   "answer": "wash (or clean) and close (or shut)",
+   "working": "One mark for each suitable verb and one mark for correct spelling."
+  },
+  {
+   "topic": "3.1",
+   "q": "Explain what to do when you get a small burn and why.",
+   "marks": 4,
+   "answer": "Put it under cool running water for several minutes to reduce pain, cover it with a clean cloth and tell an adult or go to a clinic.",
+   "working": "One mark each for cool water, the reason, clean cover and telling an adult."
+  },
+  {
+   "topic": "3.1",
+   "q": "After listening to a safety story, describe how you would answer four kinds of comprehension questions and give one example of each.",
+   "marks": 5,
+   "answer": "Answer who with a person (his mother), what with an event (touched the pot), where with a place (the clinic) and why with a reason (he wanted to see the steam). Give short, full answers and ask for repetition if needed.",
+   "working": "One mark for each kind and example, and one mark for full sentences."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain what a dialogue is.",
+   "marks": 2,
+   "answer": "A dialogue is a conversation between two or more people, shown with each speaker's name and words.",
+   "working": "One mark for conversation and one for speakers."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write one instruction from the road safety dialogue.",
+   "marks": 2,
+   "answer": "Look right, then left, then right again. (or Cross at a zebra crossing.)",
+   "working": "One mark for a correct instruction and one for a complete sentence."
+  },
+  {
+   "topic": "3.2",
+   "q": "State three steps for reading your part in a dialogue.",
+   "marks": 3,
+   "answer": "Read silently first, underline your lines, practise them, watch the punctuation, wait for your cue.",
+   "working": "One mark for each step."
+  },
+  {
+   "topic": "3.2",
+   "q": "Read: The nurse bandaged the wound gently and the blood stopped. What does wound mean? Give two clues.",
+   "marks": 3,
+   "answer": "A wound is an injury. Clues are the nurse, bandaged and blood.",
+   "working": "One mark for the meaning and two marks for clues, awarding one for each up to two."
+  },
+  {
+   "topic": "3.2",
+   "q": "Explain how to work out the meaning of an unknown word using context.",
+   "marks": 4,
+   "answer": "Read the sentence with the word, look at nearby words for clues, guess a meaning, check that it makes sense in the sentence and confirm in a dictionary.",
+   "working": "One mark for each of four steps."
+  },
+  {
+   "topic": "3.2",
+   "q": "Write a five-line role play dialogue on personal safety between a child and a stranger. Show the speaker names and use question marks correctly.",
+   "marks": 5,
+   "answer": "Any five correct lines, for example Child: Good afternoon. Stranger: Do you want a ride? Child: No, thank you. I will wait for my mother. Stranger: Are you sure? Child: Yes, I am telling my teacher.",
+   "working": "One mark for speaker names, one for a safe message, one for correct questions and two for five clear lines."
+  },
+  {
+   "topic": "3.3",
+   "q": "What is a paragraph and what is its main idea?",
+   "marks": 2,
+   "answer": "A paragraph is a group of sentences about one topic. The main idea is what it is mostly about.",
+   "working": "One mark for each part."
+  },
+  {
+   "topic": "3.3",
+   "q": "Give two sequence words.",
+   "marks": 2,
+   "answer": "first, next, then, finally (any two).",
+   "working": "One mark each."
+  },
+  {
+   "topic": "3.3",
+   "q": "Put the steps in order: (a) Finally, serve. (b) First, boil water. (c) Next, add tea leaves.",
+   "marks": 3,
+   "answer": "b, c, a",
+   "working": "One mark for each correct position."
+  },
+  {
+   "topic": "3.3",
+   "q": "Explain why sequencing ideas is important in writing.",
+   "marks": 3,
+   "answer": "It helps the reader follow the ideas, avoids confusion and makes writing logical.",
+   "working": "One mark for each valid point."
+  },
+  {
+   "topic": "3.3",
+   "q": "Write a four-sentence paragraph on washing hands. Use first, next, then and finally.",
+   "marks": 4,
+   "answer": "First, wet your hands. Next, rub soap on them. Then rinse them. Finally, dry them with a clean cloth.",
+   "working": "One mark for each correct step in order and sequence word."
+  },
+  {
+   "topic": "3.3",
+   "q": "Read: Fire can be dangerous. Never play with matches. Ask an adult to light the stove. If your clothes catch fire, stop, drop and roll. State the main idea and list three details.",
+   "marks": 5,
+   "answer": "Main idea: Fire is dangerous and needs care. Details: never play with matches, ask an adult to light the stove, stop drop and roll.",
+   "working": "Two marks for the main idea and one mark for each of three details."
+  },
+  {
+   "topic": "4.1",
+   "q": "Explain what an oral narrative is.",
+   "marks": 2,
+   "answer": "An oral narrative is a story told aloud, passed on from person to person, that entertains and teaches.",
+   "working": "One mark for told aloud and one mark for entertain or teach."
+  },
+  {
+   "topic": "4.1",
+   "q": "Complete with a simile: The baby slept like a ______.",
+   "marks": 2,
+   "answer": "log (or a stone, or any suitable comparison)",
+   "working": "One mark for a suitable comparison and one for keeping like."
+  },
+  {
+   "topic": "4.1",
+   "q": "Give three steps for telling a story fluently.",
+   "marks": 3,
+   "answer": "Know the story well, speak clearly, keep a steady pace, change your voice for characters, look at the audience, end with the lesson.",
+   "working": "One mark for each step."
+  },
+  {
+   "topic": "4.1",
+   "q": "Write one simile and one metaphor about a teacher.",
+   "marks": 3,
+   "answer": "Simile: The teacher is as patient as a rock. Metaphor: The teacher is a walking dictionary.",
+   "working": "One mark for a simile, one for a metaphor, one for clearly showing the difference."
+  },
+  {
+   "topic": "4.1",
+   "q": "Explain the difference between a simile and a metaphor and give an example of each.",
+   "marks": 4,
+   "answer": "A simile compares using like or as, for example as quick as lightning. A metaphor says one thing is another, for example Time is money.",
+   "working": "One mark for each definition and one for each example."
+  },
+  {
+   "topic": "4.1",
+   "q": "Plan a short oral narrative about a school rule. Say the characters, the events, the ending, and where you will use a simile and a metaphor.",
+   "marks": 5,
+   "answer": "Any plan with characters, events in order, an ending with a lesson, and one simile and one metaphor, for example a pupil who came late but learned that rules are like a map.",
+   "working": "One mark each for characters, events, ending, simile and metaphor."
+  },
+  {
+   "topic": "4.2",
+   "q": "Give two rules for looking after class library books.",
+   "marks": 2,
+   "answer": "Turn pages gently, never write in them, return them on time, keep them clean (any two).",
+   "working": "One mark for each rule."
+  },
+  {
+   "topic": "4.2",
+   "q": "Explain what the proverb Many hands make light work means.",
+   "marks": 2,
+   "answer": "When people share a task, the work becomes easier and faster.",
+   "working": "One mark for sharing work and one for easier work."
+  },
+  {
+   "topic": "4.2",
+   "q": "State three benefits of reading widely.",
+   "marks": 3,
+   "answer": "It builds vocabulary, improves spelling, gives new ideas, makes you a better writer and speaker, gives enjoyment.",
+   "working": "One mark for each benefit."
+  },
+  {
+   "topic": "4.2",
+   "q": "List three steps for explaining a proverb.",
+   "marks": 3,
+   "answer": "Say it slowly, picture what it shows, decide the lesson, think of a real situation, explain in your own words.",
+   "working": "One mark for each step."
+  },
+  {
+   "topic": "4.2",
+   "q": "Describe how a class can start a reading club.",
+   "marks": 4,
+   "answer": "Collect books, choose a name and a librarian, agree on rules for borrowing, meet regularly to read and share books, and record who borrowed each book.",
+   "working": "One mark for each of four correct points."
+  },
+  {
+   "topic": "4.2",
+   "q": "Choose one proverb and explain its meaning. Then describe a real situation at school where it would apply.",
+   "marks": 5,
+   "answer": "Any correct proverb with a sensible meaning and a matching situation, for example A stitch in time saves nine means fix small problems early, such as mending a small tear in a uniform before it grows.",
+   "working": "One mark for the proverb, two marks for the meaning and two marks for a clear situation."
+  },
+  {
+   "topic": "4.3",
+   "q": "What is an imaginative composition?",
+   "marks": 2,
+   "answer": "A story that comes from the writer's imagination and is not a true report.",
+   "working": "One mark for story and one for imagination."
+  },
+  {
+   "topic": "4.3",
+   "q": "Explain what the proverb Honesty is the best policy means.",
+   "marks": 2,
+   "answer": "Telling the truth is always the wisest choice because it builds trust.",
+   "working": "One mark for the meaning and one for the reason."
+  },
+  {
+   "topic": "4.3",
+   "q": "Name three headings in a story plan.",
+   "marks": 3,
+   "answer": "Title, characters, setting, problem, events, ending (any three).",
+   "working": "One mark for each heading."
+  },
+  {
+   "topic": "4.3",
+   "q": "Give three good manners to show when collecting proverbs from an elder.",
+   "marks": 3,
+   "answer": "Greet politely, listen without interrupting, ask permission to write, say thank you.",
+   "working": "One mark for each."
+  },
+  {
+   "topic": "4.3",
+   "q": "Plan a story that uses the proverb Many hands make light work. Give the title, characters, problem and ending.",
+   "marks": 4,
+   "answer": "Any suitable plan, for example Title: The Clean Compound. Characters: pupils. Problem: a dirty compound. Ending: everyone helps and it is clean quickly.",
+   "working": "One mark for each part."
+  },
+  {
+   "topic": "4.3",
+   "q": "Write a short story of five sentences that ends with the proverb A stitch in time saves nine.",
+   "marks": 5,
+   "answer": "Any five clear sentences with a beginning, problem, ending and the proverb used correctly.",
+   "working": "One mark for each sentence up to four and one mark for using the proverb correctly."
+  },
+  {
+   "topic": "5.1",
+   "q": "What is a conjunction? Give one example.",
+   "marks": 2,
+   "answer": "A conjunction is a joining word, such as and, but or when.",
+   "working": "One mark for the meaning and one for an example."
+  },
+  {
+   "topic": "5.1",
+   "q": "Join the sentences with when: I counted my money. The bell rang.",
+   "marks": 2,
+   "answer": "When I counted my money, the bell rang.",
+   "working": "One mark for using when and one mark for the comma."
+  },
+  {
+   "topic": "5.1",
+   "q": "Name three questions to ask yourself before telling a personal experience.",
+   "marks": 3,
+   "answer": "Who was there, what happened, where, when, why, how did I feel.",
+   "working": "One mark for each question."
+  },
+  {
+   "topic": "5.1",
+   "q": "Give three tips for telling a story well.",
+   "marks": 3,
+   "answer": "Start with a clear opening, tell events in order, speak clearly, look at the audience, end with what you learned.",
+   "working": "One mark for each tip."
+  },
+  {
+   "topic": "5.1",
+   "q": "Explain how the language train game is played.",
+   "marks": 4,
+   "answer": "A pupil starts with a sentence. Each next pupil continues the story with a sentence beginning with when until the story ends.",
+   "working": "One mark for each of four points."
+  },
+  {
+   "topic": "5.1",
+   "q": "Write a paragraph of four sentences about a time you handled money. Use when at least twice.",
+   "marks": 5,
+   "answer": "Any four clear sentences with two uses of when, for example When I reached the shop, I counted my money. When I paid, I received change. I was happy.",
+   "working": "One mark for each clear sentence and one mark for correct use of when."
+  },
+  {
+   "topic": "5.2",
+   "q": "Explain the difference between skimming and scanning.",
+   "marks": 2,
+   "answer": "Skimming is quick reading for the main idea and scanning is quick searching for a specific fact.",
+   "working": "One mark for each definition."
+  },
+  {
+   "topic": "5.2",
+   "q": "Mama Neema buys a box of bananas for 200 shillings and sells it for 260 shillings. Find her profit.",
+   "marks": 2,
+   "answer": "260 minus 200 equals 60 shillings.",
+   "working": "One mark for the working and one mark for the answer with units."
+  },
+  {
+   "topic": "5.2",
+   "q": "List three steps for skimming.",
+   "marks": 3,
+   "answer": "Read the title, read headings, read the first sentence of each paragraph, glance over the rest, say the main idea.",
+   "working": "One mark for each."
+  },
+  {
+   "topic": "5.2",
+   "q": "Give three money words and their meanings.",
+   "marks": 3,
+   "answer": "Trade: buying and selling. Profit: money gained. Customer: person who buys. Price: cost of something.",
+   "working": "One mark for each word with its meaning."
+  },
+  {
+   "topic": "5.2",
+   "q": "Describe how you would scan a passage to find how much a box of mangoes costs.",
+   "marks": 4,
+   "answer": "Know that you are looking for the price, run your eyes over the text looking for numbers, stop at the number, read the sentence around it and check that it answers the question.",
+   "working": "One mark for each of four steps."
+  },
+  {
+   "topic": "5.2",
+   "q": "Explain when you would skim and when you would scan. Give one example of each.",
+   "marks": 5,
+   "answer": "Skim when you want the main idea, for example looking through an article. Scan when you want one fact, for example looking for a name on a list.",
+   "working": "Two marks for the two situations and two marks for examples and one mark for correct meaning."
+  },
+  {
+   "topic": "5.3",
+   "q": "Divide into subject and predicate: My brother saves coins.",
+   "marks": 2,
+   "answer": "Subject: My brother. Predicate: saves coins.",
+   "working": "One mark for each part."
+  },
+  {
+   "topic": "5.3",
+   "q": "Give two conjunctions used to join sentences.",
+   "marks": 2,
+   "answer": "and, but, or, so (any two).",
+   "working": "One mark each."
+  },
+  {
+   "topic": "5.3",
+   "q": "Join with but: The trader was tired. He kept working.",
+   "marks": 3,
+   "answer": "The trader was tired, but he kept working.",
+   "working": "One mark for but, one for the comma, one for correct order."
+  },
+  {
+   "topic": "5.3",
+   "q": "Put in order: shillings the pays customer fifty",
+   "marks": 3,
+   "answer": "The customer pays fifty shillings.",
+   "working": "One mark for the words in order, one for the capital and one for the full stop."
+  },
+  {
+   "topic": "5.3",
+   "q": "Write two compound sentences about shopping using so and but.",
+   "marks": 4,
+   "answer": "I had money, so I bought bread. I wanted a toy, but it was too costly.",
+   "working": "One mark for each correct sentence and one for each correct comma."
   }
  ]
 }
