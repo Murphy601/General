@@ -1,0 +1,682 @@
+{
+ "mcq": [
+  {
+   "topic": "13.1",
+   "q": "Which word has a silent k?",
+   "options": [
+    "kind",
+    "key",
+    "king",
+    "knee"
+   ],
+   "answer": 3,
+   "explanation": "In 'knee' the k is not pronounced."
+  },
+  {
+   "topic": "13.1",
+   "q": "In which word is the letter b silent?",
+   "options": [
+    "debt",
+    "baby",
+    "bag",
+    "bus"
+   ],
+   "answer": 0,
+   "explanation": "'Debt' is said 'det'."
+  },
+  {
+   "topic": "13.1",
+   "q": "Which word has a silent h?",
+   "options": [
+    "hand",
+    "house",
+    "honest",
+    "help"
+   ],
+   "answer": 2,
+   "explanation": "'Honest' is said 'onest'."
+  },
+  {
+   "topic": "13.1",
+   "q": "Which word has a silent w?",
+   "options": [
+    "water",
+    "window",
+    "write",
+    "week"
+   ],
+   "answer": 2,
+   "explanation": "In 'write' the w is silent."
+  },
+  {
+   "topic": "13.1",
+   "q": "Which word has a silent t?",
+   "options": [
+    "listen",
+    "table",
+    "ten",
+    "tent"
+   ],
+   "answer": 0,
+   "explanation": "'Listen' is said 'lisen'."
+  },
+  {
+   "topic": "13.1",
+   "q": "What sounds does the letter x usually make in 'box'?",
+   "options": [
+    "/gz/",
+    "/z/",
+    "/f/",
+    "/ks/"
+   ],
+   "answer": 3,
+   "explanation": "In 'box', x says k and s together."
+  },
+  {
+   "topic": "13.1",
+   "q": "Which word ends with the sound /ŋ/?",
+   "options": [
+    "sin",
+    "sing",
+    "sun",
+    "sum"
+   ],
+   "answer": 1,
+   "explanation": "'Sing' ends with /ŋ/."
+  },
+  {
+   "topic": "13.1",
+   "q": "Which sentence uses the pattern 'very ... but ...' correctly?",
+   "options": [
+    "The shirt very nice but expensive.",
+    "The shirt is very nice, but it is too expensive.",
+    "Very shirt is nice, but.",
+    "The shirt is but very nice, it is expensive."
+   ],
+   "answer": 1,
+   "explanation": "It has 'very' + adjective, then 'but' with the difficulty."
+  },
+  {
+   "topic": "13.1",
+   "q": "What does 'profit' mean?",
+   "options": [
+    "Money lost in a sale",
+    "A tax",
+    "A gift",
+    "Money gained when you sell for more than you paid"
+   ],
+   "answer": 3,
+   "explanation": "Profit is the gain from selling."
+  },
+  {
+   "topic": "13.1",
+   "q": "What is tax?",
+   "options": [
+    "Money that people pay to the government",
+    "Money given as a prize",
+    "A kind of market",
+    "A bank loan"
+   ],
+   "answer": 0,
+   "explanation": "Tax pays for services such as roads and schools."
+  },
+  {
+   "topic": "13.1",
+   "q": "What is a fine?",
+   "options": [
+    "A gift of money",
+    "A kind of salary",
+    "Money paid as a punishment for breaking a rule",
+    "A payment for a service"
+   ],
+   "answer": 2,
+   "explanation": "Fines punish law breaking."
+  },
+  {
+   "topic": "13.1",
+   "q": "What is a salary?",
+   "options": [
+    "Money lost",
+    "Money borrowed from a bank",
+    "Money paid to a worker regularly",
+    "A school fee"
+   ],
+   "answer": 2,
+   "explanation": "A salary is a regular payment for work."
+  },
+  {
+   "topic": "13.1",
+   "q": "In the telephone game, why is careful listening important?",
+   "options": [
+    "The message can change as it is passed on",
+    "The game is silent",
+    "The first player wins by shouting",
+    "There is nothing to hear"
+   ],
+   "answer": 0,
+   "explanation": "The last player may hear a different message."
+  },
+  {
+   "topic": "13.2",
+   "q": "What is a headline?",
+   "options": [
+    "The writer's name",
+    "An advert",
+    "A photograph",
+    "A short bold title that tells what a news story is about"
+   ],
+   "answer": 3,
+   "explanation": "The headline gives the subject of a story."
+  },
+  {
+   "topic": "13.2",
+   "q": "What is a caption?",
+   "options": [
+    "The name of the newspaper",
+    "A short line that explains a picture",
+    "A kind of advert",
+    "The last paragraph"
+   ],
+   "answer": 1,
+   "explanation": "A caption describes a picture."
+  },
+  {
+   "topic": "13.2",
+   "q": "Which page of a magazine lists the articles and their page numbers?",
+   "options": [
+    "The cover",
+    "The contents page",
+    "The advert page",
+    "The comic page"
+   ],
+   "answer": 1,
+   "explanation": "The contents page shows where to find each article."
+  },
+  {
+   "topic": "13.2",
+   "q": "What does 'scanning' mean?",
+   "options": [
+    "Reading every word slowly",
+    "Copying the text",
+    "Drawing a picture",
+    "Looking quickly for one detail such as a name or number"
+   ],
+   "answer": 3,
+   "explanation": "Scanning searches for specific information."
+  },
+  {
+   "topic": "13.2",
+   "q": "What does 'skimming' mean?",
+   "options": [
+    "Reading quickly to get the main idea",
+    "Looking for one number",
+    "Copying a passage",
+    "Reading backwards"
+   ],
+   "answer": 0,
+   "explanation": "Skimming gives the gist."
+  },
+  {
+   "topic": "13.2",
+   "q": "What is a byline?",
+   "options": [
+    "The price of the paper",
+    "A picture",
+    "The name of the writer of an article",
+    "An advert"
+   ],
+   "answer": 2,
+   "explanation": "A byline says who wrote the article."
+  },
+  {
+   "topic": "13.2",
+   "q": "Which is a fact, not an opinion?",
+   "options": [
+    "Saving is a good idea.",
+    "The club is the best.",
+    "The club meets on Fridays.",
+    "Everyone should join."
+   ],
+   "answer": 2,
+   "explanation": "A fact can be checked."
+  },
+  {
+   "topic": "13.2",
+   "q": "How do newspapers and magazines usually differ?",
+   "options": [
+    "Newspapers give news often; magazines give features less often with more pictures",
+    "Newspapers have no words",
+    "Magazines have no pictures",
+    "They are the same"
+   ],
+   "answer": 0,
+   "explanation": "Newspapers are published often and carry news."
+  },
+  {
+   "topic": "13.2",
+   "q": "What is an advertisement?",
+   "options": [
+    "A news story",
+    "A weather report",
+    "A letter to the editor",
+    "A notice that tries to sell something"
+   ],
+   "answer": 3,
+   "explanation": "Adverts try to sell."
+  },
+  {
+   "topic": "13.2",
+   "q": "What should you do if a website you find online worries you?",
+   "options": [
+    "Share it with everyone",
+    "Close it and tell a trusted adult",
+    "Give your address",
+    "Ignore the adult"
+   ],
+   "answer": 1,
+   "explanation": "Staying safe means asking for help."
+  },
+  {
+   "topic": "13.2",
+   "q": "Why is it good to read a newspaper regularly?",
+   "options": [
+    "It replaces school",
+    "You learn what is happening and new words",
+    "It cannot teach anything",
+    "It gives you money"
+   ],
+   "answer": 1,
+   "explanation": "Regular reading builds knowledge and vocabulary."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which word is a preposition of position?",
+   "options": [
+    "run",
+    "quickly",
+    "happy",
+    "under"
+   ],
+   "answer": 3,
+   "explanation": "'Under' shows where something is."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which preposition completes: 'The bank is ____ the school and the post office.'?",
+   "options": [
+    "between",
+    "among",
+    "into",
+    "through"
+   ],
+   "answer": 0,
+   "explanation": "'Between' is used for two things."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which preposition shows movement to the inside?",
+   "options": [
+    "on",
+    "beside",
+    "into",
+    "behind"
+   ],
+   "answer": 2,
+   "explanation": "'Into' shows movement from outside to inside."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which sentence is correct?",
+   "options": [
+    "He is in the bus.",
+    "He is at the bus inside.",
+    "He is on the bus.",
+    "He is by the bus in."
+   ],
+   "answer": 2,
+   "explanation": "We say 'on the bus'."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which preposition shows movement from one side to the other inside something, such as a gate?",
+   "options": [
+    "through",
+    "over",
+    "near",
+    "under"
+   ],
+   "answer": 0,
+   "explanation": "'Through' shows movement within."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which sentence has a preposition of direction?",
+   "options": [
+    "The book is on the desk.",
+    "The bank is near the school.",
+    "The cat is under the chair.",
+    "The children walked along the road."
+   ],
+   "answer": 3,
+   "explanation": "'Along' shows movement."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which preposition completes: 'She put the coins ____ the tin.'?",
+   "options": [
+    "between",
+    "into",
+    "beside",
+    "opposite"
+   ],
+   "answer": 1,
+   "explanation": "She moved the coins to the inside."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which preposition completes: 'The clock is ____ the door.' (higher than, not touching)?",
+   "options": [
+    "below",
+    "above",
+    "under",
+    "behind"
+   ],
+   "answer": 1,
+   "explanation": "'Above' means higher than."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which preposition means 'facing'?",
+   "options": [
+    "between",
+    "behind",
+    "among",
+    "opposite"
+   ],
+   "answer": 3,
+   "explanation": "'The post office is opposite the bank.'"
+  },
+  {
+   "topic": "13.3",
+   "q": "Which preposition completes: 'I am afraid ____ thieves.'?",
+   "options": [
+    "of",
+    "at",
+    "in",
+    "to"
+   ],
+   "answer": 0,
+   "explanation": "We say 'afraid of'."
+  },
+  {
+   "topic": "13.3",
+   "q": "Which preposition completes: 'He borrowed money ____ his uncle.'?",
+   "options": [
+    "at",
+    "by",
+    "from",
+    "of"
+   ],
+   "answer": 2,
+   "explanation": "We borrow from someone."
+  },
+  {
+   "topic": "13.3",
+   "q": "What comes after a preposition in a sentence?",
+   "options": [
+    "A full stop",
+    "A question mark",
+    "A noun or pronoun",
+    "Another preposition"
+   ],
+   "answer": 2,
+   "explanation": "For example: 'on the table'."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which word has a double consonant?",
+   "options": [
+    "letter",
+    "later",
+    "paper",
+    "river"
+   ],
+   "answer": 0,
+   "explanation": "'Letter' has a double t."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which spelling is correct?",
+   "options": [
+    "hapy",
+    "happpy",
+    "hapie",
+    "happy"
+   ],
+   "answer": 3,
+   "explanation": "Happy has a double p."
+  },
+  {
+   "topic": "13.4",
+   "q": "What is the -ing form of 'stop'?",
+   "options": [
+    "stoping",
+    "stopping",
+    "stopeing",
+    "stoppping"
+   ],
+   "answer": 1,
+   "explanation": "Double the last consonant of a short verb ending in one vowel and one consonant."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which word is spelt correctly?",
+   "options": [
+    "adress",
+    "address",
+    "addres",
+    "adres"
+   ],
+   "answer": 1,
+   "explanation": "Address has a double d and a double s."
+  },
+  {
+   "topic": "13.4",
+   "q": "What is the -ing form of 'run'?",
+   "options": [
+    "runing",
+    "runeing",
+    "runnning",
+    "running"
+   ],
+   "answer": 3,
+   "explanation": "Double the n."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which word means 'jumping on one leg'?",
+   "options": [
+    "hopping",
+    "hoping",
+    "hopeing",
+    "hopping and hoping"
+   ],
+   "answer": 0,
+   "explanation": "Hopping has a double p; hoping means wishing."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which word is spelt correctly?",
+   "options": [
+    "diner",
+    "dinnar",
+    "dinner",
+    "dinnner"
+   ],
+   "answer": 2,
+   "explanation": "Dinner has a double n."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which word is spelt correctly?",
+   "options": [
+    "yelow",
+    "yeloww",
+    "yellow",
+    "yelllow"
+   ],
+   "answer": 2,
+   "explanation": "Yellow has a double l."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which word ends with a double consonant?",
+   "options": [
+    "class",
+    "clas",
+    "cla",
+    "clasp"
+   ],
+   "answer": 0,
+   "explanation": "Class ends in ss."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which is the correct -ing form of 'sit'?",
+   "options": [
+    "siting",
+    "siteing",
+    "sittting",
+    "sitting"
+   ],
+   "answer": 3,
+   "explanation": "Sit doubles the t."
+  },
+  {
+   "topic": "13.4",
+   "q": "Which word is spelt correctly?",
+   "options": [
+    "acountant",
+    "accountant",
+    "accountent",
+    "acounttant"
+   ],
+   "answer": 1,
+   "explanation": "Accountant has a double c."
+  }
+ ],
+ "short": [
+  {
+   "topic": "13.1",
+   "q": "Cross out the silent letter in each word: write, lamb, honest, listen.",
+   "marks": 2,
+   "answer": "write (w), lamb (b), honest (h), listen (t)",
+   "working": "Half a mark for each."
+  },
+  {
+   "topic": "13.1",
+   "q": "Make two sentences with 'very ... but ...' about shopping.",
+   "marks": 2,
+   "answer": "For example: The mango is very sweet, but it is small. The bag is very nice, but it is expensive.",
+   "working": "1 mark for each correct sentence."
+  },
+  {
+   "topic": "13.1",
+   "q": "Explain the meaning of 'tax' and 'fine'.",
+   "marks": 3,
+   "answer": "Tax is money paid to the government to help run the country. A fine is money paid as a punishment for breaking a rule or law.",
+   "working": "1 mark for each meaning and 1 for showing a difference."
+  },
+  {
+   "topic": "13.1",
+   "q": "Give three words with silent letters and name the silent letter in each.",
+   "marks": 3,
+   "answer": "For example: knee (k), debt (b), honest (h).",
+   "working": "1 mark for each word with its silent letter."
+  },
+  {
+   "topic": "13.2",
+   "q": "Name three parts of a newspaper.",
+   "marks": 3,
+   "answer": "Masthead (name), headline, byline, article, picture, caption, advert, weather report (any three).",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "13.2",
+   "q": "Explain the difference between a fact and an opinion, with an example of each.",
+   "marks": 3,
+   "answer": "A fact can be checked, such as 'The club meets on Fridays.' An opinion is what someone thinks, such as 'Saving is a good idea.'",
+   "working": "1 mark for each meaning and 1 for examples."
+  },
+  {
+   "topic": "13.2",
+   "q": "Write a short headline and two sentences for a news story about your school.",
+   "marks": 3,
+   "answer": "For example: Headline: Pupils Win Football Match. The school team won 2 to 1 on Friday. The pupils were happy.",
+   "working": "1 mark for a headline and 1 for each sentence."
+  },
+  {
+   "topic": "13.2",
+   "q": "Explain the difference between skimming and scanning.",
+   "marks": 2,
+   "answer": "Skimming is reading quickly to get the main idea; scanning is looking quickly for one detail such as a name or number.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "13.3",
+   "q": "Underline the prepositions: 'The children ran along the road, past the bank and into the market.'",
+   "marks": 3,
+   "answer": "along, past, into",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "13.3",
+   "q": "Write four sentences using in, on, under and between.",
+   "marks": 4,
+   "answer": "For example: The coins are in the box. The book is on the table. The cat is under the chair. The shop is between the bank and the school.",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "13.3",
+   "q": "Explain the difference between 'in' and 'into'. Give one sentence for each.",
+   "marks": 3,
+   "answer": "'In' shows where something is: The coins are in the box. 'Into' shows movement to the inside: She put the coins into the box.",
+   "working": "1 mark for each meaning and 1 for examples."
+  },
+  {
+   "topic": "13.3",
+   "q": "Give directions from your classroom to the school gate using at least three prepositions.",
+   "marks": 3,
+   "answer": "For example: Go out of the classroom, walk along the corridor and go past the office to the gate.",
+   "working": "1 mark for each correct preposition."
+  },
+  {
+   "topic": "13.4",
+   "q": "Fill in the double letters: di__er, ye__ow, bu__on.",
+   "marks": 3,
+   "answer": "dinner, yellow, button",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "13.4",
+   "q": "Write the -ing form of: run, sit, swim.",
+   "marks": 3,
+   "answer": "running, sitting, swimming",
+   "working": "1 mark for each."
+  },
+  {
+   "topic": "13.4",
+   "q": "Explain the difference in meaning between 'hopping' and 'hoping'. Use each in a sentence.",
+   "marks": 3,
+   "answer": "'Hopping' means jumping, for example 'The rabbit is hopping.' 'Hoping' means wishing, for example 'I am hoping to win.'",
+   "working": "1 mark for each meaning and 1 for both sentences."
+  },
+  {
+   "topic": "13.4",
+   "q": "Write four sentences using words with double consonants that you have learnt.",
+   "marks": 4,
+   "answer": "Any four correct sentences with correctly spelt double consonant words.",
+   "working": "1 mark for each."
+  }
+ ]
+}

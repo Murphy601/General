@@ -122,7 +122,7 @@
   },
   {
    "topic": "6.1",
-   "q": "Which word has the long sound /uː/?",
+   "q": "Intonation: Which word has the long sound /uː/?",
    "options": [
     "put",
     "computer",
@@ -254,7 +254,7 @@
   },
   {
    "topic": "6.2",
-   "q": "Which question is factual?",
+   "q": "Dialogues: Which question is factual?",
    "options": [
     "Who wanted to talk to Grandmother?",
     "Why do you think Baraka was excited?",
@@ -266,7 +266,7 @@
   },
   {
    "topic": "6.2",
-   "q": "Which question is inferential?",
+   "q": "Dialogues: Which question is inferential?",
    "options": [
     "Which button did they click?",
     "How do you think Baraka felt at the end?",
@@ -338,7 +338,7 @@
   },
   {
    "topic": "6.3",
-   "q": "Choose the correct sentence.",
+   "q": "Quantifiers: Choose the correct sentence.",
    "options": [
     "How many water do you drink?",
     "How much waters do you drink?",
@@ -374,7 +374,7 @@
   },
   {
    "topic": "6.3",
-   "q": "Which sentence is correct?",
+   "q": "Quantifiers: Which sentence is correct?",
    "options": [
     "I do not have some money.",
     "I do not have many money.",
@@ -398,7 +398,7 @@
   },
   {
    "topic": "6.3",
-   "q": "Which is correct?",
+   "q": "Quantifiers: Which is correct?",
    "options": [
     "How many books are there?",
     "How much books are there?",
@@ -542,7 +542,7 @@
   },
   {
    "topic": "6.4",
-   "q": "Which sentence describes a feeling?",
+   "q": "Pictures and stories: Which sentence describes a feeling?",
    "options": [
     "She was very happy to hear from him.",
     "The message travelled.",

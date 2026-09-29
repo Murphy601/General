@@ -2,7 +2,7 @@
  "mcq": [
   {
    "topic": "2.1",
-   "q": "Which word has the sound /ɔɪ/?",
+   "q": "Target sounds: Which word has the sound /ɔɪ/?",
    "options": [
     "bird",
     "enjoy",
@@ -14,7 +14,7 @@
   },
   {
    "topic": "2.1",
-   "q": "Which word has the sound /ɜː/?",
+   "q": "Target sounds: Which word has the sound /ɜː/?",
    "options": [
     "toy",
     "five",
@@ -38,7 +38,7 @@
   },
   {
    "topic": "2.1",
-   "q": "Which word has the sound /aɪ/?",
+   "q": "Target sounds: Which word has the sound /aɪ/?",
    "options": [
     "invite",
     "noise",
@@ -170,7 +170,7 @@
   },
   {
    "topic": "2.2",
-   "q": "Which sentence has a simile?",
+   "q": "Poems and similes: Which sentence has a simile?",
    "options": [
     "The runner won the race.",
     "The runner was tired.",
@@ -278,7 +278,7 @@
   },
   {
    "topic": "2.2",
-   "q": "Which is a simile?",
+   "q": "Poems and similes: Which is a simile?",
    "options": [
     "She sang like a bird.",
     "She sang.",
@@ -410,7 +410,7 @@
   },
   {
    "topic": "2.3",
-   "q": "Choose the correct sentence.",
+   "q": "Plural nouns: Choose the correct sentence.",
    "options": [
     "The woman are selling tomatoes.",
     "The women is selling tomatoes.",
