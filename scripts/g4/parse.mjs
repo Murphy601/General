@@ -20,6 +20,8 @@ export const SUBJECTS = {
   'social-studies': 'SOCIAL STUDIES',
 };
 
+export const PAGE_KINDS = ['hook', 'concept', 'example', 'practice', 'activity', 'story', 'real-life', 'mistakes', 'vocabulary', 'fact', 'project', 'review', 'summary'];
+
 export function parseLesson(text, file = '') {
   const errors = [];
   const fm = text.match(/^---\n([\s\S]*?)\n---\n/);
@@ -38,7 +40,12 @@ export function parseLesson(text, file = '') {
     const head = part.slice(0, nl).trim();
     const content = part.slice(nl + 1).trim();
     const pm = head.match(/^PAGE\s+(\d+)\s*:\s*(.+)$/i);
-    if (pm) pages.push({ pageNumber: Number(pm[1]), title: pm[2].trim(), raw: content, figures: [] });
+    if (pm) {
+      let title = pm[2].trim(), kind = '';
+      const km = title.match(/^(.*\S)\s+\|\s*([a-z-]+)$/);
+      if (km) { title = km[1]; kind = km[2]; }
+      pages.push({ pageNumber: Number(pm[1]), title, kind, raw: content, figures: [] });
+    }
     else if (/^QUIZ$/i.test(head)) quiz = parseQuiz(content, errors, file);
     else errors.push(`${file}: unknown section "## ${head}"`);
   }

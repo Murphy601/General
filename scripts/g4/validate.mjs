@@ -2,7 +2,7 @@
 // Usage: node scripts/g4/validate.mjs <subject-slug>   (or --all)
 import { join } from 'node:path';
 import { existsSync, readFileSync } from 'node:fs';
-import { SUBJECTS, loadLessons, loadBank } from './parse.mjs';
+import { SUBJECTS, PAGE_KINDS, loadLessons, loadBank } from './parse.mjs';
 
 const ROOT = join(import.meta.dirname, '..', '..', 'content-authoring', 'grade-4');
 const BANNED = [
@@ -13,7 +13,9 @@ const BANNED = [
   /in your own words and give one (clear )?example from/i, /one Kenyan example linked to/i,
 ];
 const MIN_WORDS_PER_PAGE = 120;
-const MIN_PAGES = 5;
+const MIN_PAGES = 12;
+const MAX_PAGES = 20;
+const REQUIRED_KINDS = ['practice', 'mistakes', 'real-life', 'summary'];
 
 function words(s) { return (s.match(/\S+/g) || []).length; }
 
@@ -34,6 +36,14 @@ function validateSubject(slug) {
     if (seen.has(key)) problems.push(`${f}: duplicate topic ${key}`);
     seen.add(key);
     if (L.pages.length < MIN_PAGES) problems.push(`${f}: only ${L.pages.length} pages (min ${MIN_PAGES})`);
+    if (L.pages.length > MAX_PAGES) problems.push(`${f}: ${L.pages.length} pages (max ${MAX_PAGES})`);
+    const kinds = new Set(L.pages.map((p) => p.kind));
+    for (const p of L.pages) if (!PAGE_KINDS.includes(p.kind)) problems.push(`${f}: page ${p.pageNumber} needs a kind after the title, e.g. "## PAGE 3: Title | example" (one of ${PAGE_KINDS.join(', ')})`);
+    for (const k of REQUIRED_KINDS) if (!kinds.has(k)) problems.push(`${f}: lesson needs a page of kind "${k}"`);
+    if (!kinds.has('activity') && !kinds.has('project')) problems.push(`${f}: lesson needs a page of kind "activity" or "project"`);
+    if (kinds.size < 7) problems.push(`${f}: only ${kinds.size} different page kinds (min 7) - make the pages diverse`);
+    const titles = L.pages.map((p) => p.title.toLowerCase());
+    if (new Set(titles).size !== titles.length) problems.push(`${f}: duplicate page titles`);
     L.pages.forEach((p, i) => {
       if (p.pageNumber !== i + 1) problems.push(`${f}: page numbering must be 1..n (got ${p.pageNumber} at position ${i + 1})`);
       const w = words(p.text.replace(/<svg[\s\S]*?<\/svg>/g, ''));
@@ -53,7 +63,7 @@ function validateSubject(slug) {
       }
       for (const re of BANNED) if (re.test(p.raw.replace(/<svg[\s\S]*?<\/svg>/g, ""))) problems.push(`${f}: page ${p.pageNumber} matches banned pattern ${re}`);
     });
-    if (L.quiz.length < 8) problems.push(`${f}: quiz has ${L.quiz.length} items (min 8)`);
+    if (L.quiz.length < 10) problems.push(`${f}: quiz has ${L.quiz.length} items (min 10)`);
     L.quiz.forEach((q) => {
       const tag = `${f}: quiz Q${q.n}`;
       if (!q.answer.trim()) problems.push(`${tag}: missing Answer`);
@@ -66,7 +76,19 @@ function validateSubject(slug) {
       for (const re of BANNED) if (re.test(q.q + q.answer + q.why + q.options.join(' '))) problems.push(`${tag}: banned pattern ${re}`);
     });
     const mcq = L.quiz.filter((q) => q.options.length).length;
-    if (mcq < 4 || L.quiz.length - mcq < 3) problems.push(`${f}: quiz needs >=4 MCQ and >=3 written items`);
+    if (mcq < 5 || L.quiz.length - mcq < 3) problems.push(`${f}: quiz needs >=5 MCQ and >=3 written items`);
+  }
+  const paraSeen = new Map();
+  for (const L of lessons) {
+    if (!L.pages) continue;
+    for (const pg of L.pages) {
+      for (const para of pg.text.replace(/\[DIAGRAM\][\s\S]*?\[\/DIAGRAM\]/g, '').split(/\n\s*\n/)) {
+        const n = para.split(/\s+/).join(' ').toLowerCase();
+        if (n.length < 80 || /^(#|\d+\.|[a-d]\))/.test(n)) continue;
+        if (paraSeen.has(n) && paraSeen.get(n) !== L.file) problems.push(`${slug}/${L.file}: paragraph copied from ${paraSeen.get(n)}: "${n.slice(0, 60)}…"`);
+        else paraSeen.set(n, L.file);
+      }
+    }
   }
   const retired = new Set(existsSync(join(dir, 'retire.json')) ? JSON.parse(readFileSync(join(dir, 'retire.json'), 'utf8')) : []);
   const haveNums = new Set(lessons.filter((l) => l.meta).map((l) => l.meta.topicNumber));
